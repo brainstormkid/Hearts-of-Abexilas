@@ -1,0 +1,10 @@
+state={
+	id=391
+	name="STATE_391"
+	provinces={
+		189 371 3394 3814 3985 4499 5152 5531 6145 6519 10211 10252 10256 10261 10301 10304 10310 10311 10333 10380 10393 10408 10415 10523 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}

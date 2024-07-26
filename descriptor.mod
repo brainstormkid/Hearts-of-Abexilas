@@ -1,0 +1,15 @@
+version="abexilas"
+tags={
+	"Alternative History"
+	"Events"
+	"Gameplay"
+	"Map"
+	"National Focuses"
+	"Sound"
+}
+name="abexilas"
+replace_path="history/states"
+replace_path="history/countries"
+replace_path="map/supplyareas"
+replace_path="map/strategicregions"
+supported_version="1.14.7"
