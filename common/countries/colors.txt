@@ -39,3 +39,7 @@ CES = {
 	color = rgb { 253  207  70 }
 	color_ui = rgb { 253  207  70 }
 }
+TAN = {
+	color = rgb { 135  4  170 }
+	color_ui = rgb { 135  4  170 }
+}

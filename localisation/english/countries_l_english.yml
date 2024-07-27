@@ -116,3 +116,16 @@
  CES_communism_DEF:1 "the Peoples Republic of Cesa Rindaun"
  CES_communism_ADJ:0 "Rindaunga"
  
+ TAN_neutrality:1 "Tandong Dynasty"
+ TAN_neutrality_DEF:1 "the Tandong Dynasty"
+ TAN_neutrality_ADJ:0 "Jiaozese"
+ TAN_fascism:1 "Jiaozese Reich"
+ TAN_fascism_DEF:1 "the Jiaozese Reich"
+ TAN_fascism_ADJ:0 "Jiaozese"
+ TAN_democratic:1 "Tandong Federation"
+ TAN_democratic_DEF:1 "the Tandong Federation"
+ TAN_democratic_ADJ:0 "Jiaozese"
+ TAN_communism:1 "Peoples Republic of Tandong"
+ TAN_communism_DEF:1 "the Peoples Republic of Tandong"
+ TAN_communism_ADJ:0 "Jiaozese"
+ 
