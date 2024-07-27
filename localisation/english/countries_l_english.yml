@@ -64,3 +64,16 @@
  AKA_communism_DEF:1 "the Peoples Republic of Akari"
  AKA_communism_ADJ:0 "Akari"
  
+ SAR_neutrality:1 "Korlenten Sarinzerilin"
+ SAR_neutrality_DEF:1 "the Korlenten Sarinzerilin"
+ SAR_neutrality_ADJ:0 "Simulamii"
+ SAR_fascism:1 "Sarinzerilin Reich"
+ SAR_fascism_DEF:1 "the Sarinzerilin Reich"
+ SAR_fascism_ADJ:0 "Simulamii"
+ SAR_democratic:1 "Sarinzerilin Federation"
+ SAR_democratic_DEF:1 "the Sarinzerilin Federation"
+ SAR_democratic_ADJ:0 "Simulamii"
+ SAR_communism:1 "Peoples Republic of Sarinzerilin"
+ SAR_communism_DEF:1 "the Peoples Republic of Sarinzerilin"
+ SAR_communism_ADJ:0 "Simulamii"
+ 
