@@ -27,3 +27,15 @@ SAR = {
 	color = rgb { 36  148  151 }
 	color_ui = rgb { 36  148  151 }
 }
+DRA = {
+	color = rgb { 36  148  151 }
+	color_ui = rgb { 36  148  151 }
+}
+HEL = {
+	color = rgb { 36  148  151 }
+	color_ui = rgb { 36  148  151 }
+}
+CES = {
+	color = rgb { 253  207  70 }
+	color_ui = rgb { 253  207  70 }
+}
