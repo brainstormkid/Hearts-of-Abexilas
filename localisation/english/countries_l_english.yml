@@ -51,3 +51,16 @@
  RIT_communism_DEF:1 "the Peoples Republic of Ritte an Tola"
  RIT_communism_ADJ:0 "Tolan"
  
+ AKA_neutrality:1 "Akari Commonwealth"
+ AKA_neutrality_DEF:1 "the Akari Commonwealth"
+ AKA_neutrality_ADJ:0 "Akari"
+ AKA_fascism:1 "Akari Reich"
+ AKA_fascism_DEF:1 "the Akari Reich"
+ AKA_fascism_ADJ:0 "Akari"
+ AKA_democratic:1 "Akari Federation"
+ AKA_democratic_DEF:1 "the Akari Federation"
+ AKA_democratic_ADJ:0 "Akari"
+ AKA_communism:1 "Peoples Republic of Akari"
+ AKA_communism_DEF:1 "the Peoples Republic of Akari"
+ AKA_communism_ADJ:0 "Akari"
+ 

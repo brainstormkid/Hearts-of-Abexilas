@@ -19,3 +19,7 @@ RIT = {
 	color = rgb { 36  148  151 }
 	color_ui = rgb { 36  148  151 }
 }
+AKA = {
+	color = rgb { 201  38  106 }
+	color_ui = rgb { 201  38  106 }
+}
