@@ -1,1 +1,2 @@
 TST = "countries/Test.txt"
+CAS = "countries/Castanor.txt"

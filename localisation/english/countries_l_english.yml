@@ -1,0 +1,14 @@
+﻿l_english:
+ CAS_neutrality:1 "Castanor"
+ CAS_neutrality_DEF:1 "the Grand Regency of Castanor"
+ CAS_neutrality_ADJ:0 "Castanoran"
+ CAS_fascism:1 "Castanoran Reich"
+ CAS_fascism_DEF:1 "the Castanoran Reich"
+ CAS_fascism_ADJ:0 "Castanoran"
+ CAS_democratic:1 "Castanoran Federation"
+ CAS_democratic_DEF:1 "the Castanoran Federation"
+ CAS_democratic_ADJ:0 "Castanoran"
+ CAS_communism:1 "Peoples Republic of Castanor"
+ CAS_communism_DEF:1 "the Peoples Republic of Castanor"
+ CAS_communism_ADJ:0 "Castanoran"
+ 
