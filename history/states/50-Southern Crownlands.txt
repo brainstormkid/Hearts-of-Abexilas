@@ -1,16 +1,16 @@
 state={
-	id=206
-	name="STATE_206"
+	id=50
+	name="STATE_50"
 	provinces={
-		1994 3459 4546 9166 9200 9216 
+		1441 5125 5632 5954 7352 7447 7485 
 	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
 	history={
-		owner = ASR
+		owner = RIT
 		buildings = {
 		}
-		add_core_of = ASR
+		add_core_of = RIT
 	}
 }

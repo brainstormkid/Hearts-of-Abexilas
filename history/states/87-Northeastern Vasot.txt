@@ -1,10 +1,16 @@
 state={
-	id=111
-	name="STATE_111"
+	id=87
+	name="STATE_87"
 	provinces={
-		7850 7886 
+		7668 7680 
 	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
+	history={
+		owner = RIT
+		buildings = {
+		}
+		add_core_of = RIT
+	}
 }

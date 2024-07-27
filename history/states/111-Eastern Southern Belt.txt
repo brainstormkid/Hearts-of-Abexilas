@@ -1,10 +1,16 @@
 state={
-	id=40
-	name="STATE_40"
+	id=111
+	name="STATE_111"
 	provinces={
-		389 1071 6017 6888 7397 7435 7491 
+		7850 7886 
 	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
+	history={
+		owner = RIT
+		buildings = {
+		}
+		add_core_of = RIT
+	}
 }

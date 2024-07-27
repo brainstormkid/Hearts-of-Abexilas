@@ -6,3 +6,16 @@ CAS = {
 	color = rgb { 136  0  27 }
 	color_ui = rgb { 136  0  27 }
 }
+ASR = {
+	color = rgb { 47  48  78 }
+	color_ui = rgb { 47  48  78 }
+}
+
+IRI = {
+	color = rgb { 206  111  211 }
+	color_ui = rgb { 206  111  211 }
+}
+RIT = {
+	color = rgb { 36  148  151 }
+	color_ui = rgb { 36  148  151 }
+}

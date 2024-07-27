@@ -1,2 +1,5 @@
 TST = "countries/Test.txt"
 CAS = "countries/Castanor.txt"
+ASR = "countries/Asren.txt"
+IRI = "countries/Irithel.txt"
+RIT = "countries/Ritten an Tola.txt"
