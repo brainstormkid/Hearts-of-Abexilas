@@ -43,3 +43,7 @@ TAN = {
 	color = rgb { 135  4  170 }
 	color_ui = rgb { 135  4  170 }
 }
+LEY = {
+	color = rgb { 51  76  116 }
+	color_ui = rgb { 51  76  116 }
+}

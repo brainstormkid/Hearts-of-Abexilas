@@ -129,3 +129,16 @@
  TAN_communism_DEF:1 "the Peoples Republic of Tandong"
  TAN_communism_ADJ:0 "Jiaozese"
  
+ LEY_neutrality:1 "Duchy of Leyenbourg"
+ LEY_neutrality_DEF:1 "the Duchy of Leyenbourg"
+ LEY_neutrality_ADJ:0 "Leyenbourgeoisie"
+ LEY_fascism:1 "Leyenbourgeoisie Reich"
+ LEY_fascism_DEF:1 "the Leyenbourgeoisie Reich"
+ LEY_fascism_ADJ:0 "Leyenbourgeoisie"
+ LEY_democratic:1 "Leyenbourg Federation"
+ LEY_democratic_DEF:1 "the Leyenbourg Federation"
+ LEY_democratic_ADJ:0 "Leyenbourgeoisie"
+ LEY_communism:1 "Peoples Republic of Leyenbourg"
+ LEY_communism_DEF:1 "the Peoples Republic of Leyenbourg"
+ LEY_communism_ADJ:0 "Leyenbourgeoisie"
+ 
