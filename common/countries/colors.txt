@@ -10,7 +10,6 @@ ASR = {
 	color = rgb { 47  48  78 }
 	color_ui = rgb { 47  48  78 }
 }
-
 IRI = {
 	color = rgb { 206  111  211 }
 	color_ui = rgb { 206  111  211 }
@@ -50,3 +49,8 @@ LEY = {
 ERC = {
 	color = rgb { 206  166  93 }
 	color_ui = rgb { 206  166  93 }
+}
+LUT = {
+	color = rgb { 47  48  47 }
+	color_ui = rgb { 47  48  47 }
+}
