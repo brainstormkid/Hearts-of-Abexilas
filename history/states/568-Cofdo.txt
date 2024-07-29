@@ -1,6 +1,6 @@
 state={
 	id=568
-	name="Cofdo"
+	name="STATE_568"
 	provinces={
 		3281 4246 5639 11125 11142 11213 
 	}

@@ -1,6 +1,6 @@
 state={
 	id=599
-	name="Nova-Ryken"
+	name="STATE_599"
 	provinces={
 		966 4577 11247 
 	}

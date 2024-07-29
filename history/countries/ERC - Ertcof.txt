@@ -16,7 +16,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Klymön Valentinus"
 	desc = ""
-	picture = "gfx/leaders/ERC/klymoen.dds"
+	picture = "gfx/leaders/ERC/klymon.dds"
 	ideology = liberalism
 	traits = {
 		#

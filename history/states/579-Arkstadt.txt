@@ -1,6 +1,6 @@
 state={
 	id=579
-	name="Arkstadt"
+	name="STATE_579"
 	provinces={
 		4602 11160 11189 11203 11248 
 	}

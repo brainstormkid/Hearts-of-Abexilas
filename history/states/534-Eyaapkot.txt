@@ -1,6 +1,6 @@
 state={
 	id=534
-	name="Eyaapkot"
+	name="STATE_534"
 	provinces={
 		1832 2088 2527 3713 5243 6468 10992 11002 11112 
 	}

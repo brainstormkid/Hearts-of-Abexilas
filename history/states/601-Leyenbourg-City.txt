@@ -1,6 +1,6 @@
 state={
 	id=601
-	name="Leyenbourg-City"
+	name="STATE_601"
 	provinces={
 		1577 11249 11313 11339 11364 11396 
 	}

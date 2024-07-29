@@ -1,6 +1,6 @@
 state={
 	id=550
-	name="Coh'Arte"
+	name="STATE_550"
 	provinces={
 		889 11051 
 	}
