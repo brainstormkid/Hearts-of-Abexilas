@@ -47,3 +47,6 @@ LEY = {
 	color = rgb { 51  76  116 }
 	color_ui = rgb { 51  76  116 }
 }
+ERC = {
+	color = rgb { 206  166  93 }
+	color_ui = rgb { 206  166  93 }
