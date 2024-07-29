@@ -167,3 +167,16 @@
  LUT_communism:1 "Socialist Republic of Lutian"
  LUT_communism_DEF:1 "the Socialist Republic of Lutian"
  LUT_communism_ADJ:0 "Lutianese"
+
+ POL_neutrality:1 "Duchy of Polonizia"
+ POL_neutrality_DEF:1 "the Duchy of Polonizia"
+ POL_neutrality_ADJ:0 "Polonizi"
+ POL_fascism:1 "Totalitarne Państwo Polonizi"
+ POL_fascism_DEF:1 "the Totalitarne Państwo Polonizi
+ POL_fascism_ADJ:0 "Polonizi"
+ POL_democratic:1 "Republic of Polonizia"
+ POL_democratic_DEF:1 "the Republic of Polonizia"
+ POL_democratic_ADJ:0 "Polonizi"
+ POL_communism:1 "Socialist Republic of Polonizia"
+ POL_communism_DEF:1 "the Socialist Republic of Polonizia"
+ POL_communism_ADJ:0 "Polonizi"

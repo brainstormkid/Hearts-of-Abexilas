@@ -70,7 +70,10 @@
  STATE_599:0 "Nova-Ryken"
  STATE_601:0 "Leyenbourg-City"
  STATE_602:0 "Valguard"
+ STATE_604:0 "Luyezia-North"
  STATE_610:0 "Tilbee"
+ STATE_616:0 "Luyezia-South"
  STATE_623:0 "Shizen"
  STATE_647:0 "Bushido"
+ STATE_757:0 "Werselis"
  
