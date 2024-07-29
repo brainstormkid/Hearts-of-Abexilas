@@ -14,12 +14,15 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "?"
+	name = "Stephan Zlaktow"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/AEZ/Panda.dds"
+	picture = "gfx/leaders/LEY/stephan.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
 		#
 	}
 }
+
+set_stability = 0.2
+set_war_support = 0.1
