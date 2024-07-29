@@ -1,0 +1,17 @@
+state={
+	id=579
+	name="Arkstadt"
+	provinces={
+		4602 11160 11189 11203 11248 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = ERC
+		buildings = {
+		}
+		add_core_of = ERC
+	}
+}
+
