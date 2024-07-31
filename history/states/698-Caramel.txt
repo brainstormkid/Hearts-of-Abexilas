@@ -1,0 +1,17 @@
+state={
+	id=698
+	name="STATE_698"
+	provinces={
+		381 611 1306 1864 2739 4870 5580 5862 5906 6209 6866 12089 12113 12114 12115 12117 12126 12135 12142 12143 12149 12159 12176 12191 12198 12202 12223 12236 12256 12291 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = ARC
+		buildings = {
+		}
+		add_core_of = ARC
+	}
+}
+

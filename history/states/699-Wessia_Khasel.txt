@@ -1,0 +1,17 @@
+state={
+	id=699
+	name="STATE_699"
+	provinces={
+		186 722 1931 4618 6306 6597 6736 12056 12061 12062 12079 12183 12206 12213 12227 12244 12251 12280 12307 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = ARC
+		buildings = {
+		}
+		add_core_of = ARC
+	}
+}
+
