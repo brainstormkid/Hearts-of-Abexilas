@@ -54,3 +54,11 @@ LUT = {
 	color = rgb { 47  48  47 }
 	color_ui = rgb { 47  48  47 }
 }
+POL = {
+	color = rgb { 239  73  73 }
+	color_ui = rgb { 239  73  73 }
+}
+ARC = {
+	color = rgb { 0  128  128 }
+	color_ui = rgb { 0  128  128 }
+}
