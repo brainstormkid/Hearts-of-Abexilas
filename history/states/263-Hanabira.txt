@@ -5,7 +5,7 @@ state={
 		855 1485 1652 2726 2823 4651 5443 6342 6486 6913 9644 9651 9662 9673 9674 9676 9680 9684 9701 9702 9719 9731 9756 9762 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=4150000
         state_category = town
 	history={
 		owner = AKA

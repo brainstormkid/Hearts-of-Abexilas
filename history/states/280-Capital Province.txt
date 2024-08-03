@@ -5,7 +5,7 @@ state={
 		2942 5879 9803 9820 9851 9865 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=2100000
         state_category = town
 	history={
 		owner = AKA
