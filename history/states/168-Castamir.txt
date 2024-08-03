@@ -5,7 +5,7 @@ state={
 		61 164 1718 2217 3384 3648 4750 4897 6927 8610 8619 8658 8689 8695 8766 8806 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=2050000
         state_category = town
 	history={
 		owner = CAS
