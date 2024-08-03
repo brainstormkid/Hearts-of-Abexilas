@@ -5,7 +5,7 @@ state={
 		872 1437 6891 6986 9435 9478 9519 9538 9555 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=150000
         state_category = town
 	history={
 		owner = CES

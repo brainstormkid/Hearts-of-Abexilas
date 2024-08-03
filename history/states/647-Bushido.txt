@@ -5,7 +5,7 @@ state={
 		3757 4746 5191 6303 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=2800000
         state_category = town
 	history={
 		owner = TAN
