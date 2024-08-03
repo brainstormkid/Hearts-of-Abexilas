@@ -6,10 +6,14 @@ state={
 	}
 	buildings_max_level_factor=1.000
         manpower=350000
-        state_category = town
+        state_category = rural
 	history={
 		owner = TAN
 		buildings = {
+			infrastructure = 2
+			5873 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = TAN
 	}

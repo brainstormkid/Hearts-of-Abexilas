@@ -15,7 +15,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Gu Jin Wu"
-	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	desc = "POLITICS_GU_DESC"
 	picture = "gfx/leaders/TAN/Gu.dds"
 	expire = "1965.1.1"
 	ideology = despotism
