@@ -15,8 +15,8 @@ IRI = {
 	color_ui = rgb { 206  111  211 }
 }
 RIT = {
-	color = rgb { 36  148  151 }
-	color_ui = rgb { 36  148  151 }
+	color = rgb { 194  90  84 }
+	color_ui = rgb { 194  90  84 }
 }
 AKA = {
 	color = rgb { 201  38  106 }
@@ -27,8 +27,8 @@ SAR = {
 	color_ui = rgb { 36  148  151 }
 }
 DRA = {
-	color = rgb { 36  148  151 }
-	color_ui = rgb { 36  148  151 }
+	color = rgb { 148  210  61 }
+	color_ui = rgb { 148  210  61 }
 }
 HEL = {
 	color = rgb { 36  148  151 }
