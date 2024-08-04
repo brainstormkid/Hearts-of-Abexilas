@@ -5,7 +5,7 @@ state={
 		2106 3056 5986 6656 7511 7626 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=25000
         state_category = town
 	history={
 		owner = RIT
