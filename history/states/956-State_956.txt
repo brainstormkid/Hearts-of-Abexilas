@@ -5,7 +5,7 @@ state={
 		910 975 1102 2011 2019 3867 6051 13654 13673 13690 13726 13735 13774 13775 13806 13813 13843 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=2100000
         state_category = town
 	history={
 		owner = MYR

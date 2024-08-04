@@ -5,7 +5,7 @@ state={
 		14134 14135 14161 14177 14202 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=2400000
         state_category = town
 	history={
 		owner = MYR
