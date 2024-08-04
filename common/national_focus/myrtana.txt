@@ -35,7 +35,7 @@ focus_tree = {
 	#Restore Order in Torsheim!
 	focus = {
 		id = MYR_restoreorderintorsheim
-		icon = GFX_MYR_restoreorderintorsheim-646264
+		icon = GFX_Myrtana_Torsheim_Unrest
 		x = 10
 		y = 3
 		cost = 3
