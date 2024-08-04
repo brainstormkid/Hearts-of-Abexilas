@@ -1,0 +1,6 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_Long_day_in_Theos"
+		texturefile = "gfx/event_pictures/Long_day_in_Theos.dds"
+	}
+}

@@ -126,7 +126,7 @@ country_event = {
 	id = myrtana.5
 	title = myrtana_story_events.1.t
 	desc = myrtana_story_events.1.d
-	picture = long_day_in_theos-782
+	picture = GFX_Long_day_in_Theos
 	
 	is_triggered_only = yes
 	
