@@ -78,3 +78,7 @@ VEL = {
 	color = rgb { 143  0  0 }
 	color_ui = rgb { 143  0  0 }
 }
+ZAM = {
+	color = rgb { 115  166  102 }
+	color_ui = rgb { 115  166  102 }
+}

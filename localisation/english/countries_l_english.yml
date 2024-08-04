@@ -245,4 +245,17 @@
  VEL_communism:1 "Socialist Republic of Veliskyan"
  VEL_communism_DEF:1 "the Socialist Republic of Veliskyan"
  VEL_communism_ADJ:0 "Veliskyan"
+ 
+ ZAM_neutrality:1 "Zamotz State"
+ ZAM_neutrality_DEF:1 "the Zamotz State"
+ ZAM_neutrality_ADJ:0 "Zamotzian"
+ ZAM_fascism:1 "Zamotzian Reich"
+ ZAM_fascism_DEF:1 "the Zamotzian Reich"
+ ZAM_fascism_ADJ:0 "Zamotzian"
+ ZAM_democratic:1 "Zamotzian Federation"
+ ZAM_democratic_DEF:1 "the Zamotzian Federation"
+ ZAM_democratic_ADJ:0 "Zamotzian"
+ ZAM_communism:1 "People's Republic of Zamotz"
+ ZAM_communism_DEF:1 "the People's Republic of Zamotz"
+ ZAM_communism_ADJ:0 "Zamotzian"
 
