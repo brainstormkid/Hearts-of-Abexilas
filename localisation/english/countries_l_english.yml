@@ -232,3 +232,17 @@
  QYN_communism:1 "People's Republic of Qynthos"
  QYN_communism_DEF:1 "the People's Republic of Qynthos"
  QYN_communism_ADJ:0 "Qynthi"
+ 
+ VEL_neutrality:1 "Grand Duchy of Veliskya"
+ VEL_neutrality_DEF:1 "the Grand Duchy of Veliskya"
+ VEL_neutrality_ADJ:0 "Veliskyan"
+ VEL_fascism:1 "Veliskyan Reich"
+ VEL_fascism_DEF:1 "the Veliskyan Reich"
+ VEL_fascism_ADJ:0 "Veliskyan"
+ VEL_democratic:1 "Veliskyan Republic"
+ VEL_democratic_DEF:1 "the Veliskyan Republic"
+ VEL_democratic_ADJ:0 "Veliskyan"
+ VEL_communism:1 "Socialist Republic of Veliskyan"
+ VEL_communism_DEF:1 "the Socialist Republic of Veliskyan"
+ VEL_communism_ADJ:0 "Veliskyan"
+
