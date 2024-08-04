@@ -70,3 +70,7 @@ ISH = {
 	color = rgb { 150  0  0 }
 	color_ui = rgb { 150  0  0 }
 }
+QYN = {
+	color = rgb { 20  34  125 }
+	color_ui = rgb { 20  34  125 }
+}
