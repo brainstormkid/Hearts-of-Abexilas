@@ -271,4 +271,17 @@
  GEH_communism:1 "People's Republic of Gertek"
  GEH_communism_DEF:1 "the People's Republic of Gertek"
  GEH_communism_ADJ:0 "Gertekans"
+ 
+ PAR_neutrality:1 "Paraíso"
+ PAR_neutrality_DEF:1 "the Paraíso"
+ PAR_neutrality_ADJ:0 "Paraísan"
+ PAR_fascism:1 "Paraísan Reich"
+ PAR_fascism_DEF:1 "the Paraísan Reich"
+ PAR_fascism_ADJ:0 "Paraísan"
+ PAR_democratic:1 "Paraísan Federation"
+ PAR_democratic_DEF:1 "the Paraísan Federation"
+ PAR_democratic_ADJ:0 "Paraísan"
+ PAR_communism:1 "People's Republic of Paraíso"
+ PAR_communism_DEF:1 "the People's Republic of Paraíso"
+ PAR_communism_ADJ:0 "Paraísan"
 

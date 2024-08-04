@@ -1,16 +1,16 @@
 state={
-	id=323
-	name="STATE_323"
+	id=470
+	name="STATE_470"
 	provinces={
-		9923 9928 9931 
+		300 1570 2882 10683 
 	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
 	history={
-		owner = GEH
+		owner = PAR
 		buildings = {
 		}
-		add_core_of = GEH
+		add_core_of = PAR
 	}
 }

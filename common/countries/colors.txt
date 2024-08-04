@@ -86,3 +86,7 @@ GEH = {
 	color = rgb { 205  42  61 }
 	color_ui = rgb { 205  42  61 }
 }
+PAR = {
+	color = rgb { 228  107  28 }
+	color_ui = rgb { 228  107  28 }
+}
