@@ -66,3 +66,7 @@ MYR = {
 	color = rgb { 150  13  43 }
 	color_ui = rgb { 150  13  43 }
 }
+ISH = {
+	color = rgb { 150  0  0 }
+	color_ui = rgb { 150  0  0 }
+}
