@@ -13,6 +13,9 @@ set_popularities = {
 	neutrality = 60
 }
 
+set_stability = 90
+set_war_support = 5
+
 create_country_leader = {
 	name = "?"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
