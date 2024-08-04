@@ -82,3 +82,7 @@ ZAM = {
 	color = rgb { 115  166  102 }
 	color_ui = rgb { 115  166  102 }
 }
+GEH = {
+	color = rgb { 205  42  61 }
+	color_ui = rgb { 205  42  61 }
+}

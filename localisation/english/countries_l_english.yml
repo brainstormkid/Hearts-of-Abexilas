@@ -258,4 +258,17 @@
  ZAM_communism:1 "People's Republic of Zamotz"
  ZAM_communism_DEF:1 "the People's Republic of Zamotz"
  ZAM_communism_ADJ:0 "Zamotzian"
+ 
+ GEH_neutrality:1 "Gertek Horde"
+ GEH_neutrality_DEF:1 "the Gertek Horde"
+ GEH_neutrality_ADJ:0 "Gertekans"
+ GEH_fascism:1 "Gertekans Reich"
+ GEH_fascism_DEF:1 "the Gertekans Reich"
+ GEH_fascism_ADJ:0 "Gertekans"
+ GEH_democratic:1 "Gertekans Federation"
+ GEH_democratic_DEF:1 "the Gertekans Federation"
+ GEH_democratic_ADJ:0 "Gertekans"
+ GEH_communism:1 "People's Republic of Gertek"
+ GEH_communism_DEF:1 "the People's Republic of Gertek"
+ GEH_communism_ADJ:0 "Gertekans"
 
