@@ -1,0 +1,122 @@
+add_namespace = myrtana_pre_civil
+
+#Unrest in Torsheim!
+country_event = {
+	id = myrtana_pre_civil.1
+	title = myrtana_pre_civil.1.t
+	desc = myrtana_pre_civil.1.d
+
+	picture = unrest_in_torsheim-778
+	option = {
+		name = myrtana_pre_civil.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 30 }
+		add_political_power = 25
+add_manpower = -5000
+		hidden_effect = {
+			country_event = {
+    id = myrtana_pre_civil.2
+    days = 3
+}
+		}
+	}
+	option = {
+		name = myrtana_pre_civil.1.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 30 }
+		add_political_power = 50
+add_stability = 0.05
+		hidden_effect = {
+			country_event = myrtana_pre_civil.3
+		}
+	}
+	option = {
+		name = myrtana_pre_civil.1.c
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		country_event = myrtana_pre_civil.4
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#The Myrtanian Defense Force has landed in Torsheim!
+country_event = {
+	id = myrtana_pre_civil.2
+	title = myrtana_pre_civil.2.t
+	desc = myrtana_pre_civil.2.d
+
+	picture = the_myrtanian_defense_force_has_landed_in_torsheim-744
+	option = {
+		name = myrtana_pre_civil.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 50 }
+		add_stability = 0.1
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = myrtana_pre_civil.2.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 50 }
+		add_stability = -0.15
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Compromise with the Protestors
+country_event = {
+	id = myrtana_pre_civil.3
+	title = myrtana_pre_civil.3.t
+	desc = myrtana_pre_civil.3.d
+
+	picture = compromise_with_the_protestors-804
+	option = {
+		name = myrtana_pre_civil.3.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		add_stability = 0.2
+remove_ideas = my_idea
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Assasination Sucess!
+country_event = {
+	id = myrtana_pre_civil.4
+	title = myrtana_pre_civil.4.t
+	desc = myrtana_pre_civil.4.d
+
+	picture = assasination_sucess-805
+	option = {
+		name = myrtana_pre_civil.4.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		add_political_power = 100
+add_stability = -0.05
+
+		hidden_effect = {
+			
+		}
+	}
+}
