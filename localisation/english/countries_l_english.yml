@@ -323,4 +323,17 @@
  VEA_communism:1 "People's Republic of Velarim"
  VEA_communism_DEF:1 "the People's Republic of Velarim"
  VEA_communism_ADJ:0 "Velarimen"
+ 
+ ERI_neutrality:1 "Eridonia"
+ ERI_neutrality_DEF:1 "the Eridonia"
+ ERI_neutrality_ADJ:0 "Eridonian"
+ ERI_fascism:1 "Eridonian Reich"
+ ERI_fascism_DEF:1 "the Eridonian Reich"
+ ERI_fascism_ADJ:0 "Eridonian"
+ ERI_democratic:1 "Eridonian Federation"
+ ERI_democratic_DEF:1 "the Eridonian Federation"
+ ERI_democratic_ADJ:0 "Eridonian"
+ ERI_communism:1 "People's Republic of Eridonia"
+ ERI_communism_DEF:1 "the People's Republic of Eridonia"
+ ERI_communism_ADJ:0 "Eridonian"
 

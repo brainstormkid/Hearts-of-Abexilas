@@ -98,3 +98,7 @@ VEA = {
 	color = rgb { 25  60  128 }
 	color_ui = rgb { 25  60  128 }
 }
+ERI = {
+	color = rgb { 225  89  48 }
+	color_ui = rgb { 225  89  48 }
+}
