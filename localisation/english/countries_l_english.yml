@@ -336,4 +336,17 @@
  ERI_communism:1 "People's Republic of Eridonia"
  ERI_communism_DEF:1 "the People's Republic of Eridonia"
  ERI_communism_ADJ:0 "Eridonian"
+ 
+ LAV_neutrality:1 "Las Vidas"
+ LAV_neutrality_DEF:1 "the Las Vidas"
+ LAV_neutrality_ADJ:0 "Vidian"
+ LAV_fascism:1 "Vidian Reich"
+ LAV_fascism_DEF:1 "the Vidian Reich"
+ LAV_fascism_ADJ:0 "Vidian"
+ LAV_democratic:1 "Vidian Federation"
+ LAV_democratic_DEF:1 "the Vidian Federation"
+ LAV_democratic_ADJ:0 "Vidian"
+ LAV_communism:1 "People's Republic of Vidas"
+ LAV_communism_DEF:1 "the People's Republic of Vidas"
+ LAV_communism_ADJ:0 "Vidian"
 

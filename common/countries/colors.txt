@@ -102,3 +102,7 @@ ERI = {
 	color = rgb { 225  89  48 }
 	color_ui = rgb { 225  89  48 }
 }
+LAV = {
+	color = rgb { 119  233  85 }
+	color_ui = rgb { 119  233  85 }
+}
