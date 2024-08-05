@@ -1,0 +1,41 @@
+spriteTypes = {
+
+	# leaders we need to override in DLC go in this file
+
+	spriteType = {
+		name = "GFX_portrait_operative_unknown"
+		texturefile = "gfx/leaders/operative_unknown.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_unknown"
+		texturefile = "gfx/leaders/leader_unknown.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_unknown_female"
+		texturefile = "gfx/leaders/leader_unknown_female.dds"
+	}
+
+
+	### LEY
+
+	spriteType = {
+		name = "GFX_portrait_LEY_tim_desmond"
+		texturefile = "gfx/leaders/LEY/portrait_ley_tim_desmond.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_LEY_tim_desmond_small"
+		texturefile = "gfx/interface/ideas/idea_ley_tim_small.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_portrait_LEY_gottfried_sarkowa"
+		texturefile = "gfx/leaders/LEY/gottfried_sarkowa.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_LEY_gottfried_sarkowa_small"
+		texturefile = "gfx/interface/ideas/idea_ley_gottfried_sarkowa_small.dds"
+	}
