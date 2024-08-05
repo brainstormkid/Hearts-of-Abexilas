@@ -5,11 +5,12 @@ state={
 		4039 5367 10942 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=350000
+        state_category = pastoral
 	history={
 		owner = LUT
 		buildings = {
+			infrastructure = 1
 		}
 		add_core_of = LUT
 	}

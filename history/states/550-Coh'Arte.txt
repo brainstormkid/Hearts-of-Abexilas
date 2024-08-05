@@ -5,11 +5,14 @@ state={
 		889 11051 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=400000
+        state_category = city
 	history={
 		owner = ERC
 		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
 		}
 		add_core_of = ERC
 	}
