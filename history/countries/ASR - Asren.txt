@@ -17,7 +17,7 @@ set_stability = 90
 set_war_support = 5
 
 create_country_leader = {
-	name = "?"
+	name = "Dara Shasra"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	#picture = "gfx/leaders/AEZ/Panda.dds"
 	expire = "1965.1.1"
