@@ -90,3 +90,7 @@ PAR = {
 	color = rgb { 228  107  28 }
 	color_ui = rgb { 228  107  28 }
 }
+COV = {
+	color = rgb { 119  27  27 }
+	color_ui = rgb { 119  27  27 }
+}
