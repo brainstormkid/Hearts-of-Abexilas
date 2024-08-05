@@ -1,0 +1,121 @@
+bookmarks = {
+	bookmark = {
+		name = "TANRAGH_NAME"
+		desc = "TANRAGH_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_TANRAGH"
+		default_country = "ASR"
+		default = yes
+		
+		CAS = {
+			history = CAS_DESC
+			ideology = neutrality
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		AKA = {
+			history = AKA_DESC
+			ideology = neutrality
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		IRI = {
+			history = IRI_DESC
+			ideology = neutrality
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		ASR = {
+			history = ASR_DESC
+			ideology = neutrality
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		SAR = {
+			history = SAR_DESC
+			ideology = neutrality
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		CES = {
+			history = CES_DESC
+			ideology = neutrality
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"---"={
+			history = "OTHER_TAN_DESC"
+		}
+		
+		#Minors
+		
+		"RIT"={
+			history = "RIT_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"HEL"={
+			minor = yes
+			history = "HEL_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"DRA"={
+			minor = yes
+			history = "DRA_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

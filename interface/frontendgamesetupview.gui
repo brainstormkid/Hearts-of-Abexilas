@@ -24,7 +24,7 @@ guiTypes = {
 		iconType = {
 			name = "icon"
 			spriteType = "GFX_select_date_1936"
-			position = { x = 255 y = 5 }
+			position = { x = 17 y = 19 }
 			alwaystransparent = yes
 		}
 
@@ -533,14 +533,113 @@ guiTypes = {
 
 			gridboxType = {
 				name ="bookmarks_grid"
-				position = { x = -25 y = 10 }
+				position = { x = 120 y = 10 }
 				size = { width = 100%% height = 100%% }
-				slotsize = { width = 0 height = 38 }
-				add_horizontal = no
-				add_vertical = yes
-				max_slots_vertical = 9
+				slotsize = { width = 200 height = 105 }
+				add_horizontal = yes
+				max_slots_horizontal = 3
+				max_slots_vertical = 3
 				format = "UPPER_LEFT"
 			}
+		}
+		
+		instantTextBoxType = {
+			name = "Caerus"
+			position = { x = 65 y = 155 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "Caerus"
+			maxWidth = 340
+			maxHeight = 30
+			format = centre
+		}
+		
+		instantTextBoxType = {
+			name = "Norvinia"
+			position = { x = 265 y = 155 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "Norvinia"
+			maxWidth = 340
+			maxHeight = 30
+			format = centre
+		}
+		
+		instantTextBoxType = {
+			name = "Tanragh"
+			position = { x = 465 y = 155 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "Tanragh"
+			maxWidth = 340
+			maxHeight = 30
+			format = centre
+		}
+		
+		instantTextBoxType = {
+			name = "Iristoya"
+			position = { x = 65 y = 260 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "Iristoya"
+			maxWidth = 340
+			maxHeight = 30
+			format = centre
+		}
+		
+		instantTextBoxType = {
+			name = "Talasi"
+			position = { x = 265 y = 260 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "Talasi"
+			maxWidth = 340
+			maxHeight = 30
+			format = centre
+		}
+		
+		instantTextBoxType = {
+			name = "Cathramis"
+			position = { x = 465 y = 260 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "Cathramis"
+			maxWidth = 340
+			maxHeight = 30
+			format = centre
+		}
+		
+		instantTextBoxType = {
+			name = "Halinn"
+			position = { x = 65 y = 365 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "Halinn"
+			maxWidth = 340
+			maxHeight = 30
+			format = centre
+		}
+		
+		instantTextBoxType = {
+			name = "Rozakkora"
+			position = { x = 265 y = 365 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "Rozakkora"
+			maxWidth = 340
+			maxHeight = 30
+			format = centre
+		}
+		
+		instantTextBoxType = {
+			name = "Kejafros"
+			position = { x = 465 y = 365 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "Kejafros"
+			maxWidth = 340
+			maxHeight = 30
+			format = centre
 		}
 
 		instantTextBoxType = {

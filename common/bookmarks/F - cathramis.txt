@@ -1,0 +1,14 @@
+bookmarks = {
+	bookmark = {
+		name = "CATHRAMIS_NAME"
+		desc = "CATHRAMIS_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_CATHRAMIS"
+		default_country = "GER"
+		default = yes
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+}

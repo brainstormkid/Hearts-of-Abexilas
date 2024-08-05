@@ -1,9 +1,9 @@
 bookmarks = {
 	bookmark = {
-		name = "CAERUS"
-		desc = "GATHERING_STORM_DESC"
+		name = "TALASI_NAME"
+		desc = "TALASI_DESC"
 		date = 1936.1.1.12
-		picture = "GFX_select_date_CAERUS"
+		picture = "GFX_select_date_TALASI"
 		default_country = "GER"
 		default = yes
 		}

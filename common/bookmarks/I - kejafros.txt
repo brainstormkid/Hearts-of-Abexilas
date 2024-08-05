@@ -1,0 +1,14 @@
+bookmarks = {
+	bookmark = {
+		name = "KEJAFROS_NAME"
+		desc = "KEJAFROS_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_KEJAFROS"
+		default_country = "GER"
+		default = yes
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+}

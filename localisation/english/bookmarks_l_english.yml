@@ -1,0 +1,38 @@
+﻿l_english:
+ BM_HISTORY_TITLE:0 "Brief History"
+ #Caerus
+ CAERUS_NAME:0 "Caerus"
+ CAERUS_DESC:0 "Caerus is a continent located in northwestern Abexilas."
+ 
+ #Norvinia
+ NORVINIA_NAME:0 "Norvinia"
+ NORVINIA_DESC:0 "Norvinia (also spelled Norvinnia), uncommonly known as Tiberia, is a continent located in northern Abexilas."
+ 
+ #Tanragh
+ TANRAGH_NAME:0 "Tanragh"
+ TANRAGH_DESC:0 "Tanragh, also known as Sinraeda in Irithel, is one of the continents of Abexilas, located in its northeastern-most reaches. It is home to a variety of nations, including the Grand Regency of Castanor, the Kingdom of Irithel, the Korelenten Sarinzerilin, the Akari Imperium, and Na Cesa Rindaun, among others."
+ 
+ #Iristoya
+ IRISTOYA_NAME:0 "Iristoya"
+ IRISTOYA_DESC:0 "Iristoya is the western continent of Abexilas, which is made up of many different islands."
+ 
+ #Talasi
+ TALASI_NAME:0 "Talasi"
+ TALASI_DESC:0 "Talasi is the world of Abexilas' third largest and third-most populous continent after Kejafros and Norvinia. At an estimated landmass of 28,520,000 km2 or (11.01 million square miles) and around 111,300 chunks, including adjacent islands. The continent roughly covers 14.6% of the world's total land area and 7% of Abexilas' total surface area. With an estimated population exceeding 120 million, Talasi accounts for about 20% of the world's total population. Talasi's population metrics ranks it the second-youngest amongst all the continents, with the average age in Talasi being roughly 27.3 years old, much lower than the global average. In spite of having the widest range of natural resources and biomes out of any continent, Talasi's development metrics estimate that it has one of the lowest development rates in the world, being the third-least wealthy continent per capita and second-least wealthy by total wealth, ahead of Iristoya; despite this low concentration of wealth, recent economic & population booms in the continent has made Talasi a key piece in Abexilas' geopolitics."
+ 
+ #Cathramis
+ CATHRAMIS_NAME:0 "Cathramis"
+ CATHRAMIS_DESC:0 "Cathramis, also spelled Cathrámis, is the eastern continent of Abexilas divided into two subcontinents: Cathelet and Adramis. The continent's name comes from the combination of the two subcontinents' name."
+ 
+ #Halinn
+ HALINN_NAME:0 "Halinn"
+ HALINN_DESC:0 "Halinn is a continent located in southwestern Abexilas. Notable nations on the continent include the Akashiro Shogunate, the As’ro-Pothriki Commonwealth, the Kingdom of Rozul, Jorthar, the High Kingdom of Verena, the Realm of Taurëmár, Sakravir, the Kingdom of Rhosgard, the Kingdom of Leyden, the Principality of Ynqar, Taravor and others./nHalinn is also home to the subcontinent of Zarilyia which is located within the south-westernmost corner of Halinn. Zarilyia is home to the ZTO (Zarilyian Treaty Organization). Prominent nations in Zarilyia include the Daranate of Kaizra, the Dariath Federation, Ariefell, the Tsardom of Naan, Port Mia, and more."
+ 
+ #Rozakkora
+ ROZAKKORA_NAME:0 "Rozakkora"
+ ROZAKKORA_DESC:0 "Rozakko'ra is a major continent in the south-central region of Abexilas. It is known for its diverse climates, geography, and its current unstable political landscape. The most influential nations in the region are the Eternal Chimerian Empire, the Kingdom of Rozow, the Dominion of Sentara, and the Crown of Yimmuralia."
+ 
+ #Kejafros
+ KEJAFROS_NAME:0 "Kejafros"
+ KEJAFROS_DESC:0 "Kejafros is a continent in the world of Abexilas; the southeastern-most of the realm's nine continents. It is one of the most populous parts of Abexilas; home to several influential nations including the likes of Vinovia, Ischanor, Zilatra, Halge, Khanen, and Arcael."
+ 

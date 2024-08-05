@@ -255,6 +255,34 @@ spriteTypes = {
 		texturefile = "gfx/interface/select_date_NORVINIA.dds"
 	}
 	spriteType = {
+		name = "GFX_select_date_TANRAGH"
+		texturefile = "gfx/interface/select_date_Tanragh.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_TALASI"
+		texturefile = "gfx/interface/select_date_TALASI.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_CATHRAMIS"
+		texturefile = "gfx/interface/select_date_CATHRAMIS.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_HALINN"
+		texturefile = "gfx/interface/select_date_HALINN.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_ROZAKKORA"
+		texturefile = "gfx/interface/select_date_ROZAKKORA.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_KEJAFROS"
+		texturefile = "gfx/interface/select_date_KEJAFROS.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_IRISTOYA"
+		texturefile = "gfx/interface/select_date_IRISTOYA.dds"
+	}
+	spriteType = {
 		name = "GFX_select_date_1939"
 		texturefile = "gfx/interface/select_date_1939.dds"
 	}

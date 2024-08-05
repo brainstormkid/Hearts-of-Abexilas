@@ -1,0 +1,14 @@
+bookmarks = {
+	bookmark = {
+		name = "HALINN_NAME"
+		desc = "HALINN_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_HALINN"
+		default_country = "GER"
+		default = yes
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+}

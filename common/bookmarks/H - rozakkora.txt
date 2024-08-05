@@ -1,9 +1,9 @@
 bookmarks = {
 	bookmark = {
-		name = "NORVINIA"
-		desc = "GATHERING_STORM_DESC"
+		name = "ROZAKKORA_NAME"
+		desc = "ROZAKKORA_DESC"
 		date = 1936.1.1.12
-		picture = "GFX_select_date_NORVINIA"
+		picture = "GFX_select_date_ROZAKKORA"
 		default_country = "GER"
 		default = yes
 		}

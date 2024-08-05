@@ -1,0 +1,14 @@
+bookmarks = {
+	bookmark = {
+		name = "IRISTOYA_NAME"
+		desc = "IRISTOYA_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_IRISTOYA"
+		default_country = "GER"
+		default = yes
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+}
