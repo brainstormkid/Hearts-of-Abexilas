@@ -1,0 +1,60 @@
+characters={
+	LEY_tim={
+		name=LEY_tim_desmond
+		portraits={
+			civilian={
+				large="GFX_portrait_LEY_tim_desmond"
+				small="GFX_portrait_LEY_tim_desmond_small"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits= { dictator }
+			expire="1965.1.1.1"
+		}
+		advisor={
+			cost = 50
+			slot = political_advisor
+			idea_token = tim_desmond
+			ledger = civilian
+			allowed = {
+				original_tag = LEY
+			}
+			traits = { true_nationalist }
+			available = { 
+			}
+			ai_will_do = {
+				factor = 1.0
+			}
+		}
+	}
+	LEY_gottfried_sarkowa={
+		name=LEY_gottfried_sarkowa
+		portraits={
+			civilian={
+				large="GFX_portrait_LEY_gottfried_sarkowa"
+				small="GFX_portrait_LEY_gottfried_sarkowa_small"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits= { dictator }
+			expire="1965.1.1.1"
+		}
+		advisor={
+			cost = 175
+			slot = political_advisor
+			idea_token = tim_desmond
+			ledger = civilian
+			allowed = {
+				original_tag = LEY
+			}
+			traits = { popular_figurehead }
+			available = { 
+			}
+			ai_will_do = {
+				factor = 1.0
+			}
+		}
+	}
+}
