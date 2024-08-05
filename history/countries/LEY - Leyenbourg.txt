@@ -12,6 +12,8 @@ set_popularities = {
 	communism = 3
 	neutrality = 62
 }
+recruit_character = LEY_tim
+recruit_character = LEY_gottfried_sarkowa
 
 create_country_leader = {
 	name = "Stephan Zlaktow"
@@ -26,3 +28,4 @@ create_country_leader = {
 
 set_stability = 0.2
 set_war_support = 0.1
+
