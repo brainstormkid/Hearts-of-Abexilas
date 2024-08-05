@@ -21,37 +21,17 @@ create_country_leader = {
 	}
 }
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = RIT
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = HEL
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = DRA
-		autonomous_state = autonomy_integrated_puppet
-	}
+set_autonomy = {
+	target = RIT
+	autonomous_state = autonomy_puppet
 }
-if = {
-	limit = { 
-		has_dlc = "Waking the Tiger"
-	}
-	set_autonomy = {
-		target = RIT
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = HEL
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = DRA
-		autonomous_state = autonomy_integrated_puppet
-	}
+
+set_autonomy = {
+	target = HEL
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = DRA
+	autonomous_state = autonomy_integrated_puppet
 }

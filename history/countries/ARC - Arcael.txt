@@ -25,3 +25,8 @@ create_country_leader = {
 
 set_stability = 0.65
 set_war_support = 1
+
+set_autonomy = {
+	target = VEL
+	autonomous_state = autonomy_puppet
+}
