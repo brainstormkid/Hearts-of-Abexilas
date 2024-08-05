@@ -94,3 +94,7 @@ COV = {
 	color = rgb { 119  27  27 }
 	color_ui = rgb { 119  27  27 }
 }
+VEA = {
+	color = rgb { 25  60  128 }
+	color_ui = rgb { 25  60  128 }
+}

@@ -310,4 +310,17 @@
  COV_communism:1 "People's Republic of Covania"
  COV_communism_DEF:1 "the People's Republic of Covania"
  COV_communism_ADJ:0 "Covanian"
+ 
+ VEA_neutrality:1 "City-Republic of Velarim"
+ VEA_neutrality_DEF:1 "the City-Republic of Velarim"
+ VEA_neutrality_ADJ:0 "Velarimen"
+ VEA_fascism:1 "Velarimen Reich"
+ VEA_fascism_DEF:1 "the Velarimen Reich"
+ VEA_fascism_ADJ:0 "Velarimen"
+ VEA_democratic:1 "Velarimen Federation"
+ VEA_democratic_DEF:1 "the Velarimen Federation"
+ VEA_democratic_ADJ:0 "Velarimen"
+ VEA_communism:1 "People's Republic of Velarim"
+ VEA_communism_DEF:1 "the People's Republic of Velarim"
+ VEA_communism_ADJ:0 "Velarimen"
 
