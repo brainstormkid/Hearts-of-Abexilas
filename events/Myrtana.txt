@@ -160,7 +160,6 @@ country_event = {
 	option = {
 		name = myrtana_story_events.2.b
 		ai_chance = { factor = 50 }
-		§He can't be the spy right...?R
 		hidden_effect = {
 			
 		}
