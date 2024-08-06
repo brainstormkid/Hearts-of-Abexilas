@@ -8,6 +8,10 @@ focus_tree = {
 			tag = LEY
 		}
 	}
+	
+	continuous_focus_position = { x = 50 y = 1200 }
+	
+	
 	#Recovering from the Crisis
 	focus = {
 		id = LEY_recovering_from_the_crisis
@@ -59,6 +63,8 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_forming_a_new_government  }
+		mutually_exclusive = { focus = LEY_accelerationist_takeover  }
+		mutually_exclusive = { focus = LEY_the_first_republic  }
 		ai_will_do = { factor = 100 }
 		completion_reward = {
 			add_political_power = 100
@@ -66,6 +72,14 @@ focus_tree = {
 			add_popularity = {
 				ideology = neutrality
 				popularity = +0.2
+			}
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+			last_election = "1936.1.1"
+			election_frequency = 48
+			long_name = "House of Zlatkow"
+			name = "HoZ"
 			}
 		}
 	}
@@ -293,6 +307,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_crononation_of_zlatkow_i  }
+		completion_reward = {
+			add_political_power = 350
+		}
 	}
 
 	#Continental Wargame
@@ -333,6 +350,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = LEY_continental_dispute  }
 		ai_will_do = { factor = 10 }
+		completion_reward = {
+			add_political_power = 350
+		}
 	}
 
 	#Accelerationist Takeover
@@ -346,6 +366,16 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_forming_a_new_government  }
+		mutually_exclusive = { focus = LEY_the_first_republic  }
+		ai_will_do = { factor = 10 }
+		completion_reward = {
+			add_political_power = 100
+			add_stability = -0.1
+			add_popularity = {
+				ideology = communism
+				popularity = +0.2
+			}
+		}
 	}
 
 	#Organize a Government
@@ -359,6 +389,31 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_accelerationist_takeover  }
+		ai_will_do = { factor = 10 }
+		completion_reward = {
+			add_political_power = -100
+			add_stability = -0.05
+			add_popularity = {
+				ideology = communism
+				popularity = +0.1
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = democractic
+				popularity = -0.05
+			}
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+				last_election = "1936.1.1"
+				election_frequency = 48
+				long_name = "Accelerationist Party of Leyenbourg"
+				name = "APL"
+			}
+		}
 	}
 
 	#Promoting Social Transformation
@@ -372,6 +427,17 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_organize_a_government  }
+		completion_reward = {
+			add_stability = +0.08
+			add_popularity = {
+				ideology = communism
+				popularity = +0.1
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = -0.1
+			}
+		}
 	}
 
 	#Propaganda: Overdrive
@@ -385,6 +451,14 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_promoting_social_transformation  }
+		completion_reward = {
+			add_stability = +0.08
+			communism_drift = 0.10
+			add_popularity = {
+				ideology = communism
+				popularity = +0.1
+			}
+		}
 	}
 
 	#Nationalist Coup!
@@ -398,6 +472,16 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_propagandaoverdrive  }
+		completion_reward = {
+		set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+				last_election = "1936.1.1"
+				election_frequency = 48
+				long_name = "National Leyenbourg Party"
+				name = "NLP"
+			}
+		}
 	}
 
 	#Execute the Accelerationist Leaders!
@@ -411,6 +495,14 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_nationalistcoup  }
+		completion_reward = {
+		add_stability = -0.14
+		kill_ideology_leader = communism
+		add_popularity = {
+				ideology = communism
+				popularity = -0.2
+			}
+		}
 	}
 
 
@@ -426,6 +518,24 @@ focus_tree = {
 		}
 		prerequisite = { focus = LEY_executetheaccelerationistleaders  }
 		mutually_exclusive = { focus = LEY_military_in_charge  }
+		completion_reward = {
+		add_popularity = {
+				ideology = communism
+				popularity = -0.2
+			}
+		add_popularity = {
+			ideology = fascism
+			popularity = +0.2
+			}
+		set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
+			last_election = "1936.1.1"
+			election_frequency = 48
+			long_name = "Nationalist Party of Leyenbourg"
+			name = "NPL"
+			}
+		}
 	}
 
 	#Military in Charge
@@ -439,6 +549,24 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_executetheaccelerationistleaders  }
+		completion_reward = {
+		add_popularity = {
+				ideology = communism
+				popularity = -0.2
+			}
+		add_popularity = {
+			ideology = neutrality
+			popularity = +0.2
+			}
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+			last_election = "1936.1.1"
+			election_frequency = 48
+			long_name = "National Defense Party"
+			name = "NDP"
+			}
+		}
 	}
 
 	#Never Again!
@@ -452,6 +580,12 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_one_man_to_lead_them_all  focus = LEY_military_in_charge  }
+		completion_reward = {
+		add_popularity = {
+			ideology = communism
+			popularity = -1
+			}
+		}
 	}
 	
 	#Nationalization of the Industry
@@ -595,6 +729,30 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_forming_a_new_government  }
+		completion_reward = {
+		set_politics = {
+				ruling_party = democratic
+				elections_allowed = yes
+				last_election = "1936.1.1"
+				election_frequency = 48
+				long_name = "Democratic Party of Leyenbourg"
+				name = "DPL"
+			}
+		add_popularity = {
+			ideology = communism
+			popularity = -0.07
+			}
+		add_popularity = {
+			ideology = democratic
+			popularity = +0.14
+			}
+		add_popularity = {
+			ideology = neutrality
+			popularity = -0.07
+			}
+		add_stability = +0.15
+		add_political_power = 200
+		}
 	}
 
 	#Question of Power
@@ -608,6 +766,10 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_the_first_republic  }
+		completion_reward = {
+		add_stability = -0.10
+		add_political_power = -156
+		}
 	}
 
 	#Lukey for Power!
@@ -622,6 +784,30 @@ focus_tree = {
 		}
 		prerequisite = { focus = LEY_question_of_power  }
 		mutually_exclusive = { focus = LEY_gottfriedsarkowareturns  }
+		completion_reward = {
+		add_stability = -0.10
+		add_political_power = 140
+		add_popularity = {
+			ideology = communism
+			popularity = -0.07
+			}
+		add_popularity = {
+			ideology = fascism
+			popularity = +0.14
+			}
+		add_popularity = {
+			ideology = democratic
+			popularity = -0.07
+			}
+		add_stability = +0.15
+		add_political_power = 200
+		create_country_leader = {
+			name = "Lukey"
+			desc = ""
+			expire = "1965.1.1"
+			ideology = rexism
+		}
+		}
 	}
 
 	#Dissolve the Parlament
@@ -635,6 +821,24 @@ focus_tree = {
 			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
 		}
 		prerequisite = { focus = LEY_lukeyforpower  }
+		completion_reward = {
+		add_stability = -0.10
+		add_political_power = 140
+		add_popularity = {
+			ideology = communism
+			popularity = -0.07
+			}
+		add_popularity = {
+			ideology = fascism
+			popularity = +0.14
+			}
+		add_popularity = {
+			ideology = democractic
+			popularity = -0.07
+			}
+		add_stability = +0.15
+		add_political_power = 200
+		}
 	}
 
 	#Supreme Leader of the Oceanumites
@@ -648,6 +852,24 @@ focus_tree = {
 			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
 		}
 		prerequisite = { focus = LEY_dissolve_the_parlament  }
+		completion_reward = {
+		set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+				last_election = "1936.1.1"
+				election_frequency = 48
+				long_name = "Sozialist Party of Leyenbourg"
+				name = "SPoL"
+			}
+		add_popularity = {
+			ideology = democractic
+			popularity = -0.07
+			}
+		add_popularity = {
+			ideology = fascism
+			popularity = +0.14
+			}
+		}
 	}
 	
 	#Gottfried Sarkowa returns!
@@ -662,6 +884,20 @@ focus_tree = {
 		}
 		prerequisite = { focus = LEY_question_of_power  }
 		mutually_exclusive = { focus = LEY_lukeyforpower  }
+		completion_reward = {
+		add_popularity = {
+			ideology = democratic
+			popularity = +0.20
+			}
+		deactivate_advisor = LEY_gottfried_sarkowa
+		create_country_leader = {
+			name = "Gottfried Sarkowa"
+			desc = ""
+			picture = GFX_portrait_LEY_gottfried_sarkowa
+			expire = "1965.1.1"
+			ideology = liberalism
+		}
+		}
 	}
 
 	#Strengthen the Parlament
@@ -675,6 +911,13 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_gottfriedsarkowareturns  }
+		completion_reward = {
+		add_popularity = {
+			ideology = democratic
+			popularity = +0.10
+			}
+		add_stability = +0.15
+		}
 	}
 
 }
