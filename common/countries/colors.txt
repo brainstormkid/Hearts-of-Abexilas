@@ -118,3 +118,7 @@ END = {
 	color = rgb { 134  224  129 }
 	color_ui = rgb { 134  224  129 }
 }
+BOV = {
+	color = rgb { 167  208  244 }
+	color_ui = rgb { 167  208  244 }
+}
