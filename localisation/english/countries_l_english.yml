@@ -362,4 +362,17 @@
  DON_communism:1 "People's Republic of Donfuer"
  DON_communism_DEF:1 "the People's Republic of Donfuer"
  DON_communism_ADJ:0 "DonFuerian"
+ 
+ VED_neutrality:1 "Kingdom of Veldora"
+ VED_neutrality_DEF:1 "the Kingdom of Veldora"
+ VED_neutrality_ADJ:0 "Veldoran"
+ VED_fascism:1 "Veldoran Reich"
+ VED_fascism_DEF:1 "the Veldoran Reich"
+ VED_fascism_ADJ:0 "Veldoran"
+ VED_democratic:1 "Veldoran Federation"
+ VED_democratic_DEF:1 "the Veldoran Federation"
+ VED_democratic_ADJ:0 "Veldoran"
+ VED_communism:1 "People's Republic of Veldora"
+ VED_communism_DEF:1 "the People's Republic of Veldora"
+ VED_communism_ADJ:0 "Veldoran"
 

@@ -110,3 +110,7 @@ DON = {
 	color = rgb { 236  111  21 }
 	color_ui = rgb { 236  111  21 }
 }
+VED = {
+	color = rgb { 14  209  151 }
+	color_ui = rgb { 14  209  151 }
+}
