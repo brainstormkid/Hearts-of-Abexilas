@@ -1,0 +1,28 @@
+﻿capital = 1131
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 70
+	fascism = 10
+	communism = 10
+	neutrality = 10
+}
+
+create_country_leader = {
+	name = "Joshua Josephson"
+	desc = "POLITICS_JOSHUA_DESC"
+	picture = "gfx/leaders/HAR/Joshua.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+set_stability = 0.7
+set_war_support = 0.3

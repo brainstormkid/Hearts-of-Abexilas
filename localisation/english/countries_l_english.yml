@@ -427,4 +427,17 @@
  BEE_communism:1 "People's Republic of Beepeck"
  BEE_communism_DEF:1 "the People's Republic of Beepeck"
  BEE_communism_ADJ:0 "Beean"
+ 
+ HAR_neutrality:1 "Empire of Harpia"
+ HAR_neutrality_DEF:1 "the Empire of Harpia"
+ HAR_neutrality_ADJ:0 "Harpian"
+ HAR_fascism:1 "Harpian Reich"
+ HAR_fascism_DEF:1 "the Harpian  Reich"
+ HAR_fascism_ADJ:0 "Harpian"
+ HAR_democratic:1 "Republic of Harpia"
+ HAR_democratic_DEF:1 "the Republic of Harpia"
+ HAR_democratic_ADJ:0 "Harpian"
+ HAR_communism:1 "People's Republic of Beepeck"
+ HAR_communism_DEF:1 "the People's Republic of Beepeck"
+ HAR_communism_ADJ:0 "Harpian"
 

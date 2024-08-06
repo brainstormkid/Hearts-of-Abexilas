@@ -130,3 +130,7 @@ BEE = {
 	color = rgb { 222  192  80 }
 	color_ui = rgb { 222  192  80 }
 }
+HAR = {
+	color = rgb { 75  0  110 }
+	color_ui = rgb { 75  0  110 }
+}

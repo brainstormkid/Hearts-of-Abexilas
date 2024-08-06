@@ -9,6 +9,16 @@
  MYR_neutrality_party:0 "The Royal Family"
  MYR_neutrality_party_long:0 "Myrtanian House of Lemon"
  
+ #Harpia
+ HAR_communism_party:0 "MR"
+ HAR_communism_party_long:0 "Montroigan Revivalist"
+ HAR_democratic_party:0 "HP"
+ HAR_democratic_party_long:0 "Harpian Parliament"
+ HAR_fascism_party:0 "CSC"
+ HAR_fascism_party_long:0 "Cult of the Scarlet Cross"
+ HAR_neutrality_party:0 "EM"
+ HAR_neutrality_party_long:0 "Empty Paper"
+ 
  
  communism:0 "Communist"
  communism_noun:0 "Communism"
