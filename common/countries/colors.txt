@@ -114,3 +114,7 @@ VED = {
 	color = rgb { 14  209  151 }
 	color_ui = rgb { 14  209  151 }
 }
+END = {
+	color = rgb { 134  224  129 }
+	color_ui = rgb { 134  224  129 }
+}

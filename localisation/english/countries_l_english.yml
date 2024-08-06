@@ -375,4 +375,17 @@
  VED_communism:1 "People's Republic of Veldora"
  VED_communism_DEF:1 "the People's Republic of Veldora"
  VED_communism_ADJ:0 "Veldoran"
+ 
+ END_neutrality:1 "Kingdom of Enderia"
+ END_neutrality_DEF:1 "the Kingdom of Enderia"
+ END_neutrality_ADJ:0 "Enderian"
+ END_fascism:1 "Enderian  Reich"
+ END_fascism_DEF:1 "the Enderian  Reich"
+ END_fascism_ADJ:0 "Enderian "
+ END_democratic:1 "Enderian  Federation"
+ END_democratic_DEF:1 "the Enderian  Federation"
+ END_democratic_ADJ:0 "Enderian "
+ END_communism:1 "People's Republic of Enderia"
+ END_communism_DEF:1 "the People's Republic of Enderia"
+ END_communism_ADJ:0 "Enderian "
 
