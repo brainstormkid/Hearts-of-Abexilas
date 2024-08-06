@@ -3,6 +3,10 @@ spriteTypes = {
 		name = "GFX_Long_day_in_Theos"
 		texturefile = "gfx/event_pictures/Long_day_in_Theos.dds"
 	}
+        spriteType = {
+		name = "GFX_unrest_in_torsheim"
+		texturefile = "gfx/event_pictures/unrest_in_torsheim_event_image.dds"
+	}
 	##Icon For: Tim retires!
 	SpriteType = { 
 		name = "GFX_tim_retires"
