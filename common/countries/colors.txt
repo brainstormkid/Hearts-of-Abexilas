@@ -106,3 +106,7 @@ LAV = {
 	color = rgb { 119  233  85 }
 	color_ui = rgb { 119  233  85 }
 }
+DON = {
+	color = rgb { 236  111  21 }
+	color_ui = rgb { 236  111  21 }
+}

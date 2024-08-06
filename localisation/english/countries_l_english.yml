@@ -349,4 +349,17 @@
  LAV_communism:1 "People's Republic of Vidas"
  LAV_communism_DEF:1 "the People's Republic of Vidas"
  LAV_communism_ADJ:0 "Vidian"
+ 
+ DON_neutrality:1 "Skylords of Donfuer"
+ DON_neutrality_DEF:1 "the Skylords of Donfuer"
+ DON_neutrality_ADJ:0 "DonFuerian"
+ DON_fascism:1 "DonFuerian Reich"
+ DON_fascism_DEF:1 "the DonFuerian Reich"
+ DON_fascism_ADJ:0 "DonFuerian"
+ DON_democratic:1 "DonFuerian Federation"
+ DON_democratic_DEF:1 "the DonFuerian Federation"
+ DON_democratic_ADJ:0 "DonFuerian"
+ DON_communism:1 "People's Republic of Donfuer"
+ DON_communism_DEF:1 "the People's Republic of Donfuer"
+ DON_communism_ADJ:0 "DonFuerian"
 
