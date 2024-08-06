@@ -1,5 +1,6 @@
 ﻿l_english:
  BM_HISTORY_TITLE:0 "Brief History"
+ OTHER_DESC:0 "The nations of the world, great and small, are not all content to hold their breath awaiting the outbreak of another global conflict. From major powers on the brink of civil war to the many nations formed and transformed by the creation of Abexilas, all will have to make difficult decisions and balance ideals with pragmatism to have an impact on the future of the world."
  #Caerus
  CAERUS_NAME:0 "Caerus"
  CAERUS_DESC:0 "Caerus is a continent located in northwestern Abexilas."
@@ -11,6 +12,12 @@
  #Tanragh
  TANRAGH_NAME:0 "Tanragh"
  TANRAGH_DESC:0 "Tanragh, also known as Sinraeda in Irithel, is one of the continents of Abexilas, located in its northeastern-most reaches. It is home to a variety of nations, including the Grand Regency of Castanor, the Kingdom of Irithel, the Korelenten Sarinzerilin, the Akari Imperium, and Na Cesa Rindaun, among others."
+ CAS_DESC:0 "" 
+ AKA_DESC:0 "The Akari Commonwealth was formed on January 7th 2024, the founding two consuls being Neo_Aurelian and Saliz."
+ IRI_DESC:0 "Irithel, officially the Kingdom of Irithel, is an absolutist monarchy comprised of the Elluré's fallen realms and their colonial vassals. The Kingdom is located in the north-east of Abexilas, on the continents of Sinraeda and Norvinia. Irithel is a nation-state comprised of the Elluré race, further subdividing into the Irithe and Anare cultural groups. The capital of Irithel is the city of Irithid, located a valley in the mainland center of the nation."
+ ASR_DESC:0 "Asren, officially the Sanctuary of Asren, is a state located in Tanragh, Abexilas. It was founded by a group of Najer refugees following the freezing and subsequent mass abandonment of Rathnir."
+ SAR_DESC:0 "The Korlenten Sarinzerilin (founded 29/03/2024) is an autocratic monarchy lead by the Greva Korlent, currently Felöks Zeno Hrafn. It is located in the north-east of Abexilas on the Tanragh Continent. The official languages of the Korlenten are Klobir and Stormgovan. Many citizens in Sarinzerilin were previously citizens of the Second Simulami Empire, which was created as the nations of Floramia and Order Muvielle merged together and became a major power on both Rathnir and Eldham."
+ CES_DESC:0 "Na Cesa Rindaun is the southeasternmost nation on the continent of Tanragh, bordering the Akari Imperium and the Grand Regency of Castanor. Na Cesa Rindaun is a successor to the Autokratoria of Sirradra in Abexilas, though it recognizes Tellia and Suldex as "brother-nations" having shared Sirradrii heritage."
  
  #Iristoya
  IRISTOYA_NAME:0 "Iristoya"

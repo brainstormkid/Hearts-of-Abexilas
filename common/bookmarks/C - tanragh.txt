@@ -74,12 +74,13 @@ bookmarks = {
 		}
 
 		"---"={
-			history = "OTHER_TAN_DESC"
+			history = "OTHER_DESC"
 		}
 		
 		#Minors
 		
 		"RIT"={
+			minor = yes
 			history = "RIT_DESC"
 			ideology = neutrality
 			ideas = {
