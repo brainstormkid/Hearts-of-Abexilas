@@ -9,7 +9,7 @@ country_event = {
 	id = myrtana.1
 	title = myrtana_pre_civil.1.t
 	desc = myrtana_pre_civil.1.d
-	picture = unrest_in_torsheim-778
+	picture = GFX_unrest_in_torsheim
 	
 	is_triggered_only = yes
 	
