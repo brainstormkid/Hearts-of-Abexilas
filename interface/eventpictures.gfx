@@ -3,4 +3,9 @@ spriteTypes = {
 		name = "GFX_Long_day_in_Theos"
 		texturefile = "gfx/event_pictures/Long_day_in_Theos.dds"
 	}
+	##Icon For: Tim retires!
+	SpriteType = { 
+		name = "GFX_tim_retires"
+		texturefile = "gfx/event_pictures/tim_retires.dds"
+	}
 }
