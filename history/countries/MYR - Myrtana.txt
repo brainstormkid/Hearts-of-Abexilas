@@ -7,17 +7,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 35
-	fascism = 10
+	democratic = 28
+	fascism = 2
 	communism = 2
-	neutrality = 53
+	neutrality = 68
 }
 
-set_stability = 83
-set_war_support = 67
+set_stability = 48
+set_war_support = 53
 
 create_country_leader = {
-	name = "Aegis I"
+	name = "Ravian I"
 	desc = "POLITICS_AEGIS_DESC"
 	#picture = "gfx/leaders/AEZ/Panda.dds"
 	expire = "1965.1.1"
