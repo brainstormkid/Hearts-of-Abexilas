@@ -39,3 +39,19 @@ spriteTypes = {
 		name = "GFX_portrait_LEY_gottfried_sarkowa_small"
 		texturefile = "gfx/interface/ideas/idea_ley_gottfried_sarkowa_small.dds"
 	}
+
+
+        ### MYR
+        spriteType = {
+		name = "GFX_portrait_MYR_Ravian"
+		texturefile = "gfx/leaders/MYR/Ravian.dds"
+	}
+        spriteType = {
+		name = "GFX_portrait_MYR_Gamestew"
+		texturefile = "gfx/leaders/MYR/Gamestew.dds"
+	}
+        spriteType = {
+		name = "GFX_portrait_MYR_LaziOcelot"
+		texturefile = "gfx/leaders/MYR/LaziOcelot.dds"
+	}
+
