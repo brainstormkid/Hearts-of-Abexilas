@@ -1,0 +1,7 @@
+spriteTypes = {
+    spriteType = {
+      name = "GFX_radio_station_cover_Hearts_of_Abexilas_Music_Pack"
+      textureFile = "gfx/radio_station_cover_Hearts_of_Gold_Abexilas_Pack.dds"
+      noOfFrames = 2
+    }
+}
