@@ -19,9 +19,39 @@ set_war_support = 53
 create_country_leader = {
 	name = "Ravian I"
 	desc = "POLITICS_AEGIS_DESC"
-	#picture = "gfx/leaders/AEZ/Panda.dds"
+	picture = "GFX_portrait_MYR_Ravian"
 	expire = "1965.1.1"
 	ideology = despotism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Ravian I"
+	desc = "POLITICS_AEGIS_DESC"
+	picture = "GFX_portrait_MYR_Ravian"
+	expire = "1965.1.1"
+	ideology = falangism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Gamestew"
+	desc = "POLITICS_AEGIS_DESC"
+	picture = "GFX_portrait_MYR_Gamestew"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "LaziOcelot"
+	desc = "POLITICS_AEGIS_DESC"
+	picture = "GFX_portrait_MYR_LaziOcelot"
+	expire = "1965.1.1"
+	ideology = marxism
 	traits = {
 		#
 	}
