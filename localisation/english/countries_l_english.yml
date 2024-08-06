@@ -401,4 +401,17 @@
  BOV_communism:1 "People's Republic of Bovinica"
  BOV_communism_DEF:1 "the People's Republic of Bovinica"
  BOV_communism_ADJ:0 "Bovinican"
+ 
+ ORI_neutrality:1 "Archonate of Orion"
+ ORI_neutrality_DEF:1 "the Archonate of Orion"
+ ORI_neutrality_ADJ:0 "Orinnian"
+ ORI_fascism:1 "Orinnian Reich"
+ ORI_fascism_DEF:1 "the Orinnian  Reich"
+ ORI_fascism_ADJ:0 "Orinnian"
+ ORI_democratic:1 "Orinnian  Federation"
+ ORI_democratic_DEF:1 "the Orinnian  Federation"
+ ORI_democratic_ADJ:0 "Orinnian"
+ ORI_communism:1 "People's Republic of Orion"
+ ORI_communism_DEF:1 "the People's Republic of Orion"
+ ORI_communism_ADJ:0 "Orinnian"
 

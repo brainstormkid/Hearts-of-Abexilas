@@ -122,3 +122,7 @@ BOV = {
 	color = rgb { 167  208  244 }
 	color_ui = rgb { 167  208  244 }
 }
+ORI = {
+	color = rgb { 233  233  0 }
+	color_ui = rgb { 233  233  0 }
+}

@@ -7,14 +7,14 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 5
-	communism = 30
-	neutrality = 60
+	democratic = 31
+	fascism = 18
+	communism = 1
+	neutrality = 50
 }
 
 create_country_leader = {
-	name = "Dara Shasra"
+	name = "?"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	#picture = "gfx/leaders/AEZ/Panda.dds"
 	expire = "1965.1.1"
@@ -24,5 +24,5 @@ create_country_leader = {
 	}
 }
 
-set_stability = 0.9
-set_war_support = 0.5
+set_stability = 0.94
+set_war_support = 0.19
