@@ -1,0 +1,24 @@
+add_namespace = leyenbourg
+
+#Tim retires!
+country_event = {
+	id = leyenbourg.1
+	title = tim_retires.1.t
+	desc = tim_retires.1.d
+	picture = GFX_tim_retires
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = { days = 10 }
+	option = {
+		name = tim_retires.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		retire_character = LEY_tim
+		hidden_effect = {
+			
+		}
+	}
+}
