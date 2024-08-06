@@ -1,0 +1,2633 @@
+focus_tree = {
+	id = harpian-focus-tree
+	continuous_focus_position = { x = -40 y = 2740 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HAR
+		}
+	}
+	#Referendum for a Monarchy
+	focus = {
+		id = HRP_referendum_for_a_monarchy
+		icon = GFX_focus_generic_monarchy_2
+		x = 2
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_forthepeople  }
+	}
+
+	#Introduce Hereditary Titles
+	focus = {
+		id = HRP_introduce_hereditary_titles
+		icon = GFX_HRP_introduce_hereditary_titles-447
+		x = 0
+		y = 17
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_FRA_OCCUPATION_COST
+		}
+		prerequisite = { focus = HRP_theprotectorsguards  }
+	}
+
+	#Representative Parliament
+	focus = {
+		id = HRP_representative_parliament
+		icon = GFX_HRP_representative_parliament-645733
+		x = 6
+		y = 5
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_end_the_joke  }
+	}
+
+	#Appointed Mayors
+	focus = {
+		id = HRP_appointed_mayors
+		icon = GFX_HRP_appointed_mayors-646099
+		x = 2
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_establish_veto_power  }
+	}
+
+	#Prepare the Elections
+	focus = {
+		id = HRP_prepare_the_elections
+		icon = GFX_HRP_prepare_the_elections-427
+		x = 7
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			100 Political Power
+		}
+	}
+
+	#Goodbye, Josephson!
+	focus = {
+		id = HRP_goodbyejosephson
+		icon = GFX_HRP_goodbyejosephson-262035
+		x = 7
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_prepare_the_elections  }
+	}
+
+	#Democracy Truimphs!
+	focus = {
+		id = HRP_democracytruimphs
+		icon = GFX_HRP_democracytruimphs-645614
+		x = 5
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_goodbyejosephson  }
+		completion_reward = {
+			+10% stability
+		}
+	}
+
+	#A Change in Course
+	focus = {
+		id = HRP_a_change_in_course
+		icon = GFX_focus_usa_voter_registration_act
+		x = 9
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_goodbyejosephson  }
+		mutually_exclusive = { focus = HRP_democracytruimphs  }
+	}
+
+	#For the People!
+	focus = {
+		id = HRP_forthepeople
+		icon = GFX_HRP_forthepeople-690229
+		x = 2
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_democracytruimphs  }
+	}
+
+	#Victory for Liberty!
+	focus = {
+		id = HRP_victoryforliberty
+		icon = GFX_HRP_victoryforliberty-690231
+		x = 4
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_democracytruimphs  }
+		mutually_exclusive = { focus = HRP_forthepeople  }
+	}
+
+	#Empty Paper, Marked Ballot
+	focus = {
+		id = HRP_emptypapermarkedballot
+		icon = GFX_HRP_emptypapermarkedballot-690232
+		x = 6
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_democracytruimphs  }
+		mutually_exclusive = { focus = HRP_forthepeople  } mutually_exclusive = { focus = HRP_victoryforliberty  }
+	}
+
+	#The Rose Blossoms
+	focus = {
+		id = HRP_the_rose_blossoms
+		icon = GFX_HRP_the_rose_blossoms-690233
+		x = 8
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_democracytruimphs  }
+		mutually_exclusive = { focus = HRP_forthepeople  } mutually_exclusive = { focus = HRP_victoryforliberty  } mutually_exclusive = { focus = HRP_emptypapermarkedballot  }
+	}
+
+	#Business Grants
+	focus = {
+		id = HRP_business_grants
+		icon = GFX_HRP_business_grants-645474
+		x = 4
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_victoryforliberty  }
+	}
+
+	#End the Joke
+	focus = {
+		id = HRP_end_the_joke
+		icon = GFX_HRP_end_the_joke-262055
+		x = 6
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_emptypapermarkedballot  }
+	}
+
+	#Bill of Rights
+	focus = {
+		id = HRP_bill_of_rights
+		icon = GFX_HRP_bill_of_rights-645639
+		x = 8
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_the_rose_blossoms  }
+	}
+
+	#For the Emperor!
+	focus = {
+		id = HRP_fortheemperor
+		icon = GFX_focus_hun_elect_a_king
+		x = 0
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_referendum_for_a_monarchy  }
+	}
+
+	#Glory, not Tyranny
+	focus = {
+		id = HRP_glorynottyranny
+		icon = GFX_HRP_glorynottyranny-646002
+		x = 0
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_fortheemperor  }
+	}
+
+	#Formalize the Nobility
+	focus = {
+		id = HRP_formalize_the_nobility
+		icon = GFX_HRP_formalize_the_nobility-645617
+		x = 0
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_glorynottyranny  }
+	}
+
+	#Stabilize Parliament
+	focus = {
+		id = HRP_stabilize_parliament
+		icon = GFX_HRP_stabilize_parliament-645772
+		x = 0
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_formalize_the_nobility  }
+	}
+
+	#The von Rachie Dynasty
+	focus = {
+		id = HRP_the_von_rachie_dynasty
+		icon = GFX_HRP_the_von_rachie_dynasty-690336
+		x = 2
+		y = 10
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_create_the_grandeur_of_royalty  }
+	}
+
+	#The Nikarian Prince
+	focus = {
+		id = HRP_the_nikarian_prince
+		icon = GFX_HRP_the_nikarian_prince-690338
+		x = 0
+		y = 10
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_create_the_grandeur_of_royalty  }
+		mutually_exclusive = { focus = HRP_the_von_rachie_dynasty  }
+	}
+
+	#For the Republic!
+	focus = {
+		id = HRP_fortherepublic
+		icon = GFX_focus_rom_handle_king
+		x = 2
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_referendum_for_a_monarchy  }
+		mutually_exclusive = { focus = HRP_fortheemperor  }
+	}
+
+	#Strengthen the Executive
+	focus = {
+		id = HRP_strengthen_the_executive
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		x = 2
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_fortherepublic  }
+	}
+
+	#Establish Veto Power
+	focus = {
+		id = HRP_establish_veto_power
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		x = 2
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_strengthen_the_executive  }
+	}
+
+	#Establish Private Rents
+	focus = {
+		id = HRP_establish_private_rents
+		icon = GFX_focus_hol_abandon_the_gold_standard
+		x = 4
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_business_grants  }
+	}
+
+	#Personal Deregulation
+	focus = {
+		id = HRP_personal_deregulation
+		icon = GFX_HRP_personal_deregulation-645707
+		x = 4
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_establish_private_rents  }
+	}
+
+	#Laissez Faire
+	focus = {
+		id = HRP_laissez_faire
+		icon = GFX_goal_generic_consumer_goods
+		x = 4
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_personal_deregulation  }
+	}
+
+	#Stay in the Black
+	focus = {
+		id = HRP_stay_in_the_black
+		icon = GFX_HRP_stay_in_the_black-645940
+		x = 4
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_laissez_faire  }
+	}
+
+	#Crusade Against the Extremes
+	focus = {
+		id = HRP_crusade_against_the_extremes
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		x = 5
+		y = 8
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_forthepeople  focus = HRP_victoryforliberty  focus = HRP_emptypapermarkedballot  focus = HRP_the_rose_blossoms  }
+	}
+
+	#Host a Royal Wedding
+	focus = {
+		id = HRP_host_a_royal_wedding
+		icon = GFX_focus_generic_royal_wedding
+		x = 0
+		y = 11
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_the_nikarian_prince  }
+	}
+
+	#Sign the Constitution
+	focus = {
+		id = HRP_sign_the_constitution
+		icon = GFX_HRP_sign_the_constitution-645547
+		x = 0
+		y = 12
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_host_a_royal_wedding  }
+	}
+
+	#Unite the Realms
+	focus = {
+		id = HRP_unite_the_realms
+		icon = GFX_focus_hol_united_netherlands
+		x = 0
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HRP_sign_the_constitution  }
+	}
+
+	#Build the Royal Palace
+	focus = {
+		id = HRP_build_the_royal_palace
+		icon = GFX_HRP_build_the_royal_palace-262112
+		x = 2
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_the_von_rachie_dynasty  }
+	}
+
+	#Rule by Decree
+	focus = {
+		id = HRP_rule_by_decree
+		icon = GFX_focus_rom_royal_dictatorship
+		x = 2
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_build_the_royal_palace  }
+	}
+
+	#Vassalize the Lesser Nobles
+	focus = {
+		id = HRP_vassalize_the_lesser_nobles
+		icon = GFX_HRP_vassalize_the_lesser_nobles-645752
+		x = 2
+		y = 13
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HRP_rule_by_decree  }
+	}
+
+	#The Eternal Empire
+	focus = {
+		id = HRP_the_eternal_empire
+		icon = GFX_focus_focus_fra_third_empire
+		x = 1
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_vassalize_the_lesser_nobles  focus = HRP_unite_the_realms  }
+	}
+
+	#The Moderate Party
+	focus = {
+		id = HRP_the_moderate_party
+		icon = GFX_HRP_the_moderate_party-645471
+		x = 6
+		y = 6
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_representative_parliament  }
+	}
+
+	#Establish Term Limits
+	focus = {
+		id = HRP_establish_term_limits
+		icon = GFX_HRP_establish_term_limits-646297
+		x = 6
+		y = 7
+		cost = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_the_moderate_party  }
+	}
+
+	#Create the Election Commission
+	focus = {
+		id = HRP_create_the_election_commission
+		icon = GFX_HRP_create_the_election_commission-645542
+		x = 6
+		y = 8
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_establish_term_limits  }
+	}
+
+	#Continue Josephson's Reforms
+	focus = {
+		id = HRP_continuejosephsonsreforms
+		icon = GFX_focus_TUR_reform_the_balkan_pact
+		x = 8
+		y = 5
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_bill_of_rights  }
+	}
+
+	#LGBTQ Weddings
+	focus = {
+		id = HRP_lgbtq_weddings
+		icon = GFX_focus_generic_royal_wedding
+		x = 8
+		y = 6
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_continuejosephsonsreforms  }
+	}
+
+	#Start a Welfare Plan
+	focus = {
+		id = HRP_start_a_welfare_plan
+		icon = GFX_HRP_start_a_welfare_plan-645837
+		x = 8
+		y = 7
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_lgbtq_weddings  }
+	}
+
+	#Curtail Big Business
+	focus = {
+		id = HRP_curtail_big_business
+		icon = GFX_HRP_curtail_big_business-645960
+		x = 8
+		y = 8
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HRP_start_a_welfare_plan  }
+	}
+
+	#The Constitutional Convention at Last!
+	focus = {
+		id = HRP_theconstitutionalconventionatlast
+		icon = GFX_HRP_theconstitutionalconventionatlast-427
+		x = 5
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_crusade_against_the_extremes  focus = HRP_appointed_mayors  } prerequisite = { focus = HRP_crusade_against_the_extremes  focus = HRP_stay_in_the_black  } prerequisite = { focus = HRP_crusade_against_the_extremes  focus = HRP_curtail_big_business  } prerequisite = { focus = HRP_crusade_against_the_extremes  focus = HRP_create_the_election_commission  }
+	}
+
+	#Standardize Taxes
+	focus = {
+		id = HRP_standardize_taxes
+		icon = GFX_focus_generic_industry_3
+		x = 3
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HRP_theconstitutionalconventionatlast  }
+	}
+
+	#National Roadworks
+	focus = {
+		id = HRP_national_roadworks
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 5
+		y = 11
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HRP_theconstitutionalconventionatlast  }
+	}
+
+	#Bring Keltom into the Republic
+	focus = {
+		id = HRP_bring_keltom_into_the_republic
+		icon = GFX_HRP_bring_keltom_into_the_republic-690439
+		x = 7
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HRP_theconstitutionalconventionatlast  focus = HRP_outlaw_dissent  }
+	}
+
+	#Elections of 33 VE
+	focus = {
+		id = HRP_elections_of_33_ve
+		icon = GFX_HRP_elections_of_33_ve-645591
+		x = 5
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_standardize_taxes  } prerequisite = { focus = HRP_national_roadworks  } prerequisite = { focus = HRP_bring_keltom_into_the_republic  }
+	}
+
+	#Purchase Pavomia
+	focus = {
+		id = HRP_purchase_pavomia
+		icon = GFX_HRP_purchase_pavomia-262034
+		x = 7
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HRP_bring_keltom_into_the_republic  focus = HRP_annex_keltom  }
+	}
+
+	#Libertarian Victory
+	focus = {
+		id = HRP_libertarian_victory
+		icon = GFX_HRP_libertarian_victory-645755
+		x = 2
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_elections_of_33_ve  }
+		mutually_exclusive = { }
+	}
+
+	#The Center Holds!
+	focus = {
+		id = HRP_thecenterholds
+		icon = GFX_HRP_thecenterholds-645654
+		x = 4
+		y = 15
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_elections_of_33_ve  }
+		mutually_exclusive = { } mutually_exclusive = { focus = HRP_libertarian_victory  }
+	}
+
+	#Social Justice Forever!
+	focus = {
+		id = HRP_socialjusticeforever
+		icon = GFX_HRP_socialjusticeforever-646035
+		x = 6
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_elections_of_33_ve  }
+		mutually_exclusive = { } mutually_exclusive = { focus = HRP_libertarian_victory  } mutually_exclusive = { focus = HRP_thecenterholds  }
+	}
+
+	#The Progressives Return!
+	focus = {
+		id = HRP_theprogressivesreturn
+		icon = GFX_focus_mex_restore_the_army_of_christ
+		x = 8
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_elections_of_33_ve  }
+		mutually_exclusive = { } mutually_exclusive = { focus = HRP_libertarian_victory  } mutually_exclusive = { focus = HRP_thecenterholds  } mutually_exclusive = { focus = HRP_socialjusticeforever  }
+	}
+
+	#Protect Civil Liberties
+	focus = {
+		id = HRP_protect_civil_liberties
+		icon = GFX_HRP_protect_civil_liberties-645689
+		x = 6
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_socialjusticeforever  }
+	}
+
+	#Popular Capitalism
+	focus = {
+		id = HRP_popular_capitalism
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 2
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = HRP_libertarian_victory  }
+	}
+
+	#The Popular Mandate
+	focus = {
+		id = HRP_the_popular_mandate
+		icon = GFX_HRP_the_popular_mandate-262024
+		x = 0
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_elections_of_33_ve  }
+		mutually_exclusive = { focus = HRP_libertarian_victory  } mutually_exclusive = { focus = HRP_thecenterholds  } mutually_exclusive = { focus = HRP_socialjusticeforever  } mutually_exclusive = { focus = HRP_theprogressivesreturn  }
+	}
+
+	#The Protector's Guards
+	focus = {
+		id = HRP_theprotectorsguards
+		icon = GFX_HRP_theprotectorsguards-645482
+		x = 0
+		y = 16
+		cost = 9
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_the_popular_mandate  }
+	}
+
+	#Live a Little
+	focus = {
+		id = HRP_live_a_little
+		icon = GFX_focus_up_joan_of_arc
+		x = 4
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+		prerequisite = { focus = HRP_thecenterholds  }
+	}
+
+	#Expand the Safety Net
+	focus = {
+		id = HRP_expand_the_safety_net
+		icon = GFX_HRP_expand_the_safety_net-645969
+		x = 8
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = HRP_theprogressivesreturn  }
+	}
+
+	#Overtures to the Strong
+	focus = {
+		id = HRP_overtures_to_the_strong
+		icon = GFX_focus_generic_strike_at_democracy2
+		x = 1
+		y = 18
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+		prerequisite = { focus = HRP_theprotectorsguards  focus = HRP_popular_capitalism  }
+	}
+
+	#Exports From the Small Businesses
+	focus = {
+		id = HRP_exports_from_the_small_businesses
+		icon = GFX_HRP_exports_from_the_small_businesses-645641
+		x = 3
+		y = 18
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_popular_capitalism  focus = HRP_live_a_little  }
+	}
+
+	#Make Common Sense Changes
+	focus = {
+		id = HRP_make_common_sense_changes
+		icon = GFX_focus_generic_military_academy
+		x = 5
+		y = 18
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = HRP_live_a_little  focus = HRP_protect_civil_liberties  }
+	}
+
+	#Build Bridges With the Makerists
+	focus = {
+		id = HRP_build_bridges_with_the_makerists
+		icon = GFX_HRP_build_bridges_with_the_makerists-645968
+		x = 8
+		y = 17
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = HRP_expand_the_safety_net  }
+	}
+
+	#Expand Voter Rights
+	focus = {
+		id = HRP_expand_voter_rights
+		icon = GFX_HRP_expand_voter_rights-262075
+		x = 7
+		y = 18
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_MEX_CHURCH_AUTHORITY
+		}
+		prerequisite = { focus = HRP_protect_civil_liberties  focus = HRP_expand_the_safety_net  }
+	}
+
+	#Increase Term Limits
+	focus = {
+		id = HRP_increase_term_limits
+		icon = GFX_focus_usa_voter_registration_act
+		x = 0
+		y = 19
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_introduce_hereditary_titles  } prerequisite = { focus = HRP_overtures_to_the_strong  }
+	}
+
+	#Wages Based on Labor
+	focus = {
+		id = HRP_wages_based_on_labor
+		icon = GFX_focus_generic_industry_1
+		x = 2
+		y = 19
+		cost = 9
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HRP_overtures_to_the_strong  } prerequisite = { focus = HRP_exports_from_the_small_businesses  }
+	}
+
+	#The Moderates of Harpia
+	focus = {
+		id = HRP_the_moderates_of_harpia
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 4
+		y = 19
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_exports_from_the_small_businesses  } prerequisite = { focus = HRP_make_common_sense_changes  }
+	}
+
+	#Liberalism Prevails
+	focus = {
+		id = HRP_liberalism_prevails
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		x = 6
+		y = 19
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+		prerequisite = { focus = HRP_make_common_sense_changes  } prerequisite = { focus = HRP_expand_voter_rights  }
+	}
+
+	#The Status Quo's Deathblow
+	focus = {
+		id = HRP_thestatusquosdeathblow
+		icon = GFX_focus_focus_fra_liberte_egalite_solidarite
+		x = 8
+		y = 19
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HRP_expand_voter_rights  } prerequisite = { focus = HRP_build_bridges_with_the_makerists  }
+	}
+
+	#Freedom, For All, Forever
+	focus = {
+		id = HRP_freedomforallforever
+		icon = GFX_HRP_freedomforallforever-427
+		x = 4
+		y = 20
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_increase_term_limits  focus = HRP_wages_based_on_labor  focus = HRP_the_moderates_of_harpia  focus = HRP_liberalism_prevails  focus = HRP_thestatusquosdeathblow  }
+	}
+
+	#Memories of Montroig
+	focus = {
+		id = HRP_memories_of_montroig
+		icon = GFX_HRP_memories_of_montroig-646339
+		x = 10
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_a_change_in_course  }
+	}
+
+	#Fael's Return
+	focus = {
+		id = HRP_faelsreturn
+		icon = GFX_focus_BUL_the_return_of_ferdinand
+		x = 12
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_a_change_in_course  }
+		mutually_exclusive = { focus = HRP_memories_of_montroig  }
+	}
+
+	#Chairman de La Vadivai
+	focus = {
+		id = HRP_chairman_de_la_vadivai
+		icon = GFX_HRP_chairman_de_la_vadivai-646034
+		x = 10
+		y = 4
+		cost = 9
+		search_filters = {
+			FOCUS_FILTER_CHI_INFLATION
+		}
+		prerequisite = { focus = HRP_memories_of_montroig  }
+	}
+
+	#Distribute the Wealth
+	focus = {
+		id = HRP_distribute_the_wealth
+		icon = GFX_focus_TUR_taking_over_defense_of_the_gulf
+		x = 10
+		y = 5
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+		prerequisite = { focus = HRP_chairman_de_la_vadivai  }
+	}
+
+	#Collectivize the Land
+	focus = {
+		id = HRP_collectivize_the_land
+		icon = GFX_HRP_collectivize_the_land-646389
+		x = 10
+		y = 6
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_distribute_the_wealth  }
+	}
+
+	#Overtures to Gran Coran'i
+	focus = {
+		id = HRP_overturestograncorani
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 10
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MEX_CHURCH_AUTHORITY
+		}
+		prerequisite = { focus = HRP_collectivize_the_land  }
+	}
+
+	#Undemocratic Socialism
+	focus = {
+		id = HRP_undemocratic_socialism
+		icon = GFX_HRP_undemocratic_socialism-646082
+		x = 10
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_overturestograncorani  }
+	}
+
+	#Suspend Parliament
+	focus = {
+		id = HRP_suspend_parliament
+		icon = GFX_HRP_suspend_parliament-262036
+		x = 12
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_faelsreturn  }
+	}
+
+	#Our Enemies Without
+	focus = {
+		id = HRP_our_enemies_without
+		icon = GFX_focus_generic_strike_at_democracy3
+		x = 12
+		y = 5
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_FRA_OCCUPATION_COST
+		}
+		prerequisite = { focus = HRP_suspend_parliament  }
+	}
+
+	#The Traitors Within
+	focus = {
+		id = HRP_the_traitors_within
+		icon = GFX_HRP_the_traitors_within-645923
+		x = 12
+		y = 6
+		cost = 9
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HRP_our_enemies_without  }
+	}
+
+	#All Hail Glorious Fael!
+	focus = {
+		id = HRP_allhailgloriousfael
+		icon = GFX_HRP_allhailgloriousfael-645922
+		x = 12
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_no_language_but_montroigan  }
+	}
+
+	#No Language But Montroigan
+	focus = {
+		id = HRP_no_language_but_montroigan
+		icon = GFX_HRP_no_language_but_montroigan-646048
+		x = 12
+		y = 7
+		cost = 9
+		search_filters = {
+			FOCUS_FILTER_MEX_CHURCH_AUTHORITY
+		}
+		prerequisite = { focus = HRP_the_traitors_within  }
+	}
+
+	#Outlaw Dissent
+	focus = {
+		id = HRP_outlaw_dissent
+		icon = GFX_HRP_outlaw_dissent-646365
+		x = 11
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = HRP_allhailgloriousfael  focus = HRP_undemocratic_socialism  }
+	}
+
+	#Purge Traitors
+	focus = {
+		id = HRP_purge_traitors
+		icon = GFX_HRP_purge_traitors-645941
+		x = 11
+		y = 10
+		cost = 9
+		search_filters = {
+			FOCUS_FILTER_MEX_CHURCH_AUTHORITY
+		}
+		prerequisite = { focus = HRP_outlaw_dissent  }
+	}
+
+	#Indoctrinate the Youth
+	focus = {
+		id = HRP_indoctrinate_the_youth
+		icon = GFX_HRP_indoctrinate_the_youth-645679
+		x = 11
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_purge_traitors  }
+	}
+
+	#Annex Keltom
+	focus = {
+		id = HRP_annex_keltom
+		icon = GFX_HRP_annex_keltom-645861
+		x = 10
+		y = 12
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HRP_indoctrinate_the_youth  }
+	}
+
+	#Destroy Nikaria
+	focus = {
+		id = HRP_destroy_nikaria
+		icon = GFX_focus_BUL_destroy_the_zveno
+		x = 12
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HRP_indoctrinate_the_youth  }
+	}
+
+	#A New Red Mountain
+	focus = {
+		id = HRP_a_new_red_mountain
+		icon = GFX_focus_ger_great_red_menace
+		x = 10
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = HRP_annex_keltom  } prerequisite = { focus = HRP_destroy_nikaria  }
+	}
+
+	#The Harpian Übermensch
+	focus = {
+		id = HRP_theharpianubermensch
+		icon = GFX_HRP_theharpianubermensch-646045
+		x = 12
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = HRP_annex_keltom  } prerequisite = { focus = HRP_destroy_nikaria  }
+		mutually_exclusive = { focus = HRP_a_new_red_mountain  }
+	}
+
+	#Create the Grandeur of Royalty
+	focus = {
+		id = HRP_create_the_grandeur_of_royalty
+		icon = GFX_focus_generic_monarchy_2
+		x = 0
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+		prerequisite = { focus = HRP_stabilize_parliament  }
+	}
+
+	#Parliamentary Overhaul
+	focus = {
+		id = HRP_parliamentary_overhaul
+		icon = GFX_HRP_parliamentary_overhaul-645772
+		x = 16
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_finalize_road_projects  }
+	}
+
+	#Turn to the Cities
+	focus = {
+		id = HRP_turn_to_the_cities
+		icon = GFX_goal_generic_fortify_city
+		x = 20
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+	#Focus on New Moonburg
+	focus = {
+		id = HRP_focus_on_new_moonburg
+		icon = GFX_HRP_focus_on_new_moonburg-691683
+		x = 16
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_turn_to_the_cities  }
+	}
+
+	#Focus on Neo Baldia
+	focus = {
+		id = HRP_focus_on_neo_baldia
+		icon = GFX_HRP_focus_on_neo_baldia-691684
+		x = 24
+		y = 1
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_turn_to_the_cities  }
+	}
+
+	#Focus on Rachie City
+	focus = {
+		id = HRP_focus_on_rachie_city
+		icon = GFX_HRP_focus_on_rachie_city-691685
+		x = 26
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+		prerequisite = { focus = HRP_turn_to_the_cities  }
+	}
+
+	#Finalize Road Projects
+	focus = {
+		id = HRP_finalize_road_projects
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 16
+		y = 2
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_focus_on_new_moonburg  }
+	}
+
+	#Increase Farming Income
+	focus = {
+		id = HRP_increase_farming_income
+		icon = GFX_HRP_increase_farming_income-262088
+		x = 18
+		y = 2
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HRP_focus_on_new_moonburg  }
+	}
+
+	#Automate Cactus Production and Smelting
+	focus = {
+		id = HRP_automate_cactus_production_and_smelting
+		icon = GFX_HRP_automate_cactus_production_and_smelting-645716
+		x = 20
+		y = 2
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_MEX_CAUDILLO_REBELLION
+		}
+		prerequisite = { focus = HRP_focusonkuaraalasti  }
+	}
+
+	#Finish the Outer Walls
+	focus = {
+		id = HRP_finish_the_outer_walls
+		icon = GFX_goal_generic_fortify_city
+		x = 22
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_focusonkuaraalasti  }
+	}
+
+	#More Than Potatoes
+	focus = {
+		id = HRP_more_than_potatoes
+		icon = GFX_HRP_more_than_potatoes-645657
+		x = 24
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_focus_on_neo_baldia  }
+	}
+
+	#Permanent Residences
+	focus = {
+		id = HRP_permanent_residences
+		icon = GFX_HRP_permanent_residences-645953
+		x = 26
+		y = 2
+		cost = 9
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_focus_on_rachie_city  }
+	}
+
+	#Fertilizer Farms
+	focus = {
+		id = HRP_fertilizer_farms
+		icon = GFX_HRP_fertilizer_farms-645921
+		x = 18
+		y = 3
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_increase_farming_income  }
+	}
+
+	#Put the Smart Fellas to Work
+	focus = {
+		id = HRP_put_the_smart_fellas_to_work
+		icon = GFX_HRP_put_the_smart_fellas_to_work-646153
+		x = 20
+		y = 3
+		cost = 9
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = HRP_automate_cactus_production_and_smelting  } prerequisite = { focus = HRP_finish_the_outer_walls  }
+	}
+
+	#Allow Unionization
+	focus = {
+		id = HRP_allow_unionization
+		icon = GFX_HRP_allow_unionization-645684
+		x = 22
+		y = 3
+		cost = 9
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_automate_cactus_production_and_smelting  } prerequisite = { focus = HRP_finish_the_outer_walls  }
+	}
+
+	#Improve Ease of Access
+	focus = {
+		id = HRP_improve_ease_of_access
+		icon = GFX_HRP_improve_ease_of_access-645485
+		x = 24
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_more_than_potatoes  }
+	}
+
+	#Construct Civilian Shipyards
+	focus = {
+		id = HRP_construct_civilian_shipyards
+		icon = GFX_HRP_construct_civilian_shipyards-262058
+		x = 26
+		y = 3
+		cost = 9
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HRP_permanent_residences  }
+	}
+
+	#Construct a Beautiful Wall
+	focus = {
+		id = HRP_construct_a_beautiful_wall
+		icon = GFX_focus_generic_coastal_fort
+		x = 16
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_parliamentary_overhaul  }
+	}
+
+	#Construct an Imposing Wall
+	focus = {
+		id = HRP_construct_an_imposing_wall
+		icon = GFX_HRP_construct_an_imposing_wall-646313
+		x = 18
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_parliamentary_overhaul  }
+		mutually_exclusive = { focus = HRP_construct_a_beautiful_wall  }
+	}
+
+	#Diversify Our Industry
+	focus = {
+		id = HRP_diversify_our_industry
+		icon = GFX_HRP_diversify_our_industry-262097
+		x = 21
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HRP_put_the_smart_fellas_to_work  } prerequisite = { focus = HRP_allow_unionization  }
+	}
+
+	#Residential Subsidies
+	focus = {
+		id = HRP_residential_subsidies
+		icon = GFX_HRP_residential_subsidies-646314
+		x = 24
+		y = 4
+		cost = 9
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_improve_ease_of_access  }
+	}
+
+	#Continue the Naval Monopoly
+	focus = {
+		id = HRP_continue_the_naval_monopoly
+		icon = GFX_focus_generic_africa_naval
+		x = 26
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_construct_civilian_shipyards  }
+	}
+
+	#Lend Dock Builders to the Cities
+	focus = {
+		id = HRP_lend_dock_builders_to_the_cities
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 28
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_CHI_INFLATION
+		}
+		prerequisite = { focus = HRP_construct_civilian_shipyards  }
+		mutually_exclusive = { focus = HRP_continue_the_naval_monopoly  }
+	}
+
+	#Establish National Forestry Reserves
+	focus = {
+		id = HRP_establish_national_forestry_reserves
+		icon = GFX_HRP_establish_national_forestry_reserves-645643
+		x = 16
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_construct_a_beautiful_wall  }
+	}
+
+	#Mandate Two Story Houses
+	focus = {
+		id = HRP_mandate_two_story_houses
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 18
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HRP_construct_an_imposing_wall  }
+	}
+
+	#Focus on Kuára-Alasti
+	focus = {
+		id = HRP_focusonkuaraalasti
+		icon = GFX_goal_unknown
+		x = 22
+		y = 1
+		cost = 9
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = HRP_turn_to_the_cities  }
+	}
+
+	#Make Even More Ships!
+	focus = {
+		id = HRP_makeevenmoreships
+		icon = GFX_HRP_makeevenmoreships-645974
+		x = 27
+		y = 5
+		cost = 9
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HRP_continue_the_naval_monopoly  focus = HRP_lend_dock_builders_to_the_cities  }
+	}
+
+	#Seek New Markets
+	focus = {
+		id = HRP_seek_new_markets
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 20
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HRP_put_the_smart_fellas_to_work  } prerequisite = { focus = HRP_diversify_our_industry  }
+	}
+
+	#Goods For Harpia Alone
+	focus = {
+		id = HRP_goods_for_harpia_alone
+		icon = GFX_HRP_goods_for_harpia_alone-645595
+		x = 22
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_allow_unionization  } prerequisite = { focus = HRP_diversify_our_industry  }
+		mutually_exclusive = { focus = HRP_seek_new_markets  }
+	}
+
+	#Montroigan Language Classes
+	focus = {
+		id = HRP_montroigan_language_classes
+		icon = GFX_HRP_montroigan_language_classes-646306
+		x = 24
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = HRP_residential_subsidies  }
+	}
+
+	#The University of New Moonburg
+	focus = {
+		id = HRP_the_university_of_new_moonburg
+		icon = GFX_HRP_the_university_of_new_moonburg-645529
+		x = 17
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = HRP_establish_national_forestry_reserves  focus = HRP_mandate_two_story_houses  }
+	}
+
+	#Hollow Out the Earth
+	focus = {
+		id = HRP_hollow_out_the_earth
+		icon = GFX_HRP_hollow_out_the_earth-645959
+		x = 20
+		y = 6
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HRP_seek_new_markets  }
+	}
+
+	#Develop a Real City
+	focus = {
+		id = HRP_develop_a_real_city
+		icon = GFX_goal_generic_construct_civilian
+		x = 22
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HRP_goods_for_harpia_alone  }
+	}
+
+	#Create the Neo Baldia Industrial Center
+	focus = {
+		id = HRP_create_the_neo_baldia_industrial_center
+		icon = GFX_HRP_create_the_neo_baldia_industrial_center-645960
+		x = 24
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_montroigan_language_classes  }
+	}
+
+	#Send Out Fortification Engineers
+	focus = {
+		id = HRP_send_out_fortification_engineers
+		icon = GFX_focus_generic_coastal_fort
+		x = 27
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HRP_makeevenmoreships  }
+	}
+
+	#A City Among the Stars
+	focus = {
+		id = HRP_a_city_among_the_stars
+		icon = GFX_HRP_a_city_among_the_stars-645850
+		x = 17
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_the_university_of_new_moonburg  }
+	}
+
+	#Add New Prussia to the City
+	focus = {
+		id = HRP_add_new_prussia_to_the_city
+		icon = GFX_HRP_add_new_prussia_to_the_city-645861
+		x = 21
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_develop_a_real_city  focus = HRP_hollow_out_the_earth  }
+	}
+
+	#Set Up the Neo Baldia Town Council
+	focus = {
+		id = HRP_set_up_the_neo_baldia_town_council
+		icon = GFX_HRP_set_up_the_neo_baldia_town_council-646365
+		x = 24
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = HRP_create_the_neo_baldia_industrial_center  }
+	}
+
+	#The Twin Cities, New and Improved!
+	focus = {
+		id = HRP_thetwincitiesnewandimproved
+		icon = GFX_focus_hol_united_netherlands
+		x = 19
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_a_city_among_the_stars  } prerequisite = { focus = HRP_add_new_prussia_to_the_city  }
+	}
+
+	#Build a Church For Rachieism
+	focus = {
+		id = HRP_build_a_church_for_rachieism
+		icon = GFX_focus_jap_manchurian_project
+		x = 27
+		y = 7
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_send_out_fortification_engineers  }
+	}
+
+	#Secondary Cities Given Purpose
+	focus = {
+		id = HRP_secondary_cities_given_purpose
+		icon = GFX_HRP_secondary_cities_given_purpose-645708
+		x = 26
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_set_up_the_neo_baldia_town_council  } prerequisite = { focus = HRP_build_a_church_for_rachieism  }
+	}
+
+	#Pass the Army Overhaul Bill
+	focus = {
+		id = HRP_pass_the_army_overhaul_bill
+		icon = GFX_focus_GRE_hellenic_armed_forces
+		x = 20
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+	}
+
+	#Form the Harpian Police Division
+	focus = {
+		id = HRP_form_the_harpian_police_division
+		icon = GFX_HRP_form_the_harpian_police_division-646370
+		x = 19
+		y = 12
+		cost = 11
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_pass_the_army_overhaul_bill  }
+	}
+
+	#Give the Militia to the Cities
+	focus = {
+		id = HRP_give_the_militia_to_the_cities
+		icon = GFX_HRP_give_the_militia_to_the_cities-646021
+		x = 21
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_pass_the_army_overhaul_bill  }
+		mutually_exclusive = { focus = HRP_form_the_harpian_police_division  }
+	}
+
+	#Establish The River Patrol Company
+	focus = {
+		id = HRP_establish_the_river_patrol_company
+		icon = GFX_HRP_establish_the_river_patrol_company-645842
+		x = 18
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_form_the_harpian_police_division  }
+	}
+
+	#The Gunboat Program
+	focus = {
+		id = HRP_the_gunboat_program
+		icon = GFX_HRP_the_gunboat_program-646302
+		x = 22
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_give_the_militia_to_the_cities  }
+	}
+
+	#Formalize the Rank Structure
+	focus = {
+		id = HRP_formalize_the_rank_structure
+		icon = GFX_HRP_formalize_the_rank_structure-645632
+		x = 20
+		y = 14
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_merge_the_marines_into_the_republican_guard  }
+	}
+
+	#Merge the Marines into the Republican Guard
+	focus = {
+		id = HRP_merge_the_marines_into_the_republican_guard
+		icon = GFX_HRP_merge_the_marines_into_the_republican_guard-646199
+		x = 20
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_form_the_harpian_police_division  focus = HRP_give_the_militia_to_the_cities  }
+	}
+
+	#The Harpian Highship Fleet
+	focus = {
+		id = HRP_the_harpian_highship_fleet
+		icon = GFX_HRP_the_harpian_highship_fleet-645534
+		x = 25
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HRP_merge_the_marines_into_the_republican_guard  }
+	}
+
+	#Rachie City's Greatest Creation
+	focus = {
+		id = HRP_rachiecitysgreatestcreation
+		icon = GFX_HRP_rachiecitysgreatestcreation-645581
+		x = 15
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HRP_merge_the_marines_into_the_republican_guard  }
+	}
+
+	#Create a Naval Doctrine
+	focus = {
+		id = HRP_create_a_naval_doctrine
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 15
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_rachiecitysgreatestcreation  }
+	}
+
+	#Standardize Naval Weaponry
+	focus = {
+		id = HRP_standardize_naval_weaponry
+		icon = GFX_HRP_standardize_naval_weaponry-645974
+		x = 13
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_CHI_INFLATION
+		}
+		prerequisite = { focus = HRP_rachiecitysgreatestcreation  }
+	}
+
+	#Hire Rozzakko'ran Military Instructors
+	focus = {
+		id = HRP_hirerozzakkoranmilitaryinstructors
+		icon = GFX_goal_continuous_reduce_training_time
+		x = 20
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HRP_formalize_the_rank_structure  }
+	}
+
+	#Build a Highship Port
+	focus = {
+		id = HRP_build_a_highship_port
+		icon = GFX_HRP_build_a_highship_port-645803
+		x = 25
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+		prerequisite = { focus = HRP_the_harpian_highship_fleet  }
+	}
+
+	#Starting Small
+	focus = {
+		id = HRP_starting_small
+		icon = GFX_HRP_starting_small-646158
+		x = 27
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HRP_the_harpian_highship_fleet  }
+	}
+
+	#Build a Flagship
+	focus = {
+		id = HRP_build_a_flagship
+		icon = GFX_HRP_build_a_flagship-404
+		x = 13
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HRP_create_a_naval_doctrine  } prerequisite = { focus = HRP_standardize_naval_weaponry  }
+	}
+
+	#Train up the Sailors
+	focus = {
+		id = HRP_train_up_the_sailors
+		icon = GFX_focus_mex_soldaderas
+		x = 15
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_create_a_naval_doctrine  } prerequisite = { focus = HRP_standardize_naval_weaponry  }
+	}
+
+	#The Noncombat Roles
+	focus = {
+		id = HRP_the_noncombat_roles
+		icon = GFX_HRP_the_noncombat_roles-645738
+		x = 18
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_hirerozzakkoranmilitaryinstructors  }
+	}
+
+	#Improve Fuel Efficiency
+	focus = {
+		id = HRP_improve_fuel_efficiency
+		icon = GFX_HRP_improve_fuel_efficiency-645984
+		x = 25
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = HRP_build_a_highship_port  }
+	}
+
+	#Infantry Leads the Way!
+	focus = {
+		id = HRP_infantryleadstheway
+		icon = GFX_focus_prc_infiltration
+		x = 20
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MEX_CAUDILLO_REBELLION
+		}
+		prerequisite = { focus = HRP_hirerozzakkoranmilitaryinstructors  }
+	}
+
+	#Harpian Grenadier Corps
+	focus = {
+		id = HRP_harpian_grenadier_corps
+		icon = GFX_goal_generic_special_forces
+		x = 22
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_CHI_INFLATION
+		}
+		prerequisite = { focus = HRP_hirerozzakkoranmilitaryinstructors  }
+	}
+
+	#Multirole Fighters
+	focus = {
+		id = HRP_multirole_fighters
+		icon = GFX_HRP_multirole_fighters-645903
+		x = 27
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_starting_small  }
+	}
+
+	#Reestablish the Republican Marines
+	focus = {
+		id = HRP_reestablish_the_republican_marines
+		icon = GFX_goal_generic_amphibious_assault
+		x = 17
+		y = 17
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_formalize_the_rank_structure  } prerequisite = { focus = HRP_rachiecitysgreatestcreation  }
+	}
+
+	#Let the Hawks Fly
+	focus = {
+		id = HRP_let_the_hawks_fly
+		icon = GFX_focus_generic_paratrooper
+		x = 23
+		y = 17
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_formalize_the_rank_structure  } prerequisite = { focus = HRP_the_harpian_highship_fleet  }
+	}
+
+	#Focus on Small Ships
+	focus = {
+		id = HRP_focus_on_small_ships
+		icon = GFX_focus_generic_destroyer
+		x = 13
+		y = 17
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_build_a_flagship  } prerequisite = { focus = HRP_train_up_the_sailors  }
+	}
+
+	#A Grand Navy
+	focus = {
+		id = HRP_a_grand_navy
+		icon = GFX_HRP_a_grand_navy-646169
+		x = 15
+		y = 17
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_build_a_flagship  } prerequisite = { focus = HRP_train_up_the_sailors  }
+		mutually_exclusive = { focus = HRP_focus_on_small_ships  }
+	}
+
+	#True Flying Warships
+	focus = {
+		id = HRP_true_flying_warships
+		icon = GFX_HRP_true_flying_warships-262093
+		x = 26
+		y = 17
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HRP_improve_fuel_efficiency  } prerequisite = { focus = HRP_multirole_fighters  }
+	}
+
+	#The Right Arm of Democracy
+	focus = {
+		id = HRP_the_right_arm_of_democracy
+		icon = GFX_HRP_the_right_arm_of_democracy-646003
+		x = 20
+		y = 17
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HRP_infantryleadstheway  }
+	}
+
+	#Just Blow Them Up
+	focus = {
+		id = HRP_just_blow_them_up
+		icon = GFX_HRP_just_blow_them_up-646319
+		x = 20
+		y = 18
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_the_right_arm_of_democracy  }
+		mutually_exclusive = { focus = HRP_ride_upon_steel_horses  } mutually_exclusive = { focus = HRP_plan_for_everything  }
+	}
+
+	#Pirates of the 1st Century
+	focus = {
+		id = HRP_pirates_of_the_1st_century
+		icon = GFX_goal_generic_navy_anti_submarine
+		x = 13
+		y = 18
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_focus_on_small_ships  }
+	}
+
+	#Obliteration of the Foe
+	focus = {
+		id = HRP_obliteration_of_the_foe
+		icon = GFX_focus_generic_navy_battleship2
+		x = 15
+		y = 18
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_a_grand_navy  }
+	}
+
+	#Ride Upon Steel Horses
+	focus = {
+		id = HRP_ride_upon_steel_horses
+		icon = GFX_focus_generic_army_tanks2
+		x = 18
+		y = 18
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HRP_the_right_arm_of_democracy  }
+	}
+
+	#Plan for Everything
+	focus = {
+		id = HRP_plan_for_everything
+		icon = GFX_HRP_plan_for_everything-262099
+		x = 22
+		y = 18
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HRP_the_right_arm_of_democracy  }
+	}
+
+	#Flying Cities of Annihilation
+	focus = {
+		id = HRP_flying_cities_of_annihilation
+		icon = GFX_HRP_flying_cities_of_annihilation-646006
+		x = 26
+		y = 18
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_true_flying_warships  }
+	}
+
+	#Cruisers Rule the Waves
+	focus = {
+		id = HRP_cruisers_rule_the_waves
+		icon = GFX_goal_generic_navy_cruiser
+		x = 13
+		y = 19
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HRP_pirates_of_the_1st_century  }
+	}
+
+	#Carrier Projects
+	focus = {
+		id = HRP_carrier_projects
+		icon = GFX_goal_generic_navy_carrier
+		x = 15
+		y = 19
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_obliteration_of_the_foe  }
+	}
+
+	#Let Real Horses Rest
+	focus = {
+		id = HRP_let_real_horses_rest
+		icon = GFX_HRP_let_real_horses_rest-645987
+		x = 18
+		y = 19
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HRP_ride_upon_steel_horses  }
+	}
+
+	#Expand the Grenadier Corps
+	focus = {
+		id = HRP_expand_the_grenadier_corps
+		icon = GFX_HRP_expand_the_grenadier_corps-646229
+		x = 20
+		y = 19
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HRP_just_blow_them_up  }
+	}
+
+	#Fortify Key Positions
+	focus = {
+		id = HRP_fortify_key_positions
+		icon = GFX_HRP_fortify_key_positions-645807
+		x = 22
+		y = 19
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HRP_plan_for_everything  }
+	}
+
+	#Ground Support With Highships
+	focus = {
+		id = HRP_ground_support_with_highships
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 25
+		y = 19
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_flying_cities_of_annihilation  }
+	}
+
+	#Ground Support With Zippys
+	focus = {
+		id = HRP_ground_support_with_zippys
+		icon = GFX_goal_generic_air_bomber
+		x = 27
+		y = 19
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HRP_flying_cities_of_annihilation  }
+		mutually_exclusive = { focus = HRP_ground_support_with_highships  }
+	}
+
+	#Harpia Rules the Waves
+	focus = {
+		id = HRP_harpia_rules_the_waves
+		icon = GFX_HRP_harpia_rules_the_waves-646058
+		x = 14
+		y = 20
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_cruisers_rule_the_waves  focus = HRP_carrier_projects  }
+	}
+
+	#An Areal Navy
+	focus = {
+		id = HRP_an_areal_navy
+		icon = GFX_HRP_an_areal_navy-646121
+		x = 25
+		y = 20
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_ground_support_with_highships  }
+	}
+
+	#The Fifty-Thousand Boots of Democracy
+	focus = {
+		id = HRP_the_fiftythousand_boots_of_democracy
+		icon = GFX_HRP_the_fiftythousand_boots_of_democracy-645650
+		x = 20
+		y = 20
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HRP_let_real_horses_rest  focus = HRP_expand_the_grenadier_corps  focus = HRP_fortify_key_positions  }
+	}
+
+	#The Practical Air Corps
+	focus = {
+		id = HRP_the_practical_air_corps
+		icon = GFX_HRP_the_practical_air_corps-645961
+		x = 27
+		y = 20
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_ground_support_with_zippys  }
+	}
+
+	#Establish a Concrete Foreign Policy
+	focus = {
+		id = HRP_establish_a_concrete_foreign_policy
+		icon = GFX_focus_TUR_reconfigure_turkish_foreign_policy
+		x = 11
+		y = 20
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Conqueror of Rozakko'ra
+	focus = {
+		id = HRP_conquerorofrozakkora
+		icon = GFX_HRP_conquerorofrozakkora-645990
+		x = 10
+		y = 22
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_establish_a_concrete_foreign_policy  }
+	}
+
+	#The Formation of the Rozakko'ran Defense Pact.
+	focus = {
+		id = HRP_theformationoftherozakkorandefensepact
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 12
+		y = 22
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_establish_a_concrete_foreign_policy  }
+		mutually_exclusive = { focus = HRP_conquerorofrozakkora  }
+	}
+
+	#Create the Embassy Program
+	focus = {
+		id = HRP_create_the_embassy_program
+		icon = GFX_HRP_create_the_embassy_program-646367
+		x = 11
+		y = 21
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_establish_a_concrete_foreign_policy  }
+	}
+
+	#Dominate the Iron River
+	focus = {
+		id = HRP_dominate_the_iron_river
+		icon = GFX_focus_RAJ_lions_of_the_great_war
+		x = 10
+		y = 23
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_conquerorofrozakkora  }
+		completion_reward = {
+			Claim Keltom and Tisketh
+		}
+	}
+
+	#Destroy the Minor States
+	focus = {
+		id = HRP_destroy_the_minor_states
+		icon = GFX_HRP_destroy_the_minor_states-646343
+		x = 8
+		y = 24
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HRP_dominate_the_iron_river  }
+	}
+
+	#Demand Nikarian Subjugation
+	focus = {
+		id = HRP_demand_nikarian_subjugation
+		icon = GFX_HRP_demand_nikarian_subjugation-59
+		x = 10
+		y = 24
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_dominate_the_iron_river  }
+	}
+
+	#Form the Internal Security Corps
+	focus = {
+		id = HRP_form_the_internal_security_corps
+		icon = GFX_HRP_form_the_internal_security_corps-645962
+		x = 9
+		y = 25
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_destroy_the_minor_states  } prerequisite = { focus = HRP_demand_nikarian_subjugation  }
+	}
+
+	#Consolidate the North
+	focus = {
+		id = HRP_consolidate_the_north
+		icon = GFX_focus_usa_tank_destroyer_doctrine
+		x = 9
+		y = 26
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HRP_form_the_internal_security_corps  }
+	}
+
+	#Obliterate Wadiwaya
+	focus = {
+		id = HRP_obliterate_wadiwaya
+		icon = GFX_focus_focus_fra_down_marianne
+		x = 8
+		y = 27
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HRP_consolidate_the_north  }
+	}
+
+	#Demand Sentaran Enclaves
+	focus = {
+		id = HRP_demand_sentaran_enclaves
+		icon = GFX_goal_demand_sudetenland
+		x = 9
+		y = 28
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+	}
+
+	#Suldex Delenda Est
+	focus = {
+		id = HRP_suldex_delenda_est
+		icon = GFX_focus_GRE_reviving_the_spartan_warrior_spirit
+		x = 10
+		y = 27
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HRP_consolidate_the_north  }
+	}
+
+	#Secure the Food Supply
+	focus = {
+		id = HRP_secure_the_food_supply
+		icon = GFX_HRP_secure_the_food_supply-645921
+		x = 12
+		y = 24
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HRP_allies_along_the_iron_river  }
+	}
+
+	#Our Friends in Suldex
+	focus = {
+		id = HRP_our_friends_in_suldex
+		icon = GFX_HRP_our_friends_in_suldex-645771
+		x = 14
+		y = 24
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HRP_allies_along_the_iron_river  }
+	}
+
+	#The Rozakko'ran Unified Military Command
+	focus = {
+		id = HRP_therozakkoranunifiedmilitarycommand
+		icon = GFX_focus_RAJ_indian_gentlemen_offcers
+		x = 13
+		y = 25
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HRP_secure_the_food_supply  } prerequisite = { focus = HRP_our_friends_in_suldex  }
+	}
+
+	#Save a Seat for Lunis
+	focus = {
+		id = HRP_save_a_seat_for_lunis
+		icon = GFX_HRP_save_a_seat_for_lunis-646099
+		x = 12
+		y = 27
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HRP_bring_the_north_into_the_pact  }
+	}
+
+	#Welcome Greater Harpia
+	focus = {
+		id = HRP_welcome_greater_harpia
+		icon = GFX_HRP_welcome_greater_harpia-645682
+		x = 9
+		y = 29
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_demand_sentaran_enclaves  }
+	}
+
+	#Allies Along the Iron River
+	focus = {
+		id = HRP_allies_along_the_iron_river
+		icon = GFX_HRP_allies_along_the_iron_river-645452
+		x = 12
+		y = 23
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HRP_theformationoftherozakkorandefensepact  }
+	}
+
+	#Bring the North Into the Pact
+	focus = {
+		id = HRP_bring_the_north_into_the_pact
+		icon = GFX_HRP_bring_the_north_into_the_pact-646346
+		x = 13
+		y = 26
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_therozakkoranunifiedmilitarycommand  }
+	}
+
+	#Bury the Wadiwayan Hatchet
+	focus = {
+		id = HRP_bury_the_wadiwayan_hatchet
+		icon = GFX_HRP_bury_the_wadiwayan_hatchet-646312
+		x = 14
+		y = 27
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HRP_bring_the_north_into_the_pact  }
+	}
+
+	#Purchase Foreign Enclaves
+	focus = {
+		id = HRP_purchase_foreign_enclaves
+		icon = GFX_goal_generic_military_deal
+		x = 13
+		y = 28
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HRP_save_a_seat_for_lunis  } prerequisite = { focus = HRP_bury_the_wadiwayan_hatchet  }
+	}
+
+	#The United States of Rozakko'ra
+	focus = {
+		id = HRP_theunitedstatesofrozakkora
+		icon = GFX_HRP_theunitedstatesofrozakkora-645797
+		x = 12
+		y = 29
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HRP_purchase_foreign_enclaves  }
+		completion_reward = {
+			Every member of the 'Rozakko'ran Defense Pact' faction is asked to unite with Harpia into the new state 'The United States of Rozakko'ra'.
+		}
+	}
+
+	#Invite Chimera to the Pact
+	focus = {
+		id = HRP_invite_chimera_to_the_pact
+		icon = GFX_HRP_invite_chimera_to_the_pact-645651
+		x = 14
+		y = 29
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HRP_purchase_foreign_enclaves  }
+		mutually_exclusive = { focus = HRP_theunitedstatesofrozakkora  }
+	}
+
+	#A World Power at Last
+	focus = {
+		id = HRP_a_world_power_at_last
+		icon = GFX_HRP_a_world_power_at_last-646003
+		x = 11
+		y = 30
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_welcome_greater_harpia  focus = HRP_theunitedstatesofrozakkora  focus = HRP_invite_chimera_to_the_pact  }
+		completion_reward = {
+			Get the National Spirit "The Rising Hawk"
+		}
+	}
+
+	#A World Power at Last
+	focus = {
+		id = HRP_a_world_power_at_last
+		icon = GFX_HRP_a_world_power_at_last-646003
+		x = 11
+		y = 30
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_welcome_greater_harpia  focus = HRP_theunitedstatesofrozakkora  focus = HRP_invite_chimera_to_the_pact  }
+		completion_reward = {
+			Get the National Spirit "The Rising Hawk"
+		}
+	}
+
+}

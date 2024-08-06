@@ -4,7 +4,7 @@ set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
 	democratic = 70
@@ -18,7 +18,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSHUA_DESC"
 	picture = "gfx/leaders/HAR/Joshua.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = liberalism
 	traits = {
 		#
 	}
