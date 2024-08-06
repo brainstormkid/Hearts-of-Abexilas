@@ -22,3 +22,7 @@
  myrtana_pre_civil.4.t:0 "Assasination Sucess!"
  myrtana_pre_civil.4.d:0 "We managed to send in the spy to inflitrate protestor's city with a sniper rifle and we got report that Aegis was assasinated from getting shot in the back of his head."
  myrtana_pre_civil.4.a:0 "That should do the trick."
+ #LEYENBOURG EVENTS
+ tim_retires.1.t:0 "Tim retires!"
+ tim_retires.1.d:0 "Tim Desmond III. has unexpectedly stepped down from his position of High Chancellor"
+ tim_retires.1.a:0 "A Surprise to be sure"
