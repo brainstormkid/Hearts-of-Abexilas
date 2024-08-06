@@ -126,3 +126,7 @@ ORI = {
 	color = rgb { 233  233  0 }
 	color_ui = rgb { 233  233  0 }
 }
+BEE = {
+	color = rgb { 222  192  80 }
+	color_ui = rgb { 222  192  80 }
+}

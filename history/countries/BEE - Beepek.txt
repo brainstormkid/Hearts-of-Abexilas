@@ -1,0 +1,38 @@
+﻿capital = 1
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 13
+	fascism = 24
+	communism = 16
+	neutrality = 47
+}
+
+create_country_leader = {
+	name = "?"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	#picture = "gfx/leaders/AEZ/Panda.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+set_stability = 0.73
+set_war_support = 0.68
+
+set_autonomy = {
+	target = END
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = BOV
+	autonomous_state = autonomy_puppet
+}
