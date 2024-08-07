@@ -492,4 +492,17 @@
  CAK_communism:1 "People's Republic of Cakhtlan"
  CAK_communism_DEF:1 "the People's Republic of Cakhtlan"
  CAK_communism_ADJ:0 "Cakhtlan"
+ 
+ KAD_neutrality:1 "Imperial Crownlands of Kaddu"
+ KAD_neutrality_DEF:1 "the Imperial Crownlands of Kaddu"
+ KAD_neutrality_ADJ:0 "Kaddian"
+ KAD_fascism:1 "Kaddian Reich"
+ KAD_fascism_DEF:1 "the Kaddian Reich"
+ KAD_fascism_ADJ:0 "Kaddian"
+ KAD_democratic:1 "Kaddian Federation"
+ KAD_democratic_DEF:1 "the Kaddian Federation"
+ KAD_democratic_ADJ:0 "Kaddian"
+ KAD_communism:1 "People's Republic of Kaddu"
+ KAD_communism_DEF:1 "the People's Republic of Kaddu"
+ KAD_communism_ADJ:0 "Kaddian"
 

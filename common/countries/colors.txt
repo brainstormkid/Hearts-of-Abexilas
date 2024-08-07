@@ -150,3 +150,7 @@ CAK = {
 	color = rgb { 91  207  251 }
 	color_ui = rgb { 91  207  251 }
 }
+KAD = {
+	color = rgb { 199  133  52 }
+	color_ui = rgb { 199  133  52 }
+}
