@@ -134,3 +134,7 @@ HAR = {
 	color = rgb { 75  0  110 }
 	color_ui = rgb { 75  0  110 }
 }
+GAR = {
+	color = rgb { 225  0  220 }
+	color_ui = rgb { 225  0  220 }
+}
