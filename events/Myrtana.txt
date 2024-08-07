@@ -49,7 +49,7 @@ country_event = {
 	id = myrtana.2
 	title = myrtana_pre_civil.2.t
 	desc = myrtana_pre_civil.2.d
-	picture = the_myrtanian_defense_force_has_landed_in_torsheim-744
+	picture = GFX_police_at_torsheim
 	
 	is_triggered_only = yes
 	

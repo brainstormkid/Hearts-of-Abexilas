@@ -7,6 +7,15 @@ spriteTypes = {
 		name = "GFX_unrest_in_torsheim"
 		texturefile = "gfx/event_pictures/unrest_in_torsheim_event_image.dds"
 	}
+        }
+	spriteType = {
+		name = "GFX_defenders_at_torsheim"
+		texturefile = "gfx/event_pictures/defenders_at_torsheim.dds"
+	}
+        spriteType = {
+		name = "GFX_police_at_torsheim"
+		texturefile = "gfx/event_pictures/police_at_torsheim.dds.dds"
+	}
 	##Icon For: Tim retires!
 	SpriteType = { 
 		name = "GFX_tim_retires"
