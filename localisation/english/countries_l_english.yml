@@ -453,4 +453,17 @@
  GAR_communism:1 "Second Commune of Nyr Velenez"
  GAR_communism_DEF:1 "the Second Commune of Nyr Velenez"
  GAR_communism_ADJ:0 "Gardenian"
+ 
+ DEF_neutrality:1 "Defiant"
+ DEF_neutrality_DEF:1 "the Defiant"
+ DEF_neutrality_ADJ:0 "Amandian"
+ DEF_fascism:1 "Holy Defiant Kingdom"
+ DEF_fascism_DEF:1 "the Holy Defiant Kingdom"
+ DEF_fascism_ADJ:0 "Amandian"
+ DEF_democratic:1 "Amandian Federation"
+ DEF_democratic_DEF:1 "the Amandian Federation"
+ DEF_democratic_ADJ:0 "Amandian"
+ DEF_communism:1 "People's Republic of Defiant"
+ DEF_communism_DEF:1 "the People's Republic of Defiant"
+ DEF_communism_ADJ:0 "Amandian"
 

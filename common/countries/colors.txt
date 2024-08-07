@@ -138,3 +138,7 @@ GAR = {
 	color = rgb { 225  0  220 }
 	color_ui = rgb { 225  0  220 }
 }
+DEF = {
+	color = rgb { 165  139  72 }
+	color_ui = rgb { 165  139  72 }
+}
