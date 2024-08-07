@@ -466,4 +466,17 @@
  DEF_communism:1 "People's Republic of Defiant"
  DEF_communism_DEF:1 "the People's Republic of Defiant"
  DEF_communism_ADJ:0 "Amandian"
+ 
+ JAZ_neutrality:1 "Yimra ze Jarazeh"
+ JAZ_neutrality_DEF:1 "the Yimra ze Jarazeh"
+ JAZ_neutrality_ADJ:0 "Jarazeh"
+ JAZ_fascism:1 "Jarazeh Reich"
+ JAZ_fascism_DEF:1 "the Jarazeh Reich"
+ JAZ_fascism_ADJ:0 "Jarazeh"
+ JAZ_democratic:1 "Jarazeh Federation"
+ JAZ_democratic_DEF:1 "the Jarazeh Federation"
+ JAZ_democratic_ADJ:0 "Jarazeh"
+ JAZ_communism:1 "People's Republic of Jarazeh"
+ JAZ_communism_DEF:1 "the People's Republic of Jarazeh"
+ JAZ_communism_ADJ:0 "Jarazeh"
 

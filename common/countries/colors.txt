@@ -142,3 +142,7 @@ DEF = {
 	color = rgb { 165  139  72 }
 	color_ui = rgb { 165  139  72 }
 }
+JAZ = {
+	color = rgb { 193  39  45 }
+	color_ui = rgb { 193  39  45 }
+}
