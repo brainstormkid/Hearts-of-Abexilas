@@ -505,4 +505,17 @@
  KAD_communism:1 "People's Republic of Kaddu"
  KAD_communism_DEF:1 "the People's Republic of Kaddu"
  KAD_communism_ADJ:0 "Kaddian"
+ 
+ HOD_neutrality:1 "Hodege"
+ HOD_neutrality_DEF:1 "the Hodege"
+ HOD_neutrality_ADJ:0 "Hodegian"
+ HOD_fascism:1 "Hodegian Reich"
+ HOD_fascism_DEF:1 "the Hodegian Reich"
+ HOD_fascism_ADJ:0 "Hodegian"
+ HOD_democratic:1 "Hodegian Federation"
+ HOD_democratic_DEF:1 "the Hodegian Federation"
+ HOD_democratic_ADJ:0 "Hodegian"
+ HOD_communism:1 "People's Republic of Hodege"
+ HOD_communism_DEF:1 "the People's Republic of Hodege"
+ HOD_communism_ADJ:0 "Hodegian"
 

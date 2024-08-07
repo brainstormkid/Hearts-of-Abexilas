@@ -154,3 +154,7 @@ KAD = {
 	color = rgb { 199  133  52 }
 	color_ui = rgb { 199  133  52 }
 }
+HOD = {
+	color = rgb { 175  47  47 }
+	color_ui = rgb { 175  47  47 }
+}
