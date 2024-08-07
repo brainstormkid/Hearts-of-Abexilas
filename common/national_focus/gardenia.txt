@@ -28,7 +28,7 @@ focus = {
 	focus = {
 		id = GAR_a_better_way
 		icon = GFX_HRP_allow_unionization
-		x = -5
+		x = -4
 		y = 1
 		relative_position_id = GAR_political_effort
 		cost = 2
@@ -56,7 +56,7 @@ focus = {
 	focus = {
 		id = GAR_reform
 		icon = GFX_HRP_prepare_the_elections
-		x = 1
+		x = 2
 		y = 1
 		relative_position_id = GAR_a_better_way
 		cost = 5
@@ -83,7 +83,7 @@ focus = {
 	focus = {
 		id = GAR_revolution
 		icon = GFX_HRP_prepare_the_elections
-		x = -1
+		x = -2
 		y = 1
 		relative_position_id = GAR_a_better_way
 		cost = 3
@@ -102,4 +102,96 @@ focus = {
 			popularity = 0.1
 			}
 			add_stability = -0.25
-			
+			}
+		}
+	
+	#Arm the people
+	focus = {
+		id = GAR_arm_the_people
+		icon = GFX_goal_generic_small_arms
+		x = -1
+		y = 1
+		relative_position_id = GAR_revolution
+		cost = 5
+		prerequisite = { focus = GAR_revolution }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_war_support = 0.10
+			add_stability = -0.05
+			add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -500
+			producer = GAR
+			}
+			}
+		}
+		
+	#Infiltrate the military
+	focus = {
+		id = GAR_infiltrate_the_military
+		icon = GFX_goal_generic_small_arms
+		x = 1
+		y = 1
+		relative_position_id = GAR_revolution
+		cost = 5
+		prerequisite = { focus = GAR_revolution }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_war_support = 0.05
+			add_stability = -0.05
+			add_popularity = {
+			ideology = Communism
+			popularity = 0.1
+			}
+			}
+		}
+	
+	focus = {
+		id = GAR_final_preperations
+		icon = GFX_goal_generic_demand_territory
+		x = -1
+		y = 1
+		relative_position_id = GAR_infiltrate_the_military
+		cost = 5
+		prerequisite = { focus = GAR_infiltrate_the_military }
+		prerequisite = { focus = GAR_arm_the_people }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+		add_popularity = {
+			ideology = Communism
+			popularity = 0.1
+			}
+			}
+		}
+	focus = {
+		id = GAR_go_go_go
+		icon = GFX_goal_generic_small_arms
+		x = -1
+		y = 2
+		relative_position_id = GAR_infiltrate_the_military
+		cost = 1
+		prerequisite = { focus = GAR_final_preperations}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_war_support = 0.15
+			add_stability = -0.15
+			start_civil_war = {
+			ideology = Communism
+			size = 0.6
+			states = all
+			states_filter = {
+			is_capital = no
+			}
+			set_country_flag = GAR
+			# Sets a country flag that gets used in a country tag alias.
+			}
+			}
+		}
