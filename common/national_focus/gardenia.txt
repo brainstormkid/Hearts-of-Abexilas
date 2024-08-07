@@ -183,10 +183,18 @@ focus = {
 		completion_reward = {
 			add_war_support = 0.15
 			add_stability = -0.15
+			set_politics = {
+			ruling_party = Communism
+			elections_allowed = yes
+			last_election = "1936.7.1"
+			election_frequency = 48
+			long_name = The Grand Federation of Communes of Gardenia
+			name = Gardenia
+			}
 			start_civil_war = {
-			ideology = Communism
-			size = 0.6
-			states = all
+			ideology = neutrality
+			size = 0.4
+			states = { 355 325 353 304 }
 			states_filter = {
 			is_capital = no
 			}
