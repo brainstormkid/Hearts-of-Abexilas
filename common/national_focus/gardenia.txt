@@ -55,7 +55,7 @@ focus = {
 	#Reform
 	focus = {
 		id = GAR_reform
-		icon = GFX_HRP_prepare_the_elections
+		icon = GFX_goal_support_democracy
 		x = 2
 		y = 1
 		relative_position_id = GAR_a_better_way
@@ -82,7 +82,7 @@ focus = {
 	#Revolution
 	focus = {
 		id = GAR_revolution
-		icon = GFX_HRP_prepare_the_elections
+		icon = GFX_goal_generic_forceful_treaty
 		x = -2
 		y = 1
 		relative_position_id = GAR_a_better_way
@@ -131,7 +131,7 @@ focus = {
 	#Infiltrate the military
 	focus = {
 		id = GAR_infiltrate_the_military
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_goal_generic_allies_build_infantry
 		x = 1
 		y = 1
 		relative_position_id = GAR_revolution
@@ -171,7 +171,7 @@ focus = {
 		}
 	focus = {
 		id = GAR_go_go_go
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_goal_generic_military_sphere
 		x = -1
 		y = 2
 		relative_position_id = GAR_infiltrate_the_military
