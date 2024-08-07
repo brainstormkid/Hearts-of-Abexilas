@@ -146,3 +146,7 @@ JAZ = {
 	color = rgb { 193  39  45 }
 	color_ui = rgb { 193  39  45 }
 }
+CAK = {
+	color = rgb { 91  207  251 }
+	color_ui = rgb { 91  207  251 }
+}

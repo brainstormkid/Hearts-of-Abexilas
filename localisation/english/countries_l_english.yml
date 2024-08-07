@@ -479,4 +479,17 @@
  JAZ_communism:1 "People's Republic of Jarazeh"
  JAZ_communism_DEF:1 "the People's Republic of Jarazeh"
  JAZ_communism_ADJ:0 "Jarazeh"
+ 
+ CAK_neutrality:1 "Vale of Cakhtlan"
+ CAK_neutrality_DEF:1 "the Vale of Cakhtlan"
+ CAK_neutrality_ADJ:0 "Cakhtlan"
+ CAK_fascism:1 "Cakhtlan Reich"
+ CAK_fascism_DEF:1 "the Cakhtlan Reich"
+ CAK_fascism_ADJ:0 "Cakhtlan"
+ CAK_democratic:1 "Cakhtlan Federation"
+ CAK_democratic_DEF:1 "the Cakhtlan Federation"
+ CAK_democratic_ADJ:0 "Cakhtlan"
+ CAK_communism:1 "People's Republic of Cakhtlan"
+ CAK_communism_DEF:1 "the People's Republic of Cakhtlan"
+ CAK_communism_ADJ:0 "Cakhtlan"
 
