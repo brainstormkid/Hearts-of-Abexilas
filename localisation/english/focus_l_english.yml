@@ -493,6 +493,15 @@
  HRP_a_world_power_at_last:0 "A World Power at Last"
  HRP_a_world_power_at_last_desc:0 "At long last, through trails and tribulations, we have become a world power! Our armies are unstoppable, our people happy and prosperous, and it's safe to say that these trends will continue for as long as we want them to-which we declare to be forever!"
 
+#Gardenia
+GAR_political_effort:0 "Political Effort"
+GAR_political_effort_desc:0 "Theorertical Prerequisite"
+GAR_a_better_way:0 "A better way?"
+GAR_a_better_way_desc:0 "For too long the peoples of our grand federation have been seperated and oppressed by the artificial boundairs of capital and state. Together and only together can we build a better world!"
+GAR_reform:0 "Reform"
+GAR_reform_desc:0 "We can work within the current government to build our new society, slowly dismembering the states oppresive systems from within."
+GAR_revolution:0 "Revolution"
+GAR_revolution_desc:0 "The time for half-measures has passed. Incremental change is insufficient in the face of the state's enduring oppression. We must tear down the existing structures of power and authority through direct action, paving the way for a truly liberated society. Our revolution will ignite the spirit of resistance and build a new world upon the ashes of the old."
 
 l_english:
  WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"
