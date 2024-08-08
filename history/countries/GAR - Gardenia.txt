@@ -12,6 +12,8 @@ set_popularities = {
 	neutrality = 80
 }
 
+recruit_character = GAR_Kaeva
+
 create_country_leader = {
 	name = "Venipher Veleran"
 	desc = "POLITICS_VEN_DESC"

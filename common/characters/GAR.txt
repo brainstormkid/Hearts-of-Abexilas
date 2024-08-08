@@ -1,0 +1,15 @@
+characters={
+	GAR_Kaeva={
+		name = "Kaeva K.a Tekaya Velaran"
+		portraits={
+			civilian={
+				large="GFX_portrait_GAR_kayeda"
+			}
+	}
+	country_leader={
+			ideology=theocratic_socialism
+			traits= { Crown Regent }
+			desc = POLITICS_KAEVA_DESC
+			expire="1965.1.1.1"
+	}
+}
