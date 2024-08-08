@@ -36,9 +36,9 @@ bookmarks = {
 
 			}
 			focuses = {
+			LEY_recovering_from_the_crisis
 			LEY_the_duchy_reborn
-			LEY_liberatehumanity
-			LEY_the_first_republic
+			LEY_crononation_of_zlatkow_i
 			}
 		}
 		

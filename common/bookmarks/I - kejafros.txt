@@ -6,9 +6,35 @@ bookmarks = {
 		picture = "GFX_select_date_KEJAFROS"
 		default_country = "GER"
 		default = yes
+
+		########
+		#Majors#
+		########
+		
+		ISH = {
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		
+		ARC = {
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+			}
 		}
 
-		"---"={
-			history = "OTHER_DESC"
+		########
+		#Minors#
+		########
+		
+	}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
 		}
-}
+	}
+
