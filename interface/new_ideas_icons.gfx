@@ -3,4 +3,8 @@ spriteTypes = {
 		name = "GFX_idea_Kaevan_Theocracy"
 		texturefile = "gfx/interface/ideas/Kaevan_Theocracy.dds"
 	}
+	SpriteType = {
+	name = "GFX_idea_Legacy_of_the_Drakaes"
+	texturefile = "gfx/interface/ideas/Flagdraka.dds"
+	}
 }
