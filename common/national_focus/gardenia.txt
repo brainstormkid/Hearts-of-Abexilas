@@ -1,0 +1,205 @@
+focus_tree = {
+	id = gardenian-focus-tree
+	continuous_focus_position = { x = -40 y = 2740}
+	country = {
+		factor = 0
+		modifier = { 
+			add = 10
+			tag = GAR
+		}
+	}
+	#Theorertical Prerequisite
+focus = {
+		id = GAR_political_effort
+		icon = GFX_goal_generic_demand_territory
+		x = 7
+		y = 0
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 75
+		}
+	}
+
+
+	#Begins Anarchist Path
+	focus = {
+		id = GAR_a_better_way
+		icon = GFX_HRP_allow_unionization
+		x = -4
+		y = 1
+		relative_position_id = GAR_political_effort
+		cost = 2
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		prerequisite = { focus = GAR_political_effort }
+		completion_reward = {
+			add_stability = -0.05
+			add_popularity = {
+			ideology = Communism
+			popularity = 0.10
+			}	
+			add_popularity = {
+			ideology = Democratic
+			popularity = 0.05
+			set_party_name = {
+			ideology = Communism
+			long_name = "The Cathelet Peoples Liberation Front"
+			name = "Cathelet Liberation Front"
+			}
+			}	
+		}
+	}
+	
+	#Reform
+	focus = {
+		id = GAR_reform
+		icon = GFX_goal_support_democracy
+		x = 2
+		y = 1
+		relative_position_id = GAR_a_better_way
+		cost = 5
+		prerequisite = { focus = GAR_a_better_way }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = GAR_revolution }
+		completion_reward = {
+			add_popularity = {
+			ideology = Communism
+			popularity = 0.25
+			}
+			add_popularity = {
+			ideology = Democratic
+			popularity = 0.1
+			}
+			add_stability = -0.1
+			
+		}
+	}
+	
+	#Revolution
+	focus = {
+		id = GAR_revolution
+		icon = GFX_goal_generic_forceful_treaty
+		x = -2
+		y = 1
+		relative_position_id = GAR_a_better_way
+		cost = 3
+		prerequisite = { focus = GAR_a_better_way }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = GAR_reform }
+		completion_reward = {
+			add_popularity = {
+			ideology = Communism
+			popularity = 0.20
+			}
+			add_popularity = {
+			ideology = Fascism
+			popularity = 0.1
+			}
+			add_stability = -0.25
+			}
+		}
+	
+	#Arm the people
+	focus = {
+		id = GAR_arm_the_people
+		icon = GFX_goal_generic_small_arms
+		x = -1
+		y = 1
+		relative_position_id = GAR_revolution
+		cost = 5
+		prerequisite = { focus = GAR_revolution }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_war_support = 0.10
+			add_stability = -0.05
+			add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -500
+			producer = GAR
+			}
+			}
+		}
+		
+	#Infiltrate the military
+	focus = {
+		id = GAR_infiltrate_the_military
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 1
+		relative_position_id = GAR_revolution
+		cost = 5
+		prerequisite = { focus = GAR_revolution }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_war_support = 0.05
+			add_stability = -0.05
+			add_popularity = {
+			ideology = Communism
+			popularity = 0.1
+			}
+			}
+		}
+	
+	focus = {
+		id = GAR_final_preperations
+		icon = GFX_goal_generic_demand_territory
+		x = -1
+		y = 1
+		relative_position_id = GAR_infiltrate_the_military
+		cost = 5
+		prerequisite = { focus = GAR_infiltrate_the_military }
+		prerequisite = { focus = GAR_arm_the_people }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+		add_popularity = {
+			ideology = Communism
+			popularity = 0.1
+			}
+			}
+		}
+	focus = {
+		id = GAR_go_go_go
+		icon = GFX_goal_generic_military_sphere
+		x = -1
+		y = 2
+		relative_position_id = GAR_infiltrate_the_military
+		cost = 1
+		prerequisite = { focus = GAR_final_preperations}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_war_support = 0.15
+			add_stability = -0.15
+			set_politics = {
+			ruling_party = Communism
+			elections_allowed = yes
+			last_election = "1936.7.1"
+			election_frequency = 48
+			long_name = The Grand Federation of Communes of Gardenia
+			name = Gardenia
+			}
+			start_civil_war = {
+			ideology = neutrality
+			size = 0.4
+			states = { 355 325 353 304 }
+			states_filter = {
+			is_capital = no
+			}
+			set_country_flag = GAR
+			# Sets a country flag that gets used in a country tag alias.
+			}
+			}
+		}

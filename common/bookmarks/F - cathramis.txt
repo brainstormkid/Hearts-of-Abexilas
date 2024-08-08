@@ -4,11 +4,26 @@ bookmarks = {
 		desc = "CATHRAMIS_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_CATHRAMIS"
-		default_country = "GER"
+		default_country = "GAR"
 		default = yes
+		GAR = {
+				history = GAR_DESC
+				ideology = neutrality
+				ideas={
+				Kaevan_Theocracy
+				}
+				focuses = {
+				GAR_revolution
+				GAR_reform
+				}
 		}
-
-		"---"={
-			history = "OTHER_DESC"
+		
+		
+		
 		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
 }

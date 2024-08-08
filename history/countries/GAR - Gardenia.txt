@@ -1,5 +1,4 @@
-﻿capital = 1
-
+﻿capital = 355
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
@@ -23,6 +22,11 @@ create_country_leader = {
 		#
 	}
 }
-
+add_ideas = {
+Kaevan_Theocracy
+}
+add_ideas = {
+Legacy_of_the_Drakaes
+}
 set_stability = 0.75
 set_war_support = 0.1
