@@ -24,6 +24,8 @@ create_country_leader = {
 }
 add_ideas = {
 Kaevan_Theocracy
+}
+add_ideas = {
 Legacy_of_the_Drakaes
 }
 set_stability = 0.75
