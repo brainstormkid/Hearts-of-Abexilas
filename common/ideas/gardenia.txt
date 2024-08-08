@@ -1,2 +1,26 @@
 ideas = {
+	country = {
+		Kaevan_Theocracy = {
+			picture = Kaevan_Theocracy
+			allowed = {
+				tag = GAR
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+			
+			allowed_civil_war = {
+			always = yes
+			}
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = -0.05
+				resistance_target = -0.05
+			
+			}
+		}
+	}
 }
