@@ -35,7 +35,7 @@ focus = {
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		prerequisite = { focus = GAR_political_effort }
 		completion_reward = {
-			add_stability = -0.05
+			add_stability = -0.15
 			add_popularity = {
 			ideology = Communism
 			popularity = 0.10
@@ -74,7 +74,6 @@ focus = {
 			ideology = Democratic
 			popularity = 0.1
 			}
-			add_stability = -0.1
 			
 		}
 	}
@@ -150,6 +149,7 @@ focus = {
 			}
 		}
 	
+	#Final Prep for civil war
 	focus = {
 		id = GAR_final_preperations
 		icon = GFX_goal_generic_demand_territory
@@ -169,6 +169,8 @@ focus = {
 			}
 			}
 		}
+	
+	#Starts the civil war
 	focus = {
 		id = GAR_go_go_go
 		icon = GFX_goal_generic_military_sphere
@@ -203,5 +205,87 @@ focus = {
 			}
 			}
 		}
+	
+	#Victory!
+	focus =  {
+		id = GAR_victory
+		icon = GFX_goal_generic_military_sphere
+		x = 0
+		y = 1
+		relative_position_id = GAR_go_go_go
+		cost = 1
+		available = {
+		has_war = no
+		}
+		prerequisite = { focus = GAR_go_go_go}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+	
+	focus = {
+	id = GAR_building_a_new_state
+	icon = GFX_goal_generic_military_sphere
+	x = 2
+	y = 1
+	relative_position_id = GAR_victory
+	cost = 10
+	prerequisite = { focus = GAR_victory }
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+		completion_reward = {
 		
+		}	
+	}
+
+	focus = {
+		id = GAR_ally_with_the_democrats
+		icon = GFX_goal_generic_dangerous_deal
+		x = -1
+		y = 1
+		relative_position_id = GAR_reform
+		cost = 6
+		prerequisite = { focus = GAR_reform }
+		search_filters = {
+		FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+				add_stability = 0.1
+				add_popularity = {
+				ideology = Communism
+				popularity = 0.1
+				}
+				add_popularity = {
+				ideology = Democratic
+				popularity = 0.1
+				}
+			}
+		}
+	focus = {
+		id = GAR_use_native_communities_as_examples
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 1
+		y = 1
+		relative_position_id = GAR_reform
+		cost = 2
+		prerequisite = { focus = GAR_reform }
+		search_filters = {
+		FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+				add_war_support = 0.1
+				add_popularity = {
+				ideology = Communism
+				popularity = 0.1
+				}
+				add_popularity = {
+				ideology = Democratic
+				popularity = 0.1
+				}
+			}
+		}
 }
