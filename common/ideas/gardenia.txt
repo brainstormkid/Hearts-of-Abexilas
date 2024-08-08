@@ -22,5 +22,20 @@ ideas = {
 			
 			}
 		}
+		Legacy_of_the_Drakaes = {
+			picture = Legacy_of_the_Drakaes
+			allowed = {
+				tag = GAR
+			}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {
+			always = yes
+			}
+			modifier = {
+				war_support_factor = -0.20
+				non_core_manpower = 0.05
+				trade_opinion_factor = 20
+			}
 	}
 }
