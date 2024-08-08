@@ -57,4 +57,92 @@ characters={
 			}
 		}
 	}
+	LEY_brib={
+		name=LEY_brib
+		portraits={
+			civilian={
+				large="GFX_portrait_LEY_brib"
+				small="GFX_portrait_LEY_brib_small"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits= { dictator }
+			expire="1965.1.1.1"
+		}
+		advisor={
+			cost = 180
+			slot = political_advisor
+			idea_token = brib
+			ledger = civilian
+			allowed = {
+				original_tag = LEY
+			}
+			traits = { captain_of_industry }
+			available = { 
+			}
+			ai_will_do = {
+				factor = 1.0
+			}
+		}
+	}
+	LEY_vilyanz={
+		name=LEY_vilyanz
+		portraits={
+			civilian={
+				large="GFX_portrait_LEY_vilyanz"
+				small="GFX_portrait_LEY_vilyanz_small"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits= { dictator }
+			expire="1965.1.1.1"
+		}
+		advisor={
+			cost = 180
+			slot = political_advisor
+			idea_token = vilyanz
+			ledger = civilian
+			allowed = {
+				original_tag = LEY
+			}
+			traits = { communist_revolutionary }
+			available = { 
+			}
+			ai_will_do = {
+				factor = 0.1
+			}
+		}
+	}
+	LEY_hans_solo={
+		name=LEY_hans_solo
+		portraits={
+			civilian={
+				large="GFX_portrait_LEY_hans_solo"
+				small="GFX_portrait_LEY_hans_solo_small"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits= { dictator }
+			expire="1965.1.1.1"
+		}
+		advisor={
+			cost = 185
+			slot = political_advisor
+			idea_token = hans_solo
+			ledger = civilian
+			allowed = {
+				original_tag = LEY
+			}
+			traits = { radical_engineer }
+			available = { 
+			}
+			ai_will_do = {
+				factor = 0.1
+			}
+		}
+	}
+
 }
