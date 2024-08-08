@@ -3,8 +3,8 @@ characters={
         name=Thesseion
         portraits={
             civilian={
-                large="GFX_portrait_Thesseion"
-                small="GFX_portrait_Thesseion_small"
+                large="GFX_portrait_CHM_Thesseion"
+                small="GFX_portrait_CHM_Thesseion_small"
             }
         }
         country_leader={
