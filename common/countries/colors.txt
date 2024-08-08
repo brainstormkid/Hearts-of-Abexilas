@@ -162,3 +162,15 @@ CHM = {
 	color = rgb { 51  0  102 }
 	color_ui = rgb { 51  0  102 }
 }
+LYN = {
+	color = rgb { 135  30  18 }
+	color_ui = rgb { 135  30  18 }
+}
+MAR = {
+	color = rgb { 174  62  216 }
+	color_ui = rgb { 174  62  216 }
+}
+TSI = {
+	color = rgb { 0  225  255 }
+	color_ui = rgb { 0  225  255 }
+}
