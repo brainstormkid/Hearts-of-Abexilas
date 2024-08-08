@@ -41,7 +41,8 @@ spriteTypes = {
 	}
 
 
-        ### MYR
+	### MYR
+	
         spriteType = {
 		name = "GFX_portrait_MYR_Ravian"
 		texturefile = "gfx/leaders/MYR/Ravian.dds"
@@ -54,4 +55,27 @@ spriteTypes = {
 		name = "GFX_portrait_MYR_LaziOcelot"
 		texturefile = "gfx/leaders/MYR/LaziOcelot.dds"
 	}
+	
+	### CHM
 
+	spriteType = {
+		name = "GFX_portrait_CHM_Thesseion"
+		texturefile = "gfx/leaders/CHM/portrait_chm_Thesseion.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_CHM_Thesseion_small"
+		texturefile = "gfx/interface/ideas/idea_chm_Thesseion.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_portrait_CHM_Thesseion"
+		texturefile = "gfx/leaders/CHM/Thesseion.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_CHM_Thesseion_small"
+		texturefile = "gfx/interface/ideas/idea_chm_Thesseion_small.dds"
+	}
+	
+}
