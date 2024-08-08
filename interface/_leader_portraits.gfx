@@ -39,6 +39,37 @@ spriteTypes = {
 		name = "GFX_portrait_LEY_gottfried_sarkowa_small"
 		texturefile = "gfx/interface/ideas/idea_ley_gottfried_sarkowa_small.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_portrait_LEY_brib"
+		texturefile = "gfx/leaders/LEY/portrait_LEY_brib.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_LEY_brib_small"
+		texturefile = "gfx/interface/ideas/idea_ley_brib_small.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_LEY_vilyanz"
+		texturefile = "gfx/leaders/LEY/portrait_LEY_vilyanz.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_LEY_vilyanz_small"
+		texturefile = "gfx/interface/ideas/idea_ley_vilyanz_small.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_LEY_hans_solo"
+		texturefile = "gfx/leaders/LEY/portrait_LEY_hans_solo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_LEY_hans_solo_small"
+		texturefile = "gfx/interface/ideas/idea_ley_hans_solo_small.dds"
+	}
+
 
 
 	### MYR
