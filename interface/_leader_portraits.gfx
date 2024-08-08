@@ -68,4 +68,9 @@ spriteTypes = {
 		texturefile = "GFX/interface/ideas/idea_chm_thesseion_small.dds"
 	}
 	
+	### GAR
+	spriteType = {
+		name = "GFX_portrait_GAR_Kayeda"
+		texturefile = "GFX/leaders/GAR/kayeda.dds"
+	}
 }
