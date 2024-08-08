@@ -35,7 +35,7 @@ ideas = {
 			modifier = {
 				war_support_factor = -0.20
 				non_core_manpower = 0.05
-				trade_opinion_factor = 20
+				trade_opinion_factor = 0.2
 			}
 	}
 }
