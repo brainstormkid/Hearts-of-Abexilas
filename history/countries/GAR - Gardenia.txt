@@ -12,6 +12,8 @@ set_popularities = {
 	neutrality = 80
 }
 
+recruit_character = GAR_Kaeva
+
 create_country_leader = {
 	name = "Venipher Veleran"
 	desc = "POLITICS_VEN_DESC"
@@ -25,6 +27,8 @@ create_country_leader = {
 add_ideas = {
 	Kaevan_Theocracy
 	Legacy_of_the_Drakaes
+	free_trade
+	disarmed_nation
 }
 set_stability = 0.75
 set_war_support = 0.1
