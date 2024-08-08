@@ -20,3 +20,18 @@ create_country_leader = {
 		#
 	}
 }
+
+set_autonomy = {
+	target = LYN
+	autonomous_state = autonomy_integrated_puppet
+}
+
+set_autonomy = {
+	target = TSI
+	autonomous_state = autonomy_integrated_puppet
+}
+
+set_autonomy = {
+	target = MAR
+	autonomous_state = autonomy_integrated_puppet
+}
