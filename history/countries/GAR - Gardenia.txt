@@ -12,10 +12,20 @@ set_popularities = {
 	neutrality = 80
 }
 
-recruit_character = GAR_Kaeva
+create_country_leader ={
+	name = "Kaeva K.a Tekaya-Velaran "
+	desc = "POLITICS_KAEVA_DESC"
+	picture = "gfx/leaders/GAR/kayeda.dds"
+	expire = "1965.1.1.1"
+	ideology = marxism
+	traits = {
+	Crown_Regent
+	
+	}
+	}
 
 create_country_leader = {
-	name = "Venipher Veleran"
+	name = "Venipher Velaran"
 	desc = "POLITICS_VEN_DESC"
 	picture = "gfx/leaders/GAR/VEN.dds"
 	expire = "1965.1.1"
