@@ -5,11 +5,14 @@ state={
 		395 852 12266 12329 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1600000
+        state_category = large_city
 	history={
 		owner = ARC
 		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			arms_factory = 1
 		}
 		add_core_of = ARC
 	}

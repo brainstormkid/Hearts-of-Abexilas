@@ -5,11 +5,15 @@ state={
 		186 722 1931 4618 6306 6597 6736 12056 12061 12062 12079 12183 12206 12213 12227 12244 12251 12280 12307 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=4050000
+        state_category = megalopolis
 	history={
 		owner = ARC
 		buildings = {
+			industrial_complex = 2
+			infrastructure = 4
+			arms_factory = 2
+			dockyard = 1
 		}
 		add_core_of = ARC
 	}

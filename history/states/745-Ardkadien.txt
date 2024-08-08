@@ -5,11 +5,14 @@ state={
 		403 648 815 1289 1439 3471 3806 4954 5262 5790 12328 12333 12350 12362 12366 12375 12396 12437 12463 12477 12515 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1300000
+        state_category = metropolis
 	history={
 		owner = ARC
 		buildings = {
+			industrial_complex = 2
+			infrastructure = 4
+			dockyard = 1
 		}
 		add_core_of = ARC
 	}
