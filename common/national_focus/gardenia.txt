@@ -10,16 +10,29 @@ focus_tree = {
 	}
 	#Theorertical Prerequisite
 focus = {
-		id = GAR_political_effort
+		id = GAR_venny_gone
 		icon = GFX_goal_generic_demand_territory
+		available = {
+		date > 1936.8.1
+		}
 		x = 7
-		y = 0
-		cost = 2
+		y = 3
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
 			add_political_power = 75
+			create_country_leader = {
+			name = "Diligord"
+			desc = POLITICAL_GAR_DESC
+			picture = "gfx/leaders/GAR/Digilord.dds"
+			expire = "1965.1.1"
+			ideology = despotism
+			}
+			traits = {
+			
+			}
 		}
 	}
 
@@ -30,10 +43,10 @@ focus = {
 		icon = GFX_HRP_allow_unionization
 		x = -4
 		y = 1
-		relative_position_id = GAR_political_effort
+		relative_position_id = GAR_venny_gone
 		cost = 2
 		search_filters = {FOCUS_FILTER_POLITICAL}
-		prerequisite = { focus = GAR_political_effort }
+		prerequisite = { focus = GAR_venny_gone }
 		completion_reward = {
 			add_stability = -0.15
 			add_popularity = {
@@ -265,6 +278,7 @@ focus = {
 				}
 			}
 		}
+		#Use native communities as examples
 	focus = {
 		id = GAR_use_native_communities_as_examples
 		icon = GFX_goal_generic_more_territorial_claims
@@ -288,4 +302,39 @@ focus = {
 				}
 			}
 		}
+		
+	#infiltrate diplomacy
+	focus = {
+		id = GAR_infiltrate_diplomacy
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 0
+		y = 1
+		relative_position_id = GAR_ally_with_the_democrats
+		cost = 3
+		prerequisite = { focus = GAR_ally_with_the_democrats }
+		search_filters = {
+		FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+		
+		}
+	}
+	
+	#ensure non agression
+	focus = {
+		id = GAR_ensure_non_agression
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 0
+		y = 1
+		relative_position_id = GAR_infiltrate_diplomacy
+		cost = 3
+		prerequisite = { focus = GAR_infiltrate_diplomacy }
+		search_filters = {
+		FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+		
+		}
+	}
+		
 }
