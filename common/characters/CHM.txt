@@ -1,5 +1,5 @@
 characters={
-    CHM_tim={
+    CHM_Thesseion={
         name=Thesseion
         portraits={
             civilian={
@@ -15,7 +15,7 @@ characters={
         advisor={
             cost = 50
             slot = political_advisor
-            idea_token = [Thesseion]
+            idea_token = thesseion
             ledger = civilian 
             allowed = {
                 original_tag = CHM
