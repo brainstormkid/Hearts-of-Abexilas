@@ -6,18 +6,41 @@ bookmarks = {
 		picture = "GFX_select_date_CATHRAMIS"
 		default_country = "GAR"
 		default = yes
-		GAR = {
-				history = GAR_DESC
-				ideology = neutrality
-				ideas={
-				Kaevan_Theocracy
-				}
-				focuses = {
-				GAR_revolution
-				GAR_reform
-				}
-		}
+
+		########
+		#Majors#
+		########
 		
+		GAR = {
+			history = GAR_DESC
+			ideology = neutrality
+			ideas={
+			Kaevan_Theocracy
+			Legacy_of_the_Drakaes
+			}
+			focuses = {
+			GAR_revolution
+			GAR_reform
+			}
+		}
+
+		########
+		#Minors#
+		########
+
+		LEY = {
+			minor = yes 	#This is what makes it apear as a minor nation
+			history = LEY_DESC
+			ideology = neutrality
+			ideas = {
+
+			}
+			focuses = {
+			LEY_the_duchy_reborn
+			LEY_liberatehumanity
+			LEY_the_first_republic
+			}
+		}
 		
 		
 		}
