@@ -1,0 +1,31 @@
+characters={
+    CHM_tim={
+        name=Thesseion
+        portraits={
+            civilian={
+                large="GFX_portrait_Thesseion"
+                small="GFX_portrait_Thesseion_small"
+            }
+        }
+        country_leader={
+            ideology=despotism
+            traits= { dictator }
+            expire="1965.1.1.1"
+        }
+        advisor={
+            cost = 50
+            slot = political_advisor
+            idea_token = [Thesseion]
+            ledger = civilian 
+            allowed = {
+                original_tag = CHM
+            }
+            traits = { fanatical_chimerian }
+            available = { 
+            }
+            ai_will_do = {
+                factor = 1.0
+            }
+        }
+    }
+}
