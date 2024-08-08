@@ -1,0 +1,18 @@
+state={
+	id=996
+	name="STATE_996"
+	provinces={
+		6382 14004 14024 14060 14081 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = ISH
+		buildings = {
+		}
+		add_core_of = ISH
+	}
+}
+
+
