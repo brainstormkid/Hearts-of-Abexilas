@@ -518,4 +518,17 @@
  HOD_communism:1 "People's Republic of Hodege"
  HOD_communism_DEF:1 "the People's Republic of Hodege"
  HOD_communism_ADJ:0 "Hodegian"
+ 
+ CHM_neutrality:1 "Chimerian Empire"
+ CHM_neutrality_DEF:1 "Chimerian Empire"
+ CHM_neutrality_ADJ:0 "Chimerian"
+ CHM_fascism:1 "Neo-Chimerian State"
+ CHM_fascism_DEF:1 "Neo-Chimerian State"
+ CHM_fascism_ADJ:0 "Chimerian"
+ CHM_democratic:1 "Chimerian Republic"
+ CHM_democratic_DEF:1 "First Chimerian Republic"
+ CHM_democratic_ADJ:0 "Chimerian "
+ CHM_communism:1 "Syndicalist Union of Chimeria"
+ CHM_communism_DEF:1 "the Syndicalist Union of Chimeria"
+ CHM_communism_ADJ:0 "Chimerian"
 
