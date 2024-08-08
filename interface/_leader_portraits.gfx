@@ -60,22 +60,12 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_CHM_Thesseion"
-		texturefile = "gfx/leaders/CHM/portrait_chm_Thesseion.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_CHM_Thesseion_small"
-		texturefile = "gfx/interface/ideas/idea_chm_Thesseion.dds"
-	}
-	
-		spriteType = {
-		name = "GFX_portrait_CHM_Thesseion"
 		texturefile = "gfx/leaders/CHM/Thesseion.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_portrait_CHM_Thesseion_small"
-		texturefile = "gfx/interface/ideas/idea_chm_Thesseion_small.dds"
+		texturefile = "gfx/interface/ideas/idea_chm_thesseion_small.dds"
 	}
 	
 }
