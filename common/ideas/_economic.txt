@@ -38,6 +38,7 @@ ideas = {
 						has_war_support > 0.5
 						has_war = yes
 						has_completed_focus = USA_limited_intervention
+					}
 				}
 				ELSE = {
 					OR = {
