@@ -1,4 +1,5 @@
 leader_traits = {
+
     true_nationalist = {
         random = no
         sprite = 13
@@ -7,11 +8,22 @@ leader_traits = {
 		army_core_defence_factor = 0.15
 		army_core_attack_factor = 0.15
 		research_speed_factor = 0.1
-            }
-        }
+		
         ai_will_do = {
-            base = 2
+            factor = 1
         }
-        command_cap = @tier1
+	}
+		
+		
+	radical_engineer = {
+        random = no
+        sprite = 12
+		stability_factor = -0.1
+		production_speed_infrastructure_factor = 0.3
+		production_speed_industrial_complex_factor = 0.1
+		
+        ai_will_do = {
+            factor = 1
+        }
     }
 }
