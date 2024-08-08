@@ -19,6 +19,15 @@
  HAR_neutrality_party:0 "EM"
  HAR_neutrality_party_long:0 "Empty Paper"
  
+ #Leyenbourg
+ LEY_communism_party:0 "LAP"
+ LEY_communism_party_long:0 "Leyenbourgian Accelerationist Party"
+ LEY_democratic_party:0 "RP"
+ LEY_democratic_party_long:0 "Republican Party"
+ LEY_fascism_party:0 "SPoL"
+ LEY_fascism_party_long:0 "Socialist Party of Leyenbourg"
+ LEY_neutrality_party:0 "HoZ"
+ LEY_neutrality_party_long:0 "House of Zlatkow"
  
  communism:0 "Communist"
  communism_noun:0 "Communism"
