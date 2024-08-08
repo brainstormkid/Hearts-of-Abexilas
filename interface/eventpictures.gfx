@@ -1,4 +1,4 @@
-spriteTypes = {	
+spriteTypes = {
 	spriteType = {
 		name = "GFX_Long_day_in_Theos"
 		texturefile = "gfx/event_pictures/Long_day_in_Theos.dds"
@@ -7,7 +7,6 @@ spriteTypes = {
 		name = "GFX_unrest_in_torsheim"
 		texturefile = "gfx/event_pictures/unrest_in_torsheim_event_image.dds"
 	}
-        }
 	spriteType = {
 		name = "GFX_defenders_at_torsheim"
 		texturefile = "gfx/event_pictures/defenders_at_torsheim.dds"
