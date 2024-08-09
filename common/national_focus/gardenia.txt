@@ -213,7 +213,7 @@ focus = {
 		x = -1
 		y = 2
 		relative_position_id = GAR_infiltrate_the_military
-		cost = 1
+		cost = 2
 		prerequisite = { focus = GAR_final_preperations}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -226,7 +226,7 @@ focus = {
 			elections_allowed = yes
 			last_election = "1936.7.1"
 			election_frequency = 48
-			long_name = The Grand Federation of Communes of Gardenia
+			long_name = "The Peoples Party"
 			name = Gardenia
 			}
 			start_civil_war = {
@@ -249,7 +249,7 @@ focus = {
 		x = 0
 		y = 1
 		relative_position_id = GAR_go_go_go
-		cost = 1
+		cost = 5
 		available = {
 		has_war = no
 		}
@@ -260,22 +260,6 @@ focus = {
 		completion_reward = {
 			add_stability = 0.10
 		}
-	}
-	
-	focus = {
-	id = GAR_building_a_new_state
-	icon = GFX_goal_generic_military_sphere
-	x = 2
-	y = 1
-	relative_position_id = GAR_victory
-	cost = 10
-	prerequisite = { focus = GAR_victory }
-	search_filters = {
-		FOCUS_FILTER_POLITICAL
-	}
-		completion_reward = {
-		
-		}	
 	}
 
 	focus = {
@@ -325,12 +309,39 @@ focus = {
 				}
 			}
 		}
-		
+	
+	#Add idea that give c support and -cosumer goods use
+	#Build up worker cooperatives
+	focus = {
+		id = GAR_build_up_worker_cooperatives
+		icon = GFX_goal_generic_small_arms
+		x = -1
+		y = 1
+		relative_position_id = GAR_use_native_communities_as_examples
+		cost = 2
+		prerequisite = { focus = GAR_use_native_communities_as_examples }
+		prerequisite = { focus = GAR_ally_with_the_democrats }
+		search_filters = {
+		FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_stability = 0.1
+			add_popularity = {
+			ideology = Communism
+			popularity = 0.1
+			}
+			add_popularity = {
+			ideology = Democratic
+			popularity = 0.2
+			}
+		}
+	}
+	
 	#infiltrate diplomacy
 	focus = {
 		id = GAR_infiltrate_diplomacy
 		icon = GFX_goal_generic_more_territorial_claims
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = GAR_ally_with_the_democrats
 		cost = 3
@@ -339,13 +350,13 @@ focus = {
 		FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-		
+		add_political_power = -50
 		}
 	}
 	
-	#ensure non agression
+	#ensure non intervention
 	focus = {
-		id = GAR_ensure_non_agression
+		id = GAR_ensure_non_intervention
 		icon = GFX_goal_generic_more_territorial_claims
 		x = 0
 		y = 1
@@ -356,8 +367,94 @@ focus = {
 		FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-		
+		add_stability = 0.05
+		add_war_support = 0.05
 		}
 	}
 		
+	#A victory of the people
+	focus = {
+		id = GAR_a_victory_of_the_people
+		icon = GFX_goal_generic_military_sphere
+		x = 2
+		y = 1
+		relative_position_id = GAR_ensure_non_intervention
+		prerequisite = { focus = GAR_ensure_non_intervention }
+		cost = 5
+		completion_reward = {
+		set_politics = {
+			ruling_party = Communism
+			elections_allowed = yes
+			last_election = "1936.7.1"
+			election_frequency = 48
+			long_name = "The Peoples Party"
+			name = Gardenia
+			}
+		}
+	}
+	
+	#Building a new society
+		focus = {
+	id = GAR_building_a_new_state
+	icon = GFX_goal_generic_military_sphere
+	x = 2
+	y = 1
+	relative_position_id = GAR_victory
+	cost = 10
+	prerequisite = { focus = GAR_victory focus = GAR_a_victory_of_the_people}
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+		completion_reward = {
+		
+		}	
+	}
+	
+	#Permanent revolution
+	focus = {
+		id = GAR_permanent_revolution
+		icon = GFX_goal_generic_allies_build_infantry
+		x = -2
+		y = 1
+		relative_position_id = GAR_building_a_new_state
+		cost = 5
+		prerequisite = { focus = GAR_building_a_new_state }
+		prerequisite = { focus = GAR_victory }
+		mutually_exclusive = { focus = GAR_Communalist_principles }
+		search_filters = {
+		FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	}
+	
+	#Communalist principles
+	focus = {
+		id = GAR_Communalist_principles
+		icon = GFX_goal_generic_dangerous_deal
+		x = 0
+		y = 1
+		relative_position_id = GAR_building_a_new_state
+		cost = 5
+		prerequisite = { focus = GAR_building_a_new_state }
+		mutually_exclusive = { focus = GAR_permanent_revolution }
+		mutually_exclusive = { focus = GAR_perhaps_some_state_isn't_so_bad }
+		completion_reward {
+		
+		}
+	}
+	
+	focus = {
+		id = GAR_perhaps_some_state_isn't_so_bad
+		icon = GFX_goal_support_democracy
+		x = 2
+		y = 1
+		relative_position_id = GAR_building_a_new_state
+		cost = 5
+		prerequisite = { focus = GAR_building_a_new_state }
+		prerequisite = { focus = GAR_a_victory_of_the_people }
+		mutually_exclusive = { focus = GAR_Communalist_principles }
+	}
+	
 }
