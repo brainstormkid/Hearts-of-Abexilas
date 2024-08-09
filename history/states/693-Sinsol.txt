@@ -4,6 +4,14 @@ state={
 	provinces={
 		571 1063 1706 1923 2515 2588 3305 4502 4518 4549 5909 6374 12039 12052 12085 12150 12214 12245 12252 12261 12286 12302 
 	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
 	buildings_max_level_factor=1.000
         manpower=1950000
         state_category = megalopolis

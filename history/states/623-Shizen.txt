@@ -4,6 +4,14 @@ state={
 	provinces={
 		290 495 4510 6262 11530 11537 11544 11571 11630 11653 11689 
 	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
 	buildings_max_level_factor=1.000
         manpower=2500000
         state_category = metropolis

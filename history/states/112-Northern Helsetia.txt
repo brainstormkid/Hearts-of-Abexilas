@@ -4,6 +4,14 @@ state={
 	provinces={
 		551 2005 2519 4003 5553 5628 7855 7882 7892 7928 
 	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
 	buildings_max_level_factor=1.000
         manpower=700000
         state_category = rural
