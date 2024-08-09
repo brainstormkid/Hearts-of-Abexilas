@@ -8,6 +8,25 @@ focus_tree = {
 			tag = GAR
 		}
 	}
+focus = {
+		id = GAR_The_continental_summit
+		icon = GFX_goal_generic_demand_territory
+		available = {
+		
+		}
+		x = 2
+		y = 0
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward {
+		
+		}
+}
+	
+	
+	
 	#Theorertical Prerequisite
 focus = {
 		id = GAR_venny_gone
@@ -23,6 +42,10 @@ focus = {
 		}
 		completion_reward = {
 			add_political_power = 75
+			country_event = {
+			id = Gardenia.1
+			days = 3
+			}
 			create_country_leader = {
 			name = "Diligord"
 			desc = POLITICAL_GAR_DESC
