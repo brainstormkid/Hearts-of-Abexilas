@@ -1,0 +1,23 @@
+
+
+add_namespace = Gardenia
+country_event = {
+	id = Gardenia.1
+	title = Gardenia_venipher_disappears.1.t
+	desc = Gardenia_venipher_disappears.1.d
+	picture = "GFX_venipher_disappears"
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = { days = 10 }
+	option = {
+		name = Gardenia_venipher_disappears.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			
+		}
+	}
+}
