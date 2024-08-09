@@ -26,3 +26,8 @@
  tim_retires.1.t:0 "Tim retires!"
  tim_retires.1.d:0 "Tim Desmond III. has unexpectedly stepped down from his position of High Chancellor"
  tim_retires.1.a:0 "A Surprise to be sure"
+ 
+#Gardenia events 
+Gardenia_venipher_disappears.1.t:0 "Venipher Disappears!"
+Gardenia_venipher_disappears.1.d:0 "Today on the first day of our year 8 VE the former 'Dessa of Gardenia Venipher Velaran disappeared from her home in Fenipha, shortly after Diligorg took office as the new 'Dessa of Gardenia with the assent of the upper council. although with a much weaker powerbase and legitimacy of the former 'Dessa. The whole region hangs in the balance, peace, war, and revolution could come to Cathelet if we do not prepare for the strife ahead."
+Gardenia_venipher_disappears.1.a:0 "What's next?!"
