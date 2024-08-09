@@ -7,7 +7,7 @@ state={
 	resources = {
 	    oil = 2
 	    aluminium = 2
-	    steel = 4
+	    steel = 3
 	    rubber = 2
 	    tungsten = 1
 	    chromium = 2
@@ -19,6 +19,9 @@ state={
 		owner = IRI
 		buildings = {
 			infrastructure = 2
+			3187 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = IRI
 	}

@@ -4,6 +4,14 @@ state={
 	provinces={
 		872 1437 6891 6986 9435 9478 9519 9538 9555 
 	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
 	buildings_max_level_factor=1.000
         manpower=150000
         state_category = pastoral
