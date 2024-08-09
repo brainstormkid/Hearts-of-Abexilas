@@ -23,5 +23,8 @@ state={
 			arms_factory = 3
 		}
 		add_core_of = IRI
+		victory_points = {
+			2989 50
+		}
 	}
 }
