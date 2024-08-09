@@ -35,3 +35,13 @@ set_autonomy = {
 	target = MAR
 	autonomous_state = autonomy_integrated_puppet
 }
+
+set_autonomy = {
+	target = LOV
+	autonomous_state = autonomy_integrated_puppet
+}
+
+set_autonomy = {
+	target = SEL
+	autonomous_state = autonomy_integrated_puppet
+}
