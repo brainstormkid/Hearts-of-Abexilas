@@ -174,3 +174,11 @@ TSI = {
 	color = rgb { 0  225  255 }
 	color_ui = rgb { 0  225  255 }
 }
+SEL = {
+	color = rgb { 222  174  16 }
+	color_ui = rgb { 222  174  16 }
+}
+LOV = {
+	color = rgb { 0  171  255 }
+	color_ui = rgb { 0  171  255 }
+}
