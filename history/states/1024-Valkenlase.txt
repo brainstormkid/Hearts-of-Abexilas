@@ -1,0 +1,16 @@
+state={
+	id=1024
+	name="STATE_1024"
+	provinces={
+		4506 4883 5532 14388 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = SEL
+		buildings = {
+		}
+		add_core_of = SEL
+	}
+}

@@ -1,0 +1,16 @@
+state={
+	id=1030
+	name="STATE_1030"
+	provinces={
+		764 5074 14328 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = LOV
+		buildings = {
+		}
+		add_core_of = LOV
+	}
+}
