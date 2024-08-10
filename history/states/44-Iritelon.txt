@@ -24,5 +24,8 @@ state={
 			}
 		}
 		add_core_of = IRI
+		victory_points = {
+			3187 5
+		}
 	}
 }

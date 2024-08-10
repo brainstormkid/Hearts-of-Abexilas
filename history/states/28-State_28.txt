@@ -26,5 +26,17 @@ state={
 			}
 		}
 		add_core_of = IRI
+		victory_points = {
+			5761 5
+		}
+		victory_points = {
+			7299 10
+		}
+		victory_points = {
+			7103 10
+		}
+		victory_points = {
+			6170 20
+		}
 	}
 }

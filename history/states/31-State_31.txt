@@ -21,5 +21,23 @@ state={
 			infrastructure = 2
 		}
 		add_core_of = IRI
+		victory_points = {
+			7165 5
+		}
+		victory_points = {
+			7274 5
+		}
+		victory_points = {
+			4319 20
+		}
+		victory_points = {
+			3438 5
+		}
+		victory_points = {
+			7554 5
+		}
+		victory_points = {
+			2929 5
+		}
 	}
 }
