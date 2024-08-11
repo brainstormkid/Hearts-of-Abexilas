@@ -8,9 +8,10 @@ state={
         manpower=250000
         state_category = town
 	history={
-		owner = GAR
+		owner = SEN
 		buildings = {
 		}
-		add_core_of = GAR
+		add_core_of = SEN
+		add_claim_of = GAR
 	}
 }
