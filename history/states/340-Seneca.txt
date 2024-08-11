@@ -15,6 +15,8 @@ state={
 			}
 		}
 		add_core_of = SEN
+		victory_points = { 
+			416 20 
+		}
 	}
-	victory_points = { 416 20 }
 }
