@@ -186,3 +186,7 @@ KHA = {
 	color = rgb { 247 163 145 }
 	color_ui = rgb { 247 163 145 }
 }
+SEN = {
+	color = rgb { 165  139  73 }
+	color_ui = rgb { 165  139  73 }
+}
