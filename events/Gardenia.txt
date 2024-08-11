@@ -8,8 +8,6 @@ country_event = {
 	picture = "GFX_venipher_disappears"
 	
 	is_triggered_only = yes
-
-	mean_time_to_happen = { days = 10 }
 	option = {
 		name = Gardenia_venipher_disappears.1.a
 		trigger = {
@@ -19,5 +17,99 @@ country_event = {
 		hidden_effect = {
 			
 		}
+	}
+}
+
+country_event = {
+	id = Gardenia.2
+	title = Gardenia_invite_seneca.2.t
+	desc = Gardenia_invite_seneca.2.d
+	picture = ""
+
+	is_triggered_only = yes
+	option = {
+		
+		name = Gardenia_invite_seneca.2.a
+		if = {
+            	limit = {
+                has_dlc = "Together for Victory"
+            	}
+            	set_autonomy = {
+                target = SEN
+                autonomy_state = autonomy_puppet
+            }
+        }
+        else = {
+            puppet = SEN
+        }
+	}
+	option = {
+	name = Gardenia_invite_seneca.2.b
+	if = {
+            limit = {
+                has_dlc = "Together for Victory"
+            }
+            set_autonomy = {
+                target = SEN
+                autonomy_state = autonomy_integrated_puppet
+            }
+        }
+        else = {
+            puppet = SEN
+        }
+	}
+	option = {
+	name = Gardenia_invite_seneca.2.c
+		annex_country = {
+			target = SEN
+			transfer_troops = no
+		}
+	hidden_effect = {
+	country_event = {
+		id = Gardenia.3
+		days = 30
+	}
+	}
+}
+}
+
+country_event = { 
+	id = Gardenia.3
+	title = Gardenia_resistance_brewing.3.t
+	desc = Gardenia_resistance_brewing.3.d
+	picture = "GFX_SPA_attack"
+	
+	is_triggered_only = yes
+	option = {
+	name = Gardenia_resistance_brewing.3.a
+	add_stability = -0.1
+	
+	}
+	option = {
+	name = Gardenia_resistance_brewing.3.b
+	add_stability = -0.05
+	add_war_support = -0.05
+	}
+	option = {
+	name = Gardenia_resistance_brewing.3.c
+	country_event = {
+		id = Gardenia.4
+	}
+	}
+
+}
+
+country_event = {
+	id = Gardenia.4
+	title = Gardenia_SPA_explanation.4.t
+	desc = Gardenia_SPA_explanation.4.d
+	picture = "GFX_SPA"
+	
+	is_triggered_only = yes
+	option = {
+	name = Gardenia_SPA_explanation.4.a
+	country_event = {
+		id = Gardenia.3
+	}
 	}
 }
