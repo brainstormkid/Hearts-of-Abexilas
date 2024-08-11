@@ -6,12 +6,15 @@ state={
 	}
 	buildings_max_level_factor=1.000
         manpower=250000
-        state_category = town
+        state_category = rural
 	history={
 		owner = SEN
 		buildings = {
+			416 = {
+			bunker = 3
+			}
 		}
 		add_core_of = SEN
-		add_claim_of = GAR
 	}
+	victory_points = { 416 20 }
 }
