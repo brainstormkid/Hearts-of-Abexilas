@@ -18,6 +18,14 @@ bookmarks = {
 			focuses = {
 			}
 		}
+
+		KHA = {
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+			}
+		}
 		
 		ARC = {
 			ideology = neutrality
