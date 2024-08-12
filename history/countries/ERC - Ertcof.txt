@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 534
 
 set_politics = {
 	ruling_party = democratic
@@ -7,10 +7,10 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 50
-	fascism = 2
-	communism = 8
-	neutrality = 40
+	democratic = 45
+	fascism = 0
+	communism = 20
+	neutrality = 35
 }
 
 create_country_leader = {
@@ -24,4 +24,4 @@ create_country_leader = {
 }
 
 set_stability = 0.8
-set_war_support = 0.45
+set_war_support = 0.30
