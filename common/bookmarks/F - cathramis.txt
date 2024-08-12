@@ -33,7 +33,9 @@ bookmarks = {
 			history = LEY_DESC
 			ideology = neutrality
 			ideas = {
-
+			provisional_government
+			father_of_railways
+			imperial_capital
 			}
 			focuses = {
 			LEY_recovering_from_the_crisis
@@ -47,13 +49,9 @@ bookmarks = {
 			history = ERC_DESC
 			ideology = neutrality
 			ideas = {
-
 			}
 			focuses = {
 			# will change this once the Ertcofi focus tree is done cooking
-			LEY_recovering_from_the_crisis
-			LEY_the_duchy_reborn
-			LEY_crononation_of_zlatkow_i
 			}
 		}
 
