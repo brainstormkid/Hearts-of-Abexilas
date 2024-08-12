@@ -83,6 +83,7 @@ focus_tree = {
 			long_name = "House of Zlatkow"
 			name = "HoZ"
 			}
+		remove_ideas = provisional_government
 		}
 	}
 
@@ -391,6 +392,7 @@ focus_tree = {
 				ideology = communism
 				popularity = +0.2
 			}
+		remove_ideas = provisional_government
 		}
 	}
 
@@ -770,6 +772,7 @@ focus_tree = {
 			}
 		add_stability = +0.15
 		add_political_power = 200
+		remove_ideas = provisional_government
 		}
 	}
 
