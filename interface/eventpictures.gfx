@@ -20,8 +20,18 @@ spriteTypes = {
 		name = "GFX_tim_retires"
 		texturefile = "gfx/event_pictures/tim_retires.dds"
 	}
+	
+	#GAR
 	SpriteType = {
 	name = "GFX_venipher_disappears"
 	texturefile = "gfx/event_pictures/Digilord_inauguration_FIN.dds"
+	}
+	SpriteType = {
+	name = "GFX_SPA"
+	texturefile = "gfx/event_pictures/SPA_explanation.dds"
+	}
+	SpriteType = {
+	name = "GFX_SPA_attack"
+	texturefile = "gfx/event_pictures/SPA_attack.dds"
 	}
 }

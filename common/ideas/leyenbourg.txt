@@ -1,0 +1,83 @@
+ideas = {
+	country = {
+		provisional_government = {
+			picture = provisional_government
+			allowed = {
+				TAG = LEY
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+				has_completed_focus = LEY_the_duchy_reborn
+				has_completed_focus = LEY_accelerationist_takeover
+				has_completed_focus = LEY_the_first_republic
+			}
+			
+			allowed_civil_war = {
+			always = yes
+			}
+			
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				conscription_factor = -0.03
+		}
+	}
+		father_of_railways = {
+			picture = father_of_railways
+			allowed = {
+				TAG = LEY
+			}
+			
+			available = {
+			}
+			
+			allowed_civil_war = {
+			always = yes
+			}
+			
+			modifier = {
+			}
+			
+			research_bonus = {
+				train_tech = +0.10
+			}
+			equipment_bonus = {
+				basic_train = {
+					instant = yes
+					build_cost_ic = -0.1
+					}
+				train_equipment_2  = {
+					instant = yes
+					build_cost_ic = -0.1
+					}
+				train_equipment_3  = {
+					instant = yes
+					build_cost_ic = -0.1
+					}
+			}
+	}
+		imperial_capital = {
+			picture = imperial_capital
+			allowed = {
+				TAG = LEY
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+			
+			allowed_civil_war = {
+			always = yes
+			}
+			
+			modifier = {
+				army_morale_factor = 0.1
+				army_org_factor = 0.1
+		}
+	}
+}

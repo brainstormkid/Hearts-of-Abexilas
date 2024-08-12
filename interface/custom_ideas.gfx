@@ -3,8 +3,24 @@ spriteTypes = {
 		name = "GFX_idea_Kaevan_Theocracy"
 		texturefile = "gfx/interface/ideas/Kaevan_Theocracy.dds"
 	}
+	
 	SpriteType = {
 	name = "GFX_idea_Legacy_of_the_Drakaes"
 	texturefile = "gfx/interface/ideas/Flagdraka.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_provisional_government"
+	texturefile = "gfx/interface/ideas/idea_provisional_government.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_father_of_railways"
+	texturefile = "gfx/interface/ideas/idea_father_of_railways.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_imperial_capital"
+	texturefile = "gfx/interface/ideas/idea_imperial_capital.dds"
 	}
 }

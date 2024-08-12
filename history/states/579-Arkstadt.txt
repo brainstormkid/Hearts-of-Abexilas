@@ -23,6 +23,8 @@ state={
 			arms_factory = 1
 		}
 		add_core_of = ERC
+		victory_points = { 4602 15 }
+		victory_points = { 1189 5 }
 	}
 }
 

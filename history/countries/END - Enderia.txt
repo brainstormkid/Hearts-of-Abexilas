@@ -7,19 +7,21 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	democratic = 23
+	neutrality = 77	
 }
+
+recruit_character = END_misfortune_guarden
 
 create_country_leader = {
 	name = "Ender L. Guarden"
 	desc = "POLITICS_ENDER_DESC"
 	picture = "gfx/leaders/END/Ender.dds"
-	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
 		#
 	}
 }
 
-set_stability = 75
-set_war_support = 80
+set_stability = 0.68
+set_war_support = 0.9

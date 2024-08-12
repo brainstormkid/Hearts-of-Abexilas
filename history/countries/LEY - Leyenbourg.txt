@@ -29,6 +29,12 @@ create_country_leader = {
 	}
 }
 
+add_ideas = {
+	provisional_government
+	father_of_railways
+	imperial_capital
+}
+
 set_stability = 0.19
 set_war_support = 0.1
 

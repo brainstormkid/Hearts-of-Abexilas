@@ -1,0 +1,16 @@
+state={
+	id=936
+	name="STATE_936"
+	provinces={
+		761 4111 13564 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = OSR
+		buildings = {
+		}
+		add_core_of = OSR
+	}
+}

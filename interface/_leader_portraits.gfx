@@ -100,8 +100,34 @@ spriteTypes = {
 	}
 	
 	### GAR
+
 	spriteType = {
 		name = "GFX_portrait_GAR_Kayeda"
 		texturefile = "GFX/leaders/GAR/kayeda.dds"
 	}
+
+	### ERC
+
+    	spriteType = {
+    		name = "GFX_portrait_ERC_klymon"
+    		texturefile = "GFX/leaders/ERC/klymon.dds"
+    	}
+
+    	spriteType = {
+    		name = "GFX_portrait_ERC_klymon_small"
+    		texturefile = "GFX/interface/ideas/idea_chm_thesseion_small.dds"
+    	}
+		
+	### END
+	
+		spriteType = {
+    		name = "GFX_portrait_END_misfortune_guarden"
+    		texturefile = "GFX/leaders/END/misfortune_guarden.dds"
+    	}
+		
+		spriteType = {
+    		name = "GFX_portrait_END_misfortune_guarden_small"
+    		texturefile = "GFX/interface/ideas/idea_END_misfortune_guarden_small.dds"
+    	}
+
 }

@@ -1,0 +1,16 @@
+state={
+	id=900
+	name="STATE_900"
+	provinces={
+		11 3280 3395 3815 4227 4860 5281 6589 13314 13356 13428 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = VES
+		buildings = {
+		}
+		add_core_of = VES
+	}
+}

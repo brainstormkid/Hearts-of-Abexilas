@@ -1,0 +1,16 @@
+state={
+	id=934
+	name="STATE_934"
+	provinces={
+		7027 13526 13576 13585 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = OSR
+		buildings = {
+		}
+		add_core_of = OSR
+	}
+}

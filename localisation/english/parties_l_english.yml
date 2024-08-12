@@ -28,6 +28,16 @@
  LEY_fascism_party_long:0 "Socialist Party of Leyenbourg"
  LEY_neutrality_party:0 "HoZ"
  LEY_neutrality_party_long:0 "House of Zlatkow"
+  
+  #Ertcof
+ ERC_communism_party:0 "AXPE"
+ ERC_communism_party_long:0 "Agrarian-Xeroist Party of Ertcof"
+ ERC_democratic_party:0 "ERS"
+ ERC_democratic_party_long:0 "Ertcof Reformist Society"
+ ERC_fascism_party:0 "ENSP"
+ ERC_fascism_party_long:0 "Ertcofi National-Socialist Party"
+ ERC_neutrality_party:0 "Valentinus Dynasty"
+ ERC_neutrality_party_long:0 ""
  
  communism:0 "Communist"
  communism_noun:0 "Communism"

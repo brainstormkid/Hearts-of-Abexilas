@@ -20,15 +20,34 @@ focus = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		completion_reward {
-		
+		completion_reward = {
 		}
 }
 	
-	
+	#Make a deal with Seneca
+	focus = {
+	id = GAR_make_a_deal_with_Seneca
+	icon = GFX_goal_generic_demand_territory
+	available = {
+	}
+	x = 7
+	y = 0
+	cost = 2
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	completion_reward = {
+		set_rule = { can_puppet = yes }
+		add_political_power = -10
+		country_event = {
+		id = Gardenia.2
+		days = 3
+		}
+	}
+	}
 	
 	#Theorertical Prerequisite
-focus = {
+	focus = {
 		id = GAR_venny_gone
 		icon = GFX_goal_generic_demand_territory
 		available = {

@@ -1,0 +1,29 @@
+capital = 340
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 24
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 60
+	fascism = 0
+	communism = 30
+	neutrality = 10
+}
+
+create_country_leader = {
+	name = "The Peoples Diet"
+	desc = "POLITICS_PEOPLES_COUNCIL_DESC"
+	picture = "GFX/leaders/SEN/Seneca_leader.dds"
+	expire = "1965.1.1"
+	ideology = Socialism
+	traits = {
+		Tenacious_Negotiator
+		Stout_Defender
+	}
+}
+
+set_stability = 30
+set_war_support = 90
