@@ -12,5 +12,11 @@ state={
 		buildings = {
 		}
 		add_core_of = RIT
+		victory_points = {
+			6888 30
+		}
+		victory_points = {
+			6017 5
+		}
 	}
 }

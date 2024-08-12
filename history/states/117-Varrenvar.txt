@@ -12,5 +12,8 @@ state={
 		buildings = {
 		}
 		add_core_of = SAR
+		victory_points = {
+			3850 50
+		}
 	}
 }
