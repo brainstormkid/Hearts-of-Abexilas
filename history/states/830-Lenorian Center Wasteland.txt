@@ -4,6 +4,14 @@ state={
 	provinces={
 		32 914 1463 2223 2439 3327 12843 12889 12924 12928 12955 12961 13056 13068 13100 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		rubber = 2
+		tungsten = 1
+		steel = 4
+		chromium = 2
+	}
 	history={
 		owner = KHA
 		buildings = {
@@ -11,6 +19,6 @@ state={
 		add_core_of = KHA
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=50000
         state_category = town
 }

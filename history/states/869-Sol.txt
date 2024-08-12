@@ -4,6 +4,14 @@ state={
 	provinces={
 		450 1128 1454 1669 5927 13133 13166 13175 13214 13225 13268 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		rubber = 2
+		tungsten = 1
+		steel = 4
+		chromium = 2
+	}
 	history={
 		owner = KHA
 		buildings = {
@@ -11,9 +19,12 @@ state={
 			infrastructure = 2
 			arms_factory = 1
 		}
+		victory_points = {
+			5927 20
+		}
 		add_core_of = KHA
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=350000
+        state_category = large_town
 }
