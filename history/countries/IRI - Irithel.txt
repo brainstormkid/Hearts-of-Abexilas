@@ -1,4 +1,4 @@
-﻿capital = 89
+﻿capital = 30
 
 oob = "IRI"
 
