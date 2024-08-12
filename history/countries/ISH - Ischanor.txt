@@ -45,3 +45,28 @@ set_autonomy = {
 	target = SEL
 	autonomous_state = autonomy_integrated_puppet
 }
+
+set_autonomy = {
+	target = OSR
+	autonomous_state = autonomy_integrated_puppet
+}
+
+set_autonomy = {
+	target = VEC
+	autonomous_state = autonomy_integrated_puppet
+}
+
+set_autonomy = {
+	target = LIS
+	autonomous_state = autonomy_integrated_puppet
+}
+
+set_autonomy = {
+	target = CIR
+	autonomous_state = autonomy_integrated_puppet
+}
+
+set_autonomy = {
+	target = VES
+	autonomous_state = autonomy_integrated_puppet
+}
