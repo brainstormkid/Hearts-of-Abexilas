@@ -190,3 +190,23 @@ SEN = {
 	color = rgb { 165  139  73 }
 	color_ui = rgb { 165  139  73 }
 }
+OSR = {
+	color = rgb { 71  72  71 }
+	color_ui = rgb { 71  72  71 }
+}
+VES = {
+	color = rgb { 208  186  90 }
+	color_ui = rgb { 208  186  90 }
+}
+CIR = {
+	color = rgb { 99  73  73 }
+	color_ui = rgb { 99  73  73 }
+}
+LIS = {
+	color = rgb { 211  96  2 }
+	color_ui = rgb { 211  96  2 }
+}
+VEC = {
+	color = rgb { 191  4  4 }
+	color_ui = rgb { 191  4  4 }
+}
