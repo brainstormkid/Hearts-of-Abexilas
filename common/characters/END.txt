@@ -1,0 +1,31 @@
+characters={
+	END_misfortune_guarden={
+		name=END_misfortune_guarden
+		portraits={
+			civilian={
+				large="GFX_portrait_END_misfortune_guarden"
+				small="GFX_portrait_END_misfortune_guarden_small"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits= { dictator }
+			expire="1965.1.1.1"
+		}
+		advisor={
+			cost = 200
+			slot = political_advisor
+			idea_token = misfortune_guarden
+			ledger = civilian
+			allowed = {
+				original_tag = END
+			}
+			traits = { the_everyman }
+			available = { 
+			}
+			ai_will_do = {
+				factor = 1.0
+			}
+		}
+	}
+}
