@@ -41,7 +41,22 @@ bookmarks = {
 			LEY_crononation_of_zlatkow_i
 			}
 		}
-		
+
+		ERC = {
+			minor = yes 	#This is what makes it apear as a minor nation
+			history = ERC_DESC
+			ideology = neutrality
+			ideas = {
+
+			}
+			focuses = {
+			# will change this once the Ertcofi focus tree is done cooking
+			LEY_recovering_from_the_crisis
+			LEY_the_duchy_reborn
+			LEY_crononation_of_zlatkow_i
+			}
+		}
+
 		
 		}
 		effect = {

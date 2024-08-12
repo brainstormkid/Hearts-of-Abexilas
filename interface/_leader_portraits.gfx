@@ -100,8 +100,22 @@ spriteTypes = {
 	}
 	
 	### GAR
+
 	spriteType = {
 		name = "GFX_portrait_GAR_Kayeda"
 		texturefile = "GFX/leaders/GAR/kayeda.dds"
 	}
+
+	### ERC
+
+    	spriteType = {
+    		name = "GFX_portrait_ERC_klymon"
+    		texturefile = "GFX/leaders/ERC/klymon.dds"
+    	}
+
+    	spriteType = {
+    		name = "GFX_portrait_ERC_klymon_small"
+    		texturefile = "GFX/interface/ideas/idea_chm_thesseion_small.dds"
+    	}
+
 }
