@@ -13,7 +13,7 @@ state={
 		}
 		add_core_of = RIT
 		victory_points = {
-			7697 5
+			7697 20
 		}
 	}
 }
