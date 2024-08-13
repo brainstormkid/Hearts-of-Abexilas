@@ -23,5 +23,14 @@ state={
 			arms_factory = 1
 		}
 		add_core_of = DRA
+		victory_points = {
+			4411 50
+		}
+		victory_points = {
+			8337 10
+		}
+		victory_points = {
+			8491 5
+		}
 	}
 }
