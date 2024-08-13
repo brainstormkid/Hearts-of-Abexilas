@@ -24,5 +24,11 @@ state={
 			}
 		}
 		add_core_of = ASR
+		victory_points = {
+			9141 50
+		}
+		victory_points = {
+			9199 5
+		}
 	}
 }

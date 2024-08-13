@@ -23,5 +23,14 @@ state={
 			arms_factory = 1
 		}
 		add_core_of = ASR
+		victory_points = {
+			1452 30
+		}
+		victory_points = {
+			4006 10
+		}
+		victory_points = {
+			1947 5
+		}
 	}
 }
