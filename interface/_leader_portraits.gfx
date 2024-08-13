@@ -115,7 +115,7 @@ spriteTypes = {
 
     	spriteType = {
     		name = "GFX_portrait_ERC_klymon_small"
-    		texturefile = "GFX/interface/ideas/idea_chm_thesseion_small.dds"
+    		texturefile = "GFX/interface/ideas/idea_erc_klymon_small.dds"
     	}
 		
 	### END

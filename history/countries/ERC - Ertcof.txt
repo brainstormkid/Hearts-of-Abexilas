@@ -21,8 +21,15 @@ create_country_leader = {
 	picture = "gfx/leaders/ERC/klymon.dds"
 	ideology = liberalism
 	traits = {
-		constitutional_monarchist
+		constitutional_monarch_minor
 	}
+}
+
+add_ideas = {
+    high_immigration
+	agrarian_society
+	ertcofi_neutrality
+	johns_mark
 }
 
 set_stability = 0.8

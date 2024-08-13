@@ -1,0 +1,312 @@
+focus_tree = {
+	id = ertcof-focus-tree
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ERC
+		}
+	}
+	#EDOTI
+	focus = {
+		id = ERC_edoti
+		icon = GFX_ERC_edoti-646355
+		x = 2
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			ERC = { add_political_power = 50 }
+			
+		}
+	}
+
+	#Cofhan Infrastructure
+	focus = {
+		id = ERC_cofhan_infrastructure
+		icon = GFX_ERC_cofhan_infrastructure-685989
+		x = 4
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ERC_edoti  }
+	}
+
+	#Coharte Infrastructure
+	focus = {
+		id = ERC_coharte_infrastructure
+		icon = GFX_ERC_coharte_infrastructure-685994
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ERC_edoti  }
+	}
+
+	#Northern Infrastructure
+	focus = {
+		id = ERC_northern_infrastructure
+		icon = GFX_ERC_northern_infrastructure-686008
+		x = 2
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ERC_edoti  }
+	}
+
+	#Rebuild Arkstadt
+	focus = {
+		id = ERC_rebuild_arkstadt
+		icon = GFX_ERC_rebuild_arkstadt-686015
+		x = 4
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = ERC_cofhan_infrastructure  }
+	}
+
+	#Build Al'Haile
+	focus = {
+		id = ERC_buildalhaile
+		icon = GFX_ERC_buildalhaile-686239
+		x = 0
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = ERC_coharte_infrastructure  }
+	}
+
+	#Build the Capital
+	focus = {
+		id = ERC_build_the_capital
+		icon = GFX_ERC_build_the_capital-685928
+		x = 2
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ERC_northern_infrastructure  }
+	}
+
+	#Cactus Farming
+	focus = {
+		id = ERC_cactus_farming
+		icon = GFX_ERC_cactus_farming-686281
+		x = 10
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ERC_abolish_the_emcr  focus = ERC_maintain_the_ecmr  }
+	}
+
+	#Wheat Farming
+	focus = {
+		id = ERC_wheat_farming
+		icon = GFX_ERC_wheat_farming-645921
+		x = 6
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ERC_cofhan_infrastructure  }
+	}
+
+	#Abolish the EMCR
+	focus = {
+		id = ERC_abolish_the_emcr
+		icon = GFX_ERC_abolish_the_emcr-705711
+		x = 12
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		mutually_exclusive = { focus = ERC_maintain_the_ecmr  }
+	}
+
+	#National Trade Deals
+	focus = {
+		id = ERC_national_trade_deals
+		icon = GFX_goal_generic_trade
+		x = 7
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ERC_wheat_farming  focus = ERC_maintain_the_ecmr  }
+	}
+
+	#Maintain the ECMR
+	focus = {
+		id = ERC_maintain_the_ecmr
+		icon = GFX_ERC_maintain_the_ecmr-705710
+		x = 8
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+	#Cultivate Erte's Blessing
+	focus = {
+		id = ERC_cultivateertesblessing
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = ERC_wheat_farming  }
+	}
+
+	#Revoke the Constitution
+	focus = {
+		id = ERC_revoke_the_constitution
+		icon = GFX_ERC_revoke_the_constitution-270
+		x = 21
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = ERC_amend_the_constitution  } mutually_exclusive = { focus = ERC_political_unrest  }
+	}
+
+	#Amend the constitution
+	focus = {
+		id = ERC_amend_the_constitution
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 16
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = ERC_political_unrest  } mutually_exclusive = { focus = ERC_revoke_the_constitution  }
+	}
+
+	#Political Unrest
+	focus = {
+		id = ERC_political_unrest
+		icon = GFX_goal_generic_political_pressure
+		x = 26
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = ERC_revoke_the_constitution  } mutually_exclusive = { focus = ERC_amend_the_constitution  }
+	}
+
+	#Empower the Archon
+	focus = {
+		id = ERC_empower_the_archon
+		icon = GFX_ERC_empower_the_archon-427
+		x = 18
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ERC_amend_the_constitution  }
+	}
+
+	#Empower the Pakhil Assembly
+	focus = {
+		id = ERC_empower_the_pakhil_assembly
+		icon = GFX_ERC_empower_the_pakhil_assembly-646365
+		x = 14
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ERC_amend_the_constitution  }
+	}
+
+	#Invite the Far-Left
+	focus = {
+		id = ERC_invite_the_farleft
+		icon = GFX_ERC_invite_the_farleft-426
+		x = 24
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ERC_prepare_a_new_government  }
+	}
+
+	#Invite the Far-Right
+	focus = {
+		id = ERC_invite_the_farright
+		icon = GFX_ERC_invite_the_farright-428
+		x = 28
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ERC_prepare_a_new_government  }
+		mutually_exclusive = { focus = ERC_invite_the_farleft  }
+	}
+
+	#Social Democratic Values
+	focus = {
+		id = ERC_social_democratic_values
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 15
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ERC_amend_the_constitution  }
+	}
+
+	#Embrace Neutrality
+	focus = {
+		id = ERC_embrace_neutrality
+		icon = GFX_goal_generic_neutrality_focus
+		x = 17
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ERC_amend_the_constitution  }
+	}
+
+	#Prepare a new government
+	focus = {
+		id = ERC_prepare_a_new_government
+		icon = GFX_ERC_prepare_a_new_government-705718
+		x = 26
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = ERC_political_unrest  }
+	}
+
+}
