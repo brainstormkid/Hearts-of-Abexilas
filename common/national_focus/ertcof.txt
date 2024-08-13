@@ -20,7 +20,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			ERC = { add_political_power = 50 }
-			
+
 		}
 	}
 
@@ -34,6 +34,22 @@ focus_tree = {
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+            568 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+            579 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
 		}
 		prerequisite = { focus = ERC_edoti  }
 	}
@@ -49,6 +65,15 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		completion_reward = {
+		    550 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 2
+                    instant_build = yes
+                }
+            }
+        }
 		prerequisite = { focus = ERC_edoti  }
 	}
 
@@ -63,6 +88,22 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		completion_reward = {
+            534 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+            543 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
 		prerequisite = { focus = ERC_edoti  }
 	}
 
@@ -76,6 +117,9 @@ focus_tree = {
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
+		}
+		completion_reward = {
+
 		}
 		prerequisite = { focus = ERC_cofhan_infrastructure  }
 	}
@@ -91,6 +135,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
+		completion_reward = {
+
+		}
 		prerequisite = { focus = ERC_coharte_infrastructure  }
 	}
 
@@ -104,6 +151,9 @@ focus_tree = {
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+
 		}
 		prerequisite = { focus = ERC_northern_infrastructure  }
 	}
@@ -119,6 +169,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		completion_reward = {
+
+		}
 		prerequisite = { focus = ERC_abolish_the_emcr  focus = ERC_maintain_the_ecmr  }
 	}
 
@@ -132,6 +185,9 @@ focus_tree = {
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+
 		}
 		prerequisite = { focus = ERC_cofhan_infrastructure  }
 	}
@@ -147,6 +203,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		completion_reward = {
+
+		}
 		mutually_exclusive = { focus = ERC_maintain_the_ecmr  }
 	}
 
@@ -161,6 +220,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		completion_reward = {
+
+		}
 		prerequisite = { focus = ERC_wheat_farming  focus = ERC_maintain_the_ecmr  }
 	}
 
@@ -173,6 +235,9 @@ focus_tree = {
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+
 		}
 		mutually_exclusive = { focus = ERC_abolish_the_emcr  }
 	}
@@ -188,6 +253,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
+		completion_reward = {
+
+		}
 		prerequisite = { focus = ERC_wheat_farming  }
 	}
 
@@ -200,6 +268,9 @@ focus_tree = {
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+
 		}
 		mutually_exclusive = { focus = ERC_political_unrest  }
 		mutually_exclusive = { focus = ERC_revoke_the_constitution  }
@@ -215,6 +286,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		completion_reward = {
+
+		}
 		mutually_exclusive = { focus = ERC_amend_the_constitution  }
 		mutually_exclusive = { focus = ERC_political_unrest  }
 	}
@@ -228,6 +302,9 @@ focus_tree = {
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+
 		}
 		mutually_exclusive = { focus = ERC_revoke_the_constitution  }
 		mutually_exclusive = { focus = ERC_amend_the_constitution  }
@@ -243,6 +320,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		completion_reward = {
+
+		}
 		prerequisite = { focus = ERC_amend_the_constitution  }
 	}
 
@@ -255,6 +335,9 @@ focus_tree = {
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+
 		}
 		prerequisite = { focus = ERC_amend_the_constitution  }
 	}
@@ -269,6 +352,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		completion_reward = {
+
+		}
 		prerequisite = { focus = ERC_prepare_a_new_government  }
 		mutually_exclusive = { focus = ERC_invite_the_farright  }
 	}
@@ -281,6 +367,9 @@ focus_tree = {
 		y = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+
 		}
 		prerequisite = { focus = ERC_prepare_a_new_government  }
 		mutually_exclusive = { focus = ERC_invite_the_farleft  }
@@ -297,6 +386,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 			FOCUS_FILTER_STABILITY
 		}
+		completion_reward = {
+
+		}
 		prerequisite = { focus = ERC_amend_the_constitution  }
 	}
 
@@ -311,6 +403,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 			FOCUS_FILTER_STABILITY
 		}
+		completion_reward = {
+
+		}
 		prerequisite = { focus = ERC_amend_the_constitution  }
 	}
 
@@ -323,6 +418,9 @@ focus_tree = {
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		completion_reward = {
+
 		}
 		prerequisite = { focus = ERC_political_unrest  }
 	}
