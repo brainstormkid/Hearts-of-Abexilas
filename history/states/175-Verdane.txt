@@ -12,5 +12,17 @@ state={
 		buildings = {
 		}
 		add_core_of = CAS
+		victory_points = {
+			656 10
+		}
+		victory_points = {
+			3707 5
+		}
+		victory_points = {
+			8959 5
+		}
+		victory_points = {
+			8747 5
+		}
 	}
 }
