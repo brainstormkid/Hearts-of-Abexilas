@@ -1,4 +1,4 @@
-﻿l_english: 
+﻿l_english:
  #Myrtana
  MYR_myrtanainflames:0 "Myrtana in Flames!"
  MYR_myrtanainflames_desc:0 "Our nation is in deep crisis right now, political instability, economic poverty along with decreasing population and there even is whispers of potential civil war soon. Many of our generals becoming a bit paranoid, we need to do everything we can to save this nation. Glory to Myrtana! Glory to Ravian!"
@@ -582,7 +582,8 @@
  ERC_prepare_a_new_government_desc:0 "Our current government is incapable of supporting its duties, there needs to be change or we will fall rapidly under internal divides and external pressures."
 
 
-l_english:
+
+ # Base-game localisations
  WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"
  generic_focus:0 "National Focus"
  army_effort:0 "Army Effort"
