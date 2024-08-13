@@ -12,8 +12,5 @@ state={
 		buildings = {
 		}
 		add_core_of = CAS
-		victory_points = {
-			8355 5
-		}
 	}
 }
