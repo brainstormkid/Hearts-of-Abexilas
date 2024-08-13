@@ -23,4 +23,24 @@ spriteTypes = {
 	name = "GFX_idea_imperial_capital"
 	texturefile = "gfx/interface/ideas/idea_imperial_capital.dds"
 	}
+
+	SpriteType = {
+	name = "GFX_idea_high_immigration"
+	texturefile = "gfx/interface/ideas/idea_high_immigration.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_idea_agrarian_society"
+	texturefile = "gfx/interface/ideas/idea_agrarian_society.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_idea_ertcofi_neutrality"
+	texturefile = "gfx/interface/ideas/idea_ertcofi_neutrality.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_idea_johns_mark"
+	texturefile = "gfx/interface/ideas/idea_johns_mark.dds"
+	}
 }

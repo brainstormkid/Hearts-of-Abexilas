@@ -1,0 +1,88 @@
+ideas = {
+	country = {
+		high_immigration = {
+			picture = high_immigration
+			allowed = {
+				TAG = ERT
+			}
+
+			available = {
+			}
+
+			cancel = {
+			    OR = {
+			        has_government = fascism
+			        has_government = communism
+			    }
+			}
+
+			allowed_civil_war = {
+			    always = yes
+			}
+
+			modifier = {
+				conscription_factor = 0.05
+	    	}
+    	}
+		agrarian_society = {
+			picture = agrarian_society
+			allowed = {
+				TAG = ERT
+			}
+
+			available = {
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+			    always = yes
+			}
+
+			modifier = {
+				conscription_factor = -0.3
+				war_support_factor = -0.1
+				consumer_goods_factor = -0.05
+	    	}
+    	}
+		ertcofi_neutrality = {
+			picture = ertcofi_neutrality
+			allowed = {
+				TAG = ERT
+			}
+
+			available = {
+			}
+
+			allowed_civil_war = {
+			    always = yes
+			}
+
+			modifier = {
+			    join_faction_tension = 1.0
+			    send_volunteers_tension = 0.1
+			    guarantee_tension = 0.5
+			    ai_badass_factor = 0.03
+			    ai_get_ally_desire_factor = -0.5
+			}
+	    }
+		johns_mark = {
+			picture = johns_mark
+			allowed = {
+				TAG = ERT
+			}
+
+			available = {
+			}
+
+			allowed_civil_war = {
+			    always = yes
+			}
+
+			modifier = {
+
+			}
+		}
+	}
+}

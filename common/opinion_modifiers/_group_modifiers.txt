@@ -1,0 +1,5 @@
+opinion_modifiers = {
+    faunic_opinion_modifier = {
+        value = 20
+    }
+}

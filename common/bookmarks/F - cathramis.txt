@@ -49,9 +49,14 @@ bookmarks = {
 			history = ERC_DESC
 			ideology = neutrality
 			ideas = {
-			}
+                agrarian_society
+                ertcofi_neutrality
+                johns_mark
+            }
 			focuses = {
-			# will change this once the Ertcofi focus tree is done cooking
+			ERC_edoti
+			ERC_amend_the_constitution
+			ERC_abolish_the_emcr
 			}
 		}
 
