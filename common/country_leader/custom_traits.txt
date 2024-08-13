@@ -33,7 +33,7 @@ leader_traits = {
 		political_power_gain = 0.1
 		democratic_acceptance = +50
 		communism_acceptance = +50
-		democratic_drift =´+0.01
+		democratic_drift = +0.01
 		improve_relations_maintain_cost_factor = -0.75
 		decryption_factor = 0.15
 		
@@ -42,6 +42,5 @@ leader_traits = {
             factor = 1
         }
     }
-
 
 }
