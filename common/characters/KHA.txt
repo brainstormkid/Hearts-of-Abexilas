@@ -1,0 +1,51 @@
+characters = {
+    KHA_storm_vyiera = {
+		name = KHA_storm_vyiera
+		gender = male
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KHA_Storm
+				small = GFX_portrait_KHA_Storm_small
+			}
+			army = {
+				large = GFX_portrait_KHA_Storm
+				small = GFX_portrait_KHA_Storm_small
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = KHA_storm_vyiera
+			ledger = all
+			traits = {
+				modernist_and_reformer
+			}
+		}
+    }
+
+	KHA_edakho_lihon = {
+		name = KHA_edakho_lihon
+		gender = male
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KHA_Edakho
+				small = GFX_portrait_KHA_Edakho_small
+			}
+			army = {
+				large = GFX_portrait_KHA_Edakho
+				small = GFX_portrait_KHA_Edakho_small
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = KHA_edakho_lihon
+			ledger = all
+			traits = {
+				popular_figurehead
+			}
+		}
+    }
+}

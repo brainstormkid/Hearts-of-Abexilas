@@ -130,4 +130,27 @@ spriteTypes = {
     		texturefile = "GFX/interface/ideas/idea_END_misfortune_guarden_small.dds"
     	}
 
+	### KHA
+
+		spriteType = {
+			name = "GFX_portrait_KHA_Storm"
+			texturefile = "GFX/leaders/KHA/storm.dds"
+		}
+
+		spriteType = {
+    		name = "GFX_portrait_KHA_Storm_small"
+    		texturefile = "GFX/interface/ideas/idea_kha_storm_small.dds"
+    	}
+
+		
+		spriteType = {
+			name = "GFX_portrait_KHA_Edakho"
+			texturefile = "GFX/leaders/KHA/edakho.dds"
+		}
+
+		spriteType = {
+    		name = "GFX_portrait_KHA_Edakho_small"
+    		texturefile = "GFX/interface/ideas/idea_kha_edakho_small.dds"
+    	}
+
 }

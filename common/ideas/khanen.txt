@@ -1,0 +1,34 @@
+ideas = {
+    country = {
+        unstable_union = {
+			picture = unstable_union
+			allowed = {
+				tag = KHA
+			}
+			modifier = {
+				stability_weekly = -0.1
+				political_power_factor = -0.5
+			}
+		}
+		stagnant_recruitment = {
+			picture = stagnant_recruitment
+			allowed = {
+				tag = KHA
+			}
+			modifier = {
+				recruitable_population_factor = -0.5
+				production_factory_max_efficiency_factor = -0.6
+			}
+		}
+		motivated_population = {
+			picture = motivated_population
+			allowed = {
+				tag = KHA
+			}
+			modifier = {
+				research_speed_factor = 1.2
+				war_support_weekly = 0.5
+			}
+		}
+    }
+}

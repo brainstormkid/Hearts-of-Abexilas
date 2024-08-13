@@ -13,6 +13,9 @@ set_popularities = {
 	neutrality = 85
 }
 
+recruit_character = KHA_edakho_lihon
+recruit_character = KHA_storm_vyiera
+
 create_country_leader = {
 	name = "The Karzine Council"
 	desc = "POLITICS_KHANEN_DESC"
@@ -22,6 +25,12 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+
+add_ideas = {
+	unstable_union
+	stagnant_recruitment
+	motivated_population
 }
 
 set_stability = 60
