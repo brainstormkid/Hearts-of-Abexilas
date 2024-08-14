@@ -29,7 +29,3 @@ add_opinion_modifier = {
     target = ERC
     modifier = faunic_opinion_modifier
 }
-add_opinion_modifier = {
-    target = HOD
-    modifier = faunic_opinion_modifier
-}

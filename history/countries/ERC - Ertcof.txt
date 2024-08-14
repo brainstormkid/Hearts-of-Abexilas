@@ -34,3 +34,13 @@ add_ideas = {
 
 set_stability = 0.8
 set_war_support = 0.30
+
+
+add_opinion_modifier = {
+    target = CAK
+    modifier = faunic_opinion_modifier
+    }
+add_opinion_modifier = {
+    target = HOD
+    modifier = faunic_opinion_modifier
+}
