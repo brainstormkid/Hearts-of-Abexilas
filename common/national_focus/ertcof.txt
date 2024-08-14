@@ -34,6 +34,22 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		completion_reward = {
+		    568 = {
+			    add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+		    579 = {
+			    add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+		}
 		prerequisite = { focus = ERC_edoti  }
 	}
 
@@ -46,6 +62,15 @@ focus_tree = {
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+		    550 = {
+			    add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
 		}
 		prerequisite = { focus = ERC_edoti  }
 	}
@@ -60,6 +85,22 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		completion_reward = {
+		    534 = {
+			    add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+		    543 = {
+			    add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+		}
 		prerequisite = { focus = ERC_edoti  }
 	}
 
@@ -72,6 +113,15 @@ focus_tree = {
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
+		}
+		completion_reward = {
+		    579 = {
+			    add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
 		}
 		prerequisite = { focus = ERC_cofhan_infrastructure  }
 	}
@@ -86,6 +136,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
+		completion_reward = {
+
+		}
 		prerequisite = { focus = ERC_coharte_infrastructure  }
 	}
 
@@ -98,6 +151,9 @@ focus_tree = {
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+
 		}
 		prerequisite = { focus = ERC_northern_infrastructure  }
 	}
@@ -112,7 +168,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = ERC_abolish_the_emcr  focus = ERC_maintain_the_ecmr  }
+		prerequisite = { focus = ERC_abolish_the_ecmr  focus = ERC_maintain_the_ecmr  }
 	}
 
 	#Wheat Farming
@@ -128,10 +184,10 @@ focus_tree = {
 		prerequisite = { focus = ERC_cofhan_infrastructure  }
 	}
 
-	#Abolish the EMCR
+	#Abolish the ECMR
 	focus = {
-		id = ERC_abolish_the_emcr
-		icon = GFX_ERC_abolish_the_emcr-705711
+		id = ERC_abolish_the_ecmr
+		icon = GFX_ERC_abolish_the_ecmr-705711
 		x = 12
 		y = 0
 		cost = 5
@@ -164,6 +220,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		mutually_exclusive = { focus = ERC_abolish_the_ecmr }
 	}
 
 	#Cultivate Erte's Blessing

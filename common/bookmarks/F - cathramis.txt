@@ -56,7 +56,7 @@ bookmarks = {
 			focuses = {
 			ERC_edoti
 			ERC_amend_the_constitution
-			ERC_abolish_the_emcr
+			ERC_abolish_the_ecmr
 			}
 		}
 
