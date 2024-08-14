@@ -168,14 +168,12 @@ focus_tree = {
 			add_building_construction = {
 				type = industrial_complex
 				level = 1
-				state = 601
 			}
 		}
 		601 = {
 			add_building_construction = {
 				type = arms_factory
 				level = 1
-				state = 601
 			}
 		}
 		}
@@ -223,14 +221,12 @@ focus_tree = {
 			add_building_construction = {
 				type = arms_factory
 				level = 1
-				state = 601
 			}
 		}
 		601 = {
 			add_building_construction = {
 				type = arms_factory
 				level = 1
-				state = 599
 			}
 		}
 		}
@@ -567,6 +563,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_executetheaccelerationistleaders  }
+		mutually_exclusive = { focus = LEY_one_man_to_lead_them_all  }
 		completion_reward = {
 		add_popularity = {
 				ideology = communism
