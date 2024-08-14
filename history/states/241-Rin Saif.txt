@@ -26,5 +26,8 @@ state={
 			}
 		}
 		add_core_of = CES
+		victory_points = {
+			4081 50
+		}
 	}
 }
