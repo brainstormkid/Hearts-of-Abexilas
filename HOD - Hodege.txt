@@ -1,0 +1,35 @@
+﻿capital = 570
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+	name = "?"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	#picture = "gfx/leaders/AEZ/Panda.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+add_opinion_modifier = {
+    target = CAK
+    modifier = faunic_opinion_modifier
+    }
+add_opinion_modifier = {
+    target = ERC
+    modifier = faunic_opinion_modifier
+}
+add_opinion_modifier = {
+    target = HOD
+    modifier = faunic_opinion_modifier
+}

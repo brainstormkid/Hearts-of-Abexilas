@@ -1,0 +1,63 @@
+﻿capital = 601
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 23
+	fascism = 12
+	communism = 3
+	neutrality = 62
+}
+recruit_character = LEY_tim
+recruit_character = LEY_gottfried_sarkowa
+recruit_character = LEY_brib
+recruit_character = LEY_vilyanz
+recruit_character = LEY_hans_solo
+
+create_country_leader = {
+	name = "Stephan Zlaktow"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "gfx/leaders/LEY/stephan.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+add_ideas = {
+	provisional_government
+	father_of_railways
+	imperial_capital
+}
+
+set_stability = 0.19
+set_war_support = 0.1
+
+set_party_name = { 
+    ideology = neutrality 
+    long_name = "LEY_neutrality_party_long"
+    name = "LEY_neutrality_party"
+}
+
+set_party_name = { 
+    ideology = democratic 
+    long_name = "LEY_democratic_party_long"
+    name = "LEY_democratic_party"
+}
+
+set_party_name = { 
+    ideology = fascism 
+    long_name = "LEY_fascism_party_long"
+    name = "LEY_fascism_party"
+}
+
+set_party_name = { 
+    ideology = communism 
+    long_name = "LEY_communism_party_long"
+    name = "LEY_communism_party"
+}
