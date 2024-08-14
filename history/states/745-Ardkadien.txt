@@ -23,6 +23,10 @@ state={
 			dockyard = 1
 		}
 		add_core_of = ARC
+		victory_points = { 12328 20 }
+		victory_points = { 1289 10 }
+		victory_points = { 12350 10 }
+		victory_points = { 5262 5 }
 	}
 }
 
