@@ -210,3 +210,7 @@ VEC = {
 	color = rgb { 191  4  4 }
 	color_ui = rgb { 191  4  4 }
 }
+YIA = {
+	color = rgb { 83  181  181 }
+	color_ui = rgb { 83  181  181 }
+}
