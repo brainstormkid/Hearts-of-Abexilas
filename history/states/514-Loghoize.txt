@@ -12,5 +12,6 @@ state={
 		buildings = {
 		}
 		add_core_of = HOD
+		victory_points = { 5896 20 }
 	}
 }

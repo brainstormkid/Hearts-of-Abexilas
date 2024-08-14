@@ -24,5 +24,6 @@ state={
 			}
 		}
 		add_core_of = TAN
+		victory_points = { 5873 20 }
 	}
 }
