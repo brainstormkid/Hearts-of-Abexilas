@@ -12,5 +12,11 @@ state={
 		buildings = {
 		}
 		add_core_of = AKA
+		victory_points = {
+			5051 10
+		}
+		victory_points = {
+			9716 5
+		}
 	}
 }
