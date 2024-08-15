@@ -8,8 +8,10 @@ focus_tree = {
 			tag = GAR
 		}
 	}
+	
+#Begins Army reform tree
 focus = {
-		id = GAR_The_continental_summit
+		id = GAR_whats_a_military
 		icon = GFX_goal_generic_demand_territory
 		available = {
 		
@@ -41,9 +43,45 @@ focus = {
 		add_political_power = -10
 		country_event = {
 		id = Gardenia.2
-		days = 3
 		}
 	}
+	}
+	#Integrate Seneca
+	focus = {
+	id = GAR_integrate_Seneca
+	icon = GFX_goal_support_democracy
+	available = {
+	country_exists = SEN
+	}
+	x = 1
+	y = 1
+	relative_position_id = GAR_make_a_deal_with_Seneca
+	prerequisite = { focus = GAR_make_a_deal_with_Seneca }
+	cost = 5
+	mutually_exclusive = { focus = GAR_destroy_local_leadership }
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	completion_reward = {
+		country_event = {
+		id = Gardenia.5
+		}
+	}
+	}
+	
+	#Destroy local leadership
+	focus = {
+	id = GAR_destroy_local_leadership
+	icon = GFX_goal_generic_small_arms
+	available = {
+	
+	}
+	x = -1
+	y = 1
+	relative_position_id = GAR_make_a_deal_with_Seneca
+	prerequisite = { focus = GAR_make_a_deal_with_Seneca }
+	cost = 2
+	mutually_exclusive = { focus = GAR_integrate_Seneca }
 	}
 	
 	#Theorertical Prerequisite

@@ -532,6 +532,14 @@
  GAR_perhaps_some_state_isn't_so_bad_desc:0 ""
  GAR_build_up_worker_cooperatives:0 "Build up worker cooperatives"
  GAR_build_up_worker_cooperatives_desc:0 ""
+ GAR_whats_a_military:0 "What's a military??"
+ GAR_whats_a_military_desc:0 ""
+ GAR_make_a_deal_with_Seneca:0 "Make a deal with Seneca"
+ GAR_make_a_deal_with_Seneca_desc:0 ""
+ GAR_integrate_Seneca:0 "Integrate Seneca"
+ GAR_integrate_Seneca_desc:0 ""
+ GAR_destroy_local_leadership:0 "Destroy local leadership"
+ GAR_destroy_local_leadership_desc:0 ""
 
 #Ertcof
  ERC_edoti:0 "EDOTI"

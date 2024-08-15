@@ -28,7 +28,7 @@ country_event = {
 
 	is_triggered_only = yes
 	option = {
-		
+		ai_chance = { factor = 100 }
 		name = Gardenia_invite_seneca.2.a
 		if = {
             	limit = {
@@ -112,4 +112,33 @@ country_event = {
 		id = Gardenia.3
 	}
 	}
+}
+
+country_event = [
+	id = Gardenia.5
+	title = Gardenia_integration.5.t
+	desc = Gardenia_integration.5.d
+	picture = ""
+	is_triggered_only = yes
+	option = {
+	name = Gardenia_integration.5.a
+	add_stability = 0.05
+	add_war_support = 0.02
+	add_state_core = 340
+	ai_chance = { factor = 100 }
+	annex_country = {
+			target = SEN
+			transfer_troops = yes
+		}
+	}
+	option = {
+	name = Gardenia_integration.5.b
+	add_stability = -0.05
+	add_state_core = 340
+	annex_country = {
+			target = SEN
+			transfer_troops = no
+		}
+	}
+
 }
