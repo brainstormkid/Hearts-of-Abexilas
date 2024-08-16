@@ -1,13 +1,16 @@
-﻿capital = 243
+﻿capital = 211
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = nazism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	democratic = 10
+	fascism = 55
+	communism = 0
+	neutrality = 35
 }
 
 create_country_leader = {
@@ -15,13 +18,12 @@ create_country_leader = {
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	#picture = "gfx/leaders/AEZ/Panda.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = nazism
 	traits = {
 		#
 	}
 }
 
-set_autonomy = {
-	target = ZEH
-	autonomous_state = autonomy_puppet
-}
+
+set_stability = 0.12
+set_war_support = 0.08

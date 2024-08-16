@@ -223,3 +223,8 @@ AKI = {
 	color = rgb { 223  26  23 }
 	color_ui = rgb { 223  26  23 }
 }
+
+ZEH = {
+	color = rgb { 34 136 0 }
+	color_ui = rgb { 34 136 0 }
+}
