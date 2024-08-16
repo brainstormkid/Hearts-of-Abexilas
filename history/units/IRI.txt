@@ -47,7 +47,7 @@ units = {
 		location = 2989
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	division = {
@@ -55,56 +55,56 @@ units = {
 		location = 2989
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "3rd Irithel Infantry"
 		location = 7271
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "1st Irithel Guards"
 		location = 1175
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "2nd Irithel Guards"
 		location = 6170
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "3rd Irithel Guards"
 		location = 4319
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "1st Irithel Calvary"
 		location = 7103
 		division_template = "Calvary Division"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "2nd Irithel Calvary"
 		location = 7299
 		division_template = "Calvary Division"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "3rd Irithel Calvary"
 		location = 7607
 		division_template = "Calvary Division"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 	}
 }
 
