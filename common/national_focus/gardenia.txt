@@ -18,14 +18,52 @@ focus = {
 		}
 		x = 2
 		y = 0
-		cost = 2
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
 		}
 }
+
+#A militia system
+focus = {
+	id = GAR_a_milita_system
+	icon = GFX_goal_generic_allies_build_infantry
+	available = {
 	
+	}
+	x = 1
+	y = 1
+	relative_position_id = GAR_whats_a_military
+	cost = 2
+	search_filters = {
+		FOCUS_FILTER_MANPOWER
+	}
+	completion_reward = {
+	
+	}
+	prerequisite = { focus = GAR_whats_a_military }
+	mutually_exclusive = { focus = GAR_a_professional_military }
+}
+
+#A Professional military
+focus = {
+	id = GAR_a_professional_military
+	icon = GFX_goal_generic_army_tanks
+	available = {
+	}
+	x = -1
+	y = 1
+	cost = 5
+	relative_position_id = GAR_whats_a_military 
+	search_filters = {
+	}
+	completion_reward = {
+	
+	}
+	prerequisite = { focus = GAR_whats_a_military }
+	mutually_exclusive = { focus = GAR_a_milita_system }
+}
 	#Make a deal with Seneca
 	focus = {
 	id = GAR_make_a_deal_with_Seneca
@@ -74,7 +112,9 @@ focus = {
 	id = GAR_destroy_local_leadership
 	icon = GFX_goal_generic_small_arms
 	available = {
-	
+	NOT = {
+	country_exists = SEN
+	}
 	}
 	x = -1
 	y = 1
@@ -208,6 +248,8 @@ focus = {
 		prerequisite = { focus = GAR_revolution }
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_MANPOWER
+			FOCUS_FILTER_WAR_SUPPORT
 		}
 		completion_reward = {
 			add_war_support = 0.10
@@ -366,6 +408,42 @@ focus = {
 				}
 			}
 		}
+	#Take over economic institutions
+	focus = {
+		id = GAR_seize_the_economy 
+		icon = GFX_goal_generic_forceful_treaty
+		x = 1
+		y = 1
+		relative_position_id = GAR_use_native_communities_as_examples
+		cost = 3
+		prerequisite = { focus = GAR_use_native_communities_as_examples }
+		search_filters = {
+		FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+		
+		}
+	}
+	
+	#Be ready for a general strike
+	focus = {
+		id = GAR_prepare_for_a_general_strike
+		icon = GFX_goal_generic_demand_territory
+		x = -1
+		y = 1
+		relative_position_id = GAR_seize_the_economy
+		cost = 3
+		prerequisite = { focus = GAR_seize_the_economy }
+		prerequisite = { focus = GAR_build_up_worker_cooperatives }
+		search_filters = {
+		FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+		
+		}
+	
+	
+	}
 	
 	#Add idea that give c support and -cosumer goods use
 	#Build up worker cooperatives
@@ -436,7 +514,11 @@ focus = {
 		x = 2
 		y = 1
 		relative_position_id = GAR_ensure_non_intervention
+		search_filters = {
+		FOCUS_FILTER_POLITICAL
+		}
 		prerequisite = { focus = GAR_ensure_non_intervention }
+		prerequisite = { focus = GAR_prepare_for_a_general_strike }
 		cost = 5
 		completion_reward = {
 		set_politics = {
@@ -494,6 +576,9 @@ focus = {
 		y = 1
 		relative_position_id = GAR_building_a_new_state
 		cost = 5
+		search_filters = {
+		FOCUS_FILTER_POLITICAL
+		}
 		prerequisite = { focus = GAR_building_a_new_state }
 		mutually_exclusive = { focus = GAR_permanent_revolution }
 		mutually_exclusive = { focus = GAR_perhaps_some_state_isn't_so_bad }
@@ -509,6 +594,9 @@ focus = {
 		y = 1
 		relative_position_id = GAR_building_a_new_state
 		cost = 5
+		search_filters = {
+		FOCUS_FILTER_POLITICAL
+		}
 		prerequisite = { focus = GAR_building_a_new_state }
 		prerequisite = { focus = GAR_a_victory_of_the_people }
 		mutually_exclusive = { focus = GAR_Communalist_principles }
