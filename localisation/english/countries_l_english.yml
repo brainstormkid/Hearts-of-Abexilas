@@ -450,8 +450,8 @@
  GAR_democratic:1 "Fioræst Gardenia"
  GAR_democratic_DEF:1 "the Fioræst Gardenia"
  GAR_democratic_ADJ:0 "Gardenian"
- GAR_communism:1 "Second Commune of Nyr Velenez"
- GAR_communism_DEF:1 "the Second Commune of Nyr Velenez"
+ GAR_communism:1 "Fioræst Gardenia"
+ GAR_communism_DEF:1 "the peoples republic of Fioræst Gardenia"
  GAR_communism_ADJ:0 "Gardenian"
  
  DEF_neutrality:1 "Defiant"
