@@ -12,7 +12,7 @@
  #Tanragh
  TANRAGH_NAME:0 "Tanragh"
  TANRAGH_DESC:0 "Tanragh, also known as Sinraeda in Irithel, is one of the continents of Abexilas, located in its northeastern-most reaches. It is home to a variety of nations, including the Grand Regency of Castanor, the Kingdom of Irithel, the Korelenten Sarinzerilin, the Akari Imperium, and Na Cesa Rindaun, among others."
- CAS_DESC:0 "" 
+ CAS_DESC:0 "Since the disappearance of the Emperor Callahan a millenium ago, the Empire has been in a state of decline, retracting to the corner of the map we hold today. It is now up to the modern line of Grand-Regents and the great lords and citizens of Castanor to prepare the realm for the return of Callahan, and the resurrection of our people to greatness." 
  AKA_DESC:0 "The Akari Commonwealth was formed on January 7th 2024, the founding two consuls being Neo_Aurelian and Saliz."
  IRI_DESC:0 "Irithel, officially the Kingdom of Irithel, is an absolutist monarchy comprised of the Elluré's fallen realms and their colonial vassals. The Kingdom is located in the north-east of Abexilas, on the continents of Sinraeda and Norvinia. Irithel is a nation-state comprised of the Elluré race, further subdividing into the Irithe and Anare cultural groups. The capital of Irithel is the city of Irithid, located a valley in the mainland center of the nation."
  ASR_DESC:0 "Asren, officially the Sanctuary of Asren, is a state located in Tanragh, Abexilas. It was founded by a group of Najer refugees following the freezing and subsequent mass abandonment of Rathnir."
