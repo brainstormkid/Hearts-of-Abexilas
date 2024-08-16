@@ -540,6 +540,14 @@
  GAR_integrate_Seneca_desc:0 ""
  GAR_destroy_local_leadership:0 "Destroy local leadership"
  GAR_destroy_local_leadership_desc:0 ""
+ GAR_seize_the_economy:0 "Seize the economy"
+ GAR_seize_the_economy_desc:0 ""
+ GAR_prepare_for_a_general_strike:0 "Prepare for a general strike"
+ GAR_prepare_for_a_general_strike_desc:0 ""
+ GAR_a_milita_system:0 "A miltia system"
+ GAR_a_milita_system_desc:0 ""
+ GAR_a_professional_military:0 "A professional military"
+ GAR_a_professional_military_desc:0
 
 #Ertcof
  ERC_edoti:0 "EDOTI"
