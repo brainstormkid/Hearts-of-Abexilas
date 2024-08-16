@@ -10,6 +10,11 @@ state={
 	history={
 		owner = CAS
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			5467 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = CAS
 		victory_points = {
