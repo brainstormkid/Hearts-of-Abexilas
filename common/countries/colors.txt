@@ -214,3 +214,8 @@ YIA = {
 	color = rgb { 83  181  181 }
 	color_ui = rgb { 83  181  181 }
 }
+
+AKI = {
+	color = rgb { 223  26  23 }
+	color_ui = rgb { 223  26  23 }
+}

@@ -29,7 +29,7 @@
  LEY_neutrality_party:0 "HoZ"
  LEY_neutrality_party_long:0 "House of Zlatkow"
   
-  #Ertcof
+ #Ertcof
  ERC_communism_party:0 "AXPE"
  ERC_communism_party_long:0 "Agrarian-Xeroist Party of Ertcof"
  ERC_democratic_party:0 "ERS"
@@ -38,6 +38,17 @@
  ERC_fascism_party_long:0 "Ertcofi National-Socialist Party"
  ERC_neutrality_party:0 "Valentinus Dynasty"
  ERC_neutrality_party_long:0 ""
+ 
+ #Akito
+ AKI_communism_party:0 "WPA"
+ AKI_communism_party_long:0 "Workers Party of Akito"
+ AKI_democratic_party:0 "ACP"
+ AKI_democratic_party_long:0 "Akitian Conservative Party"
+ AKI_fascism_party:0 "ANP"
+ AKI_fascism_party_long:0 "Akitian National Party"
+ AKI_neutrality_party:0 "AD"
+ AKI_neutrality_party_long:0 "Akitian Dynasty"
+ 
  
  communism:0 "Communist"
  communism_noun:0 "Communism"

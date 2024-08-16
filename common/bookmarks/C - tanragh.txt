@@ -72,6 +72,16 @@ bookmarks = {
 				
 			}
 		}
+		AKI = {
+			history = AKI_DESC
+			ideology = neutrality
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
 
 		"---"={
 			history = "OTHER_DESC"

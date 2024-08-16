@@ -1,5 +1,6 @@
 TST = "countries/Test.txt"
 AKA = "countries/Akari.txt"
+AKI = "countries/Akito.txt"
 ARC = "countries/Arcael.txt"
 ASR = "countries/Asren.txt"
 BEE = "countries/Beepek.txt"
