@@ -1,5 +1,7 @@
 ﻿capital = 211
 
+oob = "ZEH"
+
 set_politics = {
 	ruling_party = nazism
 	last_election = "1936.1.1"
