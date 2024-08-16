@@ -15,6 +15,19 @@
 	}
 }
 division_template = {
+	name = "Guard Division"				# Represents 12w Infantry Division
+	#division_names_group = GER_Cav_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
 	name = "Calvary Division"				# Represents 12w Calvary Division
 	#division_names_group = GER_Cav_01
 
@@ -30,7 +43,7 @@ division_template = {
 
 units = {
 	division = {
-		name = "Irithel Infantry"
+		name = "1st Irithel Infantry"
 		location = 2989
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
@@ -38,12 +51,60 @@ units = {
 
 	}
 	division = {
-		name = "Irithel Infantry"
+		name = "2nd Irithel Infantry"
 		location = 2989
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "3rd Irithel Infantry"
+		location = 7271
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "1st Irithel Guards"
+		location = 1175
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "2nd Irithel Guards"
+		location = 6170
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "3rd Irithel Guards"
+		location = 4319
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "1st Irithel Calvary"
+		location = 7103
 		division_template = "Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
-
+	}
+	division = {
+		name = "2nd Irithel Calvary"
+		location = 7299
+		division_template = "Calvary Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "3rd Irithel Calvary"
+		location = 7607
+		division_template = "Calvary Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 }
 
