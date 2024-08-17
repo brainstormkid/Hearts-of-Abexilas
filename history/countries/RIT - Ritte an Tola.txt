@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 89
+
+oob = "RIT"
 
 set_politics = {
 	ruling_party = neutrality
