@@ -43,107 +43,107 @@ division_template = {
 
 units = {
 	division = {
-		name = "1st Castanor Infantry"
-		location = 61
+		name = "1st Akari Infantry"
+		location = 9537
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 
 	}
 	division = {
-		name = "2nd Castanor Infantry"
-		location = 61
+		name = "2nd Akari Infantry"
+		location = 9537
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Castanor Infantry"
-		location = 9062
+		name = "3rd Akari Infantry"
+		location = 3793
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4th Castanor Infantry"
-		location = 1001
+		name = "4th Akari Infantry"
+		location = 5701
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "5th Castanor Infantry"
-		location = 9290
+		name = "5th Akari Infantry"
+		location = 2823
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Castanor Guards"
-		location = 5087
+		name = "6th Akari Infantry"
+		location = 9701
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Akari Guards"
+		location = 9510
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Castanor Guards"
-		location = 8673
+		name = "2nd Akari Guards"
+		location = 6232
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Castanor Guards"
-		location = 5467
+		name = "3rd Akari Guards"
+		location = 855
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4th Castanor Guards"
-		location = 1870
+		name = "4th Akari Guards"
+		location = 471
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Castanor Calvary"
-		location = 164
+		name = "5th Akari Guards"
+		location = 9803
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Akari Calvary"
+		location = 9549
 		division_template = "Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Castanor Calvary"
-		location = 5865
+		name = "2nd Akari Calvary"
+		location = 5051
 		division_template = "Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Castanor Calvary"
-		location = 8431
+		name = "3rd Akari Calvary"
+		location = 6959
 		division_template = "Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4th Castanor Calvary"
-		location = 1213
-		division_template = "Calvary Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "5th Castanor Calvary"
-		location = 656
-		division_template = "Calvary Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "6th Castanor Calvary"
-		location = 3992
+		name = "4th Akari Calvary"
+		location = 4243
 		division_template = "Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
