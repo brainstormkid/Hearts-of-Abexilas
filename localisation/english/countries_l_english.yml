@@ -831,3 +831,16 @@
  AND_communism_DEF:1 "the Socialist Republic of Arkania"
  AND_communism_ADJ:0 "Andlirian"
  
+ SET_neutrality:1 "Sentara"
+ SET_neutrality_DEF:1 "the Sentara"
+ SET_neutrality_ADJ:0 "Sentarian"
+ SET_fascism:1 "Sentarian Reich"
+ SET_fascism_DEF:1 "the Sentarian Reich"
+ SET_fascism_ADJ:0 "Sentarian"
+ SET_democratic:1 "Second Dominion of Sentara"
+ SET_democratic_DEF:1 "the Second Dominion of Sentara"
+ SET_democratic_ADJ:0 "Sentarian"
+ SET_communism:1 "Socialist Republic of Sentara"
+ SET_communism_DEF:1 "the Socialist Republic of Sentara"
+ SET_communism_ADJ:0 "Sentarian"
+ 

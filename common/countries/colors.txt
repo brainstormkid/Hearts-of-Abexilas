@@ -268,3 +268,8 @@ AND = {
 	color = rgb { 132 56 169 }
 	color_ui = rgb { 132 56 169 }
 }
+
+SET = {
+	color = rgb { 214 173 66 }
+	color_ui = rgb { 214 173 66 }
+}
