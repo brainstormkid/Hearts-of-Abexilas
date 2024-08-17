@@ -5,12 +5,21 @@ state={
 		235 454 543 659 1552 1618 2431 2926 3080 3259 3493 3942 4341 4829 5000 5200 5259 5670 6797 7019 10245 10291 10317 10331 10338 10349 10350 10368 10374 10390 10400 10442 10456 10469 10490 10501 10513 10539 10570 10587 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=2100000
+        state_category = metropolis
 	history={
 		owner = GEH
 		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = GEH
+		victory_points = { 6797 10 }
+		victory_points = { 10317 20 }
+		victory_points = { 10390 20 }
+		victory_points = { 543 20 }
+		victory_points = { 10587 5 }
 	}
 }
