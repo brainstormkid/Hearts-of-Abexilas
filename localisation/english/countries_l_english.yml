@@ -779,3 +779,16 @@
  EXO_communism_DEF:1 "the Socialist Republic of Exordium"
  EXO_communism_ADJ:0 "Exordian"
  
+ DAN_neutrality:1 "Kingdom of Danmalis"
+ DAN_neutrality_DEF:1 "the Kingdom of Danmalis"
+ DAN_neutrality_ADJ:0 "Danmalian"
+ DAN_fascism:1 "Danmalian Reich"
+ DAN_fascism_DEF:1 "the Danmalian Reich"
+ DAN_fascism_ADJ:0 "Danmalian"
+ DAN_democratic:1 "Danmalian Federation"
+ DAN_democratic_DEF:1 "the Danmalian Federation"
+ DAN_democratic_ADJ:0 "Danmalian"
+ DAN_communism:1 "Socialist Republic of Danmalis"
+ DAN_communism_DEF:1 "the Socialist Republic of Danmalis"
+ DAN_communism_ADJ:0 "Danmalian"
+ 

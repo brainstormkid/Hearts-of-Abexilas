@@ -248,3 +248,8 @@ EXO = {
 	color = rgb { 253 50 132 }
 	color_ui = rgb { 253 50 132 }
 }
+
+DAN = {
+	color = rgb { 121 1 1 }
+	color_ui = rgb { 121 1 1 }
+}
