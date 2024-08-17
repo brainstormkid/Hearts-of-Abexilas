@@ -1,0 +1,16 @@
+state={
+	id=498
+	name="STATE_498"
+	provinces={
+		2261 
+	}
+	buildings_max_level_factor=1.000
+        manpower=200000
+        state_category = town
+	history={
+		owner = VEA
+		buildings = {
+		}
+		add_core_of = VEA
+	}
+}

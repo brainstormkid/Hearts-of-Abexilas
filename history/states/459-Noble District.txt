@@ -1,0 +1,16 @@
+state={
+	id=459
+	name="STATE_459"
+	provinces={
+		1740 2956 3518 10609 
+	}
+	buildings_max_level_factor=1.000
+        manpower=150000
+        state_category = town
+	history={
+		owner = VEA
+		buildings = {
+		}
+		add_core_of = VEA
+	}
+}
