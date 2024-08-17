@@ -805,3 +805,16 @@
  DRE_communism_DEF:1 "the Socialist Republic of DreadVought"
  DRE_communism_ADJ:0 "Dreadvoughtian"
  
+ ARR_neutrality:1 "Arkania"
+ ARR_neutrality_DEF:1 "the Arkania"
+ ARR_neutrality_ADJ:0 "Arkanian"
+ ARR_fascism:1 "Arkanian Reich"
+ ARR_fascism_DEF:1 "the Arkanian Reich"
+ ARR_fascism_ADJ:0 "Arkanian"
+ ARR_democratic:1 "Republic of Arkania"
+ ARR_democratic_DEF:1 "the Republic of Arkania"
+ ARR_democratic_ADJ:0 "Arkanian"
+ ARR_communism:1 "Socialist Republic of Arkania"
+ ARR_communism_DEF:1 "the Socialist Republic of Arkania"
+ ARR_communism_ADJ:0 "Arkanian"
+ 

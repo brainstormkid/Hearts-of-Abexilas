@@ -258,3 +258,8 @@ DRE = {
 	color = rgb { 235 79 61 }
 	color_ui = rgb { 235 79 61 }
 }
+
+ARR = {
+	color = rgb { 0 47 105 }
+	color_ui = rgb { 0 47 105 }
+}
