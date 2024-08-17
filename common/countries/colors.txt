@@ -273,3 +273,13 @@ SET = {
 	color = rgb { 214 173 66 }
 	color_ui = rgb { 214 173 66 }
 }
+
+ZIL = {
+	color = rgb { 183 58 87 }
+	color_ui = rgb { 183 58 87 }
+}
+
+KYR = {
+	color = rgb { 183 58 87 }
+	color_ui = rgb { 183 58 87 }
+}

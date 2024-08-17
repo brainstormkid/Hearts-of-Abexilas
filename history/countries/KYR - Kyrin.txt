@@ -1,16 +1,13 @@
 ﻿capital = 1
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 50
-	fascism = 3
-	communism = 40
-	neutrality = 7
+	neutrality = 100
 }
 
 create_country_leader = {
@@ -18,16 +15,8 @@ create_country_leader = {
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	#picture = "gfx/leaders/AEZ/Panda.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = despotism
 	traits = {
 		#
 	}
-}
-
-set_stability = 0.65
-set_war_support = 0.80
-
-set_autonomy = {
-	target = ZIL
-	autonomous_state = autonomy_puppet
 }
