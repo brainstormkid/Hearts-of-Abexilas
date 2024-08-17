@@ -1,5 +1,7 @@
 ﻿capital = 601
 
+oob = "LEY"
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
@@ -61,3 +63,5 @@ set_party_name = {
     long_name = "LEY_communism_party_long"
     name = "LEY_communism_party"
 }
+
+set_convoys = 15
