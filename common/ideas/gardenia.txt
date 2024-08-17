@@ -36,5 +36,24 @@ ideas = {
 				trade_opinion_factor = 0.2
 			}
 		}
+		Breakaway_state = {
+			picture = Breakaway_state
+			allowed = {
+				tag = GAR
+			}
+			available = {
+		
+			}
+			cancel = {
+		
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				resistance_target = 0.9
+				resistance_growth = 2
+			}
+		}
 	}
 }
