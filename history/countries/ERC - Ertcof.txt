@@ -34,7 +34,7 @@ add_ideas = {
 	johns_mark
 }
 
-set_stability = 0.8
+set_stability = 0.85
 set_war_support = 0.30
 
 

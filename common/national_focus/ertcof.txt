@@ -115,6 +115,10 @@ focus_tree = {
 			FOCUS_FILTER_MANPOWER
 		}
 		completion_reward = {
+		 swap_ideas = {
+             remove_idea = johns_mark
+             add_idea = johns_mark_2
+         }
 		    579 = {
 			    add_building_construction = {
                     type = infrastructure

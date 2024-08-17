@@ -81,8 +81,50 @@ ideas = {
 			}
 
 			modifier = {
-
+			    stability_factor = -0.17
+                consumer_goods_factor = 0.10
+                production_speed_industrial_complex_factor = -0.15
+                production_speed_arms_factory_factor = -0.15
 			}
+		}
+		johns_mark_2 = {
+			picture = johns_mark
+			allowed = {
+				TAG = ERT
+			}
+
+			available = {
+			}
+
+			allowed_civil_war = {
+			    always = yes
+			}
+
+			modifier = {
+                stability_factor = -0.10
+                consumer_goods_factor = 0.05
+                production_speed_industrial_complex_factor = -0.1
+                production_speed_arms_factory_factor = -0.1
+            }
+		}
+		johns_mark_3 = {
+			picture = johns_mark
+			allowed = {
+				TAG = ERT
+			}
+
+			available = {
+			}
+
+			allowed_civil_war = {
+			    always = yes
+			}
+
+			modifier = {
+                stability_factor = -0.05
+                production_speed_industrial_complex_factor = -0.05
+                production_speed_arms_factory_factor = -0.05
+            }
 		}
 	}
 }
