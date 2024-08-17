@@ -818,3 +818,16 @@
  ARR_communism_DEF:1 "the Socialist Republic of Arkania"
  ARR_communism_ADJ:0 "Arkanian"
  
+ AND_neutrality:1 "Imperila Andliria"
+ AND_neutrality_DEF:1 "the Imperila Andliria"
+ AND_neutrality_ADJ:0 "Andlirian"
+ AND_fascism:1 "Andlirian Reich"
+ AND_fascism_DEF:1 "the Andlirian Reich"
+ AND_fascism_ADJ:0 "Andlirian"
+ AND_democratic:1 "Andlirian Federation"
+ AND_democratic_DEF:1 "the Andlirian Federation"
+ AND_democratic_ADJ:0 "Andlirian"
+ AND_communism:1 "Socialist Republic of Arkania"
+ AND_communism_DEF:1 "the Socialist Republic of Arkania"
+ AND_communism_ADJ:0 "Andlirian"
+ 

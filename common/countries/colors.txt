@@ -263,3 +263,8 @@ ARR = {
 	color = rgb { 0 47 105 }
 	color_ui = rgb { 0 47 105 }
 }
+
+AND = {
+	color = rgb { 132 56 169 }
+	color_ui = rgb { 132 56 169 }
+}
