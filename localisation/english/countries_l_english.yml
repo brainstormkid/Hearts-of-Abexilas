@@ -766,3 +766,16 @@
  VAR_communism_DEF:1 "the Socialist Republic of Calidwarf"
  VAR_communism_ADJ:0 "Varaxian"
  
+ EXO_neutrality:1 "Holy Oligarchy of Exordium"
+ EXO_neutrality_DEF:1 "the Holy Oligarchy of Exordium"
+ EXO_neutrality_ADJ:0 "Exordian"
+ EXO_fascism:1 "Exordian Reich"
+ EXO_fascism_DEF:1 "the Exordian Reich"
+ EXO_fascism_ADJ:0 "Exordian"
+ EXO_democratic:1 "Exordian Federation"
+ EXO_democratic_DEF:1 "the Exordian Federation"
+ EXO_democratic_ADJ:0 "Exordian"
+ EXO_communism:1 "Socialist Republic of Exordium"
+ EXO_communism_DEF:1 "the Socialist Republic of Exordium"
+ EXO_communism_ADJ:0 "Exordian"
+ 

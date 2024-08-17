@@ -243,3 +243,8 @@ VAR = {
 	color = rgb { 62 71 129 }
 	color_ui = rgb { 62 71 129 }
 }
+
+EXO = {
+	color = rgb { 253 50 132 }
+	color_ui = rgb { 253 50 132 }
+}
