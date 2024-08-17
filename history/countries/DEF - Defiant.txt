@@ -18,7 +18,7 @@ create_country_leader = {
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	#picture = "gfx/leaders/AEZ/Panda.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = fascism_ideology
 	traits = {
 		#
 	}

@@ -726,3 +726,17 @@
  ZEH_communism:1 "Socialist Republic of Zehria"
  ZEH_communism_DEF:1 "the Socialist Republic of Zehria"
  ZEH_communism_ADJ:0 "Zehrish"
+ 
+ ARK_neutrality:1 "Arkan"
+ ARK_neutrality_DEF:1 "the Arkan"
+ ARK_neutrality_ADJ:0 "Arkanian"
+ ARK_fascism:1 "Arkan Union"
+ ARK_fascism_DEF:1 "the Arkan Union"
+ ARK_fascism_ADJ:0 "Arkanian"
+ ARK_democratic:1 "Arkanian Federation"
+ ARK_democratic_DEF:1 "the Arkanian Federation"
+ ARK_democratic_ADJ:0 "Arkanian"
+ ARK_communism:1 "Socialist Republic of Arkan"
+ ARK_communism_DEF:1 "the Socialist Republic of Arkan"
+ ARK_communism_ADJ:0 "Arkanian"
+ 

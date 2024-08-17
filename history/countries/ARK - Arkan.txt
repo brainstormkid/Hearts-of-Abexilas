@@ -1,15 +1,16 @@
-﻿capital = 243
-
-oob = "AKA"
+﻿capital = 1
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	democratic = 12
+	fascism = 70
+	communism = 5
+	neutrality = 3
 }
 
 create_country_leader = {
@@ -17,18 +18,11 @@ create_country_leader = {
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	#picture = "gfx/leaders/AEZ/Panda.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = fascism_ideology
 	traits = {
 		#
 	}
 }
 
-set_autonomy = {
-	target = ARK
-	autonomous_state = autonomy_puppet
-}
-
-set_autonomy = {
-	target = ZEH
-	autonomous_state = autonomy_puppet
-}
+set_stability = 0.40
+set_war_support = 0.76

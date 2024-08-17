@@ -8,9 +8,9 @@ state={
         manpower=1
         state_category = town
 	history={
-		owner = JAZ
+		owner = ARK
 		buildings = {
 		}
-		add_core_of = JAZ
+		add_core_of = ARK
 	}
 }
