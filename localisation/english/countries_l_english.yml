@@ -792,3 +792,16 @@
  DAN_communism_DEF:1 "the Socialist Republic of Danmalis"
  DAN_communism_ADJ:0 "Danmalian"
  
+ DRE_neutrality:1 "DreadVought Imperium"
+ DRE_neutrality_DEF:1 "the DreadVought Imperium"
+ DRE_neutrality_ADJ:0 "Dreadvoughtian"
+ DRE_fascism:1 "Dreadvoughtian Reich"
+ DRE_fascism_DEF:1 "the Dreadvoughtian Reich"
+ DRE_fascism_ADJ:0 "Dreadvoughtian"
+ DRE_democratic:1 "Dreadvoughtian Federation"
+ DRE_democratic_DEF:1 "the Dreadvoughtian Federation"
+ DRE_democratic_ADJ:0 "Dreadvoughtian"
+ DRE_communism:1 "Socialist Republic of DreadVought"
+ DRE_communism_DEF:1 "the Socialist Republic of DreadVought"
+ DRE_communism_ADJ:0 "Dreadvoughtian"
+ 
