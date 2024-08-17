@@ -22,6 +22,9 @@ state={
 			infrastructure = 3
 			arms_factory = 1
 			dockyard = 1
+			11396 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = LEY
 		victory_points = { 1577 50 }

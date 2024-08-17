@@ -14,6 +14,9 @@ state={
 			infrastructure = 4
 			arms_factory = 2
 			dockyard = 1
+			10303 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = GEH
 		victory_points = { 10303 50 }

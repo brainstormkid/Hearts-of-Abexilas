@@ -19,6 +19,9 @@ state={
 		owner = ARC
 		buildings = {
 			infrastructure = 2
+			12078 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = ARC
 		victory_points = { 3253 5 }

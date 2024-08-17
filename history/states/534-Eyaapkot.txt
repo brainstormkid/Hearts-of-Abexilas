@@ -21,6 +21,9 @@ state={
 			industrial_complex = 2
 			infrastructure = 3
 			arms_factory = 1
+			3713 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = ERC
 		victory_points = { 10992 30 }

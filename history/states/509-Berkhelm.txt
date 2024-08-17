@@ -21,6 +21,9 @@ state={
 			industrial_complex = 1
 			infrastructure = 3
 			arms_factory = 1
+			5411 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = LUT
 		victory_points = { 10780 20 }
