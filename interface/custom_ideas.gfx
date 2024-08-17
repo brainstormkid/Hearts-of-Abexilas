@@ -10,6 +10,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+	name = "GFX_idea_Breakaway_state"
+	texturefile = "gfx/interface/ideas/Breakaway_state.dds"
+	}
+	
+	SpriteType = {
 	name = "GFX_idea_provisional_government"
 	texturefile = "gfx/interface/ideas/idea_provisional_government.dds"
 	}
