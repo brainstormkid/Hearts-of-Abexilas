@@ -1,6 +1,4 @@
-﻿capital = 243
-
-oob = "AKA"
+﻿capital = 1
 
 set_politics = {
 	ruling_party = neutrality
@@ -21,19 +19,4 @@ create_country_leader = {
 	traits = {
 		#
 	}
-}
-
-set_autonomy = {
-	target = ARK
-	autonomous_state = autonomy_puppet
-}
-
-set_autonomy = {
-	target = VAR
-	autonomous_state = autonomy_puppet
-}
-
-set_autonomy = {
-	target = ZEH
-	autonomous_state = autonomy_puppet
 }

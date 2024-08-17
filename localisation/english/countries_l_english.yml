@@ -753,3 +753,16 @@
  HEZ_communism_DEF:1 "the Socialist Republic of Hezion"
  HEZ_communism_ADJ:0 "Hezian"
  
+ VAR_neutrality:1 "Calidwarf-Varaxis"
+ VAR_neutrality_DEF:1 "the Calidwarf-Varaxis"
+ VAR_neutrality_ADJ:0 "Varaxian"
+ VAR_fascism:1 "Varaxian Reich"
+ VAR_fascism_DEF:1 "the Varaxian Reich"
+ VAR_fascism_ADJ:0 "Varaxian"
+ VAR_democratic:1 "Varaxian Federation"
+ VAR_democratic_DEF:1 "the Varaxian Federation"
+ VAR_democratic_ADJ:0 "Varaxian"
+ VAR_communism:1 "Socialist Republic of Calidwarf"
+ VAR_communism_DEF:1 "the Socialist Republic of Calidwarf"
+ VAR_communism_ADJ:0 "Varaxian"
+ 

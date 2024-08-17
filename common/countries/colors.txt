@@ -238,3 +238,8 @@ HEZ = {
 	color = rgb { 175 158 98 }
 	color_ui = rgb { 175 158 98 }
 }
+
+VAR = {
+	color = rgb { 62 71 129 }
+	color_ui = rgb { 62 71 129 }
+}
