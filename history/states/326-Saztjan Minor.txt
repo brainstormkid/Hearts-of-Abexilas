@@ -5,12 +5,14 @@ state={
 		15319 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=100000
+        state_category = pastoral
 	history={
 		owner = COV
 		buildings = {
+		infrastructure = 1
 		}
 		add_core_of = COV
+		victory_points = { 15319 5 }
 	}
 }
