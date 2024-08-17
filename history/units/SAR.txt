@@ -43,107 +43,121 @@ division_template = {
 
 units = {
 	division = {
-		name = "1st Castanor Infantry"
-		location = 61
+		name = "1st Sarinzerilin Infantry"
+		location = 3850
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 
 	}
 	division = {
-		name = "2nd Castanor Infantry"
-		location = 61
+		name = "2nd Sarinzerilin Infantry"
+		location = 3850
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Castanor Infantry"
-		location = 9062
+		name = "3rd Sarinzerilin Infantry"
+		location = 8246
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4th Castanor Infantry"
-		location = 1001
+		name = "4th Sarinzerilin Infantry"
+		location = 7856
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "5th Castanor Infantry"
-		location = 9290
-		division_template = "Infantry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1st Castanor Guards"
-		location = 5087
+		name = "1st Sarinzerilin Guards"
+		location = 2324
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Castanor Guards"
-		location = 8673
+		name = "2nd Sarinzerilin Guards"
+		location = 8084
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Castanor Guards"
-		location = 5467
+		name = "3rd Sarinzerilin Guards"
+		location = 7997
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4th Castanor Guards"
-		location = 1870
+		name = "4th Sarinzerilin Guards"
+		location = 7846
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Castanor Calvary"
-		location = 164
+		name = "5th Sarinzerilin Guards"
+		location = 2820
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "6th Sarinzerilin Guards"
+		location = 7899
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Sarinzerilin Calvary"
+		location = 2041
 		division_template = "Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Castanor Calvary"
-		location = 5865
+		name = "2nd Sarinzerilin Calvary"
+		location = 8233
 		division_template = "Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Castanor Calvary"
-		location = 8431
+		name = "3rd Sarinzerilin Calvary"
+		location = 8158
 		division_template = "Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4th Castanor Calvary"
-		location = 1213
+		name = "4th Sarinzerilin Calvary"
+		location = 737
 		division_template = "Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "5th Castanor Calvary"
-		location = 656
+		name = "5th Sarinzerilin Calvary"
+		location = 7883
 		division_template = "Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "6th Castanor Calvary"
-		location = 3992
+		name = "6th Sarinzerilin Calvary"
+		location = 7940
+		division_template = "Calvary Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "7th Sarinzerilin Calvary"
+		location = 7625
 		division_template = "Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0

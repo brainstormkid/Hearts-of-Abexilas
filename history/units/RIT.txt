@@ -43,107 +43,65 @@ division_template = {
 
 units = {
 	division = {
-		name = "1st Castanor Infantry"
-		location = 61
+		name = "1st Ritte an Tola Infantry"
+		location = 2874
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 
 	}
 	division = {
-		name = "2nd Castanor Infantry"
-		location = 61
+		name = "2nd Ritte an Tola Infantry"
+		location = 2874
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Castanor Infantry"
-		location = 9062
+		name = "3rd Ritte an Tola Infantry"
+		location = 3123
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4th Castanor Infantry"
-		location = 1001
+		name = "4th Ritte an Tola Infantry"
+		location = 6888
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "5th Castanor Infantry"
-		location = 9290
+		name = "5th Ritte an Tola Infantry"
+		location = 7192
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Castanor Guards"
-		location = 5087
+		name = "1st Ritte an Tola Guards"
+		location = 7697
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Castanor Guards"
-		location = 8673
+		name = "2nd Ritte an Tola Guards"
+		location = 3232
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Castanor Guards"
-		location = 5467
+		name = "3rd Ritte an Tola Guards"
+		location = 5954
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4th Castanor Guards"
-		location = 1870
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1st Castanor Calvary"
-		location = 164
-		division_template = "Calvary Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "2nd Castanor Calvary"
-		location = 5865
-		division_template = "Calvary Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "3rd Castanor Calvary"
-		location = 8431
-		division_template = "Calvary Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "4th Castanor Calvary"
-		location = 1213
-		division_template = "Calvary Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "5th Castanor Calvary"
-		location = 656
-		division_template = "Calvary Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "6th Castanor Calvary"
-		location = 3992
+		name = "1st Ritte an Tola Calvary"
+		location = 6427
 		division_template = "Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
