@@ -740,3 +740,16 @@
  ARK_communism_DEF:1 "the Socialist Republic of Arkan"
  ARK_communism_ADJ:0 "Arkanian"
  
+ HEZ_neutrality:1 "Sacred Land of Hezion"
+ HEZ_neutrality_DEF:1 "the Sacred Land of Hezion"
+ HEZ_neutrality_ADJ:0 "Hezian"
+ HEZ_fascism:1 "Hezian Reich"
+ HEZ_fascism_DEF:1 "the Hezian Reich"
+ HEZ_fascism_ADJ:0 "Hezian"
+ HEZ_democratic:1 "Hezian Federation"
+ HEZ_democratic_DEF:1 "the Hezian Federation"
+ HEZ_democratic_ADJ:0 "Hezian"
+ HEZ_communism:1 "Socialist Republic of Hezion"
+ HEZ_communism_DEF:1 "the Socialist Republic of Hezion"
+ HEZ_communism_ADJ:0 "Hezian"
+ 

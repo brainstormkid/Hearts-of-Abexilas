@@ -233,3 +233,8 @@ ARK = {
 	color = rgb { 194 100 116 }
 	color_ui = rgb { 194 100 116 }
 }
+
+HEZ = {
+	color = rgb { 175 158 98 }
+	color_ui = rgb { 175 158 98 }
+}
