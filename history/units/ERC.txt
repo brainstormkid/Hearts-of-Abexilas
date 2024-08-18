@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Infantry Division"					# Represents 18w Infantry
+	name = "Ertcofi Infantry Division"					# Represents 18w Infantry
 	#division_names_group = GER_Inf_01
 
 	regiments = {
@@ -15,7 +15,7 @@
 	}
 }
 division_template = {
-	name = "Guard Division"				# Represents 12w Infantry Division
+	name = "Ertcofi Guard Division"				# Represents 12w Infantry Division
 	#division_names_group = GER_Cav_01
 
 	regiments = {
@@ -28,7 +28,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Calvary Division"				# Represents 12w Calvary Division
+	name = "Ertcofi Calvary Division"				# Represents 12w Calvary Division
 	#division_names_group = GER_Cav_01
 
 	regiments = {
@@ -43,37 +43,44 @@ division_template = {
 
 units = {
 	division = {
-		name = "1st Ertcof Infantry"
+		name = "Voly County Volunteers"
 		location = 6845
-		division_template = "Infantry Division"
+		division_template = "Ertcofi Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Ertcof Infantry"
+		name = "1st Eyaapkot Riflemen Militia"
 		location = 10992
-		division_template = "Infantry Division"
+		division_template = "Ertcofi Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Ertcof Guards"
-		location = 4602
-		division_template = "Guard Division"
+		name = "2nd Eyaapkot Riflemen Militia"
+		location = 10992
+		division_template = "Ertcofi Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Ertcof Guards"
+		name = "1st Green Mountain Militia"
 		location = 11142
-		division_template = "Guard Division"
+		division_template = "Ertcofi Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Ertcof Calvary"
+		name = "2nd Green Mountain Militia"
+		location = 4602
+		division_template = "Ertcofi Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Al'haile Cavalry Militia"
 		location = 11051
-		division_template = "Calvary Division"
+		division_template = "Ertcofi Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
