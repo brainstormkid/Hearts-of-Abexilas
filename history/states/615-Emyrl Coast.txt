@@ -5,12 +5,24 @@ state={
 		1245 1902 2993 3025 3573 3634 4100 4766 4949 5117 5351 5516 5676 6445 6462 11358 11369 11444 11475 11479 11500 11566 11592 11597 11638 11641 11694 11723 11736 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1250000
+        state_category = megalopolis
 	history={
 		owner = DON
 		buildings = {
+			industrial_complex = 2
+			infrastructure = 4
+			arms_factory = 2
+			dockyard = 1
+			3573 = {
+				naval_base = 3
+			}
 		}
 		add_core_of = DON
+		victory_points = { 11358 10 }
+		victory_points = { 5351 10 }
+		victory_points = { 3025 30 }
+		victory_points = { 11566 20 }
+		victory_points = { 6445 5 }
 	}
 }

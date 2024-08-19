@@ -5,12 +5,18 @@ state={
 		2670 4635 5009 6782 10466 10510 10554 10573 10628 10661 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1500000
+        state_category = metropolis
 	history={
 		owner = DON
 		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = DON
+		victory_points = { 2670 30 }
+		victory_points = { 4635 20 }
 	}
 }

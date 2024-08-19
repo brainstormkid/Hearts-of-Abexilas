@@ -5,12 +5,14 @@ state={
 		15324 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=100000
+        state_category = small_island
 	history={
 		owner = DON
 		buildings = {
+			infrastructure = 2
 		}
 		add_core_of = DON
+		victory_points = { 15324 10 }
 	}
 }

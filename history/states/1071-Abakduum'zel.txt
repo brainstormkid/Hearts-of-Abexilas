@@ -5,12 +5,17 @@ state={
 		60 1070 14603 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=300000
+        state_category = city
 	history={
 		owner = DON
 		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = DON
+		victory_points = { 60 20 }
 	}
 }
