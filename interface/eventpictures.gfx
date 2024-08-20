@@ -1,4 +1,11 @@
 spriteTypes = {
+	#News Events
+	spriteType = {
+		name = "GFX_news_event_001"
+		texturefile = "gfx/event_pictures/news_event_001.dds"
+	}
+	
+	#
 	spriteType = {
 		name = "GFX_Long_day_in_Theos"
 		texturefile = "gfx/event_pictures/Long_day_in_Theos.dds"
@@ -11,10 +18,11 @@ spriteTypes = {
 		name = "GFX_defenders_at_torsheim"
 		texturefile = "gfx/event_pictures/defenders_at_torsheim.dds"
 	}
-        spriteType = {
+	spriteType = {
 		name = "GFX_police_at_torsheim"
 		texturefile = "gfx/event_pictures/police_at_torsheim.dds.dds"
 	}
+	
 	##Icon For: Tim retires!
 	SpriteType = { 
 		name = "GFX_tim_retires"
@@ -23,15 +31,15 @@ spriteTypes = {
 	
 	#GAR
 	SpriteType = {
-	name = "GFX_venipher_disappears"
-	texturefile = "gfx/event_pictures/Digilord_inauguration_FIN.dds"
+		name = "GFX_venipher_disappears"
+		texturefile = "gfx/event_pictures/Digilord_inauguration_FIN.dds"
 	}
 	SpriteType = {
-	name = "GFX_SPA"
-	texturefile = "gfx/event_pictures/SPA_explanation.dds"
+		name = "GFX_SPA"
+		texturefile = "gfx/event_pictures/SPA_explanation.dds"
 	}
 	SpriteType = {
-	name = "GFX_SPA_attack"
-	texturefile = "gfx/event_pictures/SPA_attack.dds"
+		name = "GFX_SPA_attack"
+		texturefile = "gfx/event_pictures/SPA_attack.dds"
 	}
 }

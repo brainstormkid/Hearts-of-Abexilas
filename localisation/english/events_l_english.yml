@@ -1,8 +1,8 @@
 ﻿l_english:
  #News EVENTS
  news.1.t:0 "Welcome to Hearts of Abexilas"
- news.1.d:0 "To be Added"
- news.1.a:1 "Thank you"
+ news.1.d:0 "Thank you for trying the Hearts of Abexilas Hoi4 Mod based on the Stoneworks Minecraft Server. We hope Stoneworks Hoi4 enthusiasts and regular hoi4 players can delve into the world of Abexilas and play their favorite nations. This has been a project from which over 100+ Stoneworks players have contributed in turning blocks into Hoi4.\n\nMore developments and updates are coming soon, feel free to join our discord if you are interested or if you have any game bugs to report. Enjoy!\n\nSincerely,\nHoA Development Team"
+ news.1.a:1 "Nations - History - Wars - Roleplay"
  
  #MYRTANA EVENTS
  myrtana_story_events.1.t:0 "Long day in Theos."
