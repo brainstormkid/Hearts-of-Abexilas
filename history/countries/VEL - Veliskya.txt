@@ -2,6 +2,11 @@
 
 oob = "VEL"
 
+add_ideas = {
+	volunteer_only
+	Cathramis_Continental_Member
+}
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"

@@ -1,5 +1,10 @@
 ﻿capital = 534
 
+add_ideas = {
+	volunteer_only
+	Cathramis_Continental_Member
+}
+
 oob = "ERC"
 
 set_politics = {

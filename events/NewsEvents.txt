@@ -48,17 +48,17 @@ news_event = {
 				original_tag = GEH
 				original_tag = HEZ
 				original_tag = HOD
-				original_tag = JAR
+				original_tag = JAZ
 				original_tag = LAV
 				original_tag = LUT
 				original_tag = PAR
+				original_tag = QYN
 				original_tag = SEN
 				original_tag = TAN
 				original_tag = VAR
 				original_tag = VEA
 				original_tag = VED
 				original_tag = VEL
-				original_tag = QYN
 				original_tag = ZAM
 			}
 		}
@@ -80,17 +80,17 @@ news_event = {
 					original_tag = GEH
 					original_tag = HEZ
 					original_tag = HOD
-					original_tag = JAR
+					original_tag = JAZ
 					original_tag = LAV
 					original_tag = LUT
 					original_tag = PAR
+					original_tag = QYN
 					original_tag = SEN
 					original_tag = TAN
 					original_tag = VAR
 					original_tag = VEA
 					original_tag = VED
 					original_tag = VEL
-					original_tag = QYN
 					original_tag = ZAM
 				}
 			}

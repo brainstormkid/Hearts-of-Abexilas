@@ -1,0 +1,14 @@
+ideas = {
+	country = {
+		Cathramis_Continental_Member = {
+			#picture = Cathramis_Continental_Member
+			cancel = {
+			}
+			available = {
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+		}
+	}
+}

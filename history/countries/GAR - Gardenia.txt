@@ -1,10 +1,25 @@
 ﻿capital = 355
+
+add_ideas = {
+	volunteer_only
+	Cathramis_Continental_Member
+}
+
+add_ideas = {
+	Cathramis_Continental_Member
+	Kaevan_Theocracy
+	Legacy_of_the_Drakaes
+	free_trade
+	disarmed_nation
+}
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	democratic = 0
 	fascism = 10
@@ -34,11 +49,6 @@ create_country_leader = {
 		#
 	}
 }
-add_ideas = {
-	Kaevan_Theocracy
-	Legacy_of_the_Drakaes
-	free_trade
-	disarmed_nation
-}
+
 set_stability = 0.75
 set_war_support = 0.1
