@@ -283,3 +283,8 @@ KYR = {
 	color = rgb { 183 58 87 }
 	color_ui = rgb { 183 58 87 }
 }
+
+UET = {
+	color = rgb { 135 4 170 }
+	color_ui = rgb { 135 4 170 }
+}
