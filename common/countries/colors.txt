@@ -288,3 +288,8 @@ UET = {
 	color = rgb { 135 4 170 }
 	color_ui = rgb { 135 4 170 }
 }
+
+MIC = {
+	color = rgb { 158 63 60 }
+	color_ui = rgb { 158 63 60 }
+}
