@@ -32,3 +32,5 @@ set_autonomy = {
 	target = PAR
 	autonomous_state = autonomy_puppet
 }
+
+set_convoys = 50
