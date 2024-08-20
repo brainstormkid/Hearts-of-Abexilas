@@ -5,13 +5,18 @@ state={
 		841 875 930 1133 1406 1428 2325 2337 3102 4121 4779 5220 5268 5273 5481 11109 11182 11222 11235 11265 11267 11306 11346 11349 11357 11409 11467 11483 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=500000
+        state_category = large_town
 	history={
 		owner = ZAM
 		buildings = {
-			infrastructure = 1
+			industrial_complex = 1
+			infrastructure = 2
+			arms_factory = 1
 		}
 		add_core_of = ZAM
+		victory_points = { 875 5 }
+		victory_points = { 5481 10 }
+		victory_points = { 1406 10 }
 	}
 }

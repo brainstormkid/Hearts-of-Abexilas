@@ -5,12 +5,17 @@ state={
 		232 3245 5381 10943 10944 10988 10998 11016 11042 11064 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1400000
+        state_category = city
 	history={
 		owner = ZAM
 		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = ZAM
+		victory_points = { 11016 30 }
 	}
 }
