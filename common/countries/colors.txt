@@ -293,3 +293,9 @@ MIC = {
 	color = rgb { 158 63 60 }
 	color_ui = rgb { 158 63 60 }
 }
+
+ELD = {
+	color = rgb { 0 168 107 }
+	color_ui = rgb { 0 168 107 }
+}
+

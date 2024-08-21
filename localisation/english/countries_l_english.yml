@@ -896,3 +896,16 @@
  MIC_communism_DEF:1 "the Socialist Republic of Michava"
  MIC_communism_ADJ:0 "Michavian"
  
+ ELD_neutrality:1 "Kingdom of Eldorath"
+ ELD_neutrality_DEF:1 "the Kingdom of Eldorath"
+ ELD_neutrality_ADJ:0 "Eldorathi"
+ ELD_fascism:1 "Eldorathi Reich"
+ ELD_fascism_DEF:1 "the Eldorathi Reich"
+ ELD_fascism_ADJ:0 "Eldorathi"
+ ELD_democratic:1 "Eldorathi Federation"
+ ELD_democratic_DEF:1 "the Eldorathi Federation"
+ ELD_democratic_ADJ:0 "Eldorathi"
+ ELD_communism:1 "Socialist Republic of Eldorath"
+ ELD_communism_DEF:1 "the Socialist Republic of Eldorath"
+ ELD_communism_ADJ:0 "Eldorathi"
+ 
