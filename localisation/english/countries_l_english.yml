@@ -909,3 +909,16 @@
  ELD_communism_DEF:1 "the Socialist Republic of Eldorath"
  ELD_communism_ADJ:0 "Eldorathi"
  
+ TIR_neutrality:1 "Sailing Republic of Tirgus"
+ TIR_neutrality_DEF:1 "the Sailing Republic of Tirgus"
+ TIR_neutrality_ADJ:0 "Tirgans"
+ TIR_fascism:1 "Tirgans Reich"
+ TIR_fascism_DEF:1 "the Tirgans Reich"
+ TIR_fascism_ADJ:0 "Tirgans"
+ TIR_democratic:1 "Tirgans Federation"
+ TIR_democratic_DEF:1 "the Tirgans Federation"
+ TIR_democratic_ADJ:0 "Tirgans"
+ TIR_communism:1 "Socialist Republic of Tirgus"
+ TIR_communism_DEF:1 "the Socialist Republic of Tirgus"
+ TIR_communism_ADJ:0 "Tirgans"
+ 

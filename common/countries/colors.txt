@@ -299,3 +299,8 @@ ELD = {
 	color_ui = rgb { 0 168 107 }
 }
 
+TIR = {
+	color = rgb { 17 96 74 }
+	color_ui = rgb { 17 96 74 }
+}
+
