@@ -309,3 +309,13 @@ ZAI = {
 	color_ui = rgb { 151 78 32 }
 }
 
+LAT = {
+	color = rgb { 148 92 222 }
+	color_ui = rgb { 148 92 222 }
+}
+
+GAL = {
+	color = rgb { 215 0 202 }
+	color_ui = rgb { 215 0 202 }
+}
+

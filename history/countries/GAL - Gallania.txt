@@ -7,10 +7,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 0
-	fascism = 0
 	communism = 100
-	neutrality = 0
 }
 
 create_country_leader = {
@@ -22,19 +19,4 @@ create_country_leader = {
 	traits = {
 		#
 	}
-}
-
-set_autonomy = {
-	target = GAL
-	autonomous_state = autonomy_puppet
-}
-
-set_autonomy = {
-	target = KYR
-	autonomous_state = autonomy_puppet
-}
-
-set_autonomy = {
-	target = LAT
-	autonomous_state = autonomy_puppet
 }
