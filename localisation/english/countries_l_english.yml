@@ -922,3 +922,16 @@
  TIR_communism_DEF:1 "the Socialist Republic of Tirgus"
  TIR_communism_ADJ:0 "Tirgans"
  
+ ZAI_neutrality:1 "Eternal Dominion of Zaidan"
+ ZAI_neutrality_DEF:1 "the Eternal Dominion of Zaidan"
+ ZAI_neutrality_ADJ:0 "Zaidian"
+ ZAI_fascism:1 "Zaidian Reich"
+ ZAI_fascism_DEF:1 "the Zaidian Reich"
+ ZAI_fascism_ADJ:0 "Zaidian"
+ ZAI_democratic:1 "Zaidian Federation"
+ ZAI_democratic_DEF:1 "the Zaidian Federation"
+ ZAI_democratic_ADJ:0 "Zaidian"
+ ZAI_communism:1 "Socialist Republic of Zaidan"
+ ZAI_communism_DEF:1 "the Socialist Republic of Zaidan"
+ ZAI_communism_ADJ:0 "Zaidian"
+ 

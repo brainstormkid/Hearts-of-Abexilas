@@ -304,3 +304,8 @@ TIR = {
 	color_ui = rgb { 17 96 74 }
 }
 
+ZAI = {
+	color = rgb { 151 78 32 }
+	color_ui = rgb { 151 78 32 }
+}
+
