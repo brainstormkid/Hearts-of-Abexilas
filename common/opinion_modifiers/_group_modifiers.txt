@@ -1,5 +1,12 @@
 opinion_modifiers = {
-    faunic_opinion_modifier = {
+
+    ## CATHRAMIS
+
+    cathramis_trade_modifier = { # for cathramis continental hub
+        trade = yes
+        value = 25
+    }
+    faunic_opinion_modifier = { # for faunic nations
         value = 20
     }
 }

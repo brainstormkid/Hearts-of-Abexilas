@@ -34,66 +34,24 @@ news_event = {
 	option = {
 		name = "news.2.a"
 		add_stability = 0.01
+		add_opinion_modifier = {
+            target = {
+                any_nation = {
+                    has_idea = Cathramis_Continental_Member
+                }
+            }
+            modifier = cathramis_trade_modifier
+        }
 		trigger = {
-			OR = {
-				original_tag = ARK
-				original_tag = CAK
-				original_tag = COV
-				original_tag = DEF
-				original_tag = DON
-				original_tag = ERC
-				original_tag = ERI
-				original_tag = EXO
-				original_tag = GAR
-				original_tag = GEH
-				original_tag = HEZ
-				original_tag = HOD
-				original_tag = JAZ
-				original_tag = LAV
-				original_tag = LUT
-				original_tag = PAR
-				original_tag = QYN
-				original_tag = SEN
-				original_tag = TAN
-				original_tag = VAR
-				original_tag = VEA
-				original_tag = VED
-				original_tag = VEL
-				original_tag = ZAM
-			}
+			has_idea = Cathramis_Continental_Member
 		}
 	}
 	option = {
 		name = "news.2.b"
 		trigger = {
-			NOT = {
-				OR = {
-					original_tag = ARK
-					original_tag = CAK
-					original_tag = COV
-					original_tag = DEF
-					original_tag = DON
-					original_tag = ERC
-					original_tag = ERI
-					original_tag = EXO
-					original_tag = GAR
-					original_tag = GEH
-					original_tag = HEZ
-					original_tag = HOD
-					original_tag = JAZ
-					original_tag = LAV
-					original_tag = LUT
-					original_tag = PAR
-					original_tag = QYN
-					original_tag = SEN
-					original_tag = TAN
-					original_tag = VAR
-					original_tag = VEA
-					original_tag = VED
-					original_tag = VEL
-					original_tag = ZAM
-				}
-			}
-		}
+        	NOT = {
+        	    has_idea = Cathramis_Continental_Member
+        	}
+        }
 	}
 }
