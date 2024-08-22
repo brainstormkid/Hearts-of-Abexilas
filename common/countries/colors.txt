@@ -319,3 +319,8 @@ GAL = {
 	color_ui = rgb { 215 0 202 }
 }
 
+AET = {
+	color = rgb { 153 225 221 }
+	color_ui = rgb { 153 225 221 }
+}
+
