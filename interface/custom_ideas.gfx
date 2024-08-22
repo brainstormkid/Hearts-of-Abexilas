@@ -48,4 +48,14 @@ spriteTypes = {
 	name = "GFX_idea_johns_mark"
 	texturefile = "gfx/interface/ideas/idea_johns_mark.dds"
 	}
+
+	SpriteType = {
+	name = "GFX_idea_abolished_ecmr"
+	texturefile = "gfx/interface/ideas/idea_abolished_ecmr.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_idea_maintained_ecmr"
+	texturefile = "gfx/interface/ideas/idea_abolished_ecmr.dds"
+	}
 }

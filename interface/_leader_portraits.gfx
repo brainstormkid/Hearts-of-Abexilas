@@ -74,15 +74,15 @@ spriteTypes = {
 
 	### MYR
 	
-        spriteType = {
+    spriteType = {
 		name = "GFX_portrait_MYR_Ravian"
 		texturefile = "gfx/leaders/MYR/Ravian.dds"
 	}
-        spriteType = {
+    spriteType = {
 		name = "GFX_portrait_MYR_Gamestew"
 		texturefile = "gfx/leaders/MYR/Gamestew.dds"
 	}
-        spriteType = {
+    spriteType = {
 		name = "GFX_portrait_MYR_LaziOcelot"
 		texturefile = "gfx/leaders/MYR/LaziOcelot.dds"
 	}
@@ -108,49 +108,49 @@ spriteTypes = {
 
 	### ERC
 
-    	spriteType = {
-    		name = "GFX_portrait_ERC_klymon"
-    		texturefile = "GFX/leaders/ERC/klymon.dds"
-    	}
+    spriteType = {
+    	name = "GFX_portrait_ERC_klymon"
+    	texturefile = "GFX/leaders/ERC/klymon.dds"
+    }
 
-    	spriteType = {
-    		name = "GFX_portrait_ERC_klymon_small"
-    		texturefile = "GFX/interface/ideas/idea_erc_klymon_small.dds"
-    	}
+    spriteType = {
+    	name = "GFX_portrait_ERC_klymon_small"
+    	texturefile = "GFX/interface/ideas/idea_erc_klymon_small.dds"
+    }
 		
 	### END
 	
-		spriteType = {
-    		name = "GFX_portrait_END_misfortune_guarden"
-    		texturefile = "GFX/leaders/END/misfortune_guarden.dds"
-    	}
-		
-		spriteType = {
-    		name = "GFX_portrait_END_misfortune_guarden_small"
-    		texturefile = "GFX/interface/ideas/idea_END_misfortune_guarden_small.dds"
-    	}
+	spriteType = {
+    	name = "GFX_portrait_END_misfortune_guarden"
+    	texturefile = "GFX/leaders/END/misfortune_guarden.dds"
+    }
+
+	spriteType = {
+    	name = "GFX_portrait_END_misfortune_guarden_small"
+    	texturefile = "GFX/interface/ideas/idea_END_misfortune_guarden_small.dds"
+    }
 
 	### KHA
 
-		spriteType = {
-			name = "GFX_portrait_KHA_Storm"
-			texturefile = "GFX/leaders/KHA/storm.dds"
-		}
+	spriteType = {
+		name = "GFX_portrait_KHA_Storm"
+		texturefile = "GFX/leaders/KHA/storm.dds"
+	}
 
-		spriteType = {
-    		name = "GFX_portrait_KHA_Storm_small"
-    		texturefile = "GFX/interface/ideas/idea_kha_storm_small.dds"
-    	}
+	spriteType = {
+    	name = "GFX_portrait_KHA_Storm_small"
+    	texturefile = "GFX/interface/ideas/idea_kha_storm_small.dds"
+    }
 
-		
-		spriteType = {
-			name = "GFX_portrait_KHA_Edakho"
-			texturefile = "GFX/leaders/KHA/edakho.dds"
-		}
 
-		spriteType = {
-    		name = "GFX_portrait_KHA_Edakho_small"
-    		texturefile = "GFX/interface/ideas/idea_kha_edakho_small.dds"
-    	}
+	spriteType = {
+		name = "GFX_portrait_KHA_Edakho"
+		texturefile = "GFX/leaders/KHA/edakho.dds"
+	}
+
+	spriteType = {
+    	name = "GFX_portrait_KHA_Edakho_small"
+    	texturefile = "GFX/interface/ideas/idea_kha_edakho_small.dds"
+    }
 
 }
