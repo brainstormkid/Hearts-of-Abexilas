@@ -381,6 +381,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = ERC_prepare_a_new_government  }
+		mutually_exclusive = { focus = ERC_invite_the_farright  }
 	}
 
 	#Invite the Far-Right
