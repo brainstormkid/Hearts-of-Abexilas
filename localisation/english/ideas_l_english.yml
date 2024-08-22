@@ -209,3 +209,7 @@
  johns_mark_2_desc:0 "John left Arkstadt unprotected, leaving it to be ravaged by squatters and looters. It is now just a collection of ruins in the Cofhan countryside."
  johns_mark_3:0 "John's Mark"
  johns_mark_3_desc:0 "John left Arkstadt unprotected, leaving it to be ravaged by squatters and looters. It is now just a collection of ruins in the Cofhan countryside."
+ abolished_ecmr:0 "Abolished the ECMR"
+ abolished_ecmr_desc:0 "The ECMR was a pointless system that no one used. Good riddance!"
+ maintained_ecmr:0 "Maintained the ECMR"
+ maintained_ecmr_desc:0 "The ECMR has been repurposed and expanded to cover more industries."
