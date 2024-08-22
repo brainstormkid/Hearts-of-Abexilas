@@ -23,7 +23,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Liora Rune"
 	desc = "POLITICS_liora_DESC"
-	picture = "gfx/leaders/ERC/liora.dds"
+	picture = "gfx/leaders/VEL/liora.dds"
 	ideology = liberalism
 	traits = {
 		#

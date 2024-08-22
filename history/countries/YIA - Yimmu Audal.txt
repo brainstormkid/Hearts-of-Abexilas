@@ -16,7 +16,7 @@ set_popularities = {
 create_country_leader = {
 	name = "?"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	picture = "gfx/leaders/ERC/karl.dds"
+	picture = "gfx/leaders/YIA/karl.dds"
 	ideology = despotism
 	traits = {
 		#
