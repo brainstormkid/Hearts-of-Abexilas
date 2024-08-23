@@ -24,7 +24,8 @@ state={
 			}
 		}
 		add_core_of = ARC
-		victory_points = { 3253 5 }
+		victory_points = { 12078 5 }
+		victory_points = { 3253 20 }
 	}
 }
 
