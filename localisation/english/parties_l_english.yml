@@ -49,6 +49,12 @@
  AKI_neutrality_party:0 "AD"
  AKI_neutrality_party_long:0 "Akitian Dynasty"
  
+ # Custom Ideologies
+ monarchist:0 "Monarchist"
+ monarchist_noun:0 "Monarchism"
+ monarchist_desc:0 "Authoritarian Regime"
+ monarchist_subtype:0 "Monarchism"
+ monarchist_subtype_desc:0 ""
  
  communism:0 "Communist"
  communism_noun:0 "Communism"
