@@ -30,14 +30,20 @@
  LEY_neutrality_party_long:0 "House of Zlatkow"
   
  #Ertcof
- ERC_communism_party:0 "AXPE"
- ERC_communism_party_long:0 "Agrarian-Xeroist Party of Ertcof"
- ERC_democratic_party:0 "ERS"
- ERC_democratic_party_long:0 "Ertcof Reformist Society"
- ERC_fascism_party:0 "ENSP"
- ERC_fascism_party_long:0 "Ertcofi National-Socialist Party"
- ERC_neutrality_party:0 "Valentinus Dynasty"
- ERC_neutrality_party_long:0 ""
+ ERC_accelerationist_party:0 "APE"
+ ERC_accelerationist_party_long:0 "Accelerationist Party of Ertcof"
+ ERC_anarchist_party:0 "EAS"
+ ERC_anarchist_party_long:0 "Ertcof Anarchist Society"
+ ERC_monarchist_party:0 "Valentinus Dynasty"
+ ERC_monarchist_party_long:0 "Valentinus Dynasty"
+ ERC_social_liberalist_party:0 "ERS"
+ ERC_social_liberalist_party_long:0 "Ertcof Reformist Society"
+ ERC_radical_nationalist_party:0 "EEP"
+ ERC_radical_nationalist_party_long:0 "Ertcofi Expansionist Party"
+ ERC_theocratic_socialist_party:0 "E-FRP"
+ ERC_theocratic_socialist_party_long:0 "Ertcofi-Faunic Reunification Party"
+ ERC_xeroist_party:0 "AXPE"
+ ERC_xeroist_party_long:0 "Agrarian-Xeroist Party of Ertcof"
  
  #Akito
  AKI_communism_party:0 "WPA"
