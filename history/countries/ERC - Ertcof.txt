@@ -1,8 +1,14 @@
 ﻿capital = 534
 
+set_stability = 0.85
+set_war_support = 0.30
+
 add_ideas = {
 	volunteer_only
 	Cathramis_Continental_Member
+    high_immigration
+	agrarian_society
+	johns_mark
 }
 
 oob = "ERC"
@@ -14,10 +20,24 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 45
-	fascism = 0
-	communism = 25
-	neutrality = 30
+	absolutist = 0
+    monarchist = 0.6
+    theocratist = 0
+    accelerationist = 0
+
+    anarchist = 0
+    xeroist = 0
+    theocratic_socialist = 0.03
+    revisionist = 0
+
+    libertarianist = 0
+    centrist = 0.05
+    social_liberalist = 0.3
+    progressivist = 0
+    conservatist = 0
+
+    imperialist = 0.02
+    radical_nationalist = 0
 }
 
 recruit_character = ERC_klymon
@@ -32,16 +52,6 @@ create_country_leader = {
 	}
 }
 
-add_ideas = {
-    high_immigration
-	agrarian_society
-	ertcofi_neutrality
-	johns_mark
-}
-
-set_stability = 0.85
-set_war_support = 0.30
-
 
 add_opinion_modifier = {
     target = CAK
@@ -50,4 +60,9 @@ add_opinion_modifier = {
 add_opinion_modifier = {
     target = HOD
     modifier = faunic_opinion_modifier
+}
+
+add_timed_idea = {
+    idea = ertcofi_neutrality
+    years = 1
 }
