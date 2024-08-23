@@ -23,6 +23,47 @@ bookmarks = {
 			GAR_reform
 			}
 		}
+		
+		GEH = {
+			history = GEH_DESC
+			ideology = neutrality
+			ideas={
+			volunteer_only
+			Cathramis_Continental_Member
+			}
+			focuses = {
+			}
+		}
+		ZAM = {
+			history = ZAM_DESC
+			ideology = neutrality
+			ideas={
+			
+			}
+			focuses = {
+			
+			}
+		}
+		JAZ = {
+			history = JAZ_DESC
+			ideology = neutrality
+			ideas={
+			
+			}
+			focuses = {
+			
+			}
+		}
+		EXO = {
+			history = EXO_DESC
+			ideology = neutrality
+			ideas={
+			
+			}
+			focuses = {
+			
+			}
+		}
 
 		########
 		#Minors#
