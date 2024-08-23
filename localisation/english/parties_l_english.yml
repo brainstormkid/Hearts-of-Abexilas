@@ -56,11 +56,30 @@
  
  
  # Custom Ideologies
+ # Authoritarian
+ absolutist:0 "Absolutist"
+ absolutist_noun:0 "Absolutism"
+ absolutist_desc:0 "Authoritarian Regime"
+ absolutist_subtype:0 "Absolutism"
+ absolutist_subtype_desc:0 "Absolutism is a political system in which one ruler or leader has complete power and authority over a country."
  monarchist:0 "Monarchist"
  monarchist_noun:0 "Monarchism"
  monarchist_desc:0 "Authoritarian Regime"
  monarchist_subtype:0 "Monarchism"
- monarchist_subtype_desc:0 ""
+ monarchist_subtype_desc:0 "Monarchism is the advocacy of the system of monarchy or monarchical rule.[1] A monarchist is an individual who supports this form of government independently of any specific monarch, whereas one who supports a particular monarch is a royalist."
+ theocratist:0 "Theocratist"
+ theocratist_noun:0 "Theocratism"
+ theocratist_desc:0 "Authoritarian Regime"
+ theocratist_subtype:0 "Theocratism"
+ theocratist_subtype_desc:0 "Theocracy is a form of government in which one or more deities are recognized as supreme ruling authorities, giving divine guidance to human intermediaries who manage the government's daily affairs."
+ 
+ # Socialism
+ xeroism:0 "Xeroist"
+ xeroism_noun:0 "Xeroism"
+ xeroism_desc:0 "Socialist Regime"
+ xeroism_subtype:0 "Xeroism"
+ xeroism_subtype_desc:0 "Xeroism, or Xeroist Socialism, is a philosophical and political ideology centered around the historical analyses, teachings, and legacy of Xeroise Ronango'O throughout her tenure as an official in the United Socialist States of Eldham. While named after Ronango'O, many developments in the ideological movement have been made long after her death."
+ 
  
  communism:0 "Communist"
  communism_noun:0 "Communism"
