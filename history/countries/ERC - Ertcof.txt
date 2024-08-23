@@ -14,7 +14,7 @@ add_ideas = {
 oob = "ERC"
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = monarchist
 	last_election = "1935.6.11"
 	election_frequency = 56
 	elections_allowed = yes
@@ -46,7 +46,7 @@ create_country_leader = {
 	name = "Klymön Valentinus"
 	desc = "POLITICS_KLYMON_DESC"
 	picture = "gfx/leaders/ERC/klymon.dds"
-	ideology = monarchist
+	ideology = monarchist_subtype
 	traits = {
 		constitutional_monarch_minor
 	}

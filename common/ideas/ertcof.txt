@@ -59,8 +59,18 @@ ideas = {
 			    always = yes
 			}
 
+			cancel = {
+                OR = {
+                    has_government = accelerationist
+                    has_government = anarchist
+                    has_government = revisionist
+                    has_government = imperialist
+                    has_government = radical_nationalist
+                }
+            }
+
 			modifier = {
-			    join_faction_tension = 1.0
+			    join_faction_tension = 0.5
 			    send_volunteers_tension = 0.1
 			    guarantee_tension = 0.5
 			    ai_badass_factor = 0.03
