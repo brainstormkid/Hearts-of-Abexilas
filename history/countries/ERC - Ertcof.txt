@@ -21,22 +21,22 @@ set_politics = {
 }
 set_popularities = {
 	absolutist = 0
-    monarchist = 0.6
+    monarchist = 60
     theocratist = 0
     accelerationist = 0
 
     anarchist = 0
     xeroist = 0
-    theocratic_socialist = 0.03
+    theocratic_socialist = 3
     revisionist = 0
 
     libertarianist = 0
-    centrist = 0.05
-    social_liberalist = 0.3
+    centrist = 5
+    social_liberalist = 30
     progressivist = 0
     conservatist = 0
 
-    imperialist = 0.02
+    imperialist = 2
     radical_nationalist = 0
 }
 
@@ -46,7 +46,7 @@ create_country_leader = {
 	name = "Klymön Valentinus"
 	desc = "POLITICS_KLYMON_DESC"
 	picture = "gfx/leaders/ERC/klymon.dds"
-	ideology = liberalism
+	ideology = monarchist
 	traits = {
 		constitutional_monarch_minor
 	}
