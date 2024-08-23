@@ -15,9 +15,9 @@ oob = "ERC"
 
 set_politics = {
 	ruling_party = monarchist
-	last_election = "1935.6.11"
-	election_frequency = 56
-	elections_allowed = yes
+	last_election = "2.5.21"
+	election_frequency = 14 # since the Archon is not the head of state and gets replaced very often, I'll be replacing the "elections" with a decision counter that replaces the archon's national spirit (TBA ofc) instead of the entire government :]
+	elections_allowed = no
 }
 set_popularities = {
 	absolutist = 0
