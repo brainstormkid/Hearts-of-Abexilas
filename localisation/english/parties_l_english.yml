@@ -49,6 +49,12 @@
  AKI_neutrality_party:0 "AD"
  AKI_neutrality_party_long:0 "Akitian Dynasty"
  
+ #Gertek
+ 
+ GEH_neutrality_party:0 "HoA"
+ GEH_neutrality_party_long:0 "House of Aurelian"
+ 
+ 
  # Custom Ideologies
  monarchist:0 "Monarchist"
  monarchist_noun:0 "Monarchism"
