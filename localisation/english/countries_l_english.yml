@@ -974,3 +974,16 @@
  AET_communism_DEF:1 "the Socialist Republic of Aethos"
  AET_communism_ADJ:0 "Aethosian"
  
+ BAN_neutrality:1 "Kingdom of Bannover"
+ BAN_neutrality_DEF:1 "the Kingdom of Bannover"
+ BAN_neutrality_ADJ:0 "Bannoverian"
+ BAN_fascism:1 "Bannoverian Reich"
+ BAN_fascism_DEF:1 "the Bannoverian Reich"
+ BAN_fascism_ADJ:0 "Bannoverian"
+ BAN_democratic:1 "Bannoverian Federation"
+ BAN_democratic_DEF:1 "the Bannoverian Federation"
+ BAN_democratic_ADJ:0 "Bannoverian"
+ BAN_communism:1 "Socialist Republic of Bannover"
+ BAN_communism_DEF:1 "the Socialist Republic of Bannover"
+ BAN_communism_ADJ:0 "Bannoverian"
+ 

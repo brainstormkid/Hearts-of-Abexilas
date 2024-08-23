@@ -324,3 +324,8 @@ AET = {
 	color_ui = rgb { 153 225 221 }
 }
 
+BAN = {
+	color = rgb { 162 162 162 }
+	color_ui = rgb { 162 162 162 }
+}
+
