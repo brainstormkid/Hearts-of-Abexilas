@@ -5,12 +5,23 @@ state={
 		225 2211 2326 3250 3487 5176 5181 11194 11214 11225 11243 11286 11287 11333 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=950000
+        state_category = city
 	history={
 		owner = QYN
 		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			3487 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = QYN
+		victory_points = { 225 10 }
+		victory_points = { 5181 5 }
+		victory_points = { 11243 5 }
+		victory_points = { 3487 10 }
 	}
 }

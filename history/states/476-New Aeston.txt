@@ -5,12 +5,17 @@ state={
 		336 977 1288 3472 4457 10738 10781 10826 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1250000
+        state_category = metropolis
 	history={
 		owner = QYN
 		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = QYN
+		victory_points = { 3472 30 }
 	}
 }
