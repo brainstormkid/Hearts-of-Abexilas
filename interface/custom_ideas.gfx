@@ -1,5 +1,10 @@
 spriteTypes = {
 	SpriteType = {
+		name = "GFX_ideology_absolutist_group"
+		texturefile = gfx/interface/ideologies/absolutist_group.dds
+	}
+	
+	SpriteType = {
 		name = "GFX_idea_Kaevan_Theocracy"
 		texturefile = "gfx/interface/ideas/Kaevan_Theocracy.dds"
 	}
