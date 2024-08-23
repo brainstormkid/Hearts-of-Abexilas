@@ -74,11 +74,16 @@
  theocratist_subtype_desc:0 "Theocracy is a form of government in which one or more deities are recognized as supreme ruling authorities, giving divine guidance to human intermediaries who manage the government's daily affairs."
  
  # Socialism
- xeroism:0 "Xeroist"
- xeroism_noun:0 "Xeroism"
- xeroism_desc:0 "Socialist Regime"
- xeroism_subtype:0 "Xeroism"
- xeroism_subtype_desc:0 "Xeroism, or Xeroist Socialism, is a philosophical and political ideology centered around the historical analyses, teachings, and legacy of Xeroise Ronango'O throughout her tenure as an official in the United Socialist States of Eldham. While named after Ronango'O, many developments in the ideological movement have been made long after her death."
+ anarchist:0 "Anarchist"
+ anarchist_noun:0 "Anarchism"
+ anarchist_desc:0 "Socialist Regime"
+ anarchist_subtype:0 "Anarchism"
+ anarchist_subtype_desc:0 "Anarchism is a political philosophy and movement that is against all forms of authority and seeks to abolish the institutions it claims maintain unnecessary coercion and hierarchy, typically including the state and capitalism."
+ xeroist:0 "Xeroist"
+ xeroist_noun:0 "Xeroism"
+ xeroist_desc:0 "Socialist Regime"
+ xeroist_subtype:0 "Xeroism"
+ xeroist_subtype_desc:0 "Xeroism, or Xeroist Socialism, is a philosophical and political ideology centered around the historical analyses, teachings, and legacy of Xeroise Ronango'O throughout her tenure as an official in the United Socialist States of Eldham. While named after Ronango'O, many developments in the ideological movement have been made long after her death."
  
  
  communism:0 "Communist"
