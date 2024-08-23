@@ -183,14 +183,6 @@ technologies = {
 
 					load_oob = "unlock_tanks"
 				}
-
-				if = { #Italian templates
-					limit = {
-						original_tag = ITA
-						has_completed_focus = ITA_italian_tankettes
-					}
-					ITA_add_improved_light_tank_templates = yes
-				}
 			}
 
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
@@ -274,26 +266,20 @@ technologies = {
 				factor = 2
 				is_major = yes
 				NOT = {
-					AND = {
-						tag = JAP
-						num_of_military_factories < 50
-					}
+					num_of_military_factories < 50
 				}
 			}
 			modifier = {
 				is_major = yes
-				not = { tag = JAP }
 				has_war = yes
 				factor = 10 #you are embarassing yourself
 			}
 			modifier = {
-				tag = SOV
 				factor = 3
 			}
 			modifier = {
 				factor = 3
 				# Matilda II was designed and entered production in 1937
-				tag = ENG
 				date > "1936.9.1"
 			}
 
@@ -314,13 +300,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			if = { #Italian templates
-				limit = {
-					original_tag = ITA
-					has_completed_focus = ITA_italian_tankettes
-				}
-				ITA_add_improved_light_tank_templates = yes
-			}
 		}
 
 		categories = {
@@ -366,15 +345,8 @@ technologies = {
 			modifier = {
 				factor = 2
 				is_major = yes
-				NOT = {
-					TAG = GER
-				}
 			}
 			modifier = {
-				OR = {
-					original_tag = USA
-					original_tag = JAP
-				}
 				factor = 2
 			}
 			modifier = {
@@ -433,10 +405,6 @@ technologies = {
 				is_major = yes
 			}
 			modifier = {
-				OR = {
-					original_tag = USA
-					original_tag = JAP
-				}
 				factor = 2
 			}
 			modifier = {
@@ -564,16 +532,9 @@ technologies = {
 				factor = 2
 				is_major = yes
 				NOT = {
-					AND = {
-						tag = JAP
-						num_of_military_factories < 50
-					}
+					num_of_military_factories < 50
 				}
 				date > "1938.1.1"
-			}
-			modifier = {
-				tag = SOV
-				factor = 1.5
 			}
 
 			modifier = {
@@ -594,12 +555,6 @@ technologies = {
 			modifier = {
 				factor = 1.1
 				date > "1942.1.1"
-			}
-
-			modifier = {
-				factor = 15.0
-				tag = GER
-				has_opinion_modifier = sov_ger_treaty
 			}
 		}
 
@@ -636,16 +591,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			if = { #Italian templates
-				limit = {
-					original_tag = ITA
-					OR = {
-						has_completed_focus = ITA_end_fiat_ansaldo_duopoly
-						has_completed_focus = ITA_modernize_ansaldo_facilities
-					}
-				}
-				ITA_add_improved_medium_tank_templates = yes
-			}
 		}
 
 		ai_will_do = {
@@ -655,24 +600,12 @@ technologies = {
 				factor = 2
 				is_major = yes
 				NOT = {
-					AND = {
-						tag = JAP
-						num_of_military_factories < 50
-					}
+					num_of_military_factories < 50
 				}
 			}
 			modifier = {
 				date < "1941.1.1"
 				factor = 0.3
-			}
-			modifier = {
-				factor = 2
-				tag = GER
-			}
-
-			modifier = {
-				factor = 2
-				tag = SOV
 			}
 
 			modifier = {
@@ -722,13 +655,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			if = { #Italian templates
-				limit = {
-					original_tag = ITA
-					has_completed_focus = ITA_ferrea_mole_ferreo_cuore
-				}
-				ITA_add_advanced_medium_tank_templates = yes
-			}
 		}
 
 		ai_will_do = {
@@ -876,11 +802,6 @@ technologies = {
 				date > "1939.1.1"
 			}
 			modifier = {
-				tag = FRA
-				factor = 3
-			}
-			modifier = {
-				tag = JAP
 				num_of_military_factories < 100
 				factor = 0
 			}
@@ -922,22 +843,11 @@ technologies = {
 		}
 
 		on_research_complete = {
-			if = { #Italian templates
-				limit = {
-					original_tag = ITA
-					OR = {
-						has_completed_focus = ITA_end_fiat_ansaldo_duopoly
-						has_completed_focus = ITA_modernize_ansaldo_facilities
-					}
-				}
-				ITA_add_improved_heavy_tank_templates = yes
-			}
 		}
 
 		ai_will_do = {
 			factor = 0.8
 			modifier = {
-				tag = JAP
 				num_of_military_factories < 100
 				factor = 0
 			}
@@ -989,13 +899,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			if = { #Italian templates
-				limit = {
-					original_tag = ITA
-					has_completed_focus = ITA_ferrea_mole_ferreo_cuore
-				}
-				ITA_add_advanced_heavy_tank_templates = yes
-			}
 		}
 
 		ai_will_do = {
@@ -1050,29 +953,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			if = { #Italian templates
-				limit = {
-					original_tag = ITA
-				}
-				if = {
-					limit = {
-						has_completed_focus = ITA_capo_supremo
-					}
-					ITA_add_il_duce_sh_tank_template_and_production = yes
-				}
-				else_if = {
-					limit = {
-						has_completed_focus = ITA_modern_musculus
-					}
-					ITA_add_modern_musculus_sh_tank_template_and_production = yes
-				}
-				else_if = {
-					limit = {
-						has_completed_focus = ITA_a_time_for_war
-					}
-					ITA_add_hand_of_god_sh_tank_template_and_production = yes
-				}
-			}
 		}
 
 		ai_will_do = {
