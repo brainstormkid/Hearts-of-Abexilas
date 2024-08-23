@@ -18,9 +18,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "?"
+	name = "Blake Aurelian"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/AEZ/Panda.dds"
+	picture = "gfx/leaders/GEH/blake.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -39,3 +39,9 @@ set_autonomy = {
 }
 
 set_convoys = 50
+
+set_party_name = { 
+    ideology = neutrality 
+    long_name = "GEH_neutrality_party_long"
+    name = "GEH_neutrality_party"
+}
