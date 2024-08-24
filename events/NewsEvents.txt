@@ -34,7 +34,7 @@ news_event = {
 	option = {
 		name = "news.2.a"
 		add_stability = 0.01
-		add_opinion_modifier = {
+		reverse_add_opinion_modifier = {
             target = {
                 any_nation = {
                     has_idea = Cathramis_Continental_Member
@@ -42,12 +42,14 @@ news_event = {
             }
             modifier = cathramis_trade_modifier
         }
+        set_global_flag = cathramis_summit_happened
 		trigger = {
 			has_idea = Cathramis_Continental_Member
 		}
 	}
 	option = {
 		name = "news.2.b"
+		set_global_flag = cathramis_summit_happened
 		trigger = {
         	NOT = {
         	    has_idea = Cathramis_Continental_Member
