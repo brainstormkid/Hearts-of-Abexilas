@@ -987,3 +987,16 @@
  BAN_communism_DEF:1 "the Socialist Republic of Bannover"
  BAN_communism_ADJ:0 "Bannoverian"
  
+
+ AQM_neutrality:1 "Regnum Aquilarum"
+ AQM_neutrality_DEF:1 "Regnum Aquilarum"
+ AQM_neutrality_ADJ:0 "Aquilaran"
+ AQM_fascism:1 "Aquilarum Militum Junta"
+ AQM_fascism_DEF:1 "the Aquilarum Militum Junta"
+ AQM_fascism_ADJ:0 "Aquilaran"
+ AQM_democratic:1 "Res Publica Aquilarum"
+ AQM_democratic_DEF:1 "the Res Publica Aquilarum"
+ AQM_democratic_ADJ:0 "Aquilaran"
+ AQM_communism:1 "Rempublicam Populi Aquilarum"
+ AQM_communism_DEF:1 "the Rempublicam Populi Aquilarum"
+ AQM_communism_ADJ:0 "Aquilaran"
