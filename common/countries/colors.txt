@@ -329,3 +329,7 @@ BAN = {
 	color_ui = rgb { 162 162 162 }
 }
 
+AQM = {
+	color = rgb { 100 100 241 }
+	color_ui = rgb { 100 100 241 }
+}
