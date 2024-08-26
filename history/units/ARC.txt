@@ -1,0 +1,151 @@
+division_template = {
+	name = "Melkrajkaferkas Diwazön"					# Represents 18w Infantry
+	#division_names_group = GER_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Melprokutemias Dibdiwazön"				# Represents 12w Infantry Division
+	#division_names_group = GER_Cav_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Zwönmelas Dibdiwazön"				# Represents 12w Calvary Division
+	#division_names_group = GER_Cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+units = {
+	division = {
+		name = "1as Arkaelmi 'Fjell' Melkrajkaferkas"
+		location = 852
+		division_template = "Melkrajkaferkas Diwazön"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "2as Arkaelmi 'Fjell' Melkrajkaferkas"
+		location = 852
+		division_template = "Melkrajkaferkas Diwazön"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3as Arkaelmi 'Indrev' Melkrajkaferkas"
+		location = 6762
+		division_template = "Melkrajkaferkas Diwazön"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "4as Arkaelmi 'Prijžleg' Melkrajkaferkas"
+		location = 12214
+		division_template = "Melkrajkaferkas Diwazön"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "5as Arkaelmi Melkrajkaferkas"
+		location = 4518
+		division_template = "Melprokutemias Dibdiwazön"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "6as Arkaelmi 'Leonidas' Melkrajkaferkas"
+		location = 12079
+		division_template = "Melprokutemias Dibdiwazön"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1as Assoti Melkrajkaferkas"
+		location = 3253
+		division_template = "Melprokutemias Dibdiwazön"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "7as Arkaelmi 'Lichtfell' Melkrajkaferkas"
+		location = 1931
+		division_template = "Melprokutemias Dibdiwazön"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "8as Arkaelmi Melkrajkaferkas"
+		location = 12328
+		division_template = "Melprokutemias Dibdiwazön"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1as Arkaelmi Zwönmelas"
+		location = 1923
+		division_template = "Zwönmelas Dibdiwazön"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2as Arkaelmi Zwönmelas"
+		location = 12039
+		division_template = "Zwönmelas Dibdiwazön"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3as Arkaelmi Zwönmelas"
+		location = 1306
+		division_template = "Zwönmelas Dibdiwazön"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "4as Arkaelmi 'Naktinmol' Zwönmelas"
+		location = 12213
+		division_template = "Zwönmelas Dibdiwazön"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "5as Arkaelmi Zwönmelas"
+		location = 12350
+		division_template = "Zwönmelas Dibdiwazön"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "6as Arkaelmi Zwönmelas"
+		location = 1289
+		division_template = "Zwönmelas Dibdiwazön"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+}
