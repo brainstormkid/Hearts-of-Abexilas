@@ -1,0 +1,25 @@
+# possible - filters out achivements on game start so we dont have to check everything all the 
+#time
+## happened - checks if achivement happened
+#
+###########################
+## 1 VERY EASY ACHIEVEMENTS
+#############################
+
+
+
+#############################
+#### EASY ACHIEVEMENTS ######
+#############################
+
+
+
+#############################
+# 1 MEDIUM ACHIEVEMENTS
+#############################
+
+
+
+#############################
+#### HARD ACHIEVEMENTS ######
+#############################
