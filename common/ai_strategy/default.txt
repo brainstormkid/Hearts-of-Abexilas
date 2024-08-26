@@ -4,14 +4,6 @@
 default_unit_production = { #If adding country-unique ones, bear in mind that they STACK
 	enable = {
 		always = yes
-		NOT = { original_tag = GER } NOT = { original_tag = FRA } NOT = { original_tag = CHI  } NOT = { original_tag = ENG  }
-		not = { original_tag = CZE }
-		NOT = { tag = SOV }
-		Not = {
-			OR = {
-				original_tag = JAP
-			}
-		}
 	}
 
 	ai_strategy = {
@@ -155,15 +147,6 @@ default_role_ratios = {
 default_role_ratios = {
 	enable = {
 		has_dlc = "Man the Guns"
-		not = {
-			OR = {
-				original_tag = GER
-				original_tag = ENG
-				original_tag = USA
-				original_tag = JAP
-				original_tag = SOV
-			}
-		}
 	}
 
 	ai_strategy = {
@@ -348,7 +331,6 @@ default_pp_spend_amount = {
 
 default_paratroopers_production = {
 	enable = {
-		NOT = { original_tag = GER }
 		ai_wants_divisions >  12 #Massively decreasing the amount of paratroopers the AI wants
 	}
 	abort = {
@@ -364,15 +346,6 @@ default_paratroopers_production = {
 
 default_garrison_production = {
 	enable = {
-		NOT = {
-			original_tag = GER
-			original_tag = SOV
-			original_tag = USA
-			original_tag = CHI
-			original_tag = FRA
-			original_tag = JAP
-			original_tag = ENG
-		}
 		ai_wants_divisions >  12 #Massively decreasing the amount of garrison and suppression the AI wants
 		is_major = yes
 	}
@@ -397,7 +370,6 @@ default_garrison_production = {
 
 default_mountaineers_production = {
 	enable = {
-		NOT = { original_tag = GER }
 		ai_wants_divisions > 11 #Decreasing the amount of mountaineers the AI wants
 	}
 	abort = {
@@ -413,7 +385,6 @@ default_mountaineers_production = {
 
 default_marines_production = {
 	enable = {
-		NOT = { original_tag = GER }
 		ai_wants_divisions > 49
 	}
 	abort = {
@@ -435,7 +406,6 @@ default_marines_production = {
 
 default_mobile_production = {
 	enable = {
-		NOT = { original_tag = GER }
 		ai_wants_divisions > 11
 		has_tech = motorised_infantry
 	}
@@ -452,8 +422,6 @@ default_mobile_production = {
 
 default_armored_production = {
 	enable = {
-		NOT = { original_tag = GER }
-		not = { original_tag = CZE }
 		ai_wants_divisions > 49
 	}
 	abort = {
@@ -475,7 +443,6 @@ default_armored_production = {
 
 highered_armored_production = {
 	enable = {
-		NOT = { original_tag = GER }
 		num_of_military_factories > 69
 	}
 	abort = {
