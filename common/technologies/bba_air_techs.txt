@@ -77,7 +77,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 2
 
 		folder = {
 			name = bba_air_techs_folder
@@ -109,22 +109,22 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "3.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1938.1.1"
+				date > "4.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1939.1.1"
+				date > "5.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1940.1.1"
+				date > "6.1.1"
 			}
 		}
 	}
@@ -151,7 +151,7 @@ technologies = {
 				
 
 		research_cost = 2
-		start_year = 1940
+		start_year = 6
 		folder = {
 			name = bba_air_techs_folder
 			position = { x = 0 y = 6 }
@@ -183,29 +183,23 @@ technologies = {
 			}
 
 			modifier = {
-				factor = 0
-				original_tag = GER
-				date < "1941.1.1"
-			}
-
-			modifier = {
 				factor = 1.2
-				date > "1941.1.1"
+				date > "7.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1942.1.1"
+				date > "8.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1943.1.1"
+				date > "9.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1944.1.1"
+				date > "10.1.1"
 			}
 		}
 	}
@@ -229,7 +223,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 10
 
 		folder = {
 			name = bba_air_techs_folder
@@ -259,22 +253,22 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1945.1.1"
+				date > "11.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1946.1.1"
+				date > "12.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1947.1.1"
+				date > "13.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1948.1.1"
+				date > "14.1.1"
 			}
 		}
 	}
@@ -297,7 +291,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1945
+		start_year = 11
 
 		folder = {
 			name = bba_air_techs_folder
@@ -322,10 +316,6 @@ technologies = {
 			factor = 1
 			modifier = {
 				is_major = yes
-				factor = 2
-			}
-			modifier = {
-				tag = GER
 				factor = 2
 			}
 		}
