@@ -3,7 +3,7 @@ capital = 198
 oob = "AQM"
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = absolutist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -12,7 +12,7 @@ set_popularities = {
 	democratic = 45
 	fascism = 0
 	communism = 0
-	neutrality = 55
+	absolutist = 55
 }
 
 create_country_leader = {
@@ -20,7 +20,7 @@ create_country_leader = {
 	desc = "POLITICS_DEMAN_DESC"
 	picture = "gfx/leaders/DemanIsDDS.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = absolutist_subtype
 	traits = {
 		#
 	}
