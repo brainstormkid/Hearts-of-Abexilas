@@ -8,18 +8,44 @@ set_politics = {
 	election_frequency = 56
 	elections_allowed = no
 }
+
+set_politics = {
+	ruling_party = monarchist
+	last_election = "1936.1.1"
+	election_frequency = 56
+	elections_allowed = no
+}
 set_popularities = {
-	democratic = 10
-	fascism = 5
-	communism = 0
-	neutrality = 85
+	absolutist = 5
+	monarchist = 70
+	theocratist = 0
+	accelerationist = 0
+	
+	anarchist = 0
+	xeroist = 5
+	theocratic_socialist = 0
+	revisionist = 0
+	
+	libertarianist = 0
+	centrist = 5
+	social_liberalist = 0
+	progressivist = 0
+	conservatist = 5
+	
+	imperialist = 5
+	radical_nationalist = 0
+	
+	democratic = 0
+	fascism = 0
+	communism = 5
+	neutrality = 0
 }
 
 create_country_leader = {
 	name = "Karl I."
-	desc = ""
+	desc = "POLITICS_KARL_DESC"
 	picture = "gfx/leaders/ARC/karl.dds"
-	ideology = despotism
+	ideology = monarchist_subtype
 	traits = {
 		#
 	}
