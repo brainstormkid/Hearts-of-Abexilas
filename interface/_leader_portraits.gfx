@@ -86,6 +86,10 @@ spriteTypes = {
 		name = "GFX_portrait_MYR_LaziOcelot"
 		texturefile = "gfx/leaders/MYR/LaziOcelot.dds"
 	}
+    spriteType = {
+		name = "GFX_portrait_MYR_Aegis"
+		texturefile = "gfx/leaders/MYR/Aegis.dds"
+	}
 	
 	### CHM
 
