@@ -99,3 +99,13 @@ create_country_leader = {
 		#
 	}
 }
+create_country_leader = {
+	name = "Liam"
+	desc = "POLITICS_AEGIS_DESC"
+	picture = "GFX_portrait_MYR_Jimmon"
+	expire = "1965.1.1"
+	ideology = centrist
+	traits = {
+		#
+	}
+}
