@@ -63,4 +63,24 @@ spriteTypes = {
 	name = "GFX_idea_maintained_ecmr"
 	texturefile = "gfx/interface/ideas/idea_abolished_ecmr.dds"
 	}
-}
+	SpriteType = { 
+		name = "GFX_idea_the_disunited_empire"
+		texturefile = "gfx/interface/ideas/the_disunited_empire.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_soldiers_of_the_mountains"
+		texturefile = "gfx/interface/ideas/soldiers_of_the_mountains.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_settlernative_distrust"
+		texturefile = "gfx/interface/ideas/settlernative_distrust.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_protected_native_cultural_site"
+		texturefile = "gfx/interface/ideas/protected_native_cultural_site.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_full_native_integration"
+		texturefile = "gfx/interface/ideas/full_native_integration.dds"
+	}
+ }
