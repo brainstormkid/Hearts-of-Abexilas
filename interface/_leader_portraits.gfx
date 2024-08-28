@@ -114,6 +114,10 @@ spriteTypes = {
 		name = "GFX_portrait_MYR_Liam"
 		texturefile = "gfx/leaders/MYR/Liam.dds"
 	}
+    spriteType = {
+		name = "GFX_portrait_MYR_CoolBoi"
+		texturefile = "gfx/leaders/MYR/CoolBoi.dds"
+	}
 	
 	### CHM
 
