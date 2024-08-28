@@ -86,7 +86,6 @@ spriteTypes = {
 		name = "GFX_portrait_MYR_LaziOcelot"
 		texturefile = "gfx/leaders/MYR/LaziOcelot.dds"
 	}
-<<<<<<< Updated upstream
     spriteType = {
 		name = "GFX_portrait_MYR_Aegis"
 		texturefile = "gfx/leaders/MYR/Aegis.dds"
@@ -111,8 +110,6 @@ spriteTypes = {
 		name = "GFX_portrait_MYR_Jimmon"
 		texturefile = "gfx/leaders/MYR/Jimmon.dds"
 	}
-=======
->>>>>>> Stashed changes
 	
 	### CHM
 
