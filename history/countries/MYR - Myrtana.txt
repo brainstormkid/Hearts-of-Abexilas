@@ -74,7 +74,7 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_Wotan"
 	expire = "1965.1.1"
-	ideology = democratic
+	ideology = theocratist
 	traits = {
 		#
 	}
@@ -84,7 +84,7 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_Eugene"
 	expire = "1965.1.1"
-	ideology = democratic
+	ideology = radical_nationalist
 	traits = {
 		#
 	}
@@ -94,7 +94,7 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_Jimmon"
 	expire = "1965.1.1"
-	ideology = democratic
+	ideology = absolutist
 	traits = {
 		#
 	}
