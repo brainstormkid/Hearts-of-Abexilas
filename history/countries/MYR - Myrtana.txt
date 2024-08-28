@@ -30,11 +30,11 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Ravian I"
+	name = "Aegis"
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_Aegis"
 	expire = "1965.1.1"
-	ideology = falangism
+	ideology = progressivist
 	traits = {
 		#
 	}
@@ -59,3 +59,15 @@ create_country_leader = {
 		#
 	}
 }
+create_country_leader = {
+	name = "ThatHuntingPug"
+	desc = "POLITICS_AEGIS_DESC"
+	picture = "GFX_portrait_MYR_Pug"
+	expire = "1965.1.1"
+	ideology = democratic
+	traits = {
+		#
+	}
+}
+
+
