@@ -90,6 +90,14 @@ spriteTypes = {
 		name = "GFX_portrait_MYR_Aegis"
 		texturefile = "gfx/leaders/MYR/Aegis.dds"
 	}
+    spriteType = {
+		name = "GFX_portrait_MYR_Pug"
+		texturefile = "gfx/leaders/MYR/ThatHuntingPug.dds"
+	}
+    spriteType = {
+		name = "GFX_portrait_MYR_Luni"
+		texturefile = "gfx/leaders/MYR/Luni.dds"
+	}
 	
 	### CHM
 
