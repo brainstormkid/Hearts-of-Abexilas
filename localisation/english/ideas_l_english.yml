@@ -213,3 +213,15 @@
  abolished_ecmr_desc:0 "The ECMR was a pointless system that no one used. Good riddance!"
  maintained_ecmr:0 "Maintained the ECMR"
  maintained_ecmr_desc:0 "The ECMR has been repurposed and expanded to cover more industries."
+
+# Arcael ideas
+ the_disunited_empire:0 "The Disunited Empire"
+ the_disunited_empire_desc:0 "Despite its name, the United Empire of Arcael suffers from a lot of rivalry between its constituent kingdoms."
+ soldiers_of_the_mountains:0 "Soldiers of the Mountains"
+ soldiers_of_the_mountains_desc:0 "This nation's territory consists primarily of peaks and glaciers, and its army has adapted accordingly."
+ settlernative_distrust:0 "Settler-Native Distrust"
+ settlernative_distrust_desc:0 "Although natives are equal to Soolians on paper, they are often neglected by their overlords, and as a result, they do not participate in most civic duties."
+ protected_native_cultural_site:0 "Protected Native Cultural Site"
+ protected_native_cultural_site_desc:0 "Officially protecting cultural sites from economic exploitation was a great step in the right direction, but there is still much more to accomplish."
+ full_native_integration:0 "Full Native Integration"
+ full_native_integration_desc:0 "Finally, the natives of Arcael stand on equal ground with the Eldhamite settlers, and both peoples are already enjoying a new era of cooperation."

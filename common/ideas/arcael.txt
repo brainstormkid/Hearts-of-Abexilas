@@ -1,0 +1,82 @@
+ideas = {
+	country = {
+		the_disunited_empire = {
+			picture = the_disunited_empire
+			allowed = {
+				tag = ARC
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.15
+				surrender_limit = -0.1
+			}
+		}
+		soldiers_of_the_mountains = {
+			picture = soldiers_of_the_mountains
+			allowed = {
+				tag = ARC
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+			}
+			modifier = {
+				special_forces_cap = 0.1
+				terrain_penalty_reduction = 0.1
+				training_time_army_factor = 0.15
+			}
+		}
+		settlernative_distrust = {
+			picture = settlernative_distrust
+			allowed = {
+				tag = ARC
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+			}
+			modifier = {
+				recruitable_population_factor = -0.6
+				political_power_cost = 0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+		protected_native_cultural_site = {
+			picture = protected_native_cultural_site
+			allowed = {
+				tag = ARC
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+			}
+			modifier = {
+				political_power_cost = 0.05
+				recruitable_population_factor = -0.3
+				consumer_goods_factor = 0.025
+			}
+		}
+		full_native_integration = {
+			picture = full_native_integration
+			allowed = {
+				tag = ARC
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+			}
+			modifier = {
+				consumer_goods_factor = -0.025
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+			}
+		}
+	}
+}

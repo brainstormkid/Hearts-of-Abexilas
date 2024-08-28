@@ -28,10 +28,16 @@ bookmarks = {
 		}
 		
 		ARC = {
+			history = ARC_DESC
 			ideology = neutrality
 			ideas={
+				soldiers_of_the_mountains
+				the_disunited_empire
+				settlernative_distrust
 			}
 			focuses = {
+				ARC_organize_monarchist_rallies
+				ARC_plot_against_the_emperor
 			}
 		}
 
