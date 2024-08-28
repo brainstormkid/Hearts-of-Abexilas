@@ -1,0 +1,23 @@
+characters = {
+	ARC_karl = {
+		name = ARC_karl
+		portraits = {
+			civilian = {
+				large = "GFX_portait_ARC_karl"
+				small = "GFX_portrait_ARC_karl_small"
+			}
+			army = {
+				large = "GFX_portait_ARC_karl"
+				small = "GFX_portrait_ARC_karl_small"
+			}
+		}
+		field_marshal={
+			traits={ media_personality politically_connected inflexible_strategist trait_mountaineer }
+			skill = 4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+		}
+
+		

@@ -41,15 +41,19 @@ set_popularities = {
 	neutrality = 0
 }
 
+
+recruit_character = ARC_karl
+
 create_country_leader = {
 	name = "Karl I."
 	desc = "POLITICS_KARL_DESC"
 	picture = "gfx/leaders/ARC/karl.dds"
 	ideology = monarchist_subtype
 	traits = {
-		#
+		man_of_the_nation
 	}
 }
+
 
 set_stability = 0.65
 set_war_support = 1
