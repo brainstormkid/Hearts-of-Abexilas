@@ -109,3 +109,13 @@ create_country_leader = {
 		#
 	}
 }
+create_country_leader = {
+	name = "CoolBoi"
+	desc = "POLITICS_AEGIS_DESC"
+	picture = "GFX_portrait_MYR_CoolBoi"
+	expire = "1965.1.1"
+	ideology = centrist
+	traits = {
+		#
+	}
+}
