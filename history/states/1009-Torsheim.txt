@@ -1,6 +1,6 @@
 state={
 	id=1009
-	name="Torsheim"
+	name="STATE_1009"
 	provinces={
 		14134 14135 14161 14177 14202 
 	}
