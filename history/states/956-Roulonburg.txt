@@ -10,6 +10,13 @@ state={
 	history={
 		owner = MYR
 		buildings = {
+                    infrastructure = 4
+                    industrial_complex = 2
+                    arms_factory = 2
+                    synthetic_refinery = 1
+                    naval_base = {
+			 13690 = 2
+		    }
 		}
 		add_core_of = MYR
 	}
