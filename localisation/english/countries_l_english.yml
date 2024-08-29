@@ -19,6 +19,10 @@
  AQM_absolutist_DEF:1 "Regnum Aquilarum"
  AQM_absolutist_ADJ:0 "Aquilaran"
  
+ BEE_absolutist:1 "Empire of Beepeck"
+ BEE_absolutist_DEF:1 "the Empire of Beepeck"
+ BEE_absolutist_ADJ:0 "Beean"
+ 
  
  
  
@@ -494,19 +498,6 @@
  ORI_communism:1 "People's Republic of Orion"
  ORI_communism_DEF:1 "the People's Republic of Orion"
  ORI_communism_ADJ:0 "Orinnian"
- 
- BEE_neutrality:1 "Empire of Beepeck"
- BEE_neutrality_DEF:1 "the Empire of Beepeck"
- BEE_neutrality_ADJ:0 "Beean"
- BEE_fascism:1 "Beean Reich"
- BEE_fascism_DEF:1 "the Beean Reich"
- BEE_fascism_ADJ:0 "Beean"
- BEE_democratic:1 "Beean Federation"
- BEE_democratic_DEF:1 "the Beean Federation"
- BEE_democratic_ADJ:0 "Beean"
- BEE_communism:1 "People's Republic of Beepeck"
- BEE_communism_DEF:1 "the People's Republic of Beepeck"
- BEE_communism_ADJ:0 "Beean"
  
  HAR_neutrality:1 "Empire of Harpia"
  HAR_neutrality_DEF:1 "the Empire of Harpia"
