@@ -16,9 +16,9 @@ set_popularities = {
         theocratic_socialist = 3
 }
 
-set_stability = 48
-set_war_support = 53
-
+add_ideas = {
+   great_divide
+}
 create_country_leader = {
 	name = "Ravian I"
 	desc = "POLITICS_AEGIS_DESC"
@@ -119,3 +119,7 @@ create_country_leader = {
 		#
 	}
 }
+
+set_convoys = 30
+set_stability = 48
+set_war_support = 53

@@ -80,7 +80,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/protected_native_cultural_site.dds"
 	}
 	SpriteType = { 
-		name = "GFX_idea_full_native_integration"
-		texturefile = "gfx/interface/ideas/full_native_integration.dds"
+		name = "GFX_idea_Great_Divide"
+		texturefile = "gfx/interface/ideas/MYR_idea_Great_Divide.dds"
 	}
  }

@@ -1,0 +1,139 @@
+﻿division_template = {
+	name = "Myrtanian Infantry Division"					# Represents 18w Infantry
+	#division_names_group = GER_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Royal Guard Division"				# Represents 12w Infantry Division
+	#division_names_group = GER_Cav_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Myrtania Calvary Division"				# Represents 12w Calvary Division
+	#division_names_group = GER_Cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Royal Guard Division"
+		location = 910
+		division_template = "Royal Guard Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "2nd Royal Guard Division"
+		location = 13764
+		division_template = "Royal Guard Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Myrtanian Infantry Division"
+		location = 13735
+		division_template = "Myrtanian Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "4th Myrtanian Infantry Division"
+		location = 13788
+		division_template = "Myrtanian Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "5th Myrtanian Infantry Division"
+		location = 13874
+		division_template = "Myrtanian Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "6th Myrtanian Infantry Division"
+		location = 13710
+		division_template = "Myrtanian Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "7th Myrtanian Infantry Division"
+		location = 14134
+		division_template = "Myrtanian Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "8th Myrtanian Infantry Division"
+		location = 14177
+		division_template = "Myrtanian Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "9th Myrtanian Infantry Division"
+		location = 14241
+		division_template = "Myrtanian Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "10th Myrtanian Infantry Division"
+		location = 14147
+		division_template = "Myrtanian Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "11th Myrtanian Calvary Division"
+		location = 6051
+		division_template = "Myrtania Calvary Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "12th Myrtanian Calvary Division"
+		location = 3867
+		division_template = "Myrtania Calvary Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "13th Myrtanian Calvary Division"
+		location = 13775
+		division_template = "Myrtania Calvary Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1.0
+	}
+}
+
+#####################
