@@ -3,6 +3,22 @@
  AET_absolutist_DEF:1 "the Empire of Aethos"
  AET_absolutist_ADJ:0 "Aethosian"
  
+ AKA_absolutist:1 "Akari Commonwealth"
+ AKA_absolutist_DEF:1 "the Akari Commonwealth"
+ AKA_absolutist_ADJ:0 "Akari"
+ 
+ AKI_absolutist:1 "State of Akito"
+ AKI_absolutist_DEF:1 "the State of Akito"
+ AKI_absolutist_ADJ:0 "Akitian"
+ 
+ AND_absolutist:1 "Imperila Andliria"
+ AND_absolutist_DEF:1 "the Imperila Andliria"
+ AND_absolutist_ADJ:0 "Andlirian"
+ 
+ AQM_absolutist:1 "Regnum Aquilarum"
+ AQM_absolutist_DEF:1 "Regnum Aquilarum"
+ AQM_absolutist_ADJ:0 "Aquilaran"
+ 
  
  
  
@@ -59,19 +75,6 @@
  RIT_communism:1 "People's Republic of Ritte an Tola"
  RIT_communism_DEF:1 "the People's Republic of Ritte an Tola"
  RIT_communism_ADJ:0 "Tolan"
- 
- AKA_neutrality:1 "Akari Commonwealth"
- AKA_neutrality_DEF:1 "the Akari Commonwealth"
- AKA_neutrality_ADJ:0 "Akari"
- AKA_fascism:1 "Akari Reich"
- AKA_fascism_DEF:1 "the Akari Reich"
- AKA_fascism_ADJ:0 "Akari"
- AKA_democratic:1 "Akari Federation"
- AKA_democratic_DEF:1 "the Akari Federation"
- AKA_democratic_ADJ:0 "Akari"
- AKA_communism:1 "People's Republic of Akari"
- AKA_communism_DEF:1 "the People's Republic of Akari"
- AKA_communism_ADJ:0 "Akari"
  
  SAR_neutrality:1 "Korlenten Sarinzerilin"
  SAR_neutrality_DEF:1 "the Korlenten Sarinzerilin"
@@ -778,19 +781,6 @@
  YIA_communism_DEF:1 "the Social Audal Union"
  YIA_communism_ADJ:0 "Audalad"
  
- AKI_neutrality:1 "State of Akito"
- AKI_neutrality_DEF:1 "the State of Akito"
- AKI_neutrality_ADJ:0 "Akitian"
- AKI_fascism:1 "Akitian Reich"
- AKI_fascism_DEF:1 "the Akitian Reich"
- AKI_fascism_ADJ:0 "Akitian"
- AKI_democratic:1 "Akitian Federation"
- AKI_democratic_DEF:1 "the Akitian Federation"
- AKI_democratic_ADJ:0 "Akitian"
- AKI_communism:1 "People's Republic of Akito"
- AKI_communism_DEF:1 "the People's Republic of Akito"
- AKI_communism_ADJ:0 "Akitian"
- 
  ZEH_neutrality:1 "Zehrniedrig"
  ZEH_neutrality_DEF:1 "the Zehrniedrig"
  ZEH_neutrality_ADJ:0 "Zehrish"
@@ -894,19 +884,6 @@
  ARR_communism:1 "Socialist Republic of Arkania"
  ARR_communism_DEF:1 "the Socialist Republic of Arkania"
  ARR_communism_ADJ:0 "Arkanian"
- 
- AND_neutrality:1 "Imperila Andliria"
- AND_neutrality_DEF:1 "the Imperila Andliria"
- AND_neutrality_ADJ:0 "Andlirian"
- AND_fascism:1 "Andlirian Reich"
- AND_fascism_DEF:1 "the Andlirian Reich"
- AND_fascism_ADJ:0 "Andlirian"
- AND_democratic:1 "Andlirian Federation"
- AND_democratic_DEF:1 "the Andlirian Federation"
- AND_democratic_ADJ:0 "Andlirian"
- AND_communism:1 "Socialist Republic of Arkania"
- AND_communism_DEF:1 "the Socialist Republic of Arkania"
- AND_communism_ADJ:0 "Andlirian"
  
  SET_neutrality:1 "Sentara"
  SET_neutrality_DEF:1 "the Sentara"
@@ -1050,17 +1027,3 @@
  BAN_communism:1 "Socialist Republic of Bannover"
  BAN_communism_DEF:1 "the Socialist Republic of Bannover"
  BAN_communism_ADJ:0 "Bannoverian"
- 
-
- AQM_neutrality:1 "Regnum Aquilarum"
- AQM_neutrality_DEF:1 "Regnum Aquilarum"
- AQM_neutrality_ADJ:0 "Aquilaran"
- AQM_fascism:1 "Aquilarum Militum Junta"
- AQM_fascism_DEF:1 "the Aquilarum Militum Junta"
- AQM_fascism_ADJ:0 "Aquilaran"
- AQM_democratic:1 "Res Publica Aquilarum"
- AQM_democratic_DEF:1 "the Res Publica Aquilarum"
- AQM_democratic_ADJ:0 "Aquilaran"
- AQM_communism:1 "Rempublicam Populi Aquilarum"
- AQM_communism_DEF:1 "the Rempublicam Populi Aquilarum"
- AQM_communism_ADJ:0 "Aquilaran"
