@@ -255,8 +255,8 @@ DAN = {
 }
 
 DRE = {
-	color = rgb { 235 79 61 }
-	color_ui = rgb { 235 79 61 }
+	color = rgb { 89 30 30 }
+	color_ui = rgb { 89 30 30 }
 }
 
 ARR = {
