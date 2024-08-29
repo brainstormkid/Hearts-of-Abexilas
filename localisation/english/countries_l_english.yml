@@ -1,4 +1,13 @@
 ﻿l_english:
+ AET_absolutist:1 "Empire of Aethos"
+ AET_absolutist_DEF:1 "the Empire of Aethos"
+ AET_absolutist_ADJ:0 "Aethosian"
+ 
+ 
+ 
+ 
+ 
+ 
  CAS_neutrality:1 "Grand Regency of Castanor"
  CAS_neutrality_DEF:1 "the Grand Regency of Castanor"
  CAS_neutrality_ADJ:0 "Castanoran"
@@ -1028,19 +1037,6 @@
  LAT_communism:1 "Socialist Republic of Latria"
  LAT_communism_DEF:1 "the Socialist Republic of Latria"
  LAT_communism_ADJ:0 "Latrian"
- 
- AET_neutrality:1 "Empire of Aethos"
- AET_neutrality_DEF:1 "the Empire of Aethos"
- AET_neutrality_ADJ:0 "Aethosian"
- AET_fascism:1 "Aethosian Reich"
- AET_fascism_DEF:1 "the Aethosian Reich"
- AET_fascism_ADJ:0 "Aethosian"
- AET_democratic:1 "Aethosian Federation"
- AET_democratic_DEF:1 "the Aethosian Federation"
- AET_democratic_ADJ:0 "Aethosian"
- AET_communism:1 "Socialist Republic of Aethos"
- AET_communism_DEF:1 "the Socialist Republic of Aethos"
- AET_communism_ADJ:0 "Aethosian"
  
  BAN_neutrality:1 "Kingdom of Bannover"
  BAN_neutrality_DEF:1 "the Kingdom of Bannover"
