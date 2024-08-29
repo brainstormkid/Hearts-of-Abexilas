@@ -1,15 +1,22 @@
 state={
 	id=964
-	name="STATE_964"
+	name="Theos"
 	provinces={
 		6233 13710 13718 13719 13756 13764 13788 13799 13805 
 	}
 	buildings_max_level_factor=1.000
-        manpower=2150000
+        manpower=2143500
         state_category = town
 	history={
 		owner = MYR
 		buildings = {
+                    infrastructure = 4
+                    industrial_complex = 2
+                    arms_factory = 2
+                    naval_base = {
+		         13710 = 1
+			 13718 = 1
+			}
 		}
 		add_core_of = MYR
 	}
