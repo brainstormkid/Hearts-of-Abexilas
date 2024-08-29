@@ -1,6 +1,6 @@
 state={
 	id=976
-	name="Astropolis"
+	name="STATE_976"
 	provinces={
 		13874 
 	}
