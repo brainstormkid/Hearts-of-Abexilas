@@ -16,7 +16,9 @@ set_popularities = {
         theocratic_socialist = 3
 }
 
-
+add_ideas = {
+   great_divide
+}
 create_country_leader = {
 	name = "Ravian I"
 	desc = "POLITICS_AEGIS_DESC"
