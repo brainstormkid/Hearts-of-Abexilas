@@ -16,8 +16,6 @@ set_popularities = {
         theocratic_socialist = 3
 }
 
-set_stability = 48
-set_war_support = 53
 
 create_country_leader = {
 	name = "Ravian I"
@@ -119,3 +117,7 @@ create_country_leader = {
 		#
 	}
 }
+
+set_convoys = 30
+set_stability = 48
+set_war_support = 53
