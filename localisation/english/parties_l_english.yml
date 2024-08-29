@@ -2,6 +2,8 @@
  #Myrtana
  MYR_monarchist_party:0 "Royal House of Rune"
  MYR_monarchist_party_long:0 "Royal House of Rune"
+ MYR_communism_party:0 "United Communist Party of Myrtana"
+ MYR_communism_party_long:0 "United Communist Party of Myrtana"
  MYR_progressivist_party:0 "MPC & TFUP"
  MYR_progressivist_party_long:0 "Myrtanian Progressive Coalition & Torsheim's Free United Party"
  MYR_democratic_party:0 "Myrtanian Freedom Movement"
