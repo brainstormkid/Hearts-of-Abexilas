@@ -1,5 +1,30 @@
 ﻿l_english:
- #Myrtana
+
+#Arcael
+ ARC_repairing_the_nativesettler_gap:0 "Repairing the Native-Settler Gap"
+ ARC_repairing_the_nativesettler_gap_desc:0 "With the natives becoming an increasingly important demographic in the country, it's important that they be officially enfranchised to the standards of living enjoyed by Soolians, Solians, and Assoti."
+ ARC_create_worker_militias:0 "Create Worker Militias"
+ ARC_create_worker_militias_desc:0 "The aristocracy is unlikely to help us get rid of their privileges, let alone form a sufficient force in time. However, many workers are ready to take up arms against the monarchy."
+ ARC_finishing_the_july_constitution:0 "Finishing the July Constitution"
+ ARC_finishing_the_july_constitution_desc:0 "The Arcael Empire has stagnated as a result of a mismanaged nobility, and the royal treasury sinking millions into the pockets of un-needed public projects. Now, with calls for democratic reforms as well, the Emperor and Kings have met to finish a new constitution with more liberal ideals."
+ ARC_protecting_native_cultural_sites:0 "Protecting Native Cultural Sites"
+ ARC_protecting_native_cultural_sites_desc:0 "The natives have grown increasingly restless in Arcael due to years of neglect by the imperial government, we must give them concessions lest they start organizing."
+ ARC_organize_monarchist_rallies:0 "Organize Monarchist Rallies"
+ ARC_organize_monarchist_rallies_desc:0 "Even with the new constitution having brought serious democratic reforms to the kingdom, the monarchies throughout the empire enjoy ample support from the citizenry. Holding more rallies will bring joy to the people and more support to the Royals."
+ ARC_organize_aristocratic_meetings:0 "Organize Aristocratic Meetings"
+ ARC_organize_aristocratic_meetings_desc:0 "The aristocracy of the nation must be unified in action to govern these great lands. With pockets of opposition to monarchy brewing in the far reaches of the Empire, the nobility must be ready."
+ ARC_plot_against_the_emperor:0 "Plot Against the Emperor"
+ ARC_plot_against_the_emperor_desc:0 "Our current emperor has caused too many issues already and won't listen to his advisors nor the people's will. We must start a plot to remove him from power and create a new Arcael where the people truly has a voice."
+ ARC_elect_a_liberal_chancellor:0 "Elect a Liberal Chancellor"
+ ARC_elect_a_liberal_chancellor_desc:0 "The recent changes made to the constitution were a good step forward, but the people demand more democracy. The extension of the voter base will allow us to elect a new chancellor who shall aid us in gaining popular support."
+ ARC_unite_the_opposition:0 "Unite the Opposition"
+ ARC_unite_the_opposition_desc:0 "Democratic Monarchists, Republicans and Communists must set their differences aside if we want to overthrow the current ruler. We will propose a truce between the opposition parties to avoid any infighting while we work in the shadows."
+ ARC_seek_foreign_support:0 "Seek Foreign Support"
+ ARC_seek_foreign_support_desc:0 "Many nations do not see eye to eye with our current leader, and are therefore ready to lend us some of their factories"
+ ARC_depose_the_emperor:0 "Depose the Emperor"
+ ARC_depose_the_emperor_desc:0 "The time has come to make our move and depose the emperor from his functions. A new era of freedom for Arcael begins now !"
+ 
+  #Myrtana
  MYR_myrtanainflames:0 "Myrtana in Flames!"
  MYR_myrtanainflames_desc:0 "Our nation is in deep crisis right now, political instability, economic poverty along with decreasing population and there even is whispers of potential civil war soon. Many of our generals becoming a bit paranoid, we need to do everything we can to save this nation. Glory to Myrtana! Glory to Ravian!"
  MYR_restoreorderintorsheim:0 "Restore Order in Torsheim!"
@@ -596,30 +621,6 @@
  ERC_embrace_neutrality_desc:0 "Neutrality will keep our people safe in the face of danger and prevent unnecessary conflict with other nations."
  ERC_prepare_a_new_government:0 "Prepare a new government"
  ERC_prepare_a_new_government_desc:0 "Our current government is incapable of supporting its duties, there needs to be change or we will fall rapidly under internal divides and external pressures."
-
-# Arcael
- ARC_repairing_the_nativesettler_gap:0 "Repairing the Native-Settler Gap"
- ARC_repairing_the_nativesettler_gap_desc:0 "With the natives becoming an increasingly important demographic in the country, it's important that they be officially enfranchised to the standards of living enjoyed by Soolians, Solians, and Assoti."
- ARC_create_worker_militias:0 "Create Worker Militias"
- ARC_create_worker_militias_desc:0 "The aristocracy is unlikely to help us get rid of their privileges, let alone form a sufficient force in time. However, many workers are ready to take up arms against the monarchy."
- ARC_finishing_the_july_constitution:0 "Finishing the July Constitution"
- ARC_finishing_the_july_constitution_desc:0 "The Arcael Empire has stagnated as a result of a mismanaged nobility, and the royal treasury sinking millions into the pockets of un-needed public projects. Now, with calls for democratic reforms as well, the Emperor and Kings have met to finish a new constitution with more liberal ideals."
- ARC_protecting_native_cultural_sites:0 "Protecting Native Cultural Sites"
- ARC_protecting_native_cultural_sites_desc:0 "The natives have grown increasingly restless in Arcael due to years of neglect by the imperial government, we must give them concessions lest they start organizing."
- ARC_organize_monarchist_rallies:0 "Organize Monarchist Rallies"
- ARC_organize_monarchist_rallies_desc:0 "Even with the new constitution having brought serious democratic reforms to the kingdom, the monarchies throughout the empire enjoy ample support from the citizenry. Holding more rallies will bring joy to the people and more support to the Royals."
- ARC_organize_aristocratic_meetings:0 "Organize Aristocratic Meetings"
- ARC_organize_aristocratic_meetings_desc:0 "The aristocracy of the nation must be unified in action to govern these great lands. With pockets of opposition to monarchy brewing in the far reaches of the Empire, the nobility must be ready."
- ARC_plot_against_the_emperor:0 "Plot Against the Emperor"
- ARC_plot_against_the_emperor_desc:0 "Our current emperor has caused too many issues already and won't listen to his advisors nor the people's will. We must start a plot to remove him from power and create a new Arcael where the people truly has a voice."
- ARC_elect_a_liberal_chancellor:0 "Elect a Liberal Chancellor"
- ARC_elect_a_liberal_chancellor_desc:0 "The recent changes made to the constitution were a good step forward, but the people demand more democracy. The extension of the voter base will allow us to elect a new chancellor who shall aid us in gaining popular support."
- ARC_unite_the_opposition:0 "Unite the Opposition"
- ARC_unite_the_opposition_desc:0 "Democratic Monarchists, Republicans and Communists must set their differences aside if we want to overthrow the current ruler. We will propose a truce between the opposition parties to avoid any infighting while we work in the shadows."
- ARC_seek_foreign_support:0 "Seek Foreign Support"
- ARC_seek_foreign_support_desc:0 "Many nations do not see eye to eye with our current leader, and are therefore ready to lend us some of their factories"
- ARC_depose_the_emperor:0 "Depose the Emperor"
- ARC_depose_the_emperor_desc:0 "The time has come to make our move and depose the emperor from his functions. A new era of freedom for Arcael begins now !"
 
 
  # Base-game localisations
