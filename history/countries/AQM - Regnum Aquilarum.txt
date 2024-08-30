@@ -1,4 +1,4 @@
-capital = 198
+capital = 26003
 
 oob = "AQM"
 
