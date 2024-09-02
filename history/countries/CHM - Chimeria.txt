@@ -1,7 +1,7 @@
 ﻿capital = 1
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = absolutist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -10,7 +10,7 @@ set_popularities = {
 	democratic = 3
 	fascism = 10
 	communism = 2
-	neutrality = 85
+	absolutist = 85
 }
 recruit_character = CHM_Thesseion
 
@@ -19,7 +19,7 @@ create_country_leader = {
 	desc = "POLITICS_THESSEION_DESC"
 	picture = "GFX/leaders/CHM/Thesseion.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = absolutist_subtype
 	traits = {
 		#
 	}

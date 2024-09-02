@@ -6,14 +6,14 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = absolutist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	democratic = 12
-	fascism = 70
+	absolutist = 70
 	communism = 5
 	absolutist = 3
 }
@@ -23,7 +23,7 @@ create_country_leader = {
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	#picture = "gfx/leaders/AEZ/Panda.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = absolutist_subtype
 	traits = {
 		#
 	}
