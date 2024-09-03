@@ -181,24 +181,35 @@
  HOD_absolutist_DEF:1 "the Hodege"
  HOD_absolutist_ADJ:0 "Hodegian"
  
+ IRI_absolutist:1 "Kingdom of Irithel"
+ IRI_absolutist_DEF:1 "the Kingdom of Irithel"
+ IRI_absolutist_ADJ:0 "Irithe"
+ 
+ ISH_absolutist:1 "Empire of Ischanor"
+ ISH_absolutist_DEF:1 "the Empire of Ischanor"
+ ISH_absolutist_ADJ:0 "Ischanori"
+ 
+ JAZ_absolutist:1 "Yimra ze Jarazeh"
+ JAZ_absolutist_DEF:1 "the Yimra ze Jarazeh"
+ JAZ_absolutist_ADJ:0 "Jarazeh"
+ 
+ KAD_absolutist:1 "Imperial Crownlands of Kaddu"
+ KAD_absolutist_DEF:1 "the Imperial Crownlands of Kaddu"
+ KAD_absolutist_ADJ:0 "Kaddian"
+ 
+ KHA_absolutist:1 "Karzinite of Khanen"
+ KHA_absolutist_DEF:1 "the Karzinite of Khanen"
+ KHA_absolutist_ADJ:0 "Karzine"
+ 
+ KYR_absolutist:1 "City-State of Kÿrin"
+ KYR_absolutist_DEF:1 "the City-State of Kÿrin"
+ KYR_absolutist_ADJ:0 "Cartographers"
+ 
  
  
  
  
 
- 
- IRI_neutrality:1 "Kingdom of Irithel"
- IRI_neutrality_DEF:1 "the Kingdom of Irithel"
- IRI_neutrality_ADJ:0 "Irithe"
- IRI_fascism:1 "Irithe Reich"
- IRI_fascism_DEF:1 "the Irithe Reich"
- IRI_fascism_ADJ:0 "Irithe"
- IRI_democratic:1 "Irithe Federation"
- IRI_democratic_DEF:1 "the Irithe Federation"
- IRI_democratic_ADJ:0 "Irithe"
- IRI_communism:1 "People's Republic of Irithel"
- IRI_communism_DEF:1 "the People's Republic of Irithel"
- IRI_communism_ADJ:0 "Irithe"
  
  RIT_neutrality:1 "Ritte an Tola"
  RIT_neutrality_DEF:1 "the Ritte an Tola"
@@ -327,19 +338,6 @@
  MYR_DEF:0 "Myrtana"
  MYR_ADJ:0 "Myrtanian"
  
- ISH_neutrality:1 "Empire of Ischanor"
- ISH_neutrality_DEF:1 "the Empire of Ischanor"
- ISH_neutrality_ADJ:0 "Ischanori"
- ISH_fascism:1 "Ischanori Reich"
- ISH_fascism_DEF:1 "the Ischanori Reich"
- ISH_fascism_ADJ:0 "Ischanori"
- ISH_democratic:1 "Ischanor Federation"
- ISH_democratic_DEF:1 "the Ischanor Federation"
- ISH_democratic_ADJ:0 "Ischanori"
- ISH_communism:1 "People's Republic of Ischanor"
- ISH_communism_DEF:1 "the People's Republic of Ischanor"
- ISH_communism_ADJ:0 "Ischanori"
- 
  QYN_neutrality:1 "Qynthos-Centuria"
  QYN_neutrality_DEF:1 "the Qynthos-Centuria"
  QYN_neutrality_ADJ:0 "Qynthi"
@@ -444,32 +442,6 @@
  ORI_communism_DEF:1 "the People's Republic of Orion"
  ORI_communism_ADJ:0 "Orinnian"
  
- JAZ_neutrality:1 "Yimra ze Jarazeh"
- JAZ_neutrality_DEF:1 "the Yimra ze Jarazeh"
- JAZ_neutrality_ADJ:0 "Jarazeh"
- JAZ_fascism:1 "Jarazeh Reich"
- JAZ_fascism_DEF:1 "the Jarazeh Reich"
- JAZ_fascism_ADJ:0 "Jarazeh"
- JAZ_democratic:1 "Jarazeh Federation"
- JAZ_democratic_DEF:1 "the Jarazeh Federation"
- JAZ_democratic_ADJ:0 "Jarazeh"
- JAZ_communism:1 "People's Republic of Jarazeh"
- JAZ_communism_DEF:1 "the People's Republic of Jarazeh"
- JAZ_communism_ADJ:0 "Jarazeh"
- 
- KAD_neutrality:1 "Imperial Crownlands of Kaddu"
- KAD_neutrality_DEF:1 "the Imperial Crownlands of Kaddu"
- KAD_neutrality_ADJ:0 "Kaddian"
- KAD_fascism:1 "Kaddian Reich"
- KAD_fascism_DEF:1 "the Kaddian Reich"
- KAD_fascism_ADJ:0 "Kaddian"
- KAD_democratic:1 "Kaddian Federation"
- KAD_democratic_DEF:1 "the Kaddian Federation"
- KAD_democratic_ADJ:0 "Kaddian"
- KAD_communism:1 "People's Republic of Kaddu"
- KAD_communism_DEF:1 "the People's Republic of Kaddu"
- KAD_communism_ADJ:0 "Kaddian"
- 
  LYN_neutrality:1 "Cynedom of Lynarith"
  LYN_neutrality_DEF:1 "the Cynedom of Lynarith"
  LYN_neutrality_ADJ:0 "Lynarithi"
@@ -534,19 +506,6 @@
  LOV_communism:1 "People's Republic of Lovvia"
  LOV_communism_DEF:1 "the People's Republic of Lovvia"
  LOV_communism_ADJ:0 "Lovvian"
-
- KHA_neutrality:1 "Karzinite of Khanen"
- KHA_neutrality_DEF:1 "the Karzinite of Khanen"
- KHA_neutrality_ADJ:0 "Karzine"
- KHA_fascism:1 "Empire of Khanen"
- KHA_fascism_DEF:1 "the Empire of Khanen"
- KHA_fascism_ADJ:0 "Karzine"
- KHA_democratic:1 "Republic of Khanen"
- KHA_democratic_DEF:1 "the Republic of Khanen"
- KHA_democratic_ADJ:0 "Karzine"
- KHA_communism:1 "People's Republic of Khanen"
- KHA_communism_DEF:1 "the People's Republic of Khanen"
- KHA_communism_ADJ:0 "Karzine"
  
  SEN_neutrality:1 "Kingdom of Seneca"
  SEN_neutrality_DEF:1 "the Kingdom of Seneca"
@@ -677,19 +636,6 @@
  ZIL_communism:1 "Xeroist Republic of Zilatra"
  ZIL_communism_DEF:1 "the Xeroist Republic of Zilatra"
  ZIL_communism_ADJ:0 "Zilatran"
- 
- KYR_neutrality:1 "City-State of Kÿrin"
- KYR_neutrality_DEF:1 "the City-State of Kÿrin"
- KYR_neutrality_ADJ:0 "Cartographers"
- KYR_fascism:1 "Cartographers Reich"
- KYR_fascism_DEF:1 "the Cartographers Reich"
- KYR_fascism_ADJ:0 "Cartographers"
- KYR_democratic:1 "Cartographers Federation"
- KYR_democratic_DEF:1 "the Cartographers Federation"
- KYR_democratic_ADJ:0 "Cartographers"
- KYR_communism:1 "Socialist Republic of Kÿrin"
- KYR_communism_DEF:1 "the Socialist Republic of Kÿrin"
- KYR_communism_ADJ:0 "Cartographers"
  
  UET_neutrality:1 "City State of Uetze"
  UET_neutrality_DEF:1 "the City State of Uetze"
