@@ -165,6 +165,22 @@
  GEH_absolutist_DEF:1 "the Gertek Horde"
  GEH_absolutist_ADJ:0 "Gertekans"
  
+ HAR_absolutist:1 "Empire of Harpia"
+ HAR_absolutist_DEF:1 "the Empire of Harpia"
+ HAR_absolutist_ADJ:0 "Harpian"
+ 
+ HEL_absolutist:1 "Grand Duchy of Helsetia"
+ HEL_absolutist_DEF:1 "the Grand Duchy of Helsetia"
+ HEL_absolutist_ADJ:0 "Helsetian"
+ 
+ HEZ_absolutist:1 "Sacred Land of Hezion"
+ HEZ_absolutist_DEF:1 "the Sacred Land of Hezion"
+ HEZ_absolutist_ADJ:0 "Hezian"
+ 
+ HOD_absolutist:1 "Hodege"
+ HOD_absolutist_DEF:1 "the Hodege"
+ HOD_absolutist_ADJ:0 "Hodegian"
+ 
  
  
  
@@ -209,19 +225,6 @@
  SAR_communism:1 "People's Republic of Sarinzerilin"
  SAR_communism_DEF:1 "the People's Republic of Sarinzerilin"
  SAR_communism_ADJ:0 "Simulamii"
- 
- HEL_neutrality:1 "Grand Duchy of Helsetia"
- HEL_neutrality_DEF:1 "the Grand Duchy of Helsetia"
- HEL_neutrality_ADJ:0 "Helsetian"
- HEL_fascism:1 "Helsetian Reich"
- HEL_fascism_DEF:1 "the Helsetian Reich"
- HEL_fascism_ADJ:0 "Helsetian"
- HEL_democratic:1 "Helsetia Federation"
- HEL_democratic_DEF:1 "the Helsetia Federation"
- HEL_democratic_ADJ:0 "Helsetian"
- HEL_communism:1 "People's Republic of Helsetia"
- HEL_communism_DEF:1 "the People's Republic of Helsetia"
- HEL_communism_ADJ:0 "Helsetian"
  
  TAN_neutrality:1 "Tandong Dynasty"
  TAN_neutrality_DEF:1 "the Tandong Dynasty"
@@ -441,19 +444,6 @@
  ORI_communism_DEF:1 "the People's Republic of Orion"
  ORI_communism_ADJ:0 "Orinnian"
  
- HAR_neutrality:1 "Empire of Harpia"
- HAR_neutrality_DEF:1 "the Empire of Harpia"
- HAR_neutrality_ADJ:0 "Harpian"
- HAR_fascism:1 "Harpian Reich"
- HAR_fascism_DEF:1 "the Harpian Reich"
- HAR_fascism_ADJ:0 "Harpian"
- HAR_democratic:1 "Republic of Harpia"
- HAR_democratic_DEF:1 "the Republic of Harpia"
- HAR_democratic_ADJ:0 "Harpian"
- HAR_communism:1 "People's Republic of Harpia"
- HAR_communism_DEF:1 "the People's Republic of Harpia"
- HAR_communism_ADJ:0 "Harpian"
- 
  JAZ_neutrality:1 "Yimra ze Jarazeh"
  JAZ_neutrality_DEF:1 "the Yimra ze Jarazeh"
  JAZ_neutrality_ADJ:0 "Jarazeh"
@@ -479,19 +469,6 @@
  KAD_communism:1 "People's Republic of Kaddu"
  KAD_communism_DEF:1 "the People's Republic of Kaddu"
  KAD_communism_ADJ:0 "Kaddian"
- 
- HOD_neutrality:1 "Hodege"
- HOD_neutrality_DEF:1 "the Hodege"
- HOD_neutrality_ADJ:0 "Hodegian"
- HOD_fascism:1 "Hodegian Reich"
- HOD_fascism_DEF:1 "the Hodegian Reich"
- HOD_fascism_ADJ:0 "Hodegian"
- HOD_democratic:1 "Hodegian Federation"
- HOD_democratic_DEF:1 "the Hodegian Federation"
- HOD_democratic_ADJ:0 "Hodegian"
- HOD_communism:1 "People's Republic of Hodege"
- HOD_communism_DEF:1 "the People's Republic of Hodege"
- HOD_communism_ADJ:0 "Hodegian"
  
  LYN_neutrality:1 "Cynedom of Lynarith"
  LYN_neutrality_DEF:1 "the Cynedom of Lynarith"
@@ -661,19 +638,6 @@
  ZEH_communism:1 "Socialist Republic of Zehria"
  ZEH_communism_DEF:1 "the Socialist Republic of Zehria"
  ZEH_communism_ADJ:0 "Zehrish"
- 
- HEZ_neutrality:1 "Sacred Land of Hezion"
- HEZ_neutrality_DEF:1 "the Sacred Land of Hezion"
- HEZ_neutrality_ADJ:0 "Hezian"
- HEZ_fascism:1 "Hezian Reich"
- HEZ_fascism_DEF:1 "the Hezian Reich"
- HEZ_fascism_ADJ:0 "Hezian"
- HEZ_democratic:1 "Hezian Federation"
- HEZ_democratic_DEF:1 "the Hezian Federation"
- HEZ_democratic_ADJ:0 "Hezian"
- HEZ_communism:1 "Socialist Republic of Hezion"
- HEZ_communism_DEF:1 "the Socialist Republic of Hezion"
- HEZ_communism_ADJ:0 "Hezian"
  
  VAR_neutrality:1 "Calidwarf-Varaxis"
  VAR_neutrality_DEF:1 "the Calidwarf-Varaxis"

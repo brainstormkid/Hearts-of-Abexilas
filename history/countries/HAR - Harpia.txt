@@ -1,16 +1,13 @@
 ﻿capital = 1131
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = absolutist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 70
-	fascism = 10
-	communism = 10
-	neutrality = 10
+	absolutist = 100
 }
 
 create_country_leader = {
@@ -18,7 +15,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSHUA_DESC"
 	picture = "gfx/leaders/HAR/Joshua.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = absolutist_subtype
 	traits = {
 		#
 	}
