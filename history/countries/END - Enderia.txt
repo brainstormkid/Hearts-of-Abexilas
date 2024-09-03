@@ -1,14 +1,13 @@
 ﻿capital = 672
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = absolutist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 23
-	neutrality = 77	
+	absolutist = 100
 }
 
 recruit_character = END_misfortune_guarden
@@ -17,7 +16,7 @@ create_country_leader = {
 	name = "Ender L. Guarden"
 	desc = "POLITICS_ENDER_DESC"
 	picture = "gfx/leaders/END/Ender.dds"
-	ideology = despotism
+	ideology = absolutist_subtype
 	traits = {
 		#
 	}

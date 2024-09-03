@@ -48,7 +48,7 @@ create_country_leader = {
 	picture = "gfx/leaders/ERC/klymon.dds"
 	ideology = monarchist_subtype
 	traits = {
-		constitutional_monarch_minor
+		#
 	}
 }
 

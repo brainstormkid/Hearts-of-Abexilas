@@ -133,6 +133,26 @@
  DRE_absolutist_DEF:1 "the DreadVought Imperium"
  DRE_absolutist_ADJ:0 "Dreadvoughtian"
  
+ ELD_neutrality:1 "Kingdom of Eldorath"
+ ELD_neutrality_DEF:1 "the Kingdom of Eldorath"
+ ELD_neutrality_ADJ:0 "Eldorathi"
+ 
+ END_neutrality:1 "Kingdom of Enderia"
+ END_neutrality_DEF:1 "the Kingdom of Enderia"
+ END_neutrality_ADJ:0 "Enderian"
+ 
+ ERC_neutrality:1 "Archduchy of Ertcof"
+ ERC_neutrality_DEF:1 "the Archduchy of Ertcof"
+ ERC_neutrality_ADJ:0 "Ertcofi"
+ 
+ ERI_neutrality:1 "Eridonia"
+ ERI_neutrality_DEF:1 "the Eridonia"
+ ERI_neutrality_ADJ:0 "Eridonian"
+ 
+ EXO_neutrality:1 "Holy Oligarchy of Exordium"
+ EXO_neutrality_DEF:1 "the Holy Oligarchy of Exordium"
+ EXO_neutrality_ADJ:0 "Exordian"
+ 
  
  
  
@@ -216,19 +236,6 @@
  LEY_communism:1 "People's Republic of Leyenbourg"
  LEY_communism_DEF:1 "the People's Republic of Leyenbourg"
  LEY_communism_ADJ:0 "Leyenbourgian"
- 
- ERC_neutrality:1 "Archduchy of Ertcof"
- ERC_neutrality_DEF:1 "the Archduchy of Ertcof"
- ERC_neutrality_ADJ:0 "Ertcofi"
- ERC_fascism:1 "State of Ertcof"
- ERC_fascism_DEF:1 "the State of Ertcof"
- ERC_fascism_ADJ:0 "Ertcofi"
- ERC_democratic:1 "Archduchy of Ertcof"
- ERC_democratic_DEF:1 "the Archduchy of Ertcof"
- ERC_democratic_ADJ:0 "Ertcofi"
- ERC_communism:1 "Ertcofi Socialist Republic"
- ERC_communism_DEF:1 "the Ertcofi Socialist Republic"
- ERC_communism_ADJ:0 "Ertcofi"
  
  LUT_neutrality:1 "Herzogtum Lutian"
  LUT_neutrality_DEF:1 "the Herzogtum Lutian"
@@ -396,19 +403,6 @@
  VEA_communism_DEF:1 "the People's Republic of Velarim"
  VEA_communism_ADJ:0 "Velarimen"
  
- ERI_neutrality:1 "Eridonia"
- ERI_neutrality_DEF:1 "the Eridonia"
- ERI_neutrality_ADJ:0 "Eridonian"
- ERI_fascism:1 "Eridonian Reich"
- ERI_fascism_DEF:1 "the Eridonian Reich"
- ERI_fascism_ADJ:0 "Eridonian"
- ERI_democratic:1 "Eridonian Federation"
- ERI_democratic_DEF:1 "the Eridonian Federation"
- ERI_democratic_ADJ:0 "Eridonian"
- ERI_communism:1 "People's Republic of Eridonia"
- ERI_communism_DEF:1 "the People's Republic of Eridonia"
- ERI_communism_ADJ:0 "Eridonian"
- 
  LAV_neutrality:1 "Las Vidas"
  LAV_neutrality_DEF:1 "the Las Vidas"
  LAV_neutrality_ADJ:0 "Vidian"
@@ -434,19 +428,6 @@
  VED_communism:1 "People's Republic of Veldora"
  VED_communism_DEF:1 "the People's Republic of Veldora"
  VED_communism_ADJ:0 "Veldoran"
- 
- END_neutrality:1 "Kingdom of Enderia"
- END_neutrality_DEF:1 "the Kingdom of Enderia"
- END_neutrality_ADJ:0 "Enderian"
- END_fascism:1 "Enderian Reich"
- END_fascism_DEF:1 "the Enderian Reich"
- END_fascism_ADJ:0 "Enderian"
- END_democratic:1 "Enderian Federation"
- END_democratic_DEF:1 "the Enderian Federation"
- END_democratic_ADJ:0 "Enderian"
- END_communism:1 "People's Republic of Enderia"
- END_communism_DEF:1 "the People's Republic of Enderia"
- END_communism_ADJ:0 "Enderian"
  
  ORI_neutrality:1 "Archonate of Orion"
  ORI_neutrality_DEF:1 "the Archonate of Orion"
@@ -721,19 +702,6 @@
  VAR_communism_DEF:1 "the Socialist Republic of Calidwarf"
  VAR_communism_ADJ:0 "Varaxian"
  
- EXO_neutrality:1 "Holy Oligarchy of Exordium"
- EXO_neutrality_DEF:1 "the Holy Oligarchy of Exordium"
- EXO_neutrality_ADJ:0 "Exordian"
- EXO_fascism:1 "Exordian Reich"
- EXO_fascism_DEF:1 "the Exordian Reich"
- EXO_fascism_ADJ:0 "Exordian"
- EXO_democratic:1 "Exordian Federation"
- EXO_democratic_DEF:1 "the Exordian Federation"
- EXO_democratic_ADJ:0 "Exordian"
- EXO_communism:1 "Socialist Republic of Exordium"
- EXO_communism_DEF:1 "the Socialist Republic of Exordium"
- EXO_communism_ADJ:0 "Exordian"
- 
  SET_neutrality:1 "Sentara"
  SET_neutrality_DEF:1 "the Sentara"
  SET_neutrality_ADJ:0 "Sentarian"
@@ -798,19 +766,6 @@
  MIC_communism:1 "Socialist Republic of Michava"
  MIC_communism_DEF:1 "the Socialist Republic of Michava"
  MIC_communism_ADJ:0 "Michavian"
- 
- ELD_neutrality:1 "Kingdom of Eldorath"
- ELD_neutrality_DEF:1 "the Kingdom of Eldorath"
- ELD_neutrality_ADJ:0 "Eldorathi"
- ELD_fascism:1 "Eldorathi Reich"
- ELD_fascism_DEF:1 "the Eldorathi Reich"
- ELD_fascism_ADJ:0 "Eldorathi"
- ELD_democratic:1 "Eldorathi Federation"
- ELD_democratic_DEF:1 "the Eldorathi Federation"
- ELD_democratic_ADJ:0 "Eldorathi"
- ELD_communism:1 "Socialist Republic of Eldorath"
- ELD_communism_DEF:1 "the Socialist Republic of Eldorath"
- ELD_communism_ADJ:0 "Eldorathi"
  
  TIR_neutrality:1 "Sailing Republic of Tirgus"
  TIR_neutrality_DEF:1 "the Sailing Republic of Tirgus"
