@@ -9,10 +9,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 5
-	communism = 30
-	absolutist = 60
+	absolutist = 100
 }
 
 create_country_leader = {

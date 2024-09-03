@@ -22,7 +22,7 @@ set_popularities = {
 	accelerationist = 0
 	
 	anarchist = 0
-	xeroist = 5
+	xeroist = 10
 	theocratic_socialist = 0
 	revisionist = 0
 	
@@ -34,11 +34,6 @@ set_popularities = {
 	
 	imperialist = 5
 	radical_nationalist = 0
-	
-	democratic = 0
-	fascism = 0
-	communism = 5
-	neutrality = 0
 }
 
 recruit_character = ARC_karl

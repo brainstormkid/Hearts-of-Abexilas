@@ -7,10 +7,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 3
-	fascism = 10
-	communism = 2
-	absolutist = 85
+	absolutist = 100
 }
 recruit_character = CHM_Thesseion
 
