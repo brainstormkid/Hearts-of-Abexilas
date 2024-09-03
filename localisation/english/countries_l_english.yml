@@ -77,6 +77,10 @@
  ASR_absolutist_DEF:1 "the Sanctuary of Asren"
  ASR_absolutist_ADJ:0 "Asrennu"
  
+ BAN_absolutist:1 "Kingdom of Bannover"
+ BAN_absolutist_DEF:1 "the Kingdom of Bannover"
+ BAN_absolutist_ADJ:0 "Bannoverian"
+ 
  BEE_absolutist:1 "Empire of Beepeck"
  BEE_absolutist_DEF:1 "the Empire of Beepeck"
  BEE_absolutist_ADJ:0 "Beean"

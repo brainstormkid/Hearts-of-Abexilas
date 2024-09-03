@@ -5,19 +5,15 @@ state={
 		14134 14135 14161 14177 14202 
 	}
 	buildings_max_level_factor=1.000
-        manpower=832000
-        state_category = town
+        manpower=2050000
+        state_category = city
 	history={
 		owner = MYR
 		buildings = {
-                    infrastructure = 3
-                    industrial_complex = 1
-                    arms_factory = 1
-                    land_fort = {
-			14177 = 3
-			14135 = 3
-			14134 = 3
-		    }
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = MYR
 	}

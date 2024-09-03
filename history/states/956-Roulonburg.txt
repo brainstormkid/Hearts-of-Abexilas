@@ -5,17 +5,17 @@ state={
 		910 975 1102 2011 2019 3867 6051 13654 13673 13690 13726 13735 13774 13775 13806 13813 13843 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1800000
-        state_category = town
+        manpower=2250000
+        state_category = metropolis
 	history={
 		owner = MYR
 		buildings = {
-                    infrastructure = 4
-                    industrial_complex = 2
-                    arms_factory = 2
-                    synthetic_refinery = 1
-                    naval_base = {
-			 13690 = 2
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			13690 = {
+				naval_base = 2
 		    }
 		}
 		add_core_of = MYR

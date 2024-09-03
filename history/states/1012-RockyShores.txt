@@ -5,20 +5,12 @@ state={
 		1173 3767 14147 14241 
 	}
 	buildings_max_level_factor=1.000
-        manpower=600231
-        state_category = town
+        manpower=550000
+        state_category = pastoral
 	history={
 		owner = MYR
 		buildings = {
-                    infrastructure = 3
-                    arms_factory = 2
-                    industrial_complex = 2
-                    land_fort = {
-			14241 = 2
-			1173 = 2
-			14147 = 2
-                        3767 = 2
-		    }
+			infrastructure = 1
 		}
 		add_core_of = MYR
 	}
