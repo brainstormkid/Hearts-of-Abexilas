@@ -1,4 +1,4 @@
-version="abexilas"
+version="1"
 tags={
 	"Alternative History"
 	"Events"
