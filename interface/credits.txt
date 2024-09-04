@@ -4,6 +4,7 @@
 
 An 98 player Development Team
 
+----------------
 
 #Head Developers
 
@@ -11,6 +12,8 @@ The ones who led it all
 
 brainstormkid
 fuchsify
+
+----------------
 
 #Developers
 
@@ -29,8 +32,11 @@ presidentkimjohnson
 quasar
 sidecans
 swpretzel
+therealschnurr	
 toleoneq
 yogi2796
+
+----------------
 
 #Based Helpers (Pre-Beta)
 
@@ -69,6 +75,8 @@ trojjan
 viperrdm
 zh_edd
 
+----------------
+
 #GFX Artists
 
 The ones who turned blocks into life
@@ -77,11 +85,15 @@ devilsadvocate
 lehiboublanc
 swag321
 
+----------------
+
 #Beta Testers
 
 The ones who yelled about exploits
 
 TBA
+
+----------------
 
 #Special Thanks To
 
@@ -92,6 +104,8 @@ Stoneworks
 Stoneworks Cartography Guild
 Stoneworks Hoi Guild
 
+----------------
+
 #Creators:
 
 The ones who crafted an idea
@@ -99,6 +113,8 @@ The ones who crafted an idea
 brainstormkid
 fuchsify
 
+
+----------------
 #
 ...and finally thanks to you, the player!
 #
