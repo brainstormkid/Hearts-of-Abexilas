@@ -8,23 +8,20 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = absolutist
 	last_election = "1936.1.1"
 	election_frequency = 56
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 55
-	fascism = 5
-	communism = 10
-	neutrality = 30
+	absolutist = 100
 }
 
 create_country_leader = {
 	name = "Liora Rune"
 	desc = "POLITICS_liora_DESC"
 	picture = "gfx/leaders/VEL/liora.dds"
-	ideology = liberalism
+	ideology = absolutist_subtype
 	traits = {
 		#
 	}

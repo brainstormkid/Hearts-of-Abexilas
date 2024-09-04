@@ -1,16 +1,13 @@
 ﻿capital = 2
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = absolutist
 	last_election = "1936.1.1"
 	election_frequency = 56
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
-	fascism = 10
-	communism = 10
-	neutrality = 70
+	absolutist = 100
 }
 
 create_country_leader = {
@@ -18,7 +15,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/UET/Artiom.dds"
     expire = "1965.1.1"
-	ideology = despotism
+	ideology = absolutist_subtype
 	traits = {
 		#
 	}
