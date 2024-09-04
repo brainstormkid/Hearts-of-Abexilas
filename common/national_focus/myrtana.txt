@@ -1,5 +1,5 @@
 focus_tree = {
-	id = myrtana-pcw-focus-tree
+	id = myrtana-focus-tree
 	continuous_focus_position = { x = -40 y = 1050 } 
 	country = {
 		factor = 0

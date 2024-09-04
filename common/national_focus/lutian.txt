@@ -1,0 +1,881 @@
+focus_tree = {
+	id = lutian-focus-tree
+	continuous_focus_position = { x = -40 y = 1570 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = LUT
+		}
+	}
+	#Expulsion of the natives
+	focus = {
+		id = lut_expulsion_of_the_natives
+		icon = GFX_goal_unknown
+		x = 5
+		y = 1
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_FRA_OCCUPATION_COST
+		}
+		prerequisite = { focus = lut_administative_integration_of_the_wildonian_lands  }
+		mutually_exclusive = { focus = lut_grant_the_colonial_status  }
+	}
+
+	#Grant the colonial status
+	focus = {
+		id = lut_grant_the_colonial_status
+		icon = GFX_goal_unknown
+		x = 7
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_FRA_OCCUPATION_COST
+		}
+		prerequisite = { focus = lut_administative_integration_of_the_wildonian_lands  }
+		mutually_exclusive = { focus = lut_expulsion_of_the_natives  }
+	}
+
+	#Administative Integration of the Wildonian Lands
+	focus = {
+		id = lut_administative_integration_of_the_wildonian_lands
+		icon = GFX_lut_administative_integration_of_the_wildonian_lands-716993
+		x = 6
+		y = 0
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Connect the infastructure
+	focus = {
+		id = lut_connect_the_infastructure
+		icon = GFX_goal_unknown
+		x = 5
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = lut_expulsion_of_the_natives  }
+	}
+
+	#Exploit colonial resources
+	focus = {
+		id = lut_exploit_colonial_resources
+		icon = GFX_goal_unknown
+		x = 7
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = lut_grant_the_colonial_status  }
+	}
+
+	#Finally free
+	focus = {
+		id = lut_finally_free
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = lut_exploit_colonial_resources  focus = lut_connect_the_infastructure  }
+	}
+
+	#The liberation of our lands
+	focus = {
+		id = lut_the_liberation_of_our_lands
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = lut_connect_the_infastructure  focus = lut_exploit_colonial_resources  }
+	}
+
+	#The desire for freemod (national spirit)
+	focus = {
+		id = lut_thedesireforfreemodnationalspirit
+		icon = GFX_goal_unknown
+		x = 2
+		y = 4
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = lut_the_liberation_of_our_lands  }
+	}
+
+	#A plead for help
+	focus = {
+		id = lut_a_plead_for_help
+		icon = GFX_goal_unknown
+		x = 2
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = lut_thedesireforfreemodnationalspirit  }
+	}
+
+	#We shall rise (bonus to the national spirit)
+	focus = {
+		id = lut_weshallrisebonustothenationalspirit
+		icon = GFX_goal_unknown
+		x = 0
+		y = 5
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = lut_thedesireforfreemodnationalspirit  }
+	}
+
+	#We are finnaly free
+	focus = {
+		id = lut_we_are_finnaly_free
+		icon = GFX_goal_unknown
+		x = 0
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = lut_weshallrisebonustothenationalspirit  }
+	}
+
+	#The Duke's Regime
+	focus = {
+		id = lut_thedukesregime
+		icon = GFX_goal_unknown
+		x = 8
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = lut_finally_free  focus = lut_the_liberation_of_our_lands  }
+		mutually_exclusive = { focus = lut_democratic_way_of_thinking  } mutually_exclusive = { focus = lut_fascism_is_the_only_right_way  } mutually_exclusive = { focus = lut_communism_shall_rise  }
+	}
+
+	#Strengthen the nation
+	focus = {
+		id = lut_strengthen_the_nation
+		icon = GFX_goal_unknown
+		x = 8
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = lut_thedukesregime  }
+		mutually_exclusive = { focus = lut_offer_a_merge_to_testificas  } mutually_exclusive = { focus = lut_offer_a_merge_to_polonizia  }
+	}
+
+	#Offer a merge to Testificas
+	focus = {
+		id = lut_offer_a_merge_to_testificas
+		icon = GFX_goal_unknown
+		x = 6
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = lut_thedukesregime  }
+		mutually_exclusive = { focus = lut_strengthen_the_nation  } mutually_exclusive = { focus = lut_offer_a_merge_to_polonizia  }
+	}
+
+	#Offer a merge to Polonizia
+	focus = {
+		id = lut_offer_a_merge_to_polonizia
+		icon = GFX_goal_unknown
+		x = 4
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = lut_thedukesregime  }
+	}
+
+	#We shall strengthen our relations with other nations
+	focus = {
+		id = lut_we_shall_strengthen_our_relations_with_other_nations
+		icon = GFX_goal_unknown
+		x = 6
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = lut_strengthen_the_nation  focus = lut_offer_a_merge_to_polonizia  focus = lut_offer_a_merge_to_testificas  }
+	}
+
+	#North-east island
+	focus = {
+		id = lut_northeast_island
+		icon = GFX_goal_unknown
+		x = 4
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = lut_offer_a_merge_to_polonizia  focus = lut_offer_a_merge_to_testificas  focus = lut_strengthen_the_nation  }
+	}
+
+	#The Sahariyan mountains are ours!
+	focus = {
+		id = lut_thesahariyanmountainsareours
+		icon = GFX_goal_unknown
+		x = 8
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = lut_strengthen_the_nation  focus = lut_offer_a_merge_to_testificas  focus = lut_offer_a_merge_to_polonizia  }
+	}
+
+	#Demand The Sahriyan mountains
+	focus = {
+		id = lut_demand_the_sahriyan_mountains
+		icon = GFX_lut_demand_the_sahriyan_mountains-717078
+		x = 8
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = lut_thesahariyanmountainsareours  }
+	}
+
+	#Democratic way of thinking
+	focus = {
+		id = lut_democratic_way_of_thinking
+		icon = GFX_goal_unknown
+		x = 10
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = lut_finally_free  focus = lut_the_liberation_of_our_lands  }
+		mutually_exclusive = { focus = lut_thedukesregime  } mutually_exclusive = { focus = lut_fascism_is_the_only_right_way  } mutually_exclusive = { focus = lut_communism_shall_rise  }
+	}
+
+	#People should decide our faith
+	focus = {
+		id = lut_people_should_decide_our_faith
+		icon = GFX_goal_unknown
+		x = 10
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = lut_democratic_way_of_thinking  }
+	}
+
+	#Election for Duke
+	focus = {
+		id = lut_election_for_duke
+		icon = GFX_goal_unknown
+		x = 10
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = lut_people_should_decide_our_faith  }
+	}
+
+	#Lutian and Ertcof
+	focus = {
+		id = lut_lutian_and_ertcof
+		icon = GFX_goal_unknown
+		x = 11
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = lut_election_for_duke  }
+		mutually_exclusive = { focus = lut_lutian_and_hodege  }
+	}
+
+	#Northen lands
+	focus = {
+		id = lut_northen_lands
+		icon = GFX_lut_northen_lands-717075
+		x = 11
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = lut_lutian_and_ertcof  }
+	}
+
+	#Lutian and Hodege
+	focus = {
+		id = lut_lutian_and_hodege
+		icon = GFX_goal_unknown
+		x = 13
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = lut_election_for_duke  }
+		mutually_exclusive = { focus = lut_lutian_and_ertcof  }
+	}
+
+	#Fascism is the only right way
+	focus = {
+		id = lut_fascism_is_the_only_right_way
+		icon = GFX_goal_unknown
+		x = 15
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = lut_finally_free  focus = lut_the_liberation_of_our_lands  }
+	}
+
+	#A Führer is what we need
+	focus = {
+		id = lut_afuhreriswhatweneed
+		icon = GFX_goal_unknown
+		x = 15
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = lut_finally_free  focus = lut_the_liberation_of_our_lands  }
+	}
+
+	#Expand Recruitment (national spirit)
+	focus = {
+		id = lut_expandrecruitmentnationalspirit
+		icon = GFX_goal_unknown
+		x = 15
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = lut_afuhreriswhatweneed  }
+	}
+
+	#Alliance with Hodege
+	focus = {
+		id = lut_alliance_with_hodege
+		icon = GFX_goal_unknown
+		x = 16
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = lut_expandrecruitmentnationalspirit  }
+		mutually_exclusive = { focus = lut_demand_eastern_hodege  } mutually_exclusive = { focus = lut_demand_to_surrender  }
+	}
+
+	#Demand Eastern Hodege
+	focus = {
+		id = lut_demand_eastern_hodege
+		icon = GFX_goal_unknown
+		x = 18
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = lut_expandrecruitmentnationalspirit  }
+		mutually_exclusive = { focus = lut_alliance_with_hodege  } mutually_exclusive = { focus = lut_demand_to_surrender  }
+	}
+
+	#Demand to surrender
+	focus = {
+		id = lut_demand_to_surrender
+		icon = GFX_goal_unknown
+		x = 20
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = lut_expandrecruitmentnationalspirit  }
+		mutually_exclusive = { focus = lut_alliance_with_hodege  } mutually_exclusive = { focus = lut_demand_eastern_hodege  }
+	}
+
+	#Demand Northen Ertcof
+	focus = {
+		id = lut_demand_northen_ertcof
+		icon = GFX_goal_unknown
+		x = 22
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = lut_expandrecruitmentnationalspirit  }
+		mutually_exclusive = { focus = lut_demandertcofslands  } mutually_exclusive = { focus = lut_alliance_with_ertcof  }
+	}
+
+	#Demand Ertcof's lands
+	focus = {
+		id = lut_demandertcofslands
+		icon = GFX_goal_unknown
+		x = 24
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = lut_expandrecruitmentnationalspirit  }
+		mutually_exclusive = { focus = lut_demand_northen_ertcof  } mutually_exclusive = { focus = lut_alliance_with_ertcof  }
+	}
+
+	#Alliance with Ertcof
+	focus = {
+		id = lut_alliance_with_ertcof
+		icon = GFX_goal_unknown
+		x = 26
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = lut_expandrecruitmentnationalspirit  }
+		mutually_exclusive = { focus = lut_demand_northen_ertcof  } mutually_exclusive = { focus = lut_demandertcofslands  }
+	}
+
+	#Communism shall rise
+	focus = {
+		id = lut_communism_shall_rise
+		icon = GFX_goal_unknown
+		x = 28
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = lut_finally_free  focus = lut_the_liberation_of_our_lands  }
+		mutually_exclusive = { focus = lut_thedukesregime  } mutually_exclusive = { focus = lut_democratic_way_of_thinking  } mutually_exclusive = { focus = lut_fascism_is_the_only_right_way  }
+	}
+
+	#Republik of Lutian
+	focus = {
+		id = lut_republik_of_lutian
+		icon = GFX_goal_unknown
+		x = 28
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = lut_communism_shall_rise  }
+	}
+
+	#Central Planning
+	focus = {
+		id = lut_central_planning
+		icon = GFX_goal_unknown
+		x = 28
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = lut_republik_of_lutian  }
+	}
+
+	#Nationalization
+	focus = {
+		id = lut_nationalization
+		icon = GFX_goal_unknown
+		x = 30
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = lut_republik_of_lutian  }
+	}
+
+	#Spread the communism
+	focus = {
+		id = lut_spread_the_communism
+		icon = GFX_goal_unknown
+		x = 28
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = lut_central_planning  }
+	}
+
+	#Unite the Communist
+	focus = {
+		id = lut_unite_the_communist
+		icon = GFX_goal_unknown
+		x = 29
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = lut_spread_the_communism  }
+		mutually_exclusive = { focus = lut_strongertogether  }
+	}
+
+	#Stronger together!
+	focus = {
+		id = lut_strongertogether
+		icon = GFX_goal_unknown
+		x = 31
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = lut_spread_the_communism  }
+		mutually_exclusive = { focus = lut_unite_the_communist  }
+	}
+
+	#Prussia of the Cathramis (national spirit)
+	focus = {
+		id = lut_prussiaofthecathramisnationalspirit
+		icon = GFX_goal_unknown
+		x = 19
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = lut_alliance_with_ertcof  focus = lut_demandertcofslands  focus = lut_demand_northen_ertcof  focus = lut_demand_to_surrender  focus = lut_demand_eastern_hodege  focus = lut_alliance_with_hodege  }
+	}
+
+	#Prussia of the Cathramis (national spirit)
+	focus = {
+		id = lut_prussiaofthecathramisnationalspirit
+		icon = GFX_goal_unknown
+		x = 30
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = lut_strongertogether  focus = lut_unite_the_communist  }
+	}
+
+	#Prussia of the Cathramis (national spirit)
+	focus = {
+		id = lut_prussiaofthecathramisnationalspirit
+		icon = GFX_goal_unknown
+		x = 10
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = lut_we_shall_strengthen_our_relations_with_other_nations  focus = lut_election_for_duke  }
+	}
+
+	#Building up the economy
+	focus = {
+		id = lut_building_up_the_economy
+		icon = GFX_goal_unknown
+		x = 36
+		y = 0
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+	#Weapons Production Initiative
+	focus = {
+		id = lut_weapons_production_initiative
+		icon = GFX_goal_unknown
+		x = 35
+		y = 1
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = lut_building_up_the_economy  }
+	}
+
+	#Factories of Tomorrow
+	focus = {
+		id = lut_factories_of_tomorrow
+		icon = GFX_goal_unknown
+		x = 37
+		y = 1
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = lut_building_up_the_economy  }
+	}
+
+	#Economic growth (national spirit)
+	focus = {
+		id = lut_economicgrowthnationalspirit
+		icon = GFX_goal_unknown
+		x = 36
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = lut_weapons_production_initiative  } prerequisite = { focus = lut_factories_of_tomorrow  }
+	}
+
+	#Arsenal of Victory
+	focus = {
+		id = lut_arsenal_of_victory
+		icon = GFX_goal_unknown
+		x = 36
+		y = 3
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = lut_economicgrowthnationalspirit  }
+	}
+
+	#Martigpg Factory Expansion
+	focus = {
+		id = lut_martigpg_factory_expansion
+		icon = GFX_goal_unknown
+		x = 34
+		y = 3
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = lut_economicgrowthnationalspirit  }
+	}
+
+	#Steel plant in Instanburg
+	focus = {
+		id = lut_steel_plant_in_instanburg
+		icon = GFX_goal_unknown
+		x = 32
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = lut_martigpg_factory_expansion  }
+	}
+
+	#Robin's hard work
+	focus = {
+		id = lut_robinshardwork
+		icon = GFX_goal_unknown
+		x = 34
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = lut_martigpg_factory_expansion  }
+	}
+
+	#Urbanized Industrial Zone
+	focus = {
+		id = lut_urbanized_industrial_zone
+		icon = GFX_goal_unknown
+		x = 36
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = lut_arsenal_of_victory  }
+	}
+
+	#Technological advancement
+	focus = {
+		id = lut_technological_advancement
+		icon = GFX_goal_unknown
+		x = 35
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = lut_robinshardwork  } prerequisite = { focus = lut_urbanized_industrial_zone  }
+	}
+
+	#Winston's Investment (national spirit)
+	focus = {
+		id = lut_winstonsinvestmentnationalspirit
+		icon = GFX_goal_unknown
+		x = 34
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = lut_robinshardwork  }
+	}
+
+	#Factories of Tomorrow 2
+	focus = {
+		id = lut_factories_of_tomorrow_2
+		icon = GFX_goal_unknown
+		x = 36
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = lut_urbanized_industrial_zone  }
+	}
+
+	#Strengthen the army
+	focus = {
+		id = lut_strengthen_the_army
+		icon = GFX_goal_unknown
+		x = 46
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+	}
+
+	#Reorganize the Military Industry
+	focus = {
+		id = lut_reorganize_the_military_industry
+		icon = GFX_goal_unknown
+		x = 46
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = lut_strengthen_the_army  }
+	}
+
+	#Rebuild the Army
+	focus = {
+		id = lut_rebuild_the_army
+		icon = GFX_goal_unknown
+		x = 46
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = lut_reorganize_the_military_industry  }
+	}
+
+	#Lutian Bombers
+	focus = {
+		id = lut_lutian_bombers
+		icon = GFX_goal_unknown
+		x = 44
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = lut_reorganize_the_military_industry  }
+	}
+
+	#Lutian Aircrafts
+	focus = {
+		id = lut_lutian_aircrafts
+		icon = GFX_goal_unknown
+		x = 42
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = lut_reorganize_the_military_industry  }
+	}
+
+	#War Logistics
+	focus = {
+		id = lut_war_logistics
+		icon = GFX_goal_unknown
+		x = 48
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = lut_reorganize_the_military_industry  }
+	}
+
+	#Defensive Lines
+	focus = {
+		id = lut_defensive_lines
+		icon = GFX_goal_unknown
+		x = 48
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = lut_war_logistics  }
+	}
+
+	#Lutian Fleet
+	focus = {
+		id = lut_lutian_fleet
+		icon = GFX_goal_unknown
+		x = 42
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = lut_reorganize_the_military_industry  }
+	}
+
+	#Improve Coastal Defenses
+	focus = {
+		id = lut_improve_coastal_defenses
+		icon = GFX_goal_unknown
+		x = 41
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = lut_lutian_fleet  }
+	}
+
+	#Improve Shipping Development
+	focus = {
+		id = lut_improve_shipping_development
+		icon = GFX_goal_unknown
+		x = 43
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = lut_lutian_fleet  }
+	}
+
+}

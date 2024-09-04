@@ -6277,5 +6277,122 @@ spriteTypes = {	##Icon For:
 		}
 		legacy_lazy_load = no
 	}
+}
+
+# Lutian
+
+spriteTypes = {	##Icon For: 
+	SpriteType = { 
+		name = "GFX_lut_administative_integration_of_the_wildonian_lands-716993"
+		texturefile = "gfx/interface/goals/GFX_lut_administative_integration_of_the_wildonian_lands-716993.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_lut_administative_integration_of_the_wildonian_lands-716993_shine"
+		texturefile = "gfx/interface/goals/GFX_lut_administative_integration_of_the_wildonian_lands-716993.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_lut_administative_integration_of_the_wildonian_lands-716993.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_lut_administative_integration_of_the_wildonian_lands-716993.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_lut_demand_the_sahriyan_mountains-717078"
+		texturefile = "gfx/interface/goals/GFX_lut_demand_the_sahriyan_mountains-717078.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_lut_demand_the_sahriyan_mountains-717078_shine"
+		texturefile = "gfx/interface/goals/GFX_lut_demand_the_sahriyan_mountains-717078.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_lut_demand_the_sahriyan_mountains-717078.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_lut_demand_the_sahriyan_mountains-717078.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_lut_northen_lands-717075"
+		texturefile = "gfx/interface/goals/GFX_lut_northen_lands-717075.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_lut_northen_lands-717075_shine"
+		texturefile = "gfx/interface/goals/GFX_lut_northen_lands-717075.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_lut_northen_lands-717075.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_lut_northen_lands-717075.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
 
 }
