@@ -9,7 +9,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	absolutist = 100
+	absolutist = 15
+	monarchist = 30
+	
+	anarchist = 0
+	xeroist = 0
+	
+	libertarianist = 15
+	progressivist = 20
+	
+	imperialist = 20
+	radical_nationalist = 0
 }
 
 create_country_leader = {
