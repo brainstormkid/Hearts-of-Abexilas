@@ -5,12 +5,12 @@ state={
 		463 535 938 2458 2635 2925 4969 5360 5761 6170 6665 7088 7089 7103 7121 7151 7167 7168 7176 7212 7213 7246 7254 7273 7291 7292 7298 7299 7350 
 	}
 	resources = {
-	    oil = 2
-	    aluminium = 2
-	    steel = 3
-	    rubber = 2
-	    tungsten = 1
-	    chromium = 2
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
 	}
 	buildings_max_level_factor=1.000
         manpower=950000
