@@ -275,13 +275,13 @@
  LYN_absolutist_DEF:1 "the Cynedom of Lynarith"
  LYN_absolutist_ADJ:0 "Lynarithi"
  
- MAR_neutrality:1 "Duchy of Marisvalor"
- MAR_neutrality_DEF:1 "the Duchy of Marisvalor"
- MAR_neutrality_ADJ:0 "Marisvaloran"
+ MAR_absolutist:1 "Duchy of Marisvalor"
+ MAR_absolutist_DEF:1 "the Duchy of Marisvalor"
+ MAR_absolutist_ADJ:0 "Marisvaloran"
  
- MIC_neutrality:1 "Kingdom of Michava"
- MIC_neutrality_DEF:1 "the Kingdom of Michava"
- MIC_neutrality_ADJ:0 "Michavian"
+ MIC_absolutist:1 "Kingdom of Michava"
+ MIC_absolutist_DEF:1 "the Kingdom of Michava"
+ MIC_absolutist_ADJ:0 "Michavian"
  
  MYR_monarchist:0 "Kingdom of Myrtana"
  MYR_monarchist_DEF:0 "the Kingdom of Myrtana"
@@ -319,6 +319,22 @@
  MYR_fascism_autonomy_reichskommissariat_DEF:0 "the Myrtanian National State"
  MYR_DEF:0 "Myrtana"
  MYR_ADJ:0 "Myrtanian"
+ 
+ ORI_absolutist:1 "Archonate of Orion"
+ ORI_absolutist_DEF:1 "the Archonate of Orion"
+ ORI_absolutist_ADJ:0 "Orinnian"
+ 
+ OSR_absolutist:1 "Kingdom of Osriguard"
+ OSR_absolutist_DEF:1 "the Kingdom of Osriguard"
+ OSR_absolutist_ADJ:0 "Osriguardan"
+ 
+ PAR_absolutist:1 "Paraíso"
+ PAR_absolutist_DEF:1 "the Paraíso"
+ PAR_absolutist_ADJ:0 "Paraísan"
+ 
+ POL_absolutist:1 "Duchy of Polonizia"
+ POL_absolutist_DEF:1 "the Duchy of Polonizia"
+ POL_absolutist_ADJ:0 "Polonizi"
  
  
  
@@ -364,19 +380,6 @@
  TAN_communism:1 "People's Republic of Tandong"
  TAN_communism_DEF:1 "the People's Republic of Tandong"
  TAN_communism_ADJ:0 "Jiaozese"
-
- POL_neutrality:1 "Duchy of Polonizia"
- POL_neutrality_DEF:1 "the Duchy of Polonizia"
- POL_neutrality_ADJ:0 "Polonizi"
- POL_fascism:1 "Totalitarne Państwo Polonizi"
- POL_fascism_DEF:1 "the Totalitarne Państwo Polonizi"
- POL_fascism_ADJ:0 "Polonizi"
- POL_democratic:1 "Republic of Polonizia"
- POL_democratic_DEF:1 "the Republic of Polonizia"
- POL_democratic_ADJ:0 "Polonizi"
- POL_communism:1 "Socialist Republic of Polonizia"
- POL_communism_DEF:1 "the Socialist Republic of Polonizia"
- POL_communism_ADJ:0 "Polonizi"
  
  QYN_neutrality:1 "Qynthos-Centuria"
  QYN_neutrality_DEF:1 "the Qynthos-Centuria"
@@ -417,19 +420,6 @@
  ZAM_communism_DEF:1 "the People's Republic of Zamotz"
  ZAM_communism_ADJ:0 "Zamotzian"
  
- PAR_neutrality:1 "Paraíso"
- PAR_neutrality_DEF:1 "the Paraíso"
- PAR_neutrality_ADJ:0 "Paraísan"
- PAR_fascism:1 "Paraísan Reich"
- PAR_fascism_DEF:1 "the Paraísan Reich"
- PAR_fascism_ADJ:0 "Paraísan"
- PAR_democratic:1 "Paraísan Federation"
- PAR_democratic_DEF:1 "the Paraísan Federation"
- PAR_democratic_ADJ:0 "Paraísan"
- PAR_communism:1 "People's Republic of Paraíso"
- PAR_communism_DEF:1 "the People's Republic of Paraíso"
- PAR_communism_ADJ:0 "Paraísan"
- 
  VEA_neutrality:1 "City-Republic of Velarim"
  VEA_neutrality_DEF:1 "the City-Republic of Velarim"
  VEA_neutrality_ADJ:0 "Velarimen"
@@ -455,19 +445,6 @@
  VED_communism:1 "People's Republic of Veldora"
  VED_communism_DEF:1 "the People's Republic of Veldora"
  VED_communism_ADJ:0 "Veldoran"
- 
- ORI_neutrality:1 "Archonate of Orion"
- ORI_neutrality_DEF:1 "the Archonate of Orion"
- ORI_neutrality_ADJ:0 "Orinnian"
- ORI_fascism:1 "Orinnian Reich"
- ORI_fascism_DEF:1 "the Orinnian Reich"
- ORI_fascism_ADJ:0 "Orinnian"
- ORI_democratic:1 "Orinnian Federation"
- ORI_democratic_DEF:1 "the Orinnian Federation"
- ORI_democratic_ADJ:0 "Orinnian"
- ORI_communism:1 "People's Republic of Orion"
- ORI_communism_DEF:1 "the People's Republic of Orion"
- ORI_communism_ADJ:0 "Orinnian"
 
  TSI_neutrality:1 "Duchy of Tsiladen"
  TSI_neutrality_DEF:1 "the Duchy of Tsiladen"
@@ -507,19 +484,6 @@
  SEN_communism:1 "People's Republic of Seneca"
  SEN_communism_DEF:1 "the People's Republic of Seneca"
  SEN_communism_ADJ:0 "Senecanese"
- 
- OSR_neutrality:1 "Kingdom of Osriguard"
- OSR_neutrality_DEF:1 "the Kingdom of Osriguard"
- OSR_neutrality_ADJ:0 "Osriguardan"
- OSR_fascism:1 "Osriguardan Reich"
- OSR_fascism_DEF:1 "the Osriguardan Reich"
- OSR_fascism_ADJ:0 "Osriguardan"
- OSR_democratic:1 "Osriguardan Federation"
- OSR_democratic_DEF:1 "the Osriguardan Federation"
- OSR_democratic_ADJ:0 "Osriguardan"
- OSR_communism:1 "People's Republic of Osriguard"
- OSR_communism_DEF:1 "the People's Republic of Osriguard"
- OSR_communism_ADJ:0 "Osriguardan"
  
  VEC_neutrality:1 "Grand Duchy of Vedanica"
  VEC_neutrality_DEF:1 "the Grand Duchy of Vedanica"
