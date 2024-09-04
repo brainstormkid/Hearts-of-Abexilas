@@ -70,3 +70,8 @@ set_autonomy = {
 	target = VES
 	autonomous_state = autonomy_integrated_puppet
 }
+
+set_autonomy = {
+	target = CEL
+	autonomous_state = autonomy_integrated_puppet
+}

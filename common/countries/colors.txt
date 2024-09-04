@@ -333,3 +333,8 @@ AQM = {
 	color = rgb { 100 100 241 }
 	color_ui = rgb { 100 100 241 }
 }
+
+CEL = {
+	color = rgb { 124 204 158 }
+	color_ui = rgb { 124 204 158 }
+}

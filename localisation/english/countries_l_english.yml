@@ -97,6 +97,10 @@
  CAS_absolutist_DEF:1 "the Grand Regency of Castanor"
  CAS_absolutist_ADJ:0 "Castanoran"
  
+ CEL_absolutist:1 "Argovor Celrea"
+ CEL_absolutist_DEF:1 "the Argovor Celrea"
+ CEL_absolutist_ADJ:0 "Celrean"
+ 
  CES_absolutist:1 "Cesa Rindaun"
  CES_absolutist_DEF:1 "the Cesa Rindaun"
  CES_absolutist_ADJ:0 "Rindaunga"
