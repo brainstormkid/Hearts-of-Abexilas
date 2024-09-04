@@ -15,6 +15,14 @@ focus_tree = {
 		x = 5
 		y = 1
 		cost = 7
+		completion_reward = {
+			509 = {
+				add_manpower = -85000
+			}
+			526 = {
+				add_manpower = -45000
+			}
+		}
 		search_filters = {
 			FOCUS_FILTER_FRA_OCCUPATION_COST
 		}
@@ -29,6 +37,9 @@ focus_tree = {
 		x = 7
 		y = 1
 		cost = 5
+		completion_reward = {
+			
+		}
 		search_filters = {
 			FOCUS_FILTER_FRA_OCCUPATION_COST
 		}
@@ -42,7 +53,10 @@ focus_tree = {
 		icon = GFX_lut_administative_integration_of_the_wildonian_lands-716993
 		x = 6
 		y = 0
-		cost = 7
+		cost = 7.15
+		completion_reward = {
+			add_political_power = 150
+		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
