@@ -235,23 +235,6 @@ debug_decisions = {
 				popup = no
 			}
 
-			if = {
-				limit = {
-					tag = ITA
-				}
-				complete_national_focus = ITA_italian_tankettes
-				complete_national_focus = ITA_self_propelled_guns
-				complete_national_focus = ITA_end_fiat_ansaldo_duopoly
-				complete_national_focus = ITA_ferrea_mole_ferreo_cuore
-			}
-			else_if = {
-				limit = {
-					tag = SOV
-				}
-				complete_national_focus = SOV_superior_war_machines
-				complete_national_focus = SOV_soviet_artillery
-				complete_national_focus = SOV_they_will_know_fear
-			}
 		}
 	}
 
