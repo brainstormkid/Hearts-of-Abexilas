@@ -623,6 +623,8 @@
  ERC_prepare_a_new_government_desc:0 "Our current government is incapable of supporting its duties, there needs to be change or we will fall rapidly under internal divides and external pressures."
 
  #Lutian
+ lut_our_freedom:0 "Grateful for Freedom"
+ lut_our_freedom_desc:0 "After a months as a vassal under Covania, our nation of Lutian has finally achieved its long-sought independence following Covania's defeat."
  lut_cactus_farming:0 "Cactus Farming"
  lut_cactus_farming_desc:0 "Cactus Farming"
  lut_expulsion_of_the_natives:0 "Expulsion of the natives"
@@ -635,8 +637,8 @@
  lut_connect_the_infastructure_desc:0 "Connect the infastructure"
  lut_exploit_colonial_resources:0 "Exploit colonial resources"
  lut_exploit_colonial_resources_desc:0 "Exploit colonial resources"
- lut_finally_free:0 "Finally free"
- lut_finally_free_desc:0 "Finally free"
+ lut_finally_free:0 "The Decision"
+ lut_finally_free_desc:0 ""
  lut_the_liberation_of_our_lands:0 "The liberation of our lands"
  lut_the_liberation_of_our_lands_desc:0 "The liberation of our lands"
  lut_thedesireforfreemodnationalspirit:0 "The desire for freemod (national spirit)"
