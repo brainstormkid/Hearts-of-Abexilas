@@ -1,0 +1,6 @@
+#Akashiro
+
+graphical_culture = asian_gfx
+graphical_culture_2d = asian_2d
+
+color = { 226 145 206 }

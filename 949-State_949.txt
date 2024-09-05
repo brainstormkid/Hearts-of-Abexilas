@@ -1,0 +1,43 @@
+state={
+	id=949
+	name="STATE_949"
+	manpower=110000
+	
+	state_category = rural
+	resources={
+		oil=2
+		steel=3 #was 42 was: 112
+		aluminium=2 # was: 22
+		rubber=1
+		tungsten=1
+		chromium=2
+	}
+
+	history={
+		owner = AKS
+		add_core_of = AKS
+		victory_points = {
+			934 2
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			fuel_silo = 1
+			575 = {
+				naval_base = 0
+			}
+		}
+		add_core_of = AKS
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+			}
+		}
+	}
+
+	provinces={
+		374 934 956 2463 2542 4755 6463 13637 13695 13742 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=5.0 
+}

@@ -1,0 +1,43 @@
+state={
+	id=846
+	name="STATE_846"
+	manpower=600000
+	
+	state_category = large_town
+	resources={
+		oil=2
+		steel=3 #was 42 was: 112
+		aluminium=2 # was: 22
+		rubber=1
+		tungsten=1
+		chromium=2
+	}
+
+	history={
+		owner = AKS
+		add_core_of = AKS
+		victory_points = {
+			12970 5
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 0
+			575 = {
+				naval_base = 0
+			}
+		}
+		add_core_of = AKS
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+			}
+		}
+	}
+
+	provinces={
+		12934 12935 12954 12970 12975 12989 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=5.0 
+}
