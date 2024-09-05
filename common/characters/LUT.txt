@@ -1,0 +1,16 @@
+characters={
+	LUT_jostepher={
+		name=LUT_jostepher
+		portraits={
+			civilian={
+				large="GFX_portrait_LUT_test"
+			}
+	    }
+    	country_leader={
+			ideology=monarchist_subtype
+			traits= { constitutional_monarch_minor }
+			desc =  POLITICS_JOSTEPHER_DESC
+			expire="1965.1.1.1"
+	    }
+    }
+}

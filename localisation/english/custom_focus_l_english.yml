@@ -623,6 +623,8 @@
  ERC_prepare_a_new_government_desc:0 "Our current government is incapable of supporting its duties, there needs to be change or we will fall rapidly under internal divides and external pressures."
 
  #Lutian
+ lut_cactus_farming:0 "Cactus Farming"
+ lut_cactus_farming_desc:0 "Cactus Farming"
  lut_expulsion_of_the_natives:0 "Expulsion of the natives"
  lut_expulsion_of_the_natives_desc:0 "As we push forward with our expansionist ambitions, the presence of the native populations in our newly claimed territories has become a significant obstacle. To secure our control and pave the way for our settlers, we must undertake the forced removal of these indigenous communities."
  lut_grant_the_colonial_status:0 "Grant the colonial status"

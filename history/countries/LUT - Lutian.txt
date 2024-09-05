@@ -18,9 +18,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "?"
+	name = "Jostepher"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/AEZ/Panda.dds"
+	picture = "gfx/leaders/LUT/test.dds"
 	ideology = absolutist_subtype
 	traits = {
 		#

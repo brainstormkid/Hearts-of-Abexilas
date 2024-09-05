@@ -85,6 +85,18 @@ bookmarks = {
 			}
 		}
 
+		LUT = {
+			minor = yes
+			history = LUT_DESC
+			ideology = neutrality
+			ideas={
+				Economic_Growth
+			}
+			focuses = {
+				lut_administative_integration_of_the_wildonian_lands
+			}
+		}
+
 		ERC = {
 			minor = yes 	#This is what makes it apear as a minor nation
 			history = ERC_DESC

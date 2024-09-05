@@ -8,6 +8,19 @@ focus_tree = {
 			tag = LUT
 		}
 	}
+	#Cactus Farming
+	focus = {
+		id = lut_cactus_farming
+		icon = GFX_goal_unknown
+		x = 38
+		y = 3
+		cost = 7
+		prerequisite = { focus = lut_economicgrowthnationalspirit}
+		completion_reward = {
+		
+		}
+	}
+	
 	#Expulsion of the natives
 	focus = {
 		id = lut_expulsion_of_the_natives
@@ -614,7 +627,16 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 36
 		y = 0
-		cost = 7
+		cost = 7.2
+		completion_reward = {
+			504 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -626,7 +648,17 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 35
 		y = 1
-		cost = 7
+		cost = 7.2
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -639,7 +671,19 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 37
 		y = 1
-		cost = 7
+		cost = 7.2
+		
+		completion_reward = {		
+			random_owned_state = {
+				add_extra_state_shared_building_slots  = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -649,10 +693,13 @@ focus_tree = {
 	#Economic growth (national spirit)
 	focus = {
 		id = lut_economicgrowthnationalspirit
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 36
 		y = 2
 		cost = 10
+		completion_reward = {
+			add_ideas = Economic_Growth
+		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -665,7 +712,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 36
 		y = 3
-		cost = 7
+		cost = 7.2
+		completion_reward = {
+
+		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -678,7 +728,17 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 34
 		y = 3
-		cost = 7
+		cost = 7.2
+		
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -705,12 +765,13 @@ focus_tree = {
 		x = 34
 		y = 5
 		cost = 10
+		completion_reward = {			
+		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = lut_martigpg_factory_expansion  }
 	}
-
 	#Urbanized Industrial Zone
 	focus = {
 		id = lut_urbanized_industrial_zone
