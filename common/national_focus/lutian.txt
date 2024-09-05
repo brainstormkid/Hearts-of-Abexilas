@@ -162,7 +162,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = lut_finally_free  focus = lut_the_liberation_of_our_lands  }
-		mutually_exclusive = { focus = lut_democratic_way_of_thinking  } mutually_exclusive = { focus = lut_fascism_is_the_only_right_way  } mutually_exclusive = { focus = lut_communism_shall_rise  }
+		mutually_exclusive = { focus = lut_democratic_way_of_thinking  } 
+		mutually_exclusive = { focus = lut_fascism_is_the_only_right_way  } 
+		mutually_exclusive = { focus = lut_communism_shall_rise  }
 	}
 
 	#Strengthen the nation
@@ -176,7 +178,8 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = lut_thedukesregime  }
-		mutually_exclusive = { focus = lut_offer_a_merge_to_testificas  } mutually_exclusive = { focus = lut_offer_a_merge_to_polonizia  }
+		mutually_exclusive = { focus = lut_offer_a_merge_to_testificas  } 
+		mutually_exclusive = { focus = lut_offer_a_merge_to_polonizia  }
 	}
 
 	#Offer a merge to Testificas
@@ -189,7 +192,8 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = lut_thedukesregime  }
-		mutually_exclusive = { focus = lut_strengthen_the_nation  } mutually_exclusive = { focus = lut_offer_a_merge_to_polonizia  }
+		mutually_exclusive = { focus = lut_strengthen_the_nation  } 
+		mutually_exclusive = { focus = lut_offer_a_merge_to_polonizia  }
 	}
 
 	#Offer a merge to Polonizia
@@ -203,6 +207,8 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = lut_thedukesregime  }
+		mutually_exclusive = { focus = lut_offer_a_merge_to_testificas  } 
+		mutually_exclusive = { focus = lut_strengthen_the_nation  }
 	}
 
 	#We shall strengthen our relations with other nations
@@ -268,7 +274,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = lut_finally_free  focus = lut_the_liberation_of_our_lands  }
-		mutually_exclusive = { focus = lut_thedukesregime  } mutually_exclusive = { focus = lut_fascism_is_the_only_right_way  } mutually_exclusive = { focus = lut_communism_shall_rise  }
+		mutually_exclusive = { focus = lut_thedukesregime  } 
+		mutually_exclusive = { focus = lut_fascism_is_the_only_right_way  } 
+		mutually_exclusive = { focus = lut_communism_shall_rise  }
 	}
 
 	#People should decide our faith
@@ -349,6 +357,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = lut_finally_free  focus = lut_the_liberation_of_our_lands  }
+		mutually_exclusive = { focus = lut_thedukesregime  } 
+		mutually_exclusive = { focus = lut_democratic_way_of_thinking  } 
+		mutually_exclusive = { focus = lut_communism_shall_rise  }
 	}
 
 	#A Führer is what we need
@@ -472,7 +483,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = lut_finally_free  focus = lut_the_liberation_of_our_lands  }
-		mutually_exclusive = { focus = lut_thedukesregime  } mutually_exclusive = { focus = lut_democratic_way_of_thinking  } mutually_exclusive = { focus = lut_fascism_is_the_only_right_way  }
+		mutually_exclusive = { focus = lut_thedukesregime  } 
+		mutually_exclusive = { focus = lut_democratic_way_of_thinking  } 
+		mutually_exclusive = { focus = lut_fascism_is_the_only_right_way  }
 	}
 
 	#Republik of Lutian
@@ -560,37 +573,13 @@ focus_tree = {
 		id = lut_prussiaofthecathramisnationalspirit
 		icon = GFX_goal_unknown
 		x = 19
-		y = 9
+		y = 10
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
 		prerequisite = { focus = lut_alliance_with_ertcof  focus = lut_demandertcofslands  focus = lut_demand_northen_ertcof  focus = lut_demand_to_surrender  focus = lut_demand_eastern_hodege  focus = lut_alliance_with_hodege  }
-	}
-
-	#Prussia of the Cathramis (national spirit)
-	focus = {
-		id = lut_prussiaofthecathramisnationalspirit
-		icon = GFX_goal_unknown
-		x = 30
-		y = 9
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_MANPOWER
-		}
 		prerequisite = { focus = lut_strongertogether  focus = lut_unite_the_communist  }
-	}
-
-	#Prussia of the Cathramis (national spirit)
-	focus = {
-		id = lut_prussiaofthecathramisnationalspirit
-		icon = GFX_goal_unknown
-		x = 10
-		y = 9
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_MANPOWER
-		}
 		prerequisite = { focus = lut_we_shall_strengthen_our_relations_with_other_nations  focus = lut_election_for_duke  }
 	}
 
