@@ -1,10 +1,55 @@
+
 state={
 	id=908
 	name="STATE_908"
+	manpower = 4700000
+
+	state_category = megalopolis
+	resources={
+		oil=2
+		steel=3 #was 42 was: 112
+		aluminium=2 # was: 22
+		rubber=1
+		tungsten=1
+		chromium=2
+	}
+
+	history={
+		owner = AKS
+		victory_points = {
+			13569 30
+		}
+		victory_points = {
+			2388 10
+		}
+		victory_points = {
+			2378 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 4
+			anti_air_building = 3
+			supply_node = 1
+			dockyard = 2
+			bunker = 2
+			radar_station = 1
+			air_base = 8
+			575 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = AKS
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+			}
+		}
+	}
+
 	provinces={
 		508 847 974 1022 1928 2378 2388 2995 4287 5108 5364 5640 5830 6509 6704 6790 13335 13351 13404 13422 13504 13509 13518 13532 13569 13595 13618 13675 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	local_supplies=25.0 
 }

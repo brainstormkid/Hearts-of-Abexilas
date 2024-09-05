@@ -8,9 +8,9 @@ state={
         manpower=1
         state_category = town
 	history={
-		owner = CEL
+		owner = ISH
 		buildings = {
 		}
-		add_core_of = CEL
+		add_core_of = ISH
 	}
 }
