@@ -1,0 +1,38 @@
+state={
+	id=961
+	name="STATE_961"
+	manpower=23500
+	
+	state_category = enclave
+	resources={
+		oil=2
+		steel=3 #was 42 was: 112
+		aluminium=2 # was: 22
+		rubber=1
+		tungsten=1
+		chromium=2
+	}
+
+	history={
+		owner = AKS
+		add_core_of = AKS
+		buildings = {
+			infrastructure = 0
+			575 = {
+				naval_base = 0
+			}
+		}
+		add_core_of = AKS
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+			}
+		}
+	}
+
+	provinces={
+		2994 5146 13715 13758 13780 13829 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=5.0 
+}
