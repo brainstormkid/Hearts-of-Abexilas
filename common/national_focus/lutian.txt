@@ -21,174 +21,45 @@ focus_tree = {
 		}
 	}
 	
-	#Expulsion of the natives
+	#Grateful for Freedom
 	focus = {
-		id = lut_expulsion_of_the_natives
+		id = lut_our_freedom
 		icon = GFX_goal_unknown
-		x = 5
+		x = 13
 		y = 1
-		cost = 7
-		completion_reward = {
-			509 = {
-				add_manpower = -85000
-			}
-			526 = {
-				add_manpower = -45000
-			}
-		}
-		search_filters = {
-			FOCUS_FILTER_FRA_OCCUPATION_COST
-		}
-		prerequisite = { focus = lut_administative_integration_of_the_wildonian_lands  }
-		mutually_exclusive = { focus = lut_grant_the_colonial_status  }
-	}
-
-	#Grant the colonial status
-	focus = {
-		id = lut_grant_the_colonial_status
-		icon = GFX_goal_unknown
-		x = 7
-		y = 1
-		cost = 5
-		completion_reward = {
-			
-		}
-		search_filters = {
-			FOCUS_FILTER_FRA_OCCUPATION_COST
-		}
-		prerequisite = { focus = lut_administative_integration_of_the_wildonian_lands  }
-		mutually_exclusive = { focus = lut_expulsion_of_the_natives  }
-	}
-
-	#Administative Integration of the Wildonian Lands
-	focus = {
-		id = lut_administative_integration_of_the_wildonian_lands
-		icon = GFX_lut_administative_integration_of_the_wildonian_lands-716993
-		x = 6
-		y = 0
-		cost = 7.15
+		#removes a national spirit with negative effects
 		completion_reward = {
 			add_political_power = 150
 		}
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
 	}
+	
 
-	#Connect the infastructure
-	focus = {
-		id = lut_connect_the_infastructure
-		icon = GFX_goal_unknown
-		x = 5
-		y = 2
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = lut_expulsion_of_the_natives  }
-	}
-
-	#Exploit colonial resources
-	focus = {
-		id = lut_exploit_colonial_resources
-		icon = GFX_goal_unknown
-		x = 7
-		y = 2
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = lut_grant_the_colonial_status  }
-	}
-
-	#Finally free
+	
+	#The Decision
 	focus = {
 		id = lut_finally_free
 		icon = GFX_goal_unknown
-		x = 6
+		x = 13
 		y = 3
 		cost = 7
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = lut_exploit_colonial_resources  focus = lut_connect_the_infastructure  }
-	}
-
-	#The liberation of our lands
-	focus = {
-		id = lut_the_liberation_of_our_lands
-		icon = GFX_goal_unknown
-		x = 4
-		y = 3
-		cost = 7
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = lut_connect_the_infastructure  focus = lut_exploit_colonial_resources  }
-	}
-
-	#The desire for freemod (national spirit)
-	focus = {
-		id = lut_thedesireforfreemodnationalspirit
-		icon = GFX_goal_unknown
-		x = 2
-		y = 4
-		cost = 4
-		search_filters = {
-			FOCUS_FILTER_WAR_SUPPORT
-		}
-		prerequisite = { focus = lut_the_liberation_of_our_lands  }
-	}
-
-	#A plead for help
-	focus = {
-		id = lut_a_plead_for_help
-		icon = GFX_goal_unknown
-		x = 2
-		y = 5
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = lut_thedesireforfreemodnationalspirit  }
-	}
-
-	#We shall rise (bonus to the national spirit)
-	focus = {
-		id = lut_weshallrisebonustothenationalspirit
-		icon = GFX_goal_unknown
-		x = 0
-		y = 5
-		cost = 7
-		search_filters = {
-			FOCUS_FILTER_WAR_SUPPORT
-		}
-		prerequisite = { focus = lut_thedesireforfreemodnationalspirit  }
-	}
-
-	#We are finnaly free
-	focus = {
-		id = lut_we_are_finnaly_free
-		icon = GFX_goal_unknown
-		x = 0
-		y = 6
-		cost = 2
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = lut_weshallrisebonustothenationalspirit  }
+		prerequisite = { focus = lut_our_freedom }
 	}
 
 	#The Duke's Regime
 	focus = {
 		id = lut_thedukesregime
 		icon = GFX_goal_unknown
-		x = 8
+		x = 4
 		y = 4
 		cost = 10
+
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = lut_finally_free  focus = lut_the_liberation_of_our_lands  }
+		prerequisite = { focus = lut_finally_free }
 		mutually_exclusive = { focus = lut_democratic_way_of_thinking  } 
 		mutually_exclusive = { focus = lut_fascism_is_the_only_right_way  } 
 		mutually_exclusive = { focus = lut_communism_shall_rise  }
@@ -213,7 +84,7 @@ focus_tree = {
 	focus = {
 		id = lut_offer_a_merge_to_testificas
 		icon = GFX_goal_unknown
-		x = 6
+		x = 4
 		y = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -227,7 +98,7 @@ focus_tree = {
 	focus = {
 		id = lut_offer_a_merge_to_polonizia
 		icon = GFX_goal_unknown
-		x = 4
+		x = 0
 		y = 5
 		cost = 10
 		search_filters = {
@@ -242,7 +113,7 @@ focus_tree = {
 	focus = {
 		id = lut_we_shall_strengthen_our_relations_with_other_nations
 		icon = GFX_goal_unknown
-		x = 6
+		x = 4
 		y = 8
 		cost = 10
 		search_filters = {
@@ -255,7 +126,7 @@ focus_tree = {
 	focus = {
 		id = lut_northeast_island
 		icon = GFX_goal_unknown
-		x = 4
+		x = 0
 		y = 6
 		cost = 10
 		search_filters = {
@@ -300,7 +171,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = lut_finally_free  focus = lut_the_liberation_of_our_lands  }
+		prerequisite = { focus = lut_finally_free}
 		mutually_exclusive = { focus = lut_thedukesregime  } 
 		mutually_exclusive = { focus = lut_fascism_is_the_only_right_way  } 
 		mutually_exclusive = { focus = lut_communism_shall_rise  }
@@ -383,7 +254,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = lut_finally_free  focus = lut_the_liberation_of_our_lands  }
+		prerequisite = { focus = lut_finally_free}
 		mutually_exclusive = { focus = lut_thedukesregime  } 
 		mutually_exclusive = { focus = lut_democratic_way_of_thinking  } 
 		mutually_exclusive = { focus = lut_communism_shall_rise  }
@@ -399,7 +270,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = lut_finally_free  focus = lut_the_liberation_of_our_lands  }
+		prerequisite = { focus = lut_finally_free}
 	}
 
 	#Expand Recruitment (national spirit)
@@ -509,7 +380,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = lut_finally_free  focus = lut_the_liberation_of_our_lands  }
+		prerequisite = { focus = lut_finally_free }
 		mutually_exclusive = { focus = lut_thedukesregime  } 
 		mutually_exclusive = { focus = lut_democratic_way_of_thinking  } 
 		mutually_exclusive = { focus = lut_fascism_is_the_only_right_way  }
