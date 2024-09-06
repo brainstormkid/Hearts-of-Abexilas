@@ -1,26 +1,39 @@
 capital = 340
 
 set_politics = {
-	ruling_party = absolutist
-	last_election = "1936.1.1"
+	ruling_party = monarchist
+	last_election = "2.1.1"
 	election_frequency = 24
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	absolutist = 100
+	anarchist = 25
+	progressivist = 5
+	monarchist = 40
+	xeroist = 15
+	radical_nationalist = 15
 }
 
 create_country_leader = {
 	name = "The Peoples Diet"
 	desc = "POLITICS_PEOPLES_COUNCIL_DESC"
-	picture = "GFX/leaders/SEN/Seneca_leader.dds"
+	picture = "GFX/leaders/SEN/People_council.dds"
 	expire = "1965.1.1"
-	ideology = absolutist_subtype
+	ideology = anarchist_subtype
 	traits = {
 		Tenacious_Negotiator
 		Stout_Defender
 	}
 }
-
-set_stability = 30
-set_war_support = 90
+create_country_leader = {
+	name = "The Diarchy"
+	desc = "POLITICS_THE_DIARCHY"
+	picture = "GFX/leaders/SEN/Diarchy.dds"
+	expire = "1965.1.1"
+	ideology = monarchist_subtype
+	traits = {
+		Stout_Defender
+	}
+}
+set_stability = 0.45
+set_war_support = 0.90

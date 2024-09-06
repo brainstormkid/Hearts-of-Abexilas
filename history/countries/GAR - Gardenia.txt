@@ -14,14 +14,15 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = absolutist
+	ruling_party = centrist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 100
+	centrist = 95
+	Theocratist = 5
 }
 
 create_country_leader ={
@@ -29,7 +30,7 @@ create_country_leader ={
 	desc = "POLITICS_KAEVA_DESC"
 	picture = "gfx/leaders/GAR/kayeda.dds"
 	expire = "1965.1.1.1"
-	ideology = marxism
+	ideology = theocratist_subtype
 	traits = {
 		#
 	}
@@ -40,7 +41,7 @@ create_country_leader = {
 	desc = "POLITICS_VEN_DESC"
 	picture = "gfx/leaders/GAR/VEN.dds"
 	expire = "1965.1.1"
-	ideology = absolutist_subtype
+	ideology = centrist_subtype
 	traits = {
 		#
 	}
