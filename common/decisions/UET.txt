@@ -1,0 +1,124 @@
+#Category only allowed for UET
+UET_Goldenes_raids = {
+
+	UET_resupplyes_of_the_goldene_raids = {
+
+		icon = ger_mefo_bills
+   
+		visible = {
+			has_completed_focus = UET_anti_goldene_demonstrations
+		}
+		
+		available = {
+		    always  = no
+		}
+
+		#cost = GER_mefo_bill_counter?10
+
+		days_mission_timeout = 70
+		fire_only_once = no
+		
+		cancel_trigger = {
+			
+		}
+
+		remove_effect = {
+		 
+		}
+
+		complete_effect = {
+		
+		}
+
+		timeout_effect = {
+			swap_ideas = {
+				remove_idea = goldeneRaids
+				add_idea = StrongGoldeneRaids
+			}
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+	UET_fight_the_goldene_raids = {
+
+        icon = ger_mefo_bills
+		
+		
+
+		available = {
+		   
+		}
+		
+		visible = {
+			has_completed_focus = UET_anti_goldene_demonstrations
+		}
+		
+		days_remove = 20
+
+        custom_cost_trigger = {
+			has_equipment = { infantry_equipment > 999 }
+		}
+		custom_cost_text = decision_cost_ie_1000
+		
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -999
+			}
+			
+		}
+		timeout_effect = {
+			
+		}
+		remove_effect = {
+			remove_idea = goldeneRaids
+			remove_idea = StrongGoldeneRaids
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	
+	
+	}
+	UET_goldene_wants_answers = {
+
+		icon = ger_mefo_bills
+        
+		allowed = { always = no }
+		
+		available = {
+			has_idea = StrongGoldeneRaids
+		}
+
+		#cost = GER_mefo_bill_counter?10
+
+		days_mission_timeout = 70
+		fire_only_once = no
+
+		cancel_trigger = {
+			
+		}
+
+		remove_effect = {
+		}
+
+		complete_effect = {
+		}
+
+		timeout_effect = {
+			swap_ideas = {
+				remove_idea = goldeneRaids
+				add_idea = StrongGoldeneRaids
+			}
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+	
+}
+

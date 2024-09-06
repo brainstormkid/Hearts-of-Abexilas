@@ -11,4 +11,16 @@ bookmarks = {
 		"---"={
 			history = "OTHER_DESC"
 		}
+      UET = {
+		    minor = yes
+		    history = UET_DESC
+			ideology = neutrality
+			
+			ideas={
+			}
+			
+			focuses = {
+			}
+		}
+      }
 }

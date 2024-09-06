@@ -1,0 +1,1098 @@
+focus_tree = {
+	id = 1
+	continuous_focus_position = { x = 5090 y = 2220 } 
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UET
+		}
+	}
+	
+	
+	#bonis hinzufügen
+	focus = {
+		id = UET_bonishinzufugen
+		icon = GFX_goal_unknown
+		x = 28
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = UET_prepare_for_the_next_war  }
+	}
+
+	#Prepare for the next war
+	focus = {
+		id = UET_prepare_for_the_next_war
+		icon = GFX_goal_unknown
+		x = 27
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = UET_welt_politik  }
+	}
+
+	#Dockyard effort
+	focus = {
+		id = UET_dockyard_effort
+		icon = GFX_goal_unknown
+		x = 29
+		y = 7
+		cost = 5
+		
+		completion_reward ={
+		   	random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				
+			}
+		}
+		
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		
+		prerequisite = { focus = UET_creation_of_the_marine  }
+	}
+
+	#Welt politik
+	focus = {
+		id = UET_welt_politik
+		icon = GFX_goal_unknown
+		x = 27
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_ignore_goldenes_intsructions} prerequisite = { focus = UET_dockyard_effort  }
+	}
+
+	#Organise the left movement
+	focus = {
+		id = UET_organise_the_left_movement
+		icon = GFX_goal_unknown
+		x = 36
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_plot_against_artiom  }
+	}
+
+	#United under the golden banner
+	focus = {
+		id = UET_united_under_the_golden_banner
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = UET_glory_to_uetze  }
+	}
+
+	#Glory to Uetze
+	focus = {
+		id = UET_glory_to_uetze
+		icon = GFX_goal_unknown
+		x = 26
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+	    available = {
+			NOT = {
+			    is_puppet = yes
+			    is_subject = yes
+			}
+		}
+		
+		completion_reward = {
+			add_political_power = 120
+		}
+		
+		mutually_exclusive = { }
+	}
+
+	#Plot against artiom
+	focus = {
+		id = UET_plot_against_artiom
+		icon = GFX_goal_unknown
+		x = 42
+		y = 2
+		cost = 5
+		
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+		prerequisite = { focus = UET_glory_to_uetze  }
+	}
+
+	#Creation of the marine
+	focus = {
+		id = UET_creation_of_the_marine
+		icon = GFX_goal_unknown
+		x = 29
+		y = 4
+		cost = 5
+		
+		completion_reward ={
+		   	random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				navy_experience = 30
+			}
+		}
+		
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+
+	#Reintroduce free elections
+	focus = {
+		id = UET_reintroduce_free_elections
+		icon = GFX_goal_unknown
+		x = 13
+		y = 7
+		cost = 10
+		bypass = {
+		    autonomy_state = autonomy_free
+		}
+		
+		completion_reward ={
+		    set_politics = {
+			ruling_party = Democratic
+			elections_allowed = yes
+			last_election = "1936.7.1"
+			election_frequency = 48
+			}
+		
+		   	OVERLORD = { set_autonomy = { target = ROOT autonomy_state = autonomy_free } }
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_anti_goldene_demonstrations  }
+		
+		mutually_exclusive = { focus = UET_heil_dir_im_siegeskranz}
+	}
+
+	#Ignore Goldenes intsructions
+	focus = {
+		id = UET_ignore_goldenes_intsructions
+		icon = GFX_goal_unknown
+		x = 25
+		y = 5
+		cost = 10
+		completion_reward ={
+		   add_war_support = 0.1
+		   add_ideas = goldeneRaids
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_hold_a_military_parade  }
+	}
+
+	#Hold a military parade
+	focus = {
+		id = UET_hold_a_military_parade
+		icon = GFX_goal_unknown
+		x = 25
+		y = 3
+		cost = 5
+		completion_reward = {
+			army_experience = 10
+			add_war_support = 0.05
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_ensure_public_suport  }
+	}
+
+	#Anti Goldene demonstrations
+	focus = {
+		id = UET_anti_goldene_demonstrations
+		icon = GFX_goal_unknown
+		x = 13
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward ={
+		    add_popularity = {
+			ideology = Democratic
+			popularity = 0.1
+			}
+			add_stability = 0.1
+		}
+		prerequisite = { focus = UET_strenghten_the_stadtrat  }
+		
+		mutually_exclusive = { focus = UET_ignore_goldenes_intsructions }
+	}
+
+	#Strenghten the stadtrat
+	focus = {
+		id = UET_strenghten_the_stadtrat
+		icon = GFX_goal_unknown
+		x = 13
+		y = 3
+		cost = 5
+		completion_reward ={
+		    add_popularity = {
+			ideology = Democratic
+			popularity = 0.1
+			}
+			add_political_power = 50
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_ensure_public_suport  }
+		
+	}
+
+	#University of arts and goats
+	focus = {
+		id = UET_university_of_arts_and_goats
+		icon = GFX_goal_unknown
+		x = 18
+		y = 4
+		cost = 10
+		completion_reward ={
+		  add_research_slot = 1
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = UET_strengthen_national_industry  }
+	}
+
+	#Organise the national movement
+	focus = {
+		id = UET_organise_the_national_movement
+		icon = GFX_goal_unknown
+		x = 48
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_plot_against_artiom  }
+		mutually_exclusive = { focus = UET_organise_the_left_movement  }
+	}
+
+	#Ensure public suport
+	focus = {
+		id = UET_ensure_public_suport
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 19
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_stability = 0.1
+		}
+		prerequisite = { focus = UET_glory_to_uetze  }
+		mutually_exclusive = { focus = UET_plot_against_artiom  }
+	}
+
+	#Strengthen national industry
+	focus = {
+		id = UET_strengthen_national_industry
+		icon = GFX_goal_unknown
+		x = 19
+		y = 3
+		cost = 10
+		completion_reward = {
+				random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = UET_ensure_public_suport  }
+	}
+
+	#Invest in the steel industry
+	focus = {
+		id = UET_invest_in_the_steel_industry
+		icon = GFX_goal_unknown
+		x = 20
+		y = 4
+		cost = 10
+		completion_reward = {
+		   345 ={
+			add_resource = { 
+			    type = steel
+			    amount = 18
+			}
+		   }
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = UET_strengthen_national_industry  }
+	}
+
+	#Peacekeeper of the contienent
+	focus = {
+		id = UET_peacekeeper_of_the_contienent
+		icon = GFX_goal_unknown
+		x = 20
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_Unite_with_corvi  }
+	}
+
+	#Invite Valera
+	focus = {
+		id = UET_invite_valera
+		icon = GFX_goal_unknown
+		x = 21
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_peacekeeper_of_the_contienent  }
+	}
+
+	#Invite Mizlarei
+	focus = {
+		id = UET_invite_mizlarei
+		icon = GFX_goal_unknown
+		x = 19
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_peacekeeper_of_the_contienent  }
+	}
+
+	#Set sail on Caerus
+	focus = {
+		id = UET_set_sail_on_caerus
+		icon = GFX_goal_unknown
+		x = 27
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = UET_strike_north  }
+	}
+
+	#Strike north
+	focus = {
+		id = UET_strike_north
+		icon = GFX_goal_unknown
+		x = 26
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = UET_prepare_for_the_next_war  }
+	}
+
+	#Secure the dunchelean sea
+	focus = {
+		id = UET_secure_the_dunchelean_sea
+		icon = GFX_goal_unknown
+		x = 25
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = UET_strike_north  }
+	}
+
+	#The crownjuwel of the empire
+	focus = {
+		id = UET_the_crownjuwel_of_the_empire
+		icon = GFX_goal_unknown
+		x = 26
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = UET_secure_the_dunchelean_sea  } prerequisite = { focus = UET_set_sail_on_caerus  }
+	}
+
+	#Uetze wins on all fronts
+	focus = {
+		id = UET_uetze_wins_on_all_fronts
+		icon = GFX_goal_unknown
+		x = 26
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_the_crownjuwel_of_the_empire  }
+	}
+
+	#Vom Uetzer Wesen soll die Welt genesen
+	focus = {
+		id = UET_vom_uetzer_wesen_soll_die_welt_genesen
+		icon = GFX_goal_unknown
+		x = 22
+		y = 8
+		cost = 5
+		
+		completion_reward = {
+		    
+		}
+		
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_ignore_goldenes_intsructions}
+		mutually_exclusive = { focus = UET_welt_politik  }
+	}
+
+	#The royal guard
+	focus = {
+		id = UET_the_royal_guard
+		icon = GFX_goal_unknown
+		x = 22
+		y = 9
+		cost = 5
+		
+		completion_reward = {
+		    division_template = {
+				name = "RoyalGuard"
+				priority = 2
+				template_counter = 60
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+					infantry = { x = 3 y = 0 }
+					infantry = { x = 3 y = 1 }
+					infantry = { x = 3 y = 2 }
+					
+				}				
+			}
+		    random_owned_controlled_state = {
+					limit = {
+						is_capital = yes 
+					}
+					create_unit = {
+						division = "name = \"RoyalGuard\" division_template = \"RoyalGuard\" start_experience_factor = 0.1 start_equipment_factor = 1 start_manpower_factor = 1"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"RoyalGuard\" division_template = \"RoyalGuard\" start_experience_factor = 0.1 start_equipment_factor = 1 start_manpower_factor = 1"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"RoyalGuard\" division_template = \"RoyalGuard\" start_experience_factor = 0.1 start_equipment_factor = 1 start_manpower_factor = 1"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"RoyalGuard\" division_template = \"RoyalGuard\" start_experience_factor = 0.1 start_equipment_factor = 1 start_manpower_factor = 1"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"RoyalGuard\" division_template = \"RoyalGuard\" start_experience_factor = 0.1 start_equipment_factor = 1 start_manpower_factor = 1"
+						owner = ROOT
+					}
+			}
+		}
+		
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_vom_uetzer_wesen_soll_die_welt_genesen  }
+	}
+
+	#Ask for Stahlberg
+	focus = {
+		id = UET_Unite_with_corvi
+		icon = GFX_goal_unknown
+		x = 22
+		y = 10
+		cost = 10
+		
+		completion_reward = {
+		
+		
+		
+		}
+		
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_the_royal_guard  }
+	}
+
+	#Gurantee Azerean
+	focus = {
+		id = UET_gurantee_azerean
+		icon = GFX_goal_unknown
+		x = 20
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_invite_mizlarei  focus = UET_invite_valera  }
+	}
+
+	#Faith of valera
+	focus = {
+		id = UET_faith_of_valera
+		icon = GFX_goal_unknown
+		x = 23
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = UET_irirstroyan_dominance  }
+	}
+
+	#Irirstroyan dominance
+	focus = {
+		id = UET_irirstroyan_dominance
+		icon = GFX_goal_unknown
+		x = 23
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = UET_Unite_with_corvi  }
+		mutually_exclusive = { focus = UET_peacekeeper_of_the_contienent  }
+	}
+
+	#Azeran or war
+	focus = {
+		id = UET_azeran_or_war
+		icon = GFX_goal_unknown
+		x = 23
+		y = 14
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = UET_prepare_the_march_on_kavrovaria  } prerequisite = { focus = UET_give_refuge_to_azeran_rebels  }
+	}
+
+	#Prepare the march on Kavrovaria
+	focus = {
+		id = UET_prepare_the_march_on_kavrovaria
+		icon = GFX_goal_unknown
+		x = 22
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = UET_faith_of_valera  }
+	}
+
+	#Give refuge to Azeran rebels
+	focus = {
+		id = UET_give_refuge_to_azeran_rebels
+		icon = GFX_goal_unknown
+		x = 24
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = UET_faith_of_valera  }
+	}
+
+	#Bulwark against imperialism
+	focus = {
+		id = UET_bulwark_against_imperialism
+		icon = GFX_goal_unknown
+		x = 13
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_reintroduce_free_elections  }
+	}
+
+	#Build an extra cacti cluster
+	focus = {
+		id = UET_build_an_extra_cacti_cluster
+		icon = GFX_goal_unknown
+		x = 61
+		y = 0
+		cost = 10
+		completion_reward = {
+		   	random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+	#Invite Valera
+	focus = {
+		id = UET_invite_valera2
+		icon = GFX_goal_unknown
+		x = 12
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = UET_anti_imperialist_pact  }
+	}
+
+	#Exploit the natural resources
+	focus = {
+		id = UET_exploit_the_natural_resources
+		icon = GFX_goal_unknown
+		x = 60
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = UET_build_the_hauptbahnhof  }
+	}
+
+	#New roads and paths
+	focus = {
+		id = UET_new_roads_and_paths
+		icon = GFX_goal_unknown
+		x = 62
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = UET_build_the_hauptbahnhof  }
+	}
+
+	#Build the Hauptbahnhof
+	focus = {
+		id = UET_build_the_hauptbahnhof
+		icon = GFX_goal_unknown
+		x = 61
+		y = 1
+		cost = 10
+		
+		completion_reward = {
+		   	random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+		
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = UET_build_an_extra_cacti_cluster  }
+	}
+
+	#Expand the blacksmithing industry
+	focus = {
+		id = UET_expand_the_blacksmithing_industry
+		icon = GFX_goal_unknown
+		x = 64
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = UET_new_roads_and_paths  }
+	}
+
+	#Steel from Stahlberg
+	focus = {
+		id = UET_steel_from_stahlberg
+		icon = GFX_goal_unknown
+		x = 60
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = UET_exploit_the_natural_resources  }
+	}
+
+	#Attract mineral scientists
+	focus = {
+		id = UET_attract_mineral_scientists
+		icon = GFX_goal_unknown
+		x = 59
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = UET_go_deeper  }
+	}
+
+	#Build a centere for industrial research
+	focus = {
+		id = UET_build_a_centere_for_industrial_research
+		icon = GFX_goal_unknown
+		x = 63
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = UET_restorate_valborg  }
+	}
+
+	#GO DEEPER
+	focus = {
+		id = UET_go_deeper
+		icon = GFX_goal_unknown
+		x = 59
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = UET_start_synthesizing_ruber_and_oil  } prerequisite = { focus = UET_steel_from_stahlberg  }
+	}
+
+	#Start synthesizing ruber and oil
+	focus = {
+		id = UET_start_synthesizing_ruber_and_oil
+		icon = GFX_goal_unknown
+		x = 58
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = UET_exploit_the_natural_resources  }
+	}
+
+	#Anti imperialist pact
+	focus = {
+		id = UET_anti_imperialist_pact
+		icon = GFX_goal_unknown
+		x = 13
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = UET_bulwark_against_imperialism  }
+	}
+
+	#Size up the central market
+	focus = {
+		id = UET_size_up_the_central_market
+		icon = GFX_goal_unknown
+		x = 62
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = UET_new_roads_and_paths  }
+	}
+
+	#Restorate valborg
+	focus = {
+		id = UET_restorate_valborg
+		icon = GFX_goal_unknown
+		x = 63
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = UET_size_up_the_central_market  } prerequisite = { focus = UET_expand_the_blacksmithing_industry  }
+	}
+
+	#Encourage immigration
+	focus = {
+		id = UET_encourage_immigration
+		icon = GFX_goal_unknown
+		x = 61
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = UET_size_up_the_central_market  } prerequisite = { focus = UET_steel_from_stahlberg  }
+	}
+
+	#Invite Mizlarei
+	focus = {
+		id = UET_invite_mizlarei2
+		icon = GFX_goal_unknown
+		x = 10
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_anti_imperialist_pact  }
+	}
+
+	#Invite Amiris
+	focus = {
+		id = UET_invite_amiris
+		icon = GFX_goal_unknown
+		x = 16
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_anti_imperialist_pact  }
+	}
+
+	#Invite Azeraan
+	focus = {
+		id = UET_invite_azeraan
+		icon = GFX_goal_unknown
+		x = 14
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_anti_imperialist_pact  }
+	}
+
+	#Expand south
+	focus = {
+		id = UET_expand_south
+		icon = GFX_goal_unknown
+		x = 13
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_invite_amiris  } prerequisite = { focus = UET_invite_valera2  } prerequisite = { focus = UET_invite_azeraan  } prerequisite = { focus = UET_invite_mizlarei2 }
+	}
+
+	#Invite Yarexoka
+	focus = {
+		id = UET_invite_yarexoka
+		icon = GFX_goal_unknown
+		x = 12
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_expand_south  }
+	}
+
+	#Invite Dzitian
+	focus = {
+		id = UET_invite_dzitian
+		icon = GFX_goal_unknown
+		x = 14
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_expand_south  }
+	}
+
+	#Invite Kiche
+	focus = {
+		id = UET_invite_kiche
+		icon = GFX_goal_unknown
+		x = 10
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_expand_south  }
+	}
+
+	#Invite Alamera
+	focus = {
+		id = UET_invite_alamera
+		icon = GFX_goal_unknown
+		x = 16
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_expand_south  }
+	}
+
+	#Reach out to Aderfy
+	focus = {
+		id = UET_reach_out_to_aderfy
+		icon = GFX_goal_unknown
+		x = 38
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_organise_the_left_movement  }
+	}
+
+	#Invite Alamera
+	focus = {
+		id = UET_invite_alamera
+		icon = GFX_goal_unknown
+		x = 48
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Boost the faction experience
+	focus = {
+		id = UET_boost_the_faction_experience
+		icon = GFX_goal_unknown
+		x = 12
+		y = 14
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_formalize_the_treaty  }
+	}
+
+	#Expand aliance heavy industry
+	focus = {
+		id = UET_expand_aliance_heavy_industry
+		icon = GFX_goal_unknown
+		x = 14
+		y = 14
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_formalize_the_treaty  }
+	}
+
+	#Formalize the treaty
+	focus = {
+		id = UET_formalize_the_treaty
+		icon = GFX_goal_unknown
+		x = 13
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_invite_kiche  } prerequisite = { focus = UET_invite_yarexoka  } prerequisite = { focus = UET_invite_dzitian  } prerequisite = { focus = UET_invite_alamera  }
+	}
+
+	#Strike at the source
+	focus = {
+		id = UET_strike_at_the_source
+		icon = GFX_goal_unknown
+		x = 13
+		y = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_boost_the_faction_experience  } prerequisite = { focus = UET_expand_aliance_heavy_industry  }
+	}
+
+	#Invite Communist advisors
+	focus = {
+		id = UET_invite_communist_advisors
+		icon = GFX_goal_unknown
+		x = 34
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_organise_the_left_movement  }
+	}
+
+	#Organise worker strikes
+	focus = {
+		id = UET_organise_worker_strikes
+		icon = GFX_goal_unknown
+		x = 36
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = UET_anti_fascist_propaganda  }
+	}
+
+	#Anti fascist propaganda
+	focus = {
+		id = UET_anti_fascist_propaganda
+		icon = GFX_goal_unknown
+		x = 36
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_organise_the_left_movement  }
+	}
+
+	#Let the workers cook
+	focus = {
+		id = UET_let_the_workers_cook
+		icon = GFX_goal_unknown
+		x = 36
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UET_organise_worker_strikes  }
+	}
+
+}

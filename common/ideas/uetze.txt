@@ -1,0 +1,47 @@
+ideas = {
+	country = {
+	   goldeneRaids = {
+	     	allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+			}
+	   
+	    }
+		StrongGoldeneRaids = {
+	     	allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.2
+				production_speed_arms_factory_factor = -0.25
+				production_speed_dockyard_factor = -0.25
+				production_speed_industrial_complex_factor = -0.25
+			}
+	   
+	    }
+	}
+}
