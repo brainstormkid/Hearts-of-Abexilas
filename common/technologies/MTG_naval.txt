@@ -41,7 +41,7 @@ technologies = {
 
 		research_cost = 1.5
 
-		start_year = 1922
+		start_year = -12
 
 		folder = {
 			name = mtgnavalfolder
@@ -50,11 +50,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 4
-				tag = ENG
-			}
 		}
 
 		categories = {
@@ -80,23 +75,9 @@ technologies = {
 
 		research_cost = 1.5
 
-		start_year = 1936
+		start_year = 2
 
 		folder = {
-			name = mtgnavalfolder
-			position = { x = 0 y = 8 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 4
-				OR = {
-					tag = ENG
-					tag = JAP
-				}
-			}
 			modifier = {
 				has_war = yes
 				factor = 2
@@ -127,7 +108,7 @@ technologies = {
 
 		research_cost = 1.5
 
-		start_year = 1940
+		start_year = 6
 
 		folder = {
 			name = mtgnavalfolder
@@ -136,15 +117,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 4
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
-			}
 		}
 
 		categories = {
@@ -166,7 +138,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1944
+		start_year = 10
 
 		folder = {
 			name = mtgnavalfolder
@@ -175,15 +147,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 4
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
-			}
 		}
 
 		categories = {
@@ -200,7 +163,7 @@ technologies = {
 
 		research_cost = 0.75
 
-		start_year = 1922
+		start_year = -12
 
 		folder = {
 			name = mtgnavalfolder
@@ -213,11 +176,6 @@ technologies = {
 			modifier = {
 				has_navy_size = { size < 10 }
 				factor = 0.1
-			}
-
-			modifier = {
-				factor = 4
-				tag = ENG
 			}
 		}
 
@@ -257,7 +215,7 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 1.5
 
-		start_year = 1922
+		start_year = -12
 
 		folder = {
 			name = mtgnavalfolder
@@ -266,11 +224,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 4
-
-			modifier = {
-				factor = 2
-				has_war_with = GER
-			}
 			modifier = {
 				factor = 2
 				anti_submarine_strategy_required_trigger = yes
@@ -304,7 +257,7 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 1.5
 
-		start_year = 1936
+		start_year = 2
 
 		folder = {
 			name = mtgnavalfolder
@@ -313,11 +266,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 4
-
-			modifier = {
-				factor = 2
-				has_war_with = GER
-			}
 			modifier = {
 				factor = 2
 				anti_submarine_strategy_required_trigger = yes
@@ -350,7 +298,7 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 1.5
 
-		start_year = 1940
+		start_year = 6
 
 		folder = {
 			name = mtgnavalfolder
@@ -359,11 +307,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 2
-
-			modifier = {
-				factor = 4
-				has_war_with = GER
-			}
 			modifier = {
 				factor = 2
 				anti_submarine_strategy_required_trigger = yes
@@ -393,7 +336,7 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 1.5
 
-		start_year = 1944
+		start_year = 10
 
 		folder = {
 			name = mtgnavalfolder
@@ -402,11 +345,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 2
-
-			modifier = {
-				factor = 4
-				has_war_with = GER
-			}
 			modifier = {
 				factor = 2
 				anti_submarine_strategy_required_trigger = yes
@@ -435,7 +373,7 @@ technologies = {
 		}
 		research_cost = 1.5
 
-		start_year = 1922
+		start_year = -12
 
 		folder = {
 			name = mtgnavalfolder
@@ -444,11 +382,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 2
-
-			modifier = {
-				factor = 4
-				has_war_with = GER
-			}
 			modifier = {
 				factor = 2
 				anti_submarine_strategy_required_trigger = yes
@@ -474,7 +407,7 @@ technologies = {
 		}
 		research_cost = 1
 
-		start_year = 1936
+		start_year = 2
 
 		folder = {
 			name = mtgnavalfolder
@@ -483,11 +416,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 2
-
-			modifier = {
-				factor = 4
-				has_war_with = GER
-			}
 			modifier = {
 				factor = 2
 				anti_submarine_strategy_required_trigger = yes
@@ -537,7 +465,7 @@ technologies = {
 
 		research_cost = 1.5
 
-		start_year = 1922
+		start_year = -12
 
 		folder = {
 			name = mtgnavalfolder
@@ -546,15 +474,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 4
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
-			}
 		}
 
 		categories = {
@@ -584,7 +503,7 @@ technologies = {
 
 		research_cost = 1.5
 
-		start_year = 1936
+		start_year = 2
 
 		folder = {
 			name = mtgnavalfolder
@@ -593,15 +512,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 4
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
-			}
 		}
 
 		categories = {
@@ -629,7 +539,7 @@ technologies = {
 
 		research_cost = 1.5
 
-		start_year = 1940
+		start_year = 6
 
 		folder = {
 			name = mtgnavalfolder
@@ -638,15 +548,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
-				factor = 4
-			}
 		}
 
 		categories = {
@@ -669,7 +570,7 @@ technologies = {
 		}
 		research_cost = 1.5
 
-		start_year = 1944
+		start_year = 10
 
 		folder = {
 			name = mtgnavalfolder
@@ -678,14 +579,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 2
-				OR = {
-					tag = ENG
-					tag = USA
-				}
-			}
 		}
 
 		categories = {
@@ -711,7 +604,7 @@ technologies = {
 
 		research_cost = 0.75
 
-		start_year = 1936
+		start_year = 2
 
 		folder = {
 			name = mtgnavalfolder
@@ -720,19 +613,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 2
-
-			modifier = {
-				has_navy_size = { size < 20 }
-				factor = 0.1
-			}
-			modifier = {
-				factor = 3.5
-				OR = {
-					tag = GER
-					tag = JAP
-					tag = USA
-				}
-			}
 		}
 
 		categories = {
@@ -768,7 +648,7 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 0.5
 
-		start_year = 1922
+		start_year = -12
 
 		folder = {
 			name = mtgnavalfolder
@@ -777,15 +657,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 3
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
-			}
 		}
 
 		categories = {
@@ -827,7 +698,7 @@ technologies = {
 
 		research_cost = 1.75
 
-		start_year = 1922
+		start_year = -12
 
 		folder = {
 			name = mtgnavalfolder
@@ -836,15 +707,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 2
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
-			}
 			modifier = {
 				is_major = yes
 				factor = 2
@@ -883,7 +745,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1936
+		start_year = 2
 
 		folder = {
 			name = mtgnavalfolder
@@ -895,15 +757,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 2
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
-			}
 			modifier = {
 				is_major = yes
 				factor = 2
@@ -933,15 +786,10 @@ technologies = {
 
 		research_cost = 1.5
 
-		start_year = 1936
+		start_year = 2
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 25
-				tag = JAP
-			}
 		}
 
 		categories = {
@@ -967,7 +815,7 @@ technologies = {
 
 		research_cost = 1.5
 
-		start_year = 1940
+		start_year = 6
 
 		folder = {
 			name = mtgnavalfolder
@@ -976,11 +824,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 5
-				tag = USA
-			}
 			modifier = {
 				is_major = no
 				factor = 0
@@ -1005,7 +848,7 @@ technologies = {
 		}
 		research_cost = 1.5
 
-		start_year = 1944
+		start_year = 10
 
 		folder = {
 			name = mtgnavalfolder
@@ -1014,12 +857,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 5
-				tag = USA
-
-			}
 			modifier = {
 				is_major = no
 				factor = 0
@@ -1057,7 +894,7 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 1.25
 
-		start_year = 1936
+		start_year = 2
 
 		folder = {
 			name = mtgnavalfolder
@@ -1066,15 +903,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 2
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
-			}
 		}
 
 		categories = {
@@ -1111,14 +939,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 4
-				OR = {
-					tag = ENG
-					tag = USA
-				}
-			}
 			modifier = {
 				has_tech = improved_ship_hull_heavy
 				factor = 2
@@ -1160,7 +980,7 @@ early_ship_hull_carrier = {
 
 		research_cost = 1.75
 
-		start_year = 1922
+		start_year = -12
 
 		folder = {
 			name = mtgnavalfolder
@@ -1169,15 +989,6 @@ early_ship_hull_carrier = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 8
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
-			}
 		}
 
 		categories = {
@@ -1202,7 +1013,7 @@ early_ship_hull_carrier = {
 
 		research_cost = 1.5
 
-		start_year = 1936
+		start_year = 2
 
 		folder = {
 			name = mtgnavalfolder
@@ -1211,15 +1022,6 @@ early_ship_hull_carrier = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 8
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
-			}
 		}
 
 		categories = {
@@ -1244,7 +1046,7 @@ early_ship_hull_carrier = {
 
 		research_cost = 1.5
 
-		start_year = 1940
+		start_year = 6
 
 		folder = {
 			name = mtgnavalfolder
@@ -1253,15 +1055,6 @@ early_ship_hull_carrier = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 8
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
-			}
 		}
 
 		categories = {
@@ -1281,7 +1074,7 @@ early_ship_hull_carrier = {
 		}
 		research_cost = 1.5
 
-		start_year = 1944
+		start_year = 10
 
 		folder = {
 			name = mtgnavalfolder
@@ -1290,15 +1083,6 @@ early_ship_hull_carrier = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 8
-				OR = {
-					tag = ENG
-					tag = JAP
-					tag = USA
-				}
-			}
 		}
 
 		categories = {
@@ -1332,7 +1116,7 @@ early_ship_hull_carrier = {
 
 		research_cost = 1.5
 
-		start_year = 1922
+		start_year = -12
 
 		folder = {
 			name = mtgnavalfolder
@@ -1341,14 +1125,6 @@ early_ship_hull_carrier = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 7
-				OR = {
-					tag = GER
-					tag = USA
-				}
-			}
 		}
 
 		categories = {
@@ -1374,7 +1150,7 @@ early_ship_hull_carrier = {
 
 		research_cost = 1.5
 
-		start_year = 1936
+		start_year = 2
 
 		folder = {
 			name = mtgnavalfolder
@@ -1383,14 +1159,6 @@ early_ship_hull_carrier = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 7
-				OR = {
-					tag = GER
-					tag = USA
-				}
-			}
 		}
 
 		categories = {
@@ -1422,7 +1190,7 @@ early_ship_hull_carrier = {
 
 		research_cost = 2.0
 
-		start_year = 1940
+		start_year = 6
 
 		folder = {
 			name = mtgnavalfolder
@@ -1431,14 +1199,6 @@ early_ship_hull_carrier = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 7
-				OR = {
-					tag = GER
-					tag = USA
-				}
-			}
 		}
 
 		categories = {
@@ -1460,7 +1220,7 @@ early_ship_hull_carrier = {
 
 		research_cost = 2.0
 
-		start_year = 1944
+		start_year = 10
 
 		folder = {
 			name = mtgnavalfolder
@@ -1469,14 +1229,6 @@ early_ship_hull_carrier = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 7
-				OR = {
-					tag = GER
-					tag = USA
-				}
-			}
 		}
 
 		categories = {
@@ -1500,7 +1252,7 @@ early_ship_hull_carrier = {
 		}
 		research_cost = 1
 
-		start_year = 1940
+		start_year = 6
 
 		folder = {
 			name = mtgnavalfolder
@@ -1509,21 +1261,6 @@ early_ship_hull_carrier = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 7
-				OR = {
-					tag = GER
-					tag = HOL
-				}
-			}
-			modifier = {
-				not = {
-					has_war_with = ENG
-					has_War_with = USA
-				}
-				factor = 0.5
-			}
 		}
 
 		categories = {
@@ -1553,7 +1290,7 @@ early_ship_hull_carrier = {
 		xp_research_bonus = 1.50
 		research_cost = 2
 
-		start_year = 1944
+		start_year = 10
 
 		folder = {
 			name = mtgnavalfolder
@@ -1562,14 +1299,6 @@ early_ship_hull_carrier = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 7
-				OR = {
-					tag = GER
-					tag = HOL
-				}
-			}
 		}
 
 		categories = {
@@ -1587,7 +1316,7 @@ early_ship_hull_carrier = {
 		}
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 2
 
 		#set at gamestart
 		allow = {
@@ -1601,7 +1330,7 @@ early_ship_hull_carrier = {
 		}
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 2
 
 		#set at gamestart
 		allow = {
@@ -1615,7 +1344,7 @@ early_ship_hull_carrier = {
 		}
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 2
 
 		#set at gamestart
 		allow = {
@@ -1629,7 +1358,7 @@ early_ship_hull_carrier = {
 		}
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 2
 
 		#set at gamestart
 		allow = {
@@ -1645,7 +1374,7 @@ early_ship_hull_carrier = {
 			ship_extra_fuel_tank
 		}
 		research_cost = 1
-		start_year = 1936
+		start_year = 2
 
 		#set at gamestart
 		allow = {
@@ -1658,7 +1387,7 @@ early_ship_hull_carrier = {
 			ship_hull_midget_submarine
 		}
 		research_cost = 1
-		start_year = 1936
+		start_year = 2
 
 		#set at gamestart
 		allow = {

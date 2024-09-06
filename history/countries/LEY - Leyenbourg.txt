@@ -3,13 +3,18 @@
 oob = "LEY"
 
 set_politics = {
-	ruling_party = absolutist
+	ruling_party = monarchist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	absolutist = 100
+	monarchist = 57
+	accelerationist = 20
+	xeroist = 3
+	social_liberalist = 4
+	conservatist = 6
+	radical_nationalist = 10
 }
 recruit_character = LEY_tim
 recruit_character = LEY_gottfried_sarkowa
@@ -22,7 +27,7 @@ create_country_leader = {
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	picture = "gfx/leaders/LEY/stephan.dds"
 	expire = "1965.1.1"
-	ideology = absolutist_subtype
+	ideology = monarchist_subtype
 	traits = {
 		#
 	}
@@ -38,27 +43,39 @@ set_stability = 0.19
 set_war_support = 0.1
 
 set_party_name = { 
-    ideology = neutrality 
-    long_name = "LEY_neutrality_party_long"
-    name = "LEY_neutrality_party"
+    ideology = monarchist 
+    long_name = "LEY_monarchist_party_long"
+    name = "LEY_monarchist_party"
 }
 
 set_party_name = { 
-    ideology = democratic 
-    long_name = "LEY_democratic_party_long"
-    name = "LEY_democratic_party"
+    ideology = accelerationist 
+    long_name = "LEY_accelerationist_party_long"
+    name = "LEY_accelerationist_party"
 }
 
 set_party_name = { 
-    ideology = fascism 
-    long_name = "LEY_fascism_party_long"
-    name = "LEY_fascism_party"
+    ideology = social_liberalist 
+    long_name = "LEY_social_liberalist_party_long"
+    name = "LEY_social_liberalist_party"
 }
 
 set_party_name = { 
-    ideology = communism 
-    long_name = "LEY_communism_party_long"
-    name = "LEY_communism_party"
+    ideology = xeroist 
+    long_name = "LEY_xeroist_party_long"
+    name = "LEY_xeroist_party"
+}
+
+set_party_name = { 
+    ideology = conservatist 
+    long_name = "LEY_conservatist_party_long"
+    name = "LEY_conservatist_party"
+}
+
+set_party_name = { 
+    ideology = radical_nationalist 
+    long_name = "LEY_radical_nationalist_party_long"
+    name = "LEY_radical_nationalist_party"
 }
 
 set_convoys = 15
