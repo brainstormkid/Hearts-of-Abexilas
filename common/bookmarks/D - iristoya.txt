@@ -8,19 +8,20 @@ bookmarks = {
 		default = yes
 		}
 
+        UET = {
+            minor = yes
+            history = UET_DESC
+        	ideology = neutrality
+
+        	ideas={
+        	}
+
+        	focuses = {
+        	}
+        }
+
 		"---"={
 			history = "OTHER_DESC"
 		}
-      UET = {
-		    minor = yes
-		    history = UET_DESC
-			ideology = neutrality
-			
-			ideas={
-			}
-			
-			focuses = {
-			}
-		}
-      }
+    }
 }
