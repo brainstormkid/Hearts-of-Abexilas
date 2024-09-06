@@ -1,34 +1,62 @@
 add_namespace = Lutian
 country_event = {
 	id = Lutian.1
-	title = Lutian_indeology_decision.1.t
-	desc = Lutian_indeology_decision.1.d
+	title = "The Monarch’s Dilemma"
+	desc = "Lutian has prospered under its beloved monarchy, but calls for change grow louder. Socialist, Nationalist, and Egalitarian ideologies offer new paths. Will we stay loyal to the Crown, or choose a different future? The decision will shape Lutian’s fate."
 	picture = "GFX_venipher_disappears"
 	
 	is_triggered_only = yes
 	
 	#Monarchist path
 	option = {
-		name = Lutian_indeology_decision_monarchist.1.a
+		name = "We Must Continue Upholding the Crown" 
 		ai_chance = { factor = 100 }
 		complete_national_focus = lut_thedukesregime
+		
+		add_popularity = {
+            ideology = monarchist
+            popularity = 0.05
+        }
 	}
 	
 	#Democratic path 
 	option = {
-		name = Lutian_indeology_decision_democratic.1.a
+		name = "Equality for All"
 		complete_national_focus = lut_democratic_way_of_thinking
+		
+		add_popularity = {
+            ideology = lut_conservatism
+            popularity = 0.15
+        }
+		
+		add_popularity = {
+            ideology = centrist
+            popularity = 0.05
+        }
+		
+		add_popularity = {
+            ideology = progressivist
+            popularity = 0.05
+        }
 	}
 	
-	#Fascist path
+	#Imperialist path
 	option = {
-		name = Lutian_indeology_decision_fascist.1.a
+		name = "Our Destiny is Imperial"
 		complete_national_focus = lut_fascism_is_the_only_right_way
+		add_popularity = {
+            ideology = imperialist
+            popularity = 0.10
+        }
 	}
 	
 	#Communist path
 	option = {
-		name = Lutian_indeology_decision_communist.1.a
+		name = "Unite Under the Red Banner"
 		complete_national_focus = lut_communism_shall_rise
+		add_popularity = {
+            ideology = communism
+            popularity = 0.10
+        }
 	}
 }
