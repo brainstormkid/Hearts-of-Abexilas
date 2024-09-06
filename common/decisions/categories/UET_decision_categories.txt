@@ -1,0 +1,13 @@
+#################
+#### Uetze ####
+#################
+
+UET_Goldenes_raids = {
+	icon = ger_mefo_bills
+
+	allowed = {
+		original_tag = UET
+	}
+	priority = 10
+}
+
