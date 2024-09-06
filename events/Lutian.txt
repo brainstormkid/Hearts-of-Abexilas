@@ -1,0 +1,34 @@
+add_namespace = Lutian
+country_event = {
+	id = Lutian.1
+	title = Lutian_indeology_decision.1.t
+	desc = Lutian_indeology_decision.1.d
+	picture = "GFX_venipher_disappears"
+	
+	is_triggered_only = yes
+	
+	#Monarchist path
+	option = {
+		name = Lutian_indeology_decision_monarchist.1.a
+		ai_chance = { factor = 100 }
+		complete_national_focus = lut_thedukesregime
+	}
+	
+	#Democratic path 
+	option = {
+		name = Lutian_indeology_decision_democratic.1.a
+		complete_national_focus = lut_democratic_way_of_thinking
+	}
+	
+	#Fascist path
+	option = {
+		name = Lutian_indeology_decision_fascist.1.a
+		complete_national_focus = lut_fascism_is_the_only_right_way
+	}
+	
+	#Communist path
+	option = {
+		name = Lutian_indeology_decision_communist.1.a
+		complete_national_focus = lut_communism_shall_rise
+	}
+}
