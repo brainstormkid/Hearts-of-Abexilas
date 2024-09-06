@@ -27,6 +27,17 @@ leader_traits = {
         }
     }
 	
+	accelerationist_supporter = {
+        random = no
+        sprite = 12
+		stability_factor = -0.05
+		accelerationist_drift = 0.1
+		
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
 	the_everyman = {
         random = no
         sprite = 12
