@@ -614,13 +614,12 @@ focus_tree = {
 		cost = 7.2
 		completion_reward = {
 		    add_tech_bonus = {
-				technology = gw_artillery
-				bonus = 1
-			}	
-			add_tech_bonus = {
-				technology = interwar_artillery
-				bonus = 1
-			}					
+				name = infantry_artillery_bonus
+				bonus = 1.0
+				uses = 2
+				category = infantry_weapons
+				category = artillery
+			}				
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -673,11 +672,11 @@ focus_tree = {
 		cost = 10
 		
 		modifier = {
-			cic_construction_boost_factor = 0.1		
+		
 		}
 		
 		completion_reward = {
-			add_ideas = idea_robins_hard_work
+			
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -743,6 +742,11 @@ focus_tree = {
 		x = 46
 		y = 0
 		cost = 10
+		
+		completion_reward = {
+			army_experience = 20
+		}
+		
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
@@ -755,6 +759,15 @@ focus_tree = {
 		x = 46
 		y = 1
 		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
@@ -768,6 +781,9 @@ focus_tree = {
 		x = 46
 		y = 2
 		cost = 10
+		completion_reward = {
+ 
+		}
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
