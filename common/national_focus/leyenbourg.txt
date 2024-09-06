@@ -60,7 +60,7 @@ focus_tree = {
 		icon = GFX_focus_hun_elect_a_king
 		x = 4
 		y = 2
-		cost = 1
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -72,16 +72,16 @@ focus_tree = {
 			add_political_power = 100
 			add_stability = +0.15
 			add_popularity = {
-				ideology = neutrality
+				ideology = monarchist
 				popularity = +0.2
 			}
 		set_politics = {
-			ruling_party = neutrality
+			ruling_party = monarchist
 			elections_allowed = no
 			last_election = "1936.1.1"
 			election_frequency = 48
 			long_name = "House of Zlatkow"
-			name = "HoZ"
+			name = "House of Zlatkow"
 			}
 		remove_ideas = provisional_government
 		}
@@ -93,7 +93,7 @@ focus_tree = {
 		icon = GFX_LEY_national_development_scheme-262129
 		x = 3
 		y = 3
-		cost = 4
+		cost = 15
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -128,7 +128,7 @@ focus_tree = {
 		icon = GFX_LEY_fund_new_railways-645972
 		x = 3
 		y = 4
-		cost = 5
+		cost = 16
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -158,7 +158,7 @@ focus_tree = {
 		icon = GFX_LEY_mass_production_facilities-645960
 		x = 3
 		y = 6
-		cost = 7
+		cost = 26
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -185,7 +185,7 @@ focus_tree = {
 		icon = GFX_LEY_adress_sozial_issues-646001
 		x = 4
 		y = 7
-		cost = 6
+		cost = 20
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
@@ -210,7 +210,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_mil_factory
 		x = 2
 		y = 7
-		cost = 6
+		cost = 25
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -266,7 +266,7 @@ focus_tree = {
 			add_stability = +0.07
 			add_political_power = 100
 			add_popularity = {
-				ideology = neutrality
+				ideology = monarchist
 				popularity = +0.15
 			}
 		}
@@ -278,7 +278,7 @@ focus_tree = {
 		icon = GFX_goal_generic_fortify_city
 		x = 4
 		y = 5
-		cost = 4
+		cost = 15
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -373,7 +373,7 @@ focus_tree = {
 		icon = GFX_LEY_accelerationist_takeover-645906
 		x = 11
 		y = 2
-		cost = 3
+		cost = 15
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -385,7 +385,7 @@ focus_tree = {
 			add_political_power = 100
 			add_stability = -0.1
 			add_popularity = {
-				ideology = communism
+				ideology = accelerationist
 				popularity = +0.2
 			}
 		remove_ideas = provisional_government
@@ -398,7 +398,7 @@ focus_tree = {
 		icon = GFX_focus_generic_join_comintern
 		x = 11
 		y = 3
-		cost = 6
+		cost = 20
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -408,19 +408,19 @@ focus_tree = {
 			add_political_power = -100
 			add_stability = -0.05
 			add_popularity = {
-				ideology = communism
+				ideology = accelerationist
 				popularity = +0.1
 			}
 			add_popularity = {
-				ideology = neutrality
+				ideology = monarchist
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = democratic
+				ideology = conservatist
 				popularity = -0.05
 			}
 			set_politics = {
-				ruling_party = communism
+				ruling_party = accelerationist
 				elections_allowed = no
 				last_election = "1936.1.1"
 				election_frequency = 48
@@ -436,7 +436,7 @@ focus_tree = {
 		icon = GFX_LEY_promoting_social_transformation-645934
 		x = 9
 		y = 4
-		cost = 8
+		cost = 18
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -444,11 +444,11 @@ focus_tree = {
 		completion_reward = {
 			add_stability = +0.08
 			add_popularity = {
-				ideology = communism
+				ideology = accelerationist
 				popularity = +0.1
 			}
 			add_popularity = {
-				ideology = neutrality
+				ideology = monarchist
 				popularity = -0.1
 			}
 		}
@@ -469,7 +469,7 @@ focus_tree = {
 			add_stability = +0.08
 			communism_drift = 0.10
 			add_popularity = {
-				ideology = communism
+				ideology = accelerationist
 				popularity = +0.1
 			}
 		}
@@ -481,14 +481,14 @@ focus_tree = {
 		icon = GFX_LEY_nationalistcoup-646210
 		x = 9
 		y = 6
-		cost = 2
+		cost = 30
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_propagandaoverdrive  }
 		completion_reward = {
 		set_politics = {
-				ruling_party = neutrality
+				ruling_party = radical_nationalist
 				elections_allowed = no
 				last_election = "1936.1.1"
 				election_frequency = 48
@@ -511,9 +511,9 @@ focus_tree = {
 		prerequisite = { focus = LEY_nationalistcoup  }
 		completion_reward = {
 		add_stability = -0.14
-		kill_ideology_leader = communism
+		kill_ideology_leader = accelerationist
 		add_popularity = {
-				ideology = communism
+				ideology = accelerationist
 				popularity = -0.2
 			}
 		}
@@ -534,15 +534,15 @@ focus_tree = {
 		mutually_exclusive = { focus = LEY_military_in_charge  }
 		completion_reward = {
 		add_popularity = {
-				ideology = communism
+				ideology = accelerationist
 				popularity = -0.2
 			}
 		add_popularity = {
-			ideology = fascism
+			ideology = radical_nationalist
 			popularity = +0.2
 			}
 		set_politics = {
-			ruling_party = fascism
+			ruling_party = radical_nationalist
 			elections_allowed = no
 			last_election = "1936.1.1"
 			election_frequency = 48
@@ -566,15 +566,15 @@ focus_tree = {
 		mutually_exclusive = { focus = LEY_one_man_to_lead_them_all  }
 		completion_reward = {
 		add_popularity = {
-				ideology = communism
+				ideology = accelerationist
 				popularity = -0.2
 			}
 		add_popularity = {
-			ideology = neutrality
+			ideology = radical_nationalist
 			popularity = +0.2
 			}
 		set_politics = {
-			ruling_party = neutrality
+			ruling_party = radical_nationalist
 			elections_allowed = no
 			last_election = "1936.1.1"
 			election_frequency = 48
@@ -590,14 +590,14 @@ focus_tree = {
 		icon = GFX_focus_generic_strike_at_democracy1
 		x = 9
 		y = 9
-		cost = 5
+		cost = 20
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_one_man_to_lead_them_all  focus = LEY_military_in_charge  }
 		completion_reward = {
 		add_popularity = {
-			ideology = communism
+			ideology = accelerationist
 			popularity = -1
 			}
 		}
@@ -739,7 +739,7 @@ focus_tree = {
 		icon = GFX_LEY_the_first_republic-646103
 		x = 18
 		y = 2
-		cost = 2
+		cost = 20
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -748,7 +748,7 @@ focus_tree = {
 		mutually_exclusive = { focus = LEY_accelerationist_takeover  }
 		completion_reward = {
 		set_politics = {
-				ruling_party = democratic
+				ruling_party = conservatist
 				elections_allowed = yes
 				last_election = "1936.1.1"
 				election_frequency = 48
@@ -756,15 +756,19 @@ focus_tree = {
 				name = "DPL"
 			}
 		add_popularity = {
-			ideology = communism
+			ideology = accelerationist
 			popularity = -0.07
 			}
 		add_popularity = {
-			ideology = democratic
-			popularity = +0.14
+			ideology = conservatist
+			popularity = +0.1
 			}
 		add_popularity = {
-			ideology = neutrality
+			ideology = social_liberalist
+			popularity = +0.04
+			}
+		add_popularity = {
+			ideology = monarchist
 			popularity = -0.07
 			}
 		add_stability = +0.15
@@ -779,7 +783,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 18
 		y = 3
-		cost = 8
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -796,7 +800,7 @@ focus_tree = {
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		x = 17
 		y = 4
-		cost = 4
+		cost = 14
 		search_filters = {
 			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
 		}
@@ -806,15 +810,19 @@ focus_tree = {
 		add_stability = -0.10
 		add_political_power = 140
 		add_popularity = {
-			ideology = communism
+			ideology = accelerationist
 			popularity = -0.07
 			}
 		add_popularity = {
-			ideology = fascism
+			ideology = xeroist
+			popularity = -1
+			}
+		add_popularity = {
+			ideology = radical_nationalist
 			popularity = +0.14
 			}
 		add_popularity = {
-			ideology = democratic
+			ideology = conservatist
 			popularity = -0.07
 			}
 		add_stability = +0.15
@@ -823,7 +831,7 @@ focus_tree = {
 			name = "Lukey"
 			desc = ""
 			expire = "1965.1.1"
-			ideology = rexism
+			ideology = radical_nationalist_subtype
 		}
 		}
 	}
@@ -834,7 +842,7 @@ focus_tree = {
 		icon = GFX_LEY_dissolve_the_parlament-646327
 		x = 17
 		y = 5
-		cost = 7
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
 		}
@@ -843,16 +851,20 @@ focus_tree = {
 		add_stability = -0.10
 		add_political_power = 140
 		add_popularity = {
-			ideology = communism
+			ideology = accelerationist
 			popularity = -0.07
 			}
 		add_popularity = {
-			ideology = fascism
+			ideology = radical_nationalist
 			popularity = +0.14
 			}
 		add_popularity = {
-			ideology = democratic
-			popularity = -0.07
+			ideology = conservatist
+			popularity = -0.1
+			}
+		add_popularity = {
+			ideology = social_liberalist
+			popularity = -0.1
 			}
 		add_stability = +0.15
 		add_political_power = 200
@@ -865,26 +877,26 @@ focus_tree = {
 		icon = GFX_focus_spa_strengthen_the_supreme_reality_of_spain
 		x = 17
 		y = 6
-		cost = 8
+		cost = 20
 		search_filters = {
 			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
 		}
 		prerequisite = { focus = LEY_dissolve_the_parlament  }
 		completion_reward = {
 		set_politics = {
-				ruling_party = fascism
+				ruling_party = radical_nationalist
 				elections_allowed = no
 				last_election = "1936.1.1"
 				election_frequency = 48
-				long_name = "Sozialist Party of Leyenbourg"
-				name = "SPoL"
+				long_name = "Party of Leyenbourg"
+				name = "PL"
 			}
 		add_popularity = {
-			ideology = democratic
+			ideology = conservatist
 			popularity = -0.07
 			}
 		add_popularity = {
-			ideology = fascism
+			ideology = radical_nationalist
 			popularity = +0.14
 			}
 		}
@@ -896,7 +908,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_doctrine
 		x = 19
 		y = 4
-		cost = 4
+		cost = 14
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -904,7 +916,7 @@ focus_tree = {
 		mutually_exclusive = { focus = LEY_lukeyforpower  }
 		completion_reward = {
 		add_popularity = {
-			ideology = democratic
+			ideology = conservatist
 			popularity = +0.20
 			}
 		deactivate_advisor = LEY_gottfried_sarkowa
@@ -913,7 +925,7 @@ focus_tree = {
 			desc = ""
 			picture = GFX_portrait_LEY_gottfried_sarkowa
 			expire = "1965.1.1"
-			ideology = liberalism
+			ideology = conservatist_subtype
 		}
 		}
 	}
@@ -924,14 +936,14 @@ focus_tree = {
 		icon = GFX_LEY_strengthen_the_parlament-645772
 		x = 19
 		y = 5
-		cost = 6
+		cost = 14
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_gottfriedsarkowareturns  }
 		completion_reward = {
 		add_popularity = {
-			ideology = democratic
+			ideology = conservatist
 			popularity = +0.10
 			}
 		add_stability = +0.15
