@@ -18,7 +18,7 @@ set_popularities = {
 	imperialist = 10
 	progressivist = 3
 	centrist = 4
-	lut_conservatism = 7
+	conservatist = 7
 	communism = 1
 }
 create_country_leader = {

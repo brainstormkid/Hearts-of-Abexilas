@@ -25,3 +25,29 @@ ideas = {
     	}
 	}
 }
+
+ideas = {
+	country = {
+		idea_robins_hard_work {
+			picture = generic_production_bonus
+			allowed = {
+				TAG = LUT
+			}
+
+			available = {
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+
+			}
+
+			modifier = {
+				cic_construction_boost_factor = 0.1	
+	    	}
+    	}
+	}
+}
