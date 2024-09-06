@@ -131,7 +131,7 @@ focus = {
 		id = GAR_venny_gone
 		icon = GFX_goal_generic_demand_territory
 		available = {
-		date > 1936.8.1
+		date > 3.6.21
 		}
 		x = 10
 		y = 3
@@ -223,14 +223,14 @@ focus = {
 		completion_reward = {
 			add_stability = -0.15
 			add_popularity = {
-			ideology = Communism
+			ideology = anarchist
 			popularity = 0.10
 			}	
 			add_popularity = {
-			ideology = Democratic
+			ideology = progressivist
 			popularity = 0.05
 			set_party_name = {
-			ideology = Communism
+			ideology = anarchist
 			long_name = "The Cathelet Peoples Liberation Front"
 			name = "Cathelet Liberation Front"
 			}
@@ -253,11 +253,11 @@ focus = {
 		mutually_exclusive = { focus = GAR_revolution }
 		completion_reward = {
 			add_popularity = {
-			ideology = Communism
+			ideology = anarchist
 			popularity = 0.25
 			}
 			add_popularity = {
-			ideology = Democratic
+			ideology = progressivist
 			popularity = 0.1
 			}
 			
@@ -279,11 +279,11 @@ focus = {
 		mutually_exclusive = { focus = GAR_reform }
 		completion_reward = {
 			add_popularity = {
-			ideology = Communism
-			popularity = 0.20
+			ideology = anarchist
+			popularity = 0.2
 			}
 			add_popularity = {
-			ideology = Fascism
+			ideology = radical_nationalist
 			popularity = 0.1
 			}
 			add_stability = -0.25
@@ -331,7 +331,7 @@ focus = {
 			add_war_support = 0.05
 			add_stability = -0.05
 			add_popularity = {
-			ideology = Communism
+			ideology = anarchist
 			popularity = 0.1
 			}
 			}
@@ -352,7 +352,7 @@ focus = {
 		}
 		completion_reward = {
 		add_popularity = {
-			ideology = Communism
+			ideology = anarchist
 			popularity = 0.1
 			}
 			}
@@ -374,15 +374,15 @@ focus = {
 			add_war_support = 0.15
 			add_stability = -0.15
 			set_politics = {
-			ruling_party = Communism
+			ruling_party = anarchist
 			elections_allowed = yes
-			last_election = "1936.7.1"
+			last_election = "2.7.1"
 			election_frequency = 48
 			long_name = "The Peoples Party"
 			name = Gardenia
 			}
 			start_civil_war = {
-			ideology = neutrality
+			ideology = centrist
 			size = 0.4
 			states = { 355 325 353 304 }
 			states_filter = {
@@ -428,11 +428,11 @@ focus = {
 		completion_reward = {
 				add_stability = 0.1
 				add_popularity = {
-				ideology = Communism
+				ideology = anarchist
 				popularity = 0.1
 				}
 				add_popularity = {
-				ideology = Democratic
+				ideology = progressivist
 				popularity = 0.1
 				}
 			}
@@ -452,11 +452,11 @@ focus = {
 		completion_reward = {
 				add_war_support = 0.1
 				add_popularity = {
-				ideology = Communism
+				ideology = anarchist
 				popularity = 0.1
 				}
 				add_popularity = {
-				ideology = Democratic
+				ideology = progressivist
 				popularity = 0.1
 				}
 			}
@@ -515,11 +515,11 @@ focus = {
 		completion_reward = {
 			add_stability = 0.1
 			add_popularity = {
-			ideology = Communism
+			ideology = anarchist
 			popularity = 0.1
 			}
 			add_popularity = {
-			ideology = Democratic
+			ideology = progressivist
 			popularity = 0.2
 			}
 		}
@@ -575,7 +575,7 @@ focus = {
 		cost = 5
 		completion_reward = {
 		set_politics = {
-			ruling_party = Communism
+			ruling_party = anarchist
 			elections_allowed = yes
 			last_election = "1936.7.1"
 			election_frequency = 48
