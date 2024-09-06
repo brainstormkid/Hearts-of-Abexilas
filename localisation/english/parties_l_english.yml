@@ -43,14 +43,18 @@
  HAR_neutrality_party_long:0 "Empty Paper"
  
  #Leyenbourg
- LEY_communism_party:0 "LAP"
- LEY_communism_party_long:0 "Leyenbourgian Accelerationist Party"
- LEY_democratic_party:0 "RP"
- LEY_democratic_party_long:0 "Republican Party"
- LEY_fascism_party:0 "SPoL"
- LEY_fascism_party_long:0 "Socialist Party of Leyenbourg"
- LEY_neutrality_party:0 "HoZ"
- LEY_neutrality_party_long:0 "House of Zlatkow"
+ LEY_xeroist_party:0 "ULU"
+ LEY_xeroist_party_long:0 "United Labour Union"
+ LEY_social_liberalist_party:0 "SPoL"
+ LEY_social_liberalist_party_long:0 "Social Party of Leyenbourg"
+ LEY_conservatist_party:0 "OPP"
+ LEY_conservatist_party_long:0 "Oceanian Peoples Party"
+ LEY_monarchist_party:0 "House of Zlatkow"
+ LEY_monarchist_party_long:0 "House of Zlatkow"
+ LEY_accelerationist_party:0 "WF"
+ LEY_accelerationist_party_long:0 "Workers Front"
+ LEY_radical_nationalist_party:0 "MJ"
+ LEY_radical_nationalist_party_long:0 "Military Junta"
   
  #Ertcof
  ERC_absolutist_party:0 "OMFA"
