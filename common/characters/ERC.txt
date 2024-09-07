@@ -8,7 +8,49 @@ characters={
 	    }
     	country_leader={
 			ideology=monarchist_subtype
+			traits= { }
+			desc = POLITICS_KLYMON_DESC
+			expire="1965.1.1.1"
+	    }
+    	country_leader={
+			ideology=progressivist_subtype
 			traits= { constitutional_monarch_minor }
+			desc = POLITICS_KLYMON_DESC
+			expire="1965.1.1.1"
+	    }
+    	country_leader={
+			ideology=social_liberalist_subtype
+			traits= { constitutional_monarch_minor }
+			desc = POLITICS_KLYMON_DESC
+			expire="1965.1.1.1"
+	    }
+    	country_leader={
+			ideology=theocratist_subtype
+			traits= { }
+			desc = POLITICS_KLYMON_DESC
+			expire="1965.1.1.1"
+	    }
+    	country_leader={
+			ideology=centrist_subtype
+			traits= { constitutional_monarch_minor }
+			desc = POLITICS_KLYMON_DESC
+			expire="1965.1.1.1"
+	    }
+    	country_leader={
+			ideology=conservatist_subtype
+			traits= { constitutional_monarch_minor }
+			desc = POLITICS_KLYMON_DESC
+			expire="1965.1.1.1"
+	    }
+    	country_leader={
+			ideology=progressivist_subtype
+			traits= { constitutional_monarch_minor }
+			desc = POLITICS_KLYMON_DESC
+			expire="1965.1.1.1"
+	    }
+    	country_leader={
+			ideology=imperialist_subtype
+			traits= { }
 			desc = POLITICS_KLYMON_DESC
 			expire="1965.1.1.1"
 	    }
