@@ -1,5 +1,5 @@
 ﻿l_english:
- #News EVENTS
+ #Welcome EVENTS
  news.1.t:0 "Welcome to Hearts of Abexilas"
  news.1.d:0 "Thank you for trying the Hearts of Abexilas Hoi4 Mod based on the Stoneworks Minecraft Server. We hope Stoneworks Hoi4 enthusiasts and regular hoi4 players can delve into the world of Abexilas and play their favorite nations. This has been a project from which over 100+ Stoneworks players have contributed in turning blocks into Hoi4.\n\nMore developments and updates are coming soon, feel free to join our discord if you are interested or if you have any game bugs to report. Enjoy!\n\nSincerely,\nHoA Development Team"
  news.1.a:1 "Nations - History - Wars - Roleplay"
@@ -9,6 +9,11 @@
  news.2.d:0 "In the night, a great ships docked into the harbors of Centuria, carrying with them the representatives and banners of all the nations of the continent. They carried themselves to the great hall of the city and sat themselves at the grand tables, the first Summit had begun"
  news.2.a:1 "Cathelet and Adramis Strong!"
  news.2.b:1 "Chad"
+ 
+ #Economic EVENTS
+ news.3.t:0 "The Economy has collapsed!"
+ news.3.d:0 "The Economy has collapsed, the presure of upkeep was just too much for the weak and young economy of the world."
+ news.3.a:0 "A Tragety!"
  
  #MYRTANA EVENTS
  myrtana_story_events.1.t:0 "Long day in Theos."
@@ -60,4 +65,3 @@
  Gardenia_integration.5.d:0 "Integrating Seneca is a tedious task since Seneca is built upon a very decentralized structure. We have two major options on how to deal with this issue, firstly we can use the existing structures building upon this decentralized nature and gaining the support of the few institutions that exist within Seneca, or secondly we can try to build a more centralized structure and though this may be more unstable especially in the short term in the long run it is likely to be more loyal"
  Gardenia_integration.5.a:0 "Gain the support of the existing institutions"
  Gardenia_integration.5.b:0 "Build new institutions"
- 
