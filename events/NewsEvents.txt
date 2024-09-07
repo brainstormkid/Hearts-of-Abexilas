@@ -57,3 +57,21 @@ news_event = {
         }
 	}
 }
+
+# Economic Collapse
+news_event = {
+	id = news.3
+	title = "eco.1.t"
+	desc = "eco.1.d"
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "eco.1.a"
+		target = { any_nation }
+		add_ideas = economic_collapse
+	}
+}
