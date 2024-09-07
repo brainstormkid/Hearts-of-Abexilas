@@ -20,6 +20,23 @@ news_event = {
 	}
 }
 
+# Economic Collapse
+news_event = {
+	id = news.3
+	title = "news.3.t"
+	desc = "news.3.d"
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "news.3.a"
+		add_ideas = economic_collapse
+	}
+}
+
 # 1st Cathramis Continental Summit
 news_event = {
 	id = news.2
@@ -55,23 +72,5 @@ news_event = {
         	    has_idea = Cathramis_Continental_Member
         	}
         }
-	}
-}
-
-# Economic Collapse
-news_event = {
-	id = news.3
-	title = "eco.1.t"
-	desc = "eco.1.d"
-	picture = GFX_news_event_001
-	
-	major = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "eco.1.a"
-		target = { any_nation }
-		add_ideas = economic_collapse
 	}
 }
