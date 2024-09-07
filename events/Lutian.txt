@@ -96,3 +96,47 @@ country_event = {
 		}
 	}
 }
+
+#War goal againts Hodege
+country_event = {
+	id = Lutian.5
+	title = "Unfortunate outcome!"
+	desc = " "
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We have no other choice!"
+		create_wargoal = {
+			type = take_state_focus
+			target = HOD
+			generator = { 28 }
+		}
+	}
+}
+
+#Hodege or Cakhtlan accepts the military access
+country_event = {
+	id = Lutian.6
+	title = "Military access granted!"
+	desc = " "
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Great!"
+	}
+}
+
+#Michava accept
+country_event = {
+	id = Lutian.7
+	title = "Alliance granted"
+	desc = "Michava agreed to be in a faction with Lutian and join the war!"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "The only thing left is to win!"
+	}
+}

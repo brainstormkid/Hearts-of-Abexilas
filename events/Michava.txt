@@ -1,0 +1,28 @@
+add_namespace = Michava
+
+country_event = {
+	id = Michava.1
+	title = "Alliace with Lutian?"
+	desc = "Should we join the war againts Jarazeh?"
+	picture = ""
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "This is a really good opportunity for the country!"
+		ai_chance = {
+			factor = 10
+		}
+		declare_war_on  = {
+			type = take_state_focus
+			target = JAZ
+		}		
+		LUT = {
+			add_to_faction = MIC
+			country_event = Lutian.7
+		}
+	}
+	option = {
+		name = "This cannot end good!"
+	}
+}

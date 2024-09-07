@@ -28,6 +28,9 @@ focus_tree = {
 		x = 13
 		y = 1
 		cost = 2
+		
+		available_if_capitulated = no
+		
 		#removes a national spirit with negative effects
 		completion_reward = { 
 			add_political_power = 100
@@ -227,7 +230,12 @@ focus_tree = {
 		
 		cost = 2
 		completion_reward = {
-
+			HOD = {
+				country_event = Hodege.1	
+			}
+			CAK = {
+				country_event = Cakhtlan.1
+			}
 		}
 		
 		prerequisite = { focus = lut_war_it_is  }
@@ -245,7 +253,10 @@ focus_tree = {
 		
 		cost = 2
 		completion_reward = {
-
+			create_faction = lut_faction
+			MIC = {
+				country_event = Michava.1
+			}
 		}
 		
 		prerequisite = { focus = lut_war_it_is  }
@@ -606,9 +617,10 @@ focus_tree = {
 					instant_build = yes
 				}
 				add_tech_bonus = {
+					name = industrial_bonus
+					bonus = 1.0
+					uses = 1
 					category = industry
-					bonus = 1
-					uses = 2
 				}
 			}
 		}
@@ -746,10 +758,6 @@ focus_tree = {
 		x = 34
 		y = 5
 		cost = 10
-		
-		modifier = {
-		
-		}
 		
 		completion_reward = {
 			

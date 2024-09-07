@@ -1,0 +1,36 @@
+add_namespace = Hodege
+
+#Military access for Lutian
+country_event = {
+	id = Hodege.1
+	title = "Troop Passage Agreement"
+	desc = ""
+	picture = ""
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Authorize the transit of troops."
+		ai_chance = {
+			factor = 5
+		}
+		LUT = {
+			diplomatic_relation = {
+				country = HOD
+				relation = military_access
+				active = yes
+			}
+			country_event = Lutian.6
+		}
+
+	}
+	option = {
+		ai_chance = {
+			factor = 5
+		}
+		name = "Absolutely not, reject troop movement!"
+		LUT = {
+			country_event = Lutian.5
+		}
+	}
+}
