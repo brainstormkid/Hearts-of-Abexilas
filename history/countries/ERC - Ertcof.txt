@@ -16,28 +16,30 @@ oob = "ERC"
 set_politics = {
 	ruling_party = monarchist
 	last_election = "2.5.21"
-	election_frequency = 14 # since the Archon is not the head of state and gets replaced very often, I'll be replacing the "elections" with a decision counter that replaces the archon's national spirit (TBA ofc) instead of the entire government :]
-	elections_allowed = no
+	election_frequency = 14
+	elections_allowed = yes
 }
 set_popularities = {
 	absolutist = 0
     monarchist = 60
-    theocratist = 0
+    theocratist = 5
     accelerationist = 0
 
     anarchist = 0
     xeroist = 0
-    theocratic_socialist = 3
+    theocratic_socialist = 0
     revisionist = 0
+    communist = 0
 
     libertarianist = 0
     centrist = 5
-    social_liberalist = 30
-    progressivist = 0
-    conservatist = 0
+    social_liberalist = 20
+    progressivist = 3
+    conservatist = 2
 
-    imperialist = 2
+    imperialist = 5
     radical_nationalist = 0
+    consulist = 0
 }
 
 recruit_character = ERC_klymon

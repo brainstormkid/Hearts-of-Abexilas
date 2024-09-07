@@ -19,8 +19,8 @@ bookmarks = {
 			Legacy_of_the_Drakaes
 			}
 			focuses = {
-			GAR_revolution
-			GAR_reform
+			    GAR_revolution
+			    GAR_reform
 			}
 		}
 		
@@ -32,8 +32,10 @@ bookmarks = {
 			Cathramis_Continental_Member
 			}
 			focuses = {
+
 			}
 		}
+
 		ZAM = {
 			history = ZAM_DESC
 			ideology = neutrality
@@ -44,6 +46,7 @@ bookmarks = {
 			
 			}
 		}
+
 		JAZ = {
 			history = JAZ_DESC
 			ideology = neutrality
@@ -54,6 +57,7 @@ bookmarks = {
 			
 			}
 		}
+
 		EXO = {
 			history = EXO_DESC
 			ideology = neutrality
@@ -64,6 +68,10 @@ bookmarks = {
 			
 			}
 		}
+
+		"---"={
+        	history = "OTHER_DESC"
+        }
 
 		########
 		#Minors#

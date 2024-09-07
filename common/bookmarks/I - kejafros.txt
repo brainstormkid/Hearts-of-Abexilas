@@ -41,6 +41,10 @@ bookmarks = {
 			}
 		}
 
+		"---"={
+        	history = "OTHER_DESC"
+        }
+
 		########
 		#Minors#
 		########

@@ -72,6 +72,7 @@ bookmarks = {
 				
 			}
 		}
+
 		AKI = {
 			history = AKI_DESC
 			ideology = neutrality
