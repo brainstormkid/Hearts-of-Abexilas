@@ -1,0 +1,44 @@
+add_namespace = Jarazeh
+
+#Sahariyan mountains decision - JAZ
+country_event = {
+	id = Jarazeh.1
+	title = "The Sahariyan mountains decision"
+	desc = ""
+	picture = "GFX_venipher_disappears"
+	
+	is_triggered_only = yes
+	
+	#ACCEPT
+	option = {
+		name = "We dont need to be honest!"
+		LUT = {
+			transfer_state = 516
+			complete_national_focus = lut_the_sahariyan_victory
+			country_event = Lutian.4
+		}
+		ai_chance = {
+			factor = 4
+		}
+	}
+	
+	#DECLINE
+	option = {
+		name = "Are they out of their mind?"
+		ai_chance = {
+			factor = 6
+		}
+		LUT = {
+			country_event = Lutian.3			
+			complete_national_focus = lut_war_it_is
+			add_stability = 30
+			add_war_support = 25
+			declare_war_on  = {
+				type = take_state_focus
+				target = JAZ
+				generator = { 516 }
+			}
+		}
+		
+	}
+}

@@ -167,6 +167,13 @@ focus_tree = {
 		x = 8
 		y = 6
 		cost = 10
+		
+		completion_reward = {
+			516 = {
+				add_core_of = LUT
+			}
+		}
+		
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
@@ -179,11 +186,93 @@ focus_tree = {
 		icon = GFX_lut_demand_the_sahriyan_mountains-717078
 		x = 8
 		y = 7
-		cost = 10
+		cost = 1
+		completion_reward = {
+			JAZ = {
+				country_event = Jarazeh.1 
+			}
+		}
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
 		prerequisite = { focus = lut_thesahariyanmountainsareours  }
+	}
+
+	#Call to Arms
+	focus = {
+		id = lut_war_it_is
+		icon = GFX_goal_unknown
+		x = 7
+		y = 8
+		
+		cost = 2
+		completion_reward = {
+
+		}
+		
+		mutually_exclusive = { focus = lut_the_sahariyan_victory  } 
+		prerequisite = { focus = lut_demand_the_sahriyan_mountains  }
+		
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Request for Military Access
+	focus = {
+		id = lut_request_for_military_access
+		icon = GFX_goal_unknown
+		x = 6
+		y = 9
+		
+		cost = 2
+		completion_reward = {
+
+		}
+		
+		prerequisite = { focus = lut_war_it_is  }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Ask for help
+	focus = {
+		id = lut_ask_for_help
+		icon = GFX_goal_unknown
+		x = 8
+		y = 9
+		
+		cost = 2
+		completion_reward = {
+
+		}
+		
+		prerequisite = { focus = lut_war_it_is  }
+		
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#The Sahariyan Victory
+	focus = {
+		id = lut_the_sahariyan_victory
+		icon = GFX_goal_unknown
+		x = 9
+		y = 8
+		
+		cost = 2
+		completion_reward = {
+
+		}
+		
+		mutually_exclusive = { focus = lut_war_it_is  } 
+		prerequisite = { focus = lut_demand_the_sahriyan_mountains  }
+		
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
 	}
 
 	#Democratic way of thinking
@@ -300,7 +389,7 @@ focus_tree = {
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
-		}
+		} 
 		prerequisite = { focus = lut_fascism_is_the_only_right_way}
 	}
 
@@ -358,7 +447,9 @@ focus_tree = {
 		prerequisite = { focus = lut_expandrecruitmentnationalspirit  }
 		mutually_exclusive = { focus = lut_alliance_with_hodege  } mutually_exclusive = { focus = lut_demand_eastern_hodege  }
 	}
-
+	
+	#
+	
 	#Demand Northen Ertcof
 	focus = {
 		id = lut_demand_northen_ertcof
@@ -498,21 +589,6 @@ focus_tree = {
 		}
 		prerequisite = { focus = lut_spread_the_communism  }
 		mutually_exclusive = { focus = lut_unite_the_communist  }
-	}
-
-	#Prussia of the Cathramis (national spirit)
-	focus = {
-		id = lut_prussiaofthecathramisnationalspirit
-		icon = GFX_goal_unknown
-		x = 19
-		y = 10
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_MANPOWER
-		}
-		prerequisite = { focus = lut_alliance_with_ertcof  focus = lut_demandertcofslands  focus = lut_demand_northen_ertcof  focus = lut_demand_to_surrender  focus = lut_demand_eastern_hodege  focus = lut_alliance_with_hodege  }
-		prerequisite = { focus = lut_strongertogether  focus = lut_unite_the_communist  }
-		prerequisite = { focus = lut_we_shall_strengthen_our_relations_with_other_nations  focus = lut_election_for_duke  }
 	}
 
 	#Building up the economy
@@ -782,7 +858,7 @@ focus_tree = {
 		y = 2
 		cost = 10
 		completion_reward = {
- 
+
 		}
 		search_filters = {
 			FOCUS_FILTER_MANPOWER

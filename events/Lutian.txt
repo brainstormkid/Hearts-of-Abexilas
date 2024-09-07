@@ -1,4 +1,6 @@
 add_namespace = Lutian
+
+#ideologies decision
 country_event = {
 	id = Lutian.1
 	title = "The Monarch’s Dilemma"
@@ -58,5 +60,39 @@ country_event = {
             ideology = communism
             popularity = 0.10
         }
+	}
+}
+
+#Sahariyan mountains decision - LUT - ACCEPT OUTCOME
+country_event = {
+	id = Lutian.3
+	title = "Sahariyan mountains outcome"
+	desc = ""
+	picture = "GFX_venipher_disappears"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "How unfortunate."
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+#Sahariyan mountains decision - LUT - DECLINE OUTCOME
+country_event = {
+	id = Lutian.4
+	title = "Sahariyan mountains outcome"
+	desc = ""
+	picture = "GFX_venipher_disappears"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Great news!"
+		ai_chance = {
+			factor = 10
+		}
 	}
 }
