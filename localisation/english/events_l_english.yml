@@ -61,3 +61,7 @@
  Gardenia_integration.5.a:0 "Gain the support of the existing institutions"
  Gardenia_integration.5.b:0 "Build new institutions"
  
+ #Economic EVENTS
+ eco.1.t:0 "The Economy has collapsed!"
+ eco.1.d:0 "The Economy has collapsed, the presure of upkeep was just too much for the weak and young economy of the world."
+ eco.1.a:0 "A Tragety!"
