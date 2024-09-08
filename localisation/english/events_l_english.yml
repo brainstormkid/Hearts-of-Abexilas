@@ -14,6 +14,9 @@
  news.3.t:0 "The Economy has collapsed!"
  news.3.d:0 "   Ealier today, without all that much warning upkeep was turned on for the many nations of the world, leading to massive economic slowdowns around the Ablexilas due to the low cash reserves of many young nations. Forcing them to find ways of aquiring cash rapidly without much concern for the wellbeing of their industry or population.\n\n   Making this crisis even worse an oversight this upkeep was an extreme amount far above normal which even deleted a few nations off the map, and though many have quickly began to try and build back; the road to recovery is likely to be a painful one."
  news.3.a:0 "No! No! No!"
+ news.4.t:0 "A Economic Miracle!"
+ news.4.d:0 "For a while the Economy has been growing slowly but massivly, and today that has reached a massive changing point. The prices of Gold and Iron were uplifted, increasing the materials value. This caused people to sell massive amounts of it into the Economy. But this just caused a massive Boost! The world has never seen so much money being spent and so many trades being made in its whole history!\n\n It is truely a Miracle!"
+ news.4.a:0 "A blessing from the gods!"
  
  #MYRTANA EVENTS
  myrtana_story_events.1.t:0 "Long day in Theos."
