@@ -5,11 +5,12 @@ state={
 		1014 4203 10181 10182 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=50000
+        state_category = enclave
 	history={
 		owner = VAR
 		buildings = {
+			infrastructure = 1
 		}
 		add_core_of = VAR
 	}

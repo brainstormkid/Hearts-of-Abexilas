@@ -26,6 +26,7 @@ state={
 			}
 		}
 		add_core_of = POL
+		victory_points = { 3706 50 }
 	}
 }
 

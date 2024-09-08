@@ -78,6 +78,13 @@ technologies = {
 		start_year = 2
 
 		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		
 			modifier = {
 				has_war = yes
 				factor = 2

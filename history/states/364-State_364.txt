@@ -5,12 +5,14 @@ state={
 		4475 10122 10153 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=50000
+        state_category = pastoral
 	history={
 		owner = VAR
 		buildings = {
+			infrastructure = 1
 		}
 		add_core_of = VAR
+		victory_points = { 4475 10 }
 	}
 }
