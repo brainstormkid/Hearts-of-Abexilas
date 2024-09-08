@@ -149,6 +149,16 @@ spriteTypes = {
     	name = "GFX_portrait_ERC_klymon_small"
     	texturefile = "GFX/interface/ideas/idea_erc_klymon_small.dds"
     }
+
+    spriteType = {
+    	name = "GFX_portrait_ERC_rage"
+    	texturefile = "GFX/leaders/ERC/rage.dds"
+    }
+
+    spriteType = {
+    	name = "GFX_portrait_ERC_rage_small"
+    	texturefile = "GFX/interface/ideas/idea_erc_rage_small.dds"
+    }
 		
 	### END
 	

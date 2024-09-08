@@ -4,6 +4,7 @@ characters={
 		portraits={
 			civilian={
 				large="GFX_portrait_ERC_klymon"
+				small="GFX_portrait_ERC_klymon_small"
 			}
 	    }
     	country_leader={
@@ -52,6 +53,35 @@ characters={
 			ideology=imperialist_subtype
 			traits= { }
 			desc = POLITICS_KLYMON_DESC
+			expire="1965.1.1.1"
+	    }
+    }
+    ERC_rage={
+    	name=ERC_rage
+    	portraits={
+    		civilian={
+    			large="GFX_portrait_ERC_rage"
+    			small="GFX_portrait_ERC_rage_small"
+    		}
+        }
+        advisor={
+            cost = 100
+            slot = political_advisor
+            idea_token = [ERC_rage]
+            ledger = civilian [others are e.g. army]
+            allowed = { original_tag = ERC }
+            traits = { prince_of_terror }
+            available = {
+            }
+            ledger = all
+            ai_will_do = {
+                factor = 1.0
+            }
+        }
+    	country_leader={
+			ideology=monarchist_subtype
+			traits= { }
+			desc = POLITICS_RAGE_DESC
 			expire="1965.1.1.1"
 	    }
     }

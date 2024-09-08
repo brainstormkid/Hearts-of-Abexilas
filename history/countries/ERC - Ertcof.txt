@@ -43,6 +43,16 @@ set_popularities = {
 }
 
 recruit_character = ERC_klymon
+recruit_character = ERC_rage
+# recruit_character = ERC_bold
+# recruit_character = ERC_lolko
+# recruit_character = ERC_kokasylt
+# recruit_character = ERC_iustin
+# recruit_character = ERC_artur
+# recruit_character = ERC_amy
+# recruit_character = ERC_fabi
+# recruit_character = ERC_kisvycko
+# recruit_character = ERC_javi
 
 create_country_leader = {
 	name = "Klymön Valentinus"
