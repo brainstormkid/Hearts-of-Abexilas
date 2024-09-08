@@ -12,7 +12,6 @@ spriteTypes = {
 		name = "GFX_news_event_003"
 		texturefile = "gfx/event_pictures/news_event_003.dds"
 	}
-	
 	#
 	spriteType = {
 		name = "GFX_Long_day_in_Theos"
@@ -28,7 +27,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_police_at_torsheim"
-		texturefile = "gfx/event_pictures/police_at_torsheim.dds"
+		texturefile = "gfx/event_pictures/police_at_torsheim.dds.dds"
 	}
 	
 	##Icon For: Tim retires!
