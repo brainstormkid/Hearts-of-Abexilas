@@ -5,12 +5,17 @@ state={
 		817 1423 3590 9901 9910 9914 9922 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1050000
+        state_category = city
 	history={
 		owner = VAR
 		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = VAR
+		victory_points = { 9914 30 }
 	}
 }
