@@ -63,6 +63,8 @@ news_event = {
 	
 	option = {
 		name = "news.3.a"
+		hidden_effect = {
 		add_ideas = economic_collapse
+		}
 	}
 }
