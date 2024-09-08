@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 334
+
+oob = "VAR"
 
 add_ideas = {
 	volunteer_only
@@ -25,3 +27,5 @@ create_country_leader = {
 		#
 	}
 }
+
+set_convoys = 40

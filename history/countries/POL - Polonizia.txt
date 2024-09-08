@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 757
+
+oob = "POL"
 
 set_politics = {
 	ruling_party = absolutist
@@ -22,3 +24,4 @@ create_country_leader = {
 
 set_stability = 0.85
 set_war_support = 0.95
+set_convoys = 20
