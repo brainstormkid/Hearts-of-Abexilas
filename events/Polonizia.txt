@@ -1,0 +1,43 @@
+add_namespace = Polonizia
+
+#lutian's offer to merge with us 
+country_event = {
+	id = Polonizia.1
+	title = "Lutian's Offer"
+	desc = "Lutian has offered us to merge with us!"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "yes"
+		
+		ai_will_do = {
+			factor = 7
+			modifier = {is_historical_focus_on = yes factor = 0}
+		}
+		
+		LUT = {
+			annex_country = {
+				target = POL
+				transfer_troops = yes
+			}	
+			set_cosmetic_tag = LPC
+			country_event = Lutian.9
+		}
+		604 = {
+			add_core_of = LUT
+		}
+		616 = {
+			add_core_of = LUT
+		}	
+	}
+	option = {
+		name = "We are better of alone!"
+		ai_will_do = {
+			factor = 3
+		}
+		LUT = {
+			country_event = Lutian.10
+		}
+	}
+}

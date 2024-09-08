@@ -29,6 +29,10 @@ focus_tree = {
 		y = 1
 		cost = 2
 		
+		ai_will_do = {
+            factor = 10  # Basic priority factor for AI
+        }
+		
 		available_if_capitulated = no
 		
 		#removes a national spirit with negative effects
@@ -44,6 +48,11 @@ focus_tree = {
 		x = 13
 		y = 3
 		cost = 2.9
+		
+		ai_will_do = {
+            factor = 10  # Basic priority factor for AI
+        }
+		
 		completion_reward = {
 			country_event = { id = Lutian.1 }
 		}
@@ -129,8 +138,15 @@ focus_tree = {
 		x = 0
 		y = 5
 		cost = 10
+		completion_reward = {
+			POL = {
+				country_event = Polonizia.1
+			}
+			country_event = Lutian.8
+		}
+		
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_POLITICAL 		
 		}
 		prerequisite = { focus = lut_thedukesregime  }
 		mutually_exclusive = { focus = lut_offer_a_merge_to_testificas  } 
@@ -253,7 +269,7 @@ focus_tree = {
 		
 		cost = 2
 		completion_reward = {
-			create_faction = lut_faction
+			create_faction = "The Cathramic Resistance"
 			MIC = {
 				country_event = Michava.1
 			}
@@ -686,6 +702,10 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 			add_ideas = Economic_Growth
+			swap_ideas = {
+				remove_idea = economic_collapse
+				add_idea = economic_collapse_2
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -788,10 +808,33 @@ focus_tree = {
 		y = 6
 		cost = 10
 		search_filters = {
-			FOCUS_FILTER_RESEARCH
+			FOCUS_FILTER_RESEARCH 
 		}
 		prerequisite = { focus = lut_robinshardwork  } prerequisite = { focus = lut_urbanized_industrial_zone  }
 	}
+	
+	#Fix the lutian economy
+	focus = {
+		id = lut_fix_the_economy 
+		icon = GFX_goal_unknown
+		x = 35
+		y = 4
+		cost = 10
+		
+		completion_reward = {
+			remove_ideas = economic_collapse_2
+			swap_ideas = {
+				remove_idea = Economic_Growth
+				add_idea = Economic_Boom
+			}
+		}
+		
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = lut_martigpg_factory_expansion  } prerequisite = { focus = lut_arsenal_of_victory  }
+	}
+	
 
 	#Winston's Investment (national spirit)
 	focus = {
@@ -823,12 +866,13 @@ focus_tree = {
 	focus = {
 		id = lut_strengthen_the_army
 		icon = GFX_goal_unknown
-		x = 46
+		x = 44
 		y = 0
 		cost = 10
 		
 		completion_reward = {
 			army_experience = 20
+			add_ideas = Strengthen_the_army
 		}
 		
 		search_filters = {
@@ -836,11 +880,11 @@ focus_tree = {
 		}
 	}
 
-	#Reorganize the Military Industry
+	#Revolutionary Combat Upgrades
 	focus = {
 		id = lut_reorganize_the_military_industry
 		icon = GFX_goal_unknown
-		x = 46
+		x = 44
 		y = 1
 		cost = 10
 		completion_reward = {
@@ -856,22 +900,6 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = lut_strengthen_the_army  }
-	}
-
-	#Rebuild the Army
-	focus = {
-		id = lut_rebuild_the_army
-		icon = GFX_goal_unknown
-		x = 46
-		y = 2
-		cost = 10
-		completion_reward = {
-
-		}
-		search_filters = {
-			FOCUS_FILTER_MANPOWER
-		}
-		prerequisite = { focus = lut_reorganize_the_military_industry  }
 	}
 
 	#Lutian Bombers
@@ -904,7 +932,7 @@ focus_tree = {
 	focus = {
 		id = lut_war_logistics
 		icon = GFX_goal_unknown
-		x = 48
+		x = 46
 		y = 2
 		cost = 10
 		search_filters = {
@@ -917,7 +945,7 @@ focus_tree = {
 	focus = {
 		id = lut_defensive_lines
 		icon = GFX_goal_unknown
-		x = 48
+		x = 46
 		y = 3
 		cost = 10
 		search_filters = {
@@ -936,7 +964,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = lut_reorganize_the_military_industry  }
+		prerequisite = { focus = lut_lutian_aircrafts  }
 	}
 
 	#Improve Coastal Defenses

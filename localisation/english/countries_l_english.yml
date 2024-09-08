@@ -323,9 +323,13 @@
  LOV_absolutist_DEF:1 "the Duchy of Lovvia"
  LOV_absolutist_ADJ:0 "Lovvian"
  
- LUT_absolutist:1 "Herzogtum Lutian"
- LUT_absolutist_DEF:1 "the Herzogtum Lutian"
- LUT_absolutist_ADJ:0 "Lutianese"
+ LUT_monarchist:1 "Herzogtum Lutian"
+ LUT_monarchist_DEF:1 "the Herzogtum Lutian"
+ LUT_monarchist_ADJ:0 "Lutianese"
+ 
+ LPC_monarchist:1 "Lutian-Polonizian Commonwealth"
+ LPC_monarchist_DEF:1 "the Lutian-Polonizian Commonwealth"
+ LPC_monarchist_ADJ:0 "Lutian-Polonizese"
  
  LYN_absolutist:1 "Cynedom of Lynarith"
  LYN_absolutist_DEF:1 "the Cynedom of Lynarith"

@@ -12,7 +12,7 @@ country_event = {
 	#Monarchist path
 	option = {
 		name = "We Must Continue Upholding the Crown" 
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 10 }
 		complete_national_focus = lut_thedukesregime
 		
 		add_popularity = {
@@ -25,6 +25,11 @@ country_event = {
 	option = {
 		name = "Equality for All"
 		complete_national_focus = lut_democratic_way_of_thinking
+		
+		ai_will_do = {
+			factor = 10
+			modifier = {is_historical_focus_on = yes factor = 0}
+		}
 		
 		add_popularity = {
             ideology = conservatist
@@ -46,6 +51,12 @@ country_event = {
 	option = {
 		name = "Our Destiny is Imperial"
 		complete_national_focus = lut_fascism_is_the_only_right_way
+		
+		ai_will_do = {
+			factor = 10
+			modifier = {is_historical_focus_on = yes factor = 0}
+		}
+		
 		add_popularity = {
             ideology = imperialist
             popularity = 0.10
@@ -56,6 +67,12 @@ country_event = {
 	option = {
 		name = "Unite Under the Red Banner"
 		complete_national_focus = lut_communism_shall_rise
+		
+		ai_will_do = {
+			factor = 3
+			modifier = {is_historical_focus_on = yes factor = 0}
+		}
+		
 		add_popularity = {
             ideology = communism
             popularity = 0.10
@@ -138,5 +155,44 @@ country_event = {
 	
 	option = {
 		name = "The only thing left is to win!"
+	}
+}
+
+#Ask Polonizia to united
+country_event = {
+	id = Lutian.8
+	title = "Unite the nations"
+	desc = "We have put forth a proposal to unite with Polonizia, envisioning a future where both nations combine their strengths and resources. The proposal promises a new chapter in our history, where citizens from both lands work together toward a shared goal."
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "The only thing left is to hope they accept"
+	}
+}
+
+#Polonizia accepts
+country_event = {
+	id = Lutian.9
+	title = "Lutian-Polonizian Commonwealth"
+	desc = ""
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "They did the right decision!"
+	}
+}
+
+#Polonizia declined
+country_event = {
+	id = Lutian.10
+	title = "Unfortunate outcome"
+	desc = ""
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "They will regret it..."
 	}
 }

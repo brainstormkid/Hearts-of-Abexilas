@@ -623,6 +623,10 @@
  ERC_prepare_a_new_government_desc:0 "Our current government is incapable of supporting its duties, there needs to be change or we will fall rapidly under internal divides and external pressures."
 
  #Lutian
+ lut_the_sahariyan_victory:0 "The Sahariyan victory!"
+ lut_war_it_is:0 "War it is!"
+ lut_request_for_military_access:0 "Request for military access"
+ lut_ask_for_help:0 "Ask for help"
  lut_our_freedom:0 "Grateful for Freedom"
  lut_our_freedom_desc:0 "After a months as a vassal under Covania, our nation of Lutian has finally achieved its long-sought independence following Covania's defeat."
  lut_cactus_farming:0 "Cactus Farming"
@@ -632,6 +636,7 @@
  lut_thedukesregime:0 "The Duke's Regime"
  lut_thedukesregime_desc:0 "The Duke's Regime"
  lut_strengthen_the_nation:0 "Strengthen the nation"
+ lut_strengthen_the_army:0 "Strengthen the army" 
  lut_strengthen_the_nation_desc:0 "Strengthen the nation"
  lut_offer_a_merge_to_testificas:0 "Offer a merge to Testificas"
  lut_offer_a_merge_to_testificas_desc:0 "Offer a merge to Testificas"
@@ -644,7 +649,7 @@
  lut_thesahariyanmountainsareours:0 "The Sahariyan mountains are ours!"
  lut_thesahariyanmountainsareours_desc:0 "The Sahariyan mountains are ours!"
  lut_demand_the_sahriyan_mountains:0 "Demand The Sahriyan mountains"
- lut_demand_the_sahriyan_mountains_desc:0 "Demand The Sahriyan mountains"
+ lut_demand_the_sahriyan_mountains_desc:0 "Lutian is determined to seize control of the Sahriyan Mountains, a region rich in resources and strategic importance. They have issued a formal ultimatum to Yimra ze Jarazeh, demanding the peaceful transfer of the mountains, citing the region's value to their economic and military goals. "
  lut_democratic_way_of_thinking:0 "Democratic way of thinking"
  lut_democratic_way_of_thinking_desc:0 "Democratic way of thinking"
  lut_people_should_decide_our_faith:0 "People should decide our faith"
@@ -719,9 +724,7 @@
  lut_winstonsinvestmentnationalspirit_desc:0 "Winston's Investment (national spirit)"
  lut_factories_of_tomorrow_2:0 "Factories of Tomorrow 2"
  lut_factories_of_tomorrow_2_desc:0 "Factories of Tomorrow 2"
- lut_strengthen_the_army:0 "Strengthen the army"
- lut_strengthen_the_army_desc:0 "Strengthen the army"
- lut_reorganize_the_military_industry:0 "Reorganize the Military Industry"
+ lut_reorganize_the_military_industry:0 "Revolutionary Combat Upgrades"
  lut_reorganize_the_military_industry_desc:0 "Reorganize the Military Industry"
  lut_rebuild_the_army:0 "Rebuild the Army"
  lut_rebuild_the_army_desc:0 "Rebuild the Army"
@@ -739,6 +742,7 @@
  lut_improve_coastal_defenses_desc:0 "Improve Coastal Defenses"
  lut_improve_shipping_development:0 "Improve Shipping Development"
  lut_improve_shipping_development_desc:0 "Improve Shipping Development"
+ lut_fix_the_economy:0 "Fix the lutian economy"
 
 
 
