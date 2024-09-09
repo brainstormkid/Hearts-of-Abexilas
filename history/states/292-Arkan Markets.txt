@@ -6,10 +6,22 @@ state={
 	}
 	buildings_max_level_factor=1.000
         manpower=1
-        state_category = town
+        state_category = pastoral
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = ARK
 		buildings = {
+			infrastructure = 1
+			9845 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = ARK
 	}
