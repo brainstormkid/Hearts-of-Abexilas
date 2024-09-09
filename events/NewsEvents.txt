@@ -63,10 +63,10 @@ news_event = {
 	
 	option = {
 		name = "news.3.a"
-		hidden_effect = {
-		add_ideas = economic_collapse
-		remove_ideas = economic_boost
-		}
+			swap_ideas = {
+				remove_idea = economic_boost
+				add_idea = economic_collapse
+			}
 	}
 }
 
@@ -83,8 +83,6 @@ news_event = {
 	
 	option = {
 		name = "news.4.a"
-		hidden_effect = {
 		add_ideas = economic_boost
-		}
 	}
 }
