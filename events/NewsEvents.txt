@@ -55,7 +55,7 @@ news_event = {
 	id = news.3
 	title = "news.3.t"
 	desc = "news.3.d"
-	picture = GFX_news_event_001
+	picture = GFX_news_event_003
 	
 	major = yes
 	
@@ -63,6 +63,28 @@ news_event = {
 	
 	option = {
 		name = "news.3.a"
+		hidden_effect = {
 		add_ideas = economic_collapse
+		remove_ideas = economic_boost
+		}
+	}
+}
+
+# Economic Boost
+news_event = {
+	id = news.4
+	title = "news.4.t"
+	desc = "news.4.d"
+	picture = GFX_news_event_004
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "news.4.a"
+		hidden_effect = {
+		add_ideas = economic_boost
+		}
 	}
 }

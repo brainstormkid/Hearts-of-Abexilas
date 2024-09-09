@@ -65,12 +65,15 @@ focus = {
 focus = {
 	id = ARC_finishing_the_july_constitution
 	icon = GFX_focus_hol_the_foundations_of_defense
-	x = 2
+	x = 7
 	y = 1
-	cost = 5
+	cost = 10
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
+	select_effect = {
+		country_event = { id = Arcael.1 days = 30 }
+		}
 	completion_reward = {
 		add_political_power = 100
 	}
@@ -123,6 +126,7 @@ focus = {
 		}
 	prerequisite = { focus = ARC_finishing_the_july_constitution  }
 	mutually_exclusive = { focus = ARC_plot_against_the_emperor  }
+	mutually_exclusive = { focus = ARC_the_fascist_alternative }
 	completion_reward = {
 		add_popularity = {
 			ideology = monarchist
@@ -167,7 +171,8 @@ focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	prerequisite = { focus = ARC_finishing_the_july_constitution  }
-	mutually_exclusive = { focus = ARC_organize_monarchist_rallies  }
+	mutually_exclusive = { focus = ARC_organize_monarchist_rallies }
+	mutually_exclusive = { focus = ARC_the_fascist_alternative }
 	completion_reward = {
 		add_popularity = {
 			ideology = monarchist
@@ -259,32 +264,175 @@ focus = {
 	}
 	prerequisite = { focus = ARC_unite_the_opposition }
 	completion_reward = {
-		set_politics = {
-			ruling_party = neutrality
-			elections_allowed = no
-		}
-		#low legitimacy idea
-		#event for civil war
+		add_stability = -0.2
+		country_event = { id = Arcael.2}
 	}
 }
 
 #A Parliamentary Monarchist Compromise
-focus = [
+focus = {
 	id = ARC_a_parliamentary_monarchist_compromise
-	icon = GFX_focus_generic_monarchy_1
+	icon = GFX_goal_tfv_strengthen_commonwealth_ties
 	x = 7
-	y= 6
+	y = 6
 	cost = 10
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
 	prerequisite = { focus = ARC_depose_the_emperor }
+	mutually_exclusive = { focus = ARC_establish_the_united_states_of_arcael }
+	mutually_exclusive = { focus = ARC_create_a_popular_republic }
+	available = {
+		NOT = {
+			has_civil_war = yes
+		}
+	}
 	completion_reward = {
 		set_politics = {
 			ruling_party = conservatist
 			elections_allowed = no
 		}
+		add_popularity = {
+			ideology = conservatist
+			popularity = 0.20
+		}
+		country_event = { id = Arcael.4 }
 		#Goober I idea
 	}
 }
-	
+
+#The Fascist Alternative
+focus = {
+	id = ARC_the_fascist_alternative
+	icon = GFX_focus_CHL_unify_the_fascist_movements
+	x = 13
+	y = 2
+	cost = 10
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus = ARC_finishing_the_july_constitution }
+	mutually_exclusive = { focus = ARC_organize_monarchist_rallies }
+	mutually_exclusive = { focus = ARC_plot_against_the_emperor }
+	available = {
+		has_government = fascism
+		}
+	completion_reward = {
+		add_stability = 0.1
+		add_war_support = 0.05
+		add_political_power = 50
+	}
+}
+
+#Create A Popular Republic
+focus = {
+	id = ARC_create_a_popular_republic
+	icon = GFX_goal_support_communism
+	x = 4
+	y = 6
+	cost = 5
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus = ARC_depose_the_emperor }
+	mutually_exclusive = { focus = ARC_a_parliamentary_monarchist_compromise }
+	mutually_exclusive = { focus = ARC_establish_the_united_states_of_arcael }
+	available = {
+		NOT = {
+			has_civil_war = yes
+		}
+	}
+	completion_reward = {
+		add_popularity = {
+			ideology = communism
+			popularity = 0.15
+		}
+		add_popularity = {
+			ideology = xeroist
+			popularity = 0.15
+		}
+		add_stability = 0.05
+		country_event = { id = Arcael.4 }
+	}
+}
+
+#Establish the United States of Arcael
+focus = {
+	id = ARC_establish_the_united_states_of_arcael
+	icon = GFX_goal_support_democracy
+	x = 10
+	y = 6
+	cost = 5
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus = ARC_depose_the_emperor }
+	mutually_exclusive = { focus = ARC_a_parliamentary_monarchist_compromise }
+	mutually_exclusive = { focus = ARC_create_a_popular_republic }
+	available = {
+		NOT = {
+			has_civil_war = yes
+		}
+	}
+	completion_reward = {
+		add_popularity = {
+			ideology = centrist
+			popularity = 0.10
+		}
+		add_popularity = {
+			ideology = progressivist
+			popularity = 0.10
+		}
+		add_popularity = {
+			ideology = social_liberalist
+			popularity = 0.10
+		}
+		add_stability = 0.05
+		country_event = { id = Arcael.4 }
+	}
+}
+
+#Address the consituent states
+focus = {
+	id = ARC_address_the_constituent_states
+	icon = GFX_focus_ARG_strengthening_the_concordancia
+	x = 30
+	y = 1
+	cost = 5
+	search_filters = {
+		FOCUS_FILTER_INDUSTRY
+	}
+	completion_reward = {
+		capital_scope = {
+			add_extra_state_shared_building_slots = 2
+		}
+	}
+}
+
+#Develop the capital
+focus = {
+	id = ARC_develop_the_capital
+	icon = GFX_goal_generic_construct_civ_factory
+	x = 35
+	y = 3
+	cost = 5
+	prerequisite = { focus = ARC_address_the_constituent_states }
+	search_filters = {
+		FOCUS_FILTER_INDUSTRY
+	}
+	completion_reward = {
+		capital_scope = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}

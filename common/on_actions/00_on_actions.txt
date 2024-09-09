@@ -3,7 +3,8 @@ on_actions = {
 		effect = {
 			CAS = { news_event = { id = news.1 } }
 			CAS = { news_event = { id = news.2 days = 133 } }
-			CAS = { news_event = { id = news.3 } days = 10 }
+			CAS = { news_event = { id = news.3 days = 79 } }
+			CAS = { news_event = { id = news.4 days = 54 } }
 		}
 	}
 	on_nuke_drop = {

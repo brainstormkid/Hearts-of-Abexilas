@@ -6,10 +6,12 @@ state={
 	}
 	buildings_max_level_factor=1.000
         manpower=250000
-        state_category = rural
+        state_category = town
 	history={
 		owner = SEN
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
 			416 = {
 			bunker = 3
 			}

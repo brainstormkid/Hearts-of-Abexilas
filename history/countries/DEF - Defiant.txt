@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 396
 
 add_ideas = {
 	volunteer_only
@@ -6,23 +6,26 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = absolutist
+	ruling_party = radical_nationalist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	absolutist = 100
+	imperialist = 20
+	conservatist = 30
+	radical_nationalist = 50
 }
 
 create_country_leader = {
-	name = "?"
-	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/AEZ/Panda.dds"
+	name = "KJ"
+	desc = "POLITICS_KJ_DESC"
+	picture = "gfx/leaders/DEF/KJ.dds"
 	expire = "1965.1.1"
-	ideology = absolutist_subtype
+	ideology = radical_nationalist_subtype
 	traits = {
-		#
+		Hawk
+		Rearmament_Proponent	
 	}
 }
 
