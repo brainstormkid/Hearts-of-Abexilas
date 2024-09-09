@@ -47,5 +47,29 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "KJ"
+	desc = "POLITICS_KJ_GAR_DESC"
+	picture = "gfx/leaders/DEF/KJ.dds"
+	expire = "1965.1.1"
+	ideology = radical_nationalist_subtype
+	traits = {
+		Hawk
+		Rearmament_Proponent	
+	}
+}
+
+create_country_leader = {
+	name = "KJ"
+	desc = "POLITICS_KJ_GAR_DESC"
+	picture = "gfx/leaders/DEF/KJ.dds"
+	expire = "1965.1.1"
+	ideology = conservatist_subtype
+	traits = {
+		Hawk
+		Rearmament_Proponent	
+	}
+}
+
 set_stability = 0.75
 set_war_support = 0.1
