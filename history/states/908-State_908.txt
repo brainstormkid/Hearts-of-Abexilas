@@ -29,12 +29,9 @@ state={
 			infrastructure = 5
 			industrial_complex = 5
 			arms_factory = 4
-			anti_air_building = 3
 			supply_node = 1
 			dockyard = 2
-			bunker = 2
-			radar_station = 1
-			air_base = 8
+			air_base = 4
 			575 = {
 				naval_base = 4
 			}
