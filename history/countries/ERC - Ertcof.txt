@@ -29,7 +29,6 @@ set_popularities = {
     xeroist = 0
     theocratic_socialist = 0
     revisionist = 0
-    communist = 0
 
     libertarianist = 0
     centrist = 5
@@ -39,20 +38,19 @@ set_popularities = {
 
     imperialist = 5
     radical_nationalist = 0
-    consulist = 0
 }
 
 recruit_character = ERC_klymon
 recruit_character = ERC_rage
-# recruit_character = ERC_bold
-# recruit_character = ERC_lolko
-# recruit_character = ERC_kokasylt
-# recruit_character = ERC_iustin
-# recruit_character = ERC_artur
-# recruit_character = ERC_amy
-# recruit_character = ERC_fabi
-# recruit_character = ERC_kisvycko
-# recruit_character = ERC_javi
+recruit_character = ERC_bold
+# recruit_character = ERC_lolko     # ToDo
+# recruit_character = ERC_kokasylt  # ToDo
+# recruit_character = ERC_iustin    # ToDo
+# recruit_character = ERC_artur     # ToDo
+# recruit_character = ERC_amy       # ToDo
+# recruit_character = ERC_fabi      # ToDo
+# recruit_character = ERC_kisvycko  # ToDo
+# recruit_character = ERC_javi      # ToDo
 
 create_country_leader = {
 	name = "Klymön Valentinus"

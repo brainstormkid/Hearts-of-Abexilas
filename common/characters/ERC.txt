@@ -68,12 +68,11 @@ characters={
             cost = 100
             slot = political_advisor
             idea_token = [ERC_rage]
-            ledger = civilian [others are e.g. army]
+            ledger = civilian
             allowed = { original_tag = ERC }
             traits = { prince_of_terror }
             available = {
             }
-            ledger = all
             ai_will_do = {
                 factor = 1.0
             }
@@ -84,5 +83,27 @@ characters={
 			desc = POLITICS_RAGE_DESC
 			expire="1965.1.1.1"
 	    }
+    }
+    ERC_bold={
+    	name=ERC_bold
+    	portraits={
+    		civilian={
+    			large="GFX_portrait_ERC_bold"
+    			small="GFX_portrait_ERC_bold_small"
+    		}
+        }
+        advisor={
+            cost = 100
+            slot = political_advisor
+            idea_token = [ERC_bold]
+            ledger = civilian
+            allowed = { original_tag = ERC }
+            traits = { silent_workhorse }
+            available = {
+            }
+            ai_will_do = {
+                factor = 1.0
+            }
+        }
     }
 }
