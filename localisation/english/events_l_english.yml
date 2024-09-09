@@ -68,3 +68,18 @@
  Gardenia_integration.5.d:0 "Integrating Seneca is a tedious task since Seneca is built upon a very decentralized structure. We have two major options on how to deal with this issue, firstly we can use the existing structures building upon this decentralized nature and gaining the support of the few institutions that exist within Seneca, or secondly we can try to build a more centralized structure and though this may be more unstable especially in the short term in the long run it is likely to be more loyal"
  Gardenia_integration.5.a:0 "Gain the support of the existing institutions"
  Gardenia_integration.5.b:0 "Build new institutions"
+ Gardenia_integration.5.b:0 "Build new institutions"
+ 
+ #Arcael events
+ Arcael.1.t:0 "Massive far-right protests"
+ Arcael.1.d:0 "Massive protests were organized today in Saleja and Arcaeus in response to the democratization reforms. While they do not currently represent a significant danger, their radicalization is increasing, and the protests could escalate into a full-blown uprising if nothing is done. What should we do?"
+ Arcael.1.a:0 "Crack down on these protests and launch thourough investigations."
+ Arcael.1.b:0 "Leave them alone, they don't represent an actual threat to us."
+ Arcael.1.b_tt:0 "Not addressing this issue might cause further instability down the line !"
+ Arcael.2.t:0 "The Absolutist Faction strikes back !"
+ Arcael.2.d:0 "Yesterday at 8:00 PM, our forces stormed the imperial bunker in Arcaeus where the Emperor was residing and placed him under house arrest in Shyreland. However, shortly afterward, absolutist militias pushed us out of the capital and took control of several of our empire's kingdoms ! Civil war is now unavoidable."
+ Arcael.2.a:0 "Then war it is !"
+ Arcael.3.t:0 "Fascist Uprising !"
+ Arcael.3.d:0 "Yesterday at 8:00 PM, a Sinsolian fascist commando stormed the imperial bunker in Arcaeus where the Emperor was residing and tried to abduct him. While we managed to rescue our monarch, enemy forces pushed us out of the capital and took control of Sinsol ! Civil war is now unavoidable."
+ Arcael.3.a:0 "Stay with the monarchy !"
+ Arcael.3.b:0 "Go with the fascists !"

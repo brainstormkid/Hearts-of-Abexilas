@@ -1,0 +1,190 @@
+add_namespace = Arcael
+
+#Fascist protests
+country_event = {
+	id = Arcael.1
+	title = Arcael.1.t
+	desc = Arcael.1.d
+	is_triggered_only = yes
+	
+	option = {
+		name = Arcael.1.a
+		add_war_support = -0.1
+		add_stability = -0.05
+		add_political_power = -75
+		}
+	option = {
+		name = Arcael.1.b
+		add_political_power = 25
+		add_stability = 0.025
+		custom_effect_tooltip = Arcael.1.b_tt
+		hidden_effect = {
+			country_event = { id = Arcael.3 days = 30 }
+			}
+		}
+	}
+
+#Republican coup
+country_event = {
+	id = Arcael.2
+	title = Arcael.2.t
+	desc = Arcael.2.d
+	picture = GFX_report_event_ger_civil_war
+	is_triggered_only = yes
+	
+	option = {
+		name = Arcael.2.a
+		set_capital = { 
+			state = 748
+			remember_old_capital = no
+		}
+		start_civil_war = {
+			ruling_party = neutrality
+			ideology = absolutist
+			size = 0.4
+			army_ratio = 0.4
+			navy_ratio = 0.7
+			capital = 693
+			states = { 737 693 698 703 }
+		}
+		add_popularity = {
+			ideology = absolutist
+			popularity = -0.3
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = -0.3
+		}
+		ARC_provisional_government = {
+			add_country_leader_role = {
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = despotism
+				}
+				promote_leader = yes
+			}
+		}
+		hidden_effect = {
+			random_other_country = {
+				limit = {
+					original_tag = ARC
+					has_government = absolutist
+				}
+				save_event_target_as = absolutist_arcael_civil_war
+				set_stability = 0.8
+				set_war_support = 1
+				remove_ideas = the_disunited_empire
+				}
+			set_nationality = {
+				target_country = event_target:absolutist_arcael_civil_war
+				character = ARC_kvets_prijzleg
+			}
+		}
+	}
+}
+
+#Fascist uprising
+country_event = {
+	id = Arcael.3
+	title = Arcael.3.t
+	desc = Arcael.3.d
+	is_triggered_only = yes
+#stay with the monarchy	
+	option = {
+		name = Arcael.3.a
+		ai_chance = {
+			factor = 0
+		}
+		set_capital = { 
+			state = 699
+			remember_old_capital = no			
+		}
+		start_civil_war = {
+			ruling_party = monarchist
+			ideology = fascist
+			size = 0.4
+			army_ratio = 0.4
+			navy_ratio = 0.7	
+			capital = 693
+			states = { 737 693 }
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = -0.4
+		}
+		hidden_effect = {
+			random_other_country = {
+				limit = {
+					original_tag = ARC
+					has_government = fascism
+				}
+				save_event_target_as = fascism_arcael_civil_war
+				set_stability = 0.8
+				set_war_support = 0.6
+				remove_ideas = the_disunited_empire
+			}
+		}	
+	}
+#go with the fascists	
+	option = {
+		name = Arcael.3.b
+		ai_chance = {
+			factor = 100
+		}
+		set_capital = { 
+			state = 693
+			remember_old_capital = no			
+		}
+		start_civil_war = {
+			ruling_party = fascism
+			ideology = monarchist
+			size = 0.4
+			army_ratio = 0.4
+			navy_ratio = 0.7
+			capital = 699
+			states = { 699 698 703 745 748 }
+		}
+		add_stability = -0.25
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.4
+		}
+		hidden_effect = {
+			random_other_country = {
+				limit = {
+					original_tag = ARC
+					has_government = monarchist
+				}
+				save_event_target_as = monarchist_arcael_civil_war
+				set_stability = 0.8
+				set_war_support = 0.6
+				remove_ideas = the_disunited_empire
+			}
+		}
+	}
+}
+
+#The question of the capital
+country_event = {
+	id = Arcael.4
+	title = Arcael.4.t
+	desc = Arcael.4.d
+	is_triggered_only = yes
+#Arcaeus
+	option = {
+		name = Arcael.4.a
+		set_capital = { 
+			state = 737
+			remember_old_capital = no
+		}
+	}
+#Shyreland
+	option = {
+		name = Arcael.4.b
+		set_capital = { 
+			state = 748
+			remember_old_capital = no
+		}
+	}
+}
+		
