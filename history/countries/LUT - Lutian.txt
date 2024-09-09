@@ -21,6 +21,7 @@ set_popularities = {
 	conservatist = 7
 	communism = 1
 }
+
 create_country_leader = {
 	name = "Jostepher"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"

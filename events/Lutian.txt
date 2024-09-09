@@ -59,7 +59,7 @@ country_event = {
 		
 		add_popularity = {
             ideology = imperialist
-            popularity = 0.10
+            popularity = 0.1
         }
 	}
 	

@@ -291,7 +291,7 @@ focus_tree = {
 		
 		cost = 2
 		completion_reward = {
-
+			add_political_power = 30
 		}
 		
 		mutually_exclusive = { focus = lut_war_it_is  } 
@@ -624,7 +624,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 36
 		y = 0
-		cost = 7.2
+		cost = 10
 		completion_reward = {
 			504 = {
 				add_building_construction = {
@@ -651,7 +651,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 35
 		y = 1
-		cost = 7.2
+		cost = 10
 		completion_reward = {
 			random_owned_state = {
 				add_extra_state_shared_building_slots = 2
@@ -674,7 +674,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 37
 		y = 1
-		cost = 7.2
+		cost = 10
 		
 		completion_reward = {		
 			random_owned_state = {
@@ -702,10 +702,6 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 			add_ideas = Economic_Growth
-			swap_ideas = {
-				remove_idea = economic_collapse
-				add_idea = economic_collapse_2
-			}
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -719,7 +715,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 36
 		y = 3
-		cost = 7.2
+		cost = 10
 		completion_reward = {
 		    add_tech_bonus = {
 				name = infantry_artillery_bonus
@@ -741,7 +737,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 34
 		y = 3
-		cost = 7.2
+		cost = 10
 		
 		completion_reward = {
 			random_owned_state = {
@@ -822,7 +818,6 @@ focus_tree = {
 		cost = 10
 		
 		completion_reward = {
-			remove_ideas = economic_collapse_2
 			swap_ideas = {
 				remove_idea = Economic_Growth
 				add_idea = Economic_Boom
@@ -832,7 +827,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = lut_martigpg_factory_expansion  } prerequisite = { focus = lut_arsenal_of_victory  }
+		prerequisite = { focus = lut_martigpg_factory_expansion } 
+		prerequisite = {focus = lut_arsenal_of_victory}
 	}
 	
 
@@ -906,33 +902,33 @@ focus_tree = {
 	focus = {
 		id = lut_lutian_bombers
 		icon = GFX_goal_unknown
-		x = 44
+		x = 50
 		y = 2
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = lut_reorganize_the_military_industry  }
+		prerequisite = {   }
 	}
 
 	#Lutian Aircrafts
 	focus = {
 		id = lut_lutian_aircrafts
 		icon = GFX_goal_unknown
-		x = 42
+		x = 52
 		y = 2
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = lut_reorganize_the_military_industry  }
+		prerequisite = {   }
 	}
 
 	#War Logistics
 	focus = {
 		id = lut_war_logistics
 		icon = GFX_goal_unknown
-		x = 46
+		x = 45
 		y = 2
 		cost = 10
 		search_filters = {
@@ -945,7 +941,7 @@ focus_tree = {
 	focus = {
 		id = lut_defensive_lines
 		icon = GFX_goal_unknown
-		x = 46
+		x = 45
 		y = 3
 		cost = 10
 		search_filters = {
@@ -958,7 +954,7 @@ focus_tree = {
 	focus = {
 		id = lut_lutian_fleet
 		icon = GFX_goal_unknown
-		x = 42
+		x = 52
 		y = 3
 		cost = 10
 		search_filters = {
@@ -971,7 +967,7 @@ focus_tree = {
 	focus = {
 		id = lut_improve_coastal_defenses
 		icon = GFX_goal_unknown
-		x = 41
+		x = 51
 		y = 4
 		cost = 10
 		search_filters = {
@@ -984,7 +980,7 @@ focus_tree = {
 	focus = {
 		id = lut_improve_shipping_development
 		icon = GFX_goal_unknown
-		x = 43
+		x = 53
 		y = 4
 		cost = 10
 		search_filters = {
