@@ -5,11 +5,26 @@ state={
 		2782 5872 9886 9888 9895 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=550000
+        state_category = large_city
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = JAZ
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			9886 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = JAZ
 	}
