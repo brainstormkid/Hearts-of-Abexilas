@@ -156,6 +156,10 @@ focus = {
 			traits = {
 			
 			}
+		add_popularity = {
+			ideology = conservatist
+			popularity = 0.20
+		}
 		}
 	}
 	
@@ -169,8 +173,28 @@ focus = {
 		cost = 3
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		search_filters = {FOCUS_FILTER_HISTORICAL}
+		search_filters = {FOCUS_FILTER_ANNEXATION}
 		completion_reward = {
+		annex_country = {
+		target = DEF
+		transfer_troops = yes
+		}
+		add_state_core = 396
+		add_state_core = 436
+		add_state_core = 418
 		add_stability = -0.05
+		add_popularity = {
+			ideology = conservatist
+			popularity = 0.10
+		}
+		set_politics = {
+			ruling_party = conservatist
+			elections_allowed = yes
+			last_election = "2.7.1"
+			election_frequency = 48
+			long_name = "Defiant Leadership Party"
+			name = DLP
+		}
 		}
 		prerequisite = { focus = GAR_venny_gone }
 		mutually_exclusive = { focus  = GAR_abandon_merge }
