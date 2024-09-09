@@ -5,11 +5,21 @@ state={
 		118 1901 2239 6290 9896 9898 9903 9905 9909 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=400000
         state_category = town
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = ZAI
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
 		}
 		add_core_of = ZAI
 	}
