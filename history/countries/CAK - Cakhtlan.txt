@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 507
+
+oob = "CAK"
 
 add_ideas = {
 	volunteer_only
@@ -35,3 +37,5 @@ add_opinion_modifier = {
     target = HOD
     modifier = faunic_opinion_modifier
 }
+
+set_convoys = 10
