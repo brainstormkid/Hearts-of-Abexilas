@@ -1,4 +1,77 @@
 ﻿l_english:
+ #Cathramis Ideas
+ Cathramis_Continental_Member:0 "Cathramis Continental Hub Member"
+ Cathramis_Continental_Member_desc:0 "Welcome to the Cathramis Continental Hub, a server built for discussions of geopolitics, international events, and to display Cathramis art, architecture and writing!\n\nMade originally to discuss a Non-Aggression Pact in Southern Cathelet, the Cathramis Continental Hub has expanded to a hub for all nations on the continent of Cathramis."
+ 
+# Gardenia ideas
+ Kaevan_Theocracy:0 "Kaevan Theocracy"
+ Kaevan_Theorcracy_desc:0 "Ever since our founding has our nation been a melting pot of many cultures and religions, all these conflicting ideas and faiths have been reformed into a singular pantheon by Kaeva K.a Tekaya-Velaran "The Faithful", causing stability in the religious part of Gardenian society."
+ Legacy_of_the_Drakaes:0 "Legacy of the Drakaes"
+ Legacy_of_the_Drakaes_desc:0 "Of all the nations  on the subcontinent of Cathelet, Gardenia stands out as one of the oldest ones. While it's continued existence has not been wholly conventional, Gardenia's origins in Eldham's middle period and persistence of its existence distinguishes itself among the many nations of Cathelet. On Eldham, Gardenia began through its two predecessor states: the Mercantile Republic of Velenu established itself through the bloodless December Schism against the Technocracy of Aquatos, slowly managing to carve its way across the Urakiend islands. At the same time the territories that would become Nyr Villhorn saw the establishment of the Rosthorn Family, of which Venipher Velaran, then Venipher Rosthorn, was a prominent member of. Through these two states, Gardenia found itself split between Phoros to its south, but more importantly, the Drakaesland to its north, of which the nation would have a long history with.While Velenu had a long history with the states of the Drakaesland, being a member of the League of Vircon, Gardenia through its cultural revolution saw the seeping of Drakaen values and ideals into its manner of government, language, and its people. In the end, Gardenia believed in upholding the ideals of a multicultural and multiethnic society bound together by Drakaen nationalism and the goodwill of its Empress. But with no dragon to turn to, Gardenia itself took up the mantel of the successor of the Drakaesland, and the goal of spreading its own unique blend of Gardenian-Drakaen idealism."
+ Breakaway_state:0 "Breakaway State"
+ Breakaway_state_desc:0 ""
+
+# Leyenbourg ideas
+ provisional_government:0 "Provisional Government"
+ provisional_government_desc:0 "After the Collapse of the Kingdom of Telùne the Duchy of Leyenbourg was left in shambles, with many of it former leaders gone so its stability. A small provisional government is now in charge of the parliament"
+ father_of_railways:0 "Father of Railways"
+ father_of_railways_desc:0 "It is to be told the first modern railway was constructed here."
+ imperial_capital:0 "Imperial Capital"
+ imperial_capital_desc:0 "Flourishing Capital of Leyenbourg-City is the regional hub of arts and architecture "
+
+# Ertcof ideas
+ high_immigration:0 "High Immigration"
+ high_immigration_desc:0 "The lands of Erte are fertile, forested and pleasant; an almost perfect place for Ratham's migrants to settle."
+ agrarian_society:0 "Agrarian Society"
+ agrarian_society_desc:0 "Ertcof is and has always been a nation of farmers. While they don't need help to feed themselves, the people would rather cultivate the land than go at war in another country."
+ ertcofi_neutrality:0 "Ertcofi Neutrality"
+ ertcofi_neutrality_desc:0 "Ertcof maintains a neutral foreign policy in order to maintain its trade."
+ johns_mark:0 "John's Mark"
+ johns_mark_desc:0 "John left Arkstadt unprotected, leaving it to be ravaged by squatters and looters. It is now just a collection of ruins in the Cofhan countryside."
+ johns_mark_2:0 "John's Mark"
+ johns_mark_2_desc:0 "John left Arkstadt unprotected, leaving it to be ravaged by squatters and looters. It is now just a collection of ruins in the Cofhan countryside."
+ johns_mark_3:0 "John's Mark"
+ johns_mark_3_desc:0 "John left Arkstadt unprotected, leaving it to be ravaged by squatters and looters. It is now just a collection of ruins in the Cofhan countryside."
+ abolished_ecmr:0 "Abolished the ECMR"
+ abolished_ecmr_desc:0 "The ECMR was a pointless system that no one used. Good riddance!"
+ maintained_ecmr:0 "Maintained the ECMR"
+ maintained_ecmr_desc:0 "The ECMR has been repurposed and expanded to cover more industries."
+
+# Arcael ideas
+ the_disunited_empire:0 "The Disunited Empire"
+ the_disunited_empire_desc:0 "Despite its name, the United Empire of Arcael suffers from a lot of rivalry between its constituent kingdoms."
+ soldiers_of_the_mountains:0 "Soldiers of the Mountains"
+ soldiers_of_the_mountains_desc:0 "This nation's territory consists primarily of peaks and glaciers, and its army has adapted accordingly."
+ settlernative_distrust:0 "Settler-Native Distrust"
+ settlernative_distrust_desc:0 "Although natives are equal to Soolians on paper, they are often neglected by their overlords, and as a result, they do not participate in most civic duties."
+ protected_native_cultural_site:0 "Protected Native Cultural Site"
+ protected_native_cultural_site_desc:0 "Officially protecting cultural sites from economic exploitation was a great step in the right direction, but there is still much more to accomplish."
+ full_native_integration:0 "Full Native Integration"
+ full_native_integration_desc:0 "Finally, the natives of Arcael stand on equal ground with the Eldhamite settlers, and both peoples are already enjoying a new era of cooperation."
+
+# Myrtana ideas
+ great_divide:0 "The Great Divide"
+ great_divide_desc:0 "Our nation has for most part of history peaceful with full cooperation between people and the government, however ever since Ravian came into power, multiple parties started to become really hostile to each other, each becoming more and more dangerous. With all of them sharing the same goal, overthrow the King."
+
+# Akashiro ideas
+ the_ancestral_clans:0 "The Ancestral Clans"
+ the_ancestral_clans_desc:0 "The Ancestral Clans, the four major clans of the Akashiro Shogunate who wield an immense amount of power and are able to influence the nation in ways that neither the Shigen-sha nor Shogun are able to ignore. The Fujishina clan holds major swathes of influence over their core lands in Saniroshi, Waridon and Kelsatti. The Morimoto clan mostly being in control of specific neighbourhoods and suburbs inside of Tennyoku itself. The Kirumasa clan being in major control of the eastern parts of the core Akashiren lands, such as Kayoto, Kirea and Kayoto Port. The most important clan of them all, the Akashiro clan being both the Shigen-sha, Shikken and the Shogun, naturally in 'control' of all of the Akashiro Shogunate, but that may change in the future..."
+ traditionalist_society:0 "Traditionalist Society"
+ traditionalist_society_desc:0 "The Akashiro Shogunate is both a progressive force to be reckoned with, but also a traditionally backwards society, with majority of the rural regions being stuck in their traditional ways and beliefs."
+ shigensha_figurehead:0 "Shigen-sha Figurehead"
+ shigensha_figurehead_desc:0 "The Shigen-sha of Tennyoku, the largest and most influential religious figure of the Tenshin religion, which is the official state religion within the Akashiro Shogunate, and followed by a huge majority within the realm itself. He's seen as the embodiment of the wishes of both Dejelkhai and Ryula, which most Akashirens worship as the guardian deities of the Tenshin faith, and Akashiren realm."
+ home_of_the_tenshin:0 "Home of Tenshin"
+ home_of_the_tenshin_desc:0 "The Tenshin faith is the state religion of Akashiro, and followed my a huge majority within the Akashiren realm itself. The deities Dejelkhai and Ryula are heavily worshipped, with people worshipping usually only one of them, but nonetheless they are both viewed as the moral guides of life."
+ all_power_to_the_shogun:0 "All Power To The Shogun"
+ all_power_to_the_shogun_desc:0 "The Shogun of Akashiro, an incredibly prestigious and powerful title which very few have ever had the luxury of holding, but this luxury certainly comes with baggage - as the Akashiren realm is not only divided, but split between the Ancestral Clans."
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  fascist_influence:0 "Fascist Influence"
  fascist_influence_desc:0 "Fascist pressure has made fascism very popular, and the country is susceptible to align with other fascists."
  communist_influence:0 "Communist Influence"
@@ -175,68 +248,3 @@
  partisan_suppression_focus:0 "Partisan Suppression"
  imperial_austerity_idea:0 "Imperial Austerity"
  student_mobilization_idea:0 "Student Mobilization"
- 
-#Cathramis Ideas
- Cathramis_Continental_Member:0 "Cathramis Continental Hub Member"
- Cathramis_Continental_Member_desc:0 "Welcome to the Cathramis Continental Hub, a server built for discussions of geopolitics, international events, and to display Cathramis art, architecture and writing!\n\nMade originally to discuss a Non-Aggression Pact in Southern Cathelet, the Cathramis Continental Hub has expanded to a hub for all nations on the continent of Cathramis."
- 
-# Gardenia ideas
- Kaevan_Theocracy:0 "Kaevan Theocracy"
- Kaevan_Theorcracy_desc:0 "Ever since our founding has our nation been a melting pot of many cultures and religions, all these conflicting ideas and faiths have been reformed into a singular pantheon by Kaeva K.a Tekaya-Velaran "The Faithful", causing stability in the religious part of Gardenian society."
- Legacy_of_the_Drakaes:0 "Legacy of the Drakaes"
- Legacy_of_the_Drakaes_desc:0 "Of all the nations  on the subcontinent of Cathelet, Gardenia stands out as one of the oldest ones. While it's continued existence has not been wholly conventional, Gardenia's origins in Eldham's middle period and persistence of its existence distinguishes itself among the many nations of Cathelet. On Eldham, Gardenia began through its two predecessor states: the Mercantile Republic of Velenu established itself through the bloodless December Schism against the Technocracy of Aquatos, slowly managing to carve its way across the Urakiend islands. At the same time the territories that would become Nyr Villhorn saw the establishment of the Rosthorn Family, of which Venipher Velaran, then Venipher Rosthorn, was a prominent member of. Through these two states, Gardenia found itself split between Phoros to its south, but more importantly, the Drakaesland to its north, of which the nation would have a long history with.While Velenu had a long history with the states of the Drakaesland, being a member of the League of Vircon, Gardenia through its cultural revolution saw the seeping of Drakaen values and ideals into its manner of government, language, and its people. In the end, Gardenia believed in upholding the ideals of a multicultural and multiethnic society bound together by Drakaen nationalism and the goodwill of its Empress. But with no dragon to turn to, Gardenia itself took up the mantel of the successor of the Drakaesland, and the goal of spreading its own unique blend of Gardenian-Drakaen idealism."
- Breakaway_state:0 "Breakaway State"
- Breakaway_state_desc:0 ""
-
-# Leyenbourg ideas
- provisional_government:0 "Provisional Government"
- provisional_government_desc:0 "After the Collapse of the Kingdom of Telùne the Duchy of Leyenbourg was left in shambles, with many of it former leaders gone so its stability. A small provisional government is now in charge of the parliament"
- father_of_railways:0 "Father of Railways"
- father_of_railways_desc:0 "It is to be told the first modern railway was constructed here."
- imperial_capital:0 "Imperial Capital"
- imperial_capital_desc:0 "Flourishing Capital of Leyenbourg-City is the regional hub of arts and architecture "
-
-# Ertcof ideas
- high_immigration:0 "High Immigration"
- high_immigration_desc:0 "The lands of Erte are fertile, forested and pleasant; an almost perfect place for Ratham's migrants to settle."
- agrarian_society:0 "Agrarian Society"
- agrarian_society_desc:0 "Ertcof is and has always been a nation of farmers. While they don't need help to feed themselves, the people would rather cultivate the land than go at war in another country."
- ertcofi_neutrality:0 "Ertcofi Neutrality"
- ertcofi_neutrality_desc:0 "Ertcof maintains a neutral foreign policy in order to maintain its trade."
- johns_mark:0 "John's Mark"
- johns_mark_desc:0 "John left Arkstadt unprotected, leaving it to be ravaged by squatters and looters. It is now just a collection of ruins in the Cofhan countryside."
- johns_mark_2:0 "John's Mark"
- johns_mark_2_desc:0 "John left Arkstadt unprotected, leaving it to be ravaged by squatters and looters. It is now just a collection of ruins in the Cofhan countryside."
- johns_mark_3:0 "John's Mark"
- johns_mark_3_desc:0 "John left Arkstadt unprotected, leaving it to be ravaged by squatters and looters. It is now just a collection of ruins in the Cofhan countryside."
- abolished_ecmr:0 "Abolished the ECMR"
- abolished_ecmr_desc:0 "The ECMR was a pointless system that no one used. Good riddance!"
- maintained_ecmr:0 "Maintained the ECMR"
- maintained_ecmr_desc:0 "The ECMR has been repurposed and expanded to cover more industries."
-
-# Arcael ideas
- the_disunited_empire:0 "The Disunited Empire"
- the_disunited_empire_desc:0 "Despite its name, the United Empire of Arcael suffers from a lot of rivalry between its constituent kingdoms."
- soldiers_of_the_mountains:0 "Soldiers of the Mountains"
- soldiers_of_the_mountains_desc:0 "This nation's territory consists primarily of peaks and glaciers, and its army has adapted accordingly."
- settlernative_distrust:0 "Settler-Native Distrust"
- settlernative_distrust_desc:0 "Although natives are equal to Soolians on paper, they are often neglected by their overlords, and as a result, they do not participate in most civic duties."
- protected_native_cultural_site:0 "Protected Native Cultural Site"
- protected_native_cultural_site_desc:0 "Officially protecting cultural sites from economic exploitation was a great step in the right direction, but there is still much more to accomplish."
- full_native_integration:0 "Full Native Integration"
- full_native_integration_desc:0 "Finally, the natives of Arcael stand on equal ground with the Eldhamite settlers, and both peoples are already enjoying a new era of cooperation."
-# Myrtana ideas
- great_divide:0 "The Great Divide"
- great_divide_desc:0 "Our nation has for most part of history peaceful with full cooperation between people and the government, however ever since Ravian came into power, multiple parties started to become really hostile to each other, each becoming more and more dangerous. With all of them sharing the same goal, overthrow the King."
-
-# Akashiro ideas
- the_ancestral_clans:0 "The Ancestral Clans"
- the_ancestral_clans_desc:0 "The Ancestral Clans, the four major clans of the Akashiro Shogunate who wield an immense amount of power and are able to influence the nation in ways that neither the Shigen-sha nor Shogun are able to ignore. The Fujishina clan holds major swathes of influence over their core lands in Saniroshi, Waridon and Kelsatti. The Morimoto clan mostly being in control of specific neighbourhoods and suburbs inside of Tennyoku itself. The Kirumasa clan being in major control of the eastern parts of the core Akashiren lands, such as Kayoto, Kirea and Kayoto Port. The most important clan of them all, the Akashiro clan being both the Shigen-sha, Shikken and the Shogun, naturally in 'control' of all of the Akashiro Shogunate, but that may change in the future..."
- traditionalist_society:0 "Traditionalist Society"
- traditionalist_society_desc:0 "The Akashiro Shogunate is both a progressive force to be reckoned with, but also a traditionally backwards society, with majority of the rural regions being stuck in their traditional ways and beliefs."
- shigensha_figurehead:0 "Shigen-sha Figurehead"
- shigensha_figurehead_desc:0 "The Shigen-sha of Tennyoku, the largest and most influential religious figure of the Tenshin religion, which is the official state religion within the Akashiro Shogunate, and followed by a huge majority within the realm itself. He's seen as the embodiment of the wishes of both Dejelkhai and Ryula, which most Akashirens worship as the guardian deities of the Tenshin faith, and Akashiren realm."
- home_of_the_tenshin:0 "Home of Tenshin"
- home_of_the_tenshin_desc:0 "The Tenshin faith is the state religion of Akashiro, and followed my a huge majority within the Akashiren realm itself. The deities Dejelkhai and Ryula are heavily worshipped, with people worshipping usually only one of them, but nonetheless they are both viewed as the moral guides of life."
- all_power_to_the_shogun:0 "All Power To The Shogun"
- all_power_to_the_shogun_desc:0 "The Shogun of Akashiro, an incredibly prestigious and powerful title which very few have ever had the luxury of holding, but this luxury certainly comes with baggage - as the Akashiren realm is not only divided, but split between the Ancestral Clans."
