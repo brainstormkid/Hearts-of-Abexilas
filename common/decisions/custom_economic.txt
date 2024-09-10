@@ -10,11 +10,15 @@ economic_disaster_category = {
 		}
 		
 		available = {
-			OR = {
 				NOT = {
 					has_idea = economic_collapse
 				}
-			}
+				NOT = {
+					has_idea = economic_collapse_1
+				}
+				NOT = {
+					has_idea = economic_collapse_2
+				}
 		}
 		
 		days_mission_timeout = 350

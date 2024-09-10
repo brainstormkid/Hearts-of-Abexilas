@@ -28,6 +28,58 @@ ideas = {
 				repair_speed_factor = -0.2
 			}
 		}
+		economic_collapse_1 = {
+			picture = economic_collapse
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.15
+				industrial_capacity_factory = -0.075
+				production_speed_building_factor = -0.20
+				consumer_goods_factor = 0.3
+				production_factory_efficiency_gain = -0.075
+				license_production_speed = -0.075
+				line_change_production_efficiency_factor = -0.075
+				production_speed_industrial_complex_factor = -0.2
+				production_speed_arms_factory_factor = -0.4
+				production_speed_dockyard_factor = -0.2
+				max_fuel_factor = -0.15
+				fuel_gain_factor = -0.075
+				conversion_cost_civ_to_mil_factor= 0.15
+				conversion_cost_mil_to_civ_factor = 0.15
+				political_power_factor = -0.1
+				repair_speed_factor = -0.15
+			}
+		}
+		economic_collapse_2 = {
+			picture = economic_collapse
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.1
+				industrial_capacity_factory = -0.05
+				production_speed_building_factor = -0.15
+				consumer_goods_factor = 0.20
+				production_factory_efficiency_gain = -0.05
+				license_production_speed = -0.05
+				line_change_production_efficiency_factor = -0.05
+				production_speed_industrial_complex_factor = -0.15
+				production_speed_arms_factory_factor = -0.25
+				production_speed_dockyard_factor = -0.15
+				max_fuel_factor = -0.1
+				fuel_gain_factor = -0.05
+				conversion_cost_civ_to_mil_factor= 0.1
+				conversion_cost_mil_to_civ_factor = 0.1
+				political_power_factor = -0.05
+				repair_speed_factor = -0.1
+			}
+		}
 		economic_boost = {
 			picture = economic_boost
 			allowed = {
@@ -85,7 +137,7 @@ ideas = {
 				fuel_gain_factor = -0.2
 				conversion_cost_civ_to_mil_factor= 0.4
 				conversion_cost_mil_to_civ_factor = 0.4
-				political_power_factor = -0.3
+				political_power_factor = -0.8
 				production_speed_buildings_factor = -0.1
 				conscription_factor = -0.1
 				repair_speed_factor = -0.4

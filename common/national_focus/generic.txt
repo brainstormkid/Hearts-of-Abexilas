@@ -954,6 +954,10 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		
 		available_if_capitulated = yes
+		
+		available = {
+			has_idea = economic_collapse
+		}
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -962,10 +966,14 @@ focus_tree = {
 				uses = 1
 				category = industry
 			}
+			swap_ideas = {
+				add_idea = economic_collapse_1
+				remove_idea = economic_collapse
+			}
 		}
 
 		ai_will_do = {
-			factor = 3
+			factor = 6
 			modifier = {
 				factor = 0
 				date < 1939.1.1
@@ -1003,7 +1011,7 @@ focus_tree = {
 
 		
 		ai_will_do = {
-			factor = 2
+			factor = 4
 		}
 
 		bypass = {
@@ -1058,6 +1066,10 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
+			}
+			swap_ideas = {
+				add_idea = economic_collapse_2
+				remove_idea = economic_collapse_1
 			}
 		}
 	}
@@ -1151,7 +1163,7 @@ focus_tree = {
 
 
 		ai_will_do = {
-			factor = 2
+			factor = 4
 		}
 
 		bypass = {
@@ -1207,6 +1219,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			remove_ideas = economic_collapse_2
 		}
 	}
 

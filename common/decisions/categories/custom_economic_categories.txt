@@ -12,6 +12,8 @@ economic_disaster_category = {
 	visible = {
 		OR = {
 			has_idea = economic_collapse
+			has_idea = economic_collapse_1
+			has_idea = economic_collapse_2
 		}
 	}
 }
