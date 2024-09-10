@@ -53,6 +53,14 @@
  great_divide:0 "The Great Divide"
  great_divide_desc:0 "Our nation has for most part of history peaceful with full cooperation between people and the government, however ever since Ravian came into power, multiple parties started to become really hostile to each other, each becoming more and more dangerous. With all of them sharing the same goal, overthrow the King."
 
+ # Lutian
+ Economic_Growth:0 "Economic Growth"
+ Economic_Growth_desc:0 "The nation is experiencing a period of strong economic expansion, leading to enhanced industrial output and increased productivity across various sectors. The improved economy boosts consumer confidence, driving a slight increase in the number of consumer goods factories. At the same time, the enhanced construction efficiency and production capabilities allow for faster industrial development and greater output from existing factories."
+ Strengthen_the_army:0 "Strengthen the army"
+ Economic_Growth_desc:0 "To secure our nation's future, we must fortify our military capabilities. By investing in advanced training programs , we aim to enhance our army's effectiveness on the battlefield. This focus will increase the combat effectiveness of our divisions, ensuring we are better prepared for any threat."
+ economic_collapse_2:0 "Economic Challenges"
+ Economic_Boom:0 "Economic Boom"
+
 # Akashiro ideas
  the_ancestral_clans:0 "The Ancestral Clans"
  the_ancestral_clans_desc:0 "The Ancestral Clans, the four major clans of the Akashiro Shogunate who wield an immense amount of power and are able to influence the nation in ways that neither the Shigen-sha nor Shogun are able to ignore. The Fujishina clan holds major swathes of influence over their core lands in Saniroshi, Waridon and Kelsatti. The Morimoto clan mostly being in control of specific neighbourhoods and suburbs inside of Tennyoku itself. The Kirumasa clan being in major control of the eastern parts of the core Akashiren lands, such as Kayoto, Kirea and Kayoto Port. The most important clan of them all, the Akashiro clan being both the Shigen-sha, Shikken and the Shogun, naturally in 'control' of all of the Akashiro Shogunate, but that may change in the future..."
@@ -64,6 +72,12 @@
  home_of_the_tenshin_desc:0 "The Tenshin faith is the state religion of Akashiro, and followed my a huge majority within the Akashiren realm itself. The deities Dejelkhai and Ryula are heavily worshipped, with people worshipping usually only one of them, but nonetheless they are both viewed as the moral guides of life."
  all_power_to_the_shogun:0 "All Power To The Shogun"
  all_power_to_the_shogun_desc:0 "The Shogun of Akashiro, an incredibly prestigious and powerful title which very few have ever had the luxury of holding, but this luxury certainly comes with baggage - as the Akashiren realm is not only divided, but split between the Ancestral Clans."
+ 
+ #Economy
+ economic_collapse:0 "The Great Gold Strain"
+ economic_collapse_desc:0 "The Economy has Collapses :0\n\n§RShits Fucked§!"
+ economic_boost:0 "Economic Boost"
+ economic_boost_desc:0 "The Economy has been boosted :0"
  
  
  
