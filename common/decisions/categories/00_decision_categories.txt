@@ -12,23 +12,6 @@ debug_decisions = {
 		}
 	}
 }
-economic_disaster = {
-	icon = generic_economy
-
-	visible = {
-		has_idea = economic_collapse
-	}
-}
-
-
-
-
-
-
-
-
-
-
 propaganda_efforts = {
 	icon = generic_propaganda
 

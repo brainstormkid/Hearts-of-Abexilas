@@ -1,0 +1,18 @@
+#################
+#### Economic Disaster ####
+#################
+
+economic_disaster_category = {
+	icon = generic_economy
+
+	priority = {
+		base = 3
+	}
+
+	visible = {
+		OR = {
+			has_idea = economic_collapse
+		}
+	}
+}
+

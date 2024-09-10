@@ -1,0 +1,36 @@
+#Category only allowed for custom economic
+economic_disaster_category = {
+
+	economic_recovery = {
+
+		icon = generic_scorched_earth
+
+		activation = {
+			has_idea = economic_collapse
+		}
+		
+		available = {
+			OR = {
+				NOT = {
+					has_idea = economic_collapse
+				}
+			}
+		}
+		
+		days_mission_timeout = 350
+		fire_only_once = yes
+		selectable_mission = no
+
+		timeout_effect = {
+			add_timed_idea = {
+				idea = economic_disaster
+				days = 365
+			}
+			hidden_effect = {
+				remove_idea = economic_collapse
+			}
+		}
+	}
+	
+}
+

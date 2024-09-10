@@ -2,15 +2,6 @@ ideas = {
 	country = {
 		economic_collapse = {
 			picture = economic_collapse
-			allowed = {
-				TAG = 
-			}
-			
-			available = {
-			}
-			
-			cancel = {
-			}
 			
 			allowed_civil_war = {
 				always = yes
@@ -35,8 +26,8 @@ ideas = {
 				production_speed_buildings_factor = -0.05
 				conscription_factor = -0.05
 				repair_speed_factor = -0.2
+			}
 		}
-	}
 		economic_boost = {
 			picture = economic_boost
 			allowed = {
@@ -67,7 +58,38 @@ ideas = {
 				production_speed_buildings_factor = 0.10
 				conscription_factor = 0.05
 				repair_speed_factor = 0.05
+			}
+		}
+		economic_disaster = {
+			picture = economic_collapse
+			
+			cancel = {
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.40
+				industrial_capacity_factory = -0.20
+				production_speed_building_factor = -0.60
+				consumer_goods_factor = 0.80
+				production_factory_efficiency_gain = -0.20
+				license_production_speed = -0.20
+				line_change_production_efficiency_factor = -0.20
+				production_speed_industrial_complex_factor = -0.60
+				production_speed_arms_factory_factor = -1.0
+				production_speed_dockyard_factor = -0.6
+				max_fuel_factor = -0.4
+				fuel_gain_factor = -0.2
+				conversion_cost_civ_to_mil_factor= 0.4
+				conversion_cost_mil_to_civ_factor = 0.4
+				political_power_factor = -0.3
+				production_speed_buildings_factor = -0.1
+				conscription_factor = -0.1
+				repair_speed_factor = -0.4
+			}
 		}
 	}
-}
 }
