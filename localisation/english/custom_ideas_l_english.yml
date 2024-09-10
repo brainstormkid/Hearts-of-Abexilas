@@ -237,7 +237,7 @@
  Economic_Boom:0 "Economic Boom"
  
  #Economy
- economic_collapse:0 "Economic Collapse"
- economic_collapse_desc:0 "The Economy has Collapses :0"
+ economic_collapse:0 "The Great Gold Strain"
+ economic_collapse_desc:0 "The Economy has Collapses :0\n\n§RShits Fucked§!"
  economic_boost:0 "Economic Boost"
  economic_boost_desc:0 "The Economy has been boosted :0"
