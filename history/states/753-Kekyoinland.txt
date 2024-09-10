@@ -1,16 +1,35 @@
 state={
 	id=753
 	name="STATE_753"
+	manpower=752000
+
+	state_category = city
+	resources={
+		oil=2
+		steel=3 #was 42 was: 112
+		aluminium=2 # was: 22
+		rubber=1
+		tungsten=1
+		chromium=2
+	}
+
+	history={
+		owner = DAN
+		add_core_of = DAN
+		victory_points = {
+			4702 15
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+			dockyard = 1
+		}
+}
+
 	provinces={
 		4702 5099 12357 12460 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
-	history={
-		owner = DAN
-		buildings = {
-		}
-		add_core_of = DAN
-	}
 }
