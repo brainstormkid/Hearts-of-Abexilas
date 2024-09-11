@@ -5,12 +5,17 @@ state={
 		3836 6287 6983 11174 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=50000
+        state_category = rural
 	history={
 		owner = EXO
 		buildings = {
+			infrastructure = 2
+			11174 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = EXO
+		victory_points = { 11174 10 }
 	}
 }

@@ -5,12 +5,20 @@ state={
 		1571 3993 5193 6787 6924 11277 11283 11295 11344 11353 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=2300000
+        state_category = metropolis
 	history={
 		owner = EXO
 		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			6787 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = EXO
+		victory_points = { 1571 30 }
 	}
 }

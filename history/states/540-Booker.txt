@@ -5,12 +5,16 @@ state={
 		1610 4432 6774 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=250000
+        state_category = large_town
 	history={
 		owner = EXO
 		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+			arms_factory = 1
 		}
 		add_core_of = EXO
+		victory_points = { 1610 20 }
 	}
 }

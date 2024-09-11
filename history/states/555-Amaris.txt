@@ -5,12 +5,14 @@ state={
 		1550 11050 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=50000
+        state_category = enclave
 	history={
 		owner = EXO
 		buildings = {
+			infrastructure = 1
 		}
 		add_core_of = EXO
+		victory_points = { 11050 5 }
 	}
 }
