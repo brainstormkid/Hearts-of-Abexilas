@@ -1,5 +1,7 @@
 ﻿capital = 480
 
+oob = "MIC"
+
 set_politics = {
 	ruling_party = absolutist
 	last_election = "1936.1.1"
