@@ -7,6 +7,14 @@ state={
 	buildings_max_level_factor=1.000
         manpower=150000
         state_category = large_town
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = ZAM
 		buildings = {
