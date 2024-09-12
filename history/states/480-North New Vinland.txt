@@ -6,7 +6,7 @@ state={
 	}
 	buildings_max_level_factor=1.000
         manpower=1950000
-        state_category = town
+        state_category = megalopolis
 	resources = {
 		oil = 2
 		aluminium = 2
@@ -18,9 +18,16 @@ state={
 	history={
 		owner = MIC
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
+			10839 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = MIC
+		victory_points = { 10704 50 }
+		victory_points = { 10839 20 }
 	}
 }
