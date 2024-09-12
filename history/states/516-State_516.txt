@@ -5,11 +5,12 @@ state={
 		965 2483 3086 10909 10930 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=50000
+        state_category = pastoral
 	history={
 		owner = JAZ
 		buildings = {
+		infrastructure = 1
 		}
 		add_core_of = JAZ
 	}

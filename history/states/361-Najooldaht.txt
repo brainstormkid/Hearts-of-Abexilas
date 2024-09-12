@@ -5,11 +5,15 @@ state={
 		71 150 350 693 1599 1884 2534 3119 4065 4338 6326 6741 10083 10133 10139 10144 10161 10162 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=850000
+        state_category = city
 	history={
 		owner = JAZ
 		buildings = {
+		arms_factory = 1
+		industrial_complex = 1
+		dockyard = 1
+		infrastrucutre = 3
 		}
 		add_core_of = JAZ
 	}
