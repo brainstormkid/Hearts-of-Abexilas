@@ -5,12 +5,14 @@ state={
 		5816 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=100000
+        state_category = small_island
 	history={
-		owner = TIR
+		owner = ERC
 		buildings = {
+		infrastructure = 1
 		}
+		add_core_of = ERC
 		add_core_of = TIR
 	}
 }
