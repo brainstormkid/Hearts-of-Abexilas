@@ -5,11 +5,15 @@ state={
 		678 1081 1387 1639 2048 2067 2132 2213 3382 4670 5422 5572 6323 14668 14732 14746 14755 14781 14798 14820 14825 14830 14837 14861 14865 14898 14922 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1750000
+        state_category = metropolis
 	history={
 		owner = SET
 		buildings = {
+		infrastructure = 3
+		industrial_complex = 2
+		arms_factory = 1
+		dockyard = 1
 		}
 		add_core_of = SET
 	}
