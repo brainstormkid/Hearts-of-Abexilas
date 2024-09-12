@@ -5,11 +5,15 @@ state={
 		490 947 1196 3467 4197 4604 4673 5132 14927 14942 14957 14961 14979 14981 15004 15012 15047 15058 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1250000
+        state_category = large_city
 	history={
 		owner = SET
 		buildings = {
+		infrastructure = 3
+		industrial_complex = 2
+		arms_factory = 1
+		dockyard = 1
 		}
 		add_core_of = SET
 	}
