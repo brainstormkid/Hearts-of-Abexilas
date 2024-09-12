@@ -82,18 +82,9 @@ ideas = {
 		}
 		economic_boost = {
 			picture = economic_boost
-			allowed = {
-				TAG = 
-			}
-			
-			available = {
-			}
-			
-			cancel = {
-			}
 			
 			allowed_civil_war = {
-			always = yes
+				always = yes
 			}
 			
 			modifier = {

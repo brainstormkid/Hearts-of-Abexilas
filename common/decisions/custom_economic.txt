@@ -32,6 +32,8 @@ economic_disaster_category = {
 			}
 			hidden_effect = {
 				remove_idea = economic_collapse
+				remove_idea = economic_collapse_1
+				remove_idea = economic_collapse_2
 			}
 		}
 	}
