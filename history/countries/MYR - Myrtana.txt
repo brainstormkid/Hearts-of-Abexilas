@@ -25,7 +25,7 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_Ravian"
 	expire = "1965.1.1"
-	ideology = monarchist
+	ideology = monarchist_subtype
 	traits = {
 		#
 	}
@@ -35,7 +35,7 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_Aegis"
 	expire = "1965.1.1"
-	ideology = progressivist
+	ideology = progressivist_subtype
 	traits = {
 		#
 	}
@@ -45,7 +45,7 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_Gamestew"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatist_subtype
 	traits = {
 		#
 	}
@@ -65,7 +65,7 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_Pug"
 	expire = "1965.1.1"
-	ideology = democratic
+	ideology = socialism
 	traits = {
 		#
 	}
@@ -75,7 +75,7 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_Wotan"
 	expire = "1965.1.1"
-	ideology = theocratist
+	ideology = theocratist_subtype
 	traits = {
 		#
 	}
@@ -85,7 +85,7 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_Eugene"
 	expire = "1965.1.1"
-	ideology = radical_nationalist
+	ideology = radical_nationalist_subtype
 	traits = {
 		#
 	}
@@ -95,7 +95,7 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_Jimmon"
 	expire = "1965.1.1"
-	ideology = absolutist
+	ideology = absolutist_subtype
 	traits = {
 		#
 	}
@@ -105,7 +105,7 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_Jimmon"
 	expire = "1965.1.1"
-	ideology = centrist
+	ideology = centrist_subtype
 	traits = {
 		#
 	}
@@ -115,7 +115,7 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_CoolBoi"
 	expire = "1965.1.1"
-	ideology = centrist
+	ideology = conservatism
 	traits = {
 		#
 	}
