@@ -5,11 +5,15 @@ state={
 		162 2305 2336 3131 3661 3680 4413 4575 5114 6195 11637 11658 11752 11753 11759 11820 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=700000
+        state_category = megalopolis
 	history={
 		owner = AND
 		buildings = {
+		industrial_complex = 2
+		infrastructure = 4
+		arms_factory = 2
+		dockyard = 1
 		}
 		add_core_of = AND
 	}
