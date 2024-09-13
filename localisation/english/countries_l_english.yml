@@ -463,6 +463,9 @@
  SEN_progressivist:1 "Workers Republic of Seneca"
  SEN_progressivist_DEF:1 "the Workers Republic of Seneca"
  SEN_progressivist_ADJ:0 "Senecanese"
+ SEN_centrist:1 "Republic of Seneca"
+ SEN_centrist_DEF:1 "the Republic of Seneca"
+ SEN_centristt_ADJ:0 "Senecanese"
  
  SET_absolutist:1 "Sentara"
  SET_absolutist_DEF:1 "the Sentara"
