@@ -5,6 +5,14 @@ state={
 		1277 5630 11708 11732 11745 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=250000
+        state_category = city
+	history={
+		buildings = {
+		industrial_complex = 1
+		infrastructure = 3
+		arms_factory = 1
+		dockyard = 1
+		}
+	}
 }
