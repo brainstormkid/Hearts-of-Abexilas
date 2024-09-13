@@ -5,11 +5,21 @@ state={
 		247 
 	}
 	buildings_max_level_factor=1.000
-        manpower=12000
-        state_category = town
+        manpower=25000
+        state_category = pastoral
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = DAN
 		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
 		}
 		add_core_of = DAN
 	}

@@ -5,12 +5,20 @@ state={
 		88 3571 5614 12181 
 	}
 	buildings_max_level_factor=1.000
-        manpower=210000
-        state_category = town
+        manpower=200000
+        state_category = rural
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = DAN
 		buildings = {
-		industrial_complex = 1
+			infrastructure = 2
 		}
 		add_core_of = DAN
 	}

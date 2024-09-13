@@ -20,10 +20,10 @@ state={
 			12220 20
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 2
-			arms_factory = 2
-			air_base = 1
+			arms_factory = 1
+			dockyard = 1
 		}
 }
 
