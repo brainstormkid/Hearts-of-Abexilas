@@ -19,7 +19,7 @@ set_popularities = {
 	progressivist = 3
 	centrist = 4
 	conservatist = 7
-	communism = 1
+	xeroist = 1
 }
 
 create_country_leader = {
