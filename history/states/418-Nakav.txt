@@ -7,6 +7,14 @@ state={
 	buildings_max_level_factor=1.000
         manpower=500000
         state_category = town
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = DEF
 		buildings = {
@@ -14,5 +22,7 @@ state={
 		industrial_complex = 1
 		}
 		add_core_of = DEF
+		victory_points = { 4930 20 }
+		victory_points = { 1805 5 }
 	}
 }

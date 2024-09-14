@@ -7,6 +7,14 @@ state={
 	buildings_max_level_factor=1.000
         manpower=850000
         state_category = city
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = GAR
 		buildings = {
@@ -15,9 +23,11 @@ state={
 		arms_factory = 1
 		dockyard = 1
 		10555 = {
-			naval_base = 2
+			naval_base = 1
 		}
 		}
 		add_core_of = GAR
+		victory_points = { 6506 10 }
+		victory_points = { 10555 5 }
 	}
 }

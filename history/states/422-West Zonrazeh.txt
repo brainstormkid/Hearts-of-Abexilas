@@ -5,8 +5,16 @@ state={
 		1899 2177 4566 5377 5409 5550 10377 10389 10410 10446 10454 10479 10485 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1000000
+        manpower=750000
         state_category = megalopolis
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = JAZ
 		buildings = {
@@ -14,7 +22,11 @@ state={
 		industrial_complex = 2
 		dockyard = 1
 		infrastructure = 4
+		1899 = {
+				naval_base = 3
+			}
 		}
 		add_core_of = JAZ
+		victory_points = { 1899 30 }
 	}
 }

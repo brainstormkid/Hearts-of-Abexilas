@@ -5,8 +5,16 @@ state={
 		279 327 390 695 1144 1500 1891 3122 4094 4327 5102 5626 5675 6022 6602 6622 6878 10441 10472 10498 10525 10543 10574 10584 10637 10698 10717 10752 10753 10767 10769 10858 10907 10908 
 	}
 	buildings_max_level_factor=1.000
-        manpower=7350000
+        manpower=3525000
         state_category = megalopolis
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = JAZ
 		buildings = {
@@ -14,7 +22,14 @@ state={
 		industrial_complex = 2
 		dockyard = 1
 		infrastructure = 4
+		6878 = {
+				naval_base = 3
+			}
 		}
 		add_core_of = JAZ
+		victory_points = { 10472 50 }
+		victory_points = { 6878 20 }
+		victory_points = { 4094 30 }
+		victory_points = { 1500 20 }
 	}
 }
