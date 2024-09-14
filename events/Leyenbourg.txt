@@ -22,3 +22,164 @@ country_event = {
 		}
 	}
 }
+
+#Elections on the Horizon
+country_event = {
+	id = leyenbourg.2
+	title = elections_ley.1.t
+	desc = elections_ley.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = { days = 1 }
+	option = {
+		name = elections_ley.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			country_event = {
+			    id = leyenbourg.3
+			    days = 5
+			}
+		}
+	}
+}
+
+#The First Candidate
+country_event = {
+	id = leyenbourg.3
+	title = elections_ley.2.t
+	desc = elections_ley.2.d
+	#picture = 
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = { days = 1 }
+	option = {
+		name = elections_ley.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+		
+		}
+	}
+	option = {
+		name = elections_ley.2.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			country_event = {
+			    id = leyenbourg.4
+			    days = 5
+			}
+		}
+	}
+}
+
+#Asharof Aery returns
+country_event = {
+	id = leyenbourg.4
+	title = elections_ley.3.t
+	desc = elections_ley.3.d
+	#picture = 
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = { days = 1 }
+	option = {
+		name = elections_ley.3.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+		
+		}
+	}
+	option = {
+		name = elections_ley.3.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			country_event = {
+			    id = leyenbourg.5
+			    days = 5
+			}
+		}
+	}
+}
+
+#Anonimo to Power
+country_event = {
+	id = leyenbourg.5
+	title = elections_ley.4.t
+	desc = elections_ley.4.d
+	#picture = 
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = { days = 1 }
+	option = {
+		name = elections_ley.4.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+		
+		}
+	}
+	option = {
+		name = elections_ley.4.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			country_event = {
+			    id = leyenbourg.6
+			    days = 5
+			}
+		}
+	}
+}
+
+#The Council
+country_event = {
+	id = leyenbourg.6
+	title = elections_ley.5.t
+	desc = elections_ley.5.d
+	#picture = 
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = { days = 1 }
+	option = {
+		name = elections_ley.5.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+		
+		}
+	}
+	option = {
+		name = elections_ley.5.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+		}
+	}
+}
