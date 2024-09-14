@@ -1,5 +1,7 @@
 ﻿capital = 396
 
+oob = "DEF"
+
 add_ideas = {
 	volunteer_only
 	Cathramis_Continental_Member
@@ -31,3 +33,4 @@ create_country_leader = {
 
 set_stability = 0.95
 set_war_support = 0.7
+set_convoys = 10

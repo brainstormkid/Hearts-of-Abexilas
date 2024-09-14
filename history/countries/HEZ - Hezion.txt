@@ -1,5 +1,7 @@
 ﻿capital = 497
 
+oob = "HEZ"
+
 add_ideas = {
 	volunteer_only
 	Cathramis_Continental_Member
@@ -25,3 +27,5 @@ create_country_leader = {
 		#
 	}
 }
+
+set_convoys = 5
