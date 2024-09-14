@@ -10,6 +10,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "GFX_ideology_theocratist_group"
+		texturefile = gfx/interface/ideologies/theocratist_group.dds
+	}
+	
+	SpriteType = {
 		name = "GFX_idea_Kaevan_Theocracy"
 		texturefile = "gfx/interface/ideas/Kaevan_Theocracy.dds"
 	}
