@@ -791,6 +791,12 @@ focus_tree = {
 		completion_reward = {
 		add_stability = -0.10
 		add_political_power = -156
+		hidden_effect = {
+			country_event = {
+			    id = leyenbourg.2
+			    days = 5
+			}
+		}
 		}
 	}
 
