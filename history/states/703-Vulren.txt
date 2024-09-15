@@ -13,7 +13,7 @@ state={
 	    chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=150000
+        manpower=450000
         state_category = rural
 	history={
 		owner = ARC

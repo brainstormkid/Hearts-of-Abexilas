@@ -13,7 +13,7 @@ state={
 	    chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=4050000
+        manpower=12150000
         state_category = megalopolis
 	history={
 		owner = ARC

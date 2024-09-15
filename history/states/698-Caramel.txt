@@ -13,7 +13,7 @@ state={
 	    chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=200000
+        manpower=600000
         state_category = town
 	history={
 		owner = ARC
