@@ -5,7 +5,7 @@ state={
 		464 789 1320 1985 2550 6930 11955 11963 12002 12006 12032 12058 
 	}
 	buildings_max_level_factor=1.000
-        manpower=4300000
+        manpower=12900000
         state_category = megalopolis
 	history={
 		owner = ARR

@@ -5,7 +5,7 @@ state={
 		5829 5950 6222 11891 11901 11976 
 	}
 	buildings_max_level_factor=1.000
-        manpower=850000
+        manpower=2550000
         state_category = city
 	history={
 		owner = ARR
