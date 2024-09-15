@@ -5,7 +5,7 @@ state={
 		159 1082 1112 1695 2035 2402 2560 2592 3100 3838 6206 6541 6926 8800 8821 8826 8835 8853 8862 8882 8899 8917 8933 8955 9006 9032 9062 9100 
 	}
 	buildings_max_level_factor=1.000
-        manpower=2500000
+        manpower=7500000
         state_category = metropolis
 	resources = {
 		oil = 2
