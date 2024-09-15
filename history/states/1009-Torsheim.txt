@@ -5,7 +5,7 @@ state={
 		14134 14135 14161 14177 14202 
 	}
 	buildings_max_level_factor=1.000
-        manpower=2050000
+        manpower=6150000
         state_category = city
 	history={
 		owner = MYR
