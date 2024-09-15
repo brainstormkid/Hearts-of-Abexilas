@@ -5,7 +5,7 @@ state={
 		1215 2610 2826 3850 4552 5430 5823 6419 8010 8026 
 	}
 	buildings_max_level_factor=1.000
-        manpower=3200000
+        manpower=9600000
         state_category = large_city
 	resources = {
 		oil = 2

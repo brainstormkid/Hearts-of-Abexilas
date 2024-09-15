@@ -5,7 +5,7 @@ state={
 		4842 7578 7624 7625 7679 
 	}
 	buildings_max_level_factor=1.000
-        manpower=300000
+        manpower=900000
         state_category = small_island
 	resources = {
 		oil = 2
