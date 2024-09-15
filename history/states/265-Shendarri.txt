@@ -5,7 +5,7 @@ state={
 		793 1420 1775 5165 6539 9661 9683 9695 9714 9738 9765 9766 
 	}
 	buildings_max_level_factor=1.000
-        manpower=250000
+        manpower=750000
         state_category = rural
 	resources = {
 		oil = 2
