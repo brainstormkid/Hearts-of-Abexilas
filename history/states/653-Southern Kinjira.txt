@@ -5,7 +5,7 @@ state={
 		291 419 3515 4603 4736 6579 11797 11817 11844 11859 11884 11967 
 	}
 	buildings_max_level_factor=1.000
-        manpower=400000
+        manpower=1200000
         state_category = city
 	history={
 		owner = AND

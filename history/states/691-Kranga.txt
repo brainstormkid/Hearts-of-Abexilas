@@ -5,7 +5,7 @@ state={
 		2671 5320 6267 6414 12063 12127 12193 
 	}
 	buildings_max_level_factor=1.000
-        manpower=25000
+        manpower=75000
         state_category = enclave
 	history={
 		owner = AND
