@@ -25,6 +25,6 @@ state={
 		add_core_of = KHA
 	}
 	buildings_max_level_factor=1.000
-        manpower=1800000
+        manpower=5400000
         state_category = large_city
 }
