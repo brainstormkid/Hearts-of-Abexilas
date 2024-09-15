@@ -15,6 +15,46 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "GFX_ideology_accelerationist_group"
+		texturefile = gfx/interface/ideologies/accelerationist_group.dds
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_centrist_group"
+		texturefile = gfx/interface/ideologies/centrist_group.dds
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_conservatist_group"
+		texturefile = gfx/interface/ideologies/conservatist_group.dds
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_progressivist_group"
+		texturefile = gfx/interface/ideologies/progressivist_group.dds
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_radical_nationalist_group"
+		texturefile = gfx/interface/ideologies/radical_nationalist_group.dds
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_imperialist_group"
+		texturefile = gfx/interface/ideologies/imperialist_group.dds
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_libertarianist_group"
+		texturefile = gfx/interface/ideologies/libertarianist_group.dds
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_social_liberalist_group"
+		texturefile = gfx/interface/ideologies/social_liberalist_group.dds
+	}
+	
+	SpriteType = {
 		name = "GFX_idea_Kaevan_Theocracy"
 		texturefile = "gfx/interface/ideas/Kaevan_Theocracy.dds"
 	}
