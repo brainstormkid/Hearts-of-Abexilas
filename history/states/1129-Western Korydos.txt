@@ -5,7 +5,7 @@ state={
 		680 948 1049 1657 3506 4463 5681 15065 15085 15095 15102 15121 15124 15130 15146 15171 15172 15196 15216 15227 15233 15246 15263 15283 15284 
 	}
 	buildings_max_level_factor=1.000
-        manpower=2100000
+        manpower=6300000
         state_category = metropolis
 	history={
 		owner = SET
