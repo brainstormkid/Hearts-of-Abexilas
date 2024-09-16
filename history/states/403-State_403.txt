@@ -5,7 +5,7 @@ state={
 		1892 1967 2405 3209 3476 3972 4126 6498 6605 10340 10358 10360 10370 10405 10426 10443 10476 10502 10519 10540 10552 10582 10594 
 	}
 	buildings_max_level_factor=1.000
-        manpower=4150000
+        manpower=12450000
         state_category = megalopolis
 	resources = {
 		oil = 2
