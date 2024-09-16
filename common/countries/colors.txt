@@ -338,3 +338,8 @@ CEL = {
 	color = rgb { 124 204 158 }
 	color_ui = rgb { 124 204 158 }
 }
+
+GRA = {
+	color = rgb { 242 200 32 }
+	color_ui = rgb { 242 200 32 }
+}

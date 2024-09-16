@@ -272,6 +272,10 @@
  GEH_absolutist_DEF:1 "the Gertek Horde"
  GEH_absolutist_ADJ:0 "Gertekans"
  
+ GRA_absolutist:1 "Gran Coran'i"
+ GRA_absolutist_DEF:1 "the Gran Coran'i"
+ GRA_absolutist_ADJ:0 "Coranese"
+ 
  HAR_absolutist:1 "Empire of Harpia"
  HAR_absolutist_DEF:1 "the Empire of Harpia"
  HAR_absolutist_ADJ:0 "Harpian"
