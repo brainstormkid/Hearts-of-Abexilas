@@ -8,21 +8,22 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = absolutist
+	ruling_party = monarchist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	absolutist = 100
+	monarchist = 86
+	theocratist = 14
 }
 
 create_country_leader = {
-	name = "?"
-	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/AEZ/Panda.dds"
+	name = "The council of Monarchs"
+	desc = "POLITICS_Council_Monarchs_DESC"
+	#picture = "gfx/leaders/JAZ/Council_Monarchs.dds"
 	expire = "1965.1.1"
-	ideology = absolutist_subtype
+	ideology = monarchist_subtype
 	traits = {
 		#
 	}
