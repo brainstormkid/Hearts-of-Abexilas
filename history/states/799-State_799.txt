@@ -15,12 +15,14 @@ state={
         tungsten = 1
         chromium = 2
     } 
-
 	history={
 		owner = GRA
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+			6893 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = GRA
 	}
