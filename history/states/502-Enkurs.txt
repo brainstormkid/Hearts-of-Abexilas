@@ -5,7 +5,7 @@ state={
 		5816 
 	}
 	buildings_max_level_factor=1.000
-        manpower=100000
+        manpower=300000
         state_category = small_island
 	history={
 		owner = ERC
