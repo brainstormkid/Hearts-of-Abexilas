@@ -5,7 +5,7 @@ state={
 		1043 1833 4011 5379 11117 11141 11173 
 	}
 	buildings_max_level_factor=1.000
-        manpower=25000
+        manpower=75000
         state_category = enclave
 	resources = {
 		oil = 2
