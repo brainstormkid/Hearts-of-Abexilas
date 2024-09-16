@@ -9,12 +9,22 @@ country_event = {
 	
 	option = {
 		name = Arcael.1.a
+		ai_chance = {
+			factor = 85
+		}
 		add_war_support = -0.1
 		add_stability = -0.05
 		add_political_power = -75
 		}
 	option = {
 		name = Arcael.1.b
+		ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
 		add_political_power = 25
 		add_stability = 0.025
 		custom_effect_tooltip = Arcael.1.b_tt
@@ -39,7 +49,7 @@ country_event = {
 			remember_old_capital = no
 		}
 		start_civil_war = {
-			ruling_party = neutrality
+			ruling_party = monarchist
 			ideology = absolutist
 			size = 0.4
 			army_ratio = 0.4
@@ -52,7 +62,7 @@ country_event = {
 			popularity = -0.3
 		}
 		add_popularity = {
-			ideology = fascism
+			ideology = radical_nationalist
 			popularity = -0.3
 		}
 		ARC_provisional_government = {
@@ -93,7 +103,7 @@ country_event = {
 	option = {
 		name = Arcael.3.a
 		ai_chance = {
-			factor = 0
+			factor = 10
 		}
 		set_capital = { 
 			state = 699
@@ -101,7 +111,7 @@ country_event = {
 		}
 		start_civil_war = {
 			ruling_party = monarchist
-			ideology = fascist
+			ideology = radical_nationalist
 			size = 0.4
 			army_ratio = 0.4
 			navy_ratio = 0.7	
@@ -129,14 +139,14 @@ country_event = {
 	option = {
 		name = Arcael.3.b
 		ai_chance = {
-			factor = 100
+			factor = 90
 		}
 		set_capital = { 
 			state = 693
 			remember_old_capital = no			
 		}
 		start_civil_war = {
-			ruling_party = fascism
+			ruling_party = radical_nationalist
 			ideology = monarchist
 			size = 0.4
 			army_ratio = 0.4
@@ -172,6 +182,9 @@ country_event = {
 	is_triggered_only = yes
 #Arcaeus
 	option = {
+		ai_chance = {
+			factor = 50
+		}
 		name = Arcael.4.a
 		set_capital = { 
 			state = 737
@@ -180,6 +193,9 @@ country_event = {
 	}
 #Shyreland
 	option = {
+		ai_chance = {
+			factor = 50
+		}
 		name = Arcael.4.b
 		set_capital = { 
 			state = 748

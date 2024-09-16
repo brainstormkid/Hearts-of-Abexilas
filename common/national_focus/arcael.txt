@@ -21,7 +21,6 @@ focus = {
 	}
 	available = {
 		NOT = {
-			has_government = fascism
 			has_government = imperialist
 			has_government = radical_nationalist
 			}
@@ -49,7 +48,7 @@ focus = {
 	prerequisite = { focus = ARC_elect_a_liberal_chancellor  }
 	completion_reward = {
 		add_popularity = {
-		    ideology = communism
+		    ideology = xeroist
 		    popularity = 0.05
 		}
 		add_manpower = 20000
@@ -91,7 +90,6 @@ focus = {
 	}
 	available = {
 		NOT = {
-			has_government = fascism
 			has_government = imperialist
 			has_government = radical_nationalist
 			}
@@ -170,9 +168,19 @@ focus = {
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
+	available = {
+		NOT = {
+			has_government = imperialist
+			has_government = radical_nationalist
+			}
+		}
 	prerequisite = { focus = ARC_finishing_the_july_constitution  }
 	mutually_exclusive = { focus = ARC_organize_monarchist_rallies }
 	mutually_exclusive = { focus = ARC_the_fascist_alternative }
+	modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 	completion_reward = {
 		add_popularity = {
 			ideology = monarchist
@@ -201,7 +209,7 @@ focus = {
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = communism
+			ideology = xeroist
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -315,7 +323,7 @@ focus = {
 	mutually_exclusive = { focus = ARC_organize_monarchist_rallies }
 	mutually_exclusive = { focus = ARC_plot_against_the_emperor }
 	available = {
-		has_government = fascism
+		has_government = radical_nationalist
 		}
 	completion_reward = {
 		add_stability = 0.1
@@ -344,8 +352,12 @@ focus = {
 	}
 	completion_reward = {
 		add_popularity = {
-			ideology = communism
-			popularity = 0.15
+			ideology = revisionist
+			popularity = 0.075
+		}
+		add_popularity = {
+			ideology = anarchist
+			popularity = 0.075
 		}
 		add_popularity = {
 			ideology = xeroist
