@@ -5,7 +5,7 @@ state={
 		1538 2404 4016 5315 5664 9893 9924 
 	}
 	buildings_max_level_factor=1.000
-        manpower=200000
+        manpower=600000
         state_category = city
 	history={
 		owner = GAR
