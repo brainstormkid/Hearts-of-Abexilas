@@ -5,7 +5,7 @@ state={
 		771 10972 10979 11008 11030 11056 
 	}
 	buildings_max_level_factor=1.000
-        manpower=200000
+        manpower=600000
         state_category = town
 	resources = {
 		oil = 2

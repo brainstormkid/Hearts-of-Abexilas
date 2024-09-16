@@ -5,7 +5,7 @@ state={
 		4475 10122 10153 
 	}
 	buildings_max_level_factor=1.000
-        manpower=50000
+        manpower=150000
         state_category = pastoral
 	resources = {
 		oil = 2
