@@ -159,6 +159,10 @@
  CIR_absolutist_DEF:1 "the Duchy of Cirion"
  CIR_absolutist_ADJ:0 "Lisvari"
  
+ COR_absolutist:1 "Cordon"
+ COR_absolutist_DEF:1 "the Cordon"
+ COR_absolutist_ADJ:0 "Cordonian"
+ 
  COV_absolutist:1 "Kingdom of Covania"
  COV_absolutist_DEF:1 "the Kingdom of Covania"
  COV_absolutist_ADJ:0 "Covanian"
@@ -307,6 +311,10 @@
  KAD_absolutist:1 "Imperial Crownlands of Kaddu"
  KAD_absolutist_DEF:1 "the Imperial Crownlands of Kaddu"
  KAD_absolutist_ADJ:0 "Kaddian"
+ 
+ KAL_absolutist:1 "Kaltebaix"
+ KAL_absolutist_DEF:1 "the Kaltebaix"
+ KAL_absolutist_ADJ:0 "Kaltebaixian"
  
  KHA_absolutist:1 "Karzinite of Khanen"
  KHA_absolutist_DEF:1 "the Karzinite of Khanen"
@@ -514,6 +522,10 @@
  VES_absolutist:1 "Earldom of Vescognie"
  VES_absolutist_DEF:1 "the Earldom of Vescognie"
  VES_absolutist_ADJ:0 "Vescognian"
+ 
+ VIN_absolutist:1 "Vinovian Horde"
+ VIN_absolutist_DEF:1 "the Vinovian Horde"
+ VIN_absolutist_ADJ:0 "Vinovian"
  
  YIA_absolutist:1 "Sharrulat dezum Yimmu Audal"
  YIA_absolutist_DEF:1 "the Sharrulat dezum Yimmu Audal"

@@ -343,3 +343,18 @@ GRA = {
 	color = rgb { 242 200 32 }
 	color_ui = rgb { 242 200 32 }
 }
+
+COR = {
+	color = rgb { 0 47 105 }
+	color_ui = rgb { 0 47 105 }
+}
+
+VIN = {
+	color = rgb { 193 194 5 }
+	color_ui = rgb { 193 194 5 }
+}
+
+KAL = {
+	color = rgb { 218 247 165 }
+	color_ui = rgb { 218 247 165 }
+}
