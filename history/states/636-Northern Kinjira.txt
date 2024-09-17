@@ -7,14 +7,25 @@ state={
 	buildings_max_level_factor=1.000
         manpower=2100000
         state_category = megalopolis
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = AND
 		buildings = {
-		industrial_complex = 2
-		infrastructure = 4
-		arms_factory = 2
-		dockyard = 1
+			industrial_complex = 2
+			infrastructure = 4
+			arms_factory = 2
+			dockyard = 1
 		}
 		add_core_of = AND
+		victory_points = {
+			5114 5
+		}
 	}
 }

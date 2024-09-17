@@ -7,14 +7,28 @@ state={
 	buildings_max_level_factor=1.000
         manpower=2250000
         state_category = city
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = AND
 		buildings = {
-		industrial_complex = 1
-		infrastructure = 3
-		arms_factory = 1
-		dockyard = 1
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			1293 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = AND
+		victory_points = {
+			1293 30
+		}
 	}
 }

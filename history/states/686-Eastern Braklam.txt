@@ -7,11 +7,25 @@ state={
 	buildings_max_level_factor=1.000
         manpower=450000
         state_category = enclave
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = AND
 		buildings = {
-		infrastructure = 1
+			infrastructure = 1
+			4962 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = AND
+		victory_points = {
+			4962 5
+		}
 	}
 }

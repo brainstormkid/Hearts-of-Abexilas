@@ -7,10 +7,18 @@ state={
 	buildings_max_level_factor=1.000
         manpower=75000
         state_category = enclave
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = AND
 		buildings = {
-		infrastructure = 1
+			infrastructure = 1
 		}
 		add_core_of = AND
 	}
