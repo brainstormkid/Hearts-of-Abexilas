@@ -25,5 +25,8 @@ state={
 			}
 		}
 		add_core_of = GRA
+		victory_points = {
+			6893 10
+		}
 	}
 }

@@ -4,17 +4,31 @@ state={
 	provinces={
 		464 789 1320 1985 2550 6930 11955 11963 12002 12006 12032 12058 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
         manpower=12900000
         state_category = megalopolis
 	history={
 		owner = ARR
 		buildings = {
-		industrial_complex = 2
-		infrastructure = 4
-		arms_factory = 2
-		dockyard = 1
+			industrial_complex = 2
+			infrastructure = 4
+			arms_factory = 2
+			dockyard = 1
+			789 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = ARR
+		victory_points = { 
+			789 50 
+		}
 	}
 }
