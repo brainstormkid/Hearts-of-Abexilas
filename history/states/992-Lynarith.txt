@@ -5,12 +5,57 @@ state={
 		302 887 911 1195 1875 2249 2274 2462 2559 2719 2964 3163 3784 3792 4264 4812 6824 7000 13965 13991 14038 14044 14047 14065 14066 14072 14085 14103 14104 14109 14117 14124 14132 14144 14205 14214 14224 14259 14271 14299 14311 14324 14344 14363 14374 14415 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=17250000
+        state_category = megalopolis
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = LYN
 		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
+			1195 = {
+				naval_base = 3
+			}
+			14415 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = LYN
+		victory_points = {
+			3163 50
+		}
+		victory_points = {
+			14344 30
+		}
+		victory_points = {
+			14144 20
+		}
+		victory_points = {
+			1195 20
+		}
+		victory_points = {
+			14415 10
+		}
+		victory_points = {
+			2274 10
+		}
+		victory_points = {
+			14374 5
+		}
+		victory_points = {
+			2462 5
+		}
+		victory_points = {
+			14103 5
+		}
 	}
 }
