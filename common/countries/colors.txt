@@ -358,3 +358,7 @@ KAL = {
 	color = rgb { 218 247 165 }
 	color_ui = rgb { 218 247 165 }
 }
+TES = {
+	color = rgb { 47  48  48 }
+	color_ui = rgb { 47  48  48 }
+}

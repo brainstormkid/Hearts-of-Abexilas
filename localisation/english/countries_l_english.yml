@@ -487,6 +487,10 @@
  TAN_absolutist_DEF:1 "the Tandong Dynasty"
  TAN_absolutist_ADJ:0 "Jiaozese"
  
+ TES_absolutist:1 "Testudo"
+ TES_absolutist_DEF:1 "The island kingdom of Testudo"
+ TES_absolutist_ADJ:0 "Testudese"
+ 
  TIR_neutrality:1 "Sailing Republic of Tirgus"
  TIR_neutrality_DEF:1 "the Sailing Republic of Tirgus"
  TIR_neutrality_ADJ:0 "Tirgans"
