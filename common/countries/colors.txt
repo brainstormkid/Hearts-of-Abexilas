@@ -362,3 +362,7 @@ TES = {
 	color = rgb { 47  48  48 }
 	color_ui = rgb { 47  48  48 }
 }
+SYR = {
+	color = rgb { 83  181  200 }
+	color_ui = rgb { 83  181  200 }
+}

@@ -3,7 +3,7 @@ state={
 	name="STATE_844"
 	manpower=753000
 
-	state_category = small_island
+	state_category = town
 	resources={
 		oil=2
 		steel=3 #was 42 was: 112
@@ -22,23 +22,15 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			dockyard = 1
-			air_base = 0
-			575 = {
-				naval_base = 3
+			12900= {
+				naval_base = 1
 			}
 		}
 		add_core_of = AKS
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 6
-			}
-		}
 	}
 
 	provinces={
 		1204 1427 12870 12898 12900 12929 12945 12982 
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=5.0 
 }
