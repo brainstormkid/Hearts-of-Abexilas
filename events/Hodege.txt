@@ -34,3 +34,46 @@ country_event = {
 		}
 	}
 }
+
+#Lutian asks Hodege to unite
+country_event = {
+	id = Hodege.2
+	title = "Lutian proposal"
+	desc = ""
+	picture = ""
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "It is better for both nations if we are united"
+		ai_chance = {
+			factor = 5
+		}
+		508 = {
+			add_core_of = LUT
+		}
+		514 = {
+			add_core_of = LUT
+		}
+		529 = {
+			add_core_of = LUT
+		}
+		LUT = {
+			annex_country = {
+				target = HOD
+				transfer_troops = yes
+			}
+			country_event = Lutian.11
+			set_cosmetic_tag = LTO
+		}	
+	}
+	option = {
+		ai_chance = {
+			factor = 12
+		}
+		name = "Absolutely not!"
+		LUT = {
+			country_event = Lutian.12
+		}
+	}
+}

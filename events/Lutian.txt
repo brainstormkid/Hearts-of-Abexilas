@@ -196,3 +196,29 @@ country_event = {
 		name = "They will regret it..."
 	}
 }
+
+#Hodege accepts being united 
+country_event = {
+	id = Lutian.11
+	title = "Great outcome"
+	desc = ""
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Happy to hear that!"
+	}
+}
+
+#Hodege rejects being united 
+country_event = {
+	id = Lutian.12
+	title = "Unfortunate outcome"
+	desc = ""
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We respect their choice!"
+	}
+}
