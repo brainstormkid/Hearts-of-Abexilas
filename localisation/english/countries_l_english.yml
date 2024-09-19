@@ -382,6 +382,11 @@
  LPC_monarchist_DEF:1 "the Lutian-Polonizian Commonwealth"
  LPC_monarchist_ADJ:0 "Lutian-Polonizese"
  
+ #just adding this to remind myself to change it from morachist to something else
+ LTO_monarchist:1 "Lutogian"
+ LTO_monarchist_DEF:1 "Lutoge"
+ LTO_monarchist_ADJ:0 "Lutogese"
+ 
  LYN_absolutist:1 "Cynedom of Lynarith"
  LYN_absolutist_DEF:1 "the Cynedom of Lynarith"
  LYN_absolutist_ADJ:0 "Lynarithi"

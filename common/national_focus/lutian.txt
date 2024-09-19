@@ -181,7 +181,7 @@ focus_tree = {
 
 	#The Sahariyan mountains are ours!
 	focus = {
-		id = lut_thesahariyanmountainsareours
+		id = lut_thesahariyanmountainsareours 
 		icon = GFX_goal_unknown
 		x = 8
 		y = 6
@@ -381,6 +381,11 @@ focus_tree = {
 		x = 13
 		y = 7
 		cost = 10
+		completion_reward = {
+			HOD = {
+				country_event = Hodege.2
+			}
+		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
