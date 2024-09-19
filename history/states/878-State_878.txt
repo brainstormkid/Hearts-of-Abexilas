@@ -21,23 +21,15 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
-			air_base = 0
-			575 = {
-				naval_base = 2
-			}
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = AKS
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 2
-			}
-		}
 	}
 
 	provinces={
 		230 13095 13131 13171 13241 13261 13283 13296 13306 
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=5.0 
 }

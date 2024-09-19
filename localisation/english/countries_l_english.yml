@@ -291,6 +291,9 @@
  HEZ_absolutist:1 "Sacred Land of Hezion"
  HEZ_absolutist_DEF:1 "the Sacred Land of Hezion"
  HEZ_absolutist_ADJ:0 "Hezian"
+ HEZ_theocratic:1 "Sacred Land of Hezion"
+ HEZ_theocratic_DEF:1 "the Sacred Land of Hezion"
+ HEZ_theocratic_ADJ:0 "Hezian"
  
  HOD_absolutist:1 "Hodege"
  HOD_absolutist_DEF:1 "the Hodege"
@@ -490,6 +493,10 @@
  SET_absolutist:1 "Sentara"
  SET_absolutist_DEF:1 "the Sentara"
  SET_absolutist_ADJ:0 "Sentarian"
+ 
+ SYR_absolutist:1 "Syren"
+ SYR_absolutist_DEF:1 "Syrenia"
+ SYR_absolutist_ADJ:0 "Syren"
  
  TAN_absolutist:1 "Tandong Dynasty"
  TAN_absolutist_DEF:1 "the Tandong Dynasty"

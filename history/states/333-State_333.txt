@@ -5,6 +5,18 @@ state={
 		1025 6163 9960 9967 9968 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1350000
+        state_category = large_town
+	history={
+		owner = SYR
+		buildings = {
+		industrial_complex = 1
+		infrastructure = 2
+		arms_factory = 1
+		9960 = {
+			naval_base = 1
+		}
+		}
+		add_core_of = SYR
+	}
 }
