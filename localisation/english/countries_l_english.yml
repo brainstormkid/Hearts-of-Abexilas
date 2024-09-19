@@ -307,6 +307,9 @@
  JAZ_absolutist:1 "Yimra ze Jarazeh"
  JAZ_absolutist_DEF:1 "the Yimra ze Jarazeh"
  JAZ_absolutist_ADJ:0 "Jarazeh"
+ JAZ_monarchist:1 "Yimra ze Jarazeh"
+ JAZ_monarchist_DEF:1 "the Yimra ze Jarazeh"
+ JAZ_monarchist_ADJ:0 "Jarazeh"
  
  KAD_absolutist:1 "Imperial Crownlands of Kaddu"
  KAD_absolutist_DEF:1 "the Imperial Crownlands of Kaddu"
