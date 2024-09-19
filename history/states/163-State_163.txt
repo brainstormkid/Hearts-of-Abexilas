@@ -5,8 +5,8 @@ state={
 		1073 2797 5507 6595 8493 8525 8541 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1800000
+        state_category = city
 	resources = {
 		oil = 2
 		aluminium = 2
@@ -14,5 +14,18 @@ state={
 		rubber = 1
 		tungsten = 1
 		chromium = 2
+	}
+	history={
+		owner = HEZ
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			8541 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = HEZ
 	}
 }
