@@ -26,9 +26,10 @@ state={
 				naval_base = 1
 			}
 			69 = {
-				naval_base = 1
+				naval_base = 1 #nice
 			}
 		}
 		add_core_of = ARK
+		victory_points = { 69 50 }
 	}
 }

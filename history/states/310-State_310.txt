@@ -21,5 +21,6 @@ state={
 			infrastructure = 2
 		}
 		add_core_of = ARK
+		victory_points = { 2869 10 }
 	}
 }

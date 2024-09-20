@@ -30,5 +30,6 @@ state={
 			}
 		}
 		add_core_of = ZAI
+		victory_points = { 9859 30 }
 	}
 }

@@ -22,5 +22,6 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = ELD
+		victory_points = { 9908 50 }
 	}
 }

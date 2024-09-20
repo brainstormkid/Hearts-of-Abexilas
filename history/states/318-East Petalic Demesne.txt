@@ -14,7 +14,12 @@ state={
 		infrastructure = 3
 		arms_factory = 1
 		dockyard = 1
+		10027 = {
+			naval_base = 2
+		}
 		}
 		add_core_of = GAR
+		victory_points = { 10027 10 }
+		victory_points = { 2447 20 }
 	}
 }
