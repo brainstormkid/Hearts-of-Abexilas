@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 309
+
+oob = "ZAI"
 
 set_politics = {
 	ruling_party = absolutist
@@ -20,3 +22,4 @@ create_country_leader = {
 		#
 	}
 }
+set_convoys = 20

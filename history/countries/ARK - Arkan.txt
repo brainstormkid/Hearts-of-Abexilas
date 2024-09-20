@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 69
+
+oob = "ARK"
 
 add_ideas = {
 	volunteer_only
@@ -26,5 +28,6 @@ create_country_leader = {
 	}
 }
 
+set_convoys = 10
 set_stability = 0.40
 set_war_support = 0.76

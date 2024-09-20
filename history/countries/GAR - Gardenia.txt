@@ -1,5 +1,7 @@
 ﻿capital = 355
 
+oob = "GAR"
+
 add_ideas = {
 	volunteer_only
 	Cathramis_Continental_Member
@@ -73,3 +75,4 @@ create_country_leader = {
 
 set_stability = 0.75
 set_war_support = 0.1
+set_convoys = 50
