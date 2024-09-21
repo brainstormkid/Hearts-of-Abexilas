@@ -5,13 +5,34 @@ state={
 		2023 4541 4805 5570 13871 13912 13923 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=5100000
+        state_category = metropolis
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = TSI
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			5570 = {
+				naval_base = 3
+			}
+			13871 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = TSI
+		victory_points = {
+			13923 50
+		}
 	}
 }
 
