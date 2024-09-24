@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 963
+
+oob = "ISH"
 
 set_politics = {
 	ruling_party = absolutist
