@@ -5,12 +5,39 @@ state={
 		386 1126 1172 1391 2263 2738 2802 3535 4021 4127 4185 4483 4621 4631 5029 5170 5992 6546 6943 13557 13575 13584 13601 13657 13696 13697 13708 13712 13733 13749 13763 13773 13778 13812 13818 13832 13851 13860 13861 13867 13952 13960 14013 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=6750000
+        state_category = large_city
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = CEL
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = CEL
+		victory_points = {
+			13867 30
+		}
+		victory_points = {
+			1126 20
+		}
+		victory_points = {
+			5029 10
+		}
+		victory_points = {
+			4185 10
+		}
+		victory_points = {
+			13575 5
+		}
 	}
 }
