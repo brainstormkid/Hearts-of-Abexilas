@@ -1,6 +1,6 @@
 focus_tree = {
-	id = leyenbourg-focus-tree
-	continuous_focus_position = { x = -40 y = 1050 } 
+	id = ley_focus_tree
+	continuous_focus_position = { x = -40 y = 1700 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -8,40 +8,207 @@ focus_tree = {
 			tag = LEY
 		}
 	}
-	
-	continuous_focus_position = { x = 50 y = 1200 }
-	
-	
-	#Recovering from the Crisis
+	#Social Party of Leyenbourg
 	focus = {
-		id = LEY_recovering_from_the_crisis
-		icon = GFX_focus_generic_support_the_left_right
-		x = 11
-		y = 0
-		cost = 5
+		id = LEY_social_party_of_leyenbourg
+		icon = GFX_LEY_social_party_of_leyenbourg-427
+		x = 8
+		y = 6
+		cost = 3
 		search_filters = {
-			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_POLITICAL
 		}
-		ai_will_do = { factor = 100 }
-		completion_reward = {
-			add_stability = +0.15
-			add_war_support = +0.1
-			add_political_power = 250
-		}
+		prerequisite = { focus = LEY_strength_the_parliament  }
+		mutually_exclusive = { focus = LEY_ocianian_peopls_party  }
 	}
-	
+
+	#Tend to Tandong
+	focus = {
+		id = LEY_tend_to_tandong
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 1
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_return_to_the_world_stage  }
+		mutually_exclusive = { focus = LEY_tend_to_ertcof  } mutually_exclusive = { focus = LEY_ally_with_arcael  }
+	}
+
+	#Secure the Economy
+	focus = {
+		id = LEY_secure_the_economy
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 13
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = LEY_military_in_charge  }
+	}
+
+	#Ally with Arcael
+	focus = {
+		id = LEY_ally_with_arcael
+		icon = GFX_focus_generic_coastal_fort
+		x = 3
+		y = 5
+		cost = 2.5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_return_to_the_world_stage  }
+		mutually_exclusive = { focus = LEY_tend_to_ertcof  } mutually_exclusive = { focus = LEY_tend_to_tandong  }
+	}
+
+	#Suggest the next Summit in Leyenbourg
+	focus = {
+		id = LEY_suggest_the_next_summit_in_leyenbourg
+		icon = GFX_focus_generic_self_management
+		x = 1
+		y = 8
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_join_the_cathramis_continetal_hub  }
+	}
+
+	#Join the Cathramis Continetal Hub
+	focus = {
+		id = LEY_join_the_cathramis_continetal_hub
+		icon = GFX_goal_generic_national_unity
+		x = 1
+		y = 6
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_tend_to_ertcof  } prerequisite = { focus = LEY_tend_to_tandong  } prerequisite = { focus = LEY_ally_with_arcael  }
+	}
+
+	#Tend to Ertcof
+	focus = {
+		id = LEY_tend_to_ertcof
+		icon = GFX_goal_generic_alliance
+		x = -1
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_return_to_the_world_stage  }
+		mutually_exclusive = { focus = LEY_tend_to_tandong  }
+	}
+
+	#Return to the World Stage
+	focus = {
+		id = LEY_return_to_the_world_stage
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 1
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_the_duchy_reborn  }
+	}
+
+	#The Duchy Reborn
+	focus = {
+		id = LEY_the_duchy_reborn
+		icon = GFX_focus_hun_elect_a_king
+		x = 3
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_revisit_old_traditions  }
+		mutually_exclusive = { focus = LEY_the_6th_republic  }
+	}
+
+	#Revisit Old Traditions
+	focus = {
+		id = LEY_revisit_old_traditions
+		icon = GFX_focus_generic_monarchy_2
+		x = 8
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_forming_a_new_government  }
+		mutually_exclusive = { focus = LEY_new_attempts  }
+	}
+
+	#Run for Neutrality
+	focus = {
+		id = LEY_run_for_neutrality
+		icon = GFX_goal_generic_neutrality_focus
+		x = 2
+		y = 9
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_suggest_the_next_summit_in_leyenbourg  }
+		mutually_exclusive = { focus = LEY_continental_alliance  }
+	}
+
+	#Focus on keeping good Relations
+	focus = {
+		id = LEY_focus_on_keeping_good_relations
+		icon = GFX_goal_tripartite_pact
+		x = 7
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_promote_gottfried_sarkowa  }
+		mutually_exclusive = { focus = LEY_return_to_the_diarchy  }
+	}
+
+	#Convince Tandong to release Cortland
+	focus = {
+		id = LEY_convince_tandong_to_release_cortland
+		icon = GFX_goal_continuous_boost_freedom
+		x = 6
+		y = 6
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_focus_on_keeping_good_relations  }
+	}
+
+	#Continental Alliance
+	focus = {
+		id = LEY_continental_alliance
+		icon = GFX_LEY_continental_alliance-645591
+		x = 0
+		y = 9
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = LEY_suggest_the_next_summit_in_leyenbourg  }
+		mutually_exclusive = { focus = LEY_run_for_neutrality  }
+	}
+
 	#Forming a new Government
 	focus = {
 		id = LEY_forming_a_new_government
 		icon = GFX_goal_generic_demand_territory
-		x = 11
+		x = 16
 		y = 1
-		cost = 7
+		cost = 2
 		search_filters = {
-			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = LEY_recovering_from_the_crisis  }
-		ai_will_do = { factor = 100 }
 		completion_reward = {
 			add_political_power = 100
 			add_stability = +0.05
@@ -52,53 +219,408 @@ focus_tree = {
 			}
 		}
 	}
+		prerequisite = { focus = LEY_recovering_from_the_crisis  }
 	}
-	
-	#The Duchy Reborn
+
+	#New Attempts
 	focus = {
-		id = LEY_the_duchy_reborn
-		icon = GFX_focus_hun_elect_a_king
-		x = 4
+		id = LEY_new_attempts
+		icon = GFX_LEY_new_attempts-270
+		x = 24
 		y = 2
-		cost = 10
+		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_forming_a_new_government  }
-		mutually_exclusive = { focus = LEY_accelerationist_takeover  }
-		mutually_exclusive = { focus = LEY_the_first_republic  }
-		ai_will_do = { factor = 100 }
-		completion_reward = {
-			add_political_power = 100
-			add_stability = +0.15
-			add_popularity = {
-				ideology = monarchist
-				popularity = +0.2
-			}
-		set_politics = {
-			ruling_party = monarchist
-			elections_allowed = no
-			last_election = "1936.1.1"
-			election_frequency = 48
-			long_name = "House of Zlatkow"
-			name = "House of Zlatkow"
-			}
-		remove_ideas = provisional_government
+		mutually_exclusive = { focus = LEY_revisit_old_traditions  }
+	}
+
+	#Modernization Efforts
+	focus = {
+		id = LEY_modernization_efforts
+		icon = GFX_LEY_modernization_efforts-645960
+		x = 13
+		y = 9
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
 		}
+		prerequisite = { focus = LEY_secure_the_economy  }
+	}
+
+	#The Leyenbourgian Council
+	focus = {
+		id = LEY_the_leyenbourgian_council
+		icon = GFX_LEY_the_leyenbourgian_council-646365
+		x = 16
+		y = 5
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_question_of_power  }
+		mutually_exclusive = { focus = LEY_strength_the_parliament  } mutually_exclusive = { focus = LEY_dissolve_the_parlament  }
+	}
+
+	#Military Department
+	focus = {
+		id = LEY_military_department
+		icon = GFX_goal_generic_military_sphere
+		x = 30
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+	#Return to the Diarchy
+	focus = {
+		id = LEY_return_to_the_diarchy
+		icon = GFX_LEY_return_to_the_diarchy-645781
+		x = 5
+		y = 5
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_promote_gottfried_sarkowa  }
+		mutually_exclusive = { focus = LEY_focus_on_keeping_good_relations  }
+	}
+
+	#Watch to the West
+	focus = {
+		id = LEY_watch_to_the_west
+		icon = GFX_goal_generic_position_armies
+		x = 4
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = LEY_return_to_the_diarchy  }
+	}
+
+	#Refrom the Commonwealth
+	focus = {
+		id = LEY_refrom_the_commonwealth
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		x = 3
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_watch_to_the_west  }
+	}
+
+	#Demand Cortland Territory
+	focus = {
+		id = LEY_demand_cortland_territory
+		icon = GFX_goal_generic_political_pressure
+		x = 5
+		y = 7
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = LEY_watch_to_the_west  }
+	}
+
+	#Reunite what was once Ours
+	focus = {
+		id = LEY_reunite_what_was_once_ours
+		icon = GFX_LEY_reunite_what_was_once_ours-645990
+		x = 4
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = LEY_refrom_the_commonwealth  } prerequisite = { focus = LEY_demand_cortland_territory  }
+	}
+
+	#Reform the United Kingdom of Telune
+	focus = {
+		id = LEY_reform_the_united_kingdom_of_telune
+		icon = GFX_goal_generic_dangerous_deal
+		x = 4
+		y = 10
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = LEY_reunite_what_was_once_ours  }
+	}
+
+	#Ocianian Peopls Party
+	focus = {
+		id = LEY_ocianian_peopls_party
+		icon = GFX_goal_continuous_increase_nu
+		x = 11
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_strength_the_parliament  }
+		mutually_exclusive = { focus = LEY_social_party_of_leyenbourg  }
+	}
+
+	#The 6th Republic
+	focus = {
+		id = LEY_the_6th_republic
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 13
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_revisit_old_traditions  }
+		mutually_exclusive = { focus = LEY_the_duchy_reborn  }
+	}
+
+	#Focus on the Tank
+	focus = {
+		id = LEY_focus_on_the_tank
+		icon = GFX_goal_generic_army_tanks
+		x = 25
+		y = 11
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = LEY_onland  }
+		mutually_exclusive = { focus = LEY_advandced_military_training  }
+	}
+
+	#The Howitzer
+	focus = {
+		id = LEY_the_howitzer
+		icon = GFX_goal_generic_army_artillery2
+		x = 27
+		y = 12
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = LEY_artillary_overhaul  }
+	}
+
+	#Artillary Overhaul
+	focus = {
+		id = LEY_artillary_overhaul
+		icon = GFX_goal_generic_army_artillery
+		x = 27
+		y = 11
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = LEY_onland  }
+	}
+
+	#Advandced Military Training
+	focus = {
+		id = LEY_advandced_military_training
+		icon = GFX_focus_chi_army_reform
+		x = 23
+		y = 11
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = LEY_onland  }
+		mutually_exclusive = { focus = LEY_focus_on_the_tank  }
+	}
+
+	#Recovering from the Crisis
+	focus = {
+		id = LEY_recovering_from_the_crisis
+		icon = GFX_focus_generic_support_the_left_right
+		x = 16
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		completion_reward = {
+			add_stability = +0.05
+			add_war_support = +0.04
+			add_political_power = 200
+		}
+	}
+
+	#Promote Gottfried Sarkowa
+	focus = {
+		id = LEY_promote_gottfried_sarkowa
+		icon = GFX_goal_generic_army_doctrines
+		x = 5
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = LEY_the_duchy_reborn  }
+	}
+
+	#For the Best of Leyenbourg
+	focus = {
+		id = LEY_for_the_best_of_leyenbourg
+		icon = GFX_focus_generic_strike_at_democracy2
+		x = 8
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = LEY_wartime_industry  focus = LEY_prepare_for_the_worst  }
+	}
+
+	#Bring back old Oceanum Leaders
+	focus = {
+		id = LEY_bring_back_old_oceanum_leaders
+		icon = GFX_LEY_bring_back_old_oceanum_leaders-262076
+		x = 12
+		y = 10
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_ocianian_peopls_party  }
+	}
+
+	#Dissolve the Parlament
+	focus = {
+		id = LEY_dissolve_the_parlament
+		icon = GFX_LEY_dissolve_the_parlament-646327
+		x = 13
+		y = 5
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = LEY_question_of_power  }
+		mutually_exclusive = { focus = LEY_strength_the_parliament  } mutually_exclusive = { focus = LEY_the_leyenbourgian_council  }
+	}
+
+	#Military in Charge
+	focus = {
+		id = LEY_military_in_charge
+		icon = GFX_LEY_military_in_charge-645957
+		x = 13
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = LEY_dissolve_the_parlament  }
+	}
+
+	#Question of Power
+	focus = {
+		id = LEY_question_of_power
+		icon = GFX_goal_unknown
+		x = 13
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_the_6th_republic  }
+	}
+
+	#Strength the Parliament
+	focus = {
+		id = LEY_strength_the_parliament
+		icon = GFX_LEY_strength_the_parliament-645772
+		x = 10
+		y = 5
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_question_of_power  }
+		mutually_exclusive = { focus = LEY_dissolve_the_parlament  } mutually_exclusive = { focus = LEY_the_leyenbourgian_council  }
+	}
+
+	#Reform the Reichstag
+	focus = {
+		id = LEY_reform_the_reichstag
+		icon = GFX_LEY_reform_the_reichstag-645493
+		x = 6
+		y = 9
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_convince_tandong_to_release_cortland  }
+	}
+
+	#Strengthen the Industry
+	focus = {
+		id = LEY_strengthen_the_industry
+		icon = GFX_LEY_strengthen_the_industry-645960
+		x = 8
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = LEY_social_party_of_leyenbourg  }
+	}
+
+	#Prepare for the Worst
+	focus = {
+		id = LEY_prepare_for_the_worst
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		x = 7
+		y = 8
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = LEY_strengthen_the_industry  }
+	}
+
+	#Wartime Industry
+	focus = {
+		id = LEY_wartime_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 9
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = LEY_strengthen_the_industry  }
+	}
+
+	#Focus on Equality
+	focus = {
+		id = LEY_focus_on_equality
+		icon = GFX_LEY_focus_on_equality-646001
+		x = 11
+		y = 7
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = LEY_ocianian_peopls_party  }
 	}
 
 	#National Development Scheme
 	focus = {
 		id = LEY_national_development_scheme
-		icon = GFX_LEY_national_development_scheme-262129
-		x = 3
-		y = 3
-		cost = 15
+		icon = GFX_goal_generic_construction
+		x = 11
+		y = 8
+		cost = 6
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = LEY_the_duchy_reborn  }
-		ai_will_do = { factor = 50 }
 		completion_reward = {
 		601 = {
 			add_building_construction = {
@@ -120,840 +642,258 @@ focus_tree = {
 			}
 		}
 		}
+		prerequisite = { focus = LEY_focus_on_equality  }
 	}
 
-	#Fund new Railways
+	#Democratic Research
 	focus = {
-		id = LEY_fund_new_railways
-		icon = GFX_LEY_fund_new_railways-645972
-		x = 3
-		y = 4
-		cost = 16
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = LEY_national_development_scheme  }
-		completion_reward = {
-				build_railway = {
-					level = 2
-					build_only_on_allied = yes
-					controller_priority = {
-						base = 1
-						modifier = {
-							tag = MAN
-							add = 2
-						}
-					}
-					fallback = yes
-					path = { 11364 11339 1577 966 }
-					start_province = 11364
-					target_province = 966
-					}
-		}
-	}
-
-	#Mass Production Facilities
-	focus = {
-		id = LEY_mass_production_facilities
-		icon = GFX_LEY_mass_production_facilities-645960
-		x = 3
-		y = 6
-		cost = 26
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = LEY_fund_new_railways  }
-		completion_reward = {
-		599 = {
-			add_building_construction = {
-				type = industrial_complex
-				level = 1
-			}
-		}
-		601 = {
-			add_building_construction = {
-				type = arms_factory
-				level = 1
-			}
-		}
-		}
-	}
-	
-	#Adress Sozial Issues
-	focus = {
-		id = LEY_adress_sozial_issues
-		icon = GFX_LEY_adress_sozial_issues-646001
-		x = 4
-		y = 7
-		cost = 20
-		search_filters = {
-			FOCUS_FILTER_MANPOWER
-		}
-		prerequisite = { focus = LEY_mass_production_facilities  }
-		ai_will_do = { factor = 40 }
-		completion_reward = {
-			add_stability = +0.1
-			add_war_support = +0.05
-		599 = {
-			add_building_construction = {
-				type = infrastructure
-				level = 1
-				state = 599
-			}
-		}
-		}
-	}
-	
-	#Expand Military Production
-	focus = {
-		id = LEY_expand_military_production
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 2
-		y = 7
-		cost = 25
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = LEY_mass_production_facilities  }
-		ai_will_do = { factor = 60 }
-		completion_reward = {
-		599 = {
-			add_building_construction = {
-				type = arms_factory
-				level = 1
-			}
-		}
-		601 = {
-			add_building_construction = {
-				type = arms_factory
-				level = 1
-			}
-		}
-		}
-	}
-	
-	#Return to the World Stage
-	focus = {
-		id = LEY_return_to_the_world_stage
-		icon = GFX_goal_tripartite_pact
-		x = 5
-		y = 3
-		cost = 2
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = LEY_the_duchy_reborn  }
-		ai_will_do = { factor = 70 }
-		completion_reward = {
-			add_stability = +0.15
-			add_political_power = 350
-		}
-	}
-
-	#Crononation of Zlatkow I.
-	focus = {
-		id = LEY_crononation_of_zlatkow_i
-		icon = GFX_focus_eng_god_save_the_king
-		x = 5
-		y = 4
-		cost = 1
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = LEY_return_to_the_world_stage  }
-		ai_will_do = { factor = 80 }
-		completion_reward = {
-			add_stability = +0.07
-			add_political_power = 100
-			add_popularity = {
-				ideology = monarchist
-				popularity = +0.15
-			}
-		}
-	}
-
-	#The Fort of Leyenbourg
-	focus = {
-		id = LEY_the_fort_of_leyenbourg
-		icon = GFX_goal_generic_fortify_city
-		x = 4
-		y = 5
-		cost = 15
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = LEY_crononation_of_zlatkow_i  }
-		ai_will_do = { factor = 40 }
-		completion_reward = {
-		601 = {
-		add_building_construction = {
-			type = bunker
-			level = 3
-			instant_build = yes
-			province = 1577
-		}
-		add_building_construction = {
-			type = bunker
-			level = 2
-			instant_build = yes
-			province = 11364
-		}
-		add_building_construction = {
-			type = bunker
-			level = 2
-			instant_build = yes
-			province = 11396
-			}
-		}
-		}
-	}
-
-	#Suggest Cathramin Council
-	focus = {
-		id = LEY_suggest_cathramin_council
-		icon = GFX_LEY_suggest_cathramin_council-645493
-		x = 6
-		y = 5
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = LEY_crononation_of_zlatkow_i  }
-		completion_reward = {
-			add_political_power = 350
-		}
-	}
-
-	#Continental Wargame
-	focus = {
-		id = LEY_continental_wargame
-		icon = GFX_focus_generic_little_entente
-		x = 6
-		y = 6
-		cost = 8
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = LEY_suggest_cathramin_council  }
-	}
-
-	#Continental Dispute
-	focus = {
-		id = LEY_continental_dispute
-		icon = GFX_LEY_continental_dispute-262099
-		x = 6
-		y = 7
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = LEY_continental_wargame  }
-	}
-
-	#The Kenemek Conference
-	focus = {
-		id = LEY_the_kenemek_conference
-		icon = GFX_focus_generic_diplomatic_treaty
-		x = 6
-		y = 8
-		cost = 1
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = LEY_continental_dispute  }
-		ai_will_do = { factor = 10 }
-		completion_reward = {
-			add_political_power = 350
-		}
-	}
-
-	#Accelerationist Takeover
-	focus = {
-		id = LEY_accelerationist_takeover
-		icon = GFX_LEY_accelerationist_takeover-645906
-		x = 11
-		y = 2
-		cost = 15
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = LEY_forming_a_new_government  }
-		mutually_exclusive = { focus = LEY_the_first_republic  }
-		mutually_exclusive = { focus = LEY_the_duchy_reborn  }
-		ai_will_do = { factor = 10 }
-		completion_reward = {
-			add_political_power = 100
-			add_stability = -0.1
-			add_popularity = {
-				ideology = accelerationist
-				popularity = +0.2
-			}
-		remove_ideas = provisional_government
-		}
-	}
-
-	#Organize a Government
-	focus = {
-		id = LEY_organize_a_government
-		icon = GFX_focus_generic_join_comintern
-		x = 11
-		y = 3
-		cost = 20
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = LEY_accelerationist_takeover  }
-		ai_will_do = { factor = 10 }
-		completion_reward = {
-			add_political_power = -100
-			add_stability = -0.05
-			add_popularity = {
-				ideology = accelerationist
-				popularity = +0.1
-			}
-			add_popularity = {
-				ideology = monarchist
-				popularity = -0.05
-			}
-			add_popularity = {
-				ideology = conservatist
-				popularity = -0.05
-			}
-			set_politics = {
-				ruling_party = accelerationist
-				elections_allowed = no
-				last_election = "1936.1.1"
-				election_frequency = 48
-				long_name = "Accelerationist Party of Leyenbourg"
-				name = "APL"
-			}
-		}
-	}
-
-	#Promoting Social Transformation
-	focus = {
-		id = LEY_promoting_social_transformation
-		icon = GFX_LEY_promoting_social_transformation-645934
-		x = 9
-		y = 4
-		cost = 18
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = LEY_organize_a_government  }
-		completion_reward = {
-			add_stability = +0.08
-			add_popularity = {
-				ideology = accelerationist
-				popularity = +0.1
-			}
-			add_popularity = {
-				ideology = monarchist
-				popularity = -0.1
-			}
-		}
-	}
-
-	#Propaganda: Overdrive
-	focus = {
-		id = LEY_propagandaoverdrive
-		icon = GFX_goal_generic_propaganda
-		x = 9
-		y = 5
-		cost = 8
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = LEY_promoting_social_transformation  }
-		completion_reward = {
-			add_stability = +0.08
-			communism_drift = 0.10
-			add_popularity = {
-				ideology = accelerationist
-				popularity = +0.1
-			}
-		}
-	}
-
-	#Nationalist Coup!
-	focus = {
-		id = LEY_nationalistcoup
-		icon = GFX_LEY_nationalistcoup-646210
-		x = 9
-		y = 6
-		cost = 30
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = LEY_propagandaoverdrive  }
-		completion_reward = {
-		set_politics = {
-				ruling_party = radical_nationalist
-				elections_allowed = no
-				last_election = "1936.1.1"
-				election_frequency = 48
-				long_name = "National Leyenbourg Party"
-				name = "NLP"
-			}
-		}
-	}
-
-	#Execute the Accelerationist Leaders!
-	focus = {
-		id = LEY_executetheaccelerationistleaders
-		icon = GFX_focus_spr_crush_the_revolution
-		x = 9
-		y = 7
-		cost = 6
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = LEY_nationalistcoup  }
-		completion_reward = {
-		add_stability = -0.14
-		kill_ideology_leader = accelerationist
-		add_popularity = {
-				ideology = accelerationist
-				popularity = -0.2
-			}
-		}
-	}
-
-
-	#One Man to lead them All
-	focus = {
-		id = LEY_one_man_to_lead_them_all
-		icon = GFX_LEY_one_man_to_lead_them_all-262024
-		x = 8
-		y = 8
-		cost = 6
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = LEY_executetheaccelerationistleaders  }
-		mutually_exclusive = { focus = LEY_military_in_charge  }
-		completion_reward = {
-		add_popularity = {
-				ideology = accelerationist
-				popularity = -0.2
-			}
-		add_popularity = {
-			ideology = radical_nationalist
-			popularity = +0.2
-			}
-		set_politics = {
-			ruling_party = radical_nationalist
-			elections_allowed = no
-			last_election = "1936.1.1"
-			election_frequency = 48
-			long_name = "Nationalist Party of Leyenbourg"
-			name = "NPL"
-			}
-		}
-	}
-
-	#Military in Charge
-	focus = {
-		id = LEY_military_in_charge
-		icon = GFX_LEY_military_in_charge-262028
+		id = LEY_democratic_research
+		icon = GFX_focus_research2
 		x = 10
-		y = 8
-		cost = 9
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = LEY_executetheaccelerationistleaders  }
-		mutually_exclusive = { focus = LEY_one_man_to_lead_them_all  }
-		completion_reward = {
-		add_popularity = {
-				ideology = accelerationist
-				popularity = -0.2
-			}
-		add_popularity = {
-			ideology = radical_nationalist
-			popularity = +0.2
-			}
-		set_politics = {
-			ruling_party = radical_nationalist
-			elections_allowed = no
-			last_election = "1936.1.1"
-			election_frequency = 48
-			long_name = "National Defense Party"
-			name = "NDP"
-			}
-		}
-	}
-
-	#Never Again!
-	focus = {
-		id = LEY_neveragain
-		icon = GFX_focus_generic_strike_at_democracy1
-		x = 9
-		y = 9
-		cost = 20
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = LEY_one_man_to_lead_them_all  focus = LEY_military_in_charge  }
-		completion_reward = {
-		add_popularity = {
-			ideology = accelerationist
-			popularity = -1
-			}
-		}
-	}
-	
-	#Nationalization of the Industry
-	focus = {
-		id = LEY_nationalization_of_the_industry
-		icon = GFX_LEY_nationalization_of_the_industry-645906
-		x = 12
-		y = 4
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = LEY_organize_a_government  }
-	}
-
-	#Industrialization Efforts
-	focus = {
-		id = LEY_industrialization_efforts
-		icon = GFX_goal_continuous_non_factory_construct
-		x = 13
-		y = 5
-		cost = 13
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = LEY_nationalization_of_the_industry  }
-	}
-
-	#Implement Economic Policies
-	focus = {
-		id = LEY_implement_economic_policies
-		icon = GFX_focus_usa_reestablish_the_gold_standard
-		x = 13
-		y = 6
-		cost = 8
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = LEY_industrialization_efforts  }
-	}
-
-	#Modernization Efforts
-	focus = {
-		id = LEY_modernization_efforts
-		icon = GFX_LEY_modernization_efforts-646060
-		x = 13
-		y = 7
-		cost = 12
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = LEY_implement_economic_policies  }
-	}
-
-	#Intensifying Technological Development
-	focus = {
-		id = LEY_intensifying_technological_development
-		icon = GFX_focus_generic_socialist_science
-		x = 11
-		y = 5
-		cost = 11
+		y = 10
+		cost = 6
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = LEY_nationalization_of_the_industry  }
+		prerequisite = { focus = LEY_national_development_scheme  focus = LEY_wartime_industry  }
 	}
 
-	#Overhauling Education and Workforce Training
+	#On Land..
 	focus = {
-		id = LEY_overhauling_education_and_workforce_training
-		icon = GFX_LEY_overhauling_education_and_workforce_training-646000
-		x = 11
-		y = 6
-		cost = 9
+		id = LEY_onland
+		icon = GFX_goal_rhineland
+		x = 25
+		y = 10
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = LEY_military_department  }
+	}
+
+	#Mechanized Army
+	focus = {
+		id = LEY_mechanized_army
+		icon = GFX_focus_generic_tank_production
+		x = 25
+		y = 12
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
-		prerequisite = { focus = LEY_intensifying_technological_development  }
+		prerequisite = { focus = LEY_focus_on_the_tank  }
 	}
 
-	#Liberate All!
+	#Modernization Overhaul
 	focus = {
-		id = LEY_liberateall
-		icon = GFX_focus_eng_liberate_the_home_of_marx
-		x = 11
-		y = 7
-		cost = 18
+		id = LEY_modernization_overhaul
+		icon = GFX_focus_generic_army_tanks2
+		x = 26
+		y = 13
+		cost = 6
 		search_filters = {
-			FOCUS_FILTER_ANNEXATION
+			FOCUS_FILTER_WAR_SUPPORT
 		}
-		prerequisite = { focus = LEY_overhauling_education_and_workforce_training  }
+		prerequisite = { focus = LEY_the_howitzer  } prerequisite = { focus = LEY_mechanized_army  }
+		mutually_exclusive = { focus = LEY_special_forces  }
 	}
 
-	#Questening our Goals
+	#Infantry First
 	focus = {
-		id = LEY_questening_our_goals
-		icon = GFX_goal_anti_comintern_pact
-		x = 12
-		y = 8
-		cost = 17
+		id = LEY_infantry_first
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 23
+		y = 12
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_WAR_SUPPORT
 		}
-		prerequisite = { focus = LEY_modernization_efforts  } prerequisite = { focus = LEY_liberateall  }
+		prerequisite = { focus = LEY_advandced_military_training  }
 	}
 
-	#Spreeding our Believes
+	#Special Forces
 	focus = {
-		id = LEY_spreeding_our_believes
-		icon = GFX_LEY_spreeding_our_believes-646283
-		x = 12
-		y = 9
-		cost = 20
+		id = LEY_special_forces
+		icon = GFX_goal_generic_special_forces
+		x = 23
+		y = 13
+		cost = 8
 		search_filters = {
-			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+			FOCUS_FILTER_WAR_SUPPORT
 		}
-		prerequisite = { focus = LEY_questening_our_goals  }
+		prerequisite = { focus = LEY_infantry_first  }
+		mutually_exclusive = { focus = LEY_modernization_overhaul  }
 	}
 
-	#Liberate Humanity!
+	#Operation Atlas
 	focus = {
-		id = LEY_liberatehumanity
-		icon = GFX_LEY_liberatehumanity-645744
-		x = 12
+		id = LEY_operation_atlas
+		icon = GFX_LEY_operation_atlas-646157
+		x = 8
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = LEY_democratic_research  focus = LEY_reform_the_united_kingdom_of_telune  focus = LEY_for_the_best_of_leyenbourg  }
+	}
+
+	#...in the Skies...
+	focus = {
+		id = LEY_intheskies
+		icon = GFX_LEY_intheskies-645903
+		x = 30
 		y = 10
-		cost = 20
+		cost = 6
 		search_filters = {
-			FOCUS_FILTER_ANNEXATION
+			FOCUS_FILTER_WAR_SUPPORT
 		}
-		prerequisite = { focus = LEY_spreeding_our_believes  }
+		prerequisite = { focus = LEY_military_department  }
 	}
 
-	#The First Republic
+	#Focus on the Air Ports
 	focus = {
-		id = LEY_the_first_republic
-		icon = GFX_LEY_the_first_republic-646103
-		x = 18
-		y = 2
-		cost = 20
+		id = LEY_focus_on_the_air_ports
+		icon = GFX_goal_generic_air_production
+		x = 29
+		y = 11
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = LEY_forming_a_new_government  }
-		mutually_exclusive = { focus = LEY_the_duchy_reborn  }
-		mutually_exclusive = { focus = LEY_accelerationist_takeover  }
-		completion_reward = {
-		set_politics = {
-				ruling_party = conservatist
-				elections_allowed = yes
-				last_election = "1936.1.1"
-				election_frequency = 48
-				long_name = "Democratic Party of Leyenbourg"
-				name = "DPL"
-			}
-		add_popularity = {
-			ideology = accelerationist
-			popularity = -0.07
-			}
-		add_popularity = {
-			ideology = conservatist
-			popularity = +0.1
-			}
-		add_popularity = {
-			ideology = social_liberalist
-			popularity = +0.04
-			}
-		add_popularity = {
-			ideology = monarchist
-			popularity = -0.07
-			}
-		add_stability = +0.15
-		add_political_power = 200
-		remove_ideas = provisional_government
-		}
+		prerequisite = { focus = LEY_intheskies  }
 	}
 
-	#Question of Power
+	#Focus on the Planes
 	focus = {
-		id = LEY_question_of_power
-		icon = GFX_goal_unknown
-		x = 18
-		y = 3
+		id = LEY_focus_on_the_planes
+		icon = GFX_goal_generic_air_bomber
+		x = 31
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = LEY_intheskies  }
+	}
+
+	#Aviation Efforts
+	focus = {
+		id = LEY_aviation_efforts
+		icon = GFX_goal_generic_build_airforce
+		x = 30
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = LEY_focus_on_the_planes  } prerequisite = { focus = LEY_focus_on_the_air_ports  }
+	}
+
+	#Dogfight Project
+	focus = {
+		id = LEY_dogfight_project
+		icon = GFX_goal_generic_air_fighter
+		x = 29
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = LEY_aviation_efforts  }
+	}
+
+	#Aerial Bombardment
+	focus = {
+		id = LEY_aerial_bombardment
+		icon = GFX_LEY_aerial_bombardment-646323
+		x = 31
+		y = 13
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = LEY_aviation_efforts  }
+		mutually_exclusive = { focus = LEY_dogfight_project  }
+	}
+
+	#...and to the Seas
+	focus = {
+		id = LEY_andtotheseas
+		icon = GFX_goal_generic_navy_cruiser
+		x = 34
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = LEY_military_department  }
+	}
+
+	#The Concordian Fleet
+	focus = {
+		id = LEY_the_concordian_fleet
+		icon = GFX_LEY_the_concordian_fleet-646231
+		x = 33
+		y = 11
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = LEY_andtotheseas  }
+	}
+
+	#New Type of Warfare
+	focus = {
+		id = LEY_new_type_of_warfare
+		icon = GFX_goal_generic_navy_submarine
+		x = 35
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = LEY_andtotheseas  }
+		mutually_exclusive = { focus = LEY_the_concordian_fleet  }
+	}
+
+	#Advandced Submarines
+	focus = {
+		id = LEY_advandced_submarines
+		icon = GFX_goal_generic_navy_anti_submarine
+		x = 35
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = LEY_new_type_of_warfare  }
+	}
+
+	#Heavy Cruisers
+	focus = {
+		id = LEY_heavy_cruisers
+		icon = GFX_focus_generic_cruiser2
+		x = 33
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = LEY_the_concordian_fleet  }
+	}
+
+	#Hyperion Project
+	focus = {
+		id = LEY_hyperion_project
+		icon = GFX_focus_generic_navy_battleship2
+		x = 34
+		y = 13
 		cost = 10
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_WAR_SUPPORT
 		}
-		prerequisite = { focus = LEY_the_first_republic  }
-		completion_reward = {
-		add_stability = -0.10
-		add_political_power = -156
-		hidden_effect = {
-			country_event = {
-			    id = leyenbourg.2
-			    days = 5
-			}
-		}
-		}
-	}
-
-	#Lukey for Power!
-	focus = {
-		id = LEY_lukeyforpower
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		x = 17
-		y = 4
-		cost = 14
-		search_filters = {
-			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
-		}
-		prerequisite = { focus = LEY_question_of_power  }
-		mutually_exclusive = { focus = LEY_gottfriedsarkowareturns  }
-		completion_reward = {
-		add_stability = -0.10
-		add_political_power = 140
-		add_popularity = {
-			ideology = accelerationist
-			popularity = -0.07
-			}
-		add_popularity = {
-			ideology = xeroist
-			popularity = -1
-			}
-		add_popularity = {
-			ideology = radical_nationalist
-			popularity = +0.14
-			}
-		add_popularity = {
-			ideology = conservatist
-			popularity = -0.07
-			}
-		add_stability = +0.15
-		add_political_power = 200
-		create_country_leader = {
-			name = "Lukey"
-			desc = ""
-			expire = "1965.1.1"
-			ideology = radical_nationalist_subtype
-		}
-		}
-	}
-
-	#Dissolve the Parlament
-	focus = {
-		id = LEY_dissolve_the_parlament
-		icon = GFX_LEY_dissolve_the_parlament-646327
-		x = 17
-		y = 5
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
-		}
-		prerequisite = { focus = LEY_lukeyforpower  }
-		completion_reward = {
-		add_stability = -0.10
-		add_political_power = 140
-		add_popularity = {
-			ideology = accelerationist
-			popularity = -0.07
-			}
-		add_popularity = {
-			ideology = radical_nationalist
-			popularity = +0.14
-			}
-		add_popularity = {
-			ideology = conservatist
-			popularity = -0.1
-			}
-		add_popularity = {
-			ideology = social_liberalist
-			popularity = -0.1
-			}
-		add_stability = +0.15
-		add_political_power = 200
-		}
-	}
-
-	#Supreme Leader of the Oceanumites
-	focus = {
-		id = LEY_supreme_leader_of_the_oceanumites
-		icon = GFX_focus_spa_strengthen_the_supreme_reality_of_spain
-		x = 17
-		y = 6
-		cost = 20
-		search_filters = {
-			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
-		}
-		prerequisite = { focus = LEY_dissolve_the_parlament  }
-		completion_reward = {
-		set_politics = {
-				ruling_party = radical_nationalist
-				elections_allowed = no
-				last_election = "1936.1.1"
-				election_frequency = 48
-				long_name = "Party of Leyenbourg"
-				name = "PL"
-			}
-		add_popularity = {
-			ideology = conservatist
-			popularity = -0.07
-			}
-		add_popularity = {
-			ideology = radical_nationalist
-			popularity = +0.14
-			}
-		}
-	}
-	
-	#Gottfried Sarkowa returns!
-	focus = {
-		id = LEY_gottfriedsarkowareturns
-		icon = GFX_goal_generic_air_doctrine
-		x = 19
-		y = 4
-		cost = 14
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = LEY_question_of_power  }
-		mutually_exclusive = { focus = LEY_lukeyforpower  }
-		completion_reward = {
-		add_popularity = {
-			ideology = conservatist
-			popularity = +0.20
-			}
-		deactivate_advisor = LEY_gottfried_sarkowa
-		create_country_leader = {
-			name = "Gottfried Sarkowa"
-			desc = ""
-			picture = GFX_portrait_LEY_gottfried_sarkowa
-			expire = "1965.1.1"
-			ideology = conservatist_subtype
-		}
-		}
-	}
-
-	#Strengthen the Parlament
-	focus = {
-		id = LEY_strengthen_the_parlament
-		icon = GFX_LEY_strengthen_the_parlament-645772
-		x = 19
-		y = 5
-		cost = 14
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = LEY_gottfriedsarkowareturns  }
-		completion_reward = {
-		add_popularity = {
-			ideology = conservatist
-			popularity = +0.10
-			}
-		add_stability = +0.15
-		}
+		prerequisite = { focus = LEY_heavy_cruisers  focus = LEY_advandced_submarines  }
 	}
 
 }
