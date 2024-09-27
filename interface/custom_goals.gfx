@@ -77,20 +77,19 @@ spriteTypes = {	##Icon For:
 }
 
 # Leyenbourg
-
 spriteTypes = {	##Icon For: 
 	SpriteType = { 
-		name = "GFX_LEY_national_development_scheme-262129"
-		texturefile = "gfx/interface/goals/GFX_LEY_national_development_scheme-262129.dds"
+		name = "GFX_LEY_social_party_of_leyenbourg-427"
+		texturefile = "gfx/interface/goals/GFX_LEY_social_party_of_leyenbourg-427.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
-		name = "GFX_LEY_national_development_scheme-262129_shine"
-		texturefile = "gfx/interface/goals/GFX_LEY_national_development_scheme-262129.dds"
+		name = "GFX_LEY_social_party_of_leyenbourg-427_shine"
+		texturefile = "gfx/interface/goals/GFX_LEY_social_party_of_leyenbourg-427.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_national_development_scheme-262129.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_social_party_of_leyenbourg-427.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -102,7 +101,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_national_development_scheme-262129.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_social_party_of_leyenbourg-427.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -118,17 +117,17 @@ spriteTypes = {	##Icon For:
 
 	##Icon For: 
 	SpriteType = { 
-		name = "GFX_LEY_fund_new_railways-645972"
-		texturefile = "gfx/interface/goals/GFX_LEY_fund_new_railways-645972.dds"
+		name = "GFX_LEY_continental_alliance-645591"
+		texturefile = "gfx/interface/goals/GFX_LEY_continental_alliance-645591.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
-		name = "GFX_LEY_fund_new_railways-645972_shine"
-		texturefile = "gfx/interface/goals/GFX_LEY_fund_new_railways-645972.dds"
+		name = "GFX_LEY_continental_alliance-645591_shine"
+		texturefile = "gfx/interface/goals/GFX_LEY_continental_alliance-645591.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_fund_new_railways-645972.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_continental_alliance-645591.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -140,7 +139,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_fund_new_railways-645972.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_continental_alliance-645591.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -156,17 +155,17 @@ spriteTypes = {	##Icon For:
 
 	##Icon For: 
 	SpriteType = { 
-		name = "GFX_LEY_mass_production_facilities-645960"
-		texturefile = "gfx/interface/goals/GFX_LEY_mass_production_facilities-645960.dds"
+		name = "GFX_LEY_new_attempts-270"
+		texturefile = "gfx/interface/goals/GFX_LEY_new_attempts-270.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
-		name = "GFX_LEY_mass_production_facilities-645960_shine"
-		texturefile = "gfx/interface/goals/GFX_LEY_mass_production_facilities-645960.dds"
+		name = "GFX_LEY_new_attempts-270_shine"
+		texturefile = "gfx/interface/goals/GFX_LEY_new_attempts-270.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_mass_production_facilities-645960.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_new_attempts-270.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -178,7 +177,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_mass_production_facilities-645960.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_new_attempts-270.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -194,17 +193,17 @@ spriteTypes = {	##Icon For:
 
 	##Icon For: 
 	SpriteType = { 
-		name = "GFX_LEY_adress_sozial_issues-646001"
-		texturefile = "gfx/interface/goals/GFX_LEY_adress_sozial_issues-646001.dds"
+		name = "GFX_LEY_modernization_efforts-645960"
+		texturefile = "gfx/interface/goals/GFX_LEY_modernization_efforts-645960.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
-		name = "GFX_LEY_adress_sozial_issues-646001_shine"
-		texturefile = "gfx/interface/goals/GFX_LEY_adress_sozial_issues-646001.dds"
+		name = "GFX_LEY_modernization_efforts-645960_shine"
+		texturefile = "gfx/interface/goals/GFX_LEY_modernization_efforts-645960.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_adress_sozial_issues-646001.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_modernization_efforts-645960.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -216,7 +215,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_adress_sozial_issues-646001.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_modernization_efforts-645960.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -232,17 +231,17 @@ spriteTypes = {	##Icon For:
 
 	##Icon For: 
 	SpriteType = { 
-		name = "GFX_LEY_suggest_cathramin_council-645493"
-		texturefile = "gfx/interface/goals/GFX_LEY_suggest_cathramin_council-645493.dds"
+		name = "GFX_LEY_the_leyenbourgian_council-646365"
+		texturefile = "gfx/interface/goals/GFX_LEY_the_leyenbourgian_council-646365.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
-		name = "GFX_LEY_suggest_cathramin_council-645493_shine"
-		texturefile = "gfx/interface/goals/GFX_LEY_suggest_cathramin_council-645493.dds"
+		name = "GFX_LEY_the_leyenbourgian_council-646365_shine"
+		texturefile = "gfx/interface/goals/GFX_LEY_the_leyenbourgian_council-646365.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_suggest_cathramin_council-645493.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_the_leyenbourgian_council-646365.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -254,7 +253,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_suggest_cathramin_council-645493.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_the_leyenbourgian_council-646365.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -270,17 +269,17 @@ spriteTypes = {	##Icon For:
 
 	##Icon For: 
 	SpriteType = { 
-		name = "GFX_LEY_continental_dispute-262099"
-		texturefile = "gfx/interface/goals/GFX_LEY_continental_dispute-262099.dds"
+		name = "GFX_LEY_return_to_the_diarchy-645781"
+		texturefile = "gfx/interface/goals/GFX_LEY_return_to_the_diarchy-645781.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
-		name = "GFX_LEY_continental_dispute-262099_shine"
-		texturefile = "gfx/interface/goals/GFX_LEY_continental_dispute-262099.dds"
+		name = "GFX_LEY_return_to_the_diarchy-645781_shine"
+		texturefile = "gfx/interface/goals/GFX_LEY_return_to_the_diarchy-645781.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_continental_dispute-262099.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_return_to_the_diarchy-645781.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -292,7 +291,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_continental_dispute-262099.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_return_to_the_diarchy-645781.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -308,17 +307,17 @@ spriteTypes = {	##Icon For:
 
 	##Icon For: 
 	SpriteType = { 
-		name = "GFX_LEY_accelerationist_takeover-645906"
-		texturefile = "gfx/interface/goals/GFX_LEY_accelerationist_takeover-645906.dds"
+		name = "GFX_LEY_reunite_what_was_once_ours-645990"
+		texturefile = "gfx/interface/goals/GFX_LEY_reunite_what_was_once_ours-645990.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
-		name = "GFX_LEY_accelerationist_takeover-645906_shine"
-		texturefile = "gfx/interface/goals/GFX_LEY_accelerationist_takeover-645906.dds"
+		name = "GFX_LEY_reunite_what_was_once_ours-645990_shine"
+		texturefile = "gfx/interface/goals/GFX_LEY_reunite_what_was_once_ours-645990.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_accelerationist_takeover-645906.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_reunite_what_was_once_ours-645990.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -330,7 +329,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_accelerationist_takeover-645906.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_reunite_what_was_once_ours-645990.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -346,17 +345,17 @@ spriteTypes = {	##Icon For:
 
 	##Icon For: 
 	SpriteType = { 
-		name = "GFX_LEY_nationalization_of_the_industry-645906"
-		texturefile = "gfx/interface/goals/GFX_LEY_nationalization_of_the_industry-645906.dds"
+		name = "GFX_LEY_bring_back_old_oceanum_leaders-262076"
+		texturefile = "gfx/interface/goals/GFX_LEY_bring_back_old_oceanum_leaders-262076.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
-		name = "GFX_LEY_nationalization_of_the_industry-645906_shine"
-		texturefile = "gfx/interface/goals/GFX_LEY_nationalization_of_the_industry-645906.dds"
+		name = "GFX_LEY_bring_back_old_oceanum_leaders-262076_shine"
+		texturefile = "gfx/interface/goals/GFX_LEY_bring_back_old_oceanum_leaders-262076.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_nationalization_of_the_industry-645906.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_bring_back_old_oceanum_leaders-262076.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -368,349 +367,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_nationalization_of_the_industry-645906.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = 90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
-
-	##Icon For: 
-	SpriteType = { 
-		name = "GFX_LEY_promoting_social_transformation-645934"
-		texturefile = "gfx/interface/goals/GFX_LEY_promoting_social_transformation-645934.dds"
-	}
-
-	##Icon Shine For: 
-	SpriteType = { 
-		name = "GFX_LEY_promoting_social_transformation-645934_shine"
-		texturefile = "gfx/interface/goals/GFX_LEY_promoting_social_transformation-645934.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_promoting_social_transformation-645934.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = -90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_promoting_social_transformation-645934.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = 90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
-
-	##Icon For: 
-	SpriteType = { 
-		name = "GFX_LEY_nationalistcoup-646210"
-		texturefile = "gfx/interface/goals/GFX_LEY_nationalistcoup-646210.dds"
-	}
-
-	##Icon Shine For: 
-	SpriteType = { 
-		name = "GFX_LEY_nationalistcoup-646210_shine"
-		texturefile = "gfx/interface/goals/GFX_LEY_nationalistcoup-646210.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_nationalistcoup-646210.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = -90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_nationalistcoup-646210.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = 90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
-
-	##Icon For: 
-	SpriteType = { 
-		name = "GFX_LEY_one_man_to_lead_them_all-262024"
-		texturefile = "gfx/interface/goals/GFX_LEY_one_man_to_lead_them_all-262024.dds"
-	}
-
-	##Icon Shine For: 
-	SpriteType = { 
-		name = "GFX_LEY_one_man_to_lead_them_all-262024_shine"
-		texturefile = "gfx/interface/goals/GFX_LEY_one_man_to_lead_them_all-262024.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_one_man_to_lead_them_all-262024.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = -90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_one_man_to_lead_them_all-262024.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = 90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
-
-	##Icon For: 
-	SpriteType = { 
-		name = "GFX_LEY_military_in_charge-262028"
-		texturefile = "gfx/interface/goals/GFX_LEY_military_in_charge-262028.dds"
-	}
-
-	##Icon Shine For: 
-	SpriteType = { 
-		name = "GFX_LEY_military_in_charge-262028_shine"
-		texturefile = "gfx/interface/goals/GFX_LEY_military_in_charge-262028.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_military_in_charge-262028.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = -90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_military_in_charge-262028.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = 90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
-
-	##Icon For: 
-	SpriteType = { 
-		name = "GFX_LEY_modernization_efforts-646060"
-		texturefile = "gfx/interface/goals/GFX_LEY_modernization_efforts-646060.dds"
-	}
-
-	##Icon Shine For: 
-	SpriteType = { 
-		name = "GFX_LEY_modernization_efforts-646060_shine"
-		texturefile = "gfx/interface/goals/GFX_LEY_modernization_efforts-646060.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_modernization_efforts-646060.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = -90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_modernization_efforts-646060.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = 90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
-
-	##Icon For: 
-	SpriteType = { 
-		name = "GFX_LEY_overhauling_education_and_workforce_training-646000"
-		texturefile = "gfx/interface/goals/GFX_LEY_overhauling_education_and_workforce_training-646000.dds"
-	}
-
-	##Icon Shine For: 
-	SpriteType = { 
-		name = "GFX_LEY_overhauling_education_and_workforce_training-646000_shine"
-		texturefile = "gfx/interface/goals/GFX_LEY_overhauling_education_and_workforce_training-646000.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_overhauling_education_and_workforce_training-646000.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = -90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_overhauling_education_and_workforce_training-646000.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = 90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
-
-	##Icon For: 
-	SpriteType = { 
-		name = "GFX_LEY_spreeding_our_believes-646283"
-		texturefile = "gfx/interface/goals/GFX_LEY_spreeding_our_believes-646283.dds"
-	}
-
-	##Icon Shine For: 
-	SpriteType = { 
-		name = "GFX_LEY_spreeding_our_believes-646283_shine"
-		texturefile = "gfx/interface/goals/GFX_LEY_spreeding_our_believes-646283.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_spreeding_our_believes-646283.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = -90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_spreeding_our_believes-646283.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = 90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
-
-	##Icon For: 
-	SpriteType = { 
-		name = "GFX_LEY_liberatehumanity-645744"
-		texturefile = "gfx/interface/goals/GFX_LEY_liberatehumanity-645744.dds"
-	}
-
-	##Icon Shine For: 
-	SpriteType = { 
-		name = "GFX_LEY_liberatehumanity-645744_shine"
-		texturefile = "gfx/interface/goals/GFX_LEY_liberatehumanity-645744.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_liberatehumanity-645744.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = -90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_liberatehumanity-645744.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = 90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
-
-	##Icon For: 
-	SpriteType = { 
-		name = "GFX_LEY_the_first_republic-646103"
-		texturefile = "gfx/interface/goals/GFX_LEY_the_first_republic-646103.dds"
-	}
-
-	##Icon Shine For: 
-	SpriteType = { 
-		name = "GFX_LEY_the_first_republic-646103_shine"
-		texturefile = "gfx/interface/goals/GFX_LEY_the_first_republic-646103.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_the_first_republic-646103.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = -90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_the_first_republic-646103.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_bring_back_old_oceanum_leaders-262076.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -764,17 +421,17 @@ spriteTypes = {	##Icon For:
 
 	##Icon For: 
 	SpriteType = { 
-		name = "GFX_LEY_strengthen_the_parlament-645772"
-		texturefile = "gfx/interface/goals/GFX_LEY_strengthen_the_parlament-645772.dds"
+		name = "GFX_LEY_military_in_charge-645957"
+		texturefile = "gfx/interface/goals/GFX_LEY_military_in_charge-645957.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
-		name = "GFX_LEY_strengthen_the_parlament-645772_shine"
-		texturefile = "gfx/interface/goals/GFX_LEY_strengthen_the_parlament-645772.dds"
+		name = "GFX_LEY_military_in_charge-645957_shine"
+		texturefile = "gfx/interface/goals/GFX_LEY_military_in_charge-645957.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_strengthen_the_parlament-645772.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_military_in_charge-645957.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -786,7 +443,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_LEY_strengthen_the_parlament-645772.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_military_in_charge-645957.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -799,6 +456,311 @@ spriteTypes = {	##Icon For:
 		}
 		legacy_lazy_load = no
 	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_LEY_strength_the_parliament-645772"
+		texturefile = "gfx/interface/goals/GFX_LEY_strength_the_parliament-645772.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_LEY_strength_the_parliament-645772_shine"
+		texturefile = "gfx/interface/goals/GFX_LEY_strength_the_parliament-645772.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_strength_the_parliament-645772.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_strength_the_parliament-645772.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_LEY_reform_the_reichstag-645493"
+		texturefile = "gfx/interface/goals/GFX_LEY_reform_the_reichstag-645493.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_LEY_reform_the_reichstag-645493_shine"
+		texturefile = "gfx/interface/goals/GFX_LEY_reform_the_reichstag-645493.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_reform_the_reichstag-645493.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_reform_the_reichstag-645493.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_LEY_strengthen_the_industry-645960"
+		texturefile = "gfx/interface/goals/GFX_LEY_strengthen_the_industry-645960.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_LEY_strengthen_the_industry-645960_shine"
+		texturefile = "gfx/interface/goals/GFX_LEY_strengthen_the_industry-645960.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_strengthen_the_industry-645960.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_strengthen_the_industry-645960.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_LEY_focus_on_equality-646001"
+		texturefile = "gfx/interface/goals/GFX_LEY_focus_on_equality-646001.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_LEY_focus_on_equality-646001_shine"
+		texturefile = "gfx/interface/goals/GFX_LEY_focus_on_equality-646001.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_focus_on_equality-646001.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_focus_on_equality-646001.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_LEY_operation_atlas-646157"
+		texturefile = "gfx/interface/goals/GFX_LEY_operation_atlas-646157.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_LEY_operation_atlas-646157_shine"
+		texturefile = "gfx/interface/goals/GFX_LEY_operation_atlas-646157.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_operation_atlas-646157.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_operation_atlas-646157.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_LEY_intheskies-645903"
+		texturefile = "gfx/interface/goals/GFX_LEY_intheskies-645903.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_LEY_intheskies-645903_shine"
+		texturefile = "gfx/interface/goals/GFX_LEY_intheskies-645903.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_intheskies-645903.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_intheskies-645903.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_LEY_aerial_bombardment-646323"
+		texturefile = "gfx/interface/goals/GFX_LEY_aerial_bombardment-646323.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_LEY_aerial_bombardment-646323_shine"
+		texturefile = "gfx/interface/goals/GFX_LEY_aerial_bombardment-646323.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_aerial_bombardment-646323.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_aerial_bombardment-646323.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_LEY_the_concordian_fleet-646231"
+		texturefile = "gfx/interface/goals/GFX_LEY_the_concordian_fleet-646231.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_LEY_the_concordian_fleet-646231_shine"
+		texturefile = "gfx/interface/goals/GFX_LEY_the_concordian_fleet-646231.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_the_concordian_fleet-646231.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_LEY_the_concordian_fleet-646231.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
 }
 
 #Harpia
