@@ -15,7 +15,12 @@
  ### ERTCOF ###
 
  ERC_klymon: "Klymön Valentinus"
- 
+ ERC_rage: "Rage Valentinus"
+ ERC_bold: "Boldos \'Bold Street Mugger\', Duke of Saahankana"
+ ERC_lolko: "Lolko, Duke of Cofdo"
+ ERC_iustin: "Ian \'Iustin\'"
+ ERC_kisvycko: "Kisvÿçko \'Paaomytwod\' Tsalitlo"
+
  ### Enderia ###
  
  END_misfortune_guarden: "Misfortune Guarden"

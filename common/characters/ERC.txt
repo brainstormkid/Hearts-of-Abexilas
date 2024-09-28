@@ -7,12 +7,26 @@ characters={
 				small="GFX_portrait_ERC_klymon_small"
 			}
 	    }
+	    # AUTOCRAT
     	country_leader={
 			ideology=monarchist_subtype
 			traits= { }
 			desc = POLITICS_KLYMON_DESC
 			expire="1965.1.1.1"
 	    }
+    	country_leader={
+			ideology=theocratist_subtype
+			traits= { }
+			desc = POLITICS_KLYMON_DESC
+			expire="1965.1.1.1"
+	    }
+    	country_leader={
+			ideology=imperialist_subtype
+			traits= { }
+			desc = POLITICS_KLYMON_DESC
+			expire="1965.1.1.1"
+	    }
+	    # CONSTITUTIONAL MONARCH
     	country_leader={
 			ideology=progressivist_subtype
 			traits= { constitutional_monarch_minor }
@@ -22,12 +36,6 @@ characters={
     	country_leader={
 			ideology=social_liberalist_subtype
 			traits= { constitutional_monarch_minor }
-			desc = POLITICS_KLYMON_DESC
-			expire="1965.1.1.1"
-	    }
-    	country_leader={
-			ideology=theocratist_subtype
-			traits= { }
 			desc = POLITICS_KLYMON_DESC
 			expire="1965.1.1.1"
 	    }
@@ -49,12 +57,6 @@ characters={
 			desc = POLITICS_KLYMON_DESC
 			expire="1965.1.1.1"
 	    }
-    	country_leader={
-			ideology=imperialist_subtype
-			traits= { }
-			desc = POLITICS_KLYMON_DESC
-			expire="1965.1.1.1"
-	    }
     }
     ERC_rage={
     	name=ERC_rage
@@ -69,12 +71,17 @@ characters={
             slot = political_advisor
             idea_token = [ERC_rage]
             ledger = civilian
-            allowed = { original_tag = ERC }
+            allowed = {
+                OR {
+                    original_tag = ERC
+                    # tag = MOY
+                }
+            }
             traits = { prince_of_terror }
             available = {
             }
             ai_will_do = {
-                factor = 1.0
+                factor = 2.0
             }
         }
     	country_leader={
@@ -97,9 +104,97 @@ characters={
             slot = political_advisor
             idea_token = [ERC_bold]
             ledger = civilian
-            allowed = { original_tag = ERC }
+            allowed = {
+                OR {
+                    original_tag = ERC
+                    # tag = MOY
+                }
+            }
+            traits = { economist }
+            available = {
+            }
+            ai_will_do = {
+                factor = 1.0
+            }
+        }
+    }
+    ERC_lolko={
+    	name=ERC_lolko
+    	portraits={
+    		civilian={
+    			large="GFX_portrait_ERC_lolko"
+    			small="GFX_portrait_ERC_lolko_small"
+    		}
+        }
+        advisor={
+            cost = 100
+            slot = political_advisor
+            idea_token = [ERC_lolko]
+            ledger = civilian
+            allowed = {
+                OR {
+                    original_tag = ERC
+                    # tag = MOY
+                }
+            }
             traits = { silent_workhorse }
             available = {
+            }
+            ai_will_do = {
+                factor = 1.0
+            }
+        }
+    }
+    ERC_iustin={
+    	name=ERC_iustin
+    	portraits={
+    		civilian={
+    			large="GFX_portrait_ERC_iustin"
+    			small="GFX_portrait_ERC_iustin_small"
+    		}
+        }
+        advisor={
+            cost = 100
+            slot = political_advisor
+            idea_token = [ERC_iustin]
+            ledger = civilian
+            allowed = {
+                OR {
+                    original_tag = ERC
+                    # tag = MOY
+                }
+            }
+            traits = { captain_of_industry }
+            available = {
+                has_completed_focus = ERC_edoti
+            }
+            ai_will_do = {
+                factor = 1.0
+            }
+        }
+    }
+    ERC_kisvycko={
+    	name=ERC_kisvycko
+    	portraits={
+    		civilian={
+    			large="GFX_portrait_ERC_kisvycko"
+    			small="GFX_portrait_ERC_kisvycko_small"
+    		}
+        }
+        advisor={
+            cost = 100
+            slot = political_advisor
+            idea_token = [ERC_kisvycko]
+            ledger = civilian
+            allowed = {
+                OR {
+                    original_tag = ERC
+                    # tag = MOY
+                }
+            }
+            traits = { revolutionary_author editor }
+            available = {
+                is_ai = no
             }
             ai_will_do = {
                 factor = 1.0

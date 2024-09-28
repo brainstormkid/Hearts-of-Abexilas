@@ -43,13 +43,13 @@ set_popularities = {
 recruit_character = ERC_klymon
 recruit_character = ERC_rage
 recruit_character = ERC_bold
-# recruit_character = ERC_lolko     # ToDo
+recruit_character = ERC_lolko
 # recruit_character = ERC_kokasylt  # ToDo
-# recruit_character = ERC_iustin    # ToDo
+recruit_character = ERC_iustin
 # recruit_character = ERC_artur     # ToDo
 # recruit_character = ERC_amy       # ToDo
 # recruit_character = ERC_fabi      # ToDo
-# recruit_character = ERC_kisvycko  # ToDo
+recruit_character = ERC_kisvycko
 # recruit_character = ERC_javi      # ToDo
 
 create_country_leader = {
