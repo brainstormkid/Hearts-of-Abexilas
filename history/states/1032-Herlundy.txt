@@ -5,12 +5,33 @@ state={
 		2625 6068 14332 14369 14401 14475 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1950000
+        state_category = city
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = LOV
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			14475 = {
+				naval_base = 3
+			}
 		}
 		add_core_of = LOV
+		victory_points = {
+			14475 50
+		}
+		victory_points = {
+			2625 10
+		}
 	}
 }
