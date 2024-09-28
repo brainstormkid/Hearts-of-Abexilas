@@ -5,12 +5,25 @@ state={
 		194 2275 5741 15003 15080 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=3900000
         state_category = town
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = HAR
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
 		}
 		add_core_of = HAR
+		victory_points = {
+			2275 20
+		}
 	}
 }
