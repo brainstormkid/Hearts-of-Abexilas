@@ -2579,8 +2579,9 @@ focus_tree = {
 			FOCUS_FILTER_ANNEXATION
 		}
 		prerequisite = { focus = HRP_purchase_foreign_enclaves  }
+		mutually_exclusive = { focus = GFX_HRP_invite_chimera_to_the_pact  }
 		completion_reward = {
-			Every member of the 'Rozakko'ran Defense Pact' faction is asked to unite with Harpia into the new state 'The United States of Rozakko'ra'.
+			
 		}
 	}
 
@@ -2610,24 +2611,354 @@ focus_tree = {
 		}
 		prerequisite = { focus = HRP_welcome_greater_harpia  focus = HRP_theunitedstatesofrozakkora  focus = HRP_invite_chimera_to_the_pact  }
 		completion_reward = {
-			Get the National Spirit "The Rising Hawk"
+			
+		}
+	}
+	
+	#A Modern Industrial Nation
+	focus = {
+		id = HRP_a_modern_industrial_nation
+		icon = GFX_focus_generic_industry_3
+		x = 23
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HRP_thetwincitiesnewandimproved  } prerequisite = { focus = HRP_secondary_cities_given_purpose  }
+	}
+
+	#The Big Stick Solution
+	focus = {
+		id = HRP_the_big_stick_solution
+		icon = GFX_HRP_the_big_stick_solution-646154
+		x = 20
+		y = 21
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HRP_harpia_rules_the_waves  } prerequisite = { focus = HRP_the_hundred_thousand_boots_of_democracy  } prerequisite = { focus = HRP_the_practical_air_corps  focus = HRP_an_areal_navy  } prerequisite = { focus = HRP_harpia_rules_the_waves  } prerequisite = { focus = HRP_the_hundred_thousand_boots_of_democracy  }
+		completion_reward = {
+			Gain National Spirit "The Big Stick Solution"
+			Army/Navy/Air Force XP +50
 		}
 	}
 
-	#A World Power at Last
+	#Oh No...
 	focus = {
-		id = HRP_a_world_power_at_last
-		icon = GFX_HRP_a_world_power_at_last-646003
-		x = 11
-		y = 30
-		cost = 10
+		id = HRP_ohno
+		icon = GFX_focus_spr_anarchism_knows_no_borders
+		x = 30
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+	#Form the National Bank
+	focus = {
+		id = HRP_form_the_national_bank
+		icon = GFX_HRP_form_the_national_bank-645670
+		x = 28
+		y = 1
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = HRP_welcome_greater_harpia  focus = HRP_theunitedstatesofrozakkora  focus = HRP_invite_chimera_to_the_pact  }
-		completion_reward = {
-			Get the National Spirit "The Rising Hawk"
-		}
+		prerequisite = { focus = HRP_ohno  }
 	}
+
+	#Everybody Calm Down!
+	focus = {
+		id = HRP_everybodycalmdown
+		icon = GFX_goal_generic_improve_relations
+		x = 30
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_ohno  }
+	}
+
+	#Sell the Food Reserves
+	focus = {
+		id = HRP_sell_the_food_reserves
+		icon = GFX_goal_generic_trade
+		x = 32
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HRP_ohno  }
+	}
+
+	#Privatization Measures
+	focus = {
+		id = HRP_privatization_measures
+		icon = GFX_focus_mex_privatisation
+		x = 29
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HRP_form_the_national_bank  } prerequisite = { focus = HRP_everybodycalmdown  } prerequisite = { focus = HRP_sell_the_food_reserves  }
+	}
+
+	#A Little Debt Never Hurt Nobody!
+	focus = {
+		id = HRP_alittledebtneverhurtnobody
+		icon = GFX_HRP_alittledebtneverhurtnobody-645800
+		x = 31
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HRP_form_the_national_bank  } prerequisite = { focus = HRP_everybodycalmdown  } prerequisite = { focus = HRP_sell_the_food_reserves  }
+		mutually_exclusive = { focus = HRP_privatization_measures  }
+	}
+
+	#The Harpian Economic Miracle
+	focus = {
+		id = HRP_the_harpian_economic_miracle
+		icon = GFX_focus_spa_the_spanish_miracle
+		x = 30
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HRP_privatization_measures  focus = HRP_alittledebtneverhurtnobody  }
+	}
+
+	#That's Enough of That.
+	focus = {
+		id = HRP_thatsenoughofthat
+		icon = GFX_HRP_thatsenoughofthat-645957
+		x = 14
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_a_change_in_course  }
+		mutually_exclusive = { focus = HRP_faelsreturn  }
+	}
+
+	#Secure the Countryside
+	focus = {
+		id = HRP_secure_the_countryside
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		x = 14
+		y = 4
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_thatsenoughofthat  }
+	}
+
+	#Form the Republican Gendarme
+	focus = {
+		id = HRP_form_the_republican_gendarme
+		icon = GFX_HRP_form_the_republican_gendarme-645658
+		x = 14
+		y = 5
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_secure_the_countryside  }
+	}
+
+	#Strongarm the Industrialists
+	focus = {
+		id = HRP_strongarm_the_industrialists
+		icon = GFX_focus_BUL_cooperate_with_the_zveno
+		x = 14
+		y = 6
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HRP_form_the_republican_gendarme  }
+	}
+
+	#Absorb the SPMPH
+	focus = {
+		id = HRP_absorb_the_spmph
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 14
+		y = 7
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_strongarm_the_industrialists  }
+	}
+
+	#Interservice Elections
+	focus = {
+		id = HRP_interservice_elections
+		icon = GFX_focus_AST_rats_tobruk
+		x = 14
+		y = 8
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_absorb_the_spmph  }
+	}
+
+	#The Leadership of Protector Volso
+	focus = {
+		id = HRP_the_leadership_of_protector_volso
+		icon = GFX_HRP_the_leadership_of_protector_volso-645492
+		x = 14
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_interservice_elections  }
+	}
+
+	#Allow State-Level Elections
+	focus = {
+		id = HRP_allow_statelevel_elections
+		icon = GFX_HRP_allow_statelevel_elections-646107
+		x = 14
+		y = 10
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_the_leadership_of_protector_volso  }
+	}
+
+	#Judiciary of the Republican Guard.
+	focus = {
+		id = HRP_judiciary_of_the_republican_guard
+		icon = GFX_HRP_judiciary_of_the_republican_guard-645461
+		x = 14
+		y = 11
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_allow_statelevel_elections  }
+	}
+
+	#The Regulators of Democracy
+	focus = {
+		id = HRP_the_regulators_of_democracy
+		icon = GFX_focus_BUL_form_a_regency_council
+		x = 14
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_judiciary_of_the_republican_guard  }
+	}
+
+	#Restore Civilian Rule
+	focus = {
+		id = HRP_restore_civilian_rule
+		icon = GFX_HRP_restore_civilian_rule-646056
+		x = 14
+		y = 13
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_the_regulators_of_democracy  }
+	}
+
+	#The Leadership of Protector Klepto
+	focus = {
+		id = HRP_the_leadership_of_protector_klepto
+		icon = GFX_focus_BUL_oppose_the_royal_dictatorship
+		x = 16
+		y = 9
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HRP_interservice_elections  }
+		mutually_exclusive = { focus = HRP_the_leadership_of_protector_volso  }
+	}
+
+	#Party of Reasonable Men
+	focus = {
+		id = HRP_party_of_reasonable_men
+		icon = GFX_focus_spa_the_phalanx_ascendant
+		x = 16
+		y = 10
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = HRP_the_leadership_of_protector_klepto  }
+	}
+
+	#Beating Heart of a War Machine
+	focus = {
+		id = HRP_beating_heart_of_a_war_machine
+		icon = GFX_focus_GRE_reviving_the_spartan_warrior_spirit
+		x = 18
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HRP_the_leadership_of_protector_klepto  }
+	}
+
+	#Implement the Blood Tax
+	focus = {
+		id = HRP_implement_the_blood_tax
+		icon = GFX_goal_tfv_can_forced_quebec_conscription
+		x = 18
+		y = 11
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_beating_heart_of_a_war_machine  }
+	}
+
+	#A Rising Hawk
+	focus = {
+		id = HRP_a_rising_hawk
+		icon = GFX_focus_BUL_plot_against_boris
+		x = 16
+		y = 11
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_party_of_reasonable_men  }
+	}
+
+	#The Army-State
+	focus = {
+		id = HRP_the_armystate
+		icon = GFX_HRP_the_armystate-646305
+		x = 17
+		y = 12
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HRP_implement_the_blood_tax  } prerequisite = { focus = HRP_a_rising_hawk  }
+	}
+
+}
 
 }
