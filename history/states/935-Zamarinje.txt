@@ -5,12 +5,30 @@ state={
 		466 6041 13531 13583 13587 13600 13623 13624 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=5250000
+        state_category = metropolis
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = VEC
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
 		}
 		add_core_of = VEC
+		victory_points = {
+			13600 30
+		}
+		victory_points = {
+			466 10
+		}
 	}
 }
