@@ -16,5 +16,6 @@ state={
 		dockyard = 1
 		}
 		add_core_of = SET
+		victory_points = { 15185 20 }
 	}
 }

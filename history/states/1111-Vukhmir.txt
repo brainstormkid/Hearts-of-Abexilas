@@ -14,7 +14,15 @@ state={
 		industrial_complex = 2
 		arms_factory = 2
 		dockyard = 1
+		14946 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = SET
+		victory_points = { 14946 10 }
+		victory_points = { 492 10 }
+		victory_points = { 5013 30 }
+		victory_points = { 4931 20 }
+		victory_points = { 6653 5 }
 	}
 }
