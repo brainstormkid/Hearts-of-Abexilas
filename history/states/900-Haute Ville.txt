@@ -5,12 +5,26 @@ state={
 		11 3280 3395 3815 4227 4860 5281 6589 13314 13356 13428 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=5400000
+        state_category = city
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = VES
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
 		}
 		add_core_of = VES
+		victory_points = {
+			3815 50
+		}
 	}
 }
