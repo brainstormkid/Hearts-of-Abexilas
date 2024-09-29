@@ -5,12 +5,45 @@ state={
 		237 559 649 725 1309 1534 1670 1882 2677 2796 4017 4144 4339 4415 4759 4888 5756 5839 6043 13082 13086 13103 13107 13128 13142 13168 13181 13183 13201 13202 13213 13301 13304 13330 13338 13343 13373 13374 13389 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=20100000
+        state_category = megalopolis
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = LIS
 		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
+			6043 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = LIS
+		victory_points = {
+			13301 50
+		}
+		victory_points = {
+			4888 30
+		}
+		victory_points = {
+			1534 10
+		}
+		victory_points = {
+			1309 5
+		}
+		victory_points = {
+			4415 5
+		}
+		victory_points = {
+			13202 5
+		}
 	}
 }

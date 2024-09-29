@@ -5,12 +5,36 @@ state={
 		3136 3324 3616 4179 5489 6012 13129 13186 13208 13217 13230 13238 13339 13417 13447 13502 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=3300000
+        state_category = city
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = LIS
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = LIS
+		victory_points = {
+			3324 20
+		}
+		victory_points = {
+			13230 10
+		}
+		victory_points = {
+			13217 5
+		}
+		victory_points = {
+			5489 5
+		}
 	}
 }
