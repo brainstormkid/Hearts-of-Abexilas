@@ -4,23 +4,43 @@ bookmarks = {
 		desc = "KEJAFROS_DESC"
 		date = 2.10.21.12
 		picture = "GFX_select_date_KEJAFROS"
-		default_country = "GER"
+		default_country = "ISH"
 		default = yes
 
 		########
 		#Majors#
 		########
 		
-		ISH = {
-			ideology = neutrality
+		DRE = {
+			history = DRE_DESC
+			ideology = absolutist
 			ideas={
 			}
 			focuses = {
 			}
 		}
-
+		
 		KHA = {
-			ideology = neutrality
+			history = KHA_DESC
+			ideology = absolutist
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		
+		ARR = {
+			history = ARR_DESC
+			ideology = absolutist
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		
+		ISH = {
+			history = ISH_DESC
+			ideology = absolutist
 			ideas={
 			}
 			focuses = {
@@ -29,7 +49,7 @@ bookmarks = {
 		
 		ARC = {
 			history = ARC_DESC
-			ideology = neutrality
+			ideology = monarchist
 			ideas={
 				soldiers_of_the_mountains
 				the_disunited_empire
@@ -38,6 +58,24 @@ bookmarks = {
 			focuses = {
 				ARC_organize_monarchist_rallies
 				ARC_plot_against_the_emperor
+			}
+		}
+
+		AND = {
+			history = AND_DESC
+			ideology = absolutist
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		
+		GRA = {
+			history = GRA_DESC
+			ideology = absolutist
+			ideas={
+			}
+			focuses = {
 			}
 		}
 
