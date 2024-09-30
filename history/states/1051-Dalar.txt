@@ -5,12 +5,20 @@ state={
 		845 1322 1949 2894 6916 14419 14480 14500 14517 14524 14526 14557 14581 14582 14599 14616 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=8100000
+        state_category = megalopolis
 	history={
 		owner = ZIL
 		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
+			1949 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = ZIL
+		victory_points = { 1949 30 }
 	}
 }

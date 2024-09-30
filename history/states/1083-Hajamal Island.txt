@@ -5,11 +5,20 @@ state={
 		15338 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=150000
+        state_category = small_island
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = ZIL
 		buildings = {
+		infrastructure = 1
 		}
 		add_core_of = ZIL
 	}

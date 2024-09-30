@@ -5,12 +5,20 @@ state={
 		5328 14757 14800 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1800000
+        state_category = city
 	history={
 		owner = GAL
 		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			14800 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = GAL
+		victory_points = { 14800 50 }
 	}
 }

@@ -5,12 +5,40 @@ state={
 		50 427 668 1002 1298 1567 1656 1822 1991 2096 2318 3422 3679 4134 5277 5416 5938 6130 6175 6207 6478 6613 14378 14407 14416 14458 14587 14634 14655 14683 14693 14705 14724 14734 14767 14783 14796 14801 14802 14805 14813 14826 14832 14844 14856 14857 14870 14874 14879 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=27600000
+        state_category = megalopolis
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = ZIL
 		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
+			14874 = {
+				naval_base = 3
+			}
+			3422 = {
+				naval_base = 3
+			}
+			1656 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = ZIL
+		victory_points = { 14805 30 }
+		victory_points = { 14874 30 }
+		victory_points = { 14783 20 }
+		victory_points = { 5938 30 }
+		victory_points = { 1298 20 }
+		victory_points = { 1991 20 }
+		victory_points = { 1002 5 }
 	}
 }
