@@ -1,7 +1,7 @@
-#Format
+#Format;;;;;;;;;
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
-
-#-1 means automatic placement
+;;;;;;;;;
+#-1 means automatic placement;;;;;;;;;
 10441;6333;sea;18667;-1;-1;-1;-1;;Haremas-Bridge
 10531;10479;sea;15934;-1;-1;-1;-1;;Zond'Damah-Bridge
 5377;5464;sea;21477;-1;-1;-1;-1;;Zond'Damah-Zafrahbesh
@@ -39,6 +39,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4552;6903;sea;20936;-1;-1;-1;-1;;Varrenvar-bridge2
 9423;9377;sea;19468;-1;-1;-1;-1;;Rin_Saif-TheHollow
 3862;9588;sea;21966;-1;-1;-1;-1;;Rin_Saif-Lo_Cesa_Leñau
-
-#Ending Line, anything after is ignored
--1;-1;;-1;-1;-1;-1;-1;-1
+14622;14668;sea;20194;-1;-1;-1;-1;;Napredna-Bridge
+3423;14624;sea;23018;-1;-1;-1;-1;;East-Harjuba-Bridge
+35;14684;sea;21190;-1;-1;-1;-1;;West-Harjuba-Bridge
+14639;14582;sea;21190;-1;-1;-1;-1;;Hafumel-Bridge
+;;;;;;;;;
+#Ending Line, anything after is ignored;;;;;;;;;
+-1;-1;;-1;-1;-1;-1;-1;-1;
