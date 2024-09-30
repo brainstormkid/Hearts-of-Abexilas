@@ -23,6 +23,8 @@ create_country_leader = {
 	}
 }
 
+set_convoys = 5
+
 set_autonomy = {
 	target = LYN
 	autonomous_state = autonomy_integrated_puppet

@@ -5,12 +5,35 @@ state={
 		515 565 596 839 963 2511 4567 5309 5686 6149 6371 6621 6911 6999 13117 13203 13221 13239 13264 13293 13349 13360 13401 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1950000
+        state_category = large_town
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = OSR
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			596 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = OSR
+		victory_points = {
+			13221 10
+		}
+		victory_points = {
+			565 10
+		}
+		victory_points = {
+			596 5
+		}
 	}
 }
