@@ -1,5 +1,7 @@
 ﻿capital = 1
 
+oob = "GAL"
+
 set_politics = {
 	ruling_party = absolutist
 	last_election = "1936.1.1"
@@ -20,3 +22,5 @@ create_country_leader = {
 		#
 	}
 }
+
+set_convoys = 5

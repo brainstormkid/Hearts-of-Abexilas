@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 1048
+
+oob = "ZIL"
 
 set_politics = {
 	ruling_party = absolutist
@@ -35,3 +37,5 @@ set_autonomy = {
 	target = LAT
 	autonomous_state = autonomy_puppet
 }
+
+set_convoys = 30

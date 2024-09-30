@@ -30,3 +30,5 @@ set_autonomy = {
 	target = ZIL
 	autonomous_state = autonomy_puppet
 }
+
+set_convoys = 70
