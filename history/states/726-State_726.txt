@@ -5,12 +5,25 @@ state={
 		824 12194 12221 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=600000
         state_category = town
+	resources={
+		oil=2
+		steel=3 #was 42 was: 112
+		aluminium=2 # was: 22
+		rubber=1
+		tungsten=1
+		chromium=2
+	}
 	history={
 		owner = DAN
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
 		}
 		add_core_of = DAN
+		victory_points = {
+			12195 10
+		}
 	}
 }

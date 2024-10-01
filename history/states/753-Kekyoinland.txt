@@ -17,7 +17,7 @@ state={
 		owner = DAN
 		add_core_of = DAN
 		victory_points = {
-			4702 15
+			4702 20
 		}
 		buildings = {
 			infrastructure = 2
