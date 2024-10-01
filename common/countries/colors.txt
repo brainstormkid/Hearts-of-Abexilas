@@ -358,15 +358,23 @@ KAL = {
 	color = rgb { 218 247 165 }
 	color_ui = rgb { 218 247 165 }
 }
+
 TES = {
 	color = rgb { 47  48  48 }
 	color_ui = rgb { 47  48  48 }
 }
+
 SYR = {
 	color = rgb { 83  181  200 }
 	color_ui = rgb { 83  181  200 }
 }
+
 VAL = {
 	color = rgb { 243  208  71 }
 	color_ui = rgb { 243  208  71 }
+}
+
+GOR = {
+	color = rgb { 0  146  70 }
+	color_ui = rgb { 0  146  70 }
 }

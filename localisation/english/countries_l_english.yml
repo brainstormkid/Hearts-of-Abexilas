@@ -276,6 +276,10 @@
  GEH_absolutist_DEF:1 "the Gertek Horde"
  GEH_absolutist_ADJ:0 "Gertekans"
  
+ GOR_absolutist:1 "Pirates of Gorgossos"
+ GOR_absolutist_DEF:1 "the Pirates of Gorgossos"
+ GOR_absolutist_ADJ:0 "Gorgossosan"
+ 
  GRA_absolutist:1 "Gran Coran'i"
  GRA_absolutist_DEF:1 "the Gran Coran'i"
  GRA_absolutist_ADJ:0 "Coranese"
