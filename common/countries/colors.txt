@@ -393,3 +393,13 @@ THE = {
 	color = rgb { 237 207 75 }
 	color_ui = rgb { 237 207 75 }
 }
+
+ROH = {
+	color = rgb { 125 18 219 }
+	color_ui = rgb { 125 18 219 }
+}
+
+NAA = {
+	color = rgb { 161 52 216 }
+	color_ui = rgb { 161 52 216 }
+}

@@ -454,6 +454,10 @@
  MYR_DEF:0 "Myrtana"
  MYR_ADJ:0 "Myrtanian"
  
+ NAA_absolutist:1 "Tsardom of Naan"
+ NAA_absolutist_DEF:1 "the Tsardom of Naan"
+ NAA_absolutist_ADJ:0 "Naannite"
+ 
  ORI_absolutist:1 "Archonate of Orion"
  ORI_absolutist_DEF:1 "the Archonate of Orion"
  ORI_absolutist_ADJ:0 "Orinnian"
@@ -477,6 +481,10 @@
  RIT_absolutist:1 "Ritte an Tola"
  RIT_absolutist_DEF:1 "the Ritte an Tola"
  RIT_absolutist_ADJ:0 "Tolan"
+ 
+ ROH_absolutist:1 "Magehold of Rohldan"
+ ROH_absolutist_DEF:1 "the Magehold of Rohldan"
+ ROH_absolutist_ADJ:0 "Rohldanian"
  
  SAR_absolutist:1 "Korlenten Sarinzerilin"
  SAR_absolutist_DEF:1 "the Korlenten Sarinzerilin"
