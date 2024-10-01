@@ -10,6 +10,39 @@ bookmarks = {
 		########
 		#Majors#
 		########
+
+		JAZ = {
+			history = JAZ_DESC
+			ideology = neutrality
+			ideas={
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		EXO = {
+			history = EXO_DESC
+			ideology = neutrality
+			ideas={
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		TAN = {
+			history = TAN_DESC
+			ideology = neutrality
+			ideas={
+			
+			}
+			focuses = {
+			
+			}
+		}
 		
 		GAR = {
 			history = GAR_DESC
@@ -46,20 +79,9 @@ bookmarks = {
 			
 			}
 		}
-
-		JAZ = {
-			history = JAZ_DESC
-			ideology = neutrality
-			ideas={
-			
-			}
-			focuses = {
-			
-			}
-		}
-
-		EXO = {
-			history = EXO_DESC
+		
+		QYN = {
+			history = QYN_DESC
 			ideology = neutrality
 			ideas={
 			
