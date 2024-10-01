@@ -5,12 +5,27 @@ state={
 		193 1622 2911 5219 6385 12465 12471 12496 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=3600000
+        state_category = city
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = DRE
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = DRE
+		victory_points = {
+			1622 30
+		}
 	}
 }
