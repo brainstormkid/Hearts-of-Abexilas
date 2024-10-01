@@ -123,8 +123,8 @@ BOV = {
 	color_ui = rgb { 167  208  244 }
 }
 ORI = {
-	color = rgb { 233  233  0 }
-	color_ui = rgb { 233  233  0 }
+	color = rgb { 95 106 92 }
+	color_ui = rgb { 95 106 92 }
 }
 BEE = {
 	color = rgb { 222  192  80 }
