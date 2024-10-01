@@ -5,12 +5,26 @@ state={
 		982 986 1465 2553 2761 3539 4170 4814 5040 5192 5305 5424 6122 6369 12311 12372 12414 12467 12481 12502 12510 12545 12552 12581 12587 12621 12639 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=75000
+        state_category = large_town
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = COR
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
 		add_core_of = COR
+		victory_points = {
+			2761 50
+		}
 	}
 }
