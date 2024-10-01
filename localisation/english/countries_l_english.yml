@@ -515,8 +515,12 @@
  TAN_absolutist_ADJ:0 "Jiaozese"
  
  TES_absolutist:1 "Testudo"
- TES_absolutist_DEF:1 "The island kingdom of Testudo"
+ TES_absolutist_DEF:1 "the Island Kingdom of Testudo"
  TES_absolutist_ADJ:0 "Testudese"
+ 
+ THE_absolutist:1 "Theiónikos"
+ THE_absolutist_DEF:1 "the Remnant of Theiónikos"
+ THE_absolutist_ADJ:0 "Theióniki"
  
  TIR_neutrality:1 "Sailing Republic of Tirgus"
  TIR_neutrality_DEF:1 "the Sailing Republic of Tirgus"

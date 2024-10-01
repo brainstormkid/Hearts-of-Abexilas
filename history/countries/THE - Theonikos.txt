@@ -1,4 +1,4 @@
-﻿capital = 808
+﻿capital = 1
 
 set_politics = {
 	ruling_party = absolutist
@@ -19,12 +19,4 @@ create_country_leader = {
 	traits = {
 		#
 	}
-}
-
-set_stability = 0.94
-set_war_support = 0.19
-
-set_autonomy = {
-	target = CAL
-	autonomous_state = autonomy_puppet
 }

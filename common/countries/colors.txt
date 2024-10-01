@@ -388,3 +388,8 @@ CAL = {
 	color = rgb { 18 90 4 }
 	color_ui = rgb { 18 90 4 }
 }
+
+THE = {
+	color = rgb { 237 207 75 }
+	color_ui = rgb { 237 207 75 }
+}
