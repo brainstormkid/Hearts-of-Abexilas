@@ -574,6 +574,10 @@
  VIN_absolutist_DEF:1 "the Vinovian Horde"
  VIN_absolutist_ADJ:0 "Vinovian"
  
+ VIR_absolutist:1 "Viratayn"
+ VIR_absolutist_DEF:1 "the Viratayn"
+ VIR_absolutist_ADJ:0 "Viratine"
+ 
  YIA_absolutist:1 "Sharrulat dezum Yimmu Audal"
  YIA_absolutist_DEF:1 "the Sharrulat dezum Yimmu Audal"
  YIA_absolutist_ADJ:0 "Audalad"
