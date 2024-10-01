@@ -408,3 +408,8 @@ VIR = {
 	color = rgb { 67 0 0 }
 	color_ui = rgb { 67 0 0 }
 }
+
+ASH = {
+	color = rgb { 167 0 3 }
+	color_ui = rgb { 167 0 3 }
+}
