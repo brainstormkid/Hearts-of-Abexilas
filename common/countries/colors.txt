@@ -413,3 +413,8 @@ ASH = {
 	color = rgb { 167 0 3 }
 	color_ui = rgb { 167 0 3 }
 }
+
+KAM = {
+	color = rgb { 167 0 3 }
+	color_ui = rgb { 167 0 3 }
+}

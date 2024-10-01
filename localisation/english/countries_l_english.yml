@@ -338,9 +338,13 @@
  KAL_absolutist_DEF:1 "the Kaltebaix"
  KAL_absolutist_ADJ:0 "Kaltebaixian"
  
+ KAM_absolutist:1 "Kapteniat of Kamtargaa"
+ KAM_absolutist_DEF:1 "the Kapteniat of Kamtargaa"
+ KAM_absolutist_ADJ:0 "Kaltebaixian"
+ 
  KHA_absolutist:1 "Karzinite of Khanen"
  KHA_absolutist_DEF:1 "the Karzinite of Khanen"
- KHA_absolutist_ADJ:0 "Karzine"
+ KHA_absolutist_ADJ:0 "Kamtargari"
  
  KYR_absolutist:1 "City-State of Kÿrin"
  KYR_absolutist_DEF:1 "the City-State of Kÿrin"
