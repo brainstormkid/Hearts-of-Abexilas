@@ -418,3 +418,8 @@ KAM = {
 	color = rgb { 167 0 3 }
 	color_ui = rgb { 167 0 3 }
 }
+
+AZE = {
+	color = rgb { 24 132 142 }
+	color_ui = rgb { 24 132 142 }
+}

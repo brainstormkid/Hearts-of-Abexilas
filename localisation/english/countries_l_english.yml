@@ -127,6 +127,10 @@
  ASR_absolutist_DEF:1 "the Sanctuary of Asren"
  ASR_absolutist_ADJ:0 "Asrennu"
  
+ AZE_absolutist:1 "Azeraan Federation"
+ AZE_absolutist_DEF:1 "the Azeraan Federation"
+ AZE_absolutist_ADJ:0 "Azeraani"
+ 
  BAN_absolutist:1 "Kingdom of Bannover"
  BAN_absolutist_DEF:1 "the Kingdom of Bannover"
  BAN_absolutist_ADJ:0 "Bannoverian"
