@@ -7,10 +7,10 @@ state={
 	resources = {
 		oil = 2
 		aluminium = 2
-		rubber = 2
+		steel = 3
+		rubber = 1
 		tungsten = 1
-		steel = 4
-		chromium = 3
+		chromium = 2
 	}
 	history={
 		owner = KHA

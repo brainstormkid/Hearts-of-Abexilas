@@ -5,19 +5,19 @@ state={
 		517 626 1265 3107 3664 3933 4774 4784 5474 12464 12470 12480 12501 12529 12568 12573 12598 12599 12604 12615 12643 12661 12666 12718 12753 
 	}
 	resources = {
-		oil = 3
+		oil = 2
 		aluminium = 2
-		rubber = 2
-		tungsten = 2
-		steel = 4
+		steel = 3
+		rubber = 1
+		tungsten = 1
 		chromium = 2
 	}
 	history={
 		owner = KHA
 		buildings = {
-			industrial_complex = 3
-			infrastructure = 4
-			arms_factory = 2
+			industrial_complex = 2
+			infrastructure = 3
+			arms_factory = 1
 		}
 		victory_points = {
 			12568 30

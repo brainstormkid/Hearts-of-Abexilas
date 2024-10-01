@@ -6,18 +6,18 @@ state={
 	}
 	resources = {
 		oil = 2
-		aluminium = 3
-		rubber = 3
-		tungsten = 3
-		steel = 4
-		chromium = 3
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
 	}
 	history={
 		owner = KHA
 		buildings = {
 			industrial_complex = 2
 			infrastructure = 3
-			arms_factory = 2
+			arms_factory = 1
 		}
 		victory_points = {
 			13051 50

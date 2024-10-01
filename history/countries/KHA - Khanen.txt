@@ -1,5 +1,7 @@
 capital = 858
 
+oob = "KHA"
+
 set_politics = {
 	ruling_party = absolutist
 	last_election = "1936.1.1"
@@ -32,3 +34,5 @@ add_ideas = {
 
 set_stability = 60
 set_war_support = 60
+
+set_convoys = 30

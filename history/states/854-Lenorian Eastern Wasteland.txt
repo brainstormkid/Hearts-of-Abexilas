@@ -7,18 +7,19 @@ state={
 	resources = {
 		oil = 2
 		aluminium = 2
-		rubber = 2
+		steel = 3
+		rubber = 1
 		tungsten = 1
-		steel = 4
 		chromium = 2
 	}
 	history={
 		owner = KHA
 		buildings = {
+			infrastructure = 2
 		}
 		add_core_of = KHA
 	}
 	buildings_max_level_factor=1.000
         manpower=150000
-        state_category = town
+        state_category = rural
 }
