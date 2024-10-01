@@ -366,3 +366,7 @@ SYR = {
 	color = rgb { 83  181  200 }
 	color_ui = rgb { 83  181  200 }
 }
+VAL = {
+	color = rgb { 243  208  71 }
+	color_ui = rgb { 243  208  71 }
+}

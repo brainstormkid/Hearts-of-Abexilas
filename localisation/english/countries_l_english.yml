@@ -518,6 +518,10 @@
  UET_absolutist_DEF:1 "the City State of Uetze"
  UET_absolutist_ADJ:0 "Uetze"
  
+ VAL_absolutist:1 "Kingdom of Valora"
+ VAL_absolutist_DEF:1 "the Kingdom of Valora"
+ VAL_absolutist_ADJ:0 "Valoran"
+ 
  VAR_absolutist:1 "Calidwarf-Varaxis"
  VAR_absolutist_DEF:1 "the Calidwarf-Varaxis"
  VAR_absolutist_ADJ:0 "Varaxian"
