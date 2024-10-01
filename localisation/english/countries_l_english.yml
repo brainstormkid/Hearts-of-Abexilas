@@ -204,6 +204,10 @@
  END_absolutist_DEF:1 "the Kingdom of Enderia"
  END_absolutist_ADJ:0 "Enderian"
  
+ ENO_absolutist:1 "Ānaktate of Enovātha"
+ ENO_absolutist_DEF:1 "the Ānaktate of Enovātha"
+ ENO_absolutist_ADJ:0 "Enovathan"
+ 
  ERC_absolutist:1 "Archduchy of Ertcof"
  ERC_absolutist_DEF:1 "the Archduchy of Ertcof"
  ERC_absolutist_ADJ:0 "Ertcofi"
