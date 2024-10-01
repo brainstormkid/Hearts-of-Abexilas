@@ -139,6 +139,10 @@
  CAK_absolutist_DEF:1 "the Vale of Cakhtlan"
  CAK_absolutist_ADJ:0 "Cakhtlan"
  
+ CAL_absolutist:1 "Order of Caliban"
+ CAL_absolutist_DEF:1 "the Order of Caliban"
+ CAL_absolutist_ADJ:0 "Calibanian"
+ 
  CAS_absolutist:1 "Grand Regency of Castanor"
  CAS_absolutist_DEF:1 "the Grand Regency of Castanor"
  CAS_absolutist_ADJ:0 "Castanoran"

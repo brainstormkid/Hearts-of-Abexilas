@@ -383,3 +383,8 @@ ENO = {
 	color = rgb { 23 120 124 }
 	color_ui = rgb { 23 120 124 }
 }
+
+CAL = {
+	color = rgb { 18 90 4 }
+	color_ui = rgb { 18 90 4 }
+}
