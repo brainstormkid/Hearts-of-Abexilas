@@ -28,7 +28,7 @@ state={
 		}
 		add_core_of = LOV
 		victory_points = {
-			14475 50
+			14475 10
 		}
 		victory_points = {
 			2625 10

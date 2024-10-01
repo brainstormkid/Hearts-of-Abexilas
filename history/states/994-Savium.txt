@@ -16,11 +16,11 @@ state={
 		chromium = 2
 	}
 	history={
-		owner = CEL
+		owner = LOV
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = CEL
+		add_core_of = LOV
 		victory_points = {
 			14049 10
 		}
