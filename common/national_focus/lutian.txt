@@ -65,7 +65,7 @@ focus_tree = {
 	#The Duke's Regime
 	focus = {
 		id = lut_thedukesregime
-		icon = GFX_goal_unknown
+		icon = GFX_LUT_The_Dukes_Regime
 		x = 4
 		y = 4
 		cost = 10
@@ -467,7 +467,7 @@ focus_tree = {
 	#Demand Eastern Hodege
 	focus = {
 		id = lut_demand_eastern_hodege
-		icon = GFX_goal_unknown
+		icon = GFX_LUT_Demand_Eastern_Hodege
 		x = 18
 		y = 7
 		cost = 10
