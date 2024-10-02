@@ -422,6 +422,18 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		} 
+		completion_reward = {
+			retire_country_leader  = LUT_jostepher
+			add_country_leader_role = {
+				character = LUT_starlord
+				promote_leader = yes
+				country_leader = {
+					ideology = imperialist_subtype
+					expire = "1965.1.1" 
+					traits = { }
+				}
+			}
+		}
 		prerequisite = { focus = lut_fascism_is_the_only_right_way}
 	}
 

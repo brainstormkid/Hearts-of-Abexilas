@@ -1,6 +1,6 @@
 characters={
 	LUT_jostepher={
-		name=LUT_jostepher
+		name = LUT_jostepher
 		portraits={
 			civilian={
 				large="GFX_portrait_LUT_test"
@@ -13,4 +13,19 @@ characters={
 			expire="1965.1.1.1"
 	    }
     }
+	
+	LUT_Starlord = {
+		name = LUT_starlord
+		portraits={
+			civilian={
+				large="GFX_portrait_LUT_Starlord"
+			}
+	    }
+    	country_leader={
+			ideology = imperialist_subtype
+			traits= { constitutional_monarch_minor }
+			desc =  POLITICS_JOSTEPHER_DESC
+			expire="1965.1.1.1"
+	    }
+	}
 }

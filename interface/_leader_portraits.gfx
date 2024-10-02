@@ -211,4 +211,9 @@ spriteTypes = {
 		name = "GFX_portrait_LUT_test"
 		texturefile = "GFX/leaders/LUT/test.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_portrait_LUT_starlord"
+		texturefile = "gfx/leaders/LUT/starlord"
+	}
 }
