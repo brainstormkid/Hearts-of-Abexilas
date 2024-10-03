@@ -438,3 +438,8 @@ AVA = {
 	color = rgb { 139 0 0 }
 	color_ui = rgb { 139 0 0 }
 }
+
+VAA = {
+	color = rgb { 223 223 223 }
+	color_ui = rgb { 223 223 223 }
+}

@@ -562,6 +562,10 @@
  UET_absolutist_DEF:1 "the City State of Uetze"
  UET_absolutist_ADJ:0 "Uetze"
  
+ VAA_absolutist:1 "Valeran Hold"
+ VAA_absolutist_DEF:1 "the Valeran Hold"
+ VAA_absolutist_ADJ:0 "Valeran"
+ 
  VAL_absolutist:1 "Kingdom of Valora"
  VAL_absolutist_DEF:1 "the Kingdom of Valora"
  VAL_absolutist_ADJ:0 "Valoran"
