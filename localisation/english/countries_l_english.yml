@@ -123,6 +123,10 @@
  ASH_absolutist_DEF:1 "the Ashkavari Korqoriat"
  ASH_absolutist_ADJ:0 "Ashkavari"
  
+ ASP_absolutist:1 "Asper-Tunga"
+ ASP_absolutist_DEF:1 "the Asper-Tunga"
+ ASP_absolutist_ADJ:0 "Tungi"
+ 
  ASR_absolutist:1 "Sanctuary of Asren"
  ASR_absolutist_DEF:1 "the Sanctuary of Asren"
  ASR_absolutist_ADJ:0 "Asrennu"

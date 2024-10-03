@@ -423,3 +423,8 @@ AZE = {
 	color = rgb { 24 132 142 }
 	color_ui = rgb { 24 132 142 }
 }
+
+ASP = {
+	color = rgb { 208 186 217 }
+	color_ui = rgb { 208 186 217 }
+}
