@@ -610,7 +610,11 @@
  ZEH_absolutist_DEF:1 "the Zehrniedrig"
  ZEH_absolutist_ADJ:0 "Zehrish"
  
- ZIL_absolutist:1 "Zilatra"
- ZIL_absolutist_DEF:1 "the Zilatra"
- ZIL_absolutist_ADJ:0 "Zilatran"
+ ZER_absolutist:1 "Zehrniedrig"
+ ZER_absolutist_DEF:1 "the Zehrniedrig"
+ ZER_absolutist_ADJ:0 "Zehrish"
+ 
+ ZIL_absolutist:1 "Kingdom of Zeril"
+ ZIL_absolutist_DEF:1 "the Kingdom of Zeril"
+ ZIL_absolutist_ADJ:0 "Zerilin"
  

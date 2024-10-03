@@ -428,3 +428,8 @@ ASP = {
 	color = rgb { 208 186 217 }
 	color_ui = rgb { 208 186 217 }
 }
+
+ZER = {
+	color = rgb { 89 89 89 }
+	color_ui = rgb { 89 89 89 }
+}
