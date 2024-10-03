@@ -131,6 +131,10 @@
  ASR_absolutist_DEF:1 "the Sanctuary of Asren"
  ASR_absolutist_ADJ:0 "Asrennu"
  
+ AVA_absolutist:1 "Empire of Avalor"
+ AVA_absolutist_DEF:1 "the Empire of Avalor"
+ AVA_absolutist_ADJ:0 "Avaloran"
+ 
  AZE_absolutist:1 "Azeraan Federation"
  AZE_absolutist_DEF:1 "the Azeraan Federation"
  AZE_absolutist_ADJ:0 "Azeraani"
@@ -610,11 +614,11 @@
  ZEH_absolutist_DEF:1 "the Zehrniedrig"
  ZEH_absolutist_ADJ:0 "Zehrish"
  
- ZER_absolutist:1 "Zehrniedrig"
- ZER_absolutist_DEF:1 "the Zehrniedrig"
- ZER_absolutist_ADJ:0 "Zehrish"
+ ZIL_absolutist:1 "Zehrniedrig"
+ ZIL_absolutist_DEF:1 "the Zehrniedrig"
+ ZIL_absolutist_ADJ:0 "Zehrish"
  
- ZIL_absolutist:1 "Kingdom of Zeril"
- ZIL_absolutist_DEF:1 "the Kingdom of Zeril"
- ZIL_absolutist_ADJ:0 "Zerilin"
+ ZER_absolutist:1 "Kingdom of Zeril"
+ ZER_absolutist_DEF:1 "the Kingdom of Zeril"
+ ZER_absolutist_ADJ:0 "Zerilin"
  

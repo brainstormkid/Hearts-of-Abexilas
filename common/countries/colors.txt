@@ -433,3 +433,8 @@ ZER = {
 	color = rgb { 89 89 89 }
 	color_ui = rgb { 89 89 89 }
 }
+
+AVA = {
+	color = rgb { 139 0 0 }
+	color_ui = rgb { 139 0 0 }
+}
