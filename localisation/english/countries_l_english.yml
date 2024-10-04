@@ -61,6 +61,10 @@
  AND_absolutist_DEF:1 "the Imperila Andliria"
  AND_absolutist_ADJ:0 "Andlirian"
  
+ AME_absolutist:1 "Kingdom of Amestris"
+ AME_absolutist_DEF:1 "the Kingdom of Amestris"
+ AME_absolutist_ADJ:0 "Amestrian"
+ 
  AQM_absolutist:1 "Regnum Aquilarum"
  AQM_absolutist_DEF:1 "Regnum Aquilarum"
  AQM_absolutist_ADJ:0 "Aquilaran"

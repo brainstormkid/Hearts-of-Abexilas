@@ -458,3 +458,8 @@ MIZ = {
 	color = rgb { 237 218 2 }
 	color_ui = rgb { 237 218 2 }
 }
+
+AME = {
+	color = rgb { 111 0 134 }
+	color_ui = rgb { 111 0 134 }
+}
