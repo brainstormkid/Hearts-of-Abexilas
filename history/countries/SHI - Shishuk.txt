@@ -20,8 +20,3 @@ create_country_leader = {
 		#
 	}
 }
-
-set_autonomy = {
-	target = SHI
-	autonomous_state = autonomy_puppet
-}

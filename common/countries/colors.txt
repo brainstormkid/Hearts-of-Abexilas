@@ -478,3 +478,8 @@ DZI = {
 	color = rgb { 40 43 73 }
 	color_ui = rgb { 40 43 73 }
 }
+
+SHI = {
+	color = rgb { 166 160 154 }
+	color_ui = rgb { 166 160 154 }
+}

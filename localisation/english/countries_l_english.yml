@@ -550,6 +550,10 @@
  SET_absolutist_DEF:1 "the Sentara"
  SET_absolutist_ADJ:0 "Sentarian"
  
+ SHI_absolutist:1 "Shishuk Territories"
+ SHI_absolutist_DEF:1 "the Shishuk Territories"
+ SHI_absolutist_ADJ:0 "Shishuk"
+ 
  STE_absolutist:1 "Kingdom of Steverovska"
  STE_absolutist_DEF:1 "the Kingdom of Steverovska"
  STE_absolutist_ADJ:0 "Steverovskan"
