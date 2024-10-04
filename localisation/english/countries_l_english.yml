@@ -220,6 +220,10 @@
  DRE_absolutist_DEF:1 "the DreadVought Imperium"
  DRE_absolutist_ADJ:0 "Dreadvoughtian"
  
+ DZI_absolutist:1 "Union of Dzitizan"
+ DZI_absolutist_DEF:1 "the Union of Dzitizan"
+ DZI_absolutist_ADJ:0 "Dzitizanian"
+ 
  ELD_absolutist:1 "Kingdom of Eldorath"
  ELD_absolutist_DEF:1 "the Kingdom of Eldorath"
  ELD_absolutist_ADJ:0 "Eldorathi"

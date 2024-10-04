@@ -473,3 +473,8 @@ STE = {
 	color = rgb { 224 218 117 }
 	color_ui = rgb { 224 218 117 }
 }
+
+DZI = {
+	color = rgb { 40 43 73 }
+	color_ui = rgb { 40 43 73 }
+}
