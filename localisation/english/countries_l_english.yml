@@ -441,6 +441,10 @@
  MIC_absolutist_DEF:1 "the Kingdom of Michava"
  MIC_absolutist_ADJ:0 "Michavian"
  
+ MIZ_absolutist:1 "Mizlarai Union"
+ MIZ_absolutist_DEF:1 "the Mizlarai Union"
+ MIZ_absolutist_ADJ:0 "Mizlarain"
+ 
  MYR_monarchist:0 "Kingdom of Myrtana"
  MYR_monarchist_DEF:0 "the Kingdom of Myrtana"
  MYR_theocratist:0 "Holy Order of Myrtana"

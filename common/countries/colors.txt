@@ -453,3 +453,8 @@ YAR = {
 	color = rgb { 246 135 230 }
 	color_ui = rgb { 246 135 230 }
 }
+
+MIZ = {
+	color = rgb { 237 218 2 }
+	color_ui = rgb { 237 218 2 }
+}
