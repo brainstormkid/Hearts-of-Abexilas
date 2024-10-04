@@ -366,6 +366,10 @@
  KAM_absolutist_DEF:1 "the Kapteniat of Kamtargaa"
  KAM_absolutist_ADJ:0 "Kaltebaixian"
  
+ KIC_absolutist:1 "City State of Kiche"
+ KIC_absolutist_DEF:1 "the City State of Kiche"
+ KIC_absolutist_ADJ:0 "Kiche"
+ 
  KHA_absolutist:1 "Karzinite of Khanen"
  KHA_absolutist_DEF:1 "the Karzinite of Khanen"
  KHA_absolutist_ADJ:0 "Kamtargari"

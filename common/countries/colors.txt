@@ -498,3 +498,8 @@ ALA = {
 	color = rgb { 103 192 82 }
 	color_ui = rgb { 103 192 82 }
 }
+
+KIC = {
+	color = rgb { 173 110 186 }
+	color_ui = rgb { 173 110 186 }
+}
