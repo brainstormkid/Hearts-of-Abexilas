@@ -57,6 +57,10 @@
  AKS_radical_nationalist_DEF:1 "the Akashiren Imperial Army"
  AKS_radical_nationalist_ADJ:0 "Akashiren"
  
+ ALA_absolutist:1 "Caliphate of Alamara"
+ ALA_absolutist_DEF:1 "the Caliphate of Alamara"
+ ALA_absolutist_ADJ:0 "Alamari"
+ 
  AND_absolutist:1 "Imperila Andliria"
  AND_absolutist_DEF:1 "the Imperila Andliria"
  AND_absolutist_ADJ:0 "Andlirian"

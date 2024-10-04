@@ -493,3 +493,8 @@ MID = {
 	color = rgb { 90 99 164 }
 	color_ui = rgb { 90 99 164 }
 }
+
+ALA = {
+	color = rgb { 103 192 82 }
+	color_ui = rgb { 103 192 82 }
+}
