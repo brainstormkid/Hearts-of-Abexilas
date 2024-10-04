@@ -448,3 +448,8 @@ MAL = {
 	color = rgb { 111 0 134 }
 	color_ui = rgb { 111 0 134 }
 }
+
+YAR = {
+	color = rgb { 246 135 230 }
+	color_ui = rgb { 246 135 230 }
+}
