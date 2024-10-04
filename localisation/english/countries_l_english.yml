@@ -449,6 +449,10 @@
  MIC_absolutist_DEF:1 "the Kingdom of Michava"
  MIC_absolutist_ADJ:0 "Michavian"
  
+ MID_absolutist:1 "Jarldom of Midjörv"
+ MID_absolutist_DEF:1 "the Jarldom of Midjörv"
+ MID_absolutist_ADJ:0 "Midjorsk"
+ 
  MIZ_absolutist:1 "Mizlarai Union"
  MIZ_absolutist_DEF:1 "the Mizlarai Union"
  MIZ_absolutist_ADJ:0 "Mizlarain"

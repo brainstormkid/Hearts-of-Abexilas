@@ -488,3 +488,8 @@ VAS = {
 	color = rgb { 218 225 167 }
 	color_ui = rgb { 218 225 167 }
 }
+
+MID = {
+	color = rgb { 90 99 164 }
+	color_ui = rgb { 90 99 164 }
+}
