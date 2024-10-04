@@ -429,6 +429,10 @@
  LYN_absolutist_DEF:1 "the Cynedom of Lynarith"
  LYN_absolutist_ADJ:0 "Lynarithi"
  
+ MAL_absolutist:1 "Wyverndom of Malachite"
+ MAL_absolutist_DEF:1 "the Wyverndom of Malachite"
+ MAL_absolutist_ADJ:0 "Dragon-Born"
+ 
  MAR_absolutist:1 "Duchy of Marisvalor"
  MAR_absolutist_DEF:1 "the Duchy of Marisvalor"
  MAR_absolutist_ADJ:0 "Marisvaloran"

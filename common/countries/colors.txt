@@ -443,3 +443,8 @@ VAA = {
 	color = rgb { 223 223 223 }
 	color_ui = rgb { 223 223 223 }
 }
+
+MAL = {
+	color = rgb { 111 0 134 }
+	color_ui = rgb { 111 0 134 }
+}
