@@ -61,6 +61,10 @@
  ALA_absolutist_DEF:1 "the Caliphate of Alamara"
  ALA_absolutist_ADJ:0 "Alamari"
  
+ ALZ_absolutist:1 "Kingdom of Alazorr"
+ ALZ_absolutist_DEF:1 "the Kingdom of Alazorr"
+ ALZ_absolutist_ADJ:0 "Alazorran"
+ 
  AND_absolutist:1 "Imperila Andliria"
  AND_absolutist_DEF:1 "the Imperila Andliria"
  AND_absolutist_ADJ:0 "Andlirian"

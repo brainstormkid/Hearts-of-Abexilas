@@ -508,3 +508,8 @@ STR = {
 	color = rgb { 109 162 101 }
 	color_ui = rgb { 109 162 101 }
 }
+
+ALZ = {
+	color = rgb { 114 108 136 }
+	color_ui = rgb { 114 108 136 }
+}
