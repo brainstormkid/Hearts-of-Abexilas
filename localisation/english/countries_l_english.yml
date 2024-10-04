@@ -370,6 +370,10 @@
  KAM_absolutist_DEF:1 "the Kapteniat of Kamtargaa"
  KAM_absolutist_ADJ:0 "Kaltebaixian"
  
+ KEL_absolutist:1 "Kelpstine"
+ KEL_absolutist_DEF:1 "the Kelpstine"
+ KEL_absolutist_ADJ:0 "Kelpstinian"
+ 
  KIC_absolutist:1 "City State of Kiche"
  KIC_absolutist_DEF:1 "the City State of Kiche"
  KIC_absolutist_ADJ:0 "Kiche"
@@ -645,6 +649,10 @@
  VES_absolutist:1 "Earldom of Vescognie"
  VES_absolutist_DEF:1 "the Earldom of Vescognie"
  VES_absolutist_ADJ:0 "Vescognian"
+ 
+ VID_absolutist:1 "Vidir-Arrak"
+ VID_absolutist_DEF:1 "the Vidir-Arrak"
+ VID_absolutist_ADJ:0 "Vidirian"
  
  VIN_absolutist:1 "Vinovian Horde"
  VIN_absolutist_DEF:1 "the Vinovian Horde"

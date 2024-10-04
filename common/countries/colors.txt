@@ -513,3 +513,13 @@ ALZ = {
 	color = rgb { 114 108 136 }
 	color_ui = rgb { 114 108 136 }
 }
+
+KEL = {
+	color = rgb { 88 249 81 }
+	color_ui = rgb { 88 249 81 }
+}
+
+VID = {
+	color = rgb { 91 201 190 }
+	color_ui = rgb { 91 201 190 }
+}
