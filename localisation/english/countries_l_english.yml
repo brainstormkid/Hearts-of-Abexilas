@@ -546,6 +546,10 @@
  SET_absolutist_DEF:1 "the Sentara"
  SET_absolutist_ADJ:0 "Sentarian"
  
+ STE_absolutist:1 "Kingdom of Steverovska"
+ STE_absolutist_DEF:1 "the Kingdom of Steverovska"
+ STE_absolutist_ADJ:0 "Steverovskan"
+ 
  SYR_absolutist:1 "Syren"
  SYR_absolutist_DEF:1 "Syrenia"
  SYR_absolutist_ADJ:0 "Syren"

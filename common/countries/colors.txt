@@ -468,3 +468,8 @@ VAD = {
 	color = rgb { 142 139 132 }
 	color_ui = rgb { 142 139 132 }
 }
+
+STE = {
+	color = rgb { 224 218 117 }
+	color_ui = rgb { 224 218 117 }
+}
