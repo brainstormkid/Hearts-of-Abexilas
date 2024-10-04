@@ -445,8 +445,8 @@ VAA = {
 }
 
 MAL = {
-	color = rgb { 111 0 134 }
-	color_ui = rgb { 111 0 134 }
+	color = rgb { 143 115 136 }
+	color_ui = rgb { 143 115 136 }
 }
 
 YAR = {
