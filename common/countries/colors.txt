@@ -463,3 +463,8 @@ AME = {
 	color = rgb { 111 0 134 }
 	color_ui = rgb { 111 0 134 }
 }
+
+VAD = {
+	color = rgb { 142 139 132 }
+	color_ui = rgb { 142 139 132 }
+}

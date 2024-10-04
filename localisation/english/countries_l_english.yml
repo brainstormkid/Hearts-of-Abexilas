@@ -578,6 +578,10 @@
  VAA_absolutist_DEF:1 "the Valeran Hold"
  VAA_absolutist_ADJ:0 "Valeran"
  
+ VAD_absolutist:1 "Valdic Union"
+ VAD_absolutist_DEF:1 "the Valdic Union"
+ VAD_absolutist_ADJ:0 "Valdic"
+ 
  VAL_absolutist:1 "Kingdom of Valora"
  VAL_absolutist_DEF:1 "the Kingdom of Valora"
  VAL_absolutist_ADJ:0 "Valoran"
