@@ -570,6 +570,10 @@
  STE_absolutist_DEF:1 "the Kingdom of Steverovska"
  STE_absolutist_ADJ:0 "Steverovskan"
  
+ STR_absolutist:1 "Strategósia"
+ STR_absolutist_DEF:1 "the Strategósia"
+ STR_absolutist_ADJ:0 "Strategósian"
+ 
  SYR_absolutist:1 "Syren"
  SYR_absolutist_DEF:1 "Syrenia"
  SYR_absolutist_ADJ:0 "Syren"

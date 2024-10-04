@@ -503,3 +503,8 @@ KIC = {
 	color = rgb { 173 110 186 }
 	color_ui = rgb { 173 110 186 }
 }
+
+STR = {
+	color = rgb { 109 162 101 }
+	color_ui = rgb { 109 162 101 }
+}
