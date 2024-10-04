@@ -483,3 +483,8 @@ SHI = {
 	color = rgb { 166 160 154 }
 	color_ui = rgb { 166 160 154 }
 }
+
+VAS = {
+	color = rgb { 218 225 167 }
+	color_ui = rgb { 218 225 167 }
+}
