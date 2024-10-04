@@ -523,3 +523,8 @@ VID = {
 	color = rgb { 91 201 190 }
 	color_ui = rgb { 91 201 190 }
 }
+
+TSU = {
+	color = rgb { 250 218 94 }
+	color_ui = rgb { 250 218 94 }
+}

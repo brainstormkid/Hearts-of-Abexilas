@@ -606,6 +606,10 @@
  TSI_absolutist_DEF:1 "the Duchy of Tsiladen"
  TSI_absolutist_ADJ:0 "Tsilad"
  
+ TSU_absolutist:1 "Tsuikinite Diarchy"
+ TSU_absolutist_DEF:1 "the Tsuikinite Diarchy"
+ TSU_absolutist_ADJ:0 "Tsuikinite"
+ 
  UET_absolutist:1 "City State of Uetze"
  UET_absolutist_DEF:1 "the City State of Uetze"
  UET_absolutist_ADJ:0 "Uetze"
