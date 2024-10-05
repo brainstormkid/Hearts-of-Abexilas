@@ -533,3 +533,8 @@ ACR = {
 	color = rgb { 16 43 76 }
 	color_ui = rgb { 16 43 76 }
 }
+
+YNQ = {
+	color = rgb { 154 101 153 }
+	color_ui = rgb { 154 101 153 }
+}

@@ -1,10 +1,16 @@
 state={
-	id=911
-	name="STATE_911"
+	id=898
+	name="STATE_898"
 	provinces={
-		1857 2097 
+		4782 13347 
 	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
+	history={
+		owner = YNQ
+		buildings = {
+		}
+		add_core_of = YNQ
+	}
 }

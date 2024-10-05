@@ -678,6 +678,10 @@
  YIA_absolutist_DEF:1 "the Sharrulat dezum Yimmu Audal"
  YIA_absolutist_ADJ:0 "Audalad"
  
+ YNQ_absolutist:1 "Principality of Ynqar"
+ YNQ_absolutist_DEF:1 "the Principality of Ynqar"
+ YNQ_absolutist_ADJ:0 "Ynqāri"
+ 
  ZAI_absolutist:1 "Eternal Dominion of Zaidan"
  ZAI_absolutist_DEF:1 "the Eternal Dominion of Zaidan"
  ZAI_absolutist_ADJ:0 "Zaidian"
