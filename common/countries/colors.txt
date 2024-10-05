@@ -538,3 +538,8 @@ YNQ = {
 	color = rgb { 154 101 153 }
 	color_ui = rgb { 154 101 153 }
 }
+
+REN = {
+	color = rgb { 221 86 92 }
+	color_ui = rgb { 221 86 92 }
+}

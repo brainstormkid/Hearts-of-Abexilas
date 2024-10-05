@@ -538,6 +538,10 @@
  QYN_absolutist_DEF:1 "the Qynthos-Centuria"
  QYN_absolutist_ADJ:0 "Qynthi"
  
+ REN_absolutist:1 "Shyhenéy au Rénesphéy"
+ REN_absolutist_DEF:1 "the Shyhenéy au Rénesphéy"
+ REN_absolutist_ADJ:0 "Réneshphite"
+ 
  RIT_absolutist:1 "Ritte an Tola"
  RIT_absolutist_DEF:1 "the Ritte an Tola"
  RIT_absolutist_ADJ:0 "Tolan"
