@@ -528,3 +528,8 @@ TSU = {
 	color = rgb { 250 218 94 }
 	color_ui = rgb { 250 218 94 }
 }
+
+ACR = {
+	color = rgb { 16 43 76 }
+	color_ui = rgb { 16 43 76 }
+}
