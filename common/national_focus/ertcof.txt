@@ -8,6 +8,9 @@ focus_tree = {
 			tag = ERC
 		}
 	}
+
+    ### INFRASTRUCTURE TREE
+
 	#EDOTI
 	focus = {
 		id = ERC_edoti
@@ -23,7 +26,6 @@ focus_tree = {
 			
 		}
 	}
-
 	#Cofhan Infrastructure
 	focus = {
 		id = ERC_cofhan_infrastructure
@@ -62,7 +64,6 @@ focus_tree = {
 		}
 		prerequisite = { focus = ERC_edoti  }
 	}
-
 	#Coharte Infrastructure
 	focus = {
 		id = ERC_coharte_infrastructure
@@ -89,7 +90,6 @@ focus_tree = {
 		}
 		prerequisite = { focus = ERC_edoti  }
 	}
-
 	#Northern Infrastructure
 	focus = {
 		id = ERC_northern_infrastructure
@@ -159,7 +159,6 @@ focus_tree = {
 		}
 		prerequisite = { focus = ERC_cofhan_infrastructure  }
 	}
-
 	#Build Al'Haile
 	focus = {
 		id = ERC_buildalhaile
@@ -186,7 +185,6 @@ focus_tree = {
 		}
 		prerequisite = { focus = ERC_coharte_infrastructure  }
 	}
-
 	#Build the Capital
 	focus = {
 		id = ERC_build_the_capital
@@ -215,31 +213,7 @@ focus_tree = {
 		prerequisite = { focus = ERC_northern_infrastructure  }
 	}
 
-	#Cactus Farming
-	focus = {
-		id = ERC_cactus_farming
-		icon = GFX_ERC_cactus_farming-686281
-		x = 10
-		y = 1
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = ERC_abolish_the_ecmr  focus = ERC_maintain_the_ecmr  }
-	}
-
-	#Wheat Farming
-	focus = {
-		id = ERC_wheat_farming
-		icon = GFX_ERC_wheat_farming-645921
-		x = 6
-		y = 2
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = ERC_cofhan_infrastructure  }
-	}
+    ### ECONOMY TREE
 
 	#Abolish the ECMR
 	focus = {
@@ -259,7 +233,6 @@ focus_tree = {
 		}
 		mutually_exclusive = { focus = ERC_maintain_the_ecmr  }
 	}
-
 	#Maintain the ECMR
 	focus = {
 		id = ERC_maintain_the_ecmr
@@ -278,7 +251,36 @@ focus_tree = {
 		}
 		mutually_exclusive = { focus = ERC_abolish_the_ecmr }
 	}
-
+	#Cactus Farming
+	focus = {
+		id = ERC_cactus_farming
+		icon = GFX_ERC_cactus_farming-686281
+		x = 10
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+		    add_war_support = 0.05
+        }
+		prerequisite = { focus = ERC_abolish_the_ecmr  focus = ERC_maintain_the_ecmr  }
+	}
+	#Wheat Farming
+	focus = {
+		id = ERC_wheat_farming
+		icon = GFX_ERC_wheat_farming-645921
+		x = 6
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+		    add_war_support = 0.05
+        }
+		prerequisite = { focus = ERC_cofhan_infrastructure  }
+	}
 	#National Trade Deals
 	focus = {
 		id = ERC_national_trade_deals
@@ -291,7 +293,6 @@ focus_tree = {
 		}
 		prerequisite = { focus = ERC_wheat_farming  focus = ERC_maintain_the_ecmr  }
 	}
-
 	#Cultivate Erte's Blessing
 	focus = {
 		id = ERC_cultivateertesblessing
@@ -305,6 +306,8 @@ focus_tree = {
 		prerequisite = { focus = ERC_wheat_farming  }
 	}
 
+	### POLITICAL TREE
+
 	#Revoke the Constitution
 	focus = {
 		id = ERC_revoke_the_constitution
@@ -317,7 +320,6 @@ focus_tree = {
 		}
 		mutually_exclusive = { focus = ERC_amend_the_constitution  } mutually_exclusive = { focus = ERC_political_unrest  }
 	}
-
 	#Amend the constitution
 	focus = {
 		id = ERC_amend_the_constitution
@@ -330,7 +332,6 @@ focus_tree = {
 		}
 		mutually_exclusive = { focus = ERC_political_unrest  } mutually_exclusive = { focus = ERC_revoke_the_constitution  }
 	}
-
 	#Political Unrest
 	focus = {
 		id = ERC_political_unrest
@@ -343,7 +344,6 @@ focus_tree = {
 		}
 		mutually_exclusive = { focus = ERC_revoke_the_constitution  } mutually_exclusive = { focus = ERC_amend_the_constitution  }
 	}
-
 	#Empower the Archon
 	focus = {
 		id = ERC_empower_the_archon
@@ -356,7 +356,6 @@ focus_tree = {
 		}
 		prerequisite = { focus = ERC_amend_the_constitution  }
 	}
-
 	#Empower the Pakhil Assembly
 	focus = {
 		id = ERC_empower_the_pakhil_assembly
@@ -369,7 +368,6 @@ focus_tree = {
 		}
 		prerequisite = { focus = ERC_amend_the_constitution  }
 	}
-
 	#Invite the Far-Left
 	focus = {
 		id = ERC_invite_the_farleft
@@ -383,7 +381,6 @@ focus_tree = {
 		prerequisite = { focus = ERC_prepare_a_new_government  }
 		mutually_exclusive = { focus = ERC_invite_the_farright  }
 	}
-
 	#Invite the Far-Right
 	focus = {
 		id = ERC_invite_the_farright
@@ -396,7 +393,6 @@ focus_tree = {
 		prerequisite = { focus = ERC_prepare_a_new_government  }
 		mutually_exclusive = { focus = ERC_invite_the_farleft  }
 	}
-
 	#Social Democratic Values
 	focus = {
 		id = ERC_social_democratic_values
@@ -409,7 +405,6 @@ focus_tree = {
 		}
 		prerequisite = { focus = ERC_amend_the_constitution  }
 	}
-
 	#Embrace Neutrality
 	focus = {
 		id = ERC_embrace_neutrality
@@ -422,7 +417,6 @@ focus_tree = {
 		}
 		prerequisite = { focus = ERC_amend_the_constitution  }
 	}
-
 	#Prepare a new government
 	focus = {
 		id = ERC_prepare_a_new_government
