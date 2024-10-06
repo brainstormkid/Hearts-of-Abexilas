@@ -155,5 +155,19 @@ spriteTypes = {
 		name = "GFX_frontend_medal_dlc040"
 		texturefile = "gfx/interface/goals/focus_DLC_trial_of_allegiance.dds"
 	}
+	
+	textSpriteType = {
+		name = "GFX_main_lobby_button_singleplayer"
+		textureFile = "gfx/interface/main_lobby_button_singleplayer.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	
+	textSpriteType = {
+		name = "GFX_main_lobby_button_multiplayer"
+		textureFile = "gfx/interface/main_lobby_button_multiplayer.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
 
 }

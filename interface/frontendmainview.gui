@@ -125,7 +125,7 @@ guiTypes = {
 		{
 			name ="frontend_game_logo"
 			spriteType = "GFX_frontend_game_logo"
-			position = { x= 545 y = 50 }
+			position = { x= 565 y = 100 }
 		}
 		
 	}
@@ -167,18 +167,19 @@ guiTypes = {
 		{
 			name ="frontend_dev_logo"
 			spriteType = "GFX_frontend_dev_logo"
-			position = { x= -920 y = 60 }
+			position = { x= -920 y = 100 }
 		}
 		
 		iconType =
 		{
 			name ="pdx_int_logo"
 			spriteType = "GFX_pdx_int_logo"
-			position = { x= -250 y = 80 }
+			position = { x= -230 y = 130 }
 		}		
 		
 	}		
-
+	
+	
 	### SINGLE PLAYER MENU
 	containerWindowType = {
 		name = "mainmenu_single_player"
@@ -275,63 +276,79 @@ guiTypes = {
 			shortcut = "ESCAPE"
 		}
 	}
+	
+	
 
 	### MAIN MENU PANEL (bottom)
+	
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x=0 y =50}
-		size = { width = 320 height = 435 }
-		Orientation = CENTER
-		Origo = center		
+		position = { x=0 y =0}
+		size = { width=100% height =100%} #CHANGED
+		#size = { width = 320 height = 435}
+		clipping = no #CUSTOM
+		#Orientation = CENTER #CHANGED
+		#Origo = center #CHANGED
 
 		positionType = {
 			name = "subscription_size"
-			position = { x = 320 y = 563 }
+			position = { x = 100% y = 100% } #CHANGED
+			#position = { x = 320 y = 563 }
 		}
-				
+		
 		background = {
 			name = "Background"		
-			quadTextureSprite ="GFX_tiled_window"
+			quadTextureSprite ="GFX_tiled_window_transparent" #CHANGED
+			alwaystransparent = yes
 		}
-			
+		
 		ButtonType = {
 			name = "single_player_button"
-			position = { x = 16 y = 18 }
-			quadTextureSprite ="GFX_main_lobby_button"
-			font = "hoi_24header"			
-			text = "FE_SINGLE_PLAYER"				
+			position = { x = -330 y = -172 }
+			#position = { x = 16 y = 18 }
+			quadTextureSprite ="GFX_main_lobby_button_singleplayer" #CHANGED
+			font = "hoi_24header"
+			text = "" #CHANGED
+			#text = "FE_SINGLE_PLAYER"				
 			clicksound = click_default			
 			oversound = ui_menu_over
+			Orientation = CENTER #CUSTOM
 		}
-
+		
 		ButtonType = {
 			name = "multi_player_button"
-			position = { x = 16 y = 58}
-			quadTextureSprite ="GFX_main_lobby_button"
-			font = "hoi_24header"			
-			text = "FE_MULTI_PLAYER"			
+			position = { x = 80 y = -172 }
+			#position = { x = 16 y = 58}
+			quadTextureSprite ="GFX_main_lobby_button_multiplayer" #CHANGED
+			font = "hoi_24header"
+			text = "" #CHANGED
+			#text = "FE_MULTI_PLAYER"			
 			clicksound = click_default
 			oversound = ui_menu_over
+			Orientation = CENTER #CUSTOM
 		}
 
-		@warn_icon_x = 280
 		iconType = {
 			name = "single_player_button_warn"
-			position = { x = @warn_icon_x y = 22 }
-			spriteType = "GFX_missing_dlc_warning_sign"
+			position = { x = @warn_icon_x y = 92 } #CHANGED
+			#position = { x = @warn_icon_x y = 22 }
+			spriteType = "GFX_missing_dlc_warning_sign" #CHANGED
 		}
-
+		
 		instantTextBoxType = {
-
 			name ="version_label"
-			position = { x = 35 y = 396 }
+			position = { x = 520 y = -20 } #CHANGED
+			#position = { x = 35 y = 396 }
 			textureFile = ""
-			font = "hoi_18b"
+			font = "hoi_18mbs" #CHANGED
+			#font = "hoi_18b"
 			borderSize = {x = 0 y = 0}
 			text = "ALPHA"	
 			format = centre
-			maxWidth = 250
-			maxHeight = 20	
+			maxWidth = 270 #CHANGED
+			#maxWidth = 250
+			maxHeight = 20
+			Orientation = CENTER_DOWN #CUSTOM
 		}
 
 		positionType = {
@@ -339,84 +356,127 @@ guiTypes = {
 			position = { x = 35 y = 524 }
 		}
 		
-		
 		ButtonType = {
 			name = "settings_button"
-			position = { x = 16 y = 98 }
-			quadTextureSprite ="GFX_main_lobby_button"	
+			position = { x = -240 y = -250 } #CHANGED
+			#position = { x = 16 y = 98 }
+			quadTextureSprite ="GFX_main_lobby_button_settings" #CHANGED
 			buttonText = "OPTIONS"
-			buttonFont = "hoi_24header"
+			font = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
+			Orientation = CENTER_DOWN #CUSTOM
 		}
 		
 		buttonType = {
 			name = "career_profile_button"
-			position = { x = 16 y = 138 }
-			quadTextureSprite ="GFX_main_lobby_button"
-			buttonText = "MENU_BAR_CAREER_PROFILE"
-			buttonFont = "hoi_24header"
+			position = { x = 375 y = -172 }
+			#position = { x = 16 y = 138 }
+			quadTextureSprite ="GFX_main_lobby_button_career_profile" #CHANGED
+			buttonText = "" #CHANGED
+			#buttonText = "MENU_BAR_CAREER_PROFILE"
+			font = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
+			Orientation = CENTER #CUSTOM
+		}
+		
+		instantTextBoxType = { #CUSTOM
+			name ="career_profile_text"
+			position = { x = 375 y = 87 }
+			textureFile = ""
+			font = "hoi4_typewriter22"
+			borderSize = {x = 0 y = 0}
+			text = "MENU_BAR_CAREER_PROFILE"	
+			format = centre
+			maxWidth = 255
+			maxHeight = 20
+			Orientation = CENTER
+			alwaystransparent = yes
 		}
 		
 		iconType = {
 			name = "career_profile_button_star"
-			position = { x = -37 y = 155 }
-			spriteType = "GFX_icon_best_in_career"
+			position = { x = 307 y = 98 } #CHANGED
+			#position = { x = -37 y = 155 }
+			spriteType = "GFX_icon_best_in_career" #CHANGED
 			centerposition = yes
-			orientation = upper_right
+			orientation = CENTER #CHANGED
+			#orientation = upper_right
 			alwaysTransparent = yes
 		}
 		
 		buttonType = {
 			name = "friends_button"
-			position = { x = 16 y = 178 }
-			quadTextureSprite ="GFX_main_lobby_button"
-			buttonText = "MENU_BAR_FRIENDS"
+			position = { x = -630 y = -172 } #CHANGED
+			#position = { x = 16 y = 178 }
+			quadTextureSprite ="GFX_main_lobby_button_friends" #CHANGED
+			buttonText = ""
+			#buttonText = "MENU_BAR_FRIENDS"
 			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
+			Orientation = CENTER #CUSTOM
 		}
-
+		
+		instantTextBoxType = { #CUSTOM
+			name ="friends_text"
+			position = { x = -630 y = 87 }
+			textureFile = ""
+			font = "hoi4_typewriter22"
+			borderSize = {x = 0 y = 0}
+			text = "MENU_BAR_FRIENDS"	
+			format = centre
+			maxWidth = 255
+			maxHeight = 20
+			Orientation = CENTER
+			alwaystransparent = yes
+		}
+		
 		ButtonType = {
 			name = "credits_button"
-			position = {  x = 16 y = 218 }
-			quadTextureSprite ="GFX_main_lobby_button"	
+			position = { x = -45 y = -250 } #CHANGED
+			#position = {  x = 16 y = 218 }
+			quadTextureSprite ="GFX_main_lobby_button_settings" #CHANGED
 			buttonText = "FE_CREDITS"
-			buttonFont = "hoi_24header"
+			font = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
+			Orientation = CENTER_DOWN #CUSTOM
 		}
 		
 		ButtonType = {
 			name = "nudge_button"
-			position = { x = 16 y = 258 }
-			quadTextureSprite ="GFX_main_lobby_button"	
+			position = { x = -815 y = -150 } #CHANGED
+			#position = { x = 16 y = 258 }
+			quadTextureSprite ="GFX_main_lobby_button_exit" #CHANGED
 			buttonText = "Nudge!"
 			buttonFont = "hoi_24header"
+			Orientation = LOWER_RIGHT #CUSTOM
 		}
-
+		
 		ButtonType = {
 			name = "exit_button"
-			position = { x = 16 y = 300 }
-			quadTextureSprite ="GFX_main_lobby_button"
-			font = "hoi_24header"			
+			position = { x = 935 y = -250 } #CHANGED
+			#position = { x = 16 y = 300 }
+			quadTextureSprite ="GFX_main_lobby_button_exit" #CHANGED
+			font = "hoi_24header"
 			text = "FE_EXIT"			
 			clicksound = click_default
 			oversound = ui_menu_over
-			
+			Orientation = LOWER_LEFT #CUSTOM
 		}
-
+		
 		iconType = {
 			name = "subscription_divider"
-			position = { x = 4 y = 336 }
-			spriteType = "GFX_main_lobby_divider"
+			position = { x = 4 y = 336}
+			spriteType = "GFX_tiled_window_transparent" #CHANGED
 		}
 
 		containerWindowType = {
 			name = "subscription_widget"
-			position = { x = 16 y = 352 }
+			position = { x = 16 y = -3000 } #YEETED FOR NOW
+			#position = { x = 16 y = 352 }
 			size = { width = 288 height = 108 }
 
 			ButtonType = {
@@ -431,7 +491,8 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "subscription_widget_subscribed"
-			position = { x = 16 y = 352 }
+			position = { x = 16 y = -3000 } #YEETED FOR NOW
+			#position = { x = 16 y = 352 }
 			size = { width = 288 height = 108 }
 
 			ButtonType = {
@@ -516,7 +577,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "discord_button"
-			position = { x=102 y=50 }
+			position = { x=102 y=60 }
 			quadTextureSprite ="discord"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_DISCORD"
@@ -526,20 +587,20 @@ guiTypes = {
 
 		ButtonType = {
 			name = "youtube_button"
-			position = { x=66 y=50 }
+			position = { x=66 y=60 }
 			quadTextureSprite ="youtube"
 			#clicksound = click_default
-			pdx_tooltip = "MENU_YOUTUBE"
+			pdx_tooltip = "MENU_YOUTUBE1"
 			web_link = "https://www.youtube.com/@brainstormkid7611"
 			scale = 0.9
 		}
 		
 		ButtonType = {
 			name = "youtube_button_2"
-			position = { x=138 y=50 }
+			position = { x=138 y=60 }
 			quadTextureSprite ="youtube"
 			#clicksound = click_default
-			pdx_tooltip = "MENU_YOUTUBE"
+			pdx_tooltip = "MENU_YOUTUBE2"
 			web_link = "https://www.youtube.com/@fuchsifyl3077"
 			scale = 0.9
 		}
