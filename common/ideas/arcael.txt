@@ -78,5 +78,115 @@ ideas = {
 				army_core_defence_factor = 0.05
 			}
 		}
+		ARC_royal_manufactories_of_sardoria = {
+			picture = royal_manufactories_of_sardoria
+			allowed = {
+				tag = ARC
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+			}
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_start_efficiency_factor = 0.05
+			}
+		}
+		ARC_breadbasket_of_the_empire = {
+			picture = breadbasket_of_the_empire
+			allowed = {
+				tag = ARC
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+			}
+			modifier = {
+				consumer_goods_factor = -0.05
+				supply_consumption_factor = -0.05
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+		ARC_arcaeli_central_bank = {
+			picture = arcaeli_central_bank
+			allowed = {
+				tag = ARC
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+			}
+			modifier = {
+				consumer_goods_factor = -0.5
+				political_power_gain = 0.10
+			}
+		}
+		ARC_volzhkana_market = {
+			picture = volzhkana_market
+			allowed = {
+				tag = ARC
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+			}
+			modifier = {
+				trade_opinion_factor = 0.4
+				political_power_gain = 0.05
+				production_lack_of_resource_penalty_factor = -0.05
+			}
+		}
+		ARC_caelian_crystals = {
+			picture = caelian_crystals
+			allowed = {
+				tag = ARC
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+			}
+			modifier = {
+				experience_loss_factor = -0.15
+				army_org_regain = 0.05
+			}
+		}
+		ARC_queen_mother_of_the_assoti = {
+			picture = queen_mother_of_the_assoti
+			allowed = {
+				tag = ARC
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+			}
+			modifier = {
+				weekly_manpower = 400
+				weekly_casualties_war_support = 0.005
+				political_power_gain = 0.05
+			}
+		}
+		ARC_king_goober = {
+			picture = GFX_portrait_ARC_goober_small
+			allowed = {
+				tag = ARC
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+			}
+			modifier = {
+				stability_factor = 0.05
+				war_stability_factor = 0.15
+				war_support_factor = 0.05
+			}
+		}
 	}
 }

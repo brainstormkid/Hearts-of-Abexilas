@@ -23,8 +23,11 @@ focus = {
 		NOT = {
 			has_government = imperialist
 			has_government = radical_nationalist
-			}
-		}			
+			has_idea = economic_collapse
+			has_idea = economic_collapse_1
+			has_idea = economic_collapse_2
+		}	
+	}
 	prerequisite = { focus = ARC_protecting_native_cultural_sites  }
 	completion_reward = {
 		add_political_power = 50
@@ -119,7 +122,6 @@ focus = {
 		OR = {
 			has_government = monarchist
 			has_government = absolutist
-			has_government = neutrality
 			}
 		}
 	prerequisite = { focus = ARC_finishing_the_july_constitution  }
@@ -147,7 +149,6 @@ focus = {
 		OR = {
 			has_government = monarchist
 			has_government = absolutist
-			has_government = neutrality
 			}
 		}
 
@@ -177,10 +178,6 @@ focus = {
 	prerequisite = { focus = ARC_finishing_the_july_constitution  }
 	mutually_exclusive = { focus = ARC_organize_monarchist_rallies }
 	mutually_exclusive = { focus = ARC_the_fascist_alternative }
-	modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
 	completion_reward = {
 		add_popularity = {
 			ideology = monarchist
@@ -305,7 +302,7 @@ focus = {
 			popularity = 0.20
 		}
 		country_event = { id = Arcael.4 }
-		#Goober I idea
+		add_ideas = ARC_king_goober
 	}
 }
 
@@ -351,6 +348,10 @@ focus = {
 		}
 	}
 	completion_reward = {
+		set_politics = {
+			ruling_party = xeroist
+			elections_allowed = no
+		}
 		add_popularity = {
 			ideology = revisionist
 			popularity = 0.075
@@ -387,6 +388,10 @@ focus = {
 		}
 	}
 	completion_reward = {
+		set_politics = {
+			ruling_party = centrist
+			elections_allowed = no
+		}
 		add_popularity = {
 			ideology = centrist
 			popularity = 0.10
@@ -425,26 +430,604 @@ focus = {
 focus = {
 	id = ARC_develop_the_capital
 	icon = GFX_goal_generic_construct_civ_factory
-	x = 35
-	y = 3
+	x = 27
+	y = 4
+	cost = 10
+	prerequisite = { focus = ARC_create_an_arcaeli_central_bank }
+	search_filters = {
+		FOCUS_FILTER_INDUSTRY
+	}
+	completion_reward = {
+		capital_scope = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+#Southern Construction
+focus = {
+	id = ARC_southern_construction
+	icon = GFX_goal_generic_construct_civilian
+	x = 33
+	y = 2
 	cost = 5
 	prerequisite = { focus = ARC_address_the_constituent_states }
 	search_filters = {
 		FOCUS_FILTER_INDUSTRY
 	}
 	completion_reward = {
-		capital_scope = {
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			path = { 12333 12396 1439 1289 }
+			start_province = 12333
+			target_province = 1289
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			path = { 1289 12463 4954 12439 12400 12363 }
+			start_province = 1289
+			target_province = 6762
+		}
+		745 = {
+			add_building_construction = {
+				type = supply_node
+				level = 1
+				province = 1289
+				instant_build = yes
+			}
+		}
+	}
+}
+
+#Invest in RMS
+focus = {
+	id = ARC_invest_in_RMS
+	icon = GFX_focus_CHL_enlarge_the_textile_industries
+	x = 35
+	y = 4
+	cost = 10
+	prerequisite = { focus = ARC_southern_construction }
+	search_filters = {
+		FOCUS_FILTER_INDUSTRY
+	}
+	available = {
+		has_full_control_of_state = 748
+	}
+	completion_reward = {
+		if = {
+			limit = {
+				has_idea = economic_collapse
+			}
+			swap_ideas = {
+					remove_idea = economic_collapse
+					add_idea = economic_collapse_1
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = economic_collapse_1
+			}
+			swap_ideas = {
+				remove_idea = economic_collapse_1
+				add_idea = economic_collapse_2
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = economic_collapse_2
+			}
+			remove_ideas = economic_collapse_2
+		}
+		748 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		add_ideas = ARC_royal_manufactories_of_sardoria
+	}		
+}
+
+#Settle Southern Sardoria
+focus = {
+	id = ARC_settle_southern_sardoria
+	icon = GFX_focus_SWE_urbanization
+	x = 35
+	y = 5
+	cost = 10
+	prerequisite = { focus = ARC_invest_in_RMS }
+	search_filters = { 
+		FOCUS_FILTER_INDUSTRY
+	}
+	available = {
+		has_full_control_of_state = 748
+	}
+	completion_reward = {
+		add_victory_points = {
+			province = 12537
+			value = 10
+		}
+		748 = {
+			add_building_construction = {
+				province = 12537
+				type = supply_node
+				level = 1
+				instant_build = yes
+			}
+			add_manpower = 100000
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			path = { 12537 3551 6995 12932 12356 6762 }
+			start_province = 12537
+			target_province = 6762
+		}
+	}
+}
+
+#Breadbasket of the Empire
+focus = {
+	id = ARC_breadbasket_of_the_empire
+	icon = GFX_focus_SOV_breadbasket_of_the_union
+	x = 33
+	y = 5
+	cost = 10
+	prerequisite = { focus = ARC_arkadien_builds_co }
+	search_filters = { 
+		FOCUS_FILTER_INDUSTRY
+	}
+	available = {
+		num_of_factories > 30
+		has_full_control_of_state = 745
+	}
+	completion_reward = {
+		add_ideas = ARC_breadbasket_of_the_empire
+		745 = { 
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
-				type = infrastructure
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}			
+		
+
+#Arkadien Builds Co.
+focus = {
+	id = ARC_arkadien_builds_co
+	icon = GFX_focus_spa_the_spanish_miracle
+	x = 33
+	y = 4
+	cost = 10
+	prerequisite = { focus = ARC_southern_construction }
+	search_filters = { 
+		FOCUS_FILTER_INDUSTRY
+	}
+	available = {
+		has_full_control_of_state = 745
+	}
+	completion_reward = {
+		if = {
+			limit = {
+				has_idea = economic_collapse
+			}
+			swap_ideas = {
+					remove_idea = economic_collapse
+					add_idea = economic_collapse_1
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = economic_collapse_1
+			}
+			swap_ideas = {
+				remove_idea = economic_collapse_1
+				add_idea = economic_collapse_2
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = economic_collapse_2
+			}
+			remove_ideas = economic_collapse_2
+		}
+		745 = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = dockyard
+				level = 1
+				instant_build = yes
+			}
+		}
+		custom_effect_tooltip = available_designer
+		show_ideas_tooltip = ARC_arkadien_builds_co
+	}
+}	
+			
+#Create an Arcaeli Central Bank
+focus = {
+	id = ARC_create_an_arcaeli_central_bank
+	icon = GFX_focus_generic_improve_the_administration
+	x = 27
+	y = 3
+	cost = 5
+	prerequisite = { focus = ARC_address_the_constituent_states }
+	available = {
+		date > 3.01.01
+	}
+	completion_reward = {
+		if = {
+			limit = {
+				has_idea = economic_collapse
+			}
+			swap_ideas = {
+					remove_idea = economic_collapse
+					add_idea = economic_collapse_1
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = economic_collapse_1
+			}
+			swap_ideas = {
+				remove_idea = economic_collapse_1
+				add_idea = economic_collapse_2
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = economic_collapse_2
+			}
+			remove_ideas = economic_collapse_2
+		}
+		add_ideas = ARC_arcaeli_central_bank
+		add_political_power = 50
+	}
+}
+
+#Northern Development
+focus = {
+	id = ARC_nortern_development
+	icon = GFX_goal_generic_construction
+	x = 39
+	y = 2
+	cost = 5
+	prerequisite = { focus = ARC_address_the_constituent_states }
+	completion_reward = {
+		698 = {
+			add_building_construction = {
+				province = 1306
+				type = supply_node
+				level = 1
+				instant_build = yes
+			}
+		}
+		693 = {
+			add_building_construction = {
+				province = 1923
+				type = supply_node
+				level = 1
+				instant_build = yes
+			}
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			path = { 1931 186 5862 1306 12143 5909 }
+			start_province = 1931
+			target_province = 5909
+		}
+		build_railway = {
+			level = 1
+			build_only_on_allied = yes
+			fallback = yes
+			start_province = 1603
+			target_province = 1923
+		}
+	}
+}
+
+#Exploit the Zeijma hills
+focus = {
+	id = ARC_exploit_the_zeijma_hills
+	icon = GFX_focus_generic_modernize_industry
+	x = 39
+	y = 4
+	cost = 10
+	prerequisite = { focus = ARC_nortern_development }
+	available = {
+		has_full_control_of_state = 693
+	}
+	completion_reward = {
+		if = {
+			limit = {
+				has_idea = economic_collapse
+			}
+			swap_ideas = {
+					remove_idea = economic_collapse
+					add_idea = economic_collapse_1
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = economic_collapse_1
+			}
+			swap_ideas = {
+				remove_idea = economic_collapse_1
+				add_idea = economic_collapse_2
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = economic_collapse_2
+			}
+			remove_ideas = economic_collapse_2
+		}
+		693 = {
+			add_building_construction = {
+				type = industrial_complex
 				level = 2
 				instant_build = yes
 			}
 			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_resource = {
+				type = oil
+				amount = 15
+			}
+		}
+	}
+}
+
+#Finish the Volzhkana Market
+focus = {
+	id = ARC_finish_the_volzhkana_market
+	icon = GFX_goal_generic_positive_trade_relations
+	x = 39
+	y = 5
+	cost = 10
+	prerequisite = { focus = ARC_exploit_the_zeijma_hills }
+	available = {
+		has_full_control_of_state = 693
+	}
+	completion_reward = {
+		add_stability = 0.05
+		add_war_support = 0.05
+		add_offsite_building = { type = industrial_complex level = 1 }
+		add_ideas = ARC_volzhkana_market
+	}
+}
+
+#The Cliffston Miracle
+focus = {
+	id = ARC_the_cliffston_miracle
+	icon = GFX_focus_ARG_develop_the_electricity_sector
+	x = 41
+	y = 4
+	cost = 10
+	prerequisite = { focus = ARC_nortern_development }
+	available = {
+		has_full_control_of_state = 699
+	}
+	completion_reward = {
+		if = {
+			limit = {
+				has_idea = economic_collapse
+			}
+			swap_ideas = {
+					remove_idea = economic_collapse
+					add_idea = economic_collapse_1
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = economic_collapse_1
+			}
+			swap_ideas = {
+				remove_idea = economic_collapse_1
+				add_idea = economic_collapse_2
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = economic_collapse_2
+			}
+			remove_ideas = economic_collapse_2
+		}
+		699 = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
 				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_manpower = 400000
+		}
+		add_victory_points = {
+			province = 12079
+			value = 5
+		}
+		
+	}
+}
+
+#Caelian crystals
+focus = {
+	id = ARC_caelian_crystals
+	icon = GFX_focus_generic_field_hostpital
+	x = 41
+	y = 5
+	cost = 10
+	prerequisite = { focus = ARC_the_cliffston_miracle }
+	available = {
+		has_tech = excavation1
+		has_full_control_of_state = 699
+	}
+	completion_reward = {
+		add_ideas = ARC_caelian_crystals
+		699 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 700
+		}
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = support_tech
+		}
+	}
+}
+
+#Caramel Mining
+focus = {
+	id = ARC_mining_in_caramel
+	icon = GFX_focus_generic_mining_industry
+	x = 43
+	y = 4
+	cost = 10
+	prerequisite = { focus = ARC_nortern_development }
+	available = {
+		has_full_control_of_state = 698
+	}
+	completion_reward = {
+		if = {
+			limit = {
+				has_idea = economic_collapse
+			}
+			swap_ideas = {
+					remove_idea = economic_collapse
+					add_idea = economic_collapse_1
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = economic_collapse_1
+			}
+			swap_ideas = {
+				remove_idea = economic_collapse_1
+				add_idea = economic_collapse_2
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = economic_collapse_2
+			}
+			remove_ideas = economic_collapse_2
+		}
+		698 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			add_resource = {
+				type = steel
+				amount = 20
+			}
+			add_resource = {
+				type = tungsten
+				amount = 10
+			}
+			add_resource = {
+				type = aluminium
+				amount = 10
+			}
+			add_resource = {
+				type = chromium
+				amount = 10
+			}
+		}
+	}
+}
+
+#Queen Mother of the Assoti
+focus = {
+	id = ARC_queen_mother_of_the_assoti
+	icon = GFX_focus_generic_agricultural_subsidies
+	x = 43
+	y = 5
+	cost = 10
+	prerequisite = { focus = ARC_mining_in_caramel }
+	available = { 
+		has_completed_focus = ARC_repairing_the_nativesettler_gap
+		has_full_control_of_state = 703
+	}
+	completion_reward = {
+		add_manpower = 50000
+		add_ideas = ARC_queen_mother_of_the_assoti
+		703 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = dockyard
 				level = 1
 				instant_build = yes
 			}
 		}
 	}
 }
+
+#Open the Arcaeus univeristy
+focus = {
+	id = ARC_open_the_arcaeus_university
+	icon = GFX_focus_NORDIC_dem_capstone_research
+	x = 31
+	y = 3
+	cost = 10
+	prerequisite = { focus = ARC_southern_construction }
+	available = {
+		has_full_control_of_state = 737
+		date > 3.02.01
+		NOT = {
+			has_idea = economic_collapse
+			has_idea = economic_collapse_1
+			has_idea = economic_collapse_2
+		}
+	}
+	completion_reward = {
+		add_research_slot = 1
+	}
+}
+
+	
+#DEN civilian preparations

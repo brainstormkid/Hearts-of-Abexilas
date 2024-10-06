@@ -119,16 +119,16 @@ country_event = {
 			states = { 737 693 }
 		}
 		add_popularity = {
-			ideology = fascism
+			ideology = radical_nationalist
 			popularity = -0.4
 		}
 		hidden_effect = {
 			random_other_country = {
 				limit = {
 					original_tag = ARC
-					has_government = fascism
+					has_government = radical_nationalist
 				}
-				save_event_target_as = fascism_arcael_civil_war
+				save_event_target_as = radical_nationalist_arcael_civil_war
 				set_stability = 0.8
 				set_war_support = 0.6
 				remove_ideas = the_disunited_empire
@@ -156,7 +156,7 @@ country_event = {
 		}
 		add_stability = -0.25
 		add_popularity = {
-			ideology = fascism
+			ideology = radical_nationalist
 			popularity = 0.4
 		}
 		hidden_effect = {

@@ -6,10 +6,6 @@ characters = {
 				large = "GFX_portait_ARC_karl"
 				small = "GFX_portrait_ARC_karl_small"
 			}
-			army = {
-				large = "GFX_portait_ARC_karl"
-				small = "GFX_portrait_ARC_karl_small"
-			}
 		}
 		field_marshal={
 			traits={ media_personality politically_connected inflexible_strategist trait_mountaineer }
@@ -19,5 +15,45 @@ characters = {
 			planning_skill=3
 			logistics_skill=3
 		}
+	}
+	ARC_erupto_indrev = {
+		name = ARC_erupto_indrev
+		portraits = {
+			civilian = {
+				large = "GFX_portait_ARC_erupto_indrev"
+				small = "GFX_portait_ARC_erupto_indrev_small"
+			}
+		}
+		country_leader = {
+			ideology = xeroist_subtype
+		}
+		country_leader = {
+			ideology = revisionist_subtype
+		}
+	}
+	ARC_arcaeli_parliament = {
+		name = ARC_arcaeli_parliament
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_arcaeli_parliament"
+			}
+		}
+		country_leader = {
+			ideology = centrist_subtype
+		}
+		country_leader = {
+			ideology = conservatist_subtype
+		}
+		country_leader = {
+			ideology = progressivist_subtype
+		}
+		country_leader = {
+			ideology = social_liberalist_subtype
+		}
+		country_leader = {
+			ideology = libertarianist_subtype
+		}
+	}
+}
 
 		

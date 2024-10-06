@@ -37,6 +37,8 @@ set_popularities = {
 }
 
 recruit_character = ARC_karl
+recruit_character = ARC_erupto_indrev
+recruit_character = ARC_arcaeli_parliament
 
 create_country_leader = {
 	name = "Karl I."

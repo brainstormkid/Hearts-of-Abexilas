@@ -38,7 +38,7 @@
  maintained_ecmr_desc:0 "The ECMR has been repurposed and expanded to cover more industries."
 
 # Arcael ideas
- the_disunited_empire:0 "The Disunited Empire"
+the_disunited_empire:0 "The Disunited Empire"
  the_disunited_empire_desc:0 "Despite its name, the United Empire of Arcael suffers from a lot of rivalry between its constituent kingdoms."
  soldiers_of_the_mountains:0 "Soldiers of the Mountains"
  soldiers_of_the_mountains_desc:0 "This nation's territory consists primarily of peaks and glaciers, and its army has adapted accordingly."
@@ -48,7 +48,14 @@
  protected_native_cultural_site_desc:0 "Officially protecting cultural sites from economic exploitation was a great step in the right direction, but there is still much more to accomplish."
  full_native_integration:0 "Full Native Integration"
  full_native_integration_desc:0 "Finally, the natives of Arcael stand on equal ground with the Eldhamite settlers, and both peoples are already enjoying a new era of cooperation."
-
+ ARC_royal_manufactories_of_sardoria:0 "Royal Manufactories of Sardoria"
+ ARC_breadbasket_of_the_empire:0 "Breadbasket of the Empire"
+ ARC_arcaeli_central_bank:0 "Arcaeli Central Bank"
+ ARC_volzhkana_market:0 "Volzhkana Market"
+ ARC_caelian_crystals:0 "Caelian Crystals"
+ ARC_queen_mother_of_the_assoti:0 "Queen-Mother of the Assoti"
+ ARC_king_goober:0 "Emperor Goober I."
+ 
 # Myrtana ideas
  great_divide:0 "The Great Divide"
  great_divide_desc:0 "Our nation has for most part of history peaceful with full cooperation between people and the government, however ever since Ravian came into power, multiple parties started to become really hostile to each other, each becoming more and more dangerous. With all of them sharing the same goal, overthrow the King."
