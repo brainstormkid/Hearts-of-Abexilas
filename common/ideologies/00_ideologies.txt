@@ -18,34 +18,31 @@ ideologies = {
 		color = { 124 124 124 }
 
 
-		war_impact_on_world_tension = 0.25		#no major danger
-		faction_impact_on_world_tension = 0.1
+		war_impact_on_world_tension = 1		#no major danger
 
 		rules = {
 			can_force_government = yes
-			can_puppet = yes
-			can_send_volunteers = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
 		}
+		
+		can_host_government_in_exile = no
+		can_collaborate = yes
 
 		modifiers = {
-			#increased_influence_factor = 0.3 #30% easier to influence
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.6
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
-			drift_defence_factor = -0.3
 			civilian_intel_to_others = 20.0
-			army_intel_to_others = 10.0
+			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 10.0
+			airforce_intel_to_others = 5
 		}
 
 		faction_modifiers = {
 		}
 
 		ai_neutral = yes #
-		ai_ideology_wanted_units_factor = 1.15
+		ai_ideology_wanted_units_factor = 1.5
 	}
 	
 	monarchist = {
@@ -65,34 +62,31 @@ ideologies = {
 		color = { 106 13 173 }
 
 
-		war_impact_on_world_tension = 0.25		#no major danger
-		faction_impact_on_world_tension = 0.1
+		war_impact_on_world_tension = 1	#no major danger
 
 		rules = {
 			can_force_government = yes
-			can_puppet = yes
-			can_send_volunteers = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
 		}
+		
+		can_host_government_in_exile = no
+		can_collaborate = yes
 
 		modifiers = {
-			#increased_influence_factor = 0.3 #30% easier to influence
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.6
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
-			drift_defence_factor = -0.3
 			civilian_intel_to_others = 20.0
-			army_intel_to_others = 10.0
+			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 10.0
+			airforce_intel_to_others = 5
 		}
 
 		faction_modifiers = {
 		}
 
 		ai_neutral = yes #
-		ai_ideology_wanted_units_factor = 1.15
+		ai_ideology_wanted_units_factor = 1.5
 	}
 	
 	theocratist = {
@@ -112,34 +106,31 @@ ideologies = {
 		color = { 255 224 0 }
 
 
-		war_impact_on_world_tension = 0.25		#no major danger
-		faction_impact_on_world_tension = 0.1
+		war_impact_on_world_tension = 1
 
 		rules = {
 			can_force_government = yes
-			can_puppet = yes
-			can_send_volunteers = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
 		}
+		
+		can_host_government_in_exile = no
+		can_collaborate = yes
 
 		modifiers = {
-			#increased_influence_factor = 0.3 #30% easier to influence
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.6
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
-			drift_defence_factor = -0.3
 			civilian_intel_to_others = 20.0
-			army_intel_to_others = 10.0
+			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 10.0
+			airforce_intel_to_others = 5
 		}
 
 		faction_modifiers = {
 		}
 
 		ai_neutral = yes #
-		ai_ideology_wanted_units_factor = 1.15
+		ai_ideology_wanted_units_factor = 1.5
 	}
 	
 	accelerationist = {
@@ -159,34 +150,31 @@ ideologies = {
 		color = { 231 104 99 }
 
 
-		war_impact_on_world_tension = 0.25		#no major danger
-		faction_impact_on_world_tension = 0.1
+		war_impact_on_world_tension = 1
 
 		rules = {
 			can_force_government = yes
-			can_puppet = yes
-			can_send_volunteers = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
 		}
+		
+		can_host_government_in_exile = no
+		can_collaborate = yes
 
 		modifiers = {
-			#increased_influence_factor = 0.3 #30% easier to influence
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.6
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
-			drift_defence_factor = -0.3
 			civilian_intel_to_others = 20.0
-			army_intel_to_others = 10.0
+			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 10.0
+			airforce_intel_to_others = 5
 		}
 
 		faction_modifiers = {
 		}
 
 		ai_neutral = yes #
-		ai_ideology_wanted_units_factor = 1.15
+		ai_ideology_wanted_units_factor = 1.5
 	}
 	
 	# Socialist
@@ -206,29 +194,29 @@ ideologies = {
 
 		color = { 255 0 0 }
 
-		war_impact_on_world_tension = 0.75		#Commie less threatening
-		faction_impact_on_world_tension = 0.5
+		war_impact_on_world_tension = 1
 
 		ai_communist = yes # uses the commie AI behaviour
-		ai_ideology_wanted_units_factor = 1.20
+		ai_ideology_wanted_units_factor = 1.5
 
 		rules = {
 			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
 			can_send_volunteers = yes
-			can_puppet = yes
 		}
+		
+		can_host_government_in_exile = no
+		can_collaborate = yes
 
 		can_collaborate = yes
 
 		modifiers = {
-			# puppet_cost_factor = -0.3 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
-			hidden_modifier = { join_faction_tension = -0.1 }
-			embargo_threshold_factor = 0.5
-			lend_lease_tension = 0.50
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
 		}
 
 		faction_modifiers = {
@@ -252,29 +240,29 @@ ideologies = {
 
 		color = { 194 30 86 }
 
-		war_impact_on_world_tension = 0.75		#Commie less threatening
-		faction_impact_on_world_tension = 0.5
+		war_impact_on_world_tension = 1
 
 		ai_communist = yes # uses the commie AI behaviour
-		ai_ideology_wanted_units_factor = 1.20
+		ai_ideology_wanted_units_factor = 1.5
 
 		rules = {
 			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
 			can_send_volunteers = yes
-			can_puppet = yes
 		}
+		
+		can_host_government_in_exile = no
+		can_collaborate = yes
 
 		can_collaborate = yes
 
 		modifiers = {
-			# puppet_cost_factor = -0.3 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
-			hidden_modifier = { join_faction_tension = -0.1 }
-			embargo_threshold_factor = 0.5
-			lend_lease_tension = 0.50
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
 		}
 
 		faction_modifiers = {
@@ -298,29 +286,29 @@ ideologies = {
 
 		color = { 215 227 211 }
 
-		war_impact_on_world_tension = 0.75		#Commie less threatening
-		faction_impact_on_world_tension = 0.5
+		war_impact_on_world_tension = 1
 
 		ai_communist = yes # uses the commie AI behaviour
-		ai_ideology_wanted_units_factor = 1.20
+		ai_ideology_wanted_units_factor = 1.5
 
 		rules = {
 			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
 			can_send_volunteers = yes
-			can_puppet = yes
 		}
+		
+		can_host_government_in_exile = no
+		can_collaborate = yes
 
 		can_collaborate = yes
 
 		modifiers = {
-			# puppet_cost_factor = -0.3 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
-			hidden_modifier = { join_faction_tension = -0.1 }
-			embargo_threshold_factor = 0.5
-			lend_lease_tension = 0.50
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
 		}
 
 		faction_modifiers = {
@@ -344,29 +332,29 @@ ideologies = {
 
 		color = { 89 3 32 }
 
-		war_impact_on_world_tension = 0.75		#Commie less threatening
-		faction_impact_on_world_tension = 0.5
+		war_impact_on_world_tension = 1
 
 		ai_communist = yes # uses the commie AI behaviour
-		ai_ideology_wanted_units_factor = 1.20
+		ai_ideology_wanted_units_factor = 1.5
 
 		rules = {
 			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
 			can_send_volunteers = yes
-			can_puppet = yes
 		}
+		
+		can_host_government_in_exile = no
+		can_collaborate = yes
 
 		can_collaborate = yes
 
 		modifiers = {
-			# puppet_cost_factor = -0.3 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
-			hidden_modifier = { join_faction_tension = -0.1 }
-			embargo_threshold_factor = 0.5
-			lend_lease_tension = 0.50
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
 		}
 
 		faction_modifiers = {
@@ -393,41 +381,30 @@ ideologies = {
 		color = { 245 245 22 }
 
 		rules = {
-			can_create_collaboration_government = no
-			can_declare_war_on_same_ideology = no
 			can_force_government = yes
-			can_send_volunteers = no
 			can_puppet = no
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = yes
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
 		}
 
-		can_host_government_in_exile = yes
+		can_host_government_in_exile = no
+		can_collaborate = yes
 
-		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
-		faction_impact_on_world_tension = 0.1
+		war_impact_on_world_tension = 1
 
 		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			# annex_cost_factor = 0.5 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
 			civilian_intel_to_others = 20.0
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
-			embargo_cost_factor = -0.5
-			embargo_threshold_factor = -0.5
 		}
 
 		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+			
 		}
 		ai_democratic = yes # uses the democratic AI behaviour
-		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
+		ai_ideology_wanted_units_factor = 1.5 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
 	
 	centrist = {
@@ -448,41 +425,30 @@ ideologies = {
 		color = { 209 150 0 }
 
 		rules = {
-			can_create_collaboration_government = no
-			can_declare_war_on_same_ideology = no
 			can_force_government = yes
-			can_send_volunteers = no
 			can_puppet = no
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = yes
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
 		}
 
-		can_host_government_in_exile = yes
+		can_host_government_in_exile = no
+		can_collaborate = yes
 
-		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
-		faction_impact_on_world_tension = 0.1
+		war_impact_on_world_tension = 1
 
 		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			# annex_cost_factor = 0.5 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
 			civilian_intel_to_others = 20.0
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
-			embargo_cost_factor = -0.5
-			embargo_threshold_factor = -0.5
 		}
 
 		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+			
 		}
 		ai_democratic = yes # uses the democratic AI behaviour
-		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
+		ai_ideology_wanted_units_factor = 1.5 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
 	
 	social_liberalist = {
@@ -503,41 +469,30 @@ ideologies = {
 		color = { 5 181 161 }
 
 		rules = {
-			can_create_collaboration_government = no
-			can_declare_war_on_same_ideology = no
 			can_force_government = yes
-			can_send_volunteers = no
 			can_puppet = no
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = yes
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
 		}
 
-		can_host_government_in_exile = yes
+		can_host_government_in_exile = no
+		can_collaborate = yes
 
-		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
-		faction_impact_on_world_tension = 0.1
+		war_impact_on_world_tension = 1
 
 		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			# annex_cost_factor = 0.5 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
 			civilian_intel_to_others = 20.0
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
-			embargo_cost_factor = -0.5
-			embargo_threshold_factor = -0.5
 		}
 
 		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+			
 		}
 		ai_democratic = yes # uses the democratic AI behaviour
-		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
+		ai_ideology_wanted_units_factor = 1.5 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
 	
 	progressivist = {
@@ -558,41 +513,30 @@ ideologies = {
 		color = { 12 87 3 }
 
 		rules = {
-			can_create_collaboration_government = no
-			can_declare_war_on_same_ideology = no
 			can_force_government = yes
-			can_send_volunteers = no
 			can_puppet = no
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = yes
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
 		}
 
-		can_host_government_in_exile = yes
+		can_host_government_in_exile = no
+		can_collaborate = yes
 
-		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
-		faction_impact_on_world_tension = 0.1
+		war_impact_on_world_tension = 1
 
 		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			# annex_cost_factor = 0.5 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
 			civilian_intel_to_others = 20.0
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
-			embargo_cost_factor = -0.5
-			embargo_threshold_factor = -0.5
 		}
 
 		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+			
 		}
 		ai_democratic = yes # uses the democratic AI behaviour
-		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
+		ai_ideology_wanted_units_factor = 1.5 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
 	
 	conservatist = {
@@ -613,41 +557,30 @@ ideologies = {
 		color = { 5 87 137 }
 
 		rules = {
-			can_create_collaboration_government = no
-			can_declare_war_on_same_ideology = no
 			can_force_government = yes
-			can_send_volunteers = no
 			can_puppet = no
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = yes
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
 		}
 
-		can_host_government_in_exile = yes
+		can_host_government_in_exile = no
+		can_collaborate = yes
 
-		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
-		faction_impact_on_world_tension = 0.1
+		war_impact_on_world_tension = 1
 
 		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			# annex_cost_factor = 0.5 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
 			civilian_intel_to_others = 20.0
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
-			embargo_cost_factor = -0.5
-			embargo_threshold_factor = -0.5
 		}
 
 		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+			
 		}
 		ai_democratic = yes # uses the democratic AI behaviour
-		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
+		ai_ideology_wanted_units_factor = 1.5 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
 	
 	# Nationalism
@@ -667,30 +600,28 @@ ideologies = {
 
 		color = { 20 22 56 }
 
-		war_impact_on_world_tension = 1.0			#evil!
-		faction_impact_on_world_tension = 1.0
+		war_impact_on_world_tension = 1
 
 		rules = {
 			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
 			can_send_volunteers = yes
-			can_puppet = yes
 		}
 
+		can_host_government_in_exile = no
 		can_collaborate = yes
 
 		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.80
-			civilian_intel_to_others = 15.0
-			army_intel_to_others = 10.0
-			navy_intel_to_others = 10.0
-			airforce_intel_to_others = 10.0
-			hidden_modifier = { join_faction_tension = -0.1 }
-			embargo_cost_factor = 1
-			lend_lease_tension = 0.50
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
 		}
 
 		ai_fascist = yes # uses the fascist AI behaviour
-		ai_ideology_wanted_units_factor = 1.65
+		ai_ideology_wanted_units_factor = 1.5
 	}
 	
 	radical_nationalist = {
@@ -709,29 +640,27 @@ ideologies = {
 
 		color = { 77 20 51 }
 
-		war_impact_on_world_tension = 1.0			#evil!
-		faction_impact_on_world_tension = 1.0
+		war_impact_on_world_tension = 1
 
 		rules = {
 			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
 			can_send_volunteers = yes
-			can_puppet = yes
 		}
 
+		can_host_government_in_exile = no
 		can_collaborate = yes
 
 		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.80
-			civilian_intel_to_others = 15.0
-			army_intel_to_others = 10.0
-			navy_intel_to_others = 10.0
-			airforce_intel_to_others = 10.0
-			hidden_modifier = { join_faction_tension = -0.1 }
-			embargo_cost_factor = 1
-			lend_lease_tension = 0.50
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
 		}
 
 		ai_fascist = yes # uses the fascist AI behaviour
-		ai_ideology_wanted_units_factor = 1.65
+		ai_ideology_wanted_units_factor = 1.5
 	}
 }
