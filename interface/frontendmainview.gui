@@ -125,7 +125,7 @@ guiTypes = {
 		{
 			name ="frontend_game_logo"
 			spriteType = "GFX_frontend_game_logo"
-			position = { x= 565 y = 100 }
+			position = { x= 740 y = 100 }
 		}
 		
 	}
@@ -167,14 +167,14 @@ guiTypes = {
 		{
 			name ="frontend_dev_logo"
 			spriteType = "GFX_frontend_dev_logo"
-			position = { x= -920 y = 100 }
+			position = { x= -1100 y = 100 }
 		}
 		
 		iconType =
 		{
 			name ="pdx_int_logo"
 			spriteType = "GFX_pdx_int_logo"
-			position = { x= -230 y = 130 }
+			position = { x= -430 y = 130 }
 		}		
 		
 	}		
