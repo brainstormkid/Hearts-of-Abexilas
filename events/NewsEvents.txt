@@ -86,3 +86,22 @@ news_event = {
 		add_ideas = economic_boost
 	}
 }
+
+# War Plugin Enabled
+news_event = {
+	id = news.5
+	title = news.5.t
+	desc = "news.5.d"
+
+	picture = GFX_news_event_005
+
+	major = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "news.5.a"
+		set_global_flag = war_plugin_enabled
+		custom_effect_tooltip = PLUGIN_ENABLED
+	}
+}
