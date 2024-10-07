@@ -79,7 +79,7 @@ ideas = {
 			}
 		}
 		ARC_royal_manufactories_of_sardoria = {
-			picture = royal_manufactories_of_sardoria
+			picture = GFX_idea_royal_manufactories_of_sardoria
 			allowed = {
 				tag = ARC
 			}
@@ -95,7 +95,7 @@ ideas = {
 			}
 		}
 		ARC_breadbasket_of_the_empire = {
-			picture = breadbasket_of_the_empire
+			picture = GFX_idea_breadbasket_of_the_empire
 			allowed = {
 				tag = ARC
 			}
@@ -111,7 +111,7 @@ ideas = {
 			}
 		}
 		ARC_arcaeli_central_bank = {
-			picture = arcaeli_central_bank
+			picture = GFX_idea_arcaeli_central_bank
 			allowed = {
 				tag = ARC
 			}
@@ -126,7 +126,7 @@ ideas = {
 			}
 		}
 		ARC_volzhkana_market = {
-			picture = volzhkana_market
+			picture = GFX_idea_generic_foreign_capital
 			allowed = {
 				tag = ARC
 			}
@@ -142,7 +142,6 @@ ideas = {
 			}
 		}
 		ARC_caelian_crystals = {
-			picture = caelian_crystals
 			allowed = {
 				tag = ARC
 			}
@@ -157,7 +156,7 @@ ideas = {
 			}
 		}
 		ARC_queen_mother_of_the_assoti = {
-			picture = queen_mother_of_the_assoti
+			picture = GFX_idea_queen_mother_of_the_assoti
 			allowed = {
 				tag = ARC
 			}
@@ -173,7 +172,7 @@ ideas = {
 			}
 		}
 		ARC_king_goober = {
-			picture = GFX_portrait_ARC_goober_small
+			picture = GFX_idea_king_goober
 			allowed = {
 				tag = ARC
 			}

@@ -206,6 +206,11 @@ spriteTypes = {
     	texturefile = "GFX/leaders/ARC/karl.dds"
     }
 	
+	spriteType = {
+		name = "GFX_portrait_ARC_arcaeli_parliament"
+		texturefile = "GFX/leaders/ARC/arcaeli_parliament.dds"
+	}
+	
 	### LUT
 	spriteType = {
 		name = "GFX_portrait_LUT_test"
