@@ -398,6 +398,10 @@
  LAV_absolutist_DEF:1 "the Las Vidas"
  LAV_absolutist_ADJ:0 "Vidian"
  
+ LEN_absolutist:1 "Shattered Kingdom of Lennox"
+ LEN_absolutist_DEF:1 "the Shattered Kingdom of Lennox"
+ LEN_absolutist_ADJ:0 "Lennoxer"
+ 
  LEY_absolutist:1 "Duchy of Leyenbourg"
  LEY_absolutist_DEF:1 "the Duchy of Leyenbourg"
  LEY_absolutist_ADJ:0 "Leyenbourgian"

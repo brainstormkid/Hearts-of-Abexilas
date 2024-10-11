@@ -553,3 +553,8 @@ VLA = {
 	color = rgb { 111 0 0 }
 	color_ui = rgb { 111 0 0 }
 }
+
+LEN = {
+	color = rgb { 131 213 119 }
+	color_ui = rgb { 131 213 119 }
+}

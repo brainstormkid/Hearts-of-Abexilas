@@ -7,4 +7,10 @@ state={
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
+	history={
+		owner = LEN
+		buildings = {
+		}
+		add_core_of = LEN
+	}
 }
