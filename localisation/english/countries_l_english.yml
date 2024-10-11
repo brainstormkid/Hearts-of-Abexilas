@@ -550,6 +550,10 @@
  ROH_absolutist_DEF:1 "the Magehold of Rohldan"
  ROH_absolutist_ADJ:0 "Rohldanian"
  
+ SAM_absolutist:1 "Grand Duchy of Samora"
+ SAM_absolutist_DEF:1 "the Grand Duchy of Samora"
+ SAM_absolutist_ADJ:0 "Samoran"
+ 
  SAR_absolutist:1 "Korlenten Sarinzerilin"
  SAR_absolutist_DEF:1 "the Korlenten Sarinzerilin"
  SAR_absolutist_ADJ:0 "Simulamii"

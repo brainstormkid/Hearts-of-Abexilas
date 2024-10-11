@@ -543,3 +543,8 @@ REN = {
 	color = rgb { 221 86 92 }
 	color_ui = rgb { 221 86 92 }
 }
+
+SAM = {
+	color = rgb { 233 124 0 }
+	color_ui = rgb { 233 124 0 }
+}
