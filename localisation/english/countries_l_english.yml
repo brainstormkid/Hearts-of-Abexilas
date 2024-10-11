@@ -678,6 +678,10 @@
  VIR_absolutist_DEF:1 "the Viratayn"
  VIR_absolutist_ADJ:0 "Viratine"
  
+ VLA_absolutist:1 "State of Vladistan"
+ VLA_absolutist_DEF:1 "the State of Vladistan"
+ VLA_absolutist_ADJ:0 "Vladistani"
+ 
  YAR_absolutist:1 "Yarexoka"
  YAR_absolutist_DEF:1 "the Yarexoka"
  YAR_absolutist_ADJ:0 "Yarexokan"
