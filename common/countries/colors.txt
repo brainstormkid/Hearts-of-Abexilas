@@ -563,3 +563,8 @@ KHR = {
 	color = rgb { 96 111 174 }
 	color_ui = rgb { 96 111 174 }
 }
+
+MAE = {
+	color = rgb { 91 0 10 }
+	color_ui = rgb { 91 0 10 }
+}

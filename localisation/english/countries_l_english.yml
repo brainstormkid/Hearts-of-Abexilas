@@ -465,6 +465,10 @@
  LYN_absolutist_DEF:1 "the Cynedom of Lynarith"
  LYN_absolutist_ADJ:0 "Lynarithi"
  
+ MAE_absolutist:1 "Imperial Realm of Maecenia"
+ MAE_absolutist_DEF:1 "the Imperial Realm of Maecenia"
+ MAE_absolutist_ADJ:0 "Maecenian"
+ 
  MAL_absolutist:1 "Wyverndom of Malachite"
  MAL_absolutist_DEF:1 "the Wyverndom of Malachite"
  MAL_absolutist_ADJ:0 "Dragon-Born"
