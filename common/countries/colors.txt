@@ -558,3 +558,8 @@ LEN = {
 	color = rgb { 131 213 119 }
 	color_ui = rgb { 131 213 119 }
 }
+
+KHR = {
+	color = rgb { 96 111 174 }
+	color_ui = rgb { 96 111 174 }
+}
