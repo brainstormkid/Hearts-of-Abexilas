@@ -14,5 +14,5 @@ music = {
 music = {
     name = "AnthemoftheUnifiedStructuralistIntuitionistPartyofAzeraanUSIPA"
     file = "AnthemoftheUnifiedStructuralistIntuitionistPartyofAzeraanUSIPA.ogg"
-    volume = 1.00
+    volume = 10.00
 }

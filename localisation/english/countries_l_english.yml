@@ -590,9 +590,9 @@
  SEN_centrist_DEF:1 "the Republic of Seneca"
  SEN_centristt_ADJ:0 "Senecanese"
  
- SET_absolutist:1 "Sentara"
- SET_absolutist_DEF:1 "the Sentara"
- SET_absolutist_ADJ:0 "Sentarian"
+ SET_absolutist:1 "Dominion of Sentara"
+ SET_absolutist_DEF:1 "the Dominion of Sentara"
+ SET_absolutist_ADJ:0 "Sentaran"
  
  SHI_absolutist:1 "Shishuk Territories"
  SHI_absolutist_DEF:1 "the Shishuk Territories"
@@ -718,9 +718,9 @@
  ZEH_absolutist_DEF:1 "the Zehrniedrig"
  ZEH_absolutist_ADJ:0 "Zehrish"
  
- ZIL_absolutist:1 "Zehrniedrig"
- ZIL_absolutist_DEF:1 "the Zehrniedrig"
- ZIL_absolutist_ADJ:0 "Zehrish"
+ ZIL_absolutist:1 "Republic of Zilatra"
+ ZIL_absolutist_DEF:1 "the Republic of Zilatra"
+ ZIL_absolutist_ADJ:0 "Zilatran"
  
  ZER_absolutist:1 "Kingdom of Zeril"
  ZER_absolutist_DEF:1 "the Kingdom of Zeril"
