@@ -100,6 +100,11 @@ BAN = {
 	color_ui = rgb { 162 162 162 }
 }
 
+BAR = {
+	color = rgb { 215 194 36 }
+	color_ui = rgb { 215 194 36 }
+}
+
 BEE = {
 	color = rgb { 222  192  80 }
 	color_ui = rgb { 222  192  80 }

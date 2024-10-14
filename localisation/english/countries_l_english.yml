@@ -159,6 +159,10 @@
  BAN_absolutist_DEF:1 "the Kingdom of Bannover"
  BAN_absolutist_ADJ:0 "Bannoverian"
  
+ BAR_absolutist:1 "Bardonia"
+ BAR_absolutist_DEF:1 "the Bardonia"
+ BAR_absolutist_ADJ:0 "Bardonian"
+ 
  BEE_absolutist:1 "Empire of Beepeck"
  BEE_absolutist_DEF:1 "the Empire of Beepeck"
  BEE_absolutist_ADJ:0 "Beean"
