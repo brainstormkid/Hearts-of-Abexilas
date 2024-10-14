@@ -370,6 +370,11 @@ LEN = {
 	color_ui = rgb { 131 213 119 }
 }
 
+LEV = {
+	color = rgb { 174 81 81 }
+	color_ui = rgb { 174 81 81 }
+}
+
 LEY = {
 	color = rgb { 51 76 116 }
 	color_ui = rgb { 51 76 116 }

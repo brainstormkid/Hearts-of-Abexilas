@@ -438,6 +438,10 @@
  LEN_absolutist_DEF:1 "the Shattered Kingdom of Lennox"
  LEN_absolutist_ADJ:0 "Lennoxer"
  
+ LEV_absolutist:1 "Royaume de Levan"
+ LEV_absolutist_DEF:1 "the Royaume de Levan"
+ LEV_absolutist_ADJ:0 "Levani"
+ 
  LEY_absolutist:1 "Duchy of Leyenbourg"
  LEY_absolutist_DEF:1 "the Duchy of Leyenbourg"
  LEY_absolutist_ADJ:0 "Leyenbourgian"
