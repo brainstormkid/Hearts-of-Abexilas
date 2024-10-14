@@ -568,3 +568,8 @@ MAE = {
 	color = rgb { 91 0 10 }
 	color_ui = rgb { 91 0 10 }
 }
+
+VHA = {
+	color = rgb { 131 0 1 }
+	color_ui = rgb { 131 0 1 }
+}

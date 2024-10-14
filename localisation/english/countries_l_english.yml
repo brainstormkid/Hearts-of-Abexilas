@@ -678,6 +678,10 @@
  VES_absolutist_DEF:1 "the Earldom of Vescognie"
  VES_absolutist_ADJ:0 "Vescognian"
  
+ VHA_absolutist:1 "Empire of Vhagaria"
+ VHA_absolutist_DEF:1 "the Empire of Vhagaria"
+ VHA_absolutist_ADJ:0 "Vhagarian"
+ 
  VID_absolutist:1 "Vidir-Arrak"
  VID_absolutist_DEF:1 "the Vidir-Arrak"
  VID_absolutist_ADJ:0 "Vidirian"
