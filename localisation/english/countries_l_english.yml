@@ -203,6 +203,10 @@
  COV_absolutist_DEF:1 "the Kingdom of Covania"
  COV_absolutist_ADJ:0 "Covanian"
  
+ COY_absolutist:1 "Republic of Corry"
+ COY_absolutist_DEF:1 "the Republic of Corry"
+ COY_absolutist_ADJ:0 "Corrian"
+ 
  DAN_absolutist:1 "Kingdom of Danmalis"
  DAN_absolutist_DEF:1 "the Kingdom of Danmalis"
  DAN_absolutist_ADJ:0 "Danmalian"

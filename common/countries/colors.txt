@@ -155,6 +155,11 @@ COV = {
 	color_ui = rgb { 119  27  27 }
 }
 
+COY = {
+	color = rgb { 105 123 232 }
+	color_ui = rgb { 105 123 232 }
+}
+
 DAN = {
 	color = rgb { 121 1 1 }
 	color_ui = rgb { 121 1 1 }
