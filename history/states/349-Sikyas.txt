@@ -1,10 +1,16 @@
 state={
-	id=371
-	name="STATE_371"
+	id=349
+	name="STATE_349"
 	provinces={
-		2631 3464 4961 6003 10143 10188 
+		1321 10070 
 	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
+	history={
+		owner = GRC
+		buildings = {
+		}
+		add_core_of = GRC
+	}
 }

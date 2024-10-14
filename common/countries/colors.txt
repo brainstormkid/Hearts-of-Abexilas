@@ -245,6 +245,11 @@ GRA = {
 	color_ui = rgb { 242 200 32 }
 }
 
+GRC = {
+	color = rgb { 76 121 52 }
+	color_ui = rgb { 76 121 52 }
+}
+
 HAR = {
 	color = rgb { 75  0  110 }
 	color_ui = rgb { 75  0  110 }

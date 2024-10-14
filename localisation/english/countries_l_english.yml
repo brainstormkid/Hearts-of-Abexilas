@@ -332,6 +332,10 @@
  GRA_absolutist_DEF:1 "the Gran Coran'i"
  GRA_absolutist_ADJ:0 "Coranese"
  
+ GRC_absolutist:1 "Third Kingdom of Grand Castell"
+ GRC_absolutist_DEF:1 "the Third Kingdom of Grand Castell"
+ GRC_absolutist_ADJ:0 "Castellan"
+ 
  HAR_absolutist:1 "Empire of Harpia"
  HAR_absolutist_DEF:1 "the Empire of Harpia"
  HAR_absolutist_ADJ:0 "Harpian"
