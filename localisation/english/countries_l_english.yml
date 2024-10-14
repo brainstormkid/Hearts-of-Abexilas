@@ -256,6 +256,10 @@
  ENO_absolutist_DEF:1 "the Ānaktate of Enovātha"
  ENO_absolutist_ADJ:0 "Enovathan"
  
+ EPI_absolutist:1 "Imperium of Greater Epitchia"
+ EPI_absolutist_DEF:1 "the Imperium of Greater Epitchia"
+ EPI_absolutist_ADJ:0 "Epitchian"
+ 
  ERC_absolutist:1 "Archduchy of Ertcof"
  ERC_absolutist_DEF:1 "the Archduchy of Ertcof"
  ERC_absolutist_ADJ:0 "Ertcofi"

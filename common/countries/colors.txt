@@ -210,6 +210,11 @@ ENO = {
 	color_ui = rgb { 23 120 124 }
 }
 
+EPI = {
+	color = rgb { 114 29 168 }
+	color_ui = rgb { 114 29 168 }
+}
+
 ERC = {
 	color = rgb { 206  166  93 }
 	color_ui = rgb { 206  166  93 }

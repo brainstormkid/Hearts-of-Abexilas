@@ -1,0 +1,16 @@
+state={
+	id=397
+	name="STATE_397"
+	provinces={
+		153 254 3721 5719 6169 6966 10260 10295 10330 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = EPI
+		buildings = {
+		}
+		add_core_of = EPI
+	}
+}
