@@ -260,6 +260,11 @@ HEL = {
 	color_ui = rgb { 36  148  151 }
 }
 
+HEM = {
+	color = rgb { 121 226 128 }
+	color_ui = rgb { 121 226 128 }
+}
+
 HEZ = {
 	color = rgb { 175 158 98 }
 	color_ui = rgb { 175 158 98 }

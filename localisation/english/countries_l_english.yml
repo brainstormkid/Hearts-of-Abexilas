@@ -344,6 +344,10 @@
  HEL_absolutist_DEF:1 "the Grand Duchy of Helsetia"
  HEL_absolutist_ADJ:0 "Helsetian"
  
+ HEM_absolutist:1 "Helmerian Empire"
+ HEM_absolutist_DEF:1 "the Helmerian Empire"
+ HEM_absolutist_ADJ:0 "Helmerian"
+ 
  HEZ_absolutist:1 "Sacred Land of Hezion"
  HEZ_absolutist_DEF:1 "the Sacred Land of Hezion"
  HEZ_absolutist_ADJ:0 "Hezian"
