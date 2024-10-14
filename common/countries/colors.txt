@@ -70,6 +70,11 @@ ARR = {
 	color_ui = rgb { 0 47 105 }
 }
 
+ART = {
+	color = rgb { 244 189 49 }
+	color_ui = rgb { 244 189 49 }
+}
+
 ASH = {
 	color = rgb { 167 0 3 }
 	color_ui = rgb { 167 0 3 }

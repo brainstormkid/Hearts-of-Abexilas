@@ -135,6 +135,10 @@
  ARR_absolutist_DEF:1 "the Arkania"
  ARR_absolutist_ADJ:0 "Arkanian"
  
+ ART_absolutist:1 "Holy Sanctuary of Arratis"
+ ART_absolutist_DEF:1 "the Holy Sanctuary of Arratis"
+ ART_absolutist_ADJ:0 "Arratian"
+ 
  ASH_absolutist:1 "Ashkavari Korqoriat"
  ASH_absolutist_DEF:1 "the Ashkavari Korqoriat"
  ASH_absolutist_ADJ:0 "Ashkavari"
