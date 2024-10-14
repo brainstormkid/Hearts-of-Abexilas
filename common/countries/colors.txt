@@ -366,28 +366,33 @@ LEN = {
 }
 
 LEY = {
-	color = rgb { 51  76  116 }
-	color_ui = rgb { 51  76  116 }
+	color = rgb { 51 76 116 }
+	color_ui = rgb { 51 76 116 }
 }
 
 LIS = {
-	color = rgb { 211  96  2 }
-	color_ui = rgb { 211  96  2 }
+	color = rgb { 211 96 2 }
+	color_ui = rgb { 211 96 2 }
+}
+
+LIV = {
+	color = rgb { 78 92 115 }
+	color_ui = rgb { 78 92 115 }
 }
 
 LOV = {
-	color = rgb { 0  171  255 }
-	color_ui = rgb { 0  171  255 }
+	color = rgb { 0 171 255 }
+	color_ui = rgb { 0 171 255 }
 }
 
 LUT = {
-	color = rgb { 47  48  47 }
-	color_ui = rgb { 47  48  47 }
+	color = rgb { 47 48 47 }
+	color_ui = rgb { 47 48 47 }
 }
 
 LYN = {
-	color = rgb { 135  30  18 }
-	color_ui = rgb { 135  30  18 }
+	color = rgb { 135 30 18 }
+	color_ui = rgb { 135 30 18 }
 }
 
 MAE = {
@@ -421,8 +426,8 @@ MIZ = {
 }
 
 MYR = {
-	color = rgb { 150  13  43 }
-	color_ui = rgb { 150  13  43 }
+	color = rgb { 150 13 43 }
+	color_ui = rgb { 150 13 43 }
 }
 
 NAA = {
@@ -436,23 +441,23 @@ ORI = {
 }
 
 OSR = {
-	color = rgb { 71  72  71 }
-	color_ui = rgb { 71  72  71 }
+	color = rgb { 71 72 71 }
+	color_ui = rgb { 71 72 71 }
 }
 
 PAR = {
-	color = rgb { 228  107  28 }
-	color_ui = rgb { 228  107  28 }
+	color = rgb { 228 107 28 }
+	color_ui = rgb { 228 107 28 }
 }
 
 POL = {
-	color = rgb { 239  73  73 }
-	color_ui = rgb { 239  73  73 }
+	color = rgb { 239 73 73 }
+	color_ui = rgb { 239 73 73 }
 }
 
 QYN = {
-	color = rgb { 20  34  125 }
-	color_ui = rgb { 20  34  125 }
+	color = rgb { 20 34 125 }
+	color_ui = rgb { 20 34 125 }
 }
 
 REN = {
@@ -476,18 +481,18 @@ SAM = {
 }
 
 SAR = {
-	color = rgb { 36  148  151 }
-	color_ui = rgb { 36  148  151 }
+	color = rgb { 36 148 151 }
+	color_ui = rgb { 36 148 151 }
 }
 
 SEL = {
-	color = rgb { 222  174  16 }
-	color_ui = rgb { 222  174  16 }
+	color = rgb { 222 174 16 }
+	color_ui = rgb { 222 174 16 }
 }
 
 SEN = {
-	color = rgb { 165  139  73 }
-	color_ui = rgb { 165  139  73 }
+	color = rgb { 165 139 73 }
+	color_ui = rgb { 165 139 73 }
 }
 
 SET = {

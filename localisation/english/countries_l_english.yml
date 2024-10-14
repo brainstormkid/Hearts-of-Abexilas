@@ -472,6 +472,10 @@
  LIS_absolutist_DEF:1 "the Archduchy of Lisvar"
  LIS_absolutist_ADJ:0 "Lisvari"
  
+ LIV_absolutist:1 "Kingdom of Livland"
+ LIV_absolutist_DEF:1 "the Kingdom of Livland"
+ LIV_absolutist_ADJ:0 "Livlandic"
+ 
  LOV_absolutist:1 "Duchy of Lovvia"
  LOV_absolutist_DEF:1 "the Duchy of Lovvia"
  LOV_absolutist_ADJ:0 "Lovvian"
