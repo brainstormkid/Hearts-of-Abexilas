@@ -506,8 +506,13 @@ SYR = {
 }
 
 TAN = {
-	color = rgb { 135  4  170 }
-	color_ui = rgb { 135  4  170 }
+	color = rgb { 135 4 170 }
+	color_ui = rgb { 135 4 170 }
+}
+
+TAR = {
+	color = rgb { 201 236 191 }
+	color_ui = rgb { 201 236 191 }
 }
 
 TES = {

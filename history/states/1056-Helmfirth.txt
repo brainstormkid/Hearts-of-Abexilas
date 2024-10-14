@@ -1,10 +1,16 @@
 state={
-	id=1067
-	name="STATE_1067"
+	id=1056
+	name="STATE_1056"
 	provinces={
-		14550 
+		14468 
 	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
+	history={
+		owner = TAR
+		buildings = {
+		}
+		add_core_of = TAR
+	}
 }

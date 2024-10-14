@@ -634,6 +634,10 @@
  TAN_absolutist_DEF:1 "the Tandong Dynasty"
  TAN_absolutist_ADJ:0 "Jiaozese"
  
+ TAR_absolutist:1 "Taravor"
+ TAR_absolutist_DEF:1 "the Taravor"
+ TAR_absolutist_ADJ:0 "Taravorian"
+ 
  TES_absolutist:1 "Testudo"
  TES_absolutist_DEF:1 "the Island Kingdom of Testudo"
  TES_absolutist_ADJ:0 "Testudese"
