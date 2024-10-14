@@ -170,6 +170,11 @@ COY = {
 	color_ui = rgb { 105 123 232 }
 }
 
+DAD = {
+	color = rgb { 231 205 41 }
+	color_ui = rgb { 231 205 41 }
+}
+
 DAN = {
 	color = rgb { 121 1 1 }
 	color_ui = rgb { 121 1 1 }
