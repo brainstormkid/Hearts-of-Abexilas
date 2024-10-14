@@ -570,6 +570,10 @@
  NAA_absolutist_DEF:1 "the Tsardom of Naan"
  NAA_absolutist_ADJ:0 "Naannite"
  
+ NUM_absolutist:1 "Maritime Republic of Numeós"
+ NUM_absolutist_DEF:1 "the Maritime Republic of Numeós"
+ NUM_absolutist_ADJ:0 "Numean"
+ 
  ORI_absolutist:1 "Archonate of Orion"
  ORI_absolutist_DEF:1 "the Archonate of Orion"
  ORI_absolutist_ADJ:0 "Orinnian"

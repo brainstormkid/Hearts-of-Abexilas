@@ -445,6 +445,11 @@ NAA = {
 	color_ui = rgb { 161 52 216 }
 }
 
+NUM = {
+	color = rgb { 195 238 255 }
+	color_ui = rgb { 195 238 255 }
+}
+
 ORI = {
 	color = rgb { 95 106 92 }
 	color_ui = rgb { 95 106 92 }
