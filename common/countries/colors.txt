@@ -246,7 +246,7 @@ GAL = {
 }
 
 GAR = {
-	color = rgb { 22 0 220 }
+	color = rgb { 225 0 220 }
 	color_ui = rgb { 225 0 220 }
 }
 
