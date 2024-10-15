@@ -16,3 +16,9 @@ music = {
     file = "AnthemoftheUnifiedStructuralistIntuitionistPartyofAzeraanUSIPA.ogg"
     volume = 10.00
 }
+
+music = {
+    name = "AshkavariAnthem"
+    file = "AshkavariAnthem.ogg"
+    volume = 1.00
+}
