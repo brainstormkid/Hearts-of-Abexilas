@@ -450,6 +450,11 @@ NUM = {
 	color_ui = rgb { 195 238 255 }
 }
 
+OLD = {
+	color = rgb { 241 212 113 }
+	color_ui = rgb { 241 212 113 }
+}
+
 ORI = {
 	color = rgb { 95 106 92 }
 	color_ui = rgb { 95 106 92 }

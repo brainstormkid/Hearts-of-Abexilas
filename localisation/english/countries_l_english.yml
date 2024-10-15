@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  ACR_absolutist:1 "Atreoria of Acreon"
  ACR_absolutist_DEF:1 "the Atreoria of Acreon"
  ACR_absolutist_ADJ:0 "Acreoni"
@@ -573,6 +573,10 @@ l_english:
  NUM_absolutist:1 "Maritime Republic of Numeós"
  NUM_absolutist_DEF:1 "the Maritime Republic of Numeós"
  NUM_absolutist_ADJ:0 "Numean"
+ 
+ OLD_absolutist:1 "Interim Union of Oldann and Barakor Stasrikos Lhah"
+ OLD_absolutist_DEF:1 "the Interim Union of Oldann and Barakor Stasrikos Lhah"
+ OLD_absolutist_ADJ:0 "Oldannian"
  
  ORI_absolutist:1 "Archonate of Orion"
  ORI_absolutist_DEF:1 "the Archonate of Orion"
