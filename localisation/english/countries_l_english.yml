@@ -786,6 +786,10 @@
  YIA_absolutist_DEF:1 "the Sharrulat dezum Yimmu Audal"
  YIA_absolutist_ADJ:0 "Audalad"
  
+ YIM_absolutist:1 "Crown of Yimmuralia"
+ YIM_absolutist_DEF:1 "the Crown of Yimmuralia"
+ YIM_absolutist_ADJ:0 "Yimmurali"
+ 
  YNQ_absolutist:1 "Principality of Ynqar"
  YNQ_absolutist_DEF:1 "the Principality of Ynqar"
  YNQ_absolutist_ADJ:0 "Ynqāri"

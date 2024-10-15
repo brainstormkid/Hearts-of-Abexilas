@@ -666,8 +666,13 @@ YAR = {
 }
 
 YIA = {
-	color = rgb { 83  181  181 }
-	color_ui = rgb { 83  181  181 }
+	color = rgb { 83 181 181 }
+	color_ui = rgb { 83 181 181 }
+}
+
+YIM = {
+	color = rgb { 21 110 142 }
+	color_ui = rgb { 21 110 142 }
 }
 
 YNQ = {
