@@ -22,3 +22,9 @@ music = {
     file = "AshkavariAnthem.ogg"
     volume = 1.00
 }
+
+music = {
+    name = "BardoniaAnthem"
+    file = "BardoniaAnthem.ogg"
+    volume = 1.00
+}
