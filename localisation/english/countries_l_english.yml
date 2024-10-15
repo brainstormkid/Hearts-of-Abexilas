@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  ACR_absolutist:1 "Atreoria of Acreon"
  ACR_absolutist_DEF:1 "the Atreoria of Acreon"
  ACR_absolutist_ADJ:0 "Acreoni"
@@ -682,6 +682,9 @@
  TSU_absolutist_DEF:1 "the Tsuikinite Diarchy"
  TSU_absolutist_ADJ:0 "Tsuikinite"
  
+ UET_monarchist:1 "City State of Uetze"
+ UET_monarchist_DEF:1 "the City State of Uetze"
+ UET_monarchist_ADJ:0 "Uetze"
  UET_absolutist:1 "City State of Uetze"
  UET_absolutist_DEF:1 "the City State of Uetze"
  UET_absolutist_ADJ:0 "Uetze"
