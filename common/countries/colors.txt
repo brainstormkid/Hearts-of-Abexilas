@@ -200,6 +200,11 @@ DRE = {
 	color_ui = rgb { 89 30 30 }
 }
 
+DYS = {
+	color = rgb { 8 221 251 }
+	color_ui = rgb { 8 221 251 }
+}
+
 DZI = {
 	color = rgb { 40 43 73 }
 	color_ui = rgb { 40 43 73 }

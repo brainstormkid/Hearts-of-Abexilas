@@ -248,6 +248,10 @@
  DRE_absolutist_DEF:1 "the DreadVought Imperium"
  DRE_absolutist_ADJ:0 "Dreadvoughtian"
  
+ DYS_absolutist:1 "Triumvirate of Dyshella"
+ DYS_absolutist_DEF:1 "the Triumvirate of Dyshella"
+ DYS_absolutist_ADJ:0 "Dyshelli"
+ 
  DZI_absolutist:1 "Union of Dzitizan"
  DZI_absolutist_DEF:1 "the Union of Dzitizan"
  DZI_absolutist_ADJ:0 "Dzitizanian"
