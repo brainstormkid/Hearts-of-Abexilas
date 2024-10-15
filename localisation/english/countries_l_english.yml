@@ -171,6 +171,10 @@
  BEE_absolutist_DEF:1 "the Empire of Beepeck"
  BEE_absolutist_ADJ:0 "Beean"
  
+ BOU_absolutist:1 "Divine Ascendency of Boulderov"
+ BOU_absolutist_DEF:1 "the Divine Ascendency of Boulderov"
+ BOU_absolutist_ADJ:0 "Boulderovian"
+ 
  BOV_absolutist:1 "Bovinica"
  BOV_absolutist_DEF:1 "the Bovinica"
  BOV_absolutist_ADJ:0 "Bovinican"

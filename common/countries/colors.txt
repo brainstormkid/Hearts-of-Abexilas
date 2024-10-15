@@ -86,8 +86,8 @@ ASP = {
 }
 
 ASR = {
-	color = rgb { 47  48  78 }
-	color_ui = rgb { 47  48  78 }
+	color = rgb { 47 48 78 }
+	color_ui = rgb { 47 48 78 }
 }
 
 AVA = {
@@ -111,18 +111,23 @@ BAR = {
 }
 
 BEE = {
-	color = rgb { 222  192  80 }
-	color_ui = rgb { 222  192  80 }
+	color = rgb { 222 192 80 }
+	color_ui = rgb { 222 192 80 }
+}
+
+BOU = {
+	color = rgb { 144 23 23 }
+	color_ui = rgb { 144 23 23 }
 }
 
 BOV = {
-	color = rgb { 167  208  244 }
-	color_ui = rgb { 167  208  244 }
+	color = rgb { 167 208 244 }
+	color_ui = rgb { 167 208 244 }
 }
 
 CAK = {
-	color = rgb { 91  207  251 }
-	color_ui = rgb { 91  207  251 }
+	color = rgb { 91 207 251 }
+	color_ui = rgb { 91 207 251 }
 }
 
 CAL = {
@@ -131,8 +136,8 @@ CAL = {
 }
 
 CAS = {
-	color = rgb { 136  0  27 }
-	color_ui = rgb { 136  0  27 }
+	color = rgb { 136 0 27 }
+	color_ui = rgb { 136 0 27 }
 }
 
 CEL = {
@@ -141,13 +146,13 @@ CEL = {
 }
 
 CES = {
-	color = rgb { 253  207  70 }
-	color_ui = rgb { 253  207  70 }
+	color = rgb { 253 207 70 }
+	color_ui = rgb { 253 207 70 }
 }
 
 CHM = {
-	color = rgb { 51  0  102 }
-	color_ui = rgb { 51  0  102 }
+	color = rgb { 51 0 102 }
+	color_ui = rgb { 51 0 102 }
 }
 
 CIR = {
