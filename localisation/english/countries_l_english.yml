@@ -159,6 +159,10 @@
  AZE_absolutist_DEF:1 "the Azeraan Federation"
  AZE_absolutist_ADJ:0 "Azeraani"
  
+ AZU_absolutist:1 "Kingdom of the Azure Coast"
+ AZU_absolutist_DEF:1 "the Kingdom of the Azure Coast"
+ AZU_absolutist_ADJ:0 "Azurian"
+ 
  BAN_absolutist:1 "Kingdom of Bannover"
  BAN_absolutist_DEF:1 "the Kingdom of Bannover"
  BAN_absolutist_ADJ:0 "Bannoverian"
