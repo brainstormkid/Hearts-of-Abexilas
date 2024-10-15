@@ -7,8 +7,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	monarchist = 80
-	communism = 20
+	monarchist = 100
 }
 
 create_country_leader = {
@@ -24,3 +23,4 @@ create_country_leader = {
 
 set_stability = 0.70
 set_war_support = 0.20
+
