@@ -211,8 +211,8 @@ ELD = {
 }
 
 END = {
-	color = rgb { 134  224  129 }
-	color_ui = rgb { 134  224  129 }
+	color = rgb { 134 224 129 }
+	color_ui = rgb { 134 224 129 }
 }
 
 ENO = {
@@ -226,13 +226,13 @@ EPI = {
 }
 
 ERC = {
-	color = rgb { 206  166  93 }
-	color_ui = rgb { 206  166  93 }
+	color = rgb { 206 166 93 }
+	color_ui = rgb { 206 166 93 }
 }
 
 ERI = {
-	color = rgb { 225  89  48 }
-	color_ui = rgb { 225  89  48 }
+	color = rgb { 225 89 48 }
+	color_ui = rgb { 225 89 48 }
 }
 
 EXO = {
@@ -246,13 +246,18 @@ GAL = {
 }
 
 GAR = {
-	color = rgb { 225  0  220 }
-	color_ui = rgb { 225  0  220 }
+	color = rgb { 22 0 220 }
+	color_ui = rgb { 225 0 220 }
 }
 
 GEH = {
-	color = rgb { 205  42  61 }
-	color_ui = rgb { 205  42  61 }
+	color = rgb { 205 42 61 }
+	color_ui = rgb { 205 42 61 }
+}
+
+GOL = {
+	color = rgb { 253 231 121 }
+	color_ui = rgb { 253 231 121 }
 }
 
 GOR = {
