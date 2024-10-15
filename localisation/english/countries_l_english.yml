@@ -191,6 +191,10 @@
  CAL_absolutist_DEF:1 "the Order of Caliban"
  CAL_absolutist_ADJ:0 "Calibanian"
  
+ CAR_absolutist:1 "Caranthea"
+ CAR_absolutist_DEF:1 "the Caranthea"
+ CAR_absolutist_ADJ:0 "Caranthean"
+ 
  CAS_absolutist:1 "Grand Regency of Castanor"
  CAS_absolutist_DEF:1 "the Grand Regency of Castanor"
  CAS_absolutist_ADJ:0 "Castanoran"

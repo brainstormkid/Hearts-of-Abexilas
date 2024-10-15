@@ -140,6 +140,11 @@ CAL = {
 	color_ui = rgb { 18 90 4 }
 }
 
+CAR = {
+	color = rgb { 53 102 199 }
+	color_ui = rgb { 53 102 199 }
+}
+
 CAS = {
 	color = rgb { 136 0 27 }
 	color_ui = rgb { 136 0 27 }
