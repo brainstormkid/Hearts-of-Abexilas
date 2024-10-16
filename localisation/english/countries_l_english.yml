@@ -618,6 +618,10 @@
  QYN_absolutist_DEF:1 "the Qynthos-Centuria"
  QYN_absolutist_ADJ:0 "Qynthi"
  
+ REG_absolutist:1 "Regnum Aquilarum"
+ REG_absolutist_DEF:1 "the Regnum Aquilarum"
+ REG_absolutist_ADJ:0 "Aquilarian"
+ 
  REN_absolutist:1 "Shyhenéy au Rénesphéy"
  REN_absolutist_DEF:1 "the Shyhenéy au Rénesphéy"
  REN_absolutist_ADJ:0 "Réneshphite"

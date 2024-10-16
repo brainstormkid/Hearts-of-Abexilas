@@ -505,6 +505,11 @@ QYN = {
 	color_ui = rgb { 20 34 125 }
 }
 
+REG = {
+	color = rgb { 87 131 209 }
+	color_ui = rgb { 87 131 209 }
+}
+
 REN = {
 	color = rgb { 221 86 92 }
 	color_ui = rgb { 221 86 92 }
