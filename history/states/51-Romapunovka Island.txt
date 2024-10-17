@@ -1,10 +1,16 @@
 state={
-	id=99
-	name="STATE_99"
+	id=51
+	name="STATE_51"
 	provinces={
-		2788 3273 4646 7734 7765 7778 
+		4420 
 	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
+	history={
+		owner = TYA
+		buildings = {
+		}
+		add_core_of = TYA
+	}
 }

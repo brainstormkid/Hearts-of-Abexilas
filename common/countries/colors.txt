@@ -645,6 +645,11 @@ TSU = {
 	color_ui = rgb { 250 218 94 }
 }
 
+TYA = {
+	color = rgb { 42 41 36 }
+	color_ui = rgb { 42 41 36 }
+}
+
 UET = {
 	color = rgb { 135 4 170 }
 	color_ui = rgb { 135 4 170 }

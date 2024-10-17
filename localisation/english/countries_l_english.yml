@@ -742,6 +742,10 @@
  TSU_absolutist_DEF:1 "the Tsuikinite Diarchy"
  TSU_absolutist_ADJ:0 "Tsuikinite"
  
+ TYA_absolutist:1 "Tyahil Commomwealth"
+ TYA_absolutist_DEF:1 "the Tyahil Commomwealth"
+ TYA_absolutist_ADJ:0 "Tyahilian"
+ 
  UET_monarchist:1 "City State of Uetze"
  UET_monarchist_DEF:1 "the City State of Uetze"
  UET_monarchist_ADJ:0 "Uetze"
