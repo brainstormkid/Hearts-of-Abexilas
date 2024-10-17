@@ -8,11 +8,13 @@ state={
         manpower=550000
         state_category = city
 	history={
+		owner = KUZ
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			arms_factory = 1
 			dockyard = 1
 		}
+		add_core_of = KUZ
 	}
 }
