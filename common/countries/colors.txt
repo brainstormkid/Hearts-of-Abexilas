@@ -565,6 +565,11 @@ SAR = {
 	color_ui = rgb { 36 148 151 }
 }
 
+SEA = {
+	color = rgb { 96 107 155 }
+	color_ui = rgb { 96 107 155 }
+}
+
 SEL = {
 	color = rgb { 222 174 16 }
 	color_ui = rgb { 222 174 16 }
