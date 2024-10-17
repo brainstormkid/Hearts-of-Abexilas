@@ -50,6 +50,11 @@ AND = {
 	color_ui = rgb { 132 56 169 }
 }
 
+ANR = {
+	color = rgb { 85 81 135 }
+	color_ui = rgb { 85 81 135 }
+}
+
 AQM = {
 	color = rgb { 100 100 241 }
 	color_ui = rgb { 100 100 241 }

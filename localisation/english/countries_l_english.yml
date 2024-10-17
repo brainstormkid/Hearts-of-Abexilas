@@ -73,6 +73,10 @@
  AND_absolutist_DEF:1 "the Imperila Andliria"
  AND_absolutist_ADJ:0 "Andlirian"
  
+ ANR_absolutist:1 "Federation of Nova Andromeda"
+ ANR_absolutist_DEF:1 "the Federation of Nova Andromeda"
+ ANR_absolutist_ADJ:0 "Andromedan"
+ 
  AME_absolutist:1 "Kingdom of Amestris"
  AME_absolutist_DEF:1 "the Kingdom of Amestris"
  AME_absolutist_ADJ:0 "Amestrian"
