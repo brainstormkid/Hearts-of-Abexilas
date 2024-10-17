@@ -135,6 +135,11 @@ BOV = {
 	color_ui = rgb { 167 208 244 }
 }
 
+CAA = {
+	color = rgb { 139 52 58 }
+	color_ui = rgb { 139 52 58 }
+}
+
 CAK = {
 	color = rgb { 91 207 251 }
 	color_ui = rgb { 91 207 251 }
