@@ -1,6 +1,6 @@
 ﻿focus_tree = {
 	id = arcaeli-focus-tree
-	continuous_focus_position = { x = -40 y = 1050 } 
+	continuous_focus_position = { x = 100 y = 2250 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -270,7 +270,7 @@ focus = {
 	prerequisite = { focus = ARC_unite_the_opposition }
 	completion_reward = {
 		add_stability = -0.2
-		country_event = { id = Arcael.2}
+		country_event = {id = Arcael.2}
 	}
 }
 
@@ -1029,5 +1029,248 @@ focus = {
 	}
 }
 
-	
+#Deal with the aristocracy
+focus = {
+	id = ARC_deal_with_the_aristocracy
+	icon = GFX_goal_tfv_burn_the_royal_portraits
+	x = 5
+	y = 7
+	cost = 10
+	prerequisite = { focus = ARC_create_a_popular_republic }
+	completion_reward = { 
+		add_stability = -0.1
+		country_event = Arcael.6
+	}
+}
+
+#Purge the army
+focus = {
+	id = ARC_purge_the_army
+	icon = GFX_focus_SOV_military_purge
+	x = 3
+	y = 7
+	cost = 10
+	prerequisite = { focus = ARC_create_a_popular_republic }
+	completion_reward = {
+		add_timed_idea = {
+			idea = ARC_army_purged
+			days = 180
+		}
+		add_war_support = -0.15
+		army_experience = -30
+	}
+}
+
+#End Provincial Autonomy
+focus = {
+	id = ARC_end_provincial_autonomy
+	icon = GFX_focus_renounce_the_treaty_of_trianon
+	x = 2
+	y = 8
+	cost = 5
+	prerequisite = { focus = ARC_purge_the_army }
+	prerequisite = { focus = ARC_deal_with_the_aristocracy }
+	mutually_exclusive = { focus = ARC_enshrine_provincial_autonomy }
+	completion_reward = {
+		add_political_power = 75
+		add_stability = -0.05
+		add_popularity = {
+			ideology = xeroist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = anarchist
+			popularity = -0.05
+		}
+		add_popularity = {
+			ideology = revisionist
+			popularity = 0.05
+		}
+	}
+}
+
+#Implement collectivization policies
+focus = {
+	id = ARC_implement_collectivization_policies
+	icon = GFX_focus_ITA_il_sol_dell_avvenire
+	x = 4
+	y = 9
+	cost = 10
+	available = { 
+		NOT = {
+			has_idea = economic_collapse
+			has_idea = economic_collapse_1
+			has_idea = economic_collapse_2
+		}
+		has_completed_focus = ARC_repairing_the_nativesettler_gap
+		has_war = no
+	}
+	prerequisite = { focus = ARC_purge_the_army }
+	prerequisite = { focus = ARC_deal_with_the_aristocracy }
+	completion_reward = {
+		add_stability = -0.2
+		add_ideas = ARC_collectivized_society
+	}
+}
+
+#Socialist education programs
+focus = {
+	id = ARC_socialist_education_programs
+	icon = GFX_focus_NOR_moscows_education_centers
+	x = 4
+	y = 10
+	cost = 15
+	available = {
+		num_of_factories > 50
+		has_completed_focus = ARC_open_the_arcaeus_university
+	}
+	prerequisite = { focus = ARC_implement_collectivization_policies }
+	completion_reward = {
+		add_research_slot = 1
+	}
+}
+
+#Enshrine provincial autonomy
+focus = {
+	id = ARC_enshrine_provincial_autonomy
+	icon = GFX_focus_generic_treaty
+	x = 0
+	y = 8
+	cost = 5
+	prerequisite = { focus = ARC_purge_the_army }
+	prerequisite = { focus = ARC_deal_with_the_aristocracy }
+	mutually_exclusive = { focus = ARC_end_provincial_autonomy }
+	completion_reward = {
+		add_political_power = -75
+		add_stability = 0.05
+		add_popularity = {
+			ideology = xeroist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = anarchist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = revisionist
+			popularity = -0.05
+		}
+	}
+}
+
+#Power to the unions
+focus = {
+	id = ARC_power_to_the_unions
+	icon = GFX_focus_FIN_finnish_federation_of_trade_unions
+	x = 0
+	y = 9
+	cost = 10
+	prerequisite = { focus = ARC_enshrine_provincial_autonomy }
+	completion_reward = {
+		add_ideas = ARC_strong_trade_unions
+	}
+}
+
+#Power to the State
+focus = {
+	id = ARC_power_to_the_state
+	icon = GFX_focus_SOV_the_supreme_soviet
+	x = 2
+	y = 9
+	cost = 10
+	prerequisite = { focus = ARC_end_provincial_autonomy }
+	completion_reward = {
+		add_ideas = ARC_powerful_central_state
+	}
+}
+
+#Empower the Arcaeli Worker
+focus = {
+	id = ARC_empower_the_arcaeli_worker
+	icon = GFX_focus_ICE_embrace_the_workers_revolution
+	x = 6
+	y = 10
+	cost = 10
+	prerequisite = { focus = ARC_implement_collectivization_policies }
+	completion_reward = {
+		add_stability = 0.1
+		add_ideas = ARC_empowered_workers
+		add_popularity = {
+			ideology = xeroist
+			popularity = 0.1
+		}
+	}
+}
+
+#Found the Abexilas Internationale
+focus = {
+	id = ARC_found_the_abexilas_internationale
+	icon = GFX_focus_ETH_callout_to_the_world
+	x = 8
+	y = 9
+	cost = 5
+	prerequisite = { focus = ARC_purge_the_army }
+	prerequisite = { focus = ARC_deal_with_the_aristocracy }
+	completion_reward = {
+		create_faction = ARC_abexilas_internationale
+		every_country = {
+			limit = {
+				has_government = xeroist
+				has_government = anarchist 
+				has_government = revisionist 
+			}
+			country_event = generic.5
+		}
+	}
+}
+
+#Reach Out to Zilatra
+focus = {
+	id = ARC_reach_out_to_zilatra
+	#icon =
+	x = 10
+	y = 10
+	cost = 5
+	prerequisite = { focus = ARC_found_the_abexilas_internationale }
+	available = {
+		country_exists = ZIL
+	}
+	completion_reward = {
+		ZIL = {
+			country_event = Arcael.7
+		}
+	}
+}
+
+#Free Zilatra
+focus = {
+	id = ARC_free_zilatra
+	icon = GFX_focus_SWE_refuge_from_war
+	x = 10
+	y = 11
+	cost = 10
+	will_lead_to_war_with = SET
+	prerequisite = { focus = ARC_reach_out_to_zilatra }
+	available = {
+		country_exists = ZIL
+		ZIL = {
+			has_opinion_modifier = ARC_ZIL_deal
+			is_subject = yes
+		}
+	}
+	completion_reward = {
+	add_political_power = -150
+		set_autonomy = {
+			target = ZIL 
+			autonomous_state = autonomy_free
+			end_wars = no
+			end_civil_wars = no
+		}
+		add_to_faction = ZIL 
+		SET = {
+			country_event = { id = Arcael.10 }
+		}
+	}
+}	
+
 #DEN civilian preparations

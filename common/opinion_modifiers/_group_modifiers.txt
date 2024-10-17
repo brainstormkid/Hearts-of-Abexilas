@@ -9,4 +9,10 @@ opinion_modifiers = {
     faunic_opinion_modifier = { # for faunic nations
         value = 20
     }
+	ARC_ZIL_deal = {
+		value = 50
+	}
+	rejected_ARC_ZIL_deal = {
+		value = -30
+	}
 }
