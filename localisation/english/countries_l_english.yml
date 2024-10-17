@@ -610,6 +610,10 @@
  NUM_absolutist_DEF:1 "the Maritime Republic of Numeós"
  NUM_absolutist_ADJ:0 "Numean"
  
+ OBL_absolutist:1 "Oblivion Ascendency"
+ OBL_absolutist_DEF:1 "the Oblivion Ascendency"
+ OBL_absolutist_ADJ:0 "Oblivian"
+ 
  OLD_absolutist:1 "Interim Union of Oldann and Barakor Stasrikos Lhah"
  OLD_absolutist_DEF:1 "the Interim Union of Oldann and Barakor Stasrikos Lhah"
  OLD_absolutist_ADJ:0 "Oldannian"
