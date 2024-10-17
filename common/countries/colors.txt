@@ -616,8 +616,13 @@ TIR = {
 }
 
 TSI = {
-	color = rgb { 0  225  255 }
-	color_ui = rgb { 0  225  255 }
+	color = rgb { 0 225 255 }
+	color_ui = rgb { 0 225 255 }
+}
+
+TSN = {
+	color = rgb { 22 119 127 }
+	color_ui = rgb { 22 119 127 }
 }
 
 TSU = {

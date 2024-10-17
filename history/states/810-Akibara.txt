@@ -1,0 +1,16 @@
+state={
+	id=810
+	name="STATE_810"
+	provinces={
+		1327 4175 5348 5870 6727 12707 12762 12803 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = TSN
+		buildings = {
+		}
+		add_core_of = TSN
+	}
+}
