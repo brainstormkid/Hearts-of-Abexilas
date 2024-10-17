@@ -694,6 +694,10 @@
  SKU_absolutist_DEF:1 "the Fjarldom of Skúlfur"
  SKU_absolutist_ADJ:0 "Skúlfuran"
  
+ SON_absolutist:1 "Sonderia"
+ SON_absolutist_DEF:1 "the Sonderia"
+ SON_absolutist_ADJ:0 "Sonderian"
+ 
  STE_absolutist:1 "Kingdom of Steverovska"
  STE_absolutist_DEF:1 "the Kingdom of Steverovska"
  STE_absolutist_ADJ:0 "Steverovskan"

@@ -585,6 +585,11 @@ SKU = {
 	color_ui = rgb { 69 69 69 }
 }
 
+SON = {
+	color = rgb { 57 63 119 }
+	color_ui = rgb { 57 63 119 }
+}
+
 STE = {
 	color = rgb { 224 218 117 }
 	color_ui = rgb { 224 218 117 }
