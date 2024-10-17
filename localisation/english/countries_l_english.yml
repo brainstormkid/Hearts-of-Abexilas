@@ -634,8 +634,8 @@
  QYN_absolutist_DEF:1 "the Qynthos-Centuria"
  QYN_absolutist_ADJ:0 "Qynthi"
  
- RAM_absolutist:1 "Reman Republic"
- RAM_absolutist_DEF:1 "the Reman Republic"
+ RAM_absolutist:1 "Republic of Rema"
+ RAM_absolutist_DEF:1 "the Republic of Rema"
  RAM_absolutist_ADJ:0 "Reman"
  
  REG_absolutist:1 "Regnum Aquilarum"
