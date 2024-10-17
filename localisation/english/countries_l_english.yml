@@ -678,6 +678,10 @@
  SHI_absolutist_DEF:1 "the Shishuk Territories"
  SHI_absolutist_ADJ:0 "Shishuk"
  
+ SKU_absolutist:1 "Fjarldom of Skúlfur"
+ SKU_absolutist_DEF:1 "the Fjarldom of Skúlfur"
+ SKU_absolutist_ADJ:0 "Skúlfuran"
+ 
  STE_absolutist:1 "Kingdom of Steverovska"
  STE_absolutist_DEF:1 "the Kingdom of Steverovska"
  STE_absolutist_ADJ:0 "Steverovskan"
