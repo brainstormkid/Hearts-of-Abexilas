@@ -151,6 +151,10 @@
  ASR_absolutist_DEF:1 "the Sanctuary of Asren"
  ASR_absolutist_ADJ:0 "Asrennu"
  
+ AST_absolutist:1 "Triumvirate of Astalasi"
+ AST_absolutist_DEF:1 "the Triumvirate of Astalasi"
+ AST_absolutist_ADJ:0 "Astalites"
+ 
  AVA_absolutist:1 "Empire of Avalor"
  AVA_absolutist_DEF:1 "the Empire of Avalor"
  AVA_absolutist_ADJ:0 "Avaloran"
