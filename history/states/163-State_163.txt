@@ -16,16 +16,5 @@ state={
 		chromium = 2
 	}
 	history={
-		owner = HEZ
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 1
-			dockyard = 1
-			8541 = {
-				naval_base = 1
-			}
-		}
-		add_core_of = HEZ
 	}
 }
