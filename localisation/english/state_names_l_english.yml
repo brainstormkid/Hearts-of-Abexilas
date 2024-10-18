@@ -126,6 +126,7 @@
  STATE_186:0 "Imperial Holdings"
  STATE_187:0 "Southern Dorn-Khazrak"
  STATE_190:0 "Shrolac"
+ STATE_194:0 "Federal Territory"
  STATE_195:0 "Cerrig"
  STATE_196:0 "Saint Stevos"
  STATE_197:0 "Nael"
@@ -134,6 +135,7 @@
  STATE_201:0 "Constantiboulder"
  STATE_207:0 "Singaboulder"
  STATE_209:0 "West Bouldacia"
+ STATE_210:0 "Blackwater"
  STATE_211:0 "Havdronesia"
  STATE_212:0 "Patsdam Sud Island"
  STATE_215:0 "Capital District"
@@ -760,4 +762,7 @@
  STATE_1142:0 "Cuicapan"
  STATE_1144:0 "Kukaji Prefecture"
  STATE_1147:0 "Sarkhanesor"
+ STATE_1153:0 "Aspaxius"
+ STATE_1154:0 "Primorje"
+ STATE_1155:0 "Karikert"
  

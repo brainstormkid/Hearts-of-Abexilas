@@ -438,6 +438,10 @@
  KAM_absolutist_DEF:1 "the Kapteniat of Kamtargaa"
  KAM_absolutist_ADJ:0 "Kaltebaixian"
  
+ KAS_absolutist:1 "Federal Republic of Kassylia"
+ KAS_absolutist_DEF:1 "the Federal Republic of Kassylia"
+ KAS_absolutist_ADJ:0 "Kassylian"
+ 
  KEL_absolutist:1 "Kelpstine"
  KEL_absolutist_DEF:1 "the Kelpstine"
  KEL_absolutist_ADJ:0 "Kelpstinian"
