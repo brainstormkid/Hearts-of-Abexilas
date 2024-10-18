@@ -1,0 +1,299 @@
+ideas = {
+	country = {
+		foreign_investors = {
+			picture = foreign_investors
+			
+			cancel = {
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				production_speed_industrial_complex_factor = +0.10
+				production_speed_arms_factory_factor = +0.10
+			}
+		}
+		
+		militarism = {
+			picture = militarism
+			
+			cancel = {
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				war_support_factor = +0.10
+				conscription_factor = +0.05
+			}
+		}
+		better_supply_chain = {
+			picture = better_supply_chain
+			
+			cancel = {
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.15
+			}
+		}
+		foreign_ship_investor = {
+			picture = foreign_ship_investor
+			
+			cancel = {
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				production_speed_dockyard_factor = +0.05
+			}
+			research_bonus = {
+					ship_modules_tech = +0.05
+					naval_doctrine = +0.05
+				}
+			equipment_bonus = {
+				carrier = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				convoy = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+			}
+		}
+		egalitarian_prevail_focus = {
+			picture = egalitarian_prevail_focus
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = egalitarian_prevail_focus
+	
+			modifier = {
+				trade_opinion_factor = 0.2
+			}
+		}
+		reformist_generic = {
+			picture = reformist_generic
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = reformist_generic
+	
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+		}
+		statism_generic = {
+			picture = statism_generic
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = statism_generic
+	
+			modifier = {
+				political_power_factor = +0.15
+				stability_weekly_factor = 0.001
+			}
+		}
+		traditionalism_generic = {
+			picture = traditionalism_generic
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = traditionalism_generic
+	
+			modifier = {
+				drift_defence_factor  = 0.3
+				stability_weekly_factor = 0.001
+			}
+		}
+		written_constitution = {
+			picture = written_constitution
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = written_constitution
+	
+			modifier = {
+				stability_weekly_factor = 0.003
+			}
+		}
+		collectivist_ethos_generic = {
+			picture = collectivist_ethos_generic
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = collectivist_ethos_generic
+	
+			modifier = {
+				conservatist_drift = -0.02
+				progressivist_drift = -0.02
+				centrist_drift = -0.02
+				libertarianist_drift = -0.02
+				social_liberalist_drift = -0.02
+			}
+		}
+		nationalism_generic = {
+			picture = nationalism_generic
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = nationalism_generic
+	
+			modifier = {
+				imperialist_drift = +0.02
+				radical_nationalist_drift = +0.02
+			}
+		}
+		army_training_generic = {
+			picture = army_training_generic
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = militarism
+	
+			modifier = {
+				war_support_factor = +0.10
+				conscription_factor = +0.05
+			}
+		}
+		the_dictator = {
+			picture = the_dictator
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = the_dictator
+	
+			modifier = {
+				war_support_factor = +0.05
+				conscription_factor = +0.02
+				drift_defence_factor = +0.10
+				radical_nationalist_drift = +0.01
+			}
+		}
+		socialist_reforms = {
+			picture = socialist_reforms
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = socialist_reforms
+	
+			modifier = {
+				xeroist_drift = +0.02
+				anarchist_drift = +0.02
+				revisionist_drift = +0.02
+			}
+		}
+		guards_of_the_homeland = {
+			picture = guards_of_the_homeland
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = guards_of_the_homeland
+	
+			modifier = {
+				army_core_defence_factor = 0.10
+				army_org_factor = 0.15
+			}
+		}
+		collectivization = {
+			picture = collectivization
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = collectivization
+	
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
+		}
+	}
+}
