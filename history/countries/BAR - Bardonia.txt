@@ -20,3 +20,8 @@ create_country_leader = {
 		#
 	}
 }
+
+set_autonomy = {
+	target = COM
+	autonomous_state = autonomy_puppet
+}
