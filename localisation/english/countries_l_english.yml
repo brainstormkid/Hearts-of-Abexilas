@@ -227,6 +227,10 @@
  CIR_absolutist_DEF:1 "the Duchy of Cirion"
  CIR_absolutist_ADJ:0 "Cìriac"
  
+ COM_absolutist:1 "Knights of Comona"
+ COM_absolutist_DEF:1 "the Knights of Comona"
+ COM_absolutist_ADJ:0 "Comonian"
+ 
  COR_absolutist:1 "Cordon"
  COR_absolutist_DEF:1 "the Cordon"
  COR_absolutist_ADJ:0 "Cordonian"

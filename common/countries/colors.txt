@@ -185,6 +185,11 @@ CIR = {
 	color_ui = rgb { 99  73  73 }
 }
 
+COM = {
+	color = rgb { 215 194 36 }
+	color_ui = rgb { 215 194 36 }
+}
+
 COR = {
 	color = rgb { 0 47 105 }
 	color_ui = rgb { 0 47 105 }
