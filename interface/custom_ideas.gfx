@@ -141,28 +141,48 @@ spriteTypes = {
 		name = "GFX_idea_economic_boost"
 		texturefile = "gfx/interface/ideas/economic_boost.dds"
 	}
-	SpriteType = {
-		name = "GFX_idea_royal_manufactories_of_sardoria"
-		texturefile = "gfx/interface/ideas/idea_ARC_royal_manufactories_of_sardoria.dds"
+	SpriteType = { 
+		name = "GFX_idea_foreign_investors"
+		texturefile = "gfx/interface/ideas/idea_generic_foreign_investors.dds"
 	}
-	SpriteType = {
-		name = "GFX_idea_breadbasket_of_the_empire"
-		texturefile = "gfx/interface/ideas/idea_ARC_breadbasket_of_the_empire.dds"
+	SpriteType = { 
+		name = "GFX_idea_militarism"
+		texturefile = "gfx/interface/ideas/idea_generic_militarism.dds"
 	}
-	SpriteType = {
-		name = "GFX_idea_arcaeli_central_bank"
-		texturefile = "gfx/interface/ideas/idea_ARC_arcaeli_central_bank.dds"
+	SpriteType = { 
+		name = "GFX_idea_better_supply_chain"
+		texturefile = "gfx/interface/ideas/idea_generic_better_supply_chain.dds"
 	}
-	SpriteType = {
-		name = "GFX_idea_volzhkana_market"
-		texturefile = "gfx/interface/ideas/idea_ARC_volzhkana_market.dds"
+	SpriteType = { 
+		name = "GFX_idea_foreign_ship_investor"
+		texturefile = "gfx/interface/ideas/idea_generic_foreign_ship_investor.dds"
 	}
-	SpriteType = {
-		name = "GFX_idea_queen_mother_of_the_assoti"
-		texturefile = "gfx/interface/ideas/idea_ARC_queen_mother_of_the_assoti.dds"
+	SpriteType = { 
+		name = "GFX_idea_egalitarian_prevail_focus"
+		texturefile = "gfx/interface/ideas/idea_generic_egalitarian_prevail_focus.dds"
 	}
-	SpriteType = {
-		name = "GFX_idea_king_goober"
-		texturefile = "gfx/interface/ideas/idea_king_goober.dds"
+	SpriteType = { 
+		name = "GFX_idea_reformist_generic"
+		texturefile = "gfx/interface/ideas/idea_generic_reformist_generic.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_written_constitution"
+		texturefile = "gfx/interface/ideas/idea_generic_written_constitution.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_statism_generic"
+		texturefile = "gfx/interface/ideas/idea_generic_statism_generic.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_traditionalism_generic"
+		texturefile = "gfx/interface/ideas/idea_generic_traditionalism_generic.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_collectivist_ethos_generic"
+		texturefile = "gfx/interface/ideas/idea_generic_collectivist_ethos_generic.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_nationalism_generic"
+		texturefile = "gfx/interface/ideas/idea_generic_nationalism_generic.dds"
 	}
  }
