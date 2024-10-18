@@ -40,6 +40,61 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		
+		completion_reward = {
+			air_experience = 25
+
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = air_base
+						level = 1
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			add_doctrine_cost_reduction = {
+				name = air_doc_bonus
+				cost_reduction = 0.75
+				uses = 1
+				category = air_doctrine
+			}
+		}
 	}
 
 	#Collectivist Ethos
@@ -54,6 +109,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_enter_the_international_scene  }
 		mutually_exclusive = { focus = generic_focus_egalitarian_prevail  }
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				OR = {
+					AND = {
+						is_historical_focus_on = yes
+					}
+					has_idea = neutrality_idea
+				}
+			}
+		}
+
+		completion_reward = {
+			add_timed_idea = { idea = collectivist_ethos_generic days = 1095 }
+		}
 	}
 
 	#Foreign Ship Investment
@@ -67,6 +138,9 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = generic_focus_home_ports  focus = generic_focus_buy_convoys  }
+		completion_reward = {
+			add_ideas = foreign_ship_investor
+		}
 	}
 
 	#Greater Extraction Efforts
@@ -536,6 +610,12 @@ focus_tree = {
 		prerequisite = { focus = generic_focus_construction_effort_ii  focus = generic_focus_infrastructure_effort_ii  }
 		
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = excavation_tech
+			}
+			
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -712,6 +792,84 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = generic_focus_armament_efforts_i  }
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point = yes
+					}
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point = yes
+					}
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point = yes
+					}
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point = yes
+					}
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point = yes
+					}
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point = yes
+					}
+				}
+			}
+		}
 	}
 
 	#Greater Mechanical Project
@@ -725,7 +883,23 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = generic_focus_capital_arsenal  focus = generic_focus_defense_of_the_country  }
-		
+		completion_reward = {
+		add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+		add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}
+		add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = motorized_equipment
+			}
+		}
 	}
 
 	#Armament Efforts II
@@ -849,6 +1023,10 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = generic_focus_construction_effort_ii }
+		
+		completion_reward = {
+		add_ideas = foreign_investors
+		}
 	}
 
 	#Capital Defense
@@ -862,6 +1040,20 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = generic_focus_greater_mechanical_project  }
+		
+		completion_reward = {
+			capital_scope = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point = yes
+					}
+				}
+			}
+		}
 	}
 
 	#Homeland Focus
@@ -962,6 +1154,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_homeland_focus  }
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = excavation_tech
+			}
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -1075,11 +1272,15 @@ focus_tree = {
 		icon = GFX_goal_generic_consumer_goods
 		x = 4
 		y = 5
-		cost = 8
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = generic_focus_infrastructure_effort_ii  } prerequisite = { focus = generic_focus_greater_mechanical_project  }
+		completion_reward = {
+		add_ideas = better_supply_chain
+		add_fuel = 4000
+		}
 	}
 
 	#Extra Research Slot
@@ -1196,6 +1397,51 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = generic_focus_standing_for_our_freedom  }
+		available = {
+			has_war = yes
+			is_in_faction = yes
+			OR = {
+				num_of_factories > 50
+				any_other_country = {
+					is_in_faction_with = ROOT
+					num_of_factories > 50
+				}
+			}
+		}		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			if = {
+				limit = {
+					original_research_slots < 3
+				}
+				add_research_slot = 1
+			}
+			if = {
+				limit = {
+					original_research_slots > 2
+				}
+				add_tech_bonus = {
+					name = electronics_bonus
+					bonus = 1.0
+					uses = 1
+					category = electronics
+				}
+				add_tech_bonus = {
+					name = industrial_bonus
+					bonus = 1.0
+					uses = 1
+					category = industry
+				}	
+				add_tech_bonus = {
+					name = infantry_artillery_bonus #@#
+					bonus = 1.0
+					uses = 1
+					category = infantry_weapons
+					category = artillery
+				}				
+			}			
+		}
 	}
 
 	#Anti-Air
@@ -1210,6 +1456,62 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_metropolitan_airfields  }
 		mutually_exclusive = { focus = generic_focus_airfield_expansion  }
+		completion_reward = {
+			if = {
+				limit = {
+					capital_scope = {
+						free_building_slots = {
+							building = anti_air_building
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = anti_air_building
+						level = 1
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					random_owned_controlled_state = {
+						free_building_slots = {
+							building = anti_air_building
+							size > 1
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					add_building_construction = {
+						type = anti_air_building
+						level = 1
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					random_owned_controlled_state = {
+						free_building_slots = {
+							building = anti_air_building
+							size > 1
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					add_building_construction = {
+						type = anti_air_building
+						level = 1
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+		}
 	}
 
 	#Airfield Expansion
@@ -1224,6 +1526,62 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_metropolitan_airfields  }
 		mutually_exclusive = { focus = generic_focus_antiair  }
+		completion_reward = {
+			if = {
+				limit = {
+					random_owned_controlled_state = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					add_building_construction = {
+						type = air_base
+						level = 1
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					random_owned_controlled_state = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					random_owned_controlled_state = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					add_building_construction = {
+						type = air_base
+						level = 1
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+		}
 	}
 
 	#Rebuild the Economy
@@ -1261,6 +1619,15 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_aviation_efforts  }
 		mutually_exclusive = { focus = generic_focus_bomber_research  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 1.0
+				uses = 2
+				category = light_fighter
+				category = cat_heavy_fighter
+			}
+		}
 	}
 
 	#Re-Centralize the Nation
@@ -1294,6 +1661,27 @@ focus_tree = {
 			FOCUS_FILTER_STABILITY
 		}
 		prerequisite = { focus = generic_focus_bomber_research  focus = generic_focus_figher_effort  }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				category = air_doctrine
+				category = plane_modules_tech
+			}
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 1.0
+				uses = 1
+				category = cat_strategic_bomber
+				category = tactical_bomber
+			}
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 1.0
+				uses = 1
+				category = light_fighter
+				category = cat_heavy_fighter
+			}
+		}
 	}
 
 	#Naval Expansion
@@ -1418,6 +1806,32 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_naval_expansion  }
 		mutually_exclusive = { focus = generic_focus_large_navy  }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = sub_op_bonus
+				cost_reduction = 0.5
+				uses = 2
+				technology = convoy_interdiction_ti
+				technology = unrestricted_submarine_warfare
+				technology = wolfpacks
+				technology = advanced_submarine_warfare
+				technology = combined_operations_raiding
+			}
+		}
 	}
 
 	#Naval Build-Up
@@ -1513,6 +1927,28 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_naval_expansion  }
 		mutually_exclusive = { focus = generic_focus_flexible_navy  }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = fleet_in_being_bonus
+				cost_reduction = 0.25
+				uses = 2
+				category = fleet_in_being_tree
+			}
+		}
 	}
 
 	#Submarine Effort
@@ -1526,6 +1962,29 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = generic_focus_flexible_navy  }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = ss_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = ss_tech
+			}
+		}
 	}
 
 	#Home Ports
@@ -1540,6 +1999,73 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_naval_buildup  }
 		mutually_exclusive = { focus = generic_focus_buy_convoys  }
+		
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = {
+						any_owned_state = {
+							dockyard > 0
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					any_owned_state = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}		
+		}
 	}
 
 	#Buy Convoys
@@ -1554,6 +2080,13 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_naval_buildup  }
 		mutually_exclusive = { focus = generic_focus_home_ports  }
+		
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = 400
+			}
+		}
 	}
 
 	#Improve the L-Class
@@ -1567,6 +2100,30 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = generic_focus_large_navy  }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = cl_tech
+				category = ca_tech
+			}
+		}
 	}
 
 	#High Sea Training Improvement
@@ -1580,6 +2137,15 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = generic_focus_submarine_effort  focus = generic_focus_improve_the_lclass  }
+		completion_reward = {
+			navy_experience = 250
+			add_doctrine_cost_reduction = {
+				name = fleet_in_being_bonus
+				cost_reduction = 0.5
+				uses = 2
+				category = fleet_in_being_tree
+			}
+		}
 	}
 
 	#Greater Naval Project: The Capital Ship
@@ -1593,6 +2159,32 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = generic_focus_improve_the_lclass  } prerequisite = { focus = generic_focus_home_ports  }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
+				name = capital_ships_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = bc_tech
+				category = bb_tech
+				category = cv_tech
+			}
+		}
 	}
 
 	#Anti-Destroyer
@@ -1606,6 +2198,13 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = generic_focus_submarine_effort  }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 2
+				uses = 1
+				category = naval_mines
+			}
+		}
 	}
 
 	#Bomber Research
@@ -1619,6 +2218,15 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = generic_focus_aviation_efforts  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 1.0
+				uses = 2
+				category = cat_strategic_bomber
+				category = tactical_bomber
+			}
+		}
 	}
 
 	#NAV Project
@@ -1632,6 +2240,15 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = generic_focus_figher_effort  } prerequisite = { focus = generic_focus_flexible_navy  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = nav_bomber_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = naval_bomber
+			}
+		}
 	}
 
 	#CAS Project
@@ -1645,6 +2262,15 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = generic_focus_bomber_research  } prerequisite = { focus = generic_focus_motorization_effort  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = cas_bomber
+			}
+		}
 	}
 
 	#Metropolitan Airfields
@@ -1658,6 +2284,70 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = generic_focus_aviation_efforts  }
+		completion_reward = {
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = air_base
+						level = 1
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					random_owned_controlled_state = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					add_building_construction = {
+						type = air_base
+						level = 1
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+		}
 	}
 
 	#Nationalist Rising
@@ -1671,6 +2361,20 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_collectivist_ethos  }
+		completion_reward = {
+			add_timed_idea = {
+				idea = nationalism_generic
+				days = 720
+			}
+			add_popularity = {
+				ideology = imperialist
+				popularity = +0.25
+			}
+			add_popularity = {
+				ideology = radical_nationalist
+				popularity = +0.25
+			}
+		}
 	}
 
 	#Advandced Rocket Systems
@@ -1683,7 +2387,25 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_advandced_plane_research  } prerequisite = { focus = generic_focus_cas_project  focus = generic_focus_advandced_plane_research  } prerequisite = { focus = generic_focus_nav_project  }
+		prerequisite = { focus = generic_focus_advandced_plane_research  } prerequisite = { focus = generic_focus_cas_project  focus = generic_focus_nav_project  }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = jet_rocket_bonus
+				ahead_reduction = 2
+				uses = 2
+				category = rocketry
+				category = jet_technology
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.25
+				always = yes
+			}
+		}
 	}
 
 	#State of the Countrys Army
@@ -1695,6 +2417,15 @@ focus_tree = {
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			army_experience = 25
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.75
+				uses = 1
+				category = land_doctrine
+			}
 		}
 	}
 
@@ -1709,6 +2440,19 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = generic_focus_state_of_the_countrys_army  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1.0
+				uses = 2
+				category = infantry_weapons
+				category = artillery
+			}
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment
+				amount = 500
+			}
+		}
 	}
 
 	#Artillary Overhaul
@@ -1722,6 +2466,18 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = generic_focus_modernize_the_equipment  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1.0
+				uses = 2
+				category = artillery
+			}
+			add_equipment_to_stockpile = { 
+				type = artillery_equipment
+				amount = 120
+			}
+		}
 	}
 
 	#Support Divisions
@@ -1736,6 +2492,21 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_modernize_the_equipment  }
 		mutually_exclusive = { focus = generic_focus_artillary_overhaul  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 0.75
+				uses = 2
+				category = recon_tech
+				category = hospital_tech
+				category = signal_company_tech
+				category = logistics_tech
+			}
+			add_equipment_to_stockpile = { 
+				type = support_equipment
+				amount = 150
+			}
+		}
 	}
 
 	#Support Equipment
@@ -1749,6 +2520,33 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = generic_focus_support_divisions  focus = generic_focus_artillary_overhaul  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 0.50
+				uses = 1
+				category = recon_tech
+				category = hospital_tech
+				category = signal_company_tech
+				category = logistics_tech
+				category = artillery
+			}
+			add_equipment_to_stockpile = { 
+				type = support_equipment
+				amount = 90
+			}
+			add_equipment_to_stockpile = { 
+				type = artillery_equipment
+				amount = 60
+			}
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				ahead_reduction = 2
+				uses = 1
+				category = logistics_tech
+				category = artillery
+			}
+		}
 	}
 
 	#Motorization Effort
@@ -1762,6 +2560,13 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = generic_focus_state_of_the_countrys_army  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 1.5
+				technology = motorised_infantry
+			}
+		}
 	}
 
 	#Mechanized Army
@@ -1775,6 +2580,18 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = generic_focus_motorization_effort  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				ahead_reduction = 1.5
+				uses = 1
+				category = motorized_equipment
+			}
+			add_equipment_to_stockpile = { 
+				type = motorized_equipment
+				amount = 10
+			}
+		}
 	}
 
 	#Doctrine Effort
@@ -1788,6 +2605,15 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = generic_focus_state_of_the_countrys_army  }
+		completion_reward = {
+			army_experience = 25
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
 	}
 
 	#The Tank
@@ -1801,6 +2627,20 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = generic_focus_mechanized_army  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.0
+				uses = 2
+				category = armor
+			}
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.75
+				uses = 1
+				category = armor
+			}
+		}
 	}
 
 	#Focus on Infantry Equipment
@@ -1815,6 +2655,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_doctrine_effort  }
 		mutually_exclusive = { focus = generic_focus_fortification_focus  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1.0
+				uses = 2
+				category = infantry_weapons
+				category = artillery
+			}
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				ahead_reduction = 2
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
 	}
 
 	#Fortification Focus
@@ -1823,12 +2679,25 @@ focus_tree = {
 		icon = GFX_goal_generic_fortify_city
 		x = 29
 		y = 2
-		cost = 10
+		cost = 25
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = generic_focus_doctrine_effort  }
 		mutually_exclusive = { focus = generic_focus_focus_on_infantry_equipment  }
+		completion_reward = {
+			every_core_state = {
+					add_building_construction = {
+						type = bunker
+						level = 1
+						instant_build = yes
+						province = {
+							all_provinces = yes
+							limit_to_border = yes
+						}
+					}
+			}
+		}
 	}
 
 	#Doctrine Expertise
@@ -1842,6 +2711,15 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = generic_focus_doctrine_effort  }
+		completion_reward = {
+			army_experience = 60
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.75
+				uses = 1
+				category = land_doctrine
+			}
+		}
 	}
 
 	#Project Wolf Pack: Special Forces
@@ -1855,6 +2733,20 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = generic_focus_support_equipment  } prerequisite = { focus = generic_focus_the_tank  } prerequisite = { focus = generic_focus_doctrine_expertise  }
+		completion_reward = {
+			add_ideas = special_forces
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 1.0
+				uses = 1
+				technology = paratroopers
+				technology = paratroopers2
+				technology = marines
+				technology = marines2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+			}
+		}
 	}
 
 	#Enter the International Scene
@@ -1866,6 +2758,10 @@ focus_tree = {
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 120
+			add_stability = 0.01
 		}
 	}
 
@@ -1880,6 +2776,30 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_enter_the_international_scene  }
+
+		completion_reward = {
+			add_ideas = egalitarian_prevail_focus
+			add_popularity = {
+				ideology = conservatist
+				popularity = +0.14
+			}
+			add_popularity = {
+				ideology = progressivist
+				popularity = +0.14
+			}
+			add_popularity = {
+				ideology = centrist
+				popularity = +0.14
+			}
+			add_popularity = {
+				ideology = libertarianist
+				popularity = +0.08
+			}
+			add_popularity = {
+				ideology = social_liberalist
+				popularity = +0.08
+			}
+		}
 	}
 
 	#Statism
@@ -1894,6 +2814,19 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_egalitarian_prevail  }
 		mutually_exclusive = { focus = generic_focus_centralize_the_government  } mutually_exclusive = { focus = generic_focus_liberalism  } mutually_exclusive = { focus = generic_focus_a_brighter_future  }
+		completion_reward = {
+			add_popularity = {
+				ideology = conservatist
+				popularity = +0.1
+			}
+			set_politics = {
+				ruling_party = conservatist
+				elections_allowed = yes
+				last_election = "1936.1.1"
+				election_frequency = 48
+			}
+			add_ideas = statism_generic
+		}
 	}
 
 	#Centralize the Government
@@ -1908,6 +2841,18 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_egalitarian_prevail  }
 		mutually_exclusive = { focus = generic_focus_statism  } mutually_exclusive = { focus = generic_focus_liberalism  } mutually_exclusive = { focus = generic_focus_a_brighter_future  }
+		completion_reward = {
+			add_popularity = {
+				ideology = centrist
+				popularity = +0.1
+			}
+			set_politics = {
+				ruling_party = centrist
+				elections_allowed = yes
+				last_election = "1936.1.1"
+				election_frequency = 48
+			}
+		}
 	}
 
 	#Traditionalism
@@ -1921,6 +2866,13 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_statism  }
+		completion_reward = {
+			swap_ideas = {
+				add_idea = traditionalism_generic
+				remove_idea = statism_generic
+			}
+		}
+			
 	}
 
 	#Liberalism
@@ -1935,6 +2887,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_egalitarian_prevail  }
 		mutually_exclusive = { focus = generic_focus_statism  } mutually_exclusive = { focus = generic_focus_centralize_the_government  } mutually_exclusive = { focus = generic_focus_a_brighter_future  }
+		completion_reward = {
+			add_popularity = {
+				ideology = social_liberalist
+				popularity = +0.1
+			}
+			add_popularity = {
+				ideology = libertarianist
+				popularity = +0.1
+			}
+			set_politics = {
+				ruling_party = social_liberalist
+				elections_allowed = yes
+				last_election = "1936.1.1"
+				election_frequency = 48
+			}
+		}
 	}
 
 	#Interventionism
@@ -1949,6 +2917,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_a_brighter_future  focus = generic_focus_statism  focus = generic_focus_liberalism  focus = generic_focus_centralize_the_government  }
 		mutually_exclusive = { focus = generic_focus_focus_on_neutrality  }
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_idea = neutrality_idea
+			}
+		}
+
+		completion_reward = {
+			if = {
+				limit = { has_idea = neutrality_idea }
+				remove_ideas = neutrality_idea
+			}	
+			set_rule = { can_send_volunteers = yes }
+			add_political_power = 150
+		}
 	}
 
 	#Reform the Country Administration
@@ -1962,6 +2946,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_a_brighter_future  }
+		completion_reward = {
+			add_ideas = reformist_generic
+		}
 	}
 
 	#A Brighter Future
@@ -1976,6 +2963,18 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_egalitarian_prevail  }
 		mutually_exclusive = { focus = generic_focus_statism  } mutually_exclusive = { focus = generic_focus_centralize_the_government  } mutually_exclusive = { focus = generic_focus_liberalism  }
+		completion_reward = {
+			add_popularity = {
+				ideology = progressivist
+				popularity = +0.1
+			}
+			set_politics = {
+				ruling_party = progressivist
+				elections_allowed = yes
+				last_election = "1936.1.1"
+				election_frequency = 48
+			}
+		}
 	}
 
 	#Focus on Neutrality
@@ -1990,6 +2989,28 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_a_brighter_future  focus = generic_focus_liberalism  focus = generic_focus_statism  focus = generic_focus_centralize_the_government  }
 		mutually_exclusive = { focus = generic_focus_interventionism  }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				tag = AUS
+			}
+			modifier = {
+				factor = 0
+				tag = SAU
+				is_in_faction_with = SOV
+				SOV = { has_government = communism }
+			}
+		}
+
+		completion_reward = {
+			if = {
+				limit = { NOT = { has_idea = neutrality_idea } }
+				add_ideas = neutrality_idea
+			}
+			add_political_power = 150
+		}
 	}
 
 	#Constiutional Guarantees
@@ -2003,6 +3024,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_a_brighter_future  focus = generic_focus_statism  focus = generic_focus_liberalism  focus = generic_focus_centralize_the_government  }
+		completion_reward = {
+			add_ideas = written_constitution
+		}
 	}
 
 	#Deterrence
@@ -2016,6 +3040,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_focus_on_neutrality  }
+		completion_reward = {
+			add_ideas = deterrence
+		}
 	}
 
 	#Volunteer Corps
@@ -2029,6 +3056,11 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_interventionism  }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = volunteer_corps_focus
+		}
 	}
 
 	#Standing for our Freedom
@@ -2042,110 +3074,59 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_volunteer_corps  focus = generic_focus_deterrence  }
-	}
-
-	#Standing for our Freedom
-	focus = {
-		id = generic_focus_standing_for_our_freedom
-		icon = GFX_focus_generic_little_entente
-		x = 40
-		y = 5
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
+		available = { 
+			OR = { 
+				threat > 0.75 
+				has_defensive_war = yes 
+			}
 		}
-		prerequisite = { focus = generic_focus_volunteer_corps  focus = generic_focus_deterrence  }
-	}
+		available_if_capitulated = yes
 
-	#Standing for our Freedom
-	focus = {
-		id = generic_focus_standing_for_our_freedom
-		icon = GFX_focus_generic_little_entente
-		x = 40
-		y = 5
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
+		completion_reward = {
+			add_ideas = why_we_fight_focus
+			custom_effect_tooltip = why_we_fight_effect
+			hidden_effect = {
+				if = {
+					limit = { NOT = { has_idea = neutrality_idea } }
+					set_rule = { can_create_factions = yes }
+				}			
+			}
+			if = {
+				limit = { has_government = centrist }
+				add_popularity = {
+					ideology = centrist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = conservatist }
+				add_popularity = {
+					ideology = conservatist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = progressivist }
+				add_popularity = {
+					ideology = progressivist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = libertarianist }
+				add_popularity = {
+					ideology = libertarianist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = social_liberalist }
+				add_popularity = {
+					ideology = social_liberalist
+					popularity = 0.2
+				}
+			}
 		}
-		prerequisite = { focus = generic_focus_volunteer_corps  focus = generic_focus_deterrence  }
-	}
-
-	#Standing for our Freedom
-	focus = {
-		id = generic_focus_standing_for_our_freedom
-		icon = GFX_focus_generic_little_entente
-		x = 40
-		y = 5
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = generic_focus_volunteer_corps  focus = generic_focus_deterrence  }
-	}
-
-	#Standing for our Freedom
-	focus = {
-		id = generic_focus_standing_for_our_freedom
-		icon = GFX_focus_generic_little_entente
-		x = 40
-		y = 5
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = generic_focus_volunteer_corps  focus = generic_focus_deterrence  }
-	}
-
-	#Standing for our Freedom
-	focus = {
-		id = generic_focus_standing_for_our_freedom
-		icon = GFX_focus_generic_little_entente
-		x = 40
-		y = 5
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = generic_focus_volunteer_corps  focus = generic_focus_deterrence  }
-	}
-
-	#Standing for our Freedom
-	focus = {
-		id = generic_focus_standing_for_our_freedom
-		icon = GFX_focus_generic_little_entente
-		x = 40
-		y = 5
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = generic_focus_volunteer_corps  focus = generic_focus_deterrence  }
-	}
-
-	#Standing for our Freedom
-	focus = {
-		id = generic_focus_standing_for_our_freedom
-		icon = GFX_focus_generic_little_entente
-		x = 40
-		y = 5
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = generic_focus_volunteer_corps  focus = generic_focus_deterrence  }
-	}
-
-	#Standing for our Freedom
-	focus = {
-		id = generic_focus_standing_for_our_freedom
-		icon = GFX_focus_generic_little_entente
-		x = 40
-		y = 5
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = generic_focus_volunteer_corps  focus = generic_focus_deterrence  }
 	}
 
 	#Radicalization of the Nationalists
@@ -2159,6 +3140,23 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_nationalist_rising  }
+		mutually_exclusive = { focus = generic_focus_imperialist_nation  }
+		completion_reward = {
+			add_popularity = {
+				ideology = imperialist
+				popularity = +0.1
+			}
+			add_popularity = {
+				ideology = radical_nationalist
+				popularity = +0.2
+			}
+			set_politics = {
+				ruling_party = radical_nationalist
+				elections_allowed = no
+				last_election = "1936.1.1"
+				election_frequency = 48
+			}
+		}
 	}
 
 	#Imperialist Nation
@@ -2173,6 +3171,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_nationalist_rising  }
 		mutually_exclusive = { focus = generic_focus_radicalization_of_the_nationalists  }
+		completion_reward = {
+			add_popularity = {
+				ideology = imperialist
+				popularity = +0.2
+			}
+			add_popularity = {
+				ideology = radical_nationalist
+				popularity = +0.1
+			}
+			set_politics = {
+				ruling_party = imperialist
+				elections_allowed = no
+				last_election = "1936.1.1"
+				election_frequency = 48
+			}
+		}
 	}
 
 	#Militarization
@@ -2186,6 +3200,10 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_radicalization_of_the_nationalists  }
+		
+		completion_reward = {
+		add_ideas = militarism
+		}
 	}
 
 	#Military Dictatorship
@@ -2199,6 +3217,10 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_militarization  }
+		completion_reward = {
+			add_stability = +0.05
+			add_ideas = the_dictator
+		}
 	}
 
 	#Get Ready
@@ -2212,6 +3234,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_imperialist_nation  }
+		completion_reward = {
+			add_ideas = army_training_generic
+		}
 	}
 
 	#Imperialist Gains
@@ -2238,6 +3263,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_imperialist_gains  focus = generic_focus_military_dictatorship  }
+		completion_reward = {
+			add_ideas = military_youth_focus
+		}
 	}
 
 	#Pro-Paramilitarism
@@ -2251,6 +3279,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_military_youth  }
+		completion_reward = {
+			add_ideas = paramilitarism_focus
+		}
 	}
 
 	#Socialist Reforms
@@ -2264,6 +3295,21 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_collectivist_ethos  }
+		completion_reward = {
+			add_ideas = socialist_reforms
+			add_popularity = {
+				ideology = revisionist
+				popularity = +0.15
+			}
+			add_popularity = {
+				ideology = xeroist
+				popularity = +0.15
+			}
+			add_popularity = {
+				ideology = anarchist #currently still needs to be changed for radical socialists
+				popularity = +0.15
+			}
+		}
 	}
 
 	#Rise of the Xeroists
@@ -2278,6 +3324,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_socialist_reforms  }
 		mutually_exclusive = { focus = generic_focus_radicalization_of_the_socialists  } mutually_exclusive = { focus = generic_focus_revision_our_nation  }
+		completion_reward = {
+		add_popularity = {
+				ideology = anarchist #same here
+				popularity = +0.1
+			}
+			add_popularity = {
+				ideology = xeroist
+				popularity = +0.2
+			}
+			set_politics = {
+				ruling_party = xeroist
+				elections_allowed = no
+				last_election = "1936.1.1"
+				election_frequency = 48
+			}
+		}
 	}
 
 	#Radicalization of the Socialists
@@ -2292,6 +3354,26 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_socialist_reforms  }
 		mutually_exclusive = { focus = generic_focus_rise_of_the_xeroists  } mutually_exclusive = { focus = generic_focus_revision_our_nation  }
+		completion_reward = {
+			add_popularity = {
+				ideology = revisionist
+				popularity = +0.05
+			}
+			add_popularity = {
+				ideology = xeroist
+				popularity = +0.05
+			}
+			add_popularity = {
+				ideology = anarchist #currently place holder til we add the radical socialists
+				popularity = +0.2
+			}
+			set_politics = {
+				ruling_party = anarchist #same here
+				elections_allowed = no
+				last_election = "1936.1.1"
+				election_frequency = 48
+			}
+		}
 	}
 
 	#Revision our Nation
@@ -2306,34 +3388,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_socialist_reforms  }
 		mutually_exclusive = { focus = generic_focus_rise_of_the_xeroists  } mutually_exclusive = { focus = generic_focus_radicalization_of_the_socialists  }
-	}
-
-	#Revision our Nation
-	focus = {
-		id = generic_focus_revision_our_nation
-		icon = GFX_goal_generic_war_with_comintern
-		x = 55
-		y = 3
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
+		completion_reward = {
+		add_popularity = {
+				ideology = anarchist #also here
+				popularity = +0.1
+			}
+			add_popularity = {
+				ideology = revisionist
+				popularity = +0.2
+			}
+			set_politics = {
+				ruling_party = revisionist
+				elections_allowed = no
+				last_election = "1936.1.1"
+				election_frequency = 48
+			}
 		}
-		prerequisite = { focus = generic_focus_socialist_reforms  }
-		mutually_exclusive = { focus = generic_focus_rise_of_the_xeroists  } mutually_exclusive = { focus = generic_focus_radicalization_of_the_socialists  }
-	}
-
-	#Revision our Nation
-	focus = {
-		id = generic_focus_revision_our_nation
-		icon = GFX_goal_generic_war_with_comintern
-		x = 55
-		y = 3
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = generic_focus_socialist_reforms  }
-		mutually_exclusive = { focus = generic_focus_rise_of_the_xeroists  } mutually_exclusive = { focus = generic_focus_radicalization_of_the_socialists  }
 	}
 
 	#Give Power to Trade Unions
@@ -2347,6 +3417,9 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = generic_focus_rise_of_the_xeroists  focus = generic_focus_radicalization_of_the_socialists  focus = generic_focus_revision_our_nation  }
+		completion_reward = {
+			add_ideas = collectivization
+		}
 	}
 
 	#Socialists Correctness
@@ -2360,6 +3433,14 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_rise_of_the_xeroists  focus = generic_focus_radicalization_of_the_socialists  focus = generic_focus_revision_our_nation  }
+		completion_reward = {
+			if = {
+				limit = { has_idea = neutrality_idea }
+				remove_ideas = neutrality_idea
+			}		
+			add_political_power = 200
+			add_ideas = idea_political_correctness
+		}
 	}
 
 	#Social Propaganda Stations
@@ -2373,19 +3454,10 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_socialists_correctness  } prerequisite = { focus = generic_focus_give_power_to_trade_unions  }
-	}
-
-	#Social Propaganda Stations
-	focus = {
-		id = generic_focus_social_propaganda_stations
-		icon = GFX_goal_generic_propaganda
-		x = 52
-		y = 4
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
+		completion_reward = {
+			add_ideas = indoctrination_focus
+			add_political_power = 150
 		}
-		prerequisite = { focus = generic_focus_socialists_correctness  } prerequisite = { focus = generic_focus_give_power_to_trade_unions  }
 	}
 
 	#Social Patriotism
@@ -2400,6 +3472,15 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_social_propaganda_stations  }
 		mutually_exclusive = { focus = generic_focus_millitant_pacifism  }
+		completion_reward = {
+			if = {
+				limit = { has_idea = neutrality_idea }
+				remove_ideas = neutrality_idea
+			}	
+			set_rule = { can_send_volunteers = yes }
+			add_political_power = 150
+		}
+		
 	}
 
 	#Millitant Pacifism
@@ -2414,6 +3495,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = generic_focus_social_propaganda_stations  }
 		mutually_exclusive = { focus = generic_focus_social_patriotism  }
+		completion_reward = {
+			add_ideas = guards_of_the_homeland
+		}
 	}
 
 	#Political Military
@@ -2427,6 +3511,45 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_millitant_pacifism  focus = generic_focus_social_patriotism  }
+		completion_reward = {
+			add_ideas = political_commissars_focus
+			if = {
+				limit = { has_government = xeroist }
+				add_popularity = {
+					ideology = xeroist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = revisionist }
+				add_popularity = {
+					ideology = revisionist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = anarchist }
+				add_popularity = {
+					ideology = anarchist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = radical_nationalist }
+				add_popularity = {
+					ideology = radical_nationalist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = imperialist }
+				add_popularity = {
+					ideology = imperialist
+					popularity = 0.2
+				}
+			}
+			add_political_power = 200
+		}
 	}
 
 	#Fanaticism
@@ -2440,6 +3563,16 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_political_military  focus = generic_focus_proparamilitarism  }
+		completion_reward = {
+			add_ideas = ideological_fanaticism_focus
+			set_rule = {
+				can_create_factions = yes
+			}
+			hidden_effect = {
+				set_rule = { can_use_kamikaze_pilots = yes }
+			}
+			custom_effect_tooltip = kamikaze_focus_tooltip
+		}
 	}
 
 	#Like-Minded Technology
@@ -2453,6 +3586,51 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = generic_focus_fanaticism  }
+		available = {
+			has_war = yes
+			is_in_faction = yes
+			OR = {
+				num_of_factories > 50
+				any_other_country = {
+					is_in_faction_with = ROOT
+					num_of_factories > 50
+				}
+			}
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			if = {
+				limit = {
+					original_research_slots < 3
+				}
+				add_research_slot = 1
+			}
+			if = {
+				limit = {
+					original_research_slots > 2
+				}
+				add_tech_bonus = {
+					name = electronics_bonus
+					bonus = 1.0
+					uses = 1
+					category = electronics
+				}
+				add_tech_bonus = {
+					name = industrial_bonus
+					bonus = 1.0
+					uses = 1
+					category = industry
+				}	
+				add_tech_bonus = {
+					name = infantry_artillery_bonus #@#
+					bonus = 1.0
+					uses = 1
+					category = infantry_weapons
+					category = artillery
+				}				
+			}			
+		}
 	}
 
 	#Claim on Neighbours
@@ -2493,7 +3671,9 @@ focus_tree = {
 			ROOT = {
 				create_wargoal = {
 					type = puppet_wargoal_focus
-					target = random_neighbour_country
+					target = PREV 
+					generator = { 123 321 }
+					expire = 900
 				}
 			}
 			}
