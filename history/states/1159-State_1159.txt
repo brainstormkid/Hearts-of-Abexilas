@@ -1,0 +1,16 @@
+state={
+	id=1159
+	name="STATE_1159"
+	provinces={
+		66 149 278 294 441 1000 1462 1723 1904 1926 3054 3525 3738 4112 6307 6712 8256 8295 8296 8304 8315 8326 8338 8345 8365 8366 8385 8386 8405 8420 8425 8463
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = BAR
+		buildings = {
+		}
+		add_core_of = BAR
+	}
+}
