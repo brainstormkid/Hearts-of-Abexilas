@@ -620,6 +620,11 @@ STR = {
 	color_ui = rgb { 109 162 101 }
 }
 
+SUN = {
+	color = rgb { 226 145 206 }
+	color_ui = rgb { 226 145 206 }
+}
+
 SYR = {
 	color = rgb { 83 181 200 }
 	color_ui = rgb { 83 181 200 }
