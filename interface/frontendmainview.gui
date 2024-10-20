@@ -328,6 +328,7 @@ guiTypes = {
 			Orientation = CENTER #CUSTOM
 		}
 
+		@warn_icon_x = 280
 		iconType = {
 			name = "single_player_button_warn"
 			position = { x = @warn_icon_x y = 92 } #CHANGED
