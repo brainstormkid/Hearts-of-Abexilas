@@ -371,7 +371,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "career_profile_button"
-			position = { x = 375 y = -172 }
+			position = { x = 420 y = -115 }
 			#position = { x = 16 y = 138 }
 			quadTextureSprite ="GFX_main_lobby_button_career_profile" #CHANGED
 			buttonText = "" #CHANGED
@@ -380,20 +380,6 @@ guiTypes = {
 			clicksound = click_default
 			oversound = ui_menu_over
 			Orientation = CENTER #CUSTOM
-		}
-		
-		instantTextBoxType = { #CUSTOM
-			name ="career_profile_text"
-			position = { x = 375 y = 87 }
-			textureFile = ""
-			font = "hoi4_typewriter22"
-			borderSize = {x = 0 y = 0}
-			text = "MENU_BAR_CAREER_PROFILE"	
-			format = centre
-			maxWidth = 255
-			maxHeight = 20
-			Orientation = CENTER
-			alwaystransparent = yes
 		}
 		
 		iconType = {
@@ -409,7 +395,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "friends_button"
-			position = { x = -630 y = -172 } #CHANGED
+			position = { x = -580 y = -115 } #CHANGED
 			#position = { x = 16 y = 178 }
 			quadTextureSprite ="GFX_main_lobby_button_friends" #CHANGED
 			buttonText = ""
@@ -418,20 +404,6 @@ guiTypes = {
 			clicksound = click_default
 			oversound = ui_menu_over
 			Orientation = CENTER #CUSTOM
-		}
-		
-		instantTextBoxType = { #CUSTOM
-			name ="friends_text"
-			position = { x = -630 y = 87 }
-			textureFile = ""
-			font = "hoi4_typewriter22"
-			borderSize = {x = 0 y = 0}
-			text = "MENU_BAR_FRIENDS"	
-			format = centre
-			maxWidth = 255
-			maxHeight = 20
-			Orientation = CENTER
-			alwaystransparent = yes
 		}
 		
 		ButtonType = {
