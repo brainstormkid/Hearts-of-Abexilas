@@ -359,10 +359,10 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "settings_button"
-			position = { x = -240 y = -250 } #CHANGED
+			position = { x = -290 y = -230 } #CHANGED
 			#position = { x = 16 y = 98 }
 			quadTextureSprite ="GFX_main_lobby_button_settings" #CHANGED
-			buttonText = "OPTIONS"
+			buttonText = ""
 			font = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -408,10 +408,10 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "credits_button"
-			position = { x = -45 y = -250 } #CHANGED
+			position = { x = -80 y = -230 } #CHANGED
 			#position = {  x = 16 y = 218 }
-			quadTextureSprite ="GFX_main_lobby_button_settings" #CHANGED
-			buttonText = "FE_CREDITS"
+			quadTextureSprite ="GFX_main_lobby_button_credits" #CHANGED
+			buttonText = ""
 			font = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -420,21 +420,21 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "nudge_button"
-			position = { x = -815 y = -150 } #CHANGED
+			position = { x = -850 y = -100 } #CHANGED
 			#position = { x = 16 y = 258 }
-			quadTextureSprite ="GFX_main_lobby_button_exit" #CHANGED
-			buttonText = "Nudge!"
+			quadTextureSprite ="GFX_main_lobby_button_nudge" #CHANGED
+			buttonText = ""
 			buttonFont = "hoi_24header"
 			Orientation = LOWER_RIGHT #CUSTOM
 		}
 		
 		ButtonType = {
 			name = "exit_button"
-			position = { x = 935 y = -250 } #CHANGED
+			position = { x = 900 y = -230 } #CHANGED
 			#position = { x = 16 y = 300 }
 			quadTextureSprite ="GFX_main_lobby_button_exit" #CHANGED
 			font = "hoi_24header"
-			text = "FE_EXIT"			
+			text = ""			
 			clicksound = click_default
 			oversound = ui_menu_over
 			Orientation = LOWER_LEFT #CUSTOM

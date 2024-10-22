@@ -183,5 +183,33 @@ spriteTypes = {
 		noOfFrames = 3
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
+	
+	textSpriteType = {
+		name = "GFX_main_lobby_button_settings"
+		textureFile = "gfx/interface/main_lobby_button_settings.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	
+	textSpriteType = {
+		name = "GFX_main_lobby_button_exit"
+		textureFile = "gfx/interface/main_lobby_button_exit.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	
+	textSpriteType = {
+		name = "GFX_main_lobby_button_credits"
+		textureFile = "gfx/interface/main_lobby_button_credits.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	
+	textSpriteType = {
+		name = "GFX_main_lobby_button_nudge"
+		textureFile = "gfx/interface/main_lobby_button_nudge.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
 
 }
