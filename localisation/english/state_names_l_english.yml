@@ -747,6 +747,7 @@
  STATE_1093:0 "Allenby"
  STATE_1101:0 "Eastern Oridal"
  STATE_1111:0 "Vukhmir"
+ STATE_1114:0 "Mitakoré"
  STATE_1118:0 "Juamotogos"
  STATE_1112:0 "Copeville"
  STATE_1120:0 "Montrose"
@@ -755,6 +756,7 @@
  STATE_1123:0 "Amoro"
  STATE_1124:0 "Hyrenheim"
  STATE_1125:0 "Vandor"
+ STATE_1126:0 "Istranés"
  STATE_1127:0 "Outer Estrella"
  STATE_1128:0 "Astana"
  STATE_1129:0 "Western Korydos"
@@ -771,4 +773,7 @@
  STATE_1153:0 "Aspaxius"
  STATE_1154:0 "Primorje"
  STATE_1155:0 "Karikert"
+ STATE_1161:0 "Solrenin"
+ STATE_1162:0 "Suthwold"
+ STATE_1163:0 "Akonsaré"
  

@@ -738,6 +738,10 @@
  TAR_absolutist_DEF:1 "the Taravor"
  TAR_absolutist_ADJ:0 "Taravorian"
  
+ TAU_absolutist:1 "Realm of Taurëmár"
+ TAU_absolutist_DEF:1 "the Realm of Taurëmár"
+ TAU_absolutist_ADJ:0 "Taurëmári"
+ 
  TES_absolutist:1 "Testudo"
  TES_absolutist_DEF:1 "the Island Kingdom of Testudo"
  TES_absolutist_ADJ:0 "Testudese"

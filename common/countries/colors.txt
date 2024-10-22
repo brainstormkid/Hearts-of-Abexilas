@@ -640,6 +640,11 @@ TAR = {
 	color_ui = rgb { 201 236 191 }
 }
 
+TAU = {
+	color = rgb { 130 162 129 }
+	color_ui = rgb { 130 162 129 }
+}
+
 TES = {
 	color = rgb { 47 48 48 }
 	color_ui = rgb { 47 48 48 }
