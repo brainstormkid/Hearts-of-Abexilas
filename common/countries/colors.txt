@@ -245,6 +245,11 @@ DZI = {
 	color_ui = rgb { 40 43 73 }
 }
 
+EIS = {
+	color = rgb { 195 240 255 }
+	color_ui = rgb { 195 240 255 }
+}
+
 ELD = {
 	color = rgb { 0 168 107 }
 	color_ui = rgb { 0 168 107 }

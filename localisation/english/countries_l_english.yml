@@ -284,6 +284,10 @@
  DZI_absolutist_DEF:1 "the Union of Dzitizan"
  DZI_absolutist_ADJ:0 "Dzitizanian"
  
+ EIS_absolutist:1 "Blessed Realm of Eiszura"
+ EIS_absolutist_DEF:1 "the Blessed Realm of Eiszura"
+ EIS_absolutist_ADJ:0 "Eiszuratti"
+ 
  ELD_absolutist:1 "Kingdom of Eldorath"
  ELD_absolutist_DEF:1 "the Kingdom of Eldorath"
  ELD_absolutist_ADJ:0 "Eldorathi"
