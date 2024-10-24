@@ -630,6 +630,11 @@ SUN = {
 	color_ui = rgb { 226 145 206 }
 }
 
+SYL = {
+	color = rgb { 129 41 41 }
+	color_ui = rgb { 129 41 41 }
+}
+
 SYR = {
 	color = rgb { 83 181 200 }
 	color_ui = rgb { 83 181 200 }

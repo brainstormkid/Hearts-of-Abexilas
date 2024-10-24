@@ -1,0 +1,16 @@
+state={
+	id=1173
+	name="STATE_1173"
+	provinces={
+		1975 2327 3468 3931 4367 4392 4740 5436 6276 14574 14575 14596 14615 14648 14661 14681
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = SYL
+		buildings = {
+		}
+		add_core_of = SYL
+	}
+}

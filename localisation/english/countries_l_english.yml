@@ -730,6 +730,10 @@
  SUN_absolutist_DEF:1 "the Colony of Sundatano"
  SUN_absolutist_ADJ:0 "Sundati"
  
+ SYL_absolutist:1 "Commonwealth of Sylvas"
+ SYL_absolutist_DEF:1 "Commonwealth of Sylvas"
+ SYL_absolutist_ADJ:0 "Sylvaian"
+ 
  SYR_absolutist:1 "Syren"
  SYR_absolutist_DEF:1 "Syrenia"
  SYR_absolutist_ADJ:0 "Syren"
