@@ -5,15 +5,12 @@ state={
 		4299 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1350000
-        state_category = city
+        manpower=750000
+        state_category = rural
 	history={
 		owner = LAT
 		buildings = {
-			industrial_complex = 1
-			infrastructure = 3
-			arms_factory = 1
-			dockyard = 1
+			infrastructure = 2
 			4299 = {
 				naval_base = 1
 			}

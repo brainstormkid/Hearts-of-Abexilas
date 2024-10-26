@@ -5,8 +5,8 @@ state={
 		1493 6508 14476 14516 14537 14547 14565 
 	}
 	buildings_max_level_factor=1.000
-        manpower=600000
-        state_category = pastoral
+        manpower=25000
+        state_category = enclave
 	resources = {
 		oil = 2
 		aluminium = 2
@@ -21,6 +21,5 @@ state={
 		infrastructure = 1
 		}
 		add_core_of = ZIL
-		victory_points = { 14547 5 }
 	}
 }

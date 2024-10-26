@@ -5,7 +5,7 @@ state={
 		5328 14757 14800 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1800000
+        manpower=1200000
         state_category = city
 	history={
 		owner = GAL
