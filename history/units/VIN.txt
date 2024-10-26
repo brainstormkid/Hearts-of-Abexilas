@@ -43,79 +43,30 @@ division_template = {
 
 units = {
 	division = {
-		name = "1st Zilatran Infantry"
-		location = 14770
+		name = "1st Vinovian Infantry"
+		location = 628
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Zilatran Infantry"
-		location = 14770
+		name = "2nd Vinovian Infantry"
+		location = 628
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "5th Zilatran Infantry"
-		location = 1949
-		division_template = "Infantry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "7th Zilatran Infantry"
-		location = 14874
-		division_template = "Infantry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "8th Zilatran Infantry"
-		location = 5938
-		division_template = "Infantry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1st Zilatran Guards"
-		location = 14783
+		name = "1st Vinovian Guards"
+		location = 6124
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Zilatran Guards"
-		location = 1298
+		name = "2nd Vinovian Guards"
+		location = 3357
 		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "3rd Zilatran Guards"
-		location = 1991
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "4th Zilatran Guards"
-		location = 35
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "5th Zilatran Guards"
-		location = 6190
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1st Zilatran Calvary"
-		location = 14684
-		division_template = "Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
