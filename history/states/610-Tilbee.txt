@@ -21,6 +21,7 @@ state={
 			infrastructure = 2
 		}
 		add_core_of = TAN
+		add_core_of = COT
 		victory_points = { 5227 10 }
 	}
 }
