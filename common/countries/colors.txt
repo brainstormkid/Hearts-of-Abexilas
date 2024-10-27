@@ -195,6 +195,11 @@ COR = {
 	color_ui = rgb { 0 47 105 }
 }
 
+COT = {
+	color = rgb { 88  57  113 }
+	color_ui = rgb { 88  57  113 }
+}
+
 COV = {
 	color = rgb { 119  27  27 }
 	color_ui = rgb { 119  27  27 }
