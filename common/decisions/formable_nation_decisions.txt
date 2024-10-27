@@ -1,0 +1,44 @@
+form_leyenbourg_category  = {
+	
+	form_leyenbourg = { 
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = LEY
+		}
+
+		available = {
+			controls_all_ethiopian_core_states = yes 
+			controls_state = 610 # Tilbee 
+			controls_state = 592 # Federal Tandong Land
+			controls_state = 616 # Luyezia-South
+		}
+
+		visible = {
+			has_completed_focus = LEY_refrom_the_commonwealth
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = GREATER_LEY		
+			610 = { add_core_of = ROOT }
+			592 = { add_core_of = ROOT }
+			616 = { add_core_of = ROOT }
+			599 = { add_core_of = ROOT }
+			601 = { add_core_of = ROOT }
+		
+			hidden_effect = { 
+				set_global_flag = form_greater_leyenbourg_flag
+				
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
