@@ -1,0 +1,24 @@
+﻿capital = 592
+
+set_politics = {
+	ruling_party = absolutist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	absolutist = 100
+}
+
+create_country_leader = {
+	name = "IamChemistry"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	#picture = "gfx/leaders/AEZ/Panda.dds"
+	expire = "1965.1.1"
+	ideology = absolutist_subtype
+	traits = {
+		#
+	}
+}
+
+set_convoys = 5
