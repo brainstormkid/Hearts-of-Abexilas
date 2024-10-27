@@ -524,6 +524,14 @@
  LEY_imperialist_DEF:1 "the Unitary State of Leyenbourg"
  LEY_imperialist_ADJ:0 "Leyenbourgian"
  
+ GREATER_LEY:1 "Commonwealth of Leyenbourg"
+ GREATER_LEY_DEF:1 "the Commonwealth of Leyenbourg"
+ GREATER_LEY_ADJ:0 "Leyenbourgian"
+ 
+ COT_absolutist:1 "Fanatic Order of Cortland"
+ COT_absolutist_DEF:1 "the Fanatic Order of Cortland"
+ COT_absolutist_ADJ:0 "Fanatics"
+ 
  LIS_absolutist:1 "Archduchy of Lisvar"
  LIS_absolutist_DEF:1 "the Archduchy of Lisvar"
  LIS_absolutist_ADJ:0 "Lisvari"
