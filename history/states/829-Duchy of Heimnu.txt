@@ -5,12 +5,20 @@ state={
 		1806 2516 3563 5641 5687 6411 6514 6666 12991 13021 13025 13030 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=8400000
+        state_category = large_city
 	history={
 		owner = AET
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			5687 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = AET
+		victory_points = { 5687 30 }
 	}
 }

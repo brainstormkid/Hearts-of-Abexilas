@@ -5,13 +5,16 @@ state={
 		1585 2165 2595 2624 4368 4754 5232 6686 6747 12782 12800 12815 12854 12892 12952 12978 13013 13054 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1950000
+        state_category = large_town
 	history={
 		owner = AET
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
 		add_core_of = AET
-		victory_points = { 12800 20 }
+		victory_points = { 12892 10 }
 	}
 }

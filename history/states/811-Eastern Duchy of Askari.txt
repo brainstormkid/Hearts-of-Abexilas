@@ -5,12 +5,14 @@ state={
 		2451 12732 12752 12765 12801 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=600000
+        state_category = pastoral
 	history={
 		owner = AET
 		buildings = {
+			infrastructure = 1
 		}
 		add_core_of = AET
+		victory_points = { 12752 10 }
 	}
 }
