@@ -1,0 +1,10 @@
+add_namespace = Valora
+
+#Novaran Crisis
+country_event = {
+	id = valora.1
+	title = valora.1.t
+	desc = valora.1.d
+
+	picture = GFX_novaran_crisis
+}

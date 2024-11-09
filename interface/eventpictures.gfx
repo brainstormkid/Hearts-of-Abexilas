@@ -16,6 +16,7 @@ spriteTypes = {
 		name = "GFX_news_event_004"
 		texturefile = "gfx/event_pictures/news_event_004.dds"
 	}
+	
 	#
 	spriteType = {
 		name = "GFX_Long_day_in_Theos"
@@ -52,5 +53,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_SPA_attack"
 		texturefile = "gfx/event_pictures/SPA_attack.dds"
+	}
+	
+	#VAL
+	SpriteType = { 
+		name = "GFX_novaran_crisis"
+		texturefile = "gfx/event_pictures/novaran_crisis.dds"
 	}
 }

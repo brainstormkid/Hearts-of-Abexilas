@@ -1,0 +1,938 @@
+focus_tree = {
+	id = valora
+	continuous_focus_position = { x = 1860 y = 1960 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = VAL
+		}
+	}
+	#Matters of state
+	focus = {
+		id = VAL_matters_of_state
+		icon = GFX_goal_unknown
+		x = 10
+		y = 14
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+		}
+	}
+
+	#Novaran Crisis
+	focus = {
+		id = VAL_novaran_crisis
+		icon = GFX_focus_generic_support_the_left_right
+		x = 5
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		completion_reward = {
+		}
+	}
+
+	#Send in the army
+	focus = {
+		id = VAL_send_in_the_army
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
+		x = 6
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = VAL_novaran_crisis  }
+	}
+
+	#Negotiate with protestors
+	focus = {
+		id = VAL_negotiate_with_protestors
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 4
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+		prerequisite = { focus = VAL_novaran_crisis  }
+		mutually_exclusive = { focus = VAL_send_in_the_army  }
+	}
+
+	#Provisional goverment
+	focus = {
+		id = VAL_provisional_goverment
+		icon = GFX_VAL_provisional_goverment-646107
+		x = 7
+		y = 6
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_crush_the_autonomists  focus = VAL_weaken_herreran_autonomy  focus = VAL_recolonization  }
+	}
+
+	#Calm people down
+	focus = {
+		id = VAL_calm_people_down
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 2
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = VAL_negotiate_with_protestors  }
+		completion_reward = {
+			add_political_power = 50
+			
+			
+		}
+	}
+
+	#Promises of autonomy
+	focus = {
+		id = VAL_promises_of_autonomy
+		icon = GFX_focus_generic_treaty
+		x = 4
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+		prerequisite = { focus = VAL_negotiate_with_protestors  }
+		completion_reward = {
+			add_stability = 5
+		}
+	}
+
+	#Whithdraw our forces
+	focus = {
+		id = VAL_whithdraw_our_forces
+		icon = GFX_VAL_whithdraw_our_forces-59
+		x = 0
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_MEX_CHURCH_AUTHORITY
+		}
+		prerequisite = { focus = VAL_negotiate_with_protestors  }
+		completion_reward = {
+			add_war_support = -15
+
+			add_stability = 10
+
+
+		}
+	}
+
+	#Religious compromise
+	focus = {
+		id = VAL_religious_compromise
+		icon = GFX_goal_generic_improve_relations
+		x = 2
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MEX_CHURCH_AUTHORITY
+		}
+		prerequisite = { focus = VAL_whithdraw_our_forces  focus = VAL_promises_of_autonomy  focus = VAL_calm_people_down  }
+		completion_reward = {
+			add_stability = 15
+		}
+	}
+
+	#Crisis averted!
+	focus = {
+		id = VAL_crisisaverted
+		icon = GFX_VAL_crisisaverted-646368
+		x = 2
+		y = 4
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = VAL_religious_compromise  }
+	}
+
+	#Mobilise
+	focus = {
+		id = VAL_mobilise
+		icon = GFX_VAL_mobilise-645934
+		x = 7
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = VAL_send_in_the_army  }
+	}
+
+	#Work with the nationalists
+	focus = {
+		id = VAL_work_with_the_nationalists
+		icon = GFX_VAL_work_with_the_nationalists-428
+		x = 6
+		y = 3
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = VAL_mobilise  }
+	}
+
+	#Attack!
+	focus = {
+		id = VAL_attack
+		icon = GFX_goal_generic_attack_allies
+		x = 7
+		y = 4
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = VAL_work_with_the_nationalists  focus = VAL_prepare_the_armory  }
+	}
+
+	#Prepare the armory
+	focus = {
+		id = VAL_prepare_the_armory
+		icon = GFX_VAL_prepare_the_armory-645960
+		x = 8
+		y = 3
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = VAL_mobilise  }
+	}
+
+	#Recolonization?
+	focus = {
+		id = VAL_recolonization
+		icon = GFX_goal_generic_wolf_pack
+		x = 7
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_FRA_OCCUPATION_COST
+		}
+		prerequisite = { focus = VAL_attack  }
+	}
+
+	#Crush the autonomists
+	focus = {
+		id = VAL_crush_the_autonomists
+		icon = GFX_focus_spr_crush_the_revolution
+		x = 5
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = VAL_attack  }
+	}
+
+	#Weaken Herreran autonomy
+	focus = {
+		id = VAL_weaken_herreran_autonomy
+		icon = GFX_focus_hol_united_netherlands
+		x = 9
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_attack  }
+	}
+
+	#Govement reforms
+	focus = {
+		id = VAL_govement_reforms
+		icon = GFX_focus_generic_home_defense
+		x = 2
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MEX_CAUDILLO_REBELLION
+		}
+		prerequisite = { focus = VAL_crisisaverted  }
+	}
+
+	#The question of democracy
+	focus = {
+		id = VAL_the_question_of_democracy
+		icon = GFX_VAL_the_question_of_democracy-427
+		x = 2
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_govement_reforms  }
+	}
+
+	#Election
+	focus = {
+		id = VAL_election
+		icon = GFX_VAL_election-645614
+		x = 1
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_the_question_of_democracy  }
+	}
+
+	#Keep the course steady
+	focus = {
+		id = VAL_keep_the_course_steady
+		icon = GFX_focus_hun_elect_a_king
+		x = 5
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = VAL_the_question_of_democracy  }
+		mutually_exclusive = { focus = VAL_election  }
+	}
+
+	#Timocracy
+	focus = {
+		id = VAL_timocracy
+		icon = GFX_focus_AST_rats_tobruk
+		x = 6
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MEX_CAUDILLO_REBELLION
+		}
+		prerequisite = { focus = VAL_keep_the_course_steady  }
+	}
+
+	#Govermental support
+	focus = {
+		id = VAL_govermental_support
+		icon = GFX_focus_generic_military_academy
+		x = 4
+		y = 8
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_keep_the_course_steady  }
+	}
+
+	#Meritocracy
+	focus = {
+		id = VAL_meritocracy
+		icon = GFX_VAL_meritocracy-645661
+		x = 5
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_keep_the_course_steady  }
+	}
+
+	#Valora reborn!
+	focus = {
+		id = VAL_valorareborn
+		icon = GFX_focus_BUL_cooperate_with_the_zveno
+		x = 5
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+		prerequisite = { focus = VAL_timocracy  focus = VAL_meritocracy  focus = VAL_govermental_support  }
+	}
+
+	#Valoran Democratic party victory
+	focus = {
+		id = VAL_valoran_democratic_party_victory
+		icon = GFX_VAL_valoran_democratic_party_victory-645471
+		x = 0
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_election  }
+	}
+
+	#Valoran People's party victory
+	focus = {
+		id = VAL_valoranpeoplespartyvictory
+		icon = GFX_focus_ger_great_red_menace
+		x = 2
+		y = 8
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = VAL_election  }
+		mutually_exclusive = { focus = VAL_valoran_democratic_party_victory  }
+	}
+
+	#Start MerkMart construction
+	focus = {
+		id = VAL_start_merkmart_construction
+		icon = GFX_focus_generic_industry_1
+		x = 15
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+	#Start MerkMart construction
+	focus = {
+		id = VAL_start_merkmart_construction
+		icon = GFX_goal_unknown
+		x = 1
+		y = 13
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+	#Start MerkMart construction
+	focus = {
+		id = VAL_start_merkmart_construction
+		icon = GFX_goal_unknown
+		x = 2
+		y = 13
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+	#Start MerkMart construction
+	focus = {
+		id = VAL_start_merkmart_construction
+		icon = GFX_goal_unknown
+		x = 2
+		y = 13
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+	#Start MerkMart construction
+	focus = {
+		id = VAL_start_merkmart_construction
+		icon = GFX_goal_unknown
+		x = 2
+		y = 13
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+	#Gexopolis buildup
+	focus = {
+		id = VAL_gexopolis_buildup
+		icon = GFX_VAL_gexopolis_buildup-262058
+		x = 9
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_towns_buildup  }
+	}
+
+	#Millitary buildup
+	focus = {
+		id = VAL_millitary_buildup
+		icon = GFX_goal_generic_military_sphere
+		x = 13
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_start_merkmart_construction  }
+	}
+
+	#Solve the housing issue
+	focus = {
+		id = VAL_solve_the_housing_issue
+		icon = GFX_VAL_solve_the_housing_issue-646314
+		x = 17
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_start_merkmart_construction  }
+	}
+
+	#Millitary focus
+	focus = {
+		id = VAL_millitary_focus
+		icon = GFX_goal_generic_army_artillery2
+		x = 14
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_solve_the_housing_issue  focus = VAL_millitary_buildup  }
+	}
+
+	#a
+	focus = {
+		id = VAL_a
+		icon = GFX_goal_unknown
+		x = 16
+		y = 3
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_millitary_buildup  focus = VAL_solve_the_housing_issue  }
+		mutually_exclusive = { focus = VAL_millitary_focus  }
+	}
+
+	#Civilian focus
+	focus = {
+		id = VAL_civilian_focus
+		icon = GFX_goal_unknown
+		x = 16
+		y = 3
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_millitary_buildup  focus = VAL_solve_the_housing_issue  }
+		mutually_exclusive = { focus = VAL_millitary_focus  }
+	}
+
+	#Civilian focus
+	focus = {
+		id = VAL_civilian_focus
+		icon = GFX_goal_generic_construct_civilian
+		x = 16
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_millitary_buildup  } prerequisite = { focus = VAL_solve_the_housing_issue  }
+		mutually_exclusive = { focus = VAL_millitary_focus  }
+	}
+
+	#Continue with MerkMart buidling
+	focus = {
+		id = VAL_continue_with_merkmart_buidling
+		icon = GFX_goal_generic_trade
+		x = 15
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_millitary_focus  focus = VAL_civilian_focus  }
+	}
+
+	#Volounteer labour in MerkMart
+	focus = {
+		id = VAL_volounteer_labour_in_merkmart
+		icon = GFX_VAL_volounteer_labour_in_merkmart-645971
+		x = 15
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_continue_with_merkmart_buidling  }
+	}
+
+	#MerkMart done!
+	focus = {
+		id = VAL_merkmartdone
+		icon = GFX_focus_generic_industry_3
+		x = 17
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_volounteer_labour_in_merkmart  }
+	}
+
+	#Fill our stockpiles
+	focus = {
+		id = VAL_fill_our_stockpiles
+		icon = GFX_VAL_fill_our_stockpiles-645984
+		x = 17
+		y = 7
+		cost = 9
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_merkmartdone  }
+	}
+
+	#The grand oppening
+	focus = {
+		id = VAL_the_grand_oppening
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 17
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_fill_our_stockpiles  }
+	}
+
+	#Towns buildup
+	focus = {
+		id = VAL_towns_buildup
+		icon = GFX_VAL_towns_buildup-645971
+		x = 12
+		y = 6
+		cost = 12
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = VAL_volounteer_labour_in_merkmart  }
+	}
+
+	#Herrera buildup
+	focus = {
+		id = VAL_herrera_buildup
+		icon = GFX_VAL_herrera_buildup-645641
+		x = 11
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_towns_buildup  }
+	}
+
+	#Mertekai buildup
+	focus = {
+		id = VAL_mertekai_buildup
+		icon = GFX_VAL_mertekai_buildup-645953
+		x = 13
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_towns_buildup  }
+	}
+
+	#Exaltra buildup
+	focus = {
+		id = VAL_exaltra_buildup
+		icon = GFX_VAL_exaltra_buildup-645636
+		x = 15
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_towns_buildup  }
+	}
+
+	#Question of the army
+	focus = {
+		id = VAL_question_of_the_army
+		icon = GFX_VAL_question_of_the_army-646159
+		x = 21
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+	}
+
+	#An elite army
+	focus = {
+		id = VAL_an_elite_army
+		icon = GFX_focus_chi_army_reform
+		x = 19
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = VAL_question_of_the_army  }
+	}
+
+	#B tier army
+	focus = {
+		id = VAL_b_tier_army
+		icon = GFX_VAL_b_tier_army-645650
+		x = 23
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = VAL_question_of_the_army  }
+		mutually_exclusive = { focus = VAL_an_elite_army  }
+	}
+
+	#Form the Iristoyan pact
+	focus = {
+		id = VAL_form_the_iristoyan_pact
+		icon = GFX_goal_generic_alliance
+		x = 26
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+	}
+
+	#Invite Iristoyan nations
+	focus = {
+		id = VAL_invite_iristoyan_nations
+		icon = GFX_focus_TUR_reform_the_balkan_pact
+		x = 26
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = VAL_form_the_iristoyan_pact  }
+	}
+
+	#Union of equals
+	focus = {
+		id = VAL_union_of_equals
+		icon = GFX_goal_generic_territory_or_war
+		x = 26
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = VAL_invite_iristoyan_nations  }
+	}
+
+	#Into Gexas
+	focus = {
+		id = VAL_into_gexas
+		icon = GFX_focus_generic_home_defense
+		x = 26
+		y = 3
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = VAL_union_of_equals  }
+	}
+
+	#Teritorial defense
+	focus = {
+		id = VAL_teritorial_defense
+		icon = GFX_VAL_teritorial_defense-646313
+		x = 22
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = VAL_b_tier_army  }
+	}
+
+	#Better technology
+	focus = {
+		id = VAL_better_technology
+		icon = GFX_goal_generic_army_artillery2
+		x = 18
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_an_elite_army  }
+	}
+
+	#Expand the army
+	focus = {
+		id = VAL_expand_the_army
+		icon = GFX_VAL_expand_the_army-646246
+		x = 24
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = VAL_b_tier_army  }
+	}
+
+	#Deals with Amazonia
+	focus = {
+		id = VAL_deals_with_amazonia
+		icon = GFX_focus_generic_treaty
+		x = 20
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = VAL_an_elite_army  }
+	}
+
+	#Raiding focus
+	focus = {
+		id = VAL_raiding_focus
+		icon = GFX_focus_eng_global_defense
+		x = 20
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = VAL_deals_with_amazonia  }
+	}
+
+	#Custom weapon experiments
+	focus = {
+		id = VAL_custom_weapon_experiments
+		icon = GFX_VAL_custom_weapon_experiments-645854
+		x = 18
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = VAL_better_technology  }
+	}
+
+	#Reform the officer core
+	focus = {
+		id = VAL_reform_the_officer_core
+		icon = GFX_goal_generic_army_artillery
+		x = 19
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = VAL_custom_weapon_experiments  } prerequisite = { focus = VAL_raiding_focus  }
+	}
+
+	#An army worthy of Valora
+	focus = {
+		id = VAL_an_army_worthy_of_valora
+		icon = GFX_focus_mex_restore_the_army_of_christ
+		x = 21
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = VAL_reform_the_officer_core  focus = VAL_decentralised_army_structure  }
+	}
+
+	#A raider defence force
+	focus = {
+		id = VAL_a_raider_defence_force
+		icon = GFX_VAL_a_raider_defence_force-645661
+		x = 22
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = VAL_teritorial_defense  }
+	}
+
+	#More guns
+	focus = {
+		id = VAL_more_guns
+		icon = GFX_focus_generic_tank_production
+		x = 24
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_expand_the_army  }
+	}
+
+	#Decentralised army structure
+	focus = {
+		id = VAL_decentralised_army_structure
+		icon = GFX_VAL_decentralised_army_structure-646349
+		x = 23
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = VAL_more_guns  } prerequisite = { focus = VAL_a_raider_defence_force  }
+	}
+
+	#Make Gexico ours
+	focus = {
+		id = VAL_make_gexico_ours
+		icon = GFX_VAL_make_gexico_ours-645467
+		x = 25
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_into_gexas  }
+	}
+
+	#End Xrayven squabbling
+	focus = {
+		id = VAL_end_xrayven_squabbling
+		icon = GFX_focus_BUL_free_balkan_states
+		x = 27
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_into_gexas  }
+	}
+
+	#Finish off Firey
+	focus = {
+		id = VAL_finish_off_firey
+		icon = GFX_focus_ger_bulwark_against_bolshevism
+		x = 26
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_end_xrayven_squabbling  } prerequisite = { focus = VAL_make_gexico_ours  }
+	}
+
+	#Iristoya united
+	focus = {
+		id = VAL_iristoya_united
+		icon = GFX_VAL_iristoya_united-645808
+		x = 26
+		y = 6
+		cost = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_finish_off_firey  }
+	}
+
+}

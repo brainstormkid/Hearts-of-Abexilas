@@ -96,7 +96,7 @@
  Gardenia_integration.5.b:0 "Build new institutions"
  
  #Arcael events
-Arcael.1.t:0 "Massive far-right protests"
+ Arcael.1.t:0 "Massive far-right protests"
  Arcael.1.d:0 "Massive protests were organized today in Saleja and Arcaeus in response to the democratization reforms. While they do not currently represent a significant danger, their radicalization is increasing, and the protests could escalate into a full-blown uprising if nothing is done. What should we do?"
  Arcael.1.a:0 "Crack down on these protests and launch thourough investigations."
  Arcael.1.b:0 "Leave them alone, they don't represent an actual threat to us."
@@ -133,3 +133,7 @@ Arcael.1.t:0 "Massive far-right protests"
  Arcael.10.d:0 "Grave news is coming from Qatakema! During the night, the Zilatran government unilaterally declared independence from us! They are backed by the People's Republic of Arcael, which will aid them if we retaliate. What should our response be?"
  Arcael.10.a:0 "I don't care, launch an invasion right now !"
  Arcael.10.b:0 "Grant them independence, but negotiate for a good amount of money."
+ 
+ #VALORA EVENTS
+ valora.1.t:0 "Novaran Crisis"
+ valora.1.d:0 "The rebels in Novara had managed to drive our and loyalist troops of the streets of the city! How shall we react to this treason?"
