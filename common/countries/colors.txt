@@ -255,6 +255,11 @@ EIS = {
 	color_ui = rgb { 195 240 255 }
 }
 
+EJZ = {
+	color = rgb { 40 93 108 }
+	color_ui = rgb { 40 93 108 }
+}
+
 ELD = {
 	color = rgb { 0 168 107 }
 	color_ui = rgb { 0 168 107 }
@@ -663,6 +668,11 @@ TAU = {
 TES = {
 	color = rgb { 47 48 48 }
 	color_ui = rgb { 47 48 48 }
+}
+
+TET = {
+	color = rgb { 41 222 101 }
+	color_ui = rgb { 41 222 101 }
 }
 
 THE = {

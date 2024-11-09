@@ -288,6 +288,10 @@
  EIS_absolutist_DEF:1 "the Blessed Realm of Eiszura"
  EIS_absolutist_ADJ:0 "Eiszuratti"
  
+ EJZ_absolutist:1 "Grousharjatum av Ejznrosa"
+ EJZ_absolutist_DEF:1 "the Grousharjatum av Ejznrosa"
+ EJZ_absolutist_ADJ:0 "Ejznrosii"
+ 
  ELD_absolutist:1 "Kingdom of Eldorath"
  ELD_absolutist_DEF:1 "the Kingdom of Eldorath"
  ELD_absolutist_ADJ:0 "Eldorathi"
@@ -761,6 +765,10 @@
  TES_absolutist:1 "Testudo"
  TES_absolutist_DEF:1 "the Island Kingdom of Testudo"
  TES_absolutist_ADJ:0 "Testudese"
+ 
+ TET_absolutist:1 "Serene Republic of Testificas"
+ TET_absolutist_DEF:1 "the Serene Republic of Testificas"
+ TET_absolutist_ADJ:0 "Testificate"
  
  THE_absolutist:1 "Theiónikos"
  THE_absolutist_DEF:1 "the Remnant of Theiónikos"
