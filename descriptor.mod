@@ -36,6 +36,7 @@ replace_path="history/units"
 
 replace_path="map/supplyareas"
 replace_path="map/strategicregions"
+
 replace_path="gfx/loadingscreens"
 
 replace_path="events"
