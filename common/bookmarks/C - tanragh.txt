@@ -9,7 +9,7 @@ bookmarks = {
 		
 		CAS = {
 			history = CAS_DESC
-			ideology = neutrality
+			ideology = absolutist
 			ideas={
 				
 			}
@@ -20,7 +20,7 @@ bookmarks = {
 		
 		AKA = {
 			history = AKA_DESC
-			ideology = neutrality
+			ideology = absolutist
 			ideas={
 				
 			}
@@ -31,7 +31,7 @@ bookmarks = {
 		
 		IRI = {
 			history = IRI_DESC
-			ideology = neutrality
+			ideology = absolutist
 			ideas={
 				
 			}
@@ -42,7 +42,7 @@ bookmarks = {
 		
 		ASR = {
 			history = ASR_DESC
-			ideology = neutrality
+			ideology = absolutist
 			ideas={
 				
 			}
@@ -53,7 +53,7 @@ bookmarks = {
 		
 		SAR = {
 			history = SAR_DESC
-			ideology = neutrality
+			ideology = absolutist
 			ideas={
 				
 			}
@@ -64,7 +64,7 @@ bookmarks = {
 		
 		CES = {
 			history = CES_DESC
-			ideology = neutrality
+			ideology = absolutist
 			ideas={
 				
 			}
@@ -75,7 +75,7 @@ bookmarks = {
 
 		AKI = {
 			history = AKI_DESC
-			ideology = neutrality
+			ideology = absolutist
 			ideas={
 				
 			}
@@ -93,7 +93,7 @@ bookmarks = {
 		"RIT"={
 			minor = yes
 			history = "RIT_DESC"
-			ideology = neutrality
+			ideology = absolutist
 			ideas = {
 				
 			}
@@ -105,7 +105,7 @@ bookmarks = {
 		"HEL"={
 			minor = yes
 			history = "HEL_DESC"
-			ideology = neutrality
+			ideology = absolutist
 			ideas = {
 				
 			}
@@ -117,7 +117,7 @@ bookmarks = {
 		"DRA"={
 			minor = yes
 			history = "DRA_DESC"
-			ideology = neutrality
+			ideology = absolutist
 			ideas = {
 				
 			}

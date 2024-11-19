@@ -6,7 +6,6 @@ bookmarks = {
 		picture = "GFX_select_date_IRISTOYA"
 		default_country = "GER"
 		default = yes
-		}
 
         UET = {
             minor = yes
