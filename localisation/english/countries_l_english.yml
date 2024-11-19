@@ -874,6 +874,10 @@
  VEL_absolutist_DEF:1 "the Grand Duchy of Veliskya"
  VEL_absolutist_ADJ:0 "Veliskyan"
  
+ VER_absolutist:1 "Vermerian Domain"
+ VER_absolutist_DEF:1 "the Vermerian Domain"
+ VER_absolutist_ADJ:0 "Vermerian"
+ 
  VES_absolutist:1 "Earldom of Vescognie"
  VES_absolutist_DEF:1 "the Earldom of Vescognie"
  VES_absolutist_ADJ:0 "Vescognian"

@@ -756,23 +756,28 @@ VAS = {
 }
 
 VEA = {
-	color = rgb { 25  60  128 }
-	color_ui = rgb { 25  60  128 }
+	color = rgb { 25 60 128 }
+	color_ui = rgb { 25 60 128 }
 }
 
 VEC = {
-	color = rgb { 191  4  4 }
-	color_ui = rgb { 191  4  4 }
+	color = rgb { 191 4 4 }
+	color_ui = rgb { 191 4 4 }
 }
 
 VED = {
-	color = rgb { 14  209  151 }
-	color_ui = rgb { 14  209  151 }
+	color = rgb { 14 209 151 }
+	color_ui = rgb { 14 209 151 }
 }
 
 VEL = {
-	color = rgb { 143  0  0 }
-	color_ui = rgb { 143  0  0 }
+	color = rgb { 143 0 0 }
+	color_ui = rgb { 143 0 0 }
+}
+
+VER = {
+	color = rgb { 76 234 255 }
+	color_ui = rgb { 76 234 255 }
 }
 
 VES = {
