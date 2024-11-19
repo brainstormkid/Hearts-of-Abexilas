@@ -50,8 +50,8 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_ideology_social_liberalist_group"
-		texturefile = gfx/interface/ideologies/social_liberalist_group.dds
+		name = "GFX_ideology_liberalist_group"
+		texturefile = gfx/interface/ideologies/liberalist_group.dds
 	}
 	
 	SpriteType = {

@@ -91,12 +91,12 @@ set_popularities = {
 
     anarchist = 2
     xeroist = 0
-    theocratic_socialist = 0
+    radical_socialist = 0
     revisionist = 0
 
     libertarianist = 0
     centrist = 0
-    social_liberalist = 2
+    liberalist = 2
     progressivist = 3
     conservatist = 0
 

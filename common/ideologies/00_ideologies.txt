@@ -270,18 +270,18 @@ ideologies = {
 		}
 	}
 	
-	theocratic_socialist = {
+	radical_socialist = {
 
 		types = {
-			theocratic_socialist_subtype = {}
+			radical_socialist_subtype = {}
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_THEOCRATIC_SOCIALIST_1"
-			"FACTION_NAME_THEOCRATIC_SOCIALIST_2"
-			"FACTION_NAME_THEOCRATIC_SOCIALIST_3"
-			"FACTION_NAME_THEOCRATIC_SOCIALIST_4"
-			"FACTION_NAME_THEOCRATIC_SOCIALIST_5"
+			"FACTION_NAME_RADICAL_SOCIALIST_1"
+			"FACTION_NAME_RADICAL_SOCIALIST_2"
+			"FACTION_NAME_RADICAL_SOCIALIST_3"
+			"FACTION_NAME_RADICAL_SOCIALIST_4"
+			"FACTION_NAME_RADICAL_SOCIALIST_5"
 		}
 
 		color = { 215 227 211 }
@@ -451,19 +451,19 @@ ideologies = {
 		ai_ideology_wanted_units_factor = 1.5 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
 	
-	social_liberalist = {
+	liberalist = {
 
 		types = {
-		social_liberalist_subtype = {}
+		liberalist_subtype = {}
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_SOCIAL_LIBERALIST_1"
-			"FACTION_NAME_SOCIAL_LIBERALIST_2"
-			"FACTION_NAME_SOCIAL_LIBERALIST_3"
-			"FACTION_NAME_SOCIAL_LIBERALIST_4"
-			"FACTION_NAME_SOCIAL_LIBERALIST_5"
-			"FACTION_NAME_SOCIAL_LIBERALIST_6"
+			"FACTION_NAME_LIBERALIST_1"
+			"FACTION_NAME_LIBERALIST_2"
+			"FACTION_NAME_LIBERALIST_3"
+			"FACTION_NAME_LIBERALIST_4"
+			"FACTION_NAME_LIBERALIST_5"
+			"FACTION_NAME_LIBERALIST_6"
 		}
 
 		color = { 5 181 161 }

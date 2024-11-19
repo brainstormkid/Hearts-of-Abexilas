@@ -12,7 +12,7 @@ set_popularities = {
 	monarchist = 57
 	accelerationist = 20
 	xeroist = 3
-	social_liberalist = 4
+	liberalist = 4
 	conservatist = 6
 	radical_nationalist = 10
 }
