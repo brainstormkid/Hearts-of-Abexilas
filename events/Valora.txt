@@ -5,6 +5,8 @@ country_event = {
 	id = valora.1
 	title = valora.1.t
 	desc = valora.1.d
+	
+	is_triggered_only = yes
 
 	picture = GFX_novaran_crisis
 }
