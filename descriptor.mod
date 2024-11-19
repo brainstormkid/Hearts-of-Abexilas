@@ -43,4 +43,4 @@ replace_path="events"
 
 replace_path="music"
 
-supported_version="1.14.*"
+supported_version="1.15.*"
