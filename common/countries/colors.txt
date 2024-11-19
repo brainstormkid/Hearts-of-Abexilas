@@ -295,6 +295,11 @@ EXO = {
 	color_ui = rgb { 253 50 132 }
 }
 
+FAV = {
+	color = rgb { 178 237 241 }
+	color_ui = rgb { 178 237 241 }
+}
+
 GAL = {
 	color = rgb { 215 0 202 }
 	color_ui = rgb { 215 0 202 }
@@ -448,6 +453,11 @@ LEV = {
 LEY = {
 	color = rgb { 51 76 116 }
 	color_ui = rgb { 51 76 116 }
+}
+
+LIR = {
+	color = rgb { 126 29 182 }
+	color_ui = rgb { 126 29 182 }
 }
 
 LIS = {
