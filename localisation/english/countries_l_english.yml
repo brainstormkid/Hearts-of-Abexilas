@@ -698,6 +698,10 @@
  ROH_absolutist_DEF:1 "the Magehold of Rohldan"
  ROH_absolutist_ADJ:0 "Rohldanian"
  
+ ROZ_absolutist:1 "Kingdom of Rozow"
+ ROZ_absolutist_DEF:1 "the Kingdom of Rozow"
+ ROZ_absolutist_ADJ:0 "Rozowian"
+ 
  SAM_absolutist:1 "Grand Duchy of Samora"
  SAM_absolutist_DEF:1 "the Grand Duchy of Samora"
  SAM_absolutist_ADJ:0 "Samoran"

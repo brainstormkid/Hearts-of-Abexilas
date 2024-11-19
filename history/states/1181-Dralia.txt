@@ -1,10 +1,16 @@
 state={
 	id=1181
-	name="STATE_11781"
+	name="STATE_1181"
 	provinces={
 		101 176 1037 1487 2435 2555 2816 3418 4628 4803 5017 5025 5034 5731 5767 6185 6733 15117 15155 15164 15180 15193 15200 15205 15206 15229 15250 15258 15273
 	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
+	history={
+		owner = ROZ
+		buildings = {
+		}
+		add_core_of = ROZ
+	}
 }
