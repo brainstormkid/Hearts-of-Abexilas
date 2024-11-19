@@ -700,6 +700,11 @@ TIR = {
 	color_ui = rgb { 17 96 74 }
 }
 
+TRA = {
+	color = rgb { 20 67 189 }
+	color_ui = rgb { 20 67 189 }
+}
+
 TSI = {
 	color = rgb { 0 225 255 }
 	color_ui = rgb { 0 225 255 }

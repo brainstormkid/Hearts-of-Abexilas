@@ -790,6 +790,10 @@
  TIR_neutrality_DEF:1 "the Sailing Republic of Tirgus"
  TIR_neutrality_ADJ:0 "Tirgans"
  
+ TRA_absolutist:1 "Admirality of Trafalgar"
+ TRA_absolutist_DEF:1 "the Admirality of Trafalgar"
+ TRA_absolutist_ADJ:0 "Trafalgan"
+ 
  TSI_absolutist:1 "Duchy of Tsiladen"
  TSI_absolutist_DEF:1 "the Duchy of Tsiladen"
  TSI_absolutist_ADJ:0 "Tsilad"
