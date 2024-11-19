@@ -31,9 +31,11 @@ economic_disaster_category = {
 				days = 365
 			}
 			hidden_effect = {
-				remove_idea = economic_collapse
-				remove_idea = economic_collapse_1
-				remove_idea = economic_collapse_2
+				remove_ideas = { 
+					economic_collapse
+					economic_collapse_1
+					economic_collapse_2
+				}
 			}
 		}
 	}
