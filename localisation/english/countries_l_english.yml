@@ -366,6 +366,10 @@
  FAV_absolutist_DEF:1 "the Favei Clavaret"
  FAV_absolutist_ADJ:0 "Clavaretian"
  
+ FLO_absolutist:1 "Floodhaven"
+ FLO_absolutist_DEF:1 "the Floodhaven"
+ FLO_absolutist_ADJ:0 "Floodhavian"
+ 
  GAL_absolutist:1 "Gallania"
  GAL_absolutist_DEF:1 "the Gallania"
  GAL_absolutist_ADJ:0 "Gallanian"
