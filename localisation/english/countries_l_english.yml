@@ -211,6 +211,10 @@
  CAS_absolutist_DEF:1 "the Grand Regency of Castanor"
  CAS_absolutist_ADJ:0 "Castanoran"
  
+ CAT_absolutist:1 "First Communike of Castonia"
+ CAT_absolutist_DEF:1 "the First Communike of Castonia"
+ CAT_absolutist_ADJ:0 "Castonian"
+ 
  CEL_absolutist:1 "Argovor Celrea"
  CEL_absolutist_DEF:1 "the Argovor Celrea"
  CEL_absolutist_ADJ:0 "Celrean"
