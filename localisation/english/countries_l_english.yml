@@ -946,3 +946,7 @@
  ZER_absolutist_DEF:1 "the Kingdom of Zeril"
  ZER_absolutist_ADJ:0 "Zerilin"
  
+ ZUR_absolutist:1 "Tyros of Zuritan"
+ ZUR_absolutist_DEF:1 "the Tyros of Zuritan"
+ ZUR_absolutist_ADJ:0 "Zuritanian"
+ 

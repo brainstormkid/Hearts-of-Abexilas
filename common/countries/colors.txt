@@ -864,3 +864,8 @@ ZIL = {
 	color = rgb { 183 58 87 }
 	color_ui = rgb { 183 58 87 }
 }
+
+ZUR = {
+	color = rgb { 14 30 120 }
+	color_ui = rgb { 14 30 120 }
+}
