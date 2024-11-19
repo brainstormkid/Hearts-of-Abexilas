@@ -431,6 +431,10 @@
  IRI_absolutist_DEF:1 "the Kingdom of Irithel"
  IRI_absolutist_ADJ:0 "Irithe"
  
+ IRS_absolutist:1 "Tsardom of Irisnia"
+ IRS_absolutist_DEF:1 "the Tsardom of Irisnia"
+ IRS_absolutist_ADJ:0 "Irisnian"
+ 
  ISH_absolutist:1 "Empire of Ischanor"
  ISH_absolutist_DEF:1 "the Empire of Ischanor"
  ISH_absolutist_ADJ:0 "Ischanori"

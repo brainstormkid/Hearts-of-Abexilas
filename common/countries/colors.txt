@@ -370,6 +370,11 @@ IRI = {
 	color_ui = rgb { 206 111 211 }
 }
 
+IRS = {
+	color = rgb { 53 53 53 }
+	color_ui = rgb { 53 53 53 }
+}
+
 ISH = {
 	color = rgb { 150 0 0 }
 	color_ui = rgb { 150 0 0 }
