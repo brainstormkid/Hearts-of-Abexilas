@@ -740,6 +740,11 @@ TYA = {
 	color_ui = rgb { 42 41 36 }
 }
 
+TZA = {
+	color = rgb { 255 222 89 }
+	color_ui = rgb { 255 222 89 }
+}
+
 UET = {
 	color = rgb { 135 4 170 }
 	color_ui = rgb { 135 4 170 }
@@ -796,8 +801,13 @@ VER = {
 }
 
 VES = {
-	color = rgb { 208  186  90 }
-	color_ui = rgb { 208  186  90 }
+	color = rgb { 208 186 90 }
+	color_ui = rgb { 208 186 90 }
+}
+
+VET = {
+	color = rgb { 77 183 80 }
+	color_ui = rgb { 77 183 80 }
 }
 
 VHA = {

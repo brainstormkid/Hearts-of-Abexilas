@@ -822,6 +822,10 @@
  TYA_absolutist_DEF:1 "the Tyahil Commomwealth"
  TYA_absolutist_ADJ:0 "Tyahilian"
  
+ TZA_absolutist:1 "Imperium of Tzainore"
+ TZA_absolutist_DEF:1 "the Imperium of Tzainore"
+ TZA_absolutist_ADJ:0 "Tzainorian"
+ 
  UET_monarchist:1 "City State of Uetze"
  UET_monarchist_DEF:1 "the City State of Uetze"
  UET_monarchist_ADJ:0 "Uetze"
@@ -893,6 +897,10 @@
  VES_absolutist:1 "Earldom of Vescognie"
  VES_absolutist_DEF:1 "the Earldom of Vescognie"
  VES_absolutist_ADJ:0 "Vescognian"
+ 
+ VET_absolutist:1 "Kingdom of Vertalios"
+ VET_absolutist_DEF:1 "the Kingdom of Vertalios"
+ VET_absolutist_ADJ:0 "Vertalian"
  
  VHA_absolutist:1 "Empire of Vhagaria"
  VHA_absolutist_DEF:1 "the Empire of Vhagaria"
