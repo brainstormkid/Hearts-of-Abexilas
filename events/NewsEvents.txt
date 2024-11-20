@@ -105,3 +105,77 @@ news_event = {
 		custom_effect_tooltip = PLUGIN_ENABLED
 	}
 }
+
+
+# Ithrun Race - Formula Abex (HIDDEN)
+news_event = {
+	id = news.6
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		random_list = {
+			50 = { ENG = { news_event = { id = news.7 } } }
+			35 = { ENG = { news_event = { id = news.8 } } }
+			15 = { ENG = { news_event = { id = news.9 } } }
+		}
+	}
+	
+	option = {
+		name = news.6.a
+	}
+}
+
+# Erenomm Wins Race - Formula Abex
+news_event = {
+	id = news.7
+	title = news.7.t
+	desc = "news.7.d"
+
+	picture = GFX_news_event_007
+
+	major = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "news.7.a"
+	}
+}
+
+# AmazingAstro Wins Race - Formula Abex
+news_event = {
+	id = news.8
+	title = news.8.t
+	desc = "news.8.d"
+
+	picture = GFX_news_event_007
+
+	major = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "news.8.a"
+	}
+}
+
+# BrainlessPotato Wins Race - Formula Abex
+news_event = {
+	id = news.9
+	title = news.9.t
+	desc = "news.9.d"
+
+	picture = GFX_news_event_007
+
+	major = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "news.9.a"
+	}
+}
