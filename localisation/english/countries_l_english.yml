@@ -163,6 +163,10 @@
  AVA_absolutist_DEF:1 "the Empire of Avalor"
  AVA_absolutist_ADJ:0 "Avaloran"
  
+ AXE_absolutist:1 "Third Kingdom of Axelm"
+ AXE_absolutist_DEF:1 "the Third Kingdom of Axelm"
+ AXE_absolutist_ADJ:0 "Axelmian"
+ 
  AZE_absolutist:1 "Azeraan Federation"
  AZE_absolutist_DEF:1 "the Azeraan Federation"
  AZE_absolutist_ADJ:0 "Azeraani"

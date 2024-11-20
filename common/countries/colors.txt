@@ -105,6 +105,11 @@ AVA = {
 	color_ui = rgb { 139 0 0 }
 }
 
+AXE = {
+	color = rgb { 14 98 6 }
+	color_ui = rgb { 14 98 6 }
+}
+
 AZE = {
 	color = rgb { 24 132 142 }
 	color_ui = rgb { 24 132 142 }
