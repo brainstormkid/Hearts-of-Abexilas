@@ -118,9 +118,9 @@ news_event = {
 	
 	immediate = {
 		random_list = {
-			50 = { ENG = { news_event = { id = news.7 } } }
-			35 = { ENG = { news_event = { id = news.8 } } }
-			15 = { ENG = { news_event = { id = news.9 } } }
+			50 = { CAS = { news_event = { id = news.7 } } }
+			35 = { CAS = { news_event = { id = news.8 } } }
+			15 = { CAS = { news_event = { id = news.9 } } }
 		}
 	}
 	
