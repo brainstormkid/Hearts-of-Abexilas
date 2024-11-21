@@ -1,8 +1,8 @@
 capital = 908
 
 set_research_slots = 4
-set_stability = 0.82
-set_war_support = 0.37
+set_stability = 0.55
+set_war_support = 0.25
 add_command_power = 20
 
 set_technology = {
@@ -20,6 +20,16 @@ set_technology = {
 	fuel_refining = 1
 	basic_train = 1
 }
+
+recruit_character = AKS_tsukikage
+recruit_character = AKS_akira
+recruit_character = AKS_lason
+recruit_character = AKS_kyoujiro
+recruit_character = AKS_daniel
+recruit_character = AKS_helena
+recruit_character = AKS_drink
+recruit_character = AKS_tigiyuto
+recruit_character = AKS_chifu
 
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -85,7 +95,7 @@ set_politics = {
 }
 set_popularities = {
 	absolutist = 3
-    monarchist = 65
+    monarchist = 55
     theocratist = 10
     accelerationist = 0
 
@@ -98,18 +108,158 @@ set_popularities = {
     centrist = 0
     liberalist = 2
     progressivist = 3
-    conservatist = 0
+    conservatist = 10
 
-    imperialist = 15
-    radical_nationalist = 0
+    imperialist = 12
+    radical_nationalist = 3
 
 }
 create_country_leader = {
 	name = "Tsukikage Akashiro"
 	desc = "POLITICS_TSUKIKAGE_DESC"
-	#picture = "gfx/leaders/AKS/Tsukikage.dds"
+	picture = "gfx/leaders/AKS/Tsukikage.dds"
 	expire = "1965.1.1"
 	ideology = monarchist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Tsukikage Akashiro"
+	desc = "POLITICS_TSUKIKAGE_DESC"
+	picture = "gfx/leaders/AKS/Tsukikage.dds"
+	expire = "1965.1.1"
+	ideology = absolutist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Lason Fujishina"
+	desc = "POLITICS_LASON_DESC"
+	picture = "gfx/leaders/AKS/Lason.dds"
+	expire = "1965.1.1"
+	ideology = imperialist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Kyoujiro Kirumasa"
+	desc = "POLITICS_KYOUJIRO_DESC"
+	picture = "gfx/leaders/AKS/Kyoujiro.dds"
+	expire = "1965.1.1"
+	ideology = accelerationist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Daniel Lithoxa"
+	desc = "POLITICS_DANIEL_DESC"
+	picture = "gfx/leaders/AKS/Daniel.dds"
+	expire = "1965.1.1"
+	ideology = anarchist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Daniel Lithoxa"
+	desc = "POLITICS_DANIEL_DESC"
+	picture = "gfx/leaders/AKS/Daniel.dds"
+	expire = "1965.1.1"
+	ideology = xeroist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Helena Kirumasa"
+	desc = "POLITICS_HELENA_DESC"
+	picture = "gfx/leaders/AKS/Helena.dds"
+	expire = "1965.1.1"
+	ideology = libertarianist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Drink Kirumasa"
+	desc = "POLITICS_DRINK_DESC"
+	picture = "gfx/leaders/AKS/Drink.dds"
+	expire = "1965.1.1"
+	ideology = revisionist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Tigiyuto Akashiro"
+	desc = "POLITICS_TIGIYUTO_DESC"
+	picture = "gfx/leaders/AKS/Tigiyuto.dds"
+	expire = "1965.1.1"
+	ideology = liberalist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Tigiyuto Akashiro"
+	desc = "POLITICS_TIGIYUTO_DESC"
+	picture = "gfx/leaders/AKS/Tigiyuto.dds"
+	expire = "1965.1.1"
+	ideology = progressivist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Chifu Morimoto"
+	desc = "POLITICS_CHIFU_DESC"
+	picture = "gfx/leaders/AKS/Chifu.dds"
+	expire = "1965.1.1"
+	ideology = conservatist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Chifu Morimoto"
+	desc = "POLITICS_CHIFU_DESC"
+	picture = "gfx/leaders/AKS/Chifu.dds"
+	expire = "1965.1.1"
+	ideology = radical_nationalist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Helena Kirumasa"
+	desc = "POLITICS_HELENA_DESC"
+	picture = "gfx/leaders/AKS/Helena.dds"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Akira Akashiro"
+	desc = "POLITICS_AKIRA_DESC"
+	picture = "gfx/leaders/AKS/Akira.dds"
+	expire = "1965.1.1"
+	ideology = theocratist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Akira Akashiro"
+	desc = "POLITICS_AKIRA_DESC"
+	picture = "gfx/leaders/AKS/Akira.dds"
+	expire = "1965.1.1"
+	ideology = centrist_subtype
 	traits = {
 		#
 	}
@@ -119,6 +269,6 @@ set_convoys = 220
 
 # DIPLOMACY
 set_autonomy = {
-	target = ZHA
-	autonomous_state =  autonomy_dominion
+	target = SUN
+	autonomous_state = autonomy_dominion
 }
