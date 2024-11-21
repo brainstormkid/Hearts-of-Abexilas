@@ -1,7 +1,7 @@
 state={
 	id=903
 	name="STATE_903"
-	manpower=451000
+	manpower=1353000
 
 	state_category = large_city
 	resources={
