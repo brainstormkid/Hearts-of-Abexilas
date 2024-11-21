@@ -60,6 +60,9 @@
  AKS_radical_nationalist:1 "Akashiren Imperial Army"
  AKS_radical_nationalist_DEF:1 "the Akashiren Imperial Army"
  AKS_radical_nationalist_ADJ:0 "Akashiren"
+ AKS_liberalist:1 "Akashiren Democratic Republic"
+ AKS_liberalist_DEF:1 "the Akashiren Army"
+ AKS_liberalist_ADJ:0 "Akashiren"
  
  ALA_absolutist:1 "Caliphate of Alamara"
  ALA_absolutist_DEF:1 "the Caliphate of Alamara"
