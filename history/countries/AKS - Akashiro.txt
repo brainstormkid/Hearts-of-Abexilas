@@ -1,8 +1,8 @@
 capital = 908
 
 set_research_slots = 4
-set_stability = 0.55
-set_war_support = 0.25
+set_stability = 0.35
+set_war_support = 0.30
 add_command_power = 20
 
 set_technology = {
@@ -74,15 +74,14 @@ if = {
 		improved_airplane_launcher = 1
 		basic_dp_light_battery = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
 }
 
 add_ideas = {
-	The_Ancestral_Clans
-	Traditionalist_Society
-	Shigensha_Figurehead
-	Home_of_The_Tenshin
-	All_Power_To_The_Shogun
+	the_ancestral_clans
+	traditionalist_society
+	shigensha_figurehead
+	home_of_the_tenshin
+	all_power_to_the_shogun
 }
 
 oob = "AKS"
