@@ -535,6 +535,11 @@ MIZ = {
 	color_ui = rgb { 237 218 2 }
 }
 
+MYN = {
+	color = rgb { 211 184 78 }
+	color_ui = rgb { 211 184 78 }
+}
+
 MYR = {
 	color = rgb { 150 13 43 }
 	color_ui = rgb { 150 13 43 }

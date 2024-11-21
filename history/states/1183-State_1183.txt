@@ -1,0 +1,16 @@
+state={
+	id=1183
+	name="STATE_11783"
+	provinces={
+		1881 2007 3594 3837 6310 14296 14348
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = MYN
+		buildings = {
+		}
+		add_core_of = MYN
+	}
+}
