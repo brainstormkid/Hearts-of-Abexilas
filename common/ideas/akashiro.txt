@@ -1,0 +1,202 @@
+ideas = {
+	country = {
+		the_ancestral_clans = {
+			picture = the_ancestral_clans
+			allowed = {
+				TAG = AKS
+			}
+
+			available = {
+			}
+
+			cancel = {
+			    OR = {
+			        has_government = fascism
+			        has_government = communism
+			    }
+			}
+
+			allowed_civil_war = {
+			    always = yes
+			}
+
+			modifier = {
+				conscription_factor = 0.05
+	    	}
+    	}
+		traditionalist_society = {
+			picture = traditionalist_society
+			allowed = {
+				TAG = AKS
+			}
+
+			available = {
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+			    always = yes
+			}
+
+			modifier = {
+				conscription_factor = -0.3
+				war_support_factor = -0.1
+				consumer_goods_factor = -0.05
+	    	}
+    	}
+		shigensha_figurehead = {
+			picture = shigensha_figurehead
+			allowed = {
+				TAG = AKS
+			}
+
+			available = {
+			}
+
+			allowed_civil_war = {
+			    always = yes
+			}
+
+			cancel = {
+                OR = {
+                    has_government = accelerationist
+                    has_government = anarchist
+                    has_government = revisionist
+                    has_government = imperialist
+                    has_government = radical_nationalist
+                }
+            }
+
+			modifier = {
+			    join_faction_tension = 0.5
+			    send_volunteers_tension = 0.1
+			    guarantee_tension = 0.5
+			    political_power_factor = 0.1
+			    defensive_war_stability_factor = -0.1
+			    offensive_war_stability_factor = 0.1
+			    trade_opinion_factor = 0.2
+			    ai_badass_factor = 0.03
+			    ai_get_ally_desire_factor = -0.5
+			}
+	    }
+		home_of_the_tenshin = {
+			picture = home_of_the_tenshin
+			allowed = {
+				TAG = AKS
+			}
+
+			available = {
+			}
+
+			allowed_civil_war = {
+			    always = yes
+			}
+
+			modifier = {
+			    stability_factor = -0.17
+                consumer_goods_factor = 0.10
+                production_speed_industrial_complex_factor = -0.15
+                production_speed_arms_factory_factor = -0.15
+			}
+		}
+		johns_mark_2 = {
+			picture = johns_mark
+			allowed = {
+				TAG = AKS
+			}
+
+			available = {
+			}
+
+			allowed_civil_war = {
+			    always = yes
+			}
+
+			modifier = {
+                stability_factor = -0.10
+                consumer_goods_factor = 0.05
+                production_speed_industrial_complex_factor = -0.1
+                production_speed_arms_factory_factor = -0.1
+            }
+		}
+		johns_mark_3 = {
+			picture = johns_mark
+			allowed = {
+				TAG = AKS
+			}
+
+			available = {
+			}
+
+			allowed_civil_war = {
+			    always = yes
+			}
+
+			modifier = {
+                stability_factor = -0.05
+                production_speed_industrial_complex_factor = -0.05
+                production_speed_arms_factory_factor = -0.05
+            }
+        }
+		all_power_to_the_shogun = {
+			picture = all_power_to_the_shogun
+			allowed = {
+				TAG = AKS
+			}
+
+			available = {
+			}
+
+			allowed_civil_war = {
+			    always = yes
+			}
+
+			modifier = {
+			    conversion_cost_civ_to_mil_factor = -0.05 #good
+			    conversion_cost_mil_to_civ_factor = -0.05 #good
+                production_factory_max_efficiency_factor = 0.05 #good
+			    production_factory_start_efficiency_factor = 0.05 #good
+                production_factory_efficiency_gain_factor = -0.05 #bad
+                production_lack_of_resource_penalty_factor = 0.05 #bad
+            }
+		}
+		the_inflation_reduction_act = {
+		    picture = eff_ministries
+            allowed = {
+            	TAG = AKS
+            }
+
+            available = {
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            modifier = {
+                consumer_goods_factor = -0.05 #good
+                political_power_gain = -0.1 #bad
+            }
+		}
+		devalue_currency = {
+		    picture = generic_devalue_currency
+            allowed = {
+            	TAG = AKS
+            }
+
+            available = {
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            modifier = {
+                consumer_goods_factor = 0.05 #bad
+                trade_laws_cost_factor = -0.20
+            }
+		}
+	}
+}
