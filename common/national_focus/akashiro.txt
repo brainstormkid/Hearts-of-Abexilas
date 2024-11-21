@@ -1,0 +1,406 @@
+focus_tree = {
+	id = akashiro-focus-tree
+	continuous_focus_position = { x = 0 y = 1050 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AKS
+		}
+	}
+
+	focus = {
+		id = AKS_national_bank
+		icon = GFX_ERC_cofhan_infrastructure-685989
+		x = 2
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+		}
+	}
+	#Cofhan Infrastructure
+	focus = {
+		id = AKS_inflation_reduction_act
+		icon = GFX_ERC_cofhan_infrastructure-685989
+		x = 2
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+            add_ideas = the_inflation_reduction_act
+		}
+		prerequisite = { focus = AKS_national_bank  }
+	}
+	focus = {
+		id = AKS_devalue_our_currency
+		icon = GFX_HRP_form_the_national_bank-645670
+		x = 3
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+            add_timed_idea = {
+             idea = devalue_currency 
+             days = 365
+}
+            
+        {
+                
+            }
+		}
+		prerequisite = { focus = AKS_inflation_reduction_act  }
+	}
+	#Northern Infrastructure
+	focus = {
+		id = AKS_laissez_faire_economy
+		icon = GFX_VAL_provisional_goverment-646107
+		x = 4
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+		    534 = {
+			    add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+		    543 = {
+			    add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+		}
+		prerequisite = { focus = AKS_devalue_our_currency  }
+		mutually_exclusive = { focus = AKS_subsidies_for_the_agricultural_sector  }
+	}
+
+	#Rebuild Arkstadt
+	focus = {
+		id = AKS_subsidies_for_the_agricultural_sector
+		icon = GFX_HRP_create_the_election_commission-645542
+		x = 2
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+		    swap_ideas = {
+                remove_idea = johns_mark
+                add_idea = johns_mark_2
+            }
+		    579 = {
+		        add_building_construction = {
+                   type = infrastructure
+                   level = 1
+                   instant_build = yes
+                }
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+		}
+		prerequisite = { focus = AKS_devalue_our_currency  }
+		mutually_exclusive = { focus = AKS_laissez_faire_economy  }
+	}
+	#Build Al'Haile
+	focus = {
+		id = AKS_grants_for_the_companies
+		icon = GFX_HRP_appointed_mayors-646099
+		x = 4
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+		    550 = {
+			    add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+		}
+		prerequisite = { focus = AKS_laissez_faire_economy  }
+	}
+
+	### POLITICAL TREE
+
+	#A Change In Gear
+	focus = {
+		id = AKS_a_change_in_gear
+		icon = GFX_HRP_end_the_joke-262055
+		x = 12
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+            534 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+            add_stability = 0.05
+		}
+	}
+
+	#Advice From The Scholars
+	focus = {
+		id = AKS_advice_from_the_scholars
+		icon = GFX_HRP_montroigan_language_classes-646306
+		x = 10
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+		    add_political_power = 50
+		    add_ideas = {
+		        abolished_ecmr
+		    }
+		}
+        prerequisite = { focus = AKS_a_change_in_gear  }
+		mutually_exclusive = { focus = AKS_kickstart_the_industry  }
+	}
+	#Kickstart The Industry
+	focus = {
+		id = AKS_kickstart_the_industry
+		icon = GFX_generic_focus_greater_extraction_efforts-645976
+		x = 14
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+		    add_political_power = 50
+		    add_ideas = {
+		        maintained_ecmr
+		    }
+		}
+        prerequisite = { focus = AKS_a_change_in_gear  }
+		mutually_exclusive = { focus = AKS_advice_from_the_scholars }
+	}
+	#Force The Army Into Submission
+	focus = {
+		id = AKS_force_the_army_into_submission
+		icon = GFX_LEY_one_man_to_lead_them_all-262024
+		x = 13
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+		    add_war_support = 0.05
+        }
+		prerequisite = { focus = AKS_kickstart_the_industry focus = AKS_advice_from_the_scholars  }
+	}
+	#Land For Returning Veterans
+	focus = {
+		id = AKS_land_for_returning_veterans
+		icon = GFX_ERC_wheat_farming-645921
+		x = 11
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+		    add_war_support = 0.05
+        }
+		prerequisite = { focus = AKS_kickstart_the_industry focus = AKS_advice_from_the_scholars  }
+		mutually_exclusive = { focus = AKS_force_the_army_into_submission }
+	}
+	#Food Stamps For Veterans
+	focus = {
+		id = AKS_food_stamps_for_veterans
+		icon = GFX_goal_unknown
+		x = 11
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AKS_land_for_returning_veterans  }
+	}
+	#Forcefully Integrate The Samurai
+	focus = {
+		id = AKS_forcefully_integrate_the_samurai
+		icon = GFX_goal_unknown
+		x = 13
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AKS_force_the_army_into_submission  }
+	}
+
+	#Efficient Ministries
+	focus = {
+		id = AKS_efficient_ministries
+		icon = GFX_HRP_set_up_the_neo_baldia_town_council-646365
+		x = 9
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AKS_advice_from_the_scholars  }
+	}
+	#Empower The Morimoto Clan
+	focus = {
+		id = AKS_empower_the_morimoto_clan
+		icon = GFX_LEY_reform_the_reichstag-645493
+		x = 9
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AKS_efficient_ministries  }
+	}
+	#Restrict The Morimoto Clan
+	focus = {
+		id = AKS_restrict_the_morimoto_clan
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AKS_laissez_faire_economy  }
+        mutually_exclusive = { focus = AKS_empower_the_morimoto_clan  }
+	}
+	#Empower the Archon
+	focus = {
+		id = ERC_empower_the_archon
+		icon = GFX_ERC_empower_the_archon-427
+		x = 18
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ERC_amend_the_constitution  }
+	}
+	#Empower the Pakhil Assembly
+	focus = {
+		id = ERC_empower_the_pakhil_assembly
+		icon = GFX_ERC_empower_the_pakhil_assembly-646365
+		x = 14
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ERC_amend_the_constitution  }
+	}
+	#Invite the Far-Left
+	focus = {
+		id = ERC_invite_the_farleft
+		icon = GFX_ERC_invite_the_farleft-426
+		x = 24
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ERC_prepare_a_new_government  }
+		mutually_exclusive = { focus = ERC_invite_the_farright  }
+	}
+	#Invite the Far-Right
+	focus = {
+		id = ERC_invite_the_farright
+		icon = GFX_ERC_invite_the_farright-428
+		x = 28
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ERC_prepare_a_new_government  }
+		mutually_exclusive = { focus = ERC_invite_the_farleft  }
+	}
+	#Social Democratic Values
+	focus = {
+		id = ERC_social_democratic_values
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 15
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ERC_amend_the_constitution  }
+	}
+	#Embrace Neutrality
+	focus = {
+		id = ERC_embrace_neutrality
+		icon = GFX_goal_generic_neutrality_focus
+		x = 17
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ERC_amend_the_constitution  }
+	}
+	#Prepare a new government
+	focus = {
+		id = ERC_prepare_a_new_government
+		icon = GFX_ERC_prepare_a_new_government-705718
+		x = 26
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = ERC_political_unrest  }
+	}
+
+}
