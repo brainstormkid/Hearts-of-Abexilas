@@ -185,4 +185,20 @@ spriteTypes = {
 		name = "GFX_idea_nationalism_generic"
 		texturefile = "gfx/interface/ideas/idea_generic_nationalism_generic.dds"
 	}
+	SpriteType = { 
+		name = "idea_ARC_volzhkana_market"
+		texturefile = "gfx/interface/ideas/idea_ARC_volzhkana_market.dds"
+	}
+	SpriteType = { 
+		name = "idea_generic_foreign_capital"
+		texturefile = "gfx/interface/ideas/idea_generic_foreign_capital.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_eff_ministries"
+		texturefile = "gfx/interface/ideas/eff_ministries.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_idea_generic_devalue_currency"
+		texturefile = "gfx/interface/ideas/idea_generic_devalue_currency.dds"
+	}
  }
