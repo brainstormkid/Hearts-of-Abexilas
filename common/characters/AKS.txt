@@ -1,0 +1,181 @@
+characters={
+	AKS_tsukikage={
+		name=AKS_CHARACTER_TSUKIKAGE
+		portraits={
+			civilian={
+				large="GFX_portrait_AKS_tsukikage"
+				small="GFX_portrait_AKS_tsukikage_small"
+			}
+	    }
+	    # AUTOCRAT
+    	country_leader={
+			ideology=monarchist_subtype
+			traits= { }
+			desc = POLITICS_TSUKIKAGE_DESC
+			expire="1965.1.1.1"
+	    }
+    	country_leader={
+			ideology=absolutist_subtype
+			traits= { }
+			desc = POLITICS_TSUKIKAGE_DESC
+			expire="1965.1.1.1"
+    }
+	AKS_akira={
+		name=AKS_CHARACTER_AKIRA
+		portraits={
+			civilian={
+				large="GFX_portrait_AKS_akira"
+				small="GFX_portrait_AKS_akira_small"
+			}
+	    }
+	    # AUTOCRAT
+    	country_leader={
+			ideology=theocratist_subtype
+			traits= { }
+			desc = POLITICS_AKIRA_DESC
+			expire="1965.1.1.1"
+	    }
+	    	country_leader={
+			ideology=centrist_subtype
+			traits= { }
+			desc = POLITICS_AKIRA_DESC
+			expire="1965.1.1.1"
+	    }
+    }
+	AKS_lason={
+		name=AKS_CHARACTER_LASON
+		portraits={
+			civilian={
+				large="GFX_portrait_AKS_lason"
+				small="GFX_portrait_AKS_lason_small"
+			}
+	    }
+	    # AUTOCRAT
+    	country_leader={
+			ideology=imperialist_subtype
+			traits= { }
+			desc = POLITICS_LASON_DESC
+			expire="1965.1.1.1"
+	    }
+    }
+	AKS_helena={
+		name=AKS_CHARACTER_HELENA
+		portraits={
+			civilian={
+				large="GFX_portrait_AKS_helena"
+				small="GFX_portrait_AKS_helena_small"
+			}
+	    }
+	    # AUTOCRAT
+    	country_leader={
+			ideology=radical_socialist_subtype
+			traits= { }
+			desc = POLITICS_HELENA_DESC
+			expire="1965.1.1.1"
+	    }
+	    	country_leader={
+			ideology=libertarianist_subtype
+			traits= { }
+			desc = POLITICS_HELENA_DESC
+			expire="1965.1.1.1"
+	    }
+    }
+	AKS_kyoujiro={
+		name=AKS_CHARACTER_KYOUJIRO
+		portraits={
+			civilian={
+				large="GFX_portrait_AKS_kyoujiro"
+				small="GFX_portrait_AKS_kyoujiro_small"
+			}
+	    }
+	    # AUTOCRAT
+    	country_leader={
+			ideology=accelerationist_subtype
+			traits= { }
+			desc = POLITICS_KYOUJIRO_DESC
+			expire="1965.1.1.1"
+	    }
+    }		
+	AKS_daniel={
+		name=AKS_CHARACTER_DANIEL
+		portraits={
+			civilian={
+				large="GFX_portrait_AKS_daniel"
+				small="GFX_portrait_AKS_daniel_small"
+			}
+	    }
+	    # AUTOCRAT
+    	country_leader={
+			ideology=anarchist_subtype
+			traits= { }
+			desc = POLITICS_DANIEL_DESC
+			expire="1965.1.1.1"
+	    }
+	    	country_leader={
+			ideology=xeroist_subtype
+			traits= { }
+			desc = POLITICS_DANIEL_DESC
+			expire="1965.1.1.1"
+	    }
+    }
+	AKS_drink={
+		name=AKS_CHARACTER_DRINK
+		portraits={
+			civilian={
+				large="GFX_portrait_AKS_drink"
+				small="GFX_portrait_AKS_drink_small"
+			}
+	    }
+	    # AUTOCRAT
+    	country_leader={
+			ideology=revisionist_subtype
+			traits= { }
+			desc = POLITICS_DRINK_DESC
+			expire="1965.1.1.1"
+	    }
+    }
+	AKS_tigiyuto={
+		name=AKS_CHARACTER_TIGIYUTO
+		portraits={
+			civilian={
+				large="GFX_portrait_AKS_tigiyuto"
+				small="GFX_portrait_AKS_tigiyuto_small"
+			}
+	    }
+	    # AUTOCRAT
+    	country_leader={
+			ideology=liberalist_subtype
+			traits= { }
+			desc = POLITICS_TIGIYUTO_DESC
+			expire="1965.1.1.1"
+	    }
+    	country_leader={
+			ideology=progressivist_subtype
+			traits= { }
+			desc = POLITICS_TIGIYUTO_DESC
+			expire="1965.1.1.1"
+	    }
+    }
+	AKS_chifu={
+		name=AKS_CHARACTER_CHIFU
+		portraits={
+			civilian={
+				large="GFX_portrait_AKS_chifu"
+				small="GFX_portrait_AKS_chifu_small"
+			}
+	    }
+	    # AUTOCRAT
+    	country_leader={
+			ideology=liberalist_subtype
+			traits= { }
+			desc = POLITICS_CHIFU_DESC
+			expire="1965.1.1.1"
+	    }
+    	country_leader={
+			ideology=progressivist_subtype
+			traits= { }
+			desc = POLITICS_CHIFU_DESC
+			expire="1965.1.1.1"
+	    }
+    }
+}
