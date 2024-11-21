@@ -1,0 +1,47 @@
+state={
+	id=886
+	name="STATE_886"
+	manpower=2481000
+
+	state_category = megalopolis
+	resources={
+		oil=2
+		steel=3 #was 42 was: 112
+		aluminium=2 # was: 22
+		rubber=1
+		tungsten=1
+		chromium=2
+	}
+
+	history={
+		owner = AKS
+		add_core_of = AKS
+		victory_points = {
+			6565 5
+		}
+		victory_points = {
+			13132 2
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+			575 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = AKS
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 6
+			}
+		}
+	}
+
+	provinces={
+		2120 6565 13132 13160 13192 13197 13204 13233 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=10.0 
+}

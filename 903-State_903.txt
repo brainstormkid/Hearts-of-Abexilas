@@ -1,0 +1,40 @@
+state={
+	id=903
+	name="STATE_903"
+	manpower=1353000
+
+	state_category = large_city
+	resources={
+		oil=2
+		steel=3 #was 42 was: 112
+		aluminium=2 # was: 22
+		rubber=1
+		tungsten=1
+		chromium=2
+	}
+
+	history={
+		owner = AKS
+		add_core_of = AKS
+		victory_points = {
+			2786 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 1
+			arms_factory = 1
+			dockyard = 1
+			radar_station = 1
+			4679 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = AKS
+	}
+
+	provinces={
+		2786 4679 13289 13329 13379 
+	}
+	buildings_max_level_factor=1.000
+}
