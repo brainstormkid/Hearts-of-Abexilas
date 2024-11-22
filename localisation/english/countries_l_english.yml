@@ -685,6 +685,10 @@
  MYR_DEF:0 "Myrtana"
  MYR_ADJ:0 "Myrtanian"
  
+ MYT_absolutist:1 "Kingdom of Mytran"
+ MYT_absolutist_DEF:1 "the Kingdom of Mytran"
+ MYT_absolutist_ADJ:0 "Mytranilean"
+ 
  NAA_absolutist:1 "Tsardom of Naan"
  NAA_absolutist_DEF:1 "the Tsardom of Naan"
  NAA_absolutist_ADJ:0 "Naannite"

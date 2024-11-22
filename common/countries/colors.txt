@@ -580,6 +580,11 @@ MYR = {
 	color_ui = rgb { 150 13 43 }
 }
 
+MYT = {
+	color = rgb { 86 0 0 }
+	color_ui = rgb { 86 0 0 }
+}
+
 NAA = {
 	color = rgb { 161 52 216 }
 	color_ui = rgb { 161 52 216 }
