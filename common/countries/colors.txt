@@ -320,6 +320,11 @@ FAV = {
 	color_ui = rgb { 178 237 241 }
 }
 
+FAX = {
+	color = rgb { 72 173 76 }
+	color_ui = rgb { 72 173 76 }
+}
+
 FLO = {
 	color = rgb { 247 194 15 }
 	color_ui = rgb { 247 194 15 }
