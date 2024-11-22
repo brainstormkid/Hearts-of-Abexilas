@@ -469,6 +469,10 @@
  JAZ_monarchist_DEF:1 "the Yimra ze Jarazeh"
  JAZ_monarchist_ADJ:0 "Jarazeh"
  
+ JOR_absolutist:1 "Jörðar Mandate"
+ JOR_absolutist_DEF:1 "the Jörðar Mandate"
+ JOR_absolutist_ADJ:0 "Jothari"
+ 
  KAD_absolutist:1 "Imperial Crownlands of Kaddu"
  KAD_absolutist_DEF:1 "the Imperial Crownlands of Kaddu"
  KAD_absolutist_ADJ:0 "Kaddian"
