@@ -100,6 +100,11 @@ AST = {
 	color_ui = rgb { 255 91 0 }
 }
 
+AUR = {
+	color = rgb { 119 29 109 }
+	color_ui = rgb { 119 29 109 }
+}
+
 AVA = {
 	color = rgb { 139 0 0 }
 	color_ui = rgb { 139 0 0 }
@@ -218,6 +223,11 @@ COV = {
 COY = {
 	color = rgb { 105 123 232 }
 	color_ui = rgb { 105 123 232 }
+}
+
+DAE = {
+	color = rgb { 68 108 178 }
+	color_ui = rgb { 68 108 178 }
 }
 
 DAD = {
@@ -533,6 +543,11 @@ MID = {
 MIZ = {
 	color = rgb { 237 218 2 }
 	color_ui = rgb { 237 218 2 }
+}
+
+MON = {
+	color = rgb { 239 136 136 }
+	color_ui = rgb { 239 136 136 }
 }
 
 MYN = {

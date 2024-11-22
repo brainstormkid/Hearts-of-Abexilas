@@ -162,6 +162,10 @@
  AST_absolutist_DEF:1 "the Triumvirate of Astalasi"
  AST_absolutist_ADJ:0 "Astalites"
  
+ AUR_absolutist:1 "República de Aurumflora"
+ AUR_absolutist_DEF:1 "the República de Aurumflora"
+ AUR_absolutist_ADJ:0 "Aurumfloran"
+ 
  AVA_absolutist:1 "Empire of Avalor"
  AVA_absolutist_DEF:1 "the Empire of Avalor"
  AVA_absolutist_ADJ:0 "Avaloran"
@@ -253,6 +257,10 @@
  COY_absolutist:1 "Republic of Corry"
  COY_absolutist_DEF:1 "the Republic of Corry"
  COY_absolutist_ADJ:0 "Corrian"
+ 
+ DAE_absolutist:1 "DaeConian Empire"
+ DAE_absolutist_DEF:1 "the DaeConian Empire"
+ DAE_absolutist_ADJ:0 "DaeConian"
  
  DAD_absolutist:1 "Diarchy of the Dande"
  DAD_absolutist_DEF:1 "the Diarchy of the Dande"
@@ -615,6 +623,10 @@
  MIZ_absolutist:1 "Mizlarai Union"
  MIZ_absolutist_DEF:1 "the Mizlarai Union"
  MIZ_absolutist_ADJ:0 "Mizlarain"
+ 
+ MON_absolutist:1 "Mercantile Republic of Monokleia"
+ MON_absolutist_DEF:1 "the Mercantile Republic of Monokleia"
+ MON_absolutist_ADJ:0 "Monokleian"
  
  MYN_absolutist:1 "Myndelia"
  MYN_absolutist_DEF:1 "the Myndelia"
