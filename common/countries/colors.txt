@@ -635,6 +635,11 @@ ROH = {
 	color_ui = rgb { 125 18 219 }
 }
 
+ROL = {
+	color = rgb { 58 150 204 }
+	color_ui = rgb { 58 150 204 }
+}
+
 ROZ = {
 	color = rgb { 129 41 41 }
 	color_ui = rgb { 129 41 41 }

@@ -729,6 +729,10 @@
  ROH_absolutist_DEF:1 "the Magehold of Rohldan"
  ROH_absolutist_ADJ:0 "Rohldanian"
  
+ ROL_absolutist:1 "Republic of Rolon"
+ ROL_absolutist_DEF:1 "the Republic of Rolon"
+ ROL_absolutist_ADJ:0 "Rolonite"
+ 
  ROZ_absolutist:1 "Kingdom of Rozow"
  ROZ_absolutist_DEF:1 "the Kingdom of Rozow"
  ROZ_absolutist_ADJ:0 "Rozowian"
