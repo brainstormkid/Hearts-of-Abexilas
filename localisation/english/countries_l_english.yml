@@ -68,6 +68,10 @@
  ALA_absolutist_DEF:1 "the Caliphate of Alamara"
  ALA_absolutist_ADJ:0 "Alamari"
  
+ ALT_absolutist:1 "Twin Cities of Altara-Karvina"
+ ALT_absolutist_DEF:1 "the Twin Cities of Altara-Karvina"
+ ALT_absolutist_ADJ:0 "Altaran"
+ 
  ALZ_absolutist:1 "Kingdom of Alazorr"
  ALZ_absolutist_DEF:1 "the Kingdom of Alazorr"
  ALZ_absolutist_ADJ:0 "Alazorran"
