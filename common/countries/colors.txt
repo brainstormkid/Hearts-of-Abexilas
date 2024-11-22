@@ -760,6 +760,11 @@ TET = {
 	color_ui = rgb { 41 222 101 }
 }
 
+THD = {
+	color = rgb { 204 188 157 }
+	color_ui = rgb { 204 188 157 }
+}
+
 THE = {
 	color = rgb { 237 207 75 }
 	color_ui = rgb { 237 207 75 }

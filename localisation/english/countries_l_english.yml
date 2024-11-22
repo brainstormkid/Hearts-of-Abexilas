@@ -841,6 +841,10 @@
  TET_absolutist_DEF:1 "the Serene Republic of Testificas"
  TET_absolutist_ADJ:0 "Testificate"
  
+ THD_absolutist:1 "Duchy of Thedan"
+ THD_absolutist_DEF:1 "the Duchy of Thedan"
+ THD_absolutist_ADJ:0 "Thedanian"
+ 
  THE_absolutist:1 "Theiónikos"
  THE_absolutist_DEF:1 "the Remnant of Theiónikos"
  THE_absolutist_ADJ:0 "Theióniki"
