@@ -320,7 +320,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		mutually_exclusive = { focus = ERC_political_unrest  } mutually_exclusive = { focus = ERC_revoke_the_constitution  }
+		mutually_exclusive = { focus = ERC_political_unrest focus = ERC_revoke_the_constitution  }
 	}
 	#Empower the Archon
 	focus = {
@@ -383,7 +383,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		mutually_exclusive = { focus = ERC_amend_the_constitution  } mutually_exclusive = { focus = ERC_political_unrest  }
+		mutually_exclusive = { focus = ERC_amend_the_constitution  focus = ERC_political_unrest  }
 	}
 
 	## Nationalism/Socialism Branch
@@ -398,7 +398,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		mutually_exclusive = { focus = ERC_revoke_the_constitution  } mutually_exclusive = { focus = ERC_amend_the_constitution  }
+		mutually_exclusive = { focus = ERC_revoke_the_constitution focus = ERC_amend_the_constitution  }
 	}
 	#Prepare a new government
 	focus = {
@@ -418,7 +418,7 @@ focus_tree = {
 		icon = GFX_ERC_invite_the_farleft-426
 		x = 24
 		y = 2
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -431,6 +431,7 @@ focus_tree = {
 		icon = GFX_ERC_invite_the_farright-428
 		x = 28
 		y = 2
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
