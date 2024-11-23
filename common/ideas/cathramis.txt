@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		Cathramis_Continental_Member = {
-			#picture = Cathramis_Continental_Member
+			picture = Cathramis_Continental_Member
 			cancel = {
 			}
 			available = {
