@@ -82,6 +82,16 @@
  the_inflation_reduction_act_desc:0 "In order to control our inflation, the government has enacted drastic measures in the forms of different policies that counter-act the skyrocketing inflation, with the most prominent one being the Inflation Reduction Act."
  devalue_currency:0 "Devaluing Our Currency)"
  devalue_currency_desc:0 "Devaluing our currency is an important step in increasing exports which provides a boost to our economy on a global scale, as our exports become cheaper for other countries to export, and should in theory reduce prices across the country, hopefully stabilizing our economic recession."
+ aks_high_inflation:0 "High Inflation"
+ aks_high_inflation_desc:0 "High inflation currently plagues our lands, with the cost of living rising quickly, and the price of military goods skyrocketing we must make sure to enact measures that halt this rise in inflation."
+ aks_medium_inflation:0 "Medium Inflation"
+ aks_medium_inflation_desc:0 "Our country is suffering from medium inflation, and while it's nowhere near as bad as the high inflation that formerly plagued us, it's still sub-optimal, and it would help us tremendously if we enacted further measures that would result in lower inflation."
+ aks_low_inflation:0 "Low Inflation"
+ aks_low_inflation_desc:0 "Our economy is stabilizing quickly, and our inflation has been reduced severely. Lowering our inflation has revealed our heavy-weight industry, but imagine how monstrous our industry would be if we had a healthy inflation instead?"
+ aks_heatlhy_inflation:0 "What has occured can only be described as a minor economic miracle. Our economy has stabilized fully, and our country has never seen more opportunities than right now!"
+
+
+
 
 
 
