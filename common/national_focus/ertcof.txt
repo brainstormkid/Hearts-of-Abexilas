@@ -308,18 +308,8 @@ focus_tree = {
 
 	### POLITICAL TREE
 
-	#Revoke the Constitution
-	focus = {
-		id = ERC_revoke_the_constitution
-		icon = GFX_ERC_revoke_the_constitution-270
-		x = 21
-		y = 0
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		mutually_exclusive = { focus = ERC_amend_the_constitution  } mutually_exclusive = { focus = ERC_political_unrest  }
-	}
+    ## Egalitarian Branch
+
 	#Amend the constitution
 	focus = {
 		id = ERC_amend_the_constitution
@@ -331,18 +321,6 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		mutually_exclusive = { focus = ERC_political_unrest  } mutually_exclusive = { focus = ERC_revoke_the_constitution  }
-	}
-	#Political Unrest
-	focus = {
-		id = ERC_political_unrest
-		icon = GFX_goal_generic_political_pressure
-		x = 26
-		y = 0
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		mutually_exclusive = { focus = ERC_revoke_the_constitution  } mutually_exclusive = { focus = ERC_amend_the_constitution  }
 	}
 	#Empower the Archon
 	focus = {
@@ -367,6 +345,72 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = ERC_amend_the_constitution  }
+	}
+	#Social Democratic Values
+	focus = {
+		id = ERC_social_democratic_values
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 15
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ERC_amend_the_constitution  }
+	}
+	#Embrace Neutrality
+	focus = {
+		id = ERC_embrace_neutrality
+		icon = GFX_goal_generic_neutrality_focus
+		x = 17
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ERC_amend_the_constitution  }
+	}
+
+	## Autocratic Branch
+
+	#Revoke the Constitution
+	focus = {
+		id = ERC_revoke_the_constitution
+		icon = GFX_ERC_revoke_the_constitution-270
+		x = 21
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = ERC_amend_the_constitution  } mutually_exclusive = { focus = ERC_political_unrest  }
+	}
+
+	## Nationalism/Socialism Branch
+
+	#Political Unrest
+	focus = {
+		id = ERC_political_unrest
+		icon = GFX_goal_generic_political_pressure
+		x = 26
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = ERC_revoke_the_constitution  } mutually_exclusive = { focus = ERC_amend_the_constitution  }
+	}
+	#Prepare a new government
+	focus = {
+		id = ERC_prepare_a_new_government
+		icon = GFX_ERC_prepare_a_new_government-705718
+		x = 26
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = ERC_political_unrest  }
 	}
 	#Invite the Far-Left
 	focus = {
@@ -393,41 +437,4 @@ focus_tree = {
 		prerequisite = { focus = ERC_prepare_a_new_government  }
 		mutually_exclusive = { focus = ERC_invite_the_farleft  }
 	}
-	#Social Democratic Values
-	focus = {
-		id = ERC_social_democratic_values
-		icon = GFX_focus_prc_agrarian_socialism
-		x = 15
-		y = 2
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = ERC_amend_the_constitution  }
-	}
-	#Embrace Neutrality
-	focus = {
-		id = ERC_embrace_neutrality
-		icon = GFX_goal_generic_neutrality_focus
-		x = 17
-		y = 2
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = ERC_amend_the_constitution  }
-	}
-	#Prepare a new government
-	focus = {
-		id = ERC_prepare_a_new_government
-		icon = GFX_ERC_prepare_a_new_government-705718
-		x = 26
-		y = 1
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
-		}
-		prerequisite = { focus = ERC_political_unrest  }
-	}
-
 }
