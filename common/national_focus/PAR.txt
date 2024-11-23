@@ -1,0 +1,1638 @@
+focus_tree = {
+	id = PAR
+	continuous_focus_position = { x = 8130 y = 1180 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PAR
+		}
+	}
+	#The Fall Of The King
+	focus = {
+		id = PAR_the_fall_of_the_king
+		icon = GFX_PAR_the_fall_of_the_king-427
+		x = 21
+		y = 3
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = PAR_remembrance  } mutually_exclusive = { focus = PAR_rebuild_the_kingdom  }
+	}
+
+	#Rebuild The Army
+	focus = {
+		id = PAR_rebuild_the_army
+		icon = GFX_focus_secret_rearmament
+		x = 2
+		y = 4
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = PAR_remembrance  }
+	}
+
+	#Eyes To The North
+	focus = {
+		id = PAR_eyes_to_the_north
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		x = 1
+		y = 5
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = PAR_rebuild_the_army  }
+		mutually_exclusive = { focus = PAR_make_a_deal_with_gertek  } mutually_exclusive = { focus = PAR_eyes_to_the_north  }
+	}
+
+	#Call Saiko
+	focus = {
+		id = PAR_call_saiko
+		icon = GFX_focus_ger_return_of_the_kaiser
+		x = 2
+		y = 6
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_eyes_to_the_north  } prerequisite = { focus = PAR_make_a_deal_with_gertek  }
+	}
+
+	#Reclaim The Kingdom
+	focus = {
+		id = PAR_reclaim_the_kingdom
+		icon = GFX_focus_hun_elect_a_king
+		x = 2
+		y = 8
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_revitalize_cactus_farms  } prerequisite = { focus = PAR_expand_obsidian_forges  }
+	}
+
+	#The Industrial Revolution
+	focus = {
+		id = PAR_the_industrial_revolution
+		icon = GFX_goal_generic_construct_civilian
+		x = 11
+		y = 4
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_rebuild_the_kingdom  }
+	}
+
+	#Establish The Paraíso Union
+	focus = {
+		id = PAR_establishtheparaisounion
+		icon = GFX_PAR_establishtheparaisounion-645551
+		x = 11
+		y = 5
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_the_industrial_revolution  }
+		mutually_exclusive = { focus = PAR_re_think_odds_twords_the_south  } mutually_exclusive = { focus = PAR_re_think_odds_twords_the_north  }
+	}
+
+	#Re Think Odds Twords The South
+	focus = {
+		id = PAR_re_think_odds_twords_the_south
+		icon = GFX_focus_generic_strike_at_democracy2
+		x = 13
+		y = 5
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_the_industrial_revolution  }
+		mutually_exclusive = { focus = PAR_establishtheparaisounion  } mutually_exclusive = { focus = PAR_re_think_odds_twords_the_north  }
+	}
+
+	#Re Think Odds Twords The North
+	focus = {
+		id = PAR_re_think_odds_twords_the_north
+		icon = GFX_focus_rom_handle_king
+		x = 9
+		y = 5
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_the_industrial_revolution  }
+		mutually_exclusive = { focus = PAR_re_think_odds_twords_the_south  } mutually_exclusive = { focus = PAR_establishtheparaisounion  }
+	}
+
+	#Fulfil The Destiny
+	focus = {
+		id = PAR_fulfil_the_destiny
+		icon = GFX_focus_generic_treaty
+		x = 11
+		y = 12
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_military_construction  } prerequisite = { focus = PAR_civilian_construction  } prerequisite = { focus = PAR_division_speed  } prerequisite = { focus = PAR_troop_training  } prerequisite = { focus = PAR_stability  } prerequisite = { focus = PAR_war_support  }
+	}
+
+	#Create an Empire
+	focus = {
+		id = PAR_create_an_empire
+		icon = GFX_PAR_create_an_empire-645781
+		x = 11
+		y = 13
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_fulfil_the_destiny  }
+	}
+
+	#Create The Velarim Puppet
+	focus = {
+		id = PAR_create_the_velarim_puppet
+		icon = GFX_PAR_create_the_velarim_puppet-59
+		x = 11
+		y = 14
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = PAR_create_an_empire  }
+	}
+
+	#Conquer Adramis
+	focus = {
+		id = PAR_conquer_adramis
+		icon = GFX_focus_generic_combined_arms
+		x = 11
+		y = 15
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_create_the_velarim_puppet  }
+	}
+
+	#The End Of An Era
+	focus = {
+		id = PAR_the_end_of_an_era
+		icon = GFX_PAR_the_end_of_an_era-646130
+		x = 21
+		y = 4
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_the_fall_of_the_king  }
+	}
+
+	#Revitalize Cactus Farms
+	focus = {
+		id = PAR_revitalize_cactus_farms
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 3
+		y = 7
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_call_saiko  }
+	}
+
+	#Expand Obsidian Forges
+	focus = {
+		id = PAR_expand_obsidian_forges
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 1
+		y = 7
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_call_saiko  }
+		mutually_exclusive = { focus = PAR_expand_obsidian_forges  } mutually_exclusive = { focus = PAR_revitalize_cactus_farms  }
+	}
+
+	#Rebuild Aberration
+	focus = {
+		id = PAR_rebuild_aberration
+		icon = GFX_goal_continuous_non_factory_construct
+		x = 2
+		y = 10
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_reclaim_the_kingdom  }
+	}
+
+	#Take To The Skyes
+	focus = {
+		id = PAR_take_to_the_skyes
+		icon = GFX_goal_generic_air_fighter2
+		x = 3
+		y = 11
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = PAR_rebuild_aberration  }
+	}
+
+	#Take To The Sea
+	focus = {
+		id = PAR_take_to_the_sea
+		icon = GFX_PAR_take_to_the_sea-262058
+		x = 1
+		y = 11
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_rebuild_aberration  }
+		mutually_exclusive = { focus = PAR_take_to_the_skyes  } mutually_exclusive = { focus = PAR_take_to_the_sea  }
+	}
+
+	#Build A Military
+	focus = {
+		id = PAR_build_a_military
+		icon = GFX_focus_generic_manpower
+		x = 12
+		y = 6
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = PAR_establishtheparaisounion  }
+		mutually_exclusive = { focus = PAR_build_a_airforce  }
+	}
+
+	#Build A Airforce
+	focus = {
+		id = PAR_build_a_airforce
+		icon = GFX_goal_generic_build_airforce
+		x = 10
+		y = 6
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_establishtheparaisounion  }
+		mutually_exclusive = { focus = PAR_build_a_military  }
+	}
+
+	#Rei's Bulwark
+	focus = {
+		id = PAR_reisbulwark
+		icon = GFX_goal_generic_fortify_city
+		x = 2
+		y = 12
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_take_to_the_skyes  } prerequisite = { focus = PAR_take_to_the_sea  }
+	}
+
+	#Drag In Partybro
+	focus = {
+		id = PAR_drag_in_partybro
+		icon = GFX_goal_continuous_def_against_influence
+		x = 3
+		y = 13
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_reisbulwark  }
+	}
+
+	#Start of a New Beginning
+	focus = {
+		id = PAR_start_of_a_new_beginning
+		icon = GFX_focus_AST_rats_tobruk
+		x = 4
+		y = 14
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = PAR_drag_in_partybro  }
+	}
+
+	#Realizing our purpose
+	focus = {
+		id = PAR_realizing_our_purpose
+		icon = GFX_goal_generic_construction
+		x = 3
+		y = 15
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = PAR_start_of_a_new_beginning  }
+	}
+
+	#A Stedfast purpose
+	focus = {
+		id = PAR_a_stedfast_purpose
+		icon = GFX_goal_generic_construction2
+		x = 4
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_realizing_our_purpose  }
+	}
+
+	#Ever Faithful to the Cause
+	focus = {
+		id = PAR_ever_faithful_to_the_cause
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 3
+		y = 17
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_a_stedfast_purpose  }
+	}
+
+	#A Prelude to Revenge
+	focus = {
+		id = PAR_a_prelude_to_revenge
+		icon = GFX_focus_generic_navy_battleship2
+		x = 4
+		y = 18
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_ever_faithful_to_the_cause  }
+	}
+
+	#Ready the Guard
+	focus = {
+		id = PAR_ready_the_guard
+		icon = GFX_focus_generic_little_entente
+		x = 2
+		y = 20
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_a_prelude_to_revenge  }
+	}
+
+	#Ready the Wings
+	focus = {
+		id = PAR_ready_the_wings
+		icon = GFX_goal_generic_air_fighter
+		x = 4
+		y = 20
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_a_prelude_to_revenge  }
+		mutually_exclusive = { focus = PAR_ready_the_guard  } mutually_exclusive = { focus = PAR_ready_the_wings  } mutually_exclusive = { focus = PAR_ready_the_sea  }
+	}
+
+	#Ready the Sea
+	focus = {
+		id = PAR_ready_the_sea
+		icon = GFX_focus_generic_destroyer
+		x = 6
+		y = 20
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_a_prelude_to_revenge  }
+	}
+
+	#Construct Esperanza
+	focus = {
+		id = PAR_construct_esperanza
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 11
+		y = 7
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_build_a_military  } prerequisite = { focus = PAR_build_a_airforce  }
+	}
+
+	#Kira's Part
+	focus = {
+		id = PAR_kiraspart
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 7
+		y = 8
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_construct_esperanza  }
+	}
+
+	#Timesoul's Part
+	focus = {
+		id = PAR_timesoulspart
+		icon = GFX_focus_generic_concessions
+		x = 15
+		y = 8
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_construct_esperanza  }
+	}
+
+	#Elytra Troopers
+	focus = {
+		id = PAR_elytra_troopers
+		icon = GFX_focus_generic_paratrooper
+		x = 9
+		y = 7
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = PAR_build_a_airforce  }
+	}
+
+	#Tank Builds
+	focus = {
+		id = PAR_tank_builds
+		icon = GFX_goal_generic_army_tanks
+		x = 13
+		y = 7
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = PAR_build_a_military  }
+	}
+
+	#New Outlooks
+	focus = {
+		id = PAR_new_outlooks
+		icon = GFX_goal_generic_consumer_goods
+		x = 46
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+	}
+
+	#Investing in our Farmers
+	focus = {
+		id = PAR_investing_in_our_farmers
+		icon = GFX_focus_hol_abandon_the_gold_standard
+		x = 45
+		y = 4
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_new_outlooks  }
+		mutually_exclusive = { focus = PAR_investing_in_our_farmers  } mutually_exclusive = { focus = PAR_investing_in_our_workers  }
+	}
+
+	#Investing in our Workers
+	focus = {
+		id = PAR_investing_in_our_workers
+		icon = GFX_PAR_investing_in_our_workers-645666
+		x = 47
+		y = 4
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_new_outlooks  }
+	}
+
+	#Alejandro’s Part
+	focus = {
+		id = PAR_alejandrospart
+		icon = GFX_PAR_alejandrospart-646269
+		x = 11
+		y = 8
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_construct_esperanza  }
+	}
+
+	#External
+	focus = {
+		id = PAR_external
+		icon = GFX_goal_generic_neutrality_focus
+		x = 11
+		y = 9
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_alejandrospart  }
+	}
+
+	#Construction
+	focus = {
+		id = PAR_construction
+		icon = GFX_goal_generic_construction2
+		x = 7
+		y = 9
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_kiraspart  }
+	}
+
+	#Stability
+	focus = {
+		id = PAR_stability
+		icon = GFX_PAR_stability-646368
+		x = 14
+		y = 11
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_recruitment  }
+		mutually_exclusive = { focus = PAR_stability  } mutually_exclusive = { focus = PAR_war_support  }
+	}
+
+	#War Support
+	focus = {
+		id = PAR_war_support
+		icon = GFX_focus_generic_support_the_left_right
+		x = 16
+		y = 11
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_recruitment  }
+	}
+
+	#Civilian Construction
+	focus = {
+		id = PAR_civilian_construction
+		icon = GFX_goal_generic_construct_civilian
+		x = 8
+		y = 11
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_construction  }
+	}
+
+	#Military Construction
+	focus = {
+		id = PAR_military_construction
+		icon = GFX_goal_generic_military_sphere
+		x = 6
+		y = 11
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_construction  }
+		mutually_exclusive = { focus = PAR_civilian_construction  } mutually_exclusive = { focus = PAR_military_construction  }
+	}
+
+	#Recruitment
+	focus = {
+		id = PAR_recruitment
+		icon = GFX_goal_demand_sudetenland
+		x = 15
+		y = 9
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = PAR_timesoulspart  }
+	}
+
+	#Troop Training
+	focus = {
+		id = PAR_troop_training
+		icon = GFX_focus_chi_army_reform
+		x = 12
+		y = 11
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_external  }
+		mutually_exclusive = { focus = PAR_division_speed  }
+	}
+
+	#Division Speed
+	focus = {
+		id = PAR_division_speed
+		icon = GFX_goal_generic_army_motorized
+		x = 10
+		y = 11
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_external  }
+		mutually_exclusive = { focus = PAR_troop_training  }
+	}
+
+	#Remind Them of Their Chains
+	focus = {
+		id = PAR_remind_them_of_their_chains
+		icon = GFX_focus_generic_army_tanks2
+		x = 6
+		y = 22
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_forwhatstocome  }
+	}
+
+	#Make A Deal With Gertek
+	focus = {
+		id = PAR_make_a_deal_with_gertek
+		icon = GFX_goal_generic_dangerous_deal
+		x = 3
+		y = 5
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_rebuild_the_army  }
+	}
+
+	#Deeper Mines
+	focus = {
+		id = PAR_deeper_mines
+		icon = GFX_focus_generic_steel
+		x = 43
+		y = 4
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_new_outlooks  }
+	}
+
+	#Even Deeper Digging
+	focus = {
+		id = PAR_even_deeper_digging
+		icon = GFX_focus_generic_aluminum
+		x = 43
+		y = 5
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_deeper_mines  }
+	}
+
+	#We’ve hit bedrock
+	focus = {
+		id = PAR_wevehitbedrock
+		icon = GFX_focus_generic_industry_3
+		x = 43
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_even_deeper_digging  }
+	}
+
+	#The Evergreen Emporium
+	focus = {
+		id = PAR_the_evergreen_emporium
+		icon = GFX_focus_generic_tungsten
+		x = 49
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_new_outlooks  }
+	}
+
+	#Infrastructure
+	focus = {
+		id = PAR_infrastructure
+		icon = GFX_PAR_infrastructure-645960
+		x = 49
+		y = 6
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_refinery_effort  }
+	}
+
+	#Refinery Effort
+	focus = {
+		id = PAR_refinery_effort
+		icon = GFX_goal_generic_oil_refinery
+		x = 49
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_the_evergreen_emporium  }
+	}
+
+	#Beginning of the War department
+	focus = {
+		id = PAR_beginning_of_the_war_department
+		icon = GFX_goal_generic_military_sphere
+		x = 33
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+	}
+
+	#Revitalizing The Army
+	focus = {
+		id = PAR_revitalizing_the_army
+		icon = GFX_goal_generic_army_doctrines
+		x = 30
+		y = 4
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_beginning_of_the_war_department  }
+	}
+
+	#Infantry Focus
+	focus = {
+		id = PAR_infantry_focus
+		icon = GFX_PAR_infantry_focus-645755
+		x = 28
+		y = 5
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_revitalizing_the_army  }
+		mutually_exclusive = { focus = PAR_infantry_focus  } mutually_exclusive = { focus = PAR_tank_focus  }
+	}
+
+	#Tank Focus
+	focus = {
+		id = PAR_tank_focus
+		icon = GFX_focus_generic_tank_production
+		x = 31
+		y = 5
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_revitalizing_the_army  }
+	}
+
+	#New soldiers
+	focus = {
+		id = PAR_new_soldiers
+		icon = GFX_focus_mex_soldaderas
+		x = 29
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_infantry_focus  }
+	}
+
+	#New vehicles
+	focus = {
+		id = PAR_new_vehicles
+		icon = GFX_PAR_new_vehicles-646322
+		x = 31
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_tank_focus  }
+	}
+
+	#Our True Goal
+	focus = {
+		id = PAR_our_true_goal
+		icon = GFX_PAR_our_true_goal-262051
+		x = 30
+		y = 7
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_new_soldiers  } prerequisite = { focus = PAR_new_vehicles  }
+	}
+
+	#Creation of the Navy
+	focus = {
+		id = PAR_creation_of_the_navy
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 33
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_beginning_of_the_war_department  }
+	}
+
+	#Destroyer Effort
+	focus = {
+		id = PAR_destroyer_effort
+		icon = GFX_PAR_destroyer_effort-645974
+		x = 32
+		y = 10
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_cruiser_effort  } prerequisite = { focus = PAR_battleship_effort  }
+	}
+
+	#Submarine effort
+	focus = {
+		id = PAR_submarine_effort
+		icon = GFX_goal_generic_navy_anti_submarine
+		x = 35
+		y = 9
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_creation_of_the_navy  }
+	}
+
+	#Cruiser Effort
+	focus = {
+		id = PAR_cruiser_effort
+		icon = GFX_focus_generic_navy_battleship2
+		x = 31
+		y = 9
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_creation_of_the_navy  }
+	}
+
+	#Battleship Effort
+	focus = {
+		id = PAR_battleship_effort
+		icon = GFX_PAR_battleship_effort-404
+		x = 33
+		y = 9
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_creation_of_the_navy  }
+	}
+
+	#Carrier Effort
+	focus = {
+		id = PAR_carrier_effort
+		icon = GFX_goal_generic_navy_carrier
+		x = 34
+		y = 10
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_battleship_effort  } prerequisite = { focus = PAR_submarine_effort  }
+	}
+
+	#New Components
+	focus = {
+		id = PAR_new_components
+		icon = GFX_PAR_new_components-646206
+		x = 33
+		y = 11
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_destroyer_effort  } prerequisite = { focus = PAR_carrier_effort  }
+	}
+
+	#Beginning of a fleet
+	focus = {
+		id = PAR_beginning_of_a_fleet
+		icon = GFX_PAR_beginning_of_a_fleet-646231
+		x = 34
+		y = 12
+		cost = 13
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_new_components  }
+	}
+
+	#Pride of The Fleet
+	focus = {
+		id = PAR_pride_of_the_fleet
+		icon = GFX_focus_generic_africa_naval
+		x = 33
+		y = 13
+		cost = 13
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_beginning_of_a_fleet  }
+	}
+
+	#A New Admiral
+	focus = {
+		id = PAR_a_new_admiral
+		icon = GFX_PAR_a_new_admiral-262009
+		x = 32
+		y = 14
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_pride_of_the_fleet  }
+	}
+
+	#The Raiders
+	focus = {
+		id = PAR_the_raiders
+		icon = GFX_PAR_the_raiders-645956
+		x = 33
+		y = 15
+		cost = 13
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_a_new_admiral  }
+	}
+
+	#Blotting out the Sun
+	focus = {
+		id = PAR_blotting_out_the_sun
+		icon = GFX_goal_generic_air_doctrine
+		x = 38
+		y = 4
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_beginning_of_the_war_department  }
+	}
+
+	#Light focus
+	focus = {
+		id = PAR_light_focus
+		icon = GFX_PAR_light_focus-645908
+		x = 35
+		y = 5
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_blotting_out_the_sun  }
+	}
+
+	#Medium focus
+	focus = {
+		id = PAR_medium_focus
+		icon = GFX_PAR_medium_focus-645948
+		x = 37
+		y = 5
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_blotting_out_the_sun  }
+		mutually_exclusive = { focus = PAR_light_focus  } mutually_exclusive = { focus = PAR_medium_focus  } mutually_exclusive = { focus = PAR_heavy_focus  }
+	}
+
+	#Heavy focus
+	focus = {
+		id = PAR_heavy_focus
+		icon = GFX_goal_generic_air_bomber
+		x = 39
+		y = 5
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_blotting_out_the_sun  }
+	}
+
+	#Deploying Death Machines
+	focus = {
+		id = PAR_deploying_death_machines
+		icon = GFX_PAR_deploying_death_machines-646325
+		x = 37
+		y = 6
+		cost = 13
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_light_focus  } prerequisite = { focus = PAR_medium_focus  } prerequisite = { focus = PAR_heavy_focus  }
+	}
+
+	#The Final Touches
+	focus = {
+		id = PAR_the_final_touches
+		icon = GFX_PAR_the_final_touches-262010
+		x = 37
+		y = 7
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_deploying_death_machines  }
+	}
+
+	#For What's To Come
+	focus = {
+		id = PAR_forwhatstocome
+		icon = GFX_focus_generic_self_management
+		x = 4
+		y = 21
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_ready_the_guard  } prerequisite = { focus = PAR_ready_the_wings  } prerequisite = { focus = PAR_ready_the_sea  }
+	}
+
+	#Drown The Horde
+	focus = {
+		id = PAR_drown_the_horde
+		icon = GFX_PAR_drown_the_horde-645907
+		x = 2
+		y = 22
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_forwhatstocome  }
+	}
+
+	#Flame The Harem
+	focus = {
+		id = PAR_flame_the_harem
+		icon = GFX_focus_focus_fra_fascist_threat
+		x = 1
+		y = 23
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_drown_the_horde  }
+	}
+
+	#Death Of a Princess
+	focus = {
+		id = PAR_death_of_a_princess
+		icon = GFX_PAR_death_of_a_princess-262118
+		x = 3
+		y = 23
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_drown_the_horde  }
+	}
+
+	#Rage Against the Dying of The Light
+	focus = {
+		id = PAR_rage_against_the_dying_of_the_light
+		icon = GFX_focus_focus_fra_national_resistance_council
+		x = 5
+		y = 22
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_forwhatstocome  }
+	}
+
+	#Start of an Era
+	focus = {
+		id = PAR_start_of_an_era
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 4
+		y = 24
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PAR_rage_against_the_dying_of_the_light  }
+	}
+
+	#Betrayed No More
+	focus = {
+		id = PAR_betrayed_no_more
+		icon = GFX_goal_generic_army_artillery2
+		x = 9
+		y = 23
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_remind_them_of_their_chains  }
+	}
+
+	#Cross the Barrier
+	focus = {
+		id = PAR_cross_the_barrier
+		icon = GFX_PAR_cross_the_barrier-645516
+		x = 5
+		y = 23
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_remind_them_of_their_chains  }
+	}
+
+	#To the World's End
+	focus = {
+		id = PAR_totheworldsend
+		icon = GFX_goal_generic_army_artillery
+		x = 7
+		y = 23
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_remind_them_of_their_chains  }
+	}
+
+	#Sell Them Out
+	focus = {
+		id = PAR_sell_them_out
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 8
+		y = 24
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_betrayed_no_more  }
+	}
+
+	#Order for Liberation
+	focus = {
+		id = PAR_order_for_liberation
+		icon = GFX_goal_generic_military_deal
+		x = 9
+		y = 25
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_betrayed_no_more  }
+	}
+
+	#Ready The Holy Throne
+	focus = {
+		id = PAR_ready_the_holy_throne
+		icon = GFX_PAR_ready_the_holy_throne-646002
+		x = 4
+		y = 26
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PAR_flame_the_harem  } prerequisite = { focus = PAR_death_of_a_princess  } prerequisite = { focus = PAR_start_of_an_era  } prerequisite = { focus = PAR_cross_the_barrier  } prerequisite = { focus = PAR_totheworldsend  } prerequisite = { focus = PAR_sell_them_out  } prerequisite = { focus = PAR_order_for_liberation  }
+	}
+
+	#Party Projects
+	focus = {
+		id = PAR_party_projects
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 19
+		y = 6
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_party_time  }
+	}
+
+	#Party Works
+	focus = {
+		id = PAR_party_works
+		icon = GFX_PAR_party_works-645971
+		x = 21
+		y = 6
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_party_time  }
+	}
+
+	#Campaign To New Comers
+	focus = {
+		id = PAR_campaign_to_new_comers
+		icon = GFX_focus_generic_manpower
+		x = 23
+		y = 6
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_party_time  }
+	}
+
+	#Start The Party
+	focus = {
+		id = PAR_start_the_party
+		icon = GFX_focus_rom_parties_end
+		x = 21
+		y = 7
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_party_projects  } prerequisite = { focus = PAR_party_works  } prerequisite = { focus = PAR_campaign_to_new_comers  }
+	}
+
+	#Finish The City
+	focus = {
+		id = PAR_finish_the_city
+		icon = GFX_goal_continuous_non_factory_construct
+		x = 19
+		y = 8
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_start_the_party  }
+	}
+
+	#Finish The Ports
+	focus = {
+		id = PAR_finish_the_ports
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 20
+		y = 9
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_finish_the_city  }
+	}
+
+	#Establish Companies
+	focus = {
+		id = PAR_establish_companies
+		icon = GFX_goal_generic_construction
+		x = 18
+		y = 9
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_finish_the_city  }
+	}
+
+	#Diplomacy, Trade, Free Markets
+	focus = {
+		id = PAR_diplomacytradefreemarkets
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 20
+		y = 10
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_finish_the_ports  }
+	}
+
+	#Arsenal of Partying
+	focus = {
+		id = PAR_arsenal_of_partying
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 18
+		y = 10
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_establish_companies  }
+	}
+
+	#Utilize Nether Teams
+	focus = {
+		id = PAR_utilize_nether_teams
+		icon = GFX_goal_generic_construction2
+		x = 19
+		y = 11
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_diplomacytradefreemarkets  } prerequisite = { focus = PAR_arsenal_of_partying  }
+	}
+
+	#Expand Cactus Farms
+	focus = {
+		id = PAR_expand_cactus_farms
+		icon = GFX_goal_generic_construct_civilian
+		x = 18
+		y = 12
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_utilize_nether_teams  }
+		mutually_exclusive = { focus = PAR_diverse_our_industry  }
+	}
+
+	#Diverse Our Industry
+	focus = {
+		id = PAR_diverse_our_industry
+		icon = GFX_focus_generic_industry_3
+		x = 20
+		y = 12
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_utilize_nether_teams  }
+		mutually_exclusive = { focus = PAR_expand_cactus_farms  }
+	}
+
+	#Reap The Xp
+	focus = {
+		id = PAR_reap_the_xp
+		icon = GFX_goal_generic_construction
+		x = 18
+		y = 13
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_expand_cactus_farms  }
+	}
+
+	#Unique And Exotic
+	focus = {
+		id = PAR_unique_and_exotic
+		icon = GFX_goal_generic_consumer_goods
+		x = 20
+		y = 13
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_diverse_our_industry  }
+	}
+
+	#Ready The World Marshall
+	focus = {
+		id = PAR_ready_the_world_marshall
+		icon = GFX_goal_generic_political_pressure
+		x = 19
+		y = 14
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_reap_the_xp  } prerequisite = { focus = PAR_unique_and_exotic  }
+	}
+
+	#Defend Free Knowledge
+	focus = {
+		id = PAR_defend_free_knowledge
+		icon = GFX_PAR_defend_free_knowledge-646368
+		x = 25
+		y = 6
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_party_time  }
+	}
+
+	#Esperanza University Of The Wiki
+	focus = {
+		id = PAR_esperanza_university_of_the_wiki
+		icon = GFX_focus_research
+		x = 25
+		y = 7
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_defend_free_knowledge  }
+	}
+
+	#Prepare Our Custom Brews
+	focus = {
+		id = PAR_prepare_our_custom_brews
+		icon = GFX_focus_research2
+		x = 25
+		y = 8
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_esperanza_university_of_the_wiki  }
+	}
+
+	#Remembrance
+	focus = {
+		id = PAR_remembrance
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		x = 2
+		y = 3
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = PAR_rebuild_the_kingdom  } mutually_exclusive = { focus = PAR_the_fall_of_the_king  }
+	}
+
+	#Rebuild The Kingdom
+	focus = {
+		id = PAR_rebuild_the_kingdom
+		icon = GFX_focus_generic_monarchy_2
+		x = 11
+		y = 3
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = PAR_remembrance  } mutually_exclusive = { focus = PAR_the_fall_of_the_king  }
+	}
+
+	#Party Time
+	focus = {
+		id = PAR_party_time
+		icon = GFX_PAR_party_time-757613
+		x = 21
+		y = 5
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_the_end_of_an_era  }
+	}
+
+	#The Gertek Menace
+	focus = {
+		id = PAR_the_gertek_menace
+		icon = GFX_focus_RAJ_lions_of_the_great_war
+		x = 23
+		y = 8
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_start_the_party  }
+	}
+
+	#Fortify the border
+	focus = {
+		id = PAR_fortify_the_border
+		icon = GFX_goal_generic_fortify_city
+		x = 22
+		y = 9
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_the_gertek_menace  }
+	}
+
+	#Ready the reserves
+	focus = {
+		id = PAR_ready_the_reserves
+		icon = GFX_goal_generic_army_artillery2
+		x = 22
+		y = 10
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_fortify_the_border  }
+	}
+
+	#The Carnage of Auteburo
+	focus = {
+		id = PAR_the_carnage_of_auteburo
+		icon = GFX_PAR_the_carnage_of_auteburo-646325
+		x = 24
+		y = 9
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_the_gertek_menace  }
+	}
+
+	#The old fort, my home!
+	focus = {
+		id = PAR_theoldfortmyhome
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 24
+		y = 10
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_the_carnage_of_auteburo  }
+	}
+
+	#Aberration strikes!
+	focus = {
+		id = PAR_aberrationstrikes
+		icon = GFX_focus_generic_strike_at_democracy1
+		x = 23
+		y = 11
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_ready_the_reserves  } prerequisite = { focus = PAR_theoldfortmyhome  }
+	}
+
+	#Dont let up
+	focus = {
+		id = PAR_dont_let_up
+		icon = GFX_goal_generic_military_deal
+		x = 22
+		y = 12
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_aberrationstrikes  }
+	}
+
+	#Our Victory
+	focus = {
+		id = PAR_our_victory
+		icon = GFX_PAR_our_victory-645990
+		x = 24
+		y = 13
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_dont_let_up  }
+	}
+
+	#The Fate
+	focus = {
+		id = PAR_the_fate
+		icon = GFX_PAR_the_fate-412
+		x = 22
+		y = 14
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_our_victory  }
+	}
+
+	#Our Dream
+	focus = {
+		id = PAR_our_dream
+		icon = GFX_focus_GRE_reviving_the_double_headed_eagle
+		x = 23
+		y = 15
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PAR_the_fate  }
+	}
+
+}

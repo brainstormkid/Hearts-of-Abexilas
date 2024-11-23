@@ -143,6 +143,18 @@ bookmarks = {
 			}
 		}
 
+		PAR = {
+			minor = yes 	#This is what makes it apear as a minor nation
+			history = PAR_DESC
+			ideology = neutrality
+			ideas = {
+               
+            }
+			focuses = {
+		
+			}
+		}
+
 		
 		}
 		effect = {
