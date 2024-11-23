@@ -261,4 +261,8 @@ spriteTypes = {
 		name = "GFX_idea_idea_ancestral_clans2"
 		texturefile = "gfx/interface/ideas/idea_ancestral_clans2.dds"
 	}
+	SpriteType = { 
+		name = "GFX_idea_idea_company_grants"
+		texturefile = "gfx/interface/ideas/idea_company_grants.dds"
+	}
  }
