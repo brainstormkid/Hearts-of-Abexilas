@@ -201,4 +201,64 @@ spriteTypes = {
 		name = "GFX_idea_idea_generic_devalue_currency"
 		texturefile = "gfx/interface/ideas/idea_generic_devalue_currency.dds"
 	}
+	SpriteType = { 
+		name = "GFX_idea_idea_generic_economic_crisis"
+		texturefile = "gfx/interface/ideas/idea_generic_economic_crisis.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_idea_generic_political_support"
+		texturefile = "gfx/interface/ideas/idea_generic_political_support.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_idea_generic_prisoner"
+		texturefile = "gfx/interface/ideas/idea_generic_prisoner.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_idea_generic_the_london_naval_treaty"
+		texturefile = "gfx/interface/ideas/idea_generic_the_london_naval_treaty.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_idea_GER_economy_of_conquest"
+		texturefile = "gfx/interface/ideas/idea_GER_economy_of_conquest.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_idea_GER_wirtschaftswunder"
+		texturefile = "gfx/interface/ideas/idea_GER_wirtschaftswunder.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_idea_chi_hyper_inflation3"
+		texturefile = "gfx/interface/ideas/idea_chi_hyper_inflation3.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_idea_chi_hyper_inflation2"
+		texturefile = "gfx/interface/ideas/idea_chi_hyper_inflation2.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_idea_chi_hyper_inflation"
+		texturefile = "gfx/interface/ideas/idea_chi_hyper_inflation.dds"
+	}
+	SpriteType = { 
+		name = "GFX_spr_seize_the_gold_reserves"
+		texturefile = "gfx/interface/ideas/spr_seize_the_gold_reserves.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_idea_agricultural_society"
+		texturefile = "gfx/interface/ideas/idea_agricultural_society.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_idea_shigen_sha"
+		texturefile = "gfx/interface/ideas/idea_shigen_sha.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_idea_tenshin"
+		texturefile = "gfx/interface/ideas/idea_tenshin.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_idea_all_power_to_the_shogun"
+		texturefile = "gfx/interface/ideas/idea_all_power_to_the_shogun.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_idea_ancestral_clans2"
+		texturefile = "gfx/interface/ideas/idea_ancestral_clans2.dds"
+	}
  }
