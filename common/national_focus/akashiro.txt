@@ -11,7 +11,7 @@ focus_tree = {
 
 	focus = {
 		id = AKS_national_bank
-		icon = GFX_ERC_cofhan_infrastructure-685989
+		icon = GFX_focus_CONGO_gold_and_diamonds
 		x = 2
 		y = 0
 		cost = 5
@@ -23,24 +23,9 @@ focus_tree = {
 			add_stability = 0.05
 		}
 	}
-	#Cofhan Infrastructure
-	focus = {
-		id = AKS_inflation_reduction_act
-		icon = GFX_ERC_cofhan_infrastructure-685989
-		x = 2
-		y = 1
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		completion_reward = {
-            add_ideas = the_inflation_reduction_act
-		}
-		prerequisite = { focus = AKS_national_bank  }
-	}
 	focus = {
 		id = AKS_devalue_our_currency
-		icon = GFX_HRP_form_the_national_bank-645670
+		icon = GFX_focus_DEN_devalue_krone
 		x = 3
 		y = 2
 		cost = 5
@@ -50,16 +35,12 @@ focus_tree = {
 		completion_reward = {
             add_timed_idea = {
              idea = devalue_currency 
-             days = 365
-}
-            
-        {
-                
+             days = 365    
             }
 		}
 		prerequisite = { focus = AKS_inflation_reduction_act  }
 	}
-	#Northern Infrastructure
+	#Laissez-Faire Economy
 	focus = {
 		id = AKS_laissez_faire_economy
 		icon = GFX_VAL_provisional_goverment-646107
@@ -70,19 +51,19 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
-		    534 = {
-			    add_building_construction = {
-                    type = infrastructure
+		    908 = {
+                add_building_construction = {
+                    type = arms_factory
                     level = 1
                     instant_build = yes
                 }
                 add_building_construction = {
-                    type = industrial_complex
+                    type = fuel_silo
                     level = 1
                     instant_build = yes
                 }
             }
-		    543 = {
+		    1144 = {
 			    add_building_construction = {
                     type = infrastructure
                     level = 1
@@ -99,7 +80,7 @@ focus_tree = {
 		mutually_exclusive = { focus = AKS_subsidies_for_the_agricultural_sector  }
 	}
 
-	#Rebuild Arkstadt
+	#Subsidies For The Agricultural Sector
 	focus = {
 		id = AKS_subsidies_for_the_agricultural_sector
 		icon = GFX_HRP_create_the_election_commission-645542
@@ -114,7 +95,7 @@ focus_tree = {
                 remove_idea = johns_mark
                 add_idea = johns_mark_2
             }
-		    579 = {
+		    901 = {
 		        add_building_construction = {
                    type = infrastructure
                    level = 1
@@ -122,8 +103,22 @@ focus_tree = {
                 }
                 add_building_construction = {
                     type = industrial_complex
+                    level = 2
+                    instant_build = yes
+
+                }
+            }
+		    859 = {
+		        add_building_construction = {
+                   type = infrastructure
+                   level = 2
+                   instant_build = yes
+                }
+                add_building_construction = {
+                    type = industrial_complex
                     level = 1
                     instant_build = yes
+
                 }
             }
 		}
@@ -227,7 +222,7 @@ focus_tree = {
 	#Force The Army Into Submission
 	focus = {
 		id = AKS_force_the_army_into_submission
-		icon = GFX_LEY_one_man_to_lead_them_all-262024
+		icon = GFX_army_submission
 		x = 13
 		y = 3
 		cost = 5
@@ -258,7 +253,7 @@ focus_tree = {
 	#Food Stamps For Veterans
 	focus = {
 		id = AKS_food_stamps_for_veterans
-		icon = GFX_goal_unknown
+		icon = GFX_food_grants
 		x = 11
 		y = 4
 		cost = 5
@@ -270,7 +265,7 @@ focus_tree = {
 	#Forcefully Integrate The Samurai
 	focus = {
 		id = AKS_forcefully_integrate_the_samurai
-		icon = GFX_goal_unknown
+		icon = GFX_integrate_samurai
 		x = 13
 		y = 4
 		cost = 5
@@ -295,7 +290,7 @@ focus_tree = {
 	#Empower The Morimoto Clan
 	focus = {
 		id = AKS_empower_the_morimoto_clan
-		icon = GFX_LEY_reform_the_reichstag-645493
+		icon = GFX_empower_morimoto
 		x = 9
 		y = 4
 		cost = 5
@@ -307,7 +302,7 @@ focus_tree = {
 	#Restrict The Morimoto Clan
 	focus = {
 		id = AKS_restrict_the_morimoto_clan
-		icon = GFX_goal_unknown
+		icon = GFX_restrict_morimoto
 		x = 6
 		y = 4
 		cost = 5
@@ -317,17 +312,23 @@ focus_tree = {
 		prerequisite = { focus = AKS_laissez_faire_economy  }
         mutually_exclusive = { focus = AKS_empower_the_morimoto_clan  }
 	}
-	#Empower the Archon
+	#Inflation Reduction Act
 	focus = {
-		id = ERC_empower_the_archon
-		icon = GFX_ERC_empower_the_archon-427
-		x = 18
+		id = AKS_inflation_reduction_act
+		icon = GFX_focus_generic_currency_reforms
+		x = 2
 		y = 1
-		cost = 10
+		cost = 5
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = ERC_amend_the_constitution  }
+		completion_reward = {
+		    swap_ideas = {
+                remove_idea = aks_high_inflation
+                add_idea = aks_medium_inflation
+            }
+		}
+		prerequisite = { focus = AKS_national_bank  }
 	}
 	#Empower the Pakhil Assembly
 	focus = {
