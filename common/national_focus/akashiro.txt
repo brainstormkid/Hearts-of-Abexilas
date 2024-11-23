@@ -8,7 +8,7 @@ focus_tree = {
 			tag = AKS
 		}
 	}
-
+	#Establish A National Bank
 	focus = {
 		id = AKS_national_bank
 		icon = GFX_focus_CONGO_gold_and_diamonds
@@ -33,9 +33,9 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
-            add_timed_idea = {
-             idea = devalue_currency 
-             days = 365    
+        add_timed_idea = {
+        idea = devalue_currency 
+        days = 365    
             }
 		}
 		prerequisite = { focus = AKS_inflation_reduction_act  }
@@ -62,18 +62,7 @@ focus_tree = {
                     level = 1
                     instant_build = yes
                 }
-            }
-		    1144 = {
-			    add_building_construction = {
-                    type = infrastructure
-                    level = 1
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = industrial_complex
-                    level = 1
-                    instant_build = yes
-                }
+				add_ideas = low_economic_mobilisation
             }
 		}
 		prerequisite = { focus = AKS_devalue_our_currency  }
@@ -91,10 +80,6 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
-		    swap_ideas = {
-                remove_idea = johns_mark
-                add_idea = johns_mark_2
-            }
 		    901 = {
 		        add_building_construction = {
                    type = infrastructure
@@ -125,7 +110,7 @@ focus_tree = {
 		prerequisite = { focus = AKS_devalue_our_currency  }
 		mutually_exclusive = { focus = AKS_laissez_faire_economy  }
 	}
-	#Build Al'Haile
+	#Grants For The Companies
 	focus = {
 		id = AKS_grants_for_the_companies
 		icon = GFX_HRP_appointed_mayors-646099
@@ -136,19 +121,11 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
-		    550 = {
-			    add_building_construction = {
-                    type = infrastructure
-                    level = 1
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = industrial_complex
-                    level = 1
-                    instant_build = yes
-                }
-            }
+		add_timed_idea = {
+		idea = company_grants
+		days = 365
 		}
+	}
 		prerequisite = { focus = AKS_laissez_faire_economy  }
 	}
 
@@ -308,6 +285,11 @@ focus_tree = {
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_popularity = { ideology = radical_nationalist popularity = -0.1 }
+			add_popularity = { ideology = conservatist popularity = -0.05 }
+			add_stability = 0.1
 		}
 		prerequisite = { focus = AKS_laissez_faire_economy  }
         mutually_exclusive = { focus = AKS_empower_the_morimoto_clan  }
