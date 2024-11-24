@@ -32,6 +32,11 @@ focus_tree = {
 			FOCUS_FILTER_MANPOWER
 		}
 		prerequisite = { focus = PAR_remembrance  }
+		select_effect = {
+add_manpower = 15000
+
+
+}
 	}
 
 	#Eyes To The North
