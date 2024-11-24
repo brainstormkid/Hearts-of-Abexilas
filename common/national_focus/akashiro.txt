@@ -279,7 +279,7 @@ focus_tree = {
 	#Bigger Ministries
 	focus = {
 		id = AKS_bigger_ministries
-		icon = GFX_focus_CONGO_gold_and_diamonds
+		icon = GFX_focus_generic_improve_the_administration
 		x = 15
 		y = 3
 		cost = 5
