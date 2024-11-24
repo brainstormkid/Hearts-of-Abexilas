@@ -69,15 +69,15 @@
 
 # Akashiro ideas
  the_ancestral_clans:0 "The Ancestral Clans"
- the_ancestral_clans_desc:0 "The Ancestral Clans, the four major clans of the Akashiro Shogunate who wield an immense amount of power and are able to influence the nation in ways that neither the Shigen-sha nor Shogun are able to ignore. The Fujishina clan holds major swathes of influence over their core lands in Saniroshi, Waridon and Kelsatti. The Morimoto clan mostly being in control of specific neighbourhoods and suburbs inside of Tennyoku itself. The Kirumasa clan being in major control of the eastern parts of the core Akashiren lands, such as Kayoto, Kirea and Kayoto Port. The most important clan of them all, the Akashiro clan being both the Shigen-sha, Shikken and the Shogun, naturally in 'control' of all of the Akashiro Shogunate, but that may change in the future..."
+ the_ancestral_clans_desc:0 "The Ancestral Clans, the four major clans of the Akashiro Shogunate who wield an immense amount of power and are able to influence the nation in ways that neither the Shigen-sha nor Shōgun are able to ignore. The Fujishina clan holds major swathes of influence over their core lands in Saniroshi, Waridon and Kelsatti. The Morimoto clan mostly being in control of specific neighbourhoods and suburbs inside of Tennyoku itself. The Kirumasa clan being in major control of the eastern parts of the core Akashiren lands, such as Kayoto, Kirea and Kayoto Port. The most important clan of them all, the Akashiro clan being both the Shigen-sha, Shikken and the Shōgun, naturally in 'control' of all of the Akashiro Shogunate, but that may change in the future..."
  traditionalist_society:0 "Traditionalist Society"
  traditionalist_society_desc:0 "The Akashiro Shogunate is both a progressive force to be reckoned with, but also a traditionally backwards society, with majority of the rural regions being stuck in their traditional ways and beliefs."
  shigensha_figurehead:0 "Shigen-sha Figurehead"
- shigensha_figurehead_desc:0 "The Shigen-sha of Tennyoku, the largest and most influential religious figure of the Tenshin religion, which is the official state religion within the Akashiro Shogunate, and followed by a huge majority within the realm itself. He's seen as the embodiment of the wishes of both Dejelkhai and Ryula, which most Akashirens worship as the guardian deities of the Tenshin faith, and Akashiren realm."
+ shigensha_figurehead_desc:0 "The §8Shigen-sha§! of Tennyoku, the largest and most influential religious figure of the Tenshin religion, which is the official state religion within the Akashiro Shogunate, and followed by a huge majority within the realm itself. He's seen as the embodiment of the wishes of both Dejelkhai and Ryula, which most Akashirens worship as the guardian deities of the Tenshin faith, and Akashiren realm."
  home_of_the_tenshin:0 "Home of Tenshin"
- home_of_the_tenshin_desc:0 "The Tenshin faith is the state religion of Akashiro, and followed my a huge majority within the Akashiren realm itself. The deities Dejelkhai and Ryula are heavily worshipped, with people worshipping usually only one of them, but nonetheless they are both viewed as the moral guides of life."
- all_power_to_the_shogun:0 "All Power To The Shogun"
- all_power_to_the_shogun_desc:0 "The Shogun of Akashiro, an incredibly prestigious and powerful title which very few have ever had the luxury of holding, but this luxury certainly comes with baggage - as the Akashiren realm is not only divided, but split between the Ancestral Clans."
+ home_of_the_tenshin_desc:0 "The §OTenshin§! faith is the state religion of Akashiro, and followed my a huge majority within the Akashiren realm itself. The deities Dejelkhai and Ryula are heavily worshipped, with people worshipping usually only one of them, but nonetheless they are both viewed as the moral guides of life."
+ all_power_to_the_shogun:0 "All Power To The Shōgun"
+ all_power_to_the_shogun_desc:0 "The §8Shōgun of Akashiro§!, an incredibly prestigious and powerful title which very few have ever had the luxury of holding, but this luxury certainly comes with baggage - as the Akashiren realm is not only divided, but split between the Ancestral Clans."
  the_inflation_reduction_act:0 "Inflation Reduction Act"
  the_inflation_reduction_act_desc:0 "In order to control our inflation, the government has enacted drastic measures in the forms of different policies that counter-act the skyrocketing inflation, with the most prominent one being the Inflation Reduction Act."
  devalue_currency:0 "Devaluing Our Currency"
@@ -92,9 +92,16 @@
  aks_heatlhy_inflation_desc:0 "What has occured can only be described as a minor economic miracle. Our economy has stabilized fully, and our country has never seen more opportunities than right now!"
  company_grants:0 "Company Grants"
  company_grants_desc:0 "For our economy to rise, we must give benefits and grants to the companies which so generously push forward our nation."
-
-
-
+ forced_army_integration:0 "Forced Army Loyalty"
+ forced_army_integration_desc:0 "Forcing loyalty to the state upon our army may have had some... §R'unforeseen consequences'§! and we must now deal with it. While the soldiers are motivated, I don't think it's because they're fighting for something worthwhile..."
+ remnants_of_muho_jidai:0 "Remnants of The Muhō Jidai"
+ remnants_of_muho_jidai_desc:0 "The §RMuhō Jidai§!, meaning §RAge of Lawlessness§!, was a period of Akashiren civil war which lasted 200 years, between 200 BU and 0 AU. The conflict was sparked after the first §8Shōgun of Akashiro§! had passed away without leaving an heir, causing other clans to seize the opportunity of gaining power, land and expanding their influence. It ended with Tsukikage and Akira Akashiro uniting the feuding clans and reestablishing the Shogunate."
+ efficience_ministries:0 "Efficient Bureaucracy"
+ efficience_ministries_desc:0 "After our recent reforms, our ministries and our general bureaucracy has become very efficient, and manages everything both big and small."
+ larger_ministries:0 "Bigger Ministries"
+ larger_ministries_desc:0 "While our ministries are still largely corrupt, we've enforced our will upon the ministers and local governors, making our state construction efficiency impressive... who knows how long they'll listen to us though?"
+ laissez_faire:0 "Laissez-Faire Economic Boost"
+ laissez_faire_desc:0 "A Laissez-Faire economy has allowed foreign corporations to take advantage of a huge new market, which has provided us with an immense amount of jobs, especially in the construction sector. These new jobs have led to an §GEconomic Boost!§!"
 
  #Economy
  economic_collapse:0 "The Great Gold Strain"
