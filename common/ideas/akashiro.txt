@@ -45,6 +45,7 @@ ideas = {
 				consumer_goods_factor = 0.1
 				conservatist_drift = 0.01
 				monarchist_drift = 0.01
+				production_speed_buildings_factor = -0.1
 	    	}
     	}
 		shigensha_figurehead = {
@@ -83,9 +84,10 @@ ideas = {
 			}
 
 			modifier = {
-			    stability_factor = 0.1
-                consumer_goods_factor = -0.05
-                production_speed_arms_factory_factor = -0.05
+			    stability_factor = 0.2
+                consumer_goods_factor = -0.1
+                production_speed_arms_factory_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
 			}
 		}
 		aks_high_inflation = {
@@ -143,8 +145,10 @@ ideas = {
 			}
 
 			modifier = {
-			    political_power_gain = 0.15
-				surrender_limit = 0.25
+			    political_power_gain = 0.25
+				surrender_limit = 0.35
+				offence = 0.075
+				defence = 0.075
             }
 		}
 		the_inflation_reduction_act = {
@@ -206,5 +210,96 @@ ideas = {
 				consumer_goods_factor = 0.05
 	    	}
     	}
+		forced_army_integration = {
+			picture = forced_army_submission_oshotty
+			allowed = {
+				TAG = AKS
+			}
+
+			available = {
+			}
+
+			allowed_civil_war = {
+			    always = yes
+			}
+
+			modifier = {
+                stability_factor = -0.05
+				war_support_factor = -0.10
+				offence = 0.05
+				defence = 0.05
+            }
+		}
+		remnants_of_muho_jidai = {
+			picture = idea_muho_jidai
+			allowed = {
+				TAG = AKS
+			}
+
+			available = {
+			}
+
+			allowed_civil_war = {
+			    always = yes
+			}
+
+			modifier = {
+                political_power_gain = -0.30
+				production_speed_buildings_factor = -0.15
+				industrial_capacity_factory = -0.1
+            }
+		}
+		efficience_ministries = {
+			picture = idea_generic_political_support
+			allowed = {
+				TAG = AKS
+			}
+
+			available = {
+			}
+
+			allowed_civil_war = {
+			    always = yes
+			}
+
+			modifier = {
+                political_power_gain = 0.1
+				production_speed_buildings_factor = 0.05
+            }
+		}
+		larger_ministries = {
+			picture = idea_GER_wirtschaftswunder
+			allowed = {
+				TAG = AKS
+			}
+
+			available = {
+			}
+
+			allowed_civil_war = {
+			    always = yes
+			}
+
+			modifier = {
+				production_speed_buildings_factor = 0.1
+            }
+		}
+		laissez_faire = {
+			picture = idea_GER_economy_of_conquest
+			allowed = {
+				TAG = AKS
+			}
+
+			available = {
+			}
+
+			allowed_civil_war = {
+			    always = yes
+			}
+
+			modifier = {
+				production_speed_buildings_factor = 0.1
+            }
+		}
 	}
 }
