@@ -1,0 +1,31 @@
+characters={
+    EJZ_gus={
+        name="Gustav av Ejznhjart"
+        portraits={
+            civilian={
+                large="GFX_portrait_EJZ_gustav_ejznhjart_large"
+                small="GFX_portrait_GFX_portrait_EJZ_gustav_small"
+            }
+        }
+        country_leader={
+            ideology=monarchist_subtype
+            traits= { dictator }
+            expire="1965.1.1.1"
+        }
+        advisor={
+            cost = 150
+            slot = political_advisor
+            idea_token = 
+            ledger = civilian [others are e.g. army]
+            allowed = {
+                original_tag = EJZ
+            }
+            traits = { true_nationalist }
+            available = { 
+            }
+            ai_will_do = {
+                factor = 1.0
+            }
+        }
+    }
+}

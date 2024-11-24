@@ -221,4 +221,10 @@ spriteTypes = {
 		name = "GFX_portrait_LUT_starlord"
 		texturefile = "gfx/leaders/LUT/starlord"
 	}
+
+	### EJZ
+	spriteType = {
+		name = "GFX_portrait_EJZ_gustav_ejznhjart_large"
+		texturefile = "gfx/leaders/EJZ/portrait_large_gustav_ejznhjart.dds"
+	}
 }
