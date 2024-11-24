@@ -85,6 +85,7 @@ add_ideas = {
 	home_of_the_tenshin
 	all_power_to_the_shogun
 	aks_high_inflation
+	remnants_of_muho_jidai
 }
 
 oob = "AKS"
