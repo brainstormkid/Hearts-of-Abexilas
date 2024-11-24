@@ -43,6 +43,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3423;14624;sea;23018;-1;-1;-1;-1;;East-Harjuba-Bridge
 35;14684;sea;21190;-1;-1;-1;-1;;West-Harjuba-Bridge
 14639;14582;sea;21190;-1;-1;-1;-1;;Hafumel-Bridge
+3713;11051;sea;15385;-1;-1;-1;-1;;Ertcofjord-Crossing
 ;;;;;;;;;
 #Ending Line, anything after is ignored;;;;;;;;;
 -1;-1;;-1;-1;-1;-1;-1;-1;

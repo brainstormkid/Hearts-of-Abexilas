@@ -1,6 +1,6 @@
 focus_tree = {
 	id = PAR
-	continuous_focus_position = { x = 8130 y = 1180 } 
+	continuous_focus_position = { x = 2430 y = 2350 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -662,7 +662,7 @@ focus_tree = {
 	focus = {
 		id = PAR_remind_them_of_their_chains
 		icon = GFX_focus_generic_army_tanks2
-		x = 6
+		x = 7
 		y = 22
 		cost = 4
 		search_filters = {
