@@ -51,6 +51,10 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
+		add_timed_idea = {
+        	idea = laissez_faire
+        	days = 365    
+            }
 		    908 = {
                 add_building_construction = {
                     type = arms_factory
@@ -62,7 +66,6 @@ focus_tree = {
                     level = 1
                     instant_build = yes
                 }
-				add_ideas = low_economic_mobilisation
             }
 		}
 		prerequisite = { focus = AKS_devalue_our_currency  }
@@ -131,7 +134,7 @@ focus_tree = {
 
 	### POLITICAL TREE
 
-	#A Change In Gear
+	#A Change In Gear # Add custom event
 	focus = {
 		id = AKS_a_change_in_gear
 		icon = GFX_HRP_end_the_joke-262055
@@ -142,19 +145,6 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-            534 = {
-                add_building_construction = {
-                    type = infrastructure
-                    level = 1
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = industrial_complex
-                    level = 1
-                    instant_build = yes
-                }
-            }
-            add_stability = 0.05
 		}
 	}
 
@@ -169,10 +159,11 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-		    add_political_power = 50
-		    add_ideas = {
-		        abolished_ecmr
-		    }
+		    add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = electronics
+			}
 		}
         prerequisite = { focus = AKS_a_change_in_gear  }
 		mutually_exclusive = { focus = AKS_kickstart_the_industry  }
@@ -189,8 +180,10 @@ focus_tree = {
 		}
 		completion_reward = {
 		    add_political_power = 50
-		    add_ideas = {
-		        maintained_ecmr
+		    add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = industry
 		    }
 		}
         prerequisite = { focus = AKS_a_change_in_gear  }
@@ -207,8 +200,11 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-		    add_war_support = 0.05
-        }
+		add_timed_idea = {
+        	idea = forced_army_integration
+        	days = 365    
+		}
+	}
 		prerequisite = { focus = AKS_kickstart_the_industry focus = AKS_advice_from_the_scholars  }
 	}
 	#Land For Returning Veterans
@@ -222,7 +218,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-		    add_war_support = 0.05
+		    add_stability = 0.1
+			add_war_support = 0.05
+			add_manpower = -25000
         }
 		prerequisite = { focus = AKS_kickstart_the_industry focus = AKS_advice_from_the_scholars  }
 		mutually_exclusive = { focus = AKS_force_the_army_into_submission }
@@ -237,6 +235,10 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		completion_reward = {
+			add_political_power = 75
+			army_experience = 25
+		}
 		prerequisite = { focus = AKS_land_for_returning_veterans  }
 	}
 	#Forcefully Integrate The Samurai
@@ -248,6 +250,10 @@ focus_tree = {
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			stability = -0.1
+			army_experience = 100
 		}
 		prerequisite = { focus = AKS_force_the_army_into_submission  }
 	}
@@ -262,7 +268,31 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		completion_reward = {
+        add_timed_idea = {
+        	idea = efficience_ministries
+        	days = 730
+            }
+		}
 		prerequisite = { focus = AKS_advice_from_the_scholars  }
+	}
+	#Bigger Ministries
+	focus = {
+		id = AKS_bigger_ministries
+		icon = GFX_focus_CONGO_gold_and_diamonds
+		x = 15
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+        add_timed_idea = {
+        	idea = larger_ministries
+        	days = 365
+            }
+		}
+		prerequisite = { focus = AKS_kickstart_the_industry  }
 	}
 	#Empower The Morimoto Clan
 	focus = {
@@ -273,6 +303,11 @@ focus_tree = {
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_popularity = { ideology = radical_nationalist popularity = 0.1 }
+			add_popularity = { ideology = conservatist popularity = 0.1 }
+			add_stability = -0.05
 		}
 		prerequisite = { focus = AKS_efficient_ministries  }
 	}
