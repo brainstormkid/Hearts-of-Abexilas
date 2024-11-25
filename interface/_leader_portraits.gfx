@@ -227,4 +227,11 @@ spriteTypes = {
 		name = "GFX_portrait_EJZ_gustav_ejznhjart_large"
 		texturefile = "gfx/leaders/EJZ/portrait_large_gustav_ejznhjart.dds"
 	}
-}
+	
+	### PAR
+
+	spriteType = {
+		name = "GFX_portrait_PAR_Alejandro"
+		texturefile = "GFX/leaders/PAR/Alejandro.dds"
+	}
+}	

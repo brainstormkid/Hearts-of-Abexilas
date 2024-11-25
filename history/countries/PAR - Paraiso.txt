@@ -15,6 +15,8 @@ set_politics = {
 }
 set_popularities = {
 	absolutist = 100
+	centrist = 0
+	Theocratist = 0
 }
 
 create_country_leader = {
@@ -23,6 +25,28 @@ create_country_leader = {
 	picture = "gfx/leaders/PAR/Alejandro.dds"
 	expire = "1965.1.1"
 	ideology = absolutist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Partybro"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "gfx/leaders/PAR/Partybro.dds"
+	expire = "1965.1.1"
+	ideology = centrist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Saiko"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "gfx/leaders/PAR/Saiko.dds"
+	expire = "1965.1.1"
+	ideology = Theocratist_subtype
 	traits = {
 		#
 	}
