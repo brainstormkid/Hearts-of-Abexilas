@@ -63,6 +63,11 @@
  myrtana_pre_civil.4.d:0 "We managed to send in the spy to inflitrate protestor's city with a sniper rifle and we got report that Aegis was assasinated from getting shot in the back of his head."
  myrtana_pre_civil.4.a:0 "That should do the trick."
  
+#AKASHIRO EVENTS
+ aks_change_in_gear.1.d:0 "The §1Akashiro Shogunate§! is, and has always been an incredible nation, able to punch far above it's own weight much like the Empires of both past and present - yet something in our nation is rotten, and we must steer clear of this corruption before it takes proper hold in our country."
+ aks_whiskey.1.d:0 "This is a test event, please work"
+ 
+
  #LEYENBOURG EVENTS
  tim_retires.1.t:0 "Tim retires!"
  tim_retires.1.d:0 "Tim Desmond III. has unexpectedly stepped down from his position of High Chancellor"
