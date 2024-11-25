@@ -134,7 +134,7 @@ focus_tree = {
 
 	### POLITICAL TREE
 
-	#A Change In Gear # Add custom event
+	#A Change In Gear
 	focus = {
 		id = AKS_a_change_in_gear
 		icon = GFX_HRP_end_the_joke-262055
@@ -145,6 +145,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
+			country_event = { id = akashiro.1 }
 		}
 	}
 
