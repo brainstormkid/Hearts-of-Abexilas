@@ -182,6 +182,10 @@
  AXE_absolutist_DEF:1 "the Third Kingdom of Axelm"
  AXE_absolutist_ADJ:0 "Axelmian"
  
+ AYT_absolutist:1 "Ayterion"
+ AYT_absolutist_DEF:1 "the Ayterion"
+ AYT_absolutist_ADJ:0 "Ayterian"
+ 
  AZE_absolutist:1 "Azeraan Federation"
  AZE_absolutist_DEF:1 "the Azeraan Federation"
  AZE_absolutist_ADJ:0 "Azeraani"

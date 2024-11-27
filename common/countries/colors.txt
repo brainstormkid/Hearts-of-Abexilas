@@ -130,6 +130,11 @@ AZE = {
 	color_ui = rgb { 24 132 142 }
 }
 
+AYT = {
+	color = rgb { 120 181 79 }
+	color_ui = rgb { 120 181 79 }
+}
+
 AZU = {
 	color = rgb { 58 76 75 }
 	color_ui = rgb { 58 76 75 }
