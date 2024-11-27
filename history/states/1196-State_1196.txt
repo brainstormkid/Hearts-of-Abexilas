@@ -1,0 +1,16 @@
+state={
+	id=1196
+	name="STATE_1196"
+	provinces={
+		576 2902 3038 6015 13824 13846 13863 13889 13890 13916 13935 13949 14005
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = KHE
+		buildings = {
+		}
+		add_core_of = KHE
+	}
+}

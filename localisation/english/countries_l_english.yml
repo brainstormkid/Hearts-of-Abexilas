@@ -524,6 +524,10 @@
  KHA_absolutist_DEF:1 "the Karzinite of Khanen"
  KHA_absolutist_ADJ:0 "Kamtargari"
  
+ KHE_absolutist:1 "Exarchy Of Kheionea"
+ KHE_absolutist_DEF:1 "the Exarchy Of Kheionea"
+ KHE_absolutist_ADJ:0 "Kathomaxi"
+ 
  KHR_absolutist:1 "Kingdom of Khrumaz"
  KHR_absolutist_DEF:1 "the Kingdom of Khrumaz"
  KHR_absolutist_ADJ:0 "Khrumazi"
