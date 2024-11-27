@@ -571,8 +571,13 @@ MAL = {
 }
 
 MAR = {
-	color = rgb { 174  62  216 }
-	color_ui = rgb { 174  62  216 }
+	color = rgb { 174 62 216 }
+	color_ui = rgb { 174 62 216 }
+}
+
+MEL = {
+	color = rgb { 66 35 160 }
+	color_ui = rgb { 66 35 160 }
 }
 
 MIC = {

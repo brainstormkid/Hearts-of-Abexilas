@@ -651,6 +651,10 @@
  MAR_absolutist_DEF:1 "the Duchy of Marisvalor"
  MAR_absolutist_ADJ:0 "Marisvaloran"
  
+ MEL_absolutist:1 "Empaire of Melzia"
+ MEL_absolutist_DEF:1 "the Empaire of Melzia"
+ MEL_absolutist_ADJ:0 "Melzian"
+ 
  MIC_absolutist:1 "Kingdom of Michava"
  MIC_absolutist_DEF:1 "the Kingdom of Michava"
  MIC_absolutist_ADJ:0 "Michavian"
