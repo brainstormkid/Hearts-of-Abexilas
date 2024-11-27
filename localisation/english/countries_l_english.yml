@@ -594,6 +594,10 @@
  COT_absolutist_DEF:1 "the Fanatic Order of Cortland"
  COT_absolutist_ADJ:0 "Fanatics"
  
+ LIB_absolutist:1 "Libratia"
+ LIB_absolutist_DEF:1 "the Libratia"
+ LIB_absolutist_ADJ:0 "Libratian"
+ 
  LIR_absolutist:1 "Unity of Lir’ion"
  LIR_absolutist_DEF:1 "the Unity of Lir’ion"
  LIR_absolutist_ADJ:0 "Lir'ian"

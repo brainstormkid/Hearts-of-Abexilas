@@ -515,6 +515,11 @@ LEY = {
 	color_ui = rgb { 51 76 116 }
 }
 
+LIB = {
+	color = rgb { 65 42 109 }
+	color_ui = rgb { 65 42 109 }
+}
+
 LIR = {
 	color = rgb { 126 29 182 }
 	color_ui = rgb { 126 29 182 }
