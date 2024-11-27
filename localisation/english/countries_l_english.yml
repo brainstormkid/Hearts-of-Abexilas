@@ -496,6 +496,10 @@
  JOR_absolutist_DEF:1 "the Jörðar Mandate"
  JOR_absolutist_ADJ:0 "Jothari"
  
+ KAB_absolutist:1 "City State of Kabechazzaar"
+ KAB_absolutist_DEF:1 "the City State of Kabechazzaar"
+ KAB_absolutist_ADJ:0 "Kabechazzaaric"
+ 
  KAD_absolutist:1 "Imperial Crownlands of Kaddu"
  KAD_absolutist_DEF:1 "the Imperial Crownlands of Kaddu"
  KAD_absolutist_ADJ:0 "Kaddian"

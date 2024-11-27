@@ -440,6 +440,11 @@ JOR = {
 	color_ui = rgb { 16 119 104 }
 }
 
+KAB = {
+	color = rgb { 186 157 27 }
+	color_ui = rgb { 186 157 27 }
+}
+
 KAD = {
 	color = rgb { 199 133 52 }
 	color_ui = rgb { 199 133 52 }
