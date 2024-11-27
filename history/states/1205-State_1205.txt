@@ -1,0 +1,22 @@
+state={
+	id=1205
+	name="STATE_1205"
+	provinces={
+		15270 
+	}
+	buildings_max_level_factor=1.000
+        manpower = 1194000
+        state_category = town
+	history={
+		owner = SET
+		buildings = {
+		infrastructure = 3
+		industrial_complex = 1
+		dockyard = 1
+		15270 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SET
+	}
+}
