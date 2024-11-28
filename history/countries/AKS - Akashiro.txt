@@ -275,3 +275,7 @@ set_autonomy = {
 	target = SUN
 	autonomous_state = autonomy_dominion
 }
+set_autonomy = {
+	target = YUS
+	autonomous_state = autonomy_integrated_puppet
+}
