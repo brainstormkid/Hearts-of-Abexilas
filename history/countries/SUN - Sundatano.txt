@@ -1,21 +1,68 @@
 ﻿capital = 1
 
 set_politics = {
-	ruling_party = absolutist
+	ruling_party = centrist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	absolutist = 100
+	absolutist = 0
+    monarchist = 0
+    theocratist = 0
+    accelerationist = 0
+
+    anarchist = 0
+    xeroist = 0
+    radical_socialist = 0
+    revisionist = 0
+
+    libertarianist = 0
+    centrist = 34
+    liberalist = 33
+    progressivist = 0
+    conservatist = 0
+
+    imperialist = 0
+    radical_nationalist = 33
 }
 
 create_country_leader = {
-	name = "?"
+	name = "Tigiyuto Akashiro"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "gfx/leaders/AKS/Tigiyuto.dds"
+	expire = "1965.1.1"
+	ideology = centrist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Tigiyuto Akashiro"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "gfx/leaders/AKS/Tigiyuto.dds"
+	expire = "1965.1.1"
+	ideology = liberalist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Pablito"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	#picture = "gfx/leaders/AEZ/Panda.dds"
 	expire = "1965.1.1"
-	ideology = absolutist_subtype
+	ideology = radical_nationalist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Akira Akashiro"
+	desc = "POLITICS_AKIRA_DESC"
+	picture = "gfx/leaders/AKS/Akira.dds"
+	expire = "1965.1.1"
+	ideology = theocratist_subtype
 	traits = {
 		#
 	}
