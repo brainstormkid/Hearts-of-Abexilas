@@ -5,11 +5,18 @@ state={
 		1066 4435 12864 12916 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=900000
+        state_category = city
 	history={
 		owner = SUN
+		victory_points = {
+			12916 5
+		}
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = SUN
 	}
