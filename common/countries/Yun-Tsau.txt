@@ -1,0 +1,6 @@
+#Yun-Tsau
+
+graphical_culture = asian_gfx
+graphical_culture_2d = asian_2d
+
+color = { 120 161 194 }
