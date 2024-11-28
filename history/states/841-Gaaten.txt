@@ -10,7 +10,7 @@ state={
 	history={
 		owner = SUN
 		victory_points = {
-			12916 5
+			12916 50
 		}
 		buildings = {
 			infrastructure = 2
