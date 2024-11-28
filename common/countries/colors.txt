@@ -945,6 +945,11 @@ YNQ = {
 	color_ui = rgb { 154 101 153 }
 }
 
+YUS = {
+	color = rgb { 120 161 194 }
+	color_ui = rgb { 120 161 194 }
+}
+
 ZAI = {
 	color = rgb { 151 78 32 }
 	color_ui = rgb { 151 78 32 }
