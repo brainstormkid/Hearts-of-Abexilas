@@ -750,6 +750,11 @@ SKU = {
 	color_ui = rgb { 69 69 69 }
 }
 
+SOL = {
+	color = rgb { 153 102 69 }
+	color_ui = rgb { 153 102 69 }
+}
+
 SON = {
 	color = rgb { 57 63 119 }
 	color_ui = rgb { 57 63 119 }

@@ -898,6 +898,10 @@
  SKU_absolutist_DEF:1 "the Fjarldom of Skúlfur"
  SKU_absolutist_ADJ:0 "Skúlfuran"
  
+ SOL_absolutist:1 "High Solir of Soliana"
+ SOL_absolutist_DEF:1 "the High Solir of Soliana"
+ SOL_absolutist_ADJ:0 "Solianen"
+ 
  SON_absolutist:1 "Sonderia"
  SON_absolutist_DEF:1 "the Sonderia"
  SON_absolutist_ADJ:0 "Sonderian"
