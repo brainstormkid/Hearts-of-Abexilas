@@ -75,6 +75,11 @@ ARC = {
 	color_ui = rgb { 0 128 128 }
 }
 
+ARI = {
+	color = rgb { 101 136 158 }
+	color_ui = rgb { 101 136 158 }
+}
+
 ARK = {
 	color = rgb { 194 100 116 }
 	color_ui = rgb { 194 100 116 }
@@ -698,6 +703,11 @@ ROZ = {
 SAM = {
 	color = rgb { 233 124 0 }
 	color_ui = rgb { 233 124 0 }
+}
+
+SAN = {
+	color = rgb { 191 42 42 }
+	color_ui = rgb { 191 42 42 }
 }
 
 SAR = {

@@ -141,6 +141,10 @@
  ARC_radical_nationalist:1 "Sinsolian Legion of Arcael"
  ARC_radical_nationalist_DEF:1 "the Sinsolian Legion of Arcael"
  ARC_radical_nationalist_ADJ:0 "Arcaeli"
+ 
+ ARI_absolutist:1 "Dukedom of Ariefell"
+ ARI_absolutist_DEF:1 "the Dukedom of Ariefell"
+ ARI_absolutist_ADJ:0 "Ariefellian"
 
  ARK_absolutist:1 "Arkan"
  ARK_absolutist_DEF:1 "the Arkan"
@@ -783,6 +787,10 @@
  SAM_absolutist:1 "Grand Duchy of Samora"
  SAM_absolutist_DEF:1 "the Grand Duchy of Samora"
  SAM_absolutist_ADJ:0 "Samoran"
+ 
+ SAN_absolutist:1 "Kingdom of Santos"
+ SAN_absolutist_DEF:1 "the Kingdom of Santos"
+ SAN_absolutist_ADJ:0 "Santonian"
  
  SAR_absolutist:1 "Korlenten Sarinzerilin"
  SAR_absolutist_DEF:1 "the Korlenten Sarinzerilin"
