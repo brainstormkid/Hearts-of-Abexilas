@@ -5,8 +5,8 @@ state={
 		198 211 401 1108 1778 3179 3491 3543 4198 4693 5032 5229 6091 6238 14121 14153 14266 14290 14297 14298 14314 14334 14341 14342 14360 14373 14376 14379 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1650000
+        state_category = large_town
 	history={
 		owner = VIR
 		buildings = {
