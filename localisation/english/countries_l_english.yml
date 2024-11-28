@@ -182,6 +182,10 @@
  AVA_absolutist_DEF:1 "the Empire of Avalor"
  AVA_absolutist_ADJ:0 "Avaloran"
  
+ AVE_absolutist:1 "United Realms of Avedora"
+ AVE_absolutist_DEF:1 "the United Realms of Avedora"
+ AVE_absolutist_ADJ:0 "Avedoran"
+ 
  AXE_absolutist:1 "Third Kingdom of Axelm"
  AXE_absolutist_DEF:1 "the Third Kingdom of Axelm"
  AXE_absolutist_ADJ:0 "Axelmian"
