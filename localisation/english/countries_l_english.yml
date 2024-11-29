@@ -203,10 +203,6 @@
  ARC_radical_nationalist:1 "Sinsolian Legion of Arcael"
  ARC_radical_nationalist_DEF:1 "the Sinsolian Legion of Arcael"
  ARC_radical_nationalist_ADJ:0 "Arcaeli"
- 
- ARI_absolutist:1 "Dukedom of Ariefell"
- ARI_absolutist_DEF:1 "the Dukedom of Ariefell"
- ARI_absolutist_ADJ:0 "Ariefellian"
 
  ARK_absolutist:1 "Arkan"
  ARK_absolutist_DEF:1 "the Arkan"
@@ -244,17 +240,9 @@
  AVA_absolutist_DEF:1 "the Empire of Avalor"
  AVA_absolutist_ADJ:0 "Avaloran"
  
- AVE_absolutist:1 "United Realms of Avedora"
- AVE_absolutist_DEF:1 "the United Realms of Avedora"
- AVE_absolutist_ADJ:0 "Avedoran"
- 
  AXE_absolutist:1 "Third Kingdom of Axelm"
  AXE_absolutist_DEF:1 "the Third Kingdom of Axelm"
  AXE_absolutist_ADJ:0 "Axelmian"
- 
- AYT_absolutist:1 "Ayterion"
- AYT_absolutist_DEF:1 "the Ayterion"
- AYT_absolutist_ADJ:0 "Ayterian"
  
  AZE_absolutist:1 "Azeraan Federation"
  AZE_absolutist_DEF:1 "the Azeraan Federation"
@@ -566,10 +554,6 @@
  JOR_absolutist_DEF:1 "the Jörðar Mandate"
  JOR_absolutist_ADJ:0 "Jothari"
  
- KAB_absolutist:1 "City State of Kabechazzaar"
- KAB_absolutist_DEF:1 "the City State of Kabechazzaar"
- KAB_absolutist_ADJ:0 "Kabechazzaaric"
- 
  KAD_absolutist:1 "Imperial Crownlands of Kaddu"
  KAD_absolutist_DEF:1 "the Imperial Crownlands of Kaddu"
  KAD_absolutist_ADJ:0 "Kaddian"
@@ -597,10 +581,6 @@
  KHA_absolutist:1 "Karzinite of Khanen"
  KHA_absolutist_DEF:1 "the Karzinite of Khanen"
  KHA_absolutist_ADJ:0 "Kamtargari"
- 
- KHE_absolutist:1 "Exarchy Of Kheionea"
- KHE_absolutist_DEF:1 "the Exarchy Of Kheionea"
- KHE_absolutist_ADJ:0 "Kathomaxi"
  
  KHR_absolutist:1 "Kingdom of Khrumaz"
  KHR_absolutist_DEF:1 "the Kingdom of Khrumaz"
@@ -672,10 +652,6 @@
  COT_absolutist_DEF:1 "the Fanatic Order of Cortland"
  COT_absolutist_ADJ:0 "Fanatics"
  
- LIB_absolutist:1 "Libratia"
- LIB_absolutist_DEF:1 "the Libratia"
- LIB_absolutist_ADJ:0 "Libratian"
- 
  LIR_absolutist:1 "Unity of Lir’ion"
  LIR_absolutist_DEF:1 "the Unity of Lir’ion"
  LIR_absolutist_ADJ:0 "Lir'ian"
@@ -720,10 +696,6 @@
  MAR_absolutist:1 "Duchy of Marisvalor"
  MAR_absolutist_DEF:1 "the Duchy of Marisvalor"
  MAR_absolutist_ADJ:0 "Marisvaloran"
- 
- MEL_absolutist:1 "Empaire of Melzia"
- MEL_absolutist_DEF:1 "the Empaire of Melzia"
- MEL_absolutist_ADJ:0 "Melzian"
  
  MIC_absolutist:1 "Kingdom of Michava"
  MIC_absolutist_DEF:1 "the Kingdom of Michava"
@@ -854,10 +826,6 @@
  SAM_absolutist_DEF:1 "the Grand Duchy of Samora"
  SAM_absolutist_ADJ:0 "Samoran"
  
- SAN_absolutist:1 "Kingdom of Santos"
- SAN_absolutist_DEF:1 "the Kingdom of Santos"
- SAN_absolutist_ADJ:0 "Santonian"
- 
  SAR_absolutist:1 "Korlenten Sarinzerilin"
  SAR_absolutist_DEF:1 "the Korlenten Sarinzerilin"
  SAR_absolutist_ADJ:0 "Simulamii"
@@ -897,10 +865,6 @@
  SKU_absolutist:1 "Fjarldom of Skúlfur"
  SKU_absolutist_DEF:1 "the Fjarldom of Skúlfur"
  SKU_absolutist_ADJ:0 "Skúlfuran"
- 
- SOL_absolutist:1 "High Solir of Soliana"
- SOL_absolutist_DEF:1 "the High Solir of Soliana"
- SOL_absolutist_ADJ:0 "Solianen"
  
  SON_absolutist:1 "Sonderia"
  SON_absolutist_DEF:1 "the Sonderia"
