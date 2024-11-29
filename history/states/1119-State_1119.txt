@@ -2,9 +2,13 @@ state={
 	id=1119
 	name="STATE_1119"
 	provinces={
-		3640 3736 4402 5501 14947 14985 
+		1139 3640 3736 4402 5501 5776 14917 14939 14947 14985
 	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
+	history={
+		owner = RIM
+		add_core_of = RIM
+	}
 }
