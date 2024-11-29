@@ -113,7 +113,6 @@ country_event = {
 	option = {
 		name = "Integrate Yun-Tsau Fully"
         ai_chance = { factor = 70 }
-        unlock_national_focus = AKS_advice_from_the_scholars
         add_political_power = -25
         annex_country = {
             target = YUS
