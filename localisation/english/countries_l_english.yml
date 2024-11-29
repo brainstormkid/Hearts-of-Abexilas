@@ -381,6 +381,10 @@
  DRE_absolutist_DEF:1 "the DreadVought Imperium"
  DRE_absolutist_ADJ:0 "Dreadvoughtian"
  
+ DWA_absolutist:1 "Dwarven League"
+ DWA_absolutist_DEF:1 "Dwarven League"
+ DWA_absolutist_ADJ:0 "Dwarven"
+ 
  DYS_absolutist:1 "Triumvirate of Dyshella"
  DYS_absolutist_DEF:1 "the Triumvirate of Dyshella"
  DYS_absolutist_ADJ:0 "Dyshelli"
@@ -837,6 +841,10 @@
  RIT_absolutist:1 "Ritte an Tola"
  RIT_absolutist_DEF:1 "the Ritte an Tola"
  RIT_absolutist_ADJ:0 "Tolan"
+ 
+ RIM_absolutist:1 "Rimefirth"
+ RIM_absolutist_DEF:1 "Rimefirth"
+ RIM_absolutist_ADJ:0 "Rimefirth"
  
  ROH_absolutist:1 "Magehold of Rohldan"
  ROH_absolutist_DEF:1 "the Magehold of Rohldan"
