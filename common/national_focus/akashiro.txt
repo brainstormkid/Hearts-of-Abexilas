@@ -348,17 +348,20 @@ focus_tree = {
 		}
 		prerequisite = { focus = AKS_national_bank  }
 	}
-	#Empower the Pakhil Assembly
+	#The Question of Yun-Tsau
 	focus = {
-		id = ERC_empower_the_pakhil_assembly
-		icon = GFX_ERC_empower_the_pakhil_assembly-646365
-		x = 14
-		y = 1
+		id = AKS_the_question_of_yuntsau
+		icon = GFX_yuntsau_question
+		x = 12
+		y = 5
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = ERC_amend_the_constitution  }
+		completion_reward = {
+			country_event = { id = akashiro.4 }
+		}
+		prerequisite = { focus = AKS_forcefully_integrate_the_samurai focus = AKS_food_stamps_for_veterans  }
 	}
 	#Invite the Far-Left
 	focus = {
@@ -369,6 +372,9 @@ focus_tree = {
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			country_event = { id = akashiro.1 }
 		}
 		prerequisite = { focus = ERC_prepare_a_new_government  }
 		mutually_exclusive = { focus = ERC_invite_the_farright  }
