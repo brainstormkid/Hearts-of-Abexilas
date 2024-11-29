@@ -2889,7 +2889,7 @@ focus_tree = {
 		mutually_exclusive = { focus = generic_focus_statism  } mutually_exclusive = { focus = generic_focus_centralize_the_government  } mutually_exclusive = { focus = generic_focus_a_brighter_future  }
 		completion_reward = {
 			add_popularity = {
-				ideology = social_liberalist
+				ideology = liberalist
 				popularity = +0.1
 			}
 			add_popularity = {
@@ -2897,7 +2897,7 @@ focus_tree = {
 				popularity = +0.1
 			}
 			set_politics = {
-				ruling_party = social_liberalist
+				ruling_party = liberalist
 				elections_allowed = yes
 				last_election = "1936.1.1"
 				election_frequency = 48
@@ -3250,6 +3250,28 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_get_ready  }
+		completion_reward = {
+			random_neighbor_country = {
+				limit = {  
+					strength_ratio = {
+						tag = ROOT
+						ratio < 0.3
+					}
+					not = {
+						is_guaranteed_by = ROOT #not guaranteed by us
+						is_in_faction_with = ROOT #not in faction with us
+						has_non_aggression_pact_with = ROOT #no non aggression by us
+						is_subject_of = ROOT #not our puppet
+					}
+				}
+			ROOT = {
+				create_wargoal = {
+					type = annex_everything
+					target = PREV
+				}
+			}
+			}
+		}
 	}
 
 	#Military Youth
@@ -3644,10 +3666,13 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		
-		#Somehow bugged i dont understand it yet
-		available = {
-			any_neighbour_county = {
-				limit = { #sanity checks
+		completion_reward = {
+			random_neighbor_country = {
+				limit = {  
+					strength_ratio = {
+						tag = ROOT
+						ratio < 0.5
+					}
 					not = {
 						is_guaranteed_by = ROOT #not guaranteed by us
 						is_in_faction_with = ROOT #not in faction with us
@@ -3655,25 +3680,10 @@ focus_tree = {
 						is_subject_of = ROOT #not our puppet
 					}
 				}
-			}
-		}
-		
-		complete_effect = {
-		random_neighbour_country = {
-			limit = { #sanity checks
-				not = {
-					is_guaranteed_by = ROOT #not guaranteed by us
-					is_in_faction_with = ROOT #not in faction with us
-					has_non_aggression_pact_with = ROOT #no non aggression by us
-					is_subject_of = ROOT #not our puppet
-					}
-				}
 			ROOT = {
 				create_wargoal = {
-					type = puppet_wargoal_focus
-					target = PREV 
-					generator = { 123 321 }
-					expire = 900
+					type = annex_everything
+					target = PREV
 				}
 			}
 			}
