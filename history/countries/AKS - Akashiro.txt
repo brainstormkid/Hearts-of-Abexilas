@@ -23,6 +23,7 @@ set_technology = {
 	early_bomber = 1
 }
 
+# Leaders
 recruit_character = AKS_tsukikage
 recruit_character = AKS_akira
 recruit_character = AKS_lason
@@ -32,6 +33,15 @@ recruit_character = AKS_helena
 recruit_character = AKS_drink
 recruit_character = AKS_tigiyuto
 recruit_character = AKS_chifu
+
+# Generals
+recruit_character = AKS_oshotty
+recruit_character = AKS_glaskii
+recruit_character = AKS_drinkkirumasa
+
+
+
+
 
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -86,6 +96,7 @@ add_ideas = {
 	all_power_to_the_shogun
 	aks_high_inflation
 	remnants_of_muho_jidai
+	low_economic_mobilisation
 }
 
 oob = "AKS"
