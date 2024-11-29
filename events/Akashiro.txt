@@ -98,3 +98,32 @@ country_event = {
             transfer_troops = no
         }
     }
+}
+
+#The Question of Yun-Tsau
+country_event = {
+	id = akashiro.4
+	title = "The Yun-Tsau Question"
+	desc = aks_the_yuntsau_question.1.d
+	picture = GFX_akashiro_event_1
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = { days = 7 }
+	option = {
+		name = "Integrate Yun-Tsau Fully"
+        ai_chance = { factor = 70 }
+        unlock_national_focus = AKS_advice_from_the_scholars
+        add_political_power = -25
+        annex_country = {
+            target = YUS
+            transfer_troops = yes
+        }
+    }
+    option = {
+        name = "Main Yun-Tsau's Independence"
+        ai_chance = { factor = 30 }
+        add_political_power = 25
+        add_stability = 0.05
+    }
+}
