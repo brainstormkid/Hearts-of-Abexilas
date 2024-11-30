@@ -55,6 +55,11 @@ AME = {
 	color_ui = rgb { 111 0 134 }
 }
 
+AMA = {
+	color = rgb { 10 144 0 }
+	color_ui = rgb { 10 144 0 }
+}
+
 AND = {
 	color = rgb { 132 56 169 }
 	color_ui = rgb { 132 56 169 }
