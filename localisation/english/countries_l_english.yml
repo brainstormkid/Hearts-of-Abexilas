@@ -206,6 +206,10 @@
  ANR_absolutist_DEF:1 "the Federation of Nova Andromeda"
  ANR_absolutist_ADJ:0 "Andromedan"
  
+ AMA_absolutist:1 "Cakeist State of Amar"
+ AMA_absolutist_DEF:1 "The Cakeist State of Amar"
+ AMA_absolutist_ADJ:0 "Amarn"
+ 
  AME_absolutist:1 "Kingdom of Amestris"
  AME_absolutist_DEF:1 "the Kingdom of Amestris"
  AME_absolutist_ADJ:0 "Amestrian"
