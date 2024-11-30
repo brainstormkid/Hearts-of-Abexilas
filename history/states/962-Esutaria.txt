@@ -28,6 +28,6 @@ state={
 			dockyard = 1
 		}
 		add_core_of = ESU
-		add_claim_of = AKS
+		add_core_of = AKS
 	}
 }
