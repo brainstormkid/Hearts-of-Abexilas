@@ -1,6 +1,6 @@
 state={
 	id=962
-	name="Esutaria"
+	name="STATE_962"
 	provinces={
 		3885 6561 13776 13791 13792 13837 
 	}
