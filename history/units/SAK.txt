@@ -1,0 +1,67 @@
+division_template = {
+	name = "Sakraviri Infantry Division"					# Represents 18w Infantry
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Sakraviri Cavalry Division"				# Represents 6w Cavalry Division
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Itharvir Regiment"
+		location = 12976
+		division_template = "Sakraviri Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1st Steinbirge Regiment"
+		location = 13058
+		division_template = "Sakraviri Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1st Aldrim Regiment"
+		location = 5566
+		division_template = "Sakraviri Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2nd Itharvir Regiment"
+		location = 3026
+		division_template = "Sakraviri Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1st Tarrus Cavalry Regiment"
+		location = 12612
+		division_template = "Sakraviri Cavalry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}
+
+#####################
