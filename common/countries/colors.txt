@@ -340,6 +340,11 @@ ERI = {
 	color_ui = rgb { 225 89 48 }
 }
 
+ESU = {
+	color = rgb { 176 208 232 }
+	color_ui = rgb { 176 208 232 }
+}
+
 EXO = {
 	color = rgb { 253 50 132 }
 	color_ui = rgb { 253 50 132 }
@@ -1003,14 +1008,4 @@ ZIL = {
 ZUR = {
 	color = rgb { 14 30 120 }
 	color_ui = rgb { 14 30 120 }
-}
-
-SAK = {
-	color = rgb { 245 75 66 }
-	color_ui = rgb { 245 75 66 }
-}
-
-ESU = {
-	color = rgb { 176 208 232 }
-	color_ui = rgb { 176 208 232 }
 }
