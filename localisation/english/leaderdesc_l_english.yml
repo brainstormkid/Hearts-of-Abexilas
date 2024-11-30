@@ -25,7 +25,12 @@
  POLITICS_THESSEION_DESC:0 ""
  
  #Akashiro
- POLITICS_TSUKIKAGE_DESC:0 "Born: Unknown\n\nDescription: Born the nephew of the original Shigen-sha, Tsukikage oversaw the defence of the realm against malicious actors within the Hiragawa Clan during the Muho Jidai alongside his brother Akira. Tsukikage's important role as the main military coordinator and supposed endowment by the original Shogun led him to become the clear contender to become the leader of the new Akashiren state after the Muho Jidai, centralising power in a military government centered around him and him alone."
+ POLITICS_TSUKIKAGE_DESC:0 "Born the nephew of the original Shigen-sha, Tsukikage oversaw the defence of the realm against malicious actors within the Hiragawa Clan during the Muho Jidai alongside his brother Akira. Tsukikage's important role as the main military coordinator and supposed endowment by the original Shogun led him to become the clear contender to become the leader of the new Akashiren state after the Muho Jidai, centralising power in a military government centered around him and him alone."
+ 
+ 
+
+ #Sakravir
+ POLITICS_GNOME_DESC:0 "Fechera Bacuera was the only child of Veron V (Pirijadis) and Astral Bacuera, He was born sometime during the last years of Rathnir where his parent Veron V ruled the Sagavir Empire which had recently been reformed after centuries of its collapse. learning much of his time in the nation of Sironia (his home nation that formed over half of the Reformed Sagavir Empire) and more notably his religion of Sakrelism, the state religion of Sironia, He carried this knowledge during the journey to Abexilas after Rathnir's desertion in the hopes to help maintain the religion do to its incredible age."
  
  #Akito
  POLITICS_LUNARIS_DESC:0 "Born: 10 VE\n\nDescription: Born into royalty by the Empress Stella and Emperor Korim. Lunaris assumed the throne after the passing of his mom and dad, ruling the nation with an iron fist ever since."
