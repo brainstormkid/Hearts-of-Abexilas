@@ -14,7 +14,11 @@
  AKI_absolutist:1 "State of Akito"
  AKI_absolutist_DEF:1 "the State of Akito"
  AKI_absolutist_ADJ:0 "Akitian"
- 
+
+ SAK_monarchist:1 "Imperial Archonate of Sakravir"
+ SAK_monarchist_DEF:1 "Sakraviri Archonate"
+ SAK_monarchist_ADJ:0 "Sakraviri"
+
  AKS_absolutist:1 "Akashiro Empire"
  AKS_absolutist_DEF:1 "the Akashiren Empire"
  AKS_absolutist_ADJ:0 "Akashiren"
