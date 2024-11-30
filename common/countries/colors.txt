@@ -705,6 +705,11 @@ ROZ = {
 	color_ui = rgb { 129 41 41 }
 }
 
+SAK = {
+	color = rgb { 148 43 43 }
+	color_ui = rgb { 148 43 43 }
+}
+
 SAM = {
 	color = rgb { 233 124 0 }
 	color_ui = rgb { 233 124 0 }

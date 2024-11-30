@@ -858,6 +858,10 @@
  ROZ_absolutist_DEF:1 "the Kingdom of Rozow"
  ROZ_absolutist_ADJ:0 "Rozowian"
  
+ SAK_absolutist:1 "Imperial Archonate of Sakravir"
+ SAK_absolutist_DEF:1 "the Imperial Archonate of Sakravir"
+ SAK_absolutist_ADJ:0 "Sakraviri"
+ 
  SAM_absolutist:1 "Grand Duchy of Samora"
  SAM_absolutist_DEF:1 "the Grand Duchy of Samora"
  SAM_absolutist_ADJ:0 "Samoran"

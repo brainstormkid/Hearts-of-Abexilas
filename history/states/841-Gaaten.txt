@@ -19,6 +19,7 @@ state={
 			dockyard = 1
 			12916 = {
 				naval_base = 2
+			}
 		}
 		add_core_of = SUN
 	}
