@@ -1009,3 +1009,8 @@ SAK = {
 	color = rgb { 245 75 66 }
 	color_ui = rgb { 245 75 66 }
 }
+
+ESU = {
+	color = rgb { 176 208 232 }
+	color_ui = rgb { 176 208 232 }
+}
