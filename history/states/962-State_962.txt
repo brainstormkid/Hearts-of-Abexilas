@@ -1,10 +1,33 @@
 state={
 	id=962
-	name="STATE_962"
+	name="Esutaria"
 	provinces={
 		3885 6561 13776 13791 13792 13837 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=2550000
+        state_category = large_city
+	resources={
+		oil=2
+		steel=3 #was 42 was: 112
+		aluminium=2 # was: 22
+		rubber=1
+		tungsten=1
+		chromium=2
+	}
+
+	history={
+		owner = ESU
+		victory_points = {
+			13791 30
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+		}
+		add_core_of = ESU
+		add_claim_of = AKS
+	}
 }
