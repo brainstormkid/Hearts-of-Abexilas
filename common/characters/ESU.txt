@@ -1,10 +1,10 @@
 characters = {
-	SAK_tsukikage={
-		name=SAK_CHARACTER_GNOME
+	ESU_saisho={
+		name=ESU_CHARACTER_SAISHO
 		portraits={
 			civilian={
-				large="GFX_portrait_AKS_tsukikage"
-				small="GFX_portrait_AKS_tsukikage_small"
+				large="GFX_portrait_ESU_saisho"
+				small="GFX_portrait_ESU_saisho_small"
 			}
 	    }
 	    # AUTOCRAT
