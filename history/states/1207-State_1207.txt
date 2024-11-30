@@ -1,0 +1,36 @@
+state={
+	id=1207
+	name="Steinbirge-Itharvir"
+	provinces={
+		2440 3026 6994 12922 12943 12953 12976 13003 13004 13019 13058 13093 13094 13098
+	}
+	buildings_max_level_factor=1.000
+        manpower = 15300000
+        state_category = megalopolis
+
+	resources={
+		oil=2
+		steel=3 
+		aluminium=2 
+		rubber=1
+		tungsten=1
+		chromium=2
+	}
+
+	history={
+		owner = SAK
+		victory_points = {
+			13058 20
+		}
+		victory_points = {
+			12976 15
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
+		}
+		add_core_of = SAK
+	}
+}

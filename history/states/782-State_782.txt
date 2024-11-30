@@ -1,0 +1,36 @@
+state={
+	id=782
+	name="Carúvir"
+	provinces={
+		286 4642 12519 12526 12532 12548 12561 12578 12612 
+	}
+	buildings_max_level_factor=1.000
+        manpower=3450000
+        state_category = large_city
+
+	resources={
+		oil=2
+		steel=3 
+		aluminium=2 
+		rubber=1
+		tungsten=1
+		chromium=2
+	}
+
+	history={
+		owner = SAK
+		victory_points = {
+			12612 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			12532 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = SAK
+	}
+}

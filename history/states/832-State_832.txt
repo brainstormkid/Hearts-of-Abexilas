@@ -1,0 +1,36 @@
+state={
+	id=832
+	name="Therkos"
+	provinces={
+		367 385 469 1214 1841 2323 2747 3071 3211 3705 3971 4019 5156 5566 5783 6054 12653 12554 12663 12671 12686 12687 12688 12726 12727 12743 12749 12761 12787 12812 12818 12822 12837 12909
+	}
+	buildings_max_level_factor=1.000
+        manpower=14250000
+        state_category = megalopolis
+
+	resources={
+		oil=2
+		steel=3 
+		aluminium=2 
+		rubber=1
+		tungsten=1
+		chromium=2
+	}
+
+	history={
+		owner = SAK
+		victory_points = {
+			367 30
+		}
+		victory_points = {
+			5566 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
+		}
+		add_core_of = SAK
+	}
+}
