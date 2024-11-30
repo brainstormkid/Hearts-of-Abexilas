@@ -290,6 +290,11 @@ DRE = {
 	color_ui = rgb { 89 30 30 }
 }
 
+DWA = {
+	color = rgb { 123 0 255 }
+	color_ui = rgb { 123 0 255 }
+}
+
 DYS = {
 	color = rgb { 8 221 251 }
 	color_ui = rgb { 8 221 251 }
@@ -688,6 +693,11 @@ REG = {
 REN = {
 	color = rgb { 221 86 92 }
 	color_ui = rgb { 221 86 92 }
+}
+
+RIM = {
+	color = rgb { 123 139 74 }
+	color_ui = rgb { 123 139 74 }
 }
 
 RIT = {
