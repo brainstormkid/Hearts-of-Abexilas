@@ -1004,3 +1004,8 @@ ZUR = {
 	color = rgb { 14 30 120 }
 	color_ui = rgb { 14 30 120 }
 }
+
+SAK = {
+	color = rgb { 245 75 66 }
+	color_ui = rgb { 245 75 66 }
+}
