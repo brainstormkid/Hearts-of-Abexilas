@@ -1,6 +1,6 @@
 state={
 	id=977
-	name="STATE_977"
+	name="Whiskey Island"
 	provinces={
 		15334 
 	}
