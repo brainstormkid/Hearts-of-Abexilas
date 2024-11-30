@@ -1,9 +1,9 @@
 state={
 	id=961
 	name="STATE_961"
-	manpower=70500
+	manpower=75000
 	
-	state_category = enclave
+	state_category = rural
 	resources={
 		oil=2
 		steel=3 #was 42 was: 112
