@@ -5,8 +5,8 @@ state={
 		1209 1359 14492
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1350000
+        state_category = city
 	history={
 		owner = EIS
 		buildings = {
