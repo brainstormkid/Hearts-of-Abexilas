@@ -10,6 +10,10 @@ state={
 	history={
 		owner = REN
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = REN
 	}
