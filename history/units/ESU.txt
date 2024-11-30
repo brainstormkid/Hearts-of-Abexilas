@@ -1,0 +1,43 @@
+division_template = {
+	name = "Esutarian Garrison Division"					# Represents 12w Infantry
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Esutarian Cavalry Garrison"				# Represents 6w Cavalry Division
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Esutarian Garrison Regiment"
+		location = 13791
+		division_template = "Esutarian Garrison Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1st Esutarian Cavalry Guard"
+		location = 13792
+		division_template = "Esutarian Cavalry Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}
+
+#####################
