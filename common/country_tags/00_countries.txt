@@ -203,3 +203,4 @@ ZEH = "countries/Zehrniedrig.txt"
 ZER = "countries/Zeril.txt"
 ZIL = "countries/Zilatra.txt"
 ZUR = "countries/Zuritan.txt"
+ESU = "countries/Esutaria.txt
