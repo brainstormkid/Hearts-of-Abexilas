@@ -1,0 +1,16 @@
+state={
+	id=1209
+	name="STATE_1209"
+	provinces={
+		1287 2634 5798 6978 13608 13643 13691
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = HWA
+		buildings = {
+		}
+		add_core_of = HWA
+	}
+}
