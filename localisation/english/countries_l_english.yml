@@ -858,6 +858,10 @@
  NAA_absolutist_DEF:1 "the Tsardom of Naan"
  NAA_absolutist_ADJ:0 "Naannite"
  
+ NER_absolutist:1 "Kingdom of Nerisia"
+ NER_absolutist_DEF:1 "the Kingdom of Nerisia"
+ NER_absolutist_ADJ:0 "Nerisian"
+ 
  NUM_absolutist:1 "Maritime Republic of Numeós"
  NUM_absolutist_DEF:1 "the Maritime Republic of Numeós"
  NUM_absolutist_ADJ:0 "Numean"
