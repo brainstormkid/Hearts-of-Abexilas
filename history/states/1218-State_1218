@@ -1,0 +1,14 @@
+state={
+	id=1218
+	name="STATE_1218"
+	provinces={
+		689 1032 3323 3466 3763 15082 15083 15119 15135 15183
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = FSK
+		add_core_of = FSK
+	}
+}
