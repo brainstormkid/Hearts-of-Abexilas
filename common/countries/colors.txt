@@ -301,8 +301,8 @@ DRE = {
 }
 
 DWA = {
-	color = rgb { 123 0 255 }
-	color_ui = rgb { 123 0 255 }
+	color = rgb { 123 139 74 }
+	color_ui = rgb { 123 139 74 }
 }
 
 DYS = {
@@ -378,6 +378,11 @@ FAX = {
 FLO = {
 	color = rgb { 247 194 15 }
 	color_ui = rgb { 247 194 15 }
+}
+
+FSK = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 128 128 128 }
 }
 
 GAL = {
@@ -716,8 +721,8 @@ REN = {
 }
 
 RIM = {
-	color = rgb { 123 139 74 }
-	color_ui = rgb { 123 139 74 }
+	color = rgb { 0 255 255 }
+	color_ui = rgb { 0 255 255 }
 }
 
 RIT = {
