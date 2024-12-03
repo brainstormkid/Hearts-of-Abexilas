@@ -515,6 +515,11 @@ KAD = {
 	color_ui = rgb { 199 133 52 }
 }
 
+KAI = {
+	color = rgb { 219 193 65 }
+	color_ui = rgb { 219 193 65 }
+}
+
 KAL = {
 	color = rgb { 218 247 165 }
 	color_ui = rgb { 218 247 165 }

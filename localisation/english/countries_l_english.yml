@@ -609,6 +609,10 @@
  KAD_absolutist_DEF:1 "the Imperial Crownlands of Kaddu"
  KAD_absolutist_ADJ:0 "Kaddian"
  
+ KAI_absolutist:1 "Daranate of Kaizra"
+ KAI_absolutist_DEF:1 "the Daranate of Kaizra"
+ KAI_absolutist_ADJ:0 "Kaizran"
+ 
  KAL_absolutist:1 "Kaltebaix"
  KAL_absolutist_DEF:1 "the Kaltebaix"
  KAL_absolutist_ADJ:0 "Kaltebaixian"
