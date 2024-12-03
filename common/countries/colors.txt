@@ -630,6 +630,11 @@ MID = {
 	color_ui = rgb { 90 99 164 }
 }
 
+MIO = {
+	color = rgb { 143 103 75 }
+	color_ui = rgb { 143 103 75 }
+}
+
 MIZ = {
 	color = rgb { 237 218 2 }
 	color_ui = rgb { 237 218 2 }
