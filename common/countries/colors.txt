@@ -3,7 +3,7 @@ TST = {
 	color_ui = rgb { 74 147 255 }
 }
 
-# SORTED
+# ALPHABETICAL
 
 ACR = {
 	color = rgb { 16 43 76 }
@@ -13,6 +13,11 @@ ACR = {
 AET = {
 	color = rgb { 153 225 221 }
 	color_ui = rgb { 153 225 221 }
+}
+
+AES = {
+	color = rgb { 81 0 0 }
+	color_ui = rgb { 81 0 0 }
 }
 
 AKA = {
