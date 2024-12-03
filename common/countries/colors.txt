@@ -695,6 +695,11 @@ OSR = {
 	color_ui = rgb { 71 72 71 }
 }
 
+OST = {
+	color = rgb { 110 137 41 }
+	color_ui = rgb { 110 137 41 }
+}
+
 PAR = {
 	color = rgb { 228 107 28 }
 	color_ui = rgb { 228 107 28 }

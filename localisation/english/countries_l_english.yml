@@ -894,6 +894,10 @@
  OSR_absolutist_DEF:1 "the Kingdom of Osriguard"
  OSR_absolutist_ADJ:0 "Osriguardan"
  
+ OST_absolutist:1 "Imperium of Osterland"
+ OST_absolutist_DEF:1 "the Imperium of Osterland"
+ OST_absolutist_ADJ:0 "Osterlandian"
+ 
  PAR_absolutist:1 "Kingdom of Paraíso"
  PAR_absolutist_DEF:1 "the Kingdom of Paraíso"
  PAR_absolutist_ADJ:0 "Paraísan"
