@@ -1,0 +1,16 @@
+state={
+	id=1224
+	name="STATE_1224"
+	provinces={
+		2413 3330 5824 14570 14595 14614 14625
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = AEI
+		buildings = {
+		}
+		add_core_of = AEI
+	}
+}

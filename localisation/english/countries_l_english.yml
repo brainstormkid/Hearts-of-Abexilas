@@ -5,6 +5,10 @@
  ACR_absolutist_DEF:1 "the Atreoria of Acreon"
  ACR_absolutist_ADJ:0 "Acreoni"
  
+ AEI_absolutist:1 "Aesir"
+ AEI_absolutist_DEF:1 "the Aesir"
+ AEI_absolutist_ADJ:0 "Aesiran"
+ 
  AES_absolutist:1 "Aestellum"
  AES_absolutist_DEF:1 "the Aestellum"
  AES_absolutist_ADJ:0 "Aestellian"
