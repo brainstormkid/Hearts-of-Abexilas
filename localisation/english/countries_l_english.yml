@@ -519,6 +519,10 @@
  GEH_absolutist_DEF:1 "the Gertek Horde"
  GEH_absolutist_ADJ:0 "Gertekans"
  
+ GEN_absolutist:1 "Genoes"
+ GEN_absolutist_DEF:1 "the Genoes"
+ GEN_absolutist_ADJ:0 "Genoesian"
+ 
  GOL_absolutist:1 "Golden Kingdom"
  GOL_absolutist_DEF:1 "the Golden Kingdom"
  GOL_absolutist_ADJ:0 "Goldish"

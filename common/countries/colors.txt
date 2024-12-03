@@ -410,6 +410,11 @@ GEH = {
 	color_ui = rgb { 205 42 61 }
 }
 
+GEN = {
+	color = rgb { 219 70 167 }
+	color_ui = rgb { 219 70 167 }
+}
+
 GOL = {
 	color = rgb { 253 231 121 }
 	color_ui = rgb { 253 231 121 }
