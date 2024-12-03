@@ -175,6 +175,10 @@
  ART_absolutist_DEF:1 "the Holy Sanctuary of Arratis"
  ART_absolutist_ADJ:0 "Arratian"
  
+ ASF_absolutist:1 "League of Asfelis"
+ ASF_absolutist_DEF:1 "the League of Asfelis"
+ ASF_absolutist_ADJ:0 "Asfelian"
+ 
  ASH_absolutist:1 "Ashkavari Korqoriat"
  ASH_absolutist_DEF:1 "the Ashkavari Korqoriat"
  ASH_absolutist_ADJ:0 "Ashkavari"

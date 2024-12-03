@@ -110,6 +110,11 @@ ART = {
 	color_ui = rgb { 244 189 49 }
 }
 
+ASF = {
+	color = rgb { 86 11 71 }
+	color_ui = rgb { 86 11 71 }
+}
+
 ASH = {
 	color = rgb { 167 0 3 }
 	color_ui = rgb { 167 0 3 }
