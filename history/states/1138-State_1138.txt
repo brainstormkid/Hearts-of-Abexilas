@@ -9,6 +9,8 @@ state={
         state_category = town
 	history={
 		owner = FSK
+		buildings = {
+		}
 		add_core_of = FSK
 	}
 }
