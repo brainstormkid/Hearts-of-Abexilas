@@ -756,6 +756,7 @@
  STATE_1087:0 "Western Oridal"
  STATE_1089:0 "Gallania"
  STATE_1093:0 "Allenby"
+ STATE_1096:0 "Cailadra"
  STATE_1101:0 "Eastern Oridal"
  STATE_1111:0 "Vukhmir"
  STATE_1114:0 "Mitakoré"
@@ -804,4 +805,6 @@
  STATE_1181:0 "Dralia"
  STATE_1206:0 "Southern Marithia"
  STATE_1207:0 "Ithavir"
+ STATE_1221:0 "Neo Yoake"
+ STATE_1222:0 "Kaishu"
  

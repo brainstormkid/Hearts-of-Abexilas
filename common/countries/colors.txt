@@ -285,6 +285,11 @@ DAN = {
 	color_ui = rgb { 121 1 1 }
 }
 
+DAR = {
+	color = rgb { 125 51 165 }
+	color_ui = rgb { 125 51 165 }
+}
+
 DEF = {
 	color = rgb { 165  139  72 }
 	color_ui = rgb { 165  139  72 }
