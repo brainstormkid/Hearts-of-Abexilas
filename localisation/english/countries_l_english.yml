@@ -558,6 +558,10 @@
  HWA_absolutist_DEF:1 "the Hwaryeong Dynasty"
  HWA_absolutist_ADJ:0 "Hwaryeong Niruku"
  
+ HYP_absolutist:1 "Eternal Plains of Hypria"
+ HYP_absolutist_DEF:1 "the Eternal Plains of Hypria"
+ HYP_absolutist_ADJ:0 "Hyprian"
+ 
  HYR_absolutist:1 "Enlightened Grevdom of Hyria"
  HYR_absolutist_DEF:1 "the Enlightened Grevdom of Hyria"
  HYR_absolutist_ADJ:0 "Hyrian"

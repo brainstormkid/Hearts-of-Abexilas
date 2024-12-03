@@ -455,6 +455,11 @@ HWA = {
 	color_ui = rgb { 34 0 137 }
 }
 
+HYP = {
+	color = rgb { 65 142 129 }
+	color_ui = rgb { 65 142 129 }
+}
+
 HYR = {
 	color = rgb { 54 54 54 }
 	color_ui = rgb { 54 54 54 }
