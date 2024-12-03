@@ -918,6 +918,10 @@
  REN_absolutist_DEF:1 "the Shyhenéy au Rénesphéy"
  REN_absolutist_ADJ:0 "Réneshphite"
  
+ RHO_absolutist:1 "Kingdom of Rhosgard"
+ RHO_absolutist_DEF:1 "the Kingdom of Rhosgard"
+ RHO_absolutist_ADJ:0 "Halin"
+ 
  RIT_absolutist:1 "Ritte an Tola"
  RIT_absolutist_DEF:1 "the Ritte an Tola"
  RIT_absolutist_ADJ:0 "Tolan"

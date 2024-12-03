@@ -1158,8 +1158,7 @@
  PAR_the_gertek_menace:0 "The Gertek Menace"
  PAR_the_gertek_menace_desc:0 "The true enemy lies in the North! The horde destroyed Artaine and outright stole our lands. We must retake our lost lands and restore peace to the Continent by eradicating these destructive warmongers! Gains claim on AteBurn, Gains a core on Southern Astrelys, Gain claims on all of the states in the Peninsula Division attack bonus against Gertek and Zamotz State"
  PAR_fortify_the_border:0 "Fortify the border"
- PAR_fortify_the_border_desc:0 "**Fortify**
- \nWe must ready fortifications against the Horde if were to stand a chance against their massive army. So we will strategically place walls and towers to prepare for the inevitable. (Adds level 2 forts along the border with Gertek) Add Fortify or Die! which grants (Land Fort construction speed: +25.0%, Costal Fort construction speed: +10.00%, Max Entrenchment: +15.00%) for 720 day(s)"
+ PAR_fortify_the_border_desc:0 "**Fortify**\nWe must ready fortifications against the Horde if were to stand a chance against their massive army. So we will strategically place walls and towers to prepare for the inevitable. (Adds level 2 forts along the border with Gertek) Add Fortify or Die! which grants (Land Fort construction speed: +25.0%, Costal Fort construction speed: +10.00%, Max Entrenchment: +15.00%) for 720 day(s)"
  PAR_ready_the_reserves:0 "Ready the reserves"
  PAR_ready_the_reserves_desc:0 "If were to stand any chance against Gertek, we must mobilize more forces. Expanding the army will allow us to cover more fronts and ready offensives for the coming war. (Add 4 Infantry Units, Add 2 Calvary Units) (Add War Economy) Add Reserves Mobilized which grants (Mobilization Speed: +25.00%, Training time: -5.00%, Division Defense on core territory: +10.00%) for 365 days"
  PAR_the_carnage_of_auteburo:0 "The Carnage of Auteburo"

@@ -725,6 +725,11 @@ REN = {
 	color_ui = rgb { 221 86 92 }
 }
 
+RHO = {
+	color = rgb { 44 71 124 }
+	color_ui = rgb { 44 71 124 }
+}
+
 RIM = {
 	color = rgb { 0 255 255 }
 	color_ui = rgb { 0 255 255 }
