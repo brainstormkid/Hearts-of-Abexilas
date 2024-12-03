@@ -405,6 +405,11 @@ FSK = {
 	color_ui = rgb { 128 128 128 }
 }
 
+GAA = {
+	color = rgb { 45 73 127 }
+	color_ui = rgb { 45 73 127 }
+}
+
 GAL = {
 	color = rgb { 215 0 202 }
 	color_ui = rgb { 215 0 202 }
@@ -968,6 +973,11 @@ VAA = {
 VAD = {
 	color = rgb { 142 139 132 }
 	color_ui = rgb { 142 139 132 }
+}
+
+VAG = {
+	color = rgb { 35 175 51 }
+	color_ui = rgb { 35 175 51 }
 }
 
 VAL = {

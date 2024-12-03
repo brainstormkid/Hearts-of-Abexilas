@@ -509,6 +509,10 @@
  FSK_absolutist_DEF:1 "the Grand Empire of Fisk"
  FSK_absolutist_ADJ:0 "Fiskian"
  
+ GAA_absolutist:1 "Kingdom of Galadonn"
+ GAA_absolutist_DEF:1 "the Kingdom of Galadonn"
+ GAA_absolutist_ADJ:0 "Galadonni"
+ 
  GAL_absolutist:1 "Gallania"
  GAL_absolutist_DEF:1 "the Gallania"
  GAL_absolutist_ADJ:0 "Gallanian"
@@ -1097,6 +1101,10 @@
  VAD_absolutist:1 "Valdic Union"
  VAD_absolutist_DEF:1 "the Valdic Union"
  VAD_absolutist_ADJ:0 "Valdic"
+ 
+ VAG_absolutist:1 "Vagapolis"
+ VAG_absolutist_DEF:1 "the Vagapolis"
+ VAG_absolutist_ADJ:0 "Vagapolian"
  
  VAL_absolutist:1 "Kingdom of Valora"
  VAL_absolutist_DEF:1 "the Kingdom of Valora"

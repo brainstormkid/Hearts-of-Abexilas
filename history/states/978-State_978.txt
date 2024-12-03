@@ -2,9 +2,15 @@ state={
 	id=978
 	name="STATE_978"
 	provinces={
-		2413 2450 2489 3098 3330 5282 5410 5824 6796 14006 14050 14055 14088 14127 14141 14570 14595 14614 14625 
+		2413 2450 3098 3330 5282 5410 5824 14006 14127 14141 14570 14595 14614 14625 
 	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
+	history={
+		owner = GAA
+		buildings = {
+		}
+		add_core_of = GAA
+	}
 }
