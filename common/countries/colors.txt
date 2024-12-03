@@ -605,6 +605,11 @@ LIB = {
 	color_ui = rgb { 65 42 109 }
 }
 
+LIL = {
+	color = rgb { 249 215 64 }
+	color_ui = rgb { 249 215 64 }
+}
+
 LIR = {
 	color = rgb { 126 29 182 }
 	color_ui = rgb { 126 29 182 }

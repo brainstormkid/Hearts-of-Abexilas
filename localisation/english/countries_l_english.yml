@@ -719,6 +719,10 @@
  LIB_absolutist_DEF:1 "the Libratia"
  LIB_absolutist_ADJ:0 "Libratian"
  
+ LIL_absolutist:1 "Lilium"
+ LIL_absolutist_DEF:1 "the Lilium"
+ LIL_absolutist_ADJ:0 "Lilian"
+ 
  LIR_absolutist:1 "Unity of Lir’ion"
  LIR_absolutist_DEF:1 "the Unity of Lir’ion"
  LIR_absolutist_ADJ:0 "Lir'ian"
