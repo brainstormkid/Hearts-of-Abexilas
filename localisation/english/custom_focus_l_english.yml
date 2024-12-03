@@ -1000,8 +1000,7 @@
  PAR_tank_builds:0 "Tank Builds"
  PAR_tank_builds_desc:0 "Get 5 Divisions of Panzer Tanks"
  PAR_new_outlooks:0 "New Outlooks"
- PAR_new_outlooks_desc:0 "70 day focus
- \nAdd 2 civs, add 2 buildings slots"
+ PAR_new_outlooks_desc:0 "70 day focus\nAdd 2 civs, add 2 buildings slots"
  PAR_investing_in_our_farmers:0 "Investing in our Farmers"
  PAR_investing_in_our_farmers_desc:0 "28 Day focus, +30% monthly population growth, +30,000 man power. Mutually exclusive with “Investing in our Workers”"
  PAR_investing_in_our_workers:0 "Investing in our Workers"
