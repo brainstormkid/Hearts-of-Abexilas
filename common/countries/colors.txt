@@ -1065,6 +1065,11 @@ VIR = {
 	color_ui = rgb { 67 0 0 }
 }
 
+VRI = {
+	color = rgb { 119 183 77 }
+	color_ui = rgb { 119 183 77 }
+}
+
 VLA = {
 	color = rgb { 111 0 0 }
 	color_ui = rgb { 111 0 0 }
