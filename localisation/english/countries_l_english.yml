@@ -853,6 +853,10 @@
  NER_absolutist_DEF:1 "the Kingdom of Nerisia"
  NER_absolutist_ADJ:0 "Nerisian"
  
+ NIK_absolutist:1 "Kingdom of Niakria"
+ NIK_absolutist_DEF:1 "the Kingdom of Niakria"
+ NIK_absolutist_ADJ:0 "Nikarian"
+ 
  NUM_absolutist:1 "Maritime Republic of Numeós"
  NUM_absolutist_DEF:1 "the Maritime Republic of Numeós"
  NUM_absolutist_ADJ:0 "Numean"
@@ -996,6 +1000,10 @@
  STR_absolutist:1 "Strategósia"
  STR_absolutist_DEF:1 "the Strategósia"
  STR_absolutist_ADJ:0 "Strategósian"
+ 
+ SUL_absolutist:1 "City State of Suldex"
+ SUL_absolutist_DEF:1 "the City State of Suldex"
+ SUL_absolutist_ADJ:0 "Suldexian"
  
  SUN_absolutist:1 "Colony of Sundatano"
  SUN_absolutist_DEF:1 "the Colony of Sundatano"
