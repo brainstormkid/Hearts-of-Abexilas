@@ -900,6 +900,11 @@ SYR = {
 	color_ui = rgb { 83 181 200 }
 }
 
+TAM = {
+	color = rgb { 39 170 100 }
+	color_ui = rgb { 39 170 100 }
+}
+
 TAN = {
 	color = rgb { 135 4 170 }
 	color_ui = rgb { 135 4 170 }
