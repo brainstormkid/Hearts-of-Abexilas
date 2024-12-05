@@ -720,6 +720,11 @@ NER = {
 	color_ui = rgb { 115 209 169 }
 }
 
+NIK = {
+	color = rgb { 159 102 85 }
+	color_ui = rgb { 159 102 85 }
+}
+
 NUM = {
 	color = rgb { 195 238 255 }
 	color_ui = rgb { 195 238 255 }
@@ -883,6 +888,11 @@ STE = {
 STR = {
 	color = rgb { 109 162 101 }
 	color_ui = rgb { 109 162 101 }
+}
+
+SUL = {
+	color = rgb { 171 199 125 }
+	color_ui = rgb { 171 199 125 }
 }
 
 SUN = {
