@@ -885,6 +885,10 @@
  POL_absolutist_DEF:1 "the Duchy of Polonizia"
  POL_absolutist_ADJ:0 "Polonizi"
  
+ PRE_absolutist:1 "Voclarist Colonies of Preyella"
+ PRE_absolutist_DEF:1 "the Voclarist Colonies of Preyella"
+ PRE_absolutist_ADJ:0 "Preyellan"
+ 
  QYN_absolutist:1 "Qynthos-Centuria"
  QYN_absolutist_DEF:1 "the Qynthos-Centuria"
  QYN_absolutist_ADJ:0 "Qynthi"

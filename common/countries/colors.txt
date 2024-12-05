@@ -760,6 +760,11 @@ POL = {
 	color_ui = rgb { 239 73 73 }
 }
 
+PRE = {
+	color = rgb { 59 156 226 }
+	color_ui = rgb { 59 156 226 }
+}
+
 QYN = {
 	color = rgb { 20 34 125 }
 	color_ui = rgb { 20 34 125 }
