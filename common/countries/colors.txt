@@ -660,6 +660,11 @@ MAR = {
 	color_ui = rgb { 174 62 216 }
 }
 
+MAU = {
+	color = rgb { 76 163 150 }
+	color_ui = rgb { 76 163 150 }
+}
+
 MEL = {
 	color = rgb { 66 35 160 }
 	color_ui = rgb { 66 35 160 }

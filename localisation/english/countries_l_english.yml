@@ -772,6 +772,10 @@
  MAR_absolutist_DEF:1 "the Duchy of Marisvalor"
  MAR_absolutist_ADJ:0 "Marisvaloran"
  
+ MAU_absolutist:1 "Malucian"
+ MAU_absolutist_DEF:1 "the Malucian"
+ MAU_absolutist_ADJ:0 "Malucian"
+ 
  MEL_absolutist:1 "Empaire of Melzia"
  MEL_absolutist_DEF:1 "the Empaire of Melzia"
  MEL_absolutist_ADJ:0 "Melzian"
