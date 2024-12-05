@@ -1,0 +1,16 @@
+state={
+	id=1242
+	name="STATE_1242"
+	provinces={
+		2254 2283 2475 2858 3347 3940 14704 14652 14666 14699 14722 14739 14740 14745
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = SUL
+		buildings = {
+		}
+		add_core_of = SUL
+	}
+}

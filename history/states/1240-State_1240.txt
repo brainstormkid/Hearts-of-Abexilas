@@ -1,0 +1,16 @@
+state={
+	id=1240
+	name="STATE_1240"
+	provinces={
+		602 2230 3440 4064 6016 14938 15016 15056
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = NIK
+		buildings = {
+		}
+		add_core_of = NIK
+	}
+}
