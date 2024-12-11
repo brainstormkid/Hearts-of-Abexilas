@@ -20,8 +20,7 @@ state={
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 3
-			arms_factory = 1
-			dockyard = 1
+			arms_factory = 2
 		}
 		add_core_of = EXO
 		victory_points = { 3227 20 }
