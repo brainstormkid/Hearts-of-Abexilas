@@ -10,11 +10,6 @@ ACR = {
 	color_ui = rgb { 16 43 76 }
 }
 
-AET = {
-	color = rgb { 153 225 221 }
-	color_ui = rgb { 153 225 221 }
-}
-
 AEI = {
 	color = rgb { 78 68 68 }
 	color_ui = rgb { 78 68 68 }
@@ -23,6 +18,16 @@ AEI = {
 AES = {
 	color = rgb { 81 0 0 }
 	color_ui = rgb { 81 0 0 }
+}
+
+AET = {
+	color = rgb { 153 225 221 }
+	color_ui = rgb { 153 225 221 }
+}
+
+AFO = {
+	color = rgb { 255 204 28 }
+	color_ui = rgb { 255 204 28 }
 }
 
 AKA = {

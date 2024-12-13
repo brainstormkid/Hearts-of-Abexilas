@@ -17,6 +17,10 @@
  AET_absolutist_DEF:1 "the Empire of Aethos"
  AET_absolutist_ADJ:0 "Aethosian"
  
+ AFO_absolutist:1 "Afonney"
+ AFO_absolutist_DEF:1 "the Afonney"
+ AFO_absolutist_ADJ:0 "Afonnen"
+ 
  AKA_absolutist:1 "Akari Commonwealth"
  AKA_absolutist_DEF:1 "the Akari Commonwealth"
  AKA_absolutist_ADJ:0 "Akari"
