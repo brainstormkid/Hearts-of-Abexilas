@@ -1033,8 +1033,12 @@
  SYR_absolutist_DEF:1 "Syrenia"
  SYR_absolutist_ADJ:0 "Syren"
  
- TAM_absolutist:1 "Schizocracy of Tamjiban "
- TAM_absolutist_DEF:1 "the Schizocracy of Tamjiban "
+ TAA_absolutist:1 "Kingdom of Taanien"
+ TAA_absolutist_DEF:1 "the Kingdom of Taanien"
+ TAA_absolutist_ADJ:0 "Taans"
+ 
+ TAM_absolutist:1 "Schizocracy of Tamjiban"
+ TAM_absolutist_DEF:1 "the Schizocracy of Tamjiban"
  TAM_absolutist_ADJ:0 "Tamjibani"
  
  TAN_absolutist:1 "Tandong Dynasty"

@@ -1,0 +1,16 @@
+state={
+	id=1244
+	name="STATE_1244"
+	provinces={
+		1473 1910 2117 2473 4201 5035 7356 7394 7481 7487
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = TAA
+		buildings = {
+		}
+		add_core_of = TAA
+	}
+}
