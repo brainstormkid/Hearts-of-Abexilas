@@ -2,9 +2,15 @@ state={
 	id=680
 	name="STATE_680"
 	provinces={
-		13491
+		2386 4599 13450 13386 13456 13491
 	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
+	history={
+		owner = MER
+		buildings = {
+		}
+		add_core_of = MER
+	}
 }

@@ -680,6 +680,11 @@ MEL = {
 	color_ui = rgb { 66 35 160 }
 }
 
+MER = {
+	color = rgb { 28 113 188 }
+	color_ui = rgb { 28 113 188 }
+}
+
 MIC = {
 	color = rgb { 158 63 60 }
 	color_ui = rgb { 158 63 60 }

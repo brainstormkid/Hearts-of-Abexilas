@@ -784,9 +784,13 @@
  MAU_absolutist_DEF:1 "the Malucian"
  MAU_absolutist_ADJ:0 "Malucian"
  
- MEL_absolutist:1 "Empaire of Melzia"
- MEL_absolutist_DEF:1 "the Empaire of Melzia"
+ MEL_absolutist:1 "Empire of Melzia"
+ MEL_absolutist_DEF:1 "the Empire of Melzia"
  MEL_absolutist_ADJ:0 "Melzian"
+ 
+ MER_absolutist:1 "Province of Merenthine"
+ MER_absolutist_DEF:1 "the Province of Merenthine"
+ MER_absolutist_ADJ:0 "Merenthinian"
  
  MIC_absolutist:1 "Kingdom of Michava"
  MIC_absolutist_DEF:1 "the Kingdom of Michava"
