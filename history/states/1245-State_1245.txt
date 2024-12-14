@@ -4,13 +4,39 @@ state={
 	provinces={
 		107 482 608 794 888 897 1051 1184 1384 1446 1458 1862 1879 1489 1908 1946 1999 2010 2188 2278 2583 2593 2603 2628 2689 2790 2945 3126 3371 3959 4214 4230 4394 4590 4638 4684 4867 5060 5096 5275 5369 5413 5578 5951 6161 6191 6226 6444 6696 6750 6827 6881 6895 13568 13586 13641 13645 13661 13674 13701 13705 13721 13789 13790 13793 13801 13814 13815 13821 13825 13826 13828 13838 13848 13870 13885 13902 13908 13909 13921 13930 13931 13937 13938 13946 13950 13954 13967 13988 13993 14020 14021 14033 14034 14051 14058 14076 14107 14136 14169 14209
 	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=11250000
+        state_category = megalopolis
 	history={
 		owner = AET
 		buildings = {
+			industrial_complex = 2
+			infrastructure = 4
+			arms_factory = 2
+			dockyard = 1
+			4867 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = AET
+		victory_points = { 4867 30 }
+		victory_points = { 1879 10 }
+		victory_points = { 13701 10 }
+		victory_points = { 13721 10 }
+		victory_points = { 1184 5 }
+		victory_points = { 5060 10 }
+		victory_points = { 13967 10 }
+		victory_points = { 14136 5 }
+		victory_points = { 1999 5 }
+		victory_points = { 13870 10 }
+		victory_points = { 1446 10 }
 	}
 }

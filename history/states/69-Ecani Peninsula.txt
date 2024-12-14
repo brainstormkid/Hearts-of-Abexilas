@@ -4,13 +4,23 @@ state={
 	provinces={
 		3388 4075 7480 7502 7503 7538 7545 7555 7619 7647 
 	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=150000
+        state_category = small_island
 	history={
 		owner = AET
 		buildings = {
+		infrastructure = 2
 		}
 		add_core_of = AET
+		victory_points = { 7538 5 }
 	}
 }
