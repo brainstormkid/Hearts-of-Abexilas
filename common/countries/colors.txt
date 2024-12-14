@@ -600,6 +600,11 @@ LAV = {
 	color_ui = rgb { 119  233  85 }
 }
 
+LED = {
+	color = rgb { 229 204 64 }
+	color_ui = rgb { 229 204 64 }
+}
+
 LEN = {
 	color = rgb { 131 213 119 }
 	color_ui = rgb { 131 213 119 }
