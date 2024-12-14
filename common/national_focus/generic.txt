@@ -3262,6 +3262,7 @@ focus_tree = {
 						is_in_faction_with = ROOT #not in faction with us
 						has_non_aggression_pact_with = ROOT #no non aggression by us
 						is_subject_of = ROOT #not our puppet
+						has_war_with = ROOT #is not at war with us
 					}
 				}
 			ROOT = {
@@ -3678,6 +3679,7 @@ focus_tree = {
 						is_in_faction_with = ROOT #not in faction with us
 						has_non_aggression_pact_with = ROOT #no non aggression by us
 						is_subject_of = ROOT #not our puppet
+						has_war_with = ROOT #not already at war with ROOT
 					}
 				}
 			ROOT = {
