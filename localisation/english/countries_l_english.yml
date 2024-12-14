@@ -940,6 +940,9 @@
  SAK_absolutist:1 "Imperial Archonate of Sakravir"
  SAK_absolutist_DEF:1 "the Imperial Archonate of Sakravir"
  SAK_absolutist_ADJ:0 "Sakraviri"
+ SAK_monarchist:1 "Imperial Archonate of Sakravir"
+ SAK_monarchist_DEF:1 "the Imperial Archonate of Sakravir"
+ SAK_monarchist_ADJ:0 "Sakraviri"
  
  SAM_absolutist:1 "Grand Duchy of Samora"
  SAM_absolutist_DEF:1 "the Grand Duchy of Samora"
