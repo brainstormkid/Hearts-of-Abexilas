@@ -43,6 +43,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3423;14624;sea;23018;-1;-1;-1;-1;;East-Harjuba-Bridge
 35;14684;sea;21190;-1;-1;-1;-1;;West-Harjuba-Bridge
 14639;14582;sea;21190;-1;-1;-1;-1;;Hafumel-Bridge
+7202;7153;sea;23157;-1;-1;-1;-1;;First-Protlind-Bridge
+2360;366;sea;23157;-1;-1;-1;-1;;Second-Protlind-Bridge
+7129;366;sea;23157;-1;-1;-1;-1;;Third-Protlind-Bridge
+5119;4735;sea;21346;-1;-1;-1;-1;;West-Protlind-Bridge
+;;;;;;;;;
+;;;;;;;;;
 ;;;;;;;;;
 #Ending Line, anything after is ignored;;;;;;;;;
 -1;-1;;-1;-1;-1;-1;-1;-1;
