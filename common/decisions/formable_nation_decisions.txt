@@ -9,7 +9,8 @@ form_leyenbourg_category  = {
 		}
 
 		available = {
-			controls_all_ethiopian_core_states = yes 
+			controls_state = 601 # Leyenbourg-City
+			controls_state = 599 # Nova-Ryken
 			controls_state = 610 # Tilbee 
 			controls_state = 592 # Federal Tandong Land
 			controls_state = 616 # Luyezia-South
