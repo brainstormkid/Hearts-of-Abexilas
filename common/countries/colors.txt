@@ -15,6 +15,11 @@ AEI = {
 	color_ui = rgb { 78 68 68 }
 }
 
+AER = {
+	color = rgb { 100 97 148 }
+	color_ui = rgb { 100 97 148 }
+}
+
 AES = {
 	color = rgb { 81 0 0 }
 	color_ui = rgb { 81 0 0 }

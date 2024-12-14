@@ -9,6 +9,10 @@
  AEI_absolutist_DEF:1 "the Aesir"
  AEI_absolutist_ADJ:0 "Aesiran"
  
+ AER_absolutist:1 "Kingdom of Aerternus"
+ AER_absolutist_DEF:1 "the Kingdom of Aerternus"
+ AER_absolutist_ADJ:0 "Aerterian"
+ 
  AES_absolutist:1 "Aestellum"
  AES_absolutist_DEF:1 "the Aestellum"
  AES_absolutist_ADJ:0 "Aestellian"

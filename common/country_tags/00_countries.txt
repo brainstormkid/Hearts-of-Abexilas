@@ -1,6 +1,7 @@
 TST = "countries/Test.txt"
 ACR = "countries/Acreon.txt"
 AEI = "countries/Aesir.txt"
+AER = "countries/Aerternus.txt"
 AES = "countries/Aestellum.txt"
 AET = "countries/Aethos.txt"
 AFO = "countries/Afonney.txt"
