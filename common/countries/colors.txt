@@ -360,6 +360,11 @@ ELD = {
 	color_ui = rgb { 0 168 107 }
 }
 
+EMP = {
+	color = rgb { 229 184 11 }
+	color_ui = rgb { 229 184 11 }
+}
+
 END = {
 	color = rgb { 134 224 129 }
 	color_ui = rgb { 134 224 129 }
@@ -538,6 +543,11 @@ KAD = {
 KAI = {
 	color = rgb { 219 193 65 }
 	color_ui = rgb { 219 193 65 }
+}
+
+KAR = {
+	color = rgb { 229 11 11 }
+	color_ui = rgb { 229 11 11 }
 }
 
 KAL = {
