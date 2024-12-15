@@ -1,16 +1,30 @@
 state={
 	id=1150
-	name="STATE_1150"
+	name="STATE_1150" #United Principates of Roseya
 	provinces={
 		1164 1611 1646 2092 4494 5794 7399 7441 7469 7470 7535 7556 7589
 	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=3600000
+        state_category = metropolis
 	history={
 		owner = BAR
 		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = BAR
+		victory_points = { 7469 30 }
+		victory_points = { 1646 5 }
 	}
 }

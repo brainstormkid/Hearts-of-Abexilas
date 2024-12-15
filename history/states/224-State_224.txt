@@ -1,16 +1,30 @@
 state={
 	id=224
-	name="STATE_224"
+	name="STATE_224" #Annunor
 	provinces={
 		4157 
 	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=900000
         state_category = town
 	history={
 		owner = BAR
 		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+			4157 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = BAR
+		victory_points = { 4157 20 }
 	}
 }

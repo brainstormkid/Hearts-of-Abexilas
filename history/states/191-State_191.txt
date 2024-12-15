@@ -1,16 +1,30 @@
 state={
 	id=191
-	name="STATE_191"
+	name="STATE_191" #Isle Aionapolis
 	provinces={
 		2058 6777 6925 8968 8969 8986 9034 
 	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=900000
         state_category = town
 	history={
 		owner = BAR
 		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+			6925 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = BAR
+		victory_points = { 6925 20 }
 	}
 }

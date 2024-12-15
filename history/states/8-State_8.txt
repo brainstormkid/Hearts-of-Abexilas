@@ -1,16 +1,30 @@
 state={
 	id=8
-	name="STATE_8"
+	name="STATE_8" #North Roseya
 	provinces={
 		1048 1312 1381 1440 1561 1912 2597 2623 2679 3898 3937 4002 4308 4745 5159 5502 6203 6437 6492 6513 6975 7049 7050 7110 7137 7155 7160 7179 7203 7204 7215 7216 7224 7229 7234 7235 7244 7248 7276 7309 7342 7380 
 	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=2700000
+        state_category = metropolis
 	history={
 		owner = BAR
 		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = BAR
+		victory_points = { 7244 30 }
+		victory_points = { 1912 5 }
 	}
 }

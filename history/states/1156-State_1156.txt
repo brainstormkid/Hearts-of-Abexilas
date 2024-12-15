@@ -1,16 +1,31 @@
 state={
 	id=1156
-	name="STATE_1156"
+	name="STATE_1156" #Luxlancia
 	provinces={
 		376 405 451 1518 2548 2646 3405 4810 4936 5112 6293 6683 6984 8651 8690 8697 8704 8726 8740 8749 8767 8772 8784 8827 8828 8832 8866 8879 8911 8928 8967 8972
 	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=2100000
+        state_category = metropolis
 	history={
 		owner = BAR
 		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = BAR
+		victory_points = { 5112 20 }
+		victory_points = { 4810 10 }
+		victory_points = { 8749 5 }
 	}
 }
