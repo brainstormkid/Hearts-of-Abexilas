@@ -382,6 +382,10 @@
  ELD_absolutist:1 "Kingdom of Eldorath"
  ELD_absolutist_DEF:1 "the Kingdom of Eldorath"
  ELD_absolutist_ADJ:0 "Eldorathi"
+
+ EMP_absolutist:1 "Emporium Company"
+ EMP_absolutist_DEF:1 "the Emporium Company"
+ EMP_absolutist_ADJ:0 "Empori"
  
  END_absolutist:1 "Kingdom of Enderia"
  END_absolutist_DEF:1 "the Kingdom of Enderia"
@@ -628,6 +632,10 @@
  KAI_absolutist:1 "Daranate of Kaizra"
  KAI_absolutist_DEF:1 "the Daranate of Kaizra"
  KAI_absolutist_ADJ:0 "Kaizran"
+ 
+ KAR_absolutist:1 "Karkaros"
+ KAR_absolutist_DEF:1 "Karkaros"
+ KAR_absolutist_ADJ:0 "Karkarosian"
  
  KAL_absolutist:1 "Kaltebaix"
  KAL_absolutist_DEF:1 "the Kaltebaix"
