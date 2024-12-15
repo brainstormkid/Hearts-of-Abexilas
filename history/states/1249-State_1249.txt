@@ -1,0 +1,16 @@
+state={
+	id=1249
+	name="STATE_1249"
+	provinces={
+		6154 14628 14677
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = EMP
+		buildings = {
+		}
+		add_core_of = EMP
+	}
+}
