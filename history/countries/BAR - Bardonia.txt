@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 140
+
+oob = "BAR"
 
 set_politics = {
 	ruling_party = absolutist
@@ -25,3 +27,5 @@ set_autonomy = {
 	target = COM
 	autonomous_state = autonomy_puppet
 }
+
+set_convoys = 100
