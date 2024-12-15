@@ -2,9 +2,14 @@ state={
 	id=1062
 	name="STATE_1062"
 	provinces={
-		568 1460 2170 2941 3437 4690 4947 6154 6559 14504 14544 14579 14621 14628 14642 14653 14677 14691 
+		568 1460 2170 2941 3437 4690 4947 6154 6559 14504 14544 14579 14621 14642 14653 14691 
 	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
+	history={
+		owner = KAR
+		buildings = {
+		}
+		add_core_of = KAR
 }
