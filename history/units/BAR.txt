@@ -127,6 +127,20 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
+		name = "9th Bardonian Guards"
+		location = 11602
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "10th Bardonian Guards"
+		location = 5005
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
 		name = "1st Bardonian Calvary"
 		location = 1646
 		division_template = "Calvary Division"
@@ -199,6 +213,62 @@ units = {
 	division = {
 		name = "11th Bardonian Calvary"
 		location = 10832
+		division_template = "Calvary Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "12th Bardonian Calvary"
+		location = 39
+		division_template = "Calvary Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "13th Bardonian Calvary"
+		location = 3363
+		division_template = "Calvary Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "14th Bardonian Calvary"
+		location = 4915
+		division_template = "Calvary Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "15th Bardonian Calvary"
+		location = 4310
+		division_template = "Calvary Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "16th Bardonian Calvary"
+		location = 11771
+		division_template = "Calvary Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "17th Bardonian Calvary"
+		location = 11756
+		division_template = "Calvary Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "18th Bardonian Calvary"
+		location = 11829
+		division_template = "Calvary Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "19th Bardonian Calvary"
+		location = 11815
 		division_template = "Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
