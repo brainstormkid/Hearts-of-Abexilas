@@ -893,6 +893,10 @@
  OLD_absolutist_DEF:1 "the Interim Union of Oldann and Barakor Stasrikos Lhah"
  OLD_absolutist_ADJ:0 "Oldannian"
  
+ ORB_absolutist:1 "Kingdom of Orbitalia"
+ ORB_absolutist_DEF:1 "the Kingdom of Orbitalia"
+ ORB_absolutist_ADJ:0 "Orbitalian"
+ 
  ORI_absolutist:1 "Archonate of Orion"
  ORI_absolutist_DEF:1 "the Archonate of Orion"
  ORI_absolutist_ADJ:0 "Orinnian"

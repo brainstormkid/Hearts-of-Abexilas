@@ -311,18 +311,18 @@ DAR = {
 }
 
 DEF = {
-	color = rgb { 165  139  72 }
-	color_ui = rgb { 165  139  72 }
+	color = rgb { 165 139 72 }
+	color_ui = rgb { 165 139 72 }
 }
 
 DON = {
-	color = rgb { 236  111  21 }
-	color_ui = rgb { 236  111  21 }
+	color = rgb { 236 111 21 }
+	color_ui = rgb { 236 111 21 }
 }
 
 DRA = {
-	color = rgb { 148  210  61 }
-	color_ui = rgb { 148  210  61 }
+	color = rgb { 148 210 61 }
+	color_ui = rgb { 148 210 61 }
 }
 
 DRE = {
@@ -768,6 +768,11 @@ OBL = {
 OLD = {
 	color = rgb { 241 212 113 }
 	color_ui = rgb { 241 212 113 }
+}
+
+ORB = {
+	color = rgb { 147 72 76 }
+	color_ui = rgb { 147 72 76 }
 }
 
 ORI = {
