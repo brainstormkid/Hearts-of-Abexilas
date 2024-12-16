@@ -1588,8 +1588,8 @@ focus_tree = {
 	focus = {
 		id = generic_focus_rebuild_the_economy
 		icon = GFX_goal_generic_position_armies
-		x = 0
-		y = 0
+		x = 10
+		y = 4
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -1634,8 +1634,8 @@ focus_tree = {
 	focus = {
 		id = generic_focus_recentralize_the_nation
 		icon = GFX_focus_generic_self_management
-		x = 0
-		y = 2
+		x = 10
+		y = 5
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_STABILITY
@@ -2361,6 +2361,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_collectivist_ethos  }
+		mutually_exclusive = { focus = generic_focus_socialist_reforms }
 		completion_reward = {
 			add_timed_idea = {
 				idea = nationalism_generic
@@ -2776,6 +2777,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_enter_the_international_scene  }
+		mutually_exclusive = { focus = generic_focus_collectivist_ethos }
 
 		completion_reward = {
 			add_ideas = egalitarian_prevail_focus
@@ -2796,7 +2798,7 @@ focus_tree = {
 				popularity = +0.08
 			}
 			add_popularity = {
-				ideology = social_liberalist
+				ideology = liberalist
 				popularity = +0.08
 			}
 		}
@@ -3318,6 +3320,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_collectivist_ethos  }
+		mutually_exclusive = { focus = generic_focus_nationalist_rising }
 		completion_reward = {
 			add_ideas = socialist_reforms
 			add_popularity = {
