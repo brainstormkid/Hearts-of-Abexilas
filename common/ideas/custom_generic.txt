@@ -106,7 +106,7 @@ ideas = {
 			picture = reformist_generic
 	
 			modifier = {
-				consumer_goods_factor = 0.15
+				consumer_goods_factor = -0.15
 			}
 		}
 		statism_generic = {
