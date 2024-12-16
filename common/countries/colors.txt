@@ -875,6 +875,11 @@ SAN = {
 	color_ui = rgb { 191 42 42 }
 }
 
+SCA = {
+	color = rgb { 105 47 135 }
+	color_ui = rgb { 105 47 135 }
+}
+
 SAR = {
 	color = rgb { 36 148 151 }
 	color_ui = rgb { 36 148 151 }

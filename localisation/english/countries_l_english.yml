@@ -984,6 +984,10 @@
  SAR_absolutist_DEF:1 "the Korlenten Sarinzerilin"
  SAR_absolutist_ADJ:0 "Simulamii"
  
+ SCA_absolutist:1 "Serpent Realm of Scaliga"
+ SCA_absolutist_DEF:1 "the Serpent Realm of Scaliga"
+ SCA_absolutist_ADJ:0 "Scal'"
+ 
  SEA_absolutist:1 "Seawolves Pirates"
  SEA_absolutist_DEF:1 "the Seawolves Pirates"
  SEA_absolutist_ADJ:0 "Seawolvian"
