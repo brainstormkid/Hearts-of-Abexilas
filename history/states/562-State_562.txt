@@ -1,16 +1,26 @@
 state={
 	id=562
-	name="STATE_562"
+	name="STATE_562" #Oria
 	provinces={
 		461 3457 4887 6428 11282 11310 11327 11336 11341 11350 11359 11387 11400 11421 11422 11428
 	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=150000
+        state_category = enclave
 	history={
 		owner = BAR
 		buildings = {
+			infrastructure = 1
 		}
 		add_core_of = BAR
+		victory_points = { 11400 5 }
 	}
 }
