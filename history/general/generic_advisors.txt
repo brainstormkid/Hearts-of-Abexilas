@@ -2,45 +2,16 @@
 # Generate them from a generic template
 
 # Political advisors
-every_possible_country = {
-	limit = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = ROM tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR original_tag = POL tag = FIN } }
-		# avoid generic advisors in temporary countries
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = communist_revolutionary characters = yes }
-		}
-		IF = {
-			limit = { has_dlc = "Battle for the Bosporus" }
-			NOT = { tag = TUR tag = GRE }
-		}
-		IF = {
-			limit = { has_dlc = "By Blood Alone" }
-			NOT = { OR = { tag = ETH tag = SWI } }
-		}
-		IF = {
-			limit = { has_dlc = "Arms Against Tyranny" }
-			NOT = { OR = { tag = ICE tag = DEN tag = SWE tag = NOR } }
-		}
 
-		IF = {
-			limit = { has_dlc = "Trial of Allegiance" }
-			NOT = { OR = { tag = CHL tag = ARG tag = BRA tag = PAR tag = URG } }
-		}
-	}
+### Generic Advisors Try ###
+
+every_possible_country = {
 	generate_character = {
-		token_base = generic_communist_revolutionary # token will be TAG_token_base
+		token_base = accelerationist_free_thinker # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
-			traits = { communist_revolutionary }
+			traits = { accelerationist_free_thinker }
 			available = {
-				IF = {
-					limit = { 
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = NZL_the_lee_affair
-				}
 				IF = {
 					limit = { has_dlc = "Man the Guns" }	
 					NOT = { has_autonomy_state = autonomy_supervised_state }
@@ -57,53 +28,19 @@ every_possible_country = {
 }
 
 every_possible_country = {
-	limit = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR original_tag = POL tag = FIN } }
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = democratic_reformer characters = yes }
-		}
-		IF = {
-			limit = { has_dlc = "Battle for the Bosporus" }
-			NOT = { tag = TUR tag = GRE }
-		}
-		IF = {
-			limit = { has_dlc = "By Blood Alone" }
-			NOT = { OR = { tag = ETH tag = SWI } }
-		}
-		IF = {
-			limit = { has_dlc = "Arms Against Tyranny" }
-			NOT = { OR = { tag = ICE tag = DEN tag = SWE tag = NOR } }
-		}
-
-		IF = {
-			limit = { has_dlc = "Trial of Allegiance" }
-			NOT = { OR = { tag = CHL tag = ARG tag = BRA tag = PAR tag = URG } }
-		}
-	}
 	generate_character = {
-		token_base = generic_democratic_reformer # token will be TAG_token_base
+		token_base = absolutist_supporter # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
-			traits = { democratic_reformer }
+			traits = { absolutist_supporter }
 			available = {
-				IF = {
-					limit = { 
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					OR = {
-						has_completed_focus = NZL_strengthen_the_commonwealth
-						has_completed_focus = NZL_constitution_amendment_act
-					}
-				}
 				IF = {
 					limit = { has_dlc = "Man the Guns" }	
 					NOT = { has_autonomy_state = autonomy_supervised_state }
 				}
 			}
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 		portraits = { 
@@ -113,54 +50,265 @@ every_possible_country = {
 }
 
 every_possible_country = {
-	limit = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = ROM tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR original_tag = POR original_tag = POL original_tag = LAT tag = FIN } }
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = fascist_demagogue characters = yes }
-		}
-		IF = {
-			limit = { has_dlc = "Battle for the Bosporus" }
-			NOT = { tag = TUR tag = GRE }
-		}
-		IF = {
-			limit = { has_dlc = "By Blood Alone" }
-			NOT = { OR = { tag = ETH tag = SWI } }
-		}
-		IF = {
-			limit = { has_dlc = "Arms Against Tyranny" }
-			NOT = { OR = { tag = ICE tag = DEN tag = SWE tag = NOR } }
-		}
-		# TODO CHANGE THIS TO THE CORRECT DLC LOCK
-		IF = {
-			limit = { has_dlc = "Trial of Allegiance" }
-			NOT = { OR = { tag = CHL tag = ARG tag = BRA tag = PAR tag = URG } }
-		}
-	}
 	generate_character = {
-		token_base = generic_fascist_demagogue # token will be TAG_token_base
+		token_base = loyal_monarchist # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
-			traits = { fascist_demagogue }
+			traits = { loyal_monarchist }
 			available = {
-				IF = {
-					limit = { 
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = NZL_in_the_darkness
-				}
 				IF = {
 					limit = { has_dlc = "Man the Guns" }	
 					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}				
+				}
 			}
 			ai_will_do = {
-				factor = 0
+				factor = 1
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_democratic_reformer }
+		}
+	}
+}
+
+every_possible_country = {
+	generate_character = {
+		token_base = theocratist_priest # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { theocratist_priest }
+			available = {
+				IF = {
+					limit = { has_dlc = "Man the Guns" }	
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_democratic_reformer }
+		}
+	}
+}
+
+every_possible_country = {
+	generate_character = {
+		token_base = anarchist_monger # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { anarchist_monger }
+			available = {
+				IF = {
+					limit = { has_dlc = "Man the Guns" }	
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+}
+
+every_possible_country = {
+	generate_character = {
+		token_base = xeroist_revolutionary # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { xeroist_revolutionary }
+			available = {
+				IF = {
+					limit = { has_dlc = "Man the Guns" }	
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+}
+
+every_possible_country = {
+	generate_character = {
+		token_base = free_revisionist_thinker # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { free_revisionist_thinker }
+			available = {
+				IF = {
+					limit = { has_dlc = "Man the Guns" }	
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+}
+
+every_possible_country = {
+	generate_character = {
+		token_base = imperial_supporter # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { imperial_supporter }
+			available = {
+				IF = {
+					limit = { has_dlc = "Man the Guns" }	
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 		portraits = { 
 			army = { small = GFX_idea_generic_fascist_demagogue }
+		}
+	}
+}
+
+every_possible_country = {
+	generate_character = {
+		token_base = radical_nationalist_demagogue # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { radical_nationalist_demagogue }
+			available = {
+				IF = {
+					limit = { has_dlc = "Man the Guns" }	
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_fascist_demagogue }
+		}
+	}
+}
+
+every_possible_country = {
+	generate_character = {
+		token_base = liberatarianist_reformer # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { liberatarianist_reformer }
+			available = {
+				IF = {
+					limit = { has_dlc = "Man the Guns" }	
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_democratic_reformer }
+		}
+	}
+}
+
+every_possible_country = {
+	generate_character = {
+		token_base = central_thinker # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { central_thinker }
+			available = {
+				IF = {
+					limit = { has_dlc = "Man the Guns" }	
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_democratic_reformer }
+		}
+	}
+}
+
+every_possible_country = {
+	generate_character = {
+		token_base = liberal_minded # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { liberal_minded }
+			available = {
+				IF = {
+					limit = { has_dlc = "Man the Guns" }	
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_democratic_reformer }
+		}
+	}
+}
+
+every_possible_country = {
+	generate_character = {
+		token_base = progressivist_reviver # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { progressivist_reviver }
+			available = {
+				IF = {
+					limit = { has_dlc = "Man the Guns" }	
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_democratic_reformer }
+		}
+	}
+}
+
+every_possible_country = {
+	generate_character = {
+		token_base = consveratist_statist # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { consveratist_statist }
+			available = {
+				IF = {
+					limit = { has_dlc = "Man the Guns" }	
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_democratic_reformer }
 		}
 	}
 }
