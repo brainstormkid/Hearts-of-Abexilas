@@ -1,0 +1,16 @@
+state={
+	id=1254
+	name="STATE_1254"
+	provinces={
+		509 4345 4527 6651 11393 11531 11533 11541
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = BAR
+		buildings = {
+		}
+		add_core_of = BAR
+	}
+}
