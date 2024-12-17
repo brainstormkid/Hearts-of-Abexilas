@@ -470,6 +470,11 @@ GRC = {
 	color_ui = rgb { 76 121 52 }
 }
 
+GRE = {
+	color = rgb { 11 140 76 }
+	color_ui = rgb { 11 140 76 }
+}
+
 HAR = {
 	color = rgb { 75  0  110 }
 	color_ui = rgb { 75  0  110 }
@@ -938,6 +943,11 @@ SON = {
 STE = {
 	color = rgb { 224 218 117 }
 	color_ui = rgb { 224 218 117 }
+}
+
+STL = {
+	color = rgb { 89 56 20 }
+	color_ui = rgb { 89 56 20 }
 }
 
 STR = {

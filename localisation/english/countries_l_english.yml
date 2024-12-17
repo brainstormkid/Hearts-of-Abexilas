@@ -567,6 +567,10 @@
  GRC_absolutist_DEF:1 "the Third Kingdom of Grand Castell"
  GRC_absolutist_ADJ:0 "Castellan"
  
+ GRE_absolutist:1 "Admiralty of Greenland"
+ GRE_absolutist_DEF:1 "the Admiralty of Greenland"
+ GRE_absolutist_ADJ:0 "Greenlandian"
+ 
  HAR_absolutist:1 "Empire of Harpia"
  HAR_absolutist_DEF:1 "the Empire of Harpia"
  HAR_absolutist_ADJ:0 "Harpian"
@@ -1044,6 +1048,10 @@
  STE_absolutist_DEF:1 "the Kingdom of Steverovska"
  STE_absolutist_ADJ:0 "Steverovskan"
  
+ STL_absolutist:1 "Admiralty of Stellavaraa"
+ STL_absolutist_DEF:1 "the Admiralty of Stellavaraa"
+ STL_absolutist_ADJ:0 "Stellavaraan"
+ 
  STR_absolutist:1 "Strategósia"
  STR_absolutist_DEF:1 "the Strategósia"
  STR_absolutist_ADJ:0 "Strategósian"
@@ -1113,8 +1121,8 @@
  TIR_neutrality_DEF:1 "the Sailing Republic of Tirgus"
  TIR_neutrality_ADJ:0 "Tirgans"
  
- TRA_absolutist:1 "Admirality of Trafalgar"
- TRA_absolutist_DEF:1 "the Admirality of Trafalgar"
+ TRA_absolutist:1 "Admiralty of Trafalgar"
+ TRA_absolutist_DEF:1 "the Admiralty of Trafalgar"
  TRA_absolutist_ADJ:0 "Trafalgan"
  
  TSI_absolutist:1 "Duchy of Tsiladen"

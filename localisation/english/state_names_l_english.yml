@@ -497,6 +497,7 @@
  STATE_747:0 "Western Duchy of Itruria"
  STATE_748:0 "Sardoria"
  STATE_749:0 "Hererra"
+ STATE_750:0 "Greenland Isle"
  STATE_751:0 "Nyaloth"
  STATE_752:0 "Iomis"
  STATE_753:0 "Kekyoinland"
@@ -844,4 +845,8 @@
  STATE_1258:0 "Archonis"
  STATE_1260:0 "Distaria"
  STATE_1262:0 "Kropotkingrad"
+ STATE_1266:0 "Stellavaraa"
+ STATE_1267:0 "Wastes"
+ STATE_1268:0 "Ferifez"
+ STATE_1269:0 "Lawalyraa"
  
