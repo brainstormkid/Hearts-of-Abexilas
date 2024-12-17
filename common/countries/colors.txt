@@ -611,8 +611,8 @@ LAT = {
 }
 
 LAV = {
-	color = rgb { 119  233  85 }
-	color_ui = rgb { 119  233  85 }
+	color = rgb { 119 233 85 }
+	color_ui = rgb { 119 233 85 }
 }
 
 LED = {
