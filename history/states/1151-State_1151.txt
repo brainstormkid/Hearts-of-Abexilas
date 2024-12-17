@@ -1,16 +1,29 @@
 state={
 	id=1151
-	name="STATE_1151"
+	name="STATE_1151" #Lethlourion
 	provinces={
 		1576
 	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=750000
+        state_category = rural
 	history={
 		owner = COM
 		buildings = {
+			infrastructure = 2
+			1576 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = COM
+		victory_points = { 1576 10 }
 	}
 }
