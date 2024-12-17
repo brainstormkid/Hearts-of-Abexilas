@@ -2,9 +2,15 @@ state={
 	id=301
 	name="STATE_301"
 	provinces={
-		456 1065 1236 3145 4370 4540 5217 5441 5624 5665 7599 7600 7648 7665 7699 7725
+		456 1065 1236 3145 4370 5217 5441 5665 7599 7600 7648 7665 7699
 	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
+	history={
+		owner = ROM
+		buildings = {
+		}
+		add_core_of = ROM
+	}
 }

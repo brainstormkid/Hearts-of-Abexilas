@@ -875,14 +875,19 @@ ROL = {
 	color_ui = rgb { 58 150 204 }
 }
 
-RUN = {
-	color = rgb { 99 113 168 }
-	color_ui = rgb { 99 113 168 }
+ROM = {
+	color = rgb { 63 60 53 }
+	color_ui = rgb { 63 60 53 }
 }
 
 ROZ = {
 	color = rgb { 129 41 41 }
 	color_ui = rgb { 129 41 41 }
+}
+
+RUN = {
+	color = rgb { 99 113 168 }
+	color_ui = rgb { 99 113 168 }
 }
 
 SAK = {

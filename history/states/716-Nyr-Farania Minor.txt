@@ -1,0 +1,16 @@
+state={
+	id=716
+	name="STATE_716"
+	provinces={
+		4830 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = MIZ
+		buildings = {
+		}
+		add_core_of = MIZ
+	}
+}

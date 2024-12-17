@@ -977,13 +977,17 @@
  ROL_absolutist_DEF:1 "the Republic of Rolon"
  ROL_absolutist_ADJ:0 "Rolonite"
  
- RUN_absolutist:1 "Lunar State of Skyfall Runarisu"
- RUN_absolutist_DEF:1 "the Lunar State of Skyfall Runarisu"
- RUN_absolutist_ADJ:0 "Runarisan"
+ ROM_absolutist:1 "Kingdom of Romilia"
+ ROM_absolutist_DEF:1 "the Kingdom of Romilia"
+ ROM_absolutist_ADJ:0 "Romilian"
  
  ROZ_absolutist:1 "Kingdom of Rozow"
  ROZ_absolutist_DEF:1 "the Kingdom of Rozow"
  ROZ_absolutist_ADJ:0 "Rozowian"
+ 
+ RUN_absolutist:1 "Lunar State of Skyfall Runarisu"
+ RUN_absolutist_DEF:1 "the Lunar State of Skyfall Runarisu"
+ RUN_absolutist_ADJ:0 "Runarisan"
  
  SAK_absolutist:1 "Imperial Archonate of Sakravir"
  SAK_absolutist_DEF:1 "the Imperial Archonate of Sakravir"
