@@ -115,6 +115,11 @@ ARK = {
 	color_ui = rgb { 194 100 116 }
 }
 
+ARL = {
+	color = rgb { 127 95 158 }
+	color_ui = rgb { 127 95 158 }
+}
+
 ARR = {
 	color = rgb { 0 47 105 }
 	color_ui = rgb { 0 47 105 }

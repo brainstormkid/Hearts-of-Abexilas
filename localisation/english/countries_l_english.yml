@@ -179,6 +179,10 @@
  ARK_absolutist_DEF:1 "the Arkan"
  ARK_absolutist_ADJ:0 "Arkanian"
  
+ ARL_absolutist:1 "Kingdom of Artilon"
+ ARL_absolutist_DEF:1 "the Kingdom of Artilon"
+ ARL_absolutist_ADJ:0 "Artilian"
+ 
  ARR_absolutist:1 "Arkania"
  ARR_absolutist_DEF:1 "the Arkania"
  ARR_absolutist_ADJ:0 "Arkanian"
