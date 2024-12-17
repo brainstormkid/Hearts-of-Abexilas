@@ -1055,6 +1055,11 @@ VAA = {
 	color_ui = rgb { 223 223 223 }
 }
 
+VAC = {
+	color = rgb { 30 147 1 }
+	color_ui = rgb { 30 147 1 }
+}
+
 VAD = {
 	color = rgb { 142 139 132 }
 	color_ui = rgb { 142 139 132 }

@@ -1169,6 +1169,10 @@
  VAA_absolutist_DEF:1 "the Valeran Hold"
  VAA_absolutist_ADJ:0 "Valeran"
  
+ VAC_absolutist:1 "Vacan Sultanate"
+ VAC_absolutist_DEF:1 "the Vacan Sultanate"
+ VAC_absolutist_ADJ:0 "Vacan"
+ 
  VAD_absolutist:1 "Valdic Union"
  VAD_absolutist_DEF:1 "the Valdic Union"
  VAD_absolutist_ADJ:0 "Valdic"
