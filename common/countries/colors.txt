@@ -715,6 +715,11 @@ MAE = {
 	color_ui = rgb { 91 0 10 }
 }
 
+MAI = {
+	color = rgb { 232 199 79 }
+	color_ui = rgb { 232 199 79 }
+}
+
 MAL = {
 	color = rgb { 143 115 136 }
 	color_ui = rgb { 143 115 136 }

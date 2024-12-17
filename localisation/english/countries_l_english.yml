@@ -816,6 +816,10 @@
  MAE_absolutist_DEF:1 "the Imperial Realm of Maecenia"
  MAE_absolutist_ADJ:0 "Maecenian"
  
+ MAI_absolutist:1 "Misty Glades of Mariseau"
+ MAI_absolutist_DEF:1 "the Misty Glades of Mariseau"
+ MAI_absolutist_ADJ:0 "Marisean"
+ 
  MAL_absolutist:1 "Wyverndom of Malachite"
  MAL_absolutist_DEF:1 "the Wyverndom of Malachite"
  MAL_absolutist_ADJ:0 "Dragon-Born"
