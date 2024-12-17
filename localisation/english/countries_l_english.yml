@@ -255,6 +255,10 @@
  BEE_absolutist_DEF:1 "the Empire of Beepeck"
  BEE_absolutist_ADJ:0 "Beean"
  
+ BER_absolutist:1 "Great Berrian Empire"
+ BER_absolutist_DEF:1 "the Great Berrian Empire"
+ BER_absolutist_ADJ:0 "Berrian"
+ 
  BOU_absolutist:1 "Divine Ascendency of Boulderov"
  BOU_absolutist_DEF:1 "the Divine Ascendency of Boulderov"
  BOU_absolutist_ADJ:0 "Boulderovian"

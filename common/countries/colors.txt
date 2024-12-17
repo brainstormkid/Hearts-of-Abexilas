@@ -210,6 +210,11 @@ BEE = {
 	color_ui = rgb { 222 192 80 }
 }
 
+BER = {
+	color = rgb { 129 219 145 }
+	color_ui = rgb { 129 219 145 }
+}
+
 BOU = {
 	color = rgb { 144 23 23 }
 	color_ui = rgb { 144 23 23 }
