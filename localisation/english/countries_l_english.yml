@@ -681,6 +681,10 @@
  KHR_absolutist_DEF:1 "the Kingdom of Khrumaz"
  KHR_absolutist_ADJ:0 "Khrumazi"
  
+ KRA_absolutist:1 "United Collectivist Republics of Krasnoi"
+ KRA_absolutist_DEF:1 "the United Collectivist Republics of Krasnoi"
+ KRA_absolutist_ADJ:0 "Kraznik"
+ 
  KUZ_absolutist:1 "Kingdom of Kuzina"
  KUZ_absolutist_DEF:1 "the Kingdom of Kuzina"
  KUZ_absolutist_ADJ:0 "Kuzinian"

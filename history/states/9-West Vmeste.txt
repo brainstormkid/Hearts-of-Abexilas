@@ -1,0 +1,16 @@
+state={
+	id=9
+	name="STATE_9"
+	provinces={
+		1016 2434 3124 5173 5247 5263 7051 7052 7053 7130 7171 7249 7272 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = KRA
+		buildings = {
+		}
+		add_core_of = KRA
+	}
+}

@@ -1,0 +1,16 @@
+state={
+	id=303
+	name="STATE_303"
+	provinces={
+		997 1096 1593 1859 2556 4763 5633 6974 7015 7277 7285 7315 7323 7334 7335 7343 7365 7368 7381 7386 7395 7406 7417 7422 7431
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = KRA
+		buildings = {
+		}
+		add_core_of = KRA
+	}
+}
