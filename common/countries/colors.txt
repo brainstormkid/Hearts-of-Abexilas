@@ -630,6 +630,11 @@ KYR = {
 	color_ui = rgb { 183 58 87 }
 }
 
+LAK = {
+	color = rgb { 221 205 57 }
+	color_ui = rgb { 221 205 57 }
+}
+
 LAT = {
 	color = rgb { 148 92 222 }
 	color_ui = rgb { 148 92 222 }

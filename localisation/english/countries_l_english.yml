@@ -701,6 +701,10 @@
  KYR_absolutist_DEF:1 "the City-State of Kÿrin"
  KYR_absolutist_ADJ:0 "Cartographers"
  
+ LAK_absolutist:1 "Lakaria"
+ LAK_absolutist_DEF:1 "the Lakaria"
+ LAK_absolutist_ADJ:0 "Lakarian"
+ 
  LAT_absolutist:1 "Kingdom of Latria"
  LAT_absolutist_DEF:1 "the Kingdom of Latria"
  LAT_absolutist_ADJ:0 "Latrian"
