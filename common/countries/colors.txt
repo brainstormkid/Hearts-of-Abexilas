@@ -100,6 +100,11 @@ ARC = {
 	color_ui = rgb { 0 128 128 }
 }
 
+ARH = {
+	color = rgb { 47 129 140 }
+	color_ui = rgb { 47 129 140 }
+}
+
 ARI = {
 	color = rgb { 101 136 158 }
 	color_ui = rgb { 101 136 158 }

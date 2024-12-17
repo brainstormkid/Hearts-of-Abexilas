@@ -1,0 +1,16 @@
+state={
+	id=282
+	name="STATE_282"
+	provinces={
+		9812 9814 9834 15300 15301 15302 15303 15304 15305 15307
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = ARH
+		buildings = {
+		}
+		add_core_of = ARH
+	}
+}
