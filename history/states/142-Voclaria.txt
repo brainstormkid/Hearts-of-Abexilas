@@ -1,0 +1,16 @@
+state={
+	id=142
+	name="STATE_142"
+	provinces={
+		1551 2044 4051 4447 4677 5021 5663 6556 6870 8290 8302 8344 8402 8461 8533 8550 8572 8594 8648 8649 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = MYD
+		buildings = {
+		}
+		add_core_of = MYD
+	}
+}

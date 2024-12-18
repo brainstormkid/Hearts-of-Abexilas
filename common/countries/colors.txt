@@ -770,6 +770,11 @@ MON = {
 	color_ui = rgb { 239 136 136 }
 }
 
+MYD = {
+	color = rgb { 107 72 131 }
+	color_ui = rgb { 107 72 131 }
+}
+
 MYN = {
 	color = rgb { 211 184 78 }
 	color_ui = rgb { 211 184 78 }

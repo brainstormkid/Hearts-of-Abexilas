@@ -860,6 +860,10 @@
  MON_absolutist_DEF:1 "the Mercantile Republic of Monokleia"
  MON_absolutist_ADJ:0 "Monokleian"
  
+ MYD_absolutist:1 "Kingdom of Mydharii"
+ MYD_absolutist_DEF:1 "the Kingdom of Mydharii"
+ MYD_absolutist_ADJ:0 "Mydharyn"
+ 
  MYN_absolutist:1 "Myndelia"
  MYN_absolutist_DEF:1 "the Myndelia"
  MYN_absolutist_ADJ:0 "Myndelian"
