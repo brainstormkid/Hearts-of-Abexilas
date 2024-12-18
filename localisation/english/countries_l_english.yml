@@ -689,6 +689,10 @@
  KHR_absolutist_DEF:1 "the Kingdom of Khrumaz"
  KHR_absolutist_ADJ:0 "Khrumazi"
  
+ KOR_absolutist:1 "Kingdom of Koré"
+ KOR_absolutist_DEF:1 "the Kingdom of Koré"
+ KOR_absolutist_ADJ:0 "Korén"
+ 
  KRA_absolutist:1 "United Collectivist Republics of Krasnoi"
  KRA_absolutist_DEF:1 "the United Collectivist Republics of Krasnoi"
  KRA_absolutist_ADJ:0 "Kraznik"
