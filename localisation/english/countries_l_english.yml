@@ -917,6 +917,10 @@
  NAA_absolutist_DEF:1 "the Tsardom of Naan"
  NAA_absolutist_ADJ:0 "Naannite"
  
+ NAL_absolutist:1 "Regency of Nalta"
+ NAL_absolutist_DEF:1 "the Regency of Nalta"
+ NAL_absolutist_ADJ:0 "Naltan"
+ 
  NER_absolutist:1 "Kingdom of Nerisia"
  NER_absolutist_DEF:1 "the Kingdom of Nerisia"
  NER_absolutist_ADJ:0 "Nerisian"

@@ -800,6 +800,11 @@ NAA = {
 	color_ui = rgb { 161 52 216 }
 }
 
+NAL = {
+	color = rgb { 97 35 25 }
+	color_ui = rgb { 97 35 25 }
+}
+
 NER = {
 	color = rgb { 115 209 169 }
 	color_ui = rgb { 115 209 169 }
