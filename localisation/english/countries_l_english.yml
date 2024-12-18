@@ -929,6 +929,10 @@
  NIK_absolutist_DEF:1 "the Kingdom of Niakria"
  NIK_absolutist_ADJ:0 "Nikarian"
  
+ NOR_absolutist:1 "Norfst Altrium"
+ NOR_absolutist_DEF:1 "the Norfst Altrium"
+ NOR_absolutist_ADJ:0 "Norfstian"
+ 
  NUM_absolutist:1 "Maritime Republic of Numeós"
  NUM_absolutist_DEF:1 "the Maritime Republic of Numeós"
  NUM_absolutist_ADJ:0 "Numean"

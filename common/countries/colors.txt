@@ -815,6 +815,11 @@ NIK = {
 	color_ui = rgb { 159 102 85 }
 }
 
+NOR = {
+	color = rgb { 148 72 154 }
+	color_ui = rgb { 148 72 154 }
+}
+
 NUM = {
 	color = rgb { 195 238 255 }
 	color_ui = rgb { 195 238 255 }
