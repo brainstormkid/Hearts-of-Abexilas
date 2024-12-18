@@ -1153,6 +1153,10 @@
  THE_absolutist_DEF:1 "the Remnant of Theiónikos"
  THE_absolutist_ADJ:0 "Theióniki"
  
+ THT_absolutist:1 "City State of Thetens"
+ THT_absolutist_DEF:1 "the City State of Thetens"
+ THT_absolutist_ADJ:0 "Theten"
+ 
  TIR_neutrality:1 "Sailing Republic of Tirgus"
  TIR_neutrality_DEF:1 "the Sailing Republic of Tirgus"
  TIR_neutrality_ADJ:0 "Tirgans"

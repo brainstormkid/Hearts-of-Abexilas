@@ -1065,6 +1065,11 @@ THE = {
 	color_ui = rgb { 237 207 75 }
 }
 
+THT = {
+	color = rgb { 113 214 155 }
+	color_ui = rgb { 113 214 155 }
+}
+
 TIR = {
 	color = rgb { 17 96 74 }
 	color_ui = rgb { 17 96 74 }
