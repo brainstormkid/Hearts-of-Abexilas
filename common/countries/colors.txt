@@ -340,6 +340,11 @@ DON = {
 	color_ui = rgb { 236 111 21 }
 }
 
+DOR = {
+	color = rgb { 63 62 90 }
+	color_ui = rgb { 63 62 90 }
+}
+
 DRA = {
 	color = rgb { 148 210 61 }
 	color_ui = rgb { 148 210 61 }

@@ -364,6 +364,10 @@
  DON_absolutist_DEF:1 "the Skylords of Donfuer"
  DON_absolutist_ADJ:0 "DonFuerian"
  
+ DOR_absolutist:1 "Union of Doravan"
+ DOR_absolutist_DEF:1 "the Union of Doravan"
+ DOR_absolutist_ADJ:0 "Doravanian"
+ 
  DRA_absolutist:1 "Drak Yamar"
  DRA_absolutist_DEF:1 "the Drak Yamar"
  DRA_absolutist_ADJ:0 "Draconian"
