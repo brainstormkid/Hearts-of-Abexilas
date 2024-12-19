@@ -1,0 +1,16 @@
+state={
+	id=1272
+	name="STATE_1272"
+	provinces={
+		1790 2046 4359 8340
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = INN
+		buildings = {
+		}
+		add_core_of = INN
+	}
+}

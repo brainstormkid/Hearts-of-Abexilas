@@ -1,0 +1,16 @@
+state={
+	id=1278
+	name="STATE_1278"
+	provinces={
+		240 2020 6299 8122 8150 8151 8186 8249
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = INN
+		buildings = {
+		}
+		add_core_of = INN
+	}
+}

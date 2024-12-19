@@ -540,6 +540,11 @@ HYR = {
 	color_ui = rgb { 54 54 54 }
 }
 
+INN = {
+	color = rgb { 214 214 214 }
+	color_ui = rgb { 214 214 214 }
+}
+
 IRI = {
 	color = rgb { 206 111 211 }
 	color_ui = rgb { 206 111 211 }

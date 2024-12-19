@@ -1,0 +1,16 @@
+state={
+	id=133
+	name="STATE_133"
+	provinces={
+		472 1356 1776 1983 2445 5300 8219 8271 8301 8306 8349 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = INN
+		buildings = {
+		}
+		add_core_of = INN
+	}
+}
