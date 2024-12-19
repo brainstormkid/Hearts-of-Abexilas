@@ -5,6 +5,11 @@ TST = {
 
 # ALPHABETICAL
 
+ABV = {
+	color = rgb { 20 28 56 }
+	color_ui = rgb { 20 28 56 }
+}
+
 ACR = {
 	color = rgb { 16 43 76 }
 	color_ui = rgb { 16 43 76 }

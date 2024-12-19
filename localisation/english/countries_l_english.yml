@@ -1,6 +1,10 @@
 ﻿l_english:
  #ALPHABETICAL
  
+ ABV_absolutist:1 "Principality of Abvil"
+ ABV_absolutist_DEF:1 "the Principality of Abvil"
+ ABV_absolutist_ADJ:0 "Vilari"
+ 
  ACR_absolutist:1 "Atreoria of Acreon"
  ACR_absolutist_DEF:1 "the Atreoria of Acreon"
  ACR_absolutist_ADJ:0 "Acreoni"

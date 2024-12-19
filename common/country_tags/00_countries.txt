@@ -1,4 +1,5 @@
 TST = "countries/Test.txt"
+ABV = "countries/Abvil.txt"
 ACR = "countries/Acreon.txt"
 AEI = "countries/Aesir.txt"
 AER = "countries/Aerternus.txt"
