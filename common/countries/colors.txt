@@ -100,6 +100,11 @@ AQM = {
 	color_ui = rgb { 100 100 241 }
 }
 
+ARA = {
+	color = rgb { 198 193 187 }
+	color_ui = rgb { 198 193 187 }
+}
+
 ARC = {
 	color = rgb { 0 128 128 }
 	color_ui = rgb { 0 128 128 }
@@ -213,6 +218,11 @@ BAR = {
 BEE = {
 	color = rgb { 222 192 80 }
 	color_ui = rgb { 222 192 80 }
+}
+
+BEL = {
+	color = rgb { 187 108 93 }
+	color_ui = rgb { 187 108 93 }
 }
 
 BER = {
@@ -1223,6 +1233,11 @@ VIN = {
 VIR = {
 	color = rgb { 67 0 0 }
 	color_ui = rgb { 67 0 0 }
+}
+
+XUA = {
+	color = rgb { 207 185 164 }
+	color_ui = rgb { 207 185 164 }
 }
 
 VRI = {
