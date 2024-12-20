@@ -124,6 +124,10 @@
  AQM_absolutist:1 "Regnum Aquilarum"
  AQM_absolutist_DEF:1 "Regnum Aquilarum"
  AQM_absolutist_ADJ:0 "Aquilaran"
+ 
+ ARA_absolutist:1 "Aragotha"
+ ARA_absolutist_DEF:1 "Realms of Aragotha"
+ ARA_absolutist_ADJ:0 "Aragothan"
 
  ARC_absolutist:1 "United Empire of Arcael"
  ARC_absolutist_DEF:1 "the United Empire of Arcael"
@@ -258,6 +262,10 @@
  BEE_absolutist:1 "Empire of Beepeck"
  BEE_absolutist_DEF:1 "the Empire of Beepeck"
  BEE_absolutist_ADJ:0 "Beean"
+ 
+ BEL_absolutist:1 "Monastrate of Bel'hor"
+ BEL_absolutist_DEF:1 "The Monastrate of Bel'hor"
+ BEL_absolutist_ADJ:0 "BelHori"
  
  BER_absolutist:1 "Great Berrian Empire"
  BER_absolutist_DEF:1 "the Great Berrian Empire"
@@ -1312,6 +1320,10 @@
  VRI_absolutist:1 "Vrijsted Confederation"
  VRI_absolutist_DEF:1 "the Vrijsted Confederation"
  VRI_absolutist_ADJ:0 "Vrijstedian"
+ 
+ XUA_absolutist:1 "Xuán Dynasty"
+ XUA_absolutist_DEF:1 "The Xuán Dynasty"
+ XUA_absolutist_ADJ:0 "Xuán"
  
  YAR_absolutist:1 "Yarexoka"
  YAR_absolutist_DEF:1 "the Yarexoka"
