@@ -1,0 +1,16 @@
+state={
+	id=1281
+	name="STATE_1281"
+	provinces={
+		234 582 1601 1712 1753 1915 1921 2197 2983 3827 3991 4204 4626 4844 5752 14528 14546 14560 14564 14577 14578 14608 14609 14620 14673 14674 14675 14689 14714 14721 14738 14765
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = ARA
+		buildings = {
+		}
+		add_core_of = ARA
+	}
+}
