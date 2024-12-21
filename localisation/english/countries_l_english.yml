@@ -1272,6 +1272,12 @@
  VEA_absolutist:1 "City-Republic of Velarim"
  VEA_absolutist_DEF:1 "the City-Republic of Velarim"
  VEA_absolutist_ADJ:0 "Velarimen"
+ VEA_liberalist:1 "City-Republic of Velarim"
+ VEA_liberalist_DEF:1 "the City-Republic of Velarim"
+ VEA_liberalist_ADJ:0 "Velarimen"
+ VEA_centrist:1 "City-Republic of Velarim"
+ VEA_centrist_DEF:1 "the City-Republic of Velarim"
+ VEA_centrist_ADJ:0 "Velarimen"
  
  VEC_absolutist:1 "Grand Duchy of Vedanica"
  VEC_absolutist_DEF:1 "the Grand Duchy of Vedanica"
