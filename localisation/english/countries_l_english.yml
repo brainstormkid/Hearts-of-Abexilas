@@ -1268,6 +1268,9 @@
  VAR_absolutist:1 "Calidwarf-Varaxis"
  VAR_absolutist_DEF:1 "the Calidwarf-Varaxis"
  VAR_absolutist_ADJ:0 "Varaxian"
+ VAR_monarchist:1 "Calidwarf-Varaxis"
+ VAR_monarchist_DEF:1 "the Calidwarf-Varaxis"
+ VAR_monarchist_ADJ:0 "Varaxian"
  
  VAS_absolutist:1 "City State Of Vastaros"
  VAS_absolutist_DEF:1 "the City State Of Vastaros"

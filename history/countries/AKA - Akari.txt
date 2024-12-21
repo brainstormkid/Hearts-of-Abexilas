@@ -29,11 +29,6 @@ set_autonomy = {
 }
 
 set_autonomy = {
-	target = VAR
-	autonomous_state = autonomy_puppet
-}
-
-set_autonomy = {
 	target = ZEH
 	autonomous_state = autonomy_puppet
 }
