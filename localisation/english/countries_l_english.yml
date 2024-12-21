@@ -1108,6 +1108,10 @@
  SON_absolutist_DEF:1 "the Sonderia"
  SON_absolutist_ADJ:0 "Sonderian"
  
+ STA_absolutist:1 "Holy Kingdom of Staslov"
+ STA_absolutist_DEF:1 "the Holy Kingdom of Staslov"
+ STA_absolutist_ADJ:0 "Staslovite"
+ 
  STE_absolutist:1 "Kingdom of Steverovska"
  STE_absolutist_DEF:1 "the Kingdom of Steverovska"
  STE_absolutist_ADJ:0 "Steverovskan"

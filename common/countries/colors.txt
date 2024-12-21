@@ -1020,6 +1020,11 @@ SON = {
 	color_ui = rgb { 57 63 119 }
 }
 
+STA = {
+	color = rgb { 93 60 113 }
+	color_ui = rgb { 93 60 113 }
+}
+
 STE = {
 	color = rgb { 224 218 117 }
 	color_ui = rgb { 224 218 117 }
