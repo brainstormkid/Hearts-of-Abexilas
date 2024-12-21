@@ -2,7 +2,7 @@
 
 6/11/2024 - Now
 
-An 98 player Development Team
+An 109 Player Development Team
 
 ----------------
 
@@ -18,30 +18,50 @@ fuchsify
 #Developers
 
 The ones who put words into code
+
+greatthealex
+axcetcy
+bally2563
 chasedmender668
-clomclem
 deitsch100
+dupernite
 entername5298
 erupto_
-LeGhast
+nektarios4449
+.ludio
+monsterswastaken
+oshotty
+king_of_hungary
+swpretzel
+zavien_
+
+----------------
+
+# Former Developers
+
+The ones who have left to explore
+
+anovium
+artiomderruski
+majorsheepish
+clomclem
+yogi2796
+ec1ypsius
+gogolegus
+kaegottya
+mr_kio
+presidentkimjohnson
 lehiboublanc
+toleoneq
 linemantrent77
 luniii111
 martigpg
 miewi_ente
-majorsheepish
-monsterswastaken
-mr_kio
-oshotty
 poggerooo
-presidentkimjohnson
 quasar
 sidecans
-swpretzel
-therealschnurr	
-toleoneq
-yogi2796
-
+therealschnurr
+wassenaar
 
 ----------------
 
@@ -88,7 +108,13 @@ zh_edd
 
 The ones who turned blocks into life
 
+jtaugust
 devilsadvocate
+pirimapper
+swag321
+toleoneq
+literallyjustagoat
+eello
 lehiboublanc
 swag321
 
