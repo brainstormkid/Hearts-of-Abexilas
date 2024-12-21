@@ -4,13 +4,32 @@ state={
 	provinces={
 		929 2026 5412 6064 6554 6557 9177 9182 9203 9212 9254 9271 9320 9361 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=7050000
+        state_category = large_city
 	history={
 		owner = KAS
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			9254 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = KAS
+		victory_points = { 2026 50 }
+		victory_points = { 9254 20 }
+		victory_points = { 929 10 }
+		victory_points = { 9182 10 }
 	}
 }
