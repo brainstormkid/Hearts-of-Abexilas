@@ -19,7 +19,7 @@ ideas = {
 }
 ideas = {
 	country = {
-		Underdeveloped_economy = {
+		underdeveloped_economy = {
 			picture = GFX_idea_Underdeveloped_economy
 			allowed = {
 				tag = MYR
