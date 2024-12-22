@@ -9,9 +9,13 @@ ideas = {
 				always = no
 			}
 			modifier = {
-			    political_power_gain = -0.05
-				stability_factor = -0.2
+			        political_power_gain = -0.05
+				stability_factor = -0.25
 				war_support_factor = -0.2
+                                progressivist_drift = 0.04
+                                radical_nationalist = 0.04
+                                radical_socialist = 0.04
+                                democratic = 0.04
 			}
 		}
 		
