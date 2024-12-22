@@ -13,7 +13,7 @@ bookmarks = {
 
 		JAZ = {
 			history = JAZ_DESC
-			ideology = neutrality
+			ideology = monarchist
 			ideas={
 			
 			}
@@ -24,7 +24,7 @@ bookmarks = {
 		
 		EXO = {
 			history = EXO_DESC
-			ideology = neutrality
+			ideology = absolutist
 			ideas={
 			
 			}
@@ -35,7 +35,7 @@ bookmarks = {
 		
 		TAN = {
 			history = TAN_DESC
-			ideology = neutrality
+			ideology = absolutist
 			ideas={
 			
 			}
@@ -46,7 +46,7 @@ bookmarks = {
 		
 		GAR = {
 			history = GAR_DESC
-			ideology = neutrality
+			ideology = centrist
 			ideas={
 			Kaevan_Theocracy
 			Legacy_of_the_Drakaes
@@ -59,7 +59,7 @@ bookmarks = {
 		
 		GEH = {
 			history = GEH_DESC
-			ideology = neutrality
+			ideology = absolutist
 			ideas={
 			volunteer_only
 			Cathramis_Continental_Member
@@ -69,9 +69,9 @@ bookmarks = {
 			}
 		}
 
-		ZAM = {
-			history = ZAM_DESC
-			ideology = neutrality
+		VEA = {
+			history = VEA_DESC
+			ideology = liberalist
 			ideas={
 			
 			}
@@ -82,7 +82,7 @@ bookmarks = {
 		
 		QYN = {
 			history = QYN_DESC
-			ideology = neutrality
+			ideology = absolutist
 			ideas={
 			
 			}
@@ -102,7 +102,7 @@ bookmarks = {
 		LEY = {
 			minor = yes 	#This is what makes it apear as a minor nation
 			history = LEY_DESC
-			ideology = neutrality
+			ideology = monarchist
 			ideas = {
 			provisional_government
 			father_of_railways
@@ -118,7 +118,7 @@ bookmarks = {
 		LUT = {
 			minor = yes
 			history = LUT_DESC
-			ideology = neutrality
+			ideology = monarchist
 			ideas={
 				Economic_Growth
 			}
@@ -130,7 +130,7 @@ bookmarks = {
 		ERC = {
 			minor = yes 	#This is what makes it apear as a minor nation
 			history = ERC_DESC
-			ideology = neutrality
+			ideology = monarchist
 			ideas = {
                 agrarian_society
                 ertcofi_neutrality
@@ -146,7 +146,7 @@ bookmarks = {
 		PAR = {
 			minor = yes 	#This is what makes it apear as a minor nation
 			history = PAR_DESC
-			ideology = neutrality
+			ideology = absolutist
 			ideas = {
                
             }
@@ -154,7 +154,18 @@ bookmarks = {
 		
 			}
 		}
-
+		
+		VAR = {
+			minor = yes 	#This is what makes it apear as a minor nation
+			history = VAR_DESC
+			ideology = monarchist
+			ideas = {
+               
+            }
+			focuses = {
+			VAR_the_gold_quotas
+			}
+		}
 		
 		}
 		effect = {
