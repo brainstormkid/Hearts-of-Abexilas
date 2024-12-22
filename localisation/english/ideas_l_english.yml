@@ -59,6 +59,8 @@
 # Myrtana ideas
  great_divide:0 "The Reformist Violence"
  great_divide_desc:0 "Our nation has for most part of history peaceful with full cooperation between people and the government, however ever since Ravian came into power, multiple reformist parties started to become really hostile to the government, each day becoming more and more dangerous. With all of them sharing the same goal, overthrow the King."
+ underdeveloped_economy:0 "Underdeveloped Economy"
+ underdeveloped_economy_desc:0 "Our country was always steps back behind many of our neighbours on the continent, with our treasury being low, and with the ongoing riots, people refuse to work for our government. Which worsens our situation."
 
  # Lutian
  Economic_Growth:0 "Economic Growth"
