@@ -1353,7 +1353,11 @@
  VAL_the_new_order:0 "The new order"
  VAL_the_new_order_desc:0 "Valora has been reforged into a mighty and above all pure empire spanning the entierty of Gexas"
 
-
+ #Varaxis
+ VAR_the_gold_quotas:0 "Reintroduce the Gold Quota"
+ VAR_the_gold_quotas_desc:0 "The prosperity of Calidwarf was built on the Gold Quota, where citizens contributed gold daily to fuel economic and diplomatic power. Reinstating this system will mobilize our industrious spirit, fund ambitious projects, and rebuild a treasury to rival the wealthiest nations, reigniting the fire that forged an empire."
+ VAR_rebuild_the_economy:0 "Rebuild the Economy"
+ VAR_rebuild_the_economy_desc:0 "The economic miracle of the gold quota system has placed us in a situation where we can shake off the yoke of the economic crash in recent days"
 
  #Generic
  generic_focus_aviation_efforts:0 "Aviation Efforts"
