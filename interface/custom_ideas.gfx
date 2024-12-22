@@ -273,4 +273,9 @@ spriteTypes = {
 		name = "GFX_idea_idea_muho_jidai"
 		texturefile = "gfx/interface/ideas/idea_muho_jidai.dds"
 	}
+	SpriteType = {
+		name = "GFX_Cathramis_Continental_Member"
+		texturefile = "gfx/interface/ideas/Cathramis_Continental_Member.dds"
+	
+	}
  }
