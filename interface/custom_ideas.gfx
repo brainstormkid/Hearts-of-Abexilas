@@ -133,6 +133,10 @@ spriteTypes = {
 		name = "GFX_idea_Great_Divide"
 		texturefile = "gfx/interface/ideas/MYR_idea_Great_Divide.dds"
 	}
+        SpriteType = { 
+		name = "GFX_idea_Underdeveloped_economy"
+		texturefile = "gfx/interface/ideas/MYR_Idea_poor_economy.dds"
+	}
 	SpriteType = { 
 		name = "GFX_idea_economic_collapse"
 		texturefile = "gfx/interface/ideas/economic_collapse.dds"
