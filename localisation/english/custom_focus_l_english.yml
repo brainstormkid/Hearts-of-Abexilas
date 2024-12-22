@@ -208,7 +208,12 @@
  GAR_a_milita_system_desc:0 ""
  GAR_a_professional_military:0 "A professional military"
  GAR_a_professional_military_desc:0 ""
-
+ GAR_countinue_merge:0 "Countinue Merge"
+ GAR_countinue_merge_desc:0 "We will countinue the merge, pushing forward with what Venipher would have wanted"
+ GAR_abandon_merge:0 "Abandon Merge"
+ GAR_abandon_merge_desc:0 "Gardenia will chart its own course, onto the future, onto destiny."
+ GAR_A_steady_hand:0 "A Steady Hand"
+ GAR_A_steady_hand_desc:0 "Perhaps with the former leadership of Defiant we will find the same stability as under the great Venipher."
 
 #Harpia
  HRP_referendum_for_a_monarchy:0 "Referendum for a Monarchy"
