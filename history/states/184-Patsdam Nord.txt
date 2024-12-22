@@ -4,13 +4,34 @@ state={
 	provinces={
 		1754 2111 2928 3854 3941 6052 6393 8884 8895 8896 8934 8935 8980 8984 8987 9000 9008 9021 9028 9049 
 	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=2550000
+        state_category = city
 	history={
 		owner = BOU
 		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			3941 = {
+				naval_base = 1
+			}
+			8935 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = BOU
+		victory_points = { 1754 20 }
+		victory_points = { 3941 10 }
+		victory_points = { 6052 5 }
 	}
 }
