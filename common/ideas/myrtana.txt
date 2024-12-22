@@ -17,3 +17,26 @@ ideas = {
 		
 	}
 }
+ideas = {
+	country = {
+		Underdeveloped_economy = {
+			picture = GFX_idea_Underdeveloped_economy
+			allowed = {
+				tag = MYR
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				political_power_cost = 0.1
+			        monthly_population = -0.2
+				research_speed_factor = -0.3
+                                production_factory_efficiency_gain_factor = -0.15
+                                production_speed_buildings_factor = -0.3
+                                industry_repair_factor = -0.1         
+                                consumer_goods_factor = 0.15
+			}
+		}
+		
+	}
+}
