@@ -47,7 +47,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2360;366;sea;23157;-1;-1;-1;-1;;Second-Protlind-Bridge
 7129;366;sea;23157;-1;-1;-1;-1;;Third-Protlind-Bridge
 5119;4735;sea;21346;-1;-1;-1;-1;;West-Protlind-Bridge
-;;;;;;;;;
+9378;9356;sea;18583;-1;-1;-1;-1;;Bangrock-Southpeak-Bridge
 ;;;;;;;;;
 ;;;;;;;;;
 #Ending Line, anything after is ignored;;;;;;;;;
