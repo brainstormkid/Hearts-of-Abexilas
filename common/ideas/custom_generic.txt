@@ -295,5 +295,122 @@ ideas = {
 				production_speed_buildings_factor = 0.1
 			}
 		}
+	
+	### Caerus ###
+	
+		fortification = {
+			picture = fortification
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = fortification
+	
+			modifier = {
+				production_speed_bunker_factor = 0.2
+				production_speed_coastal_bunker_factor = 0.2
+				production_speed_anti_air_building_factor = 0.2
+			}
+		}
+		
+		civil_defense = {
+			picture = civil_defense
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = civil_defense
+	
+			modifier = {
+				conscription_factor = +0.08
+			}
+		}
+		
+		home_defense = {
+			picture = home_defense
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = home_defense
+	
+			modifier = {
+				offence = 0.1
+				defence = 0.1
+			}
+		}
+		
+		aethos_advisors = {
+			picture = aethos_advisors
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = aethos_advisors
+	
+			modifier = {
+				army_org_factor = 0.07
+			}
+		}
+		bardonia_advisors = {
+			picture = bardonia_advisors
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = bardonia_advisors
+	
+			modifier = {
+				army_org_factor = 0.02
+				defence = 0.02
+				offence = 0.02
+			}
+		}
+		fort_of_democracy = {
+			picture = fort_of_democracy
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = fort_of_democracy
+	
+			modifier = {
+				army_org_factor = 0.04
+				offence = 0.02
+				defence = 0.02
+				conscription_factor = +0.02
+				monthly_population = 0.01
+			}
+		}
 	}
 }
