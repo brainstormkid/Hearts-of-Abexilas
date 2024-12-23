@@ -190,6 +190,30 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_nationalism_generic.dds"
 	}
 	SpriteType = { 
+		name = "GFX_idea_fortification"
+		texturefile = "gfx/interface/ideas/idea_generic_fortification_generic.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_civil_defense"
+		texturefile = "gfx/interface/ideas/idea_generic_civil_defense_generic.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_home_defense"
+		texturefile = "gfx/interface/ideas/idea_generic_home_defense_generic.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_fort_of_democracy"
+		texturefile = "gfx/interface/ideas/idea_generic_fort_of_democracy_generic.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_aethos_advisors"
+		texturefile = "gfx/interface/ideas/idea_generic_aethos_advisors_generic.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_bardonia_advisors"
+		texturefile = "gfx/interface/ideas/idea_generic_aethos_advisors_generic.dds"
+	}
+	SpriteType = { 
 		name = "idea_ARC_volzhkana_market"
 		texturefile = "gfx/interface/ideas/idea_ARC_volzhkana_market.dds"
 	}

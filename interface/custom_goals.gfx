@@ -11035,3 +11035,119 @@ spriteTypes = {	##Icon For:
 		legacy_lazy_load = no
 	}
 }
+
+spriteTypes = {	##Icon For: 
+	SpriteType = { 
+		name = "GFX_generic_caerus_prepare_for_the_worst-645999"
+		texturefile = "gfx/interface/goals/GFX_generic_caerus_prepare_for_the_worst-645999.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_generic_caerus_prepare_for_the_worst-645999_shine"
+		texturefile = "gfx/interface/goals/GFX_generic_caerus_prepare_for_the_worst-645999.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_generic_caerus_prepare_for_the_worst-645999.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_generic_caerus_prepare_for_the_worst-645999.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_generic_caerus_bardonian_strategic_maneuvers-645940"
+		texturefile = "gfx/interface/goals/GFX_generic_caerus_bardonian_strategic_maneuvers-645940.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_generic_caerus_bardonian_strategic_maneuvers-645940_shine"
+		texturefile = "gfx/interface/goals/GFX_generic_caerus_bardonian_strategic_maneuvers-645940.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_generic_caerus_bardonian_strategic_maneuvers-645940.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_generic_caerus_bardonian_strategic_maneuvers-645940.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_generic_caerus_aethos_aid-645934"
+		texturefile = "gfx/interface/goals/GFX_generic_caerus_aethos_aid-645934.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_generic_caerus_aethos_aid-645934_shine"
+		texturefile = "gfx/interface/goals/GFX_generic_caerus_aethos_aid-645934.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_generic_caerus_aethos_aid-645934.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_generic_caerus_aethos_aid-645934.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+}
