@@ -29,7 +29,7 @@ replace_path="common/scripted_effects"
 replace_path="common/scripted_guis"
 replace_path="common/scripted_localisation"
 replace_path="common/scripted_triggers"
-replace_path ="common/technology_sharing"
+replace_path="common/technology_sharing"
 
 replace_path="history/countries"
 replace_path="history/general"
