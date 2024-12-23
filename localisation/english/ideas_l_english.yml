@@ -151,6 +151,20 @@
  collectivization:0 "Collectivization"
  collectivization_desc:0 "The Trade Unions have managed to achieve full collectivization of our industry."
  
+ # Generic Caerus
+ fortification:0 "Fortification Focus"
+ fortification_desc:0 "We must stand strong in these harsh times. Caerus is a hellish place for us. Our country is a fort. And we wont let them take it!"
+ civil_defense:0 "Civil Defense"
+ civil_defense_desc:0 "Our people stand strong against the armies of Bardonia and Aethos"
+ home_defense:0 "Home Defense"
+ home_defense_desc:0 "Our people stand strong against the armies of Bardonia and Aethos. We will defend our home no matter the cost."
+ aethos_advisors:0 "Aethos Advisors"
+ aethos_advisors_desc:0 "Our Ally Aethos has provided us with important advisors to help us with our strategic battle planning."
+ bardonia_advisors:0 "Bardonian Strategic Advisors"
+ bardonia_advisors_desc:0 "Our Ally Bardonia has provided us with strategic advisors to help us with our strategic battle planning and wars against Aethos."
+ fort_of_democracy:0 "Fort of Democracy"
+ fort_of_democracy_desc:0 "We as a democracy stand alone on Caerus. We must stay strong and fend of anyone threating our freedom!"
+ 
  
  
  
