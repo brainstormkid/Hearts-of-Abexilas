@@ -24,3 +24,8 @@ create_country_leader = {
 }
 
 set_convoys = 10
+
+
+complete_national_focus = caerus_take_position
+complete_national_focus = caerus_approach_bardonia
+complete_national_focus = caerus_join_the_bardonian_alliance

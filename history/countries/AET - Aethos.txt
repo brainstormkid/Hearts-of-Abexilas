@@ -29,3 +29,7 @@ set_autonomy = {
 }
 
 set_convoys = 230
+
+create_faction = "Aethos Forces"
+add_to_faction = AET
+add_to_faction = TAM

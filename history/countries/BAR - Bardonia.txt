@@ -29,3 +29,7 @@ set_autonomy = {
 }
 
 set_convoys = 115
+
+create_faction = "Bardonian Alliance"
+add_to_faction = BAR
+add_to_faction = COM
