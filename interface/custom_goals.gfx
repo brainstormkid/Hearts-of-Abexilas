@@ -8220,7 +8220,8 @@ spriteTypes = {	##Icon For:
 		}
 		legacy_lazy_load = no
 	}
-
+}
+spriteTypes = {	##Icon For: 
 	SpriteType = { 
 		name = "GFX_PAR_the_fall_of_the_king-427"
 		texturefile = "gfx/interface/goals/GFX_PAR_the_fall_of_the_king-427.dds"
