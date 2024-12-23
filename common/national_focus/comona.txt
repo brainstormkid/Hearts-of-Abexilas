@@ -16,11 +16,71 @@
 }
 
 focus_tree = {
-	id = generic_focus
+	id = caerus_focus
 	continuous_focus_position = { x = 100 y = 1200 } 
 	
 	country = {
-		factor = 1
+		factor = 0
+		modifier = {
+			add = 10
+			tag = COM
+		}
+	}
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BOU
+		}
+	}
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TAA
+		}
+	}
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ROM
+		}
+	}
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KRA
+		}
+	}
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AFO
+		}
+	}
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DYS
+		}
+	}
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ARH
+		}
+	}
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KAS
+		}
 	}
 	
 	default = yes
@@ -32,7 +92,7 @@ focus_tree = {
 
 	#Aviation Efforts
 	focus = {
-		id = generic_focus_aviation_efforts
+		id = caerus_aviation_efforts
 		icon = GFX_goal_generic_build_airforce
 		x = 22
 		y = 0
@@ -99,7 +159,7 @@ focus_tree = {
 
 	#Collectivist Ethos
 	focus = {
-		id = generic_focus_collectivist_ethos
+		id = caerus_collectivist_ethos
 		icon = GFX_goal_generic_national_unity
 		x = 50
 		y = 1
@@ -107,8 +167,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_enter_the_international_scene  }
-		mutually_exclusive = { focus = generic_focus_egalitarian_prevail  }
+		prerequisite = { focus = caerus_enter_the_international_scene  }
+		mutually_exclusive = { focus = caerus_egalitarian_prevail  }
 		ai_will_do = {
 			factor = 5
 			modifier = {
@@ -129,7 +189,7 @@ focus_tree = {
 
 	#Foreign Ship Investment
 	focus = {
-		id = generic_focus_foreign_ship_investment
+		id = caerus_foreign_ship_investment
 		icon = GFX_generic_focus_foreign_ship_investment-645974
 		x = 12
 		y = 3
@@ -137,7 +197,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_home_ports  focus = generic_focus_buy_convoys  }
+		prerequisite = { focus = caerus_home_ports  focus = caerus_buy_convoys  }
 		completion_reward = {
 			add_ideas = foreign_ship_investor
 		}
@@ -145,7 +205,7 @@ focus_tree = {
 
 	#Greater Extraction Efforts
 	focus = {
-		id = generic_focus_greater_extraction_efforts
+		id = caerus_greater_extraction_efforts
 		icon = GFX_generic_focus_greater_extraction_efforts-645976
 		x = 9
 		y = 3
@@ -153,7 +213,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_deep_mining  }
+		prerequisite = { focus = caerus_deep_mining  }
 		
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -213,7 +273,7 @@ focus_tree = {
 
 	#Industrialization Efforts
 	focus = {
-		id = generic_focus_industrialization_efforts
+		id = caerus_industrialization_efforts
 		icon = GFX_focus_generic_industry_1
 		x = 4
 		y = 0
@@ -234,7 +294,7 @@ focus_tree = {
 
 	#Rural Reforms
 	focus = {
-		id = generic_focus_rural_reforms
+		id = caerus_rural_reforms
 		icon = GFX_generic_focus_rural_reforms-645921
 		x = 1
 		y = 1
@@ -242,7 +302,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_industrialization_efforts  }
+		prerequisite = { focus = caerus_industrialization_efforts  }
 		
 		
 		completion_reward = {
@@ -281,7 +341,7 @@ focus_tree = {
 
 	#New Infrastructure
 	focus = {
-		id = generic_focus_new_infrastructure
+		id = caerus_new_infrastructure
 		icon = GFX_generic_focus_new_infrastructure-645972
 		x = 3
 		y = 1
@@ -289,7 +349,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_industrialization_efforts  }
+		prerequisite = { focus = caerus_industrialization_efforts  }
 		
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -326,7 +386,7 @@ focus_tree = {
 
 	#National Investment
 	focus = {
-		id = generic_focus_national_investment
+		id = caerus_national_investment
 		icon = GFX_goal_generic_construct_civ_factory
 		x = 2
 		y = 2
@@ -334,7 +394,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_rural_reforms  } prerequisite = { focus = generic_focus_new_infrastructure  }
+		prerequisite = { focus = caerus_rural_reforms  } prerequisite = { focus = caerus_new_infrastructure  }
 		
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -372,7 +432,7 @@ focus_tree = {
 
 	#Construction Effort I
 	focus = {
-		id = generic_focus_construction_effort_i
+		id = caerus_construction_effort_i
 		icon = GFX_goal_continuous_non_factory_construct
 		x = 1
 		y = 3
@@ -380,7 +440,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_national_investment  }
+		prerequisite = { focus = caerus_national_investment  }
 		
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -418,7 +478,7 @@ focus_tree = {
 
 	#Infrastructure Effort I
 	focus = {
-		id = generic_focus_infrastructure_effort_i
+		id = caerus_infrastructure_effort_i
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 3
 		y = 3
@@ -426,7 +486,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_national_investment  }
+		prerequisite = { focus = caerus_national_investment  }
 		
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -483,7 +543,7 @@ focus_tree = {
 
 	#Construction Effort II
 	focus = {
-		id = generic_focus_construction_effort_ii
+		id = caerus_construction_effort_ii
 		icon = GFX_goal_generic_construction
 		x = 1
 		y = 4
@@ -491,7 +551,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_construction_effort_i  }
+		prerequisite = { focus = caerus_construction_effort_i  }
 		
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -529,7 +589,7 @@ focus_tree = {
 
 	#Infrastructure Effort II
 	focus = {
-		id = generic_focus_infrastructure_effort_ii
+		id = caerus_infrastructure_effort_ii
 		icon = GFX_goal_generic_construct_civilian
 		x = 3
 		y = 4
@@ -537,7 +597,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_infrastructure_effort_i  }
+		prerequisite = { focus = caerus_infrastructure_effort_i  }
 		
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -599,7 +659,7 @@ focus_tree = {
 
 	#Excavation Effort
 	focus = {
-		id = generic_focus_excavation_effort
+		id = caerus_excavation_effort
 		icon = GFX_focus_generic_steel
 		x = 2
 		y = 5
@@ -607,7 +667,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_construction_effort_ii  focus = generic_focus_infrastructure_effort_ii  }
+		prerequisite = { focus = caerus_construction_effort_ii  focus = caerus_infrastructure_effort_ii  }
 		
 		completion_reward = {
 			add_tech_bonus = {
@@ -673,7 +733,7 @@ focus_tree = {
 
 	#Armament Efforts I
 	focus = {
-		id = generic_focus_armament_efforts_i
+		id = caerus_armament_efforts_i
 		icon = GFX_goal_generic_construct_mil_factory
 		x = 6
 		y = 1
@@ -681,7 +741,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_industrialization_efforts  }
+		prerequisite = { focus = caerus_industrialization_efforts  }
 
 		complete_tooltip = {
 			add_extra_state_shared_building_slots = 1
@@ -728,7 +788,7 @@ focus_tree = {
 
 	#Capital Arsenal
 	focus = {
-		id = generic_focus_capital_arsenal
+		id = caerus_capital_arsenal
 		icon = GFX_generic_focus_capital_arsenal-645975
 		x = 5
 		y = 2
@@ -736,7 +796,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_armament_efforts_i  }
+		prerequisite = { focus = caerus_armament_efforts_i  }
 		
 		complete_tooltip = {
 			add_extra_state_shared_building_slots = 1
@@ -783,7 +843,7 @@ focus_tree = {
 
 	#Defense of the Country
 	focus = {
-		id = generic_focus_defense_of_the_country
+		id = caerus_defense_of_the_country
 		icon = GFX_generic_focus_defense_of_the_country-646313
 		x = 7
 		y = 2
@@ -791,7 +851,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_armament_efforts_i  }
+		prerequisite = { focus = caerus_armament_efforts_i  }
 		completion_reward = {
 			random_owned_controlled_state = {
 				add_building_construction = {
@@ -874,7 +934,7 @@ focus_tree = {
 
 	#Greater Mechanical Project
 	focus = {
-		id = generic_focus_greater_mechanical_project
+		id = caerus_greater_mechanical_project
 		icon = GFX_generic_focus_greater_mechanical_project-645991
 		x = 6
 		y = 3
@@ -882,7 +942,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_capital_arsenal  focus = generic_focus_defense_of_the_country  }
+		prerequisite = { focus = caerus_capital_arsenal  focus = caerus_defense_of_the_country  }
 		completion_reward = {
 		add_tech_bonus = {
 				bonus = 0.5
@@ -904,7 +964,7 @@ focus_tree = {
 
 	#Armament Efforts II
 	focus = {
-		id = generic_focus_armament_efforts_ii
+		id = caerus_armament_efforts_ii
 		icon = GFX_goal_generic_construct_mil_factory
 		x = 5
 		y = 4
@@ -912,7 +972,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_greater_mechanical_project  }
+		prerequisite = { focus = caerus_greater_mechanical_project  }
 
 		complete_tooltip = {
 			add_extra_state_shared_building_slots = 1
@@ -959,7 +1019,7 @@ focus_tree = {
 
 	#Armament Efforts III
 	focus = {
-		id = generic_focus_armament_efforts_iii
+		id = caerus_armament_efforts_iii
 		icon = GFX_generic_focus_armament_efforts_iii-645975
 		x = 6
 		y = 5
@@ -967,7 +1027,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_armament_efforts_ii  } prerequisite = { focus = generic_focus_capital_defense  }
+		prerequisite = { focus = caerus_armament_efforts_ii  } prerequisite = { focus = caerus_capital_defense  }
 		
 		complete_tooltip = {
 			add_extra_state_shared_building_slots = 1
@@ -1014,7 +1074,7 @@ focus_tree = {
 
 	#Foreign Investment
 	focus = {
-		id = generic_focus_foreign_investment
+		id = caerus_foreign_investment
 		icon = GFX_focus_generic_treaty
 		x = 0
 		y = 5
@@ -1022,7 +1082,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_construction_effort_ii }
+		prerequisite = { focus = caerus_construction_effort_ii }
 		
 		completion_reward = {
 		add_ideas = foreign_investors
@@ -1031,7 +1091,7 @@ focus_tree = {
 
 	#Capital Defense
 	focus = {
-		id = generic_focus_capital_defense
+		id = caerus_capital_defense
 		icon = GFX_goal_generic_fortify_city
 		x = 7
 		y = 4
@@ -1039,7 +1099,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_greater_mechanical_project  }
+		prerequisite = { focus = caerus_greater_mechanical_project  }
 		
 		completion_reward = {
 			capital_scope = {
@@ -1058,7 +1118,7 @@ focus_tree = {
 
 	#Homeland Focus
 	focus = {
-		id = generic_focus_homeland_focus
+		id = caerus_homeland_focus
 		icon = GFX_focus_generic_industry_2
 		x = 9
 		y = 1
@@ -1066,8 +1126,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_industrialization_efforts  }
-		mutually_exclusive = { focus = generic_focus_naval_buildup  }
+		prerequisite = { focus = caerus_industrialization_efforts  }
+		mutually_exclusive = { focus = caerus_naval_buildup  }
 		
 		complete_tooltip = {
 			add_extra_state_shared_building_slots = 1
@@ -1144,7 +1204,7 @@ focus_tree = {
 
 	#Deep Mining
 	focus = {
-		id = generic_focus_deep_mining
+		id = caerus_deep_mining
 		icon = GFX_generic_focus_deep_mining-645959
 		x = 9
 		y = 2
@@ -1152,7 +1212,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_homeland_focus  }
+		prerequisite = { focus = caerus_homeland_focus  }
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1
@@ -1268,7 +1328,7 @@ focus_tree = {
 
 	#Supply Chain Development
 	focus = {
-		id = generic_focus_supply_chain_development
+		id = caerus_supply_chain_development
 		icon = GFX_goal_generic_consumer_goods
 		x = 4
 		y = 5
@@ -1276,7 +1336,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_infrastructure_effort_ii  } prerequisite = { focus = generic_focus_greater_mechanical_project  }
+		prerequisite = { focus = caerus_infrastructure_effort_ii  } prerequisite = { focus = caerus_greater_mechanical_project  }
 		completion_reward = {
 		add_ideas = better_supply_chain
 		add_fuel = 4000
@@ -1285,7 +1345,7 @@ focus_tree = {
 
 	#Extra Research Slot
 	focus = {
-		id = generic_focus_extra_research_slot
+		id = caerus_extra_research_slot
 		icon = GFX_focus_research
 		x = 1
 		y = 6
@@ -1293,7 +1353,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_construction_effort_ii  } prerequisite = { focus = generic_focus_armament_efforts_iii  }
+		prerequisite = { focus = caerus_construction_effort_ii  } prerequisite = { focus = caerus_armament_efforts_iii  }
 		
 		available_if_capitulated = yes
 		
@@ -1304,7 +1364,7 @@ focus_tree = {
 
 	#Secret Weapons
 	focus = {
-		id = generic_focus_secret_weapons
+		id = caerus_secret_weapons
 		icon = GFX_generic_focus_secret_weapons-422
 		x = 5
 		y = 6
@@ -1312,7 +1372,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_armament_efforts_iii  }
+		prerequisite = { focus = caerus_armament_efforts_iii  }
 		
 		available_if_capitulated = yes
 		
@@ -1338,7 +1398,7 @@ focus_tree = {
 
 	#Nuclear Effort
 	focus = {
-		id = generic_focus_nuclear_effort
+		id = caerus_nuclear_effort
 		icon = GFX_focus_wonderweapons
 		x = 4
 		y = 7
@@ -1346,7 +1406,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_extra_research_slot  } prerequisite = { focus = generic_focus_secret_weapons  }
+		prerequisite = { focus = caerus_extra_research_slot  } prerequisite = { focus = caerus_secret_weapons  }
 		
 		available_if_capitulated = yes
 		
@@ -1369,7 +1429,7 @@ focus_tree = {
 
 	#Extra Research Slot II
 	focus = {
-		id = generic_focus_extra_research_slot_ii
+		id = caerus_extra_research_slot_ii
 		icon = GFX_focus_research2
 		x = 2
 		y = 7
@@ -1377,7 +1437,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_extra_research_slot  } prerequisite = { focus = generic_focus_secret_weapons  }
+		prerequisite = { focus = caerus_extra_research_slot  } prerequisite = { focus = caerus_secret_weapons  }
 		
 		available_if_capitulated = yes
 		
@@ -1388,7 +1448,7 @@ focus_tree = {
 
 	#Sharing Technological Development
 	focus = {
-		id = generic_focus_sharing_technological_development
+		id = caerus_sharing_technological_development
 		icon = GFX_goal_generic_scientific_exchange
 		x = 40
 		y = 7
@@ -1396,7 +1456,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_standing_for_our_freedom  }
+		prerequisite = { focus = caerus_standing_for_our_freedom  }
 		available = {
 			has_war = yes
 			is_in_faction = yes
@@ -1446,7 +1506,7 @@ focus_tree = {
 
 	#Anti-Air
 	focus = {
-		id = generic_focus_antiair
+		id = caerus_antiair
 		icon = GFX_generic_focus_antiair-646319
 		x = 25
 		y = 4
@@ -1454,8 +1514,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_metropolitan_airfields  }
-		mutually_exclusive = { focus = generic_focus_airfield_expansion  }
+		prerequisite = { focus = caerus_metropolitan_airfields  }
+		mutually_exclusive = { focus = caerus_airfield_expansion  }
 		completion_reward = {
 			if = {
 				limit = {
@@ -1516,7 +1576,7 @@ focus_tree = {
 
 	#Airfield Expansion
 	focus = {
-		id = generic_focus_airfield_expansion
+		id = caerus_airfield_expansion
 		icon = GFX_generic_focus_airfield_expansion-262010
 		x = 23
 		y = 4
@@ -1524,8 +1584,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_metropolitan_airfields  }
-		mutually_exclusive = { focus = generic_focus_antiair  }
+		prerequisite = { focus = caerus_metropolitan_airfields  }
+		mutually_exclusive = { focus = caerus_antiair  }
 		completion_reward = {
 			if = {
 				limit = {
@@ -1586,7 +1646,7 @@ focus_tree = {
 
 	#Rebuild the Economy
 	focus = {
-		id = generic_focus_rebuild_the_economy
+		id = caerus_rebuild_the_economy
 		icon = GFX_goal_generic_position_armies
 		x = 10
 		y = 4
@@ -1609,7 +1669,7 @@ focus_tree = {
 
 	#Figher Effort
 	focus = {
-		id = generic_focus_figher_effort
+		id = caerus_figher_effort
 		icon = GFX_goal_generic_air_fighter
 		x = 20
 		y = 1
@@ -1617,8 +1677,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_aviation_efforts  }
-		mutually_exclusive = { focus = generic_focus_bomber_research  }
+		prerequisite = { focus = caerus_aviation_efforts  }
+		mutually_exclusive = { focus = caerus_bomber_research  }
 		completion_reward = {
 			add_tech_bonus = {
 				name = fighter_bonus
@@ -1632,7 +1692,7 @@ focus_tree = {
 
 	#Re-Centralize the Nation
 	focus = {
-		id = generic_focus_recentralize_the_nation
+		id = caerus_recentralize_the_nation
 		icon = GFX_focus_generic_self_management
 		x = 10
 		y = 5
@@ -1640,7 +1700,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = generic_focus_rebuild_the_economy  }
+		prerequisite = { focus = caerus_rebuild_the_economy  }
 		
 		completion_reward = {
 			swap_ideas = {
@@ -1652,7 +1712,7 @@ focus_tree = {
 
 	#Advandced Plane Research
 	focus = {
-		id = generic_focus_advandced_plane_research
+		id = caerus_advandced_plane_research
 		icon = GFX_generic_focus_advandced_plane_research-645908
 		x = 21
 		y = 2
@@ -1660,7 +1720,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = generic_focus_bomber_research  focus = generic_focus_figher_effort  }
+		prerequisite = { focus = caerus_bomber_research  focus = caerus_figher_effort  }
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1.0
@@ -1686,7 +1746,7 @@ focus_tree = {
 
 	#Naval Expansion
 	focus = {
-		id = generic_focus_naval_expansion
+		id = caerus_naval_expansion
 		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 14
 		y = 0
@@ -1796,7 +1856,7 @@ focus_tree = {
 
 	#Flexible Navy
 	focus = {
-		id = generic_focus_flexible_navy
+		id = caerus_flexible_navy
 		icon = GFX_generic_focus_flexible_navy-377
 		x = 17
 		y = 1
@@ -1804,8 +1864,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_naval_expansion  }
-		mutually_exclusive = { focus = generic_focus_large_navy  }
+		prerequisite = { focus = caerus_naval_expansion  }
+		mutually_exclusive = { focus = caerus_large_navy  }
 		
 		ai_will_do = {
 			factor = 1
@@ -1836,7 +1896,7 @@ focus_tree = {
 
 	#Naval Build-Up
 	focus = {
-		id = generic_focus_naval_buildup
+		id = caerus_naval_buildup
 		icon = GFX_goal_continuous_naval_production
 		x = 12
 		y = 1
@@ -1844,8 +1904,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_naval_expansion  }
-		mutually_exclusive = { focus = generic_focus_homeland_focus  }
+		prerequisite = { focus = caerus_naval_expansion  }
+		mutually_exclusive = { focus = caerus_homeland_focus  }
 		
 		completion_reward = {
 			if = {
@@ -1917,7 +1977,7 @@ focus_tree = {
 
 	#Large Navy
 	focus = {
-		id = generic_focus_large_navy
+		id = caerus_large_navy
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		x = 15
 		y = 1
@@ -1925,8 +1985,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_naval_expansion  }
-		mutually_exclusive = { focus = generic_focus_flexible_navy  }
+		prerequisite = { focus = caerus_naval_expansion  }
+		mutually_exclusive = { focus = caerus_flexible_navy  }
 		
 		ai_will_do = {
 			factor = 1
@@ -1953,7 +2013,7 @@ focus_tree = {
 
 	#Submarine Effort
 	focus = {
-		id = generic_focus_submarine_effort
+		id = caerus_submarine_effort
 		icon = GFX_goal_generic_navy_submarine
 		x = 17
 		y = 2
@@ -1961,7 +2021,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_flexible_navy  }
+		prerequisite = { focus = caerus_flexible_navy  }
 		
 		ai_will_do = {
 			factor = 1
@@ -1989,7 +2049,7 @@ focus_tree = {
 
 	#Home Ports
 	focus = {
-		id = generic_focus_home_ports
+		id = caerus_home_ports
 		icon = GFX_goal_generic_navy_cruiser
 		x = 13
 		y = 2
@@ -1997,8 +2057,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_naval_buildup  }
-		mutually_exclusive = { focus = generic_focus_buy_convoys  }
+		prerequisite = { focus = caerus_naval_buildup  }
+		mutually_exclusive = { focus = caerus_buy_convoys  }
 		
 		completion_reward = {
 			if = {
@@ -2070,7 +2130,7 @@ focus_tree = {
 
 	#Buy Convoys
 	focus = {
-		id = generic_focus_buy_convoys
+		id = caerus_buy_convoys
 		icon = GFX_goal_generic_intelligence_exchange
 		x = 11
 		y = 2
@@ -2078,8 +2138,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_naval_buildup  }
-		mutually_exclusive = { focus = generic_focus_home_ports  }
+		prerequisite = { focus = caerus_naval_buildup  }
+		mutually_exclusive = { focus = caerus_home_ports  }
 		
 		completion_reward = {
 			add_equipment_to_stockpile = {
@@ -2091,7 +2151,7 @@ focus_tree = {
 
 	#Improve the L-Class
 	focus = {
-		id = generic_focus_improve_the_lclass
+		id = caerus_improve_the_lclass
 		icon = GFX_focus_generic_cruiser2
 		x = 15
 		y = 2
@@ -2099,7 +2159,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_large_navy  }
+		prerequisite = { focus = caerus_large_navy  }
 		
 		ai_will_do = {
 			factor = 1
@@ -2128,7 +2188,7 @@ focus_tree = {
 
 	#High Sea Training Improvement
 	focus = {
-		id = generic_focus_high_sea_training_improvement
+		id = caerus_high_sea_training_improvement
 		icon = GFX_focus_generic_navy_battleship2
 		x = 16
 		y = 3
@@ -2136,7 +2196,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_submarine_effort  focus = generic_focus_improve_the_lclass  }
+		prerequisite = { focus = caerus_submarine_effort  focus = caerus_improve_the_lclass  }
 		completion_reward = {
 			navy_experience = 250
 			add_doctrine_cost_reduction = {
@@ -2150,7 +2210,7 @@ focus_tree = {
 
 	#Greater Naval Project: The Capital Ship
 	focus = {
-		id = generic_focus_greaternavalprojectthecapitalship
+		id = caerus_greaternavalprojectthecapitalship
 		icon = GFX_generic_focus_greaternavalprojectthecapitalship-404
 		x = 14
 		y = 3
@@ -2158,7 +2218,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_improve_the_lclass  } prerequisite = { focus = generic_focus_home_ports  }
+		prerequisite = { focus = caerus_improve_the_lclass  } prerequisite = { focus = caerus_home_ports  }
 		
 		ai_will_do = {
 			factor = 1
@@ -2189,7 +2249,7 @@ focus_tree = {
 
 	#Anti-Destroyer
 	focus = {
-		id = generic_focus_antidestroyer
+		id = caerus_antidestroyer
 		icon = GFX_generic_focus_antidestroyer-645958
 		x = 18
 		y = 3
@@ -2197,7 +2257,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_submarine_effort  }
+		prerequisite = { focus = caerus_submarine_effort  }
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 2
@@ -2209,7 +2269,7 @@ focus_tree = {
 
 	#Bomber Research
 	focus = {
-		id = generic_focus_bomber_research
+		id = caerus_bomber_research
 		icon = GFX_goal_generic_air_bomber
 		x = 22
 		y = 1
@@ -2217,7 +2277,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_aviation_efforts  }
+		prerequisite = { focus = caerus_aviation_efforts  }
 		completion_reward = {
 			add_tech_bonus = {
 				name = bomber_bonus
@@ -2231,7 +2291,7 @@ focus_tree = {
 
 	#NAV Project
 	focus = {
-		id = generic_focus_nav_project
+		id = caerus_nav_project
 		icon = GFX_goal_generic_navy_carrier
 		x = 20
 		y = 3
@@ -2239,7 +2299,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_figher_effort  } prerequisite = { focus = generic_focus_flexible_navy  }
+		prerequisite = { focus = caerus_figher_effort  } prerequisite = { focus = caerus_flexible_navy  }
 		completion_reward = {
 			add_tech_bonus = {
 				name = nav_bomber_bonus
@@ -2253,7 +2313,7 @@ focus_tree = {
 
 	#CAS Project
 	focus = {
-		id = generic_focus_cas_project
+		id = caerus_cas_project
 		icon = GFX_generic_focus_cas_project-645863
 		x = 22
 		y = 3
@@ -2261,7 +2321,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_bomber_research  } prerequisite = { focus = generic_focus_motorization_effort  }
+		prerequisite = { focus = caerus_bomber_research  } prerequisite = { focus = caerus_motorization_effort  }
 		completion_reward = {
 			add_tech_bonus = {
 				name = CAS_bonus
@@ -2275,7 +2335,7 @@ focus_tree = {
 
 	#Metropolitan Airfields
 	focus = {
-		id = generic_focus_metropolitan_airfields
+		id = caerus_metropolitan_airfields
 		icon = GFX_goal_generic_air_production
 		x = 24
 		y = 2
@@ -2283,7 +2343,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_aviation_efforts  }
+		prerequisite = { focus = caerus_aviation_efforts  }
 		completion_reward = {
 			if = {
 				limit = {
@@ -2352,7 +2412,7 @@ focus_tree = {
 
 	#Nationalist Rising
 	focus = {
-		id = generic_focus_nationalist_rising
+		id = caerus_nationalist_rising
 		icon = GFX_generic_focus_nationalist_rising-428
 		x = 47
 		y = 2
@@ -2360,8 +2420,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_collectivist_ethos  }
-		mutually_exclusive = { focus = generic_focus_socialist_reforms }
+		prerequisite = { focus = caerus_collectivist_ethos  }
+		mutually_exclusive = { focus = caerus_socialist_reforms }
 		completion_reward = {
 			add_timed_idea = {
 				idea = nationalism_generic
@@ -2380,7 +2440,7 @@ focus_tree = {
 
 	#Advandced Rocket Systems
 	focus = {
-		id = generic_focus_advandced_rocket_systems
+		id = caerus_advandced_rocket_systems
 		icon = GFX_focus_rocketry
 		x = 21
 		y = 4
@@ -2388,7 +2448,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_advandced_plane_research  } prerequisite = { focus = generic_focus_cas_project  focus = generic_focus_nav_project  }
+		prerequisite = { focus = caerus_advandced_plane_research  } prerequisite = { focus = caerus_cas_project  focus = caerus_nav_project  }
 		
 		completion_reward = {
 			add_tech_bonus = {
@@ -2411,7 +2471,7 @@ focus_tree = {
 
 	#State of the Countrys Army
 	focus = {
-		id = generic_focus_state_of_the_countrys_army
+		id = caerus_state_of_the_countrys_army
 		icon = GFX_focus_generic_commonwealth_build_infantry
 		x = 30
 		y = 0
@@ -2432,7 +2492,7 @@ focus_tree = {
 
 	#Modernize the Equipment
 	focus = {
-		id = generic_focus_modernize_the_equipment
+		id = caerus_modernize_the_equipment
 		icon = GFX_goal_generic_build_tank
 		x = 33
 		y = 1
@@ -2440,7 +2500,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_state_of_the_countrys_army  }
+		prerequisite = { focus = caerus_state_of_the_countrys_army  }
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
@@ -2458,7 +2518,7 @@ focus_tree = {
 
 	#Artillary Overhaul
 	focus = {
-		id = generic_focus_artillary_overhaul
+		id = caerus_artillary_overhaul
 		icon = GFX_goal_generic_army_artillery
 		x = 32
 		y = 3
@@ -2466,7 +2526,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_modernize_the_equipment  }
+		prerequisite = { focus = caerus_modernize_the_equipment  }
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
@@ -2483,7 +2543,7 @@ focus_tree = {
 
 	#Support Divisions
 	focus = {
-		id = generic_focus_support_divisions
+		id = caerus_support_divisions
 		icon = GFX_goal_generic_military_sphere
 		x = 34
 		y = 3
@@ -2491,8 +2551,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_modernize_the_equipment  }
-		mutually_exclusive = { focus = generic_focus_artillary_overhaul  }
+		prerequisite = { focus = caerus_modernize_the_equipment  }
+		mutually_exclusive = { focus = caerus_artillary_overhaul  }
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
@@ -2512,7 +2572,7 @@ focus_tree = {
 
 	#Support Equipment
 	focus = {
-		id = generic_focus_support_equipment
+		id = caerus_support_equipment
 		icon = GFX_goal_generic_army_artillery2
 		x = 33
 		y = 4
@@ -2520,7 +2580,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_support_divisions  focus = generic_focus_artillary_overhaul  }
+		prerequisite = { focus = caerus_support_divisions  focus = caerus_artillary_overhaul  }
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
@@ -2552,7 +2612,7 @@ focus_tree = {
 
 	#Motorization Effort
 	focus = {
-		id = generic_focus_motorization_effort
+		id = caerus_motorization_effort
 		icon = GFX_goal_generic_army_motorized
 		x = 27
 		y = 1
@@ -2560,7 +2620,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_state_of_the_countrys_army  }
+		prerequisite = { focus = caerus_state_of_the_countrys_army  }
 		completion_reward = {
 			add_tech_bonus = {
 				name = motorized_bonus
@@ -2572,7 +2632,7 @@ focus_tree = {
 
 	#Mechanized Army
 	focus = {
-		id = generic_focus_mechanized_army
+		id = caerus_mechanized_army
 		icon = GFX_generic_focus_mechanized_army-645991
 		x = 27
 		y = 2
@@ -2580,7 +2640,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_motorization_effort  }
+		prerequisite = { focus = caerus_motorization_effort  }
 		completion_reward = {
 			add_tech_bonus = {
 				name = motorized_bonus
@@ -2597,7 +2657,7 @@ focus_tree = {
 
 	#Doctrine Effort
 	focus = {
-		id = generic_focus_doctrine_effort
+		id = caerus_doctrine_effort
 		icon = GFX_goal_generic_army_doctrines
 		x = 30
 		y = 1
@@ -2605,7 +2665,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_state_of_the_countrys_army  }
+		prerequisite = { focus = caerus_state_of_the_countrys_army  }
 		completion_reward = {
 			army_experience = 25
 			add_doctrine_cost_reduction = {
@@ -2619,7 +2679,7 @@ focus_tree = {
 
 	#The Tank
 	focus = {
-		id = generic_focus_the_tank
+		id = caerus_the_tank
 		icon = GFX_focus_generic_tank_production
 		x = 27
 		y = 4
@@ -2627,7 +2687,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_mechanized_army  }
+		prerequisite = { focus = caerus_mechanized_army  }
 		completion_reward = {
 			add_tech_bonus = {
 				name = armor_bonus
@@ -2646,7 +2706,7 @@ focus_tree = {
 
 	#Focus on Infantry Equipment
 	focus = {
-		id = generic_focus_focus_on_infantry_equipment
+		id = caerus_focus_on_infantry_equipment
 		icon = GFX_generic_focus_focus_on_infantry_equipment-645755
 		x = 31
 		y = 2
@@ -2654,8 +2714,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_doctrine_effort  }
-		mutually_exclusive = { focus = generic_focus_fortification_focus  }
+		prerequisite = { focus = caerus_doctrine_effort  }
+		mutually_exclusive = { focus = caerus_fortification_focus  }
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
@@ -2676,7 +2736,7 @@ focus_tree = {
 
 	#Fortification Focus
 	focus = {
-		id = generic_focus_fortification_focus
+		id = caerus_fortification_focus
 		icon = GFX_goal_generic_fortify_city
 		x = 29
 		y = 2
@@ -2684,8 +2744,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_doctrine_effort  }
-		mutually_exclusive = { focus = generic_focus_focus_on_infantry_equipment  }
+		prerequisite = { focus = caerus_doctrine_effort  }
+		mutually_exclusive = { focus = caerus_focus_on_infantry_equipment  }
 		completion_reward = {
 			every_core_state = {
 					add_building_construction = {
@@ -2703,7 +2763,7 @@ focus_tree = {
 
 	#Doctrine Expertise
 	focus = {
-		id = generic_focus_doctrine_expertise
+		id = caerus_doctrine_expertise
 		icon = GFX_goal_generic_air_doctrine
 		x = 30
 		y = 3
@@ -2711,7 +2771,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_doctrine_effort  }
+		prerequisite = { focus = caerus_doctrine_effort  }
 		completion_reward = {
 			army_experience = 60
 			add_doctrine_cost_reduction = {
@@ -2725,7 +2785,7 @@ focus_tree = {
 
 	#Project Wolf Pack: Special Forces
 	focus = {
-		id = generic_focus_projectwolfpackspecialforces
+		id = caerus_projectwolfpackspecialforces
 		icon = GFX_focus_eng_special_air_service
 		x = 30
 		y = 5
@@ -2733,7 +2793,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_support_equipment  } prerequisite = { focus = generic_focus_the_tank  } prerequisite = { focus = generic_focus_doctrine_expertise  }
+		prerequisite = { focus = caerus_support_equipment  } prerequisite = { focus = caerus_the_tank  } prerequisite = { focus = caerus_doctrine_expertise  }
 		completion_reward = {
 			add_ideas = special_forces
 			add_tech_bonus = {
@@ -2752,7 +2812,7 @@ focus_tree = {
 
 	#Enter the International Scene
 	focus = {
-		id = generic_focus_enter_the_international_scene
+		id = caerus_enter_the_international_scene
 		icon = GFX_goal_generic_demand_territory
 		x = 45
 		y = 0
@@ -2768,7 +2828,7 @@ focus_tree = {
 
 	#Egalitarian Prevail
 	focus = {
-		id = generic_focus_egalitarian_prevail
+		id = caerus_egalitarian_prevail
 		icon = GFX_generic_focus_egalitarian_prevail-645471
 		x = 40
 		y = 1
@@ -2776,8 +2836,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_enter_the_international_scene  }
-		mutually_exclusive = { focus = generic_focus_collectivist_ethos }
+		prerequisite = { focus = caerus_enter_the_international_scene  }
+		mutually_exclusive = { focus = caerus_collectivist_ethos }
 
 		completion_reward = {
 			add_ideas = egalitarian_prevail_focus
@@ -2806,7 +2866,7 @@ focus_tree = {
 
 	#Statism
 	focus = {
-		id = generic_focus_statism
+		id = caerus_statism
 		icon = GFX_goal_generic_major_alliance
 		x = 37
 		y = 2
@@ -2814,8 +2874,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_egalitarian_prevail  }
-		mutually_exclusive = { focus = generic_focus_centralize_the_government  } mutually_exclusive = { focus = generic_focus_liberalism  } mutually_exclusive = { focus = generic_focus_a_brighter_future  }
+		prerequisite = { focus = caerus_egalitarian_prevail  }
+		mutually_exclusive = { focus = caerus_centralize_the_government  } mutually_exclusive = { focus = caerus_liberalism  } mutually_exclusive = { focus = caerus_a_brighter_future  }
 		completion_reward = {
 			add_popularity = {
 				ideology = conservatist
@@ -2833,7 +2893,7 @@ focus_tree = {
 
 	#Centralize the Government
 	focus = {
-		id = generic_focus_centralize_the_government
+		id = caerus_centralize_the_government
 		icon = GFX_generic_focus_centralize_the_government-645772
 		x = 39
 		y = 2
@@ -2841,8 +2901,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_egalitarian_prevail  }
-		mutually_exclusive = { focus = generic_focus_statism  } mutually_exclusive = { focus = generic_focus_liberalism  } mutually_exclusive = { focus = generic_focus_a_brighter_future  }
+		prerequisite = { focus = caerus_egalitarian_prevail  }
+		mutually_exclusive = { focus = caerus_statism  } mutually_exclusive = { focus = caerus_liberalism  } mutually_exclusive = { focus = caerus_a_brighter_future  }
 		completion_reward = {
 			add_popularity = {
 				ideology = centrist
@@ -2859,7 +2919,7 @@ focus_tree = {
 
 	#Traditionalism
 	focus = {
-		id = generic_focus_traditionalism
+		id = caerus_traditionalism
 		icon = GFX_focus_generic_diplomatic_treaty
 		x = 36
 		y = 3
@@ -2867,7 +2927,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_statism  }
+		prerequisite = { focus = caerus_statism  }
 		completion_reward = {
 			swap_ideas = {
 				add_idea = traditionalism_generic
@@ -2879,7 +2939,7 @@ focus_tree = {
 
 	#Liberalism
 	focus = {
-		id = generic_focus_liberalism
+		id = caerus_liberalism
 		icon = GFX_goal_generic_intelligence_exchange
 		x = 41
 		y = 2
@@ -2887,8 +2947,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_egalitarian_prevail  }
-		mutually_exclusive = { focus = generic_focus_statism  } mutually_exclusive = { focus = generic_focus_centralize_the_government  } mutually_exclusive = { focus = generic_focus_a_brighter_future  }
+		prerequisite = { focus = caerus_egalitarian_prevail  }
+		mutually_exclusive = { focus = caerus_statism  } mutually_exclusive = { focus = caerus_centralize_the_government  } mutually_exclusive = { focus = caerus_a_brighter_future  }
 		completion_reward = {
 			add_popularity = {
 				ideology = liberalist
@@ -2909,7 +2969,7 @@ focus_tree = {
 
 	#Interventionism
 	focus = {
-		id = generic_focus_interventionism
+		id = caerus_interventionism
 		icon = GFX_goal_generic_military_deal
 		x = 42
 		y = 3
@@ -2917,8 +2977,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_a_brighter_future  focus = generic_focus_statism  focus = generic_focus_liberalism  focus = generic_focus_centralize_the_government  }
-		mutually_exclusive = { focus = generic_focus_focus_on_neutrality  }
+		prerequisite = { focus = caerus_a_brighter_future  focus = caerus_statism  focus = caerus_liberalism  focus = caerus_centralize_the_government  }
+		mutually_exclusive = { focus = caerus_focus_on_neutrality  }
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -2939,7 +2999,7 @@ focus_tree = {
 
 	#Reform the Country Administration
 	focus = {
-		id = generic_focus_reform_the_country_administration
+		id = caerus_reform_the_country_administration
 		icon = GFX_generic_focus_reform_the_country_administration-645909
 		x = 44
 		y = 3
@@ -2947,7 +3007,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_a_brighter_future  }
+		prerequisite = { focus = caerus_a_brighter_future  }
 		completion_reward = {
 			add_ideas = reformist_generic
 		}
@@ -2955,7 +3015,7 @@ focus_tree = {
 
 	#A Brighter Future
 	focus = {
-		id = generic_focus_a_brighter_future
+		id = caerus_a_brighter_future
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		x = 43
 		y = 2
@@ -2963,8 +3023,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_egalitarian_prevail  }
-		mutually_exclusive = { focus = generic_focus_statism  } mutually_exclusive = { focus = generic_focus_centralize_the_government  } mutually_exclusive = { focus = generic_focus_liberalism  }
+		prerequisite = { focus = caerus_egalitarian_prevail  }
+		mutually_exclusive = { focus = caerus_statism  } mutually_exclusive = { focus = caerus_centralize_the_government  } mutually_exclusive = { focus = caerus_liberalism  }
 		completion_reward = {
 			add_popularity = {
 				ideology = progressivist
@@ -2981,7 +3041,7 @@ focus_tree = {
 
 	#Focus on Neutrality
 	focus = {
-		id = generic_focus_focus_on_neutrality
+		id = caerus_focus_on_neutrality
 		icon = GFX_goal_generic_neutrality_focus
 		x = 38
 		y = 3
@@ -2989,8 +3049,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_a_brighter_future  focus = generic_focus_liberalism  focus = generic_focus_statism  focus = generic_focus_centralize_the_government  }
-		mutually_exclusive = { focus = generic_focus_interventionism  }
+		prerequisite = { focus = caerus_a_brighter_future  focus = caerus_liberalism  focus = caerus_statism  focus = caerus_centralize_the_government  }
+		mutually_exclusive = { focus = caerus_interventionism  }
 		
 		ai_will_do = {
 			factor = 1
@@ -3017,7 +3077,7 @@ focus_tree = {
 
 	#Constiutional Guarantees
 	focus = {
-		id = generic_focus_constiutional_guarantees
+		id = caerus_constiutional_guarantees
 		icon = GFX_focus_generic_treaty
 		x = 40
 		y = 4
@@ -3025,7 +3085,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_a_brighter_future  focus = generic_focus_statism  focus = generic_focus_liberalism  focus = generic_focus_centralize_the_government  }
+		prerequisite = { focus = caerus_a_brighter_future  focus = caerus_statism  focus = caerus_liberalism  focus = caerus_centralize_the_government  }
 		completion_reward = {
 			add_ideas = written_constitution
 		}
@@ -3033,7 +3093,7 @@ focus_tree = {
 
 	#Deterrence
 	focus = {
-		id = generic_focus_deterrence
+		id = caerus_deterrence
 		icon = GFX_goal_generic_small_arms
 		x = 38
 		y = 4
@@ -3041,7 +3101,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_focus_on_neutrality  }
+		prerequisite = { focus = caerus_focus_on_neutrality  }
 		completion_reward = {
 			add_ideas = deterrence
 		}
@@ -3049,7 +3109,7 @@ focus_tree = {
 
 	#Volunteer Corps
 	focus = {
-		id = generic_focus_volunteer_corps
+		id = caerus_volunteer_corps
 		icon = GFX_focus_generic_strike_at_democracy1
 		x = 42
 		y = 4
@@ -3057,7 +3117,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_interventionism  }
+		prerequisite = { focus = caerus_interventionism  }
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -3067,7 +3127,7 @@ focus_tree = {
 
 	#Standing for our Freedom
 	focus = {
-		id = generic_focus_standing_for_our_freedom
+		id = caerus_standing_for_our_freedom
 		icon = GFX_focus_generic_little_entente
 		x = 40
 		y = 5
@@ -3075,7 +3135,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_volunteer_corps  focus = generic_focus_deterrence  }
+		prerequisite = { focus = caerus_volunteer_corps  focus = caerus_deterrence  }
 		available = { 
 			OR = { 
 				threat > 0.75 
@@ -3122,9 +3182,9 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = { has_government = liberalist }
+				limit = { has_government = social_liberalist }
 				add_popularity = {
-					ideology = liberalist
+					ideology = social_liberalist
 					popularity = 0.2
 				}
 			}
@@ -3133,7 +3193,7 @@ focus_tree = {
 
 	#Radicalization of the Nationalists
 	focus = {
-		id = generic_focus_radicalization_of_the_nationalists
+		id = caerus_radicalization_of_the_nationalists
 		icon = GFX_generic_focus_radicalization_of_the_nationalists-645923
 		x = 46
 		y = 3
@@ -3141,8 +3201,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_nationalist_rising  }
-		mutually_exclusive = { focus = generic_focus_imperialist_nation  }
+		prerequisite = { focus = caerus_nationalist_rising  }
+		mutually_exclusive = { focus = caerus_imperialist_nation  }
 		completion_reward = {
 			add_popularity = {
 				ideology = imperialist
@@ -3163,7 +3223,7 @@ focus_tree = {
 
 	#Imperialist Nation
 	focus = {
-		id = generic_focus_imperialist_nation
+		id = caerus_imperialist_nation
 		icon = GFX_goal_generic_political_pressure
 		x = 48
 		y = 3
@@ -3171,8 +3231,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_nationalist_rising  }
-		mutually_exclusive = { focus = generic_focus_radicalization_of_the_nationalists  }
+		prerequisite = { focus = caerus_nationalist_rising  }
+		mutually_exclusive = { focus = caerus_radicalization_of_the_nationalists  }
 		completion_reward = {
 			add_popularity = {
 				ideology = imperialist
@@ -3193,7 +3253,7 @@ focus_tree = {
 
 	#Militarization
 	focus = {
-		id = generic_focus_militarization
+		id = caerus_militarization
 		icon = GFX_generic_focus_militarization-262024
 		x = 46
 		y = 4
@@ -3201,7 +3261,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_radicalization_of_the_nationalists  }
+		prerequisite = { focus = caerus_radicalization_of_the_nationalists  }
 		
 		completion_reward = {
 		add_ideas = militarism
@@ -3210,7 +3270,7 @@ focus_tree = {
 
 	#Military Dictatorship
 	focus = {
-		id = generic_focus_military_dictatorship
+		id = caerus_military_dictatorship
 		icon = GFX_generic_focus_military_dictatorship-645750
 		x = 45
 		y = 5
@@ -3218,7 +3278,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_militarization  }
+		prerequisite = { focus = caerus_militarization  }
 		completion_reward = {
 			add_stability = +0.05
 			add_ideas = the_dictator
@@ -3227,7 +3287,7 @@ focus_tree = {
 
 	#Get Ready
 	focus = {
-		id = generic_focus_get_ready
+		id = caerus_get_ready
 		icon = GFX_goal_generic_military_sphere
 		x = 48
 		y = 4
@@ -3235,7 +3295,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_imperialist_nation  }
+		prerequisite = { focus = caerus_imperialist_nation  }
 		completion_reward = {
 			add_ideas = army_training_generic
 		}
@@ -3243,7 +3303,7 @@ focus_tree = {
 
 	#Imperialist Gains
 	focus = {
-		id = generic_focus_imperialist_gains
+		id = caerus_imperialist_gains
 		icon = GFX_focus_jap_strike_south
 		x = 49
 		y = 5
@@ -3251,7 +3311,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_get_ready  }
+		prerequisite = { focus = caerus_get_ready  }
 		completion_reward = {
 			random_neighbor_country = {
 				limit = {  
@@ -3279,7 +3339,7 @@ focus_tree = {
 
 	#Military Youth
 	focus = {
-		id = generic_focus_military_youth
+		id = caerus_military_youth
 		icon = GFX_focus_generic_manpower
 		x = 47
 		y = 6
@@ -3287,7 +3347,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_imperialist_gains  focus = generic_focus_military_dictatorship  }
+		prerequisite = { focus = caerus_imperialist_gains  focus = caerus_military_dictatorship  }
 		completion_reward = {
 			add_ideas = military_youth_focus
 		}
@@ -3295,7 +3355,7 @@ focus_tree = {
 
 	#Pro-Paramilitarism
 	focus = {
-		id = generic_focus_proparamilitarism
+		id = caerus_proparamilitarism
 		icon = GFX_goal_generic_military_deal
 		x = 47
 		y = 7
@@ -3303,7 +3363,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_military_youth  }
+		prerequisite = { focus = caerus_military_youth  }
 		completion_reward = {
 			add_ideas = paramilitarism_focus
 		}
@@ -3311,7 +3371,7 @@ focus_tree = {
 
 	#Socialist Reforms
 	focus = {
-		id = generic_focus_socialist_reforms
+		id = caerus_socialist_reforms
 		icon = GFX_focus_prc_agrarian_socialism
 		x = 53
 		y = 2
@@ -3319,8 +3379,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_collectivist_ethos  }
-		mutually_exclusive = { focus = generic_focus_nationalist_rising }
+		prerequisite = { focus = caerus_collectivist_ethos  }
+		mutually_exclusive = { focus = caerus_nationalist_rising }
 		completion_reward = {
 			add_ideas = socialist_reforms
 			add_popularity = {
@@ -3340,7 +3400,7 @@ focus_tree = {
 
 	#Rise of the Xeroists
 	focus = {
-		id = generic_focus_rise_of_the_xeroists
+		id = caerus_rise_of_the_xeroists
 		icon = GFX_goal_generic_forceful_treaty
 		x = 51
 		y = 3
@@ -3348,8 +3408,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_socialist_reforms  }
-		mutually_exclusive = { focus = generic_focus_radicalization_of_the_socialists  } mutually_exclusive = { focus = generic_focus_revision_our_nation  }
+		prerequisite = { focus = caerus_socialist_reforms  }
+		mutually_exclusive = { focus = caerus_radicalization_of_the_socialists  } mutually_exclusive = { focus = caerus_revision_our_nation  }
 		completion_reward = {
 		add_popularity = {
 				ideology = anarchist #same here
@@ -3370,7 +3430,7 @@ focus_tree = {
 
 	#Radicalization of the Socialists
 	focus = {
-		id = generic_focus_radicalization_of_the_socialists
+		id = caerus_radicalization_of_the_socialists
 		icon = GFX_focus_generic_soviet_politics
 		x = 53
 		y = 3
@@ -3378,8 +3438,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_socialist_reforms  }
-		mutually_exclusive = { focus = generic_focus_rise_of_the_xeroists  } mutually_exclusive = { focus = generic_focus_revision_our_nation  }
+		prerequisite = { focus = caerus_socialist_reforms  }
+		mutually_exclusive = { focus = caerus_rise_of_the_xeroists  } mutually_exclusive = { focus = caerus_revision_our_nation  }
 		completion_reward = {
 			add_popularity = {
 				ideology = revisionist
@@ -3404,7 +3464,7 @@ focus_tree = {
 
 	#Revision our Nation
 	focus = {
-		id = generic_focus_revision_our_nation
+		id = caerus_revision_our_nation
 		icon = GFX_goal_generic_war_with_comintern
 		x = 55
 		y = 3
@@ -3412,8 +3472,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_socialist_reforms  }
-		mutually_exclusive = { focus = generic_focus_rise_of_the_xeroists  } mutually_exclusive = { focus = generic_focus_radicalization_of_the_socialists  }
+		prerequisite = { focus = caerus_socialist_reforms  }
+		mutually_exclusive = { focus = caerus_rise_of_the_xeroists  } mutually_exclusive = { focus = caerus_radicalization_of_the_socialists  }
 		completion_reward = {
 		add_popularity = {
 				ideology = anarchist #also here
@@ -3434,7 +3494,7 @@ focus_tree = {
 
 	#Give Power to Trade Unions
 	focus = {
-		id = generic_focus_give_power_to_trade_unions
+		id = caerus_give_power_to_trade_unions
 		icon = GFX_generic_focus_give_power_to_trade_unions-645906
 		x = 52
 		y = 4
@@ -3442,7 +3502,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = generic_focus_rise_of_the_xeroists  focus = generic_focus_radicalization_of_the_socialists  focus = generic_focus_revision_our_nation  }
+		prerequisite = { focus = caerus_rise_of_the_xeroists  focus = caerus_radicalization_of_the_socialists  focus = caerus_revision_our_nation  }
 		completion_reward = {
 			add_ideas = collectivization
 		}
@@ -3450,7 +3510,7 @@ focus_tree = {
 
 	#Socialists Correctness
 	focus = {
-		id = generic_focus_socialists_correctness
+		id = caerus_socialists_correctness
 		icon = GFX_goal_generic_dangerous_deal
 		x = 54
 		y = 4
@@ -3458,7 +3518,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_rise_of_the_xeroists  focus = generic_focus_radicalization_of_the_socialists  focus = generic_focus_revision_our_nation  }
+		prerequisite = { focus = caerus_rise_of_the_xeroists  focus = caerus_radicalization_of_the_socialists  focus = caerus_revision_our_nation  }
 		completion_reward = {
 			if = {
 				limit = { has_idea = neutrality_idea }
@@ -3471,7 +3531,7 @@ focus_tree = {
 
 	#Social Propaganda Stations
 	focus = {
-		id = generic_focus_social_propaganda_stations
+		id = caerus_social_propaganda_stations
 		icon = GFX_goal_generic_propaganda
 		x = 53
 		y = 5
@@ -3479,7 +3539,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_socialists_correctness  } prerequisite = { focus = generic_focus_give_power_to_trade_unions  }
+		prerequisite = { focus = caerus_socialists_correctness  } prerequisite = { focus = caerus_give_power_to_trade_unions  }
 		completion_reward = {
 			add_ideas = indoctrination_focus
 			add_political_power = 150
@@ -3488,7 +3548,7 @@ focus_tree = {
 
 	#Social Patriotism
 	focus = {
-		id = generic_focus_social_patriotism
+		id = caerus_social_patriotism
 		icon = GFX_generic_focus_social_patriotism-262089
 		x = 52
 		y = 6
@@ -3496,8 +3556,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_social_propaganda_stations  }
-		mutually_exclusive = { focus = generic_focus_millitant_pacifism  }
+		prerequisite = { focus = caerus_social_propaganda_stations  }
+		mutually_exclusive = { focus = caerus_millitant_pacifism  }
 		completion_reward = {
 			if = {
 				limit = { has_idea = neutrality_idea }
@@ -3511,7 +3571,7 @@ focus_tree = {
 
 	#Millitant Pacifism
 	focus = {
-		id = generic_focus_millitant_pacifism
+		id = caerus_millitant_pacifism
 		icon = GFX_focus_spr_masters_of_our_own_fate
 		x = 54
 		y = 6
@@ -3519,8 +3579,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_social_propaganda_stations  }
-		mutually_exclusive = { focus = generic_focus_social_patriotism  }
+		prerequisite = { focus = caerus_social_propaganda_stations  }
+		mutually_exclusive = { focus = caerus_social_patriotism  }
 		completion_reward = {
 			add_ideas = guards_of_the_homeland
 		}
@@ -3528,7 +3588,7 @@ focus_tree = {
 
 	#Political Military
 	focus = {
-		id = generic_focus_political_military
+		id = caerus_political_military
 		icon = GFX_generic_focus_political_military-341
 		x = 53
 		y = 7
@@ -3536,7 +3596,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_millitant_pacifism  focus = generic_focus_social_patriotism  }
+		prerequisite = { focus = caerus_millitant_pacifism  focus = caerus_social_patriotism  }
 		completion_reward = {
 			add_ideas = political_commissars_focus
 			if = {
@@ -3580,7 +3640,7 @@ focus_tree = {
 
 	#Fanaticism
 	focus = {
-		id = generic_focus_fanaticism
+		id = caerus_fanaticism
 		icon = GFX_generic_focus_fanaticism-422
 		x = 50
 		y = 8
@@ -3588,7 +3648,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = generic_focus_political_military  focus = generic_focus_proparamilitarism  }
+		prerequisite = { focus = caerus_political_military  focus = caerus_proparamilitarism  }
 		completion_reward = {
 			add_ideas = ideological_fanaticism_focus
 			set_rule = {
@@ -3603,7 +3663,7 @@ focus_tree = {
 
 	#Like-Minded Technology
 	focus = {
-		id = generic_focus_likeminded_technology
+		id = caerus_likeminded_technology
 		icon = GFX_goal_generic_scientific_exchange
 		x = 50
 		y = 9
@@ -3611,7 +3671,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = generic_focus_fanaticism  }
+		prerequisite = { focus = caerus_fanaticism  }
 		available = {
 			has_war = yes
 			is_in_faction = yes
@@ -3661,7 +3721,7 @@ focus_tree = {
 
 	#Claim on Neighbours
 	focus = {
-		id = generic_focus_claim_on_neighbours
+		id = caerus_claim_on_neighbours
 		icon = GFX_goal_generic_more_territorial_claims
 		x = 47
 		y = 5
@@ -3693,7 +3753,559 @@ focus_tree = {
 			}
 			}
 		}
-		prerequisite = { focus = generic_focus_get_ready  focus = generic_focus_militarization  }
+		prerequisite = { focus = caerus_get_ready  focus = caerus_militarization  }
+	}
+	### Caerus ###
+	
+	#Take Position
+	focus = {
+		id = caerus_take_position
+		icon = GFX_goal_generic_propaganda
+		x = 21
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 100 }
+		completion_reward = {
+			add_political_power = 100
+			add_war_support = 0.05
+		}
+	}
+
+	#Neutral Stance
+	focus = {
+		id = caerus_neutral_stance
+		icon = GFX_goal_generic_neutrality_focus
+		x = 21
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_take_position  }
+		mutually_exclusive = { focus = caerus_approach_bardonia  } mutually_exclusive = { focus = caerus_side_with_aethos  }
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+	#Approach Bardonia
+	focus = {
+		id = caerus_approach_bardonia
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 16
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_take_position  }
+		mutually_exclusive = { focus = caerus_neutral_stance  } mutually_exclusive = { focus = caerus_side_with_aethos  }
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			if = {
+				limit = { has_idea = neutrality_idea }
+				remove_ideas = neutrality_idea
+			}
+			add_opinion_modifier = {
+				target = BAR
+				modifier = offered_support
+			}
+			add_opinion_modifier = {
+				target = COM
+				modifier = offered_support
+			}
+			add_opinion_modifier = {
+				target = AET
+				modifier = pact_against_us
+			}
+		}
+	}
+
+	#Side with Aethos
+	focus = {
+		id = caerus_side_with_aethos
+		icon = GFX_focus_generic_combined_arms
+		x = 26
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_take_position  }
+		mutually_exclusive = { focus = caerus_neutral_stance  } mutually_exclusive = { focus = caerus_approach_bardonia  }
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			if = {
+				limit = { has_idea = neutrality_idea }
+				remove_ideas = neutrality_idea
+			}
+			add_opinion_modifier = {
+				target = AET
+				modifier = offered_support
+			}
+			add_opinion_modifier = {
+				target = BAR
+				modifier = pact_against_us
+			}
+			add_opinion_modifier = {
+				target = COM
+				modifier = pact_against_us
+			}
+		}
+	}
+
+	#Guarntee our Independence
+	focus = {
+		id = caerus_guarntee_our_independence
+		icon = GFX_focus_generic_support_the_left_right
+		x = 20
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_neutral_stance  }
+		completion_reward = {
+			add_political_power = 50
+			add_war_support = 0.10
+		}
+	}
+
+	#Defense of the Homeland
+	focus = {
+		id = caerus_defense_of_the_homeland
+		icon = GFX_goal_generic_military_sphere
+		x = 22
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_neutral_stance  }
+		completion_reward = {
+			add_ideas = fortification
+		}
+	}
+
+	#Arms for the Civilians
+	focus = {
+		id = caerus_arms_for_the_civilians
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 21
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_guarntee_our_independence  } prerequisite = { focus = caerus_defense_of_the_homeland  }
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Home Defense
+	focus = {
+		id = caerus_home_defense
+		icon = GFX_focus_generic_home_defense
+		x = 23
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_arms_for_the_civilians  }
+		mutually_exclusive = { focus = caerus_democratic_fort  }
+		completion_reward = {
+			add_ideas = home_defense
+		}
+	}
+
+	#Prepare for the Worst
+	focus = {
+		id = caerus_prepare_for_the_worst
+		icon = GFX_generic_caerus_prepare_for_the_worst-645999
+		x = 19
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_arms_for_the_civilians  }
+		mutually_exclusive = { focus = caerus_democratic_fort  }
+		completion_reward = {
+			army_experience = 30
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.50
+				uses = 1
+				category = land_doctrine
+			}
+			add_tech_bonus = {
+				name = infantry_bonus
+				bonus = 1.0
+				uses = 2
+				category = infantry_weapons
+			}
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment
+				amount = 500
+			}
+		}
+	}
+
+	#Bardonian Industry
+	focus = {
+		id = caerus_bardonian_industry
+		icon = GFX_goal_generic_air_production
+		x = 17
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_approach_bardonia  }
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 1 }
+		}
+	}
+
+	#Join the Aethos Forces
+	focus = {
+		id = caerus_join_the_aethos_forces
+		icon = GFX_goal_generic_alliance
+		x = 26
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = caerus_aethos_advisors  }
+		completion_reward = {
+			add_opinion_modifier = { 
+				target = AET 
+				modifier = large_increase
+			}
+				AET = {
+					add_to_faction = ROOT
+				ROOT = {
+					add_ai_strategy = {
+					type = alliance
+					id = "AET"
+					value = 200
+					}
+				}
+				}
+		}
+	}
+
+	#Aethos Advisors
+	focus = {
+		id = caerus_aethos_advisors
+		icon = GFX_focus_generic_military_academy
+		x = 26
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = caerus_industry_of_aethos  } prerequisite = { focus = caerus_arms_of_aethos  }
+		completion_reward = {
+			add_ideas = aethos_advisors
+		}
+	}
+
+	#Bardonian Millitary Aid
+	focus = {
+		id = caerus_bardonian_millitary_aid
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 15
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = caerus_approach_bardonia  }
+		completion_reward = {
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment
+				amount = 1500
+			}
+		}
+	}
+
+	#Bardonian Strategic Maneuvers
+	focus = {
+		id = caerus_bardonian_strategic_maneuvers
+		icon = GFX_generic_caerus_bardonian_strategic_maneuvers-645940
+		x = 16
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = caerus_bardonian_industry  } prerequisite = { focus = caerus_bardonian_millitary_aid  }
+		completion_reward = {
+			add_ideas = bardonia_advisors
+		}
+	}
+
+	#Join the Bardonian Alliance
+	focus = {
+		id = caerus_join_the_bardonian_alliance
+		icon = GFX_goal_generic_alliance
+		x = 16
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = caerus_bardonian_strategic_maneuvers  }
+		completion_reward = {
+			add_opinion_modifier = { 
+				target = BAR 
+				modifier = large_increase
+			}
+				BAR = {
+					add_to_faction = ROOT
+				ROOT = {
+					add_ai_strategy = {
+					type = alliance
+					id = "BAR"
+					value = 200
+					}
+				}
+				}
+		}
+	}
+
+	#Industry of Aethos
+	focus = {
+		id = caerus_industry_of_aethos
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 25
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_side_with_aethos  }
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 1 }
+		}
+	}
+
+	#Arms of Aethos
+	focus = {
+		id = caerus_arms_of_aethos
+		icon = GFX_focus_generic_license_production
+		x = 27
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = caerus_side_with_aethos  }
+		completion_reward = {
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment
+				amount = 1500
+			}
+		}
+	}
+
+	#Democratic Fort
+	focus = {
+		id = caerus_democratic_fort
+		icon = GFX_focus_generic_coastal_fort
+		x = 21
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = { 
+			OR = { 
+				threat > 0.20 
+				has_defensive_war = yes 
+			}
+			OR = {
+				has_government = centrist
+				has_government = conservatist
+				has_government = progressivist
+				has_government = libertarianist
+				has_government = liberalist
+			}
+		}
+		prerequisite = { focus = caerus_arms_for_the_civilians  }
+		mutually_exclusive = { focus = caerus_home_defense  } mutually_exclusive = { focus = caerus_prepare_for_the_worst  }
+		completion_reward = {
+				add_ideas = fort_of_democracy
+			}
+			if = {
+				limit = { has_government = centrist }
+				add_popularity = {
+					ideology = centrist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = conservatist }
+				add_popularity = {
+					ideology = conservatist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = progressivist }
+				add_popularity = {
+					ideology = progressivist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = libertarianist }
+				add_popularity = {
+					ideology = libertarianist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = liberalist }
+				add_popularity = {
+					ideology = liberalist
+					popularity = 0.2
+				}
+			}
+			hidden_effect = {
+				if = {
+					limit = { NOT = { has_idea = neutrality_idea } }
+					set_rule = { can_create_factions = yes }
+				}
+			}
+	}
+
+	#Impending Doom Approaches
+	focus = {
+		id = caerus_impending_doom_approaches
+		icon = GFX_focus_generic_manpower
+		x = 21
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		available = { 
+			OR = { 
+				threat > 0.75 
+				has_war = yes 
+			}
+		}
+		prerequisite = { focus = caerus_democratic_fort  focus = caerus_prepare_for_the_worst  focus = caerus_home_defense  focus = caerus_join_the_bardonian_alliance  focus = caerus_join_the_aethos_forces  }
+		completion_reward = {
+			add_ideas = civil_defense
+		}
+	}
+
+	#Bardonian Support
+	focus = {
+		id = caerus_bardonian_support
+		icon = GFX_focus_generic_little_entente
+		x = 17
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = caerus_join_the_bardonian_alliance  }
+		completion_reward = {
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment
+				amount = 2500
+			}
+		}
+	}
+
+
+	#Aethos Aid
+	focus = {
+		id = caerus_aethos_aid
+		icon = GFX_generic_caerus_aethos_aid-645934
+		x = 25
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = caerus_join_the_aethos_forces  }
+		completion_reward = {
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment
+				amount = 500
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 
 }
