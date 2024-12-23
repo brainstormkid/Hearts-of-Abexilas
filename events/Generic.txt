@@ -29,17 +29,8 @@ country_event = {
 		trigger = {
 			has_government = FROM
 		}
-		if = {
-			limit = {
-				FROM = {
-					tag = ENG
-					has_completed_focus = uk_china_focus
-				}
-				tag = event_target:WTT_current_china_leader
-			}
-			effect_tooltip = {
-				add_offsite_building = { type = arms_factory level = 2 }
-			}
+		effect_tooltip = {
+			add_offsite_building = { type = arms_factory level = 2 }
 		}
 	}
 	option = {
@@ -47,31 +38,8 @@ country_event = {
 		trigger = {
 			NOT = { has_government = FROM }
 		}
-		if = {
-			limit = {
-				FROM = {
-					tag = ENG
-					has_completed_focus = uk_china_focus
-				}
-				tag = event_target:WTT_current_china_leader
-			}
-			effect_tooltip = {
-				add_offsite_building = { type = arms_factory level = 2 }
-			}
-		}
-		if = { #If Finland is suffering Estonian Fascist stuff - Super frankenstein'ed tooltip due to loc limitations :) 
-			limit = {
-				original_tag = FIN
-				FROM = { original_tag = EST }
-				has_idea = EST_vaps_organizing_in_FIN
-			}
-			effect_tooltip = {
-				add_ideas = EST_vaps_organizing_in_FIN
-			}
-			custom_effect_tooltip = DECISION_WILL_BE_REMOVED_IF
-			effect_tooltip = {
-				activate_decision = ban_fascist_party
-			}
+		effect_tooltip = {
+			add_offsite_building = { type = arms_factory level = 2 }
 		}
 	}
 }
@@ -224,22 +192,6 @@ country_event = {
 		}
 		ai_chance = {
 			base = 100
-			modifier = { # For shared Nordic Tree in AAT
-				factor = 1.7
-				FROM = {
-					has_country_flag = NORDIC_requesting_through_NORDIC_shared
-				}
-			}
-			modifier = {
-				factor = 2
-				original_tag = SOV
-				FROM = { has_completed_focus = NOR_join_the_comintern }
-			}
-			modifier = {
-				factor = 5
-				original_tag = SOV 
-				FROM = { has_country_flag = AAT_trotsky_sent_to_stalin }
-			}
 		}
 		add_to_faction = FROM
 		FROM = { country_event = { id = generic.3 hours = 6 } }
@@ -498,18 +450,6 @@ country_event = {
 				has_government = fascism
 			}
 		}
-		if = {
-			limit = {
-				original_tag = LAT
-				FROM = { original_tag = GER }
-				has_completed_focus = LAT_alignment_with_germany
-			}
-			uncomplete_national_focus = {
-				focus = LAT_alignment_with_germany
-				uncomplete_children = yes
-			}
-			complete_national_focus = LAT_the_thunder_strikes_alone
-		}
 	}
 	option = {
 		name = generic.4.c
@@ -545,18 +485,6 @@ country_event = {
 					has_government = communism
 				}
 			}
-		}
-		if = {
-			limit = {
-				original_tag = LAT
-				FROM = { original_tag = GER }
-				has_completed_focus = LAT_alignment_with_germany
-			}
-			uncomplete_national_focus = {
-				focus = LAT_alignment_with_germany
-				uncomplete_children = yes
-			}
-			complete_national_focus = LAT_the_thunder_strikes_alone
 		}
 	}
 }
@@ -656,12 +584,6 @@ country_event = {
 		}
 		ai_chance = {
 			base = 100
-			modifier = {
-				factor = 0
-				original_tag = FRA
-				is_in_faction_with = POL
-				POL = { has_completed_focus = POL_morges_pact }
-			}
 		}
 		FROM = {
 			faction_leader = {
@@ -678,17 +600,6 @@ country_event = {
 			set_country_flag = alliance_applicant@ROOT
 			FROM = { set_country_flag = alliance_inviter@ROOT }
 			news_event = { id = news.289 hours = 12 }
-			if = {
-				limit = {
-					FROM = {
-						original_tag = GER
-						has_government = democratic
-						has_completed_focus = GER_pool_technical_know_how
-					}
-					NOT = { has_idea = GER_pool_technical_know_how }
-				}
-				add_ideas = GER_pool_technical_know_how
-			}
 		}
 	}
 	option = { #Agree / Both Fascist
@@ -703,8 +614,6 @@ country_event = {
 				}
 				has_government = fascism
 			}
-			#Lone Wolf Finland can't join any factions
-			FIN_is_lone_wolf_finland = no
 		}
 		ai_chance = {
 			base = 100
@@ -736,17 +645,9 @@ country_event = {
 				}
 				has_government = communism
 			}
-			#Lone Wolf Finland can't join any factions
-			FIN_is_lone_wolf_finland = no
 		}
 		ai_chance = {
 			base = 100
-			modifier = {
-				factor = 0
-				original_tag = FRA
-				is_in_faction_with = POL
-				POL = { has_completed_focus = POL_morges_pact }
-			}
 		}
 		FROM = { 
 			add_to_faction = ROOT
@@ -789,8 +690,6 @@ country_event = {
 					has_government = communism
 				}
 			}
-			#Lone Wolf Finland can't join any factions
-			FIN_is_lone_wolf_finland = no
 		}
 		ai_chance = {
 			base = 100
@@ -816,13 +715,6 @@ country_event = {
 					is_major = no
 				}
 			}
-			
-			modifier = {
-				factor = 0
-				original_tag = FRA
-				is_in_faction_with = POL
-				POL = { has_completed_focus = POL_morges_pact }
-			}
 		}
 		FROM = { 
 			faction_leader = {
@@ -830,13 +722,6 @@ country_event = {
 			}
 			
 			country_event = { id = generic.6 hours = 6 }
-		}
-		if = {
-			limit = {
-				is_literally_china = yes
-				has_DLC = "Waking the Tiger"
-			}
-			CHI_set_ally_strat_on_current_leader = yes #sets ally strategy to current Chinese leader
 		}
 		add_ai_strategy = {
 			type = alliance
@@ -847,17 +732,6 @@ country_event = {
 			set_country_flag = alliance_applicant@ROOT
 			FROM = { set_country_flag = alliance_inviter@ROOT }
 			news_event = { id = news.289 hours = 12 }
-			if = {
-				limit = {
-					FROM = {
-						original_tag = GER
-						has_government = democratic
-						has_completed_focus = GER_pool_technical_know_how
-					}
-					NOT = { has_idea = GER_pool_technical_know_how }
-				}
-				add_ideas = GER_pool_technical_know_how
-			}
 		}
 	}
 	
@@ -868,15 +742,6 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 50
-			
-			modifier = {
-				factor = 0
-				FROM = {
-					original_tag = YUG
-					has_government = communism
-				}
-				has_government = communism
-			}
 			
 			modifier = {
 				factor = 0.5
@@ -941,16 +806,6 @@ country_event = {
 					has_completed_focus = SOV_covert_support_for_spanish_poum
 				}
 			}
-		}
-		#Lone Wolf Finland can't join any factions - Tooltip for player
-		if = {
-			limit = {	
-				FIN_is_lone_wolf_finland = yes
-			}
-			custom_effect_tooltip = FIN_the_lone_wolf_no_faction_tt
-		}
-		FROM = { 
-			country_event = { id = generic.7 hours = 6 }
 		}
 	}
 
