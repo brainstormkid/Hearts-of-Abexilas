@@ -1,0 +1,16 @@
+state={
+	id=1289
+	name="FabrikHaven"
+	provinces={
+		2333 4898 6611 13918 13968 14017 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history={
+		owner = LED
+		buildings = {
+		}
+		add_core_of = LED
+	}
+}

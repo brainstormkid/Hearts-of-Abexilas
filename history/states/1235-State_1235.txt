@@ -1,6 +1,6 @@
 state={
 	id=1235
-	name="STATE_1235"
+	name="Hananoki"
 	provinces={
 		6837 14010 14016 14052
 	}

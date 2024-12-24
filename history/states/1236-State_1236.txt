@@ -1,6 +1,6 @@
 state={
 	id=1236
-	name="STATE_1236"
+	name="Malucian"
 	provinces={
 		6148 14148 14165 14189
 	}

@@ -1,0 +1,16 @@
+state={
+	id=1290
+	name="Joe"
+	provinces={
+		512 4193 13891 13932 13939 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history={
+		owner = LED
+		buildings = {
+		}
+		add_core_of = LED
+	}
+}
