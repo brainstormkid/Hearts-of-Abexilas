@@ -56,7 +56,7 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_LaziOcelot"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = radical_socialist
 	traits = {
 		#
 	}
@@ -96,7 +96,7 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_Jimmon"
 	expire = "1965.1.1"
-	ideology = absolutist_subtype
+	ideology = imperialist_subtype
 	traits = {
 		#
 	}
@@ -116,7 +116,17 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_CoolBoi"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = progressivist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Luni"
+	desc = "POLITICS_AEGIS_DESC"
+	picture = "GFX_portrait_MYR_CoolBoi"
+	expire = "1965.1.1"
+	ideology = radical_nationalist_subtype
 	traits = {
 		#
 	}
