@@ -1,6 +1,6 @@
 state={
 	id=1292
-	name="Northern Myndelia"
+	name="STATE_1292"
 	provinces={
 		783 6885 14120 14128 14158 14170 14210 14234 14265 
 	}
