@@ -1,8 +1,16 @@
 state={
 	id=516
-	name="STATE_516"
+	name="STATE_516" #Sahriyan Mountains
 	provinces={
 		965 2483 3086 10909 10930 
+	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
 	}
 	buildings_max_level_factor=1.000
         manpower=150000

@@ -4,13 +4,29 @@ state={
 	provinces={
 		9812 9814 9834 15300 15301 15302 15303 15304 15305 15307
 	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1950000
+        state_category = metropolis
 	history={
 		owner = ARH
 		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			9834 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = ARH
+		victory_points = { 9834 50 }
 	}
 }
