@@ -841,37 +841,6 @@ country_event = {
 
 }
 
-#military crackdown response to draft dodging - failure, civil war
-country_event = {
-	id = stability.33
-	title = stability.33.t	
-	desc = stability.33.desc	#
-	picture = GFX_report_event_generic_battle					# 
-		
-	is_triggered_only = yes
-	
-	option = { 
-		name = stability.33.a
-		if = {
-			limit = { has_government = democratic }
-			start_civil_war = { ideology = communism size = 0.35 }
-		}
-		if = {
-			limit = { 
-				OR = {
-					has_government = fascism
-					has_government = communism
-				} 
-			}
-			start_civil_war = { ideology = democratic size = 0.45 }
-		}
-		clr_country_flag = crisis_in_progress
-		clr_country_flag = crisis_solution_in_progress
-		set_country_flag = { flag = draft_dodging_resolved days = 90 }
-	}
-
-}
-
 # improve living conditions - success
 country_event = {
 	id = stability.34
