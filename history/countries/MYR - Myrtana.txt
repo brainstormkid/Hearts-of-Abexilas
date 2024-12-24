@@ -36,7 +36,7 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_Aegis"
 	expire = "1965.1.1"
-	ideology = progressivist_subtype
+	ideology = conservatist_subtype
 	traits = {
 		#
 	}
