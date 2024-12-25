@@ -4,9 +4,9 @@ state={
 	provinces={
 		3805 6264 6858 13981 13994 14035 14062 
 	}
-	manpower=0
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
+		manpower=1
+		state_category = town
 	history={
 		owner = LED
 		buildings = {
