@@ -864,6 +864,10 @@
  MER_absolutist_DEF:1 "the Province of Merenthine"
  MER_absolutist_ADJ:0 "Merenthinian"
  
+ MIA_absolutist:1 "Port Mia"
+ MIA_absolutist_DEF:1 "the Port Mia"
+ MIA_absolutist_ADJ:0 "Mian"
+ 
  MIC_absolutist:1 "Kingdom of Michava"
  MIC_absolutist_DEF:1 "the Kingdom of Michava"
  MIC_absolutist_ADJ:0 "Michavian"

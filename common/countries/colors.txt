@@ -775,6 +775,11 @@ MER = {
 	color_ui = rgb { 28 113 188 }
 }
 
+MIA = {
+	color = rgb { 72 54 81 }
+	color_ui = rgb { 72 54 81 }
+}
+
 MIC = {
 	color = rgb { 158 63 60 }
 	color_ui = rgb { 158 63 60 }

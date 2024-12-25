@@ -820,6 +820,7 @@
  STATE_1081:0 "Unincorporated Livland"
  STATE_1082:0 "Valedra"
  STATE_1083:0 "Hajamal Island"
+ STATE_1085:0 "Port Nici"
  STATE_1087:0 "Western Oridal"
  STATE_1089:0 "Gallania"
  STATE_1093:0 "Allenby"
@@ -928,4 +929,10 @@
  STATE_1290:0 "Joe"
  STATE_1291:0 "Youyou"
  STATE_1292:0 "Northern Myndelia"
+ STATE_1293:0 "Dredge"
+ STATE_1294:0 "Port Attas"
+ STATE_1295:0 "Mount Squeak"
+ STATE_1296:0 "East Port Mia"
+ STATE_1297:0 "South Port Mia"
+ STATE_1298:0 "West Port Mia"
  
