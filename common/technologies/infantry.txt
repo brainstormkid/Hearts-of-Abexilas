@@ -1625,7 +1625,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1914
+		start_year = -20
 		folder = {
 			name = infantry_folder
 			position = { x = 4 y = @-10 }
@@ -1642,7 +1642,7 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "3.1.1"
 			}
 			
 			modifier = {
