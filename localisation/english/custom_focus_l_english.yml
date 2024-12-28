@@ -214,7 +214,12 @@
  GAR_abandon_merge_desc:0 "Gardenia will chart its own course, onto the future, onto destiny."
  GAR_A_steady_hand:0 "A Steady Hand"
  GAR_A_steady_hand_desc:0 "Perhaps with the former leadership of Defiant we will find the same stability as under the great Venipher."
-
+ GAR_prep_defense:0 "Prepare our Forces"
+ GAR_prep_defense_desc:0 "With a potential war with Dyshella looming well on the horizon we have found it prudent to begin mobilization without delay"
+ GAR_replace_demol:0 "Replace Demol"
+ GAR_replace_demol_desc:0 "Demol has proven himself an unstable element within our nation, doing unwarranted diplomacy and inticing our enemies to attack, he must be replaced without delay."
+ GAR_launch_counter_attack:0 "Counter Attack"
+ GAR_launch_counter_attack_desc:0 "We will counter attack against those who wished to destroy our nation and support the colonization of our continent"
 #Harpia
  HRP_referendum_for_a_monarchy:0 "Referendum for a Monarchy"
  HRP_referendum_for_a_monarchy_desc:0 "Harpia, while founded on the ideas of democracy, is unfit to survive in the modern day. As such, the HNPP will set up a referendum to see if a monarchy is what is needed for today."
