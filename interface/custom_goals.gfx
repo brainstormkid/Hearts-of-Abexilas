@@ -2172,17 +2172,17 @@ spriteTypes = {	##Icon For:
 
 	##Icon For: 
 	SpriteType = { 
-		name = "GFX_HRP_theprotectorsguards-645482"
-		texturefile = "gfx/interface/goals/GFX_HRP_theprotectorsguards-645482.dds"
+		name = "GFX_HRP_the_executive_guards-645482"
+		texturefile = "gfx/interface/goals/GFX_HRP_the_executive_guards-645482.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
-		name = "GFX_HRP_theprotectorsguards-645482_shine"
-		texturefile = "gfx/interface/goals/GFX_HRP_theprotectorsguards-645482.dds"
+		name = "GFX_HRP_the_executive_guards-645482_shine"
+		texturefile = "gfx/interface/goals/GFX_HRP_the_executive_guards-645482.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_HRP_theprotectorsguards-645482.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_HRP_the_executive_guards-645482.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2194,7 +2194,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_HRP_theprotectorsguards-645482.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_HRP_the_executive_guards-645482.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -5744,17 +5744,17 @@ spriteTypes = {	##Icon For:
 
 	##Icon For: 
 	SpriteType = { 
-		name = "GFX_HRP_the_leadership_of_protector_volso-645492"
-		texturefile = "gfx/interface/goals/GFX_HRP_the_leadership_of_protector_volso-645492.dds"
+		name = "GFX_HRP_the_leadership_of_protector_voslo-645492"
+		texturefile = "gfx/interface/goals/GFX_HRP_the_leadership_of_protector_voslo-645492.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
-		name = "GFX_HRP_the_leadership_of_protector_volso-645492_shine"
-		texturefile = "gfx/interface/goals/GFX_HRP_the_leadership_of_protector_volso-645492.dds"
+		name = "GFX_HRP_the_leadership_of_protector_voslo-645492_shine"
+		texturefile = "gfx/interface/goals/GFX_HRP_the_leadership_of_protector_voslo-645492.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_HRP_the_leadership_of_protector_volso-645492.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_HRP_the_leadership_of_protector_voslo-645492.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -5766,7 +5766,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_HRP_the_leadership_of_protector_volso-645492.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_HRP_the_leadership_of_protector_voslo-645492.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -5896,17 +5896,17 @@ spriteTypes = {	##Icon For:
 
 	##Icon For: 
 	SpriteType = { 
-		name = "GFX_HRP_the_armystate-646305"
-		texturefile = "gfx/interface/goals/GFX_HRP_the_armystate-646305.dds"
+		name = "GFX_HRP_give_me_your_poor-645970"
+		texturefile = "gfx/interface/goals/GFX_HRP_give_me_your_poor-645970.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
-		name = "GFX_HRP_the_armystate-646305_shine"
-		texturefile = "gfx/interface/goals/GFX_HRP_the_armystate-646305.dds"
+		name = "GFX_HRP_give_me_your_poor-645970_shine"
+		texturefile = "gfx/interface/goals/GFX_HRP_give_me_your_poor-645970.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_HRP_the_armystate-646305.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_HRP_give_me_your_poor-645970.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -5918,7 +5918,197 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_HRP_the_armystate-646305.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_HRP_give_me_your_poor-645970.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_HRP_cementthehnppsseats-645493"
+		texturefile = "gfx/interface/goals/GFX_HRP_cementthehnppsseats-645493.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_HRP_cementthehnppsseats-645493_shine"
+		texturefile = "gfx/interface/goals/GFX_HRP_cementthehnppsseats-645493.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_HRP_cementthehnppsseats-645493.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_HRP_cementthehnppsseats-645493.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_HRP_direct_economic_intervention-262123"
+		texturefile = "gfx/interface/goals/GFX_HRP_direct_economic_intervention-262123.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_HRP_direct_economic_intervention-262123_shine"
+		texturefile = "gfx/interface/goals/GFX_HRP_direct_economic_intervention-262123.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_HRP_direct_economic_intervention-262123.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_HRP_direct_economic_intervention-262123.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_HRP_welfare_investments-645562"
+		texturefile = "gfx/interface/goals/GFX_HRP_welfare_investments-645562.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_HRP_welfare_investments-645562_shine"
+		texturefile = "gfx/interface/goals/GFX_HRP_welfare_investments-645562.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_HRP_welfare_investments-645562.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_HRP_welfare_investments-645562.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_HRP_research_investments-646146"
+		texturefile = "gfx/interface/goals/GFX_HRP_research_investments-646146.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_HRP_research_investments-646146_shine"
+		texturefile = "gfx/interface/goals/GFX_HRP_research_investments-646146.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_HRP_research_investments-646146.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_HRP_research_investments-646146.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_HRP_acivilwar-646325"
+		texturefile = "gfx/interface/goals/GFX_HRP_acivilwar-646325.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_HRP_acivilwar-646325_shine"
+		texturefile = "gfx/interface/goals/GFX_HRP_acivilwar-646325.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_HRP_acivilwar-646325.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_HRP_acivilwar-646325.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
