@@ -415,6 +415,11 @@ ENO = {
 	color_ui = rgb { 23 120 124 }
 }
 
+EOS = {
+	color = rgb { 236 213 114 }
+	color_ui = rgb { 236 213 114 }
+}
+
 EPI = {
 	color = rgb { 114 29 168 }
 	color_ui = rgb { 114 29 168 }

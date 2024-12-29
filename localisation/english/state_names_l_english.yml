@@ -51,7 +51,7 @@
  STATE_70:0 "Central Tola"
  STATE_72:0 "Aarchendal"
  STATE_73:0 "Padapiv Island"
- STATE_74:0 "Zemvelcu"
+ STATE_74:0 "Eos Astral"
  STATE_75:0 "Khanor"
  STATE_76:0 "Valyara"
  STATE_77:0 "Lake of Thorn"
@@ -942,4 +942,5 @@
  STATE_1301:0 "Metarf"
  STATE_1302:0 "Darabere"
  STATE_1303:0 "South Vineusador"
+ STATE_1304:0 "Zemvelcu"
  
