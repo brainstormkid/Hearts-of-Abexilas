@@ -713,6 +713,10 @@
  KHR_absolutist_DEF:1 "the Kingdom of Khrumaz"
  KHR_absolutist_ADJ:0 "Khrumazi"
  
+ KON_absolutist:1 "L'Atoanate Sitiden Demokratike d'Kongrego"
+ KON_absolutist_DEF:1 "the L'Atoanate Sitiden Demokratike d'Kongrego"
+ KON_absolutist_ADJ:0 "Kongregan"
+ 
  KOR_absolutist:1 "Kingdom of Koré"
  KOR_absolutist_DEF:1 "the Kingdom of Koré"
  KOR_absolutist_ADJ:0 "Korén"
@@ -988,6 +992,10 @@
  ORO_absolutist:1 "Viă Orȯ Pora"
  ORO_absolutist_DEF:1 "the Viă Orȯ Pora"
  ORO_absolutist_ADJ:0 "Orovian"
+ 
+ OSM_absolutist:1 "House Osmier"
+ OSM_absolutist_DEF:1 "the House Osmier"
+ OSM_absolutist_ADJ:0 "Osmian"
  
  OSR_absolutist:1 "Kingdom of Osriguard"
  OSR_absolutist_DEF:1 "the Kingdom of Osriguard"
@@ -1442,6 +1450,10 @@
  ZER_absolutist:1 "Kingdom of Zeril"
  ZER_absolutist_DEF:1 "the Kingdom of Zeril"
  ZER_absolutist_ADJ:0 "Zerilin"
+ 
+ ZET_absolutist:1 "Zetheunia"
+ ZET_absolutist_DEF:1 "the Zetheunia"
+ ZET_absolutist_ADJ:0 "Zetheunian"
  
  ZUR_absolutist:1 "Tyros of Zuritan"
  ZUR_absolutist_DEF:1 "the Tyros of Zuritan"

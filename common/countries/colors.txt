@@ -645,6 +645,11 @@ KHR = {
 	color_ui = rgb { 96 111 174 }
 }
 
+KON = {
+	color = rgb { 133 26 20 }
+	color_ui = rgb { 133 26 20 }
+}
+
 KOR = {
 	color = rgb { 215 138 53 }
 	color_ui = rgb { 215 138 53 }
@@ -883,6 +888,11 @@ ORI = {
 ORO = {
 	color = rgb { 87 34 140 }
 	color_ui = rgb { 87 34 140 }
+}
+
+OSM = {
+	color = rgb { 214 193 126 }
+	color_ui = rgb { 214 193 126 }
 }
 
 OSR = {
@@ -1313,6 +1323,11 @@ ZEH = {
 ZER = {
 	color = rgb { 89 89 89 }
 	color_ui = rgb { 89 89 89 }
+}
+
+ZET = {
+	color = rgb { 171 137 27 }
+	color_ui = rgb { 171 137 27 }
 }
 
 ZIL = {
