@@ -29,4 +29,6 @@ create_country_leader = {
 	}
 }
 
-set_convoys = 40
+set_stability = 0.3
+set_war_support = 0.7
+set_convoys = 50
