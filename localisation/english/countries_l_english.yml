@@ -981,6 +981,10 @@
  ORI_absolutist_DEF:1 "the Archonate of Orion"
  ORI_absolutist_ADJ:0 "Orinnian"
  
+ ORO_absolutist:1 "Viă Orȯ Pora"
+ ORO_absolutist_DEF:1 "the Viă Orȯ Pora"
+ ORO_absolutist_ADJ:0 "Orovian"
+ 
  OSR_absolutist:1 "Kingdom of Osriguard"
  OSR_absolutist_DEF:1 "the Kingdom of Osriguard"
  OSR_absolutist_ADJ:0 "Osriguardan"

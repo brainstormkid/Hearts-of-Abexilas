@@ -875,6 +875,11 @@ ORI = {
 	color_ui = rgb { 95 106 92 }
 }
 
+ORO = {
+	color = rgb { 87 34 140 }
+	color_ui = rgb { 87 34 140 }
+}
+
 OSR = {
 	color = rgb { 71 72 71 }
 	color_ui = rgb { 71 72 71 }

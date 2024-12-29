@@ -1,0 +1,16 @@
+state={
+	id=1303
+	name="STATE_1303"
+	provinces={
+		448 827 5669 6142 7524 7564 7579 7580 7606 7631 7632 7642 7670
+	}
+	buildings_max_level_factor=1.000
+		manpower=1
+		state_category = town
+	history={
+		owner = ORO
+		buildings = {
+		}
+		add_core_of = ORO
+	}
+}
