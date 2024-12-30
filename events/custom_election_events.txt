@@ -1,0 +1,293 @@
+#######################
+#Custom Election Events
+#######################
+
+add_namespace = election
+
+#####################################################
+
+## Nationalist ##
+
+# Imperialist Majority
+country_event = {
+	id = election.101
+	title = election.101.t
+	desc = election.101.d
+	picture = GFX_report_event_fascist_gathering
+	
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			has_government = centrist
+			has_government = conservatist
+			has_government = progressivist
+			has_government = libertarianist
+			has_government = liberalist
+			has_government = absolutist
+			has_government = monarchist
+			has_government = theocratist
+			}
+		imperialist > 0.5
+		is_puppet = no
+	}
+	
+	option = {	
+		name = election.101.a
+		ai_chance = {
+			base = 75			
+		}
+		set_politics = {
+			ruling_party = imperialist
+			elections_allowed = no
+		}
+	}
+
+	option = {
+		name = election.101.b
+		ai_chance = {
+			base = 35
+		}
+		start_civil_war = {
+			ideology = imperialist
+			size = 0.5
+		}
+	}
+}
+
+# Radical Nationalist Majority
+country_event = {
+	id = election.102
+	title = election.102.t
+	desc = election.102.d
+	picture = GFX_report_event_fascist_gathering
+	
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			has_government = centrist
+			has_government = conservatist
+			has_government = progressivist
+			has_government = libertarianist
+			has_government = liberalist
+			has_government = absolutist
+			has_government = monarchist
+			has_government = theocratist
+			}
+		radical_nationalist > 0.5
+		is_puppet = no
+	}
+	
+	option = {	
+		name = election.102.a
+		ai_chance = {
+			base = 75			
+		}
+		set_politics = {
+			ruling_party = radical_nationalist
+			elections_allowed = no
+		}
+	}
+
+	option = {
+		name = election.102.b
+		ai_chance = {
+			base = 35
+		}
+		start_civil_war = {
+			ideology = radical_nationalist
+			size = 0.5
+		}
+	}
+}
+
+## Socialist ##
+
+# Anarchist Majority
+country_event = {
+	id = election.103
+	title = election.103.t
+	desc = election.103.d
+	picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			has_government = centrist
+			has_government = conservatist
+			has_government = progressivist
+			has_government = libertarianist
+			has_government = liberalist
+			has_government = absolutist
+			has_government = monarchist
+			has_government = theocratist
+		}
+		anarchist > 0.5
+		is_puppet = no
+	}
+	
+	option = {	
+		name = election.103.a
+		ai_chance = {
+			base = 75			
+		}
+		set_politics = {
+			ruling_party = anarchist
+			elections_allowed = no
+		}
+	}
+
+	option = {
+		name = election.103.b
+		ai_chance = {
+			base = 35
+		}
+		start_civil_war = {
+			ideology = anarchist
+			size = 0.5
+		}
+	}
+}
+
+# Xeroist Majority
+country_event = {
+	id = election.104
+	title = election.104.t
+	desc = election.104.d
+	picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			has_government = centrist
+			has_government = conservatist
+			has_government = progressivist
+			has_government = libertarianist
+			has_government = liberalist
+			has_government = absolutist
+			has_government = monarchist
+			has_government = theocratist
+			}
+		xeroist > 0.5
+		is_puppet = no
+	}
+	
+	option = {	
+		name = election.104.a
+		ai_chance = {
+			base = 75			
+		}
+		set_politics = {
+			ruling_party = xeroist
+			elections_allowed = no
+		}
+	}
+
+	option = {
+		name = election.104.b
+		ai_chance = {
+			base = 35
+		}
+		start_civil_war = {
+			ideology = xeroist
+			size = 0.5
+		}
+	}
+}
+
+# Radical Socialist Majority
+country_event = {
+	id = election.105
+	title = election.105.t
+	desc = election.105.d
+	picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			has_government = centrist
+			has_government = conservatist
+			has_government = progressivist
+			has_government = libertarianist
+			has_government = liberalist
+			has_government = absolutist
+			has_government = monarchist
+			has_government = theocratist
+			}
+		radical_socialist > 0.5
+		is_puppet = no
+	}
+	
+	option = {	
+		name = election.105.a
+		ai_chance = {
+			base = 75			
+		}
+		set_politics = {
+			ruling_party = radical_socialist
+			elections_allowed = no
+		}
+	}
+
+	option = {
+		name = election.105.b
+		ai_chance = {
+			base = 35
+		}
+		start_civil_war = {
+			ideology = radical_socialist
+			size = 0.5
+		}
+	}
+}
+
+# Revisionist Majority
+country_event = {
+	id = election.106
+	title = election.106.t
+	desc = election.106.d
+	picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			has_government = centrist
+			has_government = conservatist
+			has_government = progressivist
+			has_government = libertarianist
+			has_government = liberalist
+			has_government = absolutist
+			has_government = monarchist
+			has_government = theocratist
+			}
+		revisionist > 0.5
+		is_puppet = no
+	}
+	
+	option = {	
+		name = election.106.a
+		ai_chance = {
+			base = 75			
+		}
+		set_politics = {
+			ruling_party = revisionist
+			elections_allowed = no
+		}
+	}
+
+	option = {
+		name = election.106.b
+		ai_chance = {
+			base = 35
+		}
+		start_civil_war = {
+			ideology = revisionist
+			size = 0.5
+		}
+	}
+}
