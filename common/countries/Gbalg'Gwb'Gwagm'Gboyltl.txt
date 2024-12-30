@@ -1,0 +1,6 @@
+#Gbalg'Gwb'Gwagm'Gboyltl
+
+graphical_culture = western_european_gfx
+graphical_culture_2d = western_european_2d
+
+color = { 43 108 8 }

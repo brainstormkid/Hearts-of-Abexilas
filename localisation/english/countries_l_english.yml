@@ -575,6 +575,10 @@
  GAR_centrist_DEF:1 "the Fioræst Gardenia"
  GAR_centrist_ADJ:0 "Gardenian"
  
+ GBA_absolutist:1 "Gbalg'Gwb'Gwagm'Gboyltl"
+ GBA_absolutist_DEF:1 "the Gbalg'Gwb'Gwagm'Gboyltl"
+ GBA_absolutist_ADJ:0 "Goblinoid"
+ 
  GEH_absolutist:1 "Gertek Horde"
  GEH_absolutist_DEF:1 "the Gertek Horde"
  GEH_absolutist_ADJ:0 "Gertekans"

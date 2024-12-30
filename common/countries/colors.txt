@@ -480,6 +480,11 @@ GAR = {
 	color_ui = rgb { 225 0 220 }
 }
 
+GBA = {
+	color = rgb { 43 108 8 }
+	color_ui = rgb { 43 108 8 }
+}
+
 GEH = {
 	color = rgb { 205 42 61 }
 	color_ui = rgb { 205 42 61 }
