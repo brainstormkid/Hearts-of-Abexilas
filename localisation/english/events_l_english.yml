@@ -157,3 +157,34 @@
  #VALORA EVENTS
  valora.1.t:0 "Novaran Crisis"
  valora.1.d:0 "The rebels in Novara had managed to drive our and loyalist troops of the streets of the city! How shall we react to this treason?"
+ 
+ #Please add all Country Events above
+ 
+ #Election events
+ 
+ ##Nationalism##
+ election.101.t:0 "Election: Imperialist Majority"
+ election.101.d:0 "This election has been devastating for the very institution it represents. The majority of the [Root.GetAdjective] population have cast their vote in favor of a imperialist party that seeks to abolish elections and install an autocratic ruler. While many consider taking up arms against this violation of the democratic ideals that allowed them this mandate to begin with, others consider the use of violence to only confirm their ideals further."
+ election.101.a:0 "It is a black day for [Root.GetName], but the people have spoken."
+ election.101.b:0 "We will not give up our liberty without a fight!"
+ election.102.t:0 "Election: Radical Nationalist Majority"
+ election.102.d:0 "This election has been devastating for the very institution it represents. The majority of the [Root.GetAdjective] population have cast their vote in favor of a nationalist party that seeks to abolish elections and install an autocratic ruler. While many consider taking up arms against this violation of the democratic ideals that allowed them this mandate to begin with, others consider the use of violence to only confirm their ideals further."
+ election.102.a:0 "It is a black day for [Root.GetName], but the people have spoken."
+ election.102.b:0 "We will not give up our liberty without a fight!"
+ ##Socialist##
+ election.103.t:0 "Election: Anarchist Majority"
+ election.103.d:0 "The current election has resulted in victory for the anarchist parties, with mixed reactions from the former administration. While the new rulers claim to represent the people as a whole, they view many of the democratic institutions we cherish as attempts to manipulate and oppress the working class, leading to discussion about what truly constitutes a 'rule of the people'. In some nations, the revolution began in rivers of blood. In [Root.GetName] it didn't, but it may yet end in them."
+ election.103.a:0 "This is troubling, but they truly do represent the majority."
+ election.103.b:0 "We must stop them before they abolish every sign of dissenting thought!"
+ election.104.t:0 "Election: Xeroist Majority"
+ election.104.d:0 "The current election has resulted in victory for the xeroist parties, with mixed reactions from the former administration. While the new rulers claim to represent the people as a whole, they view many of the democratic institutions we cherish as attempts to manipulate and oppress the working class, leading to discussion about what truly constitutes a 'rule of the people'. In some nations, the revolution began in rivers of blood. In [Root.GetName] it didn't, but it may yet end in them."
+ election.104.a:0 "This is troubling, but they truly do represent the majority."
+ election.104.b:0 "We must stop them before they abolish every sign of dissenting thought!"
+ election.105.t:0 "Election: Radical Socialist Majority"
+ election.105.d:0 "The current election has resulted in victory for the socialist parties, with mixed reactions from the former administration. While the new rulers claim to represent the people as a whole, they view many of the democratic institutions we cherish as attempts to manipulate and oppress the working class, leading to discussion about what truly constitutes a 'rule of the people'. In some nations, the revolution began in rivers of blood. In [Root.GetName] it didn't, but it may yet end in them."
+ election.105.a:0 "This is troubling, but they truly do represent the majority."
+ election.105.b:0 "We must stop them before they abolish every sign of dissenting thought!"
+ election.106.t:0 "Election: Revisionist Majority"
+ election.106.d:0 "The current election has resulted in victory for the revisionist parties, with mixed reactions from the former administration. While the new rulers claim to represent the people as a whole, they view many of the democratic institutions we cherish as attempts to manipulate and oppress the working class, leading to discussion about what truly constitutes a 'rule of the people'. In some nations, the revolution began in rivers of blood. In [Root.GetName] it didn't, but it may yet end in them."
+ election.106.a:0 "This is troubling, but they truly do represent the majority."
+ election.106.b:0 "We must stop them before they abolish every sign of dissenting thought!"
