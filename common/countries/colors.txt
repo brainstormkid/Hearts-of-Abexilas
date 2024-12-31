@@ -461,6 +461,11 @@ FAX = {
 	color_ui = rgb { 72 173 76 }
 }
 
+FER = {
+	color = rgb { 106 179 212 }
+	color_ui = rgb { 106 179 212 }
+}
+
 FLO = {
 	color = rgb { 247 194 15 }
 	color_ui = rgb { 247 194 15 }

@@ -553,6 +553,10 @@
  FAX_absolutist_DEF:1 "the Kentidom of Faxemia"
  FAX_absolutist_ADJ:0 "Faxemian"
  
+ FER_absolutist:1 "Fernwen Consortium"
+ FER_absolutist_DEF:1 "the Fernwen Consortium"
+ FER_absolutist_ADJ:0 "Fernwian"
+ 
  FLO_absolutist:1 "Floodhaven"
  FLO_absolutist_DEF:1 "the Floodhaven"
  FLO_absolutist_ADJ:0 "Floodhavian"
