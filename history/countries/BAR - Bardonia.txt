@@ -28,8 +28,14 @@ set_autonomy = {
 	autonomous_state = autonomy_puppet
 }
 
+set_autonomy = {
+	target = ARG
+	autonomous_state = autonomy_puppet
+}
+
 set_convoys = 115
 
 create_faction = "Bardonian Alliance"
 add_to_faction = BAR
 add_to_faction = COM
+add_to_faction = ARG
