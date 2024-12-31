@@ -175,6 +175,10 @@
  ARC_radical_nationalist_DEF:1 "the Sinsolian Legion of Arcael"
  ARC_radical_nationalist_ADJ:0 "Arcaeli"
  
+ ARG_absolutist:1 "Grand Duchy of Argonos"
+ ARG_absolutist_DEF:1 "the Grand Duchy of Argonos"
+ ARG_absolutist_ADJ:0 "Argonian"
+ 
  ARH_absolutist:1 "ArchiPEEENigo"
  ARH_absolutist_DEF:1 "the ArchiPEEENigo"
  ARH_absolutist_ADJ:0 "ArchiPEEENigan"
