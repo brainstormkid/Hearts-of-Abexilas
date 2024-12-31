@@ -860,6 +860,11 @@ NIK = {
 	color_ui = rgb { 159 102 85 }
 }
 
+NOD = {
+	color = rgb { 35 16 69 }
+	color_ui = rgb { 35 16 69 }
+}
+
 NOR = {
 	color = rgb { 148 72 154 }
 	color_ui = rgb { 148 72 154 }
