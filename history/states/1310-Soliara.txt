@@ -1,0 +1,16 @@
+state={
+	id=1310
+	name="STATE_1310"
+	provinces={
+		762 1080 1120 2303 3556 4486 5521 5538 5984 6037 6219 6841 6973 7319 7347 7361 7425 7453 7522 7523 7552 7602 7614 7651 7688 7735 7736
+	}
+	buildings_max_level_factor=1.000
+		manpower=1
+		state_category = town
+	history={
+		owner = AUE
+		buildings = {
+		}
+		add_core_of = AUE
+	}
+}

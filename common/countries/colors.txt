@@ -170,6 +170,12 @@ AST = {
 	color_ui = rgb { 255 91 0 }
 }
 
+AUE = {
+	color = rgb { 174 72 69 }
+	color_ui = rgb { 174 72 69 }
+}
+
+
 AUR = {
 	color = rgb { 119 29 109 }
 	color_ui = rgb { 119 29 109 }

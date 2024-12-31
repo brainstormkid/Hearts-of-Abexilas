@@ -1,0 +1,16 @@
+state={
+	id=1315
+	name="STATE_1315"
+	provinces={
+		197 262 967 1061 1389 1432 1586 3463 3605 3670 3689 4398 4530 5078 5097 5145 5272 5803 5942 6098 6309 6619 6652 6773 6997 9001 9044 9050 9061 9085 9086 9101 9109 9113 9147 9170
+	}
+	buildings_max_level_factor=1.000
+		manpower=1
+		state_category = town
+	history={
+		owner = AUE
+		buildings = {
+		}
+		add_core_of = AUE
+	}
+}

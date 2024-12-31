@@ -223,6 +223,10 @@
  AST_absolutist_DEF:1 "the Triumvirate of Astalasi"
  AST_absolutist_ADJ:0 "Astalites"
  
+ AUE_absolutist:1 "Aurean Empire"
+ AUE_absolutist_DEF:1 "the Aurean Empire"
+ AUE_absolutist_ADJ:0 "Aurean"
+ 
  AUR_absolutist:1 "República de Aurumflora"
  AUR_absolutist_DEF:1 "the República de Aurumflora"
  AUR_absolutist_ADJ:0 "Aurumfloran"
