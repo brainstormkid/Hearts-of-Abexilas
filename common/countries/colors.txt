@@ -90,6 +90,11 @@ AND = {
 	color_ui = rgb { 132 56 169 }
 }
 
+ANO = {
+	color = rgb { 188 87 91 }
+	color_ui = rgb { 188 87 91 }
+}
+
 ANR = {
 	color = rgb { 85 81 135 }
 	color_ui = rgb { 85 81 135 }
