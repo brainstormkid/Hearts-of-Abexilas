@@ -331,6 +331,10 @@
  COD_absolutist_DEF:1 "the Kingdom of Cordovia"
  COD_absolutist_ADJ:0 "Cordovin"
  
+ COI_absolutist:1 "Kingdom of Corrigan"
+ COI_absolutist_DEF:1 "the Kingdom of Corrigan"
+ COI_absolutist_ADJ:0 "Coriganite"
+ 
  COM_absolutist:1 "Knights of Comona"
  COM_absolutist_DEF:1 "the Knights of Comona"
  COM_absolutist_ADJ:0 "Comonian"

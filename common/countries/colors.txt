@@ -306,6 +306,11 @@ COD = {
 	color_ui = rgb { 211 51 51 }
 }
 
+COI = {
+	color = rgb { 155 106 165 }
+	color_ui = rgb { 155 106 165 }
+}
+
 COM = {
 	color = rgb { 215 194 36 }
 	color_ui = rgb { 215 194 36 }

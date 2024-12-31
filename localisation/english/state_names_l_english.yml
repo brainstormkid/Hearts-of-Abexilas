@@ -188,6 +188,7 @@
  STATE_242:0 "Dilbetabes"
  STATE_243:0 "Silverian Duchies"
  STATE_244:0 "Cimeterium"
+ STATE_246:0 "New Acenoty"
  STATE_247:0 "Lo Cesa Leñau"
  STATE_248:0 "Western Imat-ur"
  STATE_249:0 "Western Vaechdar"
@@ -957,4 +958,5 @@
  STATE_1314:0 "Rivloran"
  STATE_1315:0 "Heraklea"
  STATE_1316:0 "Viridian"
+ STATE_1317:0 "Corrigan"
  
