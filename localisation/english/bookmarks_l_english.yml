@@ -42,7 +42,8 @@
  ERC_DESC:0 "Ertcof is an agrarian nation in southern Cathelet inhabited mainly by satyrs (half-goat people) and ruled by an Archduke, who was picked by Erte, the goddess of harvest, to lead her lands. It is a neutral nation that specialises in wheat and grape farming, with no defence force other than poorly trained local militia and a ton of non-aggression pacts."
  LUT_DESC:0 "Lutian is a modest nation located in southern Cathelet, known for its strong sense of national pride and deep-rooted military support. While not particularly powerful in terms of economy or size, Lutian's citizens are highly supportive of military action, viewing defense and sovereignty as central to their identity."
  VAR_DESC:0 "Varaxsis is a Triarchy within Cathramis, with a strong industrious spirt and a unique culture it can be provide a strong counterbalance and wildcard."
-
+ PAR_DESC:0 "Paraíso emerged from the ruins of the once-great Kingdom of Artaine, rising as a beacon of hope and resilience. Under the wise and steadfast leadership of King Alejandro, the people of Paraíso have found unity and prosperity. His unwavering guidance has earned their trust, as he has never led them astray in times of challenge or triumph."
+ 
  #Halinn
  HALINN_NAME:0 "Halinn"
  HALINN_DESC:0 "Halinn is a continent located in southwestern Abexilas. Notable nations on the continent include the Akashiro Shogunate, the As’ro-Pothriki Commonwealth, the Kingdom of Rozul, Jorthar, the Realm of Taurëmár, Sakravir, the Kingdom of Rhosgard, the Kingdom of Leyden, the Principality of Ynqar, Taravor and others./nHalinn is also home to the subcontinent of Zarilyia which is located within the south-westernmost corner of Halinn. Zarilyia is home to the ZTO (Zarilyian Treaty Organization). Prominent nations in Zarilyia include the Daranate of Kaizra, the Dariath Federation, Ariefell, the Tsardom of Naan, Port Mia, and more."
