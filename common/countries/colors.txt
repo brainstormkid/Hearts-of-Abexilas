@@ -626,6 +626,11 @@ KAB = {
 	color_ui = rgb { 186 157 27 }
 }
 
+KAC = {
+	color = rgb { 102 2 60 }
+	color_ui = rgb { 102 2 60 }
+}
+
 KAD = {
 	color = rgb { 199 133 52 }
 	color_ui = rgb { 199 133 52 }
