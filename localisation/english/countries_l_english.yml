@@ -1021,6 +1021,10 @@
  OBL_absolutist_DEF:1 "the Oblivion Ascendency"
  OBL_absolutist_ADJ:0 "Oblivian"
  
+ OBS_absolutist:1 "Obsidios Imperium"
+ OBS_absolutist_DEF:1 "the Obsidios Imperium"
+ OBS_absolutist_ADJ:0 "Obsidian"
+ 
  OLD_absolutist:1 "Interim Union of Oldann and Barakor Stasrikos Lhah"
  OLD_absolutist_DEF:1 "the Interim Union of Oldann and Barakor Stasrikos Lhah"
  OLD_absolutist_ADJ:0 "Oldannian"

@@ -926,6 +926,11 @@ OBL = {
 	color_ui = rgb { 85 255 255 }
 }
 
+OBS = {
+	color = rgb { 229 117 109 }
+	color_ui = rgb { 229 117 109 }
+}
+
 OLD = {
 	color = rgb { 241 212 113 }
 	color_ui = rgb { 241 212 113 }
