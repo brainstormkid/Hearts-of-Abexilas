@@ -1,0 +1,430 @@
+focus_tree = {
+	id = qyn
+	continuous_focus_position = { x = 4520 y = 140 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = QYN
+		}
+	}
+	#Political Troubles
+	focus = {
+		id = QYN_political_troubles
+		icon = GFX_focus_GRE_reviving_the_double_headed_eagle
+		x = 12
+		y = 1
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Political Infighting
+	focus = {
+		id = QYN_political_infighting
+		icon = GFX_goal_generic_demand_territory
+		x = 12
+		y = 5
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_political_troubles  } prerequisite = { focus = QYN_zamtoz_takes_advantage_of_weak_leadership  }
+	}
+
+	#Time for New Leader
+	focus = {
+		id = QYN_time_for_new_leader
+		icon = GFX_focus_generic_monarchy_2
+		x = 12
+		y = 7
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_political_infighting  }
+	}
+
+	#Karl is the Right Choice
+	focus = {
+		id = QYN_karl_is_the_right_choice
+		icon = GFX_goal_unknown
+		x = 9
+		y = 8
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_time_for_new_leader  }
+		mutually_exclusive = { focus = QYN_james_is_the_best_choice  } mutually_exclusive = { }
+	}
+
+	#James Is The Best Choice
+	focus = {
+		id = QYN_james_is_the_best_choice
+		icon = GFX_goal_unknown
+		x = 15
+		y = 8
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_time_for_new_leader  }
+		mutually_exclusive = { focus = QYN_karl_is_the_right_choice  } mutually_exclusive = { }
+	}
+
+	#Support Building Projects II
+	focus = {
+		id = QYN_support_building_projects_ii
+		icon = GFX_goal_unknown
+		x = 3
+		y = 4
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_support_local_companies  }
+	}
+
+	#We Stand Alone
+	focus = {
+		id = QYN_we_stand_alone
+		icon = GFX_goal_unknown
+		x = 10
+		y = 14
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_letsgetnuciferiaback  }
+		mutually_exclusive = { } mutually_exclusive = { focus = QYN_alliance_with_zamtoz  }
+	}
+
+	#Zamtoz Takes Advantage of Weak Leadership
+	focus = {
+		id = QYN_zamtoz_takes_advantage_of_weak_leadership
+		icon = GFX_QYN_zamtoz_takes_advantage_of_weak_leadership-771338
+		x = 12
+		y = 3
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_political_troubles  }
+	}
+
+	#The Nuciferia Revolution
+	focus = {
+		id = QYN_the_nuciferia_revolution
+		icon = GFX_focus_ger_revive_kaiserreich
+		x = 9
+		y = 10
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_karl_is_the_right_choice  }
+	}
+
+	#It's Time to Get Centuria Back!
+	focus = {
+		id = QYN_itstimetogetcenturiaback
+		icon = GFX_QYN_itstimetogetcenturiaback-771339
+		x = 14
+		y = 6
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_political_infighting  }
+	}
+
+	#Time for James to Choose
+	focus = {
+		id = QYN_time_for_james_to_choose
+		icon = GFX_goal_unknown
+		x = 15
+		y = 11
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_james_is_the_best_choice  }
+	}
+
+	#James The Nationalist
+	focus = {
+		id = QYN_james_the_nationalist
+		icon = GFX_goal_unknown
+		x = 16
+		y = 13
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_time_for_james_to_choose  }
+	}
+
+	#James The Monarch
+	focus = {
+		id = QYN_james_the_monarch
+		icon = GFX_goal_unknown
+		x = 14
+		y = 13
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_time_for_james_to_choose  }
+		mutually_exclusive = { focus = QYN_james_the_nationalist  }
+	}
+
+	#Let's Get Nuciferia Back
+	focus = {
+		id = QYN_letsgetnuciferiaback
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		x = 9
+		y = 12
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_the_nuciferia_revolution  }
+	}
+
+	#Invest in Local Building Projects
+	focus = {
+		id = QYN_invest_in_local_building_projects
+		icon = GFX_goal_unknown
+		x = 7
+		y = 3
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_support_building_projects  } prerequisite = { focus = QYN_support_arms_production  }
+	}
+
+	#Support Local Companies
+	focus = {
+		id = QYN_support_local_companies
+		icon = GFX_goal_unknown
+		x = 3
+		y = 3
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_support_building_projects  } prerequisite = { focus = QYN_support_arms_production  }
+	}
+
+	#Support Arms Production
+	focus = {
+		id = QYN_support_arms_production
+		icon = GFX_goal_unknown
+		x = 7
+		y = 1
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Time to Unite Adramis With Alliance
+	focus = {
+		id = QYN_time_to_unite_adramis_with_alliance
+		icon = GFX_goal_unknown
+		x = 14
+		y = 16
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_james_the_monarch  } prerequisite = { focus = QYN_james_the_nationalist  }
+		mutually_exclusive = { focus = QYN_time_to_unite_adramis_with_war  }
+	}
+
+	#Time to Unite Adramis With War
+	focus = {
+		id = QYN_time_to_unite_adramis_with_war
+		icon = GFX_goal_unknown
+		x = 16
+		y = 16
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_james_the_nationalist  } prerequisite = { focus = QYN_james_the_nationalist  }
+	}
+
+	#Support Arms Production II
+	focus = {
+		id = QYN_support_arms_production_ii
+		icon = GFX_goal_unknown
+		x = 7
+		y = 4
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_invest_in_local_building_projects  }
+	}
+
+	#Freedom of the People
+	focus = {
+		id = QYN_freedom_of_the_people
+		icon = GFX_goal_unknown
+		x = 14
+		y = 19
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_time_to_unite_adramis_with_alliance  }
+	}
+
+	#United With War and Conquest
+	focus = {
+		id = QYN_united_with_war_and_conquest
+		icon = GFX_goal_unknown
+		x = 16
+		y = 19
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_time_to_unite_adramis_with_war  }
+	}
+
+	#Alliance With Zamtoz
+	focus = {
+		id = QYN_alliance_with_zamtoz
+		icon = GFX_goal_unknown
+		x = 8
+		y = 14
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_letsgetnuciferiaback  }
+		mutually_exclusive = { } mutually_exclusive = { focus = QYN_we_stand_alone  }
+	}
+
+	#Unite with Zamtoz
+	focus = {
+		id = QYN_unite_with_zamtoz
+		icon = GFX_goal_unknown
+		x = 8
+		y = 16
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_alliance_with_zamtoz  }
+	}
+
+	#Zamtoz at War with Kyntharus
+	focus = {
+		id = QYN_zamtoz_at_war_with_kyntharus
+		icon = GFX_goal_unknown
+		x = 10
+		y = 16
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_we_stand_alone  }
+	}
+
+	#Support Building Projects
+	focus = {
+		id = QYN_support_building_projects
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#The Qynthos-Centuria Highway
+	focus = {
+		id = QYN_the_qynthoscenturia_highway
+		icon = GFX_goal_unknown
+		x = 5
+		y = 5
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_support_building_projects_ii  } prerequisite = { focus = QYN_support_arms_production_ii  }
+	}
+
+	#Support Building Projects III
+	focus = {
+		id = QYN_support_building_projects_iii
+		icon = GFX_goal_unknown
+		x = 3
+		y = 6
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_the_qynthoscenturia_highway  }
+	}
+
+	#Support Arms Production III
+	focus = {
+		id = QYN_support_arms_production_iii
+		icon = GFX_goal_unknown
+		x = 7
+		y = 6
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_the_qynthoscenturia_highway  }
+	}
+
+	#War With All of Adramis
+	focus = {
+		id = QYN_war_with_all_of_adramis
+		icon = GFX_goal_unknown
+		x = 9
+		y = 18
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_unite_with_zamtoz  } prerequisite = { } prerequisite = { focus = QYN_zamtoz_at_war_with_kyntharus  }
+	}
+
+	#United We Stand
+	focus = {
+		id = QYN_united_we_stand
+		icon = GFX_goal_unknown
+		x = 7
+		y = 20
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_unite_with_zamtoz  } prerequisite = { focus = QYN_war_with_all_of_adramis  }
+	}
+
+	#Adramis United
+	focus = {
+		id = QYN_adramis_united
+		icon = GFX_goal_unknown
+		x = 10
+		y = 20
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_zamtoz_at_war_with_kyntharus  } prerequisite = { focus = QYN_war_with_all_of_adramis  }
+	}
+
+}
