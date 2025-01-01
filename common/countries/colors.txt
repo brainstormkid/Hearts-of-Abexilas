@@ -216,6 +216,11 @@ AYT = {
 	color_ui = rgb { 120 181 79 }
 }
 
+AZA = {
+	color = rgb { 223 179 252 }
+	color_ui = rgb { 223 179 252 }
+}
+
 AZU = {
 	color = rgb { 58 76 75 }
 	color_ui = rgb { 58 76 75 }
@@ -486,6 +491,11 @@ FLO = {
 	color_ui = rgb { 247 194 15 }
 }
 
+FLR = {
+	color = rgb { 107 113 123 }
+	color_ui = rgb { 107 113 123 }
+}
+
 FSK = {
 	color = rgb { 128 128 128 }
 	color_ui = rgb { 128 128 128 }
@@ -621,6 +631,11 @@ KAB = {
 	color_ui = rgb { 186 157 27 }
 }
 
+KAC = {
+	color = rgb { 102 2 60 }
+	color_ui = rgb { 102 2 60 }
+}
+
 KAD = {
 	color = rgb { 199 133 52 }
 	color_ui = rgb { 199 133 52 }
@@ -644,6 +659,11 @@ KAL = {
 KAM = {
 	color = rgb { 167 0 3 }
 	color_ui = rgb { 167 0 3 }
+}
+
+KAN = {
+	color = rgb { 0 148 255 }
+	color_ui = rgb { 0 148 255 }
 }
 
 KAS = {
@@ -1264,6 +1284,11 @@ VED = {
 VEL = {
 	color = rgb { 143 0 0 }
 	color_ui = rgb { 143 0 0 }
+}
+
+VEN = {
+	color = rgb { 104 130 145 }
+	color_ui = rgb { 104 130 145 }
 }
 
 VER = {

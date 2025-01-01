@@ -1,0 +1,16 @@
+state={
+	id=1333
+	name="STATE_1333"
+	provinces={
+		2086 2131 2428 2889 3451 3966 4764 5877 8544 8567 8576 8592 8599 8602 8609 8635 8681 8707 8734
+	}
+	buildings_max_level_factor=1.000
+		manpower=1
+		state_category = town
+	history={
+		owner = FLR
+		buildings = {
+		}
+		add_core_of = FLR
+	}
+}

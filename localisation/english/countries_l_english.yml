@@ -255,6 +255,10 @@
  AYT_absolutist_DEF:1 "the Ayterion"
  AYT_absolutist_ADJ:0 "Ayterian"
  
+ AZA_absolutist:1 "Azalea"
+ AZA_absolutist_DEF:1 "the Azalea"
+ AZA_absolutist_ADJ:0 "Azalean"
+ 
  AZE_absolutist:1 "Azeraan Federation"
  AZE_absolutist_DEF:1 "the Azeraan Federation"
  AZE_absolutist_ADJ:0 "Azeraani"
@@ -573,6 +577,10 @@
  FLO_absolutist_DEF:1 "the Floodhaven"
  FLO_absolutist_ADJ:0 "Floodhavian"
  
+ FLR_absolutist:1 "Kingdom of Florasia"
+ FLR_absolutist_DEF:1 "the Kingdom of Florasia"
+ FLR_absolutist_ADJ:0 "Florasian"
+ 
  FSK_absolutist:1 "Grand Empire of Fisk"
  FSK_absolutist_DEF:1 "the Grand Empire of Fisk"
  FSK_absolutist_ADJ:0 "Fiskian"
@@ -693,6 +701,10 @@
  KAB_absolutist_DEF:1 "the City State of Kabechazzaar"
  KAB_absolutist_ADJ:0 "Kabechazzaaric"
  
+ KAC_absolutist:1 "Imperial Sovereignty of Karsica"
+ KAC_absolutist_DEF:1 "the Imperial Sovereignty of Karsica"
+ KAC_absolutist_ADJ:0 "Karsican"
+ 
  KAD_absolutist:1 "Imperial Crownlands of Kaddu"
  KAD_absolutist_DEF:1 "the Imperial Crownlands of Kaddu"
  KAD_absolutist_ADJ:0 "Kaddian"
@@ -712,6 +724,10 @@
  KAM_absolutist:1 "Kapteniat of Kamtargaa"
  KAM_absolutist_DEF:1 "the Kapteniat of Kamtargaa"
  KAM_absolutist_ADJ:0 "Kamtargaan"
+ 
+ KAN_absolutist:1 "Kanaan Kingdoms"
+ KAN_absolutist_DEF:1 "the Kanaan Kingdoms"
+ KAN_absolutist_ADJ:0 "Kanaan"
  
  KAS_absolutist:1 "Federal Republic of Kassylia"
  KAS_absolutist_DEF:1 "the Federal Republic of Kassylia"
@@ -1353,6 +1369,10 @@
  VEL_absolutist:1 "Grand Duchy of Veliskya"
  VEL_absolutist_DEF:1 "the Grand Duchy of Veliskya"
  VEL_absolutist_ADJ:0 "Veliskyan"
+ 
+ VEN_absolutist:1 "Venia Kingdom"
+ VEN_absolutist_DEF:1 "the Venia Kingdom"
+ VEN_absolutist_ADJ:0 "Venian"
  
  VER_absolutist:1 "Vermerian Domain"
  VER_absolutist_DEF:1 "the Vermerian Domain"

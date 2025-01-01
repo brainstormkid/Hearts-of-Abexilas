@@ -1,0 +1,16 @@
+state={
+	id=1329
+	name="STATE_1329"
+	provinces={
+		634 2321 3899 5307 5366 6659 8667 8668 8688 8698 8699 8700 8751 8777 8786
+	}
+	buildings_max_level_factor=1.000
+		manpower=1
+		state_category = town
+	history={
+		owner = VEN
+		buildings = {
+		}
+		add_core_of = VEN
+	}
+}
