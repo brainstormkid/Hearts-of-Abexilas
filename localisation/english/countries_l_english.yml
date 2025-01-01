@@ -255,6 +255,10 @@
  AYT_absolutist_DEF:1 "the Ayterion"
  AYT_absolutist_ADJ:0 "Ayterian"
  
+ AZA_absolutist:1 "Azalea"
+ AZA_absolutist_DEF:1 "the Azalea"
+ AZA_absolutist_ADJ:0 "Azalean"
+ 
  AZE_absolutist:1 "Azeraan Federation"
  AZE_absolutist_DEF:1 "the Azeraan Federation"
  AZE_absolutist_ADJ:0 "Azeraani"

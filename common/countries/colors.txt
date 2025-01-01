@@ -216,6 +216,11 @@ AYT = {
 	color_ui = rgb { 120 181 79 }
 }
 
+AZA = {
+	color = rgb { 223 179 252 }
+	color_ui = rgb { 223 179 252 }
+}
+
 AZU = {
 	color = rgb { 58 76 75 }
 	color_ui = rgb { 58 76 75 }
