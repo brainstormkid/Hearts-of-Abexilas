@@ -26,7 +26,9 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = absolutist_subtype
 	traits = {
-		#
+		Dictator
+		Imperial_Connections
+		Dealbroker
 	}
 }
 
@@ -37,7 +39,9 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = centrist_subtype
 	traits = {
-		#
+		Dictator
+		Imperial_Connections
+		Dealbroker
 	}
 }
 
@@ -52,4 +56,7 @@ create_country_leader = {
 	}
 }
 
-set_convoys = 15
+set_stability = 0.85
+set_war_support = 0.60
+add_manpower = 980000
+set_convoys = 25
