@@ -147,6 +147,7 @@
  STATE_176:0 "Atraya"
  STATE_177:0 "Pyrgoipol"
  STATE_178:0 "Visegrad"
+ STATE_179:0 "West Shixakara"
  STATE_180:0 "Northern Dorn-Khazrak"
  STATE_181:0 "Chizercu Island"
  STATE_184:0 "Patsdam Nord"
@@ -961,5 +962,8 @@
  STATE_1315:0 "Heraklea"
  STATE_1316:0 "Viridian"
  STATE_1317:0 "Corrigan"
+ STATE_1326:0 "East Shixakara"
+ STATE_1330:0 "Kurūnun"
+ STATE_1331:0 "Glyndworth"
  STATE_1333:0 "Florasia"
  

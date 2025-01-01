@@ -651,6 +651,11 @@ KAM = {
 	color_ui = rgb { 167 0 3 }
 }
 
+KAN = {
+	color = rgb { 0 148 255 }
+	color_ui = rgb { 0 148 255 }
+}
+
 KAS = {
 	color = rgb { 253 39 15 }
 	color_ui = rgb { 253 39 15 }
