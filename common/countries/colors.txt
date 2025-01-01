@@ -1276,6 +1276,11 @@ VEL = {
 	color_ui = rgb { 143 0 0 }
 }
 
+VEN = {
+	color = rgb { 104 130 145 }
+	color_ui = rgb { 104 130 145 }
+}
+
 VER = {
 	color = rgb { 76 234 255 }
 	color_ui = rgb { 76 234 255 }

@@ -1362,6 +1362,10 @@
  VEL_absolutist_DEF:1 "the Grand Duchy of Veliskya"
  VEL_absolutist_ADJ:0 "Veliskyan"
  
+ VEN_absolutist:1 "Venia Kingdom"
+ VEN_absolutist_DEF:1 "the Venia Kingdom"
+ VEN_absolutist_ADJ:0 "Venian"
+ 
  VER_absolutist:1 "Vermerian Domain"
  VER_absolutist_DEF:1 "the Vermerian Domain"
  VER_absolutist_ADJ:0 "Vermerian"
