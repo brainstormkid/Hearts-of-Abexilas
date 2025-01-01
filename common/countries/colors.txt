@@ -486,6 +486,11 @@ FLO = {
 	color_ui = rgb { 247 194 15 }
 }
 
+FLR = {
+	color = rgb { 107 113 123 }
+	color_ui = rgb { 107 113 123 }
+}
+
 FSK = {
 	color = rgb { 128 128 128 }
 	color_ui = rgb { 128 128 128 }
