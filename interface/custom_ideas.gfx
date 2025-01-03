@@ -1,5 +1,21 @@
 spriteTypes = {
 	SpriteType = {
+		name = "GFX_ideology_anarchist_group"
+		texturefile = gfx/interface/ideologies/anarchist_group.dds
+	}
+	SpriteType = {
+		name = "GFX_ideology_radical_socialist_group"
+		texturefile = gfx/interface/ideologies/radical_socialist_group.dds
+	}
+	SpriteType = {
+		name = "GFX_ideology_revisionist_group"
+		texturefile = gfx/interface/ideologies/revisionist_group.dds
+	}
+	SpriteType = {
+		name = "GFX_ideology_xeroist_group"
+		texturefile = gfx/interface/ideologies/xeroist_group.dds
+	}
+	SpriteType = {
 		name = "GFX_ideology_absolutist_group"
 		texturefile = gfx/interface/ideologies/absolutist_group.dds
 	}
