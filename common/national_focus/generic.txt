@@ -1586,7 +1586,7 @@ focus_tree = {
 
 	#Rebuild the Economy
 	focus = {
-		id = generic_focus_rebuild_the_economy
+		id = generic_focus_rebuild_the_economy1
 		icon = GFX_goal_generic_position_armies
 		x = 10
 		y = 4
@@ -1604,6 +1604,9 @@ focus_tree = {
 				add_idea = economic_collapse_1
 				remove_idea = economic_collapse
 			}
+		}
+		ai_will_do = {
+			base = 100
 		}
 	}
 
@@ -1632,7 +1635,7 @@ focus_tree = {
 
 	#Re-Centralize the Nation
 	focus = {
-		id = generic_focus_recentralize_the_nation
+		id = generic_focus_recentralize_the_nation1
 		icon = GFX_focus_generic_self_management
 		x = 10
 		y = 5
@@ -1647,6 +1650,29 @@ focus_tree = {
 				add_idea = economic_collapse_2
 				remove_idea = economic_collapse_1
 			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+	
+	#Economic Boost
+	focus = {
+		id = generic_focus_economic_boost
+		icon = GFX_focus_generic_self_management
+		x = 10
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = generic_focus_recentralize_the_nation1  }
+		
+		completion_reward = {
+			remove_ideas = economic_collapse_2
+		}
+		ai_will_do = {
+			base = 100
 		}
 	}
 

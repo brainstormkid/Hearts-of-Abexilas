@@ -1665,6 +1665,9 @@ focus_tree = {
 				remove_idea = economic_collapse
 			}
 		}
+		ai_will_do = {
+			base = 100
+		}
 	}
 
 	#Figher Effort
@@ -1707,6 +1710,29 @@ focus_tree = {
 				add_idea = economic_collapse_2
 				remove_idea = economic_collapse_1
 			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+	
+	#Economic Boost
+	focus = {
+		id = caerus_economic_boost
+		icon = GFX_focus_generic_self_management
+		x = 10
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = caerus_recentralize_the_nation  }
+		
+		completion_reward = {
+			remove_ideas = economic_collapse_2
+		}
+		ai_will_do = {
+			base = 100
 		}
 	}
 
