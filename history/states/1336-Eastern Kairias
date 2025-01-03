@@ -1,0 +1,24 @@
+state={
+	id=1336
+	name="STATE_1336"
+	provinces={
+		14273
+	}
+	buildings_max_level_factor=1.000
+        manpower=10000
+        state_category = rural
+	resources = {
+		steel = 1
+	}
+	history={
+		owner = SEL
+		buildings = {
+			industrial_complex = 1
+		}
+		add_core_of = SEL
+		add_core_of = MAR
+		victory_points = {
+			14273 5
+		}
+	}
+}
