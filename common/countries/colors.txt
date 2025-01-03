@@ -1276,6 +1276,11 @@ VAL = {
 	color_ui = rgb { 243 208 71 }
 }
 
+VAN = {
+	color = rgb { 98 196 98 }
+	color_ui = rgb { 98 196 98 }
+}
+
 VAR = {
 	color = rgb { 62 71 129 }
 	color_ui = rgb { 62 71 129 }

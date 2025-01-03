@@ -1349,6 +1349,10 @@
  VAL_absolutist_DEF:1 "the Kingdom of Valora"
  VAL_absolutist_ADJ:0 "Valoran"
  
+ VAN_absolutist:1 "Princedom of Valnitz"
+ VAN_absolutist_DEF:1 "the Princedom of Valnitz"
+ VAN_absolutist_ADJ:0 "Valén"
+ 
  VAR_absolutist:1 "Calidwarf-Varaxis"
  VAR_absolutist_DEF:1 "the Calidwarf-Varaxis"
  VAR_absolutist_ADJ:0 "Varaxian"
