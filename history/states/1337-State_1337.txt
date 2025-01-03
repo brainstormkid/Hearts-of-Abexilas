@@ -1,0 +1,16 @@
+state={
+	id=1337
+	name="STATE_1337"
+	provinces={
+		1543 1588 2316 2722 2827 3858 4332 5092 5401 6809 8378 8465 8471 8502 8505 8506 8547 8548
+	}
+	buildings_max_level_factor=1.000
+		manpower=1
+		state_category = town
+	history={
+		owner = KAT
+		buildings = {
+		}
+		add_core_of = KAT
+	}
+}

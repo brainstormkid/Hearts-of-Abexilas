@@ -671,6 +671,11 @@ KAS = {
 	color_ui = rgb { 253 39 15 }
 }
 
+KAT = {
+	color = rgb { 64 55 115 }
+	color_ui = rgb { 64 55 115 }
+}
+
 KEL = {
 	color = rgb { 88 249 81 }
 	color_ui = rgb { 88 249 81 }

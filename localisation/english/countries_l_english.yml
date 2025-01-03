@@ -733,6 +733,10 @@
  KAS_absolutist_DEF:1 "the Federal Republic of Kassylia"
  KAS_absolutist_ADJ:0 "Kassylian"
  
+ KAT_absolutist:1 "Union of Kasmiteia"
+ KAT_absolutist_DEF:1 "the Union of Kasmiteia"
+ KAT_absolutist_ADJ:0 "Kasmiteian"
+ 
  KEL_absolutist:1 "Kelpstine"
  KEL_absolutist_DEF:1 "the Kelpstine"
  KEL_absolutist_ADJ:0 "Kelpstinian"
