@@ -1,5 +1,5 @@
 focus_tree = {
-	id = qyn
+	id = QYN
 	continuous_focus_position = { x = 4520 y = 140 } 
 	country = {
 		factor = 0
