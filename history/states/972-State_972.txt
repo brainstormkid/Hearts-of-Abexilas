@@ -12,5 +12,6 @@ state={
 		buildings = {
 		}
 		add_core_of = VIN
+		add_core_of = CEL
 	}
 }
