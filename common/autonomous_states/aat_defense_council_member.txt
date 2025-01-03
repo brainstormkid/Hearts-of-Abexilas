@@ -44,16 +44,6 @@ autonomy_state = {
 
 	allowed = {
 		has_dlc = "Arms Against Tyranny"
-		OR = {
-			original_tag = NOR
-			original_tag = ICE
-			original_tag = DEN
-			original_tag = FIN
-		}
-
-		OVERLORD = {
-			original_tag = SWE
-		}
 	}
 	
 	can_take_level = {
