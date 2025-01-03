@@ -1211,6 +1211,11 @@ TRA = {
 	color_ui = rgb { 20 67 189 }
 }
 
+TSA = {
+	color = rgb { 248 100 94 }
+	color_ui = rgb { 248 100 94 }
+}
+
 TSI = {
 	color = rgb { 0 225 255 }
 	color_ui = rgb { 0 225 255 }

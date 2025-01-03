@@ -1273,6 +1273,10 @@
  TRA_absolutist_DEF:1 "the Admiralty of Trafalgar"
  TRA_absolutist_ADJ:0 "Trafalgan"
  
+ TSA_absolutist:1 "Şâhanşâhi of Tsâdrekâ"
+ TSA_absolutist_DEF:1 "the Şâhanşâhi of Tsâdrekâ"
+ TSA_absolutist_ADJ:0 "Tsadrek"
+ 
  TSI_absolutist:1 "Duchy of Tsiladen"
  TSI_absolutist_DEF:1 "the Duchy of Tsiladen"
  TSI_absolutist_ADJ:0 "Tsilad"
