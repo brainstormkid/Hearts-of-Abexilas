@@ -936,6 +936,10 @@
  MON_absolutist_DEF:1 "the Mercantile Republic of Monokleia"
  MON_absolutist_ADJ:0 "Monokleian"
  
+ MUR_absolutist:1 "Realm of Murim"
+ MUR_absolutist_DEF:1 "the Realm of Murim"
+ MUR_absolutist_ADJ:0 "Murian"
+ 
  MYD_absolutist:1 "Kingdom of Mydharii"
  MYD_absolutist_DEF:1 "the Kingdom of Mydharii"
  MYD_absolutist_ADJ:0 "Mydharyn"

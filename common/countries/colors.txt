@@ -866,6 +866,11 @@ MON = {
 	color_ui = rgb { 239 136 136 }
 }
 
+MUR = {
+	color = rgb { 183 149 47 }
+	color_ui = rgb { 183 149 47 }
+}
+
 MYD = {
 	color = rgb { 107 72 131 }
 	color_ui = rgb { 107 72 131 }
