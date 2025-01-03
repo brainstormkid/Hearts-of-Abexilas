@@ -686,6 +686,11 @@ KIC = {
 	color_ui = rgb { 173 110 186 }
 }
 
+KIN = {
+	color = rgb { 94 190 255 }
+	color_ui = rgb { 94 190 255 }
+}
+
 KHA = {
 	color = rgb { 247 163 145 }
 	color_ui = rgb { 247 163 145 }

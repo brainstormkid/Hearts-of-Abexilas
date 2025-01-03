@@ -745,6 +745,10 @@
  KIC_absolutist_DEF:1 "the City State of Kiche"
  KIC_absolutist_ADJ:0 "Kiche"
  
+ KIN_absolutist:1 "Kingsløndier"
+ KIN_absolutist_DEF:1 "the Kingsløndier"
+ KIN_absolutist_ADJ:0 "Kingsløndian"
+ 
  KHA_absolutist:1 "Karzinite of Khanen"
  KHA_absolutist_DEF:1 "the Karzinite of Khanen"
  KHA_absolutist_ADJ:0 "Kamtargari"
