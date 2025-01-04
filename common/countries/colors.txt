@@ -571,6 +571,11 @@ HEM = {
 	color_ui = rgb { 121 226 128 }
 }
 
+HER = {
+	color = rgb { 174 62 216 }
+	color_ui = rgb { 174 62 216 }
+}
+
 HEZ = {
 	color = rgb { 175 158 98 }
 	color_ui = rgb { 175 158 98 }
