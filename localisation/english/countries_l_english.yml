@@ -646,6 +646,10 @@
  HEM_absolutist:1 "Helmerian Empire"
  HEM_absolutist_DEF:1 "the Helmerian Empire"
  HEM_absolutist_ADJ:0 "Helmerian"
+
+ HER_absolutist:1 "Herlundy"
+ HER_absolutist_DEF:1 "the Herlundy"
+ HER_absolutist_ADJ:0 "Herlundian"
  
  HEZ_absolutist:1 "Sacred Land of Hezion"
  HEZ_absolutist_DEF:1 "the Sacred Land of Hezion"
