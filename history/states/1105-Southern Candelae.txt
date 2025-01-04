@@ -1,6 +1,6 @@
 state={
 	id=1105
-	name="Southern Candelae"
+	name="STATE_1105"
 	provinces={
 		15344 15345 15346 15347 15348 15349 15350 15351 15352
 	}
