@@ -1,0 +1,11 @@
+continents = {
+	Caerus
+	Norvinia
+	Tanragh
+	Iristoya
+	Talasi
+	Cathramis
+	Halinn
+	Rozakkora
+	Kejafros
+}
