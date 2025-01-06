@@ -1001,6 +1001,11 @@ PAR = {
 	color_ui = rgb { 228 107 28 }
 }
 
+PER = {
+	color = rgb { 178 184 177 }
+	color_ui = rgb { 178 184 177 }
+}
+
 POL = {
 	color = rgb { 239 73 73 }
 	color_ui = rgb { 239 73 73 }

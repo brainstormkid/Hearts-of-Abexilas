@@ -1081,6 +1081,10 @@
  PAR_absolutist_DEF:1 "the Kingdom of Paraíso"
  PAR_absolutist_ADJ:0 "Paraísan"
  
+ PER_absolutist:1 "Empire of Perithia"
+ PER_absolutist_DEF:1 "the Empire of Perithia"
+ PER_absolutist_ADJ:0 "Perithian"
+ 
  POL_absolutist:1 "Duchy of Polonizia"
  POL_absolutist_DEF:1 "the Duchy of Polonizia"
  POL_absolutist_ADJ:0 "Polonizi"
