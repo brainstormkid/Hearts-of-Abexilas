@@ -93,6 +93,10 @@
  ALA_absolutist_DEF:1 "the Caliphate of Alamara"
  ALA_absolutist_ADJ:0 "Alamari"
  
+ ALD_absolutist:1 "Aladosyn Trading Company"
+ ALD_absolutist_DEF:1 "the Aladosyn Trading Company"
+ ALD_absolutist_ADJ:0 "Aladosyn"
+ 
  ALN_absolutist:1 "Sratóra an Alanío"
  ALN_absolutist_DEF:1 "the Sratóra an Alanío"
  ALN_absolutist_ADJ:0 "Alani"

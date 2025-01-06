@@ -60,6 +60,11 @@ ALA = {
 	color_ui = rgb { 103 192 82 }
 }
 
+ALD = {
+	color = rgb { 0 245 216 }
+	color_ui = rgb { 0 245 216 }
+}
+
 ALN = {
 	color = rgb { 211 122 63 }
 	color_ui = rgb { 211 122 63 }
