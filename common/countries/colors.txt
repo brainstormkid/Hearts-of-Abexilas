@@ -971,6 +971,11 @@ ORO = {
 	color_ui = rgb { 87 34 140 }
 }
 
+OSE = {
+	color = rgb { 255 187 0 }
+	color_ui = rgb { 255 187 0 }
+}
+
 OSM = {
 	color = rgb { 214 193 126 }
 	color_ui = rgb { 214 193 126 }

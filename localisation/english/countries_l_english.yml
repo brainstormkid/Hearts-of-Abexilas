@@ -1057,6 +1057,10 @@
  ORO_absolutist_DEF:1 "the Viă Orȯ Pora"
  ORO_absolutist_ADJ:0 "Orovian"
  
+ OSE_absolutist:1 "Osteria"
+ OSE_absolutist_DEF:1 "the Osteria"
+ OSE_absolutist_ADJ:0 "Osterian"
+ 
  OSM_absolutist:1 "House Osmier"
  OSM_absolutist_DEF:1 "the House Osmier"
  OSM_absolutist_ADJ:0 "Osmian"
