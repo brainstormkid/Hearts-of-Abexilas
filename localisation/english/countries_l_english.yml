@@ -251,6 +251,10 @@
  AVE_absolutist_DEF:1 "the United Realms of Avedora"
  AVE_absolutist_ADJ:0 "Avedoran"
  
+ AVI_absolutist:1 "Queendom of Avidan"
+ AVI_absolutist_DEF:1 "the Queendom of Avidan"
+ AVI_absolutist_ADJ:0 "Avidan"
+ 
  AXE_absolutist:1 "Third Kingdom of Axelm"
  AXE_absolutist_DEF:1 "the Third Kingdom of Axelm"
  AXE_absolutist_ADJ:0 "Axelmian"
@@ -366,6 +370,10 @@
  COY_absolutist:1 "Republic of Corry"
  COY_absolutist_DEF:1 "the Republic of Corry"
  COY_absolutist_ADJ:0 "Corrian"
+ 
+ CYR_absolutist:1 "Empire of Cyrndur"
+ CYR_absolutist_DEF:1 "the Empire of Cyrndur"
+ CYR_absolutist_ADJ:0 "Cyrndurian"
  
  DAE_absolutist:1 "DaeConian Empire"
  DAE_absolutist_DEF:1 "the DaeConian Empire"

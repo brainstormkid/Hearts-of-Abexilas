@@ -206,6 +206,11 @@ AVE = {
 	color_ui = rgb { 255 227 130 }
 }
 
+AVI = {
+	color = rgb { 190 88 222 }
+	color_ui = rgb { 190 88 222 }
+}
+
 AXE = {
 	color = rgb { 14 98 6 }
 	color_ui = rgb { 14 98 6 }
@@ -354,6 +359,11 @@ COV = {
 COY = {
 	color = rgb { 105 123 232 }
 	color_ui = rgb { 105 123 232 }
+}
+
+CYR = {
+	color = rgb { 250 188 17 }
+	color_ui = rgb { 250 188 17 }
 }
 
 DAE = {
