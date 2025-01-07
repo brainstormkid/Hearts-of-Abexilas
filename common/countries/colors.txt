@@ -521,6 +521,11 @@ FLR = {
 	color_ui = rgb { 107 113 123 }
 }
 
+FRO = {
+	color = rgb { 55 89 123 }
+	color_ui = rgb { 55 89 123 }
+}
+
 FSK = {
 	color = rgb { 128 128 128 }
 	color_ui = rgb { 128 128 128 }
@@ -1054,6 +1059,11 @@ QYN = {
 RAM = {
 	color = rgb { 223 238 113 }
 	color_ui = rgb { 223 238 113 }
+}
+
+RED = {
+	color = rgb { 28 220 237 }
+	color_ui = rgb { 28 220 237 }
 }
 
 REG = {

@@ -601,6 +601,10 @@
  FLR_absolutist_DEF:1 "the Kingdom of Florasia"
  FLR_absolutist_ADJ:0 "Florasian"
  
+ FRO_absolutist:1 "Principality of Frosmyre"
+ FRO_absolutist_DEF:1 "the Principality of Frosmyre"
+ FRO_absolutist_ADJ:0 "Frosmyrian"
+ 
  FSK_absolutist:1 "Grand Empire of Fisk"
  FSK_absolutist_DEF:1 "the Grand Empire of Fisk"
  FSK_absolutist_ADJ:0 "Fiskian"
@@ -1124,6 +1128,10 @@
  RAM_absolutist:1 "Republic of Rema"
  RAM_absolutist_DEF:1 "the Republic of Rema"
  RAM_absolutist_ADJ:0 "Reman"
+ 
+ RED_absolutist:1 "Kingdom of Redovia"
+ RED_absolutist_DEF:1 "the Kingdom of Redovia"
+ RED_absolutist_ADJ:0 "Redovian"
  
  REG_absolutist:1 "Regnum Aquilarum"
  REG_absolutist_DEF:1 "the Regnum Aquilarum"
