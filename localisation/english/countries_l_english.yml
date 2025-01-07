@@ -702,6 +702,10 @@
  ISH_absolutist_DEF:1 "the Empire of Ischanor"
  ISH_absolutist_ADJ:0 "Ischanori"
  
+ JAT_absolutist:1 "United Houses of Jatatokai"
+ JAT_absolutist_DEF:1 "the United Houses of Jatatokai"
+ JAT_absolutist_ADJ:0 "Jatatokaian"
+ 
  JAZ_absolutist:1 "Yimra ze Jarazeh"
  JAZ_absolutist_DEF:1 "the Yimra ze Jarazeh"
  JAZ_absolutist_ADJ:0 "Jarazeh"

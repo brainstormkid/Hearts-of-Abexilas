@@ -636,6 +636,11 @@ ISH = {
 	color_ui = rgb { 150 0 0 }
 }
 
+JAT = {
+	color = rgb { 107 28 47 }
+	color_ui = rgb { 107 28 47 }
+}
+
 JAZ = {
 	color = rgb { 193 39 45 }
 	color_ui = rgb { 193 39 45 }
