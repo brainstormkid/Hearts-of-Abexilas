@@ -271,6 +271,11 @@ BOV = {
 	color_ui = rgb { 167 208 244 }
 }
 
+BRA = {
+	color = rgb { 245 130 0 }
+	color_ui = rgb { 245 130 0 }
+}
+
 BRU = {
 	color = rgb { 255 255 255 }
 	color_ui = rgb { 255 255 255 }

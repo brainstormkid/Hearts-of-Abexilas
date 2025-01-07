@@ -303,6 +303,10 @@
  BOV_absolutist_DEF:1 "the Bovinica"
  BOV_absolutist_ADJ:0 "Bovinican"
  
+ BRA_absolutist:1 "Bravadere"
+ BRA_absolutist_DEF:1 "the Bravadere"
+ BRA_absolutist_ADJ:0 "Bravaderen"
+ 
  BRU_absolutist:1 "Empire of Brukel"
  BRU_absolutist_DEF:1 "the Empire of Brukel"
  BRU_absolutist_ADJ:0 "Brukeli"
