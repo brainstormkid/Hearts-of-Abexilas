@@ -641,6 +641,11 @@ JAZ = {
 	color_ui = rgb { 193 39 45 }
 }
 
+JON = {
+	color = rgb { 234 131 120 }
+	color_ui = rgb { 234 131 120 }
+}
+
 JOR = {
 	color = rgb { 16 119 104 }
 	color_ui = rgb { 16 119 104 }
