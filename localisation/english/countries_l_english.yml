@@ -207,6 +207,10 @@
  ARR_absolutist_DEF:1 "the Arkania"
  ARR_absolutist_ADJ:0 "Arkanian"
  
+ ARS_absolutist:1 "Kratoria en Aristios"
+ ARS_absolutist_DEF:1 "the Kratoria en Aristios"
+ ARS_absolutist_ADJ:0 "Aristii"
+ 
  ART_absolutist:1 "Holy Sanctuary of Arratis"
  ART_absolutist_DEF:1 "the Holy Sanctuary of Arratis"
  ART_absolutist_ADJ:0 "Arratian"

@@ -150,6 +150,11 @@ ARR = {
 	color_ui = rgb { 0 47 105 }
 }
 
+ARS = {
+	color = rgb { 150 47 152 }
+	color_ui = rgb { 150 47 152 }
+}
+
 ART = {
 	color = rgb { 244 189 49 }
 	color_ui = rgb { 244 189 49 }
