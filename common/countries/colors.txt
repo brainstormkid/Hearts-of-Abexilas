@@ -416,6 +416,11 @@ DRA = {
 	color_ui = rgb { 148 210 61 }
 }
 
+DRC = {
+	color = rgb { 201 183 219 }
+	color_ui = rgb { 201 183 219 }
+}
+
 DRE = {
 	color = rgb { 89 30 30 }
 	color_ui = rgb { 89 30 30 }

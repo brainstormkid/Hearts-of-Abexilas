@@ -424,6 +424,10 @@
  DRA_absolutist_DEF:1 "the Drak Yamar"
  DRA_absolutist_ADJ:0 "Draconian"
  
+ DRC_absolutist:1 "Kingdom of Drackar"
+ DRC_absolutist_DEF:1 "the Kingdom of Drackar"
+ DRC_absolutist_ADJ:0 "Drackarian"
+ 
  DRE_absolutist:1 "DreadVought Imperium"
  DRE_absolutist_DEF:1 "the DreadVought Imperium"
  DRE_absolutist_ADJ:0 "Dreadvoughtian"
