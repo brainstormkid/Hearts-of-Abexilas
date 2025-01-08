@@ -511,6 +511,11 @@ FER = {
 	color_ui = rgb { 106 179 212 }
 }
 
+FLA = {
+	color = rgb { 243 168 113 }
+	color_ui = rgb { 243 168 113 }
+}
+
 FLO = {
 	color = rgb { 247 194 15 }
 	color_ui = rgb { 247 194 15 }

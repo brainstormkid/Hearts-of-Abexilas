@@ -593,6 +593,10 @@
  FER_absolutist_DEF:1 "the Fernwen Consortium"
  FER_absolutist_ADJ:0 "Fernwian"
  
+ FLA_absolutist:1 "Magnudom of Flanderia"
+ FLA_absolutist_DEF:1 "the Magnudom of Flanderia"
+ FLA_absolutist_ADJ:0 "Flanders"
+ 
  FLO_absolutist:1 "Floodhaven"
  FLO_absolutist_DEF:1 "the Floodhaven"
  FLO_absolutist_ADJ:0 "Floodhavian"
