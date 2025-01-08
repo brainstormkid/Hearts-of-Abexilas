@@ -749,6 +749,10 @@
  KAD_absolutist_DEF:1 "the Imperial Crownlands of Kaddu"
  KAD_absolutist_ADJ:0 "Kaddian"
  
+ KAE_absolutist:1 "Celestial City-State of Kaliné"
+ KAE_absolutist_DEF:1 "the Celestial City-State of Kaliné"
+ KAE_absolutist_ADJ:0 "Kalinyn"
+ 
  KAI_absolutist:1 "Daranate of Kaizra"
  KAI_absolutist_DEF:1 "the Daranate of Kaizra"
  KAI_absolutist_ADJ:0 "Kaizran"
