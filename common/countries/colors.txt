@@ -201,6 +201,11 @@ AUR = {
 	color_ui = rgb { 119 29 109 }
 }
 
+AUS = {
+	color = rgb { 170 79 76 }
+	color_ui = rgb { 170 79 76 }
+}
+
 AVA = {
 	color = rgb { 139 0 0 }
 	color_ui = rgb { 139 0 0 }

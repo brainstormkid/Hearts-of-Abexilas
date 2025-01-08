@@ -247,6 +247,10 @@
  AUR_absolutist_DEF:1 "the República de Aurumflora"
  AUR_absolutist_ADJ:0 "Aurumfloran"
  
+ AUS_absolutist:1 "Auspizien"
+ AUS_absolutist_DEF:1 "the Auspizien"
+ AUS_absolutist_ADJ:0 "Auspizian"
+ 
  AVA_absolutist:1 "Empire of Avalor"
  AVA_absolutist_DEF:1 "the Empire of Avalor"
  AVA_absolutist_ADJ:0 "Avaloran"
