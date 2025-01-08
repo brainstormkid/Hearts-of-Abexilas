@@ -1559,6 +1559,10 @@
  YUS_liberalist_DEF:1 "the Yun-Tsau Army"
  YUS_liberalist_ADJ:0 "Yun-Tsauen"
  
+ YVR_absolutist:1 "Empire of Yvres"
+ YVR_absolutist_DEF:1 "the Empire of Yvres"
+ YVR_absolutist_ADJ:0 "Yvrian"
+ 
  ZAI_absolutist:1 "Eternal Dominion of Zaidan"
  ZAI_absolutist_DEF:1 "the Eternal Dominion of Zaidan"
  ZAI_absolutist_ADJ:0 "Zaidian"

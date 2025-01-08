@@ -1466,6 +1466,11 @@ YUS = {
 	color_ui = rgb { 120 161 194 }
 }
 
+YVR = {
+	color = rgb { 220 171 70 }
+	color_ui = rgb { 220 171 70 }
+}
+
 ZAI = {
 	color = rgb { 151 78 32 }
 	color_ui = rgb { 151 78 32 }
