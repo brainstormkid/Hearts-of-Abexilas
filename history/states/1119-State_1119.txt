@@ -5,10 +5,25 @@ state={
 		1139 3640 3736 4402 5501 5776 14917 14939 14947 14985
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1200000
+        state_category = city
+	buildings = {
+		infrastructure = 3
+		industrial_complex = 1
+		arms_factory = 1
+		dockyard = 2
+	}
 	history={
 		owner = RIM
 		add_core_of = RIM
+		victory_points = { 3640 50 }
+		victory_points = { 4402 30 }
 	}
+	
+	resources = {		
+		oil = 5
+		aluminium = 2
+		rubber = 5
+		tungsten = 1
+	}	
 }
