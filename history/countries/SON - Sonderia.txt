@@ -25,3 +25,8 @@ set_autonomy = {
 	target = GBA
 	autonomous_state = autonomy_puppet
 }
+
+set_autonomy = {
+	target = GOL
+	autonomous_state = autonomy_puppet
+}
