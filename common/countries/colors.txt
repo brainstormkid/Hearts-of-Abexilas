@@ -776,6 +776,11 @@ KHR = {
 	color_ui = rgb { 96 111 174 }
 }
 
+KHS = {
+	color = rgb { 220 217 210 }
+	color_ui = rgb { 220 217 210 }
+}
+
 KON = {
 	color = rgb { 133 26 20 }
 	color_ui = rgb { 133 26 20 }

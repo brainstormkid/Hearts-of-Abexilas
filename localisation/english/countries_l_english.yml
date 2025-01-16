@@ -817,6 +817,10 @@
  KHR_absolutist_DEF:1 "the Kingdom of Khrumaz"
  KHR_absolutist_ADJ:0 "Khrumazi"
  
+ KHS_absolutist:1 "Khashiva"
+ KHS_absolutist_DEF:1 "the Khashiva"
+ KHS_absolutist_ADJ:0 "Khashivan"
+ 
  KON_absolutist:1 "L'Atoanate Sitiden Demokratike d'Kongrego"
  KON_absolutist_DEF:1 "the L'Atoanate Sitiden Demokratike d'Kongrego"
  KON_absolutist_ADJ:0 "Kongregan"

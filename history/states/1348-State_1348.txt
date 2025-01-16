@@ -1,0 +1,16 @@
+state={
+	id=1348
+	name="STATE_1348"
+	provinces={
+		573 2387 6527 14561 14592 14604 14632 14676 14682 14690 14712
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = KHS
+		buildings = {
+		}
+		add_core_of = KHS
+	}
+}
