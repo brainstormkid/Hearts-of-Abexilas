@@ -462,6 +462,10 @@
  ELD_absolutist:1 "Kingdom of Eldorath"
  ELD_absolutist_DEF:1 "the Kingdom of Eldorath"
  ELD_absolutist_ADJ:0 "Eldorathi"
+ 
+ ELO_absolutist:1 "Kingdom of Eldoria"
+ ELO_absolutist_DEF:1 "the Kingdom of Eldoria"
+ ELO_absolutist_ADJ:0 "Eldorian"
 
  EMP_absolutist:1 "Emporium Company"
  EMP_absolutist_DEF:1 "the Emporium Company"

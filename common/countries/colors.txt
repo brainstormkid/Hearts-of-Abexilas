@@ -461,6 +461,11 @@ ELD = {
 	color_ui = rgb { 0 168 107 }
 }
 
+ELO = {
+	color = rgb { 98 72 94 }
+	color_ui = rgb { 98 72 94 }
+}
+
 EMP = {
 	color = rgb { 229 184 11 }
 	color_ui = rgb { 229 184 11 }
