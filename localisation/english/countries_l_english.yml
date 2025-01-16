@@ -1498,6 +1498,10 @@
  VRI_absolutist_DEF:1 "the Vrijsted Confederation"
  VRI_absolutist_ADJ:0 "Vrijstedian"
  
+ WAD_absolutist:1 "Great Parasol of Wadiwaya"
+ WAD_absolutist_DEF:1 "The Great Parasol of Wadiwaya"
+ WAD_absolutist_ADJ:0 "Wadiwayan"
+ 
  XUA_absolutist:1 "Xuán Dynasty"
  XUA_absolutist_DEF:1 "The Xuán Dynasty"
  XUA_absolutist_ADJ:0 "Xuán"

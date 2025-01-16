@@ -1436,6 +1436,11 @@ VIR = {
 	color_ui = rgb { 67 0 0 }
 }
 
+WAD = {
+	color = rgb { 244 21 244 }
+	color_ui = rgb { 244 21 244 }
+}
+
 XUA = {
 	color = rgb { 207 185 164 }
 	color_ui = rgb { 207 185 164 }
