@@ -533,6 +533,10 @@
  ERC_radical_nationalist_DEF:1 "the State of Ertcof"
  ERC_radical_nationalist_ADJ:0 "Ertcofi"
  
+ ERE_absolutist:1 "Erendell"
+ ERE_absolutist_DEF:1 "the Erendell"
+ ERE_absolutist_ADJ:0 "Erendell"
+ 
  ERI_absolutist:1 "Eridonia"
  ERI_absolutist_DEF:1 "the Eridonia"
  ERI_absolutist_ADJ:0 "Eridonian"
@@ -1444,6 +1448,10 @@
  VAS_absolutist_DEF:1 "the City State Of Vastaros"
  VAS_absolutist_ADJ:0 "Vastarosan"
  
+ VDA_absolutist:1 "Kingdom of Verdania"
+ VDA_absolutist_DEF:1 "the Kingdom of Verdania"
+ VDA_absolutist_ADJ:0 "Verdania"
+ 
  VEA_absolutist:1 "City-Republic of Velarim"
  VEA_absolutist_DEF:1 "the City-Republic of Velarim"
  VEA_absolutist_ADJ:0 "Velarimen"
@@ -1610,7 +1618,3 @@
  ZUR_absolutist:1 "Tyros of Zuritan"
  ZUR_absolutist_DEF:1 "the Tyros of Zuritan"
  ZUR_absolutist_ADJ:0 "Zuritanian"
- 
- VDA_absolutist:1 "Kingdom of Verdania"
- VDA_absolutist_DEF:1 "the Kingdom of Verdania"
- VDA_absolutist_ADJ:0 "Verdania"
