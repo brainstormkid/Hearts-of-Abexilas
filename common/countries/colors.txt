@@ -1530,3 +1530,8 @@ ZUR = {
 	color = rgb { 14 30 120 }
 	color_ui = rgb { 14 30 120 }
 }
+VDA = {
+	color = rgb { 213 227 225 }
+	color_ui = rgb { 213 227 225 }
+}
+
