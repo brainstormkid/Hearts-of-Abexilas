@@ -1510,6 +1510,10 @@
  VLA_absolutist_DEF:1 "the State of Vladistan"
  VLA_absolutist_ADJ:0 "Vladistani"
  
+ VOL_absolutist:1 "Volkmor"
+ VOL_absolutist_DEF:1 "the Volkmor"
+ VOL_absolutist_ADJ:0 "Volkmor"
+ 
  VRI_absolutist:1 "Vrijsted Confederation"
  VRI_absolutist_DEF:1 "the Vrijsted Confederation"
  VRI_absolutist_ADJ:0 "Vrijstedian"

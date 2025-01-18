@@ -1538,3 +1538,7 @@ ERE = {
 	color = rgb { 255 64 0 }
 	color_ui = rgb { 255 64 0 }
 }
+VOL = {
+	color = rgb { 154 219 107 }
+	color_ui = rgb { 154 219 107 }
+}
