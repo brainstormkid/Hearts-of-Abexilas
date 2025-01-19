@@ -1,4 +1,4 @@
-﻿capital = 517
+capital = 517
 
 oob = "PAR"
 
@@ -14,9 +14,9 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	absolutist = 100
-	centrist = 0
-	Theocratist = 0
+	absolutist = 80
+	Imperialist = 10
+	liberalist = 10
 }
 
 create_country_leader = {
@@ -37,11 +37,11 @@ create_country_leader = {
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	picture = "gfx/leaders/PAR/Partybro.dds"
 	expire = "1965.1.1"
-	ideology = centrist_subtype
+	ideology = liberalist_subtype
 	traits = {
-		Dictator
-		Imperial_Connections
-		Dealbroker
+		Popular_Figurehead
+		Economic_Reformer
+		Great_Survivor
 	}
 }
 
@@ -50,7 +50,7 @@ create_country_leader = {
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	picture = "gfx/leaders/PAR/Saiko.dds"
 	expire = "1965.1.1"
-	ideology = Theocratist_subtype
+	ideology = Imperialist_subtype
 	traits = {
 		#
 	}

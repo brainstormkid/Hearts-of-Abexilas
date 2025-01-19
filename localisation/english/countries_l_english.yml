@@ -1132,6 +1132,9 @@
  PAR_absolutist:1 "Kingdom of Paraíso"
  PAR_absolutist_DEF:1 "the Kingdom of Paraíso"
  PAR_absolutist_ADJ:0 "Paraísan"
+ PAR_imperialist:1 "Kingdom of Artaine"
+ PAR_imperialist_DEF:1 "The Kingdom of Artaine"
+ PAR_imperialist_ADJ:0 "Artainians"
  
  PER_absolutist:1 "Empire of Perithia"
  PER_absolutist_DEF:1 "the Empire of Perithia"
