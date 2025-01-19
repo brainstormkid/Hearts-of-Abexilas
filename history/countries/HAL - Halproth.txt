@@ -11,9 +11,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "?"
+	name = " King Croakington"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/AEZ/Panda.dds"
+	picture = "gfx/leaders/HAL/Croakington.dds"
 	expire = "1965.1.1"
 	ideology = absolutist_subtype
 	traits = {
