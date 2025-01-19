@@ -18,6 +18,10 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		completion_reward = {
+		add_political_power = 25
+		add_stability = -0.2
+		}
 		mutually_exclusive = { focus = PAR_remembrance  } mutually_exclusive = { focus = PAR_rebuild_the_kingdom  }
 	}
 
@@ -100,7 +104,6 @@ focus_tree = {
             last_election = "1935.12.17"
             election_frequency = 0
           }
-		  set_global_flag = PAR_imperialist.tga
 		}
 		prerequisite = { focus = PAR_revitalize_cactus_farms  } prerequisite = { focus = PAR_expand_obsidian_forges  }
 	}
@@ -243,6 +246,11 @@ focus_tree = {
 		cost = 7
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+        set_cosmetic_tag =  PAR_liberalist
+		add_political_power = -50
+		add_stability = 0.2
 		}
 		prerequisite = { focus = PAR_the_fall_of_the_king  }
 	}

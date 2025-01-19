@@ -1143,6 +1143,9 @@
  PAR_imperialist:1 "Kingdom of Artaine"
  PAR_imperialist_DEF:1 "The Kingdom of Artaine"
  PAR_imperialist_ADJ:0 "Artainians"
+ PAR_liberalist:1 "Federal Republic of Paraíso"
+ PAR_liberalist_DEF:1 "The Federal Republic of Paraíso"
+ PAR_liberalist_ADJ:0 "Paraísan"
  
  PER_absolutist:1 "Empire of Perithia"
  PER_absolutist_DEF:1 "the Empire of Perithia"
