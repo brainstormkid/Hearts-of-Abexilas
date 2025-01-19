@@ -2,9 +2,22 @@ state={
 	id=770
 	name="STATE_770"
 	provinces={
-		2380 2614 3230 3802 4505 5389 12499 12522 12534 12562 12570 12586 12626 12668 12674
+		5389 12499 12522 12586 
 	}
+	manpower=1
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	state_category=town
+	history={
+		owner = VDA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VDA
+		victory_points = {
+			5389 10
+		}
+		victory_points = {
+			12586 5
+		}
+	}
 }
