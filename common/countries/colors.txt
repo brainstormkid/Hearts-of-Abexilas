@@ -496,6 +496,11 @@ ERC = {
 	color_ui = rgb { 206 166 93 }
 }
 
+ERE = {
+	color = rgb { 255 64 0 }
+	color_ui = rgb { 255 64 0 }
+}
+
 ERI = {
 	color = rgb { 225 89 48 }
 	color_ui = rgb { 225 89 48 }
@@ -609,6 +614,11 @@ GRE = {
 HAR = {
 	color = rgb { 75  0  110 }
 	color_ui = rgb { 75  0  110 }
+}
+
+HAL = {
+	color = rgb { 76 173 88 }
+	color_ui = rgb { 76 173 88 }
 }
 
 HEL = {
@@ -1386,6 +1396,11 @@ VAS = {
 	color_ui = rgb { 218 225 167 }
 }
 
+VDA = {
+	color = rgb { 213 227 225 }
+	color_ui = rgb { 213 227 225 }
+}
+
 VEA = {
 	color = rgb { 25 60 128 }
 	color_ui = rgb { 25 60 128 }
@@ -1444,6 +1459,11 @@ VIN = {
 VIR = {
 	color = rgb { 67 0 0 }
 	color_ui = rgb { 67 0 0 }
+}
+
+VOL = {
+	color = rgb { 154 219 107 }
+	color_ui = rgb { 154 219 107 }
 }
 
 WAD = {
@@ -1529,16 +1549,4 @@ ZIL = {
 ZUR = {
 	color = rgb { 14 30 120 }
 	color_ui = rgb { 14 30 120 }
-}
-VDA = {
-	color = rgb { 213 227 225 }
-	color_ui = rgb { 213 227 225 }
-}
-ERE = {
-	color = rgb { 255 64 0 }
-	color_ui = rgb { 255 64 0 }
-}
-VOL = {
-	color = rgb { 154 219 107 }
-	color_ui = rgb { 154 219 107 }
 }

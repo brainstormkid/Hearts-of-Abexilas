@@ -682,6 +682,10 @@
  HAR_absolutist:1 "Empire of Harpia"
  HAR_absolutist_DEF:1 "the Empire of Harpia"
  HAR_absolutist_ADJ:0 "Harpian"
+
+ HAL_absolutist:1 "Halproth"
+ HAL_absolutist_DEF:1 "the Halproth"
+ HAL_absolutist_ADJ:0 "Halproth"
  
  HEL_absolutist:1 "Grand Duchy of Helsetia"
  HEL_absolutist_DEF:1 "the Grand Duchy of Helsetia"
