@@ -54,4 +54,22 @@ on_actions = {
 			100 = election.15
 		}
 	}
+	
+	on_ruling_party_change = { # Note: the on action only runs after the game's start
+        effect = {
+            if = {
+                limit = {
+                    original_tag = PAR
+                    has_government = imperialist
+                }
+                set_cosmetic_tag = PAR_imperialist
+            }
+            else_if = {
+                limit = {
+                    original_tag = PAR
+                }
+                drop_cosmetic_tag = yes
+            }
+        }
+    }
 }

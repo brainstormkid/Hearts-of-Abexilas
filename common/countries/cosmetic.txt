@@ -1,0 +1,7 @@
+# Cosmetic File - Used for Formables and Color Changes
+
+PAR_imperialist = {
+	color = rgb { 73 67 130 }
+	color_ui = rgb { 73 67 130 }
+}
+
