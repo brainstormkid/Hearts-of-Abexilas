@@ -1,7 +1,17 @@
 # Cosmetic File - Used for Formables and Color Changes
 
+# Ideology Changes
+
+# Paraiso
+
 PAR_imperialist = {
 	color = rgb { 73 67 130 }
 	color_ui = rgb { 73 67 130 }
 }
 
+PAR_liberalist = {
+	color = rgb { 174 48 72 }
+	color_ui = rgb { 174 48 72 }
+}
+
+# Formables
