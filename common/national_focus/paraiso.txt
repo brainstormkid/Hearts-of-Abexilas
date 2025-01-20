@@ -380,7 +380,6 @@ focus_tree = {
 			add_manpower = 15000
 		}
 		prerequisite = { focus = PAR_establishtheparaisounion  }
-		mutually_exclusive = { focus = PAR_build_a_airforce  }
 	}
 
 	#Build A Airforce
