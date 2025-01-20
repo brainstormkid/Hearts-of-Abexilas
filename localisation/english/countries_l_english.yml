@@ -1277,6 +1277,10 @@
  SON_absolutist_DEF:1 "the Sonderia"
  SON_absolutist_ADJ:0 "Sonderian"
  
+ SPI_absolutist:1 "Spitfire"
+ SPI_absolutist_DEF:1 "the Spitfire"
+ SPI_absolutist_ADJ:0 "Spitfirian"
+ 
  STA_absolutist:1 "Holy Kingdom of Staslov"
  STA_absolutist_DEF:1 "the Holy Kingdom of Staslov"
  STA_absolutist_ADJ:0 "Staslovite"
