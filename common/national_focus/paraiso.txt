@@ -449,6 +449,11 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+			add_manpower = 25000
+		}
 		prerequisite = { focus = PAR_drag_in_partybro  }
 	}
 
@@ -461,6 +466,15 @@ focus_tree = {
 		cost = 20
 		search_filters = {
 			FOCUS_FILTER_STABILITY
+		}
+		completion_reward = {
+			add_political_power = 50
+		    add_stability = 0.2
+			add_building_construction = {
+                   type = infrastructure
+                   level = 3
+                   instant_build = yes
+                }
 		}
 		prerequisite = { focus = PAR_start_of_a_new_beginning  }
 	}
@@ -475,6 +489,20 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		completion_reward = {
+			add_political_power = -25
+		    add_stability = -0.1
+			add_building_construction = {
+                   type = infrastructure
+                   level = 2
+                   instant_build = yes
+                }
+				add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = industry
+		    }
+		}
 		prerequisite = { focus = PAR_realizing_our_purpose  }
 	}
 
@@ -487,6 +515,20 @@ focus_tree = {
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			add_political_power = -25
+		    add_war_support = 0.3
+			add_building_construction = {
+                   type = arms_factory
+                   level = 2
+                   instant_build = yes
+                }
+				add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = electronics
+		    }
 		}
 		prerequisite = { focus = PAR_a_stedfast_purpose  }
 	}
@@ -501,6 +543,15 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		completion_reward = {
+			add_political_power = 50
+		    add_stability = 0.2
+			add_building_construction = {
+                   type = dockyard
+                   level = 4
+                   instant_build = yes
+                }
+		}
 		prerequisite = { focus = PAR_ever_faithful_to_the_cause  }
 	}
 
@@ -514,6 +565,11 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
+		completion_reward = {
+		    add_stability = -0.3
+			add_war_support = 0.3
+			add_manpower = 15000
+        }
 		prerequisite = { focus = PAR_a_prelude_to_revenge  }
 	}
 
@@ -527,6 +583,15 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		completion_reward = {
+		    add_stability = -0.3
+			add_war_support = 0.3
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = air_techs
+			}
+		}
 		prerequisite = { focus = PAR_a_prelude_to_revenge  }
 	}
 
@@ -539,6 +604,15 @@ focus_tree = {
 		cost = 4
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+		    add_stability = -0.3
+			add_war_support = 0.3
+			add_building_construction = {
+                   type = dockyard
+                   level = 3
+                   instant_build = yes
+                }
 		}
 		prerequisite = { focus = PAR_a_prelude_to_revenge  }
 	}
@@ -787,6 +861,16 @@ focus_tree = {
 		cost = 4
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
+		}
+		completion_reward = {
+			add_political_power = -25
+		    add_stability = 0.2
+			add_building_construction = {
+                   type = arms_factory
+                   level = 2
+                   instant_build = yes
+                }
+				add_manpower = 15000
 		}
 		prerequisite = { focus = PAR_forwhatstocome  }
 	}
@@ -1205,6 +1289,10 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
+		completion_reward = {
+			add_political_power = 150
+			add_stability = 0.3
+		}
 		prerequisite = { focus = PAR_ready_the_guard  } prerequisite = { focus = PAR_ready_the_wings  } prerequisite = { focus = PAR_ready_the_sea  }
 	}
 
@@ -1217,6 +1305,12 @@ focus_tree = {
 		cost = 4
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
+		}
+		completion_reward = {
+			add_political_power = -50
+			add_stability = 0.2
+			add_war_support = 0.3
+			add_manpower = 25000
 		}
 		prerequisite = { focus = PAR_forwhatstocome  }
 	}
@@ -1231,6 +1325,12 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
+		completion_reward = {
+			add_political_power = -100
+			add_stability = 0.3
+			add_war_support = -0.1
+			add_manpower = 15000
+		}
 		prerequisite = { focus = PAR_drown_the_horde  }
 	}
 
@@ -1243,6 +1343,11 @@ focus_tree = {
 		cost = 7
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
+		}
+		completion_reward = {
+			add_political_power = -25
+			add_stability = -0.25
+			add_manpower = 25000
 		}
 		prerequisite = { focus = PAR_drown_the_horde  }
 	}
@@ -1257,6 +1362,12 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
+		completion_reward = {
+			add_political_power = 300
+			add_stability = -0.4
+			add_manpower = 30000
+			add_war_support = 0.3
+		}
 		prerequisite = { focus = PAR_forwhatstocome  }
 	}
 
@@ -1269,6 +1380,15 @@ focus_tree = {
 		cost = 2
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
+		}
+        completion_reward = {
+		add_political_power = 100
+		add_stability = 0.2
+		set_party_rule = {
+            ideology = liberalist
+            desc = TAG_my_rule_description
+            can_create_factions = yes
+			}
 		}
 		prerequisite = { focus = PAR_rage_against_the_dying_of_the_light  }
 	}
@@ -1283,6 +1403,11 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
+		completion_reward = {
+			add_political_power = -100
+			add_manpower = 15000
+			add_war_support = 0.3
+		}
 		prerequisite = { focus = PAR_remind_them_of_their_chains  }
 	}
 
@@ -1295,6 +1420,15 @@ focus_tree = {
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
+		}
+		completion_reward = {
+			add_political_power = -25
+		    add_stability = 0.2
+			add_building_construction = {
+                   type = dockyard
+                   level = 4
+                   instant_build = yes
+                }
 		}
 		prerequisite = { focus = PAR_remind_them_of_their_chains  }
 	}
@@ -1309,6 +1443,12 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = -0.1
+			add_manpower = 15000
+			add_war_support = 0.3
+		}
 		prerequisite = { focus = PAR_remind_them_of_their_chains  }
 	}
 
@@ -1321,6 +1461,11 @@ focus_tree = {
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
+		}
+		completion_reward = {
+			add_political_power = 50
+			add_manpower = 15000
+			add_stability = 0.3
 		}
 		prerequisite = { focus = PAR_betrayed_no_more  }
 	}
@@ -1335,6 +1480,11 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
+		completion_reward = {
+			add_political_power = 50
+			add_manpower = 15000
+			add_war_support = 0.3
+		}
 		prerequisite = { focus = PAR_betrayed_no_more  }
 	}
 
@@ -1347,6 +1497,11 @@ focus_tree = {
 		cost = 2
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
+		}
+		completion_reward = {
+        set_cosmetic_tag =  PAR_imperialist_empire
+		add_political_power = 100
+		add_stability = 0.2
 		}
 		prerequisite = { focus = PAR_flame_the_harem  } prerequisite = { focus = PAR_death_of_a_princess  } prerequisite = { focus = PAR_start_of_an_era  } prerequisite = { focus = PAR_cross_the_barrier  } prerequisite = { focus = PAR_totheworldsend  } prerequisite = { focus = PAR_sell_them_out  } prerequisite = { focus = PAR_order_for_liberation  }
 	}
