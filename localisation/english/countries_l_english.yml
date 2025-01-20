@@ -1358,6 +1358,10 @@
  THE_absolutist_DEF:1 "the Remnant of Theiónikos"
  THE_absolutist_ADJ:0 "Theióniki"
  
+ THR_absolutist:1 "Imperial Hegemony Of Thrasia"
+ THR_absolutist_DEF:1 "the Imperial Hegemony Of Thrasia"
+ THR_absolutist_ADJ:0 "Thrasian"
+ 
  THT_absolutist:1 "City State of Thetens"
  THT_absolutist_DEF:1 "the City State of Thetens"
  THT_absolutist_ADJ:0 "Theten"
