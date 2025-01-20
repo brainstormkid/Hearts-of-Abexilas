@@ -835,7 +835,6 @@ focus_tree = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 		prerequisite = { focus = PAR_external  }
-		mutually_exclusive = { focus = PAR_division_speed  }
 	}
 
 	#Division Speed
@@ -1787,7 +1786,6 @@ focus_tree = {
                 }
 		}
 		prerequisite = { focus = PAR_utilize_nether_teams  }
-		mutually_exclusive = { focus = PAR_expand_cactus_farms  }
 	}
 
 	#Reap The Xp
