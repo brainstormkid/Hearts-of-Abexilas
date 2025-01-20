@@ -309,6 +309,15 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		completion_reward = {
+		add_building_construction = {
+                    type = arms_factory
+                    level = 4
+                    instant_build = yes
+					 }
+				    add_political_power = 50
+					add_war_support = 0.1
+		}
 		prerequisite = { focus = PAR_reclaim_the_kingdom  }
 	}
 
@@ -321,6 +330,14 @@ focus_tree = {
 		cost = 4
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			add_political_power = -25
+		    add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = air_techs
+			}
 		}
 		prerequisite = { focus = PAR_rebuild_aberration  }
 	}
@@ -335,8 +352,16 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		completion_reward = {
+			add_political_power = 50
+		    add_stability = 0.2
+			add_building_construction = {
+                   type = dockyard
+                   level = 4
+                   instant_build = yes
+                }
+		}
 		prerequisite = { focus = PAR_rebuild_aberration  }
-		mutually_exclusive = { focus = PAR_take_to_the_skyes  } mutually_exclusive = { focus = PAR_take_to_the_sea  }
 	}
 
 	#Build A Military
@@ -378,7 +403,6 @@ focus_tree = {
 			add_war_support = -0.1
 		}
 		prerequisite = { focus = PAR_establishtheparaisounion  }
-		mutually_exclusive = { focus = PAR_build_a_military  }
 	}
 
 	#Rei's Bulwark
@@ -390,6 +414,14 @@ focus_tree = {
 		cost = 4
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+        add_building_construction = {
+                   type = bunker
+                   level = 3
+                   instant_build = yes
+                }
+				add_political_power = 50
 		}
 		prerequisite = { focus = PAR_take_to_the_skyes  } prerequisite = { focus = PAR_take_to_the_sea  }
 	}
@@ -496,7 +528,6 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = PAR_a_prelude_to_revenge  }
-		mutually_exclusive = { focus = PAR_ready_the_guard  } mutually_exclusive = { focus = PAR_ready_the_wings  } mutually_exclusive = { focus = PAR_ready_the_sea  }
 	}
 
 	#Ready the Sea
@@ -666,7 +697,6 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = PAR_recruitment  }
-		mutually_exclusive = { focus = PAR_stability  } mutually_exclusive = { focus = PAR_war_support  }
 	}
 
 	#War Support
@@ -706,7 +736,6 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = PAR_construction  }
-		mutually_exclusive = { focus = PAR_civilian_construction  } mutually_exclusive = { focus = PAR_military_construction  }
 	}
 
 	#Recruitment
@@ -747,7 +776,6 @@ focus_tree = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 		prerequisite = { focus = PAR_external  }
-		mutually_exclusive = { focus = PAR_troop_training  }
 	}
 
 	#Remind Them of Their Chains
@@ -892,7 +920,6 @@ focus_tree = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 		prerequisite = { focus = PAR_revitalizing_the_army  }
-		mutually_exclusive = { focus = PAR_infantry_focus  } mutually_exclusive = { focus = PAR_tank_focus  }
 	}
 
 	#Tank Focus
@@ -1127,7 +1154,6 @@ focus_tree = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 		prerequisite = { focus = PAR_blotting_out_the_sun  }
-		mutually_exclusive = { focus = PAR_light_focus  } mutually_exclusive = { focus = PAR_medium_focus  } mutually_exclusive = { focus = PAR_heavy_focus  }
 	}
 
 	#Heavy focus
@@ -1580,7 +1606,6 @@ focus_tree = {
                 }
 		}
 		prerequisite = { focus = PAR_utilize_nether_teams  }
-		mutually_exclusive = { focus = PAR_diverse_our_industry  }
 	}
 
 	#Diverse Our Industry
