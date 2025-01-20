@@ -496,11 +496,6 @@ ERC = {
 	color_ui = rgb { 206 166 93 }
 }
 
-ERE = {
-	color = rgb { 255 64 0 }
-	color_ui = rgb { 255 64 0 }
-}
-
 ERI = {
 	color = rgb { 225 89 48 }
 	color_ui = rgb { 225 89 48 }
