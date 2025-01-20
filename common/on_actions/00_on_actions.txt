@@ -88,6 +88,13 @@ on_actions = {
                 }
                 drop_cosmetic_tag = yes
             }
+			else_if = {
+                limit = {
+                    original_tag = PAR
+                    has_government = imperialist
+                }
+                set_cosmetic_tag = PAR_imperialist_empire
+            }
         }
     }
 }

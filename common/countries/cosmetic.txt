@@ -9,6 +9,11 @@ PAR_imperialist = {
 	color_ui = rgb { 73 67 130 }
 }
 
+PAR_imperialist_empire = {
+	color = rgb { 73 67 130 }
+	color_ui = rgb { 73 67 130 }
+}
+
 PAR_liberalist = {
 	color = rgb { 174 48 72 }
 	color_ui = rgb { 174 48 72 }
