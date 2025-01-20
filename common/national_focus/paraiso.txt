@@ -1671,6 +1671,13 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		completion_reward = {
+        create_wargoal = {
+            target = GEH
+            type = take_state_focus
+            generator = { 123 }
+        }
+		}
 		prerequisite = { focus = PAR_start_the_party  }
 	}
 
@@ -1684,6 +1691,15 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		completion_reward = {
+			add_building_construction = {
+                   type = infrastructure
+                   level = 3
+                   instant_build = yes
+                }
+			add_war_support = 0.1
+			add_manpower = 25000
+			}
 		prerequisite = { focus = PAR_the_gertek_menace  }
 	}
 
@@ -1697,6 +1713,10 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		completion_reward = {
+			add_war_support = 0.1
+			add_manpower = 25000
+			}
 		prerequisite = { focus = PAR_fortify_the_border  }
 	}
 
@@ -1709,6 +1729,13 @@ focus_tree = {
 		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+        create_wargoal = {
+            target = ZAM
+            type = take_state_focus
+            generator = { 123 }
+        }
 		}
 		prerequisite = { focus = PAR_the_gertek_menace  }
 	}
@@ -1723,6 +1750,11 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		completion_reward = {
+		    add_stability = -0.2
+			add_war_support = 0.3
+			add_manpower = 15000
+        }
 		prerequisite = { focus = PAR_the_carnage_of_auteburo  }
 	}
 
@@ -1736,6 +1768,11 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		completion_reward = {
+			add_war_support = 0.3
+			add_manpower = 35000
+			add_political_power = 100
+			}
 		prerequisite = { focus = PAR_ready_the_reserves  } prerequisite = { focus = PAR_theoldfortmyhome  }
 	}
 
@@ -1749,6 +1786,12 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		completion_reward = {
+		    add_stability = -0.15
+			add_war_support = 0.3
+			add_manpower = 35000
+			add_political_power = -50
+        }
 		prerequisite = { focus = PAR_aberrationstrikes  }
 	}
 
@@ -1762,6 +1805,11 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		completion_reward = {
+		    add_stability = 0.1
+			add_manpower = 1500
+			add_political_power = 50
+        }
 		prerequisite = { focus = PAR_dont_let_up  }
 	}
 
@@ -1774,6 +1822,35 @@ focus_tree = {
 		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+        create_wargoal = {
+            target = QYN
+            type = take_state_focus
+            generator = { 123 }
+        }
+		create_wargoal = {
+            target = VEA
+            type = take_state_focus
+            generator = { 123 }
+        }
+		create_wargoal = {
+            target = ERI
+            type = take_state_focus
+            generator = { 123 }
+        }
+		create_wargoal = {
+            target = COV
+            type = take_state_focus
+            generator = { 123 }
+        }
+		create_wargoal = {
+            target = DON
+            type = take_state_focus
+            generator = { 123 }
+        }
+		add_manpower = 15000
+		add_political_power = 100
 		}
 		prerequisite = { focus = PAR_our_victory  }
 	}
