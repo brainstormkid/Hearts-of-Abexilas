@@ -1146,6 +1146,9 @@
  PAR_liberalist:1 "Federal Republic of Paraíso"
  PAR_liberalist_DEF:1 "The Federal Republic of Paraíso"
  PAR_liberalist_ADJ:0 "Paraísan"
+ PAR_centrist:1 "United States of Adramis"
+ PAR_centrist_DEF:1 "The United States of Adramis"
+ PAR_centrist_ADJ:0 "Adramian"
  
  PER_absolutist:1 "Empire of Perithia"
  PER_absolutist_DEF:1 "the Empire of Perithia"

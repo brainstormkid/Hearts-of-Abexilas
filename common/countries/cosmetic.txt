@@ -14,4 +14,9 @@ PAR_liberalist = {
 	color_ui = rgb { 174 48 72 }
 }
 
+PAR_centrist = {
+	color = rgb { 19 116 189 }
+	color_ui = rgb { 19 116 189 }
+}
+
 # Formables

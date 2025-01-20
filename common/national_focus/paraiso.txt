@@ -1865,6 +1865,18 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		completion_reward = {
+	    add_political_power = 150
+		add_manpower = 1500
+		add_war_support = 0.3
+		set_cosmetic_tag =  PAR_centrist
+		set_politics = {
+            ruling_party = centrist
+            elections_allowed = no
+            last_election = "1935.12.17"
+            election_frequency = 0
+          }
+		}
 		prerequisite = { focus = PAR_the_fate  }
 	}
 

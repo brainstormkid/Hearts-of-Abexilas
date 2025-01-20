@@ -87,6 +87,20 @@ on_actions = {
                 }
                 drop_cosmetic_tag = yes
             }
-        }
+		if = {
+                limit = {
+                    original_tag = PAR
+                    has_government = centrist
+                }
+                set_cosmetic_tag = PAR_centrist
+            }
+			else_if = {
+                limit = {
+                    original_tag = PAR
+                }
+                drop_cosmetic_tag = yes
+            }
+		}
+
 	}
 }

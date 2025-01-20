@@ -46,6 +46,19 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Partybro"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "gfx/leaders/PAR/Partybro.dds"
+	expire = "1965.1.1"
+	ideology = centrist_subtype
+	traits = {
+		Popular_Figurehead
+		Economic_Reformer
+		Great_Survivor
+	}
+}
+
+create_country_leader = {
 	name = "Saiko"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	picture = "gfx/leaders/PAR/Saiko.dds"
