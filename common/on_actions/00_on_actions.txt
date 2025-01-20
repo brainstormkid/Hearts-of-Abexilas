@@ -75,6 +75,13 @@ on_actions = {
                 }
                 set_cosmetic_tag = PAR_imperialist
             }
+			else_if = {
+                limit = {
+                    original_tag = PAR
+                    has_government = centrist
+                }
+                set_cosmetic_tag = PAR_centrist
+            }
             else_if = {
                 limit = {
                     original_tag = PAR
