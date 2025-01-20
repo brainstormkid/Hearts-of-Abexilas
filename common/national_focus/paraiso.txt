@@ -195,6 +195,25 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
+		completion_reward = {
+        create_wargoal = {
+            target = QYN
+            type = take_state_focus
+            generator = { 123 }
+        }
+		create_wargoal = {
+            target = ZAM
+            type = take_state_focus
+            generator = { 123 }
+        }
+		create_wargoal = {
+            target = GEH
+            type = take_state_focus
+            generator = { 123 }
+        }
+		add_manpower = 15000
+		add_political_power = 100
+		}
 		prerequisite = { focus = PAR_military_construction  } prerequisite = { focus = PAR_civilian_construction  } prerequisite = { focus = PAR_division_speed  } prerequisite = { focus = PAR_troop_training  } prerequisite = { focus = PAR_stability  } prerequisite = { focus = PAR_war_support  }
 	}
 
@@ -207,6 +226,11 @@ focus_tree = {
 		cost = 7
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+        set_cosmetic_tag =  PAR_absolutist_empire
+		add_political_power = -50
+		add_stability = 0.2
 		}
 		prerequisite = { focus = PAR_fulfil_the_destiny  }
 	}
@@ -233,6 +257,30 @@ focus_tree = {
 		cost = 7
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+        create_wargoal = {
+            target = ERI
+            type = take_state_focus
+            generator = { 123 }
+        }
+		create_wargoal = {
+            target = LAV
+            type = take_state_focus
+            generator = { 123 }
+        }
+		create_wargoal = {
+            target = COV
+            type = take_state_focus
+            generator = { 123 }
+        }
+		create_wargoal = {
+            target = DON
+            type = take_state_focus
+            generator = { 123 }
+        }
+		add_manpower = 15000
+		add_political_power = 100
 		}
 		prerequisite = { focus = PAR_create_the_velarim_puppet  }
 	}
@@ -626,6 +674,15 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		completion_reward = {
+		add_building_construction = {
+                    type = industrial_complex
+                    level = 4
+                    instant_build = yes
+					 }
+				    add_political_power = -50
+					add_stability = 0.2
+		}
 		prerequisite = { focus = PAR_build_a_military  } prerequisite = { focus = PAR_build_a_airforce  }
 	}
 
@@ -730,6 +787,10 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		completion_reward = {
+			add_political_power = -50
+			add_stability = 0.1
+		}
 		prerequisite = { focus = PAR_construct_esperanza  }
 	}
 
@@ -742,6 +803,10 @@ focus_tree = {
 		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 200
+			add_stability = -0.3
 		}
 		prerequisite = { focus = PAR_alejandrospart  }
 	}
@@ -756,6 +821,16 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		completion_reward = {
+			add_political_power = -50
+		    add_stability = 0.2
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = industry
+		    }
+				add_manpower = -5000
+		}
 		prerequisite = { focus = PAR_kiraspart  }
 	}
 
@@ -768,6 +843,11 @@ focus_tree = {
 		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = -50
+			add_stability = 0.2
+			add_manpower = 15000
 		}
 		prerequisite = { focus = PAR_recruitment  }
 	}
@@ -782,6 +862,11 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
+		completion_reward = {
+			add_political_power = -50
+			add_war_support = 0.3
+			add_manpower = 15000
+		}
 		prerequisite = { focus = PAR_recruitment  }
 	}
 
@@ -794,6 +879,16 @@ focus_tree = {
 		cost = 4
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			add_political_power = -50
+		    add_stability = 0.2
+			add_building_construction = {
+                   type = industrial_complex
+                   level = 4
+                   instant_build = yes
+                }
+				add_manpower = -5000
 		}
 		prerequisite = { focus = PAR_construction  }
 	}
@@ -808,6 +903,16 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		completion_reward = {
+			add_political_power = -50
+		    add_stability = 0.2
+			add_building_construction = {
+                   type = arms_factory
+                   level = 4
+                   instant_build = yes
+                }
+				add_manpower = -5000
+		}
 		prerequisite = { focus = PAR_construction  }
 	}
 
@@ -820,6 +925,12 @@ focus_tree = {
 		cost = 7
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
+		}
+		completion_reward = {
+			add_political_power = -50
+			add_stability = 0.2
+			add_war_support = -0.1
+			add_manpower = 15000
 		}
 		prerequisite = { focus = PAR_timesoulspart  }
 	}
@@ -834,6 +945,12 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
+		completion_reward = {
+			add_political_power = -50
+			add_stability = -0.1
+			add_war_support = 0.2
+			add_manpower = 15000
+		}
 		prerequisite = { focus = PAR_external  }
 	}
 
@@ -846,6 +963,15 @@ focus_tree = {
 		cost = 4
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
+		}
+		completion_reward = {
+		    add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = Infantry
+			}
+        add_political_power = 50
+		add_stability = 0.2
 		}
 		prerequisite = { focus = PAR_external  }
 	}
@@ -2149,6 +2275,11 @@ focus_tree = {
         }
 		create_wargoal = {
             target = DON
+            type = take_state_focus
+            generator = { 123 }
+        }
+		create_wargoal = {
+            target = LAV
             type = take_state_focus
             generator = { 123 }
         }
