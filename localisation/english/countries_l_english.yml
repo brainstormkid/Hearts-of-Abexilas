@@ -1101,6 +1101,10 @@
  OBS_absolutist_DEF:1 "the Obsidios Imperium"
  OBS_absolutist_ADJ:0 "Obsidian"
  
+ ODD_absolutist:1 "Oddian Tsardom"
+ ODD_absolutist_DEF:1 "the Oddian Tsardom"
+ ODD_absolutist_ADJ:0 "Oddian"
+ 
  OLD_absolutist:1 "Interim Union of Oldann and Barakor Stasrikos Lhah"
  OLD_absolutist_DEF:1 "the Interim Union of Oldann and Barakor Stasrikos Lhah"
  OLD_absolutist_ADJ:0 "Oldannian"
