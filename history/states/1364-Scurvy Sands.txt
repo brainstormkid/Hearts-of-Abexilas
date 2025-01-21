@@ -1,0 +1,16 @@
+state={
+	id=1364
+	name="STATE_1364"
+	provinces={
+		536 1429 1553 3588 5883 6327 6479 11904 11920 11930
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = JAZ
+		buildings = {
+		}
+		add_core_of = JAZ
+	}
+}
