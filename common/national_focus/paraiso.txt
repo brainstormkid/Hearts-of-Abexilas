@@ -167,6 +167,13 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		 completion_reward = {
+		517 = { transfer_state_to = QYN }
+		495 = { transfer_state_to = QYN }
+		470 = { transfer_state_to = QYN }
+		471 = { transfer_state_to = QYN }
+		537 = { transfer_state_to = QYN }
+        }
 		prerequisite = { focus = PAR_the_industrial_revolution  }
 		mutually_exclusive = { focus = PAR_establishtheparaisounion  } mutually_exclusive = { focus = PAR_re_think_odds_twords_the_north  }
 	}
@@ -181,6 +188,13 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+         completion_reward = {
+		517 = { transfer_state_to = ZAM }
+		495 = { transfer_state_to = ZAM }
+		470 = { transfer_state_to = ZAM }
+		471 = { transfer_state_to = ZAM }
+		537 = { transfer_state_to = ZAM }
+        }
 		prerequisite = { focus = PAR_the_industrial_revolution  }
 		mutually_exclusive = { focus = PAR_re_think_odds_twords_the_south  } mutually_exclusive = { focus = PAR_establishtheparaisounion  }
 	}
@@ -244,6 +258,13 @@ focus_tree = {
 		cost = 7
 		search_filters = {
 			FOCUS_FILTER_STABILITY
+		}
+        completion_reward = {
+		 create_wargoal = {
+            target = VEA
+            type = take_state_focus
+            generator = { 123 }
+        }
 		}
 		prerequisite = { focus = PAR_create_an_empire  }
 	}
