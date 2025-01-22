@@ -718,6 +718,10 @@
  HYR_absolutist_DEF:1 "the Enlightened Grevdom of Hyria"
  HYR_absolutist_ADJ:0 "Hyrian"
  
+ ILL_absolutist:1 "Illyria"
+ ILL_absolutist_DEF:1 "the Illyria"
+ ILL_absolutist_ADJ:0 "Illyrian"
+ 
  INN_absolutist:1 "Inner Kingdom"
  INN_absolutist_DEF:1 "the Inner Kingdom"
  INN_absolutist_ADJ:0 "Innerian"
