@@ -291,8 +291,8 @@
  BAR_absolutist_DEF:1 "the Bardonia"
  BAR_absolutist_ADJ:0 "Bardonian"
  
- BEE_absolutist:1 "Empire of Beepeck"
- BEE_absolutist_DEF:1 "the Empire of Beepeck"
+ BEE_absolutist:1 "High Honey Imperium"
+ BEE_absolutist_DEF:1 "the High Honey Imperium"
  BEE_absolutist_ADJ:0 "Beean"
  
  BEL_absolutist:1 "Monastrate of Bel'hor"
@@ -471,9 +471,9 @@
  EMP_absolutist_DEF:1 "the Emporium Company"
  EMP_absolutist_ADJ:0 "Empori"
  
- END_absolutist:1 "Kingdom of Enderia"
- END_absolutist_DEF:1 "the Kingdom of Enderia"
- END_absolutist_ADJ:0 "Enderian"
+ END_absolutist:1 "Pollender"
+ END_absolutist_DEF:1 "the Pollender"
+ END_absolutist_ADJ:0 "Pollendian"
  
  ENO_absolutist:1 "Ānaktate of Enovātha"
  ENO_absolutist_DEF:1 "the Ānaktate of Enovātha"
