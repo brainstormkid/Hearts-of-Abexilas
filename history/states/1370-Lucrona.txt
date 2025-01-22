@@ -1,0 +1,16 @@
+state={
+	id=1370
+	name="STATE_1370"
+	provinces={
+		435 710 5882 12037 12038 12066 12112
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = LUC
+		buildings = {
+		}
+		add_core_of = LUC
+	}
+}

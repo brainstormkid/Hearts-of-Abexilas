@@ -939,6 +939,10 @@
  LOV_absolutist_DEF:1 "the Duchy of Lovvia"
  LOV_absolutist_ADJ:0 "Lovvian"
  
+ LUC_absolutist:1 "Grafehalvar vin Lucredia"
+ LUC_absolutist_DEF:1 "the Grafehalvar vin Lucredia"
+ LUC_absolutist_ADJ:0 "Lucredian"
+ 
  LUK_absolutist:1 "Maritime Republic of Lukiði"
  LUK_absolutist_DEF:1 "the Maritime Republic of Lukiði"
  LUK_absolutist_ADJ:0 "Luki"

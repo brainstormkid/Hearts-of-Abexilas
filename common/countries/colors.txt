@@ -881,6 +881,11 @@ LOV = {
 	color_ui = rgb { 0 171 255 }
 }
 
+LUC = {
+	color = rgb { 164 12 8 }
+	color_ui = rgb { 164 12 8 }
+}
+
 LUK = {
 	color = rgb { 238 198 13 }
 	color_ui = rgb { 238 198 13 }
