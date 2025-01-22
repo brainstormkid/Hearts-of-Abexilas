@@ -2,6 +2,10 @@ capital = 517
 
 oob = "PAR"
 
+recruit_character = PAR_partybro
+recruit_character = PAR_kira
+recruit_character = PAR_timesoul
+
 add_ideas = {
 	volunteer_only
 	Cathramis_Continental_Member

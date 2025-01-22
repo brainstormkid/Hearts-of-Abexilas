@@ -1,0 +1,62 @@
+characters={
+    PAR_partybro={
+    	name=PAR_partybro
+    	portraits={
+    		civilian={
+    			small="GFX_portrait_PAR_partybro_small"
+    		}
+        }
+        advisor={
+            cost = 150
+            slot = political_advisor
+            idea_token = [PAR_partybro]
+            ledger = civilian
+            allowed = {
+                    original_tag = PAR
+            }
+            traits = { Economic_Reformer }
+            available = {
+            }
+        }
+    }
+	PAR_kira={
+    	name=PAR_kira
+    	portraits={
+    		civilian={
+    			small="GFX_portrait_PAR_kira_small"
+    		}
+        }
+        advisor={
+            cost = 150
+            slot = political_advisor
+            idea_token = [PAR_kira]
+            ledger = civilian
+            allowed = {
+                    original_tag = PAR
+            }
+            traits = { captain_of_industry }
+            available = {
+            }
+        }
+    }
+	PAR_timesoul={
+    	name=PAR_timesoul
+    	portraits={
+    		civilian={
+    			small="GFX_portrait_PAR_timesoul_small"
+    		}
+        }
+        advisor={
+            cost = 150
+            slot = political_advisor
+            idea_token = [PAR_timesoul]
+            ledger = civilian
+            allowed = {
+                    original_tag = PAR
+            }
+            traits = { army_chief_offensive_1 }
+            available = {
+            }
+        }
+    }
+}

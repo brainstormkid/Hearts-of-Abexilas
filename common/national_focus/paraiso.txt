@@ -504,6 +504,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		completion_reward = {
+        activate_advisor = [PAR_partybro]
+		}
 		prerequisite = { focus = PAR_reisbulwark  }
 	}
 
@@ -717,6 +720,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		completion_reward = {
+        activate_advisor = [PAR_kira]
+		}
 		prerequisite = { focus = PAR_construct_esperanza  }
 	}
 
@@ -729,6 +735,9 @@ focus_tree = {
 		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+        activate_advisor = [PAR_timesoul]
 		}
 		prerequisite = { focus = PAR_construct_esperanza  }
 	}
@@ -743,6 +752,14 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
+		completion_reward = {
+			add_political_power = -25
+		    add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = special_forces_doctrine
+			}
+		}
 		prerequisite = { focus = PAR_build_a_airforce  }
 	}
 
@@ -755,6 +772,13 @@ focus_tree = {
 		cost = 7
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
+		}
+		completion_reward = {
+		    add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = armor
+			}
 		}
 		prerequisite = { focus = PAR_build_a_military  }
 	}
