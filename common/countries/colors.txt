@@ -641,11 +641,6 @@ HOD = {
 	color_ui = rgb { 175 47 47 }
 }
 
-HOE = {
-	color = rgb { 27 227 197 }
-	color_ui = rgb { 27 227 197 }
-}
-
 HWA = {
 	color = rgb { 34 0 137 }
 	color_ui = rgb { 34 0 137 }
