@@ -4,9 +4,9 @@ state={
 	provinces={
 		610 843 1660 2172 3711 5252 5325 5769 6873 12507 12583 12617 12618 12680 12696 
 	}
-	manpower=1
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
+        manpower=1
+        state_category = town
 	history={
 		owner = EXO
 		buildings = {
