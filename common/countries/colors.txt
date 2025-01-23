@@ -376,6 +376,11 @@ COY = {
 	color_ui = rgb { 105 123 232 }
 }
 
+CRE = {
+	color = rgb { 100 53 49 }
+	color_ui = rgb { 100 53 49 }
+}
+
 CYR = {
 	color = rgb { 250 188 17 }
 	color_ui = rgb { 250 188 17 }

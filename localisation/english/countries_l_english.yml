@@ -383,6 +383,10 @@
  COY_absolutist_DEF:1 "the Republic of Corry"
  COY_absolutist_ADJ:0 "Corrian"
  
+ CRE_absolutist:1 "Kingdom of Crevyate"
+ CRE_absolutist_DEF:1 "the Kingdom of Crevyate"
+ CRE_absolutist_ADJ:0 "Crevyatian"
+ 
  CYR_absolutist:1 "Empire of Cyrndur"
  CYR_absolutist_DEF:1 "the Empire of Cyrndur"
  CYR_absolutist_ADJ:0 "Cyrndurian"
