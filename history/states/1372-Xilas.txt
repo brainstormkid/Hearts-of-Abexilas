@@ -1,0 +1,16 @@
+state={
+	id=1372
+	name="STATE_1372"
+	provinces={
+		664 6566 12247 12284
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = LIC
+		buildings = {
+		}
+		add_core_of = LIC
+	}
+}

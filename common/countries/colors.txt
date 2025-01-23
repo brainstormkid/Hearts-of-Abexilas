@@ -861,6 +861,11 @@ LIB = {
 	color_ui = rgb { 65 42 109 }
 }
 
+LIC = {
+	color = rgb { 0 100 0 }
+	color_ui = rgb { 0 100 0 }
+}
+
 LIL = {
 	color = rgb { 249 215 64 }
 	color_ui = rgb { 249 215 64 }
@@ -1131,9 +1136,19 @@ REG = {
 	color_ui = rgb { 87 131 209 }
 }
 
+REI = {
+	color = rgb { 202 201 196 }
+	color_ui = rgb { 202 201 196 }
+}
+
 REN = {
 	color = rgb { 221 86 92 }
 	color_ui = rgb { 221 86 92 }
+}
+
+RHD = {
+	color = rgb { 109 106 99 }
+	color_ui = rgb { 109 106 99 }
 }
 
 RHO = {

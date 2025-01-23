@@ -923,6 +923,10 @@
  LIB_absolutist_DEF:1 "the Libratia"
  LIB_absolutist_ADJ:0 "Libratian"
  
+ LIC_absolutist:1 "Democratic Republic of Licetiusta"
+ LIC_absolutist_DEF:1 "the Democratic Republic of Licetiusta"
+ LIC_absolutist_ADJ:0 "Licetiustan"
+ 
  LIL_absolutist:1 "Lilium"
  LIL_absolutist_DEF:1 "the Lilium"
  LIL_absolutist_ADJ:0 "Lilian"
@@ -1200,9 +1204,17 @@
  REG_absolutist_DEF:1 "the Regnum Aquilarum"
  REG_absolutist_ADJ:0 "Aquilarian"
  
+ REI_absolutist:1 "Chiefdom of Reingard"
+ REI_absolutist_DEF:1 "the Chiefdom of Reingard"
+ REI_absolutist_ADJ:0 "Reingardan"
+ 
  REN_absolutist:1 "Shyhenéy au Rénesphéy"
  REN_absolutist_DEF:1 "the Shyhenéy au Rénesphéy"
  REN_absolutist_ADJ:0 "Réneshphite"
+ 
+ RHD_absolutist:1 "Sovereign Commonwealth of Rhodockia"
+ RHD_absolutist_DEF:1 "the Sovereign Commonwealth of Rhodockia"
+ RHD_absolutist_ADJ:0 "Rhodockian"
  
  RHO_absolutist:1 "Kingdom of Rhosgard"
  RHO_absolutist_DEF:1 "the Kingdom of Rhosgard"
