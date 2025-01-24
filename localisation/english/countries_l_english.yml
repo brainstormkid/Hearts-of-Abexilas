@@ -1149,6 +1149,10 @@
  OST_absolutist_DEF:1 "the Imperium of Osterland"
  OST_absolutist_ADJ:0 "Osterlandian"
  
+ PAL_absolutist:1 "Paloka"
+ PAL_absolutist_DEF:1 "the Paloka"
+ PAL_absolutist_ADJ:0 "Paloka"
+ 
  PAR_absolutist:1 "Kingdom of Paraíso"
  PAR_absolutist_DEF:1 "the Kingdom of Paraíso"
  PAR_absolutist_ADJ:0 "Paraísan"

@@ -1086,6 +1086,11 @@ OST = {
 	color_ui = rgb { 110 137 41 }
 }
 
+PAL = {
+	color = rgb { 89 211 227 }
+	color_ui = rgb { 89 211 227 }
+}
+
 PAR = {
 	color = rgb { 228 107 28 }
 	color_ui = rgb { 228 107 28 }
