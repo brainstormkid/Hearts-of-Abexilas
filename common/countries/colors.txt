@@ -811,6 +811,11 @@ KRA = {
 	color_ui = rgb { 224 22 13 }
 }
 
+KRU = {
+	color = rgb { 241 18 14 }
+	color_ui = rgb { 241 18 14 }
+}
+
 KUZ = {
 	color = rgb { 199 100 176 }
 	color_ui = rgb { 199 100 176 }

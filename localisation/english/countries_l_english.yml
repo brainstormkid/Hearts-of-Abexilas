@@ -845,6 +845,10 @@
  KRA_absolutist_DEF:1 "the United Collectivist Republics of Krasnoi"
  KRA_absolutist_ADJ:0 "Kraznik"
  
+ KRU_absolutist:1 "Second Krunian Federation"
+ KRU_absolutist_DEF:1 "the Second Krunian Federation"
+ KRU_absolutist_ADJ:0 "Krünisch"
+ 
  KUZ_absolutist:1 "Kingdom of Kuzina"
  KUZ_absolutist_DEF:1 "the Kingdom of Kuzina"
  KUZ_absolutist_ADJ:0 "Kuzinian"
