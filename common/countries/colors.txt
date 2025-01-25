@@ -1246,6 +1246,11 @@ SHI = {
 	color_ui = rgb { 166 160 154 }
 }
 
+SIN = {
+	color = rgb { 197 180 227 }
+	color_ui = rgb { 197 180 227 }
+}
+
 SKU = {
 	color = rgb { 69 69 69 }
 	color_ui = rgb { 69 69 69 }

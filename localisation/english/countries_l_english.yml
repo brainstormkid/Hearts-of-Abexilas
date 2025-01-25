@@ -1307,6 +1307,10 @@
  SHI_absolutist_DEF:1 "the Shishuk Territories"
  SHI_absolutist_ADJ:0 "Shishuk"
  
+ SIN_absolutist:1 "Sinterian Republic"
+ SIN_absolutist_DEF:1 "the Sinterian Republic"
+ SIN_absolutist_ADJ:0 "Sinterian"
+ 
  SKU_absolutist:1 "Fjarldom of Skúlfur"
  SKU_absolutist_DEF:1 "the Fjarldom of Skúlfur"
  SKU_absolutist_ADJ:0 "Skúlfuran"
