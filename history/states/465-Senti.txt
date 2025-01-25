@@ -1,0 +1,16 @@
+state={
+	id=465
+	name="STATE_465"
+	provinces={
+		3421 4295 4452 5716 10213 10271
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = SEO
+		buildings = {
+		}
+		add_core_of = SEO
+	}
+}

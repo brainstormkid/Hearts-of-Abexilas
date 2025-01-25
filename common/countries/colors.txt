@@ -1236,6 +1236,11 @@ SEN = {
 	color_ui = rgb { 165 139 73 }
 }
 
+SEO = {
+	color = rgb { 232 222 121 }
+	color_ui = rgb { 232 222 121 }
+}
+
 SET = {
 	color = rgb { 214 173 66 }
 	color_ui = rgb { 214 173 66 }

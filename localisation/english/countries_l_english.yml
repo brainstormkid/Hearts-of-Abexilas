@@ -1297,7 +1297,11 @@
  SEN_progressivist_ADJ:0 "Senecanese"
  SEN_centrist:1 "Republic of Seneca"
  SEN_centrist_DEF:1 "the Republic of Seneca"
- SEN_centristt_ADJ:0 "Senecanese"
+ SEN_centrist_ADJ:0 "Senecanese"
+ 
+ SEO_absolutist:1 "Kingdom of Sentonia"
+ SEO_absolutist_DEF:1 "the Kingdom of Sentonia"
+ SEO_absolutist_ADJ:0 "Sentonian"
  
  SET_absolutist:1 "Dominion of Sentara"
  SET_absolutist_DEF:1 "the Dominion of Sentara"
