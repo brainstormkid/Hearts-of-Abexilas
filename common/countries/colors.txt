@@ -145,6 +145,11 @@ ARL = {
 	color_ui = rgb { 127 95 158 }
 }
 
+ARN = {
+	color = rgb { 120 180 227 }
+	color_ui = rgb { 120 180 227 }
+}
+
 ARR = {
 	color = rgb { 0 47 105 }
 	color_ui = rgb { 0 47 105 }

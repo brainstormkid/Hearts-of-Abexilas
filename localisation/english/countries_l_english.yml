@@ -203,6 +203,10 @@
  ARL_absolutist_DEF:1 "the Kingdom of Artilon"
  ARL_absolutist_ADJ:0 "Artilian"
  
+ ARN_absolutist:1 "Araanas"
+ ARN_absolutist_DEF:1 "the Araanas"
+ ARN_absolutist_ADJ:0 "Araanas"
+ 
  ARR_absolutist:1 "Arkania"
  ARR_absolutist_DEF:1 "the Arkania"
  ARR_absolutist_ADJ:0 "Arkanian"
