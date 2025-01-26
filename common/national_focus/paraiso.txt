@@ -119,16 +119,18 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
+		495 = {
 			add_building_construction = {
                 type = arms_factory
                 level = 4
                 instant_build = yes
-                }
+			}
 			add_building_construction = {
                 type = infrastructure
                 level = 1
                 instant_build = yes
-                }
+            }
+		}
 				add_political_power = 50
 		}
 		prerequisite = { focus = PAR_rebuild_the_kingdom  }
@@ -335,6 +337,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
+		470 = {
 		add_building_construction = {
                     type = industrial_complex
                     level = 2
@@ -342,6 +345,7 @@ focus_tree = {
 					 }
 				    add_political_power = -50
 					add_stability = 0.2
+		}
 		}
 		prerequisite = { focus = PAR_call_saiko  }
 	}
@@ -357,13 +361,15 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
         completion_reward = {
-		add_building_construction = {
-                    type = arms_factory
-                    level = 2
-                    instant_build = yes
-					 }
-				    add_political_power = -50
-					add_war_support = 0.1
+		470 = {
+	    add_building_construction = {
+                type = arms_factory
+                level = 2
+                instant_build = yes
+			     }
+		}
+		   add_political_power = -50
+		   add_war_support = 0.1
 		}
 		prerequisite = { focus = PAR_call_saiko  }
 	}
@@ -379,6 +385,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
+		471 = {
 		add_building_construction = {
                     type = arms_factory
                     level = 4
@@ -386,6 +393,7 @@ focus_tree = {
 					 }
 				    add_political_power = 50
 					add_war_support = 0.1
+		}
 		}
 		prerequisite = { focus = PAR_reclaim_the_kingdom  }
 	}
@@ -424,11 +432,13 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 		    add_stability = 0.2
+			517 = {
 			add_building_construction = {
                    type = dockyard
                    level = 4
                    instant_build = yes
                 }
+			}
 		}
 		prerequisite = { focus = PAR_rebuild_aberration  }
 	}
@@ -484,12 +494,14 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
+		495 = {
         add_building_construction = {
                    type = bunker
                    level = 3
                    instant_build = yes
                 }
 				add_political_power = 50
+		}
 		}
 		prerequisite = { focus = PAR_take_to_the_skyes  } prerequisite = { focus = PAR_take_to_the_sea  }
 	}
@@ -541,11 +553,13 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 		    add_stability = 0.2
+			470 = {
 			add_building_construction = {
                    type = infrastructure
                    level = 3
                    instant_build = yes
                 }
+			}
 		}
 		prerequisite = { focus = PAR_start_of_a_new_beginning  }
 	}
@@ -563,11 +577,13 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -25
 		    add_stability = -0.1
+			470 = {
 			add_building_construction = {
                    type = infrastructure
                    level = 2
                    instant_build = yes
                 }
+			}
 				add_tech_bonus = {
 				bonus = 0.75
 				uses = 1
@@ -590,11 +606,13 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -25
 		    add_war_support = 0.3
+			495 = {
 			add_building_construction = {
                    type = arms_factory
                    level = 2
                    instant_build = yes
                 }
+			}
 				add_tech_bonus = {
 				bonus = 0.5
 				uses = 1
@@ -617,11 +635,13 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 		    add_stability = 0.2
+			495 = {
 			add_building_construction = {
                    type = dockyard
                    level = 4
                    instant_build = yes
                 }
+			}
 		}
 		prerequisite = { focus = PAR_ever_faithful_to_the_cause  }
 	}
@@ -679,11 +699,13 @@ focus_tree = {
 		completion_reward = {
 		    add_stability = -0.3
 			add_war_support = 0.3
+			495 = {
 			add_building_construction = {
                    type = dockyard
                    level = 3
                    instant_build = yes
                 }
+			}
 		}
 		prerequisite = { focus = PAR_a_prelude_to_revenge  }
 	}
@@ -699,11 +721,13 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
+		517 = {
 		add_building_construction = {
                     type = industrial_complex
                     level = 4
                     instant_build = yes
 					 }
+		}
 				    add_political_power = -50
 					add_stability = 0.2
 		}
@@ -928,11 +952,13 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -50
 		    add_stability = 0.2
+			517 = {
 			add_building_construction = {
                    type = industrial_complex
                    level = 4
                    instant_build = yes
                 }
+			}
 				add_manpower = -5000
 		}
 		prerequisite = { focus = PAR_construction  }
@@ -951,11 +977,13 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -50
 		    add_stability = 0.2
+			517 = {
 			add_building_construction = {
                    type = arms_factory
                    level = 4
                    instant_build = yes
                 }
+			}
 				add_manpower = -5000
 		}
 		prerequisite = { focus = PAR_construction  }
@@ -1034,11 +1062,13 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -25
 		    add_stability = 0.2
+			495 = {
 			add_building_construction = {
                    type = arms_factory
                    level = 2
                    instant_build = yes
                 }
+			}
 				add_manpower = 15000
 		}
 		prerequisite = { focus = PAR_forwhatstocome  }
@@ -1593,11 +1623,13 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -25
 		    add_stability = 0.2
+			495 = {
 			add_building_construction = {
                    type = dockyard
                    level = 4
                    instant_build = yes
                 }
+			}
 		}
 		prerequisite = { focus = PAR_remind_them_of_their_chains  }
 	}
@@ -1686,6 +1718,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
+		471 = {
 		add_building_construction = {
                    type = infrastructure
                    level = 6
@@ -1696,6 +1729,7 @@ focus_tree = {
                     level = 2
                     instant_build = yes
                 }
+		}
 				add_political_power = -50
 		}
 		prerequisite = { focus = PAR_party_time  }
@@ -1712,6 +1746,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
         completion_reward = {
+		495 = {
 		add_building_construction = {
                    type = infrastructure
                    level = 2
@@ -1722,6 +1757,7 @@ focus_tree = {
                     level = 2 
                     instant_build = yes
                 }
+		}
 				add_war_support = 0.2
 				add_political_power = -50
 		}
@@ -1777,11 +1813,13 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 		    add_stability = 0.2
+			517 = {
 			add_building_construction = {
                    type = infrastructure
                    level = 2
                    instant_build = yes
                 }
+			}
         }
 		prerequisite = { focus = PAR_start_the_party  }
 	}
@@ -1799,11 +1837,13 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -25
 		    add_stability = 0.1
+			517 = {
 			add_building_construction = {
                    type = dockyard
                    level = 3
                    instant_build = yes
                 }
+			}
 		}
 		prerequisite = { focus = PAR_finish_the_city  }
 	}
@@ -1821,6 +1861,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -25
 		    add_stability = 0.1
+			517 = {
 			add_building_construction = {
                    type = infrastructure
                    level = 2
@@ -1831,6 +1872,7 @@ focus_tree = {
                     level = 2
                     instant_build = yes
                 }
+			}
 		}
 		prerequisite = { focus = PAR_finish_the_city  }
 	}
@@ -1848,11 +1890,13 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 		    add_stability = 0.1
+			471 = {
 				add_building_construction = {
                     type = industrial_complex
                     level = 2
                     instant_build = yes
                 }
+			}
 		}
 		prerequisite = { focus = PAR_finish_the_ports  }
 	}
@@ -1870,6 +1914,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 		    add_war_support = 0.2
+			495 = {
 			add_building_construction = {
                    type = infrastructure
                    level = 2
@@ -1880,6 +1925,7 @@ focus_tree = {
                     level = 2
                     instant_build = yes
                 }
+			}
 		}
 		prerequisite = { focus = PAR_establish_companies  }
 	}
@@ -1918,6 +1964,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 		    add_stability = 0.2
+			470 = {
 			add_building_construction = {
                    type = infrastructure
                    level = 3
@@ -1928,6 +1975,7 @@ focus_tree = {
                     level = 3
                     instant_build = yes
                 }
+			}
 		}
 		prerequisite = { focus = PAR_utilize_nether_teams  }
 	}
@@ -1945,6 +1993,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 		    add_stability = 0.2
+			495 = {
 			add_building_construction = {
                    type = infrastructure
                    level = 3
@@ -1955,6 +2004,7 @@ focus_tree = {
                     level = 3
                     instant_build = yes
                 }
+			}
 		}
 		prerequisite = { focus = PAR_utilize_nether_teams  }
 	}
@@ -2166,11 +2216,13 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
+			470 = {
 			add_building_construction = {
                    type = infrastructure
                    level = 3
                    instant_build = yes
                 }
+			}
 			add_war_support = 0.1
 			add_manpower = 25000
 			}

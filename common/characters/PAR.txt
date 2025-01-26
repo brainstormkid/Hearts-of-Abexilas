@@ -3,7 +3,7 @@ characters={
     	name=PAR_partybro
     	portraits={
     		civilian={
-    			small="GFX_portrait_PAR_partybro_small"
+    			small=
     		}
         }
         advisor={
@@ -23,7 +23,7 @@ characters={
     	name=PAR_kira
     	portraits={
     		civilian={
-    			small="GFX_portrait_PAR_kira_small"
+    			small=
     		}
         }
         advisor={
@@ -43,7 +43,7 @@ characters={
     	name=PAR_timesoul
     	portraits={
     		civilian={
-    			small="GFX_portrait_PAR_timesoul_small"
+    			small=
     		}
         }
         advisor={
