@@ -551,6 +551,11 @@ FLR = {
 	color_ui = rgb { 107 113 123 }
 }
 
+FOR = {
+	color = rgb { 65 114 145 }
+	color_ui = rgb { 65 114 145 }
+}
+
 FRO = {
 	color = rgb { 55 89 123 }
 	color_ui = rgb { 55 89 123 }

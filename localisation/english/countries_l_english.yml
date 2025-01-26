@@ -625,6 +625,10 @@
  FLR_absolutist_DEF:1 "the Kingdom of Florasia"
  FLR_absolutist_ADJ:0 "Florasian"
  
+ FOR_absolutist:1 "Floria"
+ FOR_absolutist_DEF:1 "the Floria"
+ FOR_absolutist_ADJ:0 "Floria"
+ 
  FRO_absolutist:1 "Principality of Frosmyre"
  FRO_absolutist_DEF:1 "the Principality of Frosmyre"
  FRO_absolutist_ADJ:0 "Frosmyrian"
