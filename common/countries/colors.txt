@@ -1526,6 +1526,12 @@ VID = {
 	color_ui = rgb { 91 201 190 }
 }
 
+VIE = {
+	color = rgb { 151 150 150 }
+	color_ui = rgb { 151 150 150 }
+}
+
+
 VIN = {
 	color = rgb { 193 194 5 }
 	color_ui = rgb { 193 194 5 }

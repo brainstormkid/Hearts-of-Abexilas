@@ -1577,6 +1577,10 @@
  VID_absolutist_DEF:1 "the Vidir-Arrak"
  VID_absolutist_ADJ:0 "Vidirian"
  
+ VIE_absolutist:1 "Vielora"
+ VIE_absolutist_DEF:1 "the Vielora"
+ VIE_absolutist_ADJ:0 "Vielora"
+ 
  VIN_absolutist:1 "Vinovian Horde"
  VIN_absolutist_DEF:1 "the Vinovian Horde"
  VIN_absolutist_ADJ:0 "Vinovian"
