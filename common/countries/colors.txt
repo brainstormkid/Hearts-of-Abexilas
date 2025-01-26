@@ -1041,6 +1041,11 @@ NUM = {
 	color_ui = rgb { 195 238 255 }
 }
 
+NUN = {
+	color = rgb { 231 214 69 }
+	color_ui = rgb { 231 214 69 }
+}
+
 OBL = {
 	color = rgb { 85 255 255 }
 	color_ui = rgb { 85 255 255 }

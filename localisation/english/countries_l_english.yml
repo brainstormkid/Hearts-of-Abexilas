@@ -1113,6 +1113,10 @@
  NUM_absolutist_DEF:1 "the Maritime Republic of Numeós"
  NUM_absolutist_ADJ:0 "Numean"
  
+ NUN_absolutist:1 "Grand Principality of Nunindae"
+ NUN_absolutist_DEF:1 "the Grand Principality of Nunindae"
+ NUN_absolutist_ADJ:0 "Nunindae"
+ 
  OBL_absolutist:1 "Oblivion Ascendency"
  OBL_absolutist_DEF:1 "the Oblivion Ascendency"
  OBL_absolutist_ADJ:0 "Oblivian"
