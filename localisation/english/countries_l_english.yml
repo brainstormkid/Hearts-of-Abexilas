@@ -390,6 +390,10 @@
  CRE_absolutist:1 "Kingdom of Crevyate"
  CRE_absolutist_DEF:1 "the Kingdom of Crevyate"
  CRE_absolutist_ADJ:0 "Crevyatian"
+
+ CRU_absolutist:1 "Crusader Empire"
+ CRU_absolutist_DEF:1 "the Empire of the Crusaders"
+ CRU_absolutist_ADJ:0 "Crusader"
  
  CYR_absolutist:1 "Empire of Cyrndur"
  CYR_absolutist_DEF:1 "the Empire of Cyrndur"

@@ -386,6 +386,11 @@ CRE = {
 	color_ui = rgb { 100 53 49 }
 }
 
+CRU = {
+	color = rgb { 153 0 0 }
+	color_ui = rgb { 153 0 0 }
+}
+
 CYR = {
 	color = rgb { 250 188 17 }
 	color_ui = rgb { 250 188 17 }

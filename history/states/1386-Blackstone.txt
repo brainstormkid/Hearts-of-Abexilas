@@ -1,0 +1,13 @@
+state={
+	id=1386
+	name="STATE_1386"
+	provinces={
+		897 1999 2010 14021 14051 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history = {
+		owner = AET
+	}
+}
