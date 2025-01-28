@@ -1141,6 +1141,11 @@ PSY = {
 	color_ui = rgb { 184 170 169 }
 }
 
+QUA = {
+	color = rgb { 123 202 215 }
+	color_ui = rgb { 123 202 215 }
+}
+
 QYN = {
 	color = rgb { 20 34 125 }
 	color_ui = rgb { 20 34 125 }

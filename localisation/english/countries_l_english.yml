@@ -1208,6 +1208,10 @@
  PSY_absolutist_DEF:1 "the Duplacia of Psydonia"
  PSY_absolutist_ADJ:0 "Psydonian"
  
+ QUA_absolutist:1 "United Quareshon Tribes"
+ QUA_absolutist_DEF:1 "the United Quareshon Tribes"
+ QUA_absolutist_ADJ:0 "Quareshon"
+ 
  QYN_absolutist:1 "Qynthos-Centuria"
  QYN_absolutist_DEF:1 "the Qynthos-Centuria"
  QYN_absolutist_ADJ:0 "Qynthi"
