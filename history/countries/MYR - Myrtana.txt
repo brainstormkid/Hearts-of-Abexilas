@@ -10,12 +10,10 @@ set_politics = {
 set_popularities = {
 	monarchist = 29
 	progressivist = 19
-	democratic = 13
 	imperialist = 12
 	radical_nationalist = 11
 	conservatist = 3
 	radical_socialist = 9
-        fascism = 4
 }
 
 add_ideas = {

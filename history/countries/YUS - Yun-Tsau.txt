@@ -13,7 +13,7 @@ set_technology = {
     tech_support = 1
 }
 
- recruit_character = AKS_tsukikage (template, not actual character for Yun-Tsau)
+ recruit_character = AKS_tsukikage #(template, not actual character for Yun-Tsau)
 
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -55,7 +55,7 @@ if = {
 	}
 }
 
-add_ideas = { (Template, not actual ideas for Yun-Tsau)
+add_ideas = { #(Template, not actual ideas for Yun-Tsau)
 	
 }
 

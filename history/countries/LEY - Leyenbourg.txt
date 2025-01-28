@@ -55,12 +55,6 @@ set_party_name = {
 }
 
 set_party_name = { 
-    ideology = social_liberalist 
-    long_name = "LEY_social_liberalist_party_long"
-    name = "LEY_social_liberalist_party"
-}
-
-set_party_name = { 
     ideology = xeroist 
     long_name = "LEY_xeroist_party_long"
     name = "LEY_xeroist_party"
