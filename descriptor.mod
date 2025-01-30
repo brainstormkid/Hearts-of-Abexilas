@@ -48,21 +48,24 @@ replace_path="common/scripted_triggers"
 replace_path="common/special_projects/projects"
 replace_path="common/special_projects/prototype_rewards"
 replace_path="common/technology_sharing"
+
+replace_path="common/units/codenames_operatives"
+replace_path="common/units/names"
 replace_path="common/units/names_divisions"
-replace_path="common/units/names_ships"
 replace_path="common/units/names_railway_guns"
+replace_path="common/units/names_ships"
+
+replace_path="events"
+
+replace_path="gfx/loadingscreens"
 
 replace_path="history/countries"
 replace_path="history/general"
 replace_path="history/states"
 replace_path="history/units"
 
-replace_path="map/supplyareas"
 replace_path="map/strategicregions"
-
-replace_path="gfx/loadingscreens"
-
-replace_path="events"
+replace_path="map/supplyareas"
 
 replace_path="music"
 
