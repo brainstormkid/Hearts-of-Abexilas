@@ -293,20 +293,64 @@ has_same_ideology = {
 		tooltip = has_same_ideology_tt
 		OR = {
 			AND = {
-				has_government = democratic
-				ROOT = { has_government = democratic }
+				has_government = absolutist
+				ROOT = { has_government = absolutist }
 			}
 			AND = {
-				has_government = fascism
-				ROOT = { has_government = fascism }
+				has_government = monarchist
+				ROOT = { has_government = monarchist }
 			}
 			AND = {
-				has_government = communism
-				ROOT = { has_government = communism }
+				has_government = theocratist
+				ROOT = { has_government = theocratist }
 			}
 			AND = {
-				has_government = neutrality
-				ROOT = { has_government = neutrality }
+				has_government = accelerationist
+				ROOT = { has_government = accelerationist }
+			}
+			AND = {
+				has_government = anarchist
+				ROOT = { has_government = anarchist }
+			}
+			AND = {
+				has_government = xeroist
+				ROOT = { has_government = xeroist }
+			}
+			AND = {
+				has_government = radical_socialist
+				ROOT = { has_government = radical_socialist }
+			}
+			AND = {
+				has_government = revisionist
+				ROOT = { has_government = revisionist }
+			}
+			AND = {
+				has_government = libertarianist
+				ROOT = { has_government = libertarianist }
+			}
+			AND = {
+				has_government = centrist
+				ROOT = { has_government = centrist }
+			}
+			AND = {
+				has_government = liberalist
+				ROOT = { has_government = liberalist }
+			}
+			AND = {
+				has_government = progressivist
+				ROOT = { has_government = progressivist }
+			}
+			AND = {
+				has_government = conservatist
+				ROOT = { has_government = conservatist }
+			}
+			AND = {
+				has_government = imperialist
+				ROOT = { has_government = imperialist }
+			}
+			AND = {
+				has_government = radical_nationalist
+				ROOT = { has_government = radical_nationalist }
 			}
 		}
 	}
