@@ -10079,6 +10079,7 @@ spriteTypes = {	##Icon For:
 	}
 }
 
+#Qynthos
 spriteTypes = {	##Icon For: 
 	SpriteType = { 
 		name = "GFX_QYN_carrottersgrandsenate-645772"
@@ -10344,7 +10345,6 @@ spriteTypes = {	##Icon For:
 		}
 		legacy_lazy_load = no
 	}
-
 }
 
 ################################################################
