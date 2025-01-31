@@ -43,37 +43,72 @@ division_template = {
 
 units = {
 	division = {
-		name = "1st Michavian Infantry"
-		location = 10704
+		name = "1st Mizlarain Infantry"
+		location = 2960
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Michavian Infantry"
-		location = 10704
+		name = "2nd Mizlarain Infantry"
+		location = 2960
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Michavian Infantry"
-		location = 7530
+		name = "3rd Mizlarain Infantry"
+		location = 12170
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Michavian Guards"
-		location = 10839
+		name = "4th Mizlarain Infantry"
+		location = 10320
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Mizlarain Guards"
+		location = 6471
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Michavian Guards"
-		location = 4270
+		name = "2nd Mizlarain Guards"
+		location = 3948
 		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Mizlarain Guards"
+		location = 10659
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Mizlarain Calvary"
+		location = 10275
+		division_template = "Calvary Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Mizlarain Calvary"
+		location = 10283
+		division_template = "Calvary Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Mizlarain Calvary"
+		location = 7725
+		division_template = "Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}

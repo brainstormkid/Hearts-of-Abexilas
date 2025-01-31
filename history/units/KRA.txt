@@ -43,37 +43,72 @@ division_template = {
 
 units = {
 	division = {
-		name = "1st Michavian Infantry"
-		location = 10704
+		name = "1st Kraznik Infantry"
+		location = 7431
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Michavian Infantry"
-		location = 10704
+		name = "2nd Kraznik Infantry"
+		location = 7431
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Michavian Infantry"
-		location = 7530
+		name = "3rd Kraznik Infantry"
+		location = 7719
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Michavian Guards"
-		location = 10839
+		name = "4th Kraznik Infantry"
+		location = 7400
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "5th Kraznik Infantry"
+		location = 7649
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "6th Kraznik Infantry"
+		location = 6031
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Kraznik Guards"
+		location = 5263
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Michavian Guards"
-		location = 4270
-		division_template = "Guard Division"
+		name = "1st Kraznik Calvary"
+		location = 7605
+		division_template = "Calvary Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Kraznik Calvary"
+		location = 7557
+		division_template = "Calvary Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Kraznik Calvary"
+		location = 2556
+		division_template = "Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
