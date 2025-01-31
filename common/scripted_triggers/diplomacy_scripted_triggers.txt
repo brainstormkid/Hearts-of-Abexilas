@@ -457,7 +457,7 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
         NOT = { has_country_flag = imminent_war }
     }
 }
-}
+
 DIPLOMACY_BOOST_PARTY_POPULARITY_ENABLE_TRIGGER = {
 	if = {
 		limit = {
