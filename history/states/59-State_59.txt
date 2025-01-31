@@ -1,6 +1,6 @@
 state={
 	id=59
-	name="STATE_59"
+	name="STATE_59" #North-Reborium
 	provinces={
 		3180 3637 4190 7423 7449 7530 
 	}
@@ -13,12 +13,20 @@ state={
 	    chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1875000
+        state_category = city
 	history={
 		owner = MIC
 		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			7530 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = MIC
+		victory_points = { 7530 30 }
 	}
 }

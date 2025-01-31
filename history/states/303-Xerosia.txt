@@ -13,12 +13,18 @@ state={
 	    chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=3600000
+        state_category = large_city
 	history={
 		owner = KRA
 		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = KRA
+		victory_points = { 2556 10 }
+		victory_points = { 7431 50 }
 	}
 }

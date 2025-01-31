@@ -1,6 +1,6 @@
 state={
 	id=11
-	name="STATE_11"
+	name="STATE_11" #East-Kornmoll
 	provinces={
 		132 4270 7006 
 	}
@@ -13,12 +13,17 @@ state={
 	    chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=2250000
+        state_category = city
 	history={
 		owner = MIC
 		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = MIC
+		victory_points = { 4270 20 }
 	}
 }

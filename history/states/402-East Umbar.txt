@@ -4,13 +4,30 @@ state={
 	provinces={
 		942 3948 10228 10258 10283 10325 
 	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=2250000
+        state_category = city
 	history={
 		owner = MIZ
 		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			10258 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = MIZ
+		victory_points = { 10283 10 }
+		victory_points = { 3948 20 }
 	}
 }

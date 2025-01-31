@@ -1,16 +1,25 @@
 state={
 	id=295
-	name="STATE_295"
+	name="STATE_295" #Vagabondia
 	provinces={
 		4540 5624 7725
 	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=300000
+        state_category = rural
 	history={
 		owner = MIZ
 		buildings = {
 		}
 		add_core_of = MIZ
+		victory_points = { 7725 10 }
 	}
 }
