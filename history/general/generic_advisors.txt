@@ -316,33 +316,6 @@ every_possible_country = {
 every_possible_country = {
 	limit = {
 		has_dlc = "La Resistance"
-		# china gets a special one via focus
-		NOT = { original_tag = CHI }
-		NOT = { is_chinese_warlord = yes }
-		IF = {
-			limit = {
-				has_dlc = "Battle for the Bosporus"
-			}
-			NOT = {
-				tag = GRE
-				tag = TUR
-			}
-		}
-		IF = {
-			limit = { has_dlc = "By Blood Alone" }
-			NOT = { OR = { tag = ETH tag = SWI } }
-		}
-
-		IF = {
-			limit = { has_dlc = "Arms Against Tyranny" }
-			NOT = { OR = { tag = SWE } }
-		}
-
-		IF = {
-			limit = { has_dlc = "Trial of Allegiance" }
-			NOT = { OR = { tag = CHL tag = ARG tag = BRA } }
-		}
-
 		NOT = {
 			has_allowed_idea_with_traits = { idea = head_of_intelligence characters = yes }
 		}
