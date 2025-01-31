@@ -70,7 +70,15 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9046;9003;sea;20102;-1;-1;-1;-1;;Retgrum-Bridge
 9133;9168;sea;21513;-1;-1;-1;-1;;Binnun-Gothal-Bridge
 9378;9356;sea;18583;-1;-1;-1;-1;;Bangrock-Southpeak-Bridge
-;;;;;;;;;
+7010;6031;sea;19639;-1;-1;-1;-1;;Victorya-Bridge
+496;3637;sea;19523;-1;-1;-1;-1;;Reborium-Bridge
+5378;3180;sea;19523;-1;-1;-1;-1;;Second-Reborium-Bridge
+1661;6822;sea;19523;-1;-1;-1;-1;;Blumenburg-Bridge
+7423;3276;sea;23184;-1;-1;-1;-1;;Novarelia-Bridge
+4270;7188;sea;23160;-1;-1;-1;-1;;Sviatogor-Bridge
+7172;7171;sea;23159;-1;-1;-1;-1;;Regnitz-Bridge
+7272;997;sea;23159;-1;-1;-1;-1;;Weiburg-Bridge
+4830;12170;sea;15556;-1;-1;-1;-1;;New-Koji-Bridge
 ;;;;;;;;;
 ;;;;;;;;;
 #Ending Line, anything after is ignored;;;;;;;;;
