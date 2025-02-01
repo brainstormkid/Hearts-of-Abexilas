@@ -1331,6 +1331,10 @@
  SHI_absolutist_DEF:1 "the Shishuk Territories"
  SHI_absolutist_ADJ:0 "Shishuk"
  
+ SIL_absolutist:1 "Silva"
+ SIL_absolutist_DEF:1 "the Silva"
+ SIL_absolutist_ADJ:0 "Silvan"
+ 
  SIN_absolutist:1 "Sinterian Republic"
  SIN_absolutist_DEF:1 "the Sinterian Republic"
  SIN_absolutist_ADJ:0 "Sinterian"

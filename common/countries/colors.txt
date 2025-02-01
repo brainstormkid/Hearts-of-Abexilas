@@ -1276,6 +1276,11 @@ SHI = {
 	color_ui = rgb { 166 160 154 }
 }
 
+SIL = {
+	color = rgb { 253 222 132 }
+	color_ui = rgb { 253 222 132 }
+}
+
 SIN = {
 	color = rgb { 197 180 227 }
 	color_ui = rgb { 197 180 227 }
