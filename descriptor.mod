@@ -67,6 +67,8 @@ replace_path="history/units"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 
+replace_path="portraits"
+
 replace_path="music"
 
 supported_version="1.15.*"
