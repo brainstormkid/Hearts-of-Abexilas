@@ -10,10 +10,6 @@ ideas = {
 			}
 
 			cancel = {
-			    OR = {
-			        has_government = fascism
-			        has_government = communism
-			    }
 			}
 
 			allowed_civil_war = {
