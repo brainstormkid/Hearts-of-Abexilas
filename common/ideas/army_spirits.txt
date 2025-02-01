@@ -46,9 +46,6 @@ ideas = {
 		best_of_the_best_spirit = {
 			ledger = army
 			available = { has_military_academy = yes }
-			visible = { 
-				has_government = democratic
-			}
 			modifier = {
 				army_leader_start_level = 2
 				army_intel_to_others = -5.0
@@ -61,20 +58,12 @@ ideas = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
-
-				modifier = {
-					factor = 2
-					has_government = democratic
-				}
 			}
 
 		}
 		academy_scholarships_spirit = {
 			ledger = army
 			available = { has_military_academy = yes }
-			visible = { 
-				has_government = communism
-			}
 			modifier = {
 				army_leader_start_level = 1
 				army_leader_cost_factor = -0.3 
@@ -88,22 +77,11 @@ ideas = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
-
-				modifier = {
-					factor = 2
-					has_government = communism
-				}
 			}
 		}
 		political_loyalty_spirit = {
 			ledger = army
 			available = { has_military_academy = yes }
-			visible = { 
-				OR = {
-					has_government = fascism
-					has_government = neutrality
-				}
-			}
 			modifier = {
 				military_leader_cost_factor = -0.5
 				party_popularity_stability_factor = 0.10
@@ -115,14 +93,6 @@ ideas = {
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
-				}
-
-				modifier = {
-					factor = 2
-					OR = {
-						has_government = fascism
-						has_government = neutrality
-					}
 				}
 			}
 		}
@@ -279,11 +249,6 @@ ideas = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
-				modifier = {
-					factor = 2.0
-					is_historical_focus_on = yes
-					tag = SOU
-				}
 			}
 		}
 
@@ -300,17 +265,11 @@ ideas = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
-				modifier = {
-					factor = 2.0
-					is_historical_focus_on = yes
-					original_tag = GER
-				}
 			}
 		}
 
 		relief_of_command_spirit = {
 			ledger = army
-			visible = { has_government = democratic }
 			modifier = {
 				experience_gain_army_factor = 0.25
 				army_advisor_cost_factor = -0.5
@@ -322,17 +281,11 @@ ideas = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
-
-				modifier = {
-					factor = 2
-					has_government = democratic
-				}
 			}
 		}
 
 		ideological_loyalty_spirit = {
 			ledger = army
-			visible = { has_government = communism }
 			modifier = {
 				pocket_penalty = -0.2
 				weekly_manpower = 500
@@ -344,17 +297,11 @@ ideas = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
-
-				modifier = {
-					factor = 2
-					has_government = communism
-				}
 			}
 		}
 
 		state_serves_the_military_spirit = {
 			ledger = army
-			visible = { has_government = fascism }
 			modifier = {
 				offensive_war_stability_factor = 0.1
 				mobilization_laws_cost_factor = -0.25
@@ -365,11 +312,6 @@ ideas = {
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
-				}
-
-				modifier = {
-					factor = 2
-					has_government = fascism
 				}
 			}
 		}
@@ -520,11 +462,6 @@ ideas = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
-				modifier = {
-					factor = 4
-					tag = SOU
-					GER = { is_ai = no }
-				}
 			}
 		}
 
@@ -540,10 +477,6 @@ ideas = {
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
-				}
-				modifier = {
-					factor = 4
-					original_tag = GER #Right now this is just better for AI Germany
 				}
 			}
 		}
