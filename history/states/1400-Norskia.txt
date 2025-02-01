@@ -1,0 +1,16 @@
+state={
+	id=1400
+	name="STATE_1400"
+	provinces={
+		1504 1960 2976 3698 11024 11070 11108
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = NOS
+		buildings = {
+		}
+		add_core_of = NOS
+	}
+}

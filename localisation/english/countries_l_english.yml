@@ -1101,6 +1101,10 @@
  NAL_absolutist_DEF:1 "the Regency of Nalta"
  NAL_absolutist_ADJ:0 "Naltan"
  
+ NEB_absolutist:1 "Astral Monarchy of Nebulonia"
+ NEB_absolutist_DEF:1 "the Astral Monarchy of Nebulonia"
+ NEB_absolutist_ADJ:0 "Nebulonian"
+ 
  NER_absolutist:1 "Kingdom of Nerisia"
  NER_absolutist_DEF:1 "the Kingdom of Nerisia"
  NER_absolutist_ADJ:0 "Nerisian"
@@ -1116,6 +1120,10 @@
  NOR_absolutist:1 "Norfst Altrium"
  NOR_absolutist_DEF:1 "the Norfst Altrium"
  NOR_absolutist_ADJ:0 "Norfstian"
+ 
+ NOS_absolutist:1 "Norskian Legion"
+ NOS_absolutist_DEF:1 "the Norskian Legion"
+ NOS_absolutist_ADJ:0 "Norskian"
  
  NUM_absolutist:1 "Maritime Republic of Numeós"
  NUM_absolutist_DEF:1 "the Maritime Republic of Numeós"

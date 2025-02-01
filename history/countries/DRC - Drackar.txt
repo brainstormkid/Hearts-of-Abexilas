@@ -22,6 +22,11 @@ create_country_leader = {
 }
 
 set_autonomy = {
+	target = NEB
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
 	target = SIN
 	autonomous_state = autonomy_puppet
 }

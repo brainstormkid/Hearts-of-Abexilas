@@ -1026,6 +1026,11 @@ NAL = {
 	color_ui = rgb { 97 35 25 }
 }
 
+NEB = {
+	color = rgb { 102 0 138 }
+	color_ui = rgb { 102 0 138 }
+}
+
 NER = {
 	color = rgb { 115 209 169 }
 	color_ui = rgb { 115 209 169 }
@@ -1044,6 +1049,11 @@ NOD = {
 NOR = {
 	color = rgb { 148 72 154 }
 	color_ui = rgb { 148 72 154 }
+}
+
+NOS = {
+	color = rgb { 149 194 217 }
+	color_ui = rgb { 149 194 217 }
 }
 
 NUM = {
