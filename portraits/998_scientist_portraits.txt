@@ -1,5 +1,5 @@
 continent = {
-	name = Caerus
+	name = caerus
 	scientist = {
 		female = {
 			"GFX_portrait_generic_europe_female_01"
@@ -41,7 +41,7 @@ continent = {
 }
 
 continent = {
-	name = Norvinia
+	name = norvinia
 	scientist = {
 		female = {
 			"GFX_portrait_generic_europe_female_01"
@@ -83,7 +83,7 @@ continent = {
 }
 
 continent = {
-	name = Tanragh
+	name = tanragh
 	scientist = {
 		female = {
 			"GFX_portrait_generic_europe_female_01"
@@ -125,7 +125,7 @@ continent = {
 }
 
 continent = {
-	name = Iristoya
+	name = iristoya
 	scientist = {
 		female = {
 			"GFX_portrait_generic_europe_female_01"
@@ -167,7 +167,7 @@ continent = {
 }
 
 continent = {
-	name = Talasi
+	name = talasi
 	scientist = {
 		female = {
 			"GFX_portrait_generic_europe_female_01"
@@ -209,7 +209,7 @@ continent = {
 }
 
 continent = {
-	name = Cathramis
+	name = cathramis
 	scientist = {
 		female = {
 			"GFX_portrait_generic_europe_female_01"
@@ -251,7 +251,7 @@ continent = {
 }
 
 continent = {
-	name = Halinn
+	name = halinn
 	scientist = {
 		female = {
 			"GFX_portrait_generic_europe_female_01"
@@ -293,7 +293,7 @@ continent = {
 }
 
 continent = {
-	name = Rozakkora
+	name = rozakkora
 	scientist = {
 		female = {
 			"GFX_portrait_generic_europe_female_01"
@@ -335,7 +335,7 @@ continent = {
 }
 
 continent = {
-	name = Kejafros
+	name = kejafros
 	scientist = {
 		female = {
 			"GFX_portrait_generic_europe_female_01"
