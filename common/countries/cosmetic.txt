@@ -24,4 +24,9 @@ PAR_centrist = {
 	color_ui = rgb { 19 116 189 }
 }
 
+GEH_monarchist = {
+	color = rgb { 86 41 106 }
+	color_ui = rgb { 86 41 106 }
+}
+
 # Formables
