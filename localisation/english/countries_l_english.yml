@@ -666,6 +666,9 @@
  GEH_absolutist:1 "Gertek Horde"
  GEH_absolutist_DEF:1 "the Gertek Horde"
  GEH_absolutist_ADJ:0 "Gertekans"
+ GEH_monarchist:1 "Second Kingdom of Maravilla"
+ GEH_monarchist_DEF:1 "the Second Kingdom of Maravilla"
+ GEH_monarchist_ADJ:0 "Maravillan"
  
  GEN_absolutist:1 "Genoes"
  GEN_absolutist_DEF:1 "the Genoes"
