@@ -1,0 +1,16 @@
+state={
+	id=1393
+	name="STATE_1393"
+	provinces={
+		2389 10224 10231 10259
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = DRC
+		buildings = {
+		}
+		add_core_of = DRC
+	}
+}
