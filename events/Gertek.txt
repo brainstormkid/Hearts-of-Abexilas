@@ -68,19 +68,3 @@ news_event = {
 		}
 	}
 }
-
-country_event = {
-	id = gertek.3 ##Bugged again D:##
-	title = gertek.3.t
-	desc = gertek.3.d
-	picture = ""
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = gertek.3.a
-		ai_chance = {
-			factor = 80
-		}
-	}
-}
