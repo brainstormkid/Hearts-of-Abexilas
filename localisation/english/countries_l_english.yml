@@ -1511,6 +1511,10 @@
  UET_fascist:1 "the Nümetschian empire"
  UET_fascist:0 "Nümetschia"
  
+ UNITED_USA:1 "United States of Adramis"
+ UNITED_USA_DEF:1 "the United States of Adramis"
+ UNITED_USA_ADJ:0 "Adramisian
+ 
  VAA_absolutist:1 "Valeran Hold"
  VAA_absolutist_DEF:1 "the Valeran Hold"
  VAA_absolutist_ADJ:0 "Valeran"

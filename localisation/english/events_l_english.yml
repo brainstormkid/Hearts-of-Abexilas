@@ -4,6 +4,16 @@
  news.1.d:0 "Thank you for trying the Hearts of Abexilas Hoi4 Mod based on the Stoneworks Minecraft Server. We hope Stoneworks Hoi4 enthusiasts and regular hoi4 players can delve into the world of Abexilas and play their favorite nations. This has been a project from which over 100+ Stoneworks players have contributed in turning blocks into Hoi4.\n\nMore developments and updates are coming soon, feel free to join our discord if you are interested or if you have any game bugs to report. Enjoy!\n\nSincerely,\nHoA Development Team"
  news.1.a:1 "Nations - History - Wars - Roleplay"
  
+ #Adramis
+ adramis.1.t:0 "The Congress of Adramis"
+ adramis.1.d:0 "The biggest and most influencial nations of Adramis have come together to discuss the future of the continent. Now it is in their hands to decide wether the continent unites under one rule, or stays divided."
+ adramis.1.a:0 "An interesting event to be sure..."
+ adramis.2.t:0 "Adramis Unification Ultimatum"
+ adramis.2.d:0 "The most influencial nations in Adramis have decided to come together and start the unification of our continent. Now it is our decision to support it, or deny it."
+ adramis.2.a:0 "A great idea!"
+ adramis.2.b:0 "It is a death trap!"
+ adramis.2.c:0 "Let us just observe..."
+ 
  #Cathramis Summit
  news.2.t:0 "The First Cathramis Summit"
  news.2.d:0 "In the night, a great ships docked into the harbors of Centuria, carrying with them the representatives and banners of all the nations of the continent. They carried themselves to the great hall of the city and sat themselves at the grand tables, the first Summit had begun"
@@ -47,9 +57,6 @@
  gertek.2.t:0 "Gertek Civil War!"
  gertek.2.d:0 "The Khan has fallen! A new Kingdom is rising from the ashes taking what belongs to them. The Second Kingdom of Maravilla it is called. Its army and will stronger then ever before, it will take its place as the successer to the Gerteks."
  gertek.2.a:0 "A Suprise to be sure"
- gertek.3.t:0 "The Congress of Adramis"
- gertek.3.d:0 "The biggest and most influencial nations of Adramis have come together to discuss the future of the continent. Now it is in their hands to decide wether the continent unites under one rule, or stays divided."
- gertek.3.a:0 "An interesting event to be sure..."
  
  #MYRTANA EVENTS
  myrtana_story_events.1.t:0 "Long day in Theos."
