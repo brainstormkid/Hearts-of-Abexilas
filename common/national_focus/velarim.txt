@@ -21,6 +21,10 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		ai_will_do = { factor = 100 }
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.05
+		}
 	}
 
 	#The First Congress
@@ -35,7 +39,7 @@ focus_tree = {
 		}
 		bypass = { has_country_flag = adramis_congress }
 		prerequisite = { focus = VEA_unity_of_adramis  }
-		ai_will_do = { factor = 100 }
+		ai_will_do = { factor = 10 }
 		completion_reward = {
 			GEH = {
 				set_country_flag = {
@@ -51,7 +55,28 @@ focus_tree = {
 				value = 1
 				}
 			}
-			country_event = gertek.3
+			add_political_power = 150
+			add_stability = 0.10
+			hidden_effect = {
+				VEA = {
+					country_event = {
+					id = adramis.1
+					days = 0
+					}
+				}
+				ZAM = {
+					country_event = {
+					id = adramis.1
+					days = 0
+					}
+				}
+				GEH = {
+					country_event = {
+					id = adramis.1
+					days = 0
+					}
+				}
+			}
 		}
 	}
 
@@ -88,6 +113,7 @@ focus_tree = {
 		tag = VEA
 		}
 		prerequisite = { focus = VEA_the_first_congress  }
+		ai_will_do = { factor = 100 }
 		completion_reward = {
 			GEH = {
 				set_country_flag = {
@@ -135,7 +161,56 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = { has_completed_focus = VEA_unity_of_adramis }
+		bypass = { has_country_flag = unitas_adramidis }
 		prerequisite = { focus = VEA_zamotz_agreement  } prerequisite = { focus = VEA_velarim_agreement  } prerequisite = { focus = VEA_maravilla_agreement  }
+		completion_reward = {
+			hidden_effect = {
+				PAR = {
+					country_event = {
+					id = adramis.2
+					days = 0
+					}
+				}
+				QYN = {
+					country_event = {
+					id = adramis.2
+					days = 0
+					}
+				}
+				ERI = {
+					country_event = {
+					id = adramis.2
+					days = 0
+					}
+				}
+				LAV = {
+					country_event = {
+					id = adramis.2
+					days = 0
+					}
+				}
+				COV = {
+					country_event = {
+					id = adramis.2
+					days = 0
+					}
+				}
+			}
+			GEH = {
+				set_country_flag = {
+				flag = unitas_adramidis
+				days = 200
+				value = 1
+				}
+			}
+			ZAM = {
+				set_country_flag = {
+				flag = unitas_adramidis
+				days = 200
+				value = 1
+				}
+			}
+		}
 	}
 
 	#Unitatis pro Gente
@@ -149,7 +224,120 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = { has_completed_focus = VEA_unity_of_adramis }
+		ai_will_do = { factor = 100 }
+		bypass = { has_country_flag = unification_complete }
 		prerequisite = { focus = VEA_unitas_adramidis  }
+		completion_reward = {
+			if = {
+				limit = {
+					ZAM = {
+						has_idea = adramis_unity
+					}
+				}
+				annex_country = {
+					target = ZAM
+					transfer_troops = yes
+				}
+			}
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					PAR = {
+						has_idea = adramis_unity
+					}
+				}
+				annex_country = {
+					target = PAR
+					transfer_troops = yes
+				}
+			}
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					LAV = {
+						has_idea = adramis_unity
+					}
+				}
+				annex_country = {
+					target = LAV
+					transfer_troops = yes
+				}
+			}
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					QYN = {
+						has_idea = adramis_unity
+					}
+				}
+				annex_country = {
+					target = QYN
+					transfer_troops = yes
+				}
+			}
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					GEH = {
+						has_idea = adramis_unity
+					}
+				}
+				annex_country = {
+					target = GEH
+					transfer_troops = yes
+				}
+			}
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					COV = {
+						has_idea = adramis_unity
+					}
+				}
+				annex_country = {
+					target = COV
+					transfer_troops = yes
+				}
+			}
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					ERI = {
+						has_idea = adramis_unity
+					}
+				}
+				annex_country = {
+					target = ERI
+					transfer_troops = yes
+				}
+			}
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = liberalist
+				popularity = +1.0
+			}
+			GEH = {
+				set_country_flag = {
+				flag = unification_complete
+				days = 200
+				value = 1
+				}
+			}
+			ZAM = {
+				set_country_flag = {
+				flag = unification_complete
+				days = 200
+				value = 1
+				}
+			}
+		}
 	}
 
 }
