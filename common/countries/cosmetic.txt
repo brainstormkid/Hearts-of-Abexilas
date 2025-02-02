@@ -29,4 +29,9 @@ GEH_monarchist = {
 	color_ui = rgb { 86 41 106 }
 }
 
+UNITED_USA = {
+	color = rgb { 23 56 129 }
+	color_ui = rgb { 23 56 129 }
+}
+
 # Formables
