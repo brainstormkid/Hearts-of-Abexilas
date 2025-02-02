@@ -17,4 +17,14 @@ form_leyenbourg_category = {
 	}
 }
 
+form_usa_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_generic_greater_leyenbourg
+
+	allowed = {
+	}
+}
+
 
