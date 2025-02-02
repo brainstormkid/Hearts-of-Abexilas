@@ -1,0 +1,17 @@
+ideas = {
+	country = {
+		adramis_unity = {
+			picture = traditionalism_generic
+			cancel = {
+			}
+			available = {
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				trade_opinion_factor = 0.05
+			}
+		}
+	}
+}
