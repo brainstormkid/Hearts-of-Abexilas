@@ -2,12 +2,12 @@ state={
 	id=1376
 	name="STATE_1376"
 	provinces={
-		629 2227 2742 11649 11762 
+		629 2227 2742 3741 6944 11649 11762 
 	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
-	history={
+	history = {
 		owner = MIC
 		buildings = {
 		}
