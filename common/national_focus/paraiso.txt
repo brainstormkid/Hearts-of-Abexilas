@@ -1,6 +1,6 @@
 focus_tree = {
 	id = PAR
-	continuous_focus_position = { x = 8130 y = 1180 } 
+	continuous_focus_position = { x = 2430 y = 2350 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -247,6 +247,11 @@ focus_tree = {
         set_cosmetic_tag =  PAR_absolutist_empire
 		add_political_power = -50
 		add_stability = 0.2
+		}
+		available = {
+			controls_state = 408 #Gertek Capital
+			controls_state = 505 #Zamotz Capital
+			controls_state = 547 #Qynthos-Centuria Capital
 		}
 		prerequisite = { focus = PAR_fulfil_the_destiny  }
 	}
@@ -2371,11 +2376,6 @@ focus_tree = {
             generator = { 123 }
         }
 		create_wargoal = {
-            target = DON
-            type = take_state_focus
-            generator = { 123 }
-        }
-		create_wargoal = {
             target = LAV
             type = take_state_focus
             generator = { 123 }
@@ -2407,6 +2407,15 @@ focus_tree = {
             last_election = "1935.12.17"
             election_frequency = 0
           }
+		}
+		available = {
+			controls_state = 483 #Velarim Capital
+			controls_state = 408 #Gertek Capital
+			controls_state = 505 #Zamotz Capital
+			controls_state = 403 #Las Vidas Capital
+			controls_state = 347 #Eridonia Capital
+			controls_state = 322 #Covania Capital
+			controls_state = 547 #Qynthos-Centuria Capital
 		}
 		prerequisite = { focus = PAR_the_fate  }
 	}
