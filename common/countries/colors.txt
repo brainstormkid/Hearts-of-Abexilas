@@ -1146,6 +1146,11 @@ PRE = {
 	color_ui = rgb { 59 156 226 }
 }
 
+PRI = {
+	color = rgb { 123 58 161 }
+	color_ui = rgb { 123 58 161 }
+}
+
 PSY = {
 	color = rgb { 184 170 169 }
 	color_ui = rgb { 184 170 169 }
