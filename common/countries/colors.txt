@@ -1301,6 +1301,11 @@ SIN = {
 	color_ui = rgb { 197 180 227 }
 }
 
+SIO = {
+	color = rgb { 165 162 51 }
+	color_ui = rgb { 165 162 51 }
+}
+
 SKU = {
 	color = rgb { 69 69 69 }
 	color_ui = rgb { 69 69 69 }

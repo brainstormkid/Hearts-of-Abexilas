@@ -1354,6 +1354,10 @@
  SIN_absolutist_DEF:1 "the Sinterian Republic"
  SIN_absolutist_ADJ:0 "Sinterian"
  
+ SIO_absolutist:1 "Sionnach"
+ SIO_absolutist_DEF:1 "the Sionnach"
+ SIO_absolutist_ADJ:0 "Sionnach"
+ 
  SKU_absolutist:1 "Fjarldom of Skúlfur"
  SKU_absolutist_DEF:1 "the Fjarldom of Skúlfur"
  SKU_absolutist_ADJ:0 "Skúlfuran"
