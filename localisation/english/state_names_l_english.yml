@@ -526,6 +526,7 @@
  STATE_652:0 "Emperor's Landing"
  STATE_653:0 "Southern Kinjira"
  STATE_656:0 "Stadrhewei"
+ STATE_658:0 "Yestanbul"
  STATE_659:0 "Ejznsteda"
  STATE_661:0 "Sorick"
  STATE_662:0 "Voždravija"
@@ -1064,3 +1065,4 @@
  STATE_1398:0 "Fangsreach"
  STATE_1399:0 "Kylingradz"
  STATE_1400:0 "Norskia"
+ STATE_1404:0 "Betharis"
