@@ -534,6 +534,7 @@
  STATE_663:0 "West Ketswrok"
  STATE_664:0 "Irminsul"
  STATE_667:0 "Odd's Town"
+ STATE_670:0 "Grand Bazaar"
  STATE_671:0 "Eastern Pezenogrod"
  STATE_672:0 "Enderport"
  STATE_673:0 "Arashi"
@@ -1067,3 +1068,5 @@
  STATE_1399:0 "Kylingradz"
  STATE_1400:0 "Norskia"
  STATE_1404:0 "Betharis"
+ STATE_1405:0 "Avestar Hold"
+ STATE_1406:0 "Polki"
