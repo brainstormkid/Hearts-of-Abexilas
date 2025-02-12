@@ -92,6 +92,16 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
+	fleet = {
+		name = "Battle Force"			
+		naval_base = 14357 # Kairias
+		task_force = {				
+			name = "Flotilla 1"
+			location = 14357 # Kairias							
+			ship = { name = "HMSV Valorous" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = MAR version_name = "Heavy Class" } } }
+			ship = { name = "HMSV Heron" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = MAR version_name = "Brig-sloop Class" } } }		
+		}												
+	}
 }
 
 #####################
