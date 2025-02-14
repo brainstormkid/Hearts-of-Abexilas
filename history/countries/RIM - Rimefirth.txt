@@ -1,4 +1,6 @@
-capital = 3640
+capital = 1119
+
+oob = "RIM"
 
 set_politics = {
 	ruling_party = absolutist
@@ -21,6 +23,6 @@ create_country_leader = {
 	}
 }
 
-set_convoys = 40
+set_convoys = 5
 set_stability = 1
 set_war_support = 1

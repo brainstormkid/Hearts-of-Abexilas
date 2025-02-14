@@ -5,7 +5,7 @@ state={
 		1139 3640 3736 4402 5501 5776 14917 14939 14947 14985
 	}
 	buildings_max_level_factor=1.000
-        manpower=1200000
+        manpower=2100000
         state_category = city
 	history={
 		owner = RIM
