@@ -1,0 +1,37 @@
+state={
+	id=1348
+	name="STATE_1348"
+	provinces={
+		573 2387 6527 14561 14592 14604 14632 14676 14682 14690 14712
+	}
+	buildings_max_level_factor=1.000
+        manpower=3750000
+        state_category = city
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	history={
+		owner = KHS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			14592 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = KHS
+		victory_points = {
+			14632 50
+		}
+		victory_points = {
+			2387 20
+		}
+	}
+}

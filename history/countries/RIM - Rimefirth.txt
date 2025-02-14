@@ -24,5 +24,3 @@ create_country_leader = {
 }
 
 set_convoys = 5
-set_stability = 1
-set_war_support = 1
