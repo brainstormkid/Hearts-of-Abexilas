@@ -21,6 +21,9 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
+			568 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = KAR
 		victory_points = {
