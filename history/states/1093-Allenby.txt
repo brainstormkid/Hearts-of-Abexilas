@@ -4,13 +4,28 @@ state={
 	provinces={
 		4629 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1800000
+        state_category = rural
 	history={
 		owner = LIV
 		buildings = {
+			infrastructure = 2
+			4629 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = LIV
+		victory_points = {
+			4629 10
+		}
 	}
 }
