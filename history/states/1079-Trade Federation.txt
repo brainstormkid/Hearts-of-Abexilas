@@ -6,23 +6,22 @@ state={
 	}
 	buildings_max_level_factor=1.000
         manpower= 2100000
-        state_category = city
+        state_category = town
 	history={
 		owner = DWA
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 1
-			arms_factory = 1
-			dockyard = 1
 		}
 		add_core_of = DWA
 		victory_points = { 14702 20 }
 	}
 	resources = {
-	    aluminium = 4
-	    steel = 5
-	    rubber = 1
-	    tungsten = 4
-	    chromium = 3
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
 	}
 }

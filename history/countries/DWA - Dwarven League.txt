@@ -1,4 +1,6 @@
-capital = 1
+capital = 1243
+
+oob = "DWA"
 
 set_politics = {
 	ruling_party = absolutist
@@ -21,6 +23,4 @@ create_country_leader = {
 	}
 }
 
-set_convoys = 75
-set_stability = 1
-set_war_support = 1
+set_convoys = 10
