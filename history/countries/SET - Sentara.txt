@@ -1,4 +1,4 @@
-﻿capital = 507
+﻿capital = 1055
 
 oob = "SET"
 
