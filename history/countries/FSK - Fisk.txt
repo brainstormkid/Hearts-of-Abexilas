@@ -1,4 +1,7 @@
-capital = 1
+capital = 1218
+
+oob = "FSK"
+
 set_politics = {
 	ruling_party = absolutist
 	last_election = "1936.1.1"
@@ -18,3 +21,5 @@ create_country_leader = {
 		#
 	}
 }
+
+set_convoys = 45
