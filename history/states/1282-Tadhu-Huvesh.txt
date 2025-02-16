@@ -1,0 +1,46 @@
+state={
+	id=1282
+	name="STATE_1282"
+	provinces={
+		1419 1592 1876 2069 2667 2773 3158 3355 3499 3549 3851 3917 3991 4043 4090 4990 5342 5606 6356 6402 6710 6749 6810 14185 14242 14310 14323 14355 14361 14392 14394 14400 14413 14422 14452 14455 14456 14473 14478 14495 14490 14503 14525 14543 14556 14585 14597 14627 14631 14645
+	}
+	buildings_max_level_factor=1.000
+        manpower=7200000
+        state_category = metropolis
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			14627 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = BEL
+		victory_points = {
+			6749 50
+		}
+		victory_points = {
+			3991 20
+		}
+		victory_points = {
+			3917 20
+		}
+		victory_points = {
+			14627 10
+		}
+		victory_points = {
+			14323 5
+		}
+	}
+}
