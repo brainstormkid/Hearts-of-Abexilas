@@ -828,6 +828,10 @@
  KEL_absolutist_DEF:1 "the Kelpstine"
  KEL_absolutist_ADJ:0 "Kelpstinian"
  
+ KET_absolutist:1 "Keltom"
+ KET_absolutist_DEF:1 "the Keltom"
+ KET_absolutist_ADJ:0 "Keltish"
+ 
  KIC_absolutist:1 "City State of Kiche"
  KIC_absolutist_DEF:1 "the City State of Kiche"
  KIC_absolutist_ADJ:0 "Kiche"

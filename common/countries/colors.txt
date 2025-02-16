@@ -786,6 +786,11 @@ KEL = {
 	color_ui = rgb { 88 249 81 }
 }
 
+KET = {
+	color = rgb { 58 99 30 }
+	color_ui = rgb { 58 99 30 }
+}
+
 KIC = {
 	color = rgb { 173 110 186 }
 	color_ui = rgb { 173 110 186 }

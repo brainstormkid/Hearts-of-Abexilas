@@ -1,0 +1,30 @@
+state={
+	id=1205
+	name="STATE_1205"
+	provinces={
+		15219 15270
+	}
+	buildings_max_level_factor=1.000
+        manpower = 600000
+        state_category = town
+	history={
+		owner = SET
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			15270 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SET
+		victory_points = { 15270 5 }
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+}
