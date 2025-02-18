@@ -1,0 +1,40 @@
+state={
+	id=1281
+	name="STATE_1281"
+	provinces={
+		234 582 1601 1712 1753 1915 1921 2197 2983 3827 4204 4626 4844 5752 14528 14546 14560 14564 14577 14578 14608 14609 14620 14673 14674 14675 14689 14714 14721 14738 14765
+	}
+	buildings_max_level_factor=1.000
+        manpower=4500000
+        state_category = large_city
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	history={
+		owner = ARA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+		}
+		add_core_of = ARA
+		victory_points = {
+			14564 50
+		}
+		victory_points = {
+			4626 20
+		}
+		victory_points = {
+			1712 10
+		}
+		victory_points = {
+			14577 5
+		}
+	}
+}
