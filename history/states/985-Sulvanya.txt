@@ -5,12 +5,27 @@ state={
 		1198 3347 3798 3940 6415 14652 14704 14722 14739 14754 14786 14824
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=3600000
+        state_category = city
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	history={
 		owner = SUL
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = SUL
+		victory_points = {
+			14704 50
+		}
 	}
 }
