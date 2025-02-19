@@ -1,0 +1,28 @@
+state={
+	id=998
+	name="STATE_998"
+	provinces={
+		574 692 5600 5636 6094 14097 14102 14151 14194 14195 
+	}
+	buildings_max_level_factor=1.000
+        manpower=750000
+        state_category = rural
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	history={
+		owner = BEE
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BEE
+		victory_points = {
+			14097 5
+		}
+	}
+}
