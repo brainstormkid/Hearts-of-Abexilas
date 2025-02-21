@@ -1,4 +1,4 @@
-﻿capital = 1120
+capital = 1120
 
 oob = "HYR"
 
@@ -13,13 +13,12 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "?"
-	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/AEZ/Panda.dds"
+	name = "Zepellin Montrose"
+	desc = "POLITICS_ZEPELLIN_DESC"
+	picture = "gfx/leaders/HYR/zepellin.dds"
 	expire = "1965.1.1"
 	ideology = absolutist_subtype
 	traits = {
-		#
 	}
 }
 
