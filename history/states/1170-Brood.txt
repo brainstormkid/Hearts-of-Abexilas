@@ -4,13 +4,33 @@ state={
 	provinces={
 		3489 3999 4880 14860 14869 14890 14901 14930 14958 14988 15015 15024
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=4500000
+        state_category = large_town
 	history={
 		owner = ROZ
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			14930 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = ROZ
+		victory_points = {
+			14930 20
+		}
+		victory_points = {
+			14988 5
+		}
 	}
 }
