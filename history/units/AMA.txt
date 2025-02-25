@@ -43,50 +43,29 @@ division_template = {
 
 units = {
 	division = {
-		name = "1st Kaddian Infantry"
-		location = 6684
+		name = "1st Amarn Infantry"
+		location = 141
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Kaddian Infantry"
-		location = 6684
+		name = "2nd Amarn Infantry"
+		location = 141
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Amarn Guards"
+		location = 2740
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Kaddian Guards"
-		location = 4044
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "2nd Kaddian Guards"
-		location = 15226
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1st Kaddian Calvary"
-		location = 10711
-		division_template = "Calvary Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "2nd Kaddian Calvary"
-		location = 4456
-		division_template = "Calvary Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "3rd Kaddian Calvary"
-		location = 2153
+		name = "1st Amarn Calvary"
+		location = 15158
 		division_template = "Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
