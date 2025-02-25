@@ -4,22 +4,21 @@ state={
 	provinces={
 		15344 15345 15346 15347 15348 15349 15350 15351 15352
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
         manpower=150000
-        state_category = pastoral
+        state_category = tiny_island
 	history={
 		owner = SET
 		buildings = {
-		infrastructure = 3
-		industrial_complex = 2
-		arms_factory = 1
-		dockyard = 1
-		15095 = {
-				naval_base = 1
-			}
-		15263 = {
-				naval_base = 1
-			}
+			infrastructure = 1
 		}
 		add_core_of = SET
 		victory_points = { 15352 5 }
