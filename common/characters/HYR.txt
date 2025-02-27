@@ -13,6 +13,5 @@ characters = {
 			traits= { }
 			desc = POLITICS_ZEPELLIN_DESC
 			expire="1965.1.1.1"
-
     }
 }
