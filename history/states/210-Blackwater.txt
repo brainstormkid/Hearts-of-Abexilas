@@ -13,7 +13,7 @@ state={
 		chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=440000
+        manpower=300000
         state_category = small_island
 	history={
 		owner = KAS
