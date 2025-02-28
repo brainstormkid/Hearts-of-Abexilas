@@ -21,6 +21,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		ai_will_do = { factor = 100 }
+		historical_ai = { yes }
 		completion_reward = {
 			add_political_power = 100
 			add_stability = 0.05
