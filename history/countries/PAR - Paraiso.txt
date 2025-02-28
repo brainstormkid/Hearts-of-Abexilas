@@ -75,5 +75,4 @@ create_country_leader = {
 
 set_stability = 0.85
 set_war_support = 0.60
-add_manpower = 980000
 set_convoys = 25
