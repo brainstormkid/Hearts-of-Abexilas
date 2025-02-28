@@ -57,20 +57,6 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Paraísan Infantry"
-		location = 5302
-		division_template = "Infantry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1st Paraísan Guards"
-		location = 10804
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
 		name = "1st Paraísan Guards"
 		location = 10804
 		division_template = "Guard Division"
@@ -85,86 +71,9 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Paraísan Guards"
-		location = 10804
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1st Paraísan Calvary"
-		location = 581
+		name = "2nd Paraísan Calvary"
+		location = 15323
 		division_template = "Calvary Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1st Paraísan Guards"
-		location = 10804
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1st Paraísan Calvary"
-		location = 581
-		division_template = "Calvary Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1st Paraísan Guards"
-		location = 10804
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1st Paraísan Calvary"
-		location = 581
-		division_template = "Calvary Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1st Paraísan Guards"
-		location = 10804
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1st Paraísan Guards"
-		location = 10804
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1st Paraísan Calvary"
-		location = 581
-		division_template = "Calvary Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1st Paraísan Guards"
-		location = 10804
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1st Paraísan Calvary"
-		location = 581
-		division_template = "Calvary Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1st Paraísan Guards"
-		location = 10804
-		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
