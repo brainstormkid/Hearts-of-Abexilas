@@ -2,7 +2,7 @@ state={
 	id=1154
 	name="STATE_1154"
 	provinces={
-		142 4026
+		142 4026 9110 9177 9182
 	}
 	resources = {
 		oil = 2
