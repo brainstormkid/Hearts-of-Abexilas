@@ -880,6 +880,10 @@
  KYR_absolutist_DEF:1 "the City-State of Kÿrin"
  KYR_absolutist_ADJ:0 "Cartographers"
  
+ LAE_absolutist:1 "Imperijas of Laetaris"
+ LAE_absolutist_DEF:1 "the Imperijas of Laetaris"
+ LAE_absolutist_ADJ:0 "Laetarian"
+ 
  LAK_absolutist:1 "Lakaria"
  LAK_absolutist_DEF:1 "the Lakaria"
  LAK_absolutist_ADJ:0 "Lakarian"

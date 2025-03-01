@@ -1,0 +1,25 @@
+state={
+	id=1407
+	name="STATE_1407"
+	provinces={
+		6214 15220 15251 15277
+	}
+	buildings_max_level_factor=1.000
+        manpower=1800000
+        state_category = large_town	
+	history={
+		owner = LAE
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			15220 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = LAE
+		victory_points = {
+			15220 50
+		}
+	}
+}
