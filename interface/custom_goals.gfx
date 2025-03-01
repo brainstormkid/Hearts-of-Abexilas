@@ -9288,3 +9288,44 @@ spriteTypes = {	##Icon For:
 	}
 
 }
+
+# Ejznrosa
+
+spriteTypes = {	##Icon For: 
+	SpriteType = { 
+		name = "GFX_EJZ_a_new_era"
+		texturefile = "gfx/interface/goals/GFX_EJZ_a_new_era.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_EJZ_a_new_era_shine"
+		texturefile = "gfx/interface/goals/GFX_EJZ_a_new_era.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_EJZ_a_new_era.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_EJZ_a_new_era.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+}
