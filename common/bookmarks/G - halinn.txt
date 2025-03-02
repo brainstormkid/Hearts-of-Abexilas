@@ -48,17 +48,6 @@ bookmarks = {
 			}
 		}
 		
-		ESU = {
-			history = ESU_DESC
-			ideology = monarchist
-			ideas={
-				
-			}
-			focuses = {
-				
-			}
-		}
-		
 		ACR = {
 			history = ACR_DESC
 			ideology = absolutist
