@@ -251,6 +251,11 @@ AZU = {
 	color_ui = rgb { 58 76 75 }
 }
 
+BAD = {
+	color = rgb { 209 0 0 }
+	color_ui = rgb { 209 0 0 }
+}
+
 BAN = {
 	color = rgb { 162 162 162 }
 	color_ui = rgb { 162 162 162 }
@@ -1329,6 +1334,11 @@ SKU = {
 SOL = {
 	color = rgb { 153 102 69 }
 	color_ui = rgb { 153 102 69 }
+}
+
+SOM = {
+	color = rgb { 51 16 22 }
+	color_ui = rgb { 51 16 22 }
 }
 
 SON = {
