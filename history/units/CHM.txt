@@ -44,15 +44,78 @@ division_template = {
 units = {
 	division = {
 		name = "1st Chimerian Infantry"
-		location = 14628
+		location = 13358
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "2nd Chimerian Infantry"
-		location = 14628
+		location = 13358
 		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Chimerian Infantry"
+		location = 13670
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "4th Chimerian Infantry"
+		location = 13729
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Chimerian Guards"
+		location = 13380
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Chimerian Guards"
+		location = 13633
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Chimerian Calvary"
+		location = 14095
+		division_template = "Calvary Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Chimerian Calvary"
+		location = 13865
+		division_template = "Calvary Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Chimerian Calvary"
+		location = 2633
+		division_template = "Calvary Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "4th Chimerian Calvary"
+		location = 2599
+		division_template = "Calvary Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "5th Chimerian Calvary"
+		location = 5593
+		division_template = "Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
