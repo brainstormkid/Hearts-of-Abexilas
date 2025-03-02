@@ -9329,3 +9329,193 @@ spriteTypes = {	##Icon For:
 		legacy_lazy_load = no
 	}
 }
+spriteTypes = {	##Icon For: 
+	SpriteType = { 
+		name = "GFX_EJZ_protect_flanderia-750811"
+		texturefile = "gfx/interface/goals/GFX_EJZ_protect_flanderia-750811.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_EJZ_protect_flanderia-750811_shine"
+		texturefile = "gfx/interface/goals/GFX_EJZ_protect_flanderia-750811.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_EJZ_protect_flanderia-750811.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_EJZ_protect_flanderia-750811.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+}
+spriteTypes = {	##Icon For: 
+	SpriteType = { 
+		name = "GFX_EJZ_gmezslegacy-751252"
+		texturefile = "gfx/interface/goals/GFX_EJZ_gmezslegacy-751252.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_EJZ_gmezslegacy-751252_shine"
+		texturefile = "gfx/interface/goals/GFX_EJZ_gmezslegacy-751252.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_EJZ_gmezslegacy-751252.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_EJZ_gmezslegacy-751252.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+}
+spriteTypes = {	##Icon For: 
+	SpriteType = { 
+		name = "GFX_EJZ_nonaggression_pact_with_valora-753773"
+		texturefile = "gfx/interface/goals/GFX_EJZ_nonaggression_pact_with_valora-753773.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_EJZ_nonaggression_pact_with_valora-753773_shine"
+		texturefile = "GFX_EJZ_nonaggression_pact_with_valora-753773.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_EJZ_nonaggression_pact_with_valora-753773.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_EJZ_nonaggression_pact_with_valora-753773.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+}
+spriteTypes = {	##Icon For: 
+	SpriteType = { 
+		name = "GFX_EJZ_ally_with_valora-753777"
+		texturefile = "gfx/interface/goals/GFX_EJZ_ally_with_valora-753777.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_EJZ_ally_with_valora-753777_shine"
+		texturefile = "GFX_EJZ_ally_with_valora-753777.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_EJZ_ally_with_valora-753777.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_EJZ_ally_with_valora-753777.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+}
+spriteTypes = {	##Icon For: 
+	SpriteType = { 
+		name = "GFX_EJZ_embargo_valora-753778"
+		texturefile = "gfx/interface/goals/GFX_EJZ_embargo_valora-753778.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_EJZ_embargo_valora-753778_shine"
+		texturefile = "GFX_EJZ_embargo_valora-753778.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_EJZ_embargo_valora-753778.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_EJZ_embargo_valora-753778.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+}

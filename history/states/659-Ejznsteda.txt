@@ -5,12 +5,24 @@ state={
 		1234 2643 2831 3997 4403 5056 6694 11911 11921 11933 11986 12012 12071 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower= 1500000
+        state_category = large_city
+
+		resources = {
+        oil = 10
+        chromium = 5
+		steel = 20
+		tungsten = 5
+    }
+
 	history={
 		owner = EJZ
-		buildings = {
+		buildings = { 
+			infrastructure = 3
+			industrial_complex = 6
+			arms_factory = 2
 		}
 		add_core_of = EJZ
+		victory_points = { 3997 50 }
 	}
 }
