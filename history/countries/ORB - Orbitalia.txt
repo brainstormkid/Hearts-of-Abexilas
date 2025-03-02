@@ -7,16 +7,15 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	absolutist = 100
+	monarchist = 100
 }
 
 create_country_leader = {
-	name = "?"
-	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/AEZ/Panda.dds"
+	name = "Jack Augustus Skivar"
+	desc = "POLITICS_JACKSKIVAR_DESC"
+	picture = "gfx/leaders/ORB/jackskivar.dds"
 	expire = "1965.1.1"
 	ideology = absolutist_subtype
 	traits = {
-		#
 	}
 }
