@@ -4,13 +4,34 @@ state={
 	provinces={
 		393 605 879 2105 2135 2142 2399 2819 2955 3303 3561 4137 5595 5682 6116 6876 13276 13297 13358 13370 13371 13381 13398 13406 13424 13435 13453 13458 13466 13488 13501 13510 13533 13542 13573 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=19350000
+        state_category = megalopolis
 	history={
 		owner = CHM
 		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
 		}
 		add_core_of = CHM
+		victory_points = {
+			13358 50
+		}
+		victory_points = {
+			13533 5
+		}
+		victory_points = {
+			13398 5
+		}
 	}
 }

@@ -287,6 +287,10 @@
  AZU_absolutist_DEF:1 "the Kingdom of the Azure Coast"
  AZU_absolutist_ADJ:0 "Azurian"
  
+ BAD_absolutist:1 "City State Of Banderia"
+ BAD_absolutist_DEF:1 "the City State Of Banderia"
+ BAD_absolutist_ADJ:0 "Banderian"
+ 
  BAN_absolutist:1 "Kingdom of Bannover"
  BAN_absolutist_DEF:1 "the Kingdom of Bannover"
  BAN_absolutist_ADJ:0 "Bannoverian"
@@ -880,6 +884,10 @@
  KYR_absolutist_DEF:1 "the City-State of Kÿrin"
  KYR_absolutist_ADJ:0 "Cartographers"
  
+ LAE_absolutist:1 "Imperijas of Laetaris"
+ LAE_absolutist_DEF:1 "the Imperijas of Laetaris"
+ LAE_absolutist_ADJ:0 "Laetarian"
+ 
  LAK_absolutist:1 "Lakaria"
  LAK_absolutist_DEF:1 "the Lakaria"
  LAK_absolutist_ADJ:0 "Lakarian"
@@ -1392,6 +1400,10 @@
  SOL_absolutist:1 "High Solir of Soliana"
  SOL_absolutist_DEF:1 "the High Solir of Soliana"
  SOL_absolutist_ADJ:0 "Solianen"
+ 
+ SOM_absolutist:1 "Somiatist Federation"
+ SOM_absolutist_DEF:1 "the Somiatist Federation"
+ SOM_absolutist_ADJ:0 "Somiatist"
  
  SON_absolutist:1 "Sonderia"
  SON_absolutist_DEF:1 "the Sonderia"

@@ -4,13 +4,26 @@ state={
 	provinces={
 		1990 4140 14095 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=3150000
         state_category = town
 	history={
 		owner = CHM
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
 		}
 		add_core_of = CHM
+		victory_points = {
+			14095 10
+		}
 	}
 }

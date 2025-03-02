@@ -4,13 +4,25 @@ state={
 	provinces={
 		137 622 1530 2073 3248 3332 4057 5006 6045 6770 6776 6850 13816 13856 13859 13892 13896 13956 13969 13996 14002 14003 14008 14071 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=300000
+        state_category = rural
 	history={
 		owner = CHM
 		buildings = {
+			infrastructure = 2
 		}
 		add_core_of = CHM
+		victory_points = {
+			3332 5
+		}
 	}
 }

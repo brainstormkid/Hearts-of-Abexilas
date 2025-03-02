@@ -4,13 +4,34 @@ state={
 	provinces={
 		1888 2051 2101 2468 3267 3505 4277 5604 5627 5667 13592 13597 13619 13622 13639 13670 13677 13679 13743 13761 13777 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=7350000
+        state_category = city
 	history={
 		owner = CHM
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			8806 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = CHM
+		victory_points = {
+			13670 30
+		}
+		victory_points = {
+			13597 5
+		}
 	}
 }
