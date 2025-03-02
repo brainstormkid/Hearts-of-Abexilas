@@ -1,6 +1,6 @@
 characters = {
 	ORB_jackskivar={
-		name=HYR_CHARACTER_ZEPELLIN
+		name=ORB_CHARACTER_JACKSKIVAR
 		portraits={
 			civilian={
 				large="GFX_portrait_ORB_jackskivar"
@@ -9,7 +9,7 @@ characters = {
 	    }
 	    # AUTOCRAT
     	country_leader={
-			ideology=absolutist_subtype
+			ideology=monarchist_subtype
 			traits= { }
 			desc = POLITICS_JACKSKIVAR_DESC
 			expire="1965.1.1.1"
