@@ -1,0 +1,17 @@
+characters = {
+	ORB_jackskivar={
+		name=HYR_CHARACTER_ZEPELLIN
+		portraits={
+			civilian={
+				large="GFX_portrait_ORB_jackskivar"
+				small="GFX_portrait_ORB_jackskivar_small"
+			}
+	    }
+	    # AUTOCRAT
+    	country_leader={
+			ideology=absolutist_subtype
+			traits= { }
+			desc = POLITICS_JACKSKIVAR_DESC
+			expire="1965.1.1.1"
+    }
+}
