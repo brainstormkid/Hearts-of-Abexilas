@@ -23,7 +23,7 @@ state={
 		}
 		add_core_of = HYR
 		victory_points = {
-			5178 10
+			15157 10
 		}
 	}
 }
