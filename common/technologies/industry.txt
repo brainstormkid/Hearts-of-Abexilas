@@ -244,11 +244,6 @@ technologies = {
 				factor = 2
 				date > "3.1.1"
 			}
-
-			modifier = {
-				factor = 0
-				NOT = { has_government = fascism }
-			}
 		}
 		
 		categories = {
@@ -275,11 +270,6 @@ technologies = {
 			modifier = {
 				factor = 2
 				date > "5.1.1"
-			}
-
-			modifier = {
-				factor = 0
-				NOT = { has_government = fascism }
 			}
 		}
 		

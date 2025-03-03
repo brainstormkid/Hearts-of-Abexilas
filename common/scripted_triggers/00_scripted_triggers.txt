@@ -154,47 +154,38 @@ enemy_has_equal_or_better_radar_tech_trigger = {
 				ROOT = {
 					has_tech = radio_detection
 					NOT = {
-						has_tech = decimetric_radar
+						has_tech = cavity_magnatron
 					}
 				}
 			}
 			FROM = {
 				OR = {
 					has_tech = radio_detection
-					has_tech = decimetric_radar
+					has_tech = cavity_magnatron
 				}
 			}
 		}
 		else_if = {
 			limit = {
 				ROOT = {
-					has_tech = decimetric_radar
-					NOT = {
-						has_tech = improved_decimetric_radar
-					}
+					has_tech = cavity_magnatron
+
 				}
 			}
 			FROM = {
-				OR = {
-					has_tech = decimetric_radar
-					has_tech = improved_decimetric_radar
-				}
+				has_tech = cavity_magnatron
 			}
 		}
 		else_if = {
 			limit = {
 				ROOT = {
-					has_tech = improved_decimetric_radar
 					NOT = {
 						has_tech = centimetric_radar
 					}
 				}
 			}
 			FROM = {
-				OR = {
-					has_tech = improved_decimetric_radar
-					has_tech = centimetric_radar
-				}
+				has_tech = centimetric_radar
 			}
 		}
 		else_if = {
@@ -202,30 +193,30 @@ enemy_has_equal_or_better_radar_tech_trigger = {
 				ROOT = {
 					has_tech = centimetric_radar
 					NOT = {
-						has_tech = improved_centimetric_radar
+						has_tech = phased_array
 					}
 				}
 			}
 			FROM = {
 				OR = {
 					has_tech = centimetric_radar
-					has_tech = improved_centimetric_radar
+					has_tech = phased_array
 				}
 			}
 		}
 		else_if = {
 			limit = {
 				ROOT = {
-					has_tech = improved_centimetric_radar
+					has_tech = phased_array
 					NOT = {
-						has_tech = advanced_centimetric_radar
+						has_tech = monopulse_radar
 					}
 				}
 			}
 			FROM = {
 				OR = {
-					has_tech = improved_centimetric_radar
-					has_tech = advanced_centimetric_radar
+					has_tech = phased_array
+					has_tech = monopulse_radar
 				}
 			}
 		}
@@ -293,20 +284,64 @@ has_same_ideology = {
 		tooltip = has_same_ideology_tt
 		OR = {
 			AND = {
-				has_government = democratic
-				ROOT = { has_government = democratic }
+				has_government = absolutist
+				ROOT = { has_government = absolutist }
 			}
 			AND = {
-				has_government = fascism
-				ROOT = { has_government = fascism }
+				has_government = monarchist
+				ROOT = { has_government = monarchist }
 			}
 			AND = {
-				has_government = communism
-				ROOT = { has_government = communism }
+				has_government = theocratist
+				ROOT = { has_government = theocratist }
 			}
 			AND = {
-				has_government = neutrality
-				ROOT = { has_government = neutrality }
+				has_government = accelerationist
+				ROOT = { has_government = accelerationist }
+			}
+			AND = {
+				has_government = anarchist
+				ROOT = { has_government = anarchist }
+			}
+			AND = {
+				has_government = xeroist
+				ROOT = { has_government = xeroist }
+			}
+			AND = {
+				has_government = radical_socialist
+				ROOT = { has_government = radical_socialist }
+			}
+			AND = {
+				has_government = revisionist
+				ROOT = { has_government = revisionist }
+			}
+			AND = {
+				has_government = libertarianist
+				ROOT = { has_government = libertarianist }
+			}
+			AND = {
+				has_government = centrist
+				ROOT = { has_government = centrist }
+			}
+			AND = {
+				has_government = liberalist
+				ROOT = { has_government = liberalist }
+			}
+			AND = {
+				has_government = progressivist
+				ROOT = { has_government = progressivist }
+			}
+			AND = {
+				has_government = conservatist
+				ROOT = { has_government = conservatist }
+			}
+			AND = {
+				has_government = imperialist
+				ROOT = { has_government = imperialist }
+			}
+			AND = {
+				has_government = radical_nationalist
+				ROOT = { has_government = radical_nationalist }
 			}
 		}
 	}

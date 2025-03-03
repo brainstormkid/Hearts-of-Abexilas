@@ -1,10 +1,32 @@
 state={
 	id=301
-	name="STATE_301"
+	name="STATE_301" #Sylvanholme
 	provinces={
-		15312 
+		456 1065 1236 3145 4370 5217 5441 5665 7599 7600 7648 7665 7699
+	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1950000
+        state_category = city
+	history={
+		owner = ROM
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			7699 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ROM
+		victory_points = { 7699 50 }
+	}
 }

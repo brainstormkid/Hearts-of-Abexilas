@@ -4,13 +4,26 @@ state={
 	provinces={
 		1663 2123 3919 4089 4735 5316 6397 7043 7044 7108 7152 7170 7284 7367 
 	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=900000
+        state_category = city
 	history={
 		owner = AET
 		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = AET
+		victory_points = { 7043 10 }
 	}
 }

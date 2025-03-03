@@ -1,0 +1,138 @@
+focus_tree = {
+	id = calidwarf-varaxis-focus-tree
+	continuous_focus_position = { x = -40 y = 2740}
+	country = {
+		factor = 0
+		modifier = { 
+			add = 10
+			tag = VAR
+		}
+	}
+
+	#The Gold Quotas
+	focus = {
+		id = VAR_the_gold_quotas
+		icon = GFX_generic_focus_greater_extraction_efforts-645976
+		x = 2
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available = {
+			has_idea = economic_collapse
+		}
+		completion_reward = {
+			swap_ideas = {
+				add_idea = economic_collapse_2
+				remove_idea = economic_collapse
+			}
+		}
+	}
+
+	#Rebuild the Economy
+	focus = {
+		id = VAR_rebuild_the_economy
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available = {
+			has_idea = economic_collapse_2
+		}
+		prerequisite = { focus = VAR_the_gold_quotas  }
+		completion_reward = {
+			remove_ideas = economic_collapse_2
+		}
+	}
+	
+	#Finalize the Unification
+	focus = {
+	id = VAR_Finalize_the_Unification
+	icon = GFX_focus_generic_home_defense
+	x = 4
+	y = 1
+	cost = 5
+	search_filters = {
+		FOCUS_FILTER_HISTORICAL
+	}
+	completion_reward = {
+		set_cosmetic_tag = VAR2
+		add_stability = 0.05
+		add_war_support = 0.05
+	}
+	}
+	
+	#Bring in the Ministers
+	focus = {
+	id = VAR_bring_in_ministers
+	icon = GFX_focus_POL_sanation_left
+	x = 0
+	y = 1
+	relative_position_id = VAR_Finalize_the_Unification
+	cost = 5
+	prerequisite = { focus = VAR_Finalize_the_Unification  }
+	search_filters = {
+		FOCUS_FILTER_HISTORICAL
+	}
+	completion_reward = {
+	add_stability = 0.05
+	add_political_power = 300
+	}
+	}
+	
+	#The Sphere of the Imperium
+	focus = {
+	id = VAR_Varaxis_Alliance
+	icon = GFX_goal_anschluss
+	x = 3
+	y = 1
+	relative_position_id = VAR_bring_in_ministers
+	cost = 10
+	prerequisite = { focus = VAR_bring_in_ministers }
+	search_filters = {
+		FOCUS_FILTER_HISTORICAL
+	}
+	completion_reward = {
+		set_rule = { can_create_factions = yes }
+		create_faction = "Varaxi Entente"
+	}
+	}
+	
+	#Focus on the Economy
+	focus = {
+	id = VAR_focus_economy
+	icon = GFX_goal_generic_consumer_goods
+	x = 1
+	y = 1
+	relative_position_id = VAR_rebuild_the_economy
+	cost = 5
+	prerequisite = { 
+		focus = VAR_rebuild_the_economy 
+	}
+	prerequisite = {
+		focus = VAR_bring_in_ministers
+	}
+	completion_reward = {
+	
+	}
+	}
+	
+	#Advanced Research Methods
+	focus = {
+	id = VAR_advanced_research
+	icon = GFX_focus_research2
+	x = -1
+	y = 1
+	relative_position_id = VAR_rebuild_the_economy
+	cost = 10
+	prerequisite = { VAR_rebuild_the_economy }
+	completion_reward = {
+	add_research_slot = 1
+	}
+	
+	}
+}

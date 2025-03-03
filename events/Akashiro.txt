@@ -1,0 +1,128 @@
+###################################
+# Akashiro Events
+###################################
+
+add_namespace = akashiro
+
+#A Change In Gear
+country_event = {
+	id = akashiro.1
+	title = "A Change In Gear"
+	desc = aks_change_in_gear.1.d
+	picture = GFX_akashiro_event_1
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = { days = 10 }
+	option = {
+		name = "Listen To The Scholars!"
+        ai_chance = { factor = 50 }
+        unlock_national_focus = AKS_advice_from_the_scholars
+		    add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = electronics
+			}
+    }
+    option = {
+        name = "Listen To The Industrialists!"
+        ai_chance = { factor = 50 }
+        unlock_national_focus = AKS_kickstart_the_industry
+		    add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = industry
+		    }
+        add_political_power = 30
+    }
+}
+
+#Test event / template
+country_event = {
+	id = akashiro.2
+	title = "The Question of Whiskey Island"
+	desc = aks_whiskey.1.d
+	picture = GFX_news_event_004
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = { days = 10 }
+	option = {
+		name = "Transfer Whiskey Island"
+        ai_chance = { factor = 40 }
+        VIR = { transfer_state = 977 }
+        add_political_power = 50
+        AKS = { add_opinion_modifier = { target = VIR modifier = huge_increase} 
+        VIR = { add_opinion_modifier = { target = AKS modifier = huge_increase} 
+        }
+    }
+}
+    option = {
+        name = "Keep Ownership of Whiskey Island"
+        ai_chance = { factor = 60 }
+        add_political_power = -10
+        VIR = { add_opinion_modifier = { target = AKS modifier = medium_decrease} 
+        }
+    }
+}
+
+#Soijiro Ultimatum
+country_event = {
+	id = akashiro.3
+	title = "Send An Ultimatum To Soijiro?"
+	desc = aks_soijiro.1.d
+	picture = GFX_news_event_004
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = { days = 7 }
+	option = {
+		name = "Demand They Become a Vassal"
+        ai_chance = { factor = 25 }
+        puppet = VIR
+        add_political_power = -15 # Give event to Soijiro (Viratayn stand-in)
+        }
+
+    option = {
+        name = "Demand Ryounami"
+        ai_chance = { factor = 50 }
+        AKS = { transfer_state = 944 } # Give event to Soijiro (Viratayn stand-in)
+        }
+
+	option = {
+		name = "Demand Full Integration!"
+        ai_chance = { factor = 25 }
+        add_political_power = -30
+        annex_country = { # Give event to Soijiro (Viratayn stand-in)
+            target = VIR 
+            transfer_troops = no
+        }
+    }
+}
+
+#The Question of Yun-Tsau
+country_event = {
+	id = akashiro.4
+	title = "The Yun-Tsau Question"
+	desc = aks_the_yuntsau_question.1.d
+	picture = GFX_akashiro_event_1
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = { days = 7 }
+	option = {
+		name = "Integrate Yun-Tsau Fully"
+        ai_chance = { factor = 70 }
+        add_political_power = -25
+        annex_country = {
+            target = YUS
+            transfer_troops = yes
+        }
+    }
+    option = {
+        name = "Main Yun-Tsau's Independence"
+        ai_chance = { factor = 30 }
+        add_political_power = 25
+        add_stability = 0.05
+    }
+}

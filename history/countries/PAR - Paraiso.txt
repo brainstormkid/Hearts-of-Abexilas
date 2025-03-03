@@ -1,6 +1,10 @@
-﻿capital = 517
+capital = 517
 
 oob = "PAR"
+
+recruit_character = PAR_partybro
+recruit_character = PAR_kira
+recruit_character = PAR_timesoul
 
 add_ideas = {
 	volunteer_only
@@ -14,16 +18,61 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	absolutist = 100
+	absolutist = 80
+	Imperialist = 10
+	liberalist = 10
 }
 
 create_country_leader = {
-	name = "?"
+	name = "Alejandro Carrotter"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	picture = "gfx/leaders/PAR/Alejandro.dds"
 	expire = "1965.1.1"
 	ideology = absolutist_subtype
 	traits = {
+		Dictator
+		Imperial_Connections
+		Dealbroker
+	}
+}
+
+create_country_leader = {
+	name = "Partybro"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "gfx/leaders/PAR/Partybro.dds"
+	expire = "1965.1.1"
+	ideology = liberalist_subtype
+	traits = {
+		Popular_Figurehead
+		Economic_Reformer
+		Great_Survivor
+	}
+}
+
+create_country_leader = {
+	name = "Partybro"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "gfx/leaders/PAR/Partybro.dds"
+	expire = "1965.1.1"
+	ideology = centrist_subtype
+	traits = {
+		Popular_Figurehead
+		Economic_Reformer
+		Great_Survivor
+	}
+}
+
+create_country_leader = {
+	name = "Saiko"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "gfx/leaders/PAR/Saiko.dds"
+	expire = "1965.1.1"
+	ideology = Imperialist_subtype
+	traits = {
 		#
 	}
 }
+
+set_stability = 0.85
+set_war_support = 0.60
+set_convoys = 25

@@ -1,0 +1,16 @@
+state={
+	id=1313
+	name="STATE_1313"
+	provinces={
+		1146 2815 3027 3353 5318 5920 6081 6627 8974 8995 9002 9003 9013 9045 9051 9064
+	}
+	buildings_max_level_factor=1.000
+		manpower=1
+		state_category = town
+	history={
+		owner = FER
+		buildings = {
+		}
+		add_core_of = FER
+	}
+}

@@ -1,0 +1,16 @@
+state={
+	id=1088
+	name="STATE_1088"
+	provinces={
+		3967
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = VAD
+		buildings = {
+		}
+		add_core_of = VAD
+	}
+}

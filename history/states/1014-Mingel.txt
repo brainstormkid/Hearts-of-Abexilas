@@ -24,6 +24,7 @@ state={
 			dockyard = 1
 		}
 		add_core_of = VIN
+		add_core_of = LYN
 		victory_points = { 628 50 }
 	}
 }

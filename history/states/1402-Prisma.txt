@@ -1,0 +1,16 @@
+state={
+	id=1402
+	name="STATE_1402"
+	provinces={
+		173 1731 2763 3915 4229 5105 11546 11563 11594 11603 11627 11696 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = PRI
+		buildings = {
+		}
+		add_core_of = PRI
+	}
+}

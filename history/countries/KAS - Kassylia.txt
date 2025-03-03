@@ -1,7 +1,9 @@
-﻿capital = 1
+﻿capital = 194
+
+oob = "KAS"
 
 set_politics = {
-	ruling_party = absolutist
+	ruling_party = conservatist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -11,12 +13,14 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "?"
+	name = "Alyk of Kassylia"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/AEZ/Panda.dds"
+	picture = "gfx/leaders/KAS/Alyk.dds"
 	expire = "1965.1.1"
-	ideology = absolutist_subtype
+	ideology = conservatist_subtype
 	traits = {
 		#
 	}
 }
+
+set_convoys = 40

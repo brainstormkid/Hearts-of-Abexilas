@@ -4,11 +4,144 @@ bookmarks = {
 		desc = "CAERUS_DESC"
 		date = 2.1.1.12
 		picture = "GFX_select_date_CAERUS"
-		default_country = "GER"
+		default_country = "BAR"
 		default = yes
+		
+		BAR = {
+			history = BAR_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		AET = {
+			history = AET_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		BOU = {
+			history = BOU_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		DYS = {
+			history = DYS_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		KRA = {
+			history = KRA_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		MIC = {
+			history = MIC_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
 		}
 
 		"---"={
 			history = "OTHER_DESC"
 		}
+		
+		#Minors
+		
+		"KAS"={
+			minor = yes
+			history = "KAS_DESC"
+			ideology = absolutist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"AFO"={
+			minor = yes
+			history = "AFO_DESC"
+			ideology = absolutist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"TAA"={
+			minor = yes
+			history = "TAA_DESC"
+			ideology = absolutist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"ROM"={
+			minor = yes
+			history = "ROM_DESC"
+			ideology = absolutist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"ARH"={
+			minor = yes
+			history = "ARH_DESC"
+			ideology = absolutist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
 }

@@ -1,0 +1,58 @@
+division_template = {
+	name = "Tekuri Keikanshitte"					# Represents 18w Infantry
+	#division_names_group = JAP_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Nokoran Keikanshito"				# Represents 9w Cavalry Division
+	#division_names_group = JAP_Cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "2nd Wardion Infantry"
+		location = 3788
+		division_template = "Tekuri Keikanshitte"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Wardion Infantry"
+		location = 3788
+		division_template = "Tekuri Keikanshitte"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+		division = {
+		name = "1st Kelşattı Keikansha"
+		location = 12970
+		division_template = "Nokoran Keikanshito"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+}
+
+#####################

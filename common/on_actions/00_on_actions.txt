@@ -1,14 +1,17 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			# News Events
 			CAS = { news_event = { id = news.1 } }
 			#CAS = { news_event = { id = news.2 days = 133 } }
 			CAS = { news_event = { id = news.3 days = 112 } }
 			CAS = { news_event = { id = news.4 days = 56 } }
 			CAS = { news_event = { id = news.5 days = 56 } }
+			CAS = { country_event = { id = gertek.1 days = 196 } }
 			CAS = { news_event = { id = news.6 days = 882 } }
 		}
 	}
+	# Nuke Drop Trigger
 	on_nuke_drop = {
 
 		effect = {
@@ -32,5 +35,79 @@ on_actions = {
 		}
 	}
 	on_capitulation = {
+    }
+	
+	## Elections ##
+	
+	on_new_term_election = {
+		random_events = {
+			100 = election.2
+			100 = election.3
+			100 = election.4
+			100 = election.5
+			100 = election.6
+			100 = election.101
+			100 = election.102
+			100 = election.103
+			100 = election.104
+			100 = election.105
+			100 = election.106
+			100 = election.13
+			100 = election.14
+			100 = election.15
+		}
+	}
+	# Ideology Color Changes
+	
+	## Paraiso ##
+	on_ruling_party_change = { # Note: the on action only runs after the game's start
+		effect = {
+            if = {
+                limit = {
+                    original_tag = PAR
+                    has_government = liberalist
+                }
+                set_cosmetic_tag = PAR_liberalist
+            }
+			else_if = {
+                limit = {
+                    original_tag = PAR
+                    has_government = imperialist
+                }
+                set_cosmetic_tag = PAR_imperialist
+            }
+			else_if = {
+                limit = {
+                    original_tag = PAR
+                    has_government = centrist
+                }
+                set_cosmetic_tag = PAR_centrist
+            }
+            else_if = {
+                limit = {
+                    original_tag = PAR
+                }
+                drop_cosmetic_tag = yes
+            }
+			else_if = {
+                limit = {
+                    original_tag = PAR
+                    has_government = imperialist
+                }
+                set_cosmetic_tag = PAR_imperialist_empire
+            }
+        }
+    }
+	## Gertek ##
+	on_ruling_party_change = { # Note: the on action only runs after the game's start
+		effect = {
+            if = {
+                limit = {
+                    original_tag = GEH
+                    has_government = monarchist
+                }
+                set_cosmetic_tag = GEH_monarchist
+            }
+		}
     }
 }

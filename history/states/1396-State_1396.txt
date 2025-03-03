@@ -1,0 +1,16 @@
+state={
+	id=1396
+	name="STATE_1396"
+	provinces={
+		1524 3426 3683 3928 4187 5188 6449 10621 10645 10663 10688 10697 10732 10778
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = SIL
+		buildings = {
+		}
+		add_core_of = SIL
+	}
+}

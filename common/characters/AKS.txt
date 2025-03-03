@@ -1,4 +1,4 @@
-characters={
+characters = {
 	AKS_tsukikage={
 		name=AKS_CHARACTER_TSUKIKAGE
 		portraits={
@@ -20,6 +20,7 @@ characters={
 			desc = POLITICS_TSUKIKAGE_DESC
 			expire="1965.1.1.1"
     }
+}
 	AKS_akira={
 		name=AKS_CHARACTER_AKIRA
 		portraits={
@@ -178,4 +179,81 @@ characters={
 			expire="1965.1.1.1"
 	    }
     }
+
+########################################
+# ARMY GENERALS
+########################################
+	AKS_drinkkirumasa = {
+		name = "Drink Kirumasa"
+		portraits = {
+			army = {
+				large = "GFX_portrait_AKS_drink"
+				small = "GFX_portrait_AKS_drink_small"
+			}
+		}
+
+		corps_commander = {
+			traits = { infantry_officer organizer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+
+	AKS_glaskii = {
+		name = "Tsukikage Akashiro"
+		portraits = {
+			army = {
+				large = "GFX_portrait_AKS_tsukikage"
+				small = "GFX_portrait_AKS_tsukikage_small"
+			}
+		}
+
+		advisor = {
+			cost = 150
+			slot = theorist
+			idea_token = glaskii
+			ledger = army
+			allowed = {
+			}
+			available = {
+			}
+			traits = {
+				grand_battle_plan_expert
+			}
+			ai_will_do = {
+				base = 3.000
+			}
+		}
+
+		field_marshal = {
+			traits = { politically_connected war_hero infantry_officer career_officer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	AKS_oshotty = {
+		name = "Akira Akashiro"
+		portraits = {
+			army = {
+				large = "GFX_portrait_AKS_akira"
+				small = "GFX_portrait_AKS_akira_small"
+			}
+		}
+
+		corps_commander = {
+			traits = { politically_connected media_personality urban_assault_specialist organizer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
 }

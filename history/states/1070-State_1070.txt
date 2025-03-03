@@ -2,15 +2,30 @@ state={
 	id=1070
 	name="STATE_1070"
 	provinces={
-		1139 3218 3796 5376 5478 5776 6213 6674 14586 14598 14601 14623 14633 14649 14658 14700 14843 14873 14917 14939 
+		3218 3796 5376 5478 6213 6674 14586 14598 14601 14623 14633 14649 14658 14700 14843 14873 
 	}
 	buildings_max_level_factor=1.000
         manpower=1
-        state_category = town
+        state_category = large_city
 	history={
 		owner = LIS
 		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = LIS
+		victory_points = { 14843 10 }
+		victory_points = { 6213 5 }
+	}
+	
+	resources = {
+	    oil = 2
+	    aluminium = 3
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
 	}
 }

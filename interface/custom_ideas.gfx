@@ -1,5 +1,21 @@
 spriteTypes = {
 	SpriteType = {
+		name = "GFX_ideology_anarchist_group"
+		texturefile = gfx/interface/ideologies/anarchist_group.dds
+	}
+	SpriteType = {
+		name = "GFX_ideology_radical_socialist_group"
+		texturefile = gfx/interface/ideologies/radical_socialist_group.dds
+	}
+	SpriteType = {
+		name = "GFX_ideology_revisionist_group"
+		texturefile = gfx/interface/ideologies/revisionist_group.dds
+	}
+	SpriteType = {
+		name = "GFX_ideology_xeroist_group"
+		texturefile = gfx/interface/ideologies/xeroist_group.dds
+	}
+	SpriteType = {
 		name = "GFX_ideology_absolutist_group"
 		texturefile = gfx/interface/ideologies/absolutist_group.dds
 	}
@@ -60,58 +76,58 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-	    name = "GFX_idea_Legacy_of_the_Drakaes"
-	    texturefile = "gfx/interface/ideas/Flagdraka.dds"
+	name = "GFX_idea_Legacy_of_the_Drakaes"
+	texturefile = "gfx/interface/ideas/Flagdraka.dds"
 	}
 	
 	SpriteType = {
-    	name = "GFX_idea_Breakaway_state"
-    	texturefile = "gfx/interface/ideas/Breakaway_state.dds"
+	name = "GFX_idea_Breakaway_state"
+	texturefile = "gfx/interface/ideas/Breakaway_state.dds"
 	}
 	
 	SpriteType = {
-        name = "GFX_idea_provisional_government"
-        texturefile = "gfx/interface/ideas/idea_provisional_government.dds"
+	name = "GFX_idea_provisional_government"
+	texturefile = "gfx/interface/ideas/idea_provisional_government.dds"
 	}
 	
 	SpriteType = {
-        name = "GFX_idea_father_of_railways"
-        texturefile = "gfx/interface/ideas/idea_father_of_railways.dds"
+	name = "GFX_idea_father_of_railways"
+	texturefile = "gfx/interface/ideas/idea_father_of_railways.dds"
 	}
 	
 	SpriteType = {
-	    name = "GFX_idea_imperial_capital"
-	    texturefile = "gfx/interface/ideas/idea_imperial_capital.dds"
+	name = "GFX_idea_imperial_capital"
+	texturefile = "gfx/interface/ideas/idea_imperial_capital.dds"
 	}
 
 	SpriteType = {
-	    name = "GFX_idea_high_immigration"
-	    texturefile = "gfx/interface/ideas/idea_high_immigration.dds"
+	name = "GFX_idea_high_immigration"
+	texturefile = "gfx/interface/ideas/idea_high_immigration.dds"
 	}
 
 	SpriteType = {
-	    name = "GFX_idea_agrarian_society"
-	    texturefile = "gfx/interface/ideas/idea_agrarian_society.dds"
+	name = "GFX_idea_agrarian_society"
+	texturefile = "gfx/interface/ideas/idea_agrarian_society.dds"
 	}
 
 	SpriteType = {
-	    name = "GFX_idea_ertcofi_neutrality"
-	    texturefile = "gfx/interface/ideas/idea_ertcofi_neutrality.dds"
+	name = "GFX_idea_ertcofi_neutrality"
+	texturefile = "gfx/interface/ideas/idea_ertcofi_neutrality.dds"
 	}
 
 	SpriteType = {
-	    name = "GFX_idea_johns_mark"
-	    texturefile = "gfx/interface/ideas/idea_johns_mark.dds"
+	name = "GFX_idea_johns_mark"
+	texturefile = "gfx/interface/ideas/idea_johns_mark.dds"
 	}
 
 	SpriteType = {
-	    name = "GFX_idea_abolished_ecmr"
-	    texturefile = "gfx/interface/ideas/idea_abolished_ecmr.dds"
+	name = "GFX_idea_abolished_ecmr"
+	texturefile = "gfx/interface/ideas/idea_abolished_ecmr.dds"
 	}
 
 	SpriteType = {
-	    name = "GFX_idea_maintained_ecmr"
-	    texturefile = "gfx/interface/ideas/idea_abolished_ecmr.dds"
+	name = "GFX_idea_maintained_ecmr"
+	texturefile = "gfx/interface/ideas/idea_abolished_ecmr.dds"
 	}
 	SpriteType = { 
 		name = "GFX_idea_the_disunited_empire"
@@ -132,6 +148,10 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_idea_Great_Divide"
 		texturefile = "gfx/interface/ideas/MYR_idea_Great_Divide.dds"
+	}
+        SpriteType = { 
+		name = "GFX_idea_Underdeveloped_economy"
+		texturefile = "gfx/interface/ideas/MYR_Idea_poor_economy.dds"
 	}
 	SpriteType = { 
 		name = "GFX_idea_economic_collapse"
@@ -184,6 +204,30 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_idea_nationalism_generic"
 		texturefile = "gfx/interface/ideas/idea_generic_nationalism_generic.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_fortification"
+		texturefile = "gfx/interface/ideas/idea_generic_fortification_generic.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_civil_defense"
+		texturefile = "gfx/interface/ideas/idea_generic_civil_defense_generic.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_home_defense"
+		texturefile = "gfx/interface/ideas/idea_generic_home_defense_generic.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_fort_of_democracy"
+		texturefile = "gfx/interface/ideas/idea_generic_fort_of_democracy_generic.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_aethos_advisors"
+		texturefile = "gfx/interface/ideas/idea_generic_aethos_advisors_generic.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_bardonia_advisors"
+		texturefile = "gfx/interface/ideas/idea_generic_aethos_advisors_generic.dds"
 	}
 	SpriteType = { 
 		name = "idea_ARC_volzhkana_market"
@@ -265,9 +309,16 @@ spriteTypes = {
 		name = "GFX_idea_idea_company_grants"
 		texturefile = "gfx/interface/ideas/idea_company_grants.dds"
 	}
-	SpriteType = {
-		name = "GFX_idea_Cathramis_Continental_Member"
-		texturefile = "gfx/interface/ideas/Cathramis_Continental_Member.dds"
+	SpriteType = { 
+		name = "GFX_idea_forced_army_submission_oshotty"
+		texturefile = "gfx/interface/ideas/forced_army_submission_oshotty.dds"
 	}
-
+	SpriteType = { 
+		name = "GFX_idea_idea_muho_jidai"
+		texturefile = "gfx/interface/ideas/idea_muho_jidai.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_cathramis_continental_member"
+		texturefile = "gfx/interface/ideas/idea_cathramis_continental_member.dds"
+	}
  }

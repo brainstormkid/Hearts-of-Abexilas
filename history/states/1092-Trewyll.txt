@@ -1,0 +1,16 @@
+state={
+	id=1092
+	name="STATE_1092"
+	provinces={
+		1650 4173 4608 9400 9433
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = JAT
+		buildings = {
+		}
+		add_core_of = JAT
+	}
+}

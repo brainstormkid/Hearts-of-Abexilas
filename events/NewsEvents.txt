@@ -101,6 +101,7 @@ news_event = {
 
 	option = {
 		name = "news.5.a"
+		add_threat = 100
 		set_global_flag = war_plugin_enabled
 		custom_effect_tooltip = PLUGIN_ENABLED
 	}

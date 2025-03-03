@@ -1,0 +1,16 @@
+state={
+	id=1319
+	name="STATE_1319"
+	provinces={
+		1193 2745 9315 9345 9352
+	}
+	buildings_max_level_factor=1.000
+		manpower=1
+		state_category = town
+	history={
+		owner = ANO
+		buildings = {
+		}
+		add_core_of = ANO
+	}
+}

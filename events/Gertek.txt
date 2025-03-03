@@ -1,0 +1,70 @@
+add_namespace = Gertek
+
+country_event = {
+	id = gertek.1
+	title = gertek.1.t
+	desc = gertek.1.d
+	picture = ""
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gertek.1.a
+		ai_chance = {
+			factor = 80
+		}
+		add_popularity = {
+				ideology = monarchist
+				popularity = +0.70
+			}
+		set_politics = {
+			ruling_party = monarchist
+			elections_allowed = no
+			last_election = "1935.12.17"
+			election_frequency = 48
+			long_name = "Second Kingdom of Maravilla"
+			name = "SKM"
+		}
+	}
+	option = {
+		name = gertek.1.b
+		ai_chance = {
+			factor = 20
+		}
+		hidden_effect = {
+			country_event = {
+			    id = gertek.2
+			    days = 5
+			}
+		}
+	}
+}
+
+news_event = {
+	id = gertek.2
+	title = gertek.2.t
+	desc = gertek.2.d
+	picture = ""
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gertek.2.a
+		ai_chance = {
+			factor = 100
+		}
+		hidden_effect = {
+			release_puppet = LAV
+			start_civil_war = {
+				ruling_party = monarchist
+				ideology = monarchist
+				size = 0.5
+				keep_all_characters = yes
+				states = {
+					370 369 321 369
+				}
+				capital = { 321 }
+			}
+		}
+	}
+}

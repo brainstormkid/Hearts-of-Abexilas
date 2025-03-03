@@ -9,7 +9,8 @@ form_leyenbourg_category  = {
 		}
 
 		available = {
-			controls_all_ethiopian_core_states = yes 
+			controls_state = 601 # Leyenbourg-City
+			controls_state = 599 # Nova-Ryken
 			controls_state = 610 # Tilbee 
 			controls_state = 592 # Federal Tandong Land
 			controls_state = 616 # Luyezia-South
@@ -42,3 +43,89 @@ form_leyenbourg_category  = {
 		}
 	}
 }
+
+form_usa_category = {
+
+	form_usa = {
+		
+		icon = generic_form_nation
+		
+		allowed = {
+			OR = {
+				original_tag = GEH
+				original_tag = ZAM
+				original_tag = VEA
+				original_tag = ERI
+				original_tag = QYN
+				original_tag = COV
+				original_tag = PAR
+				original_tag = LAV
+			}
+		}
+	
+		available = {
+			controls_state = 483 #Velarim Capital
+			controls_state = 408 #Gertek Capital
+			controls_state = 505 #Zamotz Capital
+		}
+		
+		visible = {
+			OR = {	
+				has_completed_focus = ZAM_unitatis_pro_gente
+				has_completed_focus = GEH_unitatis_pro_gente
+				has_completed_focus = VEA_unitatis_pro_gente
+			}
+		}
+		
+		complete_effect = {
+			set_cosmetic_tag = UNITED_USA
+			set_capital = { state = 483 }
+			409 = { add_core_of = ROOT }
+			408 = { add_core_of = ROOT }
+			393 = { add_core_of = ROOT }
+			370 = { add_core_of = ROOT }
+			369 = { add_core_of = ROOT }
+			323 = { add_core_of = ROOT }
+			321 = { add_core_of = ROOT }
+			618 = { add_core_of = ROOT }
+			565 = { add_core_of = ROOT }
+			564 = { add_core_of = ROOT }
+			553 = { add_core_of = ROOT }
+			549 = { add_core_of = ROOT }
+			536 = { add_core_of = ROOT }
+			522 = { add_core_of = ROOT }
+			505 = { add_core_of = ROOT }
+			475 = { add_core_of = ROOT }
+			462 = { add_core_of = ROOT }
+			515 = { add_core_of = ROOT }
+			512 = { add_core_of = ROOT }
+			498 = { add_core_of = ROOT }
+			494 = { add_core_of = ROOT }
+			490 = { add_core_of = ROOT }
+			483 = { add_core_of = ROOT }
+			477 = { add_core_of = ROOT }
+			474 = { add_core_of = ROOT }
+			467 = { add_core_of = ROOT }
+			459 = { add_core_of = ROOT }
+			452 = { add_core_of = ROOT }
+			443 = { add_core_of = ROOT }
+			433 = { add_core_of = ROOT }
+		
+			#Might have to expand later depending on claims
+		
+			hidden_effect = { 
+				set_global_flag = form_adramis_flag
+				
+			}
+		}
+		
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+			

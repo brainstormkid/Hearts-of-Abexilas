@@ -1,0 +1,20 @@
+state={
+	id=1354
+	name="STATE_1354"
+	provinces={
+		6953 12564 12627 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = VOL
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VOL
+		victory_points = {
+			6953 10
+		}
+	}
+}

@@ -1,0 +1,16 @@
+state={
+	id=786
+	name="STATE_786"
+	provinces={
+		446 792 1461 2367 2916 4050 4462 4591 4882 5131 5777 12790 12814 12857 12863 12869 12874 12881 12891 12904 12921 12960 12966 13001 13039 13040 13046
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = SAK
+		buildings = {
+		}
+		add_core_of = SAK
+	}
+}

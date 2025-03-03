@@ -2,9 +2,29 @@ state={
 	id=1119
 	name="STATE_1119"
 	provinces={
-		3640 3736 4402 5501 14947 14985 
+		1139 3640 3736 4402 5501 5776 14917 14939 14947 14985
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=2100000
+        state_category = large_town
+	history={
+		owner = RIM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = RIM
+		victory_points = { 3640 50 }
+		victory_points = { 4402 20 }
+	}
+	
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
 }

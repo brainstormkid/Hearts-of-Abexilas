@@ -1,0 +1,16 @@
+state={
+	id=156
+	name="STATE_156"
+	provinces={
+		2536 5010 8408 8414 8446 8447 8451 8468 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = THT
+		buildings = {
+		}
+		add_core_of = THT
+	}
+}

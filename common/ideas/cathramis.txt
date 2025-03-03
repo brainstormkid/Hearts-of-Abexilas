@@ -1,13 +1,16 @@
 ideas = {
 	country = {
-		Cathramis_Continental_Member = {
-			picture = Cathramis_Continental_Member
+		cathramis_continental_member = {
+			picture = cathramis_continental_member
 			cancel = {
 			}
 			available = {
 			}
 			allowed_civil_war = {
 				always = yes
+			}
+			modifier = {
+				trade_opinion_factor = 0.1
 			}
 		}
 	}

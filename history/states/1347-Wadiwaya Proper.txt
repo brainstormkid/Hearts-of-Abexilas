@@ -1,0 +1,46 @@
+state={
+	id=1347
+	name="STATE_1347"
+	provinces={
+		1134 1390 1469 2340 2416 3311 3419 3582 4110 4611 4738 6153 6729 6998 14846 14848 14855 14862 14863 14867 14882 14888 14894 14902 14921 14931 14937 14945 14954 14959 14973 14991 15002 15026
+	}
+	buildings_max_level_factor=1.000
+        manpower=12450000
+        state_category = metropolis
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	history={
+		owner = WAD
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			4738 = {
+				naval_base = 1
+			}
+			14954 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = WAD
+		victory_points = {
+			14954 50
+		}
+		victory_points = {
+			14848 20
+		}
+		victory_points = {
+			6729 10
+		}
+		victory_points = {
+			14882 5
+		}
+	}
+}

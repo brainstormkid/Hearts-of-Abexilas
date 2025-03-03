@@ -1,0 +1,30 @@
+state={
+	id=305
+	name="STATE_305"
+	provinces={
+		9880 15306 15308 15309 15310 15311 15312 15313 15314 15315 15316 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=1050000
+        state_category = town
+	history={
+		owner = KAS
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			9880 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = KAS
+		victory_points = { 9880 20 }
+	}
+}

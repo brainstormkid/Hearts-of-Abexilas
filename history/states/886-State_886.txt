@@ -3,7 +3,7 @@ state={
 	name="STATE_886"
 	manpower=2481000
 
-	state_category = megalopolis
+	state_category = metropolis
 	resources={
 		oil=2
 		steel=3 #was 42 was: 112
@@ -27,16 +27,11 @@ state={
 			industrial_complex = 3
 			arms_factory = 1
 			air_base = 2
-			575 = {
+			6565 = {
 				naval_base = 2
 			}
 		}
 		add_core_of = AKS
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 6
-			}
-		}
 	}
 
 	provinces={

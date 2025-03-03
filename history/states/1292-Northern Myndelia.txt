@@ -1,0 +1,16 @@
+state={
+	id=1292
+	name="STATE_1292"
+	provinces={
+		783 6885 14120 14128 14158 14170 14210 14234 14265 
+	}
+	buildings_max_level_factor=1.000
+		manpower=1
+		state_category = town
+	history={
+		owner = AUR
+		buildings = {
+		}
+		add_core_of = AUR
+	}
+}

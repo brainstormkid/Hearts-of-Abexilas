@@ -1,0 +1,22 @@
+characters={
+    VEA_zeno={
+    	name=VEA_zeno
+    	portraits={
+    		civilian={
+    			small="GFX_portrait_VEA_zeno_small"
+    		}
+        }
+        advisor={
+            cost = 150
+            slot = political_advisor
+            idea_token = [VEA_zeno]
+            ledger = civilian
+            allowed = {
+                    original_tag = VEA
+            }
+            traits = { triumphant_revolutionary }
+            available = {
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+state={
+	id=290
+	name="STATE_290"
+	provinces={
+		4196 6252 6829 8489 8565 8575 8585 8606 8632 8645
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = MYD
+		buildings = {
+		}
+		add_core_of = MYD
+	}
+}

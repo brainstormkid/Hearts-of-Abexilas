@@ -1,0 +1,16 @@
+state={
+	id=1365
+	name="STATE_1365"
+	provinces={
+		2649 2771 2953 3176 3302 4282 5498 5747 11787 11809 11814 11836 11837
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = MIC
+		buildings = {
+		}
+		add_core_of = MIC
+	}
+}

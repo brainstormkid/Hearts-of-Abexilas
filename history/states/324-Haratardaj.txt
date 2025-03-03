@@ -18,10 +18,9 @@ state={
 	history={
 		owner = JAZ
 		buildings = {
-		arms_factory = 1
-		industrial_complex = 2
-		dockyard = 1
-		infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			infrastructure = 3
 		}
 		add_core_of = JAZ
 		victory_points = { 9990 20 }

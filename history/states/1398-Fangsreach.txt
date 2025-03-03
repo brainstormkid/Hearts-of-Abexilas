@@ -1,0 +1,16 @@
+state={
+	id=1398
+	name="STATE_1398"
+	provinces={
+		10868 10921 10967 11007
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = NEB
+		buildings = {
+		}
+		add_core_of = NEB
+	}
+}

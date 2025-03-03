@@ -1,0 +1,33 @@
+state={
+	id=1408
+	name="STATE_1408"
+	provinces={
+		1346 1584 4062 4242 6593 15008 15035 15050 15051 15070 15100 15107
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=1350000
+        state_category = large_town	
+	history={
+		owner = BAD
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			4062 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = BAD
+		victory_points = {
+			15051 50
+		}
+	}
+}

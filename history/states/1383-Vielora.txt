@@ -1,0 +1,16 @@
+state={
+	id=1383
+	name="STATE_1383"
+	provinces={
+		1977 3081 3964 4777 6904 11036 11076 11090 11135 11198 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = VIE
+		buildings = {
+		}
+		add_core_of = VIE
+	}
+}

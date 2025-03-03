@@ -320,6 +320,10 @@ ideologies = {
 
 		types = {
 			revisionist_subtype = {}
+			flavorist = {
+					can_be_randomly_selected = no
+					color = { 136 0 27 }
+				    }
 		}
 
 		dynamic_faction_names = {

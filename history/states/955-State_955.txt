@@ -2,9 +2,15 @@ state={
 	id=955
 	name="STATE_955"
 	provinces={
-		140 669 1008 1410 1456 2590 3477 4366 5529 13632 13651 13694 13741 13757 13783 13787 13834 
+		1456 2590 5529 13741 13757 13787 13834 
 	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
+	history={
+		owner = ARI
+		buildings = {
+		}
+		add_core_of = ARI
+	}
 }

@@ -8,7 +8,7 @@ focus_tree = {
 			tag = GAR
 		}
 	}
-	
+
 #Begins Army reform tree
 focus = {
 		id = GAR_whats_a_military
@@ -228,10 +228,59 @@ focus = {
 		search_filters = {FOCUS_FILTER_HISTORICAL}
 		prerequisite = { focus = GAR_countinue_merge }
 		mutually_exclusive = {focus = GAR_a_better_way}
+		completion_reward = {
+			add_popularity = {
+			ideology = conservatist
+			popularity = 0.25
+			}
+			add_war_support = 0.05
+			add_stability = 0.05
+			add_political_power = 150
+		}	
+	}
 	
+	#Prepare for the Gunpowder War
+	focus = {
+		id = GAR_prep_defense
+		icon = GFX_goal_generic_fortify_city
+		x = 1
+		y = 1
+		relative_position_id = GAR_A_steady_hand
+		cost = 5
+		search_filters = {FOCUS_FILTER_HISTORICAL}
+		prerequisite = { focus = GAR_A_steady_hand }
+		completion_reward = {
+			add_ideas = partial_economic_mobilisation
+			add_ideas = limited_conscription
+			add_war_support = 0.25
+		}
+	}
 	
+	#Replacing Demol
+	focus = {
+		id = GAR_replace_demol
+		icon = GFX_goal_generic_neutrality_focus
+		x = -1
+		y = 1
+		relative_position_id = GAR_prep_defense
+		cost = 2
+		search_filters = {FOCUS_FILTER_HISTORICAL}
+		prerequisite = { focus = GAR_prep_defense }
+	}
 	
-	
+	#Launch Counter Attack
+	focus = {
+		id = GAR_launch_counter_attack
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		x = 1
+		y = 1
+		relative_position_id = GAR_prep_defense
+		cost = 4
+		search_filters = {FOCUS_FILTER_HISTORICAL}
+		prerequisite = { focus = GAR_prep_defense }
+		completion_reward = {
+		create_wargoal = { type = annex_everything target = ZAI }
+		}
 	}
 	
 	#Begins Anarchist Path
@@ -680,4 +729,48 @@ focus = {
 		mutually_exclusive = { focus = GAR_Communalist_principles }
 	}
 	
+	#Rebuild the Economy
+	focus = {
+		id = generic_focus_rebuild_the_economy
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		relative_position_id = GAR_A_steady_hand
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available = {
+			has_idea = economic_collapse
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = economic_collapse_1
+				remove_idea = economic_collapse
+			}
+		}
+		prerequisite = { focus = GAR_A_steady_hand }
+	}
+
+	#Re-Centralize the Nation
+	focus = {
+		id = generic_focus_recentralize_the_nation
+		icon = GFX_focus_generic_self_management
+		x = 0
+		y = 1
+		relative_position_id = generic_focus_rebuild_the_economy
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = generic_focus_rebuild_the_economy  }
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = economic_collapse_2
+				remove_idea = economic_collapse_1
+			}
+		}
+	}
 }

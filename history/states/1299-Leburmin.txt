@@ -1,0 +1,16 @@
+state={
+	id=1299
+	name="STATE_1299"
+	provinces={
+		7693 7717 7727
+	}
+	buildings_max_level_factor=1.000
+		manpower=1
+		state_category = town
+	history={
+		owner = ORO
+		buildings = {
+		}
+		add_core_of = ORO
+	}
+}

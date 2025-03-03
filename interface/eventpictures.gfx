@@ -64,4 +64,14 @@ spriteTypes = {
 		name = "GFX_novaran_crisis"
 		texturefile = "gfx/event_pictures/novaran_crisis.dds"
 	}
+
+	#AKS
+	SpriteType = { 
+		name = "GFX_report_event_generic_read_write"
+		texturefile = "gfx/event_pictures/report_event_generic_read_write.dds"
+	}
+	SpriteType = { 
+		name = "GFX_akashiro_event_1"
+		texturefile = "gfx/event_pictures/akashiro_event_1.dds"
+	}
 }

@@ -1,0 +1,33 @@
+state={
+	id=1062
+	name="STATE_1062"
+	provinces={
+		568 1460 2170 2941 3437 4690 4947 6559 14504 14544 14579 14621 14642 14653 14691 
+	}
+	buildings_max_level_factor=1.000
+        manpower=6450000
+        state_category = large_town
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	history={
+		owner = KAR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			568 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = KAR
+		victory_points = {
+			6559 50
+		}
+	}
+}

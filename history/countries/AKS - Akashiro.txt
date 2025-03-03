@@ -23,6 +23,7 @@ set_technology = {
 	early_bomber = 1
 }
 
+# Leaders
 recruit_character = AKS_tsukikage
 recruit_character = AKS_akira
 recruit_character = AKS_lason
@@ -32,6 +33,15 @@ recruit_character = AKS_helena
 recruit_character = AKS_drink
 recruit_character = AKS_tigiyuto
 recruit_character = AKS_chifu
+
+# Generals
+recruit_character = AKS_oshotty
+recruit_character = AKS_glaskii
+recruit_character = AKS_drinkkirumasa
+
+
+
+
 
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -85,6 +95,8 @@ add_ideas = {
 	home_of_the_tenshin
 	all_power_to_the_shogun
 	aks_high_inflation
+	remnants_of_muho_jidai
+	low_economic_mobilisation
 }
 
 oob = "AKS"
@@ -123,7 +135,8 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = monarchist_subtype
 	traits = {
-		#
+		great_war_hero
+		inexperienced_monarch
 	}
 }
 create_country_leader = {
@@ -133,7 +146,8 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = absolutist_subtype
 	traits = {
-		#
+		great_war_hero
+		inexperienced_monarch
 	}
 }
 create_country_leader = {
@@ -143,7 +157,8 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = imperialist_subtype
 	traits = {
-		#
+		autocratic_imperialist
+		steel_heart
 	}
 }
 create_country_leader = {
@@ -153,7 +168,9 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = accelerationist_subtype
 	traits = {
-		#
+		dictator
+		editor
+		minister_of_education
 	}
 }
 create_country_leader = {
@@ -163,7 +180,9 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = anarchist_subtype
 	traits = {
-		#
+		dictator
+		triumphant_revolutionary
+		socialist_politician
 	}
 }
 create_country_leader = {
@@ -173,7 +192,8 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = xeroist_subtype
 	traits = {
-		#
+		dictator
+		triumphant_revolutionary
 	}
 }
 create_country_leader = {
@@ -183,7 +203,9 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = libertarianist_subtype
 	traits = {
-		#
+		great_architect
+		first_lady
+		humble
 	}
 }
 create_country_leader = {
@@ -193,7 +215,9 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = revisionist_subtype
 	traits = {
-		#
+		hot_tempered_reformer
+		headstrong
+		rearmer
 	}
 }
 create_country_leader = {
@@ -203,7 +227,8 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = liberalist_subtype
 	traits = {
-		#
+		head_of_intelligence
+		white_liberal
 	}
 }
 create_country_leader = {
@@ -213,7 +238,8 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = progressivist_subtype
 	traits = {
-		#
+		economic_reformer
+		head_of_intelligence
 	}
 }
 create_country_leader = {
@@ -223,7 +249,9 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = conservatist_subtype
 	traits = {
-		#
+		political_dancer
+		popular_figurehead
+		ardent_conservative
 	}
 }
 create_country_leader = {
@@ -233,7 +261,9 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = radical_nationalist_subtype
 	traits = {
-		#
+		dictator
+		political_dancer
+		popular_figurehead
 	}
 }
 create_country_leader = {
@@ -243,7 +273,9 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = radical_socialist_subtype
 	traits = {
-		#
+		great_architect
+		first_lady
+		humble
 	}
 }
 create_country_leader = {
@@ -253,7 +285,9 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = theocratist_subtype
 	traits = {
-		#
+		man_of_the_nation
+		national_integralist
+		political_dancer
 	}
 }
 create_country_leader = {
@@ -263,7 +297,9 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = centrist_subtype
 	traits = {
-		#
+		man_of_the_nation
+		national_integralist
+		political_dancer
 	}
 }
 
@@ -273,4 +309,8 @@ set_convoys = 220
 set_autonomy = {
 	target = SUN
 	autonomous_state = autonomy_dominion
+}
+set_autonomy = {
+	target = YUS
+	autonomous_state = autonomy_integrated_puppet
 }

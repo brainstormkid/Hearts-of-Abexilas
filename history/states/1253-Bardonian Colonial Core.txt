@@ -1,0 +1,27 @@
+state={
+	id=1253
+	name="STATE_1253" #Bardonian Colonial Core
+	provinces={
+		2442 3824 5202 5308 6892 11509 11569 11576 11602
+	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=1200000
+        state_category = town
+	history={
+		owner = BAR
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+		}
+		add_core_of = BAR
+		victory_points = { 11602 20 }
+	}
+}

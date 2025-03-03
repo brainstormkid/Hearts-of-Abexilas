@@ -4,6 +4,16 @@
  news.1.d:0 "Thank you for trying the Hearts of Abexilas Hoi4 Mod based on the Stoneworks Minecraft Server. We hope Stoneworks Hoi4 enthusiasts and regular hoi4 players can delve into the world of Abexilas and play their favorite nations. This has been a project from which over 100+ Stoneworks players have contributed in turning blocks into Hoi4.\n\nMore developments and updates are coming soon, feel free to join our discord if you are interested or if you have any game bugs to report. Enjoy!\n\nSincerely,\nHoA Development Team"
  news.1.a:1 "Nations - History - Wars - Roleplay"
  
+ #Adramis
+ adramis.1.t:0 "The Congress of Adramis"
+ adramis.1.d:0 "The biggest and most influencial nations of Adramis have come together to discuss the future of the continent. Now it is in their hands to decide wether the continent unites under one rule, or stays divided."
+ adramis.1.a:0 "An interesting event to be sure..."
+ adramis.2.t:0 "Adramis Unification Ultimatum"
+ adramis.2.d:0 "The most influencial nations in Adramis have decided to come together and start the unification of our continent. Now it is our decision to support it, or deny it."
+ adramis.2.a:0 "A great idea!"
+ adramis.2.b:0 "It is a death trap!"
+ adramis.2.c:0 "Let us just observe..."
+ 
  #Cathramis Summit
  news.2.t:0 "The First Cathramis Summit"
  news.2.d:0 "In the night, a great ships docked into the harbors of Centuria, carrying with them the representatives and banners of all the nations of the continent. They carried themselves to the great hall of the city and sat themselves at the grand tables, the first Summit had begun"
@@ -39,6 +49,15 @@
  news.9.d:0 "Today, the Inaugural Race for Formula Abex Fall Series took place at Ithrun City Raceway. After technical difficulties, BrainlessPotato of Ashkavari Ocelots took first place in this 24 driver race!\nStay Tuned for how the Formula Abex - Fall Series will pan out!"
  news.9.a:0 "Great Inaugural Race!"
  
+ #Gertek Fall
+ gertek.1.t:0 "The Government of Gertek has fallen"
+ gertek.1.d:0 "The central government had been struggeling with destabilization for long. But now it has totally collapsed. The Adramis Cold War was too much for the government. Many groups emerged to create a new country from the ashes. But who will lead the nation now?"
+ gertek.1.a:0 "Down with the Khan! For a brighter Future!"
+ gertek.1.b:0 "Be rational, we will stand the Test!"
+ gertek.2.t:0 "Gertek Civil War!"
+ gertek.2.d:0 "The Khan has fallen! A new Kingdom is rising from the ashes taking what belongs to them. The Second Kingdom of Maravilla it is called. Its army and will stronger then ever before, it will take its place as the successer to the Gerteks."
+ gertek.2.a:0 "A Suprise to be sure"
+ 
  #MYRTANA EVENTS
  myrtana_story_events.1.t:0 "Long day in Theos."
  myrtana_story_events.1.d:0 "It was a late night in Theos, factories were almost closing, the civilians go home in a bit, but something unusual happened today at the weapon factory in Theos. At the rifle craftsmanship sector, one of the workers called Luxvie has been walking around paranoid for hours, not knowing why the other worker called Stella has came up to her and asked her: \n\n"Luxvie, what's happening with ya?! Are you alright?!".\n\nLuxvie responded with: "I can't do this... I just can't..."\n\nStella confused asked, "Wait what are you talking about?"\n\nLuxvie said, "Soon, my family and I will help the others to liberate us from this tyrant..."\n\nStella, being Loyalist to the King Ravian, shocked said: "Well, wait when are you guys gonna help them?"\n\nLuxvie said: "Don't tell anyone but, we are going tommorow right in the morning to Torsheim."\n\n"Understandable, good luck." Were last words Stella said to her before she went away, the shift ended and everyone went home.\n\nUntil tommorow on National News of Theos, it has been reported that Luxvie and her family have been found dead in their apartment. The authorities said they aren't sure what caused it, but the medical experts say it was a murder with some short of really sharp object, being stabbed into each member multiple times. \n\nThe investigation is currently ongoing."
@@ -63,6 +82,11 @@
  myrtana_pre_civil.4.d:0 "We managed to send in the spy to inflitrate protestor's city with a sniper rifle and we got report that Aegis was assasinated from getting shot in the back of his head."
  myrtana_pre_civil.4.a:0 "That should do the trick."
  
+#AKASHIRO EVENTS
+ aks_change_in_gear.1.d:0 "The §1Akashiro Shogunate§! is, and has always been an incredible nation, able to punch far above it's own weight much like the Empires of both past and present - yet something in our nation is rotten, and we must steer clear of this corruption before it takes proper hold in our country."
+ aks_whiskey.1.d:0 "This is a test event, please work"
+ aks_the_yuntsau_question.1.d:0 "The nation of Yun-Tsau has been our friend for as long as the history books remember, but with them falling under troubling times recently, they've approached us requesting to be annexed. We must now make this tough decision, which is sure to have a lasting effect on our nation and it's people for a long time."
+
  #LEYENBOURG EVENTS
  tim_retires.1.t:0 "Tim retires!"
  tim_retires.1.d:0 "Tim Desmond III. has unexpectedly stepped down from his position of High Chancellor"
@@ -152,3 +176,38 @@
  #VALORA EVENTS
  valora.1.t:0 "Novaran Crisis"
  valora.1.d:0 "The rebels in Novara had managed to drive our and loyalist troops of the streets of the city! How shall we react to this treason?"
+
+ #PARAISO EVENTS
+ par_make_a_deal.1.t:0 "It Time To Make A Deal, Gertek has thort our plans for too long. We must take our lands back, or we must bite our time."
+ par_Ex.1.d:0 
+ 
+ #Please add all Country Events above
+ 
+ #Election events
+ 
+ ##Nationalism##
+ election.101.t:0 "Election: Imperialist Majority"
+ election.101.d:0 "This election has been devastating for the very institution it represents. The majority of the [Root.GetAdjective] population have cast their vote in favor of a imperialist party that seeks to abolish elections and install an autocratic ruler. While many consider taking up arms against this violation of the democratic ideals that allowed them this mandate to begin with, others consider the use of violence to only confirm their ideals further."
+ election.101.a:0 "It is a black day for [Root.GetName], but the people have spoken."
+ election.101.b:0 "We will not give up our liberty without a fight!"
+ election.102.t:0 "Election: Radical Nationalist Majority"
+ election.102.d:0 "This election has been devastating for the very institution it represents. The majority of the [Root.GetAdjective] population have cast their vote in favor of a nationalist party that seeks to abolish elections and install an autocratic ruler. While many consider taking up arms against this violation of the democratic ideals that allowed them this mandate to begin with, others consider the use of violence to only confirm their ideals further."
+ election.102.a:0 "It is a black day for [Root.GetName], but the people have spoken."
+ election.102.b:0 "We will not give up our liberty without a fight!"
+ ##Socialist##
+ election.103.t:0 "Election: Anarchist Majority"
+ election.103.d:0 "The current election has resulted in victory for the anarchist parties, with mixed reactions from the former administration. While the new rulers claim to represent the people as a whole, they view many of the democratic institutions we cherish as attempts to manipulate and oppress the working class, leading to discussion about what truly constitutes a 'rule of the people'. In some nations, the revolution began in rivers of blood. In [Root.GetName] it didn't, but it may yet end in them."
+ election.103.a:0 "This is troubling, but they truly do represent the majority."
+ election.103.b:0 "We must stop them before they abolish every sign of dissenting thought!"
+ election.104.t:0 "Election: Xeroist Majority"
+ election.104.d:0 "The current election has resulted in victory for the xeroist parties, with mixed reactions from the former administration. While the new rulers claim to represent the people as a whole, they view many of the democratic institutions we cherish as attempts to manipulate and oppress the working class, leading to discussion about what truly constitutes a 'rule of the people'. In some nations, the revolution began in rivers of blood. In [Root.GetName] it didn't, but it may yet end in them."
+ election.104.a:0 "This is troubling, but they truly do represent the majority."
+ election.104.b:0 "We must stop them before they abolish every sign of dissenting thought!"
+ election.105.t:0 "Election: Radical Socialist Majority"
+ election.105.d:0 "The current election has resulted in victory for the socialist parties, with mixed reactions from the former administration. While the new rulers claim to represent the people as a whole, they view many of the democratic institutions we cherish as attempts to manipulate and oppress the working class, leading to discussion about what truly constitutes a 'rule of the people'. In some nations, the revolution began in rivers of blood. In [Root.GetName] it didn't, but it may yet end in them."
+ election.105.a:0 "This is troubling, but they truly do represent the majority."
+ election.105.b:0 "We must stop them before they abolish every sign of dissenting thought!"
+ election.106.t:0 "Election: Revisionist Majority"
+ election.106.d:0 "The current election has resulted in victory for the revisionist parties, with mixed reactions from the former administration. While the new rulers claim to represent the people as a whole, they view many of the democratic institutions we cherish as attempts to manipulate and oppress the working class, leading to discussion about what truly constitutes a 'rule of the people'. In some nations, the revolution began in rivers of blood. In [Root.GetName] it didn't, but it may yet end in them."
+ election.106.a:0 "This is troubling, but they truly do represent the majority."
+ election.106.b:0 "We must stop them before they abolish every sign of dissenting thought!"

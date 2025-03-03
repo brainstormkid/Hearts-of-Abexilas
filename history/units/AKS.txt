@@ -78,7 +78,6 @@ units = {
 		division_template = "Ketokoi Keikansha"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.8
-
 	}
 	division = {
 		name = "2nd Tennyoku Infantry"
@@ -151,13 +150,6 @@ units = {
 		start_equipment_factor = 0.8
 	}
 	division = {
-		name = "1st Wardion Infantry"
-		location = 3788
-		division_template = "Ketokoi Keikansha"
-		start_experience_factor = 0.4
-		start_equipment_factor = 1.0
-	}
-	division = {
 		name = "1st Yumeru Cavalry"
 		location = 603
 		division_template = "Seryō Keikansha"
@@ -197,13 +189,6 @@ units = {
 		location = 2031
 		division_template = "Tama-Saitō Keikansha"
 		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-		division = {
-		name = "1st Kelşattı Keikansha"
-		location = 12970
-		division_template = "Kelşattı Keikantaito"
-		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}
 }

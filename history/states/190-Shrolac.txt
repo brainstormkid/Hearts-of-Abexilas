@@ -4,13 +4,34 @@ state={
 	provinces={
 		356 2332 4874 4950 6117 6481 8871 8901 8912 8947 8988 9009 9054 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=900000
+        state_category = city
 	history={
 		owner = DYS
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			6481 = {
+				naval_base = 2
+			}
+			8871 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = DYS
+		victory_points = { 6481 10 }
+		victory_points = { 8871 5 }
+		victory_points = { 4874 5 }
 	}
 }

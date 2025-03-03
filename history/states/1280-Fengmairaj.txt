@@ -1,0 +1,28 @@
+state={
+	id=1280
+	name="STATE_1280"
+	provinces={
+		533 1514 2231 3091 5868 14331 14377
+	}
+	buildings_max_level_factor=1.000
+        manpower=600000
+        state_category = rural
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	history={
+		owner = XUA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = XUA
+		victory_points = {
+			5868 50
+		}
+	}
+}

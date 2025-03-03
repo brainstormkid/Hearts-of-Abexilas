@@ -5,8 +5,8 @@ state={
 		2148 2526 2979 4734 5205 6472 14380 14391 14398 14469 14489
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=8400000
+        state_category = city
 	history={
 		owner = DAE
 		buildings = {

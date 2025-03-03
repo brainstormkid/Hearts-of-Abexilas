@@ -1,0 +1,270 @@
+focus_tree = {
+	id = qyn
+	continuous_focus_position = { x = 2810 y = 140 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = QYN
+		}
+	}
+	#We Failed to Recover the Emperor
+	focus = {
+		id = QYN_we_failed_to_recover_the_emperor
+		icon = GFX_focus_generic_monarchy_1
+		x = 8
+		y = 5
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = QYN_theemperorisgone  }
+		mutually_exclusive = { focus = QYN_we_found_the_emperor  }
+	}
+
+	#Carrotter The First, Carrotter the Great
+	focus = {
+		id = QYN_carrotterthefirstcarrotterthegreat
+		icon = GFX_goal_generic_major_alliance
+		x = 2
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#The Ordramond Rebellion
+	focus = {
+		id = QYN_the_ordramond_rebellion
+		icon = GFX_goal_generic_attack_allies
+		x = 13
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = QYN_theparaisoreferendum  } prerequisite = { focus = QYN_unfortunate_scheduling  }
+	}
+
+	#The First Qynthos Elections
+	focus = {
+		id = QYN_the_first_qynthos_elections
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		x = 7
+		y = 7
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_riotslossofpower  }
+		mutually_exclusive = { focus = QYN_mysticdecidesall  }
+	}
+
+	#Mystic Decides All!
+	focus = {
+		id = QYN_mysticdecidesall
+		icon = GFX_focus_usa_voter_registration_act
+		x = 17
+		y = 7
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_riotslossofpower  }
+	}
+
+	#The Paraíso Referendum
+	focus = {
+		id = QYN_theparaisoreferendum
+		icon = GFX_focus_generic_support_the_left_right
+		x = 11
+		y = 4
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = QYN_unfortunate_scheduling  }
+	}
+
+	#Carrotter's Grand Senate
+	focus = {
+		id = QYN_carrottersgrandsenate
+		icon = GFX_QYN_carrottersgrandsenate-645772
+		x = 7
+		y = 2
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_our_grand_destiny  }
+	}
+
+	#Carl the New Aeston Prince
+	focus = {
+		id = QYN_carl_the_new_aeston_prince
+		icon = GFX_QYN_carl_the_new_aeston_prince-777922
+		x = 19
+		y = 8
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_mysticdecidesall  }
+	}
+
+	#Ragtag the Dunce
+	focus = {
+		id = QYN_ragtag_the_dunce
+		icon = GFX_QYN_ragtag_the_dunce-777924
+		x = 15
+		y = 8
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = QYN_mysticdecidesall  }
+	}
+
+	#Thoreson the Architect
+	focus = {
+		id = QYN_thoreson_the_architect
+		icon = GFX_goal_generic_air_production
+		x = 6
+		y = 8
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_the_first_qynthos_elections  }
+	}
+
+	#The Senate Chats
+	focus = {
+		id = QYN_the_senate_chats
+		icon = GFX_focus_rom_royal_dictatorship
+		x = 12
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = QYN_the_ordramond_rebellion  } prerequisite = { focus = QYN_theparaisoreferendum  }
+	}
+
+	#Atomic the Historian-Farmer
+	focus = {
+		id = QYN_atomic_the_historianfarmer
+		icon = GFX_QYN_atomic_the_historianfarmer-777921
+		x = 8
+		y = 8
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_the_first_qynthos_elections  }
+	}
+
+	#Promises to Come
+	focus = {
+		id = QYN_promises_to_come
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 12
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+	}
+
+	#Our Grand Destiny
+	focus = {
+		id = QYN_our_grand_destiny
+		icon = GFX_QYN_our_grand_destiny-645939
+		x = 7
+		y = 1
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Carrotter's Trip Overseas
+	focus = {
+		id = QYN_carrotterstripoverseas
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		x = 7
+		y = 3
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_carrottersgrandsenate  }
+	}
+
+	#The Emperor is Gone!
+	focus = {
+		id = QYN_theemperorisgone
+		icon = GFX_focus_usa_escort_fighters
+		x = 7
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = QYN_carrotterstripoverseas  }
+	}
+
+	#We Found the Emperor
+	focus = {
+		id = QYN_we_found_the_emperor
+		icon = GFX_focus_generic_monarchy_2
+		x = 6
+		y = 5
+		cost = 15
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = QYN_theemperorisgone  }
+	}
+
+	#Unfortunate Scheduling
+	focus = {
+		id = QYN_unfortunate_scheduling
+		icon = GFX_QYN_unfortunate_scheduling-270
+		x = 12
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = QYN_promises_to_come  }
+	}
+
+	#Riots & Loss of Power
+	focus = {
+		id = QYN_riotslossofpower
+		icon = GFX_goal_generic_CAS
+		x = 12
+		y = 6
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = QYN_the_senate_chats  }
+	}
+
+	#Bogdan the General
+	focus = {
+		id = QYN_bogdan_the_general
+		icon = GFX_QYN_bogdan_the_general-777923
+		x = 17
+		y = 8
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QYN_mysticdecidesall  }
+	}
+
+}

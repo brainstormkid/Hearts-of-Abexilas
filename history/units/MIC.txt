@@ -57,8 +57,22 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
+		name = "3rd Michavian Infantry"
+		location = 7530
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
 		name = "1st Michavian Guards"
 		location = 10839
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Michavian Guards"
+		location = 4270
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0

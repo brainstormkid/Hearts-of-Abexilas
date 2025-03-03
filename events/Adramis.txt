@@ -1,0 +1,51 @@
+add_namespace = adramis
+
+country_event = {
+	id = adramis.1
+	title = adramis.1.t
+	desc = adramis.1.d
+	picture = ""
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = adramis.1.a
+		ai_chance = {
+			factor = 100
+		}
+		hidden_effect = {
+			add_ideas = adramis_unity
+		}
+	}
+}
+
+country_event = {
+	id = adramis.2
+	title = adramis.2.t
+	desc = adramis.2.d
+	picture = ""
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = adramis.2.a
+		ai_chance = {
+			factor = 70
+		}
+		hidden_effect = {
+			add_ideas = adramis_unity
+		}
+	}
+	option = {
+		name = adramis.2.b
+		ai_chance = {
+			factor = 20
+		}
+	}
+	option = {
+		name = adramis.2.c
+		ai_chance = {
+			factor = 10
+		}
+	}
+}

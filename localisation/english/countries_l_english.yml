@@ -1,11 +1,33 @@
 ﻿l_english:
+ #ALPHABETICAL
+ 
+ ABV_absolutist:1 "Principality of Abvil"
+ ABV_absolutist_DEF:1 "the Principality of Abvil"
+ ABV_absolutist_ADJ:0 "Vilari"
+ 
  ACR_absolutist:1 "Atreoria of Acreon"
  ACR_absolutist_DEF:1 "the Atreoria of Acreon"
  ACR_absolutist_ADJ:0 "Acreoni"
  
+ AEI_absolutist:1 "Aesir"
+ AEI_absolutist_DEF:1 "the Aesir"
+ AEI_absolutist_ADJ:0 "Aesiran"
+ 
+ AER_absolutist:1 "Kingdom of Aerternus"
+ AER_absolutist_DEF:1 "the Kingdom of Aerternus"
+ AER_absolutist_ADJ:0 "Aerterian"
+ 
+ AES_absolutist:1 "Aestellum"
+ AES_absolutist_DEF:1 "the Aestellum"
+ AES_absolutist_ADJ:0 "Aestellian"
+ 
  AET_absolutist:1 "Empire of Aethos"
  AET_absolutist_DEF:1 "the Empire of Aethos"
  AET_absolutist_ADJ:0 "Aethosian"
+ 
+ AFO_absolutist:1 "Afonney"
+ AFO_absolutist_DEF:1 "the Afonney"
+ AFO_absolutist_ADJ:0 "Afonnen"
  
  AKA_absolutist:1 "Akari Commonwealth"
  AKA_absolutist_DEF:1 "the Akari Commonwealth"
@@ -14,7 +36,7 @@
  AKI_absolutist:1 "State of Akito"
  AKI_absolutist_DEF:1 "the State of Akito"
  AKI_absolutist_ADJ:0 "Akitian"
- 
+
  AKS_absolutist:1 "Akashiro Empire"
  AKS_absolutist_DEF:1 "the Akashiren Empire"
  AKS_absolutist_ADJ:0 "Akashiren"
@@ -47,7 +69,7 @@
  AKS_centrist_ADJ:0 "Akashiren"
  AKS_social_liberalist:1 "Akashiro Shogunate"
  AKS_social_liberalist_DEF:1 "the Akashiro Shogunate"
- AKS_social_liberalist_ADJ:0 "Akashiro"
+ AKS_social_liberalist_ADJ:0 "Akashiren"
  AKS_progressivist:1 "Akashiren Republic"
  AKS_progressivist_DEF:1 "the Akashiren Republic"
  AKS_progressivist_ADJ:0 "Akashiren"
@@ -63,10 +85,17 @@
  AKS_liberalist:1 "Akashiren Democratic Republic"
  AKS_liberalist_DEF:1 "the Akashiren Army"
  AKS_liberalist_ADJ:0 "Akashiren"
- 
+ AKS_radical_socialist:1 "Akashiren Republic"
+ AKS_radical_socialist_DEF:1 "The Akashiren Republic"
+ AKS_radical_socialist_ADJ:0 "Akashiren"
+
  ALA_absolutist:1 "Caliphate of Alamara"
  ALA_absolutist_DEF:1 "the Caliphate of Alamara"
  ALA_absolutist_ADJ:0 "Alamari"
+ 
+ ALD_absolutist:1 "Aladosyn Trading Company"
+ ALD_absolutist_DEF:1 "the Aladosyn Trading Company"
+ ALD_absolutist_ADJ:0 "Aladosyn"
  
  ALN_absolutist:1 "Sratóra an Alanío"
  ALN_absolutist_DEF:1 "the Sratóra an Alanío"
@@ -84,9 +113,17 @@
  AND_absolutist_DEF:1 "the Imperila Andliria"
  AND_absolutist_ADJ:0 "Andlirian"
  
+ ANO_absolutist:1 "Anrólýa Imperium"
+ ANO_absolutist_DEF:1 "the Anrólýa Imperium"
+ ANO_absolutist_ADJ:0 "Anrolyan"
+ 
  ANR_absolutist:1 "Federation of Nova Andromeda"
  ANR_absolutist_DEF:1 "the Federation of Nova Andromeda"
  ANR_absolutist_ADJ:0 "Andromedan"
+ 
+ AMA_absolutist:1 "Cakeist State of Amar"
+ AMA_absolutist_DEF:1 "The Cakeist State of Amar"
+ AMA_absolutist_ADJ:0 "Amarn"
  
  AME_absolutist:1 "Kingdom of Amestris"
  AME_absolutist_DEF:1 "the Kingdom of Amestris"
@@ -95,6 +132,10 @@
  AQM_absolutist:1 "Regnum Aquilarum"
  AQM_absolutist_DEF:1 "Regnum Aquilarum"
  AQM_absolutist_ADJ:0 "Aquilaran"
+ 
+ ARA_absolutist:1 "Realms of Aragotha"
+ ARA_absolutist_DEF:1 "Realms of Aragotha"
+ ARA_absolutist_ADJ:0 "Aragothan"
 
  ARC_absolutist:1 "United Empire of Arcael"
  ARC_absolutist_DEF:1 "the United Empire of Arcael"
@@ -141,18 +182,50 @@
  ARC_radical_nationalist:1 "Sinsolian Legion of Arcael"
  ARC_radical_nationalist_DEF:1 "the Sinsolian Legion of Arcael"
  ARC_radical_nationalist_ADJ:0 "Arcaeli"
+ 
+ ARG_absolutist:1 "Grand Duchy of Argonos"
+ ARG_absolutist_DEF:1 "the Grand Duchy of Argonos"
+ ARG_absolutist_ADJ:0 "Argonian"
+ 
+ ARH_absolutist:1 "ArchiPEEENigo"
+ ARH_absolutist_DEF:1 "the ArchiPEEENigo"
+ ARH_absolutist_ADJ:0 "ArchiPEEENigan"
+ 
+ ARI_absolutist:1 "Dukedom of Ariefell"
+ ARI_absolutist_DEF:1 "the Dukedom of Ariefell"
+ ARI_absolutist_ADJ:0 "Ariefellian"
 
  ARK_absolutist:1 "Arkan"
  ARK_absolutist_DEF:1 "the Arkan"
  ARK_absolutist_ADJ:0 "Arkanian"
  
+ ARL_absolutist:1 "Kingdom of Artilon"
+ ARL_absolutist_DEF:1 "the Kingdom of Artilon"
+ ARL_absolutist_ADJ:0 "Artilian"
+ 
+ ARN_absolutist:1 "Araanas"
+ ARN_absolutist_DEF:1 "the Araanas"
+ ARN_absolutist_ADJ:0 "Araanas"
+ 
  ARR_absolutist:1 "Arkania"
  ARR_absolutist_DEF:1 "the Arkania"
  ARR_absolutist_ADJ:0 "Arkanian"
  
+ ARS_absolutist:1 "Kratoria en Aristios"
+ ARS_absolutist_DEF:1 "the Kratoria en Aristios"
+ ARS_absolutist_ADJ:0 "Aristii"
+ 
  ART_absolutist:1 "Holy Sanctuary of Arratis"
  ART_absolutist_DEF:1 "the Holy Sanctuary of Arratis"
  ART_absolutist_ADJ:0 "Arratian"
+ 
+ ASA_absolutist:1 "As'ria-Pothric Commonwealth"
+ ASA_absolutist_DEF:1 "the As'ria-Pothric Commonwealth"
+ ASA_absolutist_ADJ:0 "Pothriki"
+ 
+ ASF_absolutist:1 "League of Asfelis"
+ ASF_absolutist_DEF:1 "the League of Asfelis"
+ ASF_absolutist_ADJ:0 "Asfelian"
  
  ASH_absolutist:1 "Ashkavari Korqoriat"
  ASH_absolutist_DEF:1 "the Ashkavari Korqoriat"
@@ -170,17 +243,41 @@
  AST_absolutist_DEF:1 "the Triumvirate of Astalasi"
  AST_absolutist_ADJ:0 "Astalites"
  
+ AUE_absolutist:1 "Aurean Empire"
+ AUE_absolutist_DEF:1 "the Aurean Empire"
+ AUE_absolutist_ADJ:0 "Aurean"
+ 
  AUR_absolutist:1 "República de Aurumflora"
  AUR_absolutist_DEF:1 "the República de Aurumflora"
  AUR_absolutist_ADJ:0 "Aurumfloran"
+ 
+ AUS_absolutist:1 "Auspizien"
+ AUS_absolutist_DEF:1 "the Auspizien"
+ AUS_absolutist_ADJ:0 "Auspizian"
  
  AVA_absolutist:1 "Empire of Avalor"
  AVA_absolutist_DEF:1 "the Empire of Avalor"
  AVA_absolutist_ADJ:0 "Avaloran"
  
+ AVE_absolutist:1 "United Realms of Avedora"
+ AVE_absolutist_DEF:1 "the United Realms of Avedora"
+ AVE_absolutist_ADJ:0 "Avedoran"
+ 
+ AVI_absolutist:1 "Queendom of Avidan"
+ AVI_absolutist_DEF:1 "the Queendom of Avidan"
+ AVI_absolutist_ADJ:0 "Avidan"
+ 
  AXE_absolutist:1 "Third Kingdom of Axelm"
  AXE_absolutist_DEF:1 "the Third Kingdom of Axelm"
  AXE_absolutist_ADJ:0 "Axelmian"
+ 
+ AYT_absolutist:1 "Ayterion"
+ AYT_absolutist_DEF:1 "the Ayterion"
+ AYT_absolutist_ADJ:0 "Ayterian"
+ 
+ AZA_absolutist:1 "Azalea"
+ AZA_absolutist_DEF:1 "the Azalea"
+ AZA_absolutist_ADJ:0 "Azalean"
  
  AZE_absolutist:1 "Azeraan Federation"
  AZE_absolutist_DEF:1 "the Azeraan Federation"
@@ -190,6 +287,10 @@
  AZU_absolutist_DEF:1 "the Kingdom of the Azure Coast"
  AZU_absolutist_ADJ:0 "Azurian"
  
+ BAD_absolutist:1 "City State Of Banderia"
+ BAD_absolutist_DEF:1 "the City State Of Banderia"
+ BAD_absolutist_ADJ:0 "Banderian"
+ 
  BAN_absolutist:1 "Kingdom of Bannover"
  BAN_absolutist_DEF:1 "the Kingdom of Bannover"
  BAN_absolutist_ADJ:0 "Bannoverian"
@@ -198,9 +299,17 @@
  BAR_absolutist_DEF:1 "the Bardonia"
  BAR_absolutist_ADJ:0 "Bardonian"
  
- BEE_absolutist:1 "Empire of Beepeck"
- BEE_absolutist_DEF:1 "the Empire of Beepeck"
+ BEE_absolutist:1 "High Honey Imperium"
+ BEE_absolutist_DEF:1 "the High Honey Imperium"
  BEE_absolutist_ADJ:0 "Beean"
+ 
+ BEL_absolutist:1 "Monastrate of Bel'hor"
+ BEL_absolutist_DEF:1 "The Monastrate of Bel'hor"
+ BEL_absolutist_ADJ:0 "BelHori"
+ 
+ BER_absolutist:1 "Great Berrian Empire"
+ BER_absolutist_DEF:1 "the Great Berrian Empire"
+ BER_absolutist_ADJ:0 "Berrian"
  
  BOU_absolutist:1 "Divine Ascendency of Boulderov"
  BOU_absolutist_DEF:1 "the Divine Ascendency of Boulderov"
@@ -209,6 +318,14 @@
  BOV_absolutist:1 "Bovinica"
  BOV_absolutist_DEF:1 "the Bovinica"
  BOV_absolutist_ADJ:0 "Bovinican"
+ 
+ BRA_absolutist:1 "Bravadere"
+ BRA_absolutist_DEF:1 "the Bravadere"
+ BRA_absolutist_ADJ:0 "Bravaderen"
+ 
+ BRU_absolutist:1 "Empire of Brukel"
+ BRU_absolutist_DEF:1 "the Empire of Brukel"
+ BRU_absolutist_ADJ:0 "Brukeli"
  
  CAA_absolutist:1 "Imperial Republic of Calarith"
  CAA_absolutist_DEF:1 "the Imperial Republic of Calarith"
@@ -254,6 +371,10 @@
  COD_absolutist_DEF:1 "the Kingdom of Cordovia"
  COD_absolutist_ADJ:0 "Cordovin"
  
+ COI_absolutist:1 "Kingdom of Corrigan"
+ COI_absolutist_DEF:1 "the Kingdom of Corrigan"
+ COI_absolutist_ADJ:0 "Coriganite"
+ 
  COM_absolutist:1 "Knights of Comona"
  COM_absolutist_DEF:1 "the Knights of Comona"
  COM_absolutist_ADJ:0 "Comonian"
@@ -270,6 +391,18 @@
  COY_absolutist_DEF:1 "the Republic of Corry"
  COY_absolutist_ADJ:0 "Corrian"
  
+ CRE_absolutist:1 "Kingdom of Crevyate"
+ CRE_absolutist_DEF:1 "the Kingdom of Crevyate"
+ CRE_absolutist_ADJ:0 "Crevyatian"
+
+ CRU_absolutist:1 "Crusader Empire"
+ CRU_absolutist_DEF:1 "the Empire of the Crusaders"
+ CRU_absolutist_ADJ:0 "Crusader"
+ 
+ CYR_absolutist:1 "Empire of Cyrndur"
+ CYR_absolutist_DEF:1 "the Empire of Cyrndur"
+ CYR_absolutist_ADJ:0 "Cyrndurian"
+ 
  DAE_absolutist:1 "DaeConian Empire"
  DAE_absolutist_DEF:1 "the DaeConian Empire"
  DAE_absolutist_ADJ:0 "DaeConian"
@@ -281,6 +414,10 @@
  DAN_absolutist:1 "Kingdom of Danmalis"
  DAN_absolutist_DEF:1 "the Kingdom of Danmalis"
  DAN_absolutist_ADJ:0 "Danmalian"
+ 
+ DAR_absolutist:1 "Dariath Federation"
+ DAR_absolutist_DEF:1 "the Dariath Federation"
+ DAR_absolutist_ADJ:0 "Dariathan"
  
  DEF_absolutist:1 "Defiant"
  DEF_absolutist_DEF:1 "the Defiant"
@@ -299,13 +436,25 @@
  DON_absolutist_DEF:1 "the Skylords of Donfuer"
  DON_absolutist_ADJ:0 "DonFuerian"
  
+ DOR_absolutist:1 "Union of Doravan"
+ DOR_absolutist_DEF:1 "the Union of Doravan"
+ DOR_absolutist_ADJ:0 "Doravanian"
+ 
  DRA_absolutist:1 "Drak Yamar"
  DRA_absolutist_DEF:1 "the Drak Yamar"
  DRA_absolutist_ADJ:0 "Draconian"
  
+ DRC_absolutist:1 "Kingdom of Drackar"
+ DRC_absolutist_DEF:1 "the Kingdom of Drackar"
+ DRC_absolutist_ADJ:0 "Drackarian"
+ 
  DRE_absolutist:1 "DreadVought Imperium"
  DRE_absolutist_DEF:1 "the DreadVought Imperium"
  DRE_absolutist_ADJ:0 "Dreadvoughtian"
+ 
+ DWA_absolutist:1 "Dwarven League"
+ DWA_absolutist_DEF:1 "Dwarven League"
+ DWA_absolutist_ADJ:0 "Dwarven"
  
  DYS_absolutist:1 "Triumvirate of Dyshella"
  DYS_absolutist_DEF:1 "the Triumvirate of Dyshella"
@@ -330,13 +479,25 @@
  ELD_absolutist_DEF:1 "the Kingdom of Eldorath"
  ELD_absolutist_ADJ:0 "Eldorathi"
  
- END_absolutist:1 "Kingdom of Enderia"
- END_absolutist_DEF:1 "the Kingdom of Enderia"
- END_absolutist_ADJ:0 "Enderian"
+ ELO_absolutist:1 "Kingdom of Eldoria"
+ ELO_absolutist_DEF:1 "the Kingdom of Eldoria"
+ ELO_absolutist_ADJ:0 "Eldorian"
+
+ EMP_absolutist:1 "Emporium Company"
+ EMP_absolutist_DEF:1 "the Emporium Company"
+ EMP_absolutist_ADJ:0 "Empori"
+ 
+ END_absolutist:1 "Pollender"
+ END_absolutist_DEF:1 "the Pollender"
+ END_absolutist_ADJ:0 "Pollendian"
  
  ENO_absolutist:1 "Ānaktate of Enovātha"
  ENO_absolutist_DEF:1 "the Ānaktate of Enovātha"
  ENO_absolutist_ADJ:0 "Enovathan"
+ 
+ EOS_absolutist:1 "Holy Kingdom of Eos Astral"
+ EOS_absolutist_DEF:1 "the Holy Kingdom of Eos Astral"
+ EOS_absolutist_ADJ:0 "Astrali"
  
  EPI_absolutist:1 "Imperium of Greater Epitchia"
  EPI_absolutist_DEF:1 "the Imperium of Greater Epitchia"
@@ -392,6 +553,58 @@
  ERI_absolutist_DEF:1 "the Eridonia"
  ERI_absolutist_ADJ:0 "Eridonian"
  
+ ESU_monarchist:1 "Commonwealth of Esutaria"
+ ESU_monarchist_DEF:1 "Esutarian Commonwealth"
+ ESU_monarchist_ADJ:0 "Esutarian"
+ ESU_absolutist:1 "Esutarian Empire"
+ ESU_absolutist_DEF:1 "the Esutarian Empire"
+ ESU_absolutist_ADJ:0 "Esutarian"
+ ESU_theocratist:1 "Holy Esutarian Realm"
+ ESU_theocratist_DEF:1 "the Holy Esutarian Realm"
+ ESU_theocratist_ADJ:0 "Holy Esutarian"
+ ESU_accelerationist:1 "United Esutarian Clans"
+ ESU_accelerationist_DEF:1 "the United Esutarian Clans"
+ ESU_accelerationist_ADJ:0 "Esutarian"
+ ESU_anarchist:1 "Federation of Esutarian Communes"
+ ESU_anarchist_DEF:1 "the Federation of Esutarian Communes"
+ ESU_anarchist_ADJ:0 "Red Esutarian"
+ ESU_xeroist:1 "Workers Republic of Esutarian"
+ ESU_xeroist_DEF:1 "the Workers Republic of Esutarian"
+ ESU_xeroist_ADJ:0 "Esutarian"
+ ESU_theocratic_socialist:1 "Holy Esutarian People's Republic"
+ ESU_theocratic_socialist_DEF:1 "the Holy Esutarian People's Republic"
+ ESU_theocratic_socialist_ADJ:0 "Esutarian"
+ ESU_revisionist:1 "United Halinn Republic"
+ ESU_revisionist_DEF:1 "the United Halinn Republic"
+ ESU_revisionist_ADJ:0 "Halinnite"
+ ESU_libertarianist:1 "Confederation of Esutarian Republics"
+ ESU_libertarianist_DEF:1 "the Confederation of Independent Esutarian Republics"
+ ESU_libertarianist_ADJ:0 "Esutarian Libertarian"
+ ESU_centrist:1 "Commonwealth of Esutaria"
+ ESU_centrist_DEF:1 "the Commonwealth of Esutaria"
+ ESU_centrist_ADJ:0 "Esutarian"
+ ESU_social_liberalist:1 "Commonwealth of Esutaria"
+ ESU_social_liberalist_DEF:1 "the Commonwealth of Esutaria"
+ ESU_social_liberalist_ADJ:0 "Esutarian"
+ ESU_progressivist:1 "Esutarian Republic"
+ ESU_progressivist_DEF:1 "the Esutarian Republic"
+ ESU_progressivist_ADJ:0 "Esutarian"
+ ESU_conservatist:1 "Commonwealth of Esutaria"
+ ESU_conservatist_DEF:1 "the Commonwealth of Esutaria"
+ ESU_conservatist_ADJ:0 "Esutarian"
+ ESU_imperialist:1 "Esutarian Empire"
+ ESU_imperialist_DEF:1 "the Esutarian Empire"
+ ESU_imperialist_ADJ:0 "Esutarian"
+ ESU_radical_nationalist:1 "Esutarian Imperial Army"
+ ESU_radical_nationalist_DEF:1 "the Esutarian Imperial Army"
+ ESU_radical_nationalist_ADJ:0 "Esutarian"
+ ESU_liberalist:1 "Esutarian Democratic Republic"
+ ESU_liberalist_DEF:1 "the Esutarian Army"
+ ESU_liberalist_ADJ:0 "Esutarian"
+ ESU_radical_socialist:1 "Esutarian Republic"
+ ESU_radical_socialist_DEF:1 "The Esutarian Republic"
+ ESU_radical_socialist_ADJ:0 "Esutarian"
+ 
  EXO_absolutist:1 "Holy Oligarchy of Exordium"
  EXO_absolutist_DEF:1 "the Holy Oligarchy of Exordium"
  EXO_absolutist_ADJ:0 "Exordian"
@@ -404,9 +617,37 @@
  FAX_absolutist_DEF:1 "the Kentidom of Faxemia"
  FAX_absolutist_ADJ:0 "Faxemian"
  
+ FER_absolutist:1 "Fernwen Consortium"
+ FER_absolutist_DEF:1 "the Fernwen Consortium"
+ FER_absolutist_ADJ:0 "Fernwian"
+ 
+ FLA_absolutist:1 "Magnudom of Flanderia"
+ FLA_absolutist_DEF:1 "the Magnudom of Flanderia"
+ FLA_absolutist_ADJ:0 "Flanders"
+ 
  FLO_absolutist:1 "Floodhaven"
  FLO_absolutist_DEF:1 "the Floodhaven"
  FLO_absolutist_ADJ:0 "Floodhavian"
+ 
+ FLR_absolutist:1 "Kingdom of Florasia"
+ FLR_absolutist_DEF:1 "the Kingdom of Florasia"
+ FLR_absolutist_ADJ:0 "Florasian"
+ 
+ FOR_absolutist:1 "Floria"
+ FOR_absolutist_DEF:1 "the Floria"
+ FOR_absolutist_ADJ:0 "Floria"
+ 
+ FRO_absolutist:1 "Principality of Frosmyre"
+ FRO_absolutist_DEF:1 "the Principality of Frosmyre"
+ FRO_absolutist_ADJ:0 "Frosmyrian"
+ 
+ FSK_absolutist:1 "Grand Empire of Fisk"
+ FSK_absolutist_DEF:1 "the Grand Empire of Fisk"
+ FSK_absolutist_ADJ:0 "Fiskian"
+ 
+ GAA_absolutist:1 "Kingdom of Galadonn"
+ GAA_absolutist_DEF:1 "the Kingdom of Galadonn"
+ GAA_absolutist_ADJ:0 "Galadonni"
  
  GAL_absolutist:1 "Gallania"
  GAL_absolutist_DEF:1 "the Gallania"
@@ -422,9 +663,20 @@
  GAR_centrist_DEF:1 "the Fioræst Gardenia"
  GAR_centrist_ADJ:0 "Gardenian"
  
+ GBA_absolutist:1 "Gbalg'Gwb'Gwagm'Gboyltl"
+ GBA_absolutist_DEF:1 "the Gbalg'Gwb'Gwagm'Gboyltl"
+ GBA_absolutist_ADJ:0 "Goblinoid"
+ 
  GEH_absolutist:1 "Gertek Horde"
  GEH_absolutist_DEF:1 "the Gertek Horde"
  GEH_absolutist_ADJ:0 "Gertekans"
+ GEH_monarchist:1 "Second Kingdom of Maravilla"
+ GEH_monarchist_DEF:1 "the Second Kingdom of Maravilla"
+ GEH_monarchist_ADJ:0 "Maravillan"
+ 
+ GEN_absolutist:1 "Genoes"
+ GEN_absolutist_DEF:1 "the Genoes"
+ GEN_absolutist_ADJ:0 "Genoesian"
  
  GOL_absolutist:1 "Golden Kingdom"
  GOL_absolutist_DEF:1 "the Golden Kingdom"
@@ -442,9 +694,17 @@
  GRC_absolutist_DEF:1 "the Third Kingdom of Grand Castell"
  GRC_absolutist_ADJ:0 "Castellan"
  
+ GRE_absolutist:1 "Admiralty of Greenland"
+ GRE_absolutist_DEF:1 "the Admiralty of Greenland"
+ GRE_absolutist_ADJ:0 "Greenlandian"
+ 
  HAR_absolutist:1 "Empire of Harpia"
  HAR_absolutist_DEF:1 "the Empire of Harpia"
  HAR_absolutist_ADJ:0 "Harpian"
+
+ HAL_absolutist:1 "Halproth"
+ HAL_absolutist_DEF:1 "the Halproth"
+ HAL_absolutist_ADJ:0 "Halproth"
  
  HEL_absolutist:1 "Grand Duchy of Helsetia"
  HEL_absolutist_DEF:1 "the Grand Duchy of Helsetia"
@@ -453,6 +713,10 @@
  HEM_absolutist:1 "Helmerian Empire"
  HEM_absolutist_DEF:1 "the Helmerian Empire"
  HEM_absolutist_ADJ:0 "Helmerian"
+
+ HER_absolutist:1 "Herlundy"
+ HER_absolutist_DEF:1 "the Herlundy"
+ HER_absolutist_ADJ:0 "Herlundian"
  
  HEZ_absolutist:1 "Sacred Land of Hezion"
  HEZ_absolutist_DEF:1 "the Sacred Land of Hezion"
@@ -465,9 +729,25 @@
  HOD_absolutist_DEF:1 "the Hodege"
  HOD_absolutist_ADJ:0 "Hodegian"
  
+ HWA_absolutist:1 "Hwaryeong Dynasty"
+ HWA_absolutist_DEF:1 "the Hwaryeong Dynasty"
+ HWA_absolutist_ADJ:0 "Hwaryeong Niruku"
+ 
+ HYP_absolutist:1 "Eternal Plains of Hypria"
+ HYP_absolutist_DEF:1 "the Eternal Plains of Hypria"
+ HYP_absolutist_ADJ:0 "Hyprian"
+ 
  HYR_absolutist:1 "Enlightened Grevdom of Hyria"
  HYR_absolutist_DEF:1 "the Enlightened Grevdom of Hyria"
  HYR_absolutist_ADJ:0 "Hyrian"
+ 
+ ILL_absolutist:1 "Illyria"
+ ILL_absolutist_DEF:1 "the Illyria"
+ ILL_absolutist_ADJ:0 "Illyrian"
+ 
+ INN_absolutist:1 "Inner Kingdom"
+ INN_absolutist_DEF:1 "the Inner Kingdom"
+ INN_absolutist_ADJ:0 "Innerian"
  
  IRI_absolutist:1 "Kingdom of Irithel"
  IRI_absolutist_DEF:1 "the Kingdom of Irithel"
@@ -481,6 +761,10 @@
  ISH_absolutist_DEF:1 "the Empire of Ischanor"
  ISH_absolutist_ADJ:0 "Ischanori"
  
+ JAT_absolutist:1 "United Houses of Jatatokai"
+ JAT_absolutist_DEF:1 "the United Houses of Jatatokai"
+ JAT_absolutist_ADJ:0 "Jatatokaian"
+ 
  JAZ_absolutist:1 "Yimra ze Jarazeh"
  JAZ_absolutist_DEF:1 "the Yimra ze Jarazeh"
  JAZ_absolutist_ADJ:0 "Jarazeh"
@@ -488,13 +772,41 @@
  JAZ_monarchist_DEF:1 "the Yimra ze Jarazeh"
  JAZ_monarchist_ADJ:0 "Jarazeh"
  
+ JON_absolutist:1 "Democratic Republics of Jonkburgia"
+ JON_absolutist_DEF:1 "the Democratic Republics of Jonkburgia"
+ JON_absolutist_ADJ:0 "Jonkburgian"
+ 
  JOR_absolutist:1 "Jörðar Mandate"
  JOR_absolutist_DEF:1 "the Jörðar Mandate"
  JOR_absolutist_ADJ:0 "Jothari"
  
+ KAA_absolutist:1 "Kaamelott"
+ KAA_absolutist_DEF:1 "the Kaamelott"
+ KAA_absolutist_ADJ:0 "Kaamelottian"
+ 
+ KAB_absolutist:1 "City State of Kabechazzaar"
+ KAB_absolutist_DEF:1 "the City State of Kabechazzaar"
+ KAB_absolutist_ADJ:0 "Kabechazzaaric"
+ 
+ KAC_absolutist:1 "Imperial Sovereignty of Karsica"
+ KAC_absolutist_DEF:1 "the Imperial Sovereignty of Karsica"
+ KAC_absolutist_ADJ:0 "Karsican"
+ 
  KAD_absolutist:1 "Imperial Crownlands of Kaddu"
  KAD_absolutist_DEF:1 "the Imperial Crownlands of Kaddu"
  KAD_absolutist_ADJ:0 "Kaddian"
+ 
+ KAE_absolutist:1 "Celestial City-State of Kaliné"
+ KAE_absolutist_DEF:1 "the Celestial City-State of Kaliné"
+ KAE_absolutist_ADJ:0 "Kalinyn"
+ 
+ KAI_absolutist:1 "Daranate of Kaizra"
+ KAI_absolutist_DEF:1 "the Daranate of Kaizra"
+ KAI_absolutist_ADJ:0 "Kaizran"
+ 
+ KAR_absolutist:1 "Karkaros"
+ KAR_absolutist_DEF:1 "Karkaros"
+ KAR_absolutist_ADJ:0 "Karkarosian"
  
  KAL_absolutist:1 "Kaltebaix"
  KAL_absolutist_DEF:1 "the Kaltebaix"
@@ -504,25 +816,68 @@
  KAM_absolutist_DEF:1 "the Kapteniat of Kamtargaa"
  KAM_absolutist_ADJ:0 "Kamtargaan"
  
+ KAN_absolutist:1 "Kanaan Kingdoms"
+ KAN_absolutist_DEF:1 "the Kanaan Kingdoms"
+ KAN_absolutist_ADJ:0 "Kanaan"
+ 
  KAS_absolutist:1 "Federal Republic of Kassylia"
  KAS_absolutist_DEF:1 "the Federal Republic of Kassylia"
  KAS_absolutist_ADJ:0 "Kassylian"
+ KAS_conservatist:1 "Republic of Kassylia"
+ KAS_conservatist_DEF:1 "the Republic of Kassylia"
+ KAS_conservatist_ADJ:0 "Kassylian"
+ 
+ KAT_absolutist:1 "Union of Kasmiteia"
+ KAT_absolutist_DEF:1 "the Union of Kasmiteia"
+ KAT_absolutist_ADJ:0 "Kasmiteian"
  
  KEL_absolutist:1 "Kelpstine"
  KEL_absolutist_DEF:1 "the Kelpstine"
  KEL_absolutist_ADJ:0 "Kelpstinian"
  
+ KET_absolutist:1 "Keltom"
+ KET_absolutist_DEF:1 "the Keltom"
+ KET_absolutist_ADJ:0 "Keltish"
+ 
  KIC_absolutist:1 "City State of Kiche"
  KIC_absolutist_DEF:1 "the City State of Kiche"
  KIC_absolutist_ADJ:0 "Kiche"
+ 
+ KIN_absolutist:1 "Kingsløndier"
+ KIN_absolutist_DEF:1 "the Kingsløndier"
+ KIN_absolutist_ADJ:0 "Kingsløndian"
  
  KHA_absolutist:1 "Karzinite of Khanen"
  KHA_absolutist_DEF:1 "the Karzinite of Khanen"
  KHA_absolutist_ADJ:0 "Kamtargari"
  
+ KHE_absolutist:1 "Exarchy Of Kheionea"
+ KHE_absolutist_DEF:1 "the Exarchy Of Kheionea"
+ KHE_absolutist_ADJ:0 "Kathomaxi"
+ 
  KHR_absolutist:1 "Kingdom of Khrumaz"
  KHR_absolutist_DEF:1 "the Kingdom of Khrumaz"
  KHR_absolutist_ADJ:0 "Khrumazi"
+ 
+ KHS_absolutist:1 "Khashiva"
+ KHS_absolutist_DEF:1 "the Khashiva"
+ KHS_absolutist_ADJ:0 "Khashivan"
+ 
+ KON_absolutist:1 "L'Atoanate Sitiden Demokratike d'Kongrego"
+ KON_absolutist_DEF:1 "the L'Atoanate Sitiden Demokratike d'Kongrego"
+ KON_absolutist_ADJ:0 "Kongregan"
+ 
+ KOR_absolutist:1 "Kingdom of Koré"
+ KOR_absolutist_DEF:1 "the Kingdom of Koré"
+ KOR_absolutist_ADJ:0 "Korén"
+ 
+ KRA_absolutist:1 "United Collectivist Republics of Krasnoi"
+ KRA_absolutist_DEF:1 "the United Collectivist Republics of Krasnoi"
+ KRA_absolutist_ADJ:0 "Kraznik"
+ 
+ KRU_absolutist:1 "Second Krunian Federation"
+ KRU_absolutist_DEF:1 "the Second Krunian Federation"
+ KRU_absolutist_ADJ:0 "Krünisch"
  
  KUZ_absolutist:1 "Kingdom of Kuzina"
  KUZ_absolutist_DEF:1 "the Kingdom of Kuzina"
@@ -532,6 +887,14 @@
  KYR_absolutist_DEF:1 "the City-State of Kÿrin"
  KYR_absolutist_ADJ:0 "Cartographers"
  
+ LAE_absolutist:1 "Imperijas of Laetaris"
+ LAE_absolutist_DEF:1 "the Imperijas of Laetaris"
+ LAE_absolutist_ADJ:0 "Laetarian"
+ 
+ LAK_absolutist:1 "Lakaria"
+ LAK_absolutist_DEF:1 "the Lakaria"
+ LAK_absolutist_ADJ:0 "Lakarian"
+ 
  LAT_absolutist:1 "Kingdom of Latria"
  LAT_absolutist_DEF:1 "the Kingdom of Latria"
  LAT_absolutist_ADJ:0 "Latrian"
@@ -539,6 +902,10 @@
  LAV_absolutist:1 "Las Vidas"
  LAV_absolutist_DEF:1 "the Las Vidas"
  LAV_absolutist_ADJ:0 "Vidian"
+ 
+ LED_absolutist:1 "Kingdom Of Leyden"
+ LED_absolutist_DEF:1 "the Kingdom Of Leyden"
+ LED_absolutist_ADJ:0 "Leydian"
  
  LEN_absolutist:1 "Shattered Kingdom of Lennox"
  LEN_absolutist_DEF:1 "the Shattered Kingdom of Lennox"
@@ -590,6 +957,14 @@
  COT_absolutist_DEF:1 "the Fanatic Order of Cortland"
  COT_absolutist_ADJ:0 "Fanatics"
  
+ LIB_absolutist:1 "Libratia"
+ LIB_absolutist_DEF:1 "the Libratia"
+ LIB_absolutist_ADJ:0 "Libratian"
+ 
+ LIL_absolutist:1 "Lilium"
+ LIL_absolutist_DEF:1 "the Lilium"
+ LIL_absolutist_ADJ:0 "Lilian"
+ 
  LIR_absolutist:1 "Unity of Lir’ion"
  LIR_absolutist_DEF:1 "the Unity of Lir’ion"
  LIR_absolutist_ADJ:0 "Lir'ian"
@@ -605,6 +980,14 @@
  LOV_absolutist:1 "Duchy of Lovvia"
  LOV_absolutist_DEF:1 "the Duchy of Lovvia"
  LOV_absolutist_ADJ:0 "Lovvian"
+ 
+ LUC_absolutist:1 "Grafehalvar vin Lucredia"
+ LUC_absolutist_DEF:1 "the Grafehalvar vin Lucredia"
+ LUC_absolutist_ADJ:0 "Lucredian"
+ 
+ LUK_absolutist:1 "Maritime Republic of Lukiði"
+ LUK_absolutist_DEF:1 "the Maritime Republic of Lukiði"
+ LUK_absolutist_ADJ:0 "Luki"
  
  LUT_monarchist:1 "Herzogtum Lutian"
  LUT_monarchist_DEF:1 "the Herzogtum Lutian"
@@ -627,6 +1010,10 @@
  MAE_absolutist_DEF:1 "the Imperial Realm of Maecenia"
  MAE_absolutist_ADJ:0 "Maecenian"
  
+ MAI_absolutist:1 "Misty Glades of Mariseau"
+ MAI_absolutist_DEF:1 "the Misty Glades of Mariseau"
+ MAI_absolutist_ADJ:0 "Marisean"
+ 
  MAL_absolutist:1 "Wyverndom of Malachite"
  MAL_absolutist_DEF:1 "the Wyverndom of Malachite"
  MAL_absolutist_ADJ:0 "Dragon-Born"
@@ -634,6 +1021,41 @@
  MAR_absolutist:1 "Duchy of Marisvalor"
  MAR_absolutist_DEF:1 "the Duchy of Marisvalor"
  MAR_absolutist_ADJ:0 "Marisvaloran"
+ MAR_conservatist:1 "Duchy of Marisvalor"
+ MAR_conservatist_DEF:1 "Duchy of Marisvalor"
+ MAR_conservatist_ADJ:0 "Marisvaloran"
+ MAR_progressivist:1 "Duchy of Marisvalor"
+ MAR_progressivist_DEF:1 "the Duchy of Marisvalor"
+ MAR_progressivist_ADJ:0 "Marisvaloran"
+ MAR_centrist:1 "Duchy of Marisvalor"
+ MAR_centrist_DEF:1 "the Duchy of Marisvalor"
+ MAR_centrist_ADJ:0 "Marisvaloran"
+ MAR_libertarianist:1 "Duchy of Marisvalor"
+ MAR_libertarianist_DEF:1 "the Duchy of Marisvalor"
+ MAR_libertarianist_ADJ:0 "Marisvaloran"
+ MAR_radical_nationalist:1 "Duchy of Marisvalor"
+ MAR_radical_nationalist_DEF:1 "the Duchy of Marisvalor"
+ MAR_radical_nationalist_ADJ:0 "Duchy of Marisvalor"
+ MAR_imperialist:1 "Duchy of Marisvalor"
+ MAR_imperialist_DEF:1 "the Duchy of Marisvalor"
+ MAR_imperialist_ADJ:0 "Marisvaloran"
+
+ 
+ MAU_absolutist:1 "Malucian"
+ MAU_absolutist_DEF:1 "the Malucian"
+ MAU_absolutist_ADJ:0 "Malucian"
+ 
+ MEL_absolutist:1 "Empire of Melzia"
+ MEL_absolutist_DEF:1 "the Empire of Melzia"
+ MEL_absolutist_ADJ:0 "Melzian"
+ 
+ MER_absolutist:1 "Province of Merenthine"
+ MER_absolutist_DEF:1 "the Province of Merenthine"
+ MER_absolutist_ADJ:0 "Merenthinian"
+ 
+ MIA_absolutist:1 "Port Mia"
+ MIA_absolutist_DEF:1 "the Port Mia"
+ MIA_absolutist_ADJ:0 "Mian"
  
  MIC_absolutist:1 "Kingdom of Michava"
  MIC_absolutist_DEF:1 "the Kingdom of Michava"
@@ -643,6 +1065,10 @@
  MID_absolutist_DEF:1 "the Jarldom of Midjörv"
  MID_absolutist_ADJ:0 "Midjorsk"
  
+ MIO_absolutist:1 "Miolem"
+ MIO_absolutist_DEF:1 "the Miolem"
+ MIO_absolutist_ADJ:0 "Miolemi"
+ 
  MIZ_absolutist:1 "Mizlarai Union"
  MIZ_absolutist_DEF:1 "the Mizlarai Union"
  MIZ_absolutist_ADJ:0 "Mizlarain"
@@ -651,12 +1077,28 @@
  MON_absolutist_DEF:1 "the Mercantile Republic of Monokleia"
  MON_absolutist_ADJ:0 "Monokleian"
  
+ MUR_absolutist:1 "Realm of Murim"
+ MUR_absolutist_DEF:1 "the Realm of Murim"
+ MUR_absolutist_ADJ:0 "Murian"
+ 
+ MYD_absolutist:1 "Kingdom of Mydharii"
+ MYD_absolutist_DEF:1 "the Kingdom of Mydharii"
+ MYD_absolutist_ADJ:0 "Mydharyn"
+ 
  MYN_absolutist:1 "Myndelia"
  MYN_absolutist_DEF:1 "the Myndelia"
  MYN_absolutist_ADJ:0 "Myndelian"
  
  MYR_monarchist:0 "Kingdom of Myrtana"
  MYR_monarchist_DEF:0 "the Kingdom of Myrtana"
+ MYR_progressivist:0 "Social Republic of Myrtana"
+ MYR_progressivist_DEF:0 "the Social Republic of Myrtana"
+ MYR_radical_nationalist:0 "Revolutionary Myrtanian State"
+ MYR_radical_nationalist_DEF:0 "the Revolutionary Myrtanian State"
+ MYR_radical_socialist:0 "Workers Syndicates of Myrtana"
+ MYR_radical_socialist_DEF:0 "the Workers Syndicates of Myrtana"
+ MYR_fascism:0 "Peoples State of Myrtana"
+ MYR_fascism_DEF:0 "the Peoples State of Myrtana"
  MYR_theocratist:0 "Holy Order of Myrtana"
  MYR_theocratist_DEF:0 "the Holy Order of Myrtana"
  MYR_accelerationist:0 "Futurist Hyperstate of Myrtana"
@@ -671,14 +1113,10 @@
  MYR_libertarianist_DEF:0 "the Myrtana"
  MYR_centrist:0 "Myrtanian Republic"
  MYR_centrist_DEF:0 "the Myrtanian Republic"
- MYR_progressivist:0 "United Republic of Myrtana"
- MYR_progressivist_DEF:0 "the United Republic of Myrtana"
  MYR_conservatist:0 "Republic of Myrtana"
  MYR_conservatist_DEF:0 "the Republic of Myrtana"
- MYR_imperialist:0 "Myrtanian Holy Empire"
- MYR_imperialist_DEF:0 "the Myrtanian Holy Empire"
- MYR_radical_nationalist:0 "National Revolutionary State of Myrtana"
- MYR_radical_nationalist_DEF:0 "the National Revolutionary State of Myrtana"
+ MYR_imperialist:0 "National Empire of Myrtana"
+ MYR_imperialist_DEF:0 "the National Empire of Myrtana"
  MYR_autonomy_supervised_state:0 "$OVERLORDADJ$ Occupation Zone of Myrtana"
  MYR_autonomy_supervised_state_DEF:0 "the $OVERLORDADJ$ Occupation Zone of Myrtana"
  MYR_autonomy_puppet:0 "$OVERLORDADJ$ Autonomous State of Myrtana"
@@ -700,33 +1138,135 @@
  NAA_absolutist_DEF:1 "the Tsardom of Naan"
  NAA_absolutist_ADJ:0 "Naannite"
  
+ NAL_absolutist:1 "Regency of Nalta"
+ NAL_absolutist_DEF:1 "the Regency of Nalta"
+ NAL_absolutist_ADJ:0 "Naltan"
+ 
+ NEB_absolutist:1 "Astral Monarchy of Nebulonia"
+ NEB_absolutist_DEF:1 "the Astral Monarchy of Nebulonia"
+ NEB_absolutist_ADJ:0 "Nebulonian"
+ 
+ NER_absolutist:1 "Kingdom of Nerisia"
+ NER_absolutist_DEF:1 "the Kingdom of Nerisia"
+ NER_absolutist_ADJ:0 "Nerisian"
+ 
+ NIK_absolutist:1 "Kingdom of Nikaria"
+ NIK_absolutist_DEF:1 "the Kingdom of Nikaria"
+ NIK_absolutist_ADJ:0 "Nikarian"
+ 
+ NOD_absolutist:1 "Nordisium"
+ NOD_absolutist_DEF:1 "the Nordisium"
+ NOD_absolutist_ADJ:0 "Nordisian"
+ 
+ NOR_absolutist:1 "Norfst Altrium"
+ NOR_absolutist_DEF:1 "the Norfst Altrium"
+ NOR_absolutist_ADJ:0 "Norfstian"
+ 
+ NOS_absolutist:1 "Norskian Legion"
+ NOS_absolutist_DEF:1 "the Norskian Legion"
+ NOS_absolutist_ADJ:0 "Norskian"
+ 
  NUM_absolutist:1 "Maritime Republic of Numeós"
  NUM_absolutist_DEF:1 "the Maritime Republic of Numeós"
  NUM_absolutist_ADJ:0 "Numean"
+ 
+ NUN_absolutist:1 "Grand Principality of Nunindae"
+ NUN_absolutist_DEF:1 "the Grand Principality of Nunindae"
+ NUN_absolutist_ADJ:0 "Nunindae"
  
  OBL_absolutist:1 "Oblivion Ascendency"
  OBL_absolutist_DEF:1 "the Oblivion Ascendency"
  OBL_absolutist_ADJ:0 "Oblivian"
  
+ OBS_absolutist:1 "Obsidios Imperium"
+ OBS_absolutist_DEF:1 "the Obsidios Imperium"
+ OBS_absolutist_ADJ:0 "Obsidian"
+ 
+ ODD_absolutist:1 "Oddian Tsardom"
+ ODD_absolutist_DEF:1 "the Oddian Tsardom"
+ ODD_absolutist_ADJ:0 "Oddian"
+ 
  OLD_absolutist:1 "Interim Union of Oldann and Barakor Stasrikos Lhah"
  OLD_absolutist_DEF:1 "the Interim Union of Oldann and Barakor Stasrikos Lhah"
  OLD_absolutist_ADJ:0 "Oldannian"
+ 
+ ORB_absolutist:1 "Kingdom of Orbitalia"
+ ORB_absolutist_DEF:1 "the Kingdom of Orbitalia"
+ ORB_absolutist_ADJ:0 "Orbitalian"
+ ORB_monarchist:1 "Duchy of Orbitalia"
+ ORB_monarchist_DEF:1 "the Duchy of Orbitalia"
+ ORB_monarcist_ADJ:0 "Orbitalian"
  
  ORI_absolutist:1 "Archonate of Orion"
  ORI_absolutist_DEF:1 "the Archonate of Orion"
  ORI_absolutist_ADJ:0 "Orinnian"
  
+ ORO_absolutist:1 "Viă Orȯ Pora"
+ ORO_absolutist_DEF:1 "the Viă Orȯ Pora"
+ ORO_absolutist_ADJ:0 "Orovian"
+ 
+ OSE_absolutist:1 "Osteria"
+ OSE_absolutist_DEF:1 "the Osteria"
+ OSE_absolutist_ADJ:0 "Osterian"
+ 
+ OSM_absolutist:1 "House Osmier"
+ OSM_absolutist_DEF:1 "the House Osmier"
+ OSM_absolutist_ADJ:0 "Osmian"
+ 
  OSR_absolutist:1 "Kingdom of Osriguard"
  OSR_absolutist_DEF:1 "the Kingdom of Osriguard"
  OSR_absolutist_ADJ:0 "Osriguardan"
  
+ OST_absolutist:1 "Imperium of Osterland"
+ OST_absolutist_DEF:1 "the Imperium of Osterland"
+ OST_absolutist_ADJ:0 "Osterlandian"
+ 
+ PAL_absolutist:1 "Paloka"
+ PAL_absolutist_DEF:1 "the Paloka"
+ PAL_absolutist_ADJ:0 "Paloka"
+ 
  PAR_absolutist:1 "Kingdom of Paraíso"
  PAR_absolutist_DEF:1 "the Kingdom of Paraíso"
  PAR_absolutist_ADJ:0 "Paraísan"
+ PAR_absolutist_empire:1 "Empie of Paraíso"
+ PAR_absolutist_empire_DEF:1 "The Empire of Paraíso"
+ PAR_absolutist_empire_ADJ:0 "Paraísan"
+ PAR_imperialist:1 "Kingdom of Artaine"
+ PAR_imperialist_DEF:1 "The Kingdom of Artaine"
+ PAR_imperialist_ADJ:0 "Artainians"
+ PAR_imperialist_empire:1 "Ascended Empire"
+ PAR_imperialist_empire_DEF:1 "The Ascended Empire"
+ PAR_imperialist_empire_ADJ:0 "Artainians"
+ PAR_liberalist:1 "Federal Republic of Paraíso"
+ PAR_liberalist_DEF:1 "The Federal Republic of Paraíso"
+ PAR_liberalist_ADJ:0 "Paraísan"
+ PAR_centrist:1 "United States of Adramis"
+ PAR_centrist_DEF:1 "The United States of Adramis"
+ PAR_centrist_ADJ:0 "Adramian"
+ 
+ PER_absolutist:1 "Empire of Perithia"
+ PER_absolutist_DEF:1 "the Empire of Perithia"
+ PER_absolutist_ADJ:0 "Perithian"
  
  POL_absolutist:1 "Duchy of Polonizia"
  POL_absolutist_DEF:1 "the Duchy of Polonizia"
  POL_absolutist_ADJ:0 "Polonizi"
+ 
+ PRE_absolutist:1 "Voclarist Colonies of Preyella"
+ PRE_absolutist_DEF:1 "the Voclarist Colonies of Preyella"
+ PRE_absolutist_ADJ:0 "Preyellan"
+ 
+ PRI_absolutist:1 "Prisma"
+ PRI_absolutist_DEF:1 "the Prisma"
+ PRI_absolutist_ADJ:0 "Prisma"
+ 
+ PSY_absolutist:1 "Duplacia of Psydonia"
+ PSY_absolutist_DEF:1 "the Duplacia of Psydonia"
+ PSY_absolutist_ADJ:0 "Psydonian"
+ 
+ QUA_absolutist:1 "United Quareshon Tribes"
+ QUA_absolutist_DEF:1 "the United Quareshon Tribes"
+ QUA_absolutist_ADJ:0 "Quareshon"
  
  QYN_absolutist:1 "Qynthos-Centuria"
  QYN_absolutist_DEF:1 "the Qynthos-Centuria"
@@ -736,17 +1276,37 @@
  RAM_absolutist_DEF:1 "the Republic of Rema"
  RAM_absolutist_ADJ:0 "Reman"
  
+ RED_absolutist:1 "Kingdom of Redovia"
+ RED_absolutist_DEF:1 "the Kingdom of Redovia"
+ RED_absolutist_ADJ:0 "Redovian"
+ 
  REG_absolutist:1 "Regnum Aquilarum"
  REG_absolutist_DEF:1 "the Regnum Aquilarum"
  REG_absolutist_ADJ:0 "Aquilarian"
+ 
+ REI_absolutist:1 "Chiefdom of Reingard"
+ REI_absolutist_DEF:1 "the Chiefdom of Reingard"
+ REI_absolutist_ADJ:0 "Reingardan"
  
  REN_absolutist:1 "Shyhenéy au Rénesphéy"
  REN_absolutist_DEF:1 "the Shyhenéy au Rénesphéy"
  REN_absolutist_ADJ:0 "Réneshphite"
  
+ RHD_absolutist:1 "Sovereign Commonwealth of Rhodockia"
+ RHD_absolutist_DEF:1 "the Sovereign Commonwealth of Rhodockia"
+ RHD_absolutist_ADJ:0 "Rhodockian"
+ 
+ RHO_absolutist:1 "Kingdom of Rhosgard"
+ RHO_absolutist_DEF:1 "the Kingdom of Rhosgard"
+ RHO_absolutist_ADJ:0 "Halin"
+ 
  RIT_absolutist:1 "Ritte an Tola"
  RIT_absolutist_DEF:1 "the Ritte an Tola"
  RIT_absolutist_ADJ:0 "Tolan"
+ 
+ RIM_absolutist:1 "Rimefirth"
+ RIM_absolutist_DEF:1 "Rimefirth"
+ RIM_absolutist_ADJ:0 "Rimefirth"
  
  ROH_absolutist:1 "Magehold of Rohldan"
  ROH_absolutist_DEF:1 "the Magehold of Rohldan"
@@ -756,17 +1316,40 @@
  ROL_absolutist_DEF:1 "the Republic of Rolon"
  ROL_absolutist_ADJ:0 "Rolonite"
  
+ ROM_absolutist:1 "Kingdom of Romilia"
+ ROM_absolutist_DEF:1 "the Kingdom of Romilia"
+ ROM_absolutist_ADJ:0 "Romilian"
+ 
  ROZ_absolutist:1 "Kingdom of Rozow"
  ROZ_absolutist_DEF:1 "the Kingdom of Rozow"
  ROZ_absolutist_ADJ:0 "Rozowian"
+ 
+ RUN_absolutist:1 "Lunar State of Skyfall Runarisu"
+ RUN_absolutist_DEF:1 "the Lunar State of Skyfall Runarisu"
+ RUN_absolutist_ADJ:0 "Runarisan"
+ 
+ SAK_absolutist:1 "Imperial Archonate of Sakravir"
+ SAK_absolutist_DEF:1 "the Imperial Archonate of Sakravir"
+ SAK_absolutist_ADJ:0 "Sakraviri"
+ SAK_monarchist:1 "Imperial Archonate of Sakravir"
+ SAK_monarchist_DEF:1 "the Imperial Archonate of Sakravir"
+ SAK_monarchist_ADJ:0 "Sakraviri"
  
  SAM_absolutist:1 "Grand Duchy of Samora"
  SAM_absolutist_DEF:1 "the Grand Duchy of Samora"
  SAM_absolutist_ADJ:0 "Samoran"
  
+ SAN_absolutist:1 "Kingdom of Santos"
+ SAN_absolutist_DEF:1 "the Kingdom of Santos"
+ SAN_absolutist_ADJ:0 "Santonian"
+ 
  SAR_absolutist:1 "Korlenten Sarinzerilin"
  SAR_absolutist_DEF:1 "the Korlenten Sarinzerilin"
  SAR_absolutist_ADJ:0 "Simulamii"
+ 
+ SCA_absolutist:1 "Serpent Realm of Scaliga"
+ SCA_absolutist_DEF:1 "the Serpent Realm of Scaliga"
+ SCA_absolutist_ADJ:0 "Scal'"
  
  SEA_absolutist:1 "Seawolves Pirates"
  SEA_absolutist_DEF:1 "the Seawolves Pirates"
@@ -790,7 +1373,11 @@
  SEN_progressivist_ADJ:0 "Senecanese"
  SEN_centrist:1 "Republic of Seneca"
  SEN_centrist_DEF:1 "the Republic of Seneca"
- SEN_centristt_ADJ:0 "Senecanese"
+ SEN_centrist_ADJ:0 "Senecanese"
+ 
+ SEO_absolutist:1 "Kingdom of Sentonia"
+ SEO_absolutist_DEF:1 "the Kingdom of Sentonia"
+ SEO_absolutist_ADJ:0 "Sentonian"
  
  SET_absolutist:1 "Dominion of Sentara"
  SET_absolutist_DEF:1 "the Dominion of Sentara"
@@ -800,25 +1387,70 @@
  SHI_absolutist_DEF:1 "the Shishuk Territories"
  SHI_absolutist_ADJ:0 "Shishuk"
  
+ SIL_absolutist:1 "Silva"
+ SIL_absolutist_DEF:1 "the Silva"
+ SIL_absolutist_ADJ:0 "Silvan"
+ 
+ SIN_absolutist:1 "Sinterian Republic"
+ SIN_absolutist_DEF:1 "the Sinterian Republic"
+ SIN_absolutist_ADJ:0 "Sinterian"
+ 
+ SIO_absolutist:1 "Sionnach"
+ SIO_absolutist_DEF:1 "the Sionnach"
+ SIO_absolutist_ADJ:0 "Sionnach"
+ 
  SKU_absolutist:1 "Fjarldom of Skúlfur"
  SKU_absolutist_DEF:1 "the Fjarldom of Skúlfur"
  SKU_absolutist_ADJ:0 "Skúlfuran"
+ 
+ SOL_absolutist:1 "High Solir of Soliana"
+ SOL_absolutist_DEF:1 "the High Solir of Soliana"
+ SOL_absolutist_ADJ:0 "Solianen"
+ 
+ SOM_absolutist:1 "Somiatist Federation"
+ SOM_absolutist_DEF:1 "the Somiatist Federation"
+ SOM_absolutist_ADJ:0 "Somiatist"
  
  SON_absolutist:1 "Sonderia"
  SON_absolutist_DEF:1 "the Sonderia"
  SON_absolutist_ADJ:0 "Sonderian"
  
+ SPI_absolutist:1 "Spitfire"
+ SPI_absolutist_DEF:1 "the Spitfire"
+ SPI_absolutist_ADJ:0 "Spitfirian"
+ 
+ STA_absolutist:1 "Holy Kingdom of Staslov"
+ STA_absolutist_DEF:1 "the Holy Kingdom of Staslov"
+ STA_absolutist_ADJ:0 "Staslovite"
+ 
  STE_absolutist:1 "Kingdom of Steverovska"
  STE_absolutist_DEF:1 "the Kingdom of Steverovska"
  STE_absolutist_ADJ:0 "Steverovskan"
+ 
+ STL_absolutist:1 "Admiralty of Stellavaraa"
+ STL_absolutist_DEF:1 "the Admiralty of Stellavaraa"
+ STL_absolutist_ADJ:0 "Stellavaraan"
  
  STR_absolutist:1 "Strategósia"
  STR_absolutist_DEF:1 "the Strategósia"
  STR_absolutist_ADJ:0 "Strategósian"
  
+ SUL_absolutist:1 "Crowned Republic of Suldex"
+ SUL_absolutist_DEF:1 "the Crowned Republic of Suldex"
+ SUL_absolutist_ADJ:0 "Suldexian"
+ 
  SUN_absolutist:1 "Colony of Sundatano"
  SUN_absolutist_DEF:1 "the Colony of Sundatano"
  SUN_absolutist_ADJ:0 "Sundati"
+ SUN_centrist:1 "Dominion of Sundatano"
+ SUN_centrist_DEF:1 "The Sundatanese Dominion"
+ SUN_centrist_ADJ:1 "Sundatanese"
+ SUN_liberalist:1 "Dominion of Sundatano"
+ SUN_liberalist_DEF:1 "The Sundatanese Dominion"
+ SUN_liberalist_ADJ:1 "Sundatanese"
+ SUN_radical_nationalist:1 "Dominion of Sundatano"
+ SUN_radical_nationalist_DEF:1 "The Sundatanese Dominion"
+ SUN_radical_nationalist_ADJ:1 "Sundatanese"
  
  SYL_absolutist:1 "Commonwealth of Sylvas"
  SYL_absolutist_DEF:1 "Commonwealth of Sylvas"
@@ -827,6 +1459,14 @@
  SYR_absolutist:1 "Syren"
  SYR_absolutist_DEF:1 "Syrenia"
  SYR_absolutist_ADJ:0 "Syren"
+ 
+ TAA_absolutist:1 "Kingdom of Taanien"
+ TAA_absolutist_DEF:1 "the Kingdom of Taanien"
+ TAA_absolutist_ADJ:0 "Taans"
+ 
+ TAM_absolutist:1 "Schizocracy of Tamjiban"
+ TAM_absolutist_DEF:1 "the Schizocracy of Tamjiban"
+ TAM_absolutist_ADJ:0 "Tamjibani"
  
  TAN_absolutist:1 "Tandong Dynasty"
  TAN_absolutist_DEF:1 "the Tandong Dynasty"
@@ -856,13 +1496,25 @@
  THE_absolutist_DEF:1 "the Remnant of Theiónikos"
  THE_absolutist_ADJ:0 "Theióniki"
  
+ THR_absolutist:1 "Imperial Hegemony Of Thrasia"
+ THR_absolutist_DEF:1 "the Imperial Hegemony Of Thrasia"
+ THR_absolutist_ADJ:0 "Thrasian"
+ 
+ THT_absolutist:1 "City State of Thetens"
+ THT_absolutist_DEF:1 "the City State of Thetens"
+ THT_absolutist_ADJ:0 "Theten"
+ 
  TIR_neutrality:1 "Sailing Republic of Tirgus"
  TIR_neutrality_DEF:1 "the Sailing Republic of Tirgus"
  TIR_neutrality_ADJ:0 "Tirgans"
  
- TRA_absolutist:1 "Admirality of Trafalgar"
- TRA_absolutist_DEF:1 "the Admirality of Trafalgar"
+ TRA_absolutist:1 "Admiralty of Trafalgar"
+ TRA_absolutist_DEF:1 "the Admiralty of Trafalgar"
  TRA_absolutist_ADJ:0 "Trafalgan"
+ 
+ TSA_absolutist:1 "Şâhanşâhi of Tsâdrekâ"
+ TSA_absolutist_DEF:1 "the Şâhanşâhi of Tsâdrekâ"
+ TSA_absolutist_ADJ:0 "Tsadrek"
  
  TSI_absolutist:1 "Duchy of Tsiladen"
  TSI_absolutist_DEF:1 "the Duchy of Tsiladen"
@@ -912,29 +1564,62 @@
  UET_fascist:1 "the Nümetschian empire"
  UET_fascist:0 "Nümetschia"
  
+ UNITED_USA:1 "United States of Adramis"
+ UNITED_USA_DEF:1 "the United States of Adramis"
+ UNITED_USA_ADJ:0 "Adramisian
+ 
  VAA_absolutist:1 "Valeran Hold"
  VAA_absolutist_DEF:1 "the Valeran Hold"
  VAA_absolutist_ADJ:0 "Valeran"
+ 
+ VAC_absolutist:1 "Vacan Sultanate"
+ VAC_absolutist_DEF:1 "the Vacan Sultanate"
+ VAC_absolutist_ADJ:0 "Vacan"
  
  VAD_absolutist:1 "Valdic Union"
  VAD_absolutist_DEF:1 "the Valdic Union"
  VAD_absolutist_ADJ:0 "Valdic"
  
+ VAG_absolutist:1 "Vagapolis"
+ VAG_absolutist_DEF:1 "the Vagapolis"
+ VAG_absolutist_ADJ:0 "Vagapolian"
+ 
  VAL_absolutist:1 "Kingdom of Valora"
  VAL_absolutist_DEF:1 "the Kingdom of Valora"
  VAL_absolutist_ADJ:0 "Valoran"
  
+ VAN_absolutist:1 "Princedom of Valnitz"
+ VAN_absolutist_DEF:1 "the Princedom of Valnitz"
+ VAN_absolutist_ADJ:0 "Valén"
+ 
  VAR_absolutist:1 "Calidwarf-Varaxis"
  VAR_absolutist_DEF:1 "the Calidwarf-Varaxis"
  VAR_absolutist_ADJ:0 "Varaxian"
+ VAR_monarchist:1 "Calidwarf-Varaxis"
+ VAR_monarchist_DEF:1 "the Calidwarf-Varaxis"
+ VAR_monarchist_ADJ:0 "Varaxian"
+ 
+ VAR2_monarchist:1 "Varaxis Imperium"
+ VAR2_monarchist_DEF:1 "the Varaxis Imperium"
+ VAR2_monarchist_ADJ:0 "Varaxian"
  
  VAS_absolutist:1 "City State Of Vastaros"
  VAS_absolutist_DEF:1 "the City State Of Vastaros"
  VAS_absolutist_ADJ:0 "Vastarosan"
  
+ VDA_absolutist:1 "Kingdom of Verdania"
+ VDA_absolutist_DEF:1 "the Kingdom of Verdania"
+ VDA_absolutist_ADJ:0 "Verdania"
+ 
  VEA_absolutist:1 "City-Republic of Velarim"
  VEA_absolutist_DEF:1 "the City-Republic of Velarim"
  VEA_absolutist_ADJ:0 "Velarimen"
+ VEA_liberalist:1 "City-Republic of Velarim"
+ VEA_liberalist_DEF:1 "the City-Republic of Velarim"
+ VEA_liberalist_ADJ:0 "Velarimen"
+ VEA_centrist:1 "City-Republic of Velarim"
+ VEA_centrist_DEF:1 "the City-Republic of Velarim"
+ VEA_centrist_ADJ:0 "Velarimen"
  
  VEC_absolutist:1 "Grand Duchy of Vedanica"
  VEC_absolutist_DEF:1 "the Grand Duchy of Vedanica"
@@ -947,6 +1632,10 @@
  VEL_absolutist:1 "Grand Duchy of Veliskya"
  VEL_absolutist_DEF:1 "the Grand Duchy of Veliskya"
  VEL_absolutist_ADJ:0 "Veliskyan"
+ 
+ VEN_absolutist:1 "Venia Kingdom"
+ VEN_absolutist_DEF:1 "the Venia Kingdom"
+ VEN_absolutist_ADJ:0 "Venian"
  
  VER_absolutist:1 "Vermerian Domain"
  VER_absolutist_DEF:1 "the Vermerian Domain"
@@ -968,6 +1657,10 @@
  VID_absolutist_DEF:1 "the Vidir-Arrak"
  VID_absolutist_ADJ:0 "Vidirian"
  
+ VIE_absolutist:1 "Vielora"
+ VIE_absolutist_DEF:1 "the Vielora"
+ VIE_absolutist_ADJ:0 "Vielora"
+ 
  VIN_absolutist:1 "Vinovian Horde"
  VIN_absolutist_DEF:1 "the Vinovian Horde"
  VIN_absolutist_ADJ:0 "Vinovian"
@@ -979,6 +1672,22 @@
  VLA_absolutist:1 "State of Vladistan"
  VLA_absolutist_DEF:1 "the State of Vladistan"
  VLA_absolutist_ADJ:0 "Vladistani"
+ 
+ VOL_absolutist:1 "Volkmor"
+ VOL_absolutist_DEF:1 "the Volkmor"
+ VOL_absolutist_ADJ:0 "Volkmor"
+ 
+ VRI_absolutist:1 "Vrijsted Confederation"
+ VRI_absolutist_DEF:1 "the Vrijsted Confederation"
+ VRI_absolutist_ADJ:0 "Vrijstedian"
+ 
+ WAD_absolutist:1 "Great Parasol of Wadiwaya"
+ WAD_absolutist_DEF:1 "The Great Parasol of Wadiwaya"
+ WAD_absolutist_ADJ:0 "Wadiwayan"
+ 
+ XUA_absolutist:1 "Xuán Dynasty"
+ XUA_absolutist_DEF:1 "The Xuán Dynasty"
+ XUA_absolutist_ADJ:0 "Xuán"
  
  YAR_absolutist:1 "Yarexoka"
  YAR_absolutist_DEF:1 "the Yarexoka"
@@ -995,6 +1704,59 @@
  YNQ_absolutist:1 "Principality of Ynqar"
  YNQ_absolutist_DEF:1 "the Principality of Ynqar"
  YNQ_absolutist_ADJ:0 "Ynqāri"
+ 
+ YUS_absolutist:1 "Black Dragon Empire"
+ YUS_absolutist_DEF:1 "the Black Dragon Empire"
+ YUS_absolutist_ADJ:0 "Yun-Tsauen"
+ YUS_monarchist:1 "Yun-Tsau Kingdom"
+ YUS_monarchist_DEF:1 "the Yun-Tsau Kingdom"
+ YUS_monarchist_ADJ:0 "Yun-Tsauen"
+ YUS_theocratist:1 "Holy Yun-Tsauen Realm"
+ YUS_theocratist_DEF:1 "the Holy Yun-Tsauen Realm"
+ YUS_theocratist_ADJ:0 "Holy Yun-Tsauen"
+ YUS_accelerationist:1 "United Yun-Tsauen Clans"
+ YUS_accelerationist_DEF:1 "the United Yun-Tsauen Clans"
+ YUS_accelerationist_ADJ:0 "Yun-Tsauen"
+ YUS_anarchist:1 "Federation of Yun-Tsauen Communes"
+ YUS_anarchist_DEF:1 "the Federation of Yun-Tsauen Communes"
+ YUS_anarchist_ADJ:0 "Red Yun-Tsauen"
+ YUS_xeroist:1 "Workers Republic of Akashiro"
+ YUS_xeroist_DEF:1 "the Workers Republic of Yun-Tsau"
+ YUS_xeroist_ADJ:0 "Yun-Tsauen"
+ YUS_theocratic_socialist:1 "Holy Yun-Tsauen People's Republic"
+ YUS_theocratic_socialist_DEF:1 "the Holy Yun-Tsauen People's Republic"
+ YUS_theocratic_socialist_ADJ:0 "Yun-Tsauen"
+ YUS_revisionist:1 "United Republic"
+ YUS_revisionist_DEF:1 "the United Republic"
+ YUS_revisionist_ADJ:0 "Yun-Tsauen"
+ YUS_libertarianist:1 "Confederation of Independent Republics"
+ YUS_libertarianist_DEF:1 "the Confederation of Independent Republics"
+ YUS_libertarianist_ADJ:0 "Yun-Tsauen Libertarian"
+ YUS_centrist:1 "Yun-Tsau Kingdom"
+ YUS_centrist_DEF:1 "the Yun-Tsau Kingdom"
+ YUS_centrist_ADJ:0 "Yun-Tsauen"
+ YUS_social_liberalist:1 "Yun-Tsau Kingdom"
+ YUS_social_liberalist_DEF:1 "the Yun-Tsau Kingdom"
+ YUS_social_liberalist_ADJ:0 "Yun-Tsauen"
+ YUS_progressivist:1 "Yun-Tsauen Republic"
+ YUS_progressivist_DEF:1 "the Yun-Tsauen Republic"
+ YUS_progressivist_ADJ:0 "Yun-Tsauen"
+ YUS_conservatist:1 "Yun-Tsau Kingdom"
+ YUS_conservatist_DEF:1 "the Yun-Tsauen Kingdom"
+ YUS_conservatist_ADJ:0 "Yun-Tsauen"
+ YUS_imperialist:1 "Yun-Tsau Empire"
+ YUS_imperialist_DEF:1 "the Yun-Tsauen Empire"
+ YUS_imperialist_ADJ:0 "Yun-Tsauen"
+ YUS_radical_nationalist:1 "Yun-Tsau Imperial Army"
+ YUS_radical_nationalist_DEF:1 "the Yun-Tsau Imperial Army"
+ YUS_radical_nationalist_ADJ:0 "Yun-Tsauen"
+ YUS_liberalist:1 "Yun-Tsau Democratic Republic"
+ YUS_liberalist_DEF:1 "the Yun-Tsau Army"
+ YUS_liberalist_ADJ:0 "Yun-Tsauen"
+ 
+ YVR_absolutist:1 "Empire of Yvres"
+ YVR_absolutist_DEF:1 "the Empire of Yvres"
+ YVR_absolutist_ADJ:0 "Yvrian"
  
  ZAI_absolutist:1 "Eternal Dominion of Zaidan"
  ZAI_absolutist_DEF:1 "the Eternal Dominion of Zaidan"
@@ -1016,7 +1778,10 @@
  ZER_absolutist_DEF:1 "the Kingdom of Zeril"
  ZER_absolutist_ADJ:0 "Zerilin"
  
+ ZET_absolutist:1 "Zetheunia"
+ ZET_absolutist_DEF:1 "the Zetheunia"
+ ZET_absolutist_ADJ:0 "Zetheunian"
+ 
  ZUR_absolutist:1 "Tyros of Zuritan"
  ZUR_absolutist_DEF:1 "the Tyros of Zuritan"
  ZUR_absolutist_ADJ:0 "Zuritanian"
- 

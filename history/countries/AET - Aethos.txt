@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 1035
+
+oob = "AET"
 
 set_politics = {
 	ruling_party = absolutist
@@ -20,3 +22,14 @@ create_country_leader = {
 		#
 	}
 }
+
+set_autonomy = {
+	target = TAM
+	autonomous_state = autonomy_puppet
+}
+
+set_convoys = 230
+
+create_faction = "Aethos Forces"
+add_to_faction = AET
+add_to_faction = TAM

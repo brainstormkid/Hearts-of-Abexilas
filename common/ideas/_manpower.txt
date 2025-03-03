@@ -93,19 +93,15 @@ ideas = {
 
 			available = {
 				#has_manpower_for_recruit_change_to = { value = 0.05 group = mobilization_laws }
-				OR = {
-					has_government = fascism
-					has_government = communism
-					AND = {
-						has_war = yes
-						enemies_strength_ratio > 0.5
-						#any_enemy_country = {
-						#	strength_ratio = {
-						#		tag = ROOT
-						#		ratio > 0.5
-						#	}
-						#}
-					}
+				AND = {
+					has_war = yes
+					enemies_strength_ratio > 0.5
+					#any_enemy_country = {
+					#	strength_ratio = {
+					#		tag = ROOT
+					#		ratio > 0.5
+					#	}
+					#}
 				}
 				has_war_support > 0.2
 				
@@ -150,20 +146,16 @@ ideas = {
 
 
 			available = {
-				#has_manpower_for_recruit_change_to =  { value = 0.1 group = mobilization_laws }
-				OR = {
-					has_government = fascism
-					has_government = communism
-					AND = {
-						has_war = yes
-						enemies_strength_ratio > 0.6
-						#any_enemy_country = {
-						#	strength_ratio = {
-						#		tag = ROOT
-						#		ratio > 0.6
-						#	}
-						#}
-					}
+				#has_manpower_for_recruit_change_to =  { value = 0.1 group = mobilization_laws }	
+				AND = {
+					has_war = yes
+					enemies_strength_ratio > 0.6
+					#any_enemy_country = {
+					#	strength_ratio = {
+					#		tag = ROOT
+					#		ratio > 0.6
+					#	}
+					#}
 				}
 				OR = {
 					has_war_support > 0.6

@@ -4,13 +4,35 @@ state={
 	provinces={
 		68 418 1006 1013 2840 3166 3220 3366 3559 3766 4315 4609 4952 5723 6049 6281 9623 9652 9696 9703 9711 9712 9717 9739 9745 9757 9768 9769 9792 9800 9804 9805 9806 9815 9827 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=6750000
+        state_category = megalopolis
 	history={
 		owner = DYS
 		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
+			3220 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = DYS
+		victory_points = { 418 50 }
+		victory_points = { 3220 20 }
+		victory_points = { 9696 5 }
+		victory_points = { 4315 5 }
+		victory_points = { 5723 5 }
+		victory_points = { 9804 5 }
+		victory_points = { 9792 10 }
 	}
 }

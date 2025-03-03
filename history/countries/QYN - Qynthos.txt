@@ -18,13 +18,15 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "?"
+	name = "Carrotter"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/AEZ/Panda.dds"
+	#picture = "gfx/leaders/QYN/Carrotter.dds"
 	expire = "1965.1.1"
 	ideology = absolutist_subtype
 	traits = {
-		#
+		Headstrong
+		Humble
+		Economic_Reformer
 	}
 }
 

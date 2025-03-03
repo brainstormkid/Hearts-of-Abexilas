@@ -1,0 +1,25 @@
+state={
+	id=1138
+	name="STATE_1138"
+	provinces={
+		3693 15202 15231 15243 15275 15282 
+	}
+	buildings_max_level_factor=1.000
+        manpower=600000
+        state_category = pastoral
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	history={
+		owner = FSK
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = FSK
+	}
+}

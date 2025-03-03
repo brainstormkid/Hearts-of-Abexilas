@@ -1,0 +1,16 @@
+state={
+	id=1401
+	name="STATE_1401"
+	provinces={
+		2013 2055 2576 3639 4551 5098 5292 5727 6076 6158 6251 6646 10788 10837 10881 10900 10935 10971 10977 10986 11019 11029 11032 11062 11071 11089 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = NEB
+		buildings = {
+		}
+		add_core_of = NEB
+	}
+}

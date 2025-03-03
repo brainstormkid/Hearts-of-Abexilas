@@ -2,7 +2,7 @@
 
 6/11/2024 - Now
 
-An 98 player Development Team
+An 111 Player Development Team
 
 ----------------
 
@@ -18,30 +18,54 @@ fuchsify
 #Developers
 
 The ones who put words into code
+
+axcetcy
+artiomderruski
+bally2563
 chasedmender668
-clomclem
 deitsch100
+derlen
+dupernite
+ec1ypsius
 entername5298
 erupto_
-LeGhast
-lehiboublanc
-linemantrent77
+greatthealex
+king_of_hungary
+.ludio
 luniii111
+mage2627
+monsterswastaken
+nektarios4449
+oshotty
+swpretzel
+v1eni
+zavien_
+
+----------------
+
+# Former Developers
+
+The ones who have left to explore
+
+advigen
+anovium
+majorsheepish
+clomclem
+yogi2796
+gogolegus
+kaegottya
+mr_kio
+presidentkimjohnson
+lehiboublanc
+toleoneq
+linemantrent77
 martigpg
 miewi_ente
-majorsheepish
-monsterswastaken
-mr_kio
-oshotty
 poggerooo
-presidentkimjohnson
 quasar
 sidecans
-swpretzel
-therealschnurr	
-toleoneq
-yogi2796
-
+therealschnurr
+wassenaar
 
 ----------------
 
@@ -88,7 +112,13 @@ zh_edd
 
 The ones who turned blocks into life
 
+jtaugust
 devilsadvocate
+pirimapper
+swag321
+toleoneq
+literallyjustagoat
+eello
 lehiboublanc
 swag321
 
@@ -98,7 +128,30 @@ swag321
 
 The ones who yelled about exploits
 
-TBA
+Alyk
+ArcticWolf26
+Barmy0
+Charmer2087
+dynominer
+er51542
+ice4man
+iron.gamer
+jackdunford
+JustCallMeSir
+kongor.akkirta
+laskowicz_
+Marigoldflareon 
+neckycraft
+Partybro576
+plottingyourdownfall
+salves
+SinCorazon_
+snurban
+the_ground_beef
+thempengins
+togetfraskagen
+Unsaidchester
+VoinicuMic
 
 ----------------
 

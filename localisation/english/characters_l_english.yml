@@ -26,6 +26,7 @@
  END_misfortune_guarden: "Misfortune Guarden"
 
  ### KHANEN ###
+ 
  KHA_storm_vyiera: "Storm Vyiera"
  KHA_edakho_lihon: "Edakho Lihon"
  
@@ -34,3 +35,19 @@
  ARC_karl: "Karl Godd-Fjell"
  ARC_erupto_indrev: "Erupto Indrev"
  ARC_arcaeli_parliament: "Arcaeli Parliament"
+ 
+ ### Velarim ###
+ 
+ VEA_zeno: "Zeno Paxia"
+
+ ### Paraiso ###
+ 
+ PAR_partybro: "Partybro"
+ PAR_kira: "Kira Eaglemore"
+ PAR_timesoul: "Timesoul"
+
+ ### Hyria ###
+ HYR_zepellin: "Zepellin Montrose"
+
+ ### Orbital ###
+ ORB_jackskivar: "Jack Augustus Skivar"

@@ -26,6 +26,8 @@ create_country_leader = {
 	}
 }
 
+set_convoys = 10
+
 add_opinion_modifier = {
     target = CAK
     modifier = faunic_opinion_modifier

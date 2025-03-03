@@ -1,0 +1,36 @@
+state={
+	id=1349
+	name="STATE_1349"
+	provinces={
+		2492 3945 4460 5162 6528 14197 14198 14213 14243 14252 14287 14237 14251
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=2700000
+        state_category = large_town
+	history={
+		owner = CAA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = CAA
+		victory_points = {
+			14287 20
+		}
+		victory_points = {
+			14213 10
+		}
+		victory_points = {
+			14251 5
+		}
+	}
+}

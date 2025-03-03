@@ -156,7 +156,6 @@ ideas = {
 		}
 		cag_night_fighting_spirit = {
 			ledger = air
-			visible = { tag = ENG }
 			modifier = {
 				air_carrier_night_penalty_reduction_factor = 0.33
 				carrier_night_traffic = 0.5
@@ -200,7 +199,6 @@ ideas = {
 		}
 		steel_wings_steel_hearts_spirit = {
 			ledger = air
-			visible = { has_government = communism }
 			available = { has_air_force_command = yes }
 			modifier = {
 				air_untrained_pilots_penalty_factor = -0.33

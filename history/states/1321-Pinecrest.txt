@@ -1,0 +1,16 @@
+state={
+	id=1321
+	name="STATE_1321"
+	provinces={
+		49 4809 6947 8030 8032 8048 8062 8070 8090
+	}
+	buildings_max_level_factor=1.000
+		manpower=1
+		state_category = town
+	history={
+		owner = AZA
+		buildings = {
+		}
+		add_core_of = AZA
+	}
+}

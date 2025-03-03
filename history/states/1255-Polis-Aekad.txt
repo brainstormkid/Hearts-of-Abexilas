@@ -1,0 +1,27 @@
+state={
+	id=1255
+	name="STATE_1255" #Polis-Aekad
+	provinces={
+		87 2233 3295 4310 6198 6512 11633 11642 11655 11690 11718
+	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=600000
+        state_category = pastoral
+	history={
+		owner = BAR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BAR
+		victory_points = { 4310 10 }
+		victory_points = { 2233 5 }
+	}
+}

@@ -1,0 +1,37 @@
+state={
+	id=1241
+	name="STATE_1241"
+	provinces={
+		248 2775 3263 4660 5835 6096 6127 6407 6730 14788 14795 14829 14864 14876 14891 14907
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=2850000
+        state_category = city
+	history={
+		owner = NIK
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			14876 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = NIK
+		victory_points = {
+			6407 50
+		}
+		victory_points = {
+			6730 20
+		}
+	}
+}

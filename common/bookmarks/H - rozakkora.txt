@@ -4,11 +4,88 @@ bookmarks = {
 		desc = "ROZAKKORA_DESC"
 		date = 2.1.1.12
 		picture = "GFX_select_date_ROZAKKORA"
-		default_country = "GER"
+		default_country = "SET"
 		default = yes
+		
+		ARA = {
+			history = ARA_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		YIM = {
+			history = YIM_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		ROZ = {
+			history = ROZ_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		SET = {
+			history = SET_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		CHM = {
+			history = CHM_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		WAD = {
+			history = WAD_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		HAR = {
+			history = HAR_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
 		}
 
 		"---"={
 			history = "OTHER_DESC"
 		}
+	}
 }

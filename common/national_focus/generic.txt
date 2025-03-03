@@ -1586,10 +1586,10 @@ focus_tree = {
 
 	#Rebuild the Economy
 	focus = {
-		id = generic_focus_rebuild_the_economy
+		id = generic_focus_rebuild_the_economy1
 		icon = GFX_goal_generic_position_armies
-		x = 0
-		y = 0
+		x = 10
+		y = 4
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -1604,6 +1604,9 @@ focus_tree = {
 				add_idea = economic_collapse_1
 				remove_idea = economic_collapse
 			}
+		}
+		ai_will_do = {
+			base = 100
 		}
 	}
 
@@ -1632,10 +1635,10 @@ focus_tree = {
 
 	#Re-Centralize the Nation
 	focus = {
-		id = generic_focus_recentralize_the_nation
+		id = generic_focus_recentralize_the_nation1
 		icon = GFX_focus_generic_self_management
-		x = 0
-		y = 2
+		x = 10
+		y = 5
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_STABILITY
@@ -1647,6 +1650,29 @@ focus_tree = {
 				add_idea = economic_collapse_2
 				remove_idea = economic_collapse_1
 			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+	
+	#Economic Boost
+	focus = {
+		id = generic_focus_economic_boost
+		icon = GFX_focus_generic_self_management
+		x = 10
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = generic_focus_recentralize_the_nation1  }
+		
+		completion_reward = {
+			remove_ideas = economic_collapse_2
+		}
+		ai_will_do = {
+			base = 100
 		}
 	}
 
@@ -2361,6 +2387,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_collectivist_ethos  }
+		mutually_exclusive = { focus = generic_focus_socialist_reforms }
 		completion_reward = {
 			add_timed_idea = {
 				idea = nationalism_generic
@@ -2776,6 +2803,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_enter_the_international_scene  }
+		mutually_exclusive = { focus = generic_focus_collectivist_ethos }
 
 		completion_reward = {
 			add_ideas = egalitarian_prevail_focus
@@ -2796,7 +2824,7 @@ focus_tree = {
 				popularity = +0.08
 			}
 			add_popularity = {
-				ideology = social_liberalist
+				ideology = liberalist
 				popularity = +0.08
 			}
 		}
@@ -2889,7 +2917,7 @@ focus_tree = {
 		mutually_exclusive = { focus = generic_focus_statism  } mutually_exclusive = { focus = generic_focus_centralize_the_government  } mutually_exclusive = { focus = generic_focus_a_brighter_future  }
 		completion_reward = {
 			add_popularity = {
-				ideology = social_liberalist
+				ideology = liberalist
 				popularity = +0.1
 			}
 			add_popularity = {
@@ -2897,7 +2925,7 @@ focus_tree = {
 				popularity = +0.1
 			}
 			set_politics = {
-				ruling_party = social_liberalist
+				ruling_party = liberalist
 				elections_allowed = yes
 				last_election = "1936.1.1"
 				election_frequency = 48
@@ -3120,9 +3148,9 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = { has_government = social_liberalist }
+				limit = { has_government = liberalist }
 				add_popularity = {
-					ideology = social_liberalist
+					ideology = liberalist
 					popularity = 0.2
 				}
 			}
@@ -3250,6 +3278,29 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_get_ready  }
+		completion_reward = {
+			random_neighbor_country = {
+				limit = {  
+					strength_ratio = {
+						tag = ROOT
+						ratio < 0.3
+					}
+					not = {
+						is_guaranteed_by = ROOT #not guaranteed by us
+						is_in_faction_with = ROOT #not in faction with us
+						has_non_aggression_pact_with = ROOT #no non aggression by us
+						is_subject_of = ROOT #not our puppet
+						has_war_with = ROOT #is not at war with us
+					}
+				}
+			ROOT = {
+				create_wargoal = {
+					type = annex_everything
+					target = PREV
+				}
+			}
+			}
+		}
 	}
 
 	#Military Youth
@@ -3295,6 +3346,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = generic_focus_collectivist_ethos  }
+		mutually_exclusive = { focus = generic_focus_nationalist_rising }
 		completion_reward = {
 			add_ideas = socialist_reforms
 			add_popularity = {
@@ -3306,7 +3358,7 @@ focus_tree = {
 				popularity = +0.15
 			}
 			add_popularity = {
-				ideology = anarchist #currently still needs to be changed for radical socialists
+				ideology = radical_socialist
 				popularity = +0.15
 			}
 		}
@@ -3326,7 +3378,7 @@ focus_tree = {
 		mutually_exclusive = { focus = generic_focus_radicalization_of_the_socialists  } mutually_exclusive = { focus = generic_focus_revision_our_nation  }
 		completion_reward = {
 		add_popularity = {
-				ideology = anarchist #same here
+				ideology = radical_socialist
 				popularity = +0.1
 			}
 			add_popularity = {
@@ -3364,11 +3416,11 @@ focus_tree = {
 				popularity = +0.05
 			}
 			add_popularity = {
-				ideology = anarchist #currently place holder til we add the radical socialists
+				ideology = radical_socialist
 				popularity = +0.2
 			}
 			set_politics = {
-				ruling_party = anarchist #same here
+				ruling_party = radical_socialist
 				elections_allowed = no
 				last_election = "1936.1.1"
 				election_frequency = 48
@@ -3390,7 +3442,7 @@ focus_tree = {
 		mutually_exclusive = { focus = generic_focus_rise_of_the_xeroists  } mutually_exclusive = { focus = generic_focus_radicalization_of_the_socialists  }
 		completion_reward = {
 		add_popularity = {
-				ideology = anarchist #also here
+				ideology = radical_socialist
 				popularity = +0.1
 			}
 			add_popularity = {
@@ -3528,9 +3580,9 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = { has_government = anarchist }
+				limit = { has_government = radical_socialist }
 				add_popularity = {
-					ideology = anarchist
+					ideology = radical_socialist
 					popularity = 0.2
 				}
 			}
@@ -3644,36 +3696,25 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		
-		#Somehow bugged i dont understand it yet
-		available = {
-			any_neighbour_county = {
-				limit = { #sanity checks
+		completion_reward = {
+			random_neighbor_country = {
+				limit = {  
+					strength_ratio = {
+						tag = ROOT
+						ratio < 0.5
+					}
 					not = {
 						is_guaranteed_by = ROOT #not guaranteed by us
 						is_in_faction_with = ROOT #not in faction with us
 						has_non_aggression_pact_with = ROOT #no non aggression by us
 						is_subject_of = ROOT #not our puppet
-					}
-				}
-			}
-		}
-		
-		complete_effect = {
-		random_neighbour_country = {
-			limit = { #sanity checks
-				not = {
-					is_guaranteed_by = ROOT #not guaranteed by us
-					is_in_faction_with = ROOT #not in faction with us
-					has_non_aggression_pact_with = ROOT #no non aggression by us
-					is_subject_of = ROOT #not our puppet
+						has_war_with = ROOT #not already at war with ROOT
 					}
 				}
 			ROOT = {
 				create_wargoal = {
-					type = puppet_wargoal_focus
-					target = PREV 
-					generator = { 123 321 }
-					expire = 900
+					type = annex_everything
+					target = PREV
 				}
 			}
 			}

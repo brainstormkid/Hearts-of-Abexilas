@@ -20,3 +20,13 @@ create_country_leader = {
 		#
 	}
 }
+
+set_autonomy = {
+	target = ANO
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = RED
+	autonomous_state = autonomy_puppet
+}

@@ -1,0 +1,43 @@
+state={
+	id=1108
+	name="STATE_1108"
+	provinces={
+		204 996 1274 1704 1783 3153 3175 3373 3600 4272 4521 4790 14903 14909 14960 14976 15034 15061 
+	}
+	buildings_max_level_factor=1.000
+        manpower=3600000
+        state_category = large_city
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	history={
+		owner = ELO
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			996 = {
+				naval_base = 2
+			}
+			204 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ELO
+		victory_points = {
+			204 50
+		}
+		victory_points = {
+			1704 30
+		}
+		victory_points = {
+			3153 5
+		}
+	}
+}

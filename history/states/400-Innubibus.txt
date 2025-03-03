@@ -1,0 +1,16 @@
+state={
+	id=400
+	name="STATE_400"
+	provinces={
+		745 2004 2834 3744 5341 5989 6089 10314 10353 10399 10409 10447 10559 10599 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = AST
+		buildings = {
+		}
+		add_core_of = AST
+	}
+}

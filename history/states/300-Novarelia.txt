@@ -1,0 +1,33 @@
+state={
+	id=300
+	name="STATE_300"
+	provinces={
+		643 687 1922 2085 3719 4254 4529 5546 5648 6516 6717 6822 7306 7336 7400 7410 7539 
+	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=2100000
+        state_category = large_city
+	history={
+		owner = KRA
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			7400 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = KRA
+		victory_points = { 7400 30 }
+		victory_points = { 3719 5 }
+	}
+}

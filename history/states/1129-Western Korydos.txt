@@ -2,10 +2,18 @@ state={
 	id=1129
 	name="STATE_1129"
 	provinces={
-		680 948 1049 1657 3506 4463 5681 15065 15085 15095 15102 15121 15124 15130 15146 15171 15172 15196 15216 15227 15233 15246 15263 15283 15284 
+		680 948 1049 3506 4463 5681 15095 15121 15124 15130 15146 15171 15172 15196 15216 15227 15233 15246 15263 15283 15284 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=6300000
+        manpower=4200000
         state_category = metropolis
 	history={
 		owner = SET
@@ -14,9 +22,6 @@ state={
 		industrial_complex = 2
 		arms_factory = 1
 		dockyard = 1
-		15102 = {
-				naval_base = 3
-			}
 		15095 = {
 				naval_base = 1
 			}
@@ -25,7 +30,6 @@ state={
 			}
 		}
 		add_core_of = SET
-		victory_points = { 15102 20 }
 		victory_points = { 15095 10 }
 		victory_points = { 15263 20 }
 		victory_points = { 15146 20 }

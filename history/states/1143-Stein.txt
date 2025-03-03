@@ -1,0 +1,29 @@
+state={
+	id=1143
+	name="STATE_1143"
+	provinces={
+		601 782 858 1233 1351 1525 1675 1801 2562 2699 2751 3128 3306 3340 3859 4284 5311 5661 5869 6013 6087 6225 6620 6753 13047 13050 13079 13080 13081 13092 13112 13113 13125 13148 13163 13196 13209 13220 13237 13248 13295 13309 13324 13342 13252 13328 13275 13286 13287 13288 13333
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=9750000
+        state_category = megalopolis
+	history={
+		owner = LED
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+			}
+		}
+		add_core_of = LED
+		victory_points = { 782 10 }
+	}
+}

@@ -1,0 +1,26 @@
+state={
+	id=1256
+	name="STATE_1256" #Vayne
+	provinces={
+		2198 2505 2905 3363 3494 5303 11461 11486 11493 11540 11561 11581
+	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=300000
+        state_category = pastoral
+	history={
+		owner = BAR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BAR
+		victory_points = { 3363 10 }
+	}
+}

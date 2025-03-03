@@ -1,0 +1,16 @@
+state={
+	id=762
+	name="STATE_762"
+	provinces={
+		3595 4733 12452 
+	}
+	buildings_max_level_factor=1.000
+		manpower=1
+		state_category = town
+	history={
+		owner = BEE
+		buildings = {
+		}
+		add_core_of = BEE
+	}
+}

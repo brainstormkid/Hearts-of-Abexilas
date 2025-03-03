@@ -1,0 +1,30 @@
+characters = {
+	ESU_saisho={
+		name=ESU_CHARACTER_SAISHO
+		portraits={
+			civilian={
+				large="GFX_portrait_ESU_saisho"
+				small="GFX_portrait_ESU_saisho_small"
+			}
+	    }
+	    # AUTOCRAT
+    	country_leader={
+			ideology=monarchist_subtype
+			traits= { }
+			desc = POLITICS_TSUKIKAGE_DESC
+			expire="1965.1.1.1"
+	    }
+    	country_leader={
+			ideology=absolutist_subtype
+			traits= { }
+			desc = POLITICS_TSUKIKAGE_DESC
+			expire="1965.1.1.1"
+        }
+    	country_leader={
+			ideology=imperialist_subtype
+			traits= { }
+			desc = POLITICS_TSUKIKAGE_DESC
+			expire="1965.1.1.1"
+        }
+    }
+}

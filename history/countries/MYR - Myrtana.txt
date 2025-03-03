@@ -8,13 +8,12 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	monarchist = 38
-	progressivist = 25
-	democratic = 6
-	imperialist = 13
+	monarchist = 29
+	progressivist = 19
+	imperialist = 12
 	radical_nationalist = 11
-	conservatist = 4
-	radical_socialist = 3
+	conservatist = 3
+	radical_socialist = 9
 }
 
 add_ideas = {
@@ -35,7 +34,7 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_Aegis"
 	expire = "1965.1.1"
-	ideology = progressivist_subtype
+	ideology = absolutist_subtype
 	traits = {
 		#
 	}
@@ -55,7 +54,7 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_LaziOcelot"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = radical_socialist_subtype
 	traits = {
 		#
 	}
@@ -65,7 +64,7 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_Pug"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = xeroist_subtype
 	traits = {
 		#
 	}
@@ -85,7 +84,7 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_Eugene"
 	expire = "1965.1.1"
-	ideology = radical_nationalist_subtype
+	ideology = libertarianist_subtype
 	traits = {
 		#
 	}
@@ -95,7 +94,7 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_Jimmon"
 	expire = "1965.1.1"
-	ideology = absolutist_subtype
+	ideology = imperialist_subtype
 	traits = {
 		#
 	}
@@ -105,7 +104,7 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_Jimmon"
 	expire = "1965.1.1"
-	ideology = centrist_subtype
+	ideology = liberalist_subtype
 	traits = {
 		#
 	}
@@ -115,7 +114,17 @@ create_country_leader = {
 	desc = "POLITICS_AEGIS_DESC"
 	picture = "GFX_portrait_MYR_CoolBoi"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = progressivist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Luni"
+	desc = "POLITICS_AEGIS_DESC"
+	picture = "GFX_portrait_MYR_CoolBoi"
+	expire = "1965.1.1"
+	ideology = radical_nationalist_subtype
 	traits = {
 		#
 	}

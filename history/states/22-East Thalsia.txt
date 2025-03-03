@@ -1,0 +1,16 @@
+state={
+	id=22
+	name="STATE_22"
+	provinces={
+		1594 7074 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = AUE
+		buildings = {
+		}
+		add_core_of = AUE
+	}
+}

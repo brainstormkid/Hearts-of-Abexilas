@@ -1,0 +1,27 @@
+state={
+	id=1079
+	name="STATE_1079"
+	provinces={
+		1830 2204 3368 3569 14678 14702 14715 14723 14741 14774 14812 
+	}
+	buildings_max_level_factor=1.000
+        manpower= 2100000
+        state_category = town
+	history={
+		owner = DWA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = DWA
+		victory_points = { 14702 20 }
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+}

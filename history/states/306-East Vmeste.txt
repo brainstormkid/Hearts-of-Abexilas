@@ -1,0 +1,25 @@
+state={
+	id=306
+	name="STATE_306"
+	provinces={
+		 1035 1581 1961 2866 6364 7054 7055 7111 7172 7196 7225
+	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=50000
+        state_category = enclave
+	history={
+		owner = KRA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = KRA
+	}
+}

@@ -1,0 +1,37 @@
+state={
+	id=1257
+	name="STATE_1257" #Glorian
+	provinces={
+		120 241 623 2185 2877 3646 3884 3998 4519 5005 11798 11815 11829 11897 11915
+	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=2250000
+        state_category = city
+	history={
+		owner = BAR
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			5005 = {
+				naval_base = 1
+			}
+			11815 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = BAR
+		victory_points = { 11829 10 }
+		victory_points = { 11815 10 }
+		victory_points = { 5005 20 }
+	}
+}

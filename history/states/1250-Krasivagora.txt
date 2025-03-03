@@ -1,0 +1,29 @@
+state={
+	id=1250
+	name="STATE_1250" #Krasivagora
+	provinces={
+		199 2235 3645 4324 11739 11756 11773 11781 11812
+	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=600000
+        state_category = rural
+	history={
+		owner = BAR
+		buildings = {
+			infrastructure = 2
+			11756 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = BAR
+		victory_points = { 11756 10 }
+	}
+}

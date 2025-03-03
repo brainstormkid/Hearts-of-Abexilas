@@ -1,0 +1,43 @@
+state={
+	id=1115
+	name="STATE_1115"
+	provinces={
+		74 81 95 141 600 1598 1799 2477 2488 2740 2879 3116 3390 3666 4139 4655 4894 4956 5679 6021 6358 6600 6734 14897 14965 14966 14977 14983 14993 15027 15030 15041 15042 15045 15089 15112 15158 15190 15195 15198 15232 15239 15244 15245 15286 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=6600000
+        state_category = city
+	history={
+		owner = AMA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+		}
+		add_core_of = AMA
+		victory_points = {
+			141 50
+		}
+		victory_points = {
+			2740 20
+		}
+		victory_points = {
+			15158 10
+		}
+		victory_points = {
+			81 5
+		}
+		victory_points = {
+			6600 5
+		}
+	}
+}

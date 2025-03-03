@@ -1,0 +1,32 @@
+state={
+	id=1240
+	name="STATE_1240"
+	provinces={
+		602 2230 3440 4064 6016 14938 15016 15056
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=2250000
+        state_category = town
+	history={
+		owner = NIK
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = NIK
+		victory_points = {
+			15016 30
+		}
+		victory_points = {
+			3440 5
+		}
+	}
+}

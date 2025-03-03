@@ -1,0 +1,4337 @@
+﻿search_filter_prios = {
+	FOCUS_FILTER_POLITICAL = 1010
+	
+	FOCUS_FILTER_RESEARCH = 522
+	
+	FOCUS_FILTER_INDUSTRY = 509
+
+	FOCUS_FILTER_BALANCE_OF_POWER = 200
+	FOCUS_FILTER_SOV_POLITICAL_PARANOIA = 111
+	FOCUS_FILTER_PROPAGANDA = 110
+	FOCUS_FILTER_MISSIOLINI = 110
+	FOCUS_FILTER_ARMY_XP = 103
+	FOCUS_FILTER_NAVY_XP = 102
+	FOCUS_FILTER_AIR_XP = 101
+
+}
+
+focus_tree = {
+	id = caerus_focus
+	continuous_focus_position = { x = 100 y = 1200 } 
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = COM
+		}
+	}
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BOU
+		}
+	}
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TAA
+		}
+	}
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ROM
+		}
+	}
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KRA
+		}
+	}
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AFO
+		}
+	}
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DYS
+		}
+	}
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ARH
+		}
+	}
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KAS
+		}
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+
+	initial_show_position = {
+		focus = industrial_effort
+	}
+
+	#Aviation Efforts
+	focus = {
+		id = caerus_aviation_efforts
+		icon = GFX_goal_generic_build_airforce
+		x = 22
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		
+		completion_reward = {
+			air_experience = 25
+
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = air_base
+						level = 1
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			add_doctrine_cost_reduction = {
+				name = air_doc_bonus
+				cost_reduction = 0.75
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+
+	#Collectivist Ethos
+	focus = {
+		id = caerus_collectivist_ethos
+		icon = GFX_goal_generic_national_unity
+		x = 50
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_enter_the_international_scene  }
+		mutually_exclusive = { focus = caerus_egalitarian_prevail  }
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				OR = {
+					AND = {
+						is_historical_focus_on = yes
+					}
+					has_idea = neutrality_idea
+				}
+			}
+		}
+
+		completion_reward = {
+			add_timed_idea = { idea = collectivist_ethos_generic days = 1095 }
+		}
+	}
+
+	#Foreign Ship Investment
+	focus = {
+		id = caerus_foreign_ship_investment
+		icon = GFX_generic_focus_foreign_ship_investment-645974
+		x = 12
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_home_ports  focus = caerus_buy_convoys  }
+		completion_reward = {
+			add_ideas = foreign_ship_investor
+		}
+	}
+
+	#Greater Extraction Efforts
+	focus = {
+		id = caerus_greater_extraction_efforts
+		icon = GFX_generic_focus_greater_extraction_efforts-645976
+		x = 9
+		y = 3
+		cost = 15
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_deep_mining  }
+		
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_resource = {
+					type = oil
+					amount = 8
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_resource = {
+					type = rubber
+					amount = 3
+				}
+			}
+		}
+	}
+
+	#Industrialization Efforts
+	focus = {
+		id = caerus_industrialization_efforts
+		icon = GFX_focus_generic_industry_1
+		x = 4
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
+		}
+	}
+
+	#Rural Reforms
+	focus = {
+		id = caerus_rural_reforms
+		icon = GFX_generic_focus_rural_reforms-645921
+		x = 1
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_industrialization_efforts  }
+		
+		
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#New Infrastructure
+	focus = {
+		id = caerus_new_infrastructure
+		icon = GFX_generic_focus_new_infrastructure-645972
+		x = 3
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_industrialization_efforts  }
+		
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#National Investment
+	focus = {
+		id = caerus_national_investment
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 2
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_rural_reforms  } prerequisite = { focus = caerus_new_infrastructure  }
+		
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Construction Effort I
+	focus = {
+		id = caerus_construction_effort_i
+		icon = GFX_goal_continuous_non_factory_construct
+		x = 1
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_national_investment  }
+		
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Infrastructure Effort I
+	focus = {
+		id = caerus_infrastructure_effort_i
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 3
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_national_investment  }
+		
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Construction Effort II
+	focus = {
+		id = caerus_construction_effort_ii
+		icon = GFX_goal_generic_construction
+		x = 1
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_construction_effort_i  }
+		
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Infrastructure Effort II
+	focus = {
+		id = caerus_infrastructure_effort_ii
+		icon = GFX_goal_generic_construct_civilian
+		x = 3
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_infrastructure_effort_i  }
+		
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Excavation Effort
+	focus = {
+		id = caerus_excavation_effort
+		icon = GFX_focus_generic_steel
+		x = 2
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_construction_effort_ii  focus = caerus_infrastructure_effort_ii  }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = excavation_tech
+			}
+			
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_resource = {
+					type = tungsten
+					amount = 3
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_resource = {
+					type = steel
+					amount = 5
+				}
+			}
+		}
+	}
+
+	#Armament Efforts I
+	focus = {
+		id = caerus_armament_efforts_i
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 6
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_industrialization_efforts  }
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Capital Arsenal
+	focus = {
+		id = caerus_capital_arsenal
+		icon = GFX_generic_focus_capital_arsenal-645975
+		x = 5
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_armament_efforts_i  }
+		
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			capital_scope = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Defense of the Country
+	focus = {
+		id = caerus_defense_of_the_country
+		icon = GFX_generic_focus_defense_of_the_country-646313
+		x = 7
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_armament_efforts_i  }
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point = yes
+					}
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point = yes
+					}
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point = yes
+					}
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point = yes
+					}
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point = yes
+					}
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point = yes
+					}
+				}
+			}
+		}
+	}
+
+	#Greater Mechanical Project
+	focus = {
+		id = caerus_greater_mechanical_project
+		icon = GFX_generic_focus_greater_mechanical_project-645991
+		x = 6
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_capital_arsenal  focus = caerus_defense_of_the_country  }
+		completion_reward = {
+		add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+		add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}
+		add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = motorized_equipment
+			}
+		}
+	}
+
+	#Armament Efforts II
+	focus = {
+		id = caerus_armament_efforts_ii
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 5
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_greater_mechanical_project  }
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}		
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Armament Efforts III
+	focus = {
+		id = caerus_armament_efforts_iii
+		icon = GFX_generic_focus_armament_efforts_iii-645975
+		x = 6
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_armament_efforts_ii  } prerequisite = { focus = caerus_capital_defense  }
+		
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}		
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Foreign Investment
+	focus = {
+		id = caerus_foreign_investment
+		icon = GFX_focus_generic_treaty
+		x = 0
+		y = 5
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_construction_effort_ii }
+		
+		completion_reward = {
+		add_ideas = foreign_investors
+		}
+	}
+
+	#Capital Defense
+	focus = {
+		id = caerus_capital_defense
+		icon = GFX_goal_generic_fortify_city
+		x = 7
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_greater_mechanical_project  }
+		
+		completion_reward = {
+			capital_scope = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point = yes
+					}
+				}
+			}
+		}
+	}
+
+	#Homeland Focus
+	focus = {
+		id = caerus_homeland_focus
+		icon = GFX_focus_generic_industry_2
+		x = 9
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_industrialization_efforts  }
+		mutually_exclusive = { focus = caerus_naval_buildup  }
+		
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}			
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Deep Mining
+	focus = {
+		id = caerus_deep_mining
+		icon = GFX_generic_focus_deep_mining-645959
+		x = 9
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_homeland_focus  }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = excavation_tech
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_resource = {
+					type = tungsten
+					amount = 3
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_resource = {
+					type = steel
+					amount = 6
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_resource = {
+					type = chromium
+					amount = 7
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_resource = {
+					type = aluminium
+					amount = 8
+				}
+			}
+		}
+	}
+
+	#Supply Chain Development
+	focus = {
+		id = caerus_supply_chain_development
+		icon = GFX_goal_generic_consumer_goods
+		x = 4
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_infrastructure_effort_ii  } prerequisite = { focus = caerus_greater_mechanical_project  }
+		completion_reward = {
+		add_ideas = better_supply_chain
+		add_fuel = 4000
+		}
+	}
+
+	#Extra Research Slot
+	focus = {
+		id = caerus_extra_research_slot
+		icon = GFX_focus_research
+		x = 1
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_construction_effort_ii  } prerequisite = { focus = caerus_armament_efforts_iii  }
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	#Secret Weapons
+	focus = {
+		id = caerus_secret_weapons
+		icon = GFX_generic_focus_secret_weapons-422
+		x = 5
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_armament_efforts_iii  }
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 0.5
+				uses = 4
+				category = electronics
+				category = nuclear
+				category = rocketry
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.25
+				always = yes
+			}
+		}
+	}
+
+	#Nuclear Effort
+	focus = {
+		id = caerus_nuclear_effort
+		icon = GFX_focus_wonderweapons
+		x = 4
+		y = 7
+		cost = 13
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_extra_research_slot  } prerequisite = { focus = caerus_secret_weapons  }
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = nuclear_bonus
+				ahead_reduction = 2
+				category = nuclear
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.25
+				always = yes
+			}
+		}
+	}
+
+	#Extra Research Slot II
+	focus = {
+		id = caerus_extra_research_slot_ii
+		icon = GFX_focus_research2
+		x = 2
+		y = 7
+		cost = 17
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_extra_research_slot  } prerequisite = { focus = caerus_secret_weapons  }
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	#Sharing Technological Development
+	focus = {
+		id = caerus_sharing_technological_development
+		icon = GFX_goal_generic_scientific_exchange
+		x = 40
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_standing_for_our_freedom  }
+		available = {
+			has_war = yes
+			is_in_faction = yes
+			OR = {
+				num_of_factories > 50
+				any_other_country = {
+					is_in_faction_with = ROOT
+					num_of_factories > 50
+				}
+			}
+		}		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			if = {
+				limit = {
+					original_research_slots < 3
+				}
+				add_research_slot = 1
+			}
+			if = {
+				limit = {
+					original_research_slots > 2
+				}
+				add_tech_bonus = {
+					name = electronics_bonus
+					bonus = 1.0
+					uses = 1
+					category = electronics
+				}
+				add_tech_bonus = {
+					name = industrial_bonus
+					bonus = 1.0
+					uses = 1
+					category = industry
+				}	
+				add_tech_bonus = {
+					name = infantry_artillery_bonus #@#
+					bonus = 1.0
+					uses = 1
+					category = infantry_weapons
+					category = artillery
+				}				
+			}			
+		}
+	}
+
+	#Anti-Air
+	focus = {
+		id = caerus_antiair
+		icon = GFX_generic_focus_antiair-646319
+		x = 25
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_metropolitan_airfields  }
+		mutually_exclusive = { focus = caerus_airfield_expansion  }
+		completion_reward = {
+			if = {
+				limit = {
+					capital_scope = {
+						free_building_slots = {
+							building = anti_air_building
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = anti_air_building
+						level = 1
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					random_owned_controlled_state = {
+						free_building_slots = {
+							building = anti_air_building
+							size > 1
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					add_building_construction = {
+						type = anti_air_building
+						level = 1
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					random_owned_controlled_state = {
+						free_building_slots = {
+							building = anti_air_building
+							size > 1
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					add_building_construction = {
+						type = anti_air_building
+						level = 1
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+		}
+	}
+
+	#Airfield Expansion
+	focus = {
+		id = caerus_airfield_expansion
+		icon = GFX_generic_focus_airfield_expansion-262010
+		x = 23
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_metropolitan_airfields  }
+		mutually_exclusive = { focus = caerus_antiair  }
+		completion_reward = {
+			if = {
+				limit = {
+					random_owned_controlled_state = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					add_building_construction = {
+						type = air_base
+						level = 1
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					random_owned_controlled_state = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					random_owned_controlled_state = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					add_building_construction = {
+						type = air_base
+						level = 1
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+		}
+	}
+
+	#Rebuild the Economy
+	focus = {
+		id = caerus_rebuild_the_economy
+		icon = GFX_goal_generic_position_armies
+		x = 10
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		
+		available = {
+			has_idea = economic_collapse
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = economic_collapse_1
+				remove_idea = economic_collapse
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	#Figher Effort
+	focus = {
+		id = caerus_figher_effort
+		icon = GFX_goal_generic_air_fighter
+		x = 20
+		y = 1
+		cost = 15
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_aviation_efforts  }
+		mutually_exclusive = { focus = caerus_bomber_research  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 1.0
+				uses = 2
+				category = light_fighter
+				category = cat_heavy_fighter
+			}
+		}
+	}
+
+	#Re-Centralize the Nation
+	focus = {
+		id = caerus_recentralize_the_nation
+		icon = GFX_focus_generic_self_management
+		x = 10
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = caerus_rebuild_the_economy  }
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = economic_collapse_2
+				remove_idea = economic_collapse_1
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+	
+	#Economic Boost
+	focus = {
+		id = caerus_economic_boost
+		icon = GFX_focus_generic_self_management
+		x = 10
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = caerus_recentralize_the_nation  }
+		
+		completion_reward = {
+			remove_ideas = economic_collapse_2
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	#Advandced Plane Research
+	focus = {
+		id = caerus_advandced_plane_research
+		icon = GFX_generic_focus_advandced_plane_research-645908
+		x = 21
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = caerus_bomber_research  focus = caerus_figher_effort  }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				category = air_doctrine
+				category = plane_modules_tech
+			}
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 1.0
+				uses = 1
+				category = cat_strategic_bomber
+				category = tactical_bomber
+			}
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 1.0
+				uses = 1
+				category = light_fighter
+				category = cat_heavy_fighter
+			}
+		}
+	}
+
+	#Naval Expansion
+	focus = {
+		id = caerus_naval_expansion
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 14
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		
+		completion_reward = {
+			navy_experience = 25
+			if = {
+				limit = {
+					NOT = {
+						any_owned_state = {
+							dockyard > 0
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					any_owned_state = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					NOT = {
+						any_owned_state = {
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+				}
+				random_state = {
+					limit = {
+						controller = { tag = ROOT }
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+			}			
+		}
+	}
+
+	#Flexible Navy
+	focus = {
+		id = caerus_flexible_navy
+		icon = GFX_generic_focus_flexible_navy-377
+		x = 17
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_naval_expansion  }
+		mutually_exclusive = { focus = caerus_large_navy  }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = sub_op_bonus
+				cost_reduction = 0.5
+				uses = 2
+				technology = convoy_interdiction_ti
+				technology = unrestricted_submarine_warfare
+				technology = wolfpacks
+				technology = advanced_submarine_warfare
+				technology = combined_operations_raiding
+			}
+		}
+	}
+
+	#Naval Build-Up
+	focus = {
+		id = caerus_naval_buildup
+		icon = GFX_goal_continuous_naval_production
+		x = 12
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_naval_expansion  }
+		mutually_exclusive = { focus = caerus_homeland_focus  }
+		
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = {
+						any_owned_state = {
+							dockyard > 0
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					any_owned_state = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}		
+		}
+	}
+
+	#Large Navy
+	focus = {
+		id = caerus_large_navy
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 15
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_naval_expansion  }
+		mutually_exclusive = { focus = caerus_flexible_navy  }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = fleet_in_being_bonus
+				cost_reduction = 0.25
+				uses = 2
+				category = fleet_in_being_tree
+			}
+		}
+	}
+
+	#Submarine Effort
+	focus = {
+		id = caerus_submarine_effort
+		icon = GFX_goal_generic_navy_submarine
+		x = 17
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_flexible_navy  }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = ss_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = ss_tech
+			}
+		}
+	}
+
+	#Home Ports
+	focus = {
+		id = caerus_home_ports
+		icon = GFX_goal_generic_navy_cruiser
+		x = 13
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_naval_buildup  }
+		mutually_exclusive = { focus = caerus_buy_convoys  }
+		
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = {
+						any_owned_state = {
+							dockyard > 0
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					any_owned_state = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}		
+		}
+	}
+
+	#Buy Convoys
+	focus = {
+		id = caerus_buy_convoys
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 11
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_naval_buildup  }
+		mutually_exclusive = { focus = caerus_home_ports  }
+		
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = 400
+			}
+		}
+	}
+
+	#Improve the L-Class
+	focus = {
+		id = caerus_improve_the_lclass
+		icon = GFX_focus_generic_cruiser2
+		x = 15
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_large_navy  }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = cl_tech
+				category = ca_tech
+			}
+		}
+	}
+
+	#High Sea Training Improvement
+	focus = {
+		id = caerus_high_sea_training_improvement
+		icon = GFX_focus_generic_navy_battleship2
+		x = 16
+		y = 3
+		cost = 12
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_submarine_effort  focus = caerus_improve_the_lclass  }
+		completion_reward = {
+			navy_experience = 250
+			add_doctrine_cost_reduction = {
+				name = fleet_in_being_bonus
+				cost_reduction = 0.5
+				uses = 2
+				category = fleet_in_being_tree
+			}
+		}
+	}
+
+	#Greater Naval Project: The Capital Ship
+	focus = {
+		id = caerus_greaternavalprojectthecapitalship
+		icon = GFX_generic_focus_greaternavalprojectthecapitalship-404
+		x = 14
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_improve_the_lclass  } prerequisite = { focus = caerus_home_ports  }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
+				name = capital_ships_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = bc_tech
+				category = bb_tech
+				category = cv_tech
+			}
+		}
+	}
+
+	#Anti-Destroyer
+	focus = {
+		id = caerus_antidestroyer
+		icon = GFX_generic_focus_antidestroyer-645958
+		x = 18
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_submarine_effort  }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 2
+				uses = 1
+				category = naval_mines
+			}
+		}
+	}
+
+	#Bomber Research
+	focus = {
+		id = caerus_bomber_research
+		icon = GFX_goal_generic_air_bomber
+		x = 22
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_aviation_efforts  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 1.0
+				uses = 2
+				category = cat_strategic_bomber
+				category = tactical_bomber
+			}
+		}
+	}
+
+	#NAV Project
+	focus = {
+		id = caerus_nav_project
+		icon = GFX_goal_generic_navy_carrier
+		x = 20
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_figher_effort  } prerequisite = { focus = caerus_flexible_navy  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = nav_bomber_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = naval_bomber
+			}
+		}
+	}
+
+	#CAS Project
+	focus = {
+		id = caerus_cas_project
+		icon = GFX_generic_focus_cas_project-645863
+		x = 22
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_bomber_research  } prerequisite = { focus = caerus_motorization_effort  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	#Metropolitan Airfields
+	focus = {
+		id = caerus_metropolitan_airfields
+		icon = GFX_goal_generic_air_production
+		x = 24
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_aviation_efforts  }
+		completion_reward = {
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = air_base
+						level = 1
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					random_owned_controlled_state = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					add_building_construction = {
+						type = air_base
+						level = 1
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+		}
+	}
+
+	#Nationalist Rising
+	focus = {
+		id = caerus_nationalist_rising
+		icon = GFX_generic_focus_nationalist_rising-428
+		x = 47
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_collectivist_ethos  }
+		mutually_exclusive = { focus = caerus_socialist_reforms }
+		completion_reward = {
+			add_timed_idea = {
+				idea = nationalism_generic
+				days = 720
+			}
+			add_popularity = {
+				ideology = imperialist
+				popularity = +0.25
+			}
+			add_popularity = {
+				ideology = radical_nationalist
+				popularity = +0.25
+			}
+		}
+	}
+
+	#Advandced Rocket Systems
+	focus = {
+		id = caerus_advandced_rocket_systems
+		icon = GFX_focus_rocketry
+		x = 21
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_advandced_plane_research  } prerequisite = { focus = caerus_cas_project  focus = caerus_nav_project  }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = jet_rocket_bonus
+				ahead_reduction = 2
+				uses = 2
+				category = rocketry
+				category = jet_technology
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.25
+				always = yes
+			}
+		}
+	}
+
+	#State of the Countrys Army
+	focus = {
+		id = caerus_state_of_the_countrys_army
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		x = 30
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			army_experience = 25
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.75
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	#Modernize the Equipment
+	focus = {
+		id = caerus_modernize_the_equipment
+		icon = GFX_goal_generic_build_tank
+		x = 33
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_state_of_the_countrys_army  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1.0
+				uses = 2
+				category = infantry_weapons
+				category = artillery
+			}
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment
+				amount = 500
+			}
+		}
+	}
+
+	#Artillary Overhaul
+	focus = {
+		id = caerus_artillary_overhaul
+		icon = GFX_goal_generic_army_artillery
+		x = 32
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_modernize_the_equipment  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1.0
+				uses = 2
+				category = artillery
+			}
+			add_equipment_to_stockpile = { 
+				type = artillery_equipment
+				amount = 120
+			}
+		}
+	}
+
+	#Support Divisions
+	focus = {
+		id = caerus_support_divisions
+		icon = GFX_goal_generic_military_sphere
+		x = 34
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_modernize_the_equipment  }
+		mutually_exclusive = { focus = caerus_artillary_overhaul  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 0.75
+				uses = 2
+				category = recon_tech
+				category = hospital_tech
+				category = signal_company_tech
+				category = logistics_tech
+			}
+			add_equipment_to_stockpile = { 
+				type = support_equipment
+				amount = 150
+			}
+		}
+	}
+
+	#Support Equipment
+	focus = {
+		id = caerus_support_equipment
+		icon = GFX_goal_generic_army_artillery2
+		x = 33
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_support_divisions  focus = caerus_artillary_overhaul  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 0.50
+				uses = 1
+				category = recon_tech
+				category = hospital_tech
+				category = signal_company_tech
+				category = logistics_tech
+				category = artillery
+			}
+			add_equipment_to_stockpile = { 
+				type = support_equipment
+				amount = 90
+			}
+			add_equipment_to_stockpile = { 
+				type = artillery_equipment
+				amount = 60
+			}
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				ahead_reduction = 2
+				uses = 1
+				category = logistics_tech
+				category = artillery
+			}
+		}
+	}
+
+	#Motorization Effort
+	focus = {
+		id = caerus_motorization_effort
+		icon = GFX_goal_generic_army_motorized
+		x = 27
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_state_of_the_countrys_army  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 1.5
+				technology = motorised_infantry
+			}
+		}
+	}
+
+	#Mechanized Army
+	focus = {
+		id = caerus_mechanized_army
+		icon = GFX_generic_focus_mechanized_army-645991
+		x = 27
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_motorization_effort  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				ahead_reduction = 1.5
+				uses = 1
+				category = motorized_equipment
+			}
+			add_equipment_to_stockpile = { 
+				type = motorized_equipment
+				amount = 10
+			}
+		}
+	}
+
+	#Doctrine Effort
+	focus = {
+		id = caerus_doctrine_effort
+		icon = GFX_goal_generic_army_doctrines
+		x = 30
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_state_of_the_countrys_army  }
+		completion_reward = {
+			army_experience = 25
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	#The Tank
+	focus = {
+		id = caerus_the_tank
+		icon = GFX_focus_generic_tank_production
+		x = 27
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_mechanized_army  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.0
+				uses = 2
+				category = armor
+			}
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.75
+				uses = 1
+				category = armor
+			}
+		}
+	}
+
+	#Focus on Infantry Equipment
+	focus = {
+		id = caerus_focus_on_infantry_equipment
+		icon = GFX_generic_focus_focus_on_infantry_equipment-645755
+		x = 31
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_doctrine_effort  }
+		mutually_exclusive = { focus = caerus_fortification_focus  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1.0
+				uses = 2
+				category = infantry_weapons
+				category = artillery
+			}
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				ahead_reduction = 2
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+
+	#Fortification Focus
+	focus = {
+		id = caerus_fortification_focus
+		icon = GFX_goal_generic_fortify_city
+		x = 29
+		y = 2
+		cost = 25
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_doctrine_effort  }
+		mutually_exclusive = { focus = caerus_focus_on_infantry_equipment  }
+		completion_reward = {
+			every_core_state = {
+					add_building_construction = {
+						type = bunker
+						level = 1
+						instant_build = yes
+						province = {
+							all_provinces = yes
+							limit_to_border = yes
+						}
+					}
+			}
+		}
+	}
+
+	#Doctrine Expertise
+	focus = {
+		id = caerus_doctrine_expertise
+		icon = GFX_goal_generic_air_doctrine
+		x = 30
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_doctrine_effort  }
+		completion_reward = {
+			army_experience = 60
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.75
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	#Project Wolf Pack: Special Forces
+	focus = {
+		id = caerus_projectwolfpackspecialforces
+		icon = GFX_focus_eng_special_air_service
+		x = 30
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_support_equipment  } prerequisite = { focus = caerus_the_tank  } prerequisite = { focus = caerus_doctrine_expertise  }
+		completion_reward = {
+			add_ideas = special_forces
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 1.0
+				uses = 1
+				technology = paratroopers
+				technology = paratroopers2
+				technology = marines
+				technology = marines2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+			}
+		}
+	}
+
+	#Enter the International Scene
+	focus = {
+		id = caerus_enter_the_international_scene
+		icon = GFX_goal_generic_demand_territory
+		x = 45
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 120
+			add_stability = 0.01
+		}
+	}
+
+	#Egalitarian Prevail
+	focus = {
+		id = caerus_egalitarian_prevail
+		icon = GFX_generic_focus_egalitarian_prevail-645471
+		x = 40
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_enter_the_international_scene  }
+		mutually_exclusive = { focus = caerus_collectivist_ethos }
+
+		completion_reward = {
+			add_ideas = egalitarian_prevail_focus
+			add_popularity = {
+				ideology = conservatist
+				popularity = +0.14
+			}
+			add_popularity = {
+				ideology = progressivist
+				popularity = +0.14
+			}
+			add_popularity = {
+				ideology = centrist
+				popularity = +0.14
+			}
+			add_popularity = {
+				ideology = libertarianist
+				popularity = +0.08
+			}
+			add_popularity = {
+				ideology = liberalist
+				popularity = +0.08
+			}
+		}
+	}
+
+	#Statism
+	focus = {
+		id = caerus_statism
+		icon = GFX_goal_generic_major_alliance
+		x = 37
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_egalitarian_prevail  }
+		mutually_exclusive = { focus = caerus_centralize_the_government  } mutually_exclusive = { focus = caerus_liberalism  } mutually_exclusive = { focus = caerus_a_brighter_future  }
+		completion_reward = {
+			add_popularity = {
+				ideology = conservatist
+				popularity = +0.1
+			}
+			set_politics = {
+				ruling_party = conservatist
+				elections_allowed = yes
+				last_election = "1936.1.1"
+				election_frequency = 48
+			}
+			add_ideas = statism_generic
+		}
+	}
+
+	#Centralize the Government
+	focus = {
+		id = caerus_centralize_the_government
+		icon = GFX_generic_focus_centralize_the_government-645772
+		x = 39
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_egalitarian_prevail  }
+		mutually_exclusive = { focus = caerus_statism  } mutually_exclusive = { focus = caerus_liberalism  } mutually_exclusive = { focus = caerus_a_brighter_future  }
+		completion_reward = {
+			add_popularity = {
+				ideology = centrist
+				popularity = +0.1
+			}
+			set_politics = {
+				ruling_party = centrist
+				elections_allowed = yes
+				last_election = "1936.1.1"
+				election_frequency = 48
+			}
+		}
+	}
+
+	#Traditionalism
+	focus = {
+		id = caerus_traditionalism
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 36
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_statism  }
+		completion_reward = {
+			swap_ideas = {
+				add_idea = traditionalism_generic
+				remove_idea = statism_generic
+			}
+		}
+			
+	}
+
+	#Liberalism
+	focus = {
+		id = caerus_liberalism
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 41
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_egalitarian_prevail  }
+		mutually_exclusive = { focus = caerus_statism  } mutually_exclusive = { focus = caerus_centralize_the_government  } mutually_exclusive = { focus = caerus_a_brighter_future  }
+		completion_reward = {
+			add_popularity = {
+				ideology = liberalist
+				popularity = +0.1
+			}
+			add_popularity = {
+				ideology = libertarianist
+				popularity = +0.1
+			}
+			set_politics = {
+				ruling_party = liberalist
+				elections_allowed = yes
+				last_election = "1936.1.1"
+				election_frequency = 48
+			}
+		}
+	}
+
+	#Interventionism
+	focus = {
+		id = caerus_interventionism
+		icon = GFX_goal_generic_military_deal
+		x = 42
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_a_brighter_future  focus = caerus_statism  focus = caerus_liberalism  focus = caerus_centralize_the_government  }
+		mutually_exclusive = { focus = caerus_focus_on_neutrality  }
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_idea = neutrality_idea
+			}
+		}
+
+		completion_reward = {
+			if = {
+				limit = { has_idea = neutrality_idea }
+				remove_ideas = neutrality_idea
+			}	
+			set_rule = { can_send_volunteers = yes }
+			add_political_power = 150
+		}
+	}
+
+	#Reform the Country Administration
+	focus = {
+		id = caerus_reform_the_country_administration
+		icon = GFX_generic_focus_reform_the_country_administration-645909
+		x = 44
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_a_brighter_future  }
+		completion_reward = {
+			add_ideas = reformist_generic
+		}
+	}
+
+	#A Brighter Future
+	focus = {
+		id = caerus_a_brighter_future
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		x = 43
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_egalitarian_prevail  }
+		mutually_exclusive = { focus = caerus_statism  } mutually_exclusive = { focus = caerus_centralize_the_government  } mutually_exclusive = { focus = caerus_liberalism  }
+		completion_reward = {
+			add_popularity = {
+				ideology = progressivist
+				popularity = +0.1
+			}
+			set_politics = {
+				ruling_party = progressivist
+				elections_allowed = yes
+				last_election = "1936.1.1"
+				election_frequency = 48
+			}
+		}
+	}
+
+	#Focus on Neutrality
+	focus = {
+		id = caerus_focus_on_neutrality
+		icon = GFX_goal_generic_neutrality_focus
+		x = 38
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_a_brighter_future  focus = caerus_liberalism  focus = caerus_statism  focus = caerus_centralize_the_government  }
+		mutually_exclusive = { focus = caerus_interventionism  }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				tag = AUS
+			}
+			modifier = {
+				factor = 0
+				tag = SAU
+				is_in_faction_with = SOV
+				SOV = { has_government = communism }
+			}
+		}
+
+		completion_reward = {
+			if = {
+				limit = { NOT = { has_idea = neutrality_idea } }
+				add_ideas = neutrality_idea
+			}
+			add_political_power = 150
+		}
+	}
+
+	#Constiutional Guarantees
+	focus = {
+		id = caerus_constiutional_guarantees
+		icon = GFX_focus_generic_treaty
+		x = 40
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_a_brighter_future  focus = caerus_statism  focus = caerus_liberalism  focus = caerus_centralize_the_government  }
+		completion_reward = {
+			add_ideas = written_constitution
+		}
+	}
+
+	#Deterrence
+	focus = {
+		id = caerus_deterrence
+		icon = GFX_goal_generic_small_arms
+		x = 38
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_focus_on_neutrality  }
+		completion_reward = {
+			add_ideas = deterrence
+		}
+	}
+
+	#Volunteer Corps
+	focus = {
+		id = caerus_volunteer_corps
+		icon = GFX_focus_generic_strike_at_democracy1
+		x = 42
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_interventionism  }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = volunteer_corps_focus
+		}
+	}
+
+	#Standing for our Freedom
+	focus = {
+		id = caerus_standing_for_our_freedom
+		icon = GFX_focus_generic_little_entente
+		x = 40
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_volunteer_corps  focus = caerus_deterrence  }
+		available = { 
+			OR = { 
+				threat > 0.75 
+				has_defensive_war = yes 
+			}
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = why_we_fight_focus
+			custom_effect_tooltip = why_we_fight_effect
+			hidden_effect = {
+				if = {
+					limit = { NOT = { has_idea = neutrality_idea } }
+					set_rule = { can_create_factions = yes }
+				}			
+			}
+			if = {
+				limit = { has_government = centrist }
+				add_popularity = {
+					ideology = centrist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = conservatist }
+				add_popularity = {
+					ideology = conservatist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = progressivist }
+				add_popularity = {
+					ideology = progressivist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = libertarianist }
+				add_popularity = {
+					ideology = libertarianist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = social_liberalist }
+				add_popularity = {
+					ideology = social_liberalist
+					popularity = 0.2
+				}
+			}
+		}
+	}
+
+	#Radicalization of the Nationalists
+	focus = {
+		id = caerus_radicalization_of_the_nationalists
+		icon = GFX_generic_focus_radicalization_of_the_nationalists-645923
+		x = 46
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_nationalist_rising  }
+		mutually_exclusive = { focus = caerus_imperialist_nation  }
+		completion_reward = {
+			add_popularity = {
+				ideology = imperialist
+				popularity = +0.1
+			}
+			add_popularity = {
+				ideology = radical_nationalist
+				popularity = +0.2
+			}
+			set_politics = {
+				ruling_party = radical_nationalist
+				elections_allowed = no
+				last_election = "1936.1.1"
+				election_frequency = 48
+			}
+		}
+	}
+
+	#Imperialist Nation
+	focus = {
+		id = caerus_imperialist_nation
+		icon = GFX_goal_generic_political_pressure
+		x = 48
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_nationalist_rising  }
+		mutually_exclusive = { focus = caerus_radicalization_of_the_nationalists  }
+		completion_reward = {
+			add_popularity = {
+				ideology = imperialist
+				popularity = +0.2
+			}
+			add_popularity = {
+				ideology = radical_nationalist
+				popularity = +0.1
+			}
+			set_politics = {
+				ruling_party = imperialist
+				elections_allowed = no
+				last_election = "1936.1.1"
+				election_frequency = 48
+			}
+		}
+	}
+
+	#Militarization
+	focus = {
+		id = caerus_militarization
+		icon = GFX_generic_focus_militarization-262024
+		x = 46
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_radicalization_of_the_nationalists  }
+		
+		completion_reward = {
+		add_ideas = militarism
+		}
+	}
+
+	#Military Dictatorship
+	focus = {
+		id = caerus_military_dictatorship
+		icon = GFX_generic_focus_military_dictatorship-645750
+		x = 45
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_militarization  }
+		completion_reward = {
+			add_stability = +0.05
+			add_ideas = the_dictator
+		}
+	}
+
+	#Get Ready
+	focus = {
+		id = caerus_get_ready
+		icon = GFX_goal_generic_military_sphere
+		x = 48
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_imperialist_nation  }
+		completion_reward = {
+			add_ideas = army_training_generic
+		}
+	}
+
+	#Imperialist Gains
+	focus = {
+		id = caerus_imperialist_gains
+		icon = GFX_focus_jap_strike_south
+		x = 49
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_get_ready  }
+		completion_reward = {
+			random_neighbor_country = {
+				limit = {  
+					strength_ratio = {
+						tag = ROOT
+						ratio < 0.3
+					}
+					not = {
+						is_guaranteed_by = ROOT #not guaranteed by us
+						is_in_faction_with = ROOT #not in faction with us
+						has_non_aggression_pact_with = ROOT #no non aggression by us
+						is_subject_of = ROOT #not our puppet
+						has_war_with = ROOT #is not at war with us
+					}
+				}
+			ROOT = {
+				create_wargoal = {
+					type = annex_everything
+					target = PREV
+				}
+			}
+			}
+		}
+	}
+
+	#Military Youth
+	focus = {
+		id = caerus_military_youth
+		icon = GFX_focus_generic_manpower
+		x = 47
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_imperialist_gains  focus = caerus_military_dictatorship  }
+		completion_reward = {
+			add_ideas = military_youth_focus
+		}
+	}
+
+	#Pro-Paramilitarism
+	focus = {
+		id = caerus_proparamilitarism
+		icon = GFX_goal_generic_military_deal
+		x = 47
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_military_youth  }
+		completion_reward = {
+			add_ideas = paramilitarism_focus
+		}
+	}
+
+	#Socialist Reforms
+	focus = {
+		id = caerus_socialist_reforms
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 53
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_collectivist_ethos  }
+		mutually_exclusive = { focus = caerus_nationalist_rising }
+		completion_reward = {
+			add_ideas = socialist_reforms
+			add_popularity = {
+				ideology = revisionist
+				popularity = +0.15
+			}
+			add_popularity = {
+				ideology = xeroist
+				popularity = +0.15
+			}
+			add_popularity = {
+				ideology = radical_socialist
+				popularity = +0.15
+			}
+		}
+	}
+
+	#Rise of the Xeroists
+	focus = {
+		id = caerus_rise_of_the_xeroists
+		icon = GFX_goal_generic_forceful_treaty
+		x = 51
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_socialist_reforms  }
+		mutually_exclusive = { focus = caerus_radicalization_of_the_socialists  } mutually_exclusive = { focus = caerus_revision_our_nation  }
+		completion_reward = {
+		add_popularity = {
+				ideology = radical_socialist
+				popularity = +0.1
+			}
+			add_popularity = {
+				ideology = xeroist
+				popularity = +0.2
+			}
+			set_politics = {
+				ruling_party = xeroist
+				elections_allowed = no
+				last_election = "1936.1.1"
+				election_frequency = 48
+			}
+		}
+	}
+
+	#Radicalization of the Socialists
+	focus = {
+		id = caerus_radicalization_of_the_socialists
+		icon = GFX_focus_generic_soviet_politics
+		x = 53
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_socialist_reforms  }
+		mutually_exclusive = { focus = caerus_rise_of_the_xeroists  } mutually_exclusive = { focus = caerus_revision_our_nation  }
+		completion_reward = {
+			add_popularity = {
+				ideology = revisionist
+				popularity = +0.05
+			}
+			add_popularity = {
+				ideology = xeroist
+				popularity = +0.05
+			}
+			add_popularity = {
+				ideology = radical_socialist
+				popularity = +0.2
+			}
+			set_politics = {
+				ruling_party = radical_socialist
+				elections_allowed = no
+				last_election = "1936.1.1"
+				election_frequency = 48
+			}
+		}
+	}
+
+	#Revision our Nation
+	focus = {
+		id = caerus_revision_our_nation
+		icon = GFX_goal_generic_war_with_comintern
+		x = 55
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_socialist_reforms  }
+		mutually_exclusive = { focus = caerus_rise_of_the_xeroists  } mutually_exclusive = { focus = caerus_radicalization_of_the_socialists  }
+		completion_reward = {
+		add_popularity = {
+				ideology = radical_socialist
+				popularity = +0.1
+			}
+			add_popularity = {
+				ideology = revisionist
+				popularity = +0.2
+			}
+			set_politics = {
+				ruling_party = revisionist
+				elections_allowed = no
+				last_election = "1936.1.1"
+				election_frequency = 48
+			}
+		}
+	}
+
+	#Give Power to Trade Unions
+	focus = {
+		id = caerus_give_power_to_trade_unions
+		icon = GFX_generic_focus_give_power_to_trade_unions-645906
+		x = 52
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_rise_of_the_xeroists  focus = caerus_radicalization_of_the_socialists  focus = caerus_revision_our_nation  }
+		completion_reward = {
+			add_ideas = collectivization
+		}
+	}
+
+	#Socialists Correctness
+	focus = {
+		id = caerus_socialists_correctness
+		icon = GFX_goal_generic_dangerous_deal
+		x = 54
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_rise_of_the_xeroists  focus = caerus_radicalization_of_the_socialists  focus = caerus_revision_our_nation  }
+		completion_reward = {
+			if = {
+				limit = { has_idea = neutrality_idea }
+				remove_ideas = neutrality_idea
+			}		
+			add_political_power = 200
+			add_ideas = idea_political_correctness
+		}
+	}
+
+	#Social Propaganda Stations
+	focus = {
+		id = caerus_social_propaganda_stations
+		icon = GFX_goal_generic_propaganda
+		x = 53
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_socialists_correctness  } prerequisite = { focus = caerus_give_power_to_trade_unions  }
+		completion_reward = {
+			add_ideas = indoctrination_focus
+			add_political_power = 150
+		}
+	}
+
+	#Social Patriotism
+	focus = {
+		id = caerus_social_patriotism
+		icon = GFX_generic_focus_social_patriotism-262089
+		x = 52
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_social_propaganda_stations  }
+		mutually_exclusive = { focus = caerus_millitant_pacifism  }
+		completion_reward = {
+			if = {
+				limit = { has_idea = neutrality_idea }
+				remove_ideas = neutrality_idea
+			}	
+			set_rule = { can_send_volunteers = yes }
+			add_political_power = 150
+		}
+		
+	}
+
+	#Millitant Pacifism
+	focus = {
+		id = caerus_millitant_pacifism
+		icon = GFX_focus_spr_masters_of_our_own_fate
+		x = 54
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_social_propaganda_stations  }
+		mutually_exclusive = { focus = caerus_social_patriotism  }
+		completion_reward = {
+			add_ideas = guards_of_the_homeland
+		}
+	}
+
+	#Political Military
+	focus = {
+		id = caerus_political_military
+		icon = GFX_generic_focus_political_military-341
+		x = 53
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_millitant_pacifism  focus = caerus_social_patriotism  }
+		completion_reward = {
+			add_ideas = political_commissars_focus
+			if = {
+				limit = { has_government = xeroist }
+				add_popularity = {
+					ideology = xeroist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = revisionist }
+				add_popularity = {
+					ideology = revisionist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = radical_socialist }
+				add_popularity = {
+					ideology = radical_socialist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = radical_nationalist }
+				add_popularity = {
+					ideology = radical_nationalist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = imperialist }
+				add_popularity = {
+					ideology = imperialist
+					popularity = 0.2
+				}
+			}
+			add_political_power = 200
+		}
+	}
+
+	#Fanaticism
+	focus = {
+		id = caerus_fanaticism
+		icon = GFX_generic_focus_fanaticism-422
+		x = 50
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_political_military  focus = caerus_proparamilitarism  }
+		completion_reward = {
+			add_ideas = ideological_fanaticism_focus
+			set_rule = {
+				can_create_factions = yes
+			}
+			hidden_effect = {
+				set_rule = { can_use_kamikaze_pilots = yes }
+			}
+			custom_effect_tooltip = kamikaze_focus_tooltip
+		}
+	}
+
+	#Like-Minded Technology
+	focus = {
+		id = caerus_likeminded_technology
+		icon = GFX_goal_generic_scientific_exchange
+		x = 50
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = caerus_fanaticism  }
+		available = {
+			has_war = yes
+			is_in_faction = yes
+			OR = {
+				num_of_factories > 50
+				any_other_country = {
+					is_in_faction_with = ROOT
+					num_of_factories > 50
+				}
+			}
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			if = {
+				limit = {
+					original_research_slots < 3
+				}
+				add_research_slot = 1
+			}
+			if = {
+				limit = {
+					original_research_slots > 2
+				}
+				add_tech_bonus = {
+					name = electronics_bonus
+					bonus = 1.0
+					uses = 1
+					category = electronics
+				}
+				add_tech_bonus = {
+					name = industrial_bonus
+					bonus = 1.0
+					uses = 1
+					category = industry
+				}	
+				add_tech_bonus = {
+					name = infantry_artillery_bonus #@#
+					bonus = 1.0
+					uses = 1
+					category = infantry_weapons
+					category = artillery
+				}				
+			}			
+		}
+	}
+
+	#Claim on Neighbours
+	focus = {
+		id = caerus_claim_on_neighbours
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 47
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+		completion_reward = {
+			random_neighbor_country = {
+				limit = {  
+					strength_ratio = {
+						tag = ROOT
+						ratio < 0.5
+					}
+					not = {
+						is_guaranteed_by = ROOT #not guaranteed by us
+						is_in_faction_with = ROOT #not in faction with us
+						has_non_aggression_pact_with = ROOT #no non aggression by us
+						is_subject_of = ROOT #not our puppet
+						has_war_with = ROOT #not already at war with ROOT
+					}
+				}
+			ROOT = {
+				create_wargoal = {
+					type = annex_everything
+					target = PREV
+				}
+			}
+			}
+		}
+		prerequisite = { focus = caerus_get_ready  focus = caerus_militarization  }
+	}
+	### Caerus ###
+	
+	#Take Position
+	focus = {
+		id = caerus_take_position
+		icon = GFX_goal_generic_propaganda
+		x = 21
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 100 }
+		completion_reward = {
+			add_political_power = 100
+			add_war_support = 0.05
+		}
+	}
+
+	#Neutral Stance
+	focus = {
+		id = caerus_neutral_stance
+		icon = GFX_goal_generic_neutrality_focus
+		x = 21
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_take_position  }
+		mutually_exclusive = { focus = caerus_approach_bardonia  } mutually_exclusive = { focus = caerus_side_with_aethos  }
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+	#Approach Bardonia
+	focus = {
+		id = caerus_approach_bardonia
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 16
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_take_position  }
+		mutually_exclusive = { focus = caerus_neutral_stance  } mutually_exclusive = { focus = caerus_side_with_aethos  }
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			if = {
+				limit = { has_idea = neutrality_idea }
+				remove_ideas = neutrality_idea
+			}
+			add_opinion_modifier = {
+				target = BAR
+				modifier = offered_support
+			}
+			add_opinion_modifier = {
+				target = COM
+				modifier = offered_support
+			}
+			add_opinion_modifier = {
+				target = AET
+				modifier = pact_against_us
+			}
+		}
+	}
+
+	#Side with Aethos
+	focus = {
+		id = caerus_side_with_aethos
+		icon = GFX_focus_generic_combined_arms
+		x = 26
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_take_position  }
+		mutually_exclusive = { focus = caerus_neutral_stance  } mutually_exclusive = { focus = caerus_approach_bardonia  }
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			if = {
+				limit = { has_idea = neutrality_idea }
+				remove_ideas = neutrality_idea
+			}
+			add_opinion_modifier = {
+				target = AET
+				modifier = offered_support
+			}
+			add_opinion_modifier = {
+				target = BAR
+				modifier = pact_against_us
+			}
+			add_opinion_modifier = {
+				target = COM
+				modifier = pact_against_us
+			}
+		}
+	}
+
+	#Guarntee our Independence
+	focus = {
+		id = caerus_guarntee_our_independence
+		icon = GFX_focus_generic_support_the_left_right
+		x = 20
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_neutral_stance  }
+		completion_reward = {
+			add_political_power = 50
+			add_war_support = 0.10
+		}
+	}
+
+	#Defense of the Homeland
+	focus = {
+		id = caerus_defense_of_the_homeland
+		icon = GFX_goal_generic_military_sphere
+		x = 22
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_neutral_stance  }
+		completion_reward = {
+			add_ideas = fortification
+		}
+	}
+
+	#Arms for the Civilians
+	focus = {
+		id = caerus_arms_for_the_civilians
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 21
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_guarntee_our_independence  } prerequisite = { focus = caerus_defense_of_the_homeland  }
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Home Defense
+	focus = {
+		id = caerus_home_defense
+		icon = GFX_focus_generic_home_defense
+		x = 23
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_arms_for_the_civilians  }
+		mutually_exclusive = { focus = caerus_democratic_fort  }
+		completion_reward = {
+			add_ideas = home_defense
+		}
+	}
+
+	#Prepare for the Worst
+	focus = {
+		id = caerus_prepare_for_the_worst
+		icon = GFX_generic_caerus_prepare_for_the_worst-645999
+		x = 19
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = caerus_arms_for_the_civilians  }
+		mutually_exclusive = { focus = caerus_democratic_fort  }
+		completion_reward = {
+			army_experience = 30
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.50
+				uses = 1
+				category = land_doctrine
+			}
+			add_tech_bonus = {
+				name = infantry_bonus
+				bonus = 1.0
+				uses = 2
+				category = infantry_weapons
+			}
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment
+				amount = 500
+			}
+		}
+	}
+
+	#Bardonian Industry
+	focus = {
+		id = caerus_bardonian_industry
+		icon = GFX_goal_generic_air_production
+		x = 17
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_approach_bardonia  }
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 1 }
+		}
+	}
+
+	#Join the Aethos Forces
+	focus = {
+		id = caerus_join_the_aethos_forces
+		icon = GFX_goal_generic_alliance
+		x = 26
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = caerus_aethos_advisors  }
+		completion_reward = {
+			add_opinion_modifier = { 
+				target = AET 
+				modifier = large_increase
+			}
+				AET = {
+					add_to_faction = ROOT
+				ROOT = {
+					add_ai_strategy = {
+					type = alliance
+					id = "AET"
+					value = 200
+					}
+				}
+				}
+		}
+	}
+
+	#Aethos Advisors
+	focus = {
+		id = caerus_aethos_advisors
+		icon = GFX_focus_generic_military_academy
+		x = 26
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = caerus_industry_of_aethos  } prerequisite = { focus = caerus_arms_of_aethos  }
+		completion_reward = {
+			add_ideas = aethos_advisors
+		}
+	}
+
+	#Bardonian Millitary Aid
+	focus = {
+		id = caerus_bardonian_millitary_aid
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 15
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = caerus_approach_bardonia  }
+		completion_reward = {
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment
+				amount = 1500
+			}
+		}
+	}
+
+	#Bardonian Strategic Maneuvers
+	focus = {
+		id = caerus_bardonian_strategic_maneuvers
+		icon = GFX_generic_caerus_bardonian_strategic_maneuvers-645940
+		x = 16
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = caerus_bardonian_industry  } prerequisite = { focus = caerus_bardonian_millitary_aid  }
+		completion_reward = {
+			add_ideas = bardonia_advisors
+		}
+	}
+
+	#Join the Bardonian Alliance
+	focus = {
+		id = caerus_join_the_bardonian_alliance
+		icon = GFX_goal_generic_alliance
+		x = 16
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = caerus_bardonian_strategic_maneuvers  }
+		completion_reward = {
+			add_opinion_modifier = { 
+				target = BAR 
+				modifier = large_increase
+			}
+				BAR = {
+					add_to_faction = ROOT
+				ROOT = {
+					add_ai_strategy = {
+					type = alliance
+					id = "BAR"
+					value = 200
+					}
+				}
+				}
+		}
+	}
+
+	#Industry of Aethos
+	focus = {
+		id = caerus_industry_of_aethos
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 25
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = caerus_side_with_aethos  }
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 1 }
+		}
+	}
+
+	#Arms of Aethos
+	focus = {
+		id = caerus_arms_of_aethos
+		icon = GFX_focus_generic_license_production
+		x = 27
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = caerus_side_with_aethos  }
+		completion_reward = {
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment
+				amount = 1500
+			}
+		}
+	}
+
+	#Democratic Fort
+	focus = {
+		id = caerus_democratic_fort
+		icon = GFX_focus_generic_coastal_fort
+		x = 21
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = { 
+			OR = { 
+				threat > 0.20 
+				has_defensive_war = yes 
+			}
+			OR = {
+				has_government = centrist
+				has_government = conservatist
+				has_government = progressivist
+				has_government = libertarianist
+				has_government = liberalist
+			}
+		}
+		prerequisite = { focus = caerus_arms_for_the_civilians  }
+		mutually_exclusive = { focus = caerus_home_defense  } mutually_exclusive = { focus = caerus_prepare_for_the_worst  }
+		completion_reward = {
+				add_ideas = fort_of_democracy
+			}
+			if = {
+				limit = { has_government = centrist }
+				add_popularity = {
+					ideology = centrist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = conservatist }
+				add_popularity = {
+					ideology = conservatist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = progressivist }
+				add_popularity = {
+					ideology = progressivist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = libertarianist }
+				add_popularity = {
+					ideology = libertarianist
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = liberalist }
+				add_popularity = {
+					ideology = liberalist
+					popularity = 0.2
+				}
+			}
+			hidden_effect = {
+				if = {
+					limit = { NOT = { has_idea = neutrality_idea } }
+					set_rule = { can_create_factions = yes }
+				}
+			}
+	}
+
+	#Impending Doom Approaches
+	focus = {
+		id = caerus_impending_doom_approaches
+		icon = GFX_focus_generic_manpower
+		x = 21
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		available = { 
+			OR = { 
+				threat > 0.75 
+				has_war = yes 
+			}
+		}
+		prerequisite = { focus = caerus_democratic_fort  focus = caerus_prepare_for_the_worst  focus = caerus_home_defense  focus = caerus_join_the_bardonian_alliance  focus = caerus_join_the_aethos_forces  }
+		completion_reward = {
+			add_ideas = civil_defense
+		}
+	}
+
+	#Bardonian Support
+	focus = {
+		id = caerus_bardonian_support
+		icon = GFX_focus_generic_little_entente
+		x = 17
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = caerus_join_the_bardonian_alliance  }
+		completion_reward = {
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment
+				amount = 2500
+			}
+		}
+	}
+
+
+	#Aethos Aid
+	focus = {
+		id = caerus_aethos_aid
+		icon = GFX_generic_caerus_aethos_aid-645934
+		x = 25
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = caerus_join_the_aethos_forces  }
+		completion_reward = {
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment
+				amount = 500
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+}

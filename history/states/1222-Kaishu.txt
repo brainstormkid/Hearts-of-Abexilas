@@ -1,0 +1,16 @@
+state={
+	id=1222
+	name="STATE_1222"
+	provinces={
+		1062 1628 3167 3231 4785 4787 5841 6523 6950 6951 14871 14880 14895 14899 14911 14952 14962 14998 14999
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = DAR
+		buildings = {
+		}
+		add_core_of = DAR
+	}
+}

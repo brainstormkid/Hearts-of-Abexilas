@@ -1,0 +1,16 @@
+state={
+	id=1216
+	name="STATE_1216"
+	provinces={
+		319 1867 2293 5414 5736 11558 11583 11600 11624 11625 11628 11648
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = BRU
+		buildings = {
+		}
+		add_core_of = BRU
+	}
+}

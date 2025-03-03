@@ -2,9 +2,15 @@ state={
 	id=944
 	name="STATE_944"
 	provinces={
-		548 786 1287 2634 2883 3003 3470 4350 4869 5798 5887 6978 13581 13596 13608 13627 13643 13652 13653 13686 13691 13723 13738 13759 13760 13766 13796 13845 13855 13882 13922 13951 
+		3003 4350 5887 13581 13627 13723 13760 13766 
 	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
+	history={
+		owner = HWA
+		buildings = {
+		}
+		add_core_of = HWA
+	}
 }

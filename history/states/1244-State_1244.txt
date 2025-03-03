@@ -1,0 +1,33 @@
+state={
+	id=1244
+	name="STATE_1244" #Nabi
+	provinces={
+		1473 1910 2117 2473 4201 5035 7356 7394 7481 7487
+	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=1800000
+        state_category = large_town
+	history={
+		owner = TAA
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+			arms_factory = 1
+			4201 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = TAA
+		victory_points = { 4201 50 }
+		victory_points = { 1910 10 }
+		victory_points = { 7394 10 }
+	}
+}

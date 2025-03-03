@@ -1,0 +1,16 @@
+state={
+	id=682
+	name="STATE_682"
+	provinces={
+		825 1358 3889 4281 6019 11996 12013 12046 12047 12072 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = CRE
+		buildings = {
+		}
+		add_core_of = CRE
+	}
+}

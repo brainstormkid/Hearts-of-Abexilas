@@ -1,0 +1,28 @@
+state={
+	id=1242
+	name="STATE_1242"
+	provinces={
+		2254 2283 2475 2858 14666 14699 14740 14745 14766
+	}
+	buildings_max_level_factor=1.000
+        manpower=750000
+        state_category = rural
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	history={
+		owner = SUL
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SUL
+		victory_points = {
+			14740 5
+		}
+	}
+}

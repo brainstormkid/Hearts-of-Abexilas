@@ -42,9 +42,6 @@ leader_traits = {
         random = no
         sprite = 12
 		political_power_gain = 0.1
-		democratic_acceptance = +50
-		communism_acceptance = +50
-		democratic_drift = +0.01
 		improve_relations_maintain_cost_factor = -0.75
 		decryption_factor = 0.15
 		
@@ -53,5 +50,163 @@ leader_traits = {
             factor = 1
         }
     }
+	
+	
+	
+	### Generic Idea Traits ###
+	
+	accelerationist_free_thinker = {
+		random = no
+		# Boosts Accelerationism
+		sprite = 13
+		accelerationist_drift = 0.1
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	absolutist_supporter = {
+		random = no
+		# Boosts Absolutist
+		sprite = 13
+		absolutist_drift = 0.1
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	loyal_monarchist = {
+		random = no
+		# Boosts Monarchism
+		sprite = 13
+		monarchist_drift = 0.1
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	theocratist_priest = {
+		random = no
+		# Boosts Theocratism
+		sprite = 13
+		theocratist_drift = 0.1
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	anarchist_monger = {
+		random = no
+		# Boosts Anarchism
+		sprite = 13
+		anarchist_drift = 0.1
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	xeroist_revolutionary = {
+		random = no
+		# Boosts Xeroism
+		sprite = 13
+		xeroist_drift = 0.1
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	free_revisionist_thinker = {
+		random = no
+		# Boosts Revisionism
+		sprite = 13
+		revisionist_drift = 0.1
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	imperial_supporter = {
+		random = no
+		# Boosts Imperialism
+		sprite = 13
+		imperialist_drift = 0.1
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	radical_nationalist_demagogue = {
+		random = no
+		# Boosts Radical Nationalism
+		sprite = 13
+		radical_nationalist_drift = 0.1
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	liberatarianist_reformer = {
+		random = no
+		# Boosts Liberatarianism
+		sprite = 13
+		libertarianist_drift = 0.1
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	central_thinker = {
+		random = no
+		# Boosts Centrism
+		sprite = 13
+		centrist_drift = 0.1
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	liberal_minded = {
+		random = no
+		# Boosts Liberalism
+		sprite = 13
+		liberalist_drift = 0.1
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	progressivist_reviver = {
+		random = no
+		# Boosts Progressivism
+		sprite = 13
+		progressivist_drift = 0.1
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	consveratist_statist = {
+		random = no
+		# Boosts Conservatism
+		sprite = 13
+		conservatist_drift = 0.1
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
 
 }

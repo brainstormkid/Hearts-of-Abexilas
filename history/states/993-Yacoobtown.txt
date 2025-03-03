@@ -2,15 +2,33 @@ state={
 	id=993
 	name="STATE_993"
 	provinces={
-		407 701 909 1161 1976 3083 4145 14079 14098 14116 14123 14204 14212 14247 14276 14285 14317 
+		22 597 701 2482 3083 3307 4145 4294 5418 14029 14092 14131 14186
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=2850000
+        state_category = metropolis
 	history={
 		owner = YIM
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = YIM
+		victory_points = {
+			14186 20
+		}
+		victory_points = {
+			14092 5
+		}
 	}
 }

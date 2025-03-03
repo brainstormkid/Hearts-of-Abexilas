@@ -2,15 +2,25 @@ state={
 	id=1154
 	name="STATE_1154"
 	provinces={
-		142 4026
+		142 4026 9110 9177 9182
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1350000
+        state_category = pastoral
 	history={
 		owner = KAS
 		buildings = {
+			infrastructure = 1
 		}
 		add_core_of = KAS
+		victory_points = { 4026 20 }
 	}
 }

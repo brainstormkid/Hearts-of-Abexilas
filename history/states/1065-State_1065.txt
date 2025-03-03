@@ -5,8 +5,8 @@ state={
 		1896 14535 14572 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1050000
+        state_category = city
 	history={
 		owner = ALT
 		buildings = {

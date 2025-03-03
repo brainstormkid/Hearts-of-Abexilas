@@ -1,0 +1,64 @@
+###################################
+# Paraiso Events
+###################################
+
+add_namespace = paraiso
+
+#Time To Make A Deal
+country_event = {
+	id = Paraiso.1
+	title = "To Make A Deal"
+	desc = par_make_a_deal.1.t
+	picture = GFX_akashiro_event_1
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = { days = 10 }
+	option = {
+		name = "Make A Deal"
+        ai_chance = { factor = 50 }
+        unlock_national_focus = PAR_call_saiko
+		   { 409 = { transfer_state_to = PAR }
+			}
+    }
+    option = {
+        name = "Bite Our Time"
+        ai_chance = { factor = 50 }
+        unlock_national_focus = 
+		    add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = 
+		    }
+        add_political_power = 50
+    }
+}
+
+#Test event / template
+country_event = {
+	id = akashiro.2
+	title = "The Question of Whiskey Island"
+	desc = aks_whiskey.1.d
+	picture = GFX_news_event_004
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = { days = 10 }
+	option = {
+		name = "Transfer Whiskey Island"
+        ai_chance = { factor = 40 }
+        VIR = { transfer_state = 977 }
+        add_political_power = 50
+        AKS = { add_opinion_modifier = { target = VIR modifier = huge_increase} 
+        VIR = { add_opinion_modifier = { target = AKS modifier = huge_increase} 
+        }
+    }
+}
+    option = {
+        name = "Keep Ownership of Whiskey Island"
+        ai_chance = { factor = 60 }
+        add_political_power = -10
+        VIR = { add_opinion_modifier = { target = AKS modifier = medium_decrease} 
+        }
+    }
+}

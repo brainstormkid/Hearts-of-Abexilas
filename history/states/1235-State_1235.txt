@@ -1,0 +1,16 @@
+state={
+	id=1235
+	name="STATE_1235"
+	provinces={
+		6837 14010 14016 14052
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = AKS
+		buildings = {
+		}
+		add_core_of = AKS
+	}
+}

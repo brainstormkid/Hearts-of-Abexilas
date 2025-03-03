@@ -1,0 +1,32 @@
+state={
+	id=83
+	name="STATE_83"
+	provinces={
+		2003 4293 6031 7590 7629 7683 7729 7777 
+	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=3600000
+        state_category = megalopolis
+	history={
+		owner = KRA
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 4
+			arms_factory = 2
+			dockyard = 1
+			7629 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = KRA
+		victory_points = { 6031 30 }
+	}
+}

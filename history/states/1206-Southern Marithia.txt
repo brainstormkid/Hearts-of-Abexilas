@@ -1,0 +1,16 @@
+state={
+	id=1206
+	name="STATE_1206"
+	provinces={
+		920 4298 12986 
+	}
+	buildings_max_level_factor=1.000
+        manpower = 1
+        state_category = large_town
+	history={
+		owner = SAK
+		buildings = {
+		}
+		add_core_of = SAK
+	}
+}

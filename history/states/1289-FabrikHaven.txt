@@ -1,0 +1,30 @@
+state={
+	id=1289
+	name="STATE_1289"
+	provinces={
+		2333 4898 6611 13918 13968 14017 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+		manpower=2400000
+		state_category = city
+	history={
+		owner = LED
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 1
+			}
+		}
+		add_core_of = LED
+		victory_points = { 6611 10 }
+	}
+}

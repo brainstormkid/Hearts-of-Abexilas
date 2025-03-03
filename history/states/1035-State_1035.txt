@@ -4,7 +4,31 @@ state={
 	provinces={
 		485 528 567 777 1259 1737 2518 2528 2551 2615 2822 3024 3034 3192 3201 3507 3764 3876 4250 4841 5014 5167 5956 6120 6152 6389 6401 14352 14353 14384 14393 14414 14421 14425 14459 14464 14471 14472 14477 14488 14505 14513 14522 14555 14566 14588 14635 14650 14663 14664 14686 14716 
 	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=6150000
+        state_category = megalopolis
+	history={
+		owner = AET
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 4
+			arms_factory = 2
+			dockyard = 1
+			4841 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = AET
+		victory_points = { 4841 50 }
+		victory_points = { 1259 10 }
+		victory_points = { 14635 10 }
+	}
 }

@@ -64,8 +64,29 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
+		name = "2nd Kaddian Guards"
+		location = 15226
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
 		name = "1st Kaddian Calvary"
 		location = 10711
+		division_template = "Calvary Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Kaddian Calvary"
+		location = 4456
+		division_template = "Calvary Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Kaddian Calvary"
+		location = 2153
 		division_template = "Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0

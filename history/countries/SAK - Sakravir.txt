@@ -1,0 +1,110 @@
+capital = 1207
+
+set_research_slots = 3
+set_stability = 0.60
+set_war_support = 0.20
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+}
+
+# Leaders
+#recruit_character = SAK_fechera
+
+# Generals
+#recruit_character = AKS_oshotty
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		basic_depth_charges = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		improved_airplane_launcher = 1
+		basic_dp_light_battery = 1
+	}
+}
+
+add_ideas = {
+	#the_ancestral_clans
+}
+
+oob = "SAK"
+
+set_politics = {
+	ruling_party = monarchist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	absolutist = 10
+    monarchist = 60
+    theocratist = 0
+    accelerationist = 0
+
+    anarchist = 0
+    xeroist = 0
+    radical_socialist = 0
+    revisionist = 0
+
+    libertarianist = 0
+    centrist = 0
+    liberalist = 5
+    progressivist = 0
+    conservatist = 5
+
+    imperialist = 10
+    radical_nationalist = 10
+
+}
+create_country_leader = {
+	name = "Prîmána Fechera I"
+	desc = "POLITICS_GNOME_DESC"
+	#picture = "gfx/leaders/SAK/Gnome.dds"
+	expire = "1965.1.1"
+	ideology = monarchist_subtype
+	traits = {
+		inexperienced_monarch
+        the_sacred_king
+	}
+}
+
+set_convoys = 80
+
+# DIPLOMACY

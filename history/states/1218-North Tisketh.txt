@@ -1,0 +1,35 @@
+state={
+	id=1218
+	name="STATE_1218"
+	provinces={
+		689 1032 3323 3466 3763 15082 15083 15119 15135 15183
+	}
+	buildings_max_level_factor=1.000
+        manpower=1200000
+        state_category = town
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	history={
+		owner = FSK
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			3466 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = FSK
+		victory_points = {
+			3466 50
+		}
+		victory_points = {
+			3323 5
+		}
+	}
+}

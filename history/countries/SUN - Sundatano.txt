@@ -1,22 +1,74 @@
-﻿capital = 1
+﻿capital = 12916
 
 set_politics = {
-	ruling_party = absolutist
+	ruling_party = centrist
 	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
+	election_frequency = 50
+	elections_allowed = yes
 }
 set_popularities = {
-	absolutist = 100
+	absolutist = 0
+    monarchist = 0
+    theocratist = 0
+    accelerationist = 0
+
+    anarchist = 0
+    xeroist = 0
+    radical_socialist = 0
+    revisionist = 0
+
+    libertarianist = 0
+    centrist = 38.5
+    liberalist = 38.5
+    progressivist = 0
+    conservatist = 0
+
+    imperialist = 0
+    radical_nationalist = 23
 }
 
 create_country_leader = {
-	name = "?"
-	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/AEZ/Panda.dds"
+	name = "Tigiyuto Akashiro"
+	desc = "POLITICS_TIGIYUTO_DESC"
+	picture = "gfx/leaders/AKS/Tigiyuto.dds"
 	expire = "1965.1.1"
-	ideology = absolutist_subtype
+	ideology = centrist_subtype
 	traits = {
-		#
+		backed_by_political_coalition
+		man_of_the_nation
+	}
+}
+create_country_leader = {
+	name = "José C. Delserre"
+	desc = "POLITICS_TIGIYUTO_DESC"
+	picture = "gfx/leaders/AKS/Pablito.dds"
+	expire = "1965.1.1"
+	ideology = liberalist_subtype
+	traits = {
+		backed_by_political_coalition
+		white_liberal
+	}
+}
+create_country_leader = {
+	name = "MrFootballG78"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "gfx/leaders/AKS/MrFootball.dds"
+	expire = "1965.1.1"
+	ideology = radical_nationalist_subtype
+	traits = {
+		conservative_nationalist
+		defeatist
+	}
+}
+create_country_leader = {
+	name = "Akira Akashiro"
+	desc = "POLITICS_AKIRA_DESC"
+	picture = "gfx/leaders/AKS/Akira.dds"
+	expire = "1965.1.1"
+	ideology = theocratist_subtype
+	traits = {
+		man_of_the_nation
+		national_integralist
+		political_dancer
 	}
 }

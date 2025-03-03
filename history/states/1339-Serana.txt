@@ -1,0 +1,16 @@
+state={
+	id=1339
+	name="STATE_1339"
+	provinces={
+		2192 3233 9193 9214 9265
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = BRA
+		buildings = {
+		}
+		add_core_of = BRA
+	}
+}

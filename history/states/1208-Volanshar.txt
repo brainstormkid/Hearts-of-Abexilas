@@ -1,0 +1,43 @@
+state={
+	id=1208
+	name="STATE_1208"
+	provinces={
+		775 1099 2153 4456 4873 6670 15108 15120 15165 15184 15226 15260 15276 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=3900000
+        state_category = city
+	history={
+		owner = KAD
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			15226 = {
+				naval_base = 2
+			}
+			1099 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = KAD
+		victory_points = {
+			15226 20
+		}
+		victory_points = {
+			4456 10
+		}
+		victory_points = {
+			2153 10
+		}
+	}
+}

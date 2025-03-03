@@ -1,0 +1,16 @@
+state={
+	id=1304
+	name="STATE_1304"
+	provinces={
+		790 1255 1283 1299 1400 1824 2127 2606 2612 2969 3651 4171 4769 5129 5249 5537 5784 5991 6157 6458 6511 6682 6789 6815 8737 8761 8893 8924 8963 8964 8996 9015 9071 9125 9153 9164 9169 9195 9257
+	}
+	buildings_max_level_factor=1.000
+		manpower=1
+		state_category = town
+	history={
+		owner = NAL
+		buildings = {
+		}
+		add_core_of = NAL
+	}
+}

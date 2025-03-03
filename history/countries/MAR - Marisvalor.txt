@@ -2,6 +2,46 @@
 
 oob = "MAR"
 
+create_equipment_variant = {
+	name = "Heavy Class"
+	type = ship_hull_heavy_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_heavy_battery_1
+		fixed_ship_anti_air_slot = empty
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_bb_1
+		front_1_custom_slot = empty
+		mid_1_custom_slot = empty
+		mid_2_custom_slot = ship_secondaries_1
+		rear_1_custom_slot = ship_heavy_battery_1
+	}
+}
+
+create_equipment_variant = {
+	name = "Brig-sloop Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_anti_air_slot = empty
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		mid_1_custom_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_depth_charge_1
+	}
+}
+
+set_technology = {
+	early_battleship = 1
+	early_destroyer = 1
+}
+
 set_politics = {
 	ruling_party = absolutist
 	last_election = "1936.1.1"
@@ -13,9 +53,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "?"
+	name = "Klovün Harpenük-Merisvela"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/AEZ/Panda.dds"
+	picture = "gfx/leaders/MAR/eins.dds"
 	expire = "1965.1.1"
 	ideology = absolutist_subtype
 	traits = {

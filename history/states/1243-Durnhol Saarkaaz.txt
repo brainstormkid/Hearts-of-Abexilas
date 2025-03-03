@@ -1,0 +1,31 @@
+state={
+	id=1243
+	name="STATE_1243"
+	provinces={
+		976 4534 5511 14729
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=2250000
+        state_category = city
+	history={
+		owner = DWA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+		}
+		add_core_of = DWA
+		victory_points = {
+			5511 50
+		}
+	}
+}

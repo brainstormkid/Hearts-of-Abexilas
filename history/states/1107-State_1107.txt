@@ -2,9 +2,15 @@ state={
 	id=1107
 	name="STATE_1107"
 	provinces={
-		15348 
+		 2080 2265 2359 3050 3379 3546 4488 4509 4520 5647 6379 6592 6689 8923 8942 8971 9004 9066 9067 9115 9120 9150 9151 9155
 	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
+	history={
+		owner = OSE
+		buildings = {
+		}
+		add_core_of = OSE
+	}
 }

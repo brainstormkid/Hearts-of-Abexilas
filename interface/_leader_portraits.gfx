@@ -222,9 +222,29 @@ spriteTypes = {
 		texturefile = "gfx/leaders/LUT/starlord"
 	}
 
+	### AKS
+	spriteType = {
+		name = "GFX_portrait_AKS_tsukikage"
+		texturefile = "gfx/leaders/AKS/Tsukikage.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AKS_akira"
+		texturefile = "gfx/leaders/AKS/Akira.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AKS_drink"
+		texturefile = "gfx/leaders/AKS/Drink.dds"
+	}
+
 	### EJZ
 	spriteType = {
 		name = "GFX_portrait_EJZ_gustav_ejznhjart_large"
 		texturefile = "gfx/leaders/EJZ/portrait_large_gustav_ejznhjart.dds"
+	}
+	
+	### VEA	
+	spriteType = {
+		name = "GFX_portrait_VEA_zeno_small"
+		texturefile = "GFX/interface/ideas/idea_VEA_zeno_small.dds"
 	}
 }

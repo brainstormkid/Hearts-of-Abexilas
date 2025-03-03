@@ -6,9 +6,163 @@ bookmarks = {
 		picture = "GFX_select_date_HALINN"
 		default_country = "GER"
 		default = yes
+		
+		########
+		#Majors#
+		########
+
+		AKS = {
+			history = AKS_DESC
+			ideology = monarchist
+			ideas={
+				aks_high_inflation
+				remnants_of_muho_jidai
+				the_ancestral_clans
+			}
+			focuses = {
+				AKS_empower_the_morimoto_clan
+				AKS_restrict_the_morimoto_clan
+				AKS_the_question_of_yuntsau
+			}
+		}
+		
+		SAK = {
+			history = SAK_DESC
+			ideology = monarchist
+			ideas={
+
+			}
+			focuses = {
+				
+			}
+		}
+		
+		VIR = {
+			history = VIR_DESC
+			ideology = monarchist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		ACR = {
+			history = ACR_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		REN = {
+			history = REN_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		YNQ = {
+			history = YNQ_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		AZU = {
+			history = AZU_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
 		}
 
 		"---"={
-			history = "OTHER_DESC"
+        	history = "OTHER_DESC"
+        }
+
+		########
+		#Minors#
+		########
+
+		TAR={
+			minor = yes
+			history = "TAR_DESC"
+			ideology = absolutist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
 		}
+		
+		ALT={
+			minor = yes
+			history = "ALT_DESC"
+			ideology = absolutist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		ART={
+			minor = yes
+			history = "ART_DESC"
+			ideology = absolutist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		MYR={
+			minor = yes
+			history = "MYR_DESC"
+			ideology = monarchist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		SYL={
+			minor = yes
+			history = "SYL_DESC"
+			ideology = absolutist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
 }

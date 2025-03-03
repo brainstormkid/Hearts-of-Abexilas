@@ -1,0 +1,26 @@
+state={
+	id=1254
+	name="STATE_1254" #Rosewald
+	provinces={
+		509 4345 4527 6651 11393 11531 11533 11541
+	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=150000
+        state_category = enclave
+	history={
+		owner = BAR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BAR
+		victory_points = { 4345 5 }
+	}
+}

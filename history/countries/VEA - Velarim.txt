@@ -2,28 +2,39 @@
 
 oob = "VEA"
 
+recruit_character = VEA_zeno
+
 add_ideas = {
 	volunteer_only
 	Cathramis_Continental_Member
+	free_trade
 }
 
 set_politics = {
-	ruling_party = absolutist
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
+	ruling_party = liberalist
+	last_election = "1.1.1"
+	election_frequency = 18
+	elections_allowed = yes
 }
 set_popularities = {
-	absolutist = 100
+	liberalist = 60
+	centrist = 40
 }
 
 create_country_leader = {
-	name = "?"
-	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/AEZ/Panda.dds"
+	name = "Vivian Peret"
+	desc = "POLITICS_VIVIAN_PERET_DESC"
+	picture = "gfx/leaders/VEA/vivian.dds"
 	expire = "1965.1.1"
-	ideology = absolutist_subtype
+	ideology = liberalist_subtype
 	traits = {
-		#
+		Liberal_Democratic_Paragon
+		Tenacious_Negotiator
+		Dealbroker
 	}
 }
+
+set_stability = 0.85
+set_war_support = 0.20
+
+set_convoys = 35

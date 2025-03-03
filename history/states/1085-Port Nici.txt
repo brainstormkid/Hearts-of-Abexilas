@@ -1,0 +1,16 @@
+state={
+	id=1085
+	name="STATE_1085"
+	provinces={
+		221 4256 6464 14753 14806 14841 14842 14918 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+	history={
+		owner = MIA
+		buildings = {
+		}
+		add_core_of = MIA
+	}
+}

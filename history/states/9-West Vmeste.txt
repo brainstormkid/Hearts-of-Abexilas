@@ -1,0 +1,28 @@
+state={
+	id=9
+	name="STATE_9"
+	provinces={
+		1016 2434 3124 5173 5247 5263 7051 7052 7053 7130 7171 7249 7272 
+	}
+	resources = {
+	    oil = 2
+	    aluminium = 2
+	    steel = 3
+	    rubber = 2
+	    tungsten = 1
+	    chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=3000000
+        state_category = town
+	history={
+		owner = KRA
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+		}
+		add_core_of = KRA
+		victory_points = { 3124 5 }
+		victory_points = { 5263 20 }
+	}
+}

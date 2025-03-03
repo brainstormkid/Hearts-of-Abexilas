@@ -58,3 +58,5 @@ set_autonomy = {
 	target = VEL
 	autonomous_state = autonomy_puppet
 }
+
+set_convoys = 55
