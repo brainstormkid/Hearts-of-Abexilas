@@ -13,7 +13,7 @@ state={
 		chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=9750000
+        manpower=11400000
         state_category = megalopolis
 	history={
 		owner = LED
@@ -21,9 +21,14 @@ state={
 			infrastructure = 4
 			industrial_complex = 3
 			arms_factory = 2
-			}
 		}
 		add_core_of = LED
-		victory_points = { 782 10 }
+		victory_points = { 3340 20 }
+		victory_points = { 858 20 }
+		victory_points = { 13220 10 }
+		victory_points = { 13050 5 }
+		victory_points = { 13112 5 }
+		victory_points = { 6753 5 }
+		victory_points = { 13286 5 }
 	}
 }

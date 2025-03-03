@@ -13,7 +13,7 @@ state={
 		chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=10800000
+        manpower=6300000
         state_category = metropolis
 	history={
 		owner = LED
@@ -22,9 +22,9 @@ state={
 			industrial_complex = 2
 			arms_factory = 3
 			dockyard = 1
-			}
 		}
 		add_core_of = LED
-		victory_points = { 13499 10 }
+		victory_points = { 13499 50 }
+		victory_points = { 4771 5 }
 	}
 }

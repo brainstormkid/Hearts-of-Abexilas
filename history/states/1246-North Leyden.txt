@@ -13,7 +13,7 @@ state={
 		chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=300000
+        manpower=750000
         state_category = rural
 	history={
 		owner = LED
@@ -21,9 +21,8 @@ state={
 			infrastructure = 3
 			industrial_complex = 2
 			arms_factory = 1
-			}
 		}
 		add_core_of = LED
-		victory_points = { 13363 10 }
+		victory_points = { 13363 5 }
 	}
 }
