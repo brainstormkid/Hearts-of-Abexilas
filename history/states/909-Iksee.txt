@@ -4,14 +4,27 @@ state={
 	provinces={
 		473 707 1426 2900 3907 4164 4265 4438 5998 6140 6256 6266 6451 6792 13635 13676 13685 13702 13706 13727 13728 13732 13736 13753 13754 13755 13770 13794 13795 13810 13854 13886 
 	}
-	manpower=1
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	manpower=13800000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=megalopolis
 	local_supplies=0.000
 	history={
 		owner = LED
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 2
+			}
 		}
 		add_core_of = LED
+		victory_points = { 13732 10 }
 	}
 }
