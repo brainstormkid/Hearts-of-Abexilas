@@ -1,0 +1,29 @@
+state={
+	id=718
+	name="STATE_718"
+	provinces={
+		1024 3314 3560 5590 6020 12235 12269 12279 
+	}
+	buildings_max_level_factor=1.000
+        manpower=5550000
+        state_category = city
+	history={
+		owner = TET
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			12235 = {
+				naval_base = 3
+			}
+			3560 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = TET
+		victory_points = {
+			3314 50
+		}
+	}
+}
