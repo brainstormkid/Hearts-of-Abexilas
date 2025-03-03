@@ -823,6 +823,9 @@
  KAS_absolutist:1 "Federal Republic of Kassylia"
  KAS_absolutist_DEF:1 "the Federal Republic of Kassylia"
  KAS_absolutist_ADJ:0 "Kassylian"
+ KAS_conservatist:1 "Republic of Kassylia"
+ KAS_conservatist_DEF:1 "the Republic of Kassylia"
+ KAS_conservatist_ADJ:0 "Kassylian"
  
  KAT_absolutist:1 "Union of Kasmiteia"
  KAT_absolutist_DEF:1 "the Union of Kasmiteia"
