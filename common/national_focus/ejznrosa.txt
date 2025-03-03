@@ -1,0 +1,1896 @@
+focus_tree = {
+	id = ejznrosa-focus_tree
+	continuous_focus_position = { x = -40 y = 3260 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = EJZ
+		}
+	}
+	#Continue Feudalism
+	focus = {
+		id = EJZ_continue_feudalism
+		icon = GFX_goal_unknown
+		x = 13
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_increasethedukespopularity  }
+		mutually_exclusive = { focus = EJZ_begin_local_elections  }
+	}
+
+	#Militarist in Power
+	focus = {
+		id = EJZ_militarist_in_power
+		icon = GFX_EJZ_militarist_in_power-262024
+		x = 20
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_slander_the_duke  }
+	}
+
+	#Eliminate Monarchist Sentiments
+	focus = {
+		id = EJZ_eliminate_monarchist_sentiments
+		icon = GFX_focus_rom_handle_king
+		x = 20
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_militarist_in_power  }
+	}
+
+	#Autarky
+	focus = {
+		id = EJZ_autarky
+		icon = GFX_goal_generic_military_sphere
+		x = 19
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_militarist_in_power  focus = EJZ_monarchnationalist_coalition  }
+	}
+
+	#Crush Opposition
+	focus = {
+		id = EJZ_crush_opposition
+		icon = GFX_focus_spr_crush_the_revolution
+		x = 22
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = EJZ_militarist_in_power  }
+	}
+
+	#Ejznrosii War Economy
+	focus = {
+		id = EJZ_ejznrosii_war_economy
+		icon = GFX_focus_RAJ_lions_of_the_great_war
+		x = 20
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_consolidate_our_power  focus = EJZ_autarky  }
+	}
+
+	#United and Strong
+	focus = {
+		id = EJZ_united_and_strong
+		icon = GFX_focus_hol_united_netherlands
+		x = 17
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = EJZ_utilizethedukespopularity  }
+		mutually_exclusive = { focus = EJZ_continue_feudalism  }
+	}
+
+	#Rapid Moblization
+	focus = {
+		id = EJZ_rapid_moblization
+		icon = GFX_EJZ_rapid_moblization-645951
+		x = 21
+		y = 17
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = EJZ_ejznrosii_war_economy  }
+	}
+
+	#Consolidate Our Power
+	focus = {
+		id = EJZ_consolidate_our_power
+		icon = GFX_focus_generic_manpower
+		x = 21
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = EJZ_crush_opposition  } prerequisite = { focus = EJZ_eliminate_monarchist_sentiments  }
+	}
+
+	#Food for the Population
+	focus = {
+		id = EJZ_food_for_the_population
+		icon = GFX_focus_hol_abandon_the_gold_standard
+		x = 19
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = EJZ_production_ministry  }
+	}
+
+	#Peace and Prosperity
+	focus = {
+		id = EJZ_peace_and_prosperity
+		icon = GFX_goal_generic_major_alliance
+		x = 10
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = EJZ_begin_local_elections  }
+	}
+
+	#A True Democracy
+	focus = {
+		id = EJZ_a_true_democracy
+		icon = GFX_EJZ_a_true_democracy-427
+		x = 10
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_return_to_democracy  }
+		mutually_exclusive = { focus = EJZ_constitutional_monarchy  }
+	}
+
+	#Democratic Cabinet
+	focus = {
+		id = EJZ_democratic_cabinet
+		icon = GFX_EJZ_democratic_cabinet-427
+		x = 10
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_a_true_democracy  }
+	}
+
+	#Increase the Duke's Popularity
+	focus = {
+		id = EJZ_increasethedukespopularity
+		icon = GFX_focus_generic_monarchy_2
+		x = 13
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = EJZ_karl_av_ejznhjart  }
+	}
+
+	#Sway the People
+	focus = {
+		id = EJZ_sway_the_people
+		icon = GFX_goal_unknown
+		x = 12
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = EJZ_alleviate_the_homeless_problem  focus = EJZ_improve_civilian_industries  focus = EJZ_increasethedukespopularity  }
+	}
+
+	#Constitutional Monarchy
+	focus = {
+		id = EJZ_constitutional_monarchy
+		icon = GFX_focus_generic_monarchy_2
+		x = 13
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_return_to_democracy  }
+	}
+
+	#Royal Research Development
+	focus = {
+		id = EJZ_royal_research_development
+		icon = GFX_focus_research2
+		x = 15
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = EJZ_royal_arms_contract  }
+	}
+
+	#Slander the Duke
+	focus = {
+		id = EJZ_slander_the_duke
+		icon = GFX_EJZ_slander_the_duke-646130
+		x = 20
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_undermine_the_duke  }
+	}
+
+	#Royal Arms Contract
+	focus = {
+		id = EJZ_royal_arms_contract
+		icon = GFX_EJZ_royal_arms_contract-645755
+		x = 15
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = EJZ_royal_infrastructure_investment  }
+	}
+
+	#Utilize the Duke's Popularity
+	focus = {
+		id = EJZ_utilizethedukespopularity
+		icon = GFX_goal_unknown
+		x = 17
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = EJZ_gustav_gustavsen_ii_av_ejznhjart  } prerequisite = { focus = EJZ_monarchnationalist_coalition  }
+	}
+
+	#Monarch-Nationalist Coalition
+	focus = {
+		id = EJZ_monarchnationalist_coalition
+		icon = GFX_goal_unknown
+		x = 18
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_compromise_with_the_monarchists  }
+	}
+
+	#Undermine the Duke
+	focus = {
+		id = EJZ_undermine_the_duke
+		icon = GFX_EJZ_undermine_the_duke-646353
+		x = 19
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_rally_the_nationalists  }
+		mutually_exclusive = { focus = EJZ_compromise_with_the_monarchists  }
+	}
+
+	#Compromise with the Monarchists
+	focus = {
+		id = EJZ_compromise_with_the_monarchists
+		icon = GFX_focus_spa_no_compromise_on_carlist_ideals
+		x = 17
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_rally_the_nationalists  }
+	}
+
+	#Royal Infrastructure Investment
+	focus = {
+		id = EJZ_royal_infrastructure_investment
+		icon = GFX_focus_rom_royal_dictatorship
+		x = 15
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_gustav_gustavsen_ii_av_ejznhjart  focus = EJZ_karl_av_ejznhjart  }
+	}
+
+	#Beyond our Borders
+	focus = {
+		id = EJZ_beyond_our_borders
+		icon = GFX_goal_unknown
+		x = 17
+		y = 17
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_continue_feudalism  focus = EJZ_united_and_strong  }
+		mutually_exclusive = { focus = EJZ_preservation_of_the_nation  }
+	}
+
+	#Preservation of the Nation
+	focus = {
+		id = EJZ_preservation_of_the_nation
+		icon = GFX_goal_unknown
+		x = 13
+		y = 17
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_peace_and_prosperity  focus = EJZ_continue_feudalism  }
+	}
+
+	#Gustav Gustavsen II av Ejznhjart
+	focus = {
+		id = EJZ_gustav_gustavsen_ii_av_ejznhjart
+		icon = GFX_goal_unknown
+		x = 16
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_rally_around_the_duke  focus = EJZ_compromise_with_the_monarchists  }
+		mutually_exclusive = { focus = EJZ_karl_av_ejznhjart  }
+	}
+
+	#Karl Av Ejznhjart
+	focus = {
+		id = EJZ_karl_av_ejznhjart
+		icon = GFX_goal_unknown
+		x = 14
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_rally_around_the_duke  focus = EJZ_constitutional_monarchy  }
+	}
+
+	#Rykspakt
+	focus = {
+		id = EJZ_rykspakt
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 18
+		y = 22
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_grouskajzerryk_av_ejznrosa  }
+	}
+
+	#Alleviate the Homeless Problem
+	focus = {
+		id = EJZ_alleviate_the_homeless_problem
+		icon = GFX_EJZ_alleviate_the_homeless_problem-646314
+		x = 11
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = EJZ_democratic_cabinet  focus = EJZ_karl_av_ejznhjart  }
+	}
+
+	#Invade the Island Nations
+	focus = {
+		id = EJZ_invade_the_island_nations
+		icon = GFX_goal_generic_major_war
+		x = 17
+		y = 20
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_demandlirionincorporation  focus = EJZ_demand_favei_clarvet_annexation  }
+	}
+
+	#Attack Aeternus
+	focus = {
+		id = EJZ_attack_aeternus
+		icon = GFX_goal_generic_major_war
+		x = 18
+		y = 19
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_demandlirionincorporation  focus = EJZ_demand_favei_clarvet_annexation  }
+	}
+
+	#A New Era
+	focus = {
+		id = EJZ_a_new_era
+		icon = GFX_EJZ_a_new_era
+		x = 13
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Spread the Revolution
+	focus = {
+		id = EJZ_spread_the_revolution
+		icon = GFX_EJZ_spread_the_revolution-88
+		x = 6
+		y = 18
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_planned_economy  } prerequisite = { focus = EJZ_seek_international_recognition  }
+	}
+
+	#Drafting the Constitution
+	focus = {
+		id = EJZ_drafting_the_constitution
+		icon = GFX_focus_generic_treaty
+		x = 13
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = EJZ_thedukesgovernment  }
+	}
+
+	#Deciding our course
+	focus = {
+		id = EJZ_deciding_our_course
+		icon = GFX_focus_generic_support_the_left_right
+		x = 13
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_the_senate  }
+	}
+
+	#The Duke's Government
+	focus = {
+		id = EJZ_thedukesgovernment
+		icon = GFX_EJZ_thedukesgovernment-645471
+		x = 13
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_a_new_era  }
+	}
+
+	#Anti-Tank Research
+	focus = {
+		id = EJZ_antitank_research
+		icon = GFX_goal_generic_army_artillery2
+		x = 33
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = EJZ_on_the_offensive  }
+	}
+
+	#Ensure Stability in the Region
+	focus = {
+		id = EJZ_ensure_stability_in_the_region
+		icon = GFX_goal_generic_defence
+		x = 5
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = EJZ_affirm_our_neutrality  }
+	}
+
+	#Protect Flanderia
+	focus = {
+		id = EJZ_protect_flanderia
+		icon = GFX_EJZ_protect_flanderia-750811
+		x = 10
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_looking_outwards  }
+	}
+
+	#Organize the Ministers
+	focus = {
+		id = EJZ_organize_the_ministers
+		icon = GFX_goal_unknown
+		x = 26
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_thedukesgovernment  }
+	}
+
+	#Construction Ministry
+	focus = {
+		id = EJZ_construction_ministry
+		icon = GFX_goal_generic_construct_civilian
+		x = 27
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_organize_the_ministers  }
+	}
+
+	#Mountain Mining Operations
+	focus = {
+		id = EJZ_mountain_mining_operations
+		icon = GFX_focus_GRE_a_land_of_mountains
+		x = 20
+		y = 5
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_production_ministry  }
+	}
+
+	#Urbanization
+	focus = {
+		id = EJZ_urbanization
+		icon = GFX_EJZ_urbanization-646355
+		x = 26
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_construction_ministry  }
+	}
+
+	#Production Ministry
+	focus = {
+		id = EJZ_production_ministry
+		icon = GFX_goal_generic_construction2
+		x = 20
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_organize_the_ministers  }
+	}
+
+	#Ejznrosii Task System
+	focus = {
+		id = EJZ_ejznrosii_task_system
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 23
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_urbanization  } prerequisite = { focus = EJZ_mountain_mining_operations  } prerequisite = { focus = EJZ_manage_national_capital  }
+	}
+
+	#Extensive City Planning
+	focus = {
+		id = EJZ_extensive_city_planning
+		icon = GFX_EJZ_extensive_city_planning-750858
+		x = 21
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_ejznrosii_task_system  }
+	}
+
+	#The Senate
+	focus = {
+		id = EJZ_the_senate
+		icon = GFX_EJZ_the_senate-750861
+		x = 13
+		y = 8
+		cost = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_extensive_city_planning  } prerequisite = { focus = EJZ_secure_our_nation  } prerequisite = { focus = EJZ_bolster_nationalism  }
+	}
+
+	#Economy Ministry
+	focus = {
+		id = EJZ_economy_ministry
+		icon = GFX_EJZ_economy_ministry-645670
+		x = 25
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_organize_the_ministers  }
+	}
+
+	#Manage National Capital
+	focus = {
+		id = EJZ_manage_national_capital
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 23
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_economy_ministry  }
+	}
+
+	#Defense Ministry
+	focus = {
+		id = EJZ_defense_ministry
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 30
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_organize_the_ministers  }
+	}
+
+	#Construct Military Industries
+	focus = {
+		id = EJZ_construct_military_industries
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 29
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_construction_ministry  } prerequisite = { focus = EJZ_defense_ministry  }
+	}
+
+	#Increase Defense Budget
+	focus = {
+		id = EJZ_increase_defense_budget
+		icon = GFX_EJZ_increase_defense_budget-646377
+		x = 31
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_defense_ministry  }
+	}
+
+	#Government Arms Contract
+	focus = {
+		id = EJZ_government_arms_contract
+		icon = GFX_goal_generic_small_arms
+		x = 28
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_construct_military_industries  }
+	}
+
+	#Recruitment Ministry
+	focus = {
+		id = EJZ_recruitment_ministry
+		icon = GFX_focus_generic_manpower
+		x = 34
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = EJZ_organize_the_ministers  }
+	}
+
+	#Desperate Measures
+	focus = {
+		id = EJZ_desperate_measures
+		icon = GFX_EJZ_desperate_measures-645990
+		x = 35
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = EJZ_recruitment_ministry  }
+	}
+
+	#Army Modernization
+	focus = {
+		id = EJZ_army_modernization
+		icon = GFX_focus_chi_army_reform
+		x = 32
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = EJZ_increase_defense_budget  } prerequisite = { focus = EJZ_begin_conscription  }
+	}
+
+	#Artillery Focus
+	focus = {
+		id = EJZ_artillery_focus
+		icon = GFX_goal_generic_army_artillery2
+		x = 35
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = EJZ_army_modernization  }
+	}
+
+	#Equipment Focus
+	focus = {
+		id = EJZ_equipment_focus
+		icon = GFX_goal_generic_small_arms
+		x = 28
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = EJZ_government_arms_contract  }
+	}
+
+	#Ejznrosii Military Academy
+	focus = {
+		id = EJZ_ejznrosii_military_academy
+		icon = GFX_focus_generic_military_academy
+		x = 32
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = EJZ_offensive_doctrine  focus = EJZ_defensive_doctrine  }
+	}
+
+	#Civilian Focus
+	focus = {
+		id = EJZ_civilian_focus
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 25
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_invest_in_civilian_industries  }
+	}
+
+	#Military Focus
+	focus = {
+		id = EJZ_military_focus
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 27
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_government_arms_contract  }
+		mutually_exclusive = { focus = EJZ_civilian_focus  }
+	}
+
+	#Wokark Canal Works
+	focus = {
+		id = EJZ_wokark_canal_works
+		icon = GFX_EJZ_wokark_canal_works-750878
+		x = 19
+		y = 8
+		cost = 12
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_extensive_city_planning  }
+	}
+
+	#Invest in Civilian Industries
+	focus = {
+		id = EJZ_invest_in_civilian_industries
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 25
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_urbanization  }
+	}
+
+	#Gmez's Legacy
+	focus = {
+		id = EJZ_gmezslegacy
+		icon = GFX_EJZ_gmezslegacy-751252
+		x = 6
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_deciding_our_course  }
+		mutually_exclusive = { focus = EJZ_rally_the_nationalists  } mutually_exclusive = { focus = EJZ_rally_around_the_duke  }
+	}
+
+	#Looking Outwards
+	focus = {
+		id = EJZ_looking_outwards
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 8
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_thedukesgovernment  }
+	}
+
+	#Liquidate Royal Assets
+	focus = {
+		id = EJZ_liquidate_royal_assets
+		icon = GFX_EJZ_liquidate_royal_assets-426
+		x = 2
+		y = 16
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_civil_war_recovery_plan  }
+	}
+
+	#Recruit Peasants
+	focus = {
+		id = EJZ_recruit_peasants
+		icon = GFX_EJZ_recruit_peasants-426
+		x = 5
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_gmezslegacy  }
+	}
+
+	#Bribe Senators
+	focus = {
+		id = EJZ_bribe_senators
+		icon = GFX_EJZ_bribe_senators-426
+		x = 7
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_gmezslegacy  }
+	}
+
+	#Abolish the Duchy
+	focus = {
+		id = EJZ_abolish_the_duchy
+		icon = GFX_goal_unknown
+		x = 6
+		y = 12
+		cost = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_recruit_peasants  } prerequisite = { focus = EJZ_bribe_senators  }
+	}
+
+	#Call for International Brigades
+	focus = {
+		id = EJZ_call_for_international_brigades
+		icon = GFX_goal_unknown
+		x = 7
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_abolish_the_duchy  }
+	}
+
+	#Continue the Status Quo
+	focus = {
+		id = EJZ_continue_the_status_quo
+		icon = GFX_focus_rom_royal_dictatorship
+		x = 14
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_drafting_the_constitution  }
+	}
+
+	#Abolish the Two Dukes System
+	focus = {
+		id = EJZ_abolish_the_two_dukes_system
+		icon = GFX_focus_generic_monarchy_1
+		x = 12
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_drafting_the_constitution  }
+		mutually_exclusive = { focus = EJZ_continue_the_status_quo  }
+	}
+
+	#Rally the Nationalists
+	focus = {
+		id = EJZ_rally_the_nationalists
+		icon = GFX_focus_ger_reichskommisariats
+		x = 20
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_deciding_our_course  }
+	}
+
+	#Rally around the Duke
+	focus = {
+		id = EJZ_rally_around_the_duke
+		icon = GFX_focus_generic_monarchy_2
+		x = 15
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_deciding_our_course  }
+		mutually_exclusive = { focus = EJZ_gmezslegacy  } mutually_exclusive = { focus = EJZ_rally_the_nationalists  }
+	}
+
+	#Return To Democracy
+	focus = {
+		id = EJZ_return_to_democracy
+		icon = GFX_EJZ_return_to_democracy-427
+		x = 11
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_deciding_our_course  }
+		mutually_exclusive = { focus = EJZ_gmezslegacy  } mutually_exclusive = { focus = EJZ_rally_the_nationalists  } mutually_exclusive = { focus = EJZ_rally_around_the_duke  }
+	}
+
+	#Call for International Aid
+	focus = {
+		id = EJZ_call_for_international_aid
+		icon = GFX_EJZ_call_for_international_aid-426
+		x = 5
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = EJZ_abolish_the_duchy  }
+	}
+
+	#Victory
+	focus = {
+		id = EJZ_victory
+		icon = GFX_EJZ_victory-426
+		x = 6
+		y = 14
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_call_for_international_brigades  } prerequisite = { focus = EJZ_call_for_international_aid  }
+	}
+
+	#Civil war Recovery Plan
+	focus = {
+		id = EJZ_civil_war_recovery_plan
+		icon = GFX_focus_generic_join_comintern
+		x = 3
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_victory  }
+	}
+
+	#Socialist Reforms
+	focus = {
+		id = EJZ_socialist_reforms
+		icon = GFX_EJZ_socialist_reforms-646339
+		x = 4
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_civil_war_recovery_plan  }
+	}
+
+	#Planned Economy
+	focus = {
+		id = EJZ_planned_economy
+		icon = GFX_EJZ_planned_economy-426
+		x = 3
+		y = 17
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_civil_war_recovery_plan  }
+	}
+
+	#Clamp down on Corruption
+	focus = {
+		id = EJZ_clamp_down_on_corruption
+		icon = GFX_focus_generic_soviet_politics
+		x = 7
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = EJZ_victory  }
+	}
+
+	#Seek International Recognition
+	focus = {
+		id = EJZ_seek_international_recognition
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 5
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_victory  }
+	}
+
+	#Support Valoran Communists
+	focus = {
+		id = EJZ_support_valoran_communists
+		icon = GFX_EJZ_support_valoran_communists-426
+		x = 5
+		y = 19
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_spread_the_revolution  }
+	}
+
+	#Support Aerternus Communists
+	focus = {
+		id = EJZ_support_aerternus_communists
+		icon = GFX_EJZ_support_aerternus_communists-426
+		x = 3
+		y = 19
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_spread_the_revolution  }
+	}
+
+	#Support Revolutionaries in Favei Clarvet
+	focus = {
+		id = EJZ_support_revolutionaries_in_favei_clarvet
+		icon = GFX_EJZ_support_revolutionaries_in_favei_clarvet-426
+		x = 7
+		y = 19
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_spread_the_revolution  }
+	}
+
+	#Support Communists in Lir'ion
+	focus = {
+		id = EJZ_supportcommunistsinlirion
+		icon = GFX_EJZ_supportcommunistsinlirion-426
+		x = 9
+		y = 19
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_spread_the_revolution  }
+	}
+
+	#USSG
+	focus = {
+		id = EJZ_ussg
+		icon = GFX_EJZ_ussg-262119
+		x = 6
+		y = 20
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_support_valoran_communists  } prerequisite = { focus = EJZ_support_aerternus_communists  } prerequisite = { focus = EJZ_support_revolutionaries_in_favei_clarvet  } prerequisite = { focus = EJZ_supportcommunistsinlirion  }
+	}
+
+	#Arrest Monarchist Sympathizers
+	focus = {
+		id = EJZ_arrest_monarchist_sympathizers
+		icon = GFX_EJZ_arrest_monarchist_sympathizers-426
+		x = 8
+		y = 16
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = EJZ_clamp_down_on_corruption  }
+	}
+
+	#Internationale Av Iristoya
+	focus = {
+		id = EJZ_internationale_av_iristoya
+		icon = GFX_EJZ_internationale_av_iristoya-262095
+		x = 7
+		y = 17
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_seek_international_recognition  } prerequisite = { focus = EJZ_arrest_monarchist_sympathizers  }
+	}
+
+	#Prioritize Defense
+	focus = {
+		id = EJZ_prioritize_defense
+		icon = GFX_EJZ_prioritize_defense-646313
+		x = 31
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_government_arms_contract  } prerequisite = { focus = EJZ_army_modernization  }
+	}
+
+	#On the Offensive
+	focus = {
+		id = EJZ_on_the_offensive
+		icon = GFX_focus_RAJ_lions_of_the_great_war
+		x = 33
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = EJZ_government_arms_contract  } prerequisite = { focus = EJZ_army_modernization  }
+		mutually_exclusive = { focus = EJZ_prioritize_defense  }
+	}
+
+	#Ejznvajk Mountain Fortification
+	focus = {
+		id = EJZ_ejznvajk_mountain_fortification
+		icon = GFX_goal_generic_fortify_city
+		x = 30
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_prioritize_defense  focus = EJZ_on_the_offensive  }
+	}
+
+	#Jungle Specialists
+	focus = {
+		id = EJZ_jungle_specialists
+		icon = GFX_goal_generic_special_forces
+		x = 32
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = EJZ_prioritize_defense  focus = EJZ_on_the_offensive  }
+	}
+
+	#Wokark Fortification Efforts
+	focus = {
+		id = EJZ_wokark_fortification_efforts
+		icon = GFX_goal_generic_fortify_city
+		x = 31
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_prioritize_defense  }
+	}
+
+	#Defensive Doctrine
+	focus = {
+		id = EJZ_defensive_doctrine
+		icon = GFX_focus_generic_coastal_fort
+		x = 30
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = EJZ_ejznvajk_mountain_fortification  } prerequisite = { focus = EJZ_wokark_fortification_efforts  }
+	}
+
+	#Armor Research
+	focus = {
+		id = EJZ_armor_research
+		icon = GFX_goal_generic_army_tanks
+		x = 34
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = EJZ_on_the_offensive  focus = EJZ_defensive_doctrine  }
+	}
+
+	#Offensive Doctrine
+	focus = {
+		id = EJZ_offensive_doctrine
+		icon = GFX_focus_RAJ_lions_of_the_great_war
+		x = 34
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = EJZ_armor_research  } prerequisite = { focus = EJZ_antitank_research  }
+	}
+
+	#Anti-Air Focus
+	focus = {
+		id = EJZ_antiair_focus
+		icon = GFX_EJZ_antiair_focus-645807
+		x = 36
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = EJZ_artillery_focus  }
+	}
+
+	#Support Radical Leftists in Orion
+	focus = {
+		id = EJZ_support_radical_leftists_in_orion
+		icon = GFX_EJZ_support_radical_leftists_in_orion-426
+		x = 6
+		y = 21
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_ussg  }
+	}
+
+	#Support Revolutionaries in Theionikos
+	focus = {
+		id = EJZ_support_revolutionaries_in_theionikos
+		icon = GFX_EJZ_support_revolutionaries_in_theionikos-426
+		x = 4
+		y = 21
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_ussg  }
+	}
+
+	#Liberate Workers in Floodhaven and Vermeria
+	focus = {
+		id = EJZ_liberate_workers_in_floodhaven_and_vermeria
+		icon = GFX_EJZ_liberate_workers_in_floodhaven_and_vermeria-426
+		x = 8
+		y = 21
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_ussg  }
+	}
+
+	#Liberate Workers in Rohldan
+	focus = {
+		id = EJZ_liberate_workers_in_rohldan
+		icon = GFX_EJZ_liberate_workers_in_rohldan-426
+		x = 6
+		y = 22
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_support_radical_leftists_in_orion  focus = EJZ_support_revolutionaries_in_theionikos  focus = EJZ_liberate_workers_in_floodhaven_and_vermeria  }
+	}
+
+	#Improve Civilian Industries
+	focus = {
+		id = EJZ_improve_civilian_industries
+		icon = GFX_goal_generic_construct_civilian
+		x = 9
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_democratic_cabinet  }
+	}
+
+	#Construct Universities
+	focus = {
+		id = EJZ_construct_universities
+		icon = GFX_focus_research2
+		x = 9
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = EJZ_improve_civilian_industries  } prerequisite = { focus = EJZ_alleviate_the_homeless_problem  }
+	}
+
+	#Begin Local Elections
+	focus = {
+		id = EJZ_begin_local_elections
+		icon = GFX_EJZ_begin_local_elections-645471
+		x = 10
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = EJZ_sway_the_people  } prerequisite = { focus = EJZ_democratic_cabinet  }
+	}
+
+	#Grouskajzerryk Av Ejznrosa
+	focus = {
+		id = EJZ_grouskajzerryk_av_ejznrosa
+		icon = GFX_EJZ_grouskajzerryk_av_ejznrosa-751991
+		x = 17
+		y = 21
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_attack_aeternus  } prerequisite = { focus = EJZ_invade_the_island_nations  } prerequisite = { focus = EJZ_strike_against_valora  }
+	}
+
+	#Extensive Military Production
+	focus = {
+		id = EJZ_extensive_military_production
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 19
+		y = 17
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_ejznrosii_war_economy  }
+	}
+
+	#Expand River Dockyards
+	focus = {
+		id = EJZ_expand_river_dockyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 17
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_extensive_city_planning  }
+	}
+
+	#State Newspaper
+	focus = {
+		id = EJZ_state_newspaper
+		icon = GFX_focus_generic_treaty
+		x = 13
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = EJZ_continue_the_status_quo  focus = EJZ_abolish_the_two_dukes_system  }
+	}
+
+	#Bolster Nationalism
+	focus = {
+		id = EJZ_bolster_nationalism
+		icon = GFX_EJZ_bolster_nationalism-262105
+		x = 14
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = EJZ_abolish_the_two_dukes_system  focus = EJZ_continue_the_status_quo  }
+	}
+
+	#Secure our Nation
+	focus = {
+		id = EJZ_secure_our_nation
+		icon = GFX_EJZ_secure_our_nation-262105
+		x = 12
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = EJZ_abolish_the_two_dukes_system  focus = EJZ_continue_the_status_quo  }
+	}
+
+	#Exile the Duke
+	focus = {
+		id = EJZ_exile_the_duke
+		icon = GFX_focus_rom_handle_king
+		x = 23
+		y = 17
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = EJZ_consolidate_our_power  }
+	}
+
+	#Dreams of a Greater Ryk
+	focus = {
+		id = EJZ_dreams_of_a_greater_ryk
+		icon = GFX_EJZ_dreams_of_a_greater_ryk-645983
+		x = 21
+		y = 18
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_exile_the_duke  } prerequisite = { focus = EJZ_rapid_moblization  } prerequisite = { focus = EJZ_extensive_military_production  }
+	}
+
+	#Local Autonomy
+	focus = {
+		id = EJZ_local_autonomy
+		icon = GFX_EJZ_local_autonomy-645772
+		x = 14
+		y = 22
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = EJZ_grouskajzerryk_av_ejznrosa  }
+	}
+
+	#War profiting
+	focus = {
+		id = EJZ_war_profiting
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 3
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_affirm_our_neutrality  }
+		mutually_exclusive = { focus = EJZ_ensure_stability_in_the_region  }
+	}
+
+	#Non-Aggression Pact with Valora
+	focus = {
+		id = EJZ_nonaggression_pact_with_valora
+		icon = GFX_EJZ_nonaggression_pact_with_valora-753773
+		x = 3
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_looking_outwards  }
+	}
+
+	#Non-Aggression Pact with Aeternus
+	focus = {
+		id = EJZ_nonaggression_pact_with_aeternus
+		icon = GFX_goal_unknown
+		x = 5
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_looking_outwards  }
+	}
+
+	#Ally with Valora
+	focus = {
+		id = EJZ_ally_with_valora
+		icon = GFX_EJZ_ally_with_valora-753777
+		x = 2
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_nonaggression_pact_with_valora  }
+		mutually_exclusive = { focus = EJZ_affirm_our_neutrality  focus = EJZ_ally_with_aeternus  }
+	}
+
+	#Ally with Aeternus
+	focus = {
+		id = EJZ_ally_with_aeternus
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_nonaggression_pact_with_aeternus  }
+		mutually_exclusive = { focus = EJZ_affirm_our_neutrality  focus = EJZ_ally_with_valora  }
+	}
+
+	#Affirm our Neutrality
+	focus = {
+		id = EJZ_affirm_our_neutrality
+		icon = GFX_goal_generic_neutrality_focus
+		x = 4
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_nonaggression_pact_with_valora  focus = EJZ_nonaggression_pact_with_aeternus  }
+	}
+
+	#Embargo Valora
+	focus = {
+		id = EJZ_embargo_valora
+		icon = GFX_EJZ_embargo_valora-753778
+		x = 6
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_ally_with_aeternus  }
+	}
+
+	#Embargo Aeternus
+	focus = {
+		id = EJZ_embargo_aeternus
+		icon = GFX_goal_unknown
+		x = 2
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_ally_with_valora  }
+	}
+
+	#Joint Military Excercise
+	focus = {
+		id = EJZ_joint_military_excercise
+		icon = GFX_goal_generic_military_deal
+		x = 5
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = EJZ_embargo_valora  }
+	}
+
+	#Joint Civilian Development
+	focus = {
+		id = EJZ_joint_civilian_development
+		icon = GFX_goal_generic_construct_civilian
+		x = 3
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_embargo_aeternus  }
+	}
+
+	#Increase Southern River Trade
+	focus = {
+		id = EJZ_increase_southern_river_trade
+		icon = GFX_goal_generic_trade
+		x = 1
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_ally_with_valora  }
+	}
+
+	#Utilize Western Ports
+	focus = {
+		id = EJZ_utilize_western_ports
+		icon = GFX_goal_generic_trade
+		x = 7
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_ally_with_aeternus  }
+	}
+
+	#Strike against Valora
+	focus = {
+		id = EJZ_strike_against_valora
+		icon = GFX_goal_generic_major_war
+		x = 16
+		y = 19
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_demandlirionincorporation  focus = EJZ_demand_favei_clarvet_annexation  }
+	}
+
+	#Demand Lir'ion incorporation
+	focus = {
+		id = EJZ_demandlirionincorporation
+		icon = GFX_goal_generic_major_war
+		x = 16
+		y = 18
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_beyond_our_borders  }
+	}
+
+	#Demand Favei Clarvet Annexation
+	focus = {
+		id = EJZ_demand_favei_clarvet_annexation
+		icon = GFX_goal_generic_major_war
+		x = 18
+		y = 18
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_beyond_our_borders  }
+	}
+
+	#Rule Through Submission
+	focus = {
+		id = EJZ_rule_through_submission
+		icon = GFX_EJZ_rule_through_submission-59
+		x = 16
+		y = 22
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = EJZ_grouskajzerryk_av_ejznrosa  }
+		mutually_exclusive = { focus = EJZ_local_autonomy  }
+	}
+
+	#Invade our Neighbours
+	focus = {
+		id = EJZ_invade_our_neighbours
+		icon = GFX_EJZ_invade_our_neighbours-59
+		x = 21
+		y = 19
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_dreams_of_a_greater_ryk  }
+	}
+
+	#Invade Gexas
+	focus = {
+		id = EJZ_invade_gexas
+		icon = GFX_goal_generic_major_war
+		x = 20
+		y = 20
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_invade_our_neighbours  }
+	}
+
+	#Invade the Valdic Union
+	focus = {
+		id = EJZ_invade_the_valdic_union
+		icon = GFX_goal_generic_major_war
+		x = 22
+		y = 20
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_invade_our_neighbours  }
+	}
+
+	#Beyond Iristoya
+	focus = {
+		id = EJZ_beyond_iristoya
+		icon = GFX_goal_generic_territory_or_war
+		x = 21
+		y = 22
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_grouejznrosiisches_ryk  }
+	}
+
+	#Invade Acreon
+	focus = {
+		id = EJZ_invade_acreon
+		icon = GFX_goal_generic_major_war
+		x = 21
+		y = 23
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_beyond_iristoya  }
+	}
+
+	#Grouejznrosiisches Ryk
+	focus = {
+		id = EJZ_grouejznrosiisches_ryk
+		icon = GFX_EJZ_grouejznrosiisches_ryk-645781
+		x = 21
+		y = 21
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_invade_the_valdic_union  } prerequisite = { focus = EJZ_invade_our_neighbours  } prerequisite = { focus = EJZ_invade_gexas  }
+	}
+
+	#Iristoyan Commonwealth
+	focus = {
+		id = EJZ_iristoyan_commonwealth
+		icon = GFX_goal_unknown
+		x = 12
+		y = 18
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = EJZ_preservation_of_the_nation  }
+	}
+
+	#Invade Orion
+	focus = {
+		id = EJZ_invade_orion
+		icon = GFX_goal_generic_major_war
+		x = 19
+		y = 21
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_invade_gexas  }
+	}
+
+	#Crush Yarexoka
+	focus = {
+		id = EJZ_crush_yarexoka
+		icon = GFX_goal_generic_major_war
+		x = 23
+		y = 21
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_invade_the_valdic_union  }
+	}
+
+	#Begin Conscription
+	focus = {
+		id = EJZ_begin_conscription
+		icon = GFX_focus_usa_honor_the_confederacy
+		x = 33
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = EJZ_recruitment_ministry  }
+	}
+
+	#Claims in Aeternus
+	focus = {
+		id = EJZ_claims_in_aeternus
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_looking_outwards  }
+		mutually_exclusive = { focus = EJZ_nonaggression_pact_with_aeternus  }
+	}
+
+	#Neu Sandburg Question
+	focus = {
+		id = EJZ_neu_sandburg_question
+		icon = GFX_goal_unknown
+		x = 9
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = EJZ_claims_in_aeternus  }
+	}
+
+	#National Farming Production
+	focus = {
+		id = EJZ_national_farming_production
+		icon = GFX_EJZ_national_farming_production-645960
+		x = 21
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_production_ministry  }
+	}
+
+}
