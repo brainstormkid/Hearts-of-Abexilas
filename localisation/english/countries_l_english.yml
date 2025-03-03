@@ -1190,6 +1190,9 @@
  ORB_absolutist:1 "Kingdom of Orbitalia"
  ORB_absolutist_DEF:1 "the Kingdom of Orbitalia"
  ORB_absolutist_ADJ:0 "Orbitalian"
+ ORB_monarchist:1 "Duchy of Orbitalia"
+ ORB_monarchist_DEF:1 "the Duchy of Orbitalia"
+ ORB_monarcist_ADJ:0 "Orbitalian"
  
  ORI_absolutist:1 "Archonate of Orion"
  ORI_absolutist_DEF:1 "the Archonate of Orion"
