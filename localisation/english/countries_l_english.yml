@@ -745,6 +745,9 @@
  HYR_absolutist:1 "Enlightened Grevdom of Hyria"
  HYR_absolutist_DEF:1 "the Enlightened Grevdom of Hyria"
  HYR_absolutist_ADJ:0 "Hyrian"
+ HYR_imperialist:1 "Enlightened Grevdom of Hyria"
+ HYR_imperialist_DEF:1 "the Enlightened Grevdom of Hyria"
+ HYR_imperialist_ADJ:0 "Hyrian"
  
  ILL_absolutist:1 "Illyria"
  ILL_absolutist_DEF:1 "the Illyria"

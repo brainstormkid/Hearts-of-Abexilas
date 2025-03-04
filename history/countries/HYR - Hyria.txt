@@ -2,14 +2,26 @@ capital = 1120
 
 oob = "HYR"
 
+set_research_slots = 3
+set_stability = 0.72
+set_war_support = 0.59
+add_command_power = 20
+
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
 set_politics = {
-	ruling_party = absolutist
+	ruling_party = imperialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	absolutist = 100
+	imperialist = 78
+	radical_nationalist = 15
+	monarchist = 7
 }
 
 create_country_leader = {
@@ -17,9 +29,9 @@ create_country_leader = {
 	desc = "POLITICS_ZEPELLIN_DESC"
 	picture = "gfx/leaders/HYR/zepellin.dds"
 	expire = "1965.1.1"
-	ideology = absolutist_subtype
+	ideology = imperialist_subtype
 	traits = {
 	}
 }
 
-set_convoys = 25
+set_convoys = 35
