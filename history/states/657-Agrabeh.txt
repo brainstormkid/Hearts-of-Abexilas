@@ -2,7 +2,7 @@ state={
 	id=657
 	name="Agrabeh"
 	provinces={
-		122 2171 6715 11871 11872 11885 11914 11918 11934 11937 11942 11964 
+		122 2171 6715 11871 11872 11934 11942 11964 
 	}
 	buildings_max_level_factor=1.000
         manpower=1
@@ -12,5 +12,6 @@ state={
 		buildings = {
 		}
 		add_core_of = AER
+		add_core_of = AGR
 	}
 }

@@ -32,6 +32,11 @@
  AKA_absolutist:1 "Akari Commonwealth"
  AKA_absolutist_DEF:1 "the Akari Commonwealth"
  AKA_absolutist_ADJ:0 "Akari"
+
+ AGR_absolutist:1 "Sultanate of Agrabeh"
+ AGR_absolutist_DEF:1 "the Sultanate of Agrabeh"
+ AGR_absolutist_ADJ:0 "Agrabehi"
+
  
  AKI_absolutist:1 "State of Akito"
  AKI_absolutist_DEF:1 "the State of Akito"
