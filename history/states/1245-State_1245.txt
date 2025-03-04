@@ -15,8 +15,28 @@ state={
 	manpower=11250000
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
-	local_supplies=0.000
 	history = {
 		owner = AET
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 4
+			arms_factory = 2
+			dockyard = 1
+			4867 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = AET
+		victory_points = { 4867 30 }
+		victory_points = { 1879 10 }
+		victory_points = { 13701 10 }
+		victory_points = { 13721 10 }
+		victory_points = { 1184 5 }
+		victory_points = { 5060 10 }
+		victory_points = { 13967 10 }
+		victory_points = { 14136 5 }
+		victory_points = { 1999 5 }
+		victory_points = { 13870 10 }
+		victory_points = { 1446 10 }
 	}
 }

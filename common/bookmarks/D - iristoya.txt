@@ -7,6 +7,24 @@ bookmarks = {
 		default_country = "GER"
 		default = yes
 
+        EJZ = {
+            history = EJZ_DESC
+        	ideology = monarchist
+
+        	ideas={
+        	}
+
+        	focuses = {
+        	}
+        }
+
+		"---"={
+			history = "OTHER_DESC"
+		}
+    
+
+
+
         UET = {
             minor = yes
             history = UET_DESC

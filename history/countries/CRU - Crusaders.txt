@@ -23,11 +23,6 @@ create_country_leader = {
 	}
 }
 
-set_autonomy = {
-	target = LED
-	autonomous_state = autonomy_dominion
-}
-
 set_party_name = {
 	ideology = absolutist
 	long_name = "House of Crusaden"
