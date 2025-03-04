@@ -1,0 +1,17 @@
+state={
+	id=1411
+	name="Neu Sandburg"
+	provinces={
+		317 11893 11826 11795
+	}
+	manpower=5000
+	state_category = rural
+	history = {
+		owner = VAL
+		buildings = {}
+		add_core_of = VAL
+		add_core_of = AER
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

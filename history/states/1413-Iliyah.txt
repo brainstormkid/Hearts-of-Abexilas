@@ -1,0 +1,16 @@
+state={
+	id=1413
+	name="Iliyah"
+	provinces={
+		11810 
+	}
+	manpower=0
+	history = {
+		owner = VAL
+		buildings = {}
+		add_core_of = VAL
+		add_core_of = AER
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
