@@ -1,17 +1,18 @@
 state={
 	id=1178
-	name="STATE_1178"
+	name="Wokark"
 	provinces={
 		37 250 11878 11879
 	}
 	buildings_max_level_factor=1.000
-        manpower=460000
+        manpower=5700000
         state_category = town
 	history={
 		owner = EJZ
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
+			industrial_complex = 3
+			arms_factory = 1
 		}
 		add_core_of = EJZ
 		victory_points = { 250 20 }

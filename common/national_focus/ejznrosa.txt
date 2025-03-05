@@ -19,7 +19,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = EJZ_increasethedukespopularity  }
-		mutually_exclusive = { focus = EJZ_begin_local_elections  }
+		mutually_exclusive = { focus = EJZ_begin_local_elections focus = EJZ_united_and_strong  }
 	}
 
 	#Militarist in Power
@@ -217,6 +217,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = EJZ_return_to_democracy  }
+		mutually_exclusive = { focus = EJZ_a_true_democracy}
+		available = {
+			has_completed_focus= EJZ_continue_the_status_quo }
 	}
 
 	#Royal Research Development
@@ -268,7 +271,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
-		prerequisite = { focus = EJZ_gustav_gustavsen_ii_av_ejznhjart  } prerequisite = { focus = EJZ_monarchnationalist_coalition  }
+		prerequisite = { focus = EJZ_gustav_gustavsen_ii_av_ejznhjart  focus = EJZ_monarchnationalist_coalition  }
 	}
 
 	#Monarch-Nationalist Coalition
@@ -309,6 +312,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = EJZ_rally_the_nationalists  }
+		mutually_exclusive = {focus = EJZ_undermine_the_duke}
 	}
 
 	#Royal Infrastructure Investment
@@ -348,7 +352,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = EJZ_peace_and_prosperity  focus = EJZ_continue_feudalism  }
+		prerequisite = { focus = EJZ_peace_and_prosperity  focus = EJZ_continue_feudalism focus = EJZ_united_and_strong  }
+		mutually_exclusive = {focus = EJZ_beyond_our_borders}
 	}
 
 	#Gustav Gustavsen II av Ejznhjart
@@ -376,6 +381,10 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = EJZ_rally_around_the_duke  focus = EJZ_constitutional_monarchy  }
+		mutually_exclusive = {focus = EJZ_gustav_gustavsen_ii_av_ejznhjart}
+		has_completed_focus = "EJZ_continue_the_status_quo"
+		available = {
+			has_completed_focus= EJZ_continue_the_status_quo }
 	}
 
 	#Rykspakt
@@ -440,6 +449,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+
 	}
 
 	#Spread the Revolution
@@ -518,6 +528,7 @@ focus_tree = {
 			FOCUS_FILTER_STABILITY
 		}
 		prerequisite = { focus = EJZ_affirm_our_neutrality  }
+		mutually_exclusive = { focus = EJZ_war_profiting}
 	}
 
 	#Protect Flanderia
@@ -804,6 +815,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = EJZ_invest_in_civilian_industries  }
+		mutually_exclusive = {focus = EJZ_military_focus}
 	}
 
 	#Military Focus
@@ -856,7 +868,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = EJZ_deciding_our_course  }
-		mutually_exclusive = { focus = EJZ_rally_the_nationalists  } mutually_exclusive = { focus = EJZ_rally_around_the_duke  }
+		mutually_exclusive = { focus = EJZ_rally_the_nationalists focus = EJZ_rally_around_the_duke focus = EJZ_return_to_democracy}
 	}
 
 	#Looking Outwards
@@ -948,6 +960,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = EJZ_drafting_the_constitution  }
+		mutually_exclusive = {focus = EJZ_abolish_the_two_dukes_system}
 	}
 
 	#Abolish the Two Dukes System
@@ -962,6 +975,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_drafting_the_constitution  }
 		mutually_exclusive = { focus = EJZ_continue_the_status_quo  }
+
 	}
 
 	#Rally the Nationalists
@@ -975,6 +989,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = EJZ_deciding_our_course  }
+		mutually_exclusive = { focus = EJZ_gmezslegacy focus = EJZ_rally_around_the_duke focus = EJZ_return_to_democracy}
 	}
 
 	#Rally around the Duke
@@ -988,7 +1003,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = EJZ_deciding_our_course  }
-		mutually_exclusive = { focus = EJZ_gmezslegacy  } mutually_exclusive = { focus = EJZ_rally_the_nationalists  }
+		mutually_exclusive = { focus = EJZ_gmezslegacy focus = EJZ_rally_the_nationalists focus = EJZ_return_to_democracy  }
 	}
 
 	#Return To Democracy
@@ -1198,6 +1213,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = EJZ_government_arms_contract  } prerequisite = { focus = EJZ_army_modernization  }
+		mutually_exclusive = {focus = EJZ_on_the_offensive}
 	}
 
 	#On the Offensive
@@ -1392,6 +1408,7 @@ focus_tree = {
 			FOCUS_FILTER_STABILITY
 		}
 		prerequisite = { focus = EJZ_sway_the_people  } prerequisite = { focus = EJZ_democratic_cabinet  }
+		mutually_exclusive = { focus = EJZ_continue_feudalism}
 	}
 
 	#Grouskajzerryk Av Ejznrosa
@@ -1509,6 +1526,7 @@ focus_tree = {
 			FOCUS_FILTER_STABILITY
 		}
 		prerequisite = { focus = EJZ_grouskajzerryk_av_ejznrosa  }
+		mutually_exclusive = {focus = EJZ_rule_through_submission}
 	}
 
 	#War profiting
@@ -1549,6 +1567,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = EJZ_looking_outwards  }
+		mutually_exclusive = {focus = EJZ_claims_in_aeternus}
 	}
 
 	#Ally with Valora
@@ -1590,6 +1609,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = EJZ_nonaggression_pact_with_valora  focus = EJZ_nonaggression_pact_with_aeternus  }
+		mutually_exclusive = {focus = EJZ_ally_with_aeternus focus = EJZ_ally_with_valora}
 	}
 
 	#Embargo Valora
