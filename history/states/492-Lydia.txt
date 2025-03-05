@@ -1,0 +1,39 @@
+state={
+	id=492
+	name="STATE_492"
+	provinces={
+		595 780 2406 3635 3750 4159 4181 4700 10696 10713 10714 10740 10741 10761 10786 10791 10795 10831 10861 10862 10878 10903 10910 
+	}
+	buildings_max_level_factor=1.000
+        manpower=3900000
+        state_category = large_town
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	history={
+		owner = DZI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			10910 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = DZI
+		victory_points = {
+			10696 50
+		}
+		victory_points = {
+			10761 10
+		}
+		victory_points = {
+			595 5
+		}
+	}
+}
