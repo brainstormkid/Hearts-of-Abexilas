@@ -1,0 +1,35 @@
+state={
+	id=431
+	name="STATE_431"
+	provinces={
+		804 2502 2642 3140 4744 5432 6314 10388 10401 10406 10421 10459 10464 10492 10504 10505 10506 10544 
+	}
+	buildings_max_level_factor=1.000
+        manpower=7050000
+        state_category = large_city
+	history={
+		owner = ALA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			10459 = {
+				naval_base = 2
+			}
+			6314 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ALA
+		victory_points = {
+			2502 50
+		}
+		victory_points = {
+			6314 20
+		}
+		victory_points = {
+			3140 5
+		}
+	}
+}
