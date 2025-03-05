@@ -1,16 +1,20 @@
 state={
 	id=692
-	name="STATE_692"
+	name="Tirion"
 	provinces={
 		3986 6332 11977 11988 12007 12053 12064 12080 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=3300000
         state_category = town
 	history={
 		owner = FAV
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
 		}
+		victory_points = { 12064 50 }
 		add_core_of = FAV
 	}
 }

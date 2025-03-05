@@ -1,16 +1,20 @@
 state={
 	id=676
-	name="STATE_676"
+	name="Asphodel"
 	provinces={
 		3428 5530 11998 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=1950000
         state_category = town
 	history={
 		owner = LIR
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
 		}
+		victory_points = { 11998 50 }
 		add_core_of = LIR
 	}
 }

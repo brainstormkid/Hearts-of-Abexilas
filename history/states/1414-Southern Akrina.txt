@@ -1,21 +1,20 @@
 state={
-	id=749
-	name="Hererra"
+	id=1414
+	name="Southern Akrina"
 	provinces={
-		1405 6056 12313 12365 12383 
+		11664 11704 5018 11724
 	}
 	buildings_max_level_factor=1.000
-        manpower=900000
-        state_category = town
-	history={
+	local_supplies=0.000
+	manpower=600000
+	history = {
 		owner = VAL
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
 			arms_factory = 1
 		}
-		victory_points = { 1405 20 }
+		victory_points = { 11704 20 }
 		add_core_of = VAL
-		add_core_of = AEV
 	}
 }
