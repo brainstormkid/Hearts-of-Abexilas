@@ -4,13 +4,26 @@ state={
 	provinces={
 		935 1890 5512 11186 11232 11268 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=450000
         state_category = town
 	history={
 		owner = TSU
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
 		}
 		add_core_of = TSU
+		victory_points = {
+			935 5
+		}
 	}
 }
