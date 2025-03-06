@@ -7,28 +7,6 @@ bookmarks = {
 		default_country = "BAR"
 		default = yes
 		
-		BAR = {
-			history = BAR_DESC
-			ideology = absolutist
-			ideas={
-				
-			}
-			focuses = {
-				
-			}
-		}
-		
-		AET = {
-			history = AET_DESC
-			ideology = absolutist
-			ideas={
-				
-			}
-			focuses = {
-				
-			}
-		}
-		
 		BOU = {
 			history = BOU_DESC
 			ideology = absolutist
@@ -62,10 +40,43 @@ bookmarks = {
 			}
 		}
 		
-		MIC = {
-			history = MIC_DESC
+		BAR = {
+			history = BAR_DESC
 			ideology = absolutist
 			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		AET = {
+			history = AET_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"KAS"={
+			history = "KAS_DESC"
+			ideology = absolutist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"AFO"={
+			history = "AFO_DESC"
+			ideology = absolutist
+			ideas = {
 				
 			}
 			focuses = {
@@ -78,30 +89,6 @@ bookmarks = {
 		}
 		
 		#Minors
-		
-		"KAS"={
-			minor = yes
-			history = "KAS_DESC"
-			ideology = absolutist
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-		
-		"AFO"={
-			minor = yes
-			history = "AFO_DESC"
-			ideology = absolutist
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
 		
 		"TAA"={
 			minor = yes

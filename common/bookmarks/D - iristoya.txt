@@ -4,12 +4,78 @@ bookmarks = {
 		desc = "IRISTOYA_DESC"
 		date = 2.1.1.12
 		picture = "GFX_select_date_IRISTOYA"
-		default_country = "GER"
+		default_country = "VAD"
 		default = yes
-
-        EJZ = {
+		
+		EJZ = {
             history = EJZ_DESC
         	ideology = monarchist
+
+        	ideas={
+        	}
+
+        	focuses = {
+        	}
+        }
+		
+		DON = {
+            history = DON_DESC
+        	ideology = absolutist
+
+        	ideas={
+        	}
+
+        	focuses = {
+        	}
+        }
+		
+		YAR = {
+            history = YAR_DESC
+        	ideology = absolutist
+
+        	ideas={
+        	}
+
+        	focuses = {
+        	}
+        }
+		
+		VAD = {
+            history = VAD_DESC
+        	ideology = absolutist
+
+        	ideas={
+        	}
+
+        	focuses = {
+        	}
+        }
+		
+		ASH = {
+            history = ASH_DESC
+        	ideology = absolutist
+
+        	ideas={
+        	}
+
+        	focuses = {
+        	}
+        }
+		
+		ORI = {
+            history = ORI_DESC
+        	ideology = absolutist
+
+        	ideas={
+        	}
+
+        	focuses = {
+        	}
+        }
+		
+		THE = {
+            history = THE_DESC
+        	ideology = absolutist
 
         	ideas={
         	}
@@ -28,7 +94,7 @@ bookmarks = {
         UET = {
             minor = yes
             history = UET_DESC
-        	ideology = neutrality
+        	ideology = absolutist
 
         	ideas={
         	}
