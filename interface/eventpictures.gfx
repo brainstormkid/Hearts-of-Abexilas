@@ -74,4 +74,10 @@ spriteTypes = {
 		name = "GFX_akashiro_event_1"
 		texturefile = "gfx/event_pictures/akashiro_event_1.dds"
 	}
+
+	#EZJ
+	SpriteType = {
+		name = "GFX_ejznrosa_event_1_image"
+		texturefile = "gfx/event_pictures/ejznrosa_event_1.dds"
+	}
 }

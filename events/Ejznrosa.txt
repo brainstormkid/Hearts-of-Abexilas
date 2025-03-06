@@ -1,0 +1,23 @@
+add_namespace = ejznrosa
+
+#Claims in Aeternus
+country_event = {
+	id = ejznrosa.1
+	title = "Our claims in Aeternus"
+	desc = ejznrosa.1.d
+	picture = "GFX_ejznrosa_event_1_image"
+	
+	is_triggered_only = yes
+	
+	option = { # Claim both Iliyah and Sternahagen
+	name = "Claim both Iliyah and Sternahagen"
+	ai_chance = { factor = 60 }
+	transfer_state = 1413
+	transfer_state = 1412
+	}
+	option =  { # Claim both Iliyah and Sternahagen
+	name = "Claim only Sternahagen"
+	ai_chance = { factor = 40 }
+	transfer_state = 1412
+}
+}

@@ -1885,6 +1885,14 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_looking_outwards  }
 		mutually_exclusive = { focus = EJZ_nonaggression_pact_with_aeternus  }
+		completion_reward = {
+			country_event = {
+				id = ejznrosa.1
+				days = 2
+				random_hours = 12
+				random_days = 2
+			}
+		}
 	}
 
 	#Neu Sandburg Question
