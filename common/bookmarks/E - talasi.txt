@@ -6,9 +6,86 @@ bookmarks = {
 		picture = "GFX_select_date_TALASI"
 		default_country = "GER"
 		default = yes
+		
+		CAA = {
+			history = CAA_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		LEV = {
+			history = LEV_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		DRC = {
+			history = DRC_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		BEE = {
+			history = BEE_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		BRU = {
+			history = BRU_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		MIC = {
+			history = MIC_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		GRC = {
+			history = GRC_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
 		}
 
 		"---"={
 			history = "OTHER_DESC"
 		}
+	}
 }
