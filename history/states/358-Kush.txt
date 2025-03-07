@@ -1,8 +1,16 @@
 state={
-	id=446
-	name="STATE_446"
+	id=358
+	name="STATE_358"
 	provinces={
-		765 10461 
+		979 10054 10078 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
 	}
 	resources = {
 		oil = 2
@@ -13,21 +21,13 @@ state={
 		chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=1950000
-        state_category = large_town
+        manpower=75000
+        state_category = rural
 	history={
 		owner = AZE
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 1
-			765 = {
-				naval_base = 2
-			}
 		}
 		add_core_of = AZE
-		victory_points = {
-			765 20
-		}
 	}
 }
