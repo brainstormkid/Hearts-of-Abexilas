@@ -1,5 +1,75 @@
 ideas = {
     country = {
-        
+        EJZ_joint_civilian_development = {
+            picture = placeholder
+            allowed = {
+                tag = EJZ
+                tag = VAL
+            }
+            available = {
+            }
+            cancel = {
+                EJZ = { has_war_with = VAL }
+                VAL = { has_war_with = EJZ }
+            }
+            modifier = {
+                production_speed_buildings_factor = 0.1
+                consumer_goods_factor = -0.1
+                political_power_gain = 0.1
+            }
+        } 
+        EJZ_joint_military_excercise = {
+            picture = placeholder
+            allowed = {
+                tag = EJZ
+                tag = AER
+            }
+            available = {
+            }
+            cancel = {
+                EJZ = { has_war_with = AER }
+                AER = { has_war_with = EJZ }
+            }
+            modifier = {
+                production_speed_arms_factory_factor = 0.15
+                production_factory_efficiency_gain_factor = 0.1
+                experience_gain_army = 0.1
+            }
+        } 
+        EJZ_war_profiting = {
+            picture = placeholder
+            allowed = {
+                tag = EJZ
+            }
+            available = {
+            }
+            cancel = {
+            }
+            modifier = {
+                production_speed_buildings_factor = 0.05
+                trade_opinion_factor = 0.1
+                political_power_gain = 0.15
+                production_factory_efficiency_gain_factor = 0.15
+                production_lack_of_resource_penalty_factor	= -0.05
+            }
+        } 
+        EJZ_ensure_stability_in_the_region = {
+            picture = placeholder
+            allowed = {
+                tag = EJZ
+            }
+            available = {
+            }
+            cancel = {
+            }
+            modifier = {
+                production_speed_buildings_factor = 0.25
+                trade_opinion_factor = 0.1
+                political_power_gain = 0.1
+                justify_war_goal_time = 0.25
+                lend_lease_tension = 0.15
+                offensive_war_stability_factor = -0.1
+            }
+        } 
     }
 }

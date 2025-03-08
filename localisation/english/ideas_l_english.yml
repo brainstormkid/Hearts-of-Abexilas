@@ -149,7 +149,7 @@
  army_training_generic:0 "Military Parades"
  army_training_generic_desc:0 "Our Army is well trained and ready for any threat of the world. We must show our people that we are ready to fight for them, no matter what."
  socialist_reforms:0 "Socialist Reforms"
- socialist_reforms_desc:0 "Ideology knows no borders. Another nation may call itself sovereign, but our convictions are above such claims."
+ socialist_reforms_desc:0 "Ideology knows no borders. Another nation may call itself sovereign, but our convictions are above such ."
  guards_of_the_homeland:0 "Guards of the Homeland"
  guards_of_the_homeland_desc:0 "We stand for our homeland, and we will die for it fighting."
  collectivization:0 "Collectivization"
@@ -2881,3 +2881,6 @@
 
  will_turn_to: "Will Turn Into"
  upon_timeout: "Upon Timeout"
+
+# Ejznrosa ideas
+EJZ_joint_civilian_development:0 "Joint Civilian Development"

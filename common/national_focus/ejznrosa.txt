@@ -449,6 +449,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		completion_reward = {
+			add_political_power = 25
+		}
 
 	}
 
@@ -502,6 +505,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = EJZ_a_new_era  }
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 
 	#Anti-Tank Research
@@ -529,6 +535,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_affirm_our_neutrality  }
 		mutually_exclusive = { focus = EJZ_war_profiting}
+		completion_reward = {
+			add_ideas = {
+				EJZ_ensure_stability_in_the_region
+			}
+		}
 	}
 
 	#Protect Flanderia
@@ -1541,6 +1552,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_affirm_our_neutrality  }
 		mutually_exclusive = { focus = EJZ_ensure_stability_in_the_region  }
+		completion_reward = {
+			add_ideas = {
+				EJZ_war_profiting
+			}
+		}
 	}
 
 	#Non-Aggression Pact with Valora
@@ -1554,6 +1570,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = EJZ_looking_outwards  }
+		completion_reward = {
+			VAL = { country_event = { id = ejznrosa.2}}
+		}
 	}
 
 	#Non-Aggression Pact with Aerternus
@@ -1562,12 +1581,15 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 5
 		y = 3
-		cost = 5
+		cost = 5`
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = EJZ_looking_outwards  }
 		mutually_exclusive = {focus = EJZ_claims_in_aerternus}
+		completion_reward = {
+			AER = { country_event = { id = ejznrosa.5}}
+		}
 	}
 
 	#Ally with Valora
@@ -1580,8 +1602,16 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		available = {
+			not = {
+				has_country_flag = no_ally_with_valora
+			}
+		}
 		prerequisite = { focus = EJZ_nonaggression_pact_with_valora  }
 		mutually_exclusive = { focus = EJZ_affirm_our_neutrality  focus = EJZ_ally_with_aerternus  }
+		completion_reward = {
+			VAL = { country_event = { id = ejznrosa.8}}
+		}
 	}
 
 	#Ally with Aerternus
@@ -1594,8 +1624,16 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		available = {
+			not = {
+				has_country_flag = no_ally_with_aerternus
+			}
+		}
 		prerequisite = { focus = EJZ_nonaggression_pact_with_aerternus  }
 		mutually_exclusive = { focus = EJZ_affirm_our_neutrality  focus = EJZ_ally_with_valora  }
+		completion_reward = {
+			VAL = { country_event = { id = ejznrosa.11}}
+		}
 	}
 
 	#Affirm our Neutrality
@@ -1618,11 +1656,18 @@ focus_tree = {
 		icon = GFX_EJZ_embargo_valora-753778
 		x = 6
 		y = 6
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = EJZ_ally_with_aerternus  }
+		completion_reward = {
+			diplomatic_relation = {
+				country = VAL
+				relation = embargo
+				active = yes
+			}
+		}
 	}
 
 	#Embargo Aerternus
@@ -1636,6 +1681,13 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = EJZ_ally_with_valora  }
+		completion_reward = {
+			diplomatic_relation = {
+				country = AER
+				relation = embargo
+				active = yes
+			}
+		}
 	}
 
 	#Joint Military Excercise
@@ -1649,6 +1701,16 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = EJZ_embargo_valora  }
+		completion_reward = {
+			add_ideas = {
+				EJZ_joint_military_excercise
+			}
+			AER = {
+				add_ideas = {
+					EJZ_joint_military_excercise
+				}
+			}
+		}
 	}
 
 	#Joint Civilian Development
@@ -1662,6 +1724,17 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = EJZ_embargo_aerternus  }
+		completion_reward = {
+			add_ideas = {
+				EJZ_joint_civilian_development
+			}
+			VAL = {
+				add_ideas = {
+					EJZ_joint_civilian_development
+				}
+			}
+		}
+
 	}
 
 	#Increase Southern River Trade
@@ -1675,6 +1748,9 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = EJZ_ally_with_valora  }
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+		}
 	}
 
 	#Utilize Western Ports
@@ -1688,6 +1764,9 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = EJZ_ally_with_aerternus  }
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+		}
 	}
 
 	#Strike against Valora
@@ -1885,6 +1964,15 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_looking_outwards  }
 		mutually_exclusive = { focus = EJZ_nonaggression_pact_with_aerternus  }
+		available = {
+			OR = {
+				country_exists = AGR
+				has_army_manpower = {
+					size > 200000
+				}
+			}
+			
+		}
 		completion_reward = {
 			country_event = {
 				id = ejznrosa.1
