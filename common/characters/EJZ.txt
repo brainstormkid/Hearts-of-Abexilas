@@ -4,25 +4,61 @@ characters={
         portraits={
             civilian={
                 large="GFX_portrait_EJZ_gustav_ejznhjart_large"
-                small="GFX_portrait_GFX_portrait_EJZ_gustav_small"
+                small="GFX_portrait_EJZ_gustav_ejznhjart_small"
             }
         }
         country_leader={
             ideology=monarchist_subtype
-            traits= { dictator }
+            traits= { true_nationalist }
             expire="1965.1.1.1"
         }
         advisor={
             cost = 150
-            slot = political_advisor
-            idea_token = 
+            slot = political_advisor 
             ledger = civilian [others are e.g. army]
             allowed = {
                 original_tag = EJZ
             }
-            traits = { true_nationalist }
-            available = { 
+            available = {
+                if = {
+                    NOT = {
+                        has_completed_focus = EJZ_gmezslegacy
+                        has_completed_focus = EJZ_a_true_democracy
+                        has_completed_focus = EJZ_undermine_the_duke
+                        has_country_leader = {
+                            character = EJZ_gus
+                            ruling_only = yes
+                        }
+                    }
+                    NOT = {
+                        has_government = xeroist
+                        has_government = radical_socialist
+                        has_government = revisionist
+                        has_government = anarchist
+                    }
+                }
             }
+            traits = { true_nationalist }
+            ai_will_do = {
+                factor = 1.0
+            }
+        }
+    }
+    EJZ_Hyde_de_Wataved={
+        name = "Hyde De Wataved"
+        portraits={
+            civilian = {
+                small=GFX_portrait_EJZ_portrait_Hyde_de_Wataved_small
+            }
+        }
+        advisor={
+            cost = 150
+            slot = political_advisor
+            ledger = civilian
+            allowed = {
+                orginal_tag = EJZ
+            }
+            traits = { radical_engineer }
             ai_will_do = {
                 factor = 1.0
             }
