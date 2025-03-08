@@ -2,28 +2,22 @@ state={
 	id=798
 	name="STATE_798"
 	provinces={
-		3048 12634 
+		3048
 	}
 	resources = {
-		oil = 2
-		aluminium = 2
-		steel = 3
-		rubber = 1
-		tungsten = 1
-		chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=600000
-        state_category = rural
+        manpower=1
+        state_category = town
 	history={
-		owner = EJZ
+		owner = ORI
 		buildings = {
 			infrastructure = 2
 			3048 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = EJZ
+		add_core_of = ORI
 		victory_points = {
 			3048 5
 		}
