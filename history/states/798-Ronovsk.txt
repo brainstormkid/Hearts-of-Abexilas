@@ -1,8 +1,8 @@
 state={
-	id=820
-	name="STATE_820"
+	id=798
+	name="STATE_798"
 	provinces={
-		2403 4815 5365 12769 12780 12811 12826 12861 
+		3048 12634 
 	}
 	resources = {
 		oil = 2
@@ -13,16 +13,19 @@ state={
 		chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=750000
+        manpower=600000
         state_category = rural
 	history={
-		owner = ORI
+		owner = EJZ
 		buildings = {
 			infrastructure = 2
+			3048 = {
+				naval_base = 1
+			}
 		}
-		add_core_of = ORI
+		add_core_of = EJZ
 		victory_points = {
-			12811 5
+			3048 5
 		}
 	}
 }
