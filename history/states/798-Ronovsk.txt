@@ -16,14 +16,14 @@ state={
         manpower=600000
         state_category = rural
 	history={
-		owner = EJZ
+		owner = ORI
 		buildings = {
 			infrastructure = 2
 			3048 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = EJZ
+		add_core_of = ORI
 		victory_points = {
 			3048 5
 		}
