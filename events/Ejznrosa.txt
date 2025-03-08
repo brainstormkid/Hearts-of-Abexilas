@@ -1,9 +1,9 @@
 add_namespace = ejznrosa
 
-#Claims in Aeternus
+#Claims in Aerternus
 country_event = {
 	id = ejznrosa.1
-	title = "Our claims in Aeternus"
+	title = "Our claims in Aerternus"
 	desc = ejznrosa.1.d
 	picture = "GFX_ejznrosa_event_1_image"
 	
@@ -18,6 +18,6 @@ country_event = {
 	option =  { # Claim both Iliyah and Sternahagen
 	name = "Claim only Sternahagen"
 	ai_chance = { factor = 40 }
-	transfer_state = 1412
+	transfer_state = 1412}
 }
-}
+#

@@ -15,6 +15,7 @@ state={
 			arms_factory = 1
 		}
 		victory_points = { 12208 50 }
+		victory_points = { 4993 20 }
 		add_core_of = VAL
 	}
 }

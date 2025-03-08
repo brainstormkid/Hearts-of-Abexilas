@@ -426,9 +426,9 @@ focus_tree = {
 		prerequisite = { focus = EJZ_demandlirionincorporation  focus = EJZ_demand_favei_clarvet_annexation  }
 	}
 
-	#Attack Aeternus
+	#Attack Aerternus
 	focus = {
-		id = EJZ_attack_aeternus
+		id = EJZ_attack_aerternus
 		icon = GFX_goal_generic_major_war
 		x = 18
 		y = 19
@@ -1421,7 +1421,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = EJZ_attack_aeternus  } prerequisite = { focus = EJZ_invade_the_island_nations  } prerequisite = { focus = EJZ_strike_against_valora  }
+		prerequisite = { focus = EJZ_attack_aerternus  } prerequisite = { focus = EJZ_invade_the_island_nations  } prerequisite = { focus = EJZ_strike_against_valora  }
 	}
 
 	#Extensive Military Production
@@ -1556,9 +1556,9 @@ focus_tree = {
 		prerequisite = { focus = EJZ_looking_outwards  }
 	}
 
-	#Non-Aggression Pact with Aeternus
+	#Non-Aggression Pact with Aerternus
 	focus = {
-		id = EJZ_nonaggression_pact_with_aeternus
+		id = EJZ_nonaggression_pact_with_aerternus
 		icon = GFX_goal_unknown
 		x = 5
 		y = 3
@@ -1567,7 +1567,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = EJZ_looking_outwards  }
-		mutually_exclusive = {focus = EJZ_claims_in_aeternus}
+		mutually_exclusive = {focus = EJZ_claims_in_aerternus}
 	}
 
 	#Ally with Valora
@@ -1581,12 +1581,12 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = EJZ_nonaggression_pact_with_valora  }
-		mutually_exclusive = { focus = EJZ_affirm_our_neutrality  focus = EJZ_ally_with_aeternus  }
+		mutually_exclusive = { focus = EJZ_affirm_our_neutrality  focus = EJZ_ally_with_aerternus  }
 	}
 
-	#Ally with Aeternus
+	#Ally with Aerternus
 	focus = {
-		id = EJZ_ally_with_aeternus
+		id = EJZ_ally_with_aerternus
 		icon = GFX_goal_unknown
 		x = 6
 		y = 4
@@ -1594,7 +1594,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = EJZ_nonaggression_pact_with_aeternus  }
+		prerequisite = { focus = EJZ_nonaggression_pact_with_aerternus  }
 		mutually_exclusive = { focus = EJZ_affirm_our_neutrality  focus = EJZ_ally_with_valora  }
 	}
 
@@ -1608,8 +1608,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = EJZ_nonaggression_pact_with_valora  focus = EJZ_nonaggression_pact_with_aeternus  }
-		mutually_exclusive = {focus = EJZ_ally_with_aeternus focus = EJZ_ally_with_valora}
+		prerequisite = { focus = EJZ_nonaggression_pact_with_valora  focus = EJZ_nonaggression_pact_with_aerternus  }
+		mutually_exclusive = {focus = EJZ_ally_with_aerternus focus = EJZ_ally_with_valora}
 	}
 
 	#Embargo Valora
@@ -1622,12 +1622,12 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = EJZ_ally_with_aeternus  }
+		prerequisite = { focus = EJZ_ally_with_aerternus  }
 	}
 
-	#Embargo Aeternus
+	#Embargo Aerternus
 	focus = {
-		id = EJZ_embargo_aeternus
+		id = EJZ_embargo_aerternus
 		icon = GFX_goal_unknown
 		x = 2
 		y = 6
@@ -1661,7 +1661,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = EJZ_embargo_aeternus  }
+		prerequisite = { focus = EJZ_embargo_aerternus  }
 	}
 
 	#Increase Southern River Trade
@@ -1687,7 +1687,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = EJZ_ally_with_aeternus  }
+		prerequisite = { focus = EJZ_ally_with_aerternus  }
 	}
 
 	#Strike against Valora
@@ -1873,9 +1873,9 @@ focus_tree = {
 		prerequisite = { focus = EJZ_recruitment_ministry  }
 	}
 
-	#Claims in Aeternus
+	#Claims in Aerternus
 	focus = {
-		id = EJZ_claims_in_aeternus
+		id = EJZ_claims_in_aerternus
 		icon = GFX_goal_unknown
 		x = 8
 		y = 3
@@ -1884,7 +1884,7 @@ focus_tree = {
 			FOCUS_FILTER_ANNEXATION
 		}
 		prerequisite = { focus = EJZ_looking_outwards  }
-		mutually_exclusive = { focus = EJZ_nonaggression_pact_with_aeternus  }
+		mutually_exclusive = { focus = EJZ_nonaggression_pact_with_aerternus  }
 		completion_reward = {
 			country_event = {
 				id = ejznrosa.1
@@ -1905,7 +1905,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
-		prerequisite = { focus = EJZ_claims_in_aeternus  }
+		prerequisite = { focus = EJZ_claims_in_aerternus  }
 	}
 
 	#National Farming Production

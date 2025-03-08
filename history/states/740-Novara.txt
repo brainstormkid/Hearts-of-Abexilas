@@ -5,12 +5,13 @@ state={
 		1039 4726 12282 12312 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=4350000
         state_category = town
 	history={
 		owner = VAL
 		buildings = {
 		}
+		victory_points = { 1039 20 }
 		add_core_of = VAL
 	}
 }
