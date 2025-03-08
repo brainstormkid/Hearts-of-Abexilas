@@ -1,7 +1,5 @@
 ﻿capital = 808
 
-oob = "ORI"
-
 set_politics = {
 	ruling_party = absolutist
 	last_election = "1936.1.1"
@@ -23,7 +21,6 @@ create_country_leader = {
 	}
 }
 
-set_convoys = 25
 set_stability = 0.94
 set_war_support = 0.19
 

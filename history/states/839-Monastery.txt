@@ -4,25 +4,13 @@ state={
 	provinces={
 		676 1736 2729 3553 4791 6836 12873 12913 12994 12999 13002 13010 13017 13032 
 	}
-	resources = {
-		oil = 2
-		aluminium = 2
-		steel = 3
-		rubber = 1
-		tungsten = 1
-		chromium = 2
-	}
 	buildings_max_level_factor=1.000
         manpower=1
-        state_category = rural
+        state_category = town
 	history={
 		owner = ORI
 		buildings = {
-			infrastructure = 2
 		}
 		add_core_of = ORI
-		victory_points = {
-			12994 5
-		}
 	}
 }

@@ -4,28 +4,13 @@ state={
 	provinces={
 		631 12867 
 	}
-	resources = {
-		oil = 2
-		aluminium = 2
-		steel = 3
-		rubber = 1
-		tungsten = 1
-		chromium = 2
-	}
 	buildings_max_level_factor=1.000
-        manpower=150000
-        state_category = pastoral
+        manpower=1
+        state_category = town
 	history={
 		owner = GOR
 		buildings = {
-			infrastructure = 1
-			12867 = {
-				naval_base = 1
-			}
 		}
 		add_core_of = GOR
-		victory_points = {
-			12867 5
-		}
 	}
 }
