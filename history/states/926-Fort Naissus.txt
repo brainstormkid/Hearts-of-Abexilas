@@ -1,8 +1,8 @@
 state={
-	id=874
-	name="STATE_874"
+	id=926
+	name="STATE_926"
 	provinces={
-		1417 1479 6133 6928 13218 13257 13258 
+		6396 
 	}
 	resources = {
 		oil = 2
@@ -13,17 +13,19 @@ state={
 		chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=900000
-        state_category = town
+        manpower=300000
+        state_category = small_island
 	history={
-		owner = ROH
+		owner = THE
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
+			6396 = {
+				naval_base = 1
+			}
 		}
-		add_core_of = ROH
+		add_core_of = THE
 		victory_points = {
-			1479 5
+			6396 5
 		}
 	}
 }
