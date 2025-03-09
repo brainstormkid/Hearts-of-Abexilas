@@ -351,6 +351,23 @@ guiTypes = {
 			maxHeight = 20
 			Orientation = CENTER_DOWN #CUSTOM
 		}
+		
+		instantTextBoxType = {
+			name ="mod_label"
+			position = { x = -135 y = -700 } #CHANGED
+			#position = { x = 35 y = 396 }
+			textureFile = ""
+			font = "hoi_18mbs" #CHANGED
+			#font = "hoi_18b"
+			borderSize = {x = 0 y = 0}
+			text = "MENU_MOD_VERSION"	
+			pdx_tooltip = "MENU_MOD_DESC"
+			format = centre
+			maxWidth = 270 #CHANGED
+			#maxWidth = 250
+			maxHeight = 20
+			Orientation = CENTER_DOWN #CUSTOM
+		}
 
 		positionType = {
 			name = "version_label_subscription_position"
