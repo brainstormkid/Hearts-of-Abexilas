@@ -5,17 +5,22 @@ state={
 		3986 6332 11977 11988 12007 12053 12064 12080 
 	}
 	buildings_max_level_factor=1.000
-        manpower=3300000
-        state_category = town
+        manpower=6000000
+        state_category = city
 	history={
 		owner = FAV
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
+			industrial_complex = 1
 			arms_factory = 1
+			dockyard = 1
+			12064 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = FAV
 		victory_points = { 12064 50 }
-		victory_points = { 3986 20 }
+		victory_points = { 12007 5 }
+		victory_points = { 3986 5 }
 	}
 }
