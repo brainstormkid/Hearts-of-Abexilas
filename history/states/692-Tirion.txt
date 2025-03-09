@@ -1,6 +1,6 @@
 state={
 	id=692
-	name="Tirion"
+	name="STATE_692"
 	provinces={
 		3986 6332 11977 11988 12007 12053 12064 12080 
 	}
