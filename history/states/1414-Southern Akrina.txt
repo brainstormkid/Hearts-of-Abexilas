@@ -1,20 +1,27 @@
 state={
 	id=1414
-	name="Southern Akrina"
+	name="State_1414"
 	provinces={
 		11664 11704 5018 11724
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	manpower=600000
+		manpower=1500000
+		state_category = town
 	history = {
 		owner = VAL
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
-			arms_factory = 1
+			industrial_complex = 1
 		}
-		victory_points = { 11704 20 }
 		add_core_of = VAL
+		victory_points = { 11704 10 }
 	}
 }

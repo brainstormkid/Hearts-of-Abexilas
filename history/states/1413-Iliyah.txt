@@ -1,16 +1,26 @@
 state={
 	id=1413
-	name="Iliyah"
+	name="State_1413"
 	provinces={
 		11810 
 	}
-	manpower=0
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+		manpower=75000
+		state_category = pastoral
 	history = {
 		owner = VAL
-		buildings = {}
+		buildings = {
+			infrastructure = 1
+		}
 		add_core_of = VAL
 		add_core_of = AER
 	}
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
 }

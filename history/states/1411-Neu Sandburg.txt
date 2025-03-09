@@ -1,18 +1,29 @@
 state={
 	id=1411
-	name="Neu Sandburg"
+	name="State_1411"
 	provinces={
 		317 11893 11826 11795
 	}
-	manpower=1350000
-	state_category = rural
-	history = {
-		owner = VAL
-		buildings = {}
-		add_core_of = VAL
-		add_core_of = AER
-		victory_points = { 11795 20 }
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
+		manpower=1950000
+		state_category = town
+	history = {
+		owner = VAL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = VAL
+		add_core_of = AER
+		victory_points = { 11795 5 }
+		victory_points = { 317 5 }
+	}
 }
