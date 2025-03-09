@@ -126,6 +126,7 @@ guiTypes = {
 			name ="frontend_game_logo"
 			spriteType = "GFX_frontend_game_logo"
 			position = { x= 740 y = 100 }
+			pdx_tooltip = "MENU_GAME_LOGO"
 		}
 		
 	}
@@ -168,6 +169,7 @@ guiTypes = {
 			name ="frontend_dev_logo"
 			spriteType = "GFX_frontend_dev_logo"
 			position = { x= -1100 y = 100 }
+			pdx_tooltip = "MENU_DEV_LOGO"
 		}
 		
 		iconType =
@@ -175,6 +177,7 @@ guiTypes = {
 			name ="pdx_int_logo"
 			spriteType = "GFX_pdx_int_logo"
 			position = { x= -430 y = 130 }
+			pdx_tooltip = "MENU_ABEXILAS_LOGO"
 		}		
 		
 	}		
