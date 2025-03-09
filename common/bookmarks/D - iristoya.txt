@@ -18,8 +18,8 @@ bookmarks = {
         	}
         }
 		
-		DON = {
-            history = DON_DESC
+		VAL = {
+            history = VAL_DESC
         	ideology = absolutist
 
         	ideas={
@@ -73,8 +73,8 @@ bookmarks = {
         	}
         }
 		
-		THE = {
-            history = THE_DESC
+		DON = {
+            history = DON_DESC
         	ideology = absolutist
 
         	ideas={
