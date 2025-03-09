@@ -4,13 +4,29 @@ state={
 	provinces={
 		12402 12416
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=750000
         state_category = town
 	history={
 		owner = VAL
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			12416 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = VAL
+		victory_points = {
+			12416 5
+		}
 	}
 }
