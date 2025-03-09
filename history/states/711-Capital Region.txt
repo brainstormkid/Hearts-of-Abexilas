@@ -13,7 +13,7 @@ state={
 		chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=8100000
+        manpower=8400000
         state_category = metropolis
 	history={
 		owner = VAL
@@ -29,5 +29,6 @@ state={
 		add_core_of = VAL
 		victory_points = { 12208 50 }
 		victory_points = { 4993 5 }
+		victory_points = { 12128 5 }
 	}
 }
