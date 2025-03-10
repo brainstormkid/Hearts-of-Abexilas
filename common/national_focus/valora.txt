@@ -8,56 +8,29 @@ focus_tree = {
 			tag = VAL
 		}
 	}
-	#Matters of state
+	#Minority protection act
 	focus = {
-		id = VAL_matters_of_state
-		icon = GFX_goal_unknown
-		x = 1
-		y = 16
-		cost = 6
+		id = VAL_minority_protection_act
+		icon = GFX_goal_generic_defence
+		x = 2
+		y = 10
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		completion_reward = {
-			15o pol power
-		}
+		prerequisite = { focus = VAL_valoran_democratic_party_victory  }
 	}
 
 	#Novaran Crisis
 	focus = {
 		id = VAL_novaran_crisis
 		icon = GFX_focus_generic_support_the_left_right
-		x = 5
+		x = 7
 		y = 0
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
 		}
-		select_effect = {
-create_entity = { 
-  entity = entity_name
-  id = 123
-  var = var_name
-  x = 42
-  y = 21
-  z = 3
-  province = 123
-  state = 42
-  rotation = 1.2
-  scale = 10.0
-  min_zoom = 100.0
-  visible = scripted_trigger_name
-	add_stability = -50
-
-	add_war_support = -15
-
-	add_political_power = -100
-
-
-
-
-
-}
 	}
 
 	#Send in the army
@@ -112,8 +85,6 @@ create_entity = {
 		prerequisite = { focus = VAL_negotiate_with_protestors  }
 		completion_reward = {
 			add_political_power = 50
-			
-			
 		}
 	}
 
@@ -130,8 +101,6 @@ create_entity = {
 		prerequisite = { focus = VAL_negotiate_with_protestors  }
 		completion_reward = {
 			add_stability = 5
-			
-			
 		}
 	}
 
@@ -146,13 +115,10 @@ create_entity = {
 			FOCUS_FILTER_MEX_CHURCH_AUTHORITY
 		}
 		prerequisite = { focus = VAL_negotiate_with_protestors  }
-		select_effect = {
-add_war_support = -15
-
-add_stability = 10
-
-
-}
+		completion_reward = {
+			add_war_support = -15
+			add_stability = 10
+		}
 	}
 
 	#Religious compromise
@@ -166,11 +132,9 @@ add_stability = 10
 			FOCUS_FILTER_MEX_CHURCH_AUTHORITY
 		}
 		prerequisite = { focus = VAL_whithdraw_our_forces  focus = VAL_promises_of_autonomy  focus = VAL_calm_people_down  }
-		select_effect = {
-add_stability = 15
-
-
-}
+		completion_reward = {
+			add_stability = 15
+		}
 	}
 
 	#Crisis averted!
@@ -320,7 +284,7 @@ add_stability = 15
 	focus = {
 		id = VAL_keep_the_course_steady
 		icon = GFX_focus_hun_elect_a_king
-		x = 5
+		x = 7
 		y = 8
 		cost = 10
 		search_filters = {
@@ -334,7 +298,7 @@ add_stability = 15
 	focus = {
 		id = VAL_timocracy
 		icon = GFX_focus_AST_rats_tobruk
-		x = 6
+		x = 10
 		y = 9
 		cost = 10
 		search_filters = {
@@ -347,7 +311,7 @@ add_stability = 15
 	focus = {
 		id = VAL_govermental_support
 		icon = GFX_focus_generic_military_academy
-		x = 4
+		x = 8
 		y = 9
 		cost = 4
 		search_filters = {
@@ -360,7 +324,7 @@ add_stability = 15
 	focus = {
 		id = VAL_meritocracy
 		icon = GFX_VAL_meritocracy-645661
-		x = 5
+		x = 9
 		y = 10
 		cost = 10
 		search_filters = {
@@ -373,8 +337,8 @@ add_stability = 15
 	focus = {
 		id = VAL_valorareborn
 		icon = GFX_focus_BUL_cooperate_with_the_zveno
-		x = 5
-		y = 12
+		x = 9
+		y = 11
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_TFV_AUTONOMY
@@ -386,7 +350,7 @@ add_stability = 15
 	focus = {
 		id = VAL_valoran_democratic_party_victory
 		icon = GFX_VAL_valoran_democratic_party_victory-645471
-		x = 0
+		x = 1
 		y = 9
 		cost = 10
 		search_filters = {
@@ -399,7 +363,7 @@ add_stability = 15
 	focus = {
 		id = VAL_valoranpeoplespartyvictory
 		icon = GFX_focus_ger_great_red_menace
-		x = 2
+		x = 6
 		y = 9
 		cost = 6
 		search_filters = {
@@ -421,52 +385,17 @@ add_stability = 15
 		}
 	}
 
-	#Start MerkMart construction
+	#Rift in the party
 	focus = {
-		id = VAL_start_merkmart_construction
-		icon = GFX_goal_unknown
+		id = VAL_rift_in_the_party
+		icon = GFX_VAL_rift_in_the_party-645692
 		x = 1
-		y = 13
-		cost = 4
+		y = 11
+		cost = 2
 		search_filters = {
-			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_POLITICAL
 		}
-	}
-
-	#Start MerkMart construction
-	focus = {
-		id = VAL_start_merkmart_construction
-		icon = GFX_goal_unknown
-		x = 2
-		y = 13
-		cost = 4
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-	}
-
-	#Start MerkMart construction
-	focus = {
-		id = VAL_start_merkmart_construction
-		icon = GFX_goal_unknown
-		x = 1
-		y = 16
-		cost = 4
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-	}
-
-	#Start MerkMart construction
-	focus = {
-		id = VAL_start_merkmart_construction
-		icon = GFX_goal_unknown
-		x = 1
-		y = 17
-		cost = 4
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
+		prerequisite = { focus = VAL_minority_protection_act  } prerequisite = { focus = VAL_new_constitution  }
 	}
 
 	#Gexopolis buildup
@@ -671,8 +600,8 @@ add_stability = 15
 	focus = {
 		id = VAL_exaltra_buildup
 		icon = GFX_VAL_exaltra_buildup-645636
-		x = 41
-		y = 17
+		x = 21
+		y = 7
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -967,7 +896,7 @@ add_stability = 15
 	focus = {
 		id = VAL_deal_with_fascist_millitias
 		icon = GFX_focus_generic_anti_fascist_diplomacy
-		x = 7
+		x = 8
 		y = 7
 		cost = 10
 		search_filters = {
@@ -980,7 +909,7 @@ add_stability = 15
 	focus = {
 		id = VAL_a_new_valora
 		icon = GFX_VAL_a_new_valora-645922
-		x = 9
+		x = 10
 		y = 7
 		cost = 10
 		search_filters = {
@@ -994,7 +923,7 @@ add_stability = 15
 	focus = {
 		id = VAL_consolidate_our_reign
 		icon = GFX_VAL_consolidate_our_reign-262024
-		x = 9
+		x = 12
 		y = 8
 		cost = 10
 		search_filters = {
@@ -1007,7 +936,7 @@ add_stability = 15
 	focus = {
 		id = VAL_coronation
 		icon = GFX_VAL_coronation-645771
-		x = 9
+		x = 12
 		y = 9
 		cost = 7
 		search_filters = {
@@ -1020,7 +949,7 @@ add_stability = 15
 	focus = {
 		id = VAL_get_rid_of_lower_races
 		icon = GFX_focus_generic_strike_at_democracy1
-		x = 12
+		x = 17
 		y = 10
 		cost = 10
 		search_filters = {
@@ -1033,7 +962,7 @@ add_stability = 15
 	focus = {
 		id = VAL_reform_the_administration
 		icon = GFX_VAL_reform_the_administration-645939
-		x = 8
+		x = 13
 		y = 10
 		cost = 10
 		search_filters = {
@@ -1046,7 +975,7 @@ add_stability = 15
 	focus = {
 		id = VAL_centralize_the_system
 		icon = GFX_VAL_centralize_the_system-646348
-		x = 7
+		x = 12
 		y = 11
 		cost = 10
 		search_filters = {
@@ -1059,7 +988,7 @@ add_stability = 15
 	focus = {
 		id = VAL_organise_work_programs
 		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
-		x = 9
+		x = 14
 		y = 11
 		cost = 7
 		search_filters = {
@@ -1072,7 +1001,7 @@ add_stability = 15
 	focus = {
 		id = VAL_make_mertekai_a_metropolis
 		icon = GFX_goal_generic_fortify_city
-		x = 9
+		x = 14
 		y = 12
 		cost = 10
 		search_filters = {
@@ -1085,7 +1014,7 @@ add_stability = 15
 	focus = {
 		id = VAL_create_a_proper_tax_system
 		icon = GFX_VAL_create_a_proper_tax_system-645474
-		x = 7
+		x = 12
 		y = 12
 		cost = 10
 		search_filters = {
@@ -1098,7 +1027,7 @@ add_stability = 15
 	focus = {
 		id = VAL_economyworthyofvalora
 		icon = GFX_VAL_economyworthyofvalora-646021
-		x = 8
+		x = 13
 		y = 13
 		cost = 10
 		search_filters = {
@@ -1111,7 +1040,7 @@ add_stability = 15
 	focus = {
 		id = VAL_education
 		icon = GFX_VAL_education-646119
-		x = 13
+		x = 18
 		y = 11
 		cost = 10
 		search_filters = {
@@ -1124,7 +1053,7 @@ add_stability = 15
 	focus = {
 		id = VAL_culture_of_xenophobia
 		icon = GFX_focus_AST_never_gallipoli
-		x = 13
+		x = 18
 		y = 12
 		cost = 10
 		search_filters = {
@@ -1137,7 +1066,7 @@ add_stability = 15
 	focus = {
 		id = VAL_merge_church_and_the_state
 		icon = GFX_focus_GRE_an_orthodox_state
-		x = 11
+		x = 16
 		y = 11
 		cost = 10
 		search_filters = {
@@ -1150,7 +1079,7 @@ add_stability = 15
 	focus = {
 		id = VAL_establish_inquisitorial_units
 		icon = GFX_VAL_establish_inquisitorial_units-646142
-		x = 11
+		x = 16
 		y = 12
 		cost = 10
 		search_filters = {
@@ -1163,7 +1092,7 @@ add_stability = 15
 	focus = {
 		id = VAL_loyality_to_the_emperor
 		icon = GFX_VAL_loyality_to_the_emperor-646002
-		x = 12
+		x = 17
 		y = 13
 		cost = 10
 		search_filters = {
@@ -1176,13 +1105,290 @@ add_stability = 15
 	focus = {
 		id = VAL_the_new_order
 		icon = GFX_VAL_the_new_order-646048
-		x = 10
+		x = 15
 		y = 14
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VAL_loyality_to_the_emperor  } prerequisite = { focus = VAL_economyworthyofvalora  }
+	}
+
+	#New constitution
+	focus = {
+		id = VAL_new_constitution
+		icon = GFX_VAL_new_constitution-427
+		x = 0
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_valoran_democratic_party_victory  }
+	}
+
+	#Segregation
+	focus = {
+		id = VAL_segregation
+		icon = GFX_VAL_segregation-280
+		x = 2
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_rift_in_the_party  }
+	}
+
+	#One market
+	focus = {
+		id = VAL_one_market
+		icon = GFX_VAL_one_market-646348
+		x = 0
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_desegregation  focus = VAL_segregation  }
+	}
+
+	#Desegregation
+	focus = {
+		id = VAL_desegregation
+		icon = GFX_focus_BUL_balkan_federation_of_socialist_republics
+		x = 0
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_rift_in_the_party  }
+		mutually_exclusive = { focus = VAL_segregation  }
+	}
+
+	#Many markets
+	focus = {
+		id = VAL_many_markets
+		icon = GFX_VAL_many_markets-646349
+		x = 2
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_segregation  focus = VAL_desegregation  }
+		mutually_exclusive = { focus = VAL_one_market  }
+	}
+
+	#Free elections
+	focus = {
+		id = VAL_free_elections
+		icon = GFX_VAL_free_elections-645614
+		x = 0
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_many_markets  focus = VAL_one_market  }
+	}
+
+	#Managed democracy
+	focus = {
+		id = VAL_managed_democracy
+		icon = GFX_focus_usa_voter_registration_act
+		x = 2
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_many_markets  focus = VAL_one_market  }
+		mutually_exclusive = { focus = VAL_free_elections  }
+	}
+
+	#A free and fair Valora
+	focus = {
+		id = VAL_a_free_and_fair_valora
+		icon = GFX_focus_usa_recruit_the_free_corps
+		x = 1
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_free_elections  focus = VAL_managed_democracy  }
+	}
+
+	#Spread that freedom!
+	focus = {
+		id = VAL_spreadthatfreedom
+		icon = GFX_VAL_spreadthatfreedom-645900
+		x = 1
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = VAL_a_free_and_fair_valora  }
+	}
+
+	#Xeroist victory
+	focus = {
+		id = VAL_xeroist_victory
+		icon = GFX_VAL_xeroist_victory-426
+		x = 4
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_valoranpeoplespartyvictory  }
+	}
+
+	#Anarchist takeover
+	focus = {
+		id = VAL_anarchist_takeover
+		icon = GFX_VAL_anarchist_takeover-645837
+		x = 7
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_valoranpeoplespartyvictory  }
+		mutually_exclusive = { focus = VAL_xeroist_victory  }
+	}
+
+	#Start economic reforms
+	focus = {
+		id = VAL_start_economic_reforms
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 3
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_xeroist_victory  }
+	}
+
+	#Uphold democratic values
+	focus = {
+		id = VAL_uphold_democratic_values
+		icon = GFX_VAL_uphold_democratic_values-645836
+		x = 5
+		y = 11
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_xeroist_victory  }
+	}
+
+	#Create the internal market
+	focus = {
+		id = VAL_create_the_internal_market
+		icon = GFX_goal_generic_war_with_comintern
+		x = 4
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_uphold_democratic_values  } prerequisite = { focus = VAL_start_economic_reforms  }
+	}
+
+	#Join the ASI
+	focus = {
+		id = VAL_join_the_asi
+		icon = GFX_VAL_join_the_asi-788544
+		x = 4
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_create_the_internal_market  }
+	}
+
+	#Central planning
+	focus = {
+		id = VAL_central_planning
+		icon = GFX_goal_generic_production2
+		x = 4
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_join_the_asi  }
+	}
+
+	#Unite the party
+	focus = {
+		id = VAL_unite_the_party
+		icon = GFX_VAL_unite_the_party-645539
+		x = 3
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_central_planning  }
+	}
+
+	#Finalize the economic reforms
+	focus = {
+		id = VAL_finalize_the_economic_reforms
+		icon = GFX_VAL_finalize_the_economic_reforms-645848
+		x = 5
+		y = 15
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VAL_central_planning  }
+	}
+
+	#Unite Gexas
+	focus = {
+		id = VAL_unite_gexas
+		icon = GFX_focus_ger_great_red_menace
+		x = 4
+		y = 16
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = VAL_unite_the_party  } prerequisite = { focus = VAL_finalize_the_economic_reforms  }
+	}
+
+	#March into Gexico
+	focus = {
+		id = VAL_march_into_gexico
+		icon = GFX_VAL_march_into_gexico-646035
+		x = 4
+		y = 17
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = VAL_unite_gexas  }
+	}
+
+	#Proclaim the people's union of Gexia
+	focus = {
+		id = VAL_proclaimthepeoplesunionofgexia
+		icon = GFX_VAL_proclaimthepeoplesunionofgexia-262108
+		x = 4
+		y = 18
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VAL_march_into_gexico  }
 	}
 
 }
