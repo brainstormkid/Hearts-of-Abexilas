@@ -1,9 +1,9 @@
 add_namespace = ejznrosa
 
-###  in Aerternus ###
+###  Our Claims in Aerternus ###
 country_event = {
 	id = ejznrosa.1
-	title = "Our  in Aerternus"
+	title = "Our Claims in Aerternus"
 	desc = ejznrosa.1.d
 	picture = "GFX_ejznrosa_event_1_image"
 	
@@ -14,11 +14,15 @@ country_event = {
 	ai_chance = { factor = 60 }
 	transfer_state = 1413
 	transfer_state = 1412
+	add_state_claim = 1413
+	add_state_claim = 1412
 	}
 	option =  { # Claim both Iliyah and Sternahagen
 	name = "Claim only Sternahagen"
 	ai_chance = { factor = 40 }
-	transfer_state = 1412}
+	transfer_state = 1412
+	add_state_claim = 1412
+}
 }
 ### Non-Aggression Pact with Valora ###
 country_event = {

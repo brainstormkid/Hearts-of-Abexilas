@@ -972,6 +972,27 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_drafting_the_constitution  }
 		mutually_exclusive = {focus = EJZ_abolish_the_two_dukes_system}
+		completion_reward = {
+			add_ideas = {
+				EJZ_continue_the_status_quo
+			}
+			add_popularity = {
+				ideology = conservatist
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = liberalist
+				popularity = 0.025
+			}
+			add_popularity = {
+				ideology = revisionist
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = centrist
+				popularity = 0.025
+			}
+		}
 	}
 
 	#Abolish the Two Dukes System
@@ -986,6 +1007,19 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_drafting_the_constitution  }
 		mutually_exclusive = { focus = EJZ_continue_the_status_quo  }
+		completion_reward = {
+			add_ideas = {
+				EJZ_abolished_the_two_dukes_system
+			}
+			add_popularity = {
+				ideology = monarchist
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = imperialist
+				popularity = 0.05
+			}
+		}
 
 	}
 
@@ -1648,6 +1682,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_nonaggression_pact_with_valora  focus = EJZ_nonaggression_pact_with_aerternus  }
 		mutually_exclusive = {focus = EJZ_ally_with_aerternus focus = EJZ_ally_with_valora}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.10
+			add_war_support = -0.15
+		}
 	}
 
 	#Embargo Valora
