@@ -25,9 +25,12 @@ focus_tree = {
 	focus = {
 		id = VAL_novaran_crisis
 		icon = GFX_focus_generic_support_the_left_right
-		x = 7
+		x = 5
 		y = 0
 		cost = 1
+		available = {
+			always = no
+		}
 		search_filters = {
 			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
 		}
@@ -44,6 +47,7 @@ focus_tree = {
 			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
 		}
 		prerequisite = { focus = VAL_novaran_crisis  }
+		mutually_exclusive = { focus = VAL_negotiate_with_protestors  }
 	}
 
 	#Negotiate with protestors
@@ -57,6 +61,12 @@ focus_tree = {
 		}
 		prerequisite = { focus = VAL_novaran_crisis  }
 		mutually_exclusive = { focus = VAL_send_in_the_army  }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = novaran_rebellion_1
+				add_idea = novaran_rebellion_2
+			}
+		}
 	}
 
 	#Provisional goverment

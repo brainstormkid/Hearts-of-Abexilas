@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-	   novaran_rebellion = {
+	   novaran_rebellion_1 = {
 	     	allowed = {
 				always = yes
 			}
@@ -18,6 +18,27 @@ ideas = {
 				stability_factor = -0.5
 				political_power_gain = -0.25
 				industrial_capacity_factory = -0.3
+			}
+	   
+	    }
+		novaran_rebellion_2 = {
+	     	allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_novaran_rebellion
+
+			
+			modifier = {
+				stability_factor = -0.4
+				political_power_gain = -0.2
+				industrial_capacity_factory = -0.25
 			}
 	   
 	    }

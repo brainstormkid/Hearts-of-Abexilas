@@ -13,9 +13,12 @@ country_event = {
 		name = valora.1.a
 		ai_chance = { factor = 1 }
 		add_political_power = -100
-		add_ideas = novaran_rebellion
+		add_ideas = novaran_rebellion_1
 		740 = {
 			set_demilitarized_zone = yes
+		}
+		hidden_effect = {
+			complete_national_focus = VAL_novaran_crisis
 		}
 	}
 }
