@@ -190,6 +190,16 @@ l_english:
  MAR_liberalist_party:0 "RGP"
  MAR_liberalist_party_long:0 "Red Gold Party"
  
+ #Ejznrosa
+ EJZ_monarchist_party:0 "House Av Ejznhjart"
+ EJZ_monarchist_party_long:0 "House Av Ejznhjart"
+ EJZ_imperialist_party:0 "House Av Ejznhjart"
+ EJZ_imperialist_party_long:0 "House Av Ejznhjart"
+ EJZ_revisionist_party:0 "DSU"
+ EJZ_revisionist_party_long:0 "Democratic-Socialist Unity Front"
+ EJZ_conservatist_party:0 "NEP"
+ EJZ_conservatist_party_long:0 "New Ejznrosii Party"
+ 
 
  # Custom Ideologies
  # Authoritarian
