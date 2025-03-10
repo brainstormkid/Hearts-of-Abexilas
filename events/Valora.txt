@@ -9,4 +9,9 @@ country_event = {
 	is_triggered_only = yes
 
 	picture = GFX_novaran_crisis
+	option = {
+		name = valora.1.a
+		ai_chance = { factor = 1 }
+		add_political_power = -100
+	}
 }
