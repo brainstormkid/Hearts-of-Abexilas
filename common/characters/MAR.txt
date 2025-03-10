@@ -1,0 +1,14 @@
+characters={
+	MAR_mark_character={
+		name="Mark Axpule"
+		portraits={
+			civilian={
+				large = "GFX_portrait_MAR_mark_large"	
+			}
+		}
+		country_leader={
+			ideology=conservatist_subtype
+			expire="1965.1.1.1"
+		}
+	}
+}
