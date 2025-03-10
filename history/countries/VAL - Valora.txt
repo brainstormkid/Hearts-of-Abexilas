@@ -34,9 +34,9 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "?"
-	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/AEZ/Panda.dds"
+	name = "The Tetrarchy"
+	desc = "POLITICS_TETRARCHY_DESC"
+	#picture = "gfx/leaders/VAL/Tetrarchy.dds"
 	expire = "1965.1.1"
 	ideology = absolutist_subtype
 	traits = {
