@@ -9,7 +9,24 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	absolutist = 100
+	absolutist = 67
+    monarchist = 0
+    theocratist = 0
+    accelerationist = 0
+
+    anarchist = 3
+    xeroist = 5
+    radical_socialist = 0
+    revisionist = 0
+
+    libertarianist = 0
+    centrist = 0
+    liberalist = 11
+    progressivist = 0
+    conservatist = 9
+
+    imperialist = 0
+    radical_nationalist = 5
 }
 
 add_ideas = {
@@ -27,4 +44,6 @@ create_country_leader = {
 	}
 }
 
+set_stability = 0.30
+set_war_support = 0.55
 set_convoys = 45
