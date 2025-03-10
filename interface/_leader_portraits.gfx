@@ -241,20 +241,16 @@ spriteTypes = {
 		name = "GFX_portrait_EJZ_gustav_ejznhjart_large"
 		texturefile = "gfx/leaders/EJZ/portrait_large_gustav_ejznhjart.dds"
 	}
-	spriteType = {
-		name = "GFX_portrait_EJZ_gustav_ejznhjart_small"
-		texturefile = "gfx/leaders/EJZ/portrait_small_gustav_ejznhjart.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_EJZ_portrait_Hyde_de_Wataved_small"
-		texturefile = "gfx/leaders/EJZ/portrait_small_Hyde_de_Wataved.dds"
-	}
-
-
 	
 	### VEA	
 	spriteType = {
 		name = "GFX_portrait_VEA_zeno_small"
 		texturefile = "GFX/interface/ideas/idea_VEA_zeno_small.dds"
+	}
+
+	### MAR
+	spriteType = {
+		name = "GFX_portrait_MAR_mark_large"
+		texturefile = "GFX/leaders/MAR/mark.dds"
 	}
 }
