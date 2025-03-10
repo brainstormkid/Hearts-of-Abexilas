@@ -1,0 +1,24 @@
+state={
+	id=1415
+	name="STATE_1415"
+	provinces={
+		1234 2643 12012 11986 6694 11933 11911 11921
+	}
+	manpower=1450000
+	state_category = large_city
+	buildings_max_level_factor=1.000
+	resources = {
+		oil = 3
+		steel = 5
+	}
+
+	history = {
+		owner = EJZ
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = EJZ
+	}
+}

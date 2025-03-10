@@ -2,16 +2,16 @@ state={
 	id=659
 	name="STATE_659"
 	provinces={
-		1234 2643 2831 3997 4403 5056 6694 11911 11921 11933 11986 12012 12071 
+		2831 3997 4403 5056 11986 12071 
 	}
 	buildings_max_level_factor=1.000
-        manpower= 6900000
+        manpower= 5450000
         state_category = metropolis
 
 		resources = {
         oil = 10
         chromium = 5
-		steel = 32
+		steel = 27
 		tungsten = 9
     }
 
