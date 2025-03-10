@@ -37,6 +37,20 @@ create_equipment_variant = {
 	}
 }
 
+recruit_character = MAR_mark_character
+
+add_country_leader_role = {
+ 	character = MAR_mark_character
+  	promote_leader = yes
+  	country_leader = {
+    		ideology = conservatist_subtype
+    		expire = "1965.1.1.1"
+    		traits = {
+      			great_architect
+    		}
+  	}
+}
+
 set_technology = {
 	early_battleship = 1
 	early_destroyer = 1
