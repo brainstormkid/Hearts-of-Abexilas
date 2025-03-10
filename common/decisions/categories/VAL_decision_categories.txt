@@ -1,0 +1,13 @@
+#################
+#### Valora ####
+#################
+
+VAL_Novaran_Crisis_Category = {
+	icon = generic_crisis
+
+	allowed = {
+		original_tag = VAL
+	}
+	priority = 10
+}
+

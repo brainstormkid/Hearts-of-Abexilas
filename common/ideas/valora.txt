@@ -1,0 +1,25 @@
+ideas = {
+	country = {
+	   novaran_rebellion = {
+	     	allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_novaran_rebellion
+
+			
+			modifier = {
+				stability_factor = -0.5
+				political_power_gain = -0.25
+				industrial_capacity_factory = -0.3
+			}
+	   
+	    }
+	}
+}
