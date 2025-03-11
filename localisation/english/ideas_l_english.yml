@@ -26,7 +26,16 @@
 # Valora Ideas
  novaran_rebellion_1:0 "Novaran Rebellion"
  novaran_rebellion_2:0 "Novaran Rebellion"
- novaran_rebellion_desc:0 "The People of Novara have rebelled against Valora and have seized the city of Novara and the surronding area"
+ novaran_rebellion_3:0 "Novaran Rebellion"
+ novaran_rebellion_4:0 "Novaran Rebellion"
+ novaran_rebellion_5:0 "Novaran Rebellion"
+ novaran_rebellion_6:0 "Novaran Rebellion"
+ novaran_rebellion_1_desc:0 "The People of Novara have rebelled against Valora and have seized the city of Novara and the surronding area"
+ novaran_rebellion_2_desc:0 "The People of Novara have rebelled against Valora and have seized the city of Novara and the surronding area"
+ novaran_rebellion_3_desc:0 "The People of Novara have rebelled against Valora and have seized the city of Novara and the surronding area"
+ novaran_rebellion_4_desc:0 "The People of Novara have rebelled against Valora and have seized the city of Novara and the surronding area"
+ novaran_rebellion_5_desc:0 "The People of Novara have rebelled against Valora and have seized the city of Novara and the surronding area"
+ novaran_rebellion_6_desc:0 "The People of Novara have rebelled against Valora and have seized the city of Novara and the surronding area"
 
 # Ertcof ideas
  high_immigration:0 "High Immigration"

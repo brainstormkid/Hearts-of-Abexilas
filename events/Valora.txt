@@ -22,3 +22,18 @@ country_event = {
 		}
 	}
 }
+
+#Peace in Novara
+country_event = {
+	id = valora.2
+	title = valora.2.t
+	desc = valora.2.d
+	
+	is_triggered_only = yes
+
+	picture = GFX_novaran_crisis
+	option = {
+		name = valora.2.a
+		add_political_power = 100
+	}
+}

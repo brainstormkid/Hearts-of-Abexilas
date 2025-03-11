@@ -95,6 +95,30 @@ focus_tree = {
 		prerequisite = { focus = VAL_negotiate_with_protestors  }
 		completion_reward = {
 			add_political_power = 50
+			if = {
+				limit = { 
+					has_idea = novaran_rebellion_2
+				}
+				swap_ideas = {
+					remove_idea = novaran_rebellion_2
+					add_idea = novaran_rebellion_3
+				}
+			}
+			else_if = {
+				limit = { 
+					has_idea = novaran_rebellion_3
+				}
+				swap_ideas = {
+					remove_idea = novaran_rebellion_3
+					add_idea = novaran_rebellion_4
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = novaran_rebellion_4
+					add_idea = novaran_rebellion_5
+				}
+			}
 		}
 	}
 
@@ -110,7 +134,31 @@ focus_tree = {
 		}
 		prerequisite = { focus = VAL_negotiate_with_protestors  }
 		completion_reward = {
-			add_stability = 5
+			add_stability = 0.1
+			if = {
+				limit = { 
+					has_idea = novaran_rebellion_2
+				}
+				swap_ideas = {
+					remove_idea = novaran_rebellion_2
+					add_idea = novaran_rebellion_3
+				}
+			}
+			else_if = {
+				limit = { 
+					has_idea = novaran_rebellion_3
+				}
+				swap_ideas = {
+					remove_idea = novaran_rebellion_3
+					add_idea = novaran_rebellion_4
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = novaran_rebellion_4
+					add_idea = novaran_rebellion_5
+				}
+			}
 		}
 	}
 
@@ -126,8 +174,31 @@ focus_tree = {
 		}
 		prerequisite = { focus = VAL_negotiate_with_protestors  }
 		completion_reward = {
-			add_war_support = -15
-			add_stability = 10
+			add_manpower = -6500
+			if = {
+				limit = { 
+					has_idea = novaran_rebellion_2
+				}
+				swap_ideas = {
+					remove_idea = novaran_rebellion_2
+					add_idea = novaran_rebellion_3
+				}
+			}
+			else_if = {
+				limit = { 
+					has_idea = novaran_rebellion_3
+				}
+				swap_ideas = {
+					remove_idea = novaran_rebellion_3
+					add_idea = novaran_rebellion_4
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = novaran_rebellion_4
+					add_idea = novaran_rebellion_5
+				}
+			}
 		}
 	}
 
@@ -143,7 +214,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = VAL_whithdraw_our_forces  focus = VAL_promises_of_autonomy  focus = VAL_calm_people_down  }
 		completion_reward = {
-			add_stability = 15
+			add_political_power = 100
+			swap_ideas = {
+				remove_idea = novaran_rebellion_5
+				add_idea = novaran_rebellion_6
+			}
 		}
 	}
 
@@ -158,6 +233,10 @@ focus_tree = {
 			FOCUS_FILTER_STABILITY
 		}
 		prerequisite = { focus = VAL_religious_compromise  }
+		completion_reward = {
+			country_event = { id = valora.2 }
+			remove_ideas = novaran_rebellion_6
+		}
 	}
 
 	#Mobilise

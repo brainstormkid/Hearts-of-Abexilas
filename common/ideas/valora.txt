@@ -1,17 +1,8 @@
 ideas = {
 	country = {
 	   novaran_rebellion_1 = {
-	     	allowed = {
-				always = yes
-			}
 
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = GFX_idea_novaran_rebellion
+			picture = novaran_rebellion
 
 			
 			modifier = {
@@ -22,23 +13,60 @@ ideas = {
 	   
 	    }
 		novaran_rebellion_2 = {
-	     	allowed = {
-				always = yes
-			}
 
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = GFX_idea_novaran_rebellion
+			picture = novaran_rebellion
 
 			
 			modifier = {
 				stability_factor = -0.4
 				political_power_gain = -0.2
 				industrial_capacity_factory = -0.25
+			}
+	   
+	    }
+		novaran_rebellion_3 = {
+
+			picture = novaran_rebellion
+
+			
+			modifier = {
+				stability_factor = -0.35
+				political_power_gain = -0.2
+				industrial_capacity_factory = -0.2
+			}
+	   
+	    }
+		novaran_rebellion_4 = {
+
+			picture = novaran_rebellion
+
+			
+			modifier = {
+				stability_factor = -0.3
+				political_power_gain = -0.15
+				industrial_capacity_factory = -0.15
+			}
+	   
+	    }
+		novaran_rebellion_5 = {
+
+			picture = novaran_rebellion
+
+			
+			modifier = {
+				stability_factor = -0.2
+				political_power_gain = -0.1
+			}
+	   
+	    }
+		novaran_rebellion_6 = {
+
+			picture = novaran_rebellion
+
+			
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.05
 			}
 	   
 	    }
