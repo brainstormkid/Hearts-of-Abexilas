@@ -323,6 +323,6 @@ spriteTypes = {
 	}
 	SpriteType = { 
 		name = "GFX_idea_novaran_rebellion"
-		texturefile = "gfx/interface/ideas/novaran_rebellion.dds"
+		texturefile = "gfx/interface/ideas/idea_novaran_rebellion.dds"
 	}
  }
