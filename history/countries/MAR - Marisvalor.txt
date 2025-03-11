@@ -38,6 +38,8 @@ create_equipment_variant = {
 }
 
 recruit_character = MAR_mark_character
+recruit_character = MAR_edel_character
+recruit_character = MAR_maybe_character
 
 add_country_leader_role = {
  	character = MAR_mark_character
@@ -47,6 +49,20 @@ add_country_leader_role = {
     		expire = "1965.1.1.1"
     		traits = {
       			great_architect
+			conservative_grandee
+    		}
+  	}
+}
+
+add_country_leader_role = {
+ 	character = MAR_edel_character
+  	promote_leader = yes
+  	country_leader = {
+    		ideology = monarchist_subtype
+    		expire = "1965.1.1.1"
+    		traits = {
+      			great_war_hero
+			rearmer
     		}
   	}
 }
