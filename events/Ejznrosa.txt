@@ -303,5 +303,61 @@ country_event = {
 		uncomplete_national_focus = {
 			focus = EJZ_ally_with_aerternus
 		}
+    }   
+}
+
+#State Newspaper
+
+country_event = {
+	id = ejznrosa.14
+	hours = 12
+    random_hours = 6
+    days = 1
+	title = "State of the Newspaper"
+	desc = ejznrosa.14.d
+	picture = "GFX_ejznrosa_event_1_image"
+	
+	is_triggered_only = yes
+
+	option = { #Enforce Nationalist Ideas
+	name = "Enforce Nationalist Ideas"
+	ai_chance = { factor = 55 }
+	add_popularity ={
+		ideology = monarchist
+		popularity = 0.05
+	}
+	add_popularity ={
+		ideology = imperialist
+		popularity = 0.05
+	}
+	add_popularity ={
+		ideology = radical_nationalist
+		popularity = 0.025
+	}
+	add_stability = 0.05
+	add_political_power = 25
+
+    }  
+	option = { #Encourage Political Freedom
+	name = "Encourage Political Freedom"
+	ai_chance = { factor = 45 }
+	add_popularity ={
+		ideology = conservatist
+		popularity = 0.05
+	}
+	add_popularity ={
+		ideology = revisionist
+		popularity = 0.05
+	}
+	add_popularity ={
+		ideology = liberalist
+		popularity = 0.025
+	}
+	add_popularity ={
+		ideology = centrist
+		popularity = 0.025
+	}
+	add_stability = -0.05
+	add_political_power = 40
     }    
 }

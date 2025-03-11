@@ -1506,6 +1506,10 @@ focus_tree = {
 			FOCUS_FILTER_STABILITY
 		}
 		prerequisite = { focus = EJZ_continue_the_status_quo  focus = EJZ_abolish_the_two_dukes_system  }
+		completion_reward = {
+			country_event = { id = ejznrosa.14}
+			add_stability = 0.05
+		}
 	}
 
 	#Bolster Nationalism
