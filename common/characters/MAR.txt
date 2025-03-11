@@ -11,4 +11,43 @@ characters={
 			expire="1965.1.1.1"
 		}
 	}
+	MAR_edel_character={
+		name="Edel III"
+		portraits={
+			civilian={
+				large = "GFX_portrait_MAR_edel_large"	
+			}
+		}
+		country_leader={
+			ideology=monarchist_subtype
+			traits = { great_war_hero rearmer }
+			expire="1965.1.1.1"
+		}
+		corps_commander={
+			traits={  brilliant_strategist infantry_officer }
+			skill=7
+			attack_skill=6
+			defense_skill=6
+			planning_skill=7
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+	MAR_maybe_character={
+		name="Uiliyam Rozehveltie Mersvela"
+		portraits={
+			civilian={
+				large = "GFX_portrait_MAR_maybe_large"	
+			}
+		}
+		navy_leader={
+			traits={ navy_career_officer superior_tactician }
+			skill=8
+			attack_skill=8
+			defense_skill=6
+			maneuvering_skill=7
+			coordination_skill=5
+			legacy_id=0
+		}
+	}
 }
