@@ -8,6 +8,7 @@ characters={
 		}
 		country_leader={
 			ideology=conservatist_subtype
+			traits = { great_architect conservative_grandee appeaser }
 			expire="1965.1.1.1"
 		}
 	}
@@ -50,4 +51,34 @@ characters={
 			legacy_id=0
 		}
 	}
+	MAR_footie_character={
+		name="Footielego"
+		portraits={
+			civilian={
+				large = "GFX_portrait_MAR_footie_large"	
+			}
+		}
+		field_marshal={
+			traits={ offensive_doctrine cavalry_officer charismatic }
+			skill=6
+			attack_skill=6
+			defense_skill=5
+			planning_skill=6
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+	MAR_hebi_character={
+		name="Vorianiil 'Halfhand' Direnni"
+		portraits={
+			civilian={
+				large = "GFX_portrait_MAR_footie_large"	
+			}
+		}
+		country_leader={
+			ideology=liberalist_subtype
+			traits = {  }
+			expire="1965.1.1.1"
+		}
+	}		
 }
