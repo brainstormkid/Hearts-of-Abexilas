@@ -1616,7 +1616,7 @@ focus_tree = {
 	#Non-Aggression Pact with Aerternus
 	focus = {
 		id = EJZ_nonaggression_pact_with_aerternus
-		icon = GFX_goal_unknown
+		icon = GFX_EJZ_nonagression_pact_with_aerternus
 		x = 5
 		y = 3
 		cost = 5`
@@ -1655,7 +1655,7 @@ focus_tree = {
 	#Ally with Aerternus
 	focus = {
 		id = EJZ_ally_with_aerternus
-		icon = GFX_goal_unknown
+		icon = GFX_EJZ_ally_with_aerternus
 		x = 6
 		y = 4
 		cost = 5
@@ -1716,7 +1716,7 @@ focus_tree = {
 	#Embargo Aerternus
 	focus = {
 		id = EJZ_embargo_aerternus
-		icon = GFX_goal_unknown
+		icon = GFX_EJZ_embargo_aerternus
 		x = 2
 		y = 6
 		cost = 5
