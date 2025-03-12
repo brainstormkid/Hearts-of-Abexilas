@@ -245,8 +245,16 @@ spriteTypes = {
  		name = "GFX_portrait_EJZ_gustav_ejznhjart_small"
  		texturefile = "gfx/leaders/EJZ/portrait_small_gustav_ejznhjart.dds"
  	}
+	 spriteType = {
+		name = "GFX_portrait_EJZ_karl_ejznhjart_large"
+		texturefile = "gfx/leaders/EJZ/portrait_large_karl_ejznhjart.dds"
+	}
+	spriteType = {
+ 		name = "GFX_portrait_EJZ_karl_ejznhjart_small"
+ 		texturefile = "gfx/leaders/EJZ/portrait_small_karl_ejznhjart.dds"
+	}
  	spriteType = {
- 		name = "GFX_portrait_EJZ_portrait_Hyde_de_Wataved_small"
+ 		name = "GFX_portrait_EJZ_Hyde_de_Wataved_small"
  		texturefile = "gfx/leaders/EJZ/portrait_small_Hyde_de_Wataved.dds"
  	}
 	

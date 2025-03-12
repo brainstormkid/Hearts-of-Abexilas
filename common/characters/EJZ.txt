@@ -44,11 +44,56 @@ characters={
             }
         }
     }
+    EJZ_karl={
+        name="Karl av Ejznhjart"
+        portraits={
+            civilian={
+                large="GFX_portrait_EJZ_karl_ejznhjart_large"
+                small="GFX_portrait_EJZ_karl_ejznhjart_small"
+            }
+        }
+        country_leader={
+            ideology=monarchist_subtype
+            traits= { inexperienced_monarch }
+            expire="1965.1.1.1"
+        }
+        advisor={
+            cost = 150
+            slot = political_advisor 
+            ledger = civilian [others are e.g. army]
+            allowed = {
+                original_tag = EJZ
+            }
+            available = {
+                if = {
+                    has_completed_focus = EJZ_abolish_the_two_dukes_system
+                    }
+                    NOT = {
+                        has_country_leader = {
+                            character = EJZ_karl
+                            ruling_only = yes
+                        }
+                    }
+                    NOT = {
+                        has_government = xeroist
+                        has_government = radical_socialist
+                        has_government = revisionist
+                        has_government = anarchist
+                    }
+                }
+            }
+            traits = { true_nationalist }
+            ai_will_do = {
+                factor = 1.0
+            }
+
+        }  
+    }
     EJZ_Hyde_de_Wataved={
         name = "Hyde De Wataved"
         portraits={
             civilian = {
-                small=GFX_portrait_EJZ_portrait_Hyde_de_Wataved_small
+                small= "GFX_portrait_EJZ_Hyde_de_Wataved_small"
             }
         }
         advisor={
@@ -58,10 +103,12 @@ characters={
             allowed = {
                 orginal_tag = EJZ
             }
-            traits = { radical_engineer }
+            traits = { great_architect }
             ai_will_do = {
                 factor = 1.0
             }
         }
     }
 }
+
+

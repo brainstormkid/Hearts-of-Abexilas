@@ -68,12 +68,24 @@ set_popularities = {
 	radical_socialist = 2
 }
 recruit_character = EJZ_gus
+recruit_character = EJZ_karl
 recruit_character = EJZ_Hyde_de_Wataved
 
 create_country_leader = {
 	name = "Gustav av Ejznhjart"
-	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	desc = "EJZ_Gustav"
 	#picture = "gfx/leaders/EJZ/portrait_large_gustav_ejznhjart.dds"
+	expire = "1965.1.1"
+	ideology = monarchist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Karl av Ejznhjart"
+	desc = "EJZ_karl"
+	#picture = "gfx/leaders/EJZ/portrait_large_karl_ejznhjart.dds"
 	expire = "1965.1.1"
 	ideology = monarchist
 	traits = {

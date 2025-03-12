@@ -384,7 +384,17 @@ focus_tree = {
 		mutually_exclusive = {focus = EJZ_gustav_gustavsen_ii_av_ejznhjart}
 		has_completed_focus = "EJZ_continue_the_status_quo"
 		available = {
-			has_completed_focus= EJZ_continue_the_status_quo }
+			has_completed_focus= EJZ_continue_the_status_quo 
+		}
+		completion_reward = {
+			retire_country_leader = yes
+			add_country_leader_role = {
+				EJZ_karl = {
+					promote_character = yes
+					ideology = monarchist
+				}
+			}
+		}
 	}
 
 	#Rykspakt
@@ -1670,7 +1680,7 @@ focus_tree = {
 		prerequisite = { focus = EJZ_nonaggression_pact_with_aerternus  }
 		mutually_exclusive = { focus = EJZ_affirm_our_neutrality  focus = EJZ_ally_with_valora  }
 		completion_reward = {
-			VAL = { country_event = { id = ejznrosa.11}}
+			AER = { country_event = { id = ejznrosa.11}}
 		}
 	}
 
