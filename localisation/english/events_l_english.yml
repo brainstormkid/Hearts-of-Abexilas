@@ -187,6 +187,11 @@
 
 #Ejznrosa
  ejznrosa.1.d:0 "Now that Agrabeh has declared independence from Aeternus, it's our chance to take advantage of this perculiar situation!"
+
+ # Marisvalor events
+ marisvalor.1.t:0 "First Elections"
+ marisvalor.1.d:0 "The first orginzated elections for Marisvalor has been set up. Which party has won?"
+
  
  #Please add all Country Events above
  
