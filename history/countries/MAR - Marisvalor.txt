@@ -40,6 +40,8 @@ create_equipment_variant = {
 recruit_character = MAR_mark_character
 recruit_character = MAR_edel_character
 recruit_character = MAR_maybe_character
+recruit_character = MAR_footie_character
+recruit_character = MAR_hebi_character
 
 add_country_leader_role = {
  	character = MAR_mark_character
@@ -63,6 +65,18 @@ add_country_leader_role = {
     		traits = {
       			great_war_hero
 			rearmer
+    		}
+  	}
+}
+
+
+add_country_leader_role = {
+ 	character = MAR_hebi_character
+  	promote_leader = yes
+  	country_leader = {
+    		ideology = liberalist_subtype
+    		expire = "1965.1.1.1"
+    		traits = {
     		}
   	}
 }
