@@ -24,7 +24,7 @@ characters={
 			expire="1965.1.1.1"
 		}
 		corps_commander={
-			traits={  brilliant_strategist infantry_officer }
+			traits={  brilliant_strategist infantry_officer career_officer war_hero}
 			skill=7
 			attack_skill=6
 			defense_skill=6
@@ -41,9 +41,9 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ navy_career_officer superior_tactician }
-			skill=8
-			attack_skill=8
+			traits={ navy_career_officer superior_tactician bold gunnery_expert }
+			skill=7
+			attack_skill=7
 			defense_skill=6
 			maneuvering_skill=7
 			coordination_skill=5
