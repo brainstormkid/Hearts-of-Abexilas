@@ -4,14 +4,17 @@ state={
 	provinces={
 		1234 2643 12012 11986 6694 11933 11911 11921
 	}
-	manpower=1450000
-	state_category = large_city
-	buildings_max_level_factor=1.000
 	resources = {
-		oil = 3
-		steel = 5
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
 	}
-
+	buildings_max_level_factor=1.000
+		manpower=1450000
+		state_category = large_city
 	history = {
 		owner = EJZ
 		buildings = {

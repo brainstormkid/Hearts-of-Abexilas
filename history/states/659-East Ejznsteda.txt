@@ -4,17 +4,17 @@ state={
 	provinces={
 		2831 3997 4403 5056 11986 12071 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
         manpower= 5450000
         state_category = metropolis
-
-		resources = {
-        oil = 10
-        chromium = 5
-		steel = 27
-		tungsten = 9
-    }
-
 	history={
 		owner = EJZ
 		buildings = { 
