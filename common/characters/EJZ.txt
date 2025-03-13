@@ -60,7 +60,7 @@ characters={
         advisor={
             cost = 150
             slot = political_advisor 
-            ledger = civilian [others are e.g. army]
+            ledger = civilian
             allowed = {
                 original_tag = EJZ
             }
@@ -80,13 +80,11 @@ characters={
                         has_government = revisionist
                         has_government = anarchist
                     }
-                }
             }
             traits = { true_nationalist }
             ai_will_do = {
                 factor = 1.0
             }
-
         }  
     }
     EJZ_Hyde_de_Wataved={
