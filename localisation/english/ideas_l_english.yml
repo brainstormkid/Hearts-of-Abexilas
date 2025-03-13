@@ -22,6 +22,20 @@
  father_of_railways_desc:0 "It is to be told the first modern railway was constructed here."
  imperial_capital:0 "Imperial Capital"
  imperial_capital_desc:0 "Flourishing Capital of Leyenbourg-City is the regional hub of arts and architecture "
+ 
+# Valora Ideas
+ novaran_rebellion_1:0 "Novaran Rebellion"
+ novaran_rebellion_2:0 "Novaran Rebellion"
+ novaran_rebellion_3:0 "Novaran Rebellion"
+ novaran_rebellion_4:0 "Novaran Rebellion"
+ novaran_rebellion_5:0 "Novaran Rebellion"
+ novaran_rebellion_6:0 "Novaran Rebellion"
+ novaran_rebellion_1_desc:0 "The People of Novara have rebelled against Valora and have seized the city of Novara and the surronding area"
+ novaran_rebellion_2_desc:0 "The People of Novara have rebelled against Valora and have seized the city of Novara and the surronding area"
+ novaran_rebellion_3_desc:0 "The People of Novara have rebelled against Valora and have seized the city of Novara and the surronding area"
+ novaran_rebellion_4_desc:0 "The People of Novara have rebelled against Valora and have seized the city of Novara and the surronding area"
+ novaran_rebellion_5_desc:0 "The People of Novara have rebelled against Valora and have seized the city of Novara and the surronding area"
+ novaran_rebellion_6_desc:0 "The People of Novara have rebelled against Valora and have seized the city of Novara and the surronding area"
 
 # Ertcof ideas
  high_immigration:0 "High Immigration"
@@ -149,7 +163,7 @@
  army_training_generic:0 "Military Parades"
  army_training_generic_desc:0 "Our Army is well trained and ready for any threat of the world. We must show our people that we are ready to fight for them, no matter what."
  socialist_reforms:0 "Socialist Reforms"
- socialist_reforms_desc:0 "Ideology knows no borders. Another nation may call itself sovereign, but our convictions are above such claims."
+ socialist_reforms_desc:0 "Ideology knows no borders. Another nation may call itself sovereign, but our convictions are above such ."
  guards_of_the_homeland:0 "Guards of the Homeland"
  guards_of_the_homeland_desc:0 "We stand for our homeland, and we will die for it fighting."
  collectivization:0 "Collectivization"
@@ -2881,3 +2895,11 @@
 
  will_turn_to: "Will Turn Into"
  upon_timeout: "Upon Timeout"
+
+# Ejznrosa ideas
+EJZ_joint_civilian_development:0 "Joint Civilian Development"
+EJZ_joint_military_excercise:0 "Joint Military Exercise"
+EJZ_war_profiting:0 "War Profiting"
+EJZ_ensure_stability_in_the_region:0 "Ensure Stablity in the Region"
+EJZ_abolished_the_two_dukes_system:0 "Abolished the Two Dukes System"
+EJZ_continue_the_status_quo:0 "Continued the Status Quo"

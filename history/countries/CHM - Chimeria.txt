@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 902
+
+oob = "CHM"
 
 set_politics = {
 	ruling_party = absolutist
@@ -22,6 +24,7 @@ create_country_leader = {
 	}
 }
 
+set_convoys = 60
 set_stability = 0.93
 set_war_support = 0.9
 

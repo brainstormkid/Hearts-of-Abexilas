@@ -1,0 +1,84 @@
+characters={
+	MAR_mark_character={
+		name="Mark Axpule"
+		portraits={
+			civilian={
+				large = "GFX_portrait_MAR_mark_large"	
+			}
+		}
+		country_leader={
+			ideology=conservatist_subtype
+			traits = { great_architect conservative_grandee appeaser }
+			expire="1965.1.1.1"
+		}
+	}
+	MAR_edel_character={
+		name="Edel III"
+		portraits={
+			civilian={
+				large = "GFX_portrait_MAR_edel_large"	
+			}
+		}
+		country_leader={
+			ideology=monarchist_subtype
+			traits = { great_war_hero rearmer }
+			expire="1965.1.1.1"
+		}
+		corps_commander={
+			traits={  brilliant_strategist infantry_officer career_officer war_hero}
+			skill=7
+			attack_skill=6
+			defense_skill=6
+			planning_skill=7
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+	MAR_maybe_character={
+		name="Uiliyam Rozehveltie Mersvela"
+		portraits={
+			civilian={
+				large = "GFX_portrait_MAR_maybe_large"	
+			}
+		}
+		navy_leader={
+			traits={ navy_career_officer superior_tactician bold gunnery_expert }
+			skill=7
+			attack_skill=7
+			defense_skill=6
+			maneuvering_skill=7
+			coordination_skill=5
+			legacy_id=0
+		}
+	}
+	MAR_footie_character={
+		name="Footielego"
+		portraits={
+			civilian={
+				large = "GFX_portrait_MAR_footie_large"	
+			}
+		}
+		field_marshal={
+			traits={ offensive_doctrine cavalry_officer charismatic }
+			skill=6
+			attack_skill=6
+			defense_skill=5
+			planning_skill=6
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+	MAR_hebi_character={
+		name="Vorianiil 'Halfhand' Direnni"
+		portraits={
+			civilian={
+				large = "GFX_portrait_MAR_footie_large"	
+			}
+		}
+		country_leader={
+			ideology=liberalist_subtype
+			traits = {  }
+			expire="1965.1.1.1"
+		}
+	}		
+}

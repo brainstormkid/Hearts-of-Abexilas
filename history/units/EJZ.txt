@@ -1,0 +1,89 @@
+division_template = {
+	name = "Ejzermkejt"					# Represents 18w Infantry
+	#division_names_group = GER_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "City Guards"				# Represents 12w Infantry Division
+	#division_names_group = GER_Cav_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Wolanineczykówna Calvary"				# Represents 12w Calvary Division
+	#division_names_group = GER_Cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Ejzermkejt Infantry"
+		location = 12012
+		division_template = "Ejzermkejt"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Ejzermkejt Infantry"
+		location = 11921
+		division_template = "Ejzermkejt"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st City Guards"
+		location = 3997
+		division_template = "City Guards"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd City Guards"
+		location = 5056
+		division_template = "City Guards"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Wolanineczykówna Calvary"
+		location = 250
+		division_template = "Wolanineczykówna Calvary"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Wolanineczykówna Calvary"
+		location = 11879
+		division_template = "Wolanineczykówna Calvary"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+}
+
+#####################

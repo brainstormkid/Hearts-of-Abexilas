@@ -4,13 +4,25 @@ state={
 	provinces={
 		37 250 11878 11879
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=2100000
         state_category = town
 	history={
 		owner = EJZ
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
 		add_core_of = EJZ
+		victory_points = { 250 20 }
 	}
 }

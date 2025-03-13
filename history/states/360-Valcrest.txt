@@ -4,13 +4,31 @@ state={
 	provinces={
 		1047 2648 2727 3067 3331 3662 6438 6952 10125 10154 10169 10175 10179 10199 10220 10235 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=23250000
+        state_category = megalopolis
 	history={
 		owner = VAA
 		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
+			6438 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = VAA
+		victory_points = {
+			10179 50
+		}
 	}
 }

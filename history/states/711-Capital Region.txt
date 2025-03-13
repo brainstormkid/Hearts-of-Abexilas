@@ -4,13 +4,31 @@ state={
 	provinces={
 		334 3317 4772 4824 4993 5985 6661 12128 12136 12154 12184 12196 12204 12208 12212 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=8400000
+        state_category = metropolis
 	history={
 		owner = VAL
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			12208 = {
+				naval_base = 3
+			}
 		}
 		add_core_of = VAL
+		victory_points = { 12208 50 }
+		victory_points = { 4993 5 }
+		victory_points = { 12128 5 }
 	}
 }

@@ -1,0 +1,20 @@
+#Category only allowed for VAL
+VAL_Novaran_Crisis_Category = {
+
+	VAL_Novara_Crisis = {
+
+		icon = generic_ignite_civil_war
+		
+		available = {
+		    always  = no
+		}
+
+		days_mission_timeout = 45
+		fire_only_once = yes
+
+		timeout_effect = {
+			country_event = { id = valora.1 }
+		}
+	}
+}
+

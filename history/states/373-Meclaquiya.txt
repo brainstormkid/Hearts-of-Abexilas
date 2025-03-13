@@ -4,13 +4,28 @@ state={
 	provinces={
 		6456 10120 10150 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=900000
+        state_category = rural
 	history={
 		owner = AZE
 		buildings = {
+			infrastructure = 2
+			10120 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = AZE
+		victory_points = {
+			10120 5
+		}
 	}
 }

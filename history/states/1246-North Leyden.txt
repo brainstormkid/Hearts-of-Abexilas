@@ -4,13 +4,25 @@ state={
 	provinces={
 		4835 13363 13377 13438 13465
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=750000
+        state_category = rural
 	history={
 		owner = LED
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
 		}
 		add_core_of = LED
+		victory_points = { 13363 5 }
 	}
 }

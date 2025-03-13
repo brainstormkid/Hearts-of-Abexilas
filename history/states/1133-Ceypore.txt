@@ -20,10 +20,11 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+			arms_factory = 1
 		}
 		add_core_of = HYR
 		victory_points = {
-			5178 10
+			15157 10
 		}
 	}
 }

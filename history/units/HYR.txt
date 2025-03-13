@@ -72,7 +72,7 @@ units = {
 	}
 	division = {
 		name = "1st Hyrian Calvary"
-		location = 5178
+		location = 15157
 		division_template = "Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0

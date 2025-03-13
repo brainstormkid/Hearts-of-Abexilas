@@ -4,11 +4,88 @@ bookmarks = {
 		desc = "NORVINIA_DESC"
 		date = 2.1.1.12
 		picture = "GFX_select_date_NORVINIA"
-		default_country = "GER"
+		default_country = "VHA"
 		default = yes
+		
+		TYA = {
+			history = TYA_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		GOL = {
+			history = GOL_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		CAR = {
+			history = CAR_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		VHA = {
+			history = VHA_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		VLA = {
+			history = VLA_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		KHR = {
+			history = KHR_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		MAE = {
+			history = MAE_DESC
+			ideology = absolutist
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
 		}
 
 		"---"={
 			history = "OTHER_DESC"
 		}
+	}
 }

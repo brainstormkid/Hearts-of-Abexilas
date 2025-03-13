@@ -3,4 +3,14 @@
  economic_disaster_category:0 "Economic Crisis"
  economic_recovery:0 "Impending Economic Disaster"
  economic_recovery_desc:0 "The resulting effects of the Great Gold Strain have been difficult upon our nation. If this crisis is not adequetely dealt with, we will see the upheaval and collapse of our nation's cities and economy."
+
+ # Valora
+ VAL_Novaran_Crisis_Category:0 "Novara Crisis"
+ VAL_Novara_Crisis:0 "Impending Crisis in Novara"
+ VAL_Novara_Crisis_desc:0 "Growing discontent within the city of Novara has led to Novaran citizens growing in resistance against Valoran rule and could lead to a rebellion"
+
+ # Ejznrosa
+ EJZ_Test:0 "Test"
+ EJZ_add_stablity:0 "Test Stablity"
+
  

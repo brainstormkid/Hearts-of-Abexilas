@@ -1,0 +1,17 @@
+EJZ_Test = {
+	EJZ_add_stablity = {
+		icon = generic_industry
+		available = {
+			has stablity < 1
+		}
+		visible = {
+			always = yes
+		}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+			add_stablity = 0.1
+		}
+	}
+	
+}

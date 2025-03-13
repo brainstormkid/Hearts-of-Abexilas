@@ -1,0 +1,363 @@
+add_namespace = ejznrosa
+
+###  Our Claims in Aerternus ###
+country_event = {
+	id = ejznrosa.1
+	title = "Our Claims in Aerternus"
+	desc = ejznrosa.1.d
+	picture = "GFX_ejznrosa_event_1_image"
+	
+	is_triggered_only = yes
+	
+	option = { # Claim both Iliyah and Sternahagen
+	name = "Claim both Iliyah and Sternahagen"
+	ai_chance = { factor = 60 }
+	transfer_state = 1413
+	transfer_state = 1412
+	add_state_claim = 1413
+	add_state_claim = 1412
+	}
+	option =  { # Claim both Iliyah and Sternahagen
+	name = "Claim only Sternahagen"
+	ai_chance = { factor = 40 }
+	transfer_state = 1412
+	add_state_claim = 1412
+}
+}
+### Non-Aggression Pact with Valora ###
+country_event = {
+	id = ejznrosa.2
+	hours = 12
+    random_hours = 6
+    days = 1
+	title = "Non-Aggression Pact with Ejznrosa?"
+	desc = ejznrosa.2.d
+	picture = "GFX_ejznrosa_event_1_image"
+	
+	is_triggered_only = yes
+	
+	option = { # Sign the Pact
+	name = "Sign the Pact"
+	ai_chance = { factor = 80 }
+	EJZ = {country_event = {id = ejznrosa.3 }}
+	}
+	option =  { # Refuse the offer
+	name = "Refuse the offer"
+	ai_chance = { factor = 20 }
+	EJZ = {country_event = {id = ejznrosa.4 }}
+ }
+}
+#Valora Accepts
+country_event = {
+	id = ejznrosa.3
+	hours = 12
+    random_hours = 6
+    days = 1
+	title = "Valora agrees to the pact!"
+	desc = ejznrosa.3.d
+	picture = "GFX_ejznrosa_event_1_image"
+	
+	is_triggered_only = yes
+
+	option = { #Great!
+	name = "Great"
+	ai_chance = { factor = 100 }
+	diplomatic_relation = {
+		country = VAL
+		relation = non_aggression_pact
+		active = yes
+	}
+ }
+}
+#Valora Rejects
+country_event = {
+	id = ejznrosa.4
+	hours = 12
+    random_hours = 6
+    days = 1
+	title = "Valora rejects to the pact!"
+	desc = ejznrosa.4.d
+	picture = "GFX_ejznrosa_event_1_image"
+	
+	is_triggered_only = yes
+
+	option = { #Shame.
+	name = "Shame."
+	ai_chance = { factor = 100 }
+ }
+}
+
+
+### Non-Aggression Pact with Aerternus ###
+country_event = {
+	id = ejznrosa.5
+	hours = 12
+    random_hours = 6
+    days = 1
+	title = "Non-Aggression Pact with Ejznrosa?"
+	desc = ejznrosa.5.d
+	picture = "GFX_ejznrosa_event_1_image"
+	
+	is_triggered_only = yes
+	
+	option = { # Sign the Pact
+	name = "Sign the Pact"
+	ai_chance = { factor = 60 }
+	EJZ = {country_event = {id = ejznrosa.6 }}
+	}
+	option =  { # Refuse the offer
+	name = "Refuse the offer"
+	ai_chance = { factor = 40 }
+	EJZ = {country_event = {id = ejznrosa.7 }}
+ }
+}
+#Aerternus Accepts
+country_event = {
+	id = ejznrosa.6
+	hours = 12
+    random_hours = 6
+    days = 1
+	title = "Aerternus agrees to the pact!"
+	desc = ejznrosa.6.d
+	picture = "GFX_ejznrosa_event_1_image"
+	
+	is_triggered_only = yes
+
+	option = { #Great!
+	name = "Great"
+	ai_chance = { factor = 100 }
+	diplomatic_relation = {
+		country = AER
+		relation = non_aggression_pact
+		active = yes
+	}
+ }
+}
+#Aerternus Rejects
+country_event = {
+	id = ejznrosa.7
+	hours = 12
+    random_hours = 6
+    days = 1
+	title = "Aerternus rejects to the pact!"
+	desc = ejznrosa.7.d
+	picture = "GFX_ejznrosa_event_1_image"
+	
+	is_triggered_only = yes
+
+	option = { #Shame.
+	name = "Shame."
+	ai_chance = { factor = 100 }
+ }
+}
+
+
+### Ally with Valora ###
+country_event = {
+	id = ejznrosa.8
+	hours = 12
+    random_hours = 6
+    days = 1
+	title = "Ally with Ejznrosa?"
+	desc = ejznrosa.8.d
+	picture = "GFX_ejznrosa_event_1_image"
+	
+	is_triggered_only = yes
+	
+	option = { # Accept the Alliance
+	name = "Accept the Alliance"
+	ai_chance = { factor = 60 }
+	EJZ = {country_event = {id = ejznrosa.9 }}
+	}
+	option =  { # Reject the offer
+	name = "Reject the offer"
+	ai_chance = { factor = 40 }
+	EJZ = {country_event = {id = ejznrosa.10 }}
+ }
+}
+#Valora Accepts
+country_event = {
+	id = ejznrosa.9
+	hours = 12
+    random_hours = 6
+    days = 1
+	title = "Valora agrees to an Alliance!"
+	desc = ejznrosa.9.d
+	picture = "GFX_ejznrosa_event_1_image"
+	
+	is_triggered_only = yes
+
+	option = { #Great!
+	name = "Great"
+	ai_chance = { factor = 100 }
+	diplomatic_relation = {
+		country = VAL
+		relation = guarantee
+		active = yes
+	}
+	VAL = {
+		diplomatic_relation = {
+			country = EJZ
+			relation = guarantee
+			active = yes
+	    }
+     }
+    }
+}
+#Valora Rejects
+country_event = {
+	id = ejznrosa.10
+	hours = 12
+    random_hours = 6
+    days = 1
+	title = "Valora rejects to an alliance!"
+	desc = ejznrosa.10.d
+	picture = "GFX_ejznrosa_event_1_image"
+	
+	is_triggered_only = yes
+
+	immediate = {
+        set_country_flag = no_ally_with_valora
+    }
+
+	option = { #Shame.
+	name = "Shame."
+	ai_chance = { factor = 100 }
+	uncomplete_national_focus = {
+		focus = EJZ_ally_with_valora
+	}
+ }
+}
+
+### Ally with Aerternus ###
+country_event = {
+	id = ejznrosa.11
+	hours = 12
+    random_hours = 6
+    days = 1
+	title = "Ally with Ejznrosa?"
+	desc = ejznrosa.11.d
+	picture = "GFX_ejznrosa_event_1_image"
+	
+	is_triggered_only = yes
+	
+	option = { # Accept the Alliance
+	name = "Accept the Alliance"
+	ai_chance = { factor = 40 }
+	EJZ = {country_event = {id = ejznrosa.12 }}
+	}
+	option =  { # Reject the offer
+	name = "Reject the offer"
+	ai_chance = { factor = 60 }
+	EJZ = {country_event = {id = ejznrosa.13 }}
+ }
+}
+#Aerternus Accepts
+country_event = {
+	id = ejznrosa.12
+	hours = 12
+    random_hours = 6
+    days = 1
+	title = "Aerternus agrees to an Alliance!"
+	desc = ejznrosa.12.d
+	picture = "GFX_ejznrosa_event_1_image"
+	
+	is_triggered_only = yes
+
+	option = { #Great!
+	name = "Great"
+	ai_chance = { factor = 100 }
+	diplomatic_relation = {
+		country = AER
+		relation = guarantee
+		active = yes
+	}
+	AER = {
+		diplomatic_relation = {
+			country = EJZ
+			relation = guarantee
+			active = yes
+	    }
+     }
+    }
+}
+#Aerternus Rejects
+country_event = {
+	id = ejznrosa.13
+	hours = 12
+    random_hours = 6
+    days = 1
+	title = "Aerternus rejects to an alliance!"
+	desc = ejznrosa.13.d
+	picture = "GFX_ejznrosa_event_1_image"
+	
+	is_triggered_only = yes
+
+	immediate = {
+        set_country_flag = no_ally_with_aerternus
+    }
+
+	option = { #Shame.
+	name = "Shame."
+	ai_chance = { factor = 100 }
+		uncomplete_national_focus = {
+			focus = EJZ_ally_with_aerternus
+		}
+    }   
+}
+
+#State Newspaper
+
+country_event = {
+	id = ejznrosa.14
+	hours = 12
+    random_hours = 6
+    days = 1
+	title = "State of the Newspaper"
+	desc = ejznrosa.14.d
+	picture = "GFX_ejznrosa_event_1_image"
+	
+	is_triggered_only = yes
+
+	option = { #Enforce Nationalist Ideas
+	name = "Enforce Nationalist Ideas"
+	ai_chance = { factor = 55 }
+	add_popularity ={
+		ideology = monarchist
+		popularity = 0.05
+	}
+	add_popularity ={
+		ideology = imperialist
+		popularity = 0.05
+	}
+	add_popularity ={
+		ideology = radical_nationalist
+		popularity = 0.025
+	}
+	add_stability = 0.05
+	add_political_power = 25
+
+    }  
+	option = { #Encourage Political Freedom
+	name = "Encourage Political Freedom"
+	ai_chance = { factor = 45 }
+	add_popularity ={
+		ideology = conservatist
+		popularity = 0.05
+	}
+	add_popularity ={
+		ideology = revisionist
+		popularity = 0.05
+	}
+	add_popularity ={
+		ideology = liberalist
+		popularity = 0.025
+	}
+	add_popularity ={
+		ideology = centrist
+		popularity = 0.025
+	}
+	add_stability = -0.05
+	add_political_power = 40
+    }    
+}

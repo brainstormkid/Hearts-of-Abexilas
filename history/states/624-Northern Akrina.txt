@@ -1,0 +1,31 @@
+state={
+	id=624
+	name="STATE_624"
+	provinces={
+		5420 6915 11527 11632 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=600000
+        state_category = town
+	history={
+		owner = AER
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			6915 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = AER
+		add_core_of = VAL
+		victory_points = { 5420 10 }
+	}
+}

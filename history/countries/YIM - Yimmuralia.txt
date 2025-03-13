@@ -23,4 +23,4 @@ create_country_leader = {
 	}
 }
 
-set_convoys = 25
+set_convoys = 30

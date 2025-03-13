@@ -15,9 +15,9 @@ set_popularities = {
 create_country_leader = {
 	name = "Alyk of Kassylia"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/KAS/Alyk.dds"
+	picture = "gfx/leaders/KAS/Alyk.dds"
 	expire = "1965.1.1"
-	ideology = absolutist_subtype
+	ideology = conservatist_subtype
 	traits = {
 		#
 	}

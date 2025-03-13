@@ -4,13 +4,29 @@ state={
 	provinces={
 		1136 6598 12880 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=1050000
         state_category = town
 	history={
 		owner = ORI
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			12880 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = ORI
+		victory_points = {
+			12880 20
+		}
 	}
 }

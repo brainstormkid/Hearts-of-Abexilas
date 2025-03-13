@@ -1,0 +1,28 @@
+state={
+	id=659
+	name="STATE_659"
+	provinces={
+		2831 3997 4403 5056 11986 12071 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower= 5450000
+        state_category = metropolis
+	history={
+		owner = EJZ
+		buildings = { 
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 3
+		}
+		add_core_of = EJZ
+		victory_points = { 3997 50 }
+	}
+}

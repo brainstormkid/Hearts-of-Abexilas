@@ -2,15 +2,31 @@ state={
 	id=638
 	name="STATE_638"
 	provinces={
-		317 1179 3772 5018 5915 11664 11704 11724 11790 11791 11795 11810 11818 11822 11826 11893 
+		1179 5915 11790 11791 11818 11822 3772
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=2700000
+        state_category = large_city
 	history={
 		owner = VAL
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			5915 = {
+				naval_base = 3
+			}
 		}
 		add_core_of = VAL
+		victory_points = { 11791 30 }
 	}
 }

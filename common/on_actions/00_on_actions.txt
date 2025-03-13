@@ -9,6 +9,7 @@ on_actions = {
 			CAS = { news_event = { id = news.5 days = 56 } }
 			CAS = { country_event = { id = gertek.1 days = 196 } }
 			CAS = { news_event = { id = news.6 days = 882 } }
+			# Country Events
 		}
 	}
 	# Nuke Drop Trigger

@@ -1,0 +1,27 @@
+state={
+	id=657
+	name="STATE_657"
+	provinces={
+		122 2171 6715 11871 11872 11934 11942 11964 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=900000
+        state_category = rural
+	history={
+		owner = AER
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = AER
+		add_core_of = AGR
+		victory_points = { 122 50 }
+	}
+}

@@ -71,4 +71,4 @@ replace_path="portraits"
 
 replace_path="music"
 
-supported_version="1.15.*"
+supported_version="1.16.*"

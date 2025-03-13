@@ -11,6 +11,6 @@ state={
 		owner = AET
 		buildings = {
 		}
-		add_core_of = VAD
+		add_core_of = AET
 	}
 }

@@ -24,6 +24,10 @@
  AET_absolutist:1 "Empire of Aethos"
  AET_absolutist_DEF:1 "the Empire of Aethos"
  AET_absolutist_ADJ:0 "Aethosian"
+
+ AEV_absolutist:1 "State of Aevium"
+ AEV_absolutist_DEF:1 "the State of Aevium"
+ AEV_absolutist_ADJ:0 "Aeviumi"
  
  AFO_absolutist:1 "Afonney"
  AFO_absolutist_DEF:1 "the Afonney"
@@ -32,6 +36,11 @@
  AKA_absolutist:1 "Akari Commonwealth"
  AKA_absolutist_DEF:1 "the Akari Commonwealth"
  AKA_absolutist_ADJ:0 "Akari"
+
+ AGR_absolutist:1 "Sultanate of Agrabeh"
+ AGR_absolutist_DEF:1 "the Sultanate of Agrabeh"
+ AGR_absolutist_ADJ:0 "Agrabehi"
+
  
  AKI_absolutist:1 "State of Akito"
  AKI_absolutist_DEF:1 "the State of Akito"
@@ -286,6 +295,10 @@
  AZU_absolutist:1 "Kingdom of the Azure Coast"
  AZU_absolutist_DEF:1 "the Kingdom of the Azure Coast"
  AZU_absolutist_ADJ:0 "Azurian"
+ 
+ BAD_absolutist:1 "City State Of Banderia"
+ BAD_absolutist_DEF:1 "the City State Of Banderia"
+ BAD_absolutist_ADJ:0 "Banderian"
  
  BAN_absolutist:1 "Kingdom of Bannover"
  BAN_absolutist_DEF:1 "the Kingdom of Bannover"
@@ -736,6 +749,9 @@
  HYR_absolutist:1 "Enlightened Grevdom of Hyria"
  HYR_absolutist_DEF:1 "the Enlightened Grevdom of Hyria"
  HYR_absolutist_ADJ:0 "Hyrian"
+ HYR_imperialist:1 "Enlightened Grevdom of Hyria"
+ HYR_imperialist_DEF:1 "the Enlightened Grevdom of Hyria"
+ HYR_imperialist_ADJ:0 "Hyrian"
  
  ILL_absolutist:1 "Illyria"
  ILL_absolutist_DEF:1 "the Illyria"
@@ -819,14 +835,13 @@
  KAS_absolutist:1 "Federal Republic of Kassylia"
  KAS_absolutist_DEF:1 "the Federal Republic of Kassylia"
  KAS_absolutist_ADJ:0 "Kassylian"
+ KAS_conservatist:1 "Republic of Kassylia"
+ KAS_conservatist_DEF:1 "the Republic of Kassylia"
+ KAS_conservatist_ADJ:0 "Kassylian"
  
  KAT_absolutist:1 "Union of Kasmiteia"
  KAT_absolutist_DEF:1 "the Union of Kasmiteia"
  KAT_absolutist_ADJ:0 "Kasmiteian"
- 
- KEL_absolutist:1 "Kelpstine"
- KEL_absolutist_DEF:1 "the Kelpstine"
- KEL_absolutist_ADJ:0 "Kelpstinian"
  
  KET_absolutist:1 "Keltom"
  KET_absolutist_DEF:1 "the Keltom"
@@ -1186,6 +1201,9 @@
  ORB_absolutist:1 "Kingdom of Orbitalia"
  ORB_absolutist_DEF:1 "the Kingdom of Orbitalia"
  ORB_absolutist_ADJ:0 "Orbitalian"
+ ORB_monarchist:1 "Duchy of Orbitalia"
+ ORB_monarchist_DEF:1 "the Duchy of Orbitalia"
+ ORB_monarcist_ADJ:0 "Orbitalian"
  
  ORI_absolutist:1 "Archonate of Orion"
  ORI_absolutist_DEF:1 "the Archonate of Orion"
@@ -1397,6 +1415,10 @@
  SOL_absolutist_DEF:1 "the High Solir of Soliana"
  SOL_absolutist_ADJ:0 "Solianen"
  
+ SOM_absolutist:1 "Somiatist Federation"
+ SOM_absolutist_DEF:1 "the Somiatist Federation"
+ SOM_absolutist_ADJ:0 "Somiatist"
+ 
  SON_absolutist:1 "Sonderia"
  SON_absolutist_DEF:1 "the Sonderia"
  SON_absolutist_ADJ:0 "Sonderian"
@@ -1478,7 +1500,7 @@
  THD_absolutist_DEF:1 "the Duchy of Thedan"
  THD_absolutist_ADJ:0 "Thedanian"
  
- THE_absolutist:1 "Theiónikos"
+ THE_absolutist:1 "Remnant of Theiónikos"
  THE_absolutist_DEF:1 "the Remnant of Theiónikos"
  THE_absolutist_ADJ:0 "Theióniki"
  

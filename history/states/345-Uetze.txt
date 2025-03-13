@@ -1,0 +1,25 @@
+state={
+	id=345
+	name="STATE_345"
+	provinces={
+		5952 10013 1149 10030 
+		
+	}
+	buildings_max_level_factor=1.000
+        manpower=1650000
+        state_category = large_town
+    history={
+		owner = UET
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			1149 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = UET
+		
+		victory_points = { 1149 50 }
+	}
+}

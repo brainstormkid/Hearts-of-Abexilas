@@ -1,0 +1,28 @@
+state={
+	id=1412
+	name="STATE_1412"
+	provinces={
+		11937 11914 11918 11885
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+		manpower=1050000
+		state_category = town
+	history = {
+		owner = AER
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = AER
+		victory_points = { 11914 5 }
+	}
+}
+

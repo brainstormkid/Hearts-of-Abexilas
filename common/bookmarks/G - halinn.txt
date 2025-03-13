@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "HALINN_DESC"
 		date = 2.1.1.12
 		picture = "GFX_select_date_HALINN"
-		default_country = "GER"
+		default_country = "ACR"
 		default = yes
 		
 		########
@@ -39,17 +39,6 @@ bookmarks = {
 		
 		VIR = {
 			history = VIR_DESC
-			ideology = monarchist
-			ideas={
-				
-			}
-			focuses = {
-				
-			}
-		}
-		
-		ESU = {
-			history = ESU_DESC
 			ideology = monarchist
 			ideas={
 				

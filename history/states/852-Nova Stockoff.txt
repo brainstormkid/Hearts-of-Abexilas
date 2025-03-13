@@ -4,13 +4,31 @@ state={
 	provinces={
 		937 1113 3011 6935 12973 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1800000
+        state_category = large_city
 	history={
 		owner = CAL
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			937 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = CAL
+		victory_points = {
+			12973 50
+		}
 	}
 }
