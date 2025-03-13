@@ -52,7 +52,7 @@ focus_tree = {
 	#Finalize the Unification
 	focus = {
 	id = VAR_Finalize_the_Unification
-	icon = GFX_focus_generic_home_defense
+	icon = GFX_focus_hol_the_foundations_of_defense
 	x = 4
 	y = 1
 	cost = 5
@@ -84,15 +84,26 @@ focus_tree = {
 	}
 	}
 	
+	#The world stage
+	focus = {
+	id = VAR_the_world_stage
+	icon = GFX_focus_generic_support_the_left_right
+	x = 8
+	y = 1
+	cost = 10
+	completion_reward = {}
+	}
+	
 	#The Sphere of the Imperium
 	focus = {
 	id = VAR_Varaxis_Alliance
 	icon = GFX_goal_anschluss
-	x = 3
-	y = 1
-	relative_position_id = VAR_bring_in_ministers
+	x = 0
+	y = 2
+	relative_position_id = VAR_the_world_stage
 	cost = 10
 	prerequisite = { focus = VAR_bring_in_ministers }
+	prerequisite = { focus = VAR_the_world_stage }
 	search_filters = {
 		FOCUS_FILTER_HISTORICAL
 	}
@@ -117,7 +128,80 @@ focus_tree = {
 		focus = VAR_bring_in_ministers
 	}
 	completion_reward = {
+	random_owned_controlled_state = {
+		add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+		}
+	}
+	}
 	
+	#Finish the Constitution
+	focus = {
+	id = VAR_finish_the_constitution
+	icon = GFX_focus_generic_treaty
+	x = 1
+	y = 1
+	relative_position_id = VAR_bring_in_ministers
+	cost = 10
+	prerequisite = {
+		focus = VAR_bring_in_ministers
+	}
+	completion_reward = {
+		add_stability = 0.15
+	}
+	}
+	
+	#The Merit System
+	focus = {
+	id = VAR_the_merit_system
+	icon = GFX_focus_generic_license_production
+	x = 1
+	y = 1
+	relative_position_id = VAR_focus_economy
+	cost = 5
+	prerequisite = {
+		focus = VAR_focus_economy
+	}
+	prerequisite = { 
+		focus = VAR_finish_the_constitution 
+	}
+	completion_reward = {
+	add_stability = -0.1
+	add_war_support = 0.1
+		random_owned_controlled_state = {
+		add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+		}
+		random_owned_controlled_state = {
+		add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+		}
+	}
+	}
+	
+	#Give Power to the Senate
+	focus = {
+	id = VAR_give_power_to_the_senate
+	icon = GFX_focus_rom_royal_dictatorship
+	x = 0
+	y = 1
+	relative_position_id = VAR_the_merit_system
+	cost = 5
+	prerequisite = { focus = VAR_the_merit_system }
+	completion_reward = {
+	add_stability = 0.15
 	}
 	}
 	
@@ -129,10 +213,127 @@ focus_tree = {
 	y = 1
 	relative_position_id = VAR_rebuild_the_economy
 	cost = 10
-	prerequisite = { VAR_rebuild_the_economy }
+	prerequisite = { focus = VAR_rebuild_the_economy }
 	completion_reward = {
 	add_research_slot = 1
 	}
-	
 	}
+	
+	#A new Military
+	focus = {
+	id = VAR_a_new_military
+	icon = GFX_focus_generic_women_in_military
+	x = 12
+	y = 1
+	cost = 5
+	completion_reward = {
+	add_war_support = 0.05
+	}
+	}
+	
+	#A new leader
+	focus = {
+	id = VAR_military_a_new_leader
+	icon = GFX_focus_eng_imperial_federation
+	x = -1
+	y = 1
+	relative_position_id = VAR_a_new_military
+	cost = 5
+	prerequisite = { focus = VAR_a_new_military }
+	completion_reward = {
+		#TBC Fire an event unlocking military leaders                     !!!!!!!!!
+	}
+	}
+	
+	#Begin Recruiting
+	focus = {
+	id = VAR_begin_recruiting
+	icon = GFX_focus_chi_army_reform
+	x = 1
+	y = 1
+	relative_position_id = VAR_a_new_military
+	cost = 5
+	prerequisite = { focus = VAR_a_new_military }
+	completion_reward = {
+	add_ideas = limited_conscription
+	add_war_support = 0.05
+	}
+	}
+	
+	#Integrate mercenaries
+	focus = {
+	id = VAR_integrate_mercenaries
+	icon = GFX_focus_RAJ_indian_gurkhas
+	x = -1
+    y = 1
+	relative_position_id = VAR_begin_recruiting
+	cost = 5
+	prerequisite = { focus = VAR_begin_recruiting }
+	mutually_exclusive = { focus = VAR_A_Real_Fighting_Force }
+	completion_reward = {
+	#TBC Create idea that adds +2.5% recruitable but +10% consumer goods called "Reliance on Mercenaries"                 !!!!!!!!!!!
+	#Note; Leaves player with -5% to attack and defence "Weak Army"
+	}
+	}
+	
+	#Build a real fighting force
+	focus = {
+	id = VAR_A_Real_Fighting_Force
+	icon = GFX_goal_generic_build_tank
+	x = 1
+	y = 1
+	relative_position_id = VAR_begin_recruiting
+	cost = 5
+	prerequisite = { focus = VAR_begin_recruiting }
+	mutually_exclusive = { focus = VAR_integrate_mercenaries }
+	completion_reward = {
+	#Reduce all army debufs to 0%
+	}
+	}
+	
+	#An officer core
+	focus = {
+	id = VAR_an_officer_core
+	icon = GFX_focus_focus_fra_maquis
+	x = -1
+	y = 1
+	relative_position_id = VAR_military_a_new_leader
+	cost = 5
+	prerequisite = { focus = VAR_military_a_new_leader }
+	completion_reward = {
+	add_political_power = 225
+	add_war_support = 0.05
+	#TBC Removes organizational collapse idea which gave -25% division orgaization, green square with cracks                  !!!!!!!!!!!!!
+	}
+	}
+	
+	#Preparing to strike the bear
+	focus = {
+	id = VAR_preparing_to_strike_the_bear
+	icon = GFX_focus_eng_expose_the_belly_of_the_bear
+	x = -1
+	y = 1
+	relative_position_id = VAR_an_officer_core
+	cost = 5
+	prerequisite = { focus = VAR_Varaxis_Alliance }
+	prerequisite = { focus = VAR_an_officer_core }
+	completion_reward = {
+	add_ideas = partial_economic_mobilisation
+	}
+	}
+	
+	#The enemy of my enemy
+	focus = {
+	id = VAR_the_enemy_of_my_enemy
+	icon = GFX_focus_generic_diplomatic_treaty
+	x = -1
+	y = 1
+	relative_position_id = VAR_preparing_to_strike_the_bear
+	cost = 3
+	prerequisite = { focus = VAR_preparing_to_strike_the_bear  focus = VAR_Varaxis_Alliance}
+	completion_reward = {
+	#TBC Makes Seneca join faction                                                    !!!!!!!!!!!!
+	}
+	}
+	
 }
