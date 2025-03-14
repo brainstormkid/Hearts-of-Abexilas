@@ -1528,11 +1528,14 @@ focus_tree = {
 		icon = GFX_EJZ_bolster_nationalism-262105
 		x = 14
 		y = 5
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 		prerequisite = { focus = EJZ_abolish_the_two_dukes_system  focus = EJZ_continue_the_status_quo  }
+		completion_reward = {
+			add_war_support = 0.05
+		}
 	}
 
 	#Secure our Nation
@@ -1541,11 +1544,14 @@ focus_tree = {
 		icon = GFX_EJZ_secure_our_nation-262105
 		x = 12
 		y = 5
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
 		prerequisite = { focus = EJZ_abolish_the_two_dukes_system  focus = EJZ_continue_the_status_quo  }
+		completion_reward = {
+			add_stability = 0.1
+		}
 	}
 
 	#Exile the Duke
