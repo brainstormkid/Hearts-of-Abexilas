@@ -1,8 +1,8 @@
 state={
-	id=656
-	name="STATE_656"
+	id=575
+	name="STATE_575"
 	provinces={
-		575 1300 1823 2609 11808 11828 11832 11839 11850 11861 11894 11895 
+		475 727 1059 2921 6084 6571 11151 11307 11322 11366 11377 11378 11412 11426 11434 11468 
 	}
 	resources = {
 		oil = 2
@@ -13,25 +13,25 @@ state={
 		chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=2400000
-        state_category = city
+        manpower=5700000
+        state_category = metropolis
 	history={
-		owner = MID
+		owner = STR
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
+			industrial_complex = 2
 			arms_factory = 1
 			dockyard = 1
-			11894 = {
+			11366 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = MID
+		add_core_of = STR
 		victory_points = {
-			11894 50
+			6084 50
 		}
 		victory_points = {
-			575 5
+			11366 10
 		}
 	}
 }

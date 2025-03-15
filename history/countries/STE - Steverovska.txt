@@ -1,4 +1,7 @@
-﻿capital = 1
+﻿capital = 606
+
+oob = "STE"
+
 
 set_politics = {
 	ruling_party = absolutist
@@ -20,3 +23,5 @@ create_country_leader = {
 		#
 	}
 }
+
+set_convoys = 5
