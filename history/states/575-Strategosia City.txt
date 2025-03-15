@@ -1,0 +1,37 @@
+state={
+	id=575
+	name="STATE_575"
+	provinces={
+		475 727 1059 2921 6084 6571 11151 11307 11322 11366 11377 11378 11412 11426 11434 11468 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=5700000
+        state_category = metropolis
+	history={
+		owner = STR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			11366 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = STR
+		victory_points = {
+			6084 50
+		}
+		victory_points = {
+			11366 10
+		}
+	}
+}
