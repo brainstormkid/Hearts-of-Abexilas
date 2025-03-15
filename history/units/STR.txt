@@ -58,7 +58,7 @@ units = {
 	}division = {
 		name = "1st Strategósian Calvary"
 		location = 11366
-		division_template = "Infantry Division"
+		division_template = "Calvary Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
