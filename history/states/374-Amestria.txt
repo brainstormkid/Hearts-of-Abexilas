@@ -1,0 +1,39 @@
+state={
+	id=374
+	name="STATE_374"
+	provinces={
+		2510 10165 10168 10186 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=12750000
+        state_category = megalopolis
+	history={
+		owner = AME
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 3
+		}
+		add_core_of = AME
+		victory_points = {
+			10186 50
+		}
+		victory_points = {
+			10168 10
+		}
+		victory_points = {
+			2510 10
+		}
+		victory_points = {
+			10165 5
+		}
+	}
+}

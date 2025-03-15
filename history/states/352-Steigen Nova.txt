@@ -1,0 +1,28 @@
+state={
+	id=352
+	name="STATE_352"
+	provinces={
+		2420 5818 10076 10098 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=600000
+        state_category = rural
+	history={
+		owner = AME
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = AME
+		victory_points = {
+			10076 5
+		}
+	}
+}

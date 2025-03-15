@@ -1,0 +1,36 @@
+state={
+	id=336
+	name="STATE_336"
+	provinces={
+		188 505 1418 1768 2498 2704 2804 3743 4189 4981 6758 9987 9998 10004 10007 10029 10034 10050 10101 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=1650000
+        state_category = large_town
+	history={
+		owner = AME
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = AME
+		victory_points = {
+			188 20
+		}
+		victory_points = {
+			10034 5
+		}
+		victory_points = {
+			9998 5
+		}
+	}
+}
