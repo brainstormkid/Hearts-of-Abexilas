@@ -576,6 +576,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = EJZ_thedukesgovernment  }
+		completion_reward = {
+			add_political_power = 25
+		}
 	}
 
 	#Construction Ministry
@@ -694,7 +697,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_economy_ministry  }
 	}
-
+	
 	#Defense Ministry
 	focus = {
 		id = EJZ_defense_ministry

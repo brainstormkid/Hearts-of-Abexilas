@@ -483,6 +483,9 @@
  EJZ_monarchist:1 "Grousharjatum av Ejznrosa"
  EJZ_monarchist_DEF:1 "the Grousharjatum av Ejznrosa"
  EJZ_monarchist_ADJ:0 "Ejznrosii"
+ EJZ_revisionist:1 "Ejznrosa Demokratische Republik"
+ EJZ_revisionist_DEF:1 "Ejznrosa Demokratische Republik"
+ EJZ_revisionist_ADJ:0 "Ejznrosii"
 
  ELD_absolutist:1 "Kingdom of Eldorath"
  ELD_absolutist_DEF:1 "the Kingdom of Eldorath"
