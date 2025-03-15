@@ -4,13 +4,34 @@ state={
 	provinces={
 		347 5466 5779 10205 10227 10247 10287 10309 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=4200000
+        state_category = city
 	history={
 		owner = MAL
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			10247 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = MAL
+		victory_points = {
+			347 50
+		}
+		victory_points = {
+			10205 5
+		}
 	}
 }
