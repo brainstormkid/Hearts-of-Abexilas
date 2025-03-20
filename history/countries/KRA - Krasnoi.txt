@@ -13,9 +13,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "?"
-	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/AEZ/Panda.dds"
+	name = "Nikolia Kovak"
+	desc = "POLITICS_NIKOLIA_DESC"
+	picture = "gfx/leaders/KRA/Nikolia.dds"
 	expire = "1965.1.1"
 	ideology = absolutist_subtype
 	traits = {
