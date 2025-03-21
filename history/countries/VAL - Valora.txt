@@ -30,7 +30,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	
+	squabbling_government
 }
 
 create_country_leader = {

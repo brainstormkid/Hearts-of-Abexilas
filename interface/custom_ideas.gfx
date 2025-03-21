@@ -325,4 +325,8 @@ spriteTypes = {
 		name = "GFX_idea_novaran_rebellion"
 		texturefile = "gfx/interface/ideas/idea_novaran_rebellion.dds"
 	}
+	SpriteType = { 
+		name = "GFX_idea_squabbling_government"
+		texturefile = "gfx/interface/ideas/squabbling_government.dds"
+	}
  }

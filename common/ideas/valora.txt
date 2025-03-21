@@ -70,5 +70,19 @@ ideas = {
 			}
 	   
 	    }
+		squabbling_government = {
+
+			picture = squabbling_government
+
+			
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.15
+				mobilization_laws_cost_factor = 0.5
+				trade_laws_cost_factor = 0.5
+				economy_cost_factor = 0.5
+			}
+	   
+	    }
 	}
 }
