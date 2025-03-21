@@ -23,6 +23,9 @@ bookmarks = {
         	ideology = absolutist
 
         	ideas={
+				squabbling_government
+				regional_autonomies
+				valdic_valora_special_relationship
         	}
 
         	focuses = {

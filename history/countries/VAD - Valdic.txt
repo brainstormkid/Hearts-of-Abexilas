@@ -10,6 +10,10 @@ set_popularities = {
 	absolutist = 100
 }
 
+add_ideas = {
+	valdic_valora_special_relationship
+}
+
 create_country_leader = {
 	name = "?"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"

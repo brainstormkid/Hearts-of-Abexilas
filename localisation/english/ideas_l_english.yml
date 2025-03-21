@@ -38,6 +38,10 @@
  novaran_rebellion_6_desc:0 "The People of Novara have rebelled against Valora and have seized the city of Novara and the surronding area"
  squabbling_government:0 "Squabbling Government"
  squabbling_government_desc:0 ""
+ regional_autonomies:0 "Regional Autonomies"
+ regional_autonomies_desc:0 ""
+ valdic_valora_special_relationship:0 "Valdic-Valora Special Relationship"
+ valdic_valora_special_relationship_desc:0 ""
 
 # Ertcof ideas
  high_immigration:0 "High Immigration"

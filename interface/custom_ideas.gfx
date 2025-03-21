@@ -329,4 +329,12 @@ spriteTypes = {
 		name = "GFX_idea_squabbling_government"
 		texturefile = "gfx/interface/ideas/squabbling_government.dds"
 	}
+	SpriteType = { 
+		name = "GFX_idea_regional_autonomies"
+		texturefile = "gfx/interface/ideas/regional_autonomies.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_valdic_valora_special_relationship"
+		texturefile = "gfx/interface/ideas/valdic_valora_special_relationship.dds"
+	}
  }

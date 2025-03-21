@@ -84,5 +84,28 @@ ideas = {
 			}
 	   
 	    }
+		regional_autonomies = {
+
+			picture = regional_autonomies
+
+			
+			modifier = {
+				stability_factor = 0.05
+				conscription_factor = -0.05
+			}
+	   
+	    }
+		valdic_valora_special_relationship = {
+
+			picture = regional_autonomies
+
+			
+			modifier = {
+				political_power_gain = 0.1
+				local_resources_factor = 0.05
+				custom_modifier_tooltip = valdic_valora_trade_modifier_tt
+			}
+	   
+	    }
 	}
 }

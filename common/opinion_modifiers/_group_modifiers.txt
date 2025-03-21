@@ -15,4 +15,11 @@ opinion_modifiers = {
 	rejected_ARC_ZIL_deal = {
 		value = -30
 	}
+	
+	## Iristoya
+	valdic_valora_trade_modifier = { # for Valdic Valora Relationship
+        trade = yes
+        value = 25
+    }
+	
 }
