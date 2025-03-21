@@ -37,3 +37,40 @@ country_event = {
 		add_political_power = 100
 	}
 }
+
+#Democracy?
+country_event = {
+	id = valora.3
+	title = valora.3.t
+	desc = valora.3.d
+	
+	is_triggered_only = yes
+
+	picture = GFX_novaran_crisis
+	option = {
+		#Democratic
+		name = valora.3.a
+		add_political_power = 100
+		set_country_flag = valora_democratic
+	}
+	option = {
+		#Absolutist
+		name = valora.3.b
+		add_political_power = 100
+		set_country_flag = valora_absolutist
+	}
+}
+
+#Government Reforms
+country_event = {
+	id = valora.4
+	title = valora.4.t
+	desc = valora.4.d
+	
+	is_triggered_only = yes
+
+	picture = GFX_novaran_crisis
+	option = {
+		name = valora.4.a
+	}
+}

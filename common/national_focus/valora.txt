@@ -341,6 +341,10 @@ focus_tree = {
 			FOCUS_FILTER_MEX_CAUDILLO_REBELLION
 		}
 		prerequisite = { focus = VAL_crisisaverted  }
+		completion_reward = {
+			country_event = { id = valora.4 }
+			add_ideas = government_reforms
+		}
 	}
 
 	#The question of democracy
@@ -354,6 +358,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VAL_govement_reforms  }
+		completion_reward = {
+			country_event = { id = valora.3 }
+		}
 	}
 
 	#Election
@@ -363,6 +370,9 @@ focus_tree = {
 		x = 1
 		y = 8
 		cost = 10
+		available = {
+			has_country_flag = valora_democratic
+		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -376,6 +386,9 @@ focus_tree = {
 		x = 7
 		y = 8
 		cost = 10
+		available = {
+			has_country_flag = valora_absolutist
+		}
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}

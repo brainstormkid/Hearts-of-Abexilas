@@ -42,6 +42,8 @@
  regional_autonomies_desc:0 ""
  valdic_valora_special_relationship:0 "Valdic-Valora Special Relationship"
  valdic_valora_special_relationship_desc:0 ""
+ government_reforms:0 "Government Reforms"
+ government_reforms_desc:0 ""
 
 # Ertcof ideas
  high_immigration:0 "High Immigration"

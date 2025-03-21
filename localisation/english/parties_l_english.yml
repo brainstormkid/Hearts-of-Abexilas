@@ -200,6 +200,18 @@
  EJZ_conservatist_party:0 "NEP"
  EJZ_conservatist_party_long:0 "New Ejznrosii Party"
  
+ #Valora
+ VAL_absolutist_party:0 "The Tetrarchy"
+ VAL_absolutist_long:0 "The Tetrarchy"
+ VAL_liberalist_party:0 "VDP(L)"
+ VAL_liberalist_party_long:0 "Valoran Democratic Party (Left)"
+ VAL_conservatist_party:0 "VDP (R)"
+ VAL_conservatist_party_long:0 "Valoran Democratic Party (Right)"
+ VAL_xeroist_party:0 "VPP"
+ VAL_xeroist_party_long:0 "Valoran People's Party"
+ VAL_anarchist_party:0 "Anarchists"
+ VAL_anarchist_party_long:0 "Anarchists"
+ 
 
  # Custom Ideologies
  # Authoritarian
