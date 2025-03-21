@@ -1,0 +1,37 @@
+state={
+	id=463
+	name="STATE_463"
+	provinces={
+		24 1343 1477 1782 2191 2344 3365 3495 5543 5708 6488 6669 10563 10578 10589 10619 10684 10694 10743 10747 10784 10790 10819 10830 10885 10936 10951 10969 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=8355000 # 45000 taken to State 486
+        state_category = large_city
+	history={
+		owner = KIC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+		}
+		add_core_of = KIC
+		victory_points = {
+			10694 50
+		}
+		victory_points = {
+			10830 30
+		}
+		victory_points = {
+			6669 5
+		}
+	}
+}

@@ -1,0 +1,31 @@
+state={
+	id=538
+	name="STATE_538"
+	provinces={
+		10939 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=600000
+        state_category = small_island
+	history={
+		owner = KIC
+		buildings = {
+			infrastructure = 2
+			10939 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = KIC
+		victory_points = {
+			10939 5
+		}
+	}
+}
