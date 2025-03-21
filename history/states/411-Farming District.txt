@@ -4,13 +4,30 @@ state={
 	provinces={
 		6631 10355 10363 10379 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=900000
+        state_category = large_town
 	history={
 		owner = KAM
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			6631 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = KAM
+		victory_points = {
+			6631 10
+		}
 	}
 }
