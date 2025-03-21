@@ -28,7 +28,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Calvary Division"				# Represents 12w Calvary Division
+	name = "Cavalry Division"				# Represents 12w Cavalry Division
 	#division_names_group = GER_Cav_01
 
 	regiments = {
@@ -120,37 +120,37 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Jarazeh Calvary"
+		name = "1st Jarazeh Cavalry"
 		location = 10718
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Jarazeh Calvary"
+		name = "2nd Jarazeh Cavalry"
 		location = 5248
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Jarazeh Calvary"
+		name = "3rd Jarazeh Cavalry"
 		location = 10200
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4th Jarazeh Calvary"
+		name = "4th Jarazeh Cavalry"
 		location = 1599
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "5th Jarazeh Calvary"
+		name = "5th Jarazeh Cavalry"
 		location = 4065
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}

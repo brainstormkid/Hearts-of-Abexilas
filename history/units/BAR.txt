@@ -28,7 +28,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Calvary Division"				# Represents 12w Calvary Division
+	name = "Cavalry Division"				# Represents 12w Cavalry Division
 	#division_names_group = GER_Cav_01
 
 	regiments = {
@@ -141,135 +141,135 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Bardonian Calvary"
+		name = "1st Bardonian Cavalry"
 		location = 1646
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Bardonian Calvary"
+		name = "2nd Bardonian Cavalry"
 		location = 4262
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Bardonian Calvary"
+		name = "3rd Bardonian Cavalry"
 		location = 4810
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4th Bardonian Calvary"
+		name = "4th Bardonian Cavalry"
 		location = 8620
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "5th Bardonian Calvary"
+		name = "5th Bardonian Cavalry"
 		location = 2396
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "6th Bardonian Calvary"
+		name = "6th Bardonian Cavalry"
 		location = 2012
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "7th Bardonian Calvary"
+		name = "7th Bardonian Cavalry"
 		location = 6307
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "8th Bardonian Calvary"
+		name = "8th Bardonian Cavalry"
 		location = 8387
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "9th Bardonian Calvary"
+		name = "9th Bardonian Cavalry"
 		location = 8398
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "10th Bardonian Calvary"
+		name = "10th Bardonian Cavalry"
 		location = 8581
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "11th Bardonian Calvary"
+		name = "11th Bardonian Cavalry"
 		location = 10832
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "12th Bardonian Calvary"
+		name = "12th Bardonian Cavalry"
 		location = 39
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "13th Bardonian Calvary"
+		name = "13th Bardonian Cavalry"
 		location = 3363
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "14th Bardonian Calvary"
+		name = "14th Bardonian Cavalry"
 		location = 4915
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "15th Bardonian Calvary"
+		name = "15th Bardonian Cavalry"
 		location = 4310
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "16th Bardonian Calvary"
+		name = "16th Bardonian Cavalry"
 		location = 11771
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "17th Bardonian Calvary"
+		name = "17th Bardonian Cavalry"
 		location = 11756
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "18th Bardonian Calvary"
+		name = "18th Bardonian Cavalry"
 		location = 11829
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "19th Bardonian Calvary"
+		name = "19th Bardonian Cavalry"
 		location = 11815
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}

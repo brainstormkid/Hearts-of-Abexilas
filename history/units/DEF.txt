@@ -28,7 +28,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Calvary Division"				# Represents 12w Calvary Division
+	name = "Cavalry Division"				# Represents 12w Cavalry Division
 	#division_names_group = GER_Cav_01
 
 	regiments = {
@@ -71,16 +71,16 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Amandian Calvary"
+		name = "1st Amandian Cavalry"
 		location = 10264
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Amandian Calvary"
+		name = "2nd Amandian Cavalry"
 		location = 257
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}

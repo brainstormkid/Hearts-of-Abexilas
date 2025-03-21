@@ -28,7 +28,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Calvary Division"				# Represents 12w Calvary Division
+	name = "Cavalry Division"				# Represents 12w Cavalry Division
 	#division_names_group = GER_Cav_01
 
 	regiments = {
@@ -162,44 +162,44 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Gertekans Calvary"
+		name = "1st Gertekans Cavalry"
 		location = 10173
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Gertekans Calvary"
+		name = "2nd Gertekans Cavalry"
 		location = 2681
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Gertekans Calvary"
+		name = "3rd Gertekans Cavalry"
 		location = 766
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4th Gertekans Calvary"
+		name = "4th Gertekans Cavalry"
 		location = 1471
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "5th Gertekans Calvary"
+		name = "5th Gertekans Cavalry"
 		location = 906
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "6th Gertekans Calvary"
+		name = "6th Gertekans Cavalry"
 		location = 6797
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}

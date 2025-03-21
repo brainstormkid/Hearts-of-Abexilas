@@ -28,7 +28,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Calvary Division"				# Represents 12w Calvary Division
+	name = "Cavalry Division"				# Represents 12w Cavalry Division
 	#division_names_group = GER_Cav_01
 
 	regiments = {
@@ -113,44 +113,44 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Boulderovian Calvary"
+		name = "1st Boulderovian Cavalry"
 		location = 3941
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Boulderovian Calvary"
+		name = "2nd Boulderovian Cavalry"
 		location = 7014
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Boulderovian Calvary"
+		name = "3rd Boulderovian Cavalry"
 		location = 9119
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4th Boulderovian Calvary"
+		name = "4th Boulderovian Cavalry"
 		location = 9111
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "5th Boulderovian Calvary"
+		name = "5th Boulderovian Cavalry"
 		location = 2507
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "6th Boulderovian Calvary"
+		name = "6th Boulderovian Cavalry"
 		location = 5961
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}

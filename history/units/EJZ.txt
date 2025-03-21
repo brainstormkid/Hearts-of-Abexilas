@@ -28,7 +28,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Wolanineczykówna Calvary"				# Represents 12w Calvary Division
+	name = "Wolanineczykówna Cavalry"				# Represents 12w Cavalry Division
 	#division_names_group = GER_Cav_01
 
 	regiments = {
@@ -71,16 +71,16 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Wolanineczykówna Calvary"
+		name = "1st Wolanineczykówna Cavalry"
 		location = 250
-		division_template = "Wolanineczykówna Calvary"
+		division_template = "Wolanineczykówna Cavalry"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Wolanineczykówna Calvary"
+		name = "2nd Wolanineczykówna Cavalry"
 		location = 11879
-		division_template = "Wolanineczykówna Calvary"
+		division_template = "Wolanineczykówna Cavalry"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}

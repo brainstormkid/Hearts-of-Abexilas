@@ -28,7 +28,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Calvary Division"				# Represents 12w Calvary Division
+	name = "Cavalry Division"				# Represents 12w Cavalry Division
 	#division_names_group = GER_Cav_01
 
 	regiments = {
@@ -78,23 +78,23 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Leydian Calvary"
+		name = "1st Leydian Cavalry"
 		location = 6611
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Leydian Calvary"
+		name = "2nd Leydian Cavalry"
 		location = 3805
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Leydian Calvary"
+		name = "3rd Leydian Cavalry"
 		location = 13220
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}

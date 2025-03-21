@@ -28,7 +28,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Calvary Division"				# Represents 12w Calvary Division
+	name = "Cavalry Division"				# Represents 12w Cavalry Division
 	#division_names_group = GER_Cav_01
 
 	regiments = {
@@ -65,16 +65,16 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Danmalian Calvary"
+		name = "1st Danmalian Cavalry"
 		location = 12195
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Danmalian Calvary"
+		name = "2nd Danmalian Cavalry"
 		location = 12230
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}

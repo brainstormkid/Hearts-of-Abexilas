@@ -28,7 +28,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Ertcofi Calvary Division"				# Represents 12w Calvary Division
+	name = "Ertcofi Cavalry Division"				# Represents 12w Cavalry Division
 	#division_names_group = GER_Cav_01
 
 	regiments = {
@@ -80,7 +80,7 @@ units = {
 	division = {
 		name = "Al'haile Cavalry Militia"
 		location = 11051
-		division_template = "Ertcofi Calvary Division"
+		division_template = "Ertcofi Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}

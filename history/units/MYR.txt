@@ -28,7 +28,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Myrtania Calvary Division"				# Represents 12w Calvary Division
+	name = "Myrtania Cavalry Division"				# Represents 12w Cavalry Division
 	#division_names_group = GER_Cav_01
 
 	regiments = {
@@ -114,23 +114,23 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "11th Myrtanian Calvary Division"
+		name = "11th Myrtanian Cavalry Division"
 		location = 6051
-		division_template = "Myrtania Calvary Division"
+		division_template = "Myrtania Cavalry Division"
 		start_experience_factor = 0.25
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "12th Myrtanian Calvary Division"
+		name = "12th Myrtanian Cavalry Division"
 		location = 3867
-		division_template = "Myrtania Calvary Division"
+		division_template = "Myrtania Cavalry Division"
 		start_experience_factor = 0.25
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "13th Myrtanian Calvary Division"
+		name = "13th Myrtanian Cavalry Division"
 		location = 13775
-		division_template = "Myrtania Calvary Division"
+		division_template = "Myrtania Cavalry Division"
 		start_experience_factor = 0.25
 		start_equipment_factor = 1.0
 	}

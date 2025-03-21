@@ -28,7 +28,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Calvary Division"				# Represents 12w Calvary Division
+	name = "Cavalry Division"				# Represents 12w Cavalry Division
 	#division_names_group = GER_Cav_01
 
 	regiments = {
@@ -85,44 +85,44 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Gardenian Calvary"
+		name = "1st Gardenian Cavalry"
 		location = 9971
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Gardenian Calvary"
+		name = "2nd Gardenian Cavalry"
 		location = 282
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Gardenian Calvary"
+		name = "3rd Gardenian Cavalry"
 		location = 2404
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4th Gardenian Calvary"
+		name = "4th Gardenian Cavalry"
 		location = 10075
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "5th Gardenian Calvary"
+		name = "5th Gardenian Cavalry"
 		location = 10027
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "5th Gardenian Calvary"
+		name = "5th Gardenian Cavalry"
 		location = 6506
-		division_template = "Calvary Division"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
