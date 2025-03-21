@@ -68,6 +68,11 @@ characters={
             available = {
                 if = {
                     has_completed_focus = EJZ_abolish_the_two_dukes_system
+                    NOT = {
+                        has_completed_focus = EJZ_gmezslegacy
+                        has_completed_focus = EJZ_a_true_democracy
+                        has_completed_focus = EJZ_undermine_the_duke
+                    }
                     }
                     NOT = {
                         has_country_leader = {
