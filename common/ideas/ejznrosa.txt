@@ -106,5 +106,22 @@ ideas = {
             }
         }
 
+        #Food for the Population
+        EJZ_food_for_the_population = {
+            picture = placeholder
+            allowed = {
+                tag = EJZ
+            }
+            available = {
+            }
+            cancel = {
+            }
+            modifier = {
+                consumer_goods_factor = -0.1
+                stability_factor = 0.05
+                stability_weekly = 0.005
+            }
+        }
+
     }
 }

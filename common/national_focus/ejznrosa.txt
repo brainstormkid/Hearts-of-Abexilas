@@ -133,11 +133,18 @@ focus_tree = {
 		icon = GFX_focus_hol_abandon_the_gold_standard
 		x = 19
 		y = 4
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
 		prerequisite = { focus = EJZ_production_ministry  }
+		completion_reward = {
+			add_timed_idea = {
+				idea = EJZ_food_for_the_population
+				days = 365
+			}
+
+		}
 	}
 
 	#Peace and Prosperity
@@ -605,6 +612,23 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = EJZ_production_ministry  }
+		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 9
+				state = 1177
+			}
+			add_resource = {
+				type = aluminum
+				amount = 5
+				state = 1177
+			}
+			add_resource = {
+				type = tungsten
+				amount = 5
+				state = 1177
+			}
+		}
 	}
 
 	#Urbanization
@@ -786,7 +810,16 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = EJZ_increase_defense_budget  } prerequisite = { focus = EJZ_begin_conscription  }
+		prerequisite = { focus = EJZ_increase_defense_budget  } 
+		prerequisite = { focus = EJZ_begin_conscription  }
+		completion_reward = {
+			army_experience = 50
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.2
+				uses = 2
+				category = land_doctrine
+			}
+		}
 	}
 
 	#Artillery Focus
@@ -1298,6 +1331,28 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = EJZ_prioritize_defense  focus = EJZ_on_the_offensive  }
+		completion_reward = {
+			1177 = {
+				add_building_construction = {
+					type = bunker
+					level = 4
+					instant_build = yes
+					province = 1072
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
+					instant_build = yes
+					province = 12092
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
+					instant_build = yes
+					province = 6289
+				}
+			}
+		}
 	}
 
 	#Jungle Specialists
@@ -1323,6 +1378,28 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = EJZ_prioritize_defense  }
+		completion_reward = {
+			1178 = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					instant_build = yes
+					province = 11878
+				}
+				add_building_construction = {
+					type = bunker
+					level = 3
+					instant_build = yes
+					province = 250
+				}
+				add_building_construction = {
+					type = bunker
+					level = 3
+					instant_build = yes
+					province = 11879
+				}
+			}
+		}
 	}
 
 	#Defensive Doctrine
@@ -2012,6 +2089,9 @@ focus_tree = {
 			FOCUS_FILTER_MANPOWER
 		}
 		prerequisite = { focus = EJZ_recruitment_ministry  }
+		completion_reward = {
+
+		}
 	}
 
 	#Claims in Aerternus
@@ -2069,6 +2149,9 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = EJZ_production_ministry  }
+		completion_reward = {
+
+		}
 	}
 
 }
