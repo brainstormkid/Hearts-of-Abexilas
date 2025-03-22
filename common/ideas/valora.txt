@@ -122,5 +122,85 @@ ideas = {
 			}
 	   
 	    }
+		construction_merk_mart1 = {
+
+			picture = construction_merk_mart
+
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+			}
+	   
+	    }
+		construction_merk_mart2 = {
+
+			picture = construction_merk_mart
+
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.05
+			}
+	   
+	    }
+		construction_merk_mart3 = {
+
+			picture = construction_merk_mart
+
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+			}
+	   
+	    }
+		construction_merk_mart4 = {
+
+			picture = construction_merk_mart
+
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.25
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				stability_factor = 0.1
+			}
+	   
+	    }
+		construction_merk_mart5 = {
+
+			picture = construction_merk_mart
+
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = 0.25
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				stability_factor = 0.1
+			}
+	   
+	    }
+		construction_merk_mart6 = {
+
+			picture = construction_merk_mart
+
+			
+			modifier = {
+				consumer_goods_factor = -0.15
+				production_speed_buildings_factor = 0.3
+				production_factory_efficiency_gain_factor = 0.15
+				production_factory_max_efficiency_factor = 0.15
+				stability_factor = 0.1
+			}
+	   
+	    }
 	}
 }

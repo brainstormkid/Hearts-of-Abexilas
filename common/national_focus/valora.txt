@@ -46,8 +46,16 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
 		}
+		allow_branch = {
+			NOT = {
+				has_completed_focus = VAL_negotiate_with_protestors
+			}
+		}
 		prerequisite = { focus = VAL_novaran_crisis  }
 		mutually_exclusive = { focus = VAL_negotiate_with_protestors  }
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+		}
 	}
 
 	#Negotiate with protestors
@@ -59,6 +67,11 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_TFV_AUTONOMY
 		}
+		allow_branch = {
+			NOT = {
+				has_completed_focus = VAL_send_in_the_army
+			}
+		}
 		prerequisite = { focus = VAL_novaran_crisis  }
 		mutually_exclusive = { focus = VAL_send_in_the_army  }
 		completion_reward = {
@@ -66,6 +79,7 @@ focus_tree = {
 				remove_idea = novaran_rebellion_1
 				add_idea = novaran_rebellion_2
 			}
+			mark_focus_tree_layout_dirty = yes
 		}
 	}
 
@@ -212,7 +226,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_MEX_CHURCH_AUTHORITY
 		}
-		prerequisite = { focus = VAL_whithdraw_our_forces  focus = VAL_promises_of_autonomy  focus = VAL_calm_people_down  }
+		prerequisite = { focus = VAL_whithdraw_our_forces }
+		prerequisite = { focus = VAL_promises_of_autonomy }
+		prerequisite = { focus = VAL_calm_people_down }
 		completion_reward = {
 			add_political_power = 100
 			swap_ideas = {
@@ -373,10 +389,19 @@ focus_tree = {
 		available = {
 			has_country_flag = valora_democratic
 		}
+		allow_branch = {
+			NOT = {
+				has_completed_focus = VAL_keep_the_course_steady
+			}
+		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VAL_the_question_of_democracy  }
+		mutually_exclusive = { focus = VAL_keep_the_course_steady  }
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+		}
 	}
 
 	#Keep the course steady
@@ -389,11 +414,19 @@ focus_tree = {
 		available = {
 			has_country_flag = valora_absolutist
 		}
+		allow_branch = {
+			NOT = {
+				has_completed_focus = VAL_election
+			}
+		}
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
 		prerequisite = { focus = VAL_the_question_of_democracy  focus = VAL_deal_with_fascist_millitias  }
 		mutually_exclusive = { focus = VAL_election  }
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+		}
 	}
 
 	#Timocracy
@@ -458,7 +491,16 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		allow_branch = {
+			NOT = {
+				has_completed_focus = VAL_valoranpeoplespartyvictory
+			}
+		}
 		prerequisite = { focus = VAL_election  }
+		mutually_exclusive = { focus = VAL_valoranpeoplespartyvictory  }
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+		}
 	}
 
 	#Valoran People's party victory
@@ -471,8 +513,16 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
+		allow_branch = {
+			NOT = {
+				has_completed_focus = VAL_valoran_democratic_party_victory
+			}
+		}
 		prerequisite = { focus = VAL_election  }
 		mutually_exclusive = { focus = VAL_valoran_democratic_party_victory  }
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+		}
 	}
 
 	#Start MerkMart construction
@@ -484,6 +534,9 @@ focus_tree = {
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			add_ideas = construction_merk_mart1
 		}
 	}
 
@@ -648,6 +701,12 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = VAL_millitary_focus  focus = VAL_civilian_focus  }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = construction_merk_mart1
+				add_idea = construction_merk_mart2
+			}
+		}
 	}
 
 	#Volounteer labour in MerkMart
@@ -661,6 +720,13 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = VAL_continue_with_merkmart_buidling  }
+		completion_reward = {
+			country_event = { id = valora.5 }
+			swap_ideas = {
+				remove_idea = construction_merk_mart2
+				add_idea = construction_merk_mart3
+			}
+		}
 	}
 
 	#MerkMart done!
@@ -674,6 +740,12 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = VAL_volounteer_labour_in_merkmart  }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = construction_merk_mart3
+				add_idea = construction_merk_mart4
+			}
+		}
 	}
 
 	#Fill our stockpiles
@@ -687,6 +759,27 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = VAL_merkmartdone  }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = construction_merk_mart4
+				add_idea = construction_merk_mart5
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 500
+				producer = VAL
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 100
+				producer = VAL
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 50
+				producer = VAL
+			}
+		}
 	}
 
 	#The grand oppening
@@ -700,6 +793,12 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = VAL_fill_our_stockpiles  }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = construction_merk_mart5
+				add_idea = construction_merk_mart6
+			}
+		}
 	}
 
 	#Towns buildup
@@ -713,6 +812,26 @@ focus_tree = {
 			FOCUS_FILTER_ANNEXATION
 		}
 		prerequisite = { focus = VAL_volounteer_labour_in_merkmart  }
+		completion_reward = {
+			711 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 3
+			}
+		}
 	}
 
 	#Herrera buildup

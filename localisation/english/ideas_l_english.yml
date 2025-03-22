@@ -44,6 +44,18 @@
  valdic_valora_special_relationship_desc:0 ""
  government_reforms:0 "Government Reforms"
  government_reforms_desc:0 ""
+ construction_merk_mart1:0 "Construction of MerkMart"
+ construction_merk_mart2:0 "Construction of MerkMart"
+ construction_merk_mart3:0 "Construction of MerkMart"
+ construction_merk_mart4:0 "Construction of MerkMart"
+ construction_merk_mart5:0 "Construction of MerkMart"
+ construction_merk_mart6:0 "Construction of MerkMart"
+ construction_merk_mart1_desc:0 ""
+ construction_merk_mart2_desc:0 ""
+ construction_merk_mart3_desc:0 ""
+ construction_merk_mart4_desc:0 ""
+ construction_merk_mart5_desc:0 ""
+ construction_merk_mart6_desc:0 ""
 
 # Ertcof ideas
  high_immigration:0 "High Immigration"

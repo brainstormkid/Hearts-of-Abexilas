@@ -52,12 +52,14 @@ country_event = {
 		name = valora.3.a
 		add_political_power = 100
 		set_country_flag = valora_democratic
+		custom_effect_tooltip = valora_democracy_tt
 	}
 	option = {
 		#Absolutist
 		name = valora.3.b
 		add_political_power = 100
 		set_country_flag = valora_absolutist
+		custom_effect_tooltip = valora_absolutism_tt
 	}
 }
 
@@ -72,5 +74,19 @@ country_event = {
 	picture = GFX_novaran_crisis
 	option = {
 		name = valora.4.a
+	}
+}
+
+#Volunteers in Valora
+country_event = {
+	id = valora.5
+	title = valora.5.t
+	desc = valora.5.d
+	
+	is_triggered_only = yes
+
+	picture = GFX_novaran_crisis
+	option = {
+		name = valora.5.a
 	}
 }
