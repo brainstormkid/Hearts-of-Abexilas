@@ -202,5 +202,16 @@ ideas = {
 			}
 	   
 	    }
+		valoran_civil_war = {
+
+			picture = construction_merk_mart
+
+			
+			modifier = {
+				conscription = 0.01
+				war_support_factor = 0.2
+			}
+	   
+	    }
 	}
 }

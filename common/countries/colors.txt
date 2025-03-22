@@ -1071,6 +1071,11 @@ NOS = {
 	color_ui = rgb { 149 194 217 }
 }
 
+NOV = {
+	color = rgb { 87 17 173 }
+	color_ui = rgb { 87 17 173 }
+}
+
 NUM = {
 	color = rgb { 195 238 255 }
 	color_ui = rgb { 195 238 255 }

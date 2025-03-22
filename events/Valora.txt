@@ -90,3 +90,17 @@ country_event = {
 		name = valora.5.a
 	}
 }
+
+#The Attack Plan
+country_event = {
+	id = valora.6
+	title = valora.6.t
+	desc = valora.6.d
+	
+	is_triggered_only = yes
+
+	picture = GFX_novaran_crisis
+	option = {
+		name = valora.6.a
+	}
+}

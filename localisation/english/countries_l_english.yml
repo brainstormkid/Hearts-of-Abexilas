@@ -1177,6 +1177,10 @@
  NOS_absolutist_DEF:1 "the Norskian Legion"
  NOS_absolutist_ADJ:0 "Norskian"
  
+ NOV_absolutist:1 "Novara"
+ NOV_absolutist_DEF:1 "the Novara"
+ NOV_absolutist_ADJ:0 "Novaran"
+ 
  NUM_absolutist:1 "Maritime Republic of Numeós"
  NUM_absolutist_DEF:1 "the Maritime Republic of Numeós"
  NUM_absolutist_ADJ:0 "Numean"

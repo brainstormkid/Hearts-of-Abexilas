@@ -26,6 +26,7 @@ state={
 			}
 		}
 		add_core_of = VAL
+		add_core_of = NOV
 		victory_points = { 1039 30 }
 	}
 }

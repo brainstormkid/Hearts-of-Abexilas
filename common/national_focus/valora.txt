@@ -54,7 +54,13 @@ focus_tree = {
 		prerequisite = { focus = VAL_novaran_crisis  }
 		mutually_exclusive = { focus = VAL_negotiate_with_protestors  }
 		completion_reward = {
+			release = NOV
 			mark_focus_tree_layout_dirty = yes
+			hidden_effect = {
+				NOV = {
+					load_oob = "NOV"
+				}
+			}
 		}
 	}
 
@@ -266,6 +272,10 @@ focus_tree = {
 			FOCUS_FILTER_ANNEXATION
 		}
 		prerequisite = { focus = VAL_send_in_the_army  }
+		completion_reward = {
+			country_event = { id = valora.6 }
+			add_ideas = valoran_civil_war
+		}
 	}
 
 	#Work with the nationalists
@@ -292,6 +302,13 @@ focus_tree = {
 			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
 		}
 		prerequisite = { focus = VAL_work_with_the_nationalists  focus = VAL_prepare_the_armory  }
+		completion_reward = {
+			declare_war_on = {
+				target = NOV
+				type = annex_everything
+			}
+			remove_ideas = novaran_rebellion_1
+		}
 	}
 
 	#Prepare the armory
@@ -412,7 +429,10 @@ focus_tree = {
 		y = 8
 		cost = 10
 		available = {
-			has_country_flag = valora_absolutist
+			OR = {
+				has_country_flag = valora_absolutist
+				has_completed_focus = VAL_deal_with_fascist_millitias
+			}
 		}
 		allow_branch = {
 			NOT = {
@@ -1212,6 +1232,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VAL_provisional_goverment  }
+		mutually_exclusive = { focus = VAL_a_new_valora  }
 	}
 
 	#A New Valora
@@ -1447,6 +1468,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VAL_rift_in_the_party  }
+		mutually_exclusive = { focus = VAL_desegregation  }
 	}
 
 	#One market
@@ -1460,6 +1482,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = VAL_desegregation  focus = VAL_segregation  }
+		mutually_exclusive = { focus = VAL_many_markets  }
 	}
 
 	#Desegregation
@@ -1501,6 +1524,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VAL_many_markets  focus = VAL_one_market  }
+		mutually_exclusive = { focus = VAL_managed_democracy  }
 	}
 
 	#Managed democracy
@@ -1554,6 +1578,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = VAL_valoranpeoplespartyvictory  }
+		mutually_exclusive = { focus = VAL_anarchist_takeover  }
 	}
 
 	#Anarchist takeover
