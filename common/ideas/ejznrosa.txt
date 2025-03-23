@@ -123,5 +123,23 @@ ideas = {
             }
         }
 
+        #Increase Defense Budget
+        EJZ_increase_defense_budget = {
+            picture = placeholder
+            allowed = {
+                tag = EJZ
+            }
+            available = {
+            }
+            cancel = {
+            }
+            modifier = {
+                consumer_goods_factor = 0.15
+                war_support_factor = 0.1
+                production_speed_arms_factory_factor = 0.1
+                experience_gain_army = 0.1
+            }
+        }
+
     }
 }

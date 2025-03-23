@@ -642,6 +642,34 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = EJZ_construction_ministry  }
+		completion_reward = {
+			659 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = Infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			1415 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = Infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 
 	#Production Ministry
@@ -746,6 +774,16 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = EJZ_construction_ministry  } prerequisite = { focus = EJZ_defense_ministry  }
+		completion_reward = {
+			659 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
 	}
 
 	#Increase Defense Budget
@@ -759,6 +797,12 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = EJZ_defense_ministry  }
+		completion_reward = {
+			add_timed_idea = {
+				idea = EJZ_increase_defense_budget
+				days = 365
+			}
+		}
 	}
 
 	#Government Arms Contract
@@ -793,11 +837,18 @@ focus_tree = {
 		icon = GFX_EJZ_desperate_measures-645990
 		x = 35
 		y = 4
-		cost = 10
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
 		prerequisite = { focus = EJZ_recruitment_ministry  }
+		available = {
+			surrender_progress > 0.7
+			has_war = yes
+		}
+		completion_reward = {
+			add_ideas = scraping_the_barrel
+		}
 	}
 
 	#Army Modernization
@@ -908,6 +959,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		x = 25
 		y = 6
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -1316,6 +1368,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
+		cost = 10
 		prerequisite = { focus = EJZ_government_arms_contract  } prerequisite = { focus = EJZ_army_modernization  }
 		mutually_exclusive = { focus = EJZ_prioritize_defense  }
 	}
@@ -1704,6 +1757,18 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = EJZ_looking_outwards  }
+		bypass = {
+			OR = {
+				VAL = {
+					NOT = {
+						country_exists = VAL
+					}
+				}
+				VAL = {
+					is_subject = yes
+				}
+			}
+		}
 		completion_reward = {
 			VAL = { country_event = { id = ejznrosa.2}}
 		}
@@ -1720,6 +1785,18 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = EJZ_looking_outwards  }
+		bypass = {
+			OR = {
+				AER = {
+					NOT = {
+						country_exists = AER
+					}
+				}
+				AER = {
+					is_subject = yes
+				}
+			}
+		}
 		mutually_exclusive = {focus = EJZ_claims_in_aerternus}
 		completion_reward = {
 			AER = { country_event = { id = ejznrosa.5}}
@@ -1739,6 +1816,10 @@ focus_tree = {
 		available = {
 			not = {
 				has_country_flag = no_ally_with_valora
+			}
+			country_exists = VAL
+			VAL = {
+				is_subject = no
 			}
 		}
 		prerequisite = { focus = EJZ_nonaggression_pact_with_valora  }
@@ -1761,6 +1842,10 @@ focus_tree = {
 		available = {
 			not = {
 				has_country_flag = no_ally_with_aerternus
+			}
+			country_exists = AER
+			AER = {
+				is_subject = no
 			}
 		}
 		prerequisite = { focus = EJZ_nonaggression_pact_with_aerternus  }
@@ -2090,7 +2175,8 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_recruitment_ministry  }
 		completion_reward = {
-
+			add_ideas = limited_conscription
+			add_war_support = 0.05
 		}
 	}
 
