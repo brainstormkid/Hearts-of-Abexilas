@@ -78,7 +78,7 @@ ideas = {
             allowed = {
                 tag = EJZ
             }
-            avaliable = {
+            available = {
             }
             cancel = {
             }
@@ -94,7 +94,7 @@ ideas = {
             allowed = {
                 tag = EJZ
             }
-            avaliable = {
+            available = {
             }
             cancel = {
             }
@@ -141,5 +141,20 @@ ideas = {
             }
         }
 
+        #Government Arms Contract
+        EJZ_government_arms_contract = {
+            allowed = {
+                tag = EJZ
+            }
+            available = {
+            }
+            cancel = {
+            }
+            modifier = {
+                production_factory_efficiency_gain_factor = 0.05
+                production_factory_max_efficiency_factor = 0.05
+                production_factory_start_efficiency_factor = 0.05
+            }
+        }
     }
 }
