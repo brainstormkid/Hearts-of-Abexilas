@@ -2261,7 +2261,7 @@ focus_tree = {
 	focus = {
 		id = EJZ_the_great_gold_strain
 		icon = GFX_EJZ_economy_ministry-645670
-		x = 39
+		x = 38
 		y = 3
 		cost = 0
 		search_filters = {
@@ -2269,11 +2269,81 @@ focus_tree = {
 		}
 		prerequisite = {}
 		available = {
-				has_idea = economic_collapse
+			has_idea = economic_collapse
 		}
 		bypass = {
 			has_idea = economic_collapse
 		}
 	}
+	#Rebuild the Economy
+	focus = {
+		id = EJZ_rebuild_the_economy1
+		icon = GFX_goal_generic_position_armies
+		x = 38
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = {focus = EJZ_the_great_gold_strain }
+		available = {
+			has_idea = economic_collapse
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = economic_collapse_1
+				remove_idea = economic_collapse
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
 
+	
+	#Re-Centralize the Nation
+	focus = {
+		id = EJZ_recentralize_the_nation1
+		icon = GFX_focus_generic_self_management
+		x = 38
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = {focus = EJZ_rebuild_the_economy1}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = economic_collapse_2
+				remove_idea = economic_collapse_1
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+	
+	#Economic Boost
+	focus = {
+		id = EJZ_economic_boost
+		icon = GFX_focus_generic_self_management
+		x = 38
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = {
+			focus = EJZ_recentralize_the_nation1
+		}
+        
+		completion_reward = {
+			remove_ideas = economic_collapse_2
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
 }

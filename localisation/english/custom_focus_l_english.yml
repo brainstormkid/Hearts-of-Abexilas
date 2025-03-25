@@ -1450,7 +1450,7 @@
  VAL_proclaimthepeoplesunionofgexia:0 "Proclaim the people's union of Gexia"
  VAL_proclaimthepeoplesunionofgexia_desc:0 "Our victories have led us to uniting the whole Gexia region"
  
- # Ejznrosa
+ #Ejznrosa
  EJZ_continue_feudalism:0 "Continue Feudalism"
  EJZ_continue_feudalism_desc:0 "WIP"
  EJZ_militarist_in_power:0 "Militarist in Power"
@@ -1741,6 +1741,12 @@
  EJZ_neu_sandburg_question_desc:0 "WIP"
  EJZ_national_farming_production:0 "National Farming Production"
  EJZ_national_farming_production_desc:0 "WIP"
+ EJZ_rebuild_the_economy1:0 "Rebuild the Economy"
+ EJZ_rebuild_the_economy1_desc:0 "The Great Gold Strain has hit hard and the economy is in shambles. We need to start rebuilding in order to fix what was lost in this disaster!"
+ EJZ_recentralize_the_nation1:0 "Re-Centralize the Nation"
+ EJZ_recentralize_the_nation1_desc:0 "After the nation claim has collapsed we must focus on rebuilding our nation in other to establish ourselves once again."
+ EJZ_economic_boost:0 "Economic Boost"
+ EJZ_economic_boost_desc:0 "With the crisis nearing its end, we must furthur push our economy to restore to pre-collapse status."
 
  #Varaxis
  VAR_the_gold_quotas:0 "Reintroduce the Gold Quota"
