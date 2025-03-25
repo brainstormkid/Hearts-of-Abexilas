@@ -2918,10 +2918,12 @@
  will_turn_to: "Will Turn Into"
  upon_timeout: "Upon Timeout"
 
-# Ejznrosa ideas
-EJZ_joint_civilian_development:0 "Joint Civilian Development"
-EJZ_joint_military_excercise:0 "Joint Military Exercise"
-EJZ_war_profiting:0 "War Profiting"
-EJZ_ensure_stability_in_the_region:0 "Ensure Stablity in the Region"
-EJZ_abolished_the_two_dukes_system:0 "Abolished the Two Dukes System"
-EJZ_continue_the_status_quo:0 "Continued the Status Quo"
+ # Ejznrosa ideas
+ EJZ_joint_civilian_development:0 "Joint Civilian Development"
+ EJZ_joint_military_excercise:0 "Joint Military Exercise"
+ EJZ_war_profiting:0 "War Profiting"
+ EJZ_ensure_stability_in_the_region:0 "Ensure Stablity in the Region"
+ EJZ_abolished_the_two_dukes_system:0 "Abolished the Two Dukes System"
+ EJZ_continue_the_status_quo:0 "Continued the Status Quo"
+ EJZ_scaliga_mercenaries:0 "Scaliga Mercenaries"
+ EJZ_scaliga_mercenaries_desc:0 "Our connection to §0Scaliga §!through §3Alexfoolery §!has offered us mercenaries in order to defend us incase our sovereignty is challenged in the future. Improving our army strength and defensive capablities."

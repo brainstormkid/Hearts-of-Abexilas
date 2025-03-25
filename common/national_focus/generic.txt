@@ -1643,7 +1643,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = generic_focus_rebuild_the_economy  }
+		prerequisite = { focus = generic_focus_rebuild_the_economy1  }
 		
 		completion_reward = {
 			swap_ideas = {

@@ -2,6 +2,7 @@
 oob = "EJZ"
 
 puppet = FLA
+add_ideas = EJZ_scaliga_mercenaries
 
 set_research_slots = 4
 set_stability = 0.75

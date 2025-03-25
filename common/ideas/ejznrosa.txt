@@ -1,5 +1,30 @@
 ideas = {
     country = {
+        #Scaliga Mercenaries
+        EJZ_scaliga_mercenaries = {
+            picture = scaliga_mercenaries
+            allowed = {
+                tag = EJZ
+            }
+            available = {
+            }
+            cancel = {
+                EJZ = { has_war_with = SCA }
+                SCA = { has_war_with = EJZ }
+                NOT = {
+                    country_exists = SCA
+                }
+            }
+            modifier = {
+                consumer_goods_factor = 0.15
+                experience_gain_army = 0.1
+                army_attack_factor = 0.1
+                army_core_attack_factor = 0.1
+                army_defence_factor = 0.1
+                army_core_defence_factor = 0.1
+            }
+        }
+
         #Valora-Aerternus Subtree
         EJZ_joint_civilian_development = {
             picture = placeholder

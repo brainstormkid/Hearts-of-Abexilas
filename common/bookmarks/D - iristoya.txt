@@ -12,6 +12,7 @@ bookmarks = {
         	ideology = monarchist
 
         	ideas={
+				EJZ_scaliga_mercenaries
         	}
 
         	focuses = {

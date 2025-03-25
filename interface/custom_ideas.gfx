@@ -337,4 +337,10 @@ spriteTypes = {
 		name = "GFX_idea_valdic_valora_special_relationship"
 		texturefile = "gfx/interface/ideas/valdic_valora_special_relationship.dds"
 	}
+
+	#Ejznrosa
+	SpriteType = { 
+		name = "GFX_idea_scaliga_mercenaries"
+		texturefile = "gfx/interface/ideas/idea_scaliga_mercenaries.dds"
+	}
  }
