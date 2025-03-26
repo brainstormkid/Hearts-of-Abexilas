@@ -343,4 +343,8 @@ spriteTypes = {
 		name = "GFX_idea_scaliga_mercenaries"
 		texturefile = "gfx/interface/ideas/idea_scaliga_mercenaries.dds"
 	}
+	SpriteType = { 
+		name = "GFX_idea_two_dukes_system"
+		texturefile = "gfx/interface/ideas/idea_two_dukes_system.dds"
+	}
  }

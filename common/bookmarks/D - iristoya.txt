@@ -12,6 +12,7 @@ bookmarks = {
         	ideology = monarchist
 
         	ideas={
+				EJZ_two_dukes_system
 				EJZ_scaliga_mercenaries
         	}
 

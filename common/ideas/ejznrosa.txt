@@ -1,5 +1,24 @@
 ideas = {
     country = {
+        #Two Dukes System
+        EJZ_two_dukes_system = {
+            picture = two_dukes_system
+            allowed = {
+                tag = EJZ
+            }
+            available = {
+            }
+            cancel = {
+            }
+            modifier = {
+                stability_factor = -0.05
+                political_power_gain = 0.1
+                production_speed_buildings_factor = -0.05
+                production_factory_efficiency_gain_factor = 0.05
+                production_factory_max_efficiency_factor = 0.05
+            }
+        }
+
         #Scaliga Mercenaries
         EJZ_scaliga_mercenaries = {
             picture = scaliga_mercenaries
@@ -108,8 +127,9 @@ ideas = {
             cancel = {
             }
             modifier = {
-                production_speed_buildings_factor = 0.05
-                political_power_gain = 0.05
+                stability_factor = 0.1
+                production_speed_buildings_factor = 0.1
+                political_power_gain = 0.15
             }
         }
         
@@ -124,10 +144,11 @@ ideas = {
             cancel = {
             }
             modifier = {
-                production_speed_buildings_factor = -0.05
-                political_power_gain = 0.25
-                production_factory_efficiency_gain_factor = 0.05
-                production_factory_max_efficiency_factor = 0.05
+                stability_factor = -0.1
+                production_speed_buildings_factor = -0.1
+                political_power_gain = 0.05
+                production_factory_efficiency_gain_factor = 0.1
+                production_factory_max_efficiency_factor = 0.1
             }
         }
 

@@ -1087,8 +1087,9 @@ focus_tree = {
 		prerequisite = { focus = EJZ_drafting_the_constitution  }
 		mutually_exclusive = {focus = EJZ_abolish_the_two_dukes_system}
 		completion_reward = {
-			add_ideas = {
-				EJZ_continue_the_status_quo
+			swap_ideas = {
+				add_idea = EJZ_continue_the_status_quo
+				remove_idea = EJZ_two_dukes_system
 			}
 			add_popularity = {
 				ideology = conservatist
@@ -1122,8 +1123,9 @@ focus_tree = {
 		prerequisite = { focus = EJZ_drafting_the_constitution  }
 		mutually_exclusive = { focus = EJZ_continue_the_status_quo  }
 		completion_reward = {
-			add_ideas = {
-				EJZ_abolished_the_two_dukes_system
+			swap_ideas = {
+				add_idea = EJZ_abolished_the_two_dukes_system
+				remove_idea = EJZ_two_dukes_system
 			}
 			add_popularity = {
 				ideology = monarchist
