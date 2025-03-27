@@ -2919,8 +2919,10 @@
  upon_timeout: "Upon Timeout"
 
  # Ejznrosa ideas
- EJZ_joint_civilian_development:0 "Joint Civilian Development"
- EJZ_joint_military_excercise:0 "Joint Military Exercise"
+ EJZ_idea_joint_civilian_development:0 "Joint Civilian Development"
+ EJZ_idea_joint_civilian_development_desc:0 "Working together with §YValora§! will help us with our production and construction."
+ EJZ_idea_joint_military_excercise:0 "Joint Military Exercise"
+ EJZ_idea_joint_military_excercise_desc:0 "Working together with §2Aerternus§! will help us with our military and arms production."
  EJZ_war_profiting:0 "War Profiting"
  EJZ_ensure_stability_in_the_region:0 "Ensure Stablity in the Region"
  EJZ_abolished_the_two_dukes_system:0 "Abolished the Two Dukes System"

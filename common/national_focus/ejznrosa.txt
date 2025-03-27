@@ -1946,11 +1946,11 @@ focus_tree = {
 		prerequisite = { focus = EJZ_embargo_valora  }
 		completion_reward = {
 			add_ideas = {
-				EJZ_joint_military_excercise
+				EJZ_idea_joint_military_excercise
 			}
 			AER = {
 				add_ideas = {
-					EJZ_joint_military_excercise
+					EJZ_idea_joint_military_excercise
 				}
 			}
 		}
@@ -1969,11 +1969,11 @@ focus_tree = {
 		prerequisite = { focus = EJZ_embargo_aerternus  }
 		completion_reward = {
 			add_ideas = {
-				EJZ_joint_civilian_development
+				EJZ_idea_joint_civilian_development
 			}
 			VAL = {
 				add_ideas = {
-					EJZ_joint_civilian_development
+					EJZ_idea_joint_civilian_development
 				}
 			}
 		}
