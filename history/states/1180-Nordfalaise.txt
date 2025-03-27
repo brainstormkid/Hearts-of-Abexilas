@@ -1,0 +1,34 @@
+state={
+	id=1180
+	name="STATE_1180"
+	provinces={
+		2865 3329 4424 11807 11827 11853 11867 11886
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=1050000
+        state_category = rural
+	history={
+		owner = VER
+		buildings = {
+			infrastructure = 2
+			2865 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = VER
+		victory_points = {
+			2865 5
+		}
+		victory_points = {
+			11853 5
+		}
+	}
+}

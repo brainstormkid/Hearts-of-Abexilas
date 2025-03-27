@@ -1,0 +1,33 @@
+state={
+	id=1179
+	name="STATE_1179"
+	provinces={
+		655 1117 4174 6731 11679 11733
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=600000
+        state_category = large_town
+	history={
+		owner = VER
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			4174 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = VER
+		victory_points = {
+			1117 5
+		}
+	}
+}

@@ -1,0 +1,38 @@
+state={
+	id=640
+	name="STATE_640"
+	provinces={
+		1220 1590 2157 5402 11665 11710 11761 11767 11801 11802 11831 11845 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=3000000
+        state_category = town
+	history={
+		owner = FLO
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			5402 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = FLO
+		victory_points = {
+			5402 50
+		}
+		victory_points = {
+			2157 10
+		}
+		victory_points = {
+			1220 5
+		}
+	}
+}
