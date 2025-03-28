@@ -890,6 +890,13 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = EJZ_army_modernization  }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.2
+				uses = 2
+				category = artillery
+			}
+		}
 	}
 
 	#Equipment Focus
@@ -903,6 +910,13 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = EJZ_government_arms_contract  }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.2
+				uses = 2
+				category = infantry_weapons
+			}
+		}
 	}
 
 	#Ejznrosii Military Academy
@@ -1437,6 +1451,15 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = EJZ_prioritize_defense  focus = EJZ_on_the_offensive  }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = special_forces_doctrine
+			}
+			army_experience = 20
+			navy_experience = 20
+		}
 	}
 
 	#Wokark Fortification Efforts
@@ -1498,6 +1521,13 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = EJZ_on_the_offensive  focus = EJZ_defensive_doctrine  }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.2
+				uses = 2
+				category = armor
+			}
+		}
 	}
 
 	#Offensive Doctrine
@@ -1511,19 +1541,6 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = EJZ_armor_research  } prerequisite = { focus = EJZ_antitank_research  }
-	}
-
-	#Anti-Air Focus
-	focus = {
-		id = EJZ_antiair_focus
-		icon = GFX_EJZ_antiair_focus-645807
-		x = 36
-		y = 7
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		prerequisite = { focus = EJZ_artillery_focus  }
 	}
 
 	#Support Radical Leftists in Orion
