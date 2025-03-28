@@ -634,7 +634,7 @@ focus_tree = {
 	#Urbanization
 	focus = {
 		id = EJZ_urbanization
-		icon = GFX_EJZ_urbanization-646355
+		icon = GFX_EJZ_urbanization
 		x = 26
 		y = 5
 		cost = 10
@@ -1677,7 +1677,7 @@ focus_tree = {
 	#Bolster Nationalism
 	focus = {
 		id = EJZ_bolster_nationalism
-		icon = GFX_EJZ_bolster_nationalism-262105
+		icon = GFX_EJZ_bolster_nationalism
 		x = 14
 		y = 5
 		cost = 5
