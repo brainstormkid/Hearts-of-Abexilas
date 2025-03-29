@@ -1,0 +1,28 @@
+state={
+	id=437
+	name="STATE_437"
+	provinces={
+		4358 4974 10427 10451 10515 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=750000
+        state_category = rural
+	history={
+		owner = IRS
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = IRS
+		victory_points = {
+			4358 5
+		}
+	}
+}

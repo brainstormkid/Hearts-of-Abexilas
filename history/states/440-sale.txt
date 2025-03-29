@@ -1,0 +1,28 @@
+state={
+	id=440
+	name="STATE_440"
+	provinces={
+		1916 10436 10541 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=300000
+        state_category = small_island
+	history={
+		owner = IRS
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = IRS
+		victory_points = {
+			1916 5
+		}
+	}
+}

@@ -43,43 +43,43 @@ division_template = {
 
 units = {
 	division = {
-		name = "1st Amestrian Infantry"
-		location = 10186
+		name = "1st Irisnian Infantry"
+		location = 2338
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Amestrian Infantry"
-		location = 10186
+		name = "2nd Irisnian Infantry"
+		location = 2338
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Amestrian Guards"
-		location = 188
+		name = "1st Irisnian Guards"
+		location = 10001
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Amestrian Cavalry"
-		location = 2510
+		name = "1st Irisnian Cavalry"
+		location = 3443
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Amestrian Cavalry"
-		location = 10168
+		name = "2nd Irisnian Cavalry"
+		location = 2587
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Amestrian Cavalry"
-		location = 4497
+		name = "3rd Irisnian Cavalry"
+		location = 3892
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
