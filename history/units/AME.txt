@@ -77,6 +77,13 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
+	division = {
+		name = "3rd Amestrian Cavalry"
+		location = 164
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
 }
 
 #####################

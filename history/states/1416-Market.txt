@@ -1,0 +1,30 @@
+state={
+	id=1416
+	name="STATE_1416"
+	provinces={
+		4152 4497 6347 10064 10088 10111
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+		manpower=2100000
+		state_category = large_town
+	history = {
+		owner = AME
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = AME
+		victory_points = {
+			164 10
+		}
+	}
+}
