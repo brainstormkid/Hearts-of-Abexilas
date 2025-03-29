@@ -1,0 +1,40 @@
+state={
+	id=612
+	name="STATE_612"
+	provinces={
+		310 1459 1624 3550 3650 6074 6884 11367 11427 11453 11459 11508 11528 11548 11560 11577 11586 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=9000000
+        state_category = city
+	history={
+		owner = VAS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			11586 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = VAS
+		victory_points = {
+			310 50
+		}
+		victory_points = {
+			1459 5
+		}
+		victory_points = {
+			11453 5
+		}
+	}
+}
