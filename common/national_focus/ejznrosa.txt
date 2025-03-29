@@ -701,7 +701,7 @@ focus_tree = {
 	#Extensive City Planning
 	focus = {
 		id = EJZ_extensive_city_planning
-		icon = GFX_EJZ_extensive_city_planning-750858
+		icon = GFX_EJZ_extensive_planning
 		x = 21
 		y = 7
 		cost = 10
@@ -944,6 +944,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_invest_in_civilian_industries  }
 		mutually_exclusive = {focus = EJZ_military_focus}
+		completion_reward = {
+			add_ideas = EJZ_civilian_focus
+		}
 	}
 
 	#Military Focus
@@ -958,6 +961,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_government_arms_contract  }
 		mutually_exclusive = { focus = EJZ_civilian_focus  }
+		completion_reward = {
+			add_ideas = EJZ_military_focus
+		}
 	}
 
 	#Wokark Canal Works

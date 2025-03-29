@@ -219,5 +219,35 @@ ideas = {
                 global_building_slots = 2
             }
         }
+
+        #Civilian Focus
+        EJZ_civilian_focus = {
+            allowed = {
+                tag = EJZ
+            }
+            available = {
+            }
+            cancel = {
+            }
+            modifier = {
+                production_speed_industrial_complex_factor = 0.1
+                production_speed_infrastructure_factor = 0.1
+            }
+        }
+
+        #Military Focus
+        EJZ_military_focus = {
+            allowed = {
+                tag = EJZ
+            }
+            available = {
+            }
+            cancel = {
+            }
+            modifier = {
+                production_speed_arms_factory_factor = 0.1
+                production_factory_efficiency_gain_factor = 0.1
+            }
+        }
     }
 }
