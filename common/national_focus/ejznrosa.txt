@@ -496,6 +496,10 @@ focus_tree = {
 			FOCUS_FILTER_STABILITY
 		}
 		prerequisite = { focus = EJZ_thedukesgovernment  }
+		completion_reward = {
+			add_political_power = 20
+			add_stability = 0.05
+		}
 	}
 
 	#Deciding our course
@@ -696,6 +700,9 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = EJZ_urbanization  } prerequisite = { focus = EJZ_mountain_mining_operations  } prerequisite = { focus = EJZ_manage_national_capital  }
+		completion_reward = {
+			add_ideas = EJZ_task_system
+		}
 	}
 
 	#Extensive City Planning
@@ -748,6 +755,9 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = EJZ_economy_ministry  }
+		completion_reward = {
+			
+		}
 	}
 	
 	#Defense Ministry
@@ -2235,13 +2245,20 @@ focus_tree = {
 		prerequisite = { focus = EJZ_looking_outwards  }
 		mutually_exclusive = { focus = EJZ_nonaggression_pact_with_aerternus  }
 		available = {
-			OR = {
-				country_exists = AGR
-				has_army_manpower = {
-					size > 200000
+			AND = {
+				OR = {
+					country_exists = AGR
+					has_army_manpower = {
+						size > 200000
+					}
+				}
+				1413 = {
+					is_owned_by = AER
+				}
+				1412 = {
+					is_owned_by = AER
 				}
 			}
-			
 		}
 		completion_reward = {
 			country_event = {
@@ -2263,7 +2280,22 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
+		available = {
+			AND = {
+				1411 = {
+					is_owned_by = AER
+				}
+				has_army_manpower = {
+					size > 299999
+				}
+			}
+		}
 		prerequisite = { focus = EJZ_claims_in_aerternus  }
+		completion_reward = {
+			1411 = {
+				add_claim_by = EJZ
+			}
+		}
 	}
 
 	#National Farming Production

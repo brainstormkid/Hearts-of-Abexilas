@@ -1,0 +1,25 @@
+add_namespace = aerternus
+#TEMP (ONLY FOR EJZNROSA COMPATABLITY)
+country_event = {
+	id = aerternus.1
+	title = "Purchase Valora Land"
+	desc = aerternus.1.d
+	picture = "GFX_ejznrosa_event_1_image"
+	trigger = {
+		tag = AER
+		date > 0002.05.08
+	}
+	option = { # purchase
+	name = "Purchase Valoran Land"
+	ai_chance = { factor = 100 }
+	transfer_state = 1413
+	transfer_state = 1411
+	VAL = {
+		transfer_state = 624
+	}
+	}
+	option = { # we're fine withour
+	name = "We're fine without"
+	ai_chance = { factor = 0 }
+	}
+}

@@ -249,5 +249,29 @@ ideas = {
                 production_factory_efficiency_gain_factor = 0.1
             }
         }
+
+        #Ejznrosa Task System
+        EJZ_task_system = {
+            allowed = {
+                tag = EJZ
+            }
+            available = {
+            }
+            cancel = {
+            }
+            modifier = {
+                production_speed_buildings_factor = 0.1
+                industry_repair_factor = 0.1
+                industrial_capacity_factory = 0.1
+                industrial_capacity_dockyard = 0.1
+                production_factory_efficiency_gain_factor = 0.05
+                production_factory_max_efficiency_factor = 0.05
+                production_factory_start_efficiency_factor = 0.05
+                monthly_population = 0.1
+                conscription_factor = 0.05
+                production_lack_of_resource_penalty_factor = 0.2
+                consumer_goods_factor = 0.1
+            }
+        }     
     }
 }
