@@ -2295,6 +2295,7 @@ focus_tree = {
 			1411 = {
 				add_claim_by = EJZ
 			}
+			EJZ = {country_event = {id = ejznrosa.15 }}
 		}
 	}
 
