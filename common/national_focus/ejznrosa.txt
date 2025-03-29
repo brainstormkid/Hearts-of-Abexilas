@@ -1710,7 +1710,7 @@ focus_tree = {
 	#Secure our Nation
 	focus = {
 		id = EJZ_secure_our_nation
-		icon = GFX_EJZ_secure_our_nation-262105
+		icon = GFX_EJZ_secure_our_nation
 		x = 12
 		y = 5
 		cost = 5
