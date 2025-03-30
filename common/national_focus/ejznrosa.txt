@@ -1491,6 +1491,18 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_government_arms_contract  } prerequisite = { focus = EJZ_army_modernization  }
 		mutually_exclusive = {focus = EJZ_on_the_offensive}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.1
+	            uses = 1
+	            category = cat_grand_battle_plan
+			}
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.1
+	            uses = 1
+	            category = cat_mass_assault
+			}
+		}
 	}
 
 	#On the Offensive
@@ -1510,6 +1522,11 @@ focus_tree = {
 				cost_reduction = 0.1
 	            uses = 1
 	            category = cat_mobile_warfare
+			}
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.1
+	            uses = 1
+	            category = cat_superior_firepower
 			}
 		}
 	}
@@ -2452,7 +2469,7 @@ focus_tree = {
 	#The Great Gold Strain
 	focus = {
 		id = EJZ_the_great_gold_strain
-		icon = GFX_EJZ_economy_ministry-645670
+		icon = GFX_focus_ITA_devaluate_the_lire
 		x = 38
 		y = 3
 		cost = 0
