@@ -807,7 +807,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_economy_ministry  }
 		completion_reward = {
-			
+			add_timed_idea = {
+				idea = EJZ_manage_capital
+				days = 365
+			}
 		}
 	}
 	
@@ -2384,7 +2387,7 @@ focus_tree = {
 		icon = GFX_SOV_claims_on_poland_ccp_2d_sov_compatibility
 		x = 8
 		y = 3
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
