@@ -1,8 +1,8 @@
 state={
-	id=541
-	name="STATE_541"
+	id=594
+	name="STATE_594"
 	provinces={
-		53 1386 1655 3345 3420 5435 6765 11078 11096 11121 
+		1951 3062 11227 11289 11309 11324 11340 
 	}
 	resources = {
 		oil = 2
@@ -13,24 +13,19 @@ state={
 		chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=2250000
-        state_category = large_town
+        manpower=3000000
+        state_category = rural
 	history={
 		owner = YAR
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 1
+			11324 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = YAR
 		victory_points = {
-			5435 10
-		}
-		victory_points = {
-			6765 5
-		}
-		victory_points = {
-			53 5
+			11309 20
 		}
 	}
 }

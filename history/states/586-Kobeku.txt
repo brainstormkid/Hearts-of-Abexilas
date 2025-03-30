@@ -4,13 +4,28 @@ state={
 	provinces={
 		11206 11207 11244 11270 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=450000
+        state_category = rural
 	history={
 		owner = YAR
 		buildings = {
+			infrastructure = 2
+			11207 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = YAR
+		victory_points = {
+			11270 5
+		}
 	}
 }
