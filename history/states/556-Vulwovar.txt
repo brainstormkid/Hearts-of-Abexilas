@@ -4,13 +4,43 @@ state={
 	provinces={
 		143 501 667 932 1074 1150 1292 1662 1683 2688 2992 3181 3333 3603 4130 4249 4362 6466 6614 11111 11220 11226 11238 11252 11279 11298 11299 11315 11323 11334 11373 11379 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=9750000
+        state_category = large_city
 	history={
 		owner = VAD
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = VAD
+		victory_points = {
+			11298 30
+		}
+		victory_points = {
+			143 10
+		}
+		victory_points = {
+			1074 5
+		}
+		victory_points = {
+			11379 5
+		}
+		victory_points = {
+			1292 5
+		}
+		victory_points = {
+			4130 5
+		}
 	}
 }

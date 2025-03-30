@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 603
+
+oob = "VAD"
 
 set_politics = {
 	ruling_party = absolutist
@@ -24,6 +26,8 @@ create_country_leader = {
 		#
 	}
 }
+
+set_convoys = 35
 
 set_autonomy = {
 	target = SHI
