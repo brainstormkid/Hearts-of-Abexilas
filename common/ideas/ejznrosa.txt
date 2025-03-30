@@ -46,7 +46,7 @@ ideas = {
 
         #Valora-Aerternus Subtree
         EJZ_idea_joint_civilian_development = {
-            picture = placeholder
+            picture = SOV_restoration_and_development_idea_ccp_sov_compatibility
             allowed = {
                 tag = EJZ
                 tag = VAL
@@ -65,7 +65,7 @@ ideas = {
             }
         } 
         EJZ_idea_joint_military_excercise = {
-            picture = placeholder
+            picture = MEX_politicised_army
             allowed = {
                 tag = EJZ
                 tag = AER
@@ -83,7 +83,7 @@ ideas = {
             }
         } 
         EJZ_war_profiting = {
-            picture = placeholder
+            picture = SPR_seize_the_gold_reserves
             allowed = {
                 tag = EJZ
             }
@@ -100,7 +100,7 @@ ideas = {
             }
         } 
         EJZ_ensure_stability_in_the_region = {
-            picture = placeholder
+            picture = SWI_spirit_of_helvetia_defensive_peace
             allowed = {
                 tag = EJZ
             }
@@ -119,7 +119,7 @@ ideas = {
         } 
         #Abolished the Two Dukes System
         EJZ_abolished_the_two_dukes_system = {
-            picture = placeholder
+            picture = AUS_habsburg_monarchy_restored
             allowed = {
                 tag = EJZ
             }
@@ -136,7 +136,7 @@ ideas = {
         
         #Continue the Status Quo
         EJZ_continue_the_status_quo = {
-            picture = placeholder
+            picture = generic_monarchist_uprising
             allowed = {
                 tag = EJZ
             }
@@ -155,7 +155,7 @@ ideas = {
 
         #Food for the Population
         EJZ_food_for_the_population = {
-            picture = placeholder
+            picture = generic_agrarian_reform
             allowed = {
                 tag = EJZ
             }
@@ -172,7 +172,7 @@ ideas = {
 
         #Increase Defense Budget
         EJZ_increase_defense_budget = {
-            picture = placeholder
+            picture = ARG_rapid_militarization
             allowed = {
                 tag = EJZ
             }
@@ -190,6 +190,7 @@ ideas = {
 
         #Government Arms Contract
         EJZ_government_arms_contract = {
+            picture = HUN_treaty_of_triannon
             allowed = {
                 tag = EJZ
             }
@@ -206,6 +207,7 @@ ideas = {
 
         #Extensive City Planning
         EJZ_extensive_city_planning = {
+            picture = gre_schachtplan
             allowed = {
                 tag = EJZ
             }
@@ -222,6 +224,7 @@ ideas = {
 
         #Civilian Focus
         EJZ_civilian_focus = {
+            picture = POL_succesful_four_year_plan
             allowed = {
                 tag = EJZ
             }
@@ -237,6 +240,7 @@ ideas = {
 
         #Military Focus
         EJZ_military_focus = {
+            picture = SOV_third_five_year_plan_military
             allowed = {
                 tag = EJZ
             }
@@ -252,6 +256,7 @@ ideas = {
 
         #Ejznrosa Task System
         EJZ_task_system = {
+            picture = HUN_treaty_of_triannon
             allowed = {
                 tag = EJZ
             }
@@ -272,6 +277,22 @@ ideas = {
                 production_lack_of_resource_penalty_factor = 0.2
                 consumer_goods_factor = 0.1
             }
-        }     
+        } 
+        #Manage National Capital  
+        EJZ_manage_capital = {
+            picture = ARG_political_corruption_modifier
+            allowed = {
+                tag = EJZ
+            }
+            available = {
+            }
+            cancel = {
+            }
+            modifier = {
+                production_factory_efficiency_gain_factor = 0.05
+                production_factory_max_efficiency_factor = 0.05
+                production_factory_start_efficiency_factor = 0.05
+                consumer_goods_factor = -0.1
+            }  
     }
 }
