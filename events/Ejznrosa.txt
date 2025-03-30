@@ -376,7 +376,7 @@ country_event = {
 	option = { #Sure.
 	name = "Sure."
 	ai_chance = { factor = 100 }
-	AER = {country_event = {id = ejznrosa.16 = 10 }}
+	AER = {country_event = {id = ejznrosa.16 days = 10 }}
     }   
 	option = { #We should not provoke Aerternus too much.
 	name = "We should not provoke Aerternus too much."
@@ -397,7 +397,7 @@ country_event = {
 	option = { #This is unacceptable.
 	name = "This is unacceptable."
 	ai_chance = { factor = 85 }
-	EJZ = {country_event = {id = ejznrosa.17 = 15 }}
+	EJZ = {country_event = {id = ejznrosa.17 days = 15 }}
     }   
 	option = { #They're not important anyways.
 	name = "They're not important anyways."
@@ -420,7 +420,7 @@ country_event = {
 	option = { #Continue negotiating with Neu Sandburg.
 	name = "Continue negotiating with Neu Sandburg."
 	ai_chance = { factor = 60 }
-	EJZ = {country_event = {id = ejznrosa.18 = 10 }}
+	EJZ = {country_event = {id = ejznrosa.18 days = 10 }}
     }   
 	option = { #Back Down.
 	name = "Back Down."
@@ -445,10 +445,10 @@ country_event = {
 	ai_chance = { factor = 85 }
 	random_list = {
 		75 = {
-			EJZ = {country_event = {id = ejznrosa.19 = 10 }}
+			EJZ = {country_event = {id = ejznrosa.19 days = 10 }}
 		}
 		25 = {
-			EJZ = {country_event = {id = ejznrosa.21 = 10 }}
+			EJZ = {country_event = {id = ejznrosa.21 days = 10 }}
 		}
 	}
 	
@@ -458,10 +458,10 @@ country_event = {
 	ai_chance = { factor = 15 }
 	random_list = {
 		50 = {
-			EJZ = {country_event = {id = ejznrosa.20 = 10 }}
+			EJZ = {country_event = {id = ejznrosa.20 days = 10 }}
 		}
 		50 = {
-			EJZ = {country_event = {id = ejznrosa.21 = 10 }}
+			EJZ = {country_event = {id = ejznrosa.21 days = 10 }}
 		}
 	}
     }  
@@ -515,7 +515,7 @@ country_event = {
 	option = { #Great!
 	name = "Great!"
 	ai_chance = { factor = 40 }
-	AER = {country_event = {id = ejznrosa.22 = 10 }}
+	AER = {country_event = {id = ejznrosa.22 days = 10 }}
 	transfer_state = 1411
 	1411 = {
 		add_core_of = EJZ
