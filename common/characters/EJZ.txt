@@ -9,7 +9,7 @@ characters={
         }
         country_leader={
             ideology=monarchist_subtype
-            traits= { true_nationalist }
+            traits= {}
             desc = POLITICS_GUSTAV_DESC
             expire="1965.1.1.1"
         }
