@@ -366,17 +366,17 @@ country_event = {
 	id = ejznrosa.15
 	hours = 12
     random_hours = 6
-    days = 1
+    days = 3
 	title = "Neu Sandburg offers to join us!"
 	desc = ejznrosa.15.d
 	picture = "GFX_ejznrosa_event_1_image"
-	
+	timeout_days = 20
 	is_triggered_only = yes
 
 	option = { #Sure.
 	name = "Sure."
 	ai_chance = { factor = 100 }
-	AER = {country_event = {id = ejznrosa.16 }}
+	AER = {country_event = {id = ejznrosa.16 = 10 }}
     }   
 	option = { #We should not provoke Aerternus too much.
 	name = "We should not provoke Aerternus too much."
@@ -387,17 +387,17 @@ country_event = {
 	id = ejznrosa.16
 	hours = 12
     random_hours = 6
-    days = 1
+    days = 3
 	title = "Neu Sandburg is trying to join Ejznrosa!"
 	desc = ejznrosa.16.d
 	picture = "GFX_ejznrosa_event_1_image"
-	
+	timeout_days = 20
 	is_triggered_only = yes
 
 	option = { #This is unacceptable.
 	name = "This is unacceptable."
 	ai_chance = { factor = 85 }
-	EJZ = {country_event = {id = ejznrosa.17 }}
+	EJZ = {country_event = {id = ejznrosa.17 = 15 }}
     }   
 	option = { #They're not important anyways.
 	name = "They're not important anyways."
@@ -410,17 +410,17 @@ country_event = {
 	id = ejznrosa.17
 	hours = 12
     random_hours = 6
-    days = 1
+    days = 2
 	title = "Aerternus threatens us with war."
 	desc = ejznrosa.17.d
 	picture = "GFX_ejznrosa_event_1_image"
-	
+	timeout_days = 20
 	is_triggered_only = yes
 
-	option = { #This is unacceptable.
+	option = { #Continue negotiating with Neu Sandburg.
 	name = "Continue negotiating with Neu Sandburg."
 	ai_chance = { factor = 60 }
-	EJZ = {country_event = {id = ejznrosa.18 }}
+	EJZ = {country_event = {id = ejznrosa.18 = 10 }}
     }   
 	option = { #Back Down.
 	name = "Back Down."
@@ -437,7 +437,7 @@ country_event = {
 	title = "Compromise with Neu Sandburg."
 	desc = ejznrosa.18.d
 	picture = "GFX_ejznrosa_event_1_image"
-	
+	timeout_days = 20
 	is_triggered_only = yes
 
 	option = { #Wokark handles the situation.
@@ -445,10 +445,10 @@ country_event = {
 	ai_chance = { factor = 85 }
 	random_list = {
 		75 = {
-			EJZ = {country_event = {id = ejznrosa.19 }}
+			EJZ = {country_event = {id = ejznrosa.19 = 10 }}
 		}
 		25 = {
-			EJZ = {country_event = {id = ejznrosa.21 }}
+			EJZ = {country_event = {id = ejznrosa.21 = 10 }}
 		}
 	}
 	
@@ -458,10 +458,10 @@ country_event = {
 	ai_chance = { factor = 15 }
 	random_list = {
 		50 = {
-			EJZ = {country_event = {id = ejznrosa.20 }}
+			EJZ = {country_event = {id = ejznrosa.20 = 10 }}
 		}
 		50 = {
-			EJZ = {country_event = {id = ejznrosa.21 }}
+			EJZ = {country_event = {id = ejznrosa.21 = 10 }}
 		}
 	}
     }  
@@ -470,7 +470,7 @@ country_event = {
 	id = ejznrosa.19
 	hours = 12
     random_hours = 6
-    days = 1
+    days = 5
 	title = "Negotiations Breaks Down"
 	desc = ejznrosa.19.d
 	picture = "GFX_ejznrosa_event_1_image"
@@ -487,11 +487,11 @@ country_event = {
 	id = ejznrosa.20
 	hours = 12
     random_hours = 6
-    days = 1
+    days = 5
 	title = "Negotiations Breaks Down"
 	desc = ejznrosa.20.d
 	picture = "GFX_ejznrosa_event_1_image"
-	
+	timeout_days = 20
 	is_triggered_only = yes
 
 	option = { #Their loss.
@@ -505,17 +505,17 @@ country_event = {
 	id = ejznrosa.21
 	hours = 12
     random_hours = 6
-    days = 1
+    days = 5
 	title = "Negotiations successful"
 	desc = ejznrosa.21.d
 	picture = "GFX_ejznrosa_event_1_image"
-	
+	timeout_days = 20
 	is_triggered_only = yes
 
 	option = { #Great!
 	name = "Great!"
 	ai_chance = { factor = 40 }
-	AER = {country_event = {id = ejznrosa.22 }}
+	AER = {country_event = {id = ejznrosa.22 = 10 }}
 	transfer_state = 1411
 	1411 = {
 		add_core_of = EJZ
@@ -531,11 +531,11 @@ country_event = {
 	id = ejznrosa.22
 	hours = 12
     random_hours = 6
-    days = 1
+    days = 2
 	title = "Neu Sandburg joins Ejznrosa!"
 	desc = ejznrosa.22.d
 	picture = "GFX_ejznrosa_event_1_image"
-	
+	timeout_days = 20
 	is_triggered_only = yes
 
 	option = { #To arms!
