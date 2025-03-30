@@ -1,0 +1,31 @@
+state={
+	id=620
+	name="STATE_620"
+	provinces={
+		6938 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=1200000
+        state_category = small_island
+	history={
+		owner = VAD
+		buildings = {
+			infrastructure = 2
+			6938 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = VAD
+		victory_points = {
+			6938 10
+		}
+	}
+}

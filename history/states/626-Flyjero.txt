@@ -4,13 +4,40 @@ state={
 	provinces={
 		160 1689 2390 2565 3961 4458 4807 4855 6634 11543 11578 11590 11613 11669 11680 11681 11716 11774 11780 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=5550000
+        state_category = city
 	history={
 		owner = VAD
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			4855 = {
+				naval_base = 3
+			}
 		}
 		add_core_of = VAD
+		victory_points = {
+			4855 30
+		}
+		victory_points = {
+			11543 5
+		}
+		victory_points = {
+			11578 5
+		}
+		victory_points = {
+			1689 5
+		}
 	}
 }
