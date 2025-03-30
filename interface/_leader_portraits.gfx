@@ -281,4 +281,8 @@ spriteTypes = {
 		name = "GFX_portrait_MAR_maybe_large"
 		texturefile = "GFX/leaders/MAR/maybe.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_MAR_shizayy_large"
+		texturefile = "GFX/leaders/MAR/shizayy.dds"
+	}
 }
