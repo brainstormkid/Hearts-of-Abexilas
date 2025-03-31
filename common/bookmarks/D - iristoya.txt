@@ -17,6 +17,9 @@ bookmarks = {
         	}
 
         	focuses = {
+				EJZ_a_new_era
+				EJZ_extensive_city_planning
+				EJZ_bolster_nationalism
         	}
         }
 		
