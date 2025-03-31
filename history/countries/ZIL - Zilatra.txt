@@ -12,6 +12,10 @@ set_popularities = {
 	absolutist = 100
 }
 
+add_ideas = {
+	asi_member
+}
+
 create_country_leader = {
 	name = "?"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"

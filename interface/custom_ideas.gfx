@@ -317,10 +317,17 @@ spriteTypes = {
 		name = "GFX_idea_idea_muho_jidai"
 		texturefile = "gfx/interface/ideas/idea_muho_jidai.dds"
 	}
+	#Cathramis
 	SpriteType = {
 		name = "GFX_idea_cathramis_continental_member"
 		texturefile = "gfx/interface/ideas/idea_cathramis_continental_member.dds"
 	}
+	#ASI
+	SpriteType = {
+		name = "GFX_idea_asi_member"
+		texturefile = "gfx/interface/ideas/asi_member.dds"
+	}
+	#Valora
 	SpriteType = { 
 		name = "GFX_idea_novaran_rebellion"
 		texturefile = "gfx/interface/ideas/idea_novaran_rebellion.dds"
