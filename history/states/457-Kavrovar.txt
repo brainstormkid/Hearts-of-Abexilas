@@ -4,13 +4,31 @@ state={
 	provinces={
 		1937 2090 2454 2875 3608 4620 4721 5455 6230 10533 10566 10603 10639 10652 10695 10739 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=9450000
+        state_category = megalopolis
 	history={
 		owner = ASH
 		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
+			5455 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = ASH
+		victory_points = {
+			1937 50
+		}
 	}
 }

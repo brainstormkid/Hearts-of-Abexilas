@@ -4,13 +4,27 @@ state={
 	provinces={
 		1803 2199 2853 3016 3174 4240 5071 5528 10366 10391 10428 10438 10460 10509 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=2850000
+        state_category = large_town
 	history={
 		owner = ASH
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
 		add_core_of = ASH
+		victory_points = {
+			10428 20
+		}
 	}
 }

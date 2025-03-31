@@ -4,13 +4,31 @@ state={
 	provinces={
 		351 3668 4576 5968 6109 6497 10685 10701 10735 10755 10772 10773 10785 10871 10887 10916 10917 10962 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=2850000
+        state_category = rural
 	history={
 		owner = ASH
 		buildings = {
+			infrastructure = 2
 		}
 		add_core_of = ASH
+		victory_points = {
+			351 10
+		}
+		victory_points = {
+			10772 10
+		}
+		victory_points = {
+			10962 5
+		}
 	}
 }
