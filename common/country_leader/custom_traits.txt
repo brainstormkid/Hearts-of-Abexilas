@@ -208,5 +208,7 @@ leader_traits = {
 			factor = 0
 		}
 	}
+	#Ejznrosa
+	
 
 }

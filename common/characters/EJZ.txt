@@ -113,6 +113,39 @@ characters={
             }
         }
     }
+    EJZ_Alexfoolery_Ejznhjart = {
+        name = "Alexfoolery Ejznhjart"
+        portraits = {
+            civilian = {
+                small= "GFX_portrait_EJZ_alexfoolery_ejznhjart_small"
+            }
+            army = {
+                large = "GFX_portrait_EJZ_alexfoolery_ejznhjart_large"
+            }
+        }
+        advisor = {
+            cost = 150
+            slot = army_chief
+            ledger = army
+            allowed = {
+                original_tag = EJZ
+            }
+            traits = { army_chief_offensive_3 }
+            ai_will_do = {
+                factor = 1.0
+            }
+        }
+        field_marshal = {
+            traits = {
+                politically_connected offensive_doctrine logistics_wizard
+            }
+            skill = 5
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 4
+            logistics_skill = 3
+        }
+    }
 }
 
 
