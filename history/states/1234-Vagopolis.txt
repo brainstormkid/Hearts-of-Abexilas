@@ -1,0 +1,30 @@
+state={
+	id=1234
+	name="STATE_1234"
+	provinces={
+		2489 6796 14050 14055 14088
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=1200000
+        state_category = large_town
+	history={
+		owner = VAG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = VAG
+		victory_points = {
+			14050 50
+		}
+	}
+}
