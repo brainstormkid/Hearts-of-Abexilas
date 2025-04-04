@@ -1,0 +1,33 @@
+state={
+	id=776
+	name="STATE_776"
+	provinces={
+		2057 4813 12490 12503 12518 12547 12557 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=1050000
+        state_category = large_town
+	history={
+		owner = VET
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			12503 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = VET
+		victory_points = {
+			12518 50
+		}
+	}
+}
