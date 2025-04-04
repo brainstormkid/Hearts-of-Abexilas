@@ -1,0 +1,34 @@
+state={
+	id=1199
+	name="STATE_1199"
+	provinces={
+		1217 14558 14600
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=2100000
+        state_category = city
+	history={
+		owner = MEL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			1217 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = MEL
+		victory_points = {
+			1217 50
+		}
+	}
+}
