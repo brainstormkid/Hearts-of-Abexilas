@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 1190
+
+oob = "AYT"
 
 set_politics = {
 	ruling_party = absolutist
@@ -20,3 +22,5 @@ create_country_leader = {
 		#
 	}
 }
+
+set_convoys = 10

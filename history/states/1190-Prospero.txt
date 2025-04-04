@@ -1,0 +1,37 @@
+state={
+	id=1190
+	name="STATE_1190"
+	provinces={
+		1115 5976 6550 15199 15235 15248 15255
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=4350000
+        state_category = large_city
+	history={
+		owner = AYT
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			15248 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = AYT
+		victory_points = {
+			15255 50
+		}
+		victory_points = {
+			1115 10
+		}
+	}
+}
