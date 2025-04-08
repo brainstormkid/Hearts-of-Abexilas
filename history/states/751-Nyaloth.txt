@@ -4,13 +4,29 @@ state={
 	provinces={
 		731 800 2744 3775 4572 4848 6260 12321 12384 12395 12418 12422 12443 12475 12491 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=600000
         state_category = town
 	history={
 		owner = ACR
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			800 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = ACR
+		victory_points = {
+			800 5
+		}
 	}
 }

@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 754
+
+oob = "ACR"
 
 set_politics = {
 	ruling_party = absolutist
@@ -20,6 +22,8 @@ create_country_leader = {
 		#
 	}
 }
+
+set_convoys = 45
 
 set_autonomy = {
 	target = LUK
