@@ -4,13 +4,31 @@ state={
 	provinces={
 		127 296 1012 5089 14383 14410 14444 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=6450000
+        state_category = city
 	history={
 		owner = TAR
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			14410 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = TAR
+		victory_points = {
+			1012 50
+		}
 	}
 }
