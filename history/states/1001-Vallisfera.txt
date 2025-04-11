@@ -1,0 +1,36 @@
+state={
+	id=1001
+	name="STATE_1001"
+	provinces={
+		478 1580 1944 2885 3133 3900 14069 14100 14129 14137 14162 14178 14203 14228 14235 14246 14280 14283 14307 14321 14322 14330 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+		manpower=2850000
+		state_category = large_town
+	history={
+		owner = AUR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			14137 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = AUR
+		victory_points = {
+			14162 50
+		}
+		victory_points = {
+			14280 5
+		}
+	}
+}
