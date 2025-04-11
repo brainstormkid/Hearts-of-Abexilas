@@ -1,0 +1,55 @@
+state={
+	id=968
+	name="STATE_968"
+	provinces={
+		166 201 326 335 352 380 1687 1846 1974 2474 2585 2737 2982 3270 3652 3714 4067 4365 4418 4795 4871 4900 5198 5343 5459 5840 5980 6035 6100 6484 6608 13903 13904 13926 13933 13940 13941 13961 13962 13999 14007 14018 14036 14059 14063 14070 14089 14114 14115 14149 14179 14190 14211 14221 14255 14262 14275 14302 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=7350000
+        state_category = metropolis
+	history={
+		owner = VIR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			13926 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = VIR
+		victory_points = {
+			335 50
+		}
+		victory_points = {
+			4795 10
+		}
+		victory_points = {
+			13962 5
+		}
+		victory_points = {
+			6100 5
+		}
+		victory_points = {
+			4365 5
+		}
+		victory_points = {
+			5198 5
+		}
+		victory_points = {
+			14179 5
+		}
+		victory_points = {
+			14255 5
+		}
+	}
+}

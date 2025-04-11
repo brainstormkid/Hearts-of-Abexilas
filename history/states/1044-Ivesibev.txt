@@ -4,17 +4,28 @@ state={
 	provinces={
 		1564 1845 1911 2691 3631 5106 5258 5468 14405 14411 14428 14450 14451 14465 14584 14611 14629 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1200000
-        state_category = city
+        manpower=600000
+        state_category = rural
 	history={
 		owner = VIR
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
-			arms_factory = 1
-			dockyard = 1
+			infrastructure = 2
 		}
 		add_core_of = VIR
+		victory_points = {
+			14584 5
+		}
+		victory_points = {
+			14465 5
+		}
 	}
 }

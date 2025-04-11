@@ -1,0 +1,37 @@
+state={
+	id=1003
+	name="STATE_1003"
+	provinces={
+		198 211 401 1108 1778 3179 3491 3543 4198 4693 5032 5229 6091 6238 14121 14153 14266 14290 14297 14298 14314 14334 14341 14342 14360 14373 14376 14379 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=1650000
+        state_category = city
+	history={
+		owner = VIR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+		}
+		add_core_of = VIR
+		victory_points = {
+			4198 20
+		}
+		victory_points = {
+			198 5
+		}
+		victory_points = {
+			3179 5
+		}
+	}
+}
