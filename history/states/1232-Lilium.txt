@@ -1,0 +1,33 @@
+state={
+	id=1232
+	name="STATE_1232"
+	provinces={
+		1810 5762 14164 14207 14208 14226 14264 14274 14313 14351
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=2100000
+        state_category = large_town
+	history={
+		owner = LIL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			14274 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = LIL
+		victory_points = {
+			14274 50
+		}
+	}
+}
