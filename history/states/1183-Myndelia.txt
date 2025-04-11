@@ -1,0 +1,30 @@
+state={
+	id=1183
+	name="STATE_1183"
+	provinces={
+		1881 2007 3594 3837 6310 14296 14348
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=2850000
+        state_category = large_town
+	history={
+		owner = MYN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = MYN
+		victory_points = {
+			14296 50
+		}
+	}
+}

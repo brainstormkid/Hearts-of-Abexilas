@@ -1,0 +1,25 @@
+state={
+	id=1027
+	name="STATE_1027"
+	provinces={
+		5431 14295 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=75000
+        state_category = small_island
+	history={
+		owner = MYN
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MYN
+	}
+}
