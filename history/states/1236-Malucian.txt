@@ -1,0 +1,28 @@
+state={
+	id=1236
+	name="STATE_1236"
+	provinces={
+		6148 14148 14165 14189
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=150000
+        state_category = rural
+	history={
+		owner = MAU
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MAU
+		victory_points = {
+			6148 50
+		}
+	}
+}
