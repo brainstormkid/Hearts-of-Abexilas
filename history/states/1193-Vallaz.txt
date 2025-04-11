@@ -1,0 +1,36 @@
+state={
+	id=1193
+	name="STATE_1193"
+	provinces={
+		2182 6766 14337 14340 14365 14371
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=1800000
+        state_category = large_town
+	history={
+		owner = ALN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			14365 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ALN
+		victory_points = {
+			14365 50
+		}
+		victory_points = {
+			14371 5
+		}
+	}
+}
