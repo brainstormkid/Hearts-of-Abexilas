@@ -4,12 +4,21 @@ state={
 	provinces={
 		4316 5568 13979 14022 14027 14083 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=75000
+        manpower=1200000
         state_category = rural
 	history={
 		owner = REN
 		buildings = {
+			infrastructure = 2
 		}
 		add_core_of = REN
 	}

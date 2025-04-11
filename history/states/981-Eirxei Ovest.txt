@@ -4,17 +4,30 @@ state={
 	provinces={
 		123 369 1502 2835 6980 13905 13934 13963 13982 14090 14139 14167 14192 14230 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=2550000
-        state_category = megalopolis
+        manpower=1500000
+        state_category = large_town
 	history={
 		owner = REN
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-			arms_factory = 2
-			dockyard = 1
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
 		add_core_of = REN
+		victory_points = {
+			2835 20
+		}
+		victory_points = {
+			14167 5
+		}
 	}
 }

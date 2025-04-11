@@ -4,17 +4,40 @@ state={
 	provinces={
 		1138 1302 1665 1996 2759 2769 3182 3298 3310 3607 3732 4481 5222 5417 5702 5838 5866 6324 6864 6981 14138 14166 14172 14191 14222 14229 14256 14257 14263 14291 14303 14308 14315 14316 14338 14343 14345 14354 14381 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=15000000
+        manpower=8550000
         state_category = megalopolis
 	history={
 		owner = REN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 2
-			dockyard = 2
+			dockyard = 1
+			2769 = {
+				naval_base = 4
+			}
+			1996 = {
+				naval_base = 3
+			}
+			1138 = {
+				naval_base = 1
+			}
+			3182 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = REN
+		victory_points = {
+			2769 50
+		}
 	}
 }
