@@ -28,3 +28,8 @@ music = {
     file = "BardoniaAnthem.ogg"
     volume = 1.00
 }
+music = {
+    name = "Piyajvaniyoedh_Pura"
+    file = "Piyajvaniyœdh-Pura-_1_.ogg"
+    volume = 1.00
+}
