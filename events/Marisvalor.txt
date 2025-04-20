@@ -1,19 +1,13 @@
+
 add_namespace = Marisvalor
 
 country_event = {
 	id = marisvalor.1
 	title = "First Elections"
 	desc = "The first orginzated elections for Marisvalor has been set up. Which party has won?"
-	picture = ""
+	picture = GFX_marisvalor_event_1_image
 	
-	#is_triggered_only = yes
-	
-	fire_only_once = yes
-
-	trigger = {
-		original_tag = MAR
-		date > 2.1.2.12
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = "The National Welfare Party!"
@@ -29,6 +23,7 @@ country_event = {
 		set_politics = {
 			ruling_party = conservatist
 		}
+		add_ideas = marisvalor_eins
 	}
 	option = {
 		name = "The Camp of Unified Monarchists!"
@@ -44,6 +39,7 @@ country_event = {
 		set_politics = {
 			ruling_party = monarchist
 		}
+		add_ideas = marisvalor_eins
 	}
 	option = {
 		name = "The Red Gold Party!"
@@ -58,5 +54,6 @@ country_event = {
 		set_politics = {
 			ruling_party = liberalist
 		}
+		add_ideas = marisvalor_eins
 	}
 }
