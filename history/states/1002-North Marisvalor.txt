@@ -1,20 +1,21 @@
 state={
 	id=1002
 	name="STATE_1002"
+	resources={
+		oil=2.000
+		aluminium=2.000
+		steel=3.000
+		rubber=1.000
+		tungsten=1.000
+		chromium=2.000
+	}
 	provinces={
-		769 1281 2140 4470 4797 5508 5821 6024 6435 6756 14048 14110 14119 14126 14140 14174 14182 14188 14215 14260 
+		769 1281 4797 5508 14048 14110 14119 14126 14174 14188 
 	}
+	manpower=2400000
 	buildings_max_level_factor=1.000
-        manpower=2400000
-        state_category = large_city
-	resources = {
-		oil = 2
-		aluminium = 2
-		steel = 3
-		rubber = 1
-		tungsten = 1
-		chromium = 2
-	}
+	state_category=large_city
+	local_supplies=0.000
 	history={
 		owner = MAR
 		buildings = {
@@ -28,14 +29,9 @@ state={
 			14126 30
 		}
 		victory_points = {
-			6756 10
-		}
-		victory_points = {
 			14048 5
-		}
-		victory_points = {
-			6024 5
 		}
 	}
 }
+
 
