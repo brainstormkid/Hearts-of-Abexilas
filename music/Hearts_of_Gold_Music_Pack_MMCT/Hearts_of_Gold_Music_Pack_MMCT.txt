@@ -43,3 +43,10 @@ music = {
       #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
     }
 }
+music = {
+    song = "Piyajvaniyoedh_Pura"
+    chance = {
+      modifier = { factor = 1 }
+      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+    }
+}
