@@ -354,4 +354,8 @@ spriteTypes = {
 		name = "GFX_idea_two_dukes_system"
 		texturefile = "gfx/interface/ideas/idea_two_dukes_system.dds"
 	}
+	SpriteType = { 
+		name = "GFX_idea_marisvalor_eins"
+		texturefile = "gfx/interface/ideas/eins_icon.dds"
+	}
  }
