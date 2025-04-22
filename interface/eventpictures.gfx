@@ -80,4 +80,9 @@ spriteTypes = {
 		name = "GFX_ejznrosa_event_1_image"
 		texturefile = "gfx/event_pictures/ejznrosa_event_1.dds"
 	}
+	#MAR
+	SpriteType = {
+		name = "GFX_marisvalor_event_1_image"
+		texturefile = "gfx/event_pictures/MAR_election_1.dds"
+	}
 }
