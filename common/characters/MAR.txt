@@ -1,4 +1,17 @@
 characters={
+	MAR_eins_character={
+		name="Klovün Harpenük-Merisvela"
+		portraits={
+			civilian={
+				large = "GFX_portrait_MAR_eins_large"	
+			}
+		}
+		country_leader={
+			ideology=absolutist_subtype
+			traits = { popular_figurehead divided_interests }
+			expire="1965.1.1.1"
+		}
+	}
 	MAR_mark_character={
 		name="Mark Axpule"
 		portraits={
