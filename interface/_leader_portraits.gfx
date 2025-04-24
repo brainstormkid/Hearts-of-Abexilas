@@ -274,6 +274,10 @@ spriteTypes = {
 
 	### MAR
 	spriteType = {
+		name = "GFX_portrait_MAR_eins_large"
+		texturefile = "GFX/leaders/MAR/realeins.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_MAR_mark_large"
 		texturefile = "GFX/leaders/MAR/mark.dds"
 	}
