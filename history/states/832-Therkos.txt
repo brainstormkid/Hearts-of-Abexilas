@@ -18,7 +18,6 @@ state={
 	history={
 		owner = SAK
 		buildings = {
-			buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 2
@@ -29,7 +28,6 @@ state={
 			12787 = {
 				naval_base = 1
 			}
-		}
 		}
 		add_core_of = SAK
 		victory_points = {

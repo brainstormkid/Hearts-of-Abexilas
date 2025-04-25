@@ -105,6 +105,6 @@ create_country_leader = {
 	}
 }
 
-set_convoys = 80
+set_convoys = 30
 
 # DIPLOMACY

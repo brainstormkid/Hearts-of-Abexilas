@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 1260
+
+oob = "ORB"
 
 set_politics = {
 	ruling_party = monarchist
@@ -19,3 +21,5 @@ create_country_leader = {
 	traits = {
 	}
 }
+
+set_convoys = 5
