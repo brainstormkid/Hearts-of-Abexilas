@@ -1,0 +1,33 @@
+state={
+	id=1200
+	name="STATE_1200"
+	provinces={
+		14408 14420
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=1650000
+        state_category = large_town
+	history={
+		owner = SAN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			14408 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SAN
+		victory_points = {
+			14408 10
+		}
+	}
+}
