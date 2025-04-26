@@ -1,0 +1,35 @@
+state={
+	id=1194
+	name="STATE_1194"
+	provinces={
+		2032 4124 5510 13503 13546 13589 13660
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=450000
+        state_category = town
+	history={
+		owner = KHE
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			13660 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = KHE
+		victory_points = {
+			13660 5
+		}
+		victory_points = {
+			13546 5
+		}
+	}
+}

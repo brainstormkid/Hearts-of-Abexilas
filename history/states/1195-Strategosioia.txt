@@ -1,0 +1,43 @@
+state={
+	id=1195
+	name="STATE_1195"
+	provinces={
+		1969 2203 4911 13449 13471 13477 13490 13515 13523 13528 13558 13559 13578 13602
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=4650000
+        state_category = large_city
+	history={
+		owner = KHE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			13523 = {
+				naval_base = 1
+			}
+			13471 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = KHE
+		victory_points = {
+			13523 10
+		}
+		victory_points = {
+			13558 10
+		}
+		victory_points = {
+			13471 5
+		}
+	}
+}

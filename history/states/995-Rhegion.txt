@@ -1,0 +1,40 @@
+state={
+	id=995
+	name="STATE_995"
+	provinces={
+		2581 6658 6971 14054 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=3750000
+        state_category = city
+	history={
+		owner = KHE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			14054 = {
+				naval_base = 1
+			}
+			6971 = {
+				naval_base = 1
+			}
+			6658 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = KHE
+		victory_points = {
+			2581 50
+		}
+	}
+}
