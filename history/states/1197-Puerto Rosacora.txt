@@ -1,0 +1,33 @@
+state={
+	id=1197
+	name="STATE_1197"
+	provinces={
+		140 669 1410 3477 13632 13651 13694
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=2550000
+        state_category = large_town
+	history={
+		owner = KAB
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			140 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = KAB
+		victory_points = {
+			140 50
+		}
+	}
+}
