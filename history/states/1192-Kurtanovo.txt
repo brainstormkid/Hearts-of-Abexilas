@@ -1,0 +1,28 @@
+state={
+	id=1192
+	name="STATE_1192"
+	provinces={
+		925 13631 13650 13672 13714 13751 13752 13783
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=750000
+        state_category = rural
+	history={
+		owner = THD
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = THD
+		victory_points = {
+			13672 50
+		}
+	}
+}
