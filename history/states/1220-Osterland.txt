@@ -1,0 +1,33 @@
+state={
+	id=1220
+	name="STATE_1220"
+	provinces={
+		2443 14838
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=2400000
+        state_category = large_town
+	history={
+		owner = OST
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			2443 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = OST
+		victory_points = {
+			2443 50
+		}
+	}
+}
