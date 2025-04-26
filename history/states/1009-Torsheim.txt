@@ -4,8 +4,16 @@ state={
 	provinces={
 		14134 14135 14161 14177 14202 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=6150000
+        manpower=6600000
         state_category = city
 	history={
 		owner = MYR
@@ -14,7 +22,13 @@ state={
 			industrial_complex = 1
 			arms_factory = 1
 			dockyard = 1
+			14161 = {
+				naval_base = 1
+		    }
 		}
 		add_core_of = MYR
+		victory_points = {
+			14161 30
+		}
 	}
 }

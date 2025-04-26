@@ -4,8 +4,16 @@ state={
 	provinces={
 		1173 3767 14147 14241 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1650000
+        manpower=2100000
         state_category = pastoral
 	history={
 		owner = MYR
@@ -13,5 +21,8 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = MYR
+		victory_points = {
+			1173 10
+		}
 	}
 }

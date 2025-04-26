@@ -1,5 +1,5 @@
 oob = "MYR"
-capital = 1
+capital = 964
 
 set_politics = {
 	ruling_party = monarchist

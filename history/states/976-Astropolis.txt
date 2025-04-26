@@ -4,16 +4,30 @@ state={
 	provinces={
 		13874 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1050000
+        manpower=900000
         state_category = town
 	history={
 		owner = MYR
 		buildings = {
-                    infrastructure = 2
-                    industrial_complex = 1
-                    arms_factory = 1
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			13874 = {
+				naval_base = 1
+		    }
 		}
 		add_core_of = MYR
+		victory_points = {
+			13874 5
+		}
 	}
 }
