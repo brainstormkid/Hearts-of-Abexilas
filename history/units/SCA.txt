@@ -43,16 +43,44 @@ division_template = {
 
 units = {
 	division = {
-		name = "1st Alazorran Infantry"
-		location = 10553
+		name = "1st Scal' Infantry"
+		location = 6728
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Alazorran Infantry"
-		location = 10553
+		name = "2nd Scal' Infantry"
+		location = 6728
 		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Scal' Guards"
+		location = 5724
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Scal' Cavalry"
+		location = 12951
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Scal' Cavalry"
+		location = 12751
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Scal' Cavalry"
+		location = 1123
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}

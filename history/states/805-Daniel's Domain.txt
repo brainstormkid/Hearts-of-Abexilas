@@ -1,0 +1,37 @@
+state={
+	id=805
+	name="STATE_805"
+	provinces={
+		410 778 1038 1168 2400 3619 3727 4500 5371 5445 5724 5814 6282 6591 12798 12808 12821 12849 12868 12887 12908 12915 12926 12933 12951 12957 12974 12981 12985 13012 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=4500000
+        state_category = city
+	history={
+		owner = SCA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+		}
+		add_core_of = SCA
+		victory_points = {
+			5724 20
+		}
+		victory_points = {
+			12951 10
+		}
+		victory_points = {
+			12926 5
+		}
+	}
+}

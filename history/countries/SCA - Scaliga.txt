@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 1264
+
+oob = "SCA"
 
 set_politics = {
 	ruling_party = absolutist
@@ -20,6 +22,8 @@ create_country_leader = {
 		#
 	}
 }
+
+set_convoys = 20
 
 set_autonomy = {
 	target = ASA

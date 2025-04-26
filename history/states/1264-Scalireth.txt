@@ -1,0 +1,33 @@
+state={
+	id=1264
+	name="STATE_1264"
+	provinces={
+		877 1733 3073 3356 3630 4847 5279 5287 5695 6350 6429 6728 6979 12969 13008 13034 13045 13078 13090 13124 13152
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=1350000
+        state_category = large_town
+	history={
+		owner = SCA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = SCA
+		victory_points = {
+			6728 50
+		}
+		victory_points = {
+			13045 5
+		}
+	}
+}
