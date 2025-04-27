@@ -4,13 +4,37 @@ state={
 	provinces={
 		1228 1539 3387 4414 4492 6956 14896 14919 14941 14972
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1050000
+        state_category = city
 	history={
 		owner = TAU
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			14919 = {
+				naval_base = 1
+			}
+			3387 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = TAU
+		victory_points = {
+			14896 5
+		}
+		victory_points = {
+			14972 5
+		}
 	}
 }
