@@ -1,0 +1,33 @@
+state={
+	id=957
+	name="STATE_957"
+	provinces={
+		2286 13716 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=1950000
+        state_category = large_town
+	history={
+		owner = HWA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			13716 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = HWA
+		victory_points = {
+			2286 50
+		}
+	}
+}
