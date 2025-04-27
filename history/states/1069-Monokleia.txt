@@ -1,0 +1,28 @@
+state={
+	id=1069
+	name="STATE_1069"
+	provinces={
+		882 5867 14606 14636 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=300000
+        state_category = rural
+	history={
+		owner = MON
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MON
+		victory_points = {
+			882 50
+		}
+	}
+}
