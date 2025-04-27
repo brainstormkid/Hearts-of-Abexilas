@@ -1,0 +1,43 @@
+state={
+	id=991
+	name="STATE_991"
+	provinces={
+		13 174 185 277 1880 5368 5793 5928 6023 6355 13955 13995 14001 14042 14084 14091 14101 14122 14143 14184 14223 14231 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=2400000
+        state_category = city
+	history={
+		owner = NER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			1880 = {
+				naval_base = 1
+			}
+			5368 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = NER
+		victory_points = {
+			1880 10
+		}
+		victory_points = {
+			5368 5
+		}
+		victory_points = {
+			6355 5
+		}
+	}
+}
