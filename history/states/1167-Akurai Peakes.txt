@@ -4,13 +4,25 @@ state={
 	provinces={
 		4228 5218 14698 14708 14834 14859
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=300000
-        state_category = town
+        manpower=600000
+        state_category = rural
 	history={
 		owner = EIS
 		buildings = {
+			infrastructure = 2
 		}
 		add_core_of = EIS
+		victory_points = {
+			5218 5
+		}
 	}
 }

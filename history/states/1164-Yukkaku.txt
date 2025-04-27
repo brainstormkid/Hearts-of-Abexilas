@@ -4,13 +4,30 @@ state={
 	provinces={
 		1209 1359 14492
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1350000
-        state_category = city
+        manpower=1500000
+        state_category = large_town
 	history={
 		owner = EIS
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			1359 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = EIS
+		victory_points = {
+			1359 10
+		}
 	}
 }
