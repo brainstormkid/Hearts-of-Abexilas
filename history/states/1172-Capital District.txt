@@ -4,13 +4,28 @@ state={
 	provinces={
 		1515 5155 5955 6679 14743 14751 14761 14773 14853
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=4650000
-        state_category = metropolis
+        manpower=3600000
+        state_category = large_city
 	history={
 		owner = SYL
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = SYL
+		victory_points = {
+			14773 50
+		}
 	}
 }

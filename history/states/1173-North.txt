@@ -4,13 +4,31 @@ state={
 	provinces={
 		1975 2327 3468 3931 4367 4392 4740 5436 6276 14574 14575 14596 14615 14648 14661 14681
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=2550000
-        state_category = large_city
+        manpower=4350000
+        state_category = megalopolis
 	history={
 		owner = SYL
 		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
 		}
 		add_core_of = SYL
+		victory_points = {
+			2327 20
+		}
+		victory_points = {
+			1975 10
+		}
 	}
 }
