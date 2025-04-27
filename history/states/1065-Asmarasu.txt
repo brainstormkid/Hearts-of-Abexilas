@@ -20,13 +20,13 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			14545 = {
+			14535 = {
 				naval_base = 3
 			}
 		}
 		add_core_of = ALT
 		victory_points = {
-			14545 5
+			14535 5
 		}
 	}
 }
