@@ -1,0 +1,32 @@
+state={
+	id=1065
+	name="STATE_1065"
+	provinces={
+		1896 14535 14572 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=300000
+        state_category = town
+	history={
+		owner = ALT
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			14545 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = ALT
+		victory_points = {
+			14545 5
+		}
+	}
+}
