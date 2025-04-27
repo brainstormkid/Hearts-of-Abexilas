@@ -5,12 +5,18 @@ state={
 		2148 2526 2979 4734 5205 6472 14380 14391 14398 14469 14489
 	}
 	buildings_max_level_factor=1.000
-        manpower=8400000
+        manpower=5400000
         state_category = city
 	history={
 		owner = DAE
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
 		}
 		add_core_of = DAE
+		victory_points = {
+			4734 50
+		}
 	}
 }
