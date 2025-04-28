@@ -1,0 +1,34 @@
+state={
+	id=680
+	name="STATE_680"
+	provinces={
+		2386 4599 13450 13386 13456 13491
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=1950000
+        state_category = city
+	history={
+		owner = MER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			13491 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = MER
+		victory_points = {
+			13491 50
+		}
+	}
+}
