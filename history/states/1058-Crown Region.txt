@@ -4,13 +4,40 @@ state={
 	provinces={
 		344 787 831 962 1075 1145 1720 1971 2104 2549 4837 5404 5611 5828 5897 5923 6808 6996 14491 14531 14534 14551 14559 14583 14589 14637 14659 14688 14735 14736 14775 14776 14780 14803 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=5400000
+        state_category = metropolis
 	history={
 		owner = AZU
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			787 = {
+				naval_base = 1
+			}
+			14559 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = AZU
+		victory_points = {
+			5923 50
+		}
+		victory_points = {
+			14775 5
+		}
+		victory_points = {
+			14583 5
+		}
 	}
 }
