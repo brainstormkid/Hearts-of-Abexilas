@@ -4,13 +4,43 @@ state={
 	provinces={
 		21 269 511 1546 1566 1844 1909 2619 3239 4073 4672 5211 5962 6560 6577 15005 15048 15059 15068 15072 15091 15115 15147 15168 15186 15204 15208 15249 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=3600000
+        state_category = large_city
 	history={
 		owner = DAR
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			1844 = {
+				naval_base = 1
+			}
+			15204 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = DAR
+		victory_points = {
+			15168 50
+		}
+		victory_points = {
+			1844 5
+		}
+		victory_points = {
+			5962 5
+		}
+		victory_points = {
+			15005 5
+		}
 	}
 }
