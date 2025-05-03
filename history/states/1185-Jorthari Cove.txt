@@ -1,0 +1,34 @@
+state={
+	id=1185
+	name="STATE_1185"
+	provinces={
+		370 3994 4994 5850 14282 14293
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=1650000
+        state_category = city
+	history={
+		owner = JOR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			14282 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = JOR
+		victory_points = {
+			14293 50
+		}
+	}
+}
