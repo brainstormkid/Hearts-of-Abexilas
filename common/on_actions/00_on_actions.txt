@@ -10,12 +10,18 @@ on_actions = {
 			CAS = { country_event = { id = gertek.1 days = 196 } }
 			CAS = { news_event = { id = news.6 days = 882 } }
 			# Country Events
+			GEH = { 
+				country_event = {
+					id = gertek.1 
+					days = 196 
+				}
+			}
 			MAR = {
-                		country_event = { 
-                    			id = marisvalor.1
-                    			days = 180
-                		}
-            		}
+                country_event = { 
+					id = marisvalor.1
+					days = 180
+				}
+            }
 		}
 	}
 	# Nuke Drop Trigger
