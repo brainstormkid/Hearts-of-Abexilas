@@ -1,4 +1,4 @@
-﻿capital = 1013
+capital = 1013
 
 oob = "LOV"
 
@@ -13,9 +13,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = ""
+	name = "Ludvig Otto Graber von Kalkenstein"
 	desc = ""
-	picture = "gfx/leaders/LOV/panda.dds"
+	picture = "gfx/leaders/LOV/kaiser.dds"
 	ideology = absolutist_subtype
 	traits = {
 		#
