@@ -1,0 +1,34 @@
+state={
+	id=1203
+	name="STATE_1203"
+	provinces={
+		129 4650 4674 13929 13978 13986 14014
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=1725000
+        state_category = city
+	history={
+		owner = AVE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			4674 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = AVE
+		victory_points = {
+			4674 50
+		}
+	}
+}
