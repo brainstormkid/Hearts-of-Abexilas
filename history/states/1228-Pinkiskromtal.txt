@@ -4,13 +4,37 @@ state={
 	provinces={
 		426 1722 1885 2362 2364 3118 3478 4793 6271 6705 14320 14350 14359 14375 14402 14404 14409 14441 14442 14443 14463 14512 14521 14549
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=5250000
+        state_category = city
 	history={
 		owner = KAI
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			3118 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = KAI
+		victory_points = {
+			14359 50
+		}
+		victory_points = {
+			3118 20
+		}
+		victory_points = {
+			14402 10
+		}
 	}
 }
