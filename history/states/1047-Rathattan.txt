@@ -4,13 +4,31 @@ state={
 	provinces={
 		1992 2186 4133 4355 4633 5836 14399 14438 14502 14576 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=7350000
-        state_category = city
+        manpower=5100000
+        state_category = large_city
 	history={
 		owner = ART
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			4133 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = ART
+		victory_points = {
+			4633 50
+		}
 	}
 }

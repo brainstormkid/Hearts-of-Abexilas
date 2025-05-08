@@ -4,13 +4,28 @@ state={
 	provinces={
 		1341 2294 4476 14309 14325 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=2400000
+        manpower=2850000
         state_category = city
 	history={
 		owner = ART
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = ART
+		victory_points = {
+			2294 20
+		}
 	}
 }
