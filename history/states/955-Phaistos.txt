@@ -1,0 +1,33 @@
+state={
+	id=955
+	name="STATE_955"
+	provinces={
+		1456 2590 5529 13741 13757 13787 13834 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=900000
+        state_category = large_town
+	history={
+		owner = ARI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			1456 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ARI
+		victory_points = {
+			5529 5
+		}
+	}
+}
