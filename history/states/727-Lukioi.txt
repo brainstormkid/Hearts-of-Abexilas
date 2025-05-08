@@ -1,0 +1,34 @@
+state={
+	id=727
+	name="STATE_727"
+	provinces={
+		5069 6253 6625 12199 12231 12238 12242 12254 12288 12317 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=2250000
+        state_category = city
+	history={
+		owner = LUK
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			5069 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = LUK
+		victory_points = {
+			5069 50
+		}
+	}
+}
