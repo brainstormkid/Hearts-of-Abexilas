@@ -1,0 +1,31 @@
+state={
+	id=948
+	name="STATE_948"
+	provinces={
+		1490 2806 3139 3189 5472 5737 5764 6583 13590 13603 13722 13731 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=3450000
+        state_category = city
+	history={
+		owner = PRE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+		}
+		add_core_of = PRE
+		victory_points = {
+			3189 50
+		}
+	}
+}
