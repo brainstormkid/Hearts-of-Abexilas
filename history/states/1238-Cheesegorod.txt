@@ -1,0 +1,33 @@
+state={
+	id=1238
+	name="STATE_1238"
+	provinces={
+		6450 13989 14026
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=1950000
+        state_category = large_town
+	history={
+		owner = VRI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			6450 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = VRI
+		victory_points = {
+			6450 10
+		}
+	}
+}
