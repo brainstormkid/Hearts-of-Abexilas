@@ -1,0 +1,33 @@
+state={
+	id=1225
+	name="STATE_1225"
+	provinces={
+		3894 6545
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=450000
+        state_category = large_town
+	history={
+		owner = AEI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			3894 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = AEI
+		victory_points = {
+			3894 5
+		}
+	}
+}

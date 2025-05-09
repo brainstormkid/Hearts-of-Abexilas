@@ -1,0 +1,28 @@
+state={
+	id=1223
+	name="STATE_1223"
+	provinces={
+		917 14884
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=450000
+        state_category = rural
+	history={
+		owner = AEI
+		buildings = {
+			infrastructure = 2
+			14884 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = AEI
+	}
+}

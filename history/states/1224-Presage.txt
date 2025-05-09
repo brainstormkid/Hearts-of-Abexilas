@@ -1,0 +1,31 @@
+state={
+	id=1224
+	name="STATE_1224"
+	provinces={
+		2413 3330 5824 14570 14595 14614 14625
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=2850000
+        state_category = city
+	history={
+		owner = AEI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+		}
+		add_core_of = AEI
+		victory_points = {
+			3330 20
+		}
+	}
+}
