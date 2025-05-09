@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 1231
+
+oob = "SOL"
 
 set_politics = {
 	ruling_party = absolutist
@@ -25,3 +27,5 @@ set_autonomy = {
 	target = STW
 	autonomous_state = autonomy_puppet
 }
+
+set_convoys = 10

@@ -1,0 +1,43 @@
+state={
+	id=1231
+	name="STATE_1231"
+	provinces={
+		245 679 1253 1453 1694 1729 3352 3362 4238 6304 13864 13901 14015 14019 14032 14056 14061 14068 14094 14099 14112 14142 14145 14175 14176 14181 14227 14261
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=8700000
+        state_category = metropolis
+	history={
+		owner = SOL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			14056 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SOL
+		victory_points = {
+			679 50
+		}
+		victory_points = {
+			14094 5
+		}
+		victory_points = {
+			13901 5
+		}
+		victory_points = {
+			245 5
+		}
+	}
+}
