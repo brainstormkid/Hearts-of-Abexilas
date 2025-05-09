@@ -1488,6 +1488,10 @@
  STR_absolutist_DEF:1 "the Strategósia"
  STR_absolutist_ADJ:0 "Strategósian"
  
+ STW_absolutist:1 "Independent State of Steelwater"
+ STW_absolutist_DEF:1 "the Independent State of Steelwater"
+ STW_absolutist_ADJ:0 "Steelwateran"
+ 
  SUL_absolutist:1 "Crowned Republic of Suldex"
  SUL_absolutist_DEF:1 "the Crowned Republic of Suldex"
  SUL_absolutist_ADJ:0 "Suldexian"

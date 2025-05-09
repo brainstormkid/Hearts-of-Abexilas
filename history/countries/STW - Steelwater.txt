@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 969
+
+oob = "STW"
 
 set_politics = {
 	ruling_party = absolutist
@@ -21,7 +23,4 @@ create_country_leader = {
 	}
 }
 
-set_autonomy = {
-	target = STW
-	autonomous_state = autonomy_puppet
-}
+set_convoys = 5

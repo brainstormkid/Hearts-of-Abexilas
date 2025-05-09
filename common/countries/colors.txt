@@ -1376,6 +1376,11 @@ STR = {
 	color_ui = rgb { 109 162 101 }
 }
 
+STW = {
+	color = rgb { 255 206 0 }
+	color_ui = rgb { 255 206 0 }
+}
+
 SUL = {
 	color = rgb { 171 199 125 }
 	color_ui = rgb { 171 199 125 }

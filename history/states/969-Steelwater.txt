@@ -1,0 +1,37 @@
+state={
+	id=969
+	name="STATE_969"
+	provinces={
+		871 1715 2284 4615 5610 6059 13804 13835 13842 13878 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=1950000
+        state_category = city
+	history={
+		owner = STW
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			5610 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = STW
+		victory_points = {
+			5610 50
+		}
+		victory_points = {
+			4615 5
+		}
+	}
+}
