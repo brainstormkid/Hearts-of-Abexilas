@@ -1,0 +1,34 @@
+state={
+	id=1060
+	name="STATE_1060"
+	provinces={
+		4557 5064 14485 14554 14656 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=2550000
+        state_category = city
+	history={
+		owner = NAA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+		}
+		add_core_of = NAA
+		victory_points = {
+			14485 10
+		}
+		victory_points = {
+			14554 5
+		}
+	}
+}

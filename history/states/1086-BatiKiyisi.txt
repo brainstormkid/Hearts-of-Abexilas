@@ -1,0 +1,33 @@
+state={
+	id=1086
+	name="STATE_1086"
+	provinces={
+		905 4374 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=900000
+        state_category = large_town
+	history={
+		owner = NAA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			4374 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = NAA
+		victory_points = {
+			4374 5
+		}
+	}
+}

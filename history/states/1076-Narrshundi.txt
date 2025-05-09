@@ -1,0 +1,31 @@
+state={
+	id=1076
+	name="STATE_1076"
+	provinces={
+		870 14718 14759 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=3450000
+        state_category = metropolis
+	history={
+		owner = NAA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+		}
+		add_core_of = NAA
+		victory_points = {
+			870 50
+		}
+	}
+}
