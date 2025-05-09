@@ -358,4 +358,8 @@ spriteTypes = {
 		name = "GFX_idea_marisvalor_eins"
 		texturefile = "gfx/interface/ideas/eins_icon.dds"
 	}
+	SpriteType = { 
+		name = "GFX_modifiers_tanuki"
+		texturefile = "gfx/interface/ideas/tanuki.dds"
+	}
  }

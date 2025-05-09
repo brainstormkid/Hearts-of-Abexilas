@@ -4,6 +4,7 @@ state={
 	provinces={
 		15344 15345 15346 15347 15348 15349 15350 15351 15352
 	}
+	impassable = yes
 	resources = {
 		oil = 2
 		aluminium = 2
@@ -22,4 +23,5 @@ state={
 		}
 		add_core_of = SET
 		victory_points = { 15352 5 }
+	}
 }

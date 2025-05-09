@@ -26,6 +26,10 @@
 #	can be added to countries, states, unit leaders or special projects
 #	will only updated daily, unless forced by force_update_dynamic_modifier effect
 
+tanuki = {
+	
+	icon = GFX_modifiers_tanuki
+}
 sabotaged_resources = {
 	remove_trigger = { 
 		ROOT = {

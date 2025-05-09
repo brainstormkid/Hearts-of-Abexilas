@@ -31,4 +31,10 @@ set_autonomy = {
 	autonomous_state = autonomy_puppet
 }
 
+1105 = {
+	add_dynamic_modifier = {
+		modifier = tanuki
+	}
+}
+
 set_convoys = 70
