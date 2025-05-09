@@ -296,6 +296,11 @@ BRA = {
 	color_ui = rgb { 245 130 0 }
 }
 
+BRS = {
+	color = rgb { 86 126 196 }
+	color_ui = rgb { 86 126 196 }
+}
+
 BRU = {
 	color = rgb { 255 255 255 }
 	color_ui = rgb { 255 255 255 }

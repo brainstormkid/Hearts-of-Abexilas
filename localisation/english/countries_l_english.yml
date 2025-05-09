@@ -332,6 +332,10 @@
  BRA_absolutist_DEF:1 "the Bravadere"
  BRA_absolutist_ADJ:0 "Bravaderen"
  
+ BRS_absolutist:1 "Brustantinupoli"
+ BRS_absolutist_DEF:1 "the Brustantinupoli"
+ BRS_absolutist_ADJ:0 "Brustantinupolian"
+ 
  BRU_absolutist:1 "Empire of Brukel"
  BRU_absolutist_DEF:1 "the Empire of Brukel"
  BRU_absolutist_ADJ:0 "Brukeli"
