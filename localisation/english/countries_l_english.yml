@@ -1317,6 +1317,10 @@
  PSY_absolutist_DEF:1 "the Duplacia of Psydonia"
  PSY_absolutist_ADJ:0 "Psydonian"
  
+ QAR_absolutist:1 "Qaraveraen"
+ QAR_absolutist_DEF:1 "the Qaraveraen"
+ QAR_absolutist_ADJ:0 "Qaraverae"
+ 
  QUA_absolutist:1 "United Quareshon Tribes"
  QUA_absolutist_DEF:1 "the United Quareshon Tribes"
  QUA_absolutist_ADJ:0 "Quareshon"

@@ -1,0 +1,33 @@
+state={
+	id=1417
+	name="STATE_1417"
+	provinces={
+		430 13091 13122 13135 13159
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+		manpower=150000
+		state_category = large_town
+	history = {
+		owner = QAR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			13135 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = QAR
+		victory_points = {
+			13135 50
+		}
+	}
+}
