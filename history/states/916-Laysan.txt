@@ -4,13 +4,26 @@ state={
 	provinces={
 		4116 13390 13420 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=300000
         state_category = town
 	history={
 		owner = YNQ
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
 		}
 		add_core_of = YNQ
+		victory_points = {
+			4116 5
+		}
 	}
 }
