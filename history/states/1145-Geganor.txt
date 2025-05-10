@@ -1,0 +1,34 @@
+state={
+	id=1145
+	name="STATE_1145"
+	provinces={
+		1392 2257 2472 4938 6480 13138 13177 13189 13216 13219 13247 13259 13332  
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=750000
+        state_category = city
+	history={
+		owner = ASA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+		}
+		add_core_of = ASA
+		victory_points = {
+			2257 50
+		}
+		victory_points = {
+			13259 5
+		}
+	}
+}
