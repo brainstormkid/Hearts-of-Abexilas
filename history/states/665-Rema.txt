@@ -1,0 +1,30 @@
+state={
+	id=665
+	name="STATE_665"
+	provinces={
+		1087 1677 2377 3171 4141 6321 11951 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=2100000
+        state_category = large_town
+	history={
+		owner = RAM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = RAM
+		victory_points = {
+			4141 50
+		}
+	}
+}
