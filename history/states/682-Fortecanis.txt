@@ -4,13 +4,28 @@ state={
 	provinces={
 		825 1358 3889 4281 6019 11996 12013 12046 12047 12072 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=2400000
+        state_category = city
 	history={
 		owner = CRE
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = CRE
+		victory_points = {
+			6019 50
+		}
 	}
 }
