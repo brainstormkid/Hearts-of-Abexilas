@@ -4,13 +4,30 @@ state={
 	provinces={
 		2050 2455 5692 6062 11905 11912 11936 11945 11969 11970 11990 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=4350000
+        state_category = large_town
 	history={
 		owner = AEI
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			2455 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = AEI
+		victory_points = {
+			2455 50
+		}
 	}
 }
