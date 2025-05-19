@@ -4,13 +4,28 @@ state={
 	provinces={
 		264 735 1166 2078 3430 4606 5276 5391 11806 11825 11848 11858 11869 11882 11913
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=2100000
+        state_category = city
 	history={
 		owner = ODD
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = ODD
+		victory_points = {
+			11869 50
+		}
 	}
 }
