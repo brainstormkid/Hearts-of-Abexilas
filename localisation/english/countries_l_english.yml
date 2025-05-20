@@ -1521,8 +1521,8 @@
  SYR_absolutist_DEF:1 "Syrenia"
  SYR_absolutist_ADJ:0 "Syren"
  
- TAA_absolutist:1 "Kingdom of Taanien"
- TAA_absolutist_DEF:1 "the Kingdom of Taanien"
+ TAA_absolutist:1 "Taanien"
+ TAA_absolutist_DEF:1 "Taanien"
  TAA_absolutist_ADJ:0 "Taans"
  
  TAM_absolutist:1 "Schizocracy of Tamjiban"
