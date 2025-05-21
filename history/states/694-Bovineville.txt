@@ -4,13 +4,34 @@ state={
 	provinces={
 		4478 5559 12081 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=3000000
+        state_category = metropolis
 	history={
 		owner = BOV
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			12081 = {
+				naval_base = 1
+			}
+			4478 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = BOV
+		victory_points = {
+			12081 50
+		}
 	}
 }

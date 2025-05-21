@@ -4,13 +4,28 @@ state={
 	provinces={
 		2053 2860 3510 5878 12034 12054 12055 12082 12083 12098 12119 12129 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=150000
+        state_category = rural
 	history={
 		owner = BOV
 		buildings = {
+			infrastructure = 2
+			2053 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = BOV
+		victory_points = {
+			12082 5
+		}
 	}
 }
