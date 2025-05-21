@@ -1,8 +1,8 @@
 state={
-	id=1406
-	name="STATE_1406"
+	id=672
+	name="STATE_672"
 	provinces={
-		4710 11946
+		5057 6417 11944 
 	}
 	resources = {
 		oil = 2
@@ -13,18 +13,22 @@ state={
 		chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=450000
-        state_category = large_town
+        manpower=3600000
+        state_category = large_city
 	history={
 		owner = END
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 3
+			industrial_complex = 2
 			arms_factory = 1
+			dockyard = 1
+			11944 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = END
 		victory_points = {
-			11946 5
+			11944 50
 		}
 	}
 }

@@ -1,5 +1,7 @@
 ﻿capital = 672
 
+oob = "END"
+
 set_politics = {
 	ruling_party = absolutist
 	last_election = "1936.1.1"
@@ -21,6 +23,8 @@ create_country_leader = {
 		#
 	}
 }
+
+set_convoys = 30
 
 set_stability = 0.68
 set_war_support = 0.9
