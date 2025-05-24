@@ -1,0 +1,13 @@
+#################
+#### Marisvalor ####
+#################
+
+MAR_Blockheed = {
+	icon = decision_generic_reorganize_irregulars
+
+	allowed = {
+		original_tag = MAR
+	}
+	priority = 10
+}
+
