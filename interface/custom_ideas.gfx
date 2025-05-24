@@ -355,11 +355,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_two_dukes_system.dds"
 	}
 	SpriteType = { 
+		name = "GFX_modifiers_tanuki"
+		texturefile = "gfx/interface/ideas/tanuki.dds"
+	}
+	#Marisvalor
+	SpriteType = { 
 		name = "GFX_idea_marisvalor_eins"
 		texturefile = "gfx/interface/ideas/eins_icon.dds"
 	}
 	SpriteType = { 
-		name = "GFX_modifiers_tanuki"
-		texturefile = "gfx/interface/ideas/tanuki.dds"
+		name = "GFX_idea_invest_in_blockheed"
+		texturefile = "gfx/interface/ideas/invest_in_blockheed.dds"
 	}
  }
