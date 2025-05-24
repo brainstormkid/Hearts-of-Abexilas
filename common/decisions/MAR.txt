@@ -1,0 +1,29 @@
+#Category only allowed for MAR
+MAR_Blockheed = {
+
+	MAR_Purchase_Weapons = {
+
+		icon = generic_prepare_civil_war
+		
+		visible = {
+			has_completed_focus = MAR_blockheed_arms_production
+		}
+		cost = 100
+		complete_effect = {
+			add_equipment_to_stockpile = {
+       				type = infantry_equipment_0
+        			amount = 2000
+    			}
+		}
+		days_remove = 14
+		days_re_enable = 180
+		available = {
+			country_exists = MAR 
+			always = yes
+		}
+
+		fire_only_once = no
+
+	}
+}
+
