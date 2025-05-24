@@ -1,0 +1,690 @@
+focus_tree = {
+	id = marisvalor_tree
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MAR
+		}
+	}
+	#Write the Constitution
+	focus = {
+		id = MAR_constitution
+		icon = GFX_focus_generic_improve_the_administration
+		x = 10
+		y = 1
+		cost = 10
+		ai_will_do = { factor = 100 }
+		available = {
+			
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	#Organize first elections
+	focus = {
+		id = MAR_organize_first_elections
+		icon = GFX_focus_generic_election
+		x = 10
+		y = 2
+		cost = 10
+		prerequisite = { focus = MAR_constitution } 
+		ai_will_do = { factor = 100 }
+		available = {
+			
+		}
+		completion_reward = {
+			MAR = {
+                		country_event = { 
+					id = marisvalor.1
+				}
+            		}
+		}
+	}
+	#NWP wins first elections
+	focus = {
+		id = MAR_nwp_first_elections
+		icon = GFX_MAR_nwp_victory
+		x = 20
+		y = 3
+		cost = 0
+		prerequisite = { focus = MAR_organize_first_elections } 
+		mutually_exclusive = { focus = MAR_rgp_first_elections focus = MAR_cum_first_elections  }
+		ai_will_do = { factor = 100 }
+	
+		bypass = {
+			has_government = conservatist
+		}
+		available = {
+			has_government = conservatist
+		}
+		completion_reward = {
+			
+		}
+	}
+	#RGP wins first elections
+	focus = {
+		id = MAR_rgp_first_elections
+		icon = GFX_MAR_rgp_first_elections
+		x = 10
+		y = 3
+		cost = 0
+		prerequisite = { focus = MAR_organize_first_elections } 
+		mutually_exclusive = { focus = MAR_nwp_first_elections focus = MAR_cum_first_elections  }
+		ai_will_do = { factor = 100 }
+	
+		bypass = {
+			has_government = liberalist 
+		}
+		available = {
+			has_government = liberalist
+		}
+		completion_reward = {
+			
+		}
+	}
+	#CUM wins first elections
+	focus = {
+		id = MAR_cum_first_elections
+		icon = GFX_MAR_cum_first_elections
+		x = 0
+		y = 3
+		cost = 0
+		prerequisite = { focus = MAR_organize_first_elections } 
+		mutually_exclusive = { focus = MAR_nwp_first_elections focus = MAR_rgp_first_elections  }
+		ai_will_do = { factor = 100 }
+	
+		bypass = {
+			has_government = monarchist
+		}
+		available = {
+			has_government = monarchist
+		}
+		completion_reward = {
+			
+		}
+	}
+	#Hail to the Chief!
+	focus = {
+		id = MAR_hail_to_the_chief
+		icon = GFX_MAR_hail_to_the_chief
+		x = 20
+		y = 4
+		cost = 2
+		prerequisite = { focus = MAR_nwp_first_elections } 
+		ai_will_do = { factor = 100 }
+		available = {
+			has_government = conservatist
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	#Promote Kairian Culture
+	focus = {
+		id = MAR_promote_kairian_culture
+		icon = GFX_MAR_promote_kairian_culture
+		x = 19
+		y = 5
+		cost = 4
+		prerequisite = { focus = MAR_hail_to_the_chief } 
+		ai_will_do = { factor = 100 }
+		available = {
+			has_government = conservatist
+		}
+		completion_reward = {	
+			add_stability = 0.1
+			add_political_power = 10
+		}
+	}
+	#Frothfest
+	focus = {
+		id = MAR_frothfest
+		icon = GFX_MAR_frothfest
+		x = 19
+		y = 6
+		cost = 2
+		prerequisite = { focus = MAR_promote_kairian_culture } 
+		ai_will_do = { factor = 100 }
+		available = {
+			has_government = conservatist
+		}
+		completion_reward = {	
+			add_offsite_building = { type = industrial_complex level = 2 }
+			add_political_power = 10
+		}
+	}
+	#Formalize Industrial Plan
+	focus = {
+		id = MAR_formalize_industrial_plan
+		icon = GFX_focus_generic_central_planning
+		x = 21
+		y = 5
+		cost = 6
+		prerequisite = { focus = MAR_hail_to_the_chief } 
+		ai_will_do = { factor = 100 }
+		available = {
+			has_government = conservatist
+		}
+		completion_reward = {	
+			
+		}
+	}
+	#Push For More Farms
+	focus = {
+		id = MAR_push_for_farms
+		icon = GFX_generic_focus_rural_reforms-645921
+		x = 21
+		y = 6
+		cost = 6
+		prerequisite = { focus = MAR_formalize_industrial_plan } 
+		ai_will_do = { factor = 100 }
+		available = {
+			has_government = conservatist
+		}
+		completion_reward = {	
+			1010 = {
+    				add_extra_state_shared_building_slots = 4
+    				add_building_construction = {
+        				type = industrial_complex
+        				level = 4
+        				instant_build = yes
+    				}
+
+			}
+		}
+	}
+	#Invest in blockheed
+	focus = {
+		id = MAR_invest_in_blockheed
+		icon = GFX_focus_generic_monetary_union
+		x = 20
+		y = 7
+		cost = 6
+		prerequisite = { focus = MAR_push_for_farms  } 
+		prerequisite = { focus = MAR_frothfest  } 
+
+		ai_will_do = { factor = 100 }
+		available = {
+			has_government = conservatist
+		}
+		completion_reward = {	
+			add_ideas = marisvalor_invest_in_blockheed
+		}
+	}
+	#Lessen Weapon Regulations
+	focus = {
+		id = MAR_lessen_weapon_regulations
+		icon = GFX_MAR_lessen_weapon_regulations
+		x = 20
+		y = 8
+		cost = 6
+		prerequisite = { focus = MAR_invest_in_blockheed  } 
+
+		ai_will_do = { factor = 100 }
+		available = {
+			has_government = conservatist
+		}
+		completion_reward = {	
+			1022 = {
+    				add_extra_state_shared_building_slots = 2
+    				add_building_construction = {
+        				type = arms_factory
+        				level = 2
+        				instant_build = yes
+    				}
+			}
+			add_equipment_to_stockpile = {
+       				type = infantry_equipment_0
+        			amount = 2000
+    			}
+		}
+	}
+	#Great Naval Build Up
+	focus = {
+		id = MAR_great_naval_build_up
+		icon = GFX_generic_focus_foreign_ship_investment-645974
+		x = 20
+		y = 9
+		cost = 10
+		prerequisite = { focus = MAR_lessen_weapon_regulations  } 
+
+		ai_will_do = { factor = 100 }
+		available = {
+			has_government = conservatist
+		}
+		completion_reward = {	
+			1022 = {
+    				add_extra_state_shared_building_slots = 2
+    				add_building_construction = {
+        				type = dockyard
+        				level = 2
+        				instant_build = yes
+    				}
+			}
+			MAR = {
+    				create_ship = {
+        				type = ship_hull_heavy_1
+					equipment_variant = "Heavy Class"
+        				creator = MAR
+        				name = "My ship name"
+    				}
+			}
+		}
+	}
+	#Campaign for Next Elections
+	focus = {
+		id = MAR_campaign_for_next_elections
+		icon = GFX_MAR_nwp_victory
+		x = 20
+		y = 10
+		cost = 6
+		prerequisite = { focus = MAR_great_naval_build_up  } 
+
+		ai_will_do = { factor = 100 }
+		available = {
+			has_government = conservatist
+		}
+		completion_reward = {	
+			
+		}
+	}
+	#A New King
+	focus = {
+		id = MAR_a_new_king
+		icon = MAR_a_new_king
+		x = 0
+		y = 4
+		cost = 6
+		prerequisite = { focus = MAR_cum_first_elections } 
+		ai_will_do = { factor = 100 }
+		available = {
+			has_government = monarchist
+		}
+		completion_reward = {
+			add_political_power = -20
+		}
+	}
+	#For Mother Marisvalor
+	focus = {
+		id = MAR_for_mother_marisvalor
+		icon = MAR_for_mother_marisvalor
+		x = 0
+		y = 5
+		cost = 4
+		prerequisite = { focus = MAR_a_new_king } 
+		ai_will_do = { factor = 100 }
+		available = {
+			has_government = monarchist
+		}
+		completion_reward = {
+			
+		}
+	}
+	#Second elections
+	focus = {
+		id = MAR_second_elections
+		icon = GFX_focus_generic_election
+		x = 10
+		y = 11
+		cost = 10
+		prerequisite = { focus = MAR_campaign_for_next_elections } 
+		ai_will_do = { factor = 100 }
+		available = {
+			
+		}
+		completion_reward = {
+	
+		}
+	}
+	
+	### Blockheed Focus Area ###
+	
+
+	#Blockheed Corporation
+	focus = {
+		id = MAR_blockheed_corporation
+		icon = GFX_MAR_blockheed
+		x = 40
+		y = 1
+		cost = 0
+		
+        	available = {
+			has_idea = marisvalor_invest_in_blockheed
+		}
+		completion_reward = {
+			
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+	focus = {
+		id = MAR_buy_factory_land
+		icon = GFX_goal_generic_position_armies
+		x = 40
+		y = 2
+		cost = 4
+		
+		prerequisite = {
+			focus = MAR_blockheed_corporation
+		}
+        	available = {
+			has_idea = marisvalor_invest_in_blockheed
+		}
+		completion_reward = {
+			1010 = {
+    				add_extra_state_shared_building_slots = 5
+    				add_building_construction = {
+        				type = industrial_complex
+        				level = 5
+        				instant_build = yes
+    				}
+
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+	focus = {
+		id = MAR_blockheed_military_develop
+		icon = GFX_generic_focus_focus_on_infantry_equipment-645755
+		x = 43
+		y = 3
+		cost = 6
+		
+		prerequisite = {
+			focus = MAR_buy_factory_land
+		}
+        	available = {
+			has_idea = marisvalor_invest_in_blockheed
+		}
+		completion_reward = {
+			
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+	focus = {
+		id = MAR_blockheed_arms_production
+		icon = GFX_generic_focus_armament_efforts_iii-645975
+		x = 43
+		y = 4
+		cost = 4
+		
+		prerequisite = {
+			focus = MAR_blockheed_military_develop
+		}
+        	available = {
+			has_idea = marisvalor_invest_in_blockheed
+		}
+		completion_reward = {
+			
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+	focus = {
+		id = MAR_blockheed_artillery_designs
+		icon = GFX_generic_focus_antiair-646319
+		x = 44
+		y = 5
+		cost = 6
+		
+		prerequisite = {
+			focus = MAR_blockheed_arms_production
+		}
+        	available = {
+			has_idea = marisvalor_invest_in_blockheed
+		}
+		completion_reward = {
+			add_tech_bonus = {
+    				bonus = 0.50
+    				uses = 1
+    				category = artillery
+			}
+			army_experience = 20
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+	focus = {
+		id = MAR_blockheed_support_designs
+		icon = GFX_focus_generic_land_reclamation
+		x = 42
+		y = 5
+		cost = 6
+		
+		prerequisite = {
+			focus = MAR_blockheed_arms_production
+		}
+        	available = {
+			has_idea = marisvalor_invest_in_blockheed
+		}
+		completion_reward = {
+			add_tech_bonus = {
+    				bonus = 0.50
+    				uses = 1
+    				category = support_tech
+			}
+			army_experience = 20
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+	focus = {
+		id = MAR_blockheed_economy_develop
+		icon = GFX_focus_CONGO_gold_and_diamonds
+		x = 37
+		y = 3
+		cost = 6
+		
+		prerequisite = {
+			focus = MAR_buy_factory_land
+		}
+        	available = {
+			has_idea = marisvalor_invest_in_blockheed
+		}
+		completion_reward = {
+			
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+	focus = {
+		id = MAR_blockheed_resource_guilds
+		icon = GFX_generic_focus_greater_extraction_efforts-645976
+		x = 37
+		y = 4
+		cost = 6
+		
+		prerequisite = {
+			focus = MAR_blockheed_economy_develop
+		}
+        	available = {
+			has_idea = marisvalor_invest_in_blockheed
+		}
+		completion_reward = {		
+			add_resource = {
+    				type = oil
+    				amount = 10
+    				state = 1010
+			}
+			add_resource = {
+    				type = rubber
+    				amount = 10
+    				state = 1010
+			}
+			add_resource = {
+    				type = oil
+    				amount = 10
+    				state = 1022
+			}
+			add_resource = {
+    				type = rubber
+    				amount = 10
+    				state = 1022
+			}
+			add_resource = {
+    				type = oil
+    				amount = 10
+    				state = 1002
+			}
+			add_resource = {
+    				type = rubber
+    				amount = 10
+    				state = 1002
+			}			
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+	focus = {
+		id = MAR_blockheed_anuroti_rail
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 37
+		y = 5
+		cost = 8
+		
+		prerequisite = {
+			focus = MAR_blockheed_resource_guilds
+		}
+        	available = {
+			has_idea = marisvalor_invest_in_blockheed
+		}
+		completion_reward = {
+			build_railway = {
+    				level = 1
+    				build_only_on_allied = yes
+    				controller_priority = {
+        				base = 1
+        				modifier = {
+            					tag = MAR
+            					add = 2
+        				}
+    				}	
+    				fallback = yes
+   				path = { 6961 14483 14446 14403 }
+    				start_province = 6961
+    				target_province = 14403
+			}
+			build_railway = {
+    				level = 1
+    				build_only_on_allied = yes
+    				controller_priority = {
+        				base = 1
+        				modifier = {
+            					tag = MAR
+            					add = 2
+        				}
+    				}	
+    				fallback = yes
+   				path = { 5913 5860 14240 14180 5817 }
+    				start_province = 5913
+    				target_province = 5817
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	### Generic economy ###
+	#The Great Gold Strain
+	focus = {
+		id = MAR_the_great_gold_strain
+		icon = GFX_focus_ITA_devaluate_the_lire
+		x = -40
+		y = 15
+		cost = 0
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = {}
+		available = {
+			has_idea = economic_collapse
+		}
+		bypass = {
+			has_idea = economic_collapse
+		}
+	}
+	#Rebuild the Economy
+	focus = {
+		id = MAR_rebuild_the_economy1
+		icon = GFX_goal_generic_position_armies
+		x = -40
+		y = 16
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = {focus = MAR_the_great_gold_strain }
+		available = {
+			has_idea = economic_collapse
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = economic_collapse_1
+				remove_idea = economic_collapse
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+	#Re-Centralize the Nation
+	focus = {
+		id = MAR_recentralize_the_nation1
+		icon = GFX_focus_generic_self_management
+		x = -40
+		y = 17
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = {focus = MAR_rebuild_the_economy1}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = economic_collapse_2
+				remove_idea = economic_collapse_1
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+	
+	#Economic Boost
+	focus = {
+		id = MAR_economic_boost
+		icon = GFX_focus_generic_self_management
+		x = -40
+		y = 18
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = {
+			focus = MAR_recentralize_the_nation1
+		}
+        
+		completion_reward = {
+			remove_ideas = economic_collapse_2
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+	
+}
