@@ -16,12 +16,6 @@ on_actions = {
 					days = 196 
 				}
 			}
-			MAR = {
-                country_event = { 
-					id = marisvalor.1
-					days = 180
-				}
-            }
 		}
 	}
 	# Nuke Drop Trigger
