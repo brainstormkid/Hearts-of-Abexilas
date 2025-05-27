@@ -5,16 +5,20 @@ state={
 		6953 12564 12627 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=1500000
         state_category = town
 	history={
 		owner = VOL
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 1
+			6953 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = VOL
 		victory_points = {
-			6953 10
+			6953 50
 		}
 	}
 }
