@@ -57,3 +57,89 @@ country_event = {
 		add_ideas = marisvalor_eins
 	}
 }
+country_event = {
+	id = marisvalor.2
+	title = "The Red Gold Party wants to merge"
+	desc = "The RPG has begun to lose support. Some seek to create a new party. Seeing as we are the more favorable party they are asking to join us. Do we accept?"
+	picture = GFX_marisvalor_event_2_image
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Welcome Brothers!"
+		
+		ai_chance = {
+			factor = 90
+		}
+		set_popularities = {
+			conservatist = 55
+			monarchist = 38
+			progressivist = 7
+			liberalist = 0
+		}
+		set_party_name = { 
+    			ideology = progressivist 
+    			long_name = "The Equality and Advancement Party"
+    			name = "TEA"
+		}
+		set_party_name = { 
+    			ideology = liberalist 
+    			long_name = "Liberalist Party"
+    			name = "Liberalist Party"
+		}
+	}
+	option = {
+		name = "Rot in Hell!"
+		
+		ai_chance = {
+			factor = 10
+		}
+		set_popularities = {
+			conservatist = 50
+			monarchist = 38
+			progressivist = 6
+			liberalist = 0
+		}
+		set_party_name = { 
+    			ideology = progressivist 
+    			long_name = "The Equality and Advancement Party"
+    			name = "TEA"
+		}
+		set_party_name = { 
+    			ideology = liberalist 
+    			long_name = "Liberalist Party"
+    			name = "Liberalist Party"
+		}
+	}
+}
+#news
+news_event = {
+	id = marisvalor.3
+	title = "Archduke steps down."
+	desc = "e"
+	picture = GFX_marisvalor_news_2_image
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Welcome Radovan."
+	}
+}
+news_event = {
+	id = marisvalor.4
+	title = "Libertarian Party Forms.."
+	desc = "A new party has been founded in Marisvalor, the libertarian FART party. The leader of the Party, Radz Macatikie calls for a new wave of Marisvalori change and the removal of taxation. Many critics are asking will this party have a chance in the next polls."
+	picture = GFX_marisvalor_news_1_image
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "So It begins.."
+		set_party_name = { 
+    			ideology = libertarianist
+    			long_name = "Freedom Autonomy Responsibility and Transparency Party "
+    			name = "FART"
+		}
+	}
+}
+
