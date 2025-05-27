@@ -1,0 +1,40 @@
+state={
+	id=744
+	name="STATE_744"
+	provinces={
+		152 2079 2397 3032 3321 4707 12277 12310 12338 12343 12411 12423 12451 12492 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	manpower=900000
+	buildings_max_level_factor=1.000
+	state_category=city
+	history={
+		owner = VDA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			152 = {
+				naval_base = 1
+			}
+			2079 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = VDA
+		victory_points = {
+			2079 5
+		}
+		victory_points = {
+			152 5
+		}
+	}
+}

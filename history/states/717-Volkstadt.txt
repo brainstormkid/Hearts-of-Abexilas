@@ -1,0 +1,37 @@
+state={
+	id=717
+	name="STATE_717"
+	provinces={
+		751 1009 1089 1965 2514 4169 4662 5209 5972 5974 6553 12157 12201 12239 12253 12273 12399 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=3450000
+        state_category = metropolis
+	history={
+		owner = VDA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			1965 = {
+				naval_base = 3
+			}
+			12157 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = VDA
+		victory_points = {
+			1965 50
+		}
+	}
+}
