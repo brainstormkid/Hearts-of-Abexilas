@@ -85,4 +85,13 @@ spriteTypes = {
 		name = "GFX_marisvalor_event_1_image"
 		texturefile = "gfx/event_pictures/MAR_election_1.dds"
 	}
+	SpriteType = {
+		name = "GFX_marisvalor_event_2_image"
+		texturefile = "gfx/event_pictures/MAR_event_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_marisvalor_news_1_image"
+		texturefile = "gfx/event_pictures/marisvalor_news_1_image.dds"
+	}
+
 }
