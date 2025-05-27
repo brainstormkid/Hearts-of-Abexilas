@@ -4,14 +4,33 @@ state={
 	provinces={
 		130 433 647 653 1295 1839 2307 2584 2758 2997 3406 3480 4192 4582 4737 4909 5038 5121 5144 5711 6173 6725 6785 12301 12318 12344 12373 12374 12381 12385 12389 12405 12412 12419 12420 12429 12433 12445 12462 12476 12484 12493 12500 12520 12523 12535 12543 12565 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=6750000
+        state_category = metropolis
 	history={
 		owner = EXO
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
 		}
 		add_core_of = EXO
+		victory_points = {
+			4582 30
+		}
+		victory_points = {
+			12484 10
+		}
+		victory_points = {
+			12429 5
+		}
 	}
 }

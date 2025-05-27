@@ -4,14 +4,28 @@ state={
 	provinces={
 		610 843 1660 2172 3711 5252 5325 5769 6873 12507 12583 12617 12618 12680 12696 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=1050000
+        state_category = rural
 	history={
 		owner = EXO
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 		add_core_of = EXO
+		victory_points = {
+			5325 5
+		}
+		victory_points = {
+			12583 5
+		}
 	}
 }

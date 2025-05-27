@@ -78,6 +78,13 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
+		name = "6th Exordian Infantry"
+		location = 4582
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
 		name = "1st Exordian Guards"
 		location = 11281
 		division_template = "Guard Division"
@@ -115,6 +122,13 @@ units = {
 	division = {
 		name = "1st Exordian Cavalry"
 		location = 11174
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Exordian Cavalry"
+		location = 12484
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
