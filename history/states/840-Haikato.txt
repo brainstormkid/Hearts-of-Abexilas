@@ -4,17 +4,28 @@ state={
 	provinces={
 		5061 6426 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
         manpower=600000
-        state_category = city
+        state_category = small_island
 	history={
 		owner = SUN
 		buildings = {
-			infrastructure = 1
-		6426 = {
-			naval_base = 1
+			infrastructure = 2
+			5061 = {
+				naval_base = 1
+			}
+		}		
+		add_core_of = SUN
+		victory_points = {
+			5061 5
 		}
-	}		
-	add_core_of = SUN
 	}
 }

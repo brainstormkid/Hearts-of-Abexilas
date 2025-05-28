@@ -1,5 +1,7 @@
 ﻿capital = 12916
 
+oob = "SUN"
+
 set_politics = {
 	ruling_party = centrist
 	last_election = "1936.1.1"
@@ -26,6 +28,8 @@ set_popularities = {
     imperialist = 0
     radical_nationalist = 23
 }
+
+set_convoys = 10
 
 create_country_leader = {
 	name = "Tigiyuto Akashiro"
