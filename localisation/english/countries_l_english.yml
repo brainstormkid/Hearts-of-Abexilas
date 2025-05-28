@@ -340,6 +340,10 @@
  BRU_absolutist_DEF:1 "the Empire of Brukel"
  BRU_absolutist_ADJ:0 "Brukeli"
  
+ BUD_absolutist:1 "Budarchy_of_Budgeford"
+ BUD_absolutist_DEF:1 "the Budarchy_of_Budgeford"
+ BUD_absolutist_ADJ:0 "Budger"
+ 
  CAA_absolutist:1 "Imperial Republic of Calarith"
  CAA_absolutist_DEF:1 "the Imperial Republic of Calarith"
  CAA_absolutist_ADJ:0 "Calarithian"

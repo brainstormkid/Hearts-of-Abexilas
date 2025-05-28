@@ -1,0 +1,34 @@
+state={
+	id=910
+	name="STATE_910"
+	provinces={
+		1700 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
+	buildings_max_level_factor=1.000
+        manpower=3600000
+        state_category = metropolis
+	history={
+		owner = BUD
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			1700 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = BUD
+		victory_points = {
+			1700 50
+		}
+	}
+}
