@@ -4,13 +4,52 @@ state={
 	provinces={
 		17 959 1162 1615 1780 2040 2114 2417 2767 3043 3064 3292 4027 5421 5754 6581 7024 11551 11568 11674 11683 11697 11712 11728 11735 11742 11748 11789 11881 11889 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=7500000
+        state_category = metropolis
 	history={
 		owner = CAA
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			1162 = {
+				naval_base = 2
+			}
+			3064 = {
+				naval_base = 1
+			}
+			1615 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = CAA
+		victory_points = {
+			2114 30
+		}
+		victory_points = {
+			5754 10
+		}
+		victory_points = {
+			3064 5
+		}
+		victory_points = {
+			1615 5
+		}
+		victory_points = {
+			11568 5
+		}
+		victory_points = {
+			1780 5
+		}
 	}
 }

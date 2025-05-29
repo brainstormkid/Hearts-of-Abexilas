@@ -1,8 +1,8 @@
 state={
-	id=1372
-	name="STATE_1372"
+	id=1371
+	name="STATE_1371"
 	provinces={
-		664 6566 12247 12284
+		96 1180 12275
 	}
 	resources = {
 		oil = 2
@@ -13,17 +13,13 @@ state={
 		chromium = 2
 	}
 	buildings_max_level_factor=1.000
-        manpower=750000
-        state_category = town
+        manpower=75000
+        state_category = rural
 	history={
 		owner = CAA
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
 		}
 		add_core_of = CAA
-		victory_points = {
-			664 5
-		}
 	}
 }

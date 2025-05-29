@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 729
 
 oob = "CAA"
 
@@ -23,4 +23,4 @@ create_country_leader = {
 	}
 }
 
-set_convoys = 5
+set_convoys = 65

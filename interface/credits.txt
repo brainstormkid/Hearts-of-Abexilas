@@ -2,7 +2,7 @@
 
 6/11/2024 - Now
 
-100+ Player Development
+A 100+ Player Development
 
 ----------------
 
@@ -22,17 +22,17 @@ The ones who put words into code
 axcetcy
 artiomderruski
 calkgrm
+coolco
 deitsch100
-derlen
 dupernite
 greatthealex
-king_of_hungary
-luniii111
 mage2627
 marsiscool
 monsterswastaken
 nektarios4449
+penguinborn
 oshotty
+solmerchant
 zavien_
 
 ----------------
@@ -46,11 +46,13 @@ anovium
 bally2563
 chasedmender668
 clomclem
+derlen
 ec1ypsius
 entername5298
 erupto_
 gogolegus
 kaegottya
+king_of_hungary
 lehiboublanc
 linemantrent77
 .ludio
@@ -141,6 +143,7 @@ chaosrat44
 Charmer2087
 dynominer
 er51542
+foobar2060 
 Gesso_
 ice4man
 iron.gamer
@@ -168,7 +171,10 @@ yeetusthemighty.
 #Special Thanks To
 
 Cathramis Continental Hub
-Hearts of Eldham Development Team
+Prolific Fox Productions
+Hearts of Haven: A Stoneworks Hoi4 Mod
+Hearts of Gold: The Rathnir Coalition War
+Hearts of Gold: Legacy of the Ferrymen War
 HOI4 Modding Den
 Stoneworks
 Stoneworks Cartography Guild

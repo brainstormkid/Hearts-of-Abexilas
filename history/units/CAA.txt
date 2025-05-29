@@ -43,6 +43,34 @@ division_template = {
 
 units = {
 	division = {
+		name = "1st Calarithian Infantry"
+		location = 12360
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Calarithian Infantry"
+		location = 12360
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Calarithian Infantry"
+		location = 12050
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "4th Calarithian Infantry"
+		location = 2114
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
 		name = "1st Calarithian Guards"
 		location = 14287
 		division_template = "Guard Division"
@@ -50,8 +78,57 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
+		name = "2nd Calarithian Guards"
+		location = 4442
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Calarithian Guards"
+		location = 4046
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "4th Calarithian Guards"
+		location = 1828
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "5th Calarithian Guards"
+		location = 2614
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
 		name = "1st Calarithian Cavalry"
 		location = 14213
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Calarithian Cavalry"
+		location = 12322
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Calarithian Cavalry"
+		location = 12404
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "4th Calarithian Cavalry"
+		location = 5754
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
