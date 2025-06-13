@@ -14,6 +14,20 @@ ideas = {
 				research_speed_factor = -0.1
 			}
 		}
+		marisvalor_radovan = {
+			picture = marisvalor_radovan
+			allowed = {
+				tag = MAR
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+			        political_power_gain = 0.15
+				stability_factor = 0.15
+				production_speed_buildings_factor = 0.25
+			}
+		}
 		marisvalor_invest_in_blockheed = {
 			picture = invest_in_blockheed
 			allowed = {
