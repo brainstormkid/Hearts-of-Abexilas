@@ -115,16 +115,18 @@ country_event = {
 #news
 news_event = {
 	id = marisvalor.3
-	title = "Archduke steps down."
-	desc = "e"
+	title = "Archduke Klovün Harpenük-Merisvela steps down."
+	desc = marisvalor.3.d
 	picture = GFX_marisvalor_news_2_image
-	
 	is_triggered_only = yes
 
 	option = {
 		name = "Welcome Radovan."
+		remove_ideas = marisvalor_eins
+		add_ideas = marisvalor_radovan
 	}
 }
+
 news_event = {
 	id = marisvalor.4
 	title = "Libertarian Party Forms.."
