@@ -65,7 +65,22 @@ on_actions = {
 		}
 	}
 	# Ideology Color Changes
-	
+	## Marisvalor ##
+	on_ruling_party_change = { # Note: the on action only runs after the game's start
+		effect = {
+            if = {
+                limit = {
+                    original_tag = MAR
+                    has_government = conservatist
+                }
+                MAR = { 
+			country_event = {
+				id = marisvalor.2 
+				days = 5 
+			}
+		}
+            }
+	}
 	## Paraiso ##
 	on_ruling_party_change = { # Note: the on action only runs after the game's start
 		effect = {
