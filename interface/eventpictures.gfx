@@ -93,5 +93,17 @@ spriteTypes = {
 		name = "GFX_marisvalor_news_1_image"
 		texturefile = "gfx/event_pictures/marisvalor_news_1_image.dds"
 	}
+	SpriteType = {
+		name = "GFX_dedication_1"
+		texturefile = "gfx/event_pictures/dedication_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_dedication_2"
+		texturefile = "gfx/event_pictures/dedication_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_dedication_3"
+		texturefile = "gfx/event_pictures/dedication_3.dds"
+	}
 
 }

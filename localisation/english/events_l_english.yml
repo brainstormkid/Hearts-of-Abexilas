@@ -49,6 +49,22 @@
  news.9.d:0 "Today, the Inaugural Race for Formula Abex Fall Series took place at Ithrun City Raceway. After technical difficulties, BrainlessPotato of Ashkavari Ocelots took first place in this 24 driver race!\nStay Tuned for how the Formula Abex - Fall Series will pan out!"
  news.9.a:0 "Great Inaugural Race!"
  
+ #Dedication EVENTS
+ #Higher_Dom
+ news.10.t:0 "In Loving Memory of Higher_Dom"
+ news.10.d:0 "In Higher_Dom's case, it was true. He always kept things real with us. He said things as they are were, how they should be and never beat around the bush. Dom was one of the funniest guys we knew, he made playing on the server fun and was a great teammate, pvper, mercenary, leader, but most importantly, he was a great friend.\n\nDom was always striving for improvement, be it in-game or in real life. He would always ask us about working out, share about his progression/ talk about new journeys in his life. And now, he's on the biggest adventure of all. So today, we say goodbye to our dear friend. We say goodbye to one of the greatest PvPers Stoneworks has ever seen, to a friend who loved and felt more than we could see. We miss you so much and may you Rest In Peace. - Wardaddy"
+ news.10.a:0 "We suffer more in imagination than in reality."
+ 
+ #tanuki
+ news.11.t:0 "Hi tanuki here"
+ news.11.d:0 "i must admit, it was super cool experiance to chill, chat and just enjoy time on stoneworks. I got cancer, stage 4, i dont got much time left. Tomorrow will be my last day really on Stoneworks and Discord, also my last Schoolday ever. I will go visit Alaska and China, i will atleast around the world befor i go. I made many friends along this so strange path, i like you all, i hope you will be old and healthly, i hope yall doing fine in life and will still smile when its fucking exhausting. Well this is the last offical message from me, its already been 10 months when i joined its goofy server, so keep you alive and go outside. - tanuki"
+ news.11.a:0 "Aizhana Sentara! Utii Forever till Death! Power to the Workers!"
+ 
+ #tapnap
+ news.12.t:0 "FAREWELL TAPNAP"
+ news.12.d:0 "I am writing this with heavy heart. I got news from his sister that took my breath out of my lungs. Our great friend and companion tapnap has passed away from bone cancer at the age of 19. He has been a loyal friend and I will always remember him and miss him. I would write a longer one but words can't carry the loss we are feeling rn. - metonolum"
+ news.12.a:0 "You were loved here and will be missed"
+ 
  #Gertek Fall
  gertek.1.t:0 "The Government of Gertek has fallen"
  gertek.1.d:0 "The central government had been struggeling with destabilization for long. But now it has totally collapsed. The Adramis Cold War was too much for the government. Many groups emerged to create a new country from the ashes. But who will lead the nation now?"
@@ -59,7 +75,7 @@
  gertek.2.a:0 "A Suprise to be sure"
 
 #Marisvalor
-marisvalor.3.d:0 "Archduke Klovün Harpenük-Merisvela has stepped down due to running in the Imperial Arbiter races. Some sources say another reason for stepping down was due to Klovün being the oldest man in Abex. For replacement the heir, Radœvünah Harpenük-Merisvela has agreed to take the spot of Archduke while Klovün is away. Will this bring any new changes for Marisvalor?"
+ marisvalor.3.d:0 "Archduke Klovün Harpenük-Merisvela has stepped down due to running in the Imperial Arbiter races. Some sources say another reason for stepping down was due to Klovün being the oldest man in Abex. For replacement the heir, Radœvünah Harpenük-Merisvela has agreed to take the spot of Archduke while Klovün is away. Will this bring any new changes for Marisvalor?"
  
  #MYRTANA EVENTS
  myrtana_story_events.1.t:0 "Long day in Theos."
