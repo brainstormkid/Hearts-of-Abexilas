@@ -265,6 +265,14 @@ spriteTypes = {
 		name = "GFX_portrait_EJZ_alexfoolery_ejznhjart_large"
 		texturefile = "gfx/leaders/EJZ/portrait_large_alexfoolery_ejznhjart.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_EJZ_kalder_av_ejznhjart_large"
+		texturefile = "gfx/leaders/EJZ/portrait_large_kalder_av_ejznhjart.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_EJZ_kalder_av_ejznhjart_small"
+		texturefile = "gfx/leaders/EJZ/portrait_small_kalder_av_ejznhjart.dds"
+	}
 	
 	### VEA	
 	spriteType = {

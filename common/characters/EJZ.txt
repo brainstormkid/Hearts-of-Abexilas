@@ -132,7 +132,7 @@ characters={
             allowed = {
                 original_tag = EJZ
             }
-            traits = { army_chief_offensive_3 }
+            traits = { army_chief_offensive_2 }
             ai_will_do = {
                 factor = 1.0
             }
@@ -148,6 +148,38 @@ characters={
             logistics_skill = 3
         }
     }
+    EJZ_Kaldar_av_Ejznhjart = {
+        name = "Kaldar av Ejznhjart"
+        portraits = {
+            civilian = {
+                small= "GFX_portrait_EJZ_kalder_av_ejznhjart_small"
+            }
+            army = {
+                large = "GFX_portrait_EJZ_kalder_av_ejznhjart_large"
+            }
+        }
+        advisor = {
+            cost = 150
+            slot = army_chief
+            idea_token = kalder_av_ejznhjart
+            ledger = army
+            allowed = {
+                original_tag = EJZ
+            }
+            traits = { army_chief_maneuver_1 }
+            ai_will_do = {
+                factor = 1.0
+            }
+        }
+        corps_commander = {
+            skill = 4
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 3
+        }
+    }
+    
 }
 
 
