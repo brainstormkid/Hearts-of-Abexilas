@@ -11,11 +11,11 @@ characters={
             ideology=monarchist_subtype
             traits= {}
             desc = POLITICS_GUSTAV_DESC
-            expire="1965.1.1.1"
         }
         advisor={
             cost = 150
-            slot = political_advisor 
+            slot = political_advisor
+            idea_token = gustav_ejznhjart
             ledger = civilian [others are e.g. army]
             allowed = {
                 original_tag = EJZ
@@ -56,11 +56,11 @@ characters={
         country_leader={
             ideology=monarchist_subtype
             traits= { inexperienced_monarch }
-            expire="1965.1.1.1"
         }
         advisor={
             cost = 150
             slot = political_advisor 
+            idea_token = karl_ejznhjart
             ledger = civilian
             allowed = {
                 original_tag = EJZ
@@ -103,18 +103,19 @@ characters={
         advisor={
             cost = 150
             slot = political_advisor
+            idea_token = hyde_de_wataved
             ledger = civilian
             allowed = {
                 orginal_tag = EJZ
             }
-            traits = { great_architect }
+            traits = { head_of_construction }
             ai_will_do = {
                 factor = 1.0
             }
         }
     }
     EJZ_Alexfoolery_Ejznhjart = {
-        name = "Alexfoolery Ejznhjart"
+        name = "Alex Maex Ejznhjart"
         portraits = {
             civilian = {
                 small= "GFX_portrait_EJZ_alexfoolery_ejznhjart_small"
@@ -126,6 +127,7 @@ characters={
         advisor = {
             cost = 150
             slot = army_chief
+            idea_token = alexfoolery
             ledger = army
             allowed = {
                 original_tag = EJZ
