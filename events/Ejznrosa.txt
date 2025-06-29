@@ -556,14 +556,14 @@ country_event = {
 	id = ejznrosa.23
 	hours = 12
     random_hours = 6
-    days = 2
+    days = 1   
 	title = "Recent Population Influx"
 	desc = ejznrosa.23.d
 	picture = "GFX_ejznrosa_event_1_image"
 	timeout_days = 20
 	trigger = {
 		tag = EJZ
-		date > 0002.19.08
+		date > 0002.05.08 
 		country_exists = EJZ
 		1178 = {
 			is_owned_by = EJZ
@@ -578,7 +578,7 @@ country_event = {
 			is_owned_by = EJZ
 		}
 	}
-	is_triggered_only = yes
+	fire_only_once = yes
 	option = { #Great!
 	name = "Great!"
 	ai_chance = { factor = 100}
