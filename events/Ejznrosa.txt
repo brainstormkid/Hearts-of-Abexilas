@@ -552,3 +552,42 @@ country_event = {
 	add_war_support = -0.05
     }   
 }
+country_event = {
+	id = ejznrosa.23
+	hours = 12
+    random_hours = 6
+    days = 2
+	title = "Recent Population Influx"
+	desc = ejznrosa.23.d
+	picture = "GFX_ejznrosa_event_1_image"
+	timeout_days = 20
+	trigger = {
+		tag = EJZ
+		date > 0002.19.08
+		country_exists = EJZ
+		1178 = {
+			is_owned_by = EJZ
+		}
+		1415 = {
+			is_owned_by = EJZ
+		}
+		659 = {
+			is_owned_by = EJZ
+		}
+		1176 = {
+			is_owned_by = EJZ
+		}
+	}
+	is_triggered_only = yes
+	option = { #Great!
+	name = "Great!"
+	ai_chance = { factor = 100}
+	659 = { add_manpower = 2100000}
+	659 = { add_manpower = 2100000}
+	659 = { add_manpower = 2100000}
+	1415 = { add_manpower = 1575000 }
+	1415 = { add_manpower = 1575000 }
+	1178 = { add_manpower = 300000}
+	1176 = { add_manpower = 150000}
+    }   
+}

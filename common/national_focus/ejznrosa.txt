@@ -2398,7 +2398,7 @@ focus_tree = {
 				OR = {
 					country_exists = AGR
 					has_army_manpower = {
-						size > 200000
+						size > 149999
 					}
 				}
 				1413 = {
@@ -2435,7 +2435,7 @@ focus_tree = {
 					is_owned_by = AER
 				}
 				has_army_manpower = {
-					size > 299999
+					size > 199999
 				}
 			}
 		}
