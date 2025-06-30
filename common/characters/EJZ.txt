@@ -281,7 +281,7 @@ characters={
             allowed = {
                 original_tag = EJZ
             }
-            traits = { cavalry_leader }
+            traits = { army_cavalry_2 }
             ai_will_do = {
                 factor = 1.0
             }
