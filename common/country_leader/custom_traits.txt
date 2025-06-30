@@ -267,12 +267,5 @@ leader_traits = {
 		ai_will_do = {
 			factor = 5
 		}
-	}
-	calvary_genius = {
-		random = no
-		#Increase calvary attack
-		sprite = 13
-		cavalry_attack_factor = 0.1
-		cavalry_defence_factor = 0.1
-	}			
+	}	
 }
