@@ -80,6 +80,7 @@ recruit_character = EJZ_Poothtick_av_Kanavswanz
 recruit_character = EJZ_Jack_av_Kanavswanz
 recruit_character = EJZ_Armenius_av_Zodiac
 recruit_character = EJZ_Woj_Jan_Tech
+recruit_character = EJZ_Aclulf_Rednerfürst
 
 create_country_leader = {
 	name = "Gustav av Ejznhjart"

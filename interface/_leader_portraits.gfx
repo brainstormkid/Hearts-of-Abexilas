@@ -296,7 +296,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_EJZ_woj_jan_tech_large"
 		texturefile = "gfx/leaders/EJZ/portrait_large_woj_jan_tech.dds"
-	}				
+	}
+	spriteType = {
+		name = "GFX_portrait_EJZ_aclulf_rednerfürst_small"
+		texturefile = "gfx/leaders/EJZ/portrait_large_aclulf_rednerfürst.dds"
+	}						
 	### VEA	
 	spriteType = {
 		name = "GFX_portrait_VEA_zeno_small"
