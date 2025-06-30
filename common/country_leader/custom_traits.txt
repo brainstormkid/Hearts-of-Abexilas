@@ -222,6 +222,57 @@ leader_traits = {
 			factor = 5
 		}
 	}
-	
-
+	head_of_recruitment = {
+		random = no
+		# Increase population growth
+		sprite = 13
+		monthly_population = 0.02
+		recruitable_population_factor = 0.05
+		ai_will_do = {
+			factor = 5
+		}
+	}	
+	head_of_foreign_affairs = {
+		random = no
+		#
+		sprite = 13
+		opinion_gain_monthly_factor = 0.1
+		join_faction_tension = -0.1
+		guarantee_tension = -0.1
+		send_volunteers_tension = -0.1
+		trade_opinion_factor = 0.1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	head_of_production = {
+		random = no
+		#Increase production
+		sprite = 13
+		production_lack_of_resource_penalty_factor = -0.1
+		local_resources_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.05
+		supply_consumption_factor = -0.05
+		ai_will_do = {
+			factor = 5
+		}
+	}	
+	head_of_economy = {
+		random = no
+		#Reduce economic, trade laws
+		sprite = 13
+		trade_laws_cost_factor = -0.1
+		economy_cost_factor = -0.1
+		consumer_goods_factor = -0.1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	calvary_genius = {
+		random = no
+		#Increase calvary attack
+		sprite = 13
+		cavalry_attack_factor = 0.1
+		cavalry_defence_factor = 0.1
+	}			
 }

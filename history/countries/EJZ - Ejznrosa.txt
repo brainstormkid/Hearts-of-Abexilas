@@ -75,6 +75,11 @@ recruit_character = EJZ_karl
 recruit_character = EJZ_Hyde_de_Wataved
 recruit_character = EJZ_Alexfoolery_Ejznhjart
 recruit_character = EJZ_Kaldar_av_Ejznhjart
+recruit_character = EJZ_Tyrrhenus_Av_Ejznhjart
+recruit_character = EJZ_Poothtick_av_Kanavswanz
+recruit_character = EJZ_Jack_av_Kanavswanz
+recruit_character = EJZ_Armenius_av_Zodiac
+recruit_character = EJZ_Woj_Jan_Tech
 
 create_country_leader = {
 	name = "Gustav av Ejznhjart"

@@ -179,7 +179,121 @@ characters={
             logistics_skill = 3
         }
     }
-    
+    EJZ_Tyrrhenus_Av_Ejznhjart = {
+        name = "Tyrrhenus av Ejznhjart"
+        portraits = {
+            civilian = {
+                small= "GFX_portrait_EJZ_tyrrhenus_av_ejznhjart_small"
+            }
+        }
+        advisor = {
+            cost = 150
+            slot = political_advisor
+            idea_token = tyrrhenus_av_ejznhjart
+            ledger = civilian
+            allowed = {
+                original_tag = EJZ
+            }
+            traits = { head_of_recruitment }
+            ai_will_do = {
+                factor = 1.0
+            }
+        }
+    }
+    EJZ_Poothtick_av_Kanavswanz = {
+        name = "Poothtick av Kanavswanz"
+        portraits = {
+            civilian = {
+                small= "GFX_portrait_EJZ_poothtick_av_kanavswanz_small"
+            }
+        }
+        advisor = {
+            cost = 150
+            slot = political_advisor
+            idea_token = poothtick_av_kanavswanz
+            ledger = civilian
+            allowed = {
+                original_tag = EJZ
+            }
+            traits = { head_of_foreign_affairs }
+            ai_will_do = {
+                factor = 1.0
+            }
+        }
+    }
+    EJZ_Jack_av_Kanavswanz = {
+        name = "Jack av Kanavswanz"
+        portraits = {
+            civilian = {
+                small= "GFX_portrait_EJZ_jack_av_kanavswanz_small"
+            }
+        }
+        advisor = {
+            cost = 150
+            slot = political_advisor
+            idea_token = jack_av_kanavswanz
+            ledger = civilian
+            allowed = {
+                original_tag = EJZ
+            }
+            traits = { head_of_production }
+            ai_will_do = {
+                factor = 1.0
+            }
+        }
+    }
+    EJZ_Armenius_av_Zodiac = {
+        name = "Armenius av Zodiac"
+        portraits = {
+            civilian = {
+                small= "GFX_portrait_EJZ_armenius_av_zodiac_small"
+            }
+        }
+        advisor = {
+            cost = 150
+            slot = political_advisor
+            idea_token = armenius_av_zodiac
+            ledger = civilian
+            allowed = {
+                original_tag = EJZ
+            }
+            traits = { head_of_economy }
+            ai_will_do = {
+                factor = 1.0
+            }
+        }
+    }
+    EJZ_Woj_Jan_Tech = {
+        name = "Woj Jan Tech"
+        portraits = {
+            civilian = {
+                small = "GFX_portrait_EJZ_woj_jan_tech_small"
+            }
+            army = {
+                large = "GFX_portrait_EJZ_woj_jan_tech_large"
+            }
+        }
+        advisor = {
+            cost = 150
+            slot = high_command
+            idea_token = woj_jan_tech
+            ledger = army
+            allowed = {
+                original_tag = EJZ
+            }
+            traits = { calvary_genius }
+            ai_will_do = {
+                factor = 1.0
+            }
+        }
+        corps_commander = {
+            skill = 2
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }        
+    }
 }
 
 

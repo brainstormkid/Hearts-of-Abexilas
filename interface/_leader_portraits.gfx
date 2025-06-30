@@ -273,7 +273,30 @@ spriteTypes = {
 		name = "GFX_portrait_EJZ_kalder_av_ejznhjart_small"
 		texturefile = "gfx/leaders/EJZ/portrait_small_kalder_av_ejznhjart.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_portrait_EJZ_tyrrhenus_av_ejznhjart_small"
+		texturefile = "gfx/leaders/EJZ/portrait_small_tyrrhenus_av_ejznhjart.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_EJZ_poothtick_av_kanavswanz_small"
+		texturefile = "gfx/leaders/EJZ/portrait_small_poothtick_av_kanavswanz.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_EJZ_jack_av_kanavswanz_small"
+		texturefile = "gfx/leaders/EJZ/portrait_small_jack_av_kanavswanz.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_EJZ_armenius_av_zodiac_small"
+		texturefile = "gfx/leaders/EJZ/portrait_small_armenius_av_zodiac.dds"
+	}	
+	spriteType = {
+		name = "GFX_portrait_EJZ_woj_jan_tech_small"
+		texturefile = "gfx/leaders/EJZ/portrait_small_woj_jan_tech.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_EJZ_woj_jan_tech_large"
+		texturefile = "gfx/leaders/EJZ/portrait_large_woj_jan_tech.dds"
+	}				
 	### VEA	
 	spriteType = {
 		name = "GFX_portrait_VEA_zeno_small"
