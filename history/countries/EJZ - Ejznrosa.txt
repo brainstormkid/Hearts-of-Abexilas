@@ -71,7 +71,6 @@ set_popularities = {
 	radical_socialist = 2
 }
 recruit_character = EJZ_gus
-recruit_character = EJZ_karl
 recruit_character = EJZ_Hyde_de_Wataved
 recruit_character = EJZ_Alexfoolery_Ejznhjart
 recruit_character = EJZ_Kaldar_av_Ejznhjart
@@ -81,6 +80,7 @@ recruit_character = EJZ_Jack_av_Kanavswanz
 recruit_character = EJZ_Armenius_av_Zodiac
 recruit_character = EJZ_Woj_Jan_Tech
 recruit_character = EJZ_Aclulf_Rednerfürst
+recruit_character = EJZ_Praetor_Duck_E._Daekian
 
 create_country_leader = {
 	name = "Gustav av Ejznhjart"

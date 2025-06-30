@@ -9,7 +9,7 @@ characters={
         }
         country_leader={
             ideology=monarchist_subtype
-            traits= {}
+            traits= { duke_of_ejznrosa }
             desc = POLITICS_GUSTAV_DESC
         }
         advisor={
@@ -39,7 +39,7 @@ characters={
                     }
                 }
             }
-            traits = { true_nationalist }
+            traits = { duke_of_ejznrosa }
             ai_will_do = {
                 factor = 1.0
             }
@@ -87,7 +87,7 @@ characters={
                         has_government = anarchist
                     }
             }
-            traits = { true_nationalist }
+            traits = { former_duke }
             ai_will_do = {
                 factor = 1.0
             }
@@ -177,6 +177,7 @@ characters={
             defense_skill = 2
             planning_skill = 2
             logistics_skill = 3
+            traits = { old_guard media_personality infantry_officer }
         }
     }
     EJZ_Tyrrhenus_Av_Ejznhjart = {
@@ -292,6 +293,7 @@ characters={
             defense_skill = 1
             planning_skill = 2
             logistics_skill = 1
+            traits = { cavalry_leader trait_reckless }
         }        
     }
     EJZ_Aclulf_Rednerfürst = {
@@ -310,6 +312,27 @@ characters={
                 original_tag = EJZ
             }
             traits = { head_of_propaganda }
+            ai_will_do = {
+                factor = 1.0
+            }
+        }
+    }
+    EJZ_Praetor_Duck_E._Daekian = {
+        name = "Praetor Duck E. Daekian"
+        portraits = {
+            civilian = {
+                small= "GFX_portrait_EJZ_praetor_duck_e_daekian_small"
+            }
+        }
+        advisor = {
+            cost = 150
+            slot = political_advisor
+            idea_token = praetor_duck_e._daekian
+            ledger = civilian
+            allowed = {
+                original_tag = EJZ
+            }
+            traits = { head_of_culture }
             ai_will_do = {
                 factor = 1.0
             }

@@ -1254,6 +1254,7 @@ focus_tree = {
 				ideology = imperialist
 				popularity = 0.05
 			}
+			recruit_character = EJZ_karl
 		}
 
 	}
