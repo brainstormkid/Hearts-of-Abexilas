@@ -337,7 +337,49 @@ characters={
                 factor = 1.0
             }
         }
-    }    
+    }
+    EJZ_Alxar_av_Házelnicht = {
+        name = "Alxar av Házelnicht"
+        portraits = {
+            civilian = {
+                small= "GFX_portrait_EJZ_alxar_av_házelnicht_small"
+            }
+        }
+        advisor = {
+            cost = 150
+            slot = political_advisor
+            idea_token = alxar_av_házelnicht
+            ledger = civilian
+            allowed = {
+                original_tag = EJZ
+            }
+            traits = { infrastructure_enthusiast }
+            ai_will_do = {
+                factor = 1.0
+            }
+        }
+    } 
+    EJZ_Meneavzun_av_Grandián = {
+        name = "Meneavzun av Grandián"
+        portraits = {
+            civilian = {
+                small= "GFX_portrait_EJZ_meneavzun_av_grandián_small"
+            }
+        }
+        advisor = {
+            cost = 150
+            slot = political_advisor
+            idea_token = meneavzun_av_grandián
+            ledger = civilian
+            allowed = {
+                original_tag = EJZ
+            }
+            traits = { state_businessman }
+            ai_will_do = {
+                factor = 1.0
+            }
+        }
+    }       
 }
 
 

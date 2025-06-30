@@ -306,4 +306,23 @@ leader_traits = {
 		compliance_growth = 0.10
 		war_support_factor = -0.05
 	}
+	infrastructure_enthusiast = {
+		random = no
+		sprite = 13
+		production_speed_infrastructure_factor = 0.15
+		production_speed_rail_way_factor = 0.1
+		production_speed_supply_node_factor = 0.1
+	}
+	state_businessman = {
+		random = no
+		sprite = 13
+		political_power_gain = 0.01
+		stability_factor = -0.05
+		consumer_goods_factor = -0.15
+		production_factory_efficiency_gain_factor = 0.1
+		production_factory_max_efficiency_factor = 0.1
+		monarchist_drift = 0.01
+		conservatist_drift = 0.05
+		progressivist_drift = 0.05
+	}
 }

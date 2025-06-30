@@ -81,6 +81,8 @@ recruit_character = EJZ_Armenius_av_Zodiac
 recruit_character = EJZ_Woj_Jan_Tech
 recruit_character = EJZ_Aclulf_Rednerfürst
 recruit_character = EJZ_Praetor_Duck_E._Daekian
+recruit_character = EJZ_Alxar_av_Házelnicht
+recruit_character = EJZ_Meneavzun_av_Grandián
 
 create_country_leader = {
 	name = "Gustav av Ejznhjart"
