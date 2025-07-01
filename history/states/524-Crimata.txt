@@ -10,6 +10,10 @@ state={
 	history={
 		owner = REG
 		buildings = {
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			infrastructure = 3
 		}
 		victory_points { 10947 30 1963 5 }
 		add_core_of = REG
