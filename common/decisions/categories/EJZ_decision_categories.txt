@@ -1,6 +1,9 @@
-EJZ_Test = {
+EJZ_Planning = {
     icon = generic_political_actions
+    picture = "GFX_EJZ_city_planning"
     allowed = {
         tag = EJZ
+    }
+    visible = {
     }
 }

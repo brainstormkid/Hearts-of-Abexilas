@@ -1,7 +1,8 @@
-EJZ_Test = {
-	EJZ_add_stablity = {
+EJZ_Planning = {
+	EJZ_construct_civilians = {
 		icon = generic_industry
 		available = {
+			tag = EJZ
 			has stablity < 1
 		}
 		visible = {
@@ -10,7 +11,7 @@ EJZ_Test = {
 		cost = 50
 		fire_only_once = yes
 		complete_effect = {
-			add_stablity = 0.1
+			add_stability = 0.1
 		}
 	}
 	
