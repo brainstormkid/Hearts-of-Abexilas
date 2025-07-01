@@ -1,18 +1,139 @@
 EJZ_Planning = {
 	EJZ_construct_civilians = {
 		icon = generic_industry
+		days_remove = 90
+		fire_only_once = no
 		available = {
 			tag = EJZ
-			has stablity < 1
+			NOT = {
+				has_country_flag = ejz_mil
+				has_country_flag = ejz_inf
+				has_country_flag = ejz_nav
+			}
+		}
+		complete_effect = {
+			set_country_flag = {
+				flag = ejz_civ
+				value = 1
+			}
+		}
+		remove_effect = {
+			set_country_flag = {
+				flag = ejz_civ
+				value = 0
+			}
+		}
+		modifier = {
+			production_speed_industrial_complex_factor = 0.15
+			consumer_goods_factor = 0.1
 		}
 		visible = {
 			always = yes
 		}
-		cost = 50
-		fire_only_once = yes
-		complete_effect = {
-			add_stability = 0.1
-		}
+		cost = 70
 	}
-	
+	EJZ_construct_military = {
+		icon = generic_industry
+		days_remove = 90
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			NOT = {
+				has_country_flag = ejz_civ
+				has_country_flag = ejz_inf
+				has_country_flag = ejz_nav
+			}
+		}
+		complete_effect = {
+			set_country_flag = {
+				flag = ejz_mil
+				value = 1
+			}
+		}
+		remove_effect = {
+			set_country_flag = {
+				flag = ejz_mil
+				value = 0
+			}
+		}
+		modifier = {
+			production_speed_arms_factory_factor = 0.15
+			consumer_goods_factor = 0.1
+		}
+		visible = {
+			always = yes
+		}
+		cost = 70
+	}
+	EJZ_construct_infrastructure = {
+		icon = generic_industry
+		days_remove = 90
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			NOT = {
+				has_country_flag = ejz_civ
+				has_country_flag = ejz_mil
+				has_country_flag = ejz_nav
+			}
+		}
+		modifier = {
+			production_speed_infrastructure_factor = 0.10
+			consumer_goods_factor = 0.1
+		}
+		complete_effect = {
+			set_country_flag = {
+				flag = ejz_inf
+				value = 1
+			}
+		}
+		remove_effect = {
+			set_country_flag = {
+				flag = ejz_inf
+				value = 0
+			}
+		}
+		visible = {
+			always = yes
+		}
+		cost = 70
+	}
+	EJZ_construct_naval = {
+		icon = generic_industry
+		days_remove = 90
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			NOT = {
+				has_country_flag = ejz_civ
+				has_country_flag = ejz_mil
+				has_country_flag = ejz_inf
+			}
+			any_state = {
+				is_owned_by = EJZ
+				is_coastal = yes
+			}
+		}
+		modifier = {
+			production_speed_dockyard_factor = 0.15
+			production_speed_naval_base_factor = 0.1
+			consumer_goods_factor = 0.15
+		}
+		complete_effect = {
+			set_country_flag = {
+				flag = ejz_nav
+				value = 1
+			}
+		}
+		remove_effect = {
+			set_country_flag = {
+				flag = ejz_nav
+				value = 0
+			}
+		}
+		visible = {
+			always = yes
+		}
+		cost = 70
+	}	
 }

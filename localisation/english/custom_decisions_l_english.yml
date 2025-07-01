@@ -10,8 +10,12 @@
  VAL_Novara_Crisis_desc:0 "Growing discontent within the city of Novara has led to Novaran citizens growing in resistance against Valoran rule and could lead to a rebellion"
 
  # Ejznrosa
- EJZ_Planning:0 "City planning"
- EJZ_construct_civilians:0 "Construct Civilian Factories"
+ EJZ_Planning:0 "City Planning"
+ EJZ_Planning_desc:0 "Building up our cities are the most important step in order to achieve a greater Ejznrosii dream, we shall show the world our architectural genius and achievements and through that grow our nation to new heights."
+ EJZ_construct_civilians:0 "Construct Civilian Industries"
+ EJZ_construct_military:0 "Construct Military Industries"
+ EJZ_construct_infrastructure:0 "Improve Infrastructure"
+ EJZ_construct_naval:0 "Build Naval Infrastructure"
 
  # Marisvalor
 

@@ -1,6 +1,6 @@
 spriteTypes = {
-	SpriteType = {
-		name = "GFX_EJZ_city_planning"
-		texturefile = gfx/interface/decisions/ejz_city_planning.dds
+	spriteType = {
+		name =  "GFX_EJZ_city_planning"
+		texturefile = "gfx/interface/decisions/decision_ejz_planning.dds"
 	}
- }
+}

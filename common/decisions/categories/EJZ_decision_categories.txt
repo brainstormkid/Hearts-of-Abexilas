@@ -1,9 +1,11 @@
 EJZ_Planning = {
-    icon = generic_political_actions
-    picture = "GFX_EJZ_city_planning"
+    icon = generic_politic
+    picture = GFX_EJZ_city_planning
     allowed = {
         tag = EJZ
     }
     visible = {
+        has_completed_focus = EJZ_extensive_city_planning
     }
+    priority = 2
 }
