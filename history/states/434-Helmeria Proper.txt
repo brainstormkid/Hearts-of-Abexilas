@@ -4,13 +4,26 @@ state={
 	provinces={
 		84 135 414 3072 3752 5088 6639 6872 10418 10450 10487 10507 10611 
 	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 1
+		tungsten = 1
+		chromium = 2
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=900000
         state_category = town
 	history={
 		owner = HEM
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
 		}
 		add_core_of = HEM
+		victory_points = {
+			414 50
+		}
 	}
 }
