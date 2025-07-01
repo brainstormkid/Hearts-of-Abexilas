@@ -1,6 +1,6 @@
 state={
 	id=563
-	name="Nova Frozinia"
+	name="STATE_563"
 	provinces={
 		1838 2779 4168 4526 6005 11088 11123 11134 11146 11153 
 	}
