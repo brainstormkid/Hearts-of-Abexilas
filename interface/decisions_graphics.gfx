@@ -3,4 +3,8 @@ spriteTypes = {
 		name =  "GFX_EJZ_city_planning"
 		texturefile = "gfx/interface/decisions/decision_ejz_planning.dds"
 	}
+	spriteType = {
+		name =  "GFX_EJZ_greater_ejznrosa"
+		texturefile = "gfx/interface/decisions/decision_ejz_greater_ejznrosa.dds"
+	}
 }

@@ -1,6 +1,6 @@
 EJZ_Planning = {
 	EJZ_construct_civilians = {
-		icon = generic_industry
+		icon = generic_construction
 		days_remove = 90
 		fire_only_once = no
 		available = {
@@ -9,6 +9,7 @@ EJZ_Planning = {
 				has_country_flag = ejz_mil
 				has_country_flag = ejz_inf
 				has_country_flag = ejz_nav
+				has_country_flag = ejz_rai
 			}
 		}
 		complete_effect = {
@@ -33,7 +34,7 @@ EJZ_Planning = {
 		cost = 70
 	}
 	EJZ_construct_military = {
-		icon = generic_industry
+		icon = generic_tank
 		days_remove = 90
 		fire_only_once = no
 		available = {
@@ -42,6 +43,7 @@ EJZ_Planning = {
 				has_country_flag = ejz_civ
 				has_country_flag = ejz_inf
 				has_country_flag = ejz_nav
+				has_country_flag = ejz_rai
 			}
 		}
 		complete_effect = {
@@ -66,7 +68,7 @@ EJZ_Planning = {
 		cost = 70
 	}
 	EJZ_construct_infrastructure = {
-		icon = generic_industry
+		icon = generic_construction
 		days_remove = 90
 		fire_only_once = no
 		available = {
@@ -75,6 +77,7 @@ EJZ_Planning = {
 				has_country_flag = ejz_civ
 				has_country_flag = ejz_mil
 				has_country_flag = ejz_nav
+				has_country_flag = ejz_rai
 			}
 		}
 		modifier = {
@@ -99,7 +102,7 @@ EJZ_Planning = {
 		cost = 70
 	}
 	EJZ_construct_naval = {
-		icon = generic_industry
+		icon = generic_naval
 		days_remove = 90
 		fire_only_once = no
 		available = {
@@ -108,6 +111,7 @@ EJZ_Planning = {
 				has_country_flag = ejz_civ
 				has_country_flag = ejz_mil
 				has_country_flag = ejz_inf
+				has_country_flag = ejz_rai
 			}
 			any_state = {
 				is_owned_by = EJZ
@@ -135,5 +139,71 @@ EJZ_Planning = {
 			always = yes
 		}
 		cost = 70
+	}
+	EJZ_construct_rail = {
+		icon = generic_operation
+		days_remove = 90
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			NOT = {
+				has_country_flag = ejz_civ
+				has_country_flag = ejz_mil
+				has_country_flag = ejz_inf
+				has_country_flag = ejz_nav
+			}
+		}
+		modifier = {
+			production_speed_rail_way_factor = 0.1
+			production_speed_supply_node_factor = 0.1
+			consumer_goods_factor = 0.1
+		}
+		complete_effect = {
+			set_country_flag = {
+				flag = ejz_rai
+				value = 1
+			}
+		}
+		remove_effect = {
+			set_country_flag = {
+				flag = ejz_rai
+				value = 0
+			}
+		}
+		visible = {
+			always = yes
+		}
+		cost = 70
+	}
+	EJZ_sternahagen_port = {
+		icon = generic_naval
+		fire_only_once = yes
+		available = {
+			tag = EJZ
+			1412 = {
+				is_owned_and_controlled_by = EJZ
+			}
+		}
+		complete_effect = {
+			1412 = {
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					instant_build = yes
+					province = 11914
+				}
+			}
+		}
+		visible = {
+			always = yes
+		}
+		cost = 70
 	}	
+}
+EJZ_greater_ejznrosa = {
+	test = {
+		icon = generic_construction
+		cost = 70
+	}
+	
 }

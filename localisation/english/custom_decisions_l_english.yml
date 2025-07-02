@@ -16,6 +16,11 @@
  EJZ_construct_military:0 "Construct Military Industries"
  EJZ_construct_infrastructure:0 "Improve Infrastructure"
  EJZ_construct_naval:0 "Build Naval Infrastructure"
+ EJZ_construct_rail:0 "Improve Railway Network"
+ EJZ_sternahagen_port:0 "Construct Sternahagen Port"
+ EJZ_greater_ejznrosa:0 "Greater Ejznrosa"
+ EJZ_greater_ejznrosa_desc:0 "May the world realize the Greater Ejznrosii Dream and we shall stand mighty and ambitious across Iristoya and the world of Abexilas! ALANG LEJBE EJZNROSA!"
+ EJZ_greater_ejznrosa_states:0 "Required States to form Greater Ejznrosa"
 
  # Marisvalor
 
