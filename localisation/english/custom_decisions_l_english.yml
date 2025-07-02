@@ -21,6 +21,12 @@
  EJZ_greater_ejznrosa:0 "Greater Ejznrosa"
  EJZ_greater_ejznrosa_desc:0 "May the world realize the Greater Ejznrosii Dream and we shall stand mighty and ambitious across Iristoya and the world of Abexilas! ALANG LEJBE EJZNROSA!"
  EJZ_greater_ejznrosa_states:0 "Required States to form Greater Ejznrosa"
+ EJZ_int_val:0 "Integrate Valora"
+ EJZ_int_aer:0 "Integrate Aerternus"
+ EJZ_int_neu:0 "Incorporate Neu Sandburg"
+ EJZ_int_fav:0 "Integrate Favei Clavaret and Lir'ion"
+ EJZ_int_gre:0 "Integrate the Southern Island"
+ EJZ_formable_empire_of_ejznrosa:0 "Establish the §2Grouejznrosiiches Kajzerryk§b"
 
  # Marisvalor
 

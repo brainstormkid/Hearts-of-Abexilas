@@ -201,9 +201,348 @@ EJZ_Planning = {
 	}	
 }
 EJZ_greater_ejznrosa = {
-	test = {
-		icon = generic_construction
-		cost = 70
+	EJZ_formable_empire_of_ejznrosa = {
+		icon = GFX_decision_generic_monarchy
+		fire_only_once = yes
+		available = {
+			is_puppet = no
+			638 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+			711 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+			740 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+			749 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+			1414 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+			624 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+			657 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+			1412 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+			1411 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+			1413 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+			1268 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+			1269 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+			750 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+			1266 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+			1267 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+			692 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+			676 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+			1176 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+			1177 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+			659 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+			1415 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+			1178 = {
+				is_owned_by = EJZ
+				is_core_of = EJZ
+			}
+		}
+		visible = {
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 638
+				state = 711
+				state = 740
+				state = 749
+				state = 1414
+				state = 624
+				state = 657
+				state = 1412
+				state = 1411
+				state = 1413
+				state = 1268
+				state = 1269
+				state = 750
+				state = 1266
+				state = 1267
+				state = 692
+				state = 676
+				state = 1176
+				state = 1177
+				state = 659
+				state = 1415
+				state = 1178
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
 	}
-	
+	EJZ_int_val = {
+		icon = GFX_decision_generic_operation
+		days_remove = 100
+		fire_only_once = yes
+		available = {
+			tag = EJZ
+			711 = {
+				is_owned_by = EJZ
+			}
+			740 = {
+				is_owned_by = EJZ
+			}
+			749 = {
+				is_owned_by = EJZ
+			}
+			638 = {
+				is_owned_by = EJZ
+			}
+			1414 = {
+				is_owned_by = EJZ
+			}
+			624 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			638 = {
+				add_core_of = EJZ
+			}
+			711 = {
+				add_core_of = EJZ
+			}
+			740 = {
+				add_core_of = EJZ
+			}
+			749 = {
+				add_core_of = EJZ
+			}
+			1414 = {
+				add_core_of = EJZ
+			}
+			624 = {
+				add_core_of = EJZ
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 638
+				state = 711
+				state = 740
+				state = 749
+				state = 1414
+				state = 624
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		modifier = {
+			political_power_gain = -0.15
+		}
+		cost = 150
+	}
+	EJZ_int_aer = {
+		icon = GFX_decision_generic_operation
+		days_remove = 90
+		fire_only_once = yes
+		available = {
+			tag = EJZ
+			657 = {
+				is_owned_by = EJZ
+			}
+			1412 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			657 = {
+				add_core_of = EJZ
+			}
+			1412 = {
+				add_core_of = EJZ
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 657
+				state = 1412
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		modifier = {
+			political_power_gain = -0.1
+		}
+		cost = 75
+	}
+	EJZ_int_neu = {
+		icon = GFX_decision_generic_operation
+		days_remove = 35
+		fire_only_once = yes
+		available = {
+			tag = EJZ
+			1411 = {
+				is_owned_by = EJZ
+			}
+			1413 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			1411 = {
+				add_core_of = EJZ
+			}
+			1413 = {
+				add_core_of = EJZ
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1411
+				state = 1413
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		modifier = {
+			political_power_gain = -0.1
+		}
+		cost = 30
+	}
+	EJZ_int_gre = {
+		icon = GFX_decision_generic_operation
+		days_remove = 50
+		fire_only_once = yes
+		available = {
+			tag = EJZ
+			1268 = {
+				is_owned_by = EJZ
+			}
+			1269 = {
+				is_owned_by = EJZ
+			}
+			750 = {
+				is_owned_by = EJZ
+			}
+			1266 = {
+				is_owned_by = EJZ
+			}
+			1267 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			1268 = {
+				add_core_of = EJZ
+			}
+			1269 = {
+				add_core_of = EJZ
+			}
+			750 = {
+				add_core_of = EJZ
+			}
+			1266 = {
+				add_core_of = EJZ
+			}
+			1267 = {
+				add_core_of = EJZ
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1268
+				state = 1269
+				state = 750
+				state = 1266
+				state = 1267
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		modifier = {
+			political_power_gain = -0.1
+		}
+		cost = 50
+	}
+	EJZ_int_fav = {
+		icon = GFX_decision_generic_operation
+		days_remove = 50
+		fire_only_once = yes
+		available = {
+			tag = EJZ
+			692 = {
+				is_owned_by = EJZ
+			}
+			676 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			692 = {
+				add_core_of = EJZ
+			}
+			676 = {
+				add_core_of = EJZ
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 692
+				state = 676
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		modifier = {
+			political_power_gain = -0.1
+		}
+		cost = 50
+	}
 }

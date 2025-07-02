@@ -5,4 +5,5 @@
  RULE_WARGOALS_WAR_PLUGIN_TT:0 "§RThe War Plugin Has Not Been Enabled§"
  PLUGIN_ENABLED:0 "§RThe War Plugin Has Been Enabled§"
  #Ejznrosa
- EJZ_city_planning:0 "§GUnlocks city planning decisions§"
+ EJZ_city_planning:0 "§GUnlocks city planning decisions§w"
+ EJZ_greater_ejznrosa_formable:0 "§GUnlocks Greater Ejznrosa integration decisions§w"
