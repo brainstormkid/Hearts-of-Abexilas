@@ -295,6 +295,11 @@ EJZ_greater_ejznrosa = {
 				is_core_of = EJZ
 			}
 		}
+		complete_effect = {
+			EJZ = {
+				set_cosmetic_tag = EJZ_GEK
+			}
+		}
 		visible = {
 		}
 		highlight_states = {

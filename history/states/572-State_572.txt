@@ -4,7 +4,10 @@ state={
 	provinces={
 		2 6722 6865 11113 11167 11168 11215 
 	}
+	history = {
+		owner = VAC
+	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=75000
         state_category = town
 }

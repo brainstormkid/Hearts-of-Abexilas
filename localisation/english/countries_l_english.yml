@@ -37,9 +37,9 @@
  AKA_absolutist_DEF:1 "the Akari Commonwealth"
  AKA_absolutist_ADJ:0 "Akari"
 
- AGR_absolutist:1 "Sultanate of Agrabeh"
- AGR_absolutist_DEF:1 "the Sultanate of Agrabeh"
- AGR_absolutist_ADJ:0 "Agrabehi"
+ AGR_absolutist:1 "Sultanate of Agrabah"
+ AGR_absolutist_DEF:1 "the Sultanate of Agrabah"
+ AGR_absolutist_ADJ:0 "Agrabahi"
 
  
  AKI_absolutist:1 "State of Akito"
@@ -527,6 +527,10 @@
  EJZ_radical_nationalist:1 "Groukajzerryk av Ejznrosa"
  EJZ_radical_nationalist_DEF:1 "the Groukajzerryk av Ejznrosa"
  EJZ_radical_nationalist_ADJ:0 "Ejznrosii"
+ EJZ_GEK:1 "Grouejznrosiiches Kajzerryk"
+ EJZ_GEK_DEF:1 "the Grouejznrosiiches Kajzerryk"
+ EJZ_GEK_ADJ:0 "Ejznrosii"
+ 
 
 
  ELD_absolutist:1 "Kingdom of Eldorath"
