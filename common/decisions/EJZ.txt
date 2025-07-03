@@ -730,4 +730,24 @@ EJZ_valora_war = {
 		cost = 25
 		priority = 1
 	}
+	EJZ_val_request_scaliga_aid = {
+		icon = hol_exchange_intelligence_data
+		fire_only_once = yes
+		available = {
+			tag = EJZ
+			has_war_with = VAD
+		}
+		complete_effect = {
+			SCA = {
+				country_event = ejznrosa.25
+			}
+		}
+		visible = {
+			has_war_with = VAL
+		}
+		custom_cost_trigger = {
+			command_power > 14
+		}
+		priority = 2
+	}
 }

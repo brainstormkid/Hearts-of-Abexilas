@@ -596,8 +596,8 @@ country_event = {
 	hours = 2
     random_hours = 6
     days = 0
-	title = "Valora Under Attack!"
-	desc = ejznrosa.23.d
+	title = "Valora Under attack!"
+	desc = ejznrosa.245.d
 	picture = "GFX_ejznrosa_event_1_image"
 	timeout_days = 20
 	trigger = {
@@ -618,6 +618,32 @@ country_event = {
     }   
 	option = { #Abandon Valora
 	name = "Not our concern."
+	ai_chance = { factor = 0 }
+	add_war_support = -0.1
+	add_stability = -0.05
+    }
+}
+country_event = {
+	id = ejznrosa.25
+	hours = 2
+    random_hours = 6
+    days = 1
+	title = "Ejznrosa request our Aid!"
+	desc = ejznrosa.25.d
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	timeout_days = 20
+	fire_only_once = yes
+	option = { #Declare war on the Valdic Union
+	name = "We shall fully support them in their cause!"
+	ai_chance = { factor = 100 }
+	declare_war_on = {
+		target = VAD
+	}
+	add_war_support = 0.1
+    }   
+	option = { #Abandon Ejznrosa
+	name = "We don't want to escalate the conflict."
 	ai_chance = { factor = 0 }
 	add_war_support = -0.1
 	add_stability = -0.05
