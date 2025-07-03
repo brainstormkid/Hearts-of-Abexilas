@@ -639,6 +639,7 @@ country_event = {
 	ai_chance = { factor = 100 }
 	declare_war_on = {
 		target = VAD
+		type = annex_everything
 	}
 	add_war_support = 0.1
     }   
