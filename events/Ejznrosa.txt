@@ -591,3 +591,35 @@ country_event = {
 	1176 = { add_manpower = 150000}
     }   
 }
+country_event = {
+	id = ejznrosa.24
+	hours = 2
+    random_hours = 6
+    days = 0
+	title = "Valora Under Attack!"
+	desc = ejznrosa.23.d
+	picture = "GFX_ejznrosa_event_1_image"
+	timeout_days = 20
+	trigger = {
+		tag = VAD
+		VAL = {
+			has_war_with = EJZ
+		}
+	}
+	fire_only_once = yes
+	option = { #Declare war on Ejznrosa
+	name = "By the Valdic Blood Pact, We shall intervene!"
+	ai_chance = { factor = 100 }
+	puppet = {
+		target = VAL
+		end_wars = no
+	}
+	add_war_support = 0.1
+    }   
+	option = { #Abandon Valora
+	name = "Not our concern."
+	ai_chance = { factor = 0 }
+	add_war_support = -0.1
+	add_stability = -0.05
+    }
+}

@@ -49,3 +49,14 @@ EJZ_greater_ejznrosa = {
     }
     priority = 3
 }
+EJZ_valora_war = {
+    icon = GFX_decision_category_ger_military_buildup
+    picture = GFX_EJZ_war_valora
+    allowed = {
+        tag = EJZ
+    }
+    visible = {
+        has_war_with = VAL
+    }
+    priority = 4
+}

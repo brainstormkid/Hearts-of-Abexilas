@@ -551,3 +551,183 @@ EJZ_greater_ejznrosa = {
 		cost = 50
 	}
 }
+EJZ_valora_war = {
+	EJZ_val_north = {
+		icon = generic_operation
+		days_mission_timeout = 150
+		is_good = no
+		fire_only_once = yes
+		priority = 3
+		available = {
+			638 = {
+				is_controlled_by_ROOT_or_ally =  yes
+			}
+			1414 = {
+				is_controlled_by_ROOT_or_ally =  yes
+			}
+			624 = {
+				is_controlled_by_ROOT_or_ally =  yes
+			}
+		}
+		activation = {
+			has_war_with = VAL
+		}
+		complete_effect = {
+			add_war_support = 0.1
+			set_country_flag = EJZ_north_success
+		}
+		timeout_effect = {
+			add_war_support = -0.1
+			set_country_flag = EJZ_north_fail
+		}
+		cancel_trigger = {
+			EJZ = {
+				NOT = {
+					has_war_with = VAL
+				}
+			}
+		}
+	}
+	EJZ_val_south = {
+		icon = generic_operation
+		days_mission_timeout = 150
+		is_good = no
+		fire_only_once = yes
+		priority = 3
+		available = {
+			711 = {
+				is_controlled_by_ROOT_or_ally =  yes
+			}
+			740 = {
+				is_controlled_by_ROOT_or_ally =  yes
+			}
+		}
+		activation = {
+			has_war_with = VAL
+		}
+		complete_effect = {
+			add_war_support = 0.1
+			set_country_flag = EJZ_south_success
+		}
+		timeout_effect = {
+			add_war_support = -0.1
+			set_country_flag = EJZ_south_fail
+		}
+		cancel_trigger = {
+			EJZ = {
+				NOT = {
+					has_war_with = VAL
+				}
+			}
+		}
+	}
+	EJZ_val_wokark = {
+		icon = generic_operation
+		days_mission_timeout = 60
+		is_good = no
+		fire_only_once = yes
+		priority = 3
+		available = {
+			EJZ = {
+				NOT = {
+					controls_state = 1178
+				}
+			}
+		}
+		complete_effect = {
+			add_war_support = -0.15
+			set_country_flag = EJZ_wokark_fail
+		}
+		activation = {
+			has_war_with = VAL
+		}
+		timeout_effect = {
+			add_war_support = 0.05
+			set_country_flag = EJZ_wokark_success
+		}
+		cancel_trigger = {
+			EJZ = {
+				NOT = {
+					has_war_with = VAL
+				}
+			}
+		}
+	}
+	EJZ_val_daekia = {
+		icon = generic_operation
+		days_mission_timeout = 60
+		is_good = no
+		fire_only_once = yes
+		priority = 3
+		available = {
+			EJZ = {
+				NOT = {
+					controls_state = 1176
+				}
+			}
+		}
+		activation = {
+			has_war_with = VAL
+		}
+		complete_effect = {
+			add_war_support = -0.05
+			set_country_flag = EJZ_daekia_fail
+		}
+		timeout_effect = {
+			add_war_support = 0.05
+			set_country_flag = EJZ_daekia_success
+		}
+		cancel_trigger = {
+			EJZ = {
+				NOT = {
+					has_war_with = VAL
+				}
+			}
+		}
+	}
+	EJZ_val_emergency_conscription = {
+		icon = generic_military
+		fire_only_once = yes
+		available = {
+			tag = EJZ
+			has_war_with = VAL
+		}
+		complete_effect = {
+			add_ideas = service_by_requirement
+			add_war_support = -0.05
+			add_stability = -0.05
+		}
+		visible = {
+			has_war_with = VAL
+		}
+		priority = 1
+	}
+	EJZ_val_emergency_factory = {
+		icon = ger_military_buildup
+		days_remove = 60
+		days_re_enable = 10
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			has_war_with = VAL
+		}
+		complete_effect = {
+		}
+		visible = {
+			has_war_with = VAL
+		}
+		cancel_trigger = {
+			NOT = {
+				has_war_with = VAL
+			}
+		}
+		modifier = {
+			conversion_cost_civ_to_mil_factor = -0.25
+			production_speed_arms_factory_factor = 0.15
+			production_speed_industrial_complex_factor = -0.15
+			consumer_goods_factor = 0.2
+		}
+		cost = 25
+		priority = 1
+	}
+}

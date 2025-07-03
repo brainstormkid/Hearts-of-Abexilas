@@ -7,4 +7,8 @@ spriteTypes = {
 		name =  "GFX_EJZ_greater_ejznrosa"
 		texturefile = "gfx/interface/decisions/decision_ejz_greater_ejznrosa.dds"
 	}
+	spriteType = {
+		name =  "GFX_EJZ_war_valora"
+		texturefile = "gfx/interface/decisions/decision_ejz_war_valora.dds"
+	}
 }
