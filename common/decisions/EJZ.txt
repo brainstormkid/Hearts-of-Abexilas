@@ -750,4 +750,107 @@ EJZ_valora_war = {
 		}
 		priority = 2
 	}
+	EJZ_val_offensive_win = {
+		icon = eng_trade_unions_support
+		fire_only_once = yes
+		available = {
+			tag = EJZ
+			VAL = {
+				has_capitulated = yes
+			}
+		}
+		complete_effect = {
+			white_peace = {
+				tag = VAL
+				message = EJZ_val_offensive_win_msg
+			}
+			annex_country = {
+				target = VAL
+			}
+			hidden_effect = {
+				SCA = {
+					white_peace = VAL
+					white_peace = VAD
+				}
+				white_peace = VAD
+			}
+			white_peace = VAL
+		}
+		visible = {
+			has_war_with = VAL
+		}
+		priority = 4
+	}
+	EJZ_val_offensive_lose = {
+		icon = eng_trade_unions_support
+		fire_only_once = yes
+		available = {
+			tag = EJZ
+			1178 = {
+				NOT = {
+					is_controlled_by = EJZ
+				}
+			}
+			1176 = {
+				NOT = {
+					is_controlled_by = EJZ
+				}
+			}
+		}
+		complete_effect = {
+			white_peace = {
+				tag = VAL
+				message = EJZ_val_offensive_lose_msg
+			}
+			hidden_effect = {
+				SCA = {
+					white_peace = VAL
+					white_peace = VAD
+				}
+				white_peace = VAD
+			}
+			1176 = {
+				transfer_state_to = VAL
+			}
+			1177 = {
+				transfer_state_to = VAL
+			}
+			add_stability = -0.2
+			add_war_support = -0.2
+
+		}
+		visible = {
+			has_offensive_war_with = VAL
+		}
+		priority = 4
+	}
+	EJZ_val_defensive = {
+		icon = eng_trade_unions_support
+		fire_only_once = yes
+		available = {
+			tag = EJZ
+			has_war_with = VAL
+		}
+		complete_effect = {
+			white_peace = {
+				tag = VAL
+				message = EJZ_val_defensive_msg
+			}
+			hidden_effect = {
+				SCA = {
+					white_peace = VAL
+					white_peace = VAD
+				}
+				white_peace = VAD
+			}
+		}
+
+		visible = {
+			OR = {
+				has_defensive_war_with = VAL
+			    has_defensive_war_with = VAD
+			}
+		}
+		priority = 4
+	}
 }

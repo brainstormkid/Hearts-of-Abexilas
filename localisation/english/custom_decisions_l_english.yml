@@ -36,6 +36,12 @@
  EJZ_val_emergency_conscription:0 "Emergency Conscription"
  EJZ_val_emergency_factory:0 "War-time Factory Conversion"
  EJZ_val_request_scaliga_aid:0 "Request Scaligan Aid"
+ EJZ_val_offensive_win_msg:0 "Ejznrosa have sucessfully conquerered Valora."
+ EJZ_val_offensive_win:0 "Offer peace to Valora"
+ EJZ_val_offensive_lose_msg:0 "Ejznrosa have lost in the conquest of Valora."
+ EJZ_val_offensive_lose:0 "Surrender to Valora"
+ EJZ_val_defensive_msg:0 "Ejznrosa have sucessfully fought against Valora."
+ EJZ_val_defensive:0 "Offer white peace to Valora"
  
 
  # Marisvalor
