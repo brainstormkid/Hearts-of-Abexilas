@@ -1124,6 +1124,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			has_global_flag = war_plugin_enabled
 		}
 		prerequisite = { focus = EJZ_thedukesgovernment  }
 		completion_reward = {
