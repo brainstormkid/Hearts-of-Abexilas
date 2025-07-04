@@ -2032,6 +2032,7 @@ focus_tree = {
 			not = {
 				has_country_flag = no_ally_with_valora
 				has_completed_focus = EJZ_war_with_valora
+				has_war_with = VAL
 			}
 			country_exists = VAL
 			VAL = {
@@ -2058,7 +2059,8 @@ focus_tree = {
 		available = {
 			not = {
 				has_country_flag = no_ally_with_aerternus
-				has_completed_focus = EJZ_finish_off_aerternus
+				has_completed_focus = EJZ_claims_in_aerternus
+				has_war_with = AER
 			}
 			country_exists = AER
 			AER = {
@@ -2066,7 +2068,7 @@ focus_tree = {
 			}
 		}
 		prerequisite = { focus = EJZ_nonaggression_pact_with_aerternus  }
-		mutually_exclusive = { focus = EJZ_affirm_our_neutrality  focus = EJZ_ally_with_valora focus = EJZ_claims_in_aerternus }
+		mutually_exclusive = { focus = EJZ_affirm_our_neutrality  focus = EJZ_ally_with_valora }
 		completion_reward = {
 			AER = { country_event = { id = ejznrosa.11}}
 		}

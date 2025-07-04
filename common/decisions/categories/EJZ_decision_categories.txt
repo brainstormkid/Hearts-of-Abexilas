@@ -16,10 +16,10 @@ EJZ_greater_ejznrosa = {
         tag = EJZ
     }
     available = {
-        has_completed_focus = EJZ_looking_outwards
+        has_completed_focus = EJZ_vildpolitik
     }
     visible = {
-        has_completed_focus = EJZ_looking_outwards
+        has_completed_focus = EJZ_vildpolitik
     }
     on_map_area = {
         state = 1411
