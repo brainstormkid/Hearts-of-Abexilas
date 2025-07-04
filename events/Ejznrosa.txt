@@ -364,8 +364,8 @@ country_event = {
 ### Neu Sandburg Question ###
 country_event = {
 	id = ejznrosa.15
-	hours = 12
-    random_hours = 6
+	hours = 6
+    random_hours = 3
     days = 3
 	title = "Neu Sandburg offers to join us!"
 	desc = ejznrosa.15.d
@@ -385,8 +385,8 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa.16
-	hours = 12
-    random_hours = 6
+	hours = 6
+    random_hours = 3
     days = 3
 	title = "Neu Sandburg is trying to join Ejznrosa!"
 	desc = ejznrosa.16.d
@@ -408,9 +408,9 @@ country_event = {
 # Aerternus threatens us with war.
 country_event = {
 	id = ejznrosa.17
-	hours = 12
-    random_hours = 6
-    days = 2
+	hours = 6
+    random_hours = 3
+    days = 1
 	title = "Aerternus threatens us with war."
 	desc = ejznrosa.17.d
 	picture = "GFX_ejznrosa_event_1_image"
@@ -431,8 +431,8 @@ country_event = {
 #Continue negotiating with Neu Sandburg
 country_event = {
 	id = ejznrosa.18
-	hours = 12
-    random_hours = 6
+	hours = 6
+    random_hours = 3
     days = 1
 	title = "Compromise with Neu Sandburg."
 	desc = ejznrosa.18.d
@@ -443,28 +443,32 @@ country_event = {
 	option = { #Wokark handles the situation.
 	name = "Wokark handles the situation."
 	ai_chance = { factor = 85 }
-	random_list = {
+	hidden_effect = {
+		random_list = {
 		75 = {
 			EJZ = {country_event = {id = ejznrosa.19 days = 10 }}
 		}
 		25 = {
 			EJZ = {country_event = {id = ejznrosa.21 days = 10 }}
 		}
+	    }
 	}
 	
     }   
 	option = { #The government handles the situation.
 	name = "The government handles the situation."
 	ai_chance = { factor = 15 }
-	random_list = {
+	hidden_effect = {
+		random_list = {
 		50 = {
 			EJZ = {country_event = {id = ejznrosa.20 days = 10 }}
 		}
 		50 = {
 			EJZ = {country_event = {id = ejznrosa.21 days = 10 }}
 		}
+	    }
 	}
-    }  
+ }  
 }
 country_event = {
 	id = ejznrosa.19
