@@ -112,6 +112,36 @@ country_event = {
 		}
 	}
 }
+country_event = {
+    	id = marisvalor.5
+    	title = "The Creation of the Kingdom of Blomach"
+    	desc = marisvalor.5.d
+    	is_triggered_only = yes
+	immediate = {
+    		hidden_effect = {
+        		play_song = "Piyajvaniyoedh_Pura"
+			set_cosmetic_tag = MAR_BLO
+    		}
+	}
+	
+    	option = {
+        	name = "Glory to the Federation!"
+        	add_political_power = 100
+		add_state_core = 1015
+		add_state_core = 1013
+		add_state_core = 1008
+		add_state_core = 1030
+		add_state_core = 994
+		add_state_core = 1032
+		add_state_core = 1025
+		annex_country = {
+    			target = LOV
+    			transfer_troops = yes
+		}
+		
+    	}
+}
+
 #news
 news_event = {
 	id = marisvalor.3
