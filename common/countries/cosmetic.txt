@@ -35,3 +35,7 @@ UNITED_USA = {
 }
 
 # Formables
+MAR_BLO = {
+	color = rgb { 174  62  216 }
+	color_ui = rgb { 174  62  216 }
+}
