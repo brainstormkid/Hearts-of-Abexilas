@@ -43,6 +43,7 @@ recruit_character = MAR_edel_character
 recruit_character = MAR_maybe_character
 recruit_character = MAR_footie_character
 recruit_character = MAR_hebi_character
+recruit_character = MAR_blacksmith_character
 
 add_country_leader_role = {
  	character = MAR_eins_character
