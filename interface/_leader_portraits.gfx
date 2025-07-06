@@ -344,4 +344,12 @@ spriteTypes = {
 		name = "GFX_portrait_MAR_shizayy_large"
 		texturefile = "GFX/leaders/MAR/shizayy.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_MAR_blacksmith_small"
+		texturefile = "GFX/interface/ideas/MAR_blacksmith_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MAR_shizayy_small"
+		texturefile = "GFX/interface/ideas/MAR_shizayy_icon.dds"
+	}
 }
