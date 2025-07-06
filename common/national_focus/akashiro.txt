@@ -298,7 +298,7 @@ focus_tree = {
 	#Empower The Morimoto Clan
 	focus = {
 		id = AKS_empower_the_morimoto_clan
-		icon = GFX_empower_morimoto
+		icon = GFX_morimoto_empower
 		x = 9
 		y = 4
 		cost = 5
@@ -315,7 +315,7 @@ focus_tree = {
 	#Restrict The Morimoto Clan
 	focus = {
 		id = AKS_restrict_the_morimoto_clan
-		icon = GFX_restrict_morimoto
+		icon = GFX_restrict_the_morimoto
 		x = 6
 		y = 4
 		cost = 5
@@ -357,75 +357,369 @@ focus_tree = {
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_HISTORICAL
 		}
 		completion_reward = {
 			country_event = { id = akashiro.4 }
 		}
 		prerequisite = { focus = AKS_forcefully_integrate_the_samurai focus = AKS_food_stamps_for_veterans  }
 	}
-	#Invite the Far-Left
+
+
+
+
+# ARMY TECH TREE
+# ARMY TECH TREE
+# ARMY TECH TREE
+# ARMY TECH TREE
+# ARMY TECH TREE
+
+
+
+
+	#Infantry Supremacy
 	focus = {
-		id = ERC_invite_the_farleft
-		icon = GFX_ERC_invite_the_farleft-426
-		x = 24
+		id = AKS_infantry_supremacy
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 42
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+		army_experience = 50
+		    901 = {
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = yes
+                }
+			add_extra_state_shared_building_slots = 1
+			}
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	#Mass Enlistment
+	focus = {
+		id = AKS_mass_enlistment
+		icon = GFX_HRP_plan_for_everything-262099
+		x = 39
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		completion_reward = {
+			swap_ideas = {
+    			remove_idea = the_ancestral_clans
+    			add_idea = the_ancestral_clans_modified
+			}
+		army_experience = 25
+		}
+		prerequisite = { focus = AKS_infantry_supremacy  }
+		mutually_exclusive = { focus = AKS_technological_army  }
+	}
+	#Technological Army
+	focus = {
+		id = AKS_technological_army
+		icon = GFX_generic_focus_antiair-646319
+		x = 45
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+		    add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = artillery
+			}
+		    add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = armor
+			}
+		army_experience = 50
+		}
+		prerequisite = { focus = AKS_infantry_supremacy  }
+		mutually_exclusive = { focus = AKS_mass_enlistment  }
+	}
+	#Improve Army Morale
+	focus = {
+		id = AKS_improve_army_morale
+		icon = focus_GER_customs_union
+		x = 40
 		y = 2
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-			country_event = { id = akashiro.1 }
+			swap_ideas = {
+    			remove_idea = army_resistance
+    			add_idea = army_resistance2
+			}
+		add_war_support = 0.1
 		}
-		prerequisite = { focus = ERC_prepare_a_new_government  }
-		mutually_exclusive = { focus = ERC_invite_the_farright  }
+		prerequisite = { focus = AKS_mass_enlistment focus = AKS_technological_army  }
 	}
-	#Invite the Far-Right
+	#Expanding Our Presence
 	focus = {
-		id = ERC_invite_the_farright
-		icon = GFX_ERC_invite_the_farright-428
-		x = 28
-		y = 2
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = ERC_prepare_a_new_government  }
-		mutually_exclusive = { focus = ERC_invite_the_farleft  }
-	}
-	#Social Democratic Values
-	focus = {
-		id = ERC_social_democratic_values
-		icon = GFX_focus_prc_agrarian_socialism
-		x = 15
+		id = AKS_expanding_our_presence
+		icon = focus_generic_provoke_border_clashes
+		x = 42
 		y = 2
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_HISTORICAL
 		}
-		prerequisite = { focus = ERC_amend_the_constitution  }
+		completion_reward = {
+			add_threat = 5
+		    1144 = {
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = yes
+                }
+			add_extra_state_shared_building_slots = 1
+			}
+		    901 = {
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = yes
+                }
+			add_extra_state_shared_building_slots = 1
+			}
+			reverse_add_opinion_modifier = { target = ESU modifier = medium_decrease }
+			reverse_add_opinion_modifier = { target = HWA modifier = medium_decrease }
+			reverse_add_opinion_modifier = { target = SAK modifier = medium_decrease }
+		}
+		prerequisite = { focus = AKS_mass_enlistment focus = AKS_technological_army  }
 	}
-	#Embrace Neutrality
+	#Mechanized Warfare
 	focus = {
-		id = ERC_embrace_neutrality
-		icon = GFX_goal_generic_neutrality_focus
-		x = 17
+		id = AKS_mechanized_warfare
+		icon = focus_generic_mechanized
+		x = 44
 		y = 2
 		cost = 10
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = ERC_amend_the_constitution  }
+		completion_reward = {
+		add_tech_bonus = {
+  			bonus = 1
+   			uses = 2
+   			category = mio_cat_tech_all_motorized_mechanized
+		}	
 	}
-	#Prepare a new government
+		prerequisite = { focus = AKS_mass_enlistment focus = AKS_technological_army  }
+	}
+	#En Masse Defence
 	focus = {
-		id = ERC_prepare_a_new_government
-		icon = GFX_ERC_prepare_a_new_government-705718
-		x = 26
-		y = 1
+		id = AKS_en_masse_defence
+		icon = focus_generic_full_social_mobilization
+		x = 39
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		completion_reward = {
+			swap_ideas = {
+    			remove_idea = the_ancestral_clans_modified
+    			add_idea = the_ancestral_clans_modified_1
+			}
+		army_experience = 50
+		add_manpower = 25000
+		}
+		prerequisite = { focus = AKS_mass_enlistment }
+	}
+	#Die-Hard Infantry
+	focus = {
+		id = AKS_die_hard_infantry
+		icon = GFX_PAR_deploying_death_machines-646325
+		x = 41
+		y = 3
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
 		}
-		prerequisite = { focus = ERC_political_unrest  }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = army_resistance2
+				add_idea = army_resistance3
+			}
+			add_political_power = 50
+		}
+		prerequisite = { focus = AKS_improve_army_morale  }
+		prerequisite = { focus = AKS_expanding_our_presence  }
 	}
+	#Akashiren Tankettes
+	focus = {
+		id = AKS_akashiren_tankettes
+		icon = focus_generic_tankette
+		x = 43
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = cat_light_armor
+			}
+		army_experience = 50
+		}
+		prerequisite = { focus = AKS_mechanized_warfare  }
+		prerequisite = { focus = AKS_expanding_our_presence  }
+	}
+	#Akashiro Above All
+	focus = {
+		id = AKS_akashiro_above_all
+		icon = GFX_focus_AKS_no_gods_no_masters
+		x = 45
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = AKS_technological_army  }
+		completion_reward = {
+					hidden_effect = {
+					set_rule = {
+					can_use_kamikaze_pilots = yes
+				}
+			}
+			custom_effect_tooltip = kamikaze_focus_tooltip
 
+		army_experience = 50
+		air_experience = 50
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	#Tama Tenkuru Keikansha
+	focus = {
+		id = AKS_tama_tenkuru_keikansha
+		icon = GFX_HRP_expand_the_grenadier_corps-646229
+		x = 40
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = mountaineers_tech
+			}
+		army_experience = 50
+		}
+		prerequisite = { focus = AKS_die_hard_infantry  }
+	}
+	#Import Foreign Artillery
+	focus = {
+		id = AKS_import_foreign_artillery
+		icon = goal_generic_army_artillery2
+		x = 42
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+  				type = artillery_equipment
+ 				amount = 500
+ 				producer = JAP
+			}
+		}
+		prerequisite = { focus = AKS_akashiren_tankettes  }
+		mutually_exclusive = { focus = AKS_produce_domestic_artillery }
+	}
+	#Produce Domestic Artillery
+	focus = {
+		id = AKS_produce_domestic_artillery
+		icon = goal_generic_army_artillery
+		x = 44
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+					    908 = {
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = yes
+                }
+			add_extra_state_shared_building_slots = 1
+			}
+				add_tech_bonus = {
+					bonus = 1
+					uses = 1
+					category = artillery
+			}
+		}
+		prerequisite = { focus = AKS_akashiren_tankettes }
+		mutually_exclusive = { focus = AKS_import_foreign_artillery }
+	}
+	#Yoraminito Keikansha
+	focus = {
+		id = AKS_yoraminito_keikansha
+		icon = GFX_focus_yoraminito_keikansha
+		x = 41
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = para_tech
+			}
+		}
+		prerequisite = { focus = AKS_die_hard_infantry  }
+	}
+	#Akashiren Death Squadrons
+	focus = {
+		id = AKS_akashiren_death_squadrons
+		icon = GFX_PAR_our_victory-645990
+		x = 43
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = army_resistance3
+				add_idea = army_resistance_good
+			}
+		}
+		prerequisite = { focus = AKS_import_foreign_artillery focus = AKS_produce_domestic_artillery  }
+	}
 }
