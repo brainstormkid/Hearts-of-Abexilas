@@ -112,6 +112,10 @@
 # Akashiro ideas
  the_ancestral_clans:0 "The Ancestral Clans"
  the_ancestral_clans_desc:0 "The Ancestral Clans, the four major clans of the Akashiro Shogunate who wield an immense amount of power and are able to influence the nation in ways that neither the Shigen-sha nor Shōgun are able to ignore. The Fujishina clan holds major swathes of influence over their core lands in Saniroshi, Waridon and Kelsatti. The Morimoto clan mostly being in control of specific neighbourhoods and suburbs inside of Tennyoku itself. The Kirumasa clan being in major control of the eastern parts of the core Akashiren lands, such as Kayoto, Kirea and Kayoto Port. The most important clan of them all, the Akashiro clan being both the Shigen-sha, Shikken and the Shōgun, naturally in 'control' of all of the Akashiro Shogunate, but that may change in the future..."
+ the_ancestral_clans_modified:0 "The Ancestral Clans"
+ the_ancestral_clans_modified_desc:0 "The Ancestral Clans, the four major clans of the Akashiro Shogunate who wield an immense amount of power and are able to influence the nation in ways that neither the Shigen-sha nor Shōgun are able to ignore. The Fujishina clan holds major swathes of influence over their core lands in Saniroshi, Waridon and Kelsatti. The Morimoto clan mostly being in control of specific neighbourhoods and suburbs inside of Tennyoku itself. The Kirumasa clan being in major control of the eastern parts of the core Akashiren lands, such as Kayoto, Kirea and Kayoto Port. The most important clan of them all, the Akashiro clan being both the Shigen-sha, Shikken and the Shōgun, naturally in 'control' of all of the Akashiro Shogunate, but that may change in the future..."
+ the_ancestral_clans_modified_1:0 "The Ancestral Clans"
+ the_ancestral_clans_modified_1_desc:0 "The Ancestral Clans, the four major clans of the Akashiro Shogunate who wield an immense amount of power and are able to influence the nation in ways that neither the Shigen-sha nor Shōgun are able to ignore. The Fujishina clan holds major swathes of influence over their core lands in Saniroshi, Waridon and Kelsatti. The Morimoto clan mostly being in control of specific neighbourhoods and suburbs inside of Tennyoku itself. The Kirumasa clan being in major control of the eastern parts of the core Akashiren lands, such as Kayoto, Kirea and Kayoto Port. The most important clan of them all, the Akashiro clan being both the Shigen-sha, Shikken and the Shōgun, naturally in 'control' of all of the Akashiro Shogunate, but that may change in the future..."
  traditionalist_society:0 "Traditionalist Society"
  traditionalist_society_desc:0 "The Akashiro Shogunate is both a progressive force to be reckoned with, but also a traditionally backwards society, with majority of the rural regions being stuck in their traditional ways and beliefs."
  shigensha_figurehead:0 "Shigen-sha Figurehead"
@@ -144,6 +148,14 @@
  larger_ministries_desc:0 "While our ministries are still largely corrupt, we've enforced our will upon the ministers and local governors, making our state construction efficiency impressive... who knows how long they'll listen to us though?"
  laissez_faire:0 "Laissez-Faire Economic Boost"
  laissez_faire_desc:0 "A Laissez-Faire economy has allowed foreign corporations to take advantage of a huge new market, which has provided us with an immense amount of jobs, especially in the construction sector. These new jobs have led to an §GEconomic Boost!§!"
+ army_resistance:0 "Army Resistance"
+ army_resistance_desc:0 "Whilst our invasion of the Barbarian hold on the city of Nyd Metog (formerly Kamago) was succesful, the treatment of our army was subpar. The wages of our army are less than average, and their rations barely cover their needs. It is important for us to ensure the loyalty of the army; at least if we are to remain a major power."
+ army_resistance2:0 "Army Resistance"
+ army_resistance2_desc:0 "Whilst our invasion of the Barbarian hold on the city of Nyd Metog (formerly Kamago) was succesful, the treatment of our army was subpar. The wages of our army are less than average, and their rations barely cover their needs. It is important for us to ensure the loyalty of the army; at least if we are to remain a major power."
+ army_resistance3:0 "Army Resistance"
+ army_resistance3_desc:0 "Whilst our invasion of the Barbarian hold on the city of Nyd Metog (formerly Kamago) was succesful, the treatment of our army was subpar. The wages of our army are less than average, and their rations barely cover their needs. It is important for us to ensure the loyalty of the army; at least if we are to remain a major power."
+ army_resistance_good:0 "Army Loyalty"
+ army_resistance_good_desc:0 "After many reforms to the military, their loyalty has firmly been secured, and some of them are more eager than ever to serve in the army, and fulfill our destiny!"
 
  #Economy
  economic_collapse:0 "The Great Gold Strain"
