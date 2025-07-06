@@ -85,7 +85,8 @@ characters={
 		name="Vorianiil 'Halfhand' Direnni"
 		portraits={
 			civilian={
-				large = "GFX_portrait_MAR_footie_large"	
+				large = "GFX_portrait_MAR_shizayy_large"
+				small = "GFX_portrait_MAR_shizayy_small"
 			}
 		}
 		country_leader={
@@ -93,5 +94,44 @@ characters={
 			traits = {  }
 			expire="1965.1.1.1"
 		}
-	}		
+		advisor = {
+            		slot = political_advisor
+			idea_token = shizayy
+			allowed = {
+				tag = MAR
+			}
+			cost = 20
+            		traits = { 
+				revolutionary_culture_minister
+				editor
+			}
+			available = {
+                		has_completed_focus = MAR_hail_to_the_chief
+            		}
+        	}
+	}
+	MAR_blacksmith_character={
+		name="Boris Franz"
+		desc = "Minister of Interior"
+		portraits={
+			civilian={
+				small = "GFX_portrait_MAR_blacksmith_small"	
+			}
+		}
+		advisor = {
+            		slot = political_advisor
+			idea_token = boris_franz
+			allowed = {
+				tag = MAR
+			}
+			available = {
+                		has_completed_focus = MAR_hail_to_the_chief
+            		}
+			cost = 20
+            		traits = { 
+				compassionate_gentleman 
+				ideological_crusader 
+			}
+        	}
+	}
 }
