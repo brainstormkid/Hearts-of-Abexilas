@@ -2408,7 +2408,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_recruitment_ministry  }
 		completion_reward = {
-			add_ideas = limited_conscription
+			add_ideas = extensive_conscription
 			add_war_support = 0.05
 		}
 	}
