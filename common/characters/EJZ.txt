@@ -1,6 +1,6 @@
 characters={
     EJZ_gus={
-        name="Gustav av Ejznhjart"
+        name="Gustav av Ejznhjart II"
         portraits={
             civilian={
                 large="GFX_portrait_EJZ_gustav_ejznhjart_large"

@@ -2153,6 +2153,12 @@ focus_tree = {
 				}
 			}
 		}
+		available = {
+			NOT = {
+				has_completed_focus = EJZ_finish_off_aerternus
+				has_war_with = AER
+			}
+		}
 	}
 
 	#Joint Civilian Development
@@ -2174,6 +2180,12 @@ focus_tree = {
 				add_ideas = {
 					EJZ_idea_joint_civilian_development
 				}
+			}
+		}
+		available = {
+			NOT = {
+				has_completed_focus = EJZ_war_with_valora
+				has_war_with = VAL
 			}
 		}
 
@@ -2424,7 +2436,7 @@ focus_tree = {
 					is_owned_by = AER
 				}
 				NOT = {
-					has_completed_focus = EJZ_ally_with_aerternus
+					is_in_faction_with = AER
 					has_completed_focus = EJZ_affirm_our_neutrality
 					has_non_aggression_pact_with = AER
 				}
@@ -2451,7 +2463,7 @@ focus_tree = {
 		icon = GFX_goal_generic_more_territorial_claims
 		x = 11
 		y = 4
-		cost = 5
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
@@ -2465,7 +2477,7 @@ focus_tree = {
 				}
 			}
 			NOT = {
-				has_completed_focus = EJZ_affirm_our_neutrality
+				is_in_faction_with = AER
 			}
 		}
 		bypass = {
@@ -2486,7 +2498,7 @@ focus_tree = {
 		icon = GFX_SOV_keep_commissars_organization_ccp_2d_sov_compatibility
 		x = 11
 		y = 7
-		cost = 5
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
@@ -2496,7 +2508,6 @@ focus_tree = {
 				EJZ = {
 					has_non_aggression_pact_with = AER
 					is_in_faction_with = AER
-					has_completed_focus = EJZ_ally_with_aerternus
 					has_completed_focus = EJZ_affirm_our_neutrality
 				}
 			}
@@ -2523,7 +2534,7 @@ focus_tree = {
 		icon = GFX_SOV_keep_commissars_organization_ccp_2d_sov_compatibility
 		x = 6
 		y = 7
-		cost = 5
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
@@ -2531,10 +2542,8 @@ focus_tree = {
 			country_exists = VAL
 			NOT = {
 				EJZ = {
-					has_completed_focus = EJZ_ally_with_valora
 					is_in_faction_with = VAL
 					has_non_aggression_pact_with = VAL
-					has_completed_focus = EJZ_affirm_our_neutrality
 				}
 			}
 			has_army_manpower = {

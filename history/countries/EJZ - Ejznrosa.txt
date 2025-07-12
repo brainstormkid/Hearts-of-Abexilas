@@ -4,7 +4,7 @@ oob = "EJZ"
 puppet = FLA
 add_ideas = EJZ_scaliga_mercenaries
 add_ideas = EJZ_two_dukes_system
-set_country_flag = wip_ejznrosa_alt_historical
+#set_country_flag = wip_ejznrosa_alt_historical
 
 set_research_slots = 4
 set_stability = 0.75

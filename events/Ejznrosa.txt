@@ -195,6 +195,9 @@ country_event = {
 		relation = guarantee
 		active = yes
 	}
+	EJZ = {
+		add_to_faction = VAL
+	}
 	VAL = {
 		diplomatic_relation = {
 			country = EJZ
@@ -271,6 +274,9 @@ country_event = {
 		country = AER
 		relation = guarantee
 		active = yes
+	}
+	EJZ = {
+		add_to_faction = AER
 	}
 	AER = {
 		diplomatic_relation = {
