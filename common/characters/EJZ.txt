@@ -177,7 +177,7 @@ characters={
             defense_skill = 2
             planning_skill = 2
             logistics_skill = 3
-            traits = { old_guard media_personality infantry_officer }
+            traits = { old_guard media_personality infantry_leader }
         }
     }
     EJZ_Tyrrhenus_Av_Ejznhjart = {
