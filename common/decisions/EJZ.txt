@@ -550,6 +550,91 @@ EJZ_greater_ejznrosa = {
 		}
 		cost = 50
 	}
+	EJZ_int_terra_del_mare = {
+		icon = GFX_decision_generic_operation
+		days_remove = 50
+		fire_only_once = yes
+		available = {
+			tag = EJZ
+			727 = {
+				is_owned_by = EJZ
+			}
+			728 = {
+				is_owned_by = EJZ
+			}
+			720 = {
+				is_owned_by = EJZ
+			}
+			763 = {
+				is_owned_by = EJZ
+			}
+			759 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			727 = {
+				add_core_of = EJZ
+			}
+			728 = {
+				add_core_of = EJZ
+			}
+			720 = {
+				add_core_of = EJZ
+			}
+			759 = {
+				add_core_of = EJZ
+			}
+			763 = {
+				add_core_of = EJZ
+			}
+			735 = {
+				add_core_of = EJZ
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 727
+				state = 728
+				state = 720
+				state = 759
+				state = 763
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		modifier = {
+			political_power_gain = -0.1
+		}
+		cost = 50
+	}
+	EJZ_int_fla = {
+		icon = GFX_decision_generic_operation
+		days_remove = 50
+		fire_only_once = yes
+		available = {
+			tag = EJZ
+			527 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			527 = {
+				add_core_of = EJZ
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 527
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		modifier = {
+			political_power_gain = -0.1
+		}
+		cost = 30
+	}
 }
 EJZ_valora_war = {
 	EJZ_val_north = {

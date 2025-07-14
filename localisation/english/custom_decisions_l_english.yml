@@ -26,6 +26,8 @@
  EJZ_int_neu:0 "Incorporate Neu Sandburg"
  EJZ_int_fav:0 "Integrate Favei Clavaret and Lir'ion"
  EJZ_int_gre:0 "Integrate the Southern Island"
+ EJZ_int_terra_del_mare:0 "Integrate Terra del Mare"
+ EJZ_int_fla:0 "Integrate Flanderia"
  EJZ_formable_empire_of_ejznrosa:0 "Establish the §2Grouejznrosiiches Kajzerryk§b"
  EJZ_valora_war:0 "Ejznrosa-Valora War"
  EJZ_valora_war_desc:0 "War has become inevitable between us and Valora. Only one nation will remain standing while the other will be reduced to ashes."
