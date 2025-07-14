@@ -2562,7 +2562,7 @@ focus_tree = {
 			}
 			has_war_with = VAL
 		}
-		prerequisite = { focus = EJZ_vildpolitik  }
+		prerequisite = { focus = EJZ_war_with_favei_lirion  }
 		completion_reward = {
 			declare_war_on = {
 				target = VAL

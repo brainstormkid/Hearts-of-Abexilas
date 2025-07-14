@@ -166,7 +166,24 @@ country_event = {
 	
 	option = { # Accept the Alliance
 	name = "Accept the Alliance"
-	ai_chance = { factor = 60 }
+	ai_chance = {
+		factor = 40
+		modifier = {
+			factor = 1.5
+			VAL = {
+				has_opinion = {
+				target = EJZ
+				value > 20
+			    }
+			}
+		}
+		modifier = {
+			factor = 1.25
+			EJZ = {
+				has_non_aggression_pact_with = VAL
+			}
+		}
+	}
 	EJZ = {country_event = {id = ejznrosa.9 }}
 	}
 	option =  { # Reject the offer
@@ -246,7 +263,24 @@ country_event = {
 	
 	option = { # Accept the Alliance
 	name = "Accept the Alliance"
-	ai_chance = { factor = 40 }
+	ai_chance = {
+		factor = 40
+		modifier = {
+			factor = 1.5
+			AER = {
+				has_opinion = {
+				target = EJZ
+				value > 20
+			    }
+			}
+		}
+		modifier = {
+			factor = 1.25
+			EJZ = {
+				has_non_aggression_pact_with = AER
+			}
+		}
+	}
 	EJZ = {country_event = {id = ejznrosa.12 }}
 	}
 	option =  { # Reject the offer
