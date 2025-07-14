@@ -41,7 +41,7 @@ characters={
             }
             traits = { duke_of_ejznrosa }
             ai_will_do = {
-                factor = 1.0
+                factor = 10
             }
         }
     }
@@ -89,7 +89,7 @@ characters={
             }
             traits = { former_duke }
             ai_will_do = {
-                factor = 1.0
+                factor = 10
             }
         }  
     }
@@ -110,7 +110,7 @@ characters={
             }
             traits = { head_of_construction }
             ai_will_do = {
-                factor = 1.0
+                factor = 10
             }
         }
     }
@@ -134,7 +134,7 @@ characters={
             }
             traits = { army_chief_offensive_2 }
             ai_will_do = {
-                factor = 1.0
+                factor = 10
             }
         }
         field_marshal = {
@@ -168,7 +168,7 @@ characters={
             }
             traits = { army_chief_maneuver_1 }
             ai_will_do = {
-                factor = 1.0
+                factor = 10
             }
         }
         corps_commander = {
@@ -197,7 +197,7 @@ characters={
             }
             traits = { head_of_recruitment }
             ai_will_do = {
-                factor = 1.0
+                factor = 10
             }
         }
     }
@@ -218,7 +218,7 @@ characters={
             }
             traits = { head_of_foreign_affairs }
             ai_will_do = {
-                factor = 1.0
+                factor = 10
             }
         }
     }
@@ -239,7 +239,7 @@ characters={
             }
             traits = { head_of_production }
             ai_will_do = {
-                factor = 1.0
+                factor = 10
             }
         }
     }
@@ -260,7 +260,7 @@ characters={
             }
             traits = { head_of_economy }
             ai_will_do = {
-                factor = 1.0
+                factor = 10
             }
         }
     }
@@ -284,7 +284,7 @@ characters={
             }
             traits = { army_cavalry_2 }
             ai_will_do = {
-                factor = 1.0
+                factor = 10
             }
         }
         corps_commander = {
@@ -313,7 +313,7 @@ characters={
             }
             traits = { head_of_propaganda }
             ai_will_do = {
-                factor = 1.0
+                factor = 10
             }
         }
     }
@@ -334,7 +334,7 @@ characters={
             }
             traits = { head_of_culture }
             ai_will_do = {
-                factor = 1.0
+                factor = 10
             }
         }
     }
@@ -355,7 +355,7 @@ characters={
             }
             traits = { infrastructure_enthusiast }
             ai_will_do = {
-                factor = 1.0
+                factor = 10
             }
         }
     } 
@@ -376,7 +376,7 @@ characters={
             }
             traits = { state_businessman }
             ai_will_do = {
-                factor = 1.0
+                factor = 10
             }
         }
     }       
