@@ -379,6 +379,22 @@ characters={
                 factor = 10
             }
         }
+    }
+    EJZ_Cat1 = {
+        name = "Zazu"
+        portraits = {
+            army = {
+                large = "GFX_portrait_EJZ_cat1_large"
+            }
+        }
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+            traits = { trickster engineer_officer jungle_rat }
+        }
     }       
 }
 
