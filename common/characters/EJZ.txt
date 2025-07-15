@@ -393,7 +393,7 @@ characters={
             defense_skill = 2
             planning_skill = 2
             logistics_skill = 2
-            traits = { trickster engineer_officer jungle_rat }
+            traits = { commando jungle_rat career_officer }
         }
     }       
 }
