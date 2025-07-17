@@ -5,7 +5,7 @@ state={
 		1557 3241 4138 5971 9937 9954 9973 9995 
 	}
 	buildings_max_level_factor=1.000
-        manpower=550000
+        manpower=1050000
         state_category = city
 	history={
 		owner = KUZ
@@ -15,6 +15,7 @@ state={
 			arms_factory = 1
 			dockyard = 1
 		}
+		victory_points { 3241 20 }
 		add_core_of = KUZ
 	}
 }
