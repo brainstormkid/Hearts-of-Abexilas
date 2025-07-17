@@ -15,7 +15,7 @@ state={
 			dockyard = 1
 			infrastructure = 3
 		}
-		victory_points { 10947 30 
+		victory_points { 10947 30 }
 		victory_points { 1963 5 }
 		add_core_of = REG
 	}
