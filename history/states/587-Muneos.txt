@@ -10,7 +10,7 @@ state={
 	history={
 		owner = KUZ
 		buildings = {
-			Infrastructure 1
+			Infrastructure = 1
 		}
 		victory_points { 1521 5 }
 		add_core_of = KUZ
