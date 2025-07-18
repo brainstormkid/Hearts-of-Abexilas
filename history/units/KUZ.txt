@@ -56,7 +56,7 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
-  division = {
+	division = {
 		name = "3rd Kuzinian Infrantry"
 		location = 6958
 		division_template = "Infantry Division"
