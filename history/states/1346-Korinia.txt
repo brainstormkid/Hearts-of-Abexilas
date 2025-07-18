@@ -5,12 +5,16 @@ state={
 		3144 6642 10667 10679 10730 10797
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=900000
+        state_category = large_town
 	history={
 		owner = AUS
 		buildings = {
+		infrastructure = 3
+		industrial_complex = 1
+		arms_factory = 1
 		}
+		victory_points { 3144 50 }
 		add_core_of = AUS
 	}
 }
