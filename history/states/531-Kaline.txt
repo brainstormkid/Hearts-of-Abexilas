@@ -16,7 +16,7 @@ state={
 			dockyard = 1
 		}
 		Victory_points = { 11046 50 } 
-		Victory_points = { 2138 15 } 
+		Victory_points = { 2138 10 } 
 		Victory_points = { 3731 5 }
 		add_core_of = KAE
 	}
