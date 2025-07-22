@@ -88,6 +88,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment,
 10694;10712;sea;19090;-1;-1;-1;-1;;Kiche-Bridge,
 10234;3258;sea;17119;-1;-1;-1;-1;;Kamtargaa-Bridge,
 10254;1848;sea;17119;-1;-1;-1;-1;;Kamtargaaa-Kamatis-Bridge,
+5635;10934;sea;16039;-1;-1;-1;-1;;Aethia-Crimata
 ;;;;;;;;;, anything after is ignored;;;;;;;;;
 ;;;;;;;;;,
 #Ending Line,
