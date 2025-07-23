@@ -18,6 +18,12 @@ on_actions = {
 					days = 196 
 				}
 			}
+			LEY = { 
+				country_event = {
+					id = leyenbourg.10 
+					days = 224
+				}
+			}
 		}
 	}
 	# Nuke Drop Trigger
