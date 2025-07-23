@@ -23,6 +23,162 @@ country_event = {
 	}
 }
 
+#Herrschers Bestimmung
+country_event = {
+	id = leyenbourg.7
+	title = herrschers_bestimmung.1.t
+	desc = herrschers_bestimmung.1.d
+	picture = GFX_herrschers_bestimmung
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = { days = 5 }
+	option = {
+		name = herrschers_bestimmung.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 99 }
+		add_ideas = herrschers_bestimmung
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = herrschers_bestimmung.1.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		retire_character = LEY_gottfried_sarkowa
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Reichstag Regulation
+country_event = {
+	id = leyenbourg.8
+	title = reichstag_regulations.1.t
+	desc = reichstag_regulations.1.d
+	picture = GFX_reichstag_regulations
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = { days = 5 }
+	option = {
+		name = reichstag_regulations.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 99 }
+		add_ideas = parliament_regulations_strict
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = reichstag_regulations.1.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_ideas = parliament_regulations_loose
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = reichstag_regulations.1.c
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_ideas = parliament_regulations_none
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Treaty of Leyenbourg
+country_event = {
+	id = leyenbourg.9
+	title = treaty_of_leyenbourg.1.t
+	desc = treaty_of_leyenbourg.1.d
+	picture = GFX_herrschers_bestimmung
+	
+	is_triggered_only = yes
+
+	option = {
+		name = treaty_of_leyenbourg.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 99 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Leyenbourg Tandong Border Crisis sign
+country_event = {
+	id = leyenbourg.11
+	title = LEY_border_crisis.2.t
+	desc = LEY_border_crisis.2.d
+	picture = GFX_reichstag_regulations
+	
+	is_triggered_only = yes
+
+	option = {
+		name = LEY_border_crisis.2.a
+		trigger = {	
+		}
+		ai_chance = { factor = 100 }
+		
+		hidden_effect = {
+			TAN = {
+				puppet = LEY
+				592 = { ###split state for historical accurate
+					transfer_state_to = LEY
+				}
+				set_autonomy = {
+					target = LEY
+					autonomous_state = autonomy_satellite ###still bugged
+				}
+			}
+			add_autonomy_score = {
+				value = 500
+			}
+		}
+	}
+}
+
+#Leyenbourg Tandong Border Crisis
+country_event = {
+	id = leyenbourg.10
+	title = LEY_border_crisis.1.t
+	desc = LEY_border_crisis.1.d
+	picture = GFX_reichstag_regulations
+	
+	is_triggered_only = yes
+
+	option = {
+		name = LEY_border_crisis.1.a
+		trigger = {	
+		}
+		ai_chance = { factor = 100 }
+		
+		hidden_effect = {
+			country_event = { LEY_border_crisis_1 }
+		}
+	}
+}
+
+
 #Elections on the Horizon
 country_event = {
 	id = leyenbourg.2
