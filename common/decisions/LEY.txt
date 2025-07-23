@@ -1,0 +1,32 @@
+#Category only allowed for LEY
+LEY_border_crisis_category = {
+
+	LEY_border_crisis_1 = {
+
+		icon = generic_ignite_civil_war
+		
+		available = {
+		    always  = no
+		}
+		is_good = no
+		days_mission_timeout = 140
+		fire_only_once = yes
+		
+		cancel_trigger = {
+			has_completed_focus = LEY_sign_the_treaty_of_leyenbourg
+		}
+		
+		cancel_effect = {
+			hidden_effect = {
+				country_event = { id = leyenbourg.11 }
+			}
+		}
+		
+		timeout_effect = {
+			hidden_effect = {
+				country_event = { id = leyenbourg.12 }
+			}
+		}
+	}
+}
+
