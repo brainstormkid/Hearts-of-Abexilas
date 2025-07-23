@@ -99,6 +99,32 @@ spriteTypes = {
 	name = "GFX_idea_imperial_capital"
 	texturefile = "gfx/interface/ideas/idea_imperial_capital.dds"
 	}
+	
+	SpriteType = {
+	name = "GFX_idea_parliament_regulations_none"
+	texturefile = "gfx/interface/ideas/idea_parliament_regulations_none.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_parliament_regulations_loose"
+	texturefile = "gfx/interface/ideas/idea_parliament_regulations_loose.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_parliament_regulations_strict"
+	texturefile = "gfx/interface/ideas/idea_parliament_regulations_strict.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_glorious_return"
+	texturefile = "gfx/interface/ideas/idea_glorious_return.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_herrschers_bestimmung"
+	texturefile = "gfx/interface/ideas/idea_hun_treaty_of_trianon.dds"
+	}
+
 
 	SpriteType = {
 	name = "GFX_idea_high_immigration"

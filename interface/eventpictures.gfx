@@ -39,10 +39,20 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/police_at_torsheim.dds.dds"
 	}
 	
-	##Icon For: Tim retires!
+	##LEY
 	SpriteType = { 
 		name = "GFX_tim_retires"
 		texturefile = "gfx/event_pictures/tim_retires.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_reichstag_regulations"
+		texturefile = "gfx/event_pictures/LEY_reichstag_regulations.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_herrschers_bestimmung"
+		texturefile = "gfx/event_pictures/LEY_herrschers_bestimmung.dds"
 	}
 	
 	#GAR
