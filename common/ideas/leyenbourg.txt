@@ -80,4 +80,116 @@ ideas = {
 				army_org_factor = 0.1
 		}
 	}
+	glorious_return = {
+			picture = glorious_return
+			allowed = {
+				TAG = LEY
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+			
+			allowed_civil_war = {
+			always = yes
+			}
+			
+			modifier = {
+				conscription_factor = +0.01
+				consumer_goods_factor = -0.01
+				army_core_defence_factor = 0.05
+		}
+	}
+	herrschers_bestimmung = {
+			picture = herrschers_bestimmung
+			allowed = {
+				TAG = LEY
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+			
+			allowed_civil_war = {
+			always = yes
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.01
+				stability_weekly_factor = 0.002
+		}
+	}
+	
+	parliament_regulations_strict = {
+			picture = parliament_regulations_strict
+			allowed = {
+				TAG = LEY
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+			
+			allowed_civil_war = {
+			always = yes
+			}
+			
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = -0.05
+				consumer_goods_factor = +0.01
+				army_org_factor = 0.05
+		}
+	}
+	parliament_regulations_loose = {
+			picture = parliament_regulations_loose
+			allowed = {
+				TAG = LEY
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+			
+			allowed_civil_war = {
+			always = yes
+			}
+			
+			modifier = {
+				stability_factor = 0.02
+				war_support_factor = -0.02
+				army_morale_factor = 0.03
+		}
+	}
+	parliament_regulations_none = {
+			picture = parliament_regulations_none
+			allowed = {
+				TAG = LEY
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+			
+			allowed_civil_war = {
+			always = yes
+			}
+			
+			modifier = {
+				stability_factor = 0.04
+				war_support_factor = 0.04
+				army_morale_factor = 0.02
+				army_org_factor = -0.03
+		}
+	}
 }
