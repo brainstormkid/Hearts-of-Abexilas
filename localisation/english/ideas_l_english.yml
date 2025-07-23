@@ -22,6 +22,17 @@
  father_of_railways_desc:0 "It is to be told the first modern railway was constructed here."
  imperial_capital:0 "Imperial Capital"
  imperial_capital_desc:0 "Flourishing Capital of Leyenbourg-City is the regional hub of arts and architecture "
+ glorious_return:0 "Glorious Return"
+ glorious_return_desc:0 "The Glorious Return to the old monarchy is truely a uplift for all of Leyenbourg. Now our future is safe from these disgusting outsiders"
+ herrschers_bestimmung:0 "Herrschers Bestimmung"
+ herrschers_bestimmung_desc:0 "The Herrschers Bestimmung decided who is in charge of what in the Leyenbourgian Government. It greatly imporved stability and cooperation between the states, but also between the old rulers Gottfried Sarkowa and Stephan Zlatkow"
+ parliament_regulations_strict:0 "Strict Parliament Regulations"
+ parliament_regulations_strict_desc:0 "We have decided that the best for our nation is to up the regulations on our Parliament in order to secure a greater foothold and not let it spiral out of control"
+ parliament_regulations_loose:0 "Loose Parliament Regulations"
+ parliament_regulations_loose_desc:0 "We have decided that it is in everyones intrest that the governing monarchy has little influence on the parliament of the people. We will not try to that the voice of the people and rather let them speak freely"
+ parliament_regulations_none:0 "No Parliament Regulations"
+ parliament_regulations_none_desc:0 "It is the best for both the people and the monarchist government that neither interfere with eachother and they both work on their own on problems and solutions"
+ 
  
 # Valora Ideas
  novaran_rebellion_1:0 "Novaran Rebellion"

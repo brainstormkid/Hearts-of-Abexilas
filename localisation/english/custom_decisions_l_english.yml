@@ -45,9 +45,12 @@
  EJZ_val_defensive_msg:0 "Ejznrosa have sucessfully fought against Valora."
  EJZ_val_defensive:0 "Offer white peace to Valora"
  
-
  # Marisvalor
-
  MAR_Blockheed:0 "Blockheed Corporation"
  MAR_Purchase_Weapons:0 "Purchase Weapons"
+ 
+ #Leyenbourg
+ LEY_border_crisis_category:0 "Border Crisis"
+ LEY_border_crisis_1:0 "Leyenbourg - Tandong Border Crisis"
+ LEY_border_crisis_1_desc:0 "The act of not discussing and fortifying our borders has turned into a real crisis now. Tandong is claiming way too much of our homeland and is forcing us into vassalization. What are we supposed to do now? Should we back down or believe in our saviour in Arcael?"
 
