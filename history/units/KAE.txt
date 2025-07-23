@@ -44,28 +44,28 @@ division_template = {
 units = {
 	division = {
 		name = "1st Kaline Infantry"
-		location = 1026
+		location = 11046
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
   }
 	division = {
 		name = "2nd Kaline Infrantry"
-		location = 1026
+		location = 11046
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
   }
 	division = {
 		name = "1st Kaline Calvalry"
-		location = 3483
+		location = 2138
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "2nd Kaline Calvalry"
-		location = 3483
+		location = 1219
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
