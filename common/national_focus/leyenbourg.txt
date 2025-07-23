@@ -27,13 +27,26 @@ focus_tree = {
 		id = LEY_tend_to_tandong
 		icon = GFX_focus_generic_diplomatic_treaty
 		x = 1
-		y = 5
+		y = 2
 		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_return_to_the_world_stage  }
 		mutually_exclusive = { focus = LEY_tend_to_ertcof  } mutually_exclusive = { focus = LEY_ally_with_arcael  }
+	}
+	
+	#Sign the Treaty of Leyenbourg
+	focus = {
+		id = LEY_sign_the_treaty_of_leyenbourg
+		icon = GFX_goal_generic_dangerous_deal
+		x = 2
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_tend_to_tandong  focus = LEY_tend_to_ertcof  focus = LEY_ally_with_arcael }
 	}
 
 	#Secure the Economy
@@ -54,21 +67,47 @@ focus_tree = {
 		id = LEY_ally_with_arcael
 		icon = GFX_focus_generic_coastal_fort
 		x = 3
-		y = 5
-		cost = 2.5
+		y = 2
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_return_to_the_world_stage  }
 		mutually_exclusive = { focus = LEY_tend_to_ertcof  } mutually_exclusive = { focus = LEY_tend_to_tandong  }
+		completion_reward = {
+			give_guarantee = ARC
+			give_military_access = ARC
+			ARC = {
+				give_guarantee  = LEY
+				give_military_access = LEY
+			}
+			country_event = {
+				id = leyenbourg.9
+				days = 2
+			} 
+			hidden_effect = {
+				
+				ARC = {
+					add_opinion_modifier = {
+						target = LEY
+						modifier = offered_support
+					}
+				}
+				
+				add_opinion_modifier = {
+					target = ARC
+					modifier = offered_support
+				}
+			}
+		}
 	}
 
 	#Suggest the next Summit in Leyenbourg
 	focus = {
 		id = LEY_suggest_the_next_summit_in_leyenbourg
 		icon = GFX_focus_generic_self_management
-		x = 1
-		y = 8
+		x = 0
+		y = 4
 		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -80,8 +119,8 @@ focus_tree = {
 	focus = {
 		id = LEY_join_the_cathramis_continetal_hub
 		icon = GFX_goal_generic_national_unity
-		x = 1
-		y = 6
+		x = 0
+		y = 3
 		cost = 6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -94,7 +133,7 @@ focus_tree = {
 		id = LEY_tend_to_ertcof
 		icon = GFX_goal_generic_alliance
 		x = -1
-		y = 5
+		y = 2
 		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -108,26 +147,62 @@ focus_tree = {
 		id = LEY_return_to_the_world_stage
 		icon = GFX_goal_generic_intelligence_exchange
 		x = 1
-		y = 4
-		cost = 2
+		y = 1
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = LEY_the_duchy_reborn  }
+		prerequisite = {}
+		completion_reward = {
+			
+			hidden_effect = {
+				ARC = {
+					add_opinion_modifier = {
+						target = LEY
+						modifier = offered_support
+					}
+				}
+				add_opinion_modifier = {
+					target = ARC
+					modifier = offered_support
+				}
+			}
+		}
 	}
 
 	#The Duchy Reborn
 	focus = {
 		id = LEY_the_duchy_reborn
 		icon = GFX_focus_hun_elect_a_king
-		x = 3
+		x = 8
 		y = 3
-		cost = 3
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_revisit_old_traditions  }
 		mutually_exclusive = { focus = LEY_the_6th_republic  }
+		completion_reward = {
+			add_political_power = 25
+			add_ideas = glorious_return
+			remove_ideas = provisional_government
+			hidden_effect = {
+				country_event = {
+					id = leyenbourg.7
+					days = 1
+				}
+				add_stability = +0.07
+				add_war_support = +0.04
+				add_popularity = {
+					ideology = monarchist
+					popularity = +0.09
+				}
+				add_popularity = {
+					ideology = radical_socialist
+					popularity = -0.03
+				}
+			}
+		}
 	}
 
 	#Revisit Old Traditions
@@ -136,20 +211,46 @@ focus_tree = {
 		icon = GFX_focus_generic_monarchy_2
 		x = 8
 		y = 2
-		cost = 2
+		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = LEY_forming_a_new_government  }
 		mutually_exclusive = { focus = LEY_new_attempts  }
+		completion_reward = {
+			add_political_power = 50
+			add_stability = +0.05
+			hidden_effect = {
+				add_popularity = {
+					ideology = monarchist
+					popularity = +0.08
+				}
+				add_popularity = {
+					ideology = conservatist
+					popularity = +0.03
+				}
+				add_popularity = {
+					ideology = progressivist
+					popularity = +0.03
+				}
+				add_popularity = {
+					ideology = radical_nationalist
+					popularity = +0.03
+				}
+				add_popularity = {
+					ideology = radical_socialist
+					popularity = -0.07
+				}
+			}
+		}
 	}
 
 	#Run for Neutrality
 	focus = {
 		id = LEY_run_for_neutrality
 		icon = GFX_goal_generic_neutrality_focus
-		x = 2
-		y = 9
+		x = -1
+		y = 5
 		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -189,8 +290,8 @@ focus_tree = {
 	focus = {
 		id = LEY_continental_alliance
 		icon = GFX_LEY_continental_alliance-645591
-		x = 0
-		y = 9
+		x = 1
+		y = 5
 		cost = 4
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
@@ -205,7 +306,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		x = 16
 		y = 1
-		cost = 2
+		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -253,7 +354,7 @@ focus_tree = {
 	focus = {
 		id = LEY_the_leyenbourgian_council
 		icon = GFX_LEY_the_leyenbourgian_council-646365
-		x = 16
+		x = 26
 		y = 5
 		cost = 4
 		search_filters = {
@@ -275,11 +376,11 @@ focus_tree = {
 		}
 	}
 
-	#Return to the Diarchy
+	#Return to the Diarchy (alt)
 	focus = {
 		id = LEY_return_to_the_diarchy
 		icon = GFX_LEY_return_to_the_diarchy-645781
-		x = 5
+		x = 4
 		y = 5
 		cost = 4
 		search_filters = {
@@ -287,6 +388,18 @@ focus_tree = {
 		}
 		prerequisite = { focus = LEY_promote_gottfried_sarkowa  }
 		mutually_exclusive = { focus = LEY_focus_on_keeping_good_relations  }
+		completion_reward = {
+			add_popularity = {
+				ideology = monarchist
+				popularity = 0.2
+			}
+			set_party_name = {
+				ideology = monarchist
+				long_name = "Sarkowa-Zlatkow Diarchy"
+				short_name = "SZD"
+			}
+			add_stability = 0.05
+		}
 	}
 
 	#Watch to the West
@@ -372,7 +485,7 @@ focus_tree = {
 	focus = {
 		id = LEY_the_6th_republic
 		icon = GFX_focus_generic_the_giant_wakes
-		x = 13
+		x = 23
 		y = 3
 		cost = 3
 		search_filters = {
@@ -464,6 +577,13 @@ focus_tree = {
 			FOCUS_FILTER_STABILITY
 		}
 		prerequisite = { focus = LEY_the_duchy_reborn  }
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+			hidden_effect = {
+				add_political_power = 200
+			}
+		}
 	}
 
 	#For the Best of Leyenbourg
@@ -496,7 +616,7 @@ focus_tree = {
 	focus = {
 		id = LEY_dissolve_the_parlament
 		icon = GFX_LEY_dissolve_the_parlament-646327
-		x = 13
+		x = 23
 		y = 5
 		cost = 7
 		search_filters = {
@@ -523,7 +643,7 @@ focus_tree = {
 	focus = {
 		id = LEY_question_of_power
 		icon = GFX_goal_unknown
-		x = 13
+		x = 23
 		y = 4
 		cost = 3
 		search_filters = {
@@ -536,7 +656,7 @@ focus_tree = {
 	focus = {
 		id = LEY_strength_the_parliament
 		icon = GFX_LEY_strength_the_parliament-645772
-		x = 10
+		x = 20
 		y = 5
 		cost = 4
 		search_filters = {
@@ -546,17 +666,56 @@ focus_tree = {
 		mutually_exclusive = { focus = LEY_dissolve_the_parlament  } mutually_exclusive = { focus = LEY_the_leyenbourgian_council  }
 	}
 
+	#Sign the Constitution
+	focus = {
+		id = LEY_sign_the_constitution
+		icon = GFX_focus_generic_treaty
+		x = 11
+		y = 4
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = LEY_the_duchy_reborn  }
+		completion_reward = {
+			add_stability = 0.05
+			hidden_effect = {
+				add_popularity = {
+					ideology = conservatist
+					popularity = +0.05
+				}
+				add_popularity = {
+					ideology = monarchist
+					popularity = +0.08
+				}
+			}
+		}
+	}
+	
 	#Reform the Reichstag
 	focus = {
 		id = LEY_reform_the_reichstag
 		icon = GFX_LEY_reform_the_reichstag-645493
-		x = 6
-		y = 9
-		cost = 3
+		x = 12
+		y = 5
+		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = LEY_convince_tandong_to_release_cortland  }
+		prerequisite = { focus = LEY_sign_the_constitution  }
+		completion_reward = {
+			add_stability = 0.05
+			hidden_effect = {
+				add_popularity = {
+					ideology = conservatist
+					popularity = +0.05
+				}
+				country_event = {
+					id = leyenbourg.8
+					days = 1
+				}
+			}
+		}
 	}
 
 	#Strengthen the Industry
