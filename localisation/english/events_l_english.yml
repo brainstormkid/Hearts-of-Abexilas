@@ -119,9 +119,12 @@
  reichstag_regulations.1.a:0 "Strict Regulations"
  reichstag_regulations.1.b:0 "Loose Regulations"
  reichstag_regulations.1.c:0 "No Regulations"
- treaty_of_leyenbourg.1.t:0 "Treaty of Leyenbourg"
+ treaty_of_leyenbourg.1.t:0 "Treaty of Leyenbourg Signed"
  treaty_of_leyenbourg.1.d:0 "Arcael has proven to be a trustable friend. Now we must sign a treaty in order to help one another and show these imperialist Tandong who we are!\n\n We will not back down from them any more because now we have a friend equal in power to them!"
  treaty_of_leyenbourg.1.a:0 "Freedom and security!"
+ treaty_of_leyenbourg.2.t:0 "Treaty of Leyenbourg Refused"
+ treaty_of_leyenbourg.2.d:0 "Arcael has proven to be an untrustworthy friend. After many years of cooperation they have still refused to help us fight the common enemy. Once again Leyenbourg stands alone in the world. But not for long...?"
+ treaty_of_leyenbourg.2.a:0 "An unwelcoming Surprise"
  LEY_border_crisis.1.t:0 "Leyenbourg Tandong Border Crisis"
  LEY_border_crisis.1.d:0 "The act of not discussing and fortifying our borders has turned into a real crisis now. Tandong is claiming way too much of our homeland and is forcing us into vassalization. What are we supposed to do now? Should we back down or believe in our saviour in Arcael?"
  LEY_border_crisis.1.a:0 "We must find a solution, now!"
@@ -147,6 +150,12 @@
  elections_ley.5.d:0 "None of the Candidates won by a majority. Our Country has not found a leader. Now the council suggests a new kind of government. The country and government shall be lead by 7 people, not 1. A new form of democracy."
  elections_ley.5.a:0 "A great idea!"
  elections_ley.5.b:0 "But at what cost?"
+ 
+ #Tandong events
+ tandong.1.t:0 "The Leyenbourg - Tandong Border Crisis"
+ tandong.1.d:0 "Our western neighbour, the Duchy of Leyenbourg, and us have recently clashed on our border, resulting in an outbreak of great discussions and questions, which have to be answered. \n Should we go to war against them for their actions against us? \n Should we risk fighting Arcael? \n Or should we rather back down from this?"
+ tandong.1.a:0 "Take the Diplomatic Route"
+ tandong.1.b:0 "Force Change"
  
  #Gardenia events 
  Gardenia_venipher_disappears.1.t:0 "Venipher Disappears!"
@@ -209,6 +218,15 @@
  Arcael.10.d:0 "Grave news is coming from Qatakema! During the night, the Zilatran government unilaterally declared independence from us! They are backed by the People's Republic of Arcael, which will aid them if we retaliate. What should our response be?"
  Arcael.10.a:0 "I don't care, launch an invasion right now !"
  Arcael.10.b:0 "Grant them independence, but negotiate for a good amount of money."
+ Arcael.11.t:0 "The Treaty of Leyenbourg"
+ Arcael.11.d:0 "Our neighbours and good friends of Leyenbourg have come to us with a proposed treaty. A defensive treaty with one another to protecte eachother from the menae that is the Dynasty of Tandong. It would surely be for the better to accept it in order to protect our vassal on the Continent."
+ Arcael.11.a:0 "Sign the Treaty"
+ Arcael.11.b:0 "Refuse to Sign"
+ Arcael.12.t:0 "The Leyenbourg - Tandong Border Crisis"
+ Arcael.12.d:0 "Our ally and friend in Cathramis has recently clashed with our long time enemy on their border. This Crisis seems like a good time to finally get rid of this Tandong infection. Should we rally to war?"
+ Arcael.12.a:0 "Support Leyenbourg"
+ Arcael.12.b:0 "Rally the Troops"
+ Arcael.12.c:0 "It is no use"
  
  #VALORA EVENTS
  valora.1.t:0 "Novaran Crisis"
