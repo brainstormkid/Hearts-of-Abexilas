@@ -325,4 +325,106 @@ country_event = {
 		add_offsite_building = { type = industrial_complex level = 4 }
 	}
 }
-			
+
+###### Arcael - Leyenbourg ######
+
+#Signing the Treaty of Leyenbourg
+country_event = {
+	id = Arcael.11
+	title = Arcael.11.t 
+	desc = Arcael.11.d 
+	picture = GFX_herrschers_bestimmung
+	is_triggered_only = yes 
+	option = {
+		name = Arcael.11.a 
+		ai_chance = { factor = 99 }
+		add_war_support = +0.1
+		give_guarantee = LEY
+		give_military_access = LEY
+		LEY = {
+			give_guarantee  = ARC
+			give_military_access = ARC
+			country_event = {
+				id = leyenbourg.9
+				days = 1
+			}
+		}
+		hidden_effect = {
+			LEY = {
+				add_opinion_modifier = {
+					target = ARC
+					modifier = offered_support
+				}
+			}
+				
+			add_opinion_modifier = {
+				target = LEY
+				modifier = offered_support
+			}
+		}
+	}
+	option = {
+		name = Arcael.11.b 
+		ai_chance = { factor = 5 }
+		modifier = {
+			factor = 0
+			is_historical_focus_on = yes
+		}
+		add_stability = +0.05
+		hidden_effect = {
+			LEY = {
+				country_event = {
+					id = leyenbourg.12
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+#Leyenbourg - Tandong Border Crisis
+country_event = {
+	id = Arcael.12
+	title = Arcael.12.t 
+	desc = Arcael.12.d 
+	picture = GFX_herrschers_bestimmung
+	is_triggered_only = yes 
+	option = {
+		name = Arcael.12.a
+		ai_chance = { factor = 60 }
+		add_war_support = +0.05
+		hidden_effect = {
+			LEY = {
+				add_war_support = +0.05
+			}
+		}
+	}
+	option = {
+		name = Arcael.12.b
+		ai_chance = { factor = 30 }
+		modifier = {
+			factor = 0
+			is_historical_focus_on = yes
+		}
+		add_war_support = +0.1
+		hidden_effect = {
+			LEY = {
+				add_war_support = +0.15
+			}
+		}
+	}
+	option = {
+		name = Arcael.12.c
+		ai_chance = { factor = 10 }
+		modifier = {
+			factor = 0
+			is_historical_focus_on = yes
+		}
+		add_war_support = -0.05
+		hidden_effect = {
+			LEY = {
+				add_war_support = -0.03
+			}
+		}
+	}
+}

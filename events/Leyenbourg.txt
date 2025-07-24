@@ -72,7 +72,11 @@ country_event = {
 		trigger = {
 			
 		}
-		ai_chance = { factor = 99 }
+		ai_chance = { factor = 30 }
+		modifier = {
+			factor = 100
+			is_historical_focus_on = yes
+		}
 		add_ideas = parliament_regulations_strict
 		hidden_effect = {
 			
@@ -83,7 +87,11 @@ country_event = {
 		trigger = {
 			
 		}
-		ai_chance = { factor = 1 }
+		ai_chance = { factor = 30 }
+		modifier = {
+			factor = 0
+			is_historical_focus_on = yes
+		}
 		add_ideas = parliament_regulations_loose
 		hidden_effect = {
 			
@@ -94,7 +102,11 @@ country_event = {
 		trigger = {
 			
 		}
-		ai_chance = { factor = 1 }
+		ai_chance = { factor = 30 }
+		modifier = {
+			factor = 0
+			is_historical_focus_on = yes
+		}
 		add_ideas = parliament_regulations_none
 		hidden_effect = {
 			
@@ -102,7 +114,7 @@ country_event = {
 	}
 }
 
-#Treaty of Leyenbourg
+#Treaty of Leyenbourg Sign
 country_event = {
 	id = leyenbourg.9
 	title = treaty_of_leyenbourg.1.t
@@ -119,7 +131,30 @@ country_event = {
 		ai_chance = { factor = 99 }
 		
 		hidden_effect = {
-			
+			add_war_support = +0.10
+			add_stability = +0.05
+		}
+	}
+}
+
+#Treaty of Leyenbourg Refuse
+country_event = {
+	id = leyenbourg.12
+	title = treaty_of_leyenbourg.2.t
+	desc = treaty_of_leyenbourg.2.d
+	picture = GFX_herrschers_bestimmung
+	
+	is_triggered_only = yes
+
+	option = {
+		name = treaty_of_leyenbourg.2.a
+		trigger = {
+		}
+		ai_chance = { factor = 99 }
+		
+		hidden_effect = {
+			add_war_support = +0.05
+			add_stability = -0.05
 		}
 	}
 }
@@ -173,7 +208,27 @@ country_event = {
 		ai_chance = { factor = 100 }
 		
 		hidden_effect = {
-			country_event = { LEY_border_crisis_1 }
+			set_country_flag = LEY_border_crisis
+			ARC = {
+				country_event = {
+					id = arcael.12
+					days = 1
+				}
+				add_opinion_modifier = {
+					target = LEY
+					modifier = offered_support
+				}
+			}
+			TAN = {
+				country_event = {
+					id = tandong.1
+					days = 1
+				}
+				add_opinion_modifier = {
+					target = LEY
+					modifier = pact_against_us
+				}
+			}
 		}
 	}
 }

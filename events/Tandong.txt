@@ -1,0 +1,33 @@
+add_namespace = tandong
+
+#Leyenbourg - Tandong Border Crisis
+
+country_event = {
+	id = tandong.1
+	title = tandong.1.t
+	desc = tandong.1.d
+	is_triggered_only = yes
+	
+	option = {
+		name = tandong.1.a
+		ai_chance = {
+			factor = 85
+		}
+		add_war_support = -0.1
+		add_stability = -0.05
+		add_political_power = -75
+		}
+	option = {
+		name = tandong.1.b
+		ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		add_political_power = 25
+		add_stability = 0.025
+		add_war_support = 0.1
+	}
+}
