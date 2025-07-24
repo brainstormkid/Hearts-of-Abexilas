@@ -5,9 +5,14 @@ LEY_border_crisis_category = {
 
 		icon = generic_ignite_civil_war
 		
-		available = {
+		available = { ###completion clause
 		    always  = no
 		}
+		
+		activation = { ###activation clause
+			has_country_flag = LEY_border_crisis
+		}
+		
 		is_good = no
 		days_mission_timeout = 140
 		fire_only_once = yes
@@ -24,7 +29,7 @@ LEY_border_crisis_category = {
 		
 		timeout_effect = {
 			hidden_effect = {
-				country_event = { id = leyenbourg.12 }
+				country_event = { id = leyenbourg.13 }
 			}
 		}
 	}
