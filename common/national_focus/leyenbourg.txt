@@ -42,9 +42,12 @@ focus_tree = {
 		icon = GFX_goal_generic_dangerous_deal
 		x = 2
 		y = 3
-		cost = 2
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_country_flag = LEY_border_crisis
 		}
 		prerequisite = { focus = LEY_tend_to_tandong  focus = LEY_tend_to_ertcof  focus = LEY_ally_with_arcael }
 	}
@@ -75,29 +78,13 @@ focus_tree = {
 		prerequisite = { focus = LEY_return_to_the_world_stage  }
 		mutually_exclusive = { focus = LEY_tend_to_ertcof  } mutually_exclusive = { focus = LEY_tend_to_tandong  }
 		completion_reward = {
-			give_guarantee = ARC
-			give_military_access = ARC
-			ARC = {
-				give_guarantee  = LEY
-				give_military_access = LEY
+			ARC = { 
+				country_event = {
+					id = Arcael.11
+					days = 1
+				}
 			}
-			country_event = {
-				id = leyenbourg.9
-				days = 2
-			} 
 			hidden_effect = {
-				
-				ARC = {
-					add_opinion_modifier = {
-						target = LEY
-						modifier = offered_support
-					}
-				}
-				
-				add_opinion_modifier = {
-					target = ARC
-					modifier = offered_support
-				}
 			}
 		}
 	}
@@ -125,7 +112,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = LEY_tend_to_ertcof  } prerequisite = { focus = LEY_tend_to_tandong  } prerequisite = { focus = LEY_ally_with_arcael  }
+		prerequisite = { focus = LEY_tend_to_ertcof  focus = LEY_tend_to_tandong focus = LEY_ally_with_arcael  }
 	}
 
 	#Tend to Ertcof
@@ -167,6 +154,26 @@ focus_tree = {
 					modifier = offered_support
 				}
 			}
+		}
+	}
+	
+	#Fix the Great Gold Strain
+	focus = {
+		id = LEY_fix_the_great_gold_strain
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 6
+		y = 0
+		cost = 3
+		seach_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		ai_chance = { factor = 100 }
+		available = {
+			has_idea = economic_collapse
+		}
+		prerequisite = {}
+		completion_reward = {
+			remove_ideas = economic_collapse
 		}
 	}
 
