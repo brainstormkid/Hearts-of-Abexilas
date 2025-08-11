@@ -1,0 +1,9 @@
+scripted_gui = {
+
+	raj_local_leaders_investments_decision_ui = {
+		context_type = decision_category
+		window_name = "raj_local_leaders_investments_decision_ui_window"
+	}
+	
+}
+
