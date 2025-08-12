@@ -939,37 +939,3 @@ EJZ_valora_war = {
 		priority = 4
 	}
 }
-SOV_propaganda_campaigns = {
-	SOV_debug_unlock_slot = {
-		priority = 59
-
-		icon = eng_ally_imperialist_coup
-
-		allowed = {
-			original_tag = SOV
-		}
-
-		available = {
-			OR = {
-				check_variable = { SOV_poster_left_icon_frame = SOV_propaganda_locked_slot_index }
-				check_variable = { SOV_poster_center_icon_frame = SOV_propaganda_locked_slot_index }
-				check_variable = { SOV_poster_right_icon_frame = SOV_propaganda_locked_slot_index }
-			}
-		}
-
-		visible = {
-			OR = {
-				check_variable = { SOV_poster_left_icon_frame = SOV_propaganda_locked_slot_index }
-				check_variable = { SOV_poster_center_icon_frame = SOV_propaganda_locked_slot_index }
-				check_variable = { SOV_poster_right_icon_frame = SOV_propaganda_locked_slot_index }
-			}
-			is_debug = yes
-		}
-
-		cost = 0
-
-		complete_effect = {
-			SOV_unlock_propaganda_campaign_slot_effect = yes
-		}
-	}
-}
