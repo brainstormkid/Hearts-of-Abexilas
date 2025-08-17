@@ -60,18 +60,3 @@ EJZ_valora_war = {
     }
     priority = 4
 }
-SOV_propaganda_campaigns = {
-	priority = 100
-
-	icon = SOV_propaganda
-
-	scripted_gui = sov_propaganda_campaigns_ui
-
-	allowed = {
-		original_tag = EJZ
-	}
-
-	visible = {
-        always = yes
-	}
-}
