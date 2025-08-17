@@ -1,0 +1,135 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "ejz_election_gui_window"
+		position = { x = 0 y = 0}	
+		size = { width = 800 height= 650 }
+		orientation = center
+		origo = center
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_scripted_gui_window_background"
+		}
+
+		buttonType ={
+			name ="btn_close"
+			spriteType = "GFX_scripted_gui_btn_close"
+			position = { x= 493 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextboxType = {
+			name = "Ejznrosa"
+			position = { x = 150 y = 26 }
+			font = "hoi_30header"
+			borderSize = {x = 0 y = 0}
+			text = "ejznrosa_election"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+
+		iconType ={
+			name ="ejznrosa_election_pic"
+			spriteType = "GFX_scripted_gui_ejznrosa_election"
+			position = { x= 12 y = 72 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip =  "ejznrosa_election_tip"
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "ejznrosa_Plist"
+			position = { x = 20 y = 75 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "ejznrosa_Plist"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+
+		instantTextboxType = {
+			name = "ejznrosa_NEPL"
+			position = { x = 20 y = 95 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "ejznrosa_NEPL"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+
+		instantTextboxType = {
+			name = "ejznrosa_NEPC"
+			position = { x = 20 y = 115 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "ejznrosa_NEPC"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+
+		instantTextboxType = {
+			name = "ejznrosa_NEPR"
+			position = { x = 20 y = 135 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "ejznrosa_NEPR"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+
+		instantTextboxType = {
+			name = "ejznrosa_DUEL"
+			position = { x = 20 y = 155 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "ejznrosa_DUEL"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+
+		instantTextboxType = {
+			name = "ejznrosa_DUER"
+			position = { x = 20 y = 175 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "ejznrosa_DUER"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+
+		instantTextboxType = {
+			name = "ejznrosa_KGS"
+			position = { x = 20 y = 195 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "ejznrosa_KGS"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+
+		instantTextboxType = {
+			name = "ejznrosa_DSU"
+			position = { x = 20 y = 215 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "ejznrosa_DSU"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+	}
+}

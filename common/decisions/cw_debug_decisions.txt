@@ -1,0 +1,152 @@
+cw_gui_debug_mode = {
+	iw_gui_debug_open_new_gui = {
+
+		icon = generic_industry
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			is_debug = yes
+			tag = EJZ
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			set_country_flag = custom_gui_test
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	iw_gui_debug_close_new_gui = {
+
+		icon = generic_industry
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			is_debug = yes
+			tag = EJZ
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			clr_country_flag = custom_gui_test
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	iw_gui_debug_ejz_nep = {
+
+		icon = generic_industry
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			is_debug = yes
+			tag = EJZ
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			set_country_flag = EJZ_NEP_election
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	iw_gui_debug_ejz_due = {
+
+		icon = generic_industry
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			is_debug = yes
+			tag = EJZ
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			set_country_flag = EJZ_DUE_election
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	iw_gui_debug_ejz_kgs = {
+
+		icon = generic_industry
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			is_debug = yes
+			tag = EJZ
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			set_country_flag = EJZ_KGS_election
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	iw_gui_debug_ejz_dsu = {
+
+		icon = generic_industry
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			is_debug = yes
+			tag = EJZ
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			set_country_flag = EJZ_DSU_election
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

@@ -1,0 +1,62 @@
+scripted_gui = {
+  ejz_election_gui = {
+    window_name = "ejz_election_gui_window"
+    context_type = player_context
+
+    visible = {
+		has_country_flag = custom_gui_test
+    }
+
+    effects = {
+      btn_close_click = {
+        clr_country_flag = custom_gui_test
+      }
+    }
+
+    triggers = {
+      ejznrosa_NEPL_visible = {
+        has_country_flag = EJZ_NEP_election
+      }
+      ejznrosa_NEPC_visible = {
+        has_country_flag = EJZ_NEP_election
+      }
+      ejznrosa_NEPR_visible = {
+        has_country_flag = EJZ_NEP_election
+      }
+      ejznrosa_DUEL_visible = {
+        has_country_flag = EJZ_DUE_election
+      }
+      ejznrosa_DUER_visible = {
+        has_country_flag = EJZ_DUE_election
+      }
+      ejznrosa_KGS_visible = {
+        has_country_flag = EJZ_KGS_election
+      }
+      ejznrosa_DSU_visible = {
+        has_country_flag = EJZ_DSU_election
+      }
+    }
+
+    dynamic_lists = {
+	}
+
+    properties = {
+    }
+
+    ai_enabled = {
+		always = no
+    }
+
+    ai_test_interval = 290  # The higher, the long it takes the ai to do actions
+	  ai_test_variance = 0.5
+
+    ai_check = {
+    }
+
+    ai_check_scope = {
+    }
+
+    ai_weights = {
+    }
+  }
+}
