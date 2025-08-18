@@ -85,7 +85,7 @@ guiTypes = {
 		buttonType ={
 			name ="daekiaelection_uncontest"
 			spriteType = "GFX_scripted_gui_ejz_daekiaelection_uncontest"
-			position = { x= 349 y = 471 }
+			position = { x= 349 y = 473 }
 			Orientation = "UPPER_LEFT"
 		}
 
