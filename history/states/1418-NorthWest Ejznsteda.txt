@@ -1,0 +1,21 @@
+state={
+	id=1418
+	name="STATE_1418"
+	provinces={
+	    11933 11911 11921
+	}
+	resources = {
+		rubber = 1
+		chromium = 1
+	}
+	buildings_max_level_factor=1.000
+		manpower=75000
+		state_category = rural
+	history = {
+		owner = EJZ
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = EJZ
+	}
+}
