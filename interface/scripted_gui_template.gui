@@ -44,6 +44,59 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
+		iconType ={
+			name ="ejz_electionframe"
+			spriteType = "GFX_scripted_gui_ejz_electionframe"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		buttonType ={
+			name ="wokarkelection_uncontest"
+			spriteType = "GFX_scripted_gui_ejz_wokarkelection_uncontest"
+			position = { x= 352 y = 198 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="Wejzelection_uncontest"
+			spriteType = "GFX_scripted_gui_ejz_Wejzelection_uncontest"
+			position = { x= 353 y = 251 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="Eejzelection_uncontest"
+			spriteType = "GFX_scripted_gui_ejz_Eejzelection_uncontest"
+			position = { x= 390 y = 264 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="NEelection_uncontest"
+			spriteType = "GFX_scripted_gui_ejz_NEelection_uncontest"
+			position = { x= 409 y = 235 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="ejznvajkelection_uncontest"
+			spriteType = "GFX_scripted_gui_ejz_ejznvajkelection_uncontest"
+			position = { x= 352 y = 400}
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="daekiaelection_uncontest"
+			spriteType = "GFX_scripted_gui_ejz_daekiaelection_uncontest"
+			position = { x= 349 y = 471 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType ={
+			name ="ejz_electionbordermap"
+			spriteType = "GFX_scripted_gui_ejz_electionbordermap"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
 		instantTextboxType = {
 			name = "ejznrosa_Plist"
 			position = { x = 20 y = 75 }
