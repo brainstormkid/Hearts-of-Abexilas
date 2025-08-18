@@ -96,6 +96,95 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
+		iconType ={
+			name ="state_name_box"
+			spriteType = "GFX_scripted_gui_state_name_box"
+			position = { x= 97 y = 364 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		iconType ={
+			name ="ejz_electionejznsteda"
+			spriteType = "GFX_scripted_gui_election_ejznsteda"
+			position = { x= 20 y = 350 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+		iconType ={
+			name ="ejz_electionwokark"
+			spriteType = "GFX_scripted_gui_election_wokark"
+			position = { x= 20 y = 350 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+		iconType ={
+			name ="ejz_electiondaekia"
+			spriteType = "GFX_scripted_gui_election_daekia"
+			position = { x= 20 y = 350 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "election_state_wokark"
+			position = { x = 125 y = 364 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "election_state_wokark"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_daekia"
+			position = { x = 125 y = 364 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "election_state_daekia"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_westejznsteda"
+			position = { x = 125 y = 364 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "election_state_westejznsteda"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_ejznvajk"
+			position = { x = 125 y = 364 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "election_state_ejznvajk"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_eastejznsteda"
+			position = { x = 125 y = 364 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "election_state_eastejznsteda"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_NEejznsteda"
+			position = { x = 125 y = 364 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "election_state_NEejznsteda"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
 
 		instantTextboxType = {
 			name = "ejznrosa_Plist"

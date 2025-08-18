@@ -44,4 +44,20 @@ spriteTypes = {
 		name = "GFX_scripted_gui_ejz_daekiaelection_uncontest"
 		textureFile = "/gfx/interface/scripted_gui_graphics/daekiaelection_uncontest.dds"
 	}
+	spriteType = {
+		name = "GFX_scripted_gui_election_ejznsteda"
+		textureFile = "/gfx/interface/scripted_gui_graphics/election_ejznsteda.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_election_daekia"
+		textureFile = "/gfx/interface/scripted_gui_graphics/election_daekia.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_election_wokark"
+		textureFile = "/gfx/interface/scripted_gui_graphics/election_wokark.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_state_name_box"
+		textureFile = "/gfx/interface/scripted_gui_graphics/state_name_box.dds"
+	}
 }

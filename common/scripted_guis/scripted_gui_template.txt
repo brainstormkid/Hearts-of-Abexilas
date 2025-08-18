@@ -11,6 +11,54 @@ scripted_gui = {
       btn_close_click = {
         clr_country_flag = custom_gui_test
       }
+      wokarkelection_uncontest_click = {
+        set_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_neejznsteda
+      }
+      daekiaelection_uncontest_click = {
+        set_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_neejznsteda
+      }
+      Eejzelection_uncontest_click = {
+        set_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_neejznsteda
+      }
+      Wejzelection_uncontest_click = {
+        set_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_neejznsteda
+      }
+      NEelection_uncontest_click = {
+        set_country_flag = EJZ_election_neejznsteda
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_eastejznsteda
+      }
+      ejznvajkelection_uncontest_click = {
+        set_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_neejznsteda
+        clr_country_flag = EJZ_election_westejznsteda
+      }
     }
 
     triggers = {
@@ -34,6 +82,38 @@ scripted_gui = {
       }
       ejznrosa_DSU_visible = {
         has_country_flag = EJZ_DSU_election
+      }
+      ejz_electionejznsteda_visible = {
+        OR = {
+          has_country_flag = EJZ_election_eastejznsteda
+          has_country_flag = EJZ_election_ejznvajk
+          has_country_flag = EJZ_election_neejznsteda
+          has_country_flag = EJZ_election_westejznsteda
+        }
+      }
+      ejz_electionwokark_visible = {
+        has_country_flag = EJZ_election_wokark
+      }
+      ejz_electiondaekia_visible = {
+        has_country_flag = EJZ_election_daekia
+      }
+      election_state_daekia_visible = {
+        has_country_flag = EJZ_election_daekia
+      }
+      election_state_wokark_visible = {
+        has_country_flag = EJZ_election_wokark
+      }
+      election_state_westejznsteda_visible = {
+        has_country_flag = EJZ_election_westejznsteda
+      }
+      election_state_eastejznsteda_visible = {
+        has_country_flag = EJZ_election_eastejznsteda
+      }
+      election_state_NEejznsteda_visible = {
+        has_country_flag = EJZ_election_neejznsteda
+      }
+      election_state_ejznvajk_visible = {
+        has_country_flag = EJZ_election_ejznvajk
       }
     }
 
