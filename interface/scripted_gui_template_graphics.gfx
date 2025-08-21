@@ -60,4 +60,8 @@ spriteTypes = {
 		name = "GFX_scripted_gui_state_name_box"
 		textureFile = "/gfx/interface/scripted_gui_graphics/state_name_box.dds"
 	}
+	spriteType = {
+		name = "GFX_scripted_gui_wokarkelection_NEP"
+		textureFile = "/gfx/interface/scripted_gui_graphics/wokarkelection_NEP.dds"
+	}
 }

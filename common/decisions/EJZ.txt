@@ -939,3 +939,28 @@ EJZ_valora_war = {
 		priority = 4
 	}
 }
+######## ELECTION SHIT #########
+
+EJZ_Election = {
+	EJZ_NEP_wokark = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 0
+		fire_only_once = no
+		available = {
+			tag = EJZ
+		}
+		complete_effect = {
+			add_to_variable = {
+				1178.EJZ_NEP_influence = 10
+			}
+		}
+		remove_effect = {
+		}
+		modifier = {
+		}
+		visible = {
+			always = yes
+		}
+		cost = 70
+	}
+}

@@ -1,4 +1,115 @@
 cw_gui_debug_mode = {
+	iw_gui_debug_ejz_election_decisions = {
+
+		icon = generic_industry
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			is_debug = yes
+			tag = EJZ
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			set_country_flag = EJZ_election_decisions
+			EJZ = {
+				1178 = {
+					set_variable = {
+						EJZ_NEP_influence = 0
+					}
+					set_variable = {
+						EJZ_DUE_influence = 0
+					}
+					set_variable = {
+						EJZ_KGS_influence = 0
+					}
+					set_variable = {
+						EJZ_DSU_influence = 0
+					}
+				}
+				1418 = {
+					set_variable = {
+						EJZ_NEP_influence = 0
+					}
+					set_variable = {
+						EJZ_DUE_influence = 0
+					}
+					set_variable = {
+						EJZ_KGS_influence = 0
+					}
+					set_variable = {
+						EJZ_DSU_influence = 0
+					}
+				}
+				1415 = {
+					set_variable = {
+						EJZ_NEP_influence = 0
+					}
+					set_variable = {
+						EJZ_DUE_influence = 0
+					}
+					set_variable = {
+						EJZ_KGS_influence = 0
+					}
+					set_variable = {
+						EJZ_DSU_influence = 0
+					}
+				}
+				659 = {
+					set_variable = {
+						EJZ_NEP_influence = 0
+					}
+					set_variable = {
+						EJZ_DUE_influence = 0
+					}
+					set_variable = {
+						EJZ_KGS_influence = 0
+					}
+					set_variable = {
+						EJZ_DSU_influence = 0
+					}
+				}
+				1177 = {
+					set_variable = {
+						EJZ_NEP_influence = 0
+					}
+					set_variable = {
+						EJZ_DUE_influence = 0
+					}
+					set_variable = {
+						EJZ_KGS_influence = 0
+					}
+					set_variable = {
+						EJZ_DSU_influence = 0
+					}
+				}
+				1176 = {
+					set_variable = {
+						EJZ_NEP_influence = 0
+					}
+					set_variable = {
+						EJZ_DUE_influence = 0
+					}
+					set_variable = {
+						EJZ_KGS_influence = 0
+					}
+					set_variable = {
+						EJZ_DSU_influence = 0
+					}
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
 	iw_gui_debug_open_new_gui = {
 
 		icon = generic_industry
@@ -143,6 +254,31 @@ cw_gui_debug_mode = {
 
 		complete_effect = {
 			set_country_flag = EJZ_DSU_election
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	iw_gui_debug_ejz_campaignNEP = {
+
+		icon = generic_industry
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			is_debug = yes
+			tag = EJZ
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			set_country_flag = EJZ_campaignNEP
 		}
 		
 		ai_will_do = {

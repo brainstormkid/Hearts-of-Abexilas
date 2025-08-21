@@ -60,3 +60,14 @@ EJZ_valora_war = {
     }
     priority = 4
 }
+EJZ_election = {
+    icon = GFX_decision_category_generic_propaganda
+    allowed = {
+        tag = EJZ
+    }
+    visible = {
+        has_country_flag = EJZ_election_decisions
+    }
+    visible_when_empty = yes
+    priority = 3
+}

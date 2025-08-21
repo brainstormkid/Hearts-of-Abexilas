@@ -55,7 +55,13 @@ guiTypes = {
 		buttonType ={
 			name ="wokarkelection_uncontest"
 			spriteType = "GFX_scripted_gui_ejz_wokarkelection_uncontest"
-			position = { x= 352 y = 198 }
+			position = { x= 352 y = 199 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="wokarkelection_NEP"
+			spriteType = "GFX_scripted_gui_wokarkelection_NEP"
+			position = { x= 352 y = 199 }
 			Orientation = "UPPER_LEFT"
 		}
 		buttonType ={
@@ -136,6 +142,56 @@ guiTypes = {
 			fixedsize = yes
 		}
 		instantTextboxType = {
+			name = "election_state_wokark_info"
+			position = { x = 25 y = 410 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "election_state_wokark_info"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_wokark_NEP"
+			position = { x = 25 y = 450 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "var_value_election_state_wokark_NEP"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_wokark_DUE"
+			position = { x = 25 y = 470 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "var_value_election_state_wokark_DUE"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_wokark_KGS"
+			position = { x = 25 y = 490 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "var_value_election_state_wokark_KGS"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_wokark_DSU"
+			position = { x = 25 y = 510 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "var_value_election_state_wokark_DSU"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
 			name = "election_state_daekia"
 			position = { x = 125 y = 364 }
 			font = "hoi_24header"
@@ -143,6 +199,16 @@ guiTypes = {
 			text = "election_state_daekia"
 			maxWidth = 400
 			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_daekia_info"
+			position = { x = 25 y = 410 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "election_state_daekia_info"
+			maxWidth = 325
+			maxHeight = 40
 			fixedsize = yes
 		}
 		instantTextboxType = {
@@ -156,6 +222,16 @@ guiTypes = {
 			fixedsize = yes
 		}
 		instantTextboxType = {
+			name = "election_state_westejznsteda_info"
+			position = { x = 25 y = 410 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "election_state_westejznsteda_info"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
 			name = "election_state_ejznvajk"
 			position = { x = 125 y = 364 }
 			font = "hoi_24header"
@@ -163,6 +239,16 @@ guiTypes = {
 			text = "election_state_ejznvajk"
 			maxWidth = 400
 			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_ejznvajk_info"
+			position = { x = 25 y = 410 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "election_state_ejznvajk_info"
+			maxWidth = 325
+			maxHeight = 40
 			fixedsize = yes
 		}
 		instantTextboxType = {
@@ -176,6 +262,16 @@ guiTypes = {
 			fixedsize = yes
 		}
 		instantTextboxType = {
+			name = "election_state_eastejznsteda_info"
+			position = { x = 25 y = 410 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "election_state_eastejznsteda_info"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
 			name = "election_state_NEejznsteda"
 			position = { x = 125 y = 364 }
 			font = "hoi_24header"
@@ -183,6 +279,16 @@ guiTypes = {
 			text = "election_state_NEejznsteda"
 			maxWidth = 400
 			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_NEejznsteda_info"
+			position = { x = 25 y = 410 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "election_state_NEejznsteda_info"
+			maxWidth = 325
+			maxHeight = 40
 			fixedsize = yes
 		}
 
@@ -269,6 +375,28 @@ guiTypes = {
 			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "ejznrosa_DSU"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		
+		instantTextboxType = {
+			name = "campaign"
+			position = { x = 20 y = 315 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "campaign"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+
+		instantTextboxType = {
+			name = "EJZ_campaign_NEP"
+			position = { x = 250 y = 315 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "campaign_NEP"
 			maxWidth = 400
 			maxHeight = 20
 			fixedsize = yes
