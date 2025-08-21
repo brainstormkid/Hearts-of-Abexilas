@@ -944,23 +944,27 @@ EJZ_valora_war = {
 EJZ_Election = {
 	EJZ_NEP_wokark = {
 		icon = GFX_decision_bul_speech_nsm
-		days_remove = 0
+		days_remove = 20
 		fire_only_once = no
 		available = {
 			tag = EJZ
 		}
-		complete_effect = {
-			add_to_variable = {
-				1178.EJZ_NEP_influence = 10
+		remove_effect = {
+			EJZ = {
+				country_event = ejznrosa.26
 			}
 		}
-		remove_effect = {
+		cancel_trigger = {
+			NOT = {
+				has_country_flag = EJZ_election
+			}
 		}
 		modifier = {
 		}
 		visible = {
 			always = yes
 		}
-		cost = 70
+		fixed_random_seed = no
+		cost = 30
 	}
 }

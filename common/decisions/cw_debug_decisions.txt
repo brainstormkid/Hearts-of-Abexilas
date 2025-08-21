@@ -32,6 +32,9 @@ cw_gui_debug_mode = {
 					set_variable = {
 						EJZ_DSU_influence = 0
 					}
+					set_variable = {
+						EJZ_uncontest_influence = 75
+					}
 				}
 				1418 = {
 					set_variable = {
@@ -45,6 +48,9 @@ cw_gui_debug_mode = {
 					}
 					set_variable = {
 						EJZ_DSU_influence = 0
+					}
+					set_variable = {
+						EJZ_uncontest_influence = 60
 					}
 				}
 				1415 = {
@@ -60,6 +66,9 @@ cw_gui_debug_mode = {
 					set_variable = {
 						EJZ_DSU_influence = 0
 					}
+					set_variable = {
+						EJZ_uncontest_influence = 120
+					}
 				}
 				659 = {
 					set_variable = {
@@ -73,6 +82,9 @@ cw_gui_debug_mode = {
 					}
 					set_variable = {
 						EJZ_DSU_influence = 0
+					}
+					set_variable = {
+						EJZ_uncontest_influence = 140
 					}
 				}
 				1177 = {
@@ -88,6 +100,9 @@ cw_gui_debug_mode = {
 					set_variable = {
 						EJZ_DSU_influence = 0
 					}
+					set_variable = {
+						EJZ_uncontest_influence = 30
+					}
 				}
 				1176 = {
 					set_variable = {
@@ -101,6 +116,9 @@ cw_gui_debug_mode = {
 					}
 					set_variable = {
 						EJZ_DSU_influence = 0
+					}
+					set_variable = {
+						EJZ_uncontest_influence = 75
 					}
 				}
 			}
@@ -128,7 +146,7 @@ cw_gui_debug_mode = {
 		cost = 0
 
 		complete_effect = {
-			set_country_flag = custom_gui_test
+			set_country_flag = EJZ_election
 		}
 		
 		ai_will_do = {
@@ -153,7 +171,7 @@ cw_gui_debug_mode = {
 		cost = 0
 
 		complete_effect = {
-			clr_country_flag = custom_gui_test
+			clr_country_flag = EJZ_election
 		}
 		
 		ai_will_do = {

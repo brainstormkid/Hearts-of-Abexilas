@@ -4,12 +4,12 @@ scripted_gui = {
     context_type = player_context
 
     visible = {
-		has_country_flag = custom_gui_test
+		has_country_flag = EJZ_election
     }
 
     effects = {
       btn_close_click = {
-        clr_country_flag = custom_gui_test
+        clr_country_flag = EJZ_election
       }
       wokarkelection_uncontest_click = {
         set_country_flag = EJZ_election_wokark
