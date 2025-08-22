@@ -944,14 +944,28 @@ EJZ_valora_war = {
 EJZ_Election = {
 	EJZ_NEP_wokark = {
 		icon = GFX_decision_bul_speech_nsm
-		days_remove = 20
+		days_remove = 1
 		fire_only_once = no
 		available = {
 			tag = EJZ
 		}
 		remove_effect = {
-			EJZ = {
-				country_event = ejznrosa.26
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.1
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.2
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.3
+					}
+				}
 			}
 		}
 		cancel_trigger = {
@@ -968,3 +982,4 @@ EJZ_Election = {
 		cost = 30
 	}
 }
+
