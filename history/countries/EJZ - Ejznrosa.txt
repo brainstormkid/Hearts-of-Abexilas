@@ -64,10 +64,14 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	monarchist = 65
-	liberalist = 17
-	radical_nationalist = 5
-	conservatist = 11
+	monarchist = 60
+	radical_nationalist = 9
+	liberalist = 8
+	conservatist = 6
+	progressivist = 6
+	revisionist = 3
+	centrist = 3
+	libertarianist = 3
 	radical_socialist = 2
 }
 recruit_character = EJZ_gus

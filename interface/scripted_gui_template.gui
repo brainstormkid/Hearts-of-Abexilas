@@ -94,6 +94,12 @@ guiTypes = {
 			position = { x= 349 y = 473 }
 			Orientation = "UPPER_LEFT"
 		}
+		buttonType ={
+			name ="daekiaelection_NEP"
+			spriteType = "GFX_scripted_gui_daekiaelection_NEP"
+			position = { x= 349 y = 473 }
+			Orientation = "UPPER_LEFT"
+		}
 
 		iconType ={
 			name ="ejz_electionbordermap"
@@ -207,6 +213,46 @@ guiTypes = {
 			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "election_state_daekia_info"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_daekia_NEP"
+			position = { x = 25 y = 450 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "var_value_election_state_daekia_NEP"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_daekia_DUE"
+			position = { x = 25 y = 470 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "var_value_election_state_daekia_DUE"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_daekia_KGS"
+			position = { x = 25 y = 490 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "var_value_election_state_daekia_KGS"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_daekia_DSU"
+			position = { x = 25 y = 510 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "var_value_election_state_daekia_DSU"
 			maxWidth = 325
 			maxHeight = 40
 			fixedsize = yes
