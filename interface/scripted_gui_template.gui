@@ -51,19 +51,6 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
-
-		buttonType ={
-			name ="wokarkelection_uncontest"
-			spriteType = "GFX_scripted_gui_ejz_wokarkelection_uncontest"
-			position = { x= 352 y = 199 }
-			Orientation = "UPPER_LEFT"
-		}
-		buttonType ={
-			name ="wokarkelection_NEP"
-			spriteType = "GFX_scripted_gui_wokarkelection_NEP"
-			position = { x= 352 y = 199 }
-			Orientation = "UPPER_LEFT"
-		}
 		buttonType ={
 			name ="Wejzelection_uncontest"
 			spriteType = "GFX_scripted_gui_ejz_Wejzelection_uncontest"
@@ -80,6 +67,18 @@ guiTypes = {
 			name ="NEelection_uncontest"
 			spriteType = "GFX_scripted_gui_ejz_NEelection_uncontest"
 			position = { x= 409 y = 235 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="wokarkelection_uncontest"
+			spriteType = "GFX_scripted_gui_ejz_wokarkelection_uncontest"
+			position = { x= 352 y = 199 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="wokarkelection_NEP"
+			spriteType = "GFX_scripted_gui_wokarkelection_NEP"
+			position = { x= 352 y = 198 }
 			Orientation = "UPPER_LEFT"
 		}
 		buttonType ={
