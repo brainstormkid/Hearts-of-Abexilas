@@ -1020,5 +1020,85 @@ EJZ_Election = {
 		fixed_random_seed = no
 		cost = 30
 	}
+	EJZ_NEP_NEejznsteda = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 1
+		fire_only_once = no
+		available = {
+			tag = EJZ
+		}
+		remove_effect = {
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.7
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.8
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.9
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				has_country_flag = EJZ_election
+			}
+		}
+		modifier = {
+		}
+		visible = {
+			always = yes
+		}
+		fixed_random_seed = no
+		cost = 30
+	}
+	EJZ_NEP_Wejznsteda = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 1
+		fire_only_once = no
+		available = {
+			tag = EJZ
+		}
+		remove_effect = {
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.10
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.11
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.12
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				has_country_flag = EJZ_election
+			}
+		}
+		modifier = {
+		}
+		visible = {
+			always = yes
+		}
+		fixed_random_seed = no
+		cost = 30
+	}
 }
+
+
 

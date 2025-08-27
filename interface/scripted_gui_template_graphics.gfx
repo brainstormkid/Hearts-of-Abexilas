@@ -68,4 +68,13 @@ spriteTypes = {
 		name = "GFX_scripted_gui_daekiaelection_NEP"
 		textureFile = "/gfx/interface/scripted_gui_graphics/daekiaelection_NEP.dds"
 	}
+	spriteType = {
+		name = "GFX_scripted_gui_NEejznstedaelection_NEP"
+		textureFile = "/gfx/interface/scripted_gui_graphics/NEelection_NEP.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_Wejznstedaelection_NEP"
+		textureFile = "/gfx/interface/scripted_gui_graphics/Wejzelection_NEP.dds"
+	}
+	
 }

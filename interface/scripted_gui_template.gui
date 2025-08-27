@@ -58,6 +58,12 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 		buttonType ={
+			name ="Wejzelection_NEP"
+			spriteType = "GFX_scripted_gui_Wejznstedaelection_NEP"
+			position = { x= 353 y = 251 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
 			name ="Eejzelection_uncontest"
 			spriteType = "GFX_scripted_gui_ejz_Eejzelection_uncontest"
 			position = { x= 390 y = 264 }
@@ -66,6 +72,12 @@ guiTypes = {
 		buttonType ={
 			name ="NEelection_uncontest"
 			spriteType = "GFX_scripted_gui_ejz_NEelection_uncontest"
+			position = { x= 409 y = 235 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="NEelection_NEP"
+			spriteType = "GFX_scripted_gui_NEejznstedaelection_NEP"
 			position = { x= 409 y = 235 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -277,6 +289,46 @@ guiTypes = {
 			fixedsize = yes
 		}
 		instantTextboxType = {
+			name = "election_state_westejznsteda_NEP"
+			position = { x = 25 y = 450 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "var_value_election_state_westejznsteda_NEP"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_westejznsteda_DUE"
+			position = { x = 25 y = 470 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "var_value_election_state_westejznsteda_DUE"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_westejznsteda_KGS"
+			position = { x = 25 y = 490 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "var_value_election_state_westejznsteda_KGS"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_westejznsteda_DSU"
+			position = { x = 25 y = 510 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "var_value_election_state_westejznsteda_DSU"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
 			name = "election_state_ejznvajk"
 			position = { x = 125 y = 364 }
 			font = "hoi_24header"
@@ -332,6 +384,46 @@ guiTypes = {
 			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "election_state_NEejznsteda_info"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_NEejznsteda_NEP"
+			position = { x = 25 y = 450 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "var_value_election_state_NEejznsteda_NEP"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_NEejznsteda_DUE"
+			position = { x = 25 y = 470 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "var_value_election_state_NEejznsteda_DUE"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_NEejznsteda_KGS"
+			position = { x = 25 y = 490 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "var_value_election_state_NEejznsteda_KGS"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_NEejznsteda_DSU"
+			position = { x = 25 y = 510 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "var_value_election_state_NEejznsteda_DSU"
 			maxWidth = 325
 			maxHeight = 40
 			fixedsize = yes
