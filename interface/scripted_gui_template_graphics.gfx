@@ -76,5 +76,8 @@ spriteTypes = {
 		name = "GFX_scripted_gui_Wejznstedaelection_NEP"
 		textureFile = "/gfx/interface/scripted_gui_graphics/Wejzelection_NEP.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_scripted_gui_Eejzelection_NEP"
+		textureFile = "/gfx/interface/scripted_gui_graphics/Eejzelection_NEP.dds"
+	}
 }

@@ -51,6 +51,14 @@ scripted_gui = {
         clr_country_flag = EJZ_election_ejznvajk
         clr_country_flag = EJZ_election_neejznsteda
       }
+      Eejzelection_NEP_click = {
+        set_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_neejznsteda
+      }
       Wejzelection_uncontest_click = {
         set_country_flag = EJZ_election_westejznsteda
         clr_country_flag = EJZ_election_wokark
@@ -265,6 +273,30 @@ scripted_gui = {
           has_country_flag = EJZ_election_westejznsteda
         }
       }
+      election_state_eastejznsteda_NEP_visible = {
+        AND = {
+          has_country_flag = EJZ_NEP_election
+          has_country_flag = EJZ_election_eastejznsteda
+        }
+      }
+      election_state_eastejznsteda_DUE_visible = {
+        AND = {
+          has_country_flag = EJZ_DUE_election
+          has_country_flag = EJZ_election_eastejznsteda
+        }
+      }
+      election_state_eastejznsteda_KGS_visible = {
+        AND = {
+          has_country_flag = EJZ_KGS_election
+          has_country_flag = EJZ_election_eastejznsteda
+        }
+      }
+      election_state_eastejznsteda_DSU_visible = {
+        AND = {
+          has_country_flag = EJZ_DSU_election
+          has_country_flag = EJZ_election_eastejznsteda
+        }
+      }
       
       EJZ_campaign_NEP_visible = {
         has_country_flag = EJZ_campaignNEP
@@ -384,7 +416,27 @@ scripted_gui = {
           }
         }
       }
+    
+    Eejzelection_NEP_visible = {
+        AND = {
+          check_variable = {
+            var = 1415.EJZ_NEP_influence
+            value = 1415.EJZ_DUE_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1415.EJZ_NEP_influence
+            value = 1415.EJZ_DUE_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1415.EJZ_NEP_influence
+            value = 1415.EJZ_DUE_influence
+            compare = greater_than
+          }
+      }
     }
+    }  
     dynamic_lists = {
 	}
 
