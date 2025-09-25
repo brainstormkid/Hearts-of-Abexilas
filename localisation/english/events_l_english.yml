@@ -3,7 +3,7 @@
  news.1.t:0 "Welcome to Hearts of Abexilas"
  news.1.d:0 "Thank you for trying the Hearts of Abexilas Hoi4 Mod based on the Stoneworks Minecraft Server. We hope Stoneworks Hoi4 enthusiasts and regular hoi4 players can delve into the world of Abexilas and play their favorite nations. This has been a project from which over 100+ Stoneworks players have contributed in turning blocks into Hoi4.\n\nMore developments and updates are coming soon, feel free to join our discord if you are interested or if you have any game bugs to report. Enjoy!\n\nSincerely,\nHoA Development Team"
  news.1.a:1 "Nations - History - Wars - Roleplay"
- 
+
  #Adramis
  adramis.1.t:0 "The Congress of Adramis"
  adramis.1.d:0 "The biggest and most influencial nations of Adramis have come together to discuss the future of the continent. Now it is in their hands to decide wether the continent unites under one rule, or stays divided."
@@ -74,8 +74,21 @@
  gertek.2.d:0 "The Khan has fallen! A new Kingdom is rising from the ashes taking what belongs to them. The Second Kingdom of Maravilla it is called. Its army and will stronger then ever before, it will take its place as the successer to the Gerteks."
  gertek.2.a:0 "A Suprise to be sure"
 
-#Marisvalor
+ #Marisvalor
  marisvalor.3.d:0 "Archduke Klovün Harpenük-Merisvela has stepped down due to running in the Imperial Arbiter races. Some sources say another reason for stepping down was due to Klovün being the oldest man in Abex. For replacement the heir, Radœvünah Harpenük-Merisvela has agreed to take the spot of Archduke while Klovün is away. Will this bring any new changes for Marisvalor?"
+
+ #Ejznrosa
+ ejznrosa.1.d:0 "Now that Agrabeh has declared independence from Aeternus, it's our chance to take advantage of this situation!"
+
+ #Ejznrosa News
+ EJZ_news.1.t:0 "Opening of the Iron Senate in Ejznrosa!"
+ EJZ_news.1.d:0 "After months of construction, the long awaiting Iron Senate is finally completed in Ejznsteda. The Senate will hold Ejznrosa's legislative records, current and past resolutions, governance and political affairs. Not only it stands as a poltical entity within Ejznrosa, but also a symbol of prosperity, progress and unity of the Ejznrosii people. A step towards a brighter future and reflects the pride and determination of the Iron Nation. This also showed that Ejznrosa is prepared to open to the rest of the continent and attract more recognition from the rest of Abexilas!"
+ EJZ_news.2.t:0 "Ejznrosa-Valoran War"
+ EJZ_news.2.d:0 "Tensions have finally boiled between Valora and Ejznrosa, Valora has being advancing on the neighbouring cities of Wokark and Daekia. Ejznrosa is beginning their counter-offensive towards Exaltara and Mertekai, both nations are facing an undeniable threat to their soverignty and survival. Neighbouring states are keeping a close eye on the conflict whether to intervene or stay neutral. The Valdic Blood Pact signed between Valora and Valdic provided with a full military alliance, whether Valdic will honour this pact, only time will tell."
+ EJZ_news.3.t:0 "[VAD.GetName] honours the Valdic Blood Pact!"
+ EJZ_news.3.d:0 "In response to the Ejznrosa-Valoran War, The [VAD.GetName] has honoured its pact with The [VAL.GetName], The Valdic Blood Pact. Providing full military and equipment assistance to the war. The rest of the Valdic Blood Pact signatories has also come to aid with the war with Ejznrosa. This has sparked a major escalation in the war in Iristoya Minor and led the way for other nations decision to intervene or not."
+ EJZ_news.4.t:0 "Scaliga declares war!"
+ EJZ_news.4.d:0 "In response to the [VAD.GetName] joining the war against Ejznrosa. [SCA.GetName] has fully annouced its support for Ejznrosa and providing financial and military aid to Ejznrosa, guaranteeing Ejznrosa's soverignty and freedom. The war continues to escalate, now beyond Iristoya."
  
  #MYRTANA EVENTS
  myrtana_story_events.1.t:0 "Long day in Theos."
@@ -101,7 +114,7 @@
  myrtana_pre_civil.4.d:0 "We managed to send in the spy to inflitrate protestor's city with a sniper rifle and we got report that Aegis was assasinated from getting shot in the back of his head."
  myrtana_pre_civil.4.a:0 "That should do the trick."
  
-#AKASHIRO EVENTS
+ #AKASHIRO EVENTS
  aks_change_in_gear.1.d:0 "The §1Akashiro Shogunate§! is, and has always been an incredible nation, able to punch far above it's own weight much like the Empires of both past and present - yet something in our nation is rotten, and we must steer clear of this corruption before it takes proper hold in our country."
  aks_whiskey.1.d:0 "This is a test event, please work"
  aks_the_yuntsau_question.1.d:0 "The nation of Yun-Tsau has been our friend for as long as the history books remember, but with them falling under troubling times recently, they've approached us requesting to be annexed. We must now make this tough decision, which is sure to have a lasting effect on our nation and it's people for a long time."
@@ -205,7 +218,7 @@
  Arcael.6.a:0 "They can stay, if they do not cause any problems."
  Arcael.6.b:0 "Let them crawl back to whatever inbred palace they came from !"
  Arcael.7.t:0 "An offer from Arcael"
- Arcael.7.d:0 "The Peoples Republic of Arcael, which recently experienced a successful Xeroist revolution, has approached us with a proposition: they offer their diplomatic and military support for our independence in exchange for our assistance in Northern Kejafros. Should we accept?'
+ Arcael.7.d:0 "The Peoples Republic of Arcael, which recently experienced a successful Xeroist revolution, has approached us with a proposition: they offer their diplomatic and military support for our independence in exchange for our assistance in Northern Kejafros. Should we accept?"
  Arcael.7.a:0 "Gladly ! Workers of Kejafros, unite !"
  Arcael.7.b:0 "This is nonsense ! Tell them they can screw off."
  Arcael.8.t:0 "Zilatra Accepts !"
@@ -256,9 +269,6 @@
  #PARAISO EVENTS
  par_make_a_deal.1.t:0 "It Time To Make A Deal, Gertek has thort our plans for too long. We must take our lands back, or we must bite our time."
  par_Ex.1.d:0 
-
-#Ejznrosa
- ejznrosa.1.d:0 "Now that Agrabeh has declared independence from Aeternus, it's our chance to take advantage of this perculiar situation!"
 
  # Marisvalor events
  marisvalor.1.t:0 "First Elections"

@@ -85,11 +85,31 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/akashiro_event_1.dds"
 	}
 
-	#EZJ
+	#EJZ
 	SpriteType = {
 		name = "GFX_ejznrosa_event_1_image"
 		texturefile = "gfx/event_pictures/ejznrosa_event_1.dds"
 	}
+
+	#Ejznrosa News Event
+	SpriteType = {
+		name = "GFX_ejznrosa_news_event_001"
+		texturefile = "gfx/event_pictures/news_EJZ_senate_open.dds"
+	}
+	SpriteType = {
+		name = "GFX_ejznrosa_news_event_002"
+		texturefile = "gfx/event_pictures/news_EJZ_war_ejznrosa_valora.dds"
+	}
+	SpriteType = {
+		name = "GFX_ejznrosa_news_event_003"
+		texturefile = "gfx/event_pictures/news_EJZ_valdic_intervene.dds"
+	}
+	SpriteType = {
+		name = "GFX_ejznrosa_news_event_004"
+		texturefile = "gfx/event_pictures/news_EJZ_scaliga_intervene.dds"
+	}
+
+
 	#MAR
 	SpriteType = {
 		name = "GFX_marisvalor_event_1_image"

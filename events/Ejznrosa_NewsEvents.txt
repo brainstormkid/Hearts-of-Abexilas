@@ -1,0 +1,63 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = EJZ_news
+
+#Opening Senate
+news_event = {
+	id = EJZ_news.1
+	title = EJZ_news.1.t
+	desc =  EJZ_news.1.d
+	picture = GFX_ejznrosa_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Hoorah to Ejznrosa!"
+	}
+}
+news_event = {
+	id = EJZ_news.2
+	title = EJZ_news.2.t
+	desc =  EJZ_news.2.d
+	picture = GFX_ejznrosa_news_event_002
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "A War in Iristoya Minor?"
+	}
+}
+news_event = {
+	id = EJZ_news.3
+	title = EJZ_news.3.t
+	desc =  EJZ_news.3.d
+	picture = GFX_ejznrosa_news_event_003
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Concerning."
+	}
+}
+news_event = {
+	id = EJZ_news.4
+	title = EJZ_news.4.t
+	desc =  EJZ_news.4.d
+	picture = GFX_ejznrosa_news_event_004
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "The War Escalates."
+	}
+}
