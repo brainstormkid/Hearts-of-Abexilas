@@ -658,6 +658,12 @@ country_event = {
 		target = VAL
 		end_wars = no
 	}
+	hidden_effect = {
+		news_event = {
+			id = EJZ_news.3
+			days = 1
+		}
+	}
 	add_war_support = 0.1
     }   
 	option = { #Abandon Valora
@@ -685,7 +691,19 @@ country_event = {
 		target = VAD
 		type = annex_everything
 	}
+	VAD = {
+		news_event = {
+		    id = EJZ_news.4
+		    days = 1
+	    }
+	}
 	add_war_support = 0.1
+	EJZ = {
+		give_military_access = SCA
+	}
+	SCA = {
+		give_military_access = EJZ
+	}
     }   
 	option = { #Abandon Ejznrosa
 	name = "We don't want to escalate the conflict."

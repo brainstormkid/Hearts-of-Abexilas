@@ -26,6 +26,21 @@ on_actions = {
 			}
 		}
 	}
+	on_war = {
+		effect = {
+			if = {
+				limit = {
+					tag = EJZ
+					has_war_with = VAL
+					NOT = {
+					    has_global_flag = EJZ_val_ejz_war
+				    }
+				}
+				news_event = EJZ_news.2
+				set_global_flag = EJZ_val_ejz_war
+			}
+		}
+	}
 	# Nuke Drop Trigger
 	on_nuke_drop = {
 
@@ -140,4 +155,5 @@ on_actions = {
             }
 		}
     }
+}
 }

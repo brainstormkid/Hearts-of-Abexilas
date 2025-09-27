@@ -10,11 +10,8 @@ news_event = {
 	title = EJZ_news.1.t
 	desc =  EJZ_news.1.d
 	picture = GFX_ejznrosa_news_event_001
-	
-	major = yes
-	
+	major = yes  
 	is_triggered_only = yes
-	
 	option = {
 		name = "Hoorah to Ejznrosa!"
 	}
@@ -24,11 +21,10 @@ news_event = {
 	title = EJZ_news.2.t
 	desc =  EJZ_news.2.d
 	picture = GFX_ejznrosa_news_event_002
-	
+	trigger = {
+	}
 	major = yes
-	
 	is_triggered_only = yes
-	
 	option = {
 		name = "A War in Iristoya Minor?"
 	}
@@ -38,11 +34,8 @@ news_event = {
 	title = EJZ_news.3.t
 	desc =  EJZ_news.3.d
 	picture = GFX_ejznrosa_news_event_003
-	
 	major = yes
-	
 	is_triggered_only = yes
-	
 	option = {
 		name = "Concerning."
 	}
@@ -54,10 +47,9 @@ news_event = {
 	picture = GFX_ejznrosa_news_event_004
 	
 	major = yes
-	
-	is_triggered_only = yes
-	
 	option = {
 		name = "The War Escalates."
 	}
+	is_triggered_only = yes
+
 }

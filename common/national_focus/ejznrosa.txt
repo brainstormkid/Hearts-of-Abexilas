@@ -321,6 +321,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = EJZ_extensive_city_planning  } prerequisite = { focus = EJZ_secure_our_nation  } prerequisite = { focus = EJZ_bolster_nationalism  }
+		completion_reward = {
+			news_event = EJZ_news.1
+		}
 	}
 
 	#Economy Ministry
