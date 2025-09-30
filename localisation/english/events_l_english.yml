@@ -88,7 +88,7 @@
  EJZ_news.3.t:0 "[VAD.GetName] honours the Valdic Blood Pact!"
  EJZ_news.3.d:0 "In response to the Ejznrosa-Valoran War, The [VAD.GetName] has honoured its pact with The [VAL.GetName], The Valdic Blood Pact. Providing full military and equipment assistance to the war. The rest of the Valdic Blood Pact signatories has also come to aid with the war with Ejznrosa. This has sparked a major escalation in the war in Iristoya Minor and led the way for other nations decision to intervene or not."
  EJZ_news.4.t:0 "Scaliga declares war!"
- EJZ_news.4.d:0 "In response to the [VAD.GetName] joining the war against Ejznrosa. [SCA.GetName] has fully annouced its support for Ejznrosa and providing financial and military aid to Ejznrosa, guaranteeing Ejznrosa's soverignty and freedom. The war continues to escalate, now beyond Iristoya."
+ EJZ_news.4.d:0 "In response to the [VAD.GetName] joining the war against Ejznrosa. [SCA.GetName] has fully annouced its support for Ejznrosa by providing financial and military aid to Ejznrosa, guaranteeing Ejznrosa's soverignty and freedom. The war continues to escalate, now beyond Iristoya."
  
  #MYRTANA EVENTS
  myrtana_story_events.1.t:0 "Long day in Theos."
