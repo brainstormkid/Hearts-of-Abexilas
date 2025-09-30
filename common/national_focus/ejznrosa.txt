@@ -13,8 +13,8 @@ focus_tree = {
 	focus = {
 		id = EJZ_food_for_the_population
 		icon = GFX_focus_hol_abandon_the_gold_standard
-		x = 21
-		y = 4
+		x = 31
+		y = 3
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_STABILITY
@@ -162,13 +162,49 @@ focus_tree = {
 	focus = {
 		id = EJZ_organize_the_ministers
 		icon = GFX_focus_ETH_re-convene_the_parliament
-		x = 28
-		y = 2
+		x = 33
+		y = 0
 		cost = 3
+		available = {
+			has_completed_focus = EJZ_thedukesgovernment
+		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = EJZ_thedukesgovernment  }
+		completion_reward = {
+			add_political_power = 25
+		}
+	}
+	#Civilian Ministries
+	focus = {
+		id = EJZ_civilian_ministries
+		icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility
+		x = 26
+		y = 1
+		cost = 3
+		prerequisite = {
+			focus = EJZ_organize_the_ministers
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 25
+		}
+	}
+	#War Ministries
+	focus = {
+		id = EJZ_war_ministries
+		icon = GFX_SOV_expand_the_aircraft_industry_ccp_2d_sov_compatibility
+		x = 40
+		y = 1
+		cost = 3
+		prerequisite = {
+			focus = EJZ_organize_the_ministers
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
 		completion_reward = {
 			add_political_power = 25
 		}
@@ -178,13 +214,88 @@ focus_tree = {
 	focus = {
 		id = EJZ_construction_ministry
 		icon = GFX_goal_generic_construct_civilian
-		x = 29
-		y = 3
+		x = 22
+		y = 2
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = EJZ_organize_the_ministers  }
+		prerequisite = { focus = EJZ_civilian_ministries }
+		completion_reward = {
+			add_political_power = 5
+		}
+	}
+    #Construct Wokark Airfields
+	focus = {
+		id = EJZ_construct_wokark_air_fields
+		icon = GFX_goal_generic_air_fighter
+		x = 18
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_construction_ministry }
+		completion_reward = {
+			add_political_power = 5
+		}
+	}
+	#Government Owned Markets
+	focus = {
+		id = EJZ_state_owned_markets
+		icon = GFX_focus_DEN_no_regulations
+		x = 27
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_nationalize_businesses }
+		completion_reward = {
+			add_political_power = 5
+		}
+	}
+	#Promote local Businesses
+	focus = {
+		id = EJZ_promote_local_businesses
+		icon = GFX_SOV_aristocratic_investments_ccp_2d_sov_compatibility
+		x = 23
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_encourage_a_free_market }
+		completion_reward = {
+			add_political_power = 5
+		}
+	}
+	#Attract Foreign Investors
+	focus = {
+		id = EJZ_attract_foreign_investors
+		icon = GFX_focus_mex_privatisation
+		x = 23
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_promote_local_businesses }
+		completion_reward = {
+			add_political_power = 5
+		}
+	}
+	#Initiate Price Controls
+	focus = {
+		id = EJZ_intitiate_price_controls
+		icon = GFX_SOV_the_faithful_servant_of_lenin_ccp_2d_sov_compatibility
+		x = 27
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_state_owned_markets }
 		completion_reward = {
 			add_political_power = 5
 		}
@@ -194,8 +305,8 @@ focus_tree = {
 	focus = {
 		id = EJZ_mountain_mining_operations
 		icon = GFX_focus_GRE_a_land_of_mountains
-		x = 22
-		y = 5
+		x = 30
+		y = 4
 		cost = 7
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -224,8 +335,8 @@ focus_tree = {
 	focus = {
 		id = EJZ_urbanization
 		icon = GFX_EJZ_urbanization
-		x = 28
-		y = 5
+		x = 21
+		y = 3
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -260,34 +371,117 @@ focus_tree = {
 			}
 		}
 	}
-
-	#Production Ministry
+	#Improve the Railway Network
 	focus = {
-		id = EJZ_production_ministry
-		icon = GFX_goal_generic_construction2
-		x = 22
-		y = 3
+		id = EJZ_improve_the_rail_way_network
+		icon = GFX_focus_generic_railroad
+		x = 20
+		y = 4
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = EJZ_organize_the_ministers  }
+		prerequisite = { focus = EJZ_urbanization  }
+		completion_reward = {
+			add_political_power = 5
+		}
+	}
+	#Construct more Housing
+	focus = {
+		id = EJZ_construct_housing_complexes
+		icon = GFX_focus_SWE_hygienic_housing
+		x = 22
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_urbanization focus = EJZ_invest_in_civilian_industries  }
 		completion_reward = {
 			add_political_power = 5
 		}
 	}
 
-	#Ejznrosii Task System
+	#Production Ministry
 	focus = {
-		id = EJZ_ejznrosii_task_system
-		icon = GFX_focus_hol_the_foundations_of_defense
-		x = 25
-		y = 6
+		id = EJZ_production_ministry
+		icon = GFX_goal_generic_construction2
+		x = 30
+		y = 2
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = EJZ_urbanization  } prerequisite = { focus = EJZ_mountain_mining_operations  } prerequisite = { focus = EJZ_manage_national_capital  }
+		prerequisite = { focus = EJZ_civilian_ministries  }
+		completion_reward = {
+			add_political_power = 5
+		}
+	}
+	#Reduce Resource Spending
+	focus = {
+		id = EJZ_reduce_resource_spending
+		icon = GFX_focus_ITA_devaluate_the_lire
+		x = 28
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_manage_national_capital  }
+		prerequisite = {
+			focus = EJZ_production_ministry
+		}
+		completion_reward = {
+			add_political_power = 5
+		}
+	}
+	#Kickstart Fuel Production
+	focus = {
+		id = EJZ_kickstart_fuel_production
+		icon = GFX_SOV_oil_production_ccp_2d_sov_compatibility
+		x = 32
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_production_ministry  }
+		completion_reward = {
+			add_political_power = 5
+		}
+	}
+	#Resources for our Nation
+	focus = {
+		id = EJZ_resources_for_our_nation
+		icon = GFX_focus_GER_autarky_achieved
+		x = 30
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_kickstart_fuel_production  }
+		prerequisite = { focus = EJZ_reduce_resource_spending  }
+		prerequisite = { focus = EJZ_mountain_mining_operations  }
+		completion_reward = {
+			add_political_power = 5
+		}
+	}
+	
+
+	#Ejznrosii Task System
+	focus = {
+		id = EJZ_ejznrosii_task_system
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 33
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = {
+			focus = EJZ_organize_the_ministers
+		}
 		completion_reward = {
 			add_ideas = EJZ_task_system
 		}
@@ -297,16 +491,31 @@ focus_tree = {
 	focus = {
 		id = EJZ_extensive_city_planning
 		icon = GFX_EJZ_extensive_planning
-		x = 23
-		y = 7
+		x = 20
+		y = 6
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = EJZ_ejznrosii_task_system  }
+		prerequisite = { focus = EJZ_infrastructure_investment  }
 		completion_reward = {
 			add_ideas = EJZ_extensive_city_planning
 			custom_effect_tooltip = EJZ_city_planning
+		}
+	}
+	#University of Ejznsteda
+	focus = {
+		id = EJZ_university_of_ejznsteda
+		icon = GFX_focus_generic_university_1
+		x = 20
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = EJZ_extensive_city_planning  }
+		completion_reward = {
+			add_research_slot = 1
 		}
 	}
 
@@ -330,13 +539,13 @@ focus_tree = {
 	focus = {
 		id = EJZ_economy_ministry
 		icon = GFX_SOV_planned_economy_ccp_2d_sov_compatibility
-		x = 27
-		y = 3
+		x = 26
+		y = 2
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = EJZ_organize_the_ministers  }
+		prerequisite = { focus = EJZ_civilian_ministries  }
 		completion_reward = {
 			add_political_power = 5
 		}
@@ -345,9 +554,9 @@ focus_tree = {
 	#Manage National Capital
 	focus = {
 		id = EJZ_manage_national_capital
-		icon = GFX_focus_usa_reestablish_the_gold_standard
-		x = 25
-		y = 4
+		icon = GFX_focus_generic_monetary_union
+		x = 26
+		y = 3
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -360,18 +569,163 @@ focus_tree = {
 			}
 		}
 	}
-	
-	#Defense Ministry
+	#Establish the Bank of Ejznrosa
 	focus = {
-		id = EJZ_defense_ministry
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 32
+		id = EJZ_establish_the_bank_of_ejznrosa
+		icon = GFX_focus_CONGO_gold_and_diamonds
+		x = 25
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_construction_ministry  }
+		prerequisite = { focus = EJZ_manage_national_capital }
+		completion_reward = {
+		}
+	}
+	#Build Projects for the Population
+	focus = {
+		id = EJZ_build_projects_for_the_population
+		icon = GFX_focus_generic_population_growth
+		x = 19
 		y = 3
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = EJZ_organize_the_ministers  }
+		prerequisite = { focus = EJZ_construction_ministry  }
+		completion_reward = {
+		}
+	}
+	#Infrastructure Investment
+	focus = {
+		id = EJZ_infrastructure_investment
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 21
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_construct_housing_complexes focus = EJZ_improve_the_rail_way_network  }
+		completion_reward = {
+		}
+	}
+	#Encourage a Free Market
+	focus = {
+		id = EJZ_encourage_a_free_market
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 24
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_establish_the_bank_of_ejznrosa  }
+		mutually_exclusive = {
+			focus = EJZ_nationalize_businesses
+		}
+		completion_reward = {
+		}
+	}
+	#Nationalize Businesses
+	focus = {
+		id = EJZ_nationalize_businesses
+		icon = GFX_focus_generic_price_controls
+		x = 26
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_establish_the_bank_of_ejznrosa  }
+		mutually_exclusive = {
+			focus = EJZ_encourage_a_free_market
+		}
+		completion_reward = {
+		}
+	}
+	#Lower Taxes
+	focus = {
+		id = EJZ_lower_taxes
+		icon = GFX_focus_RAJ_war_taxes
+		x = 25
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_nationalize_businesses focus = EJZ_encourage_a_free_market }
+		completion_reward = {
+		}
+	}
+	#Agriculture Reforms
+	focus = {
+		id = EJZ_agricultural_reforms
+		icon = GFX_focus_generic_agricultural_subsidies
+		x = 25
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_lower_taxes }
+		completion_reward = {
+		}
+	}
+	#Centralized Economy
+	focus = {
+		id = EJZ_centralized_economy
+		icon = GFX_focus_CHL_strengthen_the_central_bank
+		x = 26
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_agricultural_reforms }
+		prerequisite = {
+			focus = EJZ_intitiate_price_controls 
+		}
+		mutually_exclusive = {
+			focus = EJZ_free_market_economy
+		}
+		completion_reward = {
+		}
+	}
+	#Free Market Economy
+	focus = {
+		id = EJZ_free_market_economy
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 24
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_agricultural_reforms }
+		prerequisite = {
+			focus = EJZ_attract_foreign_investors
+		}
+		mutually_exclusive = {
+			focus = EJZ_centralized_economy
+		}
+		completion_reward = {
+		}
+	}
+	
+	#Defense Ministry
+	focus = {
+		id = EJZ_defense_ministry
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 36
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = EJZ_war_ministries }
 		completion_reward = {
 			add_political_power = 5
 		}
@@ -381,13 +735,13 @@ focus_tree = {
 	focus = {
 		id = EJZ_construct_military_industries
 		icon = GFX_goal_generic_construct_mil_factory
-		x = 31
-		y = 4
+		x = 35
+		y = 3
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = EJZ_construction_ministry  } prerequisite = { focus = EJZ_defense_ministry  }
+		prerequisite = { focus = EJZ_defense_ministry  }
 		completion_reward = {
 			659 = {
 				add_extra_state_shared_building_slots = 3
@@ -404,8 +758,8 @@ focus_tree = {
 	focus = {
 		id = EJZ_increase_defense_budget
 		icon = GFX_SOV_annex_tannu_tuva_ccp_2d_sov_compatibility
-		x = 33
-		y = 4
+		x = 37
+		y = 3
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -423,8 +777,8 @@ focus_tree = {
 	focus = {
 		id = EJZ_government_arms_contract
 		icon = GFX_goal_generic_small_arms
-		x = 30
-		y = 5
+		x = 34
+		y = 4
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -442,13 +796,28 @@ focus_tree = {
 	focus = {
 		id = EJZ_recruitment_ministry
 		icon = GFX_focus_generic_manpower
-		x = 36
-		y = 3
+		x = 40
+		y = 2
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
-		prerequisite = { focus = EJZ_organize_the_ministers  }
+		prerequisite = { focus = EJZ_war_ministries  }
+		completion_reward = {
+			add_political_power = 5
+		}
+	}
+	#Propaganda Ministry
+	focus = {
+		id = EJZ_propaganda_ministry
+		icon = GFX_focus_generic_manpower
+		x = 44
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = EJZ_war_ministries  }
 		completion_reward = {
 			add_political_power = 5
 		}
@@ -458,8 +827,8 @@ focus_tree = {
 	focus = {
 		id = EJZ_desperate_measures
 		icon = GFX_SOV_carry_revolution_east_ccp_2d_sov_compatibility
-		x = 37
-		y = 4
+		x = 41
+		y = 3
 		cost = 3
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
@@ -478,9 +847,9 @@ focus_tree = {
 	focus = {
 		id = EJZ_army_modernization
 		icon = GFX_focus_chi_army_reform
-		x = 34
-		y = 5
-		cost = 10
+		x = 38
+		y = 4
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
@@ -520,13 +889,13 @@ focus_tree = {
 	focus = {
 		id = EJZ_equipment_focus
 		icon = GFX_goal_generic_small_arms
-		x = 30
-		y = 6
+		x = 36
+		y = 4
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = EJZ_government_arms_contract  }
+		prerequisite = { focus = EJZ_construct_military_industries  }
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.2
@@ -557,13 +926,12 @@ focus_tree = {
 	focus = {
 		id = EJZ_civilian_focus
 		icon = GFX_goal_generic_construct_civ_factory
-		x = 27
-		y = 8
+		x = 40
+		y = 10
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = EJZ_invest_in_civilian_industries  }
 		mutually_exclusive = {focus = EJZ_military_focus}
 		completion_reward = {
 			add_ideas = EJZ_civilian_focus
@@ -574,8 +942,8 @@ focus_tree = {
 	focus = {
 		id = EJZ_military_focus
 		icon = GFX_goal_generic_construct_mil_factory
-		x = 29
-		y = 8
+		x = 42
+		y = 10
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -591,8 +959,8 @@ focus_tree = {
 	focus = {
 		id = EJZ_wokark_canal_works
 		icon = GFX_focus_BEL_dam_the_consequences
-		x = 21
-		y = 8
+		x = 19
+		y = 5
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -605,7 +973,7 @@ focus_tree = {
 				is_owned_by = EJZ
 			}
 		}
-		prerequisite = { focus = EJZ_extensive_city_planning  }
+		prerequisite = { focus = EJZ_improve_the_rail_way_network }
 		completion_reward = {
 			add_offsite_building = {
 				type = industrial_complex
@@ -626,13 +994,13 @@ focus_tree = {
 	focus = {
 		id = EJZ_invest_in_civilian_industries
 		icon = GFX_goal_generic_construct_civ_factory
-		x = 27
-		y = 6
+		x = 23
+		y = 3
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = EJZ_urbanization  }
+		prerequisite = { focus = EJZ_construction_ministry  }
 		completion_reward = {
 			1415 = {
 				add_extra_state_shared_building_slots = 3
@@ -952,13 +1320,13 @@ focus_tree = {
 	focus = {
 		id = EJZ_expand_river_dockyards
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 19
-		y = 8
+		x = 18
+		y = 6
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = EJZ_extensive_city_planning  }
+		prerequisite = { focus = EJZ_wokark_canal_works }
 		completion_reward = {
 			659 = {
 				add_building_construction = {
@@ -1315,8 +1683,8 @@ focus_tree = {
 	focus = {
 		id = EJZ_begin_conscription
 		icon = GFX_focus_usa_honor_the_confederacy
-		x = 35
-		y = 4
+		x = 39
+		y = 3
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
@@ -1592,8 +1960,8 @@ focus_tree = {
 	focus = {
 		id = EJZ_national_farming_production
 		icon = GFX_focus_generic_farmland
-		x = 23
-		y = 4
+		x = 29
+		y = 3
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -1613,7 +1981,7 @@ focus_tree = {
 	focus = {
 		id = EJZ_the_great_gold_strain
 		icon = GFX_focus_ITA_devaluate_the_lire
-		x = 40
+		x = 50
 		y = 3
 		cost = 0
 		search_filters = {
@@ -1631,7 +1999,7 @@ focus_tree = {
 	focus = {
 		id = EJZ_rebuild_the_economy1
 		icon = GFX_goal_generic_position_armies
-		x = 40
+		x = 50
 		y = 4
 		cost = 10
 		search_filters = {
@@ -1658,7 +2026,7 @@ focus_tree = {
 	focus = {
 		id = EJZ_recentralize_the_nation1
 		icon = GFX_focus_generic_self_management
-		x = 40
+		x = 50
 		y = 5
 		cost = 10
 		search_filters = {
@@ -1681,7 +2049,7 @@ focus_tree = {
 	focus = {
 		id = EJZ_economic_boost
 		icon = GFX_focus_generic_self_management
-		x = 40
+		x = 50
 		y = 6
 		cost = 10
 		search_filters = {
