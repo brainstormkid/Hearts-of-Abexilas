@@ -376,6 +376,10 @@ spriteTypes = {
 	}
 
 	#Ejznrosa
+	spriteType = {
+		name = "GFX_idea_ejznrosa_army"
+		textureFile =  "gfx/interface/ideas/idea_ejznrosa_army.dds"
+	}
 	SpriteType = { 
 		name = "GFX_idea_scaliga_mercenaries"
 		texturefile = "gfx/interface/ideas/idea_scaliga_mercenaries.dds"
@@ -397,4 +401,4 @@ spriteTypes = {
 		name = "GFX_idea_invest_in_blockheed"
 		texturefile = "gfx/interface/ideas/invest_in_blockheed.dds"
 	}
- }
+}

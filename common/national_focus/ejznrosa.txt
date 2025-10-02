@@ -1,6 +1,6 @@
 focus_tree = {
 	id = ejznrosa-focus_tree
-	continuous_focus_position = { x = -40 y = 3260 } 
+	continuous_focus_position = { x = -40 y = 2000 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -83,13 +83,13 @@ focus_tree = {
 	focus = {
 		id = EJZ_antitank_research
 		icon = GFX_focus_generic_anti_tank_guns
-		x = 35
-		y = 8
-		cost = 10
+		x = 57
+		y = 2
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = EJZ_on_the_offensive  }
+		prerequisite = { focus = EJZ_an_iron_army  }
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.2
@@ -103,19 +103,48 @@ focus_tree = {
 	focus = {
 		id = EJZ_antiair_research
 		icon = GFX_focus_PER_construct_air_defenses
-		x = 38
-		y = 7
+		x = 50
+		y = 3
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = EJZ_artillery_focus  }
+		prerequisite = { focus = EJZ_artillery_focus focus = EJZ_increase_army_training  }
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.2
-				uses = 1
+				uses = 2
 				category = cat_anti_air
 			}
+		}
+	}
+
+	#Increase Army Training
+	focus = {
+		id = EJZ_increase_army_training
+		icon = GFX_SOV_war_measures_in_the_east_ccp_2d_sov_compatibility
+		x = 51
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = EJZ_a_traditional_army  }
+		completion_reward = {
+		}
+	}
+	#Mass Artillery Bombardment
+	focus = {
+		id = EJZ_mass_artillery_bombardment
+		icon = GFX_goal_generic_army_artillery
+		x = 48
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = EJZ_artillery_focus }
+		completion_reward = {
 		}
 	}
 
@@ -869,13 +898,13 @@ focus_tree = {
 	focus = {
 		id = EJZ_artillery_focus
 		icon = GFX_goal_generic_army_artillery2
-		x = 37
-		y = 6
-		cost = 10
+		x = 49
+		y = 2
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = EJZ_army_modernization  }
+		prerequisite = { focus = EJZ_a_traditional_army }
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.2
@@ -909,13 +938,19 @@ focus_tree = {
 	focus = {
 		id = EJZ_ejznrosii_military_academy
 		icon = GFX_focus_generic_military_academy
-		x = 34
-		y = 10
+		x = 54
+		y = 7
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = EJZ_offensive_doctrine  focus = EJZ_defensive_doctrine  }
+		prerequisite = {
+			focus = EJZ_defense_of_tejwez
+			focus = EJZ_glory_of_tejwez
+		}
+		prerequisite = {
+			focus = EJZ_improve_the_supply_system
+		}
 		completion_reward = {
 			add_research_slot = 1
 			army_experience = 10
@@ -1106,13 +1141,13 @@ focus_tree = {
 	focus = {
 		id = EJZ_prioritize_defense
 		icon = GFX_SOV_lessons_of_war_ccp_2d_sov_compatibility
-		x = 33
-		y = 6
+		x = 56
+		y = 4
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = EJZ_government_arms_contract  } prerequisite = { focus = EJZ_army_modernization  }
+		prerequisite = { focus = EJZ_a_traditional_army focus = EJZ_an_iron_army  }
 		mutually_exclusive = {focus = EJZ_on_the_offensive}
 		completion_reward = {
 			add_doctrine_cost_reduction = {
@@ -1132,13 +1167,13 @@ focus_tree = {
 	focus = {
 		id = EJZ_on_the_offensive
 		icon = GFX_focus_RAJ_lions_of_the_great_war
-		x = 35
-		y = 6
+		x = 52
+		y = 4
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
 		cost = 10
-		prerequisite = { focus = EJZ_government_arms_contract  } prerequisite = { focus = EJZ_army_modernization  }
+		prerequisite = { focus = EJZ_a_traditional_army focus = EJZ_an_iron_army  }
 		mutually_exclusive = { focus = EJZ_prioritize_defense  }
 		completion_reward = {
 			add_doctrine_cost_reduction = {
@@ -1164,7 +1199,6 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = EJZ_prioritize_defense  focus = EJZ_on_the_offensive  }
 		completion_reward = {
 			1177 = {
 				add_building_construction = {
@@ -1193,13 +1227,13 @@ focus_tree = {
 	focus = {
 		id = EJZ_jungle_specialists
 		icon = GFX_goal_generic_special_forces
-		x = 34
-		y = 7
+		x = 54
+		y = 3
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = EJZ_prioritize_defense  focus = EJZ_on_the_offensive  }
+		prerequisite = { focus = EJZ_a_traditional_army  focus = EJZ_an_iron_army  }
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
@@ -1221,7 +1255,6 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = EJZ_prioritize_defense  }
 		completion_reward = {
 			1178 = {
 				add_building_construction = {
@@ -1246,72 +1279,22 @@ focus_tree = {
 		}
 	}
 
-	#Defensive Doctrine
-	focus = {
-		id = EJZ_defensive_doctrine
-		icon = GFX_focus_generic_coastal_fort
-		x = 32
-		y = 9
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		prerequisite = { focus = EJZ_ejznvajk_mountain_fortification  } prerequisite = { focus = EJZ_wokark_fortification_efforts  }
-		completion_reward = {
-			add_doctrine_cost_reduction = {
-				cost_reduction = 0.2
-	            uses = 2
-	            category = cat_grand_battle_plan
-			}
-			add_doctrine_cost_reduction = {
-				cost_reduction = 0.2
-	            uses = 2
-	            category = cat_mass_assault
-			}
-		}
-	}
-
 	#Armor Research
 	focus = {
 		id = EJZ_armor_research
-		icon = GFX_goal_generic_army_tanks
-		x = 36
-		y = 7
+		icon = GFX_focus_generic_tankette
+		x = 59
+		y = 2
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = EJZ_on_the_offensive  focus = EJZ_defensive_doctrine  }
+		prerequisite = { focus = EJZ_an_iron_army }
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.2
 				uses = 2
 				category = armor
-			}
-		}
-	}
-
-	#Offensive Doctrine
-	focus = {
-		id = EJZ_offensive_doctrine
-		icon = GFX_focus_RAJ_lions_of_the_great_war
-		x = 36
-		y = 9
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		prerequisite = { focus = EJZ_armor_research  } prerequisite = { focus = EJZ_antitank_research  }
-		completion_reward = {
-			add_doctrine_cost_reduction = {
-				cost_reduction = 0.2
-	            uses = 2
-	            category = cat_mobile_warfare
-			}
-			add_doctrine_cost_reduction = {
-				cost_reduction = 0.2
-	            uses = 2
-	            category = cat_superior_firepower
 			}
 		}
 	}
@@ -1981,8 +1964,8 @@ focus_tree = {
 	focus = {
 		id = EJZ_the_great_gold_strain
 		icon = GFX_focus_ITA_devaluate_the_lire
-		x = 50
-		y = 3
+		x = 30
+		y = 6
 		cost = 0
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -1999,8 +1982,8 @@ focus_tree = {
 	focus = {
 		id = EJZ_rebuild_the_economy1
 		icon = GFX_goal_generic_position_armies
-		x = 50
-		y = 4
+		x = 30
+		y = 7
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -2026,8 +2009,8 @@ focus_tree = {
 	focus = {
 		id = EJZ_recentralize_the_nation1
 		icon = GFX_focus_generic_self_management
-		x = 50
-		y = 5
+		x = 30
+		y = 8
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_STABILITY
@@ -2049,8 +2032,8 @@ focus_tree = {
 	focus = {
 		id = EJZ_economic_boost
 		icon = GFX_focus_generic_self_management
-		x = 50
-		y = 6
+		x = 30
+		y = 9
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_STABILITY
@@ -2064,6 +2047,207 @@ focus_tree = {
 		}
 		ai_will_do = {
 			base = 100
+		}
+	}
+
+	#The Ejzermkejt
+	focus = {
+		id = EJZ_the_ejzermkejt
+		icon = GFX_focus_GER_glory_to_the_imperial_army
+		x = 54
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		available = {
+			has_completed_focus = EJZ_army_modernization
+		}
+		completion_reward = {
+		}
+	}
+	#A Traditional Army
+	focus = {
+		id = EJZ_a_traditional_army
+		icon = GFX_focus_GER_prussian_legacy
+		x = 52
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = {
+			focus = EJZ_the_ejzermkejt
+		}
+		mutually_exclusive = {
+			focus = EJZ_an_iron_army
+		}
+		completion_reward = {
+		}
+	}
+	#An "Iron" Army
+	focus = {
+		id = EJZ_an_iron_army
+		icon = GFX_focus_generic_tank_assault
+		x = 56
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = {
+			focus = EJZ_the_ejzermkejt
+		}
+		mutually_exclusive = {
+			focus = EJZ_a_traditional_army
+		}
+		completion_reward = {
+		}
+	}
+	#Motorize the Army
+	focus = {
+		id = EJZ_motorize_the_army
+		icon = GFX_goal_generic_army_motorized
+		x = 53
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = {
+			focus = EJZ_a_traditional_army focus = EJZ_an_iron_army
+		}
+		completion_reward = {
+		}
+	}
+	#Salvage Captured Equipment
+	focus = {
+		id = EJZ_salvage_captured_equipment
+		icon = GFX_focus_FIN_salvaged_and_retooled
+		x = 55
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = {
+			focus = EJZ_a_traditional_army focus = EJZ_an_iron_army
+		}
+		completion_reward = {
+		}
+	}
+	#Fund Heavy Tank Program
+	focus = {
+		id = EJZ_fund_heavy_tank_development
+		icon = GFX_focus_generic_heavy_tank
+		x = 58
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = {
+			focus = EJZ_armor_research focus = EJZ_antitank_research
+		}
+		completion_reward = {
+		}
+	}
+	#Lightning Warfare
+	focus = {
+		id = EJZ_lightning_warfare
+		icon = GFX_focus_generic_army_tanks2
+		x = 60
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = {
+			focus = EJZ_armor_research
+		}
+		completion_reward = {
+		}
+	}
+	#The Iron Front
+	focus = {
+		id = EJZ_the_iron_front
+		icon = GFX_focus_GER_all_for_the_front
+		x = 57
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = {
+			focus = EJZ_prioritize_defense
+		}
+		completion_reward = {
+		}
+	}
+	#Defense of Tejwez
+	focus = {
+		id = EJZ_defense_of_tejwez
+		icon = GFX_focus_SWE_hedgehog_defense
+		x = 56
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = {
+			focus = EJZ_the_iron_front
+		}
+		completion_reward = {
+		}
+	}
+	#Improve Supply System
+	focus = {
+		id = EJZ_improve_the_supply_system
+		icon = GFX_focus_generic_reinforcing_the_supply_network
+		x = 54
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = {
+			focus = EJZ_on_the_offensive
+			focus = EJZ_prioritize_defense
+		}
+		completion_reward = {
+		}
+	}
+	#Intensify Army Training
+	focus = {
+		id = EJZ_intensify_army_training
+		icon = GFX_SOV_intensify_pilot_training_program_ccp_2d_sov_compatibility
+		x = 51
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = {
+			focus = EJZ_on_the_offensive
+			focus = EJZ_prioritize_defense
+		}
+		completion_reward = {
+		}
+	}
+	#Glory of Tejwez
+	focus = {
+		id = EJZ_glory_of_tejwez
+		icon = GFX_SOV_strengthen_the_mobilization_plan_ccp_2d_sov_compatibility
+		x = 52
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = {
+			focus = EJZ_intensify_army_training
+		}
+		completion_reward = {
 		}
 	}
 }
