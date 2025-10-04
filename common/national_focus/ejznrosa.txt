@@ -2328,6 +2328,10 @@ focus_tree = {
 			add_to_variable = {
 				EJZ_org = 0.15
 			}
+			add_equipment_to_stockpile = {
+				type = train_equipment_1
+				amount = 100
+			}
 		}
 	}
 	#Intensify Army Training
