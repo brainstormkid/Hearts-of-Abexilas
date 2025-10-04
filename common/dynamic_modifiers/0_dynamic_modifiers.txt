@@ -25,7 +25,28 @@
 #
 #	can be added to countries, states, unit leaders or special projects
 #	will only updated daily, unless forced by force_update_dynamic_modifier effect
-
+EJZ_the_ejzermkejt_idea = {
+	icon = GFX_idea_ejznrosa_army
+	enable = {
+		always = yes
+	}
+	remove_trigger = {
+		always = no
+	}
+	army_artillery_attack_factor = EJZ_artillery_A
+	army_artillery_defence_factor = EJZ_artillery_D
+	army_armor_attack_factor = EJZ_tank_A
+	army_armor_defence_factor = EJZ_tank_D
+	army_attack_factor = EJZ_offense
+	army_defence_factor = EJZ_defense
+	army_org_factor = EJZ_org
+	training_time_factor = EJZ_train
+	supply_consumption_factor = EJZ_supply
+	experience_gain_army_factor = EJZ_exp
+	army_speed_factor = EJZ_speed
+	equipment_capture_factor = EJZ_capture_equipment
+	production_speed_bunker_factor = EJZ_fort
+}
 tanuki = {
 	
 	icon = GFX_modifiers_tanuki

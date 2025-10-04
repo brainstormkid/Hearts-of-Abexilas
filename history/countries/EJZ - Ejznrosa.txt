@@ -4,7 +4,23 @@ oob = "EJZ"
 puppet = FLA
 add_ideas = EJZ_scaliga_mercenaries
 add_ideas = EJZ_two_dukes_system
-add_ideas = EJZ_the_ejzermkejt_idea
+add_dynamic_modifier = {
+	modifier = EJZ_the_ejzermkejt_idea
+}
+### Ejznmkejt Dynamic Modifier Variables ###
+set_variable = {EJZ_artillery_A = 0 }
+set_variable = {EJZ_artillery_D = 0 }
+set_variable = {EJZ_tank_A = 0 }
+set_variable = {EJZ_tank_D = 0 }
+set_variable = {EJZ_offense = -0.1 }
+set_variable = {EJZ_defense = -0.1 }
+set_variable = {EJZ_capture_equipment = 0}
+set_variable = {EJZ_speed = 0 }
+set_variable = {EJZ_supply = 0.1 }
+set_variable = {EJZ_org = -0.1 }
+set_variable = {EJZ_train = 0.1 }
+set_variable = {EJZ_exp = -0.1 }
+set_variable = {EJZ_fort = 0 }
 #set_country_flag = wip_ejznrosa_alt_historical
 
 set_research_slots = 4

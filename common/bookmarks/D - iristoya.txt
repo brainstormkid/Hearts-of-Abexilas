@@ -14,7 +14,6 @@ bookmarks = {
         	ideas={
 				EJZ_two_dukes_system
 				EJZ_scaliga_mercenaries
-				EJZ_the_ejzermkejt_idea
         	}
 
         	focuses = {

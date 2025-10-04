@@ -93,7 +93,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.2
-				uses = 1
+				uses = 2
 				category = cat_anti_tank
 			}
 		}
@@ -131,6 +131,13 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_a_traditional_army  }
 		completion_reward = {
+			custom_effect_tooltip = EJZ_increase_army_training_tip
+			add_to_variable = {
+				EJZ_train = -0.1
+			}
+			add_to_variable = {
+				EJZ_exp = 0.1
+			}
 		}
 	}
 	#Mass Artillery Bombardment
@@ -139,12 +146,24 @@ focus_tree = {
 		icon = GFX_goal_generic_army_artillery
 		x = 48
 		y = 3
-		cost = 5
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = EJZ_artillery_focus }
 		completion_reward = {
+			custom_effect_tooltip = EJZ_mass_artillery_bombardment_tip
+			add_to_variable = {
+				EJZ_artillery_A = 0.1
+			}
+			add_to_variable = {
+				EJZ_artillery_D = 0.1
+			}
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.3
+				category = cat_superior_firepower
+				uses = 2
+			}
 		}
 	}
 
@@ -1150,15 +1169,12 @@ focus_tree = {
 		prerequisite = { focus = EJZ_a_traditional_army focus = EJZ_an_iron_army  }
 		mutually_exclusive = {focus = EJZ_on_the_offensive}
 		completion_reward = {
-			add_doctrine_cost_reduction = {
-				cost_reduction = 0.1
-	            uses = 1
-	            category = cat_grand_battle_plan
+			custom_effect_tooltip = EJZ_on_the_defensive_tip
+			add_to_variable = {
+				EJZ_offense = 0.05
 			}
-			add_doctrine_cost_reduction = {
-				cost_reduction = 0.1
-	            uses = 1
-	            category = cat_mass_assault
+			add_to_variable = {
+				EJZ_defense = 0.1
 			}
 		}
 	}
@@ -1176,15 +1192,12 @@ focus_tree = {
 		prerequisite = { focus = EJZ_a_traditional_army focus = EJZ_an_iron_army  }
 		mutually_exclusive = { focus = EJZ_prioritize_defense  }
 		completion_reward = {
-			add_doctrine_cost_reduction = {
-				cost_reduction = 0.1
-	            uses = 1
-	            category = cat_mobile_warfare
+			custom_effect_tooltip = EJZ_on_the_offensive_tip
+			add_to_variable = {
+				EJZ_offense = 0.1
 			}
-			add_doctrine_cost_reduction = {
-				cost_reduction = 0.1
-	            uses = 1
-	            category = cat_superior_firepower
+			add_to_variable = {
+				EJZ_defense = 0.05
 			}
 		}
 	}
@@ -1237,8 +1250,8 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 1
-				category = special_forces_doctrine
+				uses = 2
+				category = cat_marines_doctrine
 			}
 			army_experience = 20
 			navy_experience = 20
@@ -1285,7 +1298,7 @@ focus_tree = {
 		icon = GFX_focus_generic_tankette
 		x = 59
 		y = 2
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
@@ -2083,6 +2096,21 @@ focus_tree = {
 			focus = EJZ_an_iron_army
 		}
 		completion_reward = {
+			custom_effect_tooltip = EJZ_a_traditional_iron_army_tip
+			add_to_variable = {
+				EJZ_offense = 0.05
+			}
+			add_to_variable = {
+				EJZ_defense = 0.05
+			}
+			add_to_variable = {
+				EJZ_org = 0.05
+			}
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.1
+				category = cat_superior_firepower
+				uses = 1
+			}
 		}
 	}
 	#An "Iron" Army
@@ -2102,6 +2130,21 @@ focus_tree = {
 			focus = EJZ_a_traditional_army
 		}
 		completion_reward = {
+			custom_effect_tooltip = EJZ_a_traditional_iron_army_tip
+			add_to_variable = {
+				EJZ_offense = 0.05
+			}
+			add_to_variable = {
+				EJZ_defense = 0.05
+			}
+			add_to_variable = {
+				EJZ_org = 0.05
+			}
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.1
+				category = cat_mobile_warfare
+				uses = 1
+			}
 		}
 	}
 	#Motorize the Army
@@ -2118,6 +2161,17 @@ focus_tree = {
 			focus = EJZ_a_traditional_army focus = EJZ_an_iron_army
 		}
 		completion_reward = {
+			custom_effect_tooltip = EJZ_motorize_the_army_tip
+			add_equipment_to_stockpile = {
+				type = motorized_equipment_1
+				amount = 2000
+			}
+			add_to_variable = {
+				EJZ_speed = 0.05
+			}
+			add_to_variable = {
+				EJZ_supply = -0.1
+			}
 		}
 	}
 	#Salvage Captured Equipment
@@ -2134,6 +2188,14 @@ focus_tree = {
 			focus = EJZ_a_traditional_army focus = EJZ_an_iron_army
 		}
 		completion_reward = {
+			custom_effect_tooltip = EJZ_salvage_captured_equipment_tip
+			add_to_variable = {
+				EJZ_capture_equipment = 0.1
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 3000
+			}
 		}
 	}
 	#Fund Heavy Tank Program
@@ -2142,7 +2204,7 @@ focus_tree = {
 		icon = GFX_focus_generic_heavy_tank
 		x = 58
 		y = 3
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
@@ -2150,6 +2212,18 @@ focus_tree = {
 			focus = EJZ_armor_research focus = EJZ_antitank_research
 		}
 		completion_reward = {
+			custom_effect_tooltip = EJZ_fund_heavy_tank_development_tip
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 1
+				category = cat_heavy_armor
+			}
+			add_to_variable = {
+				EJZ_tank_A = 0.1
+			}
+			add_to_variable = {
+				EJZ_tank_D = 0.1
+			}
 		}
 	}
 	#Lightning Warfare
@@ -2166,6 +2240,24 @@ focus_tree = {
 			focus = EJZ_armor_research
 		}
 		completion_reward = {
+			custom_effect_tooltip = EJZ_lightning_warfare_tip
+			add_to_variable = {
+				EJZ_speed = 0.05
+			}
+			add_to_variable = {
+				EJZ_train = -0.1
+			}
+			add_to_variable = {
+				EJZ_org = 0.05
+			}
+			add_to_variable = {
+				EJZ_exp = 0.1
+			}
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.3
+				category = cat_mobile_warfare
+				uses = 2
+			}
 		}
 	}
 	#The Iron Front
@@ -2182,6 +2274,13 @@ focus_tree = {
 			focus = EJZ_prioritize_defense
 		}
 		completion_reward = {
+			custom_effect_tooltip = EJZ_the_iron_front_tip
+			add_to_variable = {
+				EJZ_defense = 0.05
+			}
+			add_to_variable = {
+				EJZ_offense = 0.05
+			}
 		}
 	}
 	#Defense of Tejwez
@@ -2198,6 +2297,13 @@ focus_tree = {
 			focus = EJZ_the_iron_front
 		}
 		completion_reward = {
+			custom_effect_tooltip = EJZ_defense_of_tejwez_tip
+			add_to_variable = {
+				EJZ_defense = 0.05
+			}
+			add_to_variable = {
+				EJZ_fort = 0.2
+			}
 		}
 	}
 	#Improve Supply System
@@ -2215,6 +2321,13 @@ focus_tree = {
 			focus = EJZ_prioritize_defense
 		}
 		completion_reward = {
+			custom_effect_tooltip = EJZ_improve_the_supply_system_tip
+			add_to_variable = {
+				EJZ_supply = -0.1
+			}
+			add_to_variable = {
+				EJZ_org = 0.15
+			}
 		}
 	}
 	#Intensify Army Training
@@ -2229,9 +2342,15 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = EJZ_on_the_offensive
-			focus = EJZ_prioritize_defense
 		}
 		completion_reward = {
+			custom_effect_tooltip = EJZ_intensify_army_training_tip
+			add_to_variable = {
+				EJZ_exp = 0.05
+			}
+			add_to_variable = {
+				EJZ_train = -0.1
+			}
 		}
 	}
 	#Glory of Tejwez
@@ -2248,6 +2367,13 @@ focus_tree = {
 			focus = EJZ_intensify_army_training
 		}
 		completion_reward = {
+			custom_effect_tooltip = EJZ_glory_of_tejwez_tip
+			add_to_variable = {
+				EJZ_offense = 0.1
+			}
+			add_to_variable = {
+				EJZ_defense = 0.05
+			}
 		}
 	}
 }

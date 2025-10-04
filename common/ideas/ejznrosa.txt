@@ -293,23 +293,5 @@ ideas = {
                 consumer_goods_factor = -0.1
             }  
         }
-
-        #The Ejzermkejt
-        EJZ_the_ejzermkejt_idea = {
-            picture = ejznrosa_army
-            allowed = {
-                tag = EJZ
-            }
-            available = {
-            }
-            cancel = {
-            }
-            modifier = {
-                army_attack_factor = -0.1
-                mobilization_speed = -0.1
-                army_defence_factor = -0.1
-                supply_consumption_factor = 0.1
-            }
-        }
     }
 }
