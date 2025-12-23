@@ -1,11 +1,12 @@
 ﻿division_template = {
-	name = "Infantry Division"					# Represents 18w Infantry
+	name = "Scaligan Infantry"					# Represents 18w Infantry
 	#division_names_group = GER_Inf_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
    		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
@@ -13,10 +14,14 @@
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
 	}
+	support = {
+        artillery = { x = 0 y = 0 }
+    }
 }
 division_template = {
-	name = "Guard Division"				# Represents 12w Infantry Division
+	name = "Scaligan Milita"				# Represents 12w Infantry Division
 	#division_names_group = GER_Cav_01
+	template_counter = 3
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -45,21 +50,42 @@ units = {
 	division = {
 		name = "1st Scal' Infantry"
 		location = 6728
-		division_template = "Infantry Division"
+		division_template = "Scaligan Infantry"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "2nd Scal' Infantry"
 		location = 6728
-		division_template = "Infantry Division"
+		division_template = "Scaligan Infantry"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Scal' Guards"
+		name = "3rd Scal' Infantry"
+		location = 6728
+		division_template = "Scaligan Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "4thd Scal' Infantry"
+		location = 6728
+		division_template = "Scaligan Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Scaliga Militia"
+		location = 6728
+		division_template = "Scaligan Milita"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Scaliga Militia"
 		location = 5724
-		division_template = "Guard Division"
+		division_template = "Scaligan Milita"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
