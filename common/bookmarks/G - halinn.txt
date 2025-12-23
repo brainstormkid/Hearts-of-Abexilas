@@ -59,8 +59,8 @@ bookmarks = {
 			}
 		}
 		
-		REN = {
-			history = REN_DESC
+		SCA = {
+			history = SCA_desc
 			ideology = absolutist
 			ideas={
 				
