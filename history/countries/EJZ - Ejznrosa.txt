@@ -92,6 +92,7 @@ set_popularities = {
 	radical_socialist = 2
 }
 recruit_character = EJZ_gus
+recruit_character = EJZ_regency_council
 recruit_character = EJZ_Hyde_de_Wataved
 recruit_character = EJZ_Alexfoolery_Ejznhjart
 recruit_character = EJZ_Kaldar_av_Ejznhjart
@@ -123,6 +124,17 @@ create_country_leader = {
 	#picture = "gfx/leaders/EJZ/portrait_large_karl_ejznhjart.dds"
 	expire = "1965.1.1"
 	ideology = monarchist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Regency Council"
+	desc = "EJZ_regency_council"
+	#picture = "gfx/leaders/EJZ/portrait_large_gustav_ejznhjart.dds"
+	expire = "1965.1.1"
+	ideology = absolutist
 	traits = {
 		#
 	}

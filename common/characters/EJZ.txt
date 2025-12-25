@@ -395,7 +395,19 @@ characters={
             logistics_skill = 2
             traits = { commando jungle_rat career_officer }
         }
-    }       
+    }
+    EJZ_regency_council = {
+        name = "Regency Council"
+        portraits = {
+            civilian = {
+                large = "GFX_portrait_EJZ_regency_council_large"
+            }
+        }
+        country_leader = {
+            ideology = absolutist_subtype
+            traits = { reorganized_government }
+        }
+    }        
 }
 
 

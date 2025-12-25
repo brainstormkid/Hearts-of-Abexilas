@@ -324,4 +324,17 @@ leader_traits = {
 		conservatist_drift = 0.05
 		progressivist_drift = 0.05
 	}
+	reorganized_government = {
+		random = no
+		sprite = 13
+		political_power_factor = -0.1
+		stability_factor = -0.1
+		mobilization_speed = -0.1
+		join_faction_tension = 0.1
+		economy_cost_factor = -0.2
+		political_advisor_cost_factor = -0.2
+		trade_laws_cost_factor = -0.2
+		enemy_declare_war_tension = 0.15
+		consumer_goods_factor = -0.1
+	}
 }
