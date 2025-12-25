@@ -57,17 +57,7 @@ if = {
 	}
 }
 give_guarantee = EJZ
-
-create_country_leader = {
-	name = "Alexfoolery"
-	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "portrait_large_alexfoolery_ejznhjart"
-	expire = "1965.1.1"
-	ideology = absolutist_subtype
-	traits = {
-		rearmament_proponent
-	}
-}
+recruit_character = SCA_alexfoolery
 
 set_convoys = 20
 

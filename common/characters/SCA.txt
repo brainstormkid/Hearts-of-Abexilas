@@ -1,0 +1,19 @@
+characters={
+    SCA_alexfoolery = {
+        name = "Alexfoolery"
+        portraits = {
+            civilian = {
+                large = "GFX_portrait_EJZ_alexfoolery_ejznhjart_large"
+            }
+        }
+        country_leader = {
+            ideology = absolutist_subtype
+            traits = {
+                rearmament_proponent
+            }
+            desc = SCA_alexfoolery_desc
+        }
+    }
+}
+
+
