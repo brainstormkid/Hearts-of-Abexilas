@@ -320,6 +320,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_EJZ_regency_council_large"
 		texturefile = "gfx/leaders/EJZ/portrait_large_regency_council.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_EJZ_ryan_gustavsen_av_ejznhjart_small"
+		texturefile = "gfx/leaders/EJZ/portrait_small_ryan_gustavsen_av_ejznhjart.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_EJZ_constantin_tyrrhenus_small"
+		texturefile = "gfx/leaders/EJZ/portrait_small_constantin_tyrrhenus.dds"
 	}					
 	### VEA	
 	spriteType = {

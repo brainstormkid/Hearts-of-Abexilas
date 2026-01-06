@@ -6,9 +6,15 @@
 ### Generic Advisors Try ###
 
 every_possible_country = {
-	generate_character = {
-		token_base = accelerationist_free_thinker # token will be TAG_token_base
-		advisor = {
+	IF = {
+		limit = {
+			NOT = {
+				tag = EJZ
+			}
+		}
+		generate_character = {
+		    token_base = accelerationist_free_thinker # token will be TAG_token_base
+		    advisor = {
 			slot = political_advisor
 			traits = { accelerationist_free_thinker }
 			available = {
@@ -20,15 +26,23 @@ every_possible_country = {
 			ai_will_do = {
 				factor = 1
 			}
-		}
-		portraits = { 
+		    }
+	    portraits = { 
 			army = { small = GFX_idea_generic_communist_revolutionary }
 		}
+	    }
 	}
 }
 
+
 every_possible_country = {
-	generate_character = {
+	IF = {
+		limit = {
+			NOT = {
+				tag = EJZ 
+			}
+		}
+		generate_character = {
 		token_base = absolutist_supporter # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
@@ -47,10 +61,17 @@ every_possible_country = {
 			army = { small = GFX_idea_generic_democratic_reformer }
 		}
 	}
+	}
 }
 
 every_possible_country = {
-	generate_character = {
+	IF = {
+		limit = {
+			NOT = {
+				tag = EJZ
+			}
+		}
+		generate_character = {
 		token_base = loyal_monarchist # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
@@ -69,10 +90,17 @@ every_possible_country = {
 			army = { small = GFX_idea_generic_democratic_reformer }
 		}
 	}
+	}
 }
 
 every_possible_country = {
-	generate_character = {
+	IF = {
+		limit = {
+			NOT = {
+				tag = EJZ
+			}
+		}
+		generate_character = {
 		token_base = theocratist_priest # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
@@ -91,10 +119,17 @@ every_possible_country = {
 			army = { small = GFX_idea_generic_democratic_reformer }
 		}
 	}
+	}
 }
 
 every_possible_country = {
-	generate_character = {
+	IF = {
+		limit = {
+			NOT = {
+				tag = EJZ
+			}
+		}
+		generate_character = {
 		token_base = anarchist_monger # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
@@ -113,10 +148,17 @@ every_possible_country = {
 			army = { small = GFX_idea_generic_communist_revolutionary }
 		}
 	}
+	}
 }
 
 every_possible_country = {
-	generate_character = {
+	IF = {
+		limit = {
+			NOT = {
+				tag = EJZ
+			}
+		}
+		generate_character = {
 		token_base = xeroist_revolutionary # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
@@ -135,10 +177,17 @@ every_possible_country = {
 			army = { small = GFX_idea_generic_communist_revolutionary }
 		}
 	}
+	}
 }
 
 every_possible_country = {
-	generate_character = {
+	IF = {
+		limit = {
+			NOT = {
+				tag = EJZ
+			}
+		}
+		generate_character = {
 		token_base = free_revisionist_thinker # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
@@ -157,10 +206,17 @@ every_possible_country = {
 			army = { small = GFX_idea_generic_communist_revolutionary }
 		}
 	}
+	}
 }
 
 every_possible_country = {
-	generate_character = {
+	IF = {
+		limit = {
+			NOT = {
+				tag = EJZ
+			}
+		}
+		generate_character = {
 		token_base = imperial_supporter # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
@@ -179,10 +235,17 @@ every_possible_country = {
 			army = { small = GFX_idea_generic_fascist_demagogue }
 		}
 	}
+	}
 }
 
 every_possible_country = {
-	generate_character = {
+	IF = {
+		limit = {
+			NOT = {
+				tag = EJZ
+			}
+		}
+		generate_character = {
 		token_base = radical_nationalist_demagogue # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
@@ -201,10 +264,17 @@ every_possible_country = {
 			army = { small = GFX_idea_generic_fascist_demagogue }
 		}
 	}
+	}
 }
 
 every_possible_country = {
-	generate_character = {
+	IF = {
+		limit = {
+			NOT = {
+				tag = EJZ		
+			}
+		}
+		generate_character = {
 		token_base = liberatarianist_reformer # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
@@ -223,10 +293,17 @@ every_possible_country = {
 			army = { small = GFX_idea_generic_democratic_reformer }
 		}
 	}
+	}
 }
 
 every_possible_country = {
-	generate_character = {
+	IF = {
+		limit = {
+			NOT = {
+				tag = EJZ
+			}
+		}
+		generate_character = {
 		token_base = central_thinker # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
@@ -245,10 +322,17 @@ every_possible_country = {
 			army = { small = GFX_idea_generic_democratic_reformer }
 		}
 	}
+	}
 }
 
 every_possible_country = {
-	generate_character = {
+	IF = {
+		limit = {
+			NOT = {
+				tag = EJZ
+			}
+		}
+		generate_character = {
 		token_base = liberal_minded # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
@@ -267,10 +351,17 @@ every_possible_country = {
 			army = { small = GFX_idea_generic_democratic_reformer }
 		}
 	}
+	}
 }
 
 every_possible_country = {
-	generate_character = {
+	IF = {
+		limit = {
+			NOT = {
+				tag = EJZ
+			}
+		}
+		generate_character = {
 		token_base = progressivist_reviver # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
@@ -289,10 +380,17 @@ every_possible_country = {
 			army = { small = GFX_idea_generic_democratic_reformer }
 		}
 	}
+	}
 }
 
 every_possible_country = {
-	generate_character = {
+	IF = {
+		limit = {
+			NOT = {
+				tag = EJZ
+			}
+		}
+		generate_character = {
 		token_base = consveratist_statist # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
@@ -311,6 +409,7 @@ every_possible_country = {
 			army = { small = GFX_idea_generic_democratic_reformer }
 		}
 	}
+	}
 }
 
 every_possible_country = {
@@ -321,7 +420,13 @@ every_possible_country = {
 		}
 		is_dynamic_country = no
 	}
-	generate_character = {
+	IF = {
+		limit = {
+			NOT = {
+				tag = EJZ
+			}
+		}
+		generate_character = {
 		token_base = generic_head_of_intelligence # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
@@ -340,6 +445,7 @@ every_possible_country = {
 		portraits = { 
 			army = { small = GFX_idea_generic_head_of_intelligence }
 		}
+	}
 	}
 }
 

@@ -333,8 +333,26 @@ leader_traits = {
 		join_faction_tension = 0.1
 		economy_cost_factor = -0.2
 		political_advisor_cost_factor = -0.2
+		army_org_factor = -0.1
+		improve_relations_maintain_cost_factor = 0.1
 		trade_laws_cost_factor = -0.2
 		enemy_declare_war_tension = 0.15
 		consumer_goods_factor = -0.1
+	}
+	propaganda_designer = {
+		random = no
+		sprite = 13
+		war_support_factor = 0.1
+		drift_defence_factor = 0.1
+		radical_socialist_drift = -0.05
+		consumer_goods_factor = 0.05
+	}
+	city_architect = {
+		random = no
+		sprite = 13
+		production_speed_industrial_complex_factor = 0.1
+		production_speed_infrastructure_factor = 0.1
+		conversion_cost_mil_to_civ_factor = -0.1
+		industry_free_repair_factor = 0.2
 	}
 }

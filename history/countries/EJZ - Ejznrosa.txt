@@ -106,6 +106,8 @@ recruit_character = EJZ_Praetor_Duck_E._Daekian
 recruit_character = EJZ_Alxar_av_Házelnicht
 recruit_character = EJZ_Meneavzun_av_Grandián
 recruit_character = EJZ_Cat1
+recruit_character = EJZ_Constantin_Tyrrhenus
+recruit_character = EJZ_Ryan_Gustavsen_av_Ejznhjart
 
 create_country_leader = {
 	name = "Gustav av Ejznhjart"

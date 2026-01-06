@@ -264,7 +264,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civilian
 		x = 22
 		y = 2
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -456,7 +456,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction2
 		x = 30
 		y = 2
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -589,7 +589,7 @@ focus_tree = {
 		icon = GFX_SOV_planned_economy_ccp_2d_sov_compatibility
 		x = 26
 		y = 2
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -769,7 +769,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_mil_factory
 		x = 36
 		y = 2
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -846,7 +846,7 @@ focus_tree = {
 		icon = GFX_focus_generic_manpower
 		x = 40
 		y = 2
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
@@ -861,7 +861,7 @@ focus_tree = {
 		icon = GFX_focus_generic_manpower
 		x = 44
 		y = 2
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
