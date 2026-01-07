@@ -108,6 +108,10 @@ spriteTypes = {
 		name = "GFX_ejznrosa_news_event_004"
 		texturefile = "gfx/event_pictures/news_EJZ_scaliga_intervene.dds"
 	}
+	SpriteType = {
+		name = "GFX_ejznrosa_news_event_005"
+		texturefile = "gfx/event_pictures/news_EJZ_iron_senate_on_fire.dds"
+	}
 
 
 	#MAR

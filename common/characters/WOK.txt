@@ -1,0 +1,17 @@
+characters={
+    WOK_Woj_Jan_Tech = {
+        name="Woj Jan Tech"
+        portraits={
+            civilian={
+                large="GFX_portrait_EJZ_woj_jan_tech_large"
+            }
+        }
+        country_leader={
+            ideology=monarchist_subtype
+            traits= {}
+            desc = POLITICS_WOJ_DESC
+        }
+    }
+ }
+
+

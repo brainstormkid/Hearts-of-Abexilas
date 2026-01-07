@@ -307,6 +307,18 @@ characters={
             ai_will_do = {
                 factor = 10
             }
+            available = {
+                AND = {
+                    NOT = {
+                        country_exists = WOK
+                    }
+                    1178 = {
+                        NOT = {
+                            is_owned_by = EJZ
+                        }
+                    }
+                }
+            }
         }
         corps_commander = {
             skill = 2

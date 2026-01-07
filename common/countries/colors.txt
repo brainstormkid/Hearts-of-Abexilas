@@ -1632,6 +1632,11 @@ WAD = {
 	color_ui = rgb { 244 21 244 }
 }
 
+WOK = {
+	color = rgb { 70 106 163 }
+	color_ui = rgb { 70 106 163 }
+}
+
 XUA = {
 	color = rgb { 207 185 164 }
 	color_ui = rgb { 207 185 164 }

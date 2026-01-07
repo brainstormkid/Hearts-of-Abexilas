@@ -89,6 +89,8 @@
  EJZ_news.3.d:0 "In response to the Ejznrosa-Valoran War, The [VAD.GetName] has honoured its pact with The [VAL.GetName], The Valdic Blood Pact. Providing full military and equipment assistance to the war. The rest of the Valdic Blood Pact signatories has also come to aid with the war with Ejznrosa. This has sparked a major escalation in the war in Iristoya Minor and led the way for other nations decision to intervene or not."
  EJZ_news.4.t:0 "Scaliga declares war!"
  EJZ_news.4.d:0 "In response to the [VAD.GetName] joining the war against Ejznrosa. [SCA.GetName] has fully annouced its support for Ejznrosa by providing financial and military aid to Ejznrosa, guaranteeing Ejznrosa's soverignty and freedom. The war continues to escalate, now beyond Iristoya."
+ EJZ_news.5.t:0 "The Iron Senate on Fire!"
+ EJZ_news.5.d:0 "During the night, citizens in Ejznsteda heard a large explosion sound echoing throughout the streets of Ejznsteda. As they look outside the window, to their horror, the Iron Senate is engulf in a large blazing flame that light up the night sky. Thankfully, government officals have already left the building long since the fire started. This came as a great shock after the election in Ejznrosa. It was suspected that radical socialists has broken into the Senate late at night, setting fire to furniture and documents. An thorough investigation is currently underway and repairs will soon follow."
  
  #MYRTANA EVENTS
  myrtana_story_events.1.t:0 "Long day in Theos."

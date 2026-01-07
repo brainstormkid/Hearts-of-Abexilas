@@ -1910,6 +1910,20 @@
  WAD_absolutist:1 "Great Parasol of Wadiwaya"
  WAD_absolutist_DEF:1 "The Great Parasol of Wadiwaya"
  WAD_absolutist_ADJ:0 "Wadiwayan"
+
+ WOK_absolutist:1 "Kingdom of Wokark"
+ WOK_absolutist_DEF:1 "The Kingdom of Wokark"
+ WOK_absolutist_ADJ:1 "Wokarkian"
+ WOK_monarchist:1 "Kingdom of Wokark"
+ WOK_monarchist_DEF:1 "The Kingdom of Wokark"
+ WOK_monarchist_ADJ:1 "Wokarkian"
+ WOK_imperialist:1 "Kingdom of Wokark"
+ WOK_imperialist_DEF:1 "The Kingdom of Wokark"
+ WOK_imperialist_ADJ:1 "Wokarkian"
+ WOK_radical_nationalist:1 "Greater Kingdom of Wokark"
+ WOK_radical_nationalist_DEF:1 "The Kingdom of Wokark"
+ WOK_radical_nationalist_ADJ:1 "Wokarkian"
+ WOK_
  
  XUA_absolutist:1 "Xuán Dynasty"
  XUA_absolutist_DEF:1 "The Xuán Dynasty"

@@ -270,7 +270,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_civilian_ministries }
 		completion_reward = {
-			add_political_power = 5
+			add_political_power = 25
 		}
 	}
     #Construct Wokark Airfields
@@ -285,7 +285,13 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_construction_ministry }
 		completion_reward = {
-			add_political_power = 5
+			1178 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	#Government Owned Markets
@@ -359,6 +365,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		available = {
+			has_tech = excavation1
+		}
 		prerequisite = { focus = EJZ_production_ministry  }
 		completion_reward = {
 			add_resource = {
@@ -431,7 +440,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_urbanization  }
 		completion_reward = {
-			add_political_power = 5
+			1176 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					province = 12167
+					instant_build = yes
+				}
+			}
+			1418 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					province = 11921
+					instant_build = yes
+				}
+			}
 		}
 	}
 	#Construct more Housing
@@ -446,7 +470,18 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_urbanization focus = EJZ_invest_in_civilian_industries  }
 		completion_reward = {
-			add_political_power = 5
+			659 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -462,7 +497,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_civilian_ministries  }
 		completion_reward = {
-			add_political_power = 5
+			add_political_power = 25
 		}
 	}
 	#Reduce Resource Spending
@@ -493,9 +528,17 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		available = {
+			has_tech = synth_oil_experiments
+		}
 		prerequisite = { focus = EJZ_production_ministry  }
 		completion_reward = {
-			add_political_power = 5
+			1415 = {
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 3
+				}
+			}
 		}
 	}
 	#Resources for our Nation
@@ -507,6 +550,8 @@ focus_tree = {
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
+		}
+		available = {
 		}
 		prerequisite = { focus = EJZ_kickstart_fuel_production  }
 		prerequisite = { focus = EJZ_reduce_resource_spending  }
@@ -595,7 +640,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_civilian_ministries  }
 		completion_reward = {
-			add_political_power = 5
+			add_political_power = 25
 		}
 	}
 
@@ -632,9 +677,9 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
-	#Build Projects for the Population
+	#Increase Build Projects
 	focus = {
-		id = EJZ_build_projects_for_the_population
+		id = EJZ_increase_build_projects
 		icon = GFX_focus_generic_population_growth
 		x = 19
 		y = 3
@@ -657,7 +702,40 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = EJZ_construct_housing_complexes focus = EJZ_improve_the_rail_way_network  }
+		bypass = {
+			659 = {
+				has_built = {
+					type = infrastructure
+					value = 5
+				}
+			}
+			1178 = {
+				has_built = {
+					type = infrastructure
+					value = 4
+				}
+			}
+		}
 		completion_reward = {
+			659 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			1178 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	#Encourage a Free Market
@@ -775,7 +853,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_war_ministries }
 		completion_reward = {
-			add_political_power = 5
+			add_political_power = 25
 		}
 	}
 
@@ -852,7 +930,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_war_ministries  }
 		completion_reward = {
-			add_political_power = 5
+			add_political_power = 25
 		}
 	}
 	#Propaganda Ministry
@@ -867,7 +945,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_war_ministries  }
 		completion_reward = {
-			add_political_power = 5
+			add_political_power = 25
 		}
 	}
 
@@ -1327,12 +1405,12 @@ focus_tree = {
 		completion_reward = {
 			659 = {
 				add_building_construction = {
-					type = infrastructure
-					level = 1
+					type = dockyard
+					level = 3
 				}
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 1
 				}
 			}
 		}
