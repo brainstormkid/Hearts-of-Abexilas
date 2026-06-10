@@ -118,7 +118,7 @@ characters={
         }
     }
     EJZ_Alexfoolery_Ejznhjart = {
-        name = "Alex Maex Ejznhjart"
+        name = "Alekzandros Ejznhjart-Vykarth"
         portraits = {
             civilian = {
                 small= "GFX_portrait_EJZ_alexfoolery_ejznhjart_small"
