@@ -1,0 +1,11 @@
+SCA_form_the_hallin_league = {
+    icon = generic_politic
+    picture = GFX_EJZ_city_planning
+    allowed = {
+        tag = SCA
+    }
+    visible = {
+        always = yes
+    }
+    priority = 1
+}

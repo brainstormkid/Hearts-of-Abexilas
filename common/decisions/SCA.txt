@@ -1,0 +1,39 @@
+SCA_hallin_league = {
+	EJZ_construct_civilians = {
+		icon = generic_construction
+		days_remove = 90
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			NOT = {
+				has_country_flag = ejz_mil
+				has_country_flag = ejz_inf
+				has_country_flag = ejz_nav
+				has_country_flag = ejz_rai
+			}
+		}
+		complete_effect = {
+			set_country_flag = {
+				flag = ejz_civ
+				value = 1
+			}
+		}
+		remove_effect = {
+			set_country_flag = {
+				flag = ejz_civ
+				value = 0
+			}
+		}
+		modifier = {
+			production_speed_industrial_complex_factor = 0.15
+			consumer_goods_factor = 0.1
+		}
+		visible = {
+			always = yes
+		}
+		cost = 70
+	}
+}
+
+
+
