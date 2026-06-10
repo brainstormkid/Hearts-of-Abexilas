@@ -50,6 +50,11 @@
  EJZ_NEP_NEejznsteda:0 "Campaign in §YNorthEast Ejznsteda§W"
  EJZ_NEP_Wejznsteda:0 "Campaign in §YWest Ejznsteda§W"
  EJZ_NEP_Eejznsteda:0 "Campaign in §YEast Ejznsteda§W"
+
+ # Scaliga
+ SCA_hallin_league:0 "Hallin League"
+ SCA_hallin_league_desc:0 "WIP"
+ SCA_form_the_hallin_league:0 "Test"
  
  # Marisvalor
  MAR_Blockheed:0 "Blockheed Corporation"

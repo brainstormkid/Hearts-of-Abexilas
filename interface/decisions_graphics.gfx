@@ -1,4 +1,5 @@
 spriteTypes = {
+	#EJZ
 	spriteType = {
 		name =  "GFX_EJZ_city_planning"
 		texturefile = "gfx/interface/decisions/decision_ejz_planning.dds"
@@ -10,5 +11,10 @@ spriteTypes = {
 	spriteType = {
 		name =  "GFX_EJZ_war_valora"
 		texturefile = "gfx/interface/decisions/decision_ejz_war_valora.dds"
+	}
+	#SCA
+	SpriteType = {
+		name = "GFX_SCA_hallin_lague"
+		texturefile = "gfx/interface/decision_sca_hallin_league.dds"
 	}
 }
