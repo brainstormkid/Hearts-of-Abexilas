@@ -401,4 +401,8 @@ spriteTypes = {
 		name = "GFX_idea_invest_in_blockheed"
 		texturefile = "gfx/interface/ideas/invest_in_blockheed.dds"
 	}
+	SpriteType = { 
+		name = "GFX_idea_zarilyian_defense_accords"
+		texturefile = "gfx/interface/ideas/zda.dds"
+	}
 }

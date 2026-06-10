@@ -15,6 +15,6 @@ spriteTypes = {
 	#SCA
 	SpriteType = {
 		name = "GFX_SCA_hallin_lague"
-		texturefile = "gfx/interface/decision_sca_hallin_league.dds"
+		texturefile = "gfx/interface/decisions/decision_sca_hallin_league.dds"
 	}
 }

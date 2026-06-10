@@ -1,0 +1,20 @@
+ideas = {
+	country = {
+		zarilyian_defense_accords = {
+			picture = GFX_idea_zarilyian_defense_accords
+			cancel = {
+			}
+			available = {
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				trade_opinion_factor = 0.05
+			}
+			modifier = {
+				zarilyian_defense_trade_modifier
+			}
+		}
+	}
+}

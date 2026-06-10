@@ -22,5 +22,6 @@ create_country_leader = {
 		#
 	}
 }
+add_ideas = zarilyian_defense_accords
 
 set_convoys = 5

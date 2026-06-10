@@ -10,6 +10,8 @@ on_actions = {
 			CAS = { news_event = { id = news.10 days = 2352 } }
 			CAS = { news_event = { id = news.11 days = 4354 } }
 			CAS = { news_event = { id = news.12 days = 4802 } }
+
+
 			
 			# Country Events
 			GEH = { 
@@ -155,5 +157,24 @@ on_actions = {
             }
 		}
     }
+	#ZDA
+	on_weekly = {
+		effect = {
+			every_other_country = {
+				limit = {
+					has_idea = zarilyian_defense_accords
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_guaranteed = ROOT
+						}
+					}
+					give_guarantee = ROOT
+				}
+			}
+		}
+	}
+
 }
 }
