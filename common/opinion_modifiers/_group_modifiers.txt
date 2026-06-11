@@ -22,4 +22,8 @@ opinion_modifiers = {
         value = 25
     }
     #Halinn
+    zda_trade_modifier = {
+        value = 20
+        trade = no
+    }
 }

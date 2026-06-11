@@ -2,6 +2,32 @@ ideas = {
 	country = {
 		zarilyian_defense_accords = {
 			picture = GFX_idea_zarilyian_defense_accords
+			on_add = {
+				every_other_country = {
+					if = {
+						limit = {
+							has_idea = zarilyian_defense_accords
+						}
+						add_opinion_modifier = {
+							target = ROOT
+							modifier = zda_trade_modifier
+						}
+					}
+				}
+			}
+			on_remove = {
+				every_other_country = {
+					if = {
+						limit = {
+							has_idea = zarilyian_defense_accords
+						}
+						remove_opinion_modifier = {
+							target = ROOT
+							modifier = zda_trade_modifier
+						}
+					}
+				}
+			}
 			cancel = {
 			}
 			available = {
@@ -10,10 +36,9 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				trade_opinion_factor = 0.05
-			}
-			modifier = {
-				zarilyian_defense_trade_modifier
+				trade_opinion_factor = 0.1
+				enemy_declare_war_tension = 0.1
+				custom_modifier_tooltip = ZDA_defense_tip
 			}
 		}
 	}

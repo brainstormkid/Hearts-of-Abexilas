@@ -106,6 +106,7 @@ on_actions = {
 		}
             }
 	}
+	}
 	## Paraiso ##
 	on_ruling_party_change = { # Note: the on action only runs after the game's start
 		effect = {
@@ -157,24 +158,38 @@ on_actions = {
             }
 		}
     }
-	#ZDA
-	on_weekly = {
+	on_declare_war = {
 		effect = {
-			every_other_country = {
+			if = {
 				limit = {
-					has_idea = zarilyian_defense_accords
+					FROM = {
+						has_idea = zarilyian_defense_accords
+					}
 				}
 				if = {
 					limit = {
-						NOT = {
-							has_guaranteed = ROOT
+						ROOT = {
+							has_idea = zarilyian_defense_accords
 						}
 					}
-					give_guarantee = ROOT
+					ROOT = {
+						remove_ideas = zarilyian_defense_accords
+					}
 				}
+				every_other_country = {
+					limit = {
+						has_idea = zarilyian_defense_accords
+						NOT = {
+							tag = FROM
+						}
+						NOT = {
+							tag = ROOT
+						}
+					}
+					country_event = zda.1
+				}
+
 			}
 		}
 	}
-
-}
 }

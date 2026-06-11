@@ -23,5 +23,15 @@ create_country_leader = {
 	}
 }
 add_ideas = zarilyian_defense_accords
-
+every_other_country = {
+	if = {
+		limit = {
+			has_idea = zarilyian_defense_accords
+		}
+		add_opinion_modifier = {
+			target = ROOT
+			modifier = zda_trade_modifier
+		}
+	}
+}
 set_convoys = 5

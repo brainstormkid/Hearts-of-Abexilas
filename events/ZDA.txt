@@ -1,0 +1,16 @@
+add_namespace = zda
+country_event = {
+	id = zda.1
+	title = "Zarilyian Defense Accords call to arms."
+	desc = zda.1.d
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	option = {
+		name = "To war!"
+		ai_chance = { base = 100 }
+		add_to_war = {
+			targeted_alliance = FROM.FROM
+			enemy = FROM
+		}
+	}
+}
