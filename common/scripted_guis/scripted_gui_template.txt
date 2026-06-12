@@ -318,6 +318,9 @@ scripted_gui = {
             value = 1178.EJZ_DSU_influence
             compare = equals
           }
+          1178 = {
+            is_owned_by = EJZ
+          }
         }
       }
       daekiaelection_uncontest_visible = {
@@ -337,6 +340,9 @@ scripted_gui = {
             value = 1176.EJZ_DSU_influence
             compare = equals
           }
+          1176 = {
+            is_owned_by = EJZ
+          }
         }
       }
       wokarkelection_NEP_visible = {
@@ -348,13 +354,16 @@ scripted_gui = {
           }
           check_variable = {
             var = 1178.EJZ_NEP_influence
-            value = 1178.EJZ_DUE_influence
+            value = 1178.EJZ_KGS_influence
             compare = greater_than
           }
           check_variable = {
             var = 1178.EJZ_NEP_influence
-            value = 1178.EJZ_DUE_influence
+            value = 1178.EJZ_DSU_influence
             compare = greater_than
+          }
+          1178 = {
+            is_owned_by = EJZ
           }
         }
       }
@@ -367,13 +376,16 @@ scripted_gui = {
           }
           check_variable = {
             var = 1176.EJZ_NEP_influence
-            value = 1176.EJZ_DUE_influence
+            value = 1176.EJZ_KGS_influence
             compare = greater_than
           }
           check_variable = {
             var = 1176.EJZ_NEP_influence
-            value = 1176.EJZ_DUE_influence
+            value = 1176.EJZ_DSU_influence
             compare = greater_than
+          }
+          1176 = {
+            is_owned_by = EJZ
           }
         }
       }
@@ -386,13 +398,16 @@ scripted_gui = {
           }
           check_variable = {
             var = 1418.EJZ_NEP_influence
-            value = 1418.EJZ_DUE_influence
+            value = 1418.EJZ_KGS_influence
             compare = greater_than
           }
           check_variable = {
             var = 1418.EJZ_NEP_influence
-            value = 1418.EJZ_DUE_influence
+            value = 1418.EJZ_DSU_influence
             compare = greater_than
+          }
+          1418 = {
+            is_owned_by = EJZ
           }
         }
       }
@@ -406,13 +421,16 @@ scripted_gui = {
           }
           check_variable = {
             var = 659.EJZ_NEP_influence
-            value = 659.EJZ_DUE_influence
+            value = 659.EJZ_KGS_influence
             compare = greater_than
           }
           check_variable = {
             var = 659.EJZ_NEP_influence
-            value = 659.EJZ_DUE_influence
+            value = 659.EJZ_DSU_influence
             compare = greater_than
+          }
+          659 = {
+            is_owned_by = EJZ
           }
         }
       }
@@ -426,16 +444,443 @@ scripted_gui = {
           }
           check_variable = {
             var = 1415.EJZ_NEP_influence
-            value = 1415.EJZ_DUE_influence
+            value = 1415.EJZ_KGS_influence
             compare = greater_than
           }
           check_variable = {
             var = 1415.EJZ_NEP_influence
+            value = 1415.EJZ_DSU_influence
+            compare = greater_than
+          }
+          1415 = {
+            is_owned_by = EJZ
+          }
+        }
+      }
+    ejznvajkelection_NEP_visible = {
+        AND = {
+          check_variable = {
+            var = 1177.EJZ_NEP_influence
+            value = 1177.EJZ_DUE_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1177.EJZ_NEP_influence
+            value = 1177.EJZ_KGS_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1177.EJZ_NEP_influence
+            value = 1177.EJZ_DSU_influence
+            compare = greater_than
+          }
+          1177 = {
+            is_owned_by = EJZ
+          }
+        }
+      }  
+    wokarkelection_DUE_visible = {
+        AND = {
+          check_variable = {
+            var = 1178.EJZ_DUE_influence
+            value = 1178.EJZ_NEP_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1178.EJZ_DUE_influence
+            value = 1178.EJZ_KGS_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1178.EJZ_DUE_influence
+            value = 1178.EJZ_DSU_influence
+            compare = greater_than
+          }
+          1178 = {
+            is_owned_by = EJZ
+          }
+        }
+      }
+      daekiaelection_DUE_visible = {
+        AND = {
+          check_variable = {
+            var = 1176.EJZ_DUE_influence
+            value = 1176.EJZ_NEP_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1176.EJZ_DUE_influence
+            value = 1176.EJZ_KGS_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1176.EJZ_DUE_influence
+            value = 1176.EJZ_DSU_influence
+            compare = greater_than
+          }
+          1176 = {
+            is_owned_by = EJZ
+          }
+        }
+      }
+      NEelection_DUE_visible = {
+        AND = {
+          check_variable = {
+            var = 1418.EJZ_DUE_influence
+            value = 1418.EJZ_NEP_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1418.EJZ_DUE_influence
+            value = 1418.EJZ_KGS_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1418.EJZ_DUE_influence
+            value = 1418.EJZ_DSU_influence
+            compare = greater_than
+          }
+          1418 = {
+            is_owned_by = EJZ
+          }
+        }
+      }
+    
+    Wejzelection_DUE_visible = {
+        AND = {
+          check_variable = {
+            var = 659.EJZ_DUE_influence
+            value = 659.EJZ_NEP_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 659.EJZ_DUE_influence
+            value = 659.EJZ_KGS_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 659.EJZ_DUE_influence
+            value = 659.EJZ_DSU_influence
+            compare = greater_than
+          }
+          659 = {
+            is_owned_by = EJZ
+          }
+        }
+      }
+    
+    Eejzelection_DUE_visible = {
+        AND = {
+          check_variable = {
+            var = 1415.EJZ_DUE_influence
+            value = 1415.EJZ_NEP_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1415.EJZ_DUE_influence
+            value = 1415.EJZ_KGS_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1415.EJZ_DUE_influence
+            value = 1415.EJZ_DSU_influence
+            compare = greater_than
+          }
+          1415 = {
+            is_owned_by = EJZ
+          }
+        }
+      }
+    ejznvajkelection_DUE_visible = {
+        AND = {
+          check_variable = {
+            var = 1177.EJZ_DUE_influence
+            value = 1177.EJZ_NEP_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1177.EJZ_DUE_influence
+            value = 1177.EJZ_KGS_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1177.EJZ_DUE_influence
+            value = 1177.EJZ_DSU_influence
+            compare = greater_than
+          }
+          1177 = {
+            is_owned_by = EJZ
+          }
+        }
+      }
+    wokarkelection_KGS_visible = {
+        AND = {
+          check_variable = {
+            var = 1178.EJZ_KGS_influence
+            value = 1178.EJZ_NEP_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1178.EJZ_KGS_influence
+            value = 1178.EJZ_DUE_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1178.EJZ_KGS_influence
+            value = 1178.EJZ_DSU_influence
+            compare = greater_than
+          }
+          1178 = {
+            is_owned_by = EJZ
+          }
+        }
+      }
+      daekiaelection_KGS_visible = {
+        AND = {
+          check_variable = {
+            var = 1176.EJZ_KGS_influence
+            value = 1176.EJZ_NEP_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1176.EJZ_KGS_influence
+            value = 1176.EJZ_DUE_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1176.EJZ_KGS_influence
+            value = 1176.EJZ_DSU_influence
+            compare = greater_than
+          }
+          1176 = {
+            is_owned_by = EJZ
+          }
+        }
+      }
+      NEelection_KGS_visible = {
+        AND = {
+          check_variable = {
+            var = 1418.EJZ_KGS_influence
+            value = 1418.EJZ_NEP_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1418.EJZ_KGS_influence
+            value = 1418.EJZ_DUE_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1418.EJZ_KGS_influence
+            value = 1418.EJZ_DSU_influence
+            compare = greater_than
+          }
+          1418 = {
+            is_owned_by = EJZ
+          }
+        }
+      }
+    
+    Wejzelection_KGS_visible = {
+        AND = {
+          check_variable = {
+            var = 659.EJZ_KGS_influence
+            value = 659.EJZ_NEP_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 659.EJZ_KGS_influence
+            value = 659.EJZ_DUE_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 659.EJZ_KGS_influence
+            value = 659.EJZ_DSU_influence
+            compare = greater_than
+          }
+          659 = {
+            is_owned_by = EJZ
+          }
+        }
+      }
+    
+    Eejzelection_KGS_visible = {
+        AND = {
+          check_variable = {
+            var = 1415.EJZ_KGS_influence
+            value = 1415.EJZ_NEP_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1415.EJZ_KGS_influence
             value = 1415.EJZ_DUE_influence
             compare = greater_than
           }
+          check_variable = {
+            var = 1415.EJZ_KGS_influence
+            value = 1415.EJZ_DSU_influence
+            compare = greater_than
+          }
+          1415 = {
+            is_owned_by = EJZ
+          }
+        }
       }
-    }
+    ejznvajkelection_KGS_visible = {
+        AND = {
+          check_variable = {
+            var = 1177.EJZ_KGS_influence
+            value = 1177.EJZ_NEP_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1177.EJZ_KGS_influence
+            value = 1177.EJZ_DUE_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1177.EJZ_KGS_influence
+            value = 1177.EJZ_DSU_influence
+            compare = greater_than
+          }
+          1177 = {
+            is_owned_by = EJZ
+          }
+        }
+      }
+    wokarkelection_DSU_visible = {
+        AND = {
+          check_variable = {
+            var = 1178.EJZ_DSU_influence
+            value = 1178.EJZ_NEP_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1178.EJZ_DSU_influence
+            value = 1178.EJZ_DUE_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1178.EJZ_DSU_influence
+            value = 1178.EJZ_KGS_influence
+            compare = greater_than
+          }
+          1178 = {
+            is_owned_by = EJZ
+          }
+        }
+      }
+      daekiaelection_DSU_visible = {
+        AND = {
+          check_variable = {
+            var = 1176.EJZ_DSU_influence
+            value = 1176.EJZ_NEP_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1176.EJZ_DSU_influence
+            value = 1176.EJZ_DUE_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1176.EJZ_DSU_influence
+            value = 1176.EJZ_KGS_influence
+            compare = greater_than
+          }
+          1176 = {
+            is_owned_by = EJZ
+          }
+        }
+      }
+      NEelection_DSU_visible = {
+        AND = {
+          check_variable = {
+            var = 1418.EJZ_DSU_influence
+            value = 1418.EJZ_NEP_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1418.EJZ_DSU_influence
+            value = 1418.EJZ_DUE_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1418.EJZ_DSU_influence
+            value = 1418.EJZ_KGS_influence
+            compare = greater_than
+          }
+          1418 = {
+            is_owned_by = EJZ
+          }
+        }
+      }
+    
+    Wejzelection_DSU_visible = {
+        AND = {
+          check_variable = {
+            var = 659.EJZ_DSU_influence
+            value = 659.EJZ_NEP_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 659.EJZ_DSU_influence
+            value = 659.EJZ_DUE_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 659.EJZ_DSU_influence
+            value = 659.EJZ_KGS_influence
+            compare = greater_than
+          }
+          659 = {
+            is_owned_by = EJZ
+          }
+        }
+      }
+    
+    Eejzelection_DSU_visible = {
+        AND = {
+          check_variable = {
+            var = 1415.EJZ_DSU_influence
+            value = 1415.EJZ_NEP_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1415.EJZ_DSU_influence
+            value = 1415.EJZ_DUE_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1415.EJZ_DSU_influence
+            value = 1415.EJZ_KGS_influence
+            compare = greater_than
+          }
+          1415 = {
+            is_owned_by = EJZ
+          }
+        }
+      }
+    ejznvajkelection_DSU_visible = {
+        AND = {
+          check_variable = {
+            var = 1177.EJZ_DSU_influence
+            value = 1177.EJZ_NEP_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1177.EJZ_DSU_influence
+            value = 1177.EJZ_DUE_influence
+            compare = greater_than
+          }
+          check_variable = {
+            var = 1177.EJZ_DSU_influence
+            value = 1177.EJZ_KGS_influence
+            compare = greater_than
+          }
+          1177 = {
+            is_owned_by = EJZ
+          }
+        }
+      }
     }  
     dynamic_lists = {
 	}

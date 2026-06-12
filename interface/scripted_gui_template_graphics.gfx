@@ -80,4 +80,108 @@ spriteTypes = {
 		name = "GFX_scripted_gui_Eejzelection_NEP"
 		textureFile = "/gfx/interface/scripted_gui_graphics/Eejzelection_NEP.dds"
 	}
+	spriteType = {
+		name = "GFX_scripted_gui_ejznvajkelection_NEP"
+		textureFile = "/gfx/interface/scripted_gui_graphics/ejznvajkelection_NEP.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_wokarkelection_DSU"
+		textureFile = "/gfx/interface/scripted_gui_graphics/wokarkelection_DSU.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_daekiaelection_DSU"
+		textureFile = "/gfx/interface/scripted_gui_graphics/daekiaelection_DSU.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_NEejznstedaelection_DSU"
+		textureFile = "/gfx/interface/scripted_gui_graphics/NEelection_DSU.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_Wejznstedaelection_DSU"
+		textureFile = "/gfx/interface/scripted_gui_graphics/Wejzelection_DSU.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_Eejzelection_DSU"
+		textureFile = "/gfx/interface/scripted_gui_graphics/Eejzelection_DSU.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_ejznvajkelection_DSU"
+		textureFile = "/gfx/interface/scripted_gui_graphics/ejznvajkelection_DSU.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_wokarkelection_DUE"
+		textureFile = "/gfx/interface/scripted_gui_graphics/wokarkelection_DUE.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_daekiaelection_DUE"
+		textureFile = "/gfx/interface/scripted_gui_graphics/daekiaelection_DUE.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_NEejznstedaelection_DUE"
+		textureFile = "/gfx/interface/scripted_gui_graphics/NEelection_DUE.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_Wejznstedaelection_DUE"
+		textureFile = "/gfx/interface/scripted_gui_graphics/Wejzelection_DUE.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_Eejzelection_DUE"
+		textureFile = "/gfx/interface/scripted_gui_graphics/Eejzelection_DUE.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_ejznvajkelection_DUE"
+		textureFile = "/gfx/interface/scripted_gui_graphics/ejznvajkelection_DUE.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_wokarkelection_KGS"
+		textureFile = "/gfx/interface/scripted_gui_graphics/wokarkelection_KGS.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_daekiaelection_KGS"
+		textureFile = "/gfx/interface/scripted_gui_graphics/daekiaelection_KGS.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_NEejznstedaelection_KGS"
+		textureFile = "/gfx/interface/scripted_gui_graphics/NEelection_KGS.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_Wejznstedaelection_KGS"
+		textureFile = "/gfx/interface/scripted_gui_graphics/Wejzelection_KGS.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_Eejzelection_KGS"
+		textureFile = "/gfx/interface/scripted_gui_graphics/Eejzelection_KGS.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_ejznvajkelection_KGS"
+		textureFile = "/gfx/interface/scripted_gui_graphics/ejznvajkelection_KGS.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_wokarkelection_DUE"
+		textureFile = "/gfx/interface/scripted_gui_graphics/wokarkelection_DUE.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_daekiaelection_notowned"
+		textureFile = "/gfx/interface/scripted_gui_graphics/daekiaelection_notowned.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_NEejznstedaelection_notowned"
+		textureFile = "/gfx/interface/scripted_gui_graphics/NEelection_notowned.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_Wejznstedaelection_notowned"
+		textureFile = "/gfx/interface/scripted_gui_graphics/Wejzelection_notowned.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_Eejzelection_notowned"
+		textureFile = "/gfx/interface/scripted_gui_graphics/Eejzelection_notowned.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_ejznvajkelection_notowned"
+		textureFile = "/gfx/interface/scripted_gui_graphics/ejznvajkelection_notowned.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_wokarkelection_notowned"
+		textureFile = "/gfx/interface/scripted_gui_graphics/wokarkelection_notowned.dds"
+	}
 }

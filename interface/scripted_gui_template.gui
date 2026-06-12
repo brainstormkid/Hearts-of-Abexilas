@@ -64,6 +64,30 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 		buttonType ={
+			name ="Wejzelection_DUE"
+			spriteType = "GFX_scripted_gui_Wejznstedaelection_DUE"
+			position = { x= 353 y = 251 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="Wejzelection_KGS"
+			spriteType = "GFX_scripted_gui_Wejznstedaelection_KGS"
+			position = { x= 353 y = 251 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="Wejzelection_DSU"
+			spriteType = "GFX_scripted_gui_Wejznstedaelection_DSU"
+			position = { x= 353 y = 251 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="Wejzelection_notowned"
+			spriteType = "GFX_scripted_gui_Wejznstedaelection_notowned"
+			position = { x= 353 y = 251 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
 			name ="Eejzelection_uncontest"
 			spriteType = "GFX_scripted_gui_ejz_Eejzelection_uncontest"
 			position = { x= 390 y = 264 }
@@ -72,6 +96,30 @@ guiTypes = {
 		buttonType ={
 			name ="Eejzelection_NEP"
 			spriteType = "GFX_scripted_gui_Eejzelection_NEP"
+			position = { x= 390 y = 264 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="Eejzelection_DUE"
+			spriteType = "GFX_scripted_gui_Eejzelection_DUE"
+			position = { x= 390 y = 264 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="Eejzelection_KGS"
+			spriteType = "GFX_scripted_gui_Eejzelection_KGS"
+			position = { x= 390 y = 264 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="Eejzelection_DSU"
+			spriteType = "GFX_scripted_gui_Eejzelection_DSU"
+			position = { x= 390 y = 264 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="Eejzelection_notowned"
+			spriteType = "GFX_scripted_gui_Eejzelection_notowned"
 			position = { x= 390 y = 264 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -88,6 +136,30 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 		buttonType ={
+			name ="NEelection_DUE"
+			spriteType = "GFX_scripted_gui_NEejznstedaelection_DUE"
+			position = { x= 409 y = 235 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="NEelection_KGS"
+			spriteType = "GFX_scripted_gui_NEejznstedaelection_KGS"
+			position = { x= 409 y = 235 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="NEelection_DSU"
+			spriteType = "GFX_scripted_gui_NEejznstedaelection_DSU"
+			position = { x= 409 y = 235 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="NEelection_notowned"
+			spriteType = "GFX_scripted_gui_NEejznstedaelection_notowned"
+			position = { x= 409 y = 235 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
 			name ="wokarkelection_uncontest"
 			spriteType = "GFX_scripted_gui_ejz_wokarkelection_uncontest"
 			position = { x= 352 y = 199 }
@@ -100,8 +172,62 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 		buttonType ={
+			name ="wokarkelection_DUE"
+			spriteType = "GFX_scripted_gui_wokarkelection_DUE"
+			position = { x= 352 y = 198 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="wokarkelection_KGS"
+			spriteType = "GFX_scripted_gui_wokarkelection_KGS"
+			position = { x= 352 y = 198 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="wokarkelection_DSU"
+			spriteType = "GFX_scripted_gui_wokarkelection_DSU"
+			position = { x= 352 y = 198 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="wokarkelection_notowned"
+			spriteType = "GFX_scripted_gui_wokarkelection_notowned"
+			position = { x= 352 y = 198 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
 			name ="ejznvajkelection_uncontest"
 			spriteType = "GFX_scripted_gui_ejz_ejznvajkelection_uncontest"
+			position = { x= 352 y = 400}
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="ejznvajkelection_NEP"
+			spriteType = "GFX_scripted_gui_ejznvajkelection_NEP"
+			position = { x= 352 y = 400}
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="ejznvajkelection_DUE"
+			spriteType = "GFX_scripted_gui_ejznvajkelection_DUE"
+			position = { x= 352 y = 400}
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="ejznvajkelection_KGS"
+			spriteType = "GFX_scripted_gui_ejznvajkelection_KGS"
+			position = { x= 352 y = 400}
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="ejznvajkelection_DSU"
+			spriteType = "GFX_scripted_gui_ejznvajkelection_DSU"
+			position = { x= 352 y = 400}
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="ejznvajkelection_notowned"
+			spriteType = "GFX_scripted_gui_ejznvajkelection_notowned"
 			position = { x= 352 y = 400}
 			Orientation = "UPPER_LEFT"
 		}
@@ -114,6 +240,30 @@ guiTypes = {
 		buttonType ={
 			name ="daekiaelection_NEP"
 			spriteType = "GFX_scripted_gui_daekiaelection_NEP"
+			position = { x= 349 y = 473 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="daekiaelection_DUE"
+			spriteType = "GFX_scripted_gui_daekiaelection_DUE"
+			position = { x= 349 y = 473 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="daekiaelection_KGS"
+			spriteType = "GFX_scripted_gui_daekiaelection_KGS"
+			position = { x= 349 y = 473 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="daekiaelection_DSU"
+			spriteType = "GFX_scripted_gui_daekiaelection_DSU"
+			position = { x= 349 y = 473 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="daekiaelection_notowned"
+			spriteType = "GFX_scripted_gui_daekiaelection_notowned"
 			position = { x= 349 y = 473 }
 			Orientation = "UPPER_LEFT"
 		}
