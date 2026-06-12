@@ -624,6 +624,46 @@ guiTypes = {
 			maxHeight = 40
 			fixedsize = yes
 		}
+		instantTextboxType = {
+			name = "election_state_ejznvajk_NEP"
+			position = { x = 25 y = 450 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "var_value_election_state_ejznvajk_NEP"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_ejznvajk_DUE"
+			position = { x = 25 y = 470 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "var_value_election_state_ejznvajk_DUE"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_ejznvajk_KGS"
+			position = { x = 25 y = 490 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "var_value_election_state_ejznvajk_KGS"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "election_state_ejznvajk_DSU"
+			position = { x = 25 y = 510 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "var_value_election_state_ejznvajk_DSU"
+			maxWidth = 325
+			maxHeight = 40
+			fixedsize = yes
+		}
 
 		instantTextboxType = {
 			name = "ejznrosa_Plist"
@@ -730,6 +770,17 @@ guiTypes = {
 			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "campaign_NEP"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+
+		instantTextboxType = {
+			name = "EJZ_campaign_DUE"
+			position = { x = 250 y = 315 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "campaign_DUE"
 			maxWidth = 400
 			maxHeight = 20
 			fixedsize = yes

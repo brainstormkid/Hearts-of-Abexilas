@@ -1,0 +1,8191 @@
+add_namespace = ejznrosa_election
+country_event = {
+	id = ejznrosa_election.1
+	hours = 5
+    random_hours = 0
+    days = 0
+	title = "Wonderful NEP campaign in Wokark!"
+	desc = ejznrosa_election.1
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	timeout_days = 20
+	fire_only_once = no
+	option = { 
+	name = "Ok"
+	ai_chance = { factor = 100 }
+	hidden_effect = {
+		random_list = {
+		50 = {
+			if = {
+				limit = {
+					check_variable = {
+						1178.EJZ_uncontest_influence > 14
+					}
+				}
+				1178 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 15
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 15
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1178.EJZ_NEP_influence > 60
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 75
+				    }
+				    subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1178.EJZ_NEP_influence
+				    }
+				1178 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 14
+						}
+						check_variable = {
+							1178.EJZ_KGS_influence > 14
+						}
+						check_variable = {
+							1178.EJZ_DSU_influence > 14
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 15
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 15
+							}
+						}
+					}
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 15
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 15
+							}
+						}
+					}
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 15
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 15
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 14
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 15
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 15
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_KGS_influence > 14
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 15
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 15
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 14
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 15
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 15
+						}
+					}
+				}
+			}
+		}
+		30 = {
+			if = {
+				limit = {
+					check_variable = {
+						1178.EJZ_uncontest_influence > 19
+					}
+				}
+				1178 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 20
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 20
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1178.EJZ_NEP_influence > 55
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 75
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1178.EJZ_NEP_influence
+				}
+				1178 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 19
+						}
+						check_variable = {
+							1178.EJZ_KGS_influence > 19
+						}
+						check_variable = {
+							1178.EJZ_DSU_influence > 19
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 20
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 20
+							}
+						}
+					}
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 20
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 20
+							}
+						}
+					}
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 20
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 20
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 19
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 20
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 20
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_KGS_influence > 19
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 20
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 20
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 19
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 20
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 20
+						}
+					}
+				}
+			}
+		}
+		20 = {
+			if = {
+				limit = {
+					check_variable = {
+						1178.EJZ_uncontest_influence > 24
+					}
+				}
+				1178 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 25
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 25
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1178.EJZ_NEP_influence > 50
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 75
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1178.EJZ_NEP_influence
+				}
+				1178 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 24
+						}
+						check_variable = {
+							1178.EJZ_KGS_influence > 24
+						}
+						check_variable = {
+							1178.EJZ_DSU_influence > 24
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 25
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 25
+							}
+						}
+					}
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 25
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 25
+							}
+						}
+					}
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 25
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 25
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 24
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 25
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 25
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_KGS_influence > 24
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 25
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 25
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 24
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 25
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 25
+						}
+					}
+				}
+			}
+	    }	
+	}
+	}
+    }  
+}
+country_event = {
+	id = ejznrosa_election.2
+	hours = 5
+    random_hours = 0
+    days = 0
+	title = "Mediocre NEP campaign in Wokark."
+	desc = ejznrosa_election.2
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	timeout_days = 20
+	fire_only_once = no
+	option = { 
+	name = "Ok"
+	ai_chance = { factor = 100 }
+	hidden_effect = {
+		random_list = {
+		50 = {
+			if = {
+				limit = {
+					check_variable = {
+						1178.EJZ_uncontest_influence > 9
+					}
+				}
+				1178 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 10
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 10
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1178.EJZ_NEP_influence > 65
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 75
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1178.EJZ_NEP_influence
+				}
+				1178 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 9
+						}
+						check_variable = {
+							1178.EJZ_KGS_influence > 9
+						}
+						check_variable = {
+							1178.EJZ_DSU_influence > 9
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 10
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 10
+							}
+						}
+					}
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 10
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 10
+							}
+						}
+					}
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 10
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 10
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 9
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 10
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 10
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_KGS_influence > 9
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 10
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 10
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 9
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 10
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 10
+						}
+					}
+				}
+			}
+		}
+		30 = {
+			if = {
+				limit = {
+					check_variable = {
+						1178.EJZ_uncontest_influence > 11
+					}
+				}
+				1178 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 12
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 12
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1178.EJZ_NEP_influence > 63
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 75
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1178.EJZ_NEP_influence
+				}
+				1178 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 11
+						}
+						check_variable = {
+							1178.EJZ_KGS_influence > 11
+						}
+						check_variable = {
+							1178.EJZ_DSU_influence > 11
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 12
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 12
+							}
+						}
+					}
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 12
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 12
+							}
+						}
+					}
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 12
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 12
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 11
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 12
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 12
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_KGS_influence > 11
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 12
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 12
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 11
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 12
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 12
+						}
+					}
+				}
+			}
+		}
+		20 = {
+			if = {
+				limit = {
+					check_variable = {
+						1178.EJZ_uncontest_influence > 13
+					}
+				}
+				1178 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 14
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 14
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1178.EJZ_NEP_influence > 61
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 75
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1178.EJZ_NEP_influence
+				}
+				1178 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 13
+						}
+						check_variable = {
+							1178.EJZ_KGS_influence > 13
+						}
+						check_variable = {
+							1178.EJZ_DSU_influence > 13
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 14
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 14
+							}
+						}
+					}
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 14
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 14
+							}
+						}
+					}
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 14
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 14
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 13
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 14
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 14
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_KGS_influence > 13
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 14
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 14
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 13
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 14
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 14
+						}
+					}
+				}
+			}
+	    }	
+	}
+	}
+    }  
+}
+country_event = {
+	id = ejznrosa_election.3
+	hours = 5
+    random_hours = 0
+    days = 0
+	title = "Horrible NEP campaign in Wokark."
+	desc = ejznrosa_election.3
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	timeout_days = 20
+	fire_only_once = no
+	option = { 
+	name = "Ok"
+	ai_chance = { factor = 100 }
+	hidden_effect = {
+		random_list = {
+		50 = {
+			if = {
+				limit = {
+					check_variable = {
+						1178.EJZ_uncontest_influence > 1
+					}
+				}
+				1178 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 2
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 2
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1178.EJZ_NEP_influence > 73
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 75
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1178.EJZ_NEP_influence
+				}
+				1178 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 1
+						}
+						check_variable = {
+							1178.EJZ_KGS_influence > 1
+						}
+						check_variable = {
+							1178.EJZ_DSU_influence > 1
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 2
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 2
+							}
+						}
+					}
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 2
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 2
+							}
+						}
+					}
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 2
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 2
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 1
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 2
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 2
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_KGS_influence > 1
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 2
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 2
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 1
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 2
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 2
+						}
+					}
+				}
+			}
+		}
+		30 = {
+			if = {
+				limit = {
+					check_variable = {
+						1178.EJZ_uncontest_influence > 3
+					}
+				}
+				1178 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 4
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 4
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1178.EJZ_NEP_influence > 71
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 75
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1178.EJZ_NEP_influence
+				}
+				1178 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 3
+						}
+						check_variable = {
+							1178.EJZ_KGS_influence > 3
+						}
+						check_variable = {
+							1178.EJZ_DSU_influence > 3
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 4
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 4
+							}
+						}
+					}
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 4
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 4
+							}
+						}
+					}
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 4
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 4
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 3
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 4
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 4
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_KGS_influence > 3
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 4
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 4
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 3
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 4
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 4
+						}
+					}
+				}
+			}
+		}
+		20 = {
+			if = {
+				limit = {
+					check_variable = {
+						1178.EJZ_uncontest_influence > 4
+					}
+				}
+				1178 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 5
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 5
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1178.EJZ_NEP_influence > 70
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 75
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1178.EJZ_NEP_influence
+				}
+				1178 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 4
+						}
+						check_variable = {
+							1178.EJZ_KGS_influence > 4
+						}
+						check_variable = {
+							1178.EJZ_DSU_influence > 4
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 5
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 5
+							}
+						}
+					}
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 5
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 5
+							}
+						}
+					}
+					30 = {
+						1178 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 5
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 5
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 4
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 5
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 5
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_KGS_influence > 4
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 5
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 5
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1178.EJZ_DUE_influence > 4
+						}
+					}
+					1178 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 5
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 5
+						}
+					}
+				}
+			}
+	    }	
+	}
+	}
+    }  
+}
+country_event = {
+	id = ejznrosa_election.4
+	hours = 5
+    random_hours = 0
+    days = 0
+	title = "Wonderful NEP campaign in Daekia!"
+	desc = ejznrosa_election.4
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	timeout_days = 20
+	fire_only_once = no
+	option = { 
+	name = "Ok"
+	ai_chance = { factor = 100 }
+	hidden_effect = {
+		random_list = {
+		50 = {
+			if = {
+				limit = {
+					check_variable = {
+						1176.EJZ_uncontest_influence > 14
+					}
+				}
+				1176 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 15
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 15
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1176.EJZ_NEP_influence > 60
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 75
+				    }
+				    subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1176.EJZ_NEP_influence
+				    }
+				1176 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 14
+						}
+						check_variable = {
+							1176.EJZ_KGS_influence > 14
+						}
+						check_variable = {
+							1176.EJZ_DSU_influence > 14
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 15
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 15
+							}
+						}
+					}
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 15
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 15
+							}
+						}
+					}
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 15
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 15
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 14
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 15
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 15
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_KGS_influence > 14
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 15
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 15
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 14
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 15
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 15
+						}
+					}
+				}
+			}
+		}
+		30 = {
+			if = {
+				limit = {
+					check_variable = {
+						1176.EJZ_uncontest_influence > 19
+					}
+				}
+				1176 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 20
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 20
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1176.EJZ_NEP_influence > 55
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 75
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1176.EJZ_NEP_influence
+				}
+				1176 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 19
+						}
+						check_variable = {
+							1176.EJZ_KGS_influence > 19
+						}
+						check_variable = {
+							1176.EJZ_DSU_influence > 19
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 20
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 20
+							}
+						}
+					}
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 20
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 20
+							}
+						}
+					}
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 20
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 20
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 19
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 20
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 20
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_KGS_influence > 19
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 20
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 20
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 19
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 20
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 20
+						}
+					}
+				}
+			}
+		}
+		20 = {
+			if = {
+				limit = {
+					check_variable = {
+						1176.EJZ_uncontest_influence > 24
+					}
+				}
+				1176 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 25
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 25
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1176.EJZ_NEP_influence > 50
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 75
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1176.EJZ_NEP_influence
+				}
+				1176 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 24
+						}
+						check_variable = {
+							1176.EJZ_KGS_influence > 24
+						}
+						check_variable = {
+							1176.EJZ_DSU_influence > 24
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 25
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 25
+							}
+						}
+					}
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 25
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 25
+							}
+						}
+					}
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 25
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 25
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 24
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 25
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 25
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_KGS_influence > 24
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 25
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 25
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 24
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 25
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 25
+						}
+					}
+				}
+			}
+	    }	
+	}
+	}
+    }  
+}
+country_event = {
+	id = ejznrosa_election.5
+	hours = 5
+    random_hours = 0
+    days = 0
+	title = "Mediocre NEP campaign in Daekia."
+	desc = ejznrosa_election.5
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	timeout_days = 20
+	fire_only_once = no
+	option = { 
+	name = "Ok"
+	ai_chance = { factor = 100 }
+	hidden_effect = {
+		random_list = {
+		50 = {
+			if = {
+				limit = {
+					check_variable = {
+						1176.EJZ_uncontest_influence > 9
+					}
+				}
+				1176 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 10
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 10
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1176.EJZ_NEP_influence > 65
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 75
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1176.EJZ_NEP_influence
+				}
+				1176 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 9
+						}
+						check_variable = {
+							1176.EJZ_KGS_influence > 9
+						}
+						check_variable = {
+							1176.EJZ_DSU_influence > 9
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 10
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 10
+							}
+						}
+					}
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 10
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 10
+							}
+						}
+					}
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 10
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 10
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 9
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 10
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 10
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_KGS_influence > 9
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 10
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 10
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 9
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 10
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 10
+						}
+					}
+				}
+			}
+		}
+		30 = {
+			if = {
+				limit = {
+					check_variable = {
+						1176.EJZ_uncontest_influence > 11
+					}
+				}
+				1176 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 12
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 12
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1176.EJZ_NEP_influence > 63
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 75
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1176.EJZ_NEP_influence
+				}
+				1176 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 11
+						}
+						check_variable = {
+							1176.EJZ_KGS_influence > 11
+						}
+						check_variable = {
+							1176.EJZ_DSU_influence > 11
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 12
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 12
+							}
+						}
+					}
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 12
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 12
+							}
+						}
+					}
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 12
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 12
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 11
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 12
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 12
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_KGS_influence > 11
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 12
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 12
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 11
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 12
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 12
+						}
+					}
+				}
+			}
+		}
+		20 = {
+			if = {
+				limit = {
+					check_variable = {
+						1176.EJZ_uncontest_influence > 13
+					}
+				}
+				1176 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 14
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 14
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1176.EJZ_NEP_influence > 61
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 75
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1176.EJZ_NEP_influence
+				}
+				1176 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 13
+						}
+						check_variable = {
+							1176.EJZ_KGS_influence > 13
+						}
+						check_variable = {
+							1176.EJZ_DSU_influence > 13
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 14
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 14
+							}
+						}
+					}
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 14
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 14
+							}
+						}
+					}
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 14
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 14
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 13
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 14
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 14
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_KGS_influence > 13
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 14
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 14
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 13
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 14
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 14
+						}
+					}
+				}
+			}
+	    }	
+	}
+	}
+    }  
+}
+country_event = {
+	id = ejznrosa_election.6
+	hours = 5
+    random_hours = 0
+    days = 0
+	title = "Horrible NEP campaign in Daekia."
+	desc = ejznrosa_election.6
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	timeout_days = 20
+	fire_only_once = no
+	option = { 
+	name = "Ok"
+	ai_chance = { factor = 100 }
+	hidden_effect = {
+		random_list = {
+		50 = {
+			if = {
+				limit = {
+					check_variable = {
+						1176.EJZ_uncontest_influence > 1
+					}
+				}
+				1176 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 2
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 2
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1176.EJZ_NEP_influence > 73
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 75
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1176.EJZ_NEP_influence
+				}
+				1176 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 1
+						}
+						check_variable = {
+							1176.EJZ_KGS_influence > 1
+						}
+						check_variable = {
+							1176.EJZ_DSU_influence > 1
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 2
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 2
+							}
+						}
+					}
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 2
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 2
+							}
+						}
+					}
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 2
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 2
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 1
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 2
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 2
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_KGS_influence > 1
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 2
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 2
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 1
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 2
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 2
+						}
+					}
+				}
+			}
+		}
+		30 = {
+			if = {
+				limit = {
+					check_variable = {
+						1176.EJZ_uncontest_influence > 3
+					}
+				}
+				1176 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 4
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 4
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1176.EJZ_NEP_influence > 71
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 75
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1176.EJZ_NEP_influence
+				}
+				1176 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 3
+						}
+						check_variable = {
+							1176.EJZ_KGS_influence > 3
+						}
+						check_variable = {
+							1176.EJZ_DSU_influence > 3
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 4
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 4
+							}
+						}
+					}
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 4
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 4
+							}
+						}
+					}
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 4
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 4
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 3
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 4
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 4
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_KGS_influence > 3
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 4
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 4
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 3
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 4
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 4
+						}
+					}
+				}
+			}
+		}
+		20 = {
+			if = {
+				limit = {
+					check_variable = {
+						1176.EJZ_uncontest_influence > 4
+					}
+				}
+				1176 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 5
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 5
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1176.EJZ_NEP_influence > 70
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 75
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1176.EJZ_NEP_influence
+				}
+				1176 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 4
+						}
+						check_variable = {
+							1176.EJZ_KGS_influence > 4
+						}
+						check_variable = {
+							1176.EJZ_DSU_influence > 4
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 5
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 5
+							}
+						}
+					}
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 5
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 5
+							}
+						}
+					}
+					30 = {
+						1176 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 5
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 5
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 4
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 5
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 5
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_KGS_influence > 4
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 5
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 5
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1176.EJZ_DUE_influence > 4
+						}
+					}
+					1176 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 5
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 5
+						}
+					}
+				}
+			}
+	    }	
+	}
+	}
+    }  
+}
+country_event = {
+	id = ejznrosa_election.7
+	hours = 5
+    random_hours = 0
+    days = 0
+	title = "Wonderful NEP campaign in NorthEast Ejznsteda!"
+	desc = ejznrosa_election.7
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	timeout_days = 20
+	fire_only_once = no
+	option = { 
+	name = "Ok"
+	ai_chance = { factor = 100 }
+	hidden_effect = {
+		random_list = {
+		50 = {
+			if = {
+				limit = {
+					check_variable = {
+						1418.EJZ_uncontest_influence > 14
+					}
+				}
+				1418 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 15
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 15
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1418.EJZ_NEP_influence > 45
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 60
+				    }
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1418.EJZ_NEP_influence
+				    }
+				1418 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 14
+						}
+						check_variable = {
+							1418.EJZ_KGS_influence > 14
+						}
+						check_variable = {
+							1418.EJZ_DSU_influence > 14
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 15
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 15
+							}
+						}
+					}
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 15
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 15
+							}
+						}
+					}
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 15
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 15
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 14
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 15
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 15
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_KGS_influence > 14
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 15
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 15
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 14
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 15
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 15
+						}
+					}
+				}
+			}
+		}
+		30 = {
+			if = {
+				limit = {
+					check_variable = {
+						1418.EJZ_uncontest_influence > 19
+					}
+				}
+				1418 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 20
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 20
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1418.EJZ_NEP_influence > 40
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 60
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1418.EJZ_NEP_influence
+				}
+				1418 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 19
+						}
+						check_variable = {
+							1418.EJZ_KGS_influence > 19
+						}
+						check_variable = {
+							1418.EJZ_DSU_influence > 19
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 20
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 20
+							}
+						}
+					}
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 20
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 20
+							}
+						}
+					}
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 20
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 20
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 19
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 20
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 20
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_KGS_influence > 19
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 20
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 20
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 19
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 20
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 20
+						}
+					}
+				}
+			}
+		}
+		20 = {
+			if = {
+				limit = {
+					check_variable = {
+						1418.EJZ_uncontest_influence > 24
+					}
+				}
+				1418 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 25
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 25
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1418.EJZ_NEP_influence > 35
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 60
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1418.EJZ_NEP_influence
+				}
+				1418 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 24
+						}
+						check_variable = {
+							1418.EJZ_KGS_influence > 24
+						}
+						check_variable = {
+							1418.EJZ_DSU_influence > 24
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 25
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 25
+							}
+						}
+					}
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 25
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 25
+							}
+						}
+					}
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 25
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 25
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 24
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 25
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 25
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_KGS_influence > 24
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 25
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 25
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 24
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 25
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 25
+						}
+					}
+				}
+			}
+	    }	
+	}
+	}
+    }  
+}
+country_event = {
+	id = ejznrosa_election.8
+	hours = 5
+    random_hours = 0
+    days = 0
+	title = "Mediocre NEP campaign in NorthEast Ejznsteda."
+	desc = ejznrosa_election.8
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	timeout_days = 20
+	fire_only_once = no
+	option = { 
+	name = "Ok"
+	ai_chance = { factor = 100 }
+	hidden_effect = {
+		random_list = {
+		50 = {
+			if = {
+				limit = {
+					check_variable = {
+						1418.EJZ_uncontest_influence > 9
+					}
+				}
+				1418 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 10
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 10
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1418.EJZ_NEP_influence > 50
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 60
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1418.EJZ_NEP_influence
+				}
+				1418 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 9
+						}
+						check_variable = {
+							1418.EJZ_KGS_influence > 9
+						}
+						check_variable = {
+							1418.EJZ_DSU_influence > 9
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 10
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 10
+							}
+						}
+					}
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 10
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 10
+							}
+						}
+					}
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 10
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 10
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 9
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 10
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 10
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_KGS_influence > 9
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 10
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 10
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 9
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 10
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 10
+						}
+					}
+				}
+			}
+		}
+		30 = {
+			if = {
+				limit = {
+					check_variable = {
+						1418.EJZ_uncontest_influence > 11
+					}
+				}
+				1418 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 12
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 12
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1418.EJZ_NEP_influence > 48
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 60
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1418.EJZ_NEP_influence
+				}
+				1418 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 11
+						}
+						check_variable = {
+							1418.EJZ_KGS_influence > 11
+						}
+						check_variable = {
+							1418.EJZ_DSU_influence > 11
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 12
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 12
+							}
+						}
+					}
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 12
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 12
+							}
+						}
+					}
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 12
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 12
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 11
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 12
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 12
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_KGS_influence > 11
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 12
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 12
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 11
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 12
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 12
+						}
+					}
+				}
+			}
+		}
+		20 = {
+			if = {
+				limit = {
+					check_variable = {
+						1418.EJZ_uncontest_influence > 13
+					}
+				}
+				1418 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 14
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 14
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1176.EJZ_NEP_influence > 46
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 60
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1418.EJZ_NEP_influence
+				}
+				1418 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 13
+						}
+						check_variable = {
+							1418.EJZ_KGS_influence > 13
+						}
+						check_variable = {
+							1418.EJZ_DSU_influence > 13
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 14
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 14
+							}
+						}
+					}
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 14
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 14
+							}
+						}
+					}
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 14
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 14
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 13
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 14
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 14
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_KGS_influence > 13
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 14
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 14
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 13
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 14
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 14
+						}
+					}
+				}
+			}
+	    }	
+	}
+	}
+    }  
+}
+country_event = {
+	id = ejznrosa_election.9
+	hours = 5
+    random_hours = 0
+    days = 0
+	title = "Horrible NEP campaign in NorthEast Ejznsteda."
+	desc = ejznrosa_election.9
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	timeout_days = 20
+	fire_only_once = no
+	option = { 
+	name = "Ok"
+	ai_chance = { factor = 100 }
+	hidden_effect = {
+		random_list = {
+		50 = {
+			if = {
+				limit = {
+					check_variable = {
+						1418.EJZ_uncontest_influence > 1
+					}
+				}
+				1418 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 2
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 2
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1418.EJZ_NEP_influence > 58
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 60
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1418.EJZ_NEP_influence
+				}
+				1418 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 1
+						}
+						check_variable = {
+							1418.EJZ_KGS_influence > 1
+						}
+						check_variable = {
+							1418.EJZ_DSU_influence > 1
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 2
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 2
+							}
+						}
+					}
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 2
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 2
+							}
+						}
+					}
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 2
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 2
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 1
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 2
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 2
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_KGS_influence > 1
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 2
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 2
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 1
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 2
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 2
+						}
+					}
+				}
+			}
+		}
+		30 = {
+			if = {
+				limit = {
+					check_variable = {
+						1418.EJZ_uncontest_influence > 3
+					}
+				}
+				1418 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 4
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 4
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1418.EJZ_NEP_influence > 56
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 60
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1418.EJZ_NEP_influence
+				}
+				1418 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 3
+						}
+						check_variable = {
+							1418.EJZ_KGS_influence > 3
+						}
+						check_variable = {
+							1418.EJZ_DSU_influence > 3
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 4
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 4
+							}
+						}
+					}
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 4
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 4
+							}
+						}
+					}
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 4
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 4
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 3
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 4
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 4
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_KGS_influence > 3
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 4
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 4
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 3
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 4
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 4
+						}
+					}
+				}
+			}
+		}
+		20 = {
+			if = {
+				limit = {
+					check_variable = {
+						1418.EJZ_uncontest_influence > 4
+					}
+				}
+				1418 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 5
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 5
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1418.EJZ_NEP_influence > 55
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 60
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1418.EJZ_NEP_influence
+				}
+				1418 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 4
+						}
+						check_variable = {
+							1418.EJZ_KGS_influence > 4
+						}
+						check_variable = {
+							1418.EJZ_DSU_influence > 4
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 5
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 5
+							}
+						}
+					}
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 5
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 5
+							}
+						}
+					}
+					30 = {
+						1418 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 5
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 5
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 4
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 5
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 5
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_KGS_influence > 4
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 5
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 5
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1418.EJZ_DUE_influence > 4
+						}
+					}
+					1418 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 5
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 5
+						}
+					}
+				}
+			}
+	    }	
+	}
+	}
+    }  
+}
+country_event = {
+	id = ejznrosa_election.10
+	hours = 5
+    random_hours = 0
+    days = 0
+	title = "Wonderful NEP campaign in West Ejznsteda!"
+	desc = ejznrosa_election.10
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	timeout_days = 20
+	fire_only_once = no
+	option = { 
+	name = "Ok"
+	ai_chance = { factor = 100 }
+	hidden_effect = {
+		random_list = {
+		50 = {
+			if = {
+				limit = {
+					check_variable = {
+						659.EJZ_uncontest_influence > 14
+					}
+				}
+				659 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 15
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 15
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						659.EJZ_NEP_influence > 125
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 140
+				    }
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 659.EJZ_NEP_influence
+				    }
+				659 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							659.EJZ_DUE_influence > 14
+						}
+						check_variable = {
+							659.EJZ_KGS_influence > 14
+						}
+						check_variable = {
+							659.EJZ_DSU_influence > 14
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 15
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 15
+							}
+						}
+					}
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 15
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 15
+							}
+						}
+					}
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 15
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 15
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_DUE_influence > 14
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 15
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 15
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_KGS_influence > 14
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 15
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 15
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_DUE_influence > 14
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 15
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 15
+						}
+					}
+				}
+			}
+		}
+		30 = {
+			if = {
+				limit = {
+					check_variable = {
+						659.EJZ_uncontest_influence > 19
+					}
+				}
+				659 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 20
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 20
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						659.EJZ_NEP_influence > 120
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 140
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 659.EJZ_NEP_influence
+				}
+				659 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							659.EJZ_DUE_influence > 19
+						}
+						check_variable = {
+							659.EJZ_KGS_influence > 19
+						}
+						check_variable = {
+							659.EJZ_DSU_influence > 19
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 20
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 20
+							}
+						}
+					}
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 20
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 20
+							}
+						}
+					}
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 20
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 20
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_DUE_influence > 19
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 20
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 20
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_KGS_influence > 19
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 20
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 20
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_DUE_influence > 19
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 20
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 20
+						}
+					}
+				}
+			}
+		}
+		20 = {
+			if = {
+				limit = {
+					check_variable = {
+						659.EJZ_uncontest_influence > 24
+					}
+				}
+				659 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 25
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 25
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						659.EJZ_NEP_influence > 115
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 140
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 659.EJZ_NEP_influence
+				}
+				659 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							659.EJZ_DUE_influence > 24
+						}
+						check_variable = {
+							659.EJZ_KGS_influence > 24
+						}
+						check_variable = {
+							659.EJZ_DSU_influence > 24
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 25
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 25
+							}
+						}
+					}
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 25
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 25
+							}
+						}
+					}
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 25
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 25
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_DUE_influence > 24
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 25
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 25
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_KGS_influence > 24
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 25
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 25
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_DUE_influence > 24
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 25
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 25
+						}
+					}
+				}
+			}
+	    }	
+	}
+	}
+    }  
+}
+country_event = {
+	id = ejznrosa_election.11
+	hours = 5
+    random_hours = 0
+    days = 0
+	title = "Mediocre NEP campaign in West Ejznsteda."
+	desc = ejznrosa_election.11
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	timeout_days = 20
+	fire_only_once = no
+	option = { 
+	name = "Ok"
+	ai_chance = { factor = 100 }
+	hidden_effect = {
+		random_list = {
+		50 = {
+			if = {
+				limit = {
+					check_variable = {
+						659.EJZ_uncontest_influence > 9
+					}
+				}
+				659 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 10
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 10
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						659.EJZ_NEP_influence > 130
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 140
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 659.EJZ_NEP_influence
+				}
+				659 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							659.EJZ_DUE_influence > 9
+						}
+						check_variable = {
+							659.EJZ_KGS_influence > 9
+						}
+						check_variable = {
+							659.EJZ_DSU_influence > 9
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 10
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 10
+							}
+						}
+					}
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 10
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 10
+							}
+						}
+					}
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 10
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 10
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_DUE_influence > 9
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 10
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 10
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_KGS_influence > 9
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 10
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 10
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_DUE_influence > 9
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 10
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 10
+						}
+					}
+				}
+			}
+		}
+		30 = {
+			if = {
+				limit = {
+					check_variable = {
+						659.EJZ_uncontest_influence > 11
+					}
+				}
+				659 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 12
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 12
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						659.EJZ_NEP_influence > 128
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 140
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 659.EJZ_NEP_influence
+				}
+				659 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							659.EJZ_DUE_influence > 11
+						}
+						check_variable = {
+							659.EJZ_KGS_influence > 11
+						}
+						check_variable = {
+							659.EJZ_DSU_influence > 11
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 12
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 12
+							}
+						}
+					}
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 12
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 12
+							}
+						}
+					}
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 12
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 12
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_DUE_influence > 11
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 12
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 12
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_KGS_influence > 11
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 12
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 12
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_DUE_influence > 11
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 12
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 12
+						}
+					}
+				}
+			}
+		}
+		20 = {
+			if = {
+				limit = {
+					check_variable = {
+						659.EJZ_uncontest_influence > 13
+					}
+				}
+				659 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 14
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 14
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						659.EJZ_NEP_influence > 126
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 140
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 659.EJZ_NEP_influence
+				}
+				659 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							659.EJZ_DUE_influence > 13
+						}
+						check_variable = {
+							659.EJZ_KGS_influence > 13
+						}
+						check_variable = {
+							659.EJZ_DSU_influence > 13
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 14
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 14
+							}
+						}
+					}
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 14
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 14
+							}
+						}
+					}
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 14
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 14
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_DUE_influence > 13
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 14
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 14
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_KGS_influence > 13
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 14
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 14
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_DUE_influence > 13
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 14
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 14
+						}
+					}
+				}
+			}
+	    }	
+	}
+	}
+    }  
+}
+country_event = {
+	id = ejznrosa_election.12
+	hours = 5
+    random_hours = 0
+    days = 0
+	title = "Horrible NEP campaign in West Ejznsteda."
+	desc = ejznrosa_election.12
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	timeout_days = 20
+	fire_only_once = no
+	option = { 
+	name = "Ok"
+	ai_chance = { factor = 100 }
+	hidden_effect = {
+		random_list = {
+		50 = {
+			if = {
+				limit = {
+					check_variable = {
+						659.EJZ_uncontest_influence > 1
+					}
+				}
+				659 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 2
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 2
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						659.EJZ_NEP_influence > 138
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 140
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 659.EJZ_NEP_influence
+				}
+				659 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							659.EJZ_DUE_influence > 1
+						}
+						check_variable = {
+							659.EJZ_KGS_influence > 1
+						}
+						check_variable = {
+							659.EJZ_DSU_influence > 1
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 2
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 2
+							}
+						}
+					}
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 2
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 2
+							}
+						}
+					}
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 2
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 2
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_DUE_influence > 1
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 2
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 2
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_KGS_influence > 1
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 2
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 2
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_DUE_influence > 1
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 2
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 2
+						}
+					}
+				}
+			}
+		}
+		30 = {
+			if = {
+				limit = {
+					check_variable = {
+						659.EJZ_uncontest_influence > 3
+					}
+				}
+				659 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 4
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 4
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						659.EJZ_NEP_influence > 136
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 140
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 659.EJZ_NEP_influence
+				}
+				659 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							659.EJZ_DUE_influence > 3
+						}
+						check_variable = {
+							659.EJZ_KGS_influence > 3
+						}
+						check_variable = {
+							659.EJZ_DSU_influence > 3
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 4
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 4
+							}
+						}
+					}
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 4
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 4
+							}
+						}
+					}
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 4
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 4
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_DUE_influence > 3
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 4
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 4
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_KGS_influence > 3
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 4
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 4
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_DUE_influence > 3
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 4
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 4
+						}
+					}
+				}
+			}
+		}
+		20 = {
+			if = {
+				limit = {
+					check_variable = {
+						659.EJZ_uncontest_influence > 4
+					}
+				}
+				659 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 5
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 5
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						659.EJZ_NEP_influence > 135
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 140
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 659.EJZ_NEP_influence
+				}
+				659 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							659.EJZ_DUE_influence > 4
+						}
+						check_variable = {
+							659.EJZ_KGS_influence > 4
+						}
+						check_variable = {
+							659.EJZ_DSU_influence > 4
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 5
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 5
+							}
+						}
+					}
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 5
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 5
+							}
+						}
+					}
+					30 = {
+						659 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 5
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 5
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_DUE_influence > 4
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 5
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 5
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_KGS_influence > 4
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 5
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 5
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							659.EJZ_DUE_influence > 4
+						}
+					}
+					659 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 5
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 5
+						}
+					}
+				}
+			}
+	    }	
+	}
+	}
+    }  
+}
+country_event = {
+	id = ejznrosa_election.13
+	hours = 5
+    random_hours = 0
+    days = 0
+	title = "Wonderful NEP campaign in East Ejznsteda!"
+	desc = ejznrosa_election.13
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	timeout_days = 20
+	fire_only_once = no
+	option = { 
+	name = "Ok"
+	ai_chance = { factor = 100 }
+	hidden_effect = {
+		random_list = {
+		50 = {
+			if = {
+				limit = {
+					check_variable = {
+						1415.EJZ_uncontest_influence > 14
+					}
+				}
+				1415 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 15
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 15
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1415.EJZ_NEP_influence > 105
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 120
+				    }
+				    subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1415.EJZ_NEP_influence
+				    }
+				1415 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 14
+						}
+						check_variable = {
+							1415.EJZ_KGS_influence > 14
+						}
+						check_variable = {
+							1415.EJZ_DSU_influence > 14
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 15
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 15
+							}
+						}
+					}
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 15
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 15
+							}
+						}
+					}
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 15
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 15
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 14
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 15
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 15
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_KGS_influence > 14
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 15
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 15
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 14
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 15
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 15
+						}
+					}
+				}
+			}
+		}
+		30 = {
+			if = {
+				limit = {
+					check_variable = {
+						1415.EJZ_uncontest_influence > 19
+					}
+				}
+				1415 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 20
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 20
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1415.EJZ_NEP_influence > 100
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 120
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1415.EJZ_NEP_influence
+				}
+				1415 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 19
+						}
+						check_variable = {
+							1415.EJZ_KGS_influence > 19
+						}
+						check_variable = {
+							1415.EJZ_DSU_influence > 19
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 20
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 20
+							}
+						}
+					}
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 20
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 20
+							}
+						}
+					}
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 20
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 20
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 19
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 20
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 20
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_KGS_influence > 19
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 20
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 20
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 19
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 20
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 20
+						}
+					}
+				}
+			}
+		}
+		20 = {
+			if = {
+				limit = {
+					check_variable = {
+						1415.EJZ_uncontest_influence > 24
+					}
+				}
+				1415 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 25
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 25
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1415.EJZ_NEP_influence > 95
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 120
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1415.EJZ_NEP_influence
+				}
+				1415 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 24
+						}
+						check_variable = {
+							1178.EJZ_KGS_influence > 24
+						}
+						check_variable = {
+							1178.EJZ_DSU_influence > 24
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 25
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 25
+							}
+						}
+					}
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 25
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 25
+							}
+						}
+					}
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 25
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 25
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 24
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 25
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 25
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_KGS_influence > 24
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 25
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 25
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 24
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 25
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 25
+						}
+					}
+				}
+			}
+	    }	
+	}
+	}
+    }  
+}
+country_event = {
+	id = ejznrosa_election.14
+	hours = 5
+    random_hours = 0
+    days = 0
+	title = "Mediocre NEP campaign in East Ejznsteda."
+	desc = ejznrosa_election.14
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	timeout_days = 20
+	fire_only_once = no
+	option = { 
+	name = "Ok"
+	ai_chance = { factor = 100 }
+	hidden_effect = {
+		random_list = {
+		50 = {
+			if = {
+				limit = {
+					check_variable = {
+						1415.EJZ_uncontest_influence > 9
+					}
+				}
+				1415 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 10
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 10
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1415.EJZ_NEP_influence > 110
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 120
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1415.EJZ_NEP_influence
+				}
+				1178 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 9
+						}
+						check_variable = {
+							1415.EJZ_KGS_influence > 9
+						}
+						check_variable = {
+							1415.EJZ_DSU_influence > 9
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 10
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 10
+							}
+						}
+					}
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 10
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 10
+							}
+						}
+					}
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 10
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 10
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 9
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 10
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 10
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_KGS_influence > 9
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 10
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 10
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 9
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 10
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 10
+						}
+					}
+				}
+			}
+		}
+		30 = {
+			if = {
+				limit = {
+					check_variable = {
+						1415.EJZ_uncontest_influence > 11
+					}
+				}
+				1415 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 12
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 12
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1415.EJZ_NEP_influence > 108
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 120
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1415.EJZ_NEP_influence
+				}
+				1415 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 11
+						}
+						check_variable = {
+							1415.EJZ_KGS_influence > 11
+						}
+						check_variable = {
+							1415.EJZ_DSU_influence > 11
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 12
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 12
+							}
+						}
+					}
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 12
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 12
+							}
+						}
+					}
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 12
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 12
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 11
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 12
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 12
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_KGS_influence > 11
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 12
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 12
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 11
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 12
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 12
+						}
+					}
+				}
+			}
+		}
+		20 = {
+			if = {
+				limit = {
+					check_variable = {
+						1415.EJZ_uncontest_influence > 13
+					}
+				}
+				1415 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 14
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 14
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1415.EJZ_NEP_influence > 106
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 120
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1415.EJZ_NEP_influence
+				}
+				1415 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 13
+						}
+						check_variable = {
+							1415.EJZ_KGS_influence > 13
+						}
+						check_variable = {
+							1415.EJZ_DSU_influence > 13
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 14
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 14
+							}
+						}
+					}
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 14
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 14
+							}
+						}
+					}
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 14
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 14
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 13
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 14
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 14
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_KGS_influence > 13
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 14
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 14
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 13
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 14
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 14
+						}
+					}
+				}
+			}
+	    }	
+	}
+	}
+    }  
+}
+country_event = {
+	id = ejznrosa_election.15
+	hours = 5
+    random_hours = 0
+    days = 0
+	title = "Horrible NEP campaign in East Ejznsteda."
+	desc = ejznrosa_election.3
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	timeout_days = 20
+	fire_only_once = no
+	option = { 
+	name = "Ok"
+	ai_chance = { factor = 100 }
+	hidden_effect = {
+		random_list = {
+		50 = {
+			if = {
+				limit = {
+					check_variable = {
+						1415.EJZ_uncontest_influence > 1
+					}
+				}
+				1415 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 2
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 2
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1415.EJZ_NEP_influence > 118
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 120
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1415.EJZ_NEP_influence
+				}
+				1415 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 1
+						}
+						check_variable = {
+							1415.EJZ_KGS_influence > 1
+						}
+						check_variable = {
+							1415.EJZ_DSU_influence > 1
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 2
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 2
+							}
+						}
+					}
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 2
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 2
+							}
+						}
+					}
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 2
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 2
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 1
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 2
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 2
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_KGS_influence > 1
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 2
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 2
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 1
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 2
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 2
+						}
+					}
+				}
+			}
+		}
+		30 = {
+			if = {
+				limit = {
+					check_variable = {
+						1415.EJZ_uncontest_influence > 3
+					}
+				}
+				1415 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 4
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 4
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1415.EJZ_NEP_influence > 116
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 120
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1415.EJZ_NEP_influence
+				}
+				1415 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 3
+						}
+						check_variable = {
+							1415.EJZ_KGS_influence > 3
+						}
+						check_variable = {
+							1415.EJZ_DSU_influence > 3
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 4
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 4
+							}
+						}
+					}
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 4
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 4
+							}
+						}
+					}
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 4
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 4
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 3
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 4
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 4
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_KGS_influence > 3
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 4
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 4
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 3
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 4
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 4
+						}
+					}
+				}
+			}
+		}
+		20 = {
+			if = {
+				limit = {
+					check_variable = {
+						1415.EJZ_uncontest_influence > 4
+					}
+				}
+				1415 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 5
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 5
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1415.EJZ_NEP_influence > 115
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 120
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1415.EJZ_NEP_influence
+				}
+				1415 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 4
+						}
+						check_variable = {
+							1415.EJZ_KGS_influence > 4
+						}
+						check_variable = {
+							1415.EJZ_DSU_influence > 4
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 5
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 5
+							}
+						}
+					}
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 5
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 5
+							}
+						}
+					}
+					30 = {
+						1415 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 5
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 5
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 4
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							1415.EJZ_NEP_influence = 5
+						}
+						subtract_from_variable = {
+							1415.EJZ_DUE_influence = 5
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_KGS_influence > 4
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 5
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 5
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1415.EJZ_DUE_influence > 4
+						}
+					}
+					1415 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 5
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 5
+						}
+					}
+				}
+			}
+	    }	
+	}
+	}
+    }  
+}
+country_event = {
+	id = ejznrosa_election.16
+	hours = 5
+    random_hours = 0
+    days = 0
+	title = "Wonderful NEP campaign in Ejznvajk!"
+	desc = ejznrosa_election.7
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	timeout_days = 20
+	fire_only_once = no
+	option = { 
+	name = "Ok"
+	ai_chance = { factor = 100 }
+	hidden_effect = {
+		random_list = {
+		50 = {
+			if = {
+				limit = {
+					check_variable = {
+						1177.EJZ_uncontest_influence > 14
+					}
+				}
+				1177 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 15
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 15
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1177.EJZ_NEP_influence > 45
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 30
+				    }
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1177.EJZ_NEP_influence
+				    }
+				1177 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 14
+						}
+						check_variable = {
+							1177.EJZ_KGS_influence > 14
+						}
+						check_variable = {
+							1177.EJZ_DSU_influence > 14
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 15
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 15
+							}
+						}
+					}
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 15
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 15
+							}
+						}
+					}
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 15
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 15
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 14
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 15
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 15
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_KGS_influence > 14
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 15
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 15
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 14
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 15
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 15
+						}
+					}
+				}
+			}
+		}
+		30 = {
+			if = {
+				limit = {
+					check_variable = {
+						1177.EJZ_uncontest_influence > 15
+					}
+				}
+				1177 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 16
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 16
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1177.EJZ_NEP_influence > 14
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 30
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1177.EJZ_NEP_influence
+				}
+				1177 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 15
+						}
+						check_variable = {
+							1177.EJZ_KGS_influence > 15
+						}
+						check_variable = {
+							1177.EJZ_DSU_influence > 15
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 16
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 16
+							}
+						}
+					}
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 16
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 16
+							}
+						}
+					}
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 16
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 16
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 15
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 16
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 16
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_KGS_influence > 15
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 16
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 16
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 15
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 16
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 16
+						}
+					}
+				}
+			}
+		}
+		20 = {
+			if = {
+				limit = {
+					check_variable = {
+						1177.EJZ_uncontest_influence > 16
+					}
+				}
+				1177 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 17
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 17
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1177.EJZ_NEP_influence > 13
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 30
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1177.EJZ_NEP_influence
+				}
+				1177 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 16
+						}
+						check_variable = {
+							1177.EJZ_KGS_influence > 16
+						}
+						check_variable = {
+							1177.EJZ_DSU_influence > 16
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 17
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 17
+							}
+						}
+					}
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 17
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 17
+							}
+						}
+					}
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 17
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 17
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 16
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 17
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 17
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_KGS_influence > 16
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 17
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 17
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 16
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 17
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 17
+						}
+					}
+				}
+			}
+	    }	
+	}
+	}
+    }  
+}
+country_event = {
+	id = ejznrosa_election.17
+	hours = 5
+    random_hours = 0
+    days = 0
+	title = "Mediocre NEP campaign in Ejznvajk."
+	desc = ejznrosa_election.8
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	timeout_days = 20
+	fire_only_once = no
+	option = { 
+	name = "Ok"
+	ai_chance = { factor = 100 }
+	hidden_effect = {
+		random_list = {
+		50 = {
+			if = {
+				limit = {
+					check_variable = {
+						1177.EJZ_uncontest_influence > 9
+					}
+				}
+				1177 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 10
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 10
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1177.EJZ_NEP_influence > 20
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 30
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1177.EJZ_NEP_influence
+				}
+				1177 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 9
+						}
+						check_variable = {
+							1177.EJZ_KGS_influence > 9
+						}
+						check_variable = {
+							1177.EJZ_DSU_influence > 9
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 10
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 10
+							}
+						}
+					}
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 10
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 10
+							}
+						}
+					}
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 10
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 10
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 9
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 10
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 10
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_KGS_influence > 9
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 10
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 10
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 9
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 10
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 10
+						}
+					}
+				}
+			}
+		}
+		30 = {
+			if = {
+				limit = {
+					check_variable = {
+						1177.EJZ_uncontest_influence > 10
+					}
+				}
+				1177 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 11
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 11
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1177.EJZ_NEP_influence > 19
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 30
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1177.EJZ_NEP_influence
+				}
+				1177 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 10
+						}
+						check_variable = {
+							1177.EJZ_KGS_influence > 10
+						}
+						check_variable = {
+							1177.EJZ_DSU_influence > 10
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 11
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 11
+							}
+						}
+					}
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 11
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 11
+							}
+						}
+					}
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 11
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 11
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 10
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 11
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 11
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_KGS_influence > 10
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 11
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 11
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 10
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 11
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 11
+						}
+					}
+				}
+			}
+		}
+		20 = {
+			if = {
+				limit = {
+					check_variable = {
+						1177.EJZ_uncontest_influence > 8
+					}
+				}
+				1177 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 9
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 9
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1176.EJZ_NEP_influence > 21
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 30
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1177.EJZ_NEP_influence
+				}
+				1177 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 8
+						}
+						check_variable = {
+							1177.EJZ_KGS_influence > 8
+						}
+						check_variable = {
+							1177.EJZ_DSU_influence > 8
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 9
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 9
+							}
+						}
+					}
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 9
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 9
+							}
+						}
+					}
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 9
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 9
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 8
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 9
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 9
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_KGS_influence > 8
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 9
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 9
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 8
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 9
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 9
+						}
+					}
+				}
+			}
+	    }	
+	}
+	}
+    }  
+}
+country_event = {
+	id = ejznrosa_election.18
+	hours = 5
+    random_hours = 0
+    days = 0
+	title = "Horrible NEP campaign in Ejznvajk."
+	desc = ejznrosa_election.9
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	timeout_days = 20
+	fire_only_once = no
+	option = { 
+	name = "Ok"
+	ai_chance = { factor = 100 }
+	hidden_effect = {
+		random_list = {
+		50 = {
+			if = {
+				limit = {
+					check_variable = {
+						1177.EJZ_uncontest_influence > 1
+					}
+				}
+				1177 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 2
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 2
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1177.EJZ_NEP_influence > 28
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 30
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1177.EJZ_NEP_influence
+				}
+				1177 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 1
+						}
+						check_variable = {
+							1177.EJZ_KGS_influence > 1
+						}
+						check_variable = {
+							1177.EJZ_DSU_influence > 1
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 2
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 2
+							}
+						}
+					}
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 2
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 2
+							}
+						}
+					}
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 2
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 2
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 1
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 2
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 2
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_KGS_influence > 1
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 2
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 2
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 1
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 2
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 2
+						}
+					}
+				}
+			}
+		}
+		30 = {
+			if = {
+				limit = {
+					check_variable = {
+						1177.EJZ_uncontest_influence > 3
+					}
+				}
+				1177 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 4
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 4
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1177.EJZ_NEP_influence > 26
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 30
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1177.EJZ_NEP_influence
+				}
+				1177 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 3
+						}
+						check_variable = {
+							1177.EJZ_KGS_influence > 3
+						}
+						check_variable = {
+							1177.EJZ_DSU_influence > 3
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 4
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 4
+							}
+						}
+					}
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 4
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 4
+							}
+						}
+					}
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 4
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 4
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 3
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 4
+						}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 4
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_KGS_influence > 3
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 4
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 4
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 3
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 4
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 4
+						}
+					}
+				}
+			}
+		}
+		20 = {
+			if = {
+				limit = {
+					check_variable = {
+						1177.EJZ_uncontest_influence > 4
+					}
+				}
+				1177 = {
+					add_to_variable = {
+						EJZ_NEP_influence = 5
+					}
+					subtract_from_variable = {
+						EJZ_uncontest_influence = 5
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						1177.EJZ_NEP_influence > 25
+					}
+				}
+				set_temp_variable = {
+					temp_var_wokark_NEP = 30
+				}
+				subtract_from_temp_variable = {
+					temp_var_wokark_NEP = 1177.EJZ_NEP_influence
+				}
+				1177 = {
+					add_to_variable = {
+					EJZ_NEP_influence = temp_var_wokark_NEP
+				    }
+					set_variable = {
+						var = EJZ_DUE_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_KGS_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_DSU_influence
+						value = 0
+					}
+					set_variable = {
+						var = EJZ_uncontest_influence
+						value = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 4
+						}
+						check_variable = {
+							1177.EJZ_KGS_influence > 4
+						}
+						check_variable = {
+							1177.EJZ_DSU_influence > 4
+						}
+					}
+				}
+				random_list = {
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 5
+							}
+							subtract_from_variable = {
+								EJZ_DUE_influence = 5
+							}
+						}
+					}
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 5
+							}
+							subtract_from_variable = {
+								EJZ_KGS_influence = 5
+							}
+						}
+					}
+					30 = {
+						1177 = {
+							add_to_variable = {
+								EJZ_NEP_influence = 5
+							}
+							subtract_from_variable = {
+								EJZ_DSU_influence = 5
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 4
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 5
+						}
+						subtract_from_variable = {
+								EJZ_DUE_influence = 5
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_KGS_influence > 4
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 5
+						}
+						subtract_from_variable = {
+							EJZ_KGS_influence = 5
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							1177.EJZ_DUE_influence > 4
+						}
+					}
+					1177 = {
+						add_to_variable = {
+							EJZ_NEP_influence = 5
+							}
+						subtract_from_variable = {
+							EJZ_DUE_influence = 5
+						}
+					}
+				}
+			}
+	    }	
+	}
+	}
+    }  
+}

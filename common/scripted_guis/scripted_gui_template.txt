@@ -27,6 +27,39 @@ scripted_gui = {
         clr_country_flag = EJZ_election_ejznvajk
         clr_country_flag = EJZ_election_neejznsteda
       }
+      
+      wokarkelection_DUE_click = {
+        set_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_neejznsteda
+      }
+      wokarkelection_KGS_click = {
+        set_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_neejznsteda
+      }
+      wokarkelection_DSU_click = {
+        set_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_neejznsteda
+      }
+      wokarkelection_notowned_click = {
+        set_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_neejznsteda
+      }
       daekiaelection_uncontest_click = {
         set_country_flag = EJZ_election_daekia
         clr_country_flag = EJZ_election_eastejznsteda
@@ -36,6 +69,39 @@ scripted_gui = {
         clr_country_flag = EJZ_election_neejznsteda
       }
       daekiaelection_NEP_click = {
+        set_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_neejznsteda
+      }
+      
+      daekiaelection_DUE_click = {
+        set_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_neejznsteda
+      }
+      daekiaelection_KGS_click = {
+        set_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_neejznsteda
+      }
+      daekiaelection_DSU_click = {
+        set_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_neejznsteda
+      }
+      daekiaelection_notowned_click = {
         set_country_flag = EJZ_election_daekia
         clr_country_flag = EJZ_election_eastejznsteda
         clr_country_flag = EJZ_election_wokark
@@ -59,6 +125,38 @@ scripted_gui = {
         clr_country_flag = EJZ_election_ejznvajk
         clr_country_flag = EJZ_election_neejznsteda
       }
+      Eejzelection_DUE_click = {
+        set_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_neejznsteda
+      }
+      Eejzelection_KGS_click = {
+        set_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_neejznsteda
+      }
+      Eejzelection_DSU_click = {
+        set_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_neejznsteda
+      }
+      Eejzelection_notowned_click = {
+        set_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_neejznsteda
+      }
       Wejzelection_uncontest_click = {
         set_country_flag = EJZ_election_westejznsteda
         clr_country_flag = EJZ_election_wokark
@@ -68,6 +166,38 @@ scripted_gui = {
         clr_country_flag = EJZ_election_neejznsteda
       }
       Wejzelection_NEP_click = {
+        set_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_neejznsteda
+      }
+      Wejzelection_DUE_click = {
+        set_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_neejznsteda
+      }
+      Wejzelection_KGS_click = {
+        set_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_neejznsteda
+      }
+      Wejzelection_DSU_click = {
+        set_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_neejznsteda
+      }
+      Wejzelection_notowned_click = {
         set_country_flag = EJZ_election_westejznsteda
         clr_country_flag = EJZ_election_wokark
         clr_country_flag = EJZ_election_daekia
@@ -91,7 +221,79 @@ scripted_gui = {
         clr_country_flag = EJZ_election_ejznvajk
         clr_country_flag = EJZ_election_eastejznsteda
       }
+      NEelection_DUE_click = {
+        set_country_flag = EJZ_election_neejznsteda
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_eastejznsteda
+      }
+      NEelection_KGS_click = {
+        set_country_flag = EJZ_election_neejznsteda
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_eastejznsteda
+      }
+      NEelection_DSU_click = {
+        set_country_flag = EJZ_election_neejznsteda
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_eastejznsteda
+      }
+      NEelection_notowned_click = {
+        set_country_flag = EJZ_election_neejznsteda
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_westejznsteda
+        clr_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_eastejznsteda
+      }
       ejznvajkelection_uncontest_click = {
+        set_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_neejznsteda
+        clr_country_flag = EJZ_election_westejznsteda
+      }
+      ejznvajkelection_NEP_click = {
+        set_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_neejznsteda
+        clr_country_flag = EJZ_election_westejznsteda
+      }
+      ejznvajkelection_DUE_click = {
+        set_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_neejznsteda
+        clr_country_flag = EJZ_election_westejznsteda
+      }
+      ejznvajkelection_KGS_click = {
+        set_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_neejznsteda
+        clr_country_flag = EJZ_election_westejznsteda
+      }
+      ejznvajkelection_DSU_click = {
+        set_country_flag = EJZ_election_ejznvajk
+        clr_country_flag = EJZ_election_wokark
+        clr_country_flag = EJZ_election_daekia
+        clr_country_flag = EJZ_election_eastejznsteda
+        clr_country_flag = EJZ_election_neejznsteda
+        clr_country_flag = EJZ_election_westejznsteda
+      }
+      ejznvajkelection_notowned_click = {
         set_country_flag = EJZ_election_ejznvajk
         clr_country_flag = EJZ_election_wokark
         clr_country_flag = EJZ_election_daekia
@@ -297,9 +499,36 @@ scripted_gui = {
           has_country_flag = EJZ_election_eastejznsteda
         }
       }
+      election_state_ejznvajk_NEP_visible = {
+        AND = {
+          has_country_flag = EJZ_NEP_election
+          has_country_flag = EJZ_election_ejznvajk
+        }
+      }
+      election_state_ejznvajk_DUE_visible = {
+        AND = {
+          has_country_flag = EJZ_DUE_election
+          has_country_flag = EJZ_election_ejznvajk
+        }
+      }
+      election_state_ejznvajk_KGS_visible = {
+        AND = {
+          has_country_flag = EJZ_KGS_election
+          has_country_flag = EJZ_election_ejznvajk
+        }
+      }
+      election_state_ejznvajk_DSU_visible = {
+        AND = {
+          has_country_flag = EJZ_DSU_election
+          has_country_flag = EJZ_election_ejznvajk
+        }
+      }
       
       EJZ_campaign_NEP_visible = {
         has_country_flag = EJZ_campaignNEP
+      }
+      EJZ_campaign_DUE_visible = {
+        has_country_flag = EJZ_campaignDUE
       }
       wokarkelection_uncontest_visible = {
         AND = {
@@ -879,6 +1108,50 @@ scripted_gui = {
           1177 = {
             is_owned_by = EJZ
           }
+        }
+      }
+    wokarkelection_notowned_visible = {
+        1178 = {
+            NOT = {
+                is_owned_by = EJZ
+            }
+        }
+      }
+      daekiaelection_notowned_visible = {
+        1176 = {
+            NOT = {
+                is_owned_by = EJZ
+            }
+        }
+      }
+      NEelection_notowned_visible = {
+        1418 = {
+            NOT = {
+                is_owned_by = EJZ
+            }
+        }
+      }
+    
+    Wejzelection_notowned_visible = {
+        659 = {
+            NOT = {
+                is_owned_by = EJZ
+            }
+        }
+      }
+    
+    Eejzelection_notowned_visible = {
+        1415 = {
+            NOT = {
+                is_owned_by = EJZ
+            }
+        }
+      }
+    ejznvajkelection_notowned_visible = {
+        1177 = {
+            NOT = {
+                is_owned_by = EJZ
+            }
         }
       }
     }  

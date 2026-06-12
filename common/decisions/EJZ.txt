@@ -949,6 +949,9 @@ EJZ_Election = {
 		fire_only_once = no
 		available = {
 			tag = EJZ
+			1178 = {
+				is_owned_by = EJZ
+			}
 		}
 		remove_effect = {
 			random_list = {
@@ -970,14 +973,23 @@ EJZ_Election = {
 			}
 		}
 		cancel_trigger = {
-			NOT = {
-				has_country_flag = EJZ_election
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					1178 = {
+						is_owned_by = EJZ
+					}
+				}
 			}
 		}
 		modifier = {
 		}
 		visible = {
-			always = yes
+			EJZ = {
+				has_country_flag = EJZ_campaignNEP
+			}
 		}
 		fixed_random_seed = no
 		cost = 30
@@ -988,6 +1000,9 @@ EJZ_Election = {
 		fire_only_once = no
 		available = {
 			tag = EJZ
+			1176 = {
+				is_owned_by = EJZ
+			}
 		}
 		remove_effect = {
 			random_list = {
@@ -1009,14 +1024,23 @@ EJZ_Election = {
 			}
 		}
 		cancel_trigger = {
-			NOT = {
-				has_country_flag = EJZ_election
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					1176 = {
+						is_owned_by = EJZ
+					}
+				}
 			}
 		}
 		modifier = {
 		}
 		visible = {
-			always = yes
+			EJZ = {
+				has_country_flag = EJZ_campaignNEP
+			}
 		}
 		fixed_random_seed = no
 		cost = 30
@@ -1027,6 +1051,9 @@ EJZ_Election = {
 		fire_only_once = no
 		available = {
 			tag = EJZ
+			1418 = {
+				is_owned_by = EJZ
+			}
 		}
 		remove_effect = {
 			random_list = {
@@ -1048,14 +1075,23 @@ EJZ_Election = {
 			}
 		}
 		cancel_trigger = {
-			NOT = {
-				has_country_flag = EJZ_election
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					1418 = {
+						is_owned_by = EJZ
+					}
+				}
 			}
 		}
 		modifier = {
 		}
 		visible = {
-			always = yes
+			EJZ = {
+				has_country_flag = EJZ_campaignNEP
+			}
 		}
 		fixed_random_seed = no
 		cost = 30
@@ -1066,6 +1102,9 @@ EJZ_Election = {
 		fire_only_once = no
 		available = {
 			tag = EJZ
+			659 = {
+				is_owned_by = EJZ
+			}
 		}
 		remove_effect = {
 			random_list = {
@@ -1087,14 +1126,23 @@ EJZ_Election = {
 			}
 		}
 		cancel_trigger = {
-			NOT = {
-				has_country_flag = EJZ_election
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					659 = {
+						is_owned_by = EJZ
+					}
+				}
 			}
 		}
 		modifier = {
 		}
 		visible = {
-			always = yes
+			EJZ = {
+				has_country_flag = EJZ_campaignNEP
+			}
 		}
 		fixed_random_seed = no
 		cost = 30
@@ -1105,6 +1153,9 @@ EJZ_Election = {
 		fire_only_once = no
 		available = {
 			tag = EJZ
+			1415 = {
+				is_owned_by = EJZ
+			}
 		}
 		remove_effect = {
 			random_list = {
@@ -1126,14 +1177,380 @@ EJZ_Election = {
 			}
 		}
 		cancel_trigger = {
-			NOT = {
-				has_country_flag = EJZ_election
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					1415 = {
+						is_owned_by = EJZ
+					}
+				}
 			}
 		}
 		modifier = {
 		}
 		visible = {
-			always = yes
+			EJZ = {
+				has_country_flag = EJZ_campaignNEP
+			}
+		}
+		fixed_random_seed = no
+		cost = 30
+	}
+	EJZ_NEP_Ejznvajk = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 1
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			1177 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.16
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.17
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.18
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					1177 = {
+						is_owned_by = EJZ
+					}
+				}
+			}
+		}
+		modifier = {
+		}
+		visible = {
+			EJZ = {
+				has_country_flag = EJZ_campaignNEP
+			}
+		}
+		fixed_random_seed = no
+		cost = 30
+	}
+	EJZ_DUE_wokark = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 1
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			1178 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.19
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.20
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.21
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					1178 = {
+						is_owned_by = EJZ
+					}
+				}
+			}
+		}
+		modifier = {
+		}
+		visible = {
+			EJZ = {
+				has_country_flag = EJZ_campaignDUE
+			}
+		}
+		fixed_random_seed = no
+		cost = 30
+	}
+	EJZ_DUE_daekia = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 1
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			1176 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.22
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.23
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.24
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					1176 = {
+						is_owned_by = EJZ
+					}
+				}
+			}
+		}
+		modifier = {
+		}
+		visible = {
+			EJZ = {
+				has_country_flag = EJZ_campaignDUE
+			}
+		}
+		fixed_random_seed = no
+		cost = 30
+	}
+	EJZ_DUE_NEejznsteda = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 1
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			1418 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.25
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.26
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.27
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					1418 = {
+						is_owned_by = EJZ
+					}
+				}
+			}
+		}
+		modifier = {
+		}
+		visible = {
+			EJZ = {
+				has_country_flag = EJZ_campaignDUE
+			}
+		}
+		fixed_random_seed = no
+		cost = 30
+	}
+	EJZ_DUE_Wejznsteda = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 1
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			659 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.28
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.29
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.30
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					659 = {
+						is_owned_by = EJZ
+					}
+				}
+			}
+		}
+		modifier = {
+		}
+		visible = {
+			EJZ = {
+				has_country_flag = EJZ_campaignDUE
+			}
+		}
+		fixed_random_seed = no
+		cost = 30
+	}
+	EJZ_DUE_Eejznsteda = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 1
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			1415 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.31
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.32
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.33
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					1415 = {
+						is_owned_by = EJZ
+					}
+				}
+			}
+		}
+		modifier = {
+		}
+		visible = {
+			EJZ = {
+				has_country_flag = EJZ_campaignDUE
+			}
+		}
+		fixed_random_seed = no
+		cost = 30
+	}
+	EJZ_DUE_Ejznvajk = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 1
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			1177 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.34
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.35
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.36
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					1177 = {
+						is_owned_by = EJZ
+					}
+				}
+			}
+		}
+		modifier = {
+		}
+		visible = {
+			EJZ = {
+				has_country_flag = EJZ_campaignDUE
+			}
 		}
 		fixed_random_seed = no
 		cost = 30
