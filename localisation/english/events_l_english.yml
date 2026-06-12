@@ -91,6 +91,9 @@
  EJZ_news.4.d:0 "In response to the [VAD.GetName] joining the war against Ejznrosa. [SCA.GetName] has fully annouced its support for Ejznrosa by providing financial and military aid to Ejznrosa, guaranteeing Ejznrosa's soverignty and freedom. The war continues to escalate, now beyond Iristoya."
  EJZ_news.5.t:0 "The Iron Senate on Fire!"
  EJZ_news.5.d:0 "During the night, citizens in Ejznsteda heard a large explosion sound echoing throughout the streets of Ejznsteda. As they look outside the window, to their horror, the Iron Senate is engulf in a large blazing flame that light up the night sky. Thankfully, government officals have already left the building long since the fire started. This came as a great shock after the election in Ejznrosa. It was suspected that radical socialists has broken into the Senate late at night, setting fire to furniture and documents. An thorough investigation is currently underway and repairs will soon follow."
+ #Scaliga News
+ SCA_news.1.t:0 "Fall of Steelwater"
+ SCA_news.1.d:0 "After vicious fighitng, Steelwater has finally fallen to the invading forces. With the [SCA.GetAdjective] army retreating the devastated city, this strikes a bitter blow to the [SCA.GetName]. In the aftermath, the city has become a wasteland, with ruined buildings and defenses, leaving the city unrecognizable and an empty husk."
  
  #MYRTANA EVENTS
  myrtana_story_events.1.t:0 "Long day in Theos."
@@ -276,6 +279,8 @@
  marisvalor.1.t:0 "First Elections"
  marisvalor.1.d:0 "The first orginzated elections for Marisvalor has been set up. Which party has won?"
  marisvalor.5.d:0 "We have came to an agreement with the Lovvians. Both Marisvalor and Lovvia will merge into a new realm within the Empire to gain more political power and influence. It is clear now that we must push forward and defend our lands against our enemies in the Diet. However, there is an issue. Herlundy, a region of Lovvia is threating to leave the Federation due to Kairian Majority Kingdom and the NWP dominance. Let us wait and see what the Herlundians will pull... "
+  #ZDA
+  zda.1.d:0 "As part of the agreement in the Zarilyian Defense Accords."
  
  #Please add all Country Events above
  
@@ -307,6 +312,3 @@
  election.106.d:0 "The current election has resulted in victory for the revisionist parties, with mixed reactions from the former administration. While the new rulers claim to represent the people as a whole, they view many of the democratic institutions we cherish as attempts to manipulate and oppress the working class, leading to discussion about what truly constitutes a 'rule of the people'. In some nations, the revolution began in rivers of blood. In [Root.GetName] it didn't, but it may yet end in them."
  election.106.a:0 "This is troubling, but they truly do represent the majority."
  election.106.b:0 "We must stop them before they abolish every sign of dissenting thought!"
- 
- #ZDA
-  zda.1.d:0 "As part of the agreement in the Zarilyian Defense Accords."

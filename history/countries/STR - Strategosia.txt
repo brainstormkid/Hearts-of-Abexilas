@@ -11,7 +11,6 @@ set_politics = {
 set_popularities = {
 	absolutist = 100
 }
-
 create_country_leader = {
 	name = "?"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"

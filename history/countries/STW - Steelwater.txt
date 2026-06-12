@@ -11,7 +11,7 @@ set_politics = {
 set_popularities = {
 	absolutist = 100
 }
-
+set_country_flag = steelwaterfall
 create_country_leader = {
 	name = "?"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"

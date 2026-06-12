@@ -192,4 +192,34 @@ on_actions = {
 			}
 		}
 	}
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM.FROM = {
+						state = 969
+					}
+					FROM = STR
+				}
+				if = {
+					limit = {
+						FROM = {
+							has_war_together_with = SCA
+						}
+						FROM = {
+							has_country_flag = steelwaterfall
+						}
+					}
+					news_event = {
+						id = SCA_news.1
+						hours = 6
+						random_hours = 3
+					}
+					FROM = {
+						remove_country_flag = steelwaterfall
+					}
+				}
+			}
+		}
+	}
 }

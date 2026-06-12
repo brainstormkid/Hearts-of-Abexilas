@@ -1,0 +1,18 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = SCA_news
+
+#Opening Senate
+news_event = {
+	id = SCA_news.1
+	title = SCA_news.1.t
+	desc =  SCA_news.1.d
+	picture = GFX_scaliga_news_event_001
+	major = yes  
+	is_triggered_only = yes
+	option = {
+		name = "A turning point."
+	}
+}
