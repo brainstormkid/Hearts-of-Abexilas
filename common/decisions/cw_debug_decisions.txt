@@ -298,6 +298,8 @@ cw_gui_debug_mode = {
 		complete_effect = {
 			set_country_flag = EJZ_campaignNEP
 			clr_country_flag = EJZ_campaignDUE
+			clr_country_flag = EJZ_campaignKGS
+			clr_country_flag = EJZ_campaignDSU
 		}
 		
 		ai_will_do = {
@@ -323,6 +325,64 @@ cw_gui_debug_mode = {
 
 		complete_effect = {
 			set_country_flag = EJZ_campaignDUE
+			clr_country_flag = EJZ_campaignNEP
+			clr_country_flag = EJZ_campaignKGS
+			clr_country_flag = EJZ_campaignDSU
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	iw_gui_debug_ejz_campaignKGS = {
+
+		icon = generic_industry
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			is_debug = yes
+			tag = EJZ
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			set_country_flag = EJZ_campaignKGS
+			clr_country_flag = EJZ_campaignDUE
+			clr_country_flag = EJZ_campaignNEP
+			clr_country_flag = EJZ_campaignDSU
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	iw_gui_debug_ejz_campaignDSU = {
+
+		icon = generic_industry
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			is_debug = yes
+			tag = EJZ
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			set_country_flag = EJZ_campaignDSU
+			clr_country_flag = EJZ_campaignDUE
+			clr_country_flag = EJZ_campaignKGS
 			clr_country_flag = EJZ_campaignNEP
 		}
 		

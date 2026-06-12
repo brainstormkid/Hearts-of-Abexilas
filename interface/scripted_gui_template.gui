@@ -785,5 +785,25 @@ guiTypes = {
 			maxHeight = 20
 			fixedsize = yes
 		}
+		instantTextboxType = {
+			name = "EJZ_campaign_KGS"
+			position = { x = 250 y = 315 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "campaign_KGS"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "EJZ_campaign_DSU"
+			position = { x = 250 y = 315 }
+			font = "22tech"
+			borderSize = {x = 0 y = 0}
+			text = "campaign_DSU"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
 	}
 }

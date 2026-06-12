@@ -1555,6 +1555,618 @@ EJZ_Election = {
 		fixed_random_seed = no
 		cost = 30
 	}
+	EJZ_KGS_wokark = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 1
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			1178 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.37
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.38
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.39
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					1178 = {
+						is_owned_by = EJZ
+					}
+				}
+			}
+		}
+		modifier = {
+		}
+		visible = {
+			EJZ = {
+				has_country_flag = EJZ_campaignKGS
+			}
+		}
+		fixed_random_seed = no
+		cost = 30
+	}
+	EJZ_KGS_daekia = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 1
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			1176 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.40
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.41
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.42
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					1176 = {
+						is_owned_by = EJZ
+					}
+				}
+			}
+		}
+		modifier = {
+		}
+		visible = {
+			EJZ = {
+				has_country_flag = EJZ_campaignKGS
+			}
+		}
+		fixed_random_seed = no
+		cost = 30
+	}
+	EJZ_KGS_NEejznsteda = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 1
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			1418 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.43
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.44
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.45
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					1418 = {
+						is_owned_by = EJZ
+					}
+				}
+			}
+		}
+		modifier = {
+		}
+		visible = {
+			EJZ = {
+				has_country_flag = EJZ_campaignKGS
+			}
+		}
+		fixed_random_seed = no
+		cost = 30
+	}
+	EJZ_KGS_Wejznsteda = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 1
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			659 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.46
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.47
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.48
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					659 = {
+						is_owned_by = EJZ
+					}
+				}
+			}
+		}
+		modifier = {
+		}
+		visible = {
+			EJZ = {
+				has_country_flag = EJZ_campaignKGS
+			}
+		}
+		fixed_random_seed = no
+		cost = 30
+	}
+	EJZ_KGS_Eejznsteda = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 1
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			1415 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.49
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.50
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.51
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					1415 = {
+						is_owned_by = EJZ
+					}
+				}
+			}
+		}
+		modifier = {
+		}
+		visible = {
+			EJZ = {
+				has_country_flag = EJZ_campaignKGS
+			}
+		}
+		fixed_random_seed = no
+		cost = 30
+	}
+	EJZ_KGS_Ejznvajk = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 1
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			1177 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.52
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.53
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.54
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					1177 = {
+						is_owned_by = EJZ
+					}
+				}
+			}
+		}
+		modifier = {
+		}
+		visible = {
+			EJZ = {
+				has_country_flag = EJZ_campaignKGS
+			}
+		}
+		fixed_random_seed = no
+		cost = 30
+	}
+	EJZ_DSU_wokark = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 1
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			1178 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.55
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.56
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.57
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					1178 = {
+						is_owned_by = EJZ
+					}
+				}
+			}
+		}
+		modifier = {
+		}
+		visible = {
+			EJZ = {
+				has_country_flag = EJZ_campaignDSU
+			}
+		}
+		fixed_random_seed = no
+		cost = 30
+	}
+	EJZ_DSU_daekia = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 1
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			1176 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.58
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.59
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.60
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					1176 = {
+						is_owned_by = EJZ
+					}
+				}
+			}
+		}
+		modifier = {
+		}
+		visible = {
+			EJZ = {
+				has_country_flag = EJZ_campaignDSU
+			}
+		}
+		fixed_random_seed = no
+		cost = 30
+	}
+	EJZ_DSU_NEejznsteda = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 1
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			1418 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.61
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.62
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.63
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					1418 = {
+						is_owned_by = EJZ
+					}
+				}
+			}
+		}
+		modifier = {
+		}
+		visible = {
+			EJZ = {
+				has_country_flag = EJZ_campaignDSU
+			}
+		}
+		fixed_random_seed = no
+		cost = 30
+	}
+	EJZ_DSU_Wejznsteda = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 1
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			659 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.64
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.65
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.66
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					659 = {
+						is_owned_by = EJZ
+					}
+				}
+			}
+		}
+		modifier = {
+		}
+		visible = {
+			EJZ = {
+				has_country_flag = EJZ_campaignDSU
+			}
+		}
+		fixed_random_seed = no
+		cost = 30
+	}
+	EJZ_DSU_Eejznsteda = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 1
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			1415 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.67
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.68
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.69
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					1415 = {
+						is_owned_by = EJZ
+					}
+				}
+			}
+		}
+		modifier = {
+		}
+		visible = {
+			EJZ = {
+				has_country_flag = EJZ_campaignDSU
+			}
+		}
+		fixed_random_seed = no
+		cost = 30
+	}
+	EJZ_DSU_Ejznvajk = {
+		icon = GFX_decision_bul_speech_nsm
+		days_remove = 1
+		fire_only_once = no
+		available = {
+			tag = EJZ
+			1177 = {
+				is_owned_by = EJZ
+			}
+		}
+		remove_effect = {
+			random_list = {
+				25 = {
+					EJZ = {
+						country_event = ejznrosa_election.70
+					}
+				}
+				45 = {
+					EJZ = {
+						country_event = ejznrosa_election.71
+					}
+				}
+				30 = {
+					EJZ = {
+						country_event = ejznrosa_election.72
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_country_flag = EJZ_election
+				}
+				NOT = {
+					1177 = {
+						is_owned_by = EJZ
+					}
+				}
+			}
+		}
+		modifier = {
+		}
+		visible = {
+			EJZ = {
+				has_country_flag = EJZ_campaignDSU
+			}
+		}
+		fixed_random_seed = no
+		cost = 30
+	}
 }
 
 

@@ -530,6 +530,12 @@ scripted_gui = {
       EJZ_campaign_DUE_visible = {
         has_country_flag = EJZ_campaignDUE
       }
+      EJZ_campaign_KGS_visible = {
+        has_country_flag = EJZ_campaignKGS
+      }
+      EJZ_campaign_DSU_visible = {
+        has_country_flag = EJZ_campaignDSU
+      }
       wokarkelection_uncontest_visible = {
         AND = {
           check_variable = {

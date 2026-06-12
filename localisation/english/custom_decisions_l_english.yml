@@ -57,6 +57,18 @@
  EJZ_DUE_Wejznsteda:0 "Campaign in §YWest Ejznsteda§W"
  EJZ_DUE_Eejznsteda:0 "Campaign in §YEast Ejznsteda§W"
  EJZ_DUE_Ejznvajk:0 "Campaign in §YEjznvajk§W"
+ EJZ_KGS_wokark:0 "Campaign in §YWokark§W"
+ EJZ_KGS_daekia:0 "Campaign in §YDaekia§W"
+ EJZ_KGS_NEejznsteda:0 "Campaign in §YNorthEast Ejznsteda§W"
+ EJZ_KGS_Wejznsteda:0 "Campaign in §YWest Ejznsteda§W"
+ EJZ_KGS_Eejznsteda:0 "Campaign in §YEast Ejznsteda§W"
+ EJZ_KGS_Ejznvajk:0 "Campaign in §YEjznvajk§W"
+ EJZ_DSU_wokark:0 "Campaign in §YWokark§W"
+ EJZ_DSU_daekia:0 "Campaign in §YDaekia§W"
+ EJZ_DSU_NEejznsteda:0 "Campaign in §YNorthEast Ejznsteda§W"
+ EJZ_DSU_Wejznsteda:0 "Campaign in §YWest Ejznsteda§W"
+ EJZ_DSU_Eejznsteda:0 "Campaign in §YEast Ejznsteda§W"
+ EJZ_DSU_Ejznvajk:0 "Campaign in §YEjznvajk§W"
 
  # Scaliga
  SCA_hallin_league:0 "Hallin League"
