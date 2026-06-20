@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 632
 
 add_ideas = {
 	volunteer_only
