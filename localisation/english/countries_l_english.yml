@@ -1057,7 +1057,7 @@
  LPC_monarchist_DEF:1 "the Lutian-Polonizian Commonwealth"
  LPC_monarchist_ADJ:0 "Lutian-Polonizese"
  
- #just adding this to remind myself to change it from morachist to something else
+
  LTO_monarchist:1 "Lutogian"
  LTO_monarchist_DEF:1 "Lutoge"
  LTO_monarchist_ADJ:0 "Lutogese"
@@ -1701,7 +1701,7 @@
  
  UNITED_USA:1 "United States of Adramis"
  UNITED_USA_DEF:1 "the United States of Adramis"
- UNITED_USA_ADJ:0 "Adramisian
+ UNITED_USA_ADJ:0 "Adramisian"
  
  VAA_absolutist:1 "Valeran Hold"
  VAA_absolutist_DEF:1 "the Valeran Hold"
@@ -1923,7 +1923,6 @@
  WOK_radical_nationalist:1 "Greater Kingdom of Wokark"
  WOK_radical_nationalist_DEF:1 "The Kingdom of Wokark"
  WOK_radical_nationalist_ADJ:1 "Wokarkian"
- WOK_
  
  XUA_absolutist:1 "Xuán Dynasty"
  XUA_absolutist_DEF:1 "The Xuán Dynasty"
