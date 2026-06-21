@@ -1,0 +1,22 @@
+state={
+	id=1426
+	name="STATE_1426"
+	provinces={
+		15326 3271 11928 11954 11952 11956 11985 249 11984 12010 11925
+	}
+	buildings_max_level_factor=1.000
+        manpower=1200000
+        state_category = rural
+	history={
+		owner = FLA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			11984 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = FLA
+		victory_points = { 11956 5 }
+	}
+}
