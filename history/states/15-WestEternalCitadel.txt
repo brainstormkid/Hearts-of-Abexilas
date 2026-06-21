@@ -1,0 +1,14 @@
+state={
+	id=15
+	name="STATE_15"
+	provinces={
+		15289 
+	}
+	buildings_max_level_factor=1.000
+        manpower=75000
+        state_category = tiny_island
+	history = {
+		owner = OBL
+		add_core_of = OBL
+	}
+}

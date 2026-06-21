@@ -159,6 +159,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment,
 13751;3580;sea;1;-1;-1;-1;-1;;Kurtanovo-Lymniscos-Bridge,
 2581;13916;sea;1;-1;-1;-1;-1;;Rhegion-Curcomia-Bridge,
 11218;6910;sea;1;-1;-1;-1;-1;;Luxborn-EastLuxborn-Bridge,
+7236;1957;sea;1;-1;-1;-1;-1;;EternalCitadel-Lodestone-Bridge,
+2959;7147;sea;1;-1;-1;-1;-1;;Lodestone-EternalCitadel-Bridge,
+7066;15289;sea;1;-1;-1;-1;-1;;EternalCitadel-WestEternalCitadel-Bridge,
+
 
 
 ;;;;;;;;;, anything after is ignored;;;;;;;;;
