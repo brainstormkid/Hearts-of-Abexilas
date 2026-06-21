@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 527
 
 set_politics = {
 	ruling_party = absolutist

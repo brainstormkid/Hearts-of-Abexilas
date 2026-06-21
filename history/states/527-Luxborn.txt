@@ -1,0 +1,22 @@
+state={
+	id=527
+	name="STATE_527"
+	provinces={
+		529 1958 11260 11245 11218 11261 11165 
+	}
+	buildings_max_level_factor=1.000
+        manpower=2000000
+        state_category = town
+	history={
+		owner = FLA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			11218 = {
+				supply_node = 1
+			}
+		}
+		add_core_of = FLA
+		victory_points = { 11218 50 }
+	}
+}

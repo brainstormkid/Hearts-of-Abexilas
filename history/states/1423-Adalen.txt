@@ -1,0 +1,23 @@
+state={
+	id=1423
+	name="STATE_1423"
+	provinces={
+		11115 11171 1638 4407 6359 11145 951 1512 11152
+	}
+	buildings_max_level_factor=1.000
+        manpower=3900000
+        state_category = town
+	history={
+		owner = FLA
+		buildings = {
+			dockyard = 2
+			infrastructure = 2
+			industrial_complex = 1
+			11171 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = FLA
+		victory_points = { 1638 30 }
+	}
+}

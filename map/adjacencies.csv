@@ -158,6 +158,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment,
 2284;4366;sea;1;-1;-1;-1;-1;;Steelwater-Charterstone-Bridge,
 13751;3580;sea;1;-1;-1;-1;-1;;Kurtanovo-Lymniscos-Bridge,
 2581;13916;sea;1;-1;-1;-1;-1;;Rhegion-Curcomia-Bridge,
+11218;6910;sea;1;-1;-1;-1;-1;;Luxborn-EastLuxborn-Bridge,
 
 
 ;;;;;;;;;, anything after is ignored;;;;;;;;;

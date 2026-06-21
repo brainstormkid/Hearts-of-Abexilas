@@ -1,0 +1,23 @@
+state={
+	id=1421
+	name="STATE_1421"
+	provinces={
+		1183 3396 11048 11001 11013 10976 6236 10975 10933 6128 10906
+	}
+	buildings_max_level_factor=1.000
+        manpower=9300000
+        state_category = town
+	history={
+		owner = FLA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			military_factory = 2
+			11013 = {
+				supply_node = 1
+			}
+		}
+		add_core_of = FLA
+		victory_points = { 11013 30 }
+	}
+}
