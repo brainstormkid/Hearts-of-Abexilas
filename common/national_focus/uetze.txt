@@ -156,6 +156,7 @@ focus_tree = {
 		cost = 5
 		
 		completion_reward ={
+			navy_experience = 30
 		   	random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -170,7 +171,7 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
-				navy_experience = 30
+				
 			}
 		}
 		
@@ -187,13 +188,10 @@ focus_tree = {
 		x = 13
 		y = 7
 		cost = 10
-		bypass = {
-		    autonomy_state = autonomy_free
-		}
 		
 		completion_reward ={
 		    set_politics = {
-			ruling_party = Democratic
+			ruling_party = liberalist
 			elections_allowed = yes
 			last_election = "1936.7.1"
 			election_frequency = 48
@@ -206,7 +204,6 @@ focus_tree = {
 		}
 		prerequisite = { focus = UET_anti_goldene_demonstrations  }
 		
-		mutually_exclusive = { focus = UET_heil_dir_im_siegeskranz}
 	}
 
 	#Ignore Goldenes intsructions
@@ -255,7 +252,7 @@ focus_tree = {
 		}
 		completion_reward ={
 		    add_popularity = {
-			ideology = Democratic
+			ideology = liberalist
 			popularity = 0.1
 			}
 			add_stability = 0.1
@@ -274,7 +271,7 @@ focus_tree = {
 		cost = 5
 		completion_reward ={
 		    add_popularity = {
-			ideology = Democratic
+			ideology = liberalist
 			popularity = 0.1
 			}
 			add_political_power = 50
@@ -988,9 +985,9 @@ focus_tree = {
 		prerequisite = { focus = UET_organise_the_left_movement  }
 	}
 
-	#Invite Alamera
+	#Invite Alamera 2 - fuck this focus
 	focus = {
-		id = UET_invite_alamera
+		id = UET_send_invite_to_alamera
 		icon = GFX_goal_unknown
 		x = 48
 		y = 4
