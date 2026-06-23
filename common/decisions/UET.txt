@@ -73,8 +73,8 @@ UET_Goldenes_raids = {
 			
 		}
 		remove_effect = {
-			remove_idea = goldeneRaids
-			remove_idea = StrongGoldeneRaids
+			remove_ideas = goldeneRaids
+			remove_ideas = StrongGoldeneRaids
 		}
 
 		ai_will_do = {
