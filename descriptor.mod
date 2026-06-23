@@ -71,4 +71,9 @@ replace_path="portraits"
 
 replace_path="music"
 
+replace_path = "common/ai_navy/goals" 
+replace_path = "common/doctrines/subdoctrines" 
+replace_path = "common/factions" 
+replace_path = "gfx/interface/equipmentdesigner/graphic_db"
+
 supported_version="1.16.*"
