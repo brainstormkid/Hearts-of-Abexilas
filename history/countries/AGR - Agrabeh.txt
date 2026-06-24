@@ -11,3 +11,14 @@ set_politics = {
 set_popularities = {
 	absolutist = 100
 }
+
+create_country_leader = {
+	name = "?"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "gfx/leaders/AEZ/generic_no_leader.dds"
+	expire = "1965.1.1"
+	ideology = absolutist_subtype
+	traits = {
+		#
+	}
+}
