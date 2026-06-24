@@ -63,7 +63,7 @@ news_event = {
 				states = {
 					370 369 321 369
 				}
-				capital = { 321 }
+				set_capital = { state = 321 }
 			}
 		}
 	}
