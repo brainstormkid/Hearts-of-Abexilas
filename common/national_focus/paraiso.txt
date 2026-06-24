@@ -342,15 +342,15 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
-		470 = {
-		add_building_construction = {
-                    type = industrial_complex
-                    level = 2
-                    instant_build = yes
-					 }
-				    add_political_power = -50
-					add_stability = 0.2
-		}
+			470 = {
+				add_building_construction = {
+					type = industrial_complex
+            	    level = 2
+                 	instant_build = yes
+				}
+			}
+			add_political_power = -50
+			add_stability = 0.2
 		}
 		prerequisite = { focus = PAR_call_saiko  }
 	}
@@ -390,15 +390,15 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
-		471 = {
-		add_building_construction = {
-                    type = arms_factory
-                    level = 4
-                    instant_build = yes
-					 }
-				    add_political_power = 50
-					add_war_support = 0.1
-		}
+			471 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+			}
+			add_political_power = 50
+			add_war_support = 0.1
 		}
 		prerequisite = { focus = PAR_reclaim_the_kingdom  }
 	}
@@ -418,7 +418,7 @@ focus_tree = {
 		    add_tech_bonus = {
 				bonus = 0.5
 				uses = 2
-				category = air_techs
+				category = air_equipment
 			}
 		}
 		prerequisite = { focus = PAR_rebuild_aberration  }
@@ -499,14 +499,14 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
-		495 = {
-        add_building_construction = {
-                   type = bunker
-                   level = 3
-                   instant_build = yes
-                }
-				add_political_power = 50
-		}
+			495 = {
+        		add_building_construction = {
+					type = bunker
+            	    level = 3
+            	    instant_build = yes
+            	}
+			}
+			add_political_power = 50
 		}
 		prerequisite = { focus = PAR_take_to_the_skyes  } prerequisite = { focus = PAR_take_to_the_sea  }
 	}
@@ -685,7 +685,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.5
 				uses = 2
-				category = air_techs
+				category = air_equipment
 			}
 		}
 		prerequisite = { focus = PAR_a_prelude_to_revenge  }
@@ -1046,7 +1046,7 @@ focus_tree = {
 		    add_tech_bonus = {
 				bonus = 0.5
 				uses = 2
-				category = Infantry
+				category = infantry
 			}
         add_political_power = 50
 		add_stability = 0.2
@@ -1090,7 +1090,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-			PAR = 
+			
 		}
 		prerequisite = { focus = PAR_rebuild_the_army  }
 	}
