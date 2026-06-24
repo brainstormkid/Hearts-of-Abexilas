@@ -11,7 +11,7 @@ country_event = {
 	option = {
 		name = "yes"
 		
-		ai_will_do = {
+		ai_chance = {
 			factor = 7
 			modifier = {is_historical_focus_on = yes factor = 0}
 		}
@@ -33,7 +33,7 @@ country_event = {
 	}
 	option = {
 		name = "We are better of alone!"
-		ai_will_do = {
+		ai_chance = {
 			factor = 3
 		}
 		LUT = {
