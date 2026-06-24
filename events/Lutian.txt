@@ -26,7 +26,7 @@ country_event = {
 		name = "Equality for All"
 		complete_national_focus = lut_democratic_way_of_thinking
 		
-		ai_will_do = {
+		ai_chance = {
 			factor = 10
 			modifier = {is_historical_focus_on = yes factor = 0}
 		}
@@ -52,7 +52,7 @@ country_event = {
 		name = "Our Destiny is Imperial"
 		complete_national_focus = lut_fascism_is_the_only_right_way
 		
-		ai_will_do = {
+		ai_chance = {
 			factor = 10
 			modifier = {is_historical_focus_on = yes factor = 0}
 		}
@@ -68,7 +68,7 @@ country_event = {
 		name = "Unite Under the Red Banner"
 		complete_national_focus = lut_communism_shall_rise
 		
-		ai_will_do = {
+		ai_chance = {
 			factor = 3
 			modifier = {is_historical_focus_on = yes factor = 0}
 		}
