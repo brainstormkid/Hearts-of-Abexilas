@@ -66,7 +66,7 @@ news_event = {
 			damage_building = {
 				type = infrastructure
 				damage = 2
-				repair_speed_modifier = -0.3
+				repair_speed_modifier = -0.5
 			}
 		}
 	}

@@ -1,9 +1,6 @@
 add_namespace = ejznrosa_election
 country_event = {
 	id = ejznrosa_election.1
-	hours = 5
-    random_hours = 0
-    days = 0
 	title = "Wonderful NEP campaign in Wokark!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -456,9 +453,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.2
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre NEP campaign in Wokark."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -911,9 +906,6 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.3
-	hours = 5
-    random_hours = 0
-    days = 0
 	title = "Horrible NEP campaign in Wokark."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -1366,9 +1358,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.4
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful NEP campaign in Daekia!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -1821,9 +1811,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.5
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre NEP campaign in Daekia."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -2276,9 +2264,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.6
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible NEP campaign in Daekia."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -2731,9 +2717,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.7
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful NEP campaign in NorthEast Ejznsteda!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -3186,9 +3170,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.8
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre NEP campaign in NorthEast Ejznsteda."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -3641,9 +3623,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.9
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible NEP campaign in NorthEast Ejznsteda."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -4096,9 +4076,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.10
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful NEP campaign in West Ejznsteda!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -4551,9 +4529,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.11
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre NEP campaign in West Ejznsteda."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -5006,9 +4982,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.12
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible NEP campaign in West Ejznsteda."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -5461,9 +5435,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.13
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful NEP campaign in East Ejznsteda!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -5916,9 +5888,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.14
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre NEP campaign in East Ejznsteda."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -6371,9 +6341,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.15
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible NEP campaign in East Ejznsteda."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -6826,9 +6794,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.16
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful NEP campaign in Ejznvajk!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -7281,9 +7247,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.17
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre NEP campaign in Ejznvajk."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -7736,9 +7700,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.18
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible NEP campaign in Ejznvajk."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -8191,9 +8153,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.19
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful DUE campaign in Wokark!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -8646,9 +8606,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.20
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre DUE campaign in Wokark."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -9101,9 +9059,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.21
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible DUE campaign in Wokark."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -9556,9 +9512,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.22
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful DUE campaign in Daekia!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -10011,9 +9965,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.23
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre DUE campaign in Daekia."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -10466,9 +10418,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.24
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible DUE campaign in Daekia."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -10921,9 +10871,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.25
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful DUE campaign in NorthEast Ejznsteda!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -11376,9 +11324,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.26
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre DUE campaign in NorthEast Ejznsteda."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -11831,9 +11777,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.27
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible DUE campaign in NorthEast Ejznsteda."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -12286,9 +12230,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.28
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful DUE campaign in West Ejznsteda!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -12741,9 +12683,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.29
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre DUE campaign in West Ejznsteda."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -13196,9 +13136,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.30
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible DUE campaign in West Ejznsteda."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -13651,9 +13589,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.31
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful DUE campaign in East Ejznsteda!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -14106,9 +14042,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.32
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre DUE campaign in East Ejznsteda."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -14561,9 +14495,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.33
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible DUE campaign in East Ejznsteda."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -15016,9 +14948,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.34
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful DUE campaign in Ejznvajk!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -15471,9 +15401,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.35
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre DUE campaign in Ejznvajk."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -15926,9 +15854,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.36
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible DUE campaign in Ejznvajk."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -16381,9 +16307,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.37
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful KGS campaign in Wokark!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -16836,9 +16760,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.38
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre KGS campaign in Wokark."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -17291,9 +17213,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.39
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible KGS campaign in Wokark."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -17746,9 +17666,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.40
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful KGS campaign in Daekia!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -18201,9 +18119,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.41
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre KGS campaign in Daekia."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -18656,9 +18572,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.42
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible KGS campaign in Daekia."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -19111,9 +19025,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.43
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful KGS campaign in NorthEast Ejznsteda!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -19566,9 +19478,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.46
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre KGS campaign in NorthEast Ejznsteda."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -20021,9 +19931,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.45
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible KGS campaign in NorthEast Ejznsteda."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -20476,9 +20384,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.46
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful KGS campaign in West Ejznsteda!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -20931,9 +20837,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.47
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre KGS campaign in West Ejznsteda."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -21386,9 +21290,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.48
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible KGS campaign in West Ejznsteda."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -21841,9 +21743,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.49
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful KGS campaign in East Ejznsteda!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -22296,9 +22196,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.50
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre KGS campaign in East Ejznsteda."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -22751,9 +22649,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.51
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible KGS campaign in East Ejznsteda."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -23206,9 +23102,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.52
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful KGS campaign in Ejznvajk!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -23661,9 +23555,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.53
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre KGS campaign in Ejznvajk."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -24116,9 +24008,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.54
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible KGS campaign in Ejznvajk."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -24571,9 +24461,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.55
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful DSU campaign in Wokark!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -25026,9 +24914,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.56
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre DSU campaign in Wokark."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -25481,9 +25367,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.57
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible DSU campaign in Wokark."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -25936,9 +25820,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.58
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful DSU campaign in Daekia!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -26391,9 +26273,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.59
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre DSU campaign in Daekia."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -26846,9 +26726,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.60
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible DSU campaign in Daekia."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -27301,9 +27179,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.61
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful DSU campaign in NorthEast Ejznsteda!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -27756,9 +27632,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.62
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre DSU campaign in NorthEast Ejznsteda."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -28211,9 +28085,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.63
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible DSU campaign in NorthEast Ejznsteda."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -28666,9 +28538,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.64
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful DSU campaign in West Ejznsteda!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -29121,9 +28991,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.65
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre DSU campaign in West Ejznsteda."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -29576,9 +29444,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.66
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible DSU campaign in West Ejznsteda."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -30031,9 +29897,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.67
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful DSU campaign in East Ejznsteda!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -30486,9 +30350,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.68
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre DSU campaign in East Ejznsteda."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -30941,9 +30803,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.69
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible DSU campaign in East Ejznsteda."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
@@ -31396,9 +31256,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.70
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Wonderful DSU campaign in Ejznvajk!"
 	desc = ejznrosa_election.1
 	picture = "GFX_ejznrosa_event_1_image"
@@ -31851,9 +31709,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.71
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Mediocre DSU campaign in Ejznvajk."
 	desc = ejznrosa_election.2
 	picture = "GFX_ejznrosa_event_1_image"
@@ -32306,9 +32162,7 @@ country_event = {
 }
 country_event = {
 	id = ejznrosa_election.72
-	hours = 5
-    random_hours = 0
-    days = 0
+
 	title = "Horrible DSU campaign in Ejznvajk."
 	desc = ejznrosa_election.3
 	picture = "GFX_ejznrosa_event_1_image"
