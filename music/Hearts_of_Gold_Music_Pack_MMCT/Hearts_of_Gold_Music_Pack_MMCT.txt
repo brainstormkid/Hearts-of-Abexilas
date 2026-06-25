@@ -15,38 +15,64 @@ music_station = "Hearts_of_Gold_Music_Pack_MMCT"
 music = {
     song = "maintheme"
     chance = {
-      modifier = { factor = 1 }
-      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+		modifier = { 
+			factor = 0.5	
+		}
+		modifier = { 
+			factor = 0 
+			has_war = yes 
+		}
     }
 }
 
 music = {
     song = "AnthemoftheUnifiedStructuralistIntuitionistPartyofAzeraanUSIPA"
     chance = {
-      modifier = { factor = 1 }
-      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+      modifier = { factor = 0.5 }
     }
 }
 
 music = {
     song = "AshkavariAnthem"
     chance = {
-      modifier = { factor = 1 }
-      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+		modifier = {
+			factor = 2
+			original_tag = ASH
+		}
+		modifier = { 
+			factor = 0 
+			has_war = no
+		}
+		modifier = {
+			factor = 1
+			has_war = yes
+		}
     }
 }
 
 music = {
     song = "BardoniaAnthem"
     chance = {
-      modifier = { factor = 1 }
-      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+		modifier = {
+			factor = 2
+			OR = {
+				original_tag = BAR
+				original_tag = COM	
+			}
+		}
+		modifier = { 
+			factor = 0 
+			has_war = no
+		}
+		modifier = {
+			factor = 1
+			has_war = yes
+		}
     }
 }
 music = {
     song = "Piyajvaniyoedh_Pura"
     chance = {
-      modifier = { factor = 1 }
-      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+      modifier = { factor = 0.5 }
     }
 }

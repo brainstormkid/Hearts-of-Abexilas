@@ -8,13 +8,13 @@
 music = {
     name = "maintheme"
     file = "hoi4mainthemeallies.ogg"
-    volume = 5.00
+    volume = 2.00
 }
 
 music = {
     name = "AnthemoftheUnifiedStructuralistIntuitionistPartyofAzeraanUSIPA"
     file = "AnthemoftheUnifiedStructuralistIntuitionistPartyofAzeraanUSIPA.ogg"
-    volume = 10.00
+    volume = 5.00
 }
 
 music = {
