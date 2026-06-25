@@ -13,9 +13,6 @@ state={
 			dockyard = 2
 			infrastructure = 2
 			industrial_complex = 1
-			11171 = {
-				naval_base = 1
-			}
 		}
 		add_core_of = FLA
 		victory_points = { 1638 30 }

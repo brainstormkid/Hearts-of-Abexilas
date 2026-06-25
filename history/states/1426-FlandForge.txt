@@ -12,9 +12,6 @@ state={
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
-			11984 = {
-				naval_base = 1
-			}
 		}
 		add_core_of = FLA
 		victory_points = { 11956 5 }
