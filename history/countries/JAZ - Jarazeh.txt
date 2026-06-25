@@ -19,9 +19,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "The council of Monarchs"
+	name = "The Council of Monarchs"
 	desc = "POLITICS_Council_Monarchs_DESC"
-	#picture = "gfx/leaders/JAZ/Council_Monarchs.dds"
+	picture = "gfx/leaders/JAZ/Council_Monarchs.dds"
 	expire = "1965.1.1"
 	ideology = monarchist_subtype
 	traits = {
