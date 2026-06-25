@@ -11,7 +11,7 @@ state={
 		owner = OBL
 		buildings = {
 			infrastructure = 2
-			industry_complex = 1
+			industrial_complex = 1
 		}
 		victory_points = { 7147 10 }
 		add_core_of = OBL

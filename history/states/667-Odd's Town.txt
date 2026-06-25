@@ -19,9 +19,8 @@ state={
 		owner = ODD
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
+			industrial_complex = 2
 			arms_factory = 1
-			dockyard = 1
 		}
 		add_core_of = ODD
 		victory_points = {

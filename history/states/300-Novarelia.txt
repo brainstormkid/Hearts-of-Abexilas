@@ -22,9 +22,6 @@ state={
 			infrastructure = 3
 			arms_factory = 1
 			dockyard = 1
-			7400 = {
-				naval_base = 1
-			}
 		}
 		add_core_of = KRA
 		victory_points = { 7400 30 }
