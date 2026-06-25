@@ -13,7 +13,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = -16
+		start_year = 1922
 		
 		folder = {
 			name = naval_folder
@@ -22,6 +22,11 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
 		}
 		
 		categories = {
@@ -47,7 +52,7 @@ technologies = {
 		
 		research_cost = 2
 		
-		start_year = 2
+		start_year = 1936
 
 		folder = {
 			name = naval_folder
@@ -56,6 +61,11 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
 		}
 		
 		categories = {
@@ -80,7 +90,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 6
+		start_year = 1940
 		
 		folder = {
 			name = naval_folder
@@ -89,6 +99,11 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
 		}
 		
 		categories = {
@@ -108,7 +123,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 10
+		start_year = 1944
 		
 		folder = {
 			name = naval_folder
@@ -117,6 +132,11 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
 		}
 		
 		categories = {
@@ -154,7 +174,7 @@ technologies = {
 			}
 		}
 
-		start_year = -16
+		start_year = 1922
 		
 		folder = {
 			name = naval_folder
@@ -163,12 +183,22 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
 		}
 		
 		categories = {
 			naval_artillery
 			naval_equipment
-			cl_tech
+			ca_tech
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 		}
@@ -193,7 +223,7 @@ technologies = {
 		
 		research_cost = 2
 		
-		start_year = 2
+		start_year = 1936
 		
 		folder = {
 			name = naval_folder
@@ -202,12 +232,22 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
 		}
 		
 		categories = {
 			naval_artillery
 			naval_equipment
-			cl_tech
+			ca_tech
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 		}
@@ -231,7 +271,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 6
+		start_year = 1940
 		
 		folder = {
 			name = naval_folder
@@ -240,12 +280,22 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
 		}
 		
 		categories = {
 			naval_artillery
 			naval_equipment
-			cl_tech
+			ca_tech
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 		}
@@ -265,7 +315,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 10
+		start_year = 1944
 		
 		folder = {
 			name = naval_folder
@@ -274,12 +324,22 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
 		}
 		
 		categories = {
 			naval_artillery
 			naval_equipment
-			cl_tech
+			ca_tech
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 		}
@@ -305,7 +365,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = -16
+		start_year = 1922
 		
 		folder = {
 			name = naval_folder
@@ -344,7 +404,7 @@ technologies = {
 		
 		research_cost = 2
 		
-		start_year = 2
+		start_year = 1936
 		
 		folder = {
 			name = naval_folder
@@ -382,7 +442,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 6
+		start_year = 1940
 		
 		folder = {
 			name = naval_folder
@@ -416,7 +476,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 10
+		start_year = 1944
 		
 		folder = {
 			name = naval_folder
@@ -453,7 +513,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = -16
+		start_year = 1922
 		
 		folder = {
 			name = naval_folder
@@ -486,7 +546,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 6
+		start_year = 1940
 		
 		folder = {
 			name = naval_folder
@@ -519,7 +579,7 @@ technologies = {
 		
 		
 		research_cost = 1.5
-		start_year = -16
+		start_year = 1922
 		
 		on_research_complete = {
 			custom_effect_tooltip = {
@@ -563,7 +623,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 2
+		start_year = 1936
 		
 		folder = {
 			name = naval_folder
@@ -599,7 +659,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 6
+		start_year = 1940
 		
 		folder = {
 			name = naval_folder
@@ -631,7 +691,7 @@ technologies = {
 		#}
 		
 		research_cost = 2
-		start_year = 10
+		start_year = 1944
 		
 		folder = {
 			name = naval_folder
@@ -674,7 +734,7 @@ technologies = {
 		#}
 		
 		research_cost = 2
-		start_year = 2
+		start_year = 1936
 		
 		#folder = {
 			#name = naval_folder
@@ -713,7 +773,7 @@ technologies = {
 		research_cost = 2
 
 		is_special_project_tech = yes
-		start_year = 10
+		start_year = 1944
 		
 		folder = {
 			name = naval_folder
@@ -736,7 +796,10 @@ technologies = {
 	transport = {
 
 		transport_capacity = -0.33
-		naval_invasion_capacity = 10
+		naval_invasion_capacity = 100 #TODO: Temporary Solution until we will no longer have dependancy on this stat
+		naval_invasion_prep_days = -30
+		naval_invasion_division_cap = 2 
+		naval_invasion_plan_cap = 2
 		
 		path = {
 			leads_to_tech = landing_craft 
@@ -748,7 +811,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
-		start_year = -16
+		start_year = 1922
 		
 		folder = {
 			name = naval_folder
@@ -757,6 +820,26 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 0.5
+				NOT = { has_war = yes }
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+			
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
 		}
 		
 		categories = {
@@ -768,9 +851,12 @@ technologies = {
 	
 	landing_craft = {
 
-		invasion_preparation = -0.25
+		#invasion_preparation = -0.25
 		amphibious_invasion_defence = 0.15
-		naval_invasion_capacity = 20
+		naval_invasion_prep_days = -30
+		naval_invasion_division_cap = 2 
+		naval_invasion_plan_cap = 2	
+		#naval_invasion_capacity = 20
 
 		path = {
 			leads_to_tech = tank_landing_craft 
@@ -785,7 +871,7 @@ technologies = {
 		show_equipment_icon = yes
 		
 		research_cost = 2
-		start_year = 6
+		start_year = 1940
 		
 		folder = {
 			name = naval_folder
@@ -794,6 +880,55 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 2
+			
+			modifier = {
+				factor = 0.5
+				NOT = { has_war = yes }
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+
+			modifier = {
+				factor = 50
+				tag = JAP
+				OR = {
+					has_war_with = USA
+					CHI = {  
+						OR = { 
+							has_capitulated = yes 
+							exists = no
+		                    is_subject_of = JAP
+						}
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 5
+				OR = {
+					tag = ENG
+					tag = USA
+				}
+				has_war_with = GER
+			}
+
+			modifier = {
+				factor = 10
+				OR = {
+					tag = ENG
+					tag = USA
+				}
+				has_war_with = GER
+				GER = { has_war_with = SOV }
+			}
 		}
 		
 		categories = {
@@ -807,10 +942,13 @@ technologies = {
 
 		amphibious_invasion = 0.25
 		amphibious_invasion_defence = 0.5
-		naval_invasion_capacity = 100
+		naval_invasion_prep_days = -15
+		naval_invasion_division_cap = 8 
+		naval_invasion_plan_cap = 4			
+		#naval_invasion_capacity = 100
 
 		research_cost = 2
-		start_year = 10
+		start_year = 1944
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 19 }
@@ -818,6 +956,26 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 2
+			
+			modifier = {
+				factor = 0.5
+				NOT = { has_war = yes }
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+			
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
 		}
 		
 		categories = {
@@ -840,7 +998,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = -16
+		start_year = 1922
 		
 		folder = {
 			name = naval_folder
@@ -849,6 +1007,16 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
 		}
 		
 		categories = {
@@ -871,7 +1039,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 2
+		start_year = 1936
 		
 		folder = {
 			name = naval_folder
@@ -880,6 +1048,16 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
 		}
 		
 		categories = {
@@ -895,6 +1073,18 @@ technologies = {
 		enable_equipments = { 
 			carrier_3
 		}
+		on_research_complete = {
+			if = {
+				limit = {
+					is_ai = no
+					has_dlc = "No Compromise, No Surrender"
+					has_dlc = "Gotterdammerung"
+					original_tag = PHI
+				}
+				set_country_flag = PHI_did_carrier_tech
+				mark_focus_tree_layout_dirty = yes
+			}
+		}
 		
 		path = {
 			leads_to_tech = advanced_carrier 
@@ -902,7 +1092,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 6
+		start_year = 1940
 
 		on_research_complete = {
 			if = { 
@@ -921,6 +1111,16 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
 		}
 		
 		categories = {
@@ -940,7 +1140,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 10
+		start_year = 1944
 		
 		on_research_complete = {
 			if = {
@@ -959,6 +1159,16 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
 		}
 		
 		categories = {
@@ -993,7 +1203,7 @@ technologies = {
 
 		research_cost = 1.5
 
-		start_year = -16
+		start_year = 1922
 		
 		folder = {
 			name = naval_folder
@@ -1002,6 +1212,11 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = GER
+			}
 		}
 		
 		categories = {
@@ -1037,7 +1252,7 @@ technologies = {
 		}
 				
 		research_cost = 2
-		start_year = 2
+		start_year = 1936
 
 		folder = {
 			name = naval_folder
@@ -1046,6 +1261,11 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = GER
+			}
 		}
 		
 		categories = {
@@ -1069,7 +1289,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 6
+		start_year = 1940
 		
 		folder = {
 			name = naval_folder
@@ -1078,6 +1298,11 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = GER
+			}
 		}
 		
 		categories = {
@@ -1096,7 +1321,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 10
+		start_year = 1944
 		
 		folder = {
 			name = naval_folder
@@ -1105,6 +1330,11 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = GER
+			}
 		}
 		
 		categories = {
@@ -1125,7 +1355,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 2
+		start_year = 1936
 
 		# only from focus!!! #####
 		allow = {
@@ -1143,7 +1373,7 @@ technologies = {
 		#}
 
 		#research_cost = 1
-		#start_year = 2
+		#start_year = 1936
 
 		#allow = {
 			#always = no

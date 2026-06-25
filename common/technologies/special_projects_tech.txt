@@ -13,7 +13,7 @@ technologies = {
 			always = no
 		}
 
-		start_year = 2
+		start_year = 1936
 
 		enable_equipment_modules = {
 			advanced_modern_tank_turret 
@@ -25,7 +25,7 @@ technologies = {
 			always = no
 		}
 
-		start_year = 2
+		start_year = 1936
 		enable_building = {
 			building = mega_gun_emplacement
 			level = 1
@@ -37,7 +37,7 @@ technologies = {
 			always = no
 		}
 
-		start_year = 2
+		start_year = 1936
 		enable_building = {
 			building = commercial_nuclear_reactor
 			level = 1
@@ -49,7 +49,7 @@ technologies = {
 			always = no
 		}
 
-		start_year = 2
+		start_year = 1936
 		enable_building = {
 			building = stronghold_network
 			level = 1
@@ -62,7 +62,7 @@ technologies = {
 
 	isotope_separation_centrifugal = {
 		# boosts nuclear production		
-		start_year = 9
+		start_year = 1943
 		research_cost = 5
 		categories = {
 			nuclear
@@ -74,7 +74,7 @@ technologies = {
 
 	thermonuclear_bombs = {
 	
-		start_year = 16
+		start_year = 1950
 		research_cost = 5
 		
 		ai_will_do = {
