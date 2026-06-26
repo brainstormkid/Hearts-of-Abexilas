@@ -78,7 +78,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = UET_ignore_goldenes_intsructions} prerequisite = { focus = UET_dockyard_effort  }
+		prerequisite = { focus = UET_ignore_goldenes_intsructions } 
+		prerequisite = { focus = UET_dockyard_effort }
+		mutually_exclusive = { focus = UET_vom_uetzer_wesen_soll_die_welt_genesen }
 	}
 
 	#Organise the left movement
@@ -92,6 +94,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = UET_plot_against_artiom  }
+		mutually_exclusive = { focus = UET_organise_the_national_movement  }
 	}
 
 	#United under the golden banner
@@ -129,7 +132,7 @@ focus_tree = {
 			add_political_power = 120
 		}
 		
-		mutually_exclusive = { }
+		mutually_exclusive = { focus = UET_united_under_the_golden_banner }
 	}
 
 	#Plot against artiom
@@ -145,6 +148,7 @@ focus_tree = {
 		}
 		
 		prerequisite = { focus = UET_glory_to_uetze  }
+		mutually_exclusive = { focus = UET_ensure_public_suport }
 	}
 
 	#Creation of the marine
@@ -221,6 +225,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = UET_hold_a_military_parade  }
+		mutually_exclusive = { focus = UET_anti_goldene_demonstrations }
 	}
 
 	#Hold a military parade
@@ -258,7 +263,6 @@ focus_tree = {
 			add_stability = 0.1
 		}
 		prerequisite = { focus = UET_strenghten_the_stadtrat  }
-		
 		mutually_exclusive = { focus = UET_ignore_goldenes_intsructions }
 	}
 
@@ -390,6 +394,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = UET_Unite_with_corvi  }
+		mutually_exclusive = { focus = UET_irirstroyan_dominance  }
 	}
 
 	#Invite Valera
@@ -461,7 +466,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
-		prerequisite = { focus = UET_secure_the_dunchelean_sea  } prerequisite = { focus = UET_set_sail_on_caerus  }
+		prerequisite = { focus = UET_secure_the_dunchelean_sea  } 
+		prerequisite = { focus = UET_set_sail_on_caerus  }
 	}
 
 	#Uetze wins on all fronts
@@ -620,7 +626,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
-		prerequisite = { focus = UET_prepare_the_march_on_kavrovaria  } prerequisite = { focus = UET_give_refuge_to_azeran_rebels  }
+		prerequisite = { focus = UET_prepare_the_march_on_kavrovaria  } 
+		prerequisite = { focus = UET_give_refuge_to_azeran_rebels  }
 	}
 
 	#Prepare the march on Kavrovaria
@@ -814,7 +821,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = UET_start_synthesizing_ruber_and_oil  } prerequisite = { focus = UET_steel_from_stahlberg  }
+		prerequisite = { focus = UET_start_synthesizing_ruber_and_oil  } 
+		prerequisite = { focus = UET_steel_from_stahlberg  }
 	}
 
 	#Start synthesizing ruber and oil
@@ -862,7 +870,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = UET_size_up_the_central_market  } prerequisite = { focus = UET_expand_the_blacksmithing_industry  }
+		prerequisite = { focus = UET_size_up_the_central_market  } 
+		prerequisite = { focus = UET_expand_the_blacksmithing_industry  }
 	}
 
 	#Encourage immigration
@@ -874,7 +883,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = UET_size_up_the_central_market  } prerequisite = { focus = UET_steel_from_stahlberg  }
+		prerequisite = { focus = UET_size_up_the_central_market  } 
+		prerequisite = { focus = UET_steel_from_stahlberg  }
 	}
 
 	#Invite Mizlarei
@@ -922,7 +932,10 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = UET_invite_amiris  } prerequisite = { focus = UET_invite_valera2  } prerequisite = { focus = UET_invite_azeraan  } prerequisite = { focus = UET_invite_mizlarei2 }
+		prerequisite = { focus = UET_invite_amiris  } 
+		prerequisite = { focus = UET_invite_valera2  } 
+		prerequisite = { focus = UET_invite_azeraan  } 
+		prerequisite = { focus = UET_invite_mizlarei2 }
 	}
 
 	#Invite Yarexoka
@@ -1029,7 +1042,10 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = UET_invite_kiche  } prerequisite = { focus = UET_invite_yarexoka  } prerequisite = { focus = UET_invite_dzitian  } prerequisite = { focus = UET_invite_alamera  }
+		prerequisite = { focus = UET_invite_kiche  } 
+		prerequisite = { focus = UET_invite_yarexoka  } 
+		prerequisite = { focus = UET_invite_dzitian  } 
+		prerequisite = { focus = UET_invite_alamera  }
 	}
 
 	#Strike at the source
@@ -1041,7 +1057,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = UET_boost_the_faction_experience  } prerequisite = { focus = UET_expand_aliance_heavy_industry  }
+		prerequisite = { focus = UET_boost_the_faction_experience  } 
+		prerequisite = { focus = UET_expand_aliance_heavy_industry  }
 	}
 
 	#Invite Communist advisors
