@@ -136,6 +136,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = HRP_democracytruimphs  }
+		mutually_exclusive = { focus = HRP_victoryforliberty  }
+		mutually_exclusive = { focus = HRP_emptypapermarkedballot  } 
+		mutually_exclusive = { focus = HRP_the_rose_blossoms  } 
 		completion_reward = {
 		}
 	}
@@ -152,6 +155,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = HRP_democracytruimphs  }
 		mutually_exclusive = { focus = HRP_forthepeople  }
+		mutually_exclusive = { focus = HRP_emptypapermarkedballot  } 
+		mutually_exclusive = { focus = HRP_the_rose_blossoms  } 
+
 	}
 
 	#Empty Paper, Marked Ballot
@@ -165,7 +171,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = HRP_democracytruimphs  }
-		mutually_exclusive = { focus = HRP_forthepeople  } mutually_exclusive = { focus = HRP_victoryforliberty  }
+		mutually_exclusive = { focus = HRP_forthepeople  } 
+		mutually_exclusive = { focus = HRP_victoryforliberty  }
+		mutually_exclusive = { focus = HRP_the_rose_blossoms  } 
 	}
 
 	#The Rose Blossoms
@@ -179,7 +187,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = HRP_democracytruimphs  }
-		mutually_exclusive = { focus = HRP_forthepeople  } mutually_exclusive = { focus = HRP_victoryforliberty  } mutually_exclusive = { focus = HRP_emptypapermarkedballot  }
+		mutually_exclusive = { focus = HRP_forthepeople  } 
+		mutually_exclusive = { focus = HRP_victoryforliberty  }
+		 mutually_exclusive = { focus = HRP_emptypapermarkedballot  }
 	}
 
 	#Business Grants
@@ -232,6 +242,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = HRP_referendum_for_a_monarchy  }
+		mutually_exclusive = { focus = HRP_fortherepublic  }
 		completion_reward = {
 		}
 	}
@@ -296,6 +307,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = HRP_create_the_grandeur_of_royalty  }
+		mutually_exclusive = { focus = HRP_the_nikarian_prince  }
 	}
 
 	#The Nikarian Prince
@@ -518,7 +530,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = HRP_increase_term_limits  } prerequisite = { focus = HRP_cementthehnppsseats  }
+		prerequisite = { focus = HRP_increase_term_limits  } 
+		prerequisite = { focus = HRP_cementthehnppsseats  }
+		mutually_exclusive = { focus = HRP_freedomforallforever }
 	}
 
 	#The Moderate Party
@@ -701,7 +715,10 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = HRP_elections_of_33_ve  }
-		mutually_exclusive = { }
+		mutually_exclusive = { focus = HRP_theprogressivesreturn }
+		mutually_exclusive = { focus = HRP_thecenterholds }
+		mutually_exclusive = { focus = HRP_socialjusticeforever  }
+		mutually_exclusive = { focus = HRP_the_popular_mandate }
 	}
 
 	#The Center Holds!
@@ -715,7 +732,10 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = HRP_elections_of_33_ve  }
-		mutually_exclusive = { } mutually_exclusive = { focus = HRP_libertarian_victory  }
+		mutually_exclusive = { focus = HRP_socialjusticeforever } 
+		mutually_exclusive = { focus = HRP_theprogressivesreturn }
+		mutually_exclusive = { focus = HRP_libertarian_victory  }
+		mutually_exclusive = { focus = HRP_the_popular_mandate } 
 	}
 
 	#Social Justice Forever!
@@ -729,7 +749,10 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = HRP_elections_of_33_ve  }
-		mutually_exclusive = { } mutually_exclusive = { focus = HRP_libertarian_victory  } mutually_exclusive = { focus = HRP_thecenterholds  }
+		mutually_exclusive = { focus = HRP_theprogressivesreturn } 
+		mutually_exclusive = { focus = HRP_libertarian_victory  }
+		mutually_exclusive = { focus = HRP_thecenterholds  }
+		mutually_exclusive = { focus = HRP_the_popular_mandate } 
 	}
 
 	#The Progressives Return!
@@ -743,7 +766,10 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = HRP_elections_of_33_ve  }
-		mutually_exclusive = { } mutually_exclusive = { focus = HRP_libertarian_victory  } mutually_exclusive = { focus = HRP_thecenterholds  } mutually_exclusive = { focus = HRP_socialjusticeforever  }
+		mutually_exclusive = { focus = HRP_the_popular_mandate } 
+		mutually_exclusive = { focus = HRP_libertarian_victory  } 
+		mutually_exclusive = { focus = HRP_thecenterholds  } 
+		mutually_exclusive = { focus = HRP_socialjusticeforever  }
 	}
 
 	#Protect Civil Liberties
@@ -783,7 +809,10 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = HRP_elections_of_33_ve  focus = HRP_cementthehnppsseats  }
-		mutually_exclusive = { focus = HRP_libertarian_victory  } mutually_exclusive = { focus = HRP_thecenterholds  } mutually_exclusive = { focus = HRP_socialjusticeforever  } mutually_exclusive = { focus = HRP_theprogressivesreturn  }
+		mutually_exclusive = { focus = HRP_libertarian_victory  } 
+		mutually_exclusive = { focus = HRP_thecenterholds  } 
+		mutually_exclusive = { focus = HRP_socialjusticeforever  } 
+		mutually_exclusive = { focus = HRP_theprogressivesreturn  }
 	}
 
 	#The Executive Guards
@@ -900,7 +929,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = HRP_introduce_hereditary_titles  } prerequisite = { focus = HRP_overtures_to_the_strong  }
+		prerequisite = { focus = HRP_introduce_hereditary_titles  } 
+		prerequisite = { focus = HRP_overtures_to_the_strong  }
 	}
 
 	#Wages Based on Labor
@@ -913,7 +943,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
-		prerequisite = { focus = HRP_overtures_to_the_strong  } prerequisite = { focus = HRP_exports_from_the_small_businesses  }
+		prerequisite = { focus = HRP_overtures_to_the_strong  } 
+		prerequisite = { focus = HRP_exports_from_the_small_businesses  }
 	}
 
 	#The Moderates of Harpia
@@ -926,7 +957,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = HRP_exports_from_the_small_businesses  } prerequisite = { focus = HRP_make_common_sense_changes  }
+		prerequisite = { focus = HRP_exports_from_the_small_businesses  } 
+		prerequisite = { focus = HRP_make_common_sense_changes  }
 	}
 
 	#Liberalism Prevails
@@ -939,7 +971,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_TFV_AUTONOMY
 		}
-		prerequisite = { focus = HRP_make_common_sense_changes  } prerequisite = { focus = HRP_expand_voter_rights  }
+		prerequisite = { focus = HRP_make_common_sense_changes  } 
+		prerequisite = { focus = HRP_expand_voter_rights  }
 	}
 
 	#The Status Quo's Deathblow
@@ -952,7 +985,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
-		prerequisite = { focus = HRP_expand_voter_rights  } prerequisite = { focus = HRP_build_bridges_with_the_makerists  }
+		prerequisite = { focus = HRP_expand_voter_rights  } 
+		prerequisite = { focus = HRP_build_bridges_with_the_makerists  }
 	}
 
 	#Freedom, For All, Forever
@@ -980,6 +1014,8 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = HRP_a_change_in_course  }
+		mutually_exclusive = { focus = HRP_faelsreturn  }
+		mutually_exclusive = { focus = HRP_thatsenoughofthat  }
 	}
 
 	#Fael's Return
@@ -994,6 +1030,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = HRP_a_change_in_course  }
 		mutually_exclusive = { focus = HRP_memories_of_montroig  }
+		mutually_exclusive = { focus = HRP_thatsenoughofthat  }
 	}
 
 	#Chairman de La Vadivai
@@ -1201,7 +1238,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
 		}
-		prerequisite = { focus = HRP_annex_keltom  } prerequisite = { focus = HRP_destroy_nikaria  }
+		prerequisite = { focus = HRP_annex_keltom  } 
+		prerequisite = { focus = HRP_destroy_nikaria  }
+		mutually_exclusive = { focus = HRP_theharpianubermensch  }
 	}
 
 	#The Harpian Übermensch
@@ -1214,7 +1253,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
 		}
-		prerequisite = { focus = HRP_annex_keltom  } prerequisite = { focus = HRP_destroy_nikaria  }
+		prerequisite = { focus = HRP_annex_keltom  } 
+		prerequisite = { focus = HRP_destroy_nikaria  }
 		mutually_exclusive = { focus = HRP_a_new_red_mountain  }
 	}
 
@@ -1399,7 +1439,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = HRP_automate_cactus_production_and_smelting  } prerequisite = { focus = HRP_finish_the_outer_walls  }
+		prerequisite = { focus = HRP_automate_cactus_production_and_smelting  } 
+		prerequisite = { focus = HRP_finish_the_outer_walls  }
 	}
 
 	#Allow Unionization
@@ -1412,7 +1453,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = HRP_automate_cactus_production_and_smelting  } prerequisite = { focus = HRP_finish_the_outer_walls  }
+		prerequisite = { focus = HRP_automate_cactus_production_and_smelting  } 
+		prerequisite = { focus = HRP_finish_the_outer_walls  }
 	}
 
 	#Improve Ease of Access
@@ -1452,6 +1494,7 @@ focus_tree = {
 			FOCUS_FILTER_STABILITY
 		}
 		prerequisite = { focus = HRP_parliamentary_overhaul  }
+		mutually_exclusive = { focus = HRP_construct_an_imposing_wall  }
 	}
 
 	#Construct an Imposing Wall
@@ -1478,7 +1521,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = HRP_put_the_smart_fellas_to_work  } prerequisite = { focus = HRP_allow_unionization  }
+		prerequisite = { focus = HRP_put_the_smart_fellas_to_work  } 
+		prerequisite = { focus = HRP_allow_unionization  }
 	}
 
 	#Residential Subsidies
@@ -1505,6 +1549,7 @@ focus_tree = {
 			FOCUS_FILTER_MANPOWER
 		}
 		prerequisite = { focus = HRP_construct_civilian_shipyards  }
+		mutually_exclusive = { focus = HRP_lend_dock_builders_to_the_cities  }
 	}
 
 	#Lend Dock Builders to the Cities
@@ -1583,7 +1628,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = HRP_put_the_smart_fellas_to_work  } prerequisite = { focus = HRP_diversify_our_industry  }
+		prerequisite = { focus = HRP_put_the_smart_fellas_to_work  } 
+		prerequisite = { focus = HRP_diversify_our_industry  }
+		mutually_exclusive = { focus = HRP_goods_for_harpia_alone  }
 	}
 
 	#Goods For Harpia Alone
@@ -1596,7 +1643,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = HRP_allow_unionization  } prerequisite = { focus = HRP_diversify_our_industry  }
+		prerequisite = { focus = HRP_allow_unionization  } 
+		prerequisite = { focus = HRP_diversify_our_industry  }
 		mutually_exclusive = { focus = HRP_seek_new_markets  }
 	}
 
@@ -1727,7 +1775,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = HRP_a_city_among_the_stars  } prerequisite = { focus = HRP_add_new_prussia_to_the_city  }
+		prerequisite = { focus = HRP_a_city_among_the_stars  } 
+		prerequisite = { focus = HRP_add_new_prussia_to_the_city  }
 	}
 
 	#Build a Church For Rachieism
@@ -1753,7 +1802,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = HRP_set_up_the_neo_baldia_town_council  } prerequisite = { focus = HRP_build_a_church_for_rachieism  }
+		prerequisite = { focus = HRP_set_up_the_neo_baldia_town_council  } 
+		prerequisite = { focus = HRP_build_a_church_for_rachieism  }
 	}
 
 	#Pass the Army Overhaul Bill
@@ -1779,6 +1829,7 @@ focus_tree = {
 			FOCUS_FILTER_STABILITY
 		}
 		prerequisite = { focus = HRP_pass_the_army_overhaul_bill  }
+		mutually_exclusive = { focus = HRP_give_the_militia_to_the_cities  }
 	}
 
 	#Give the Militia to the Cities
@@ -1948,7 +1999,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = HRP_create_a_naval_doctrine  } prerequisite = { focus = HRP_standardize_naval_weaponry  }
+		prerequisite = { focus = HRP_create_a_naval_doctrine  } 
+		prerequisite = { focus = HRP_standardize_naval_weaponry  }
 	}
 
 	#Train up the Sailors
@@ -1961,7 +2013,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
-		prerequisite = { focus = HRP_create_a_naval_doctrine  } prerequisite = { focus = HRP_standardize_naval_weaponry  }
+		prerequisite = { focus = HRP_create_a_naval_doctrine  } 
+		prerequisite = { focus = HRP_standardize_naval_weaponry  }
 	}
 
 	#The Noncombat Roles
@@ -2039,7 +2092,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
-		prerequisite = { focus = HRP_formalize_the_rank_structure  } prerequisite = { focus = HRP_rachiecitysgreatestcreation  }
+		prerequisite = { focus = HRP_formalize_the_rank_structure  } 
+		prerequisite = { focus = HRP_rachiecitysgreatestcreation  }
 	}
 
 	#Let the Hawks Fly
@@ -2052,7 +2106,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
-		prerequisite = { focus = HRP_formalize_the_rank_structure  } prerequisite = { focus = HRP_the_harpian_highship_fleet  }
+		prerequisite = { focus = HRP_formalize_the_rank_structure  } 
+		prerequisite = { focus = HRP_the_harpian_highship_fleet  }
 	}
 
 	#Focus on Small Ships
@@ -2065,7 +2120,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = HRP_build_a_flagship  } prerequisite = { focus = HRP_train_up_the_sailors  }
+		prerequisite = { focus = HRP_build_a_flagship  } 
+		prerequisite = { focus = HRP_train_up_the_sailors  }
+		mutually_exclusive = { focus = HRP_a_grand_navy  }
 	}
 
 	#A Grand Navy
@@ -2078,7 +2135,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = HRP_build_a_flagship  } prerequisite = { focus = HRP_train_up_the_sailors  }
+		prerequisite = { focus = HRP_build_a_flagship  } 
+		prerequisite = { focus = HRP_train_up_the_sailors  }
 		mutually_exclusive = { focus = HRP_focus_on_small_ships  }
 	}
 
@@ -2092,7 +2150,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
-		prerequisite = { focus = HRP_improve_fuel_efficiency  } prerequisite = { focus = HRP_multirole_fighters  }
+		prerequisite = { focus = HRP_improve_fuel_efficiency  } 
+		prerequisite = { focus = HRP_multirole_fighters  }
 	}
 
 	#The Right Arm of Democracy
@@ -2119,7 +2178,8 @@ focus_tree = {
 			FOCUS_FILTER_MANPOWER
 		}
 		prerequisite = { focus = HRP_the_right_arm_of_democracy  }
-		mutually_exclusive = { focus = HRP_ride_upon_steel_horses  } mutually_exclusive = { focus = HRP_plan_for_everything  }
+		mutually_exclusive = { focus = HRP_ride_upon_steel_horses  } 
+		mutually_exclusive = { focus = HRP_plan_for_everything  }
 	}
 
 	#Pirates of the 1st Century
@@ -2159,6 +2219,8 @@ focus_tree = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 		prerequisite = { focus = HRP_the_right_arm_of_democracy  }
+		mutually_exclusive = { focus = HRP_plan_for_everything  }
+		mutually_exclusive = { focus = HRP_just_blow_them_up  } 
 	}
 
 	#Plan for Everything
@@ -2172,6 +2234,8 @@ focus_tree = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 		prerequisite = { focus = HRP_the_right_arm_of_democracy  }
+		mutually_exclusive = { focus = HRP_ride_upon_steel_horses  } 
+		mutually_exclusive = { focus = HRP_just_blow_them_up  } 
 	}
 
 	#Flying Cities of Annihilation
@@ -2263,6 +2327,7 @@ focus_tree = {
 			FOCUS_FILTER_MANPOWER
 		}
 		prerequisite = { focus = HRP_flying_cities_of_annihilation  }
+		mutually_exclusive = { focus = HRP_ground_support_with_zippys  }
 	}
 
 	#Ground Support With Zippys
@@ -2354,6 +2419,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = HRP_establish_a_concrete_foreign_policy  }
+		mutually_exclusive = { focus = HRP_theformationoftherozakkorandefensepact  }
 	}
 
 	#The Formation of the Rozakko'ran Defense Pact.
@@ -2435,7 +2501,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = HRP_destroy_the_minor_states  } prerequisite = { focus = HRP_demand_nikarian_subjugation  }
+		prerequisite = { focus = HRP_destroy_the_minor_states  } 
+		prerequisite = { focus = HRP_demand_nikarian_subjugation  }
 	}
 
 	#Consolidate the North
@@ -2474,7 +2541,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
-		prerequisite = { focus = HRP_obliterate_wadiwaya  } prerequisite = { focus = HRP_suldex_delenda_est  }
+		prerequisite = { focus = HRP_obliterate_wadiwaya  } 
+		prerequisite = { focus = HRP_suldex_delenda_est  }
 	}
 
 	#Suldex Delenda Est
@@ -2526,7 +2594,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
-		prerequisite = { focus = HRP_secure_the_food_supply  } prerequisite = { focus = HRP_our_friends_in_suldex  }
+		prerequisite = { focus = HRP_secure_the_food_supply  } 
+		prerequisite = { focus = HRP_our_friends_in_suldex  }
 	}
 
 	#Save a Seat for Lunis
@@ -2604,7 +2673,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
-		prerequisite = { focus = HRP_save_a_seat_for_lunis  } prerequisite = { focus = HRP_bury_the_wadiwayan_hatchet  }
+		prerequisite = { focus = HRP_save_a_seat_for_lunis  } 
+		prerequisite = { focus = HRP_bury_the_wadiwayan_hatchet  }
 	}
 
 	#The United States of Rozakko'ra
@@ -2617,7 +2687,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
-		prerequisite = { focus = HRP_purchase_foreign_enclaves  }
+		prerequisite = { focus = HRP_invite_chimera_to_the_pact  }
+		mutually_exclusive = { focus = HRP_theunitedstatesofrozakkora  }
 		completion_reward = {
 			#Every member of the 'Rozakko'ran Defense Pact' faction is asked to unite with Harpia into the new state 'The United States of Rozakko'ra'.
 		}
@@ -2663,7 +2734,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = HRP_thetwincitiesnewandimproved  } prerequisite = { focus = HRP_secondary_cities_given_purpose  }
+		prerequisite = { focus = HRP_thetwincitiesnewandimproved  } 
+		prerequisite = { focus = HRP_secondary_cities_given_purpose  }
 	}
 
 	#The Big Stick Solution
@@ -2676,7 +2748,11 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
-		prerequisite = { focus = HRP_harpia_rules_the_waves  } prerequisite = { focus = HRP_the_hundred_thousand_boots_of_democracy  } prerequisite = { focus = HRP_the_practical_air_corps  focus = HRP_an_areal_navy  } prerequisite = { focus = HRP_harpia_rules_the_waves  } prerequisite = { focus = HRP_the_hundred_thousand_boots_of_democracy  }
+		prerequisite = { focus = HRP_harpia_rules_the_waves  } 
+		prerequisite = { focus = HRP_the_hundred_thousand_boots_of_democracy  } 
+		prerequisite = { focus = HRP_the_practical_air_corps  focus = HRP_an_areal_navy  } 
+		prerequisite = { focus = HRP_harpia_rules_the_waves  } 
+		prerequisite = { focus = HRP_the_hundred_thousand_boots_of_democracy  }
 		completion_reward = {
 			#Gain National Spirit "The Big Stick Solution"
 			#Army/Navy/Air Force XP +50
@@ -2744,7 +2820,10 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = HRP_form_the_national_bank  } prerequisite = { focus = HRP_everybodycalmdown  } prerequisite = { focus = HRP_sell_the_food_reserves  }
+		prerequisite = { focus = HRP_form_the_national_bank  } 
+		prerequisite = { focus = HRP_everybodycalmdown  } 
+		prerequisite = { focus = HRP_sell_the_food_reserves  }
+		mutually_exclusive = { focus = HRP_alittledebtneverhurtnobody  }
 	}
 
 	#A Little Debt Never Hurt Nobody!
@@ -2757,7 +2836,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = HRP_form_the_national_bank  } prerequisite = { focus = HRP_everybodycalmdown  } prerequisite = { focus = HRP_sell_the_food_reserves  }
+		prerequisite = { focus = HRP_form_the_national_bank  } 
+		prerequisite = { focus = HRP_everybodycalmdown  } 
+		prerequisite = { focus = HRP_sell_the_food_reserves  }
 		mutually_exclusive = { focus = HRP_privatization_measures  }
 	}
 
@@ -2786,6 +2867,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = HRP_a_change_in_course  }
 		mutually_exclusive = { focus = HRP_faelsreturn  }
+		mutually_exclusive = { focus = HRP_memories_of_montroig  }
 	}
 
 	#Secure the Countryside
@@ -2863,7 +2945,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = HRP_interservice_elections  }
+		prerequisite = { focus = HRP_interservice_elections  }  
+		mutually_exclusive = { focus = HRP_the_leadership_of_protector_klepto  }
 	}
 
 	#Allow State-Level Elections
@@ -2878,6 +2961,8 @@ focus_tree = {
 		}
 		prerequisite = { focus = HRP_the_leadership_of_protector_voslo  }
 	}
+
+		
 
 	#Judiciary of the Republican Guard.
 	focus = {
@@ -2994,7 +3079,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
-		prerequisite = { focus = HRP_implement_the_blood_tax  } prerequisite = { focus = HRP_a_rising_hawk  }
+		prerequisite = { focus = HRP_implement_the_blood_tax  }
+		prerequisite = { focus = HRP_a_rising_hawk  }
 	}
 
 	#Give Me Your Poor
@@ -3007,7 +3093,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = HRP_standardize_taxes  } prerequisite = { focus = HRP_national_roadworks  } prerequisite = { focus = HRP_bring_keltom_into_the_republic  }
+		prerequisite = { focus = HRP_standardize_taxes  } 
+		prerequisite = { focus = HRP_national_roadworks  } 
+		prerequisite = { focus = HRP_bring_keltom_into_the_republic  }
 	}
 
 	#Formalize Parliamentary Seats
@@ -3046,7 +3134,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = HRP_the_harpian_economic_miracle  } prerequisite = { focus = HRP_a_modern_industrial_nation  }
+		prerequisite = { focus = HRP_the_harpian_economic_miracle  } 
+		prerequisite = { focus = HRP_a_modern_industrial_nation  }
 	}
 
 	#Heavy Industry Investments
@@ -3124,7 +3213,11 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = HRP_heavy_industry_investments  } prerequisite = { focus = HRP_steel_investments  } prerequisite = { focus = HRP_drydock_investments  } prerequisite = { focus = HRP_synthetic_oil_and_rubber_investments  } prerequisite = { focus = HRP_welfare_investments  }
+		prerequisite = { focus = HRP_heavy_industry_investments  } 
+		prerequisite = { focus = HRP_steel_investments  } 
+		prerequisite = { focus = HRP_drydock_investments  } 
+		prerequisite = { focus = HRP_synthetic_oil_and_rubber_investments  } 
+		prerequisite = { focus = HRP_welfare_investments  }
 	}
 
 	#A Civil War!
