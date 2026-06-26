@@ -293,5 +293,22 @@ ideas = {
                 consumer_goods_factor = -0.1
             }  
         }
+        #Heavy Resource Spending
+        EJZ_heavy_resource_spending = {
+            picture = GFX_idea_heavy_resource_spending
+            allowed = {
+                tag = EJZ
+            }
+            available = {
+            }
+            cancel = {
+            }
+            modifier = {
+                production_lack_of_resource_penalty_factor = -0.25
+                consumer_goods_factor = 0.20
+                production_factory_efficiency_gain_factor = 0.05
+                production_factory_max_efficiency_factor = 0.05
+            }
+        }
     }
 }

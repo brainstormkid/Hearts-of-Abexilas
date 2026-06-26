@@ -392,6 +392,10 @@ spriteTypes = {
 		name = "GFX_modifiers_tanuki"
 		texturefile = "gfx/interface/ideas/tanuki.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_heavy_resource_spending"
+		textureFile = "gfx/interface/ideas/idea_heavy_resource_spending.dds"
+	}
 	#Marisvalor
 	SpriteType = { 
 		name = "GFX_idea_marisvalor_eins"
