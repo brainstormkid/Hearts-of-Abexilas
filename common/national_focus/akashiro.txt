@@ -207,6 +207,7 @@ focus_tree = {
 		}
 	}
 		prerequisite = { focus = AKS_kickstart_the_industry focus = AKS_advice_from_the_scholars  }
+		mutually_exclusive = { focus = AKS_land_for_returning_veterans }
 	}
 	#Land For Returning Veterans
 	focus = {
@@ -311,6 +312,7 @@ focus_tree = {
 			add_stability = -0.05
 		}
 		prerequisite = { focus = AKS_efficient_ministries  }
+		mutually_exclusive = { focus = AKS_restrict_the_morimoto_clan  }
 	}
 	#Restrict The Morimoto Clan
 	focus = {
