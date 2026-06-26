@@ -2304,6 +2304,7 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = caerus_aviation_efforts  }
+		mutually_exclusive = { focus = caerus_fighter_effort  }
 		completion_reward = {
 			add_tech_bonus = {
 				name = bomber_bonus
@@ -2553,6 +2554,7 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = caerus_modernize_the_equipment  }
+		mutually_exclusive = { focus = caerus_support_divisions  }
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
