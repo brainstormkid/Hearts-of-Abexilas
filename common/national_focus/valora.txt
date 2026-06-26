@@ -570,7 +570,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = VAL_minority_protection_act  } prerequisite = { focus = VAL_new_constitution  }
+		prerequisite = { focus = VAL_minority_protection_act  } 
+		prerequisite = { focus = VAL_new_constitution  }
 	}
 
 	#Gexopolis buildup
@@ -672,20 +673,6 @@ focus_tree = {
 		}
 	}
 
-	#a
-	focus = {
-		id = VAL_a
-		icon = GFX_goal_unknown
-		x = 16
-		y = 3
-		cost = 7
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = VAL_millitary_buildup  focus = VAL_solve_the_housing_issue  }
-		mutually_exclusive = { focus = VAL_millitary_focus  }
-	}
-
 	#Civilian focus
 	focus = {
 		id = VAL_civilian_focus
@@ -696,7 +683,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = VAL_millitary_buildup  } prerequisite = { focus = VAL_solve_the_housing_issue  }
+		prerequisite = { focus = VAL_millitary_buildup  } 
+		prerequisite = { focus = VAL_solve_the_housing_issue  }
 		mutually_exclusive = { focus = VAL_millitary_focus  }
 		completion_reward = {
 			711 = {
@@ -961,6 +949,7 @@ focus_tree = {
 			FOCUS_FILTER_MANPOWER
 		}
 		prerequisite = { focus = VAL_question_of_the_army  }
+		mutually_exclusive = { focus = VAL_b_tier_army  }
 	}
 
 	#B tier army
@@ -1114,7 +1103,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = VAL_custom_weapon_experiments  } prerequisite = { focus = VAL_raiding_focus  }
+		prerequisite = { focus = VAL_custom_weapon_experiments  } 
+		prerequisite = { focus = VAL_raiding_focus  }
 	}
 
 	#An army worthy of Valora
@@ -1166,7 +1156,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
-		prerequisite = { focus = VAL_more_guns  } prerequisite = { focus = VAL_a_raider_defence_force  }
+		prerequisite = { focus = VAL_more_guns  } 
+		prerequisite = { focus = VAL_a_raider_defence_force  }
 	}
 
 	#Make Gexico ours
@@ -1205,7 +1196,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = VAL_end_xrayven_squabbling  } prerequisite = { focus = VAL_make_gexico_ours  }
+		prerequisite = { focus = VAL_end_xrayven_squabbling  } 
+		prerequisite = { focus = VAL_make_gexico_ours  }
 	}
 
 	#Iristoya united
@@ -1363,7 +1355,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = VAL_create_a_proper_tax_system  } prerequisite = { focus = VAL_make_mertekai_a_metropolis  }
+		prerequisite = { focus = VAL_create_a_proper_tax_system  } 
+		prerequisite = { focus = VAL_make_mertekai_a_metropolis  }
 	}
 
 	#Education
@@ -1428,7 +1421,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = VAL_establish_inquisitorial_units  } prerequisite = { focus = VAL_culture_of_xenophobia  }
+		prerequisite = { focus = VAL_establish_inquisitorial_units  } 
+		prerequisite = { focus = VAL_culture_of_xenophobia  }
 	}
 
 	#The new order
@@ -1441,7 +1435,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = VAL_loyality_to_the_emperor  } prerequisite = { focus = VAL_economyworthyofvalora  }
+		prerequisite = { focus = VAL_loyality_to_the_emperor  } 
+		prerequisite = { focus = VAL_economyworthyofvalora  }
 	}
 
 	#New constitution
@@ -1631,7 +1626,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = VAL_uphold_democratic_values  } prerequisite = { focus = VAL_start_economic_reforms  }
+		prerequisite = { focus = VAL_uphold_democratic_values  } 
+		prerequisite = { focus = VAL_start_economic_reforms  }
 	}
 
 	#Join the ASI
@@ -1696,7 +1692,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
-		prerequisite = { focus = VAL_unite_the_party  } prerequisite = { focus = VAL_finalize_the_economic_reforms  }
+		prerequisite = { focus = VAL_unite_the_party  } 
+		prerequisite = { focus = VAL_finalize_the_economic_reforms  }
 	}
 
 	#March into Gexico
