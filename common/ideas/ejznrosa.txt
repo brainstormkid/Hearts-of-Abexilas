@@ -295,7 +295,7 @@ ideas = {
         }
         #Heavy Resource Spending
         EJZ_heavy_resource_spending = {
-            picture = GFX_idea_heavy_resource_spending
+            picture = GFX_idea_resource_spending
             allowed = {
                 tag = EJZ
             }
