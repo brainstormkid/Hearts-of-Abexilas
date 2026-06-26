@@ -22,7 +22,8 @@ focus_tree = {
 		add_political_power = 25
 		add_stability = -0.2
 		}
-		mutually_exclusive = { focus = PAR_remembrance  } mutually_exclusive = { focus = PAR_rebuild_the_kingdom  }
+		mutually_exclusive = { focus = PAR_remembrance  } 
+		mutually_exclusive = { focus = PAR_rebuild_the_kingdom  }
 	}
 
 	#Rebuild The Army
@@ -80,7 +81,8 @@ focus_tree = {
 		add_manpower = 1200
 		add_popularity = { ideology = imperialist popularity = .85 }
 		}
-		prerequisite = { focus = PAR_eyes_to_the_north  } prerequisite = { focus = PAR_make_a_deal_with_gertek  }
+		prerequisite = { focus = PAR_eyes_to_the_north  } 
+		prerequisite = { focus = PAR_make_a_deal_with_gertek  }
 	}
 
 	#Reclaim The Kingdom
@@ -105,7 +107,8 @@ focus_tree = {
             election_frequency = 0
           }
 		}
-		prerequisite = { focus = PAR_revitalize_cactus_farms  } prerequisite = { focus = PAR_expand_obsidian_forges  }
+		prerequisite = { focus = PAR_revitalize_cactus_farms  } 
+		prerequisite = { focus = PAR_expand_obsidian_forges  }
 	}
 
 	#The Industrial Revolution
@@ -156,7 +159,8 @@ focus_tree = {
 			}
 		}
 		prerequisite = { focus = PAR_the_industrial_revolution  }
-		mutually_exclusive = { focus = PAR_re_think_odds_twords_the_south  } mutually_exclusive = { focus = PAR_re_think_odds_twords_the_north  }
+		mutually_exclusive = { focus = PAR_re_think_odds_twords_the_south  } 
+		mutually_exclusive = { focus = PAR_re_think_odds_twords_the_north  }
 	}
 
 	#Re Think Odds Twords The South
@@ -177,7 +181,8 @@ focus_tree = {
 		537 = { transfer_state_to = QYN }
         }
 		prerequisite = { focus = PAR_the_industrial_revolution  }
-		mutually_exclusive = { focus = PAR_establishtheparaisounion  } mutually_exclusive = { focus = PAR_re_think_odds_twords_the_north  }
+		mutually_exclusive = { focus = PAR_establishtheparaisounion  } 
+		mutually_exclusive = { focus = PAR_re_think_odds_twords_the_north  }
 	}
 
 	#Re Think Odds Twords The North
@@ -198,7 +203,8 @@ focus_tree = {
 		537 = { transfer_state_to = ZAM }
         }
 		prerequisite = { focus = PAR_the_industrial_revolution  }
-		mutually_exclusive = { focus = PAR_re_think_odds_twords_the_south  } mutually_exclusive = { focus = PAR_establishtheparaisounion  }
+		mutually_exclusive = { focus = PAR_re_think_odds_twords_the_south  } 
+		mutually_exclusive = { focus = PAR_establishtheparaisounion  }
 	}
 
 	#Fulfil The Destiny
@@ -230,7 +236,12 @@ focus_tree = {
 		add_manpower = 15000
 		add_political_power = 100
 		}
-		prerequisite = { focus = PAR_military_construction  } prerequisite = { focus = PAR_civilian_construction  } prerequisite = { focus = PAR_division_speed  } prerequisite = { focus = PAR_troop_training  } prerequisite = { focus = PAR_stability  } prerequisite = { focus = PAR_war_support  }
+		prerequisite = { focus = PAR_military_construction  } 
+		prerequisite = { focus = PAR_civilian_construction  } 
+		prerequisite = { focus = PAR_division_speed  } 
+		prerequisite = { focus = PAR_troop_training  } 
+		prerequisite = { focus = PAR_stability  } 
+		prerequisite = { focus = PAR_war_support  }
 	}
 
 	#Create an Empire
@@ -508,7 +519,8 @@ focus_tree = {
 			}
 			add_political_power = 50
 		}
-		prerequisite = { focus = PAR_take_to_the_skyes  } prerequisite = { focus = PAR_take_to_the_sea  }
+		prerequisite = { focus = PAR_take_to_the_skyes  } 
+		prerequisite = { focus = PAR_take_to_the_sea  }
 	}
 
 	#Drag In Partybro
@@ -736,7 +748,8 @@ focus_tree = {
 				    add_political_power = -50
 					add_stability = 0.2
 		}
-		prerequisite = { focus = PAR_build_a_military  } prerequisite = { focus = PAR_build_a_airforce  }
+		prerequisite = { focus = PAR_build_a_military  } 
+		prerequisite = { focus = PAR_build_a_airforce  }
 	}
 
 	#Kira's Part
@@ -835,7 +848,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = PAR_new_outlooks  }
-		mutually_exclusive = { focus = PAR_investing_in_our_farmers  } mutually_exclusive = { focus = PAR_investing_in_our_workers  }
+		mutually_exclusive = { focus = PAR_investing_in_our_workers  }
 	}
 
 	#Investing in our Workers
@@ -849,6 +862,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = PAR_new_outlooks  }
+		mutually_exclusive = { focus = PAR_investing_in_our_farmers  } 
 	}
 
 	#Alejandro’s Part
@@ -1259,7 +1273,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = PAR_new_soldiers  } prerequisite = { focus = PAR_new_vehicles  }
+		prerequisite = { focus = PAR_new_soldiers  } 
+		prerequisite = { focus = PAR_new_vehicles  }
 	}
 
 	#Creation of the Navy
@@ -1285,7 +1300,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
-		prerequisite = { focus = PAR_cruiser_effort  } prerequisite = { focus = PAR_battleship_effort  }
+		prerequisite = { focus = PAR_cruiser_effort  } 
+		prerequisite = { focus = PAR_battleship_effort  }
 	}
 
 	#Submarine effort
@@ -1337,7 +1353,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
-		prerequisite = { focus = PAR_battleship_effort  } prerequisite = { focus = PAR_submarine_effort  }
+		prerequisite = { focus = PAR_battleship_effort  } 
+		prerequisite = { focus = PAR_submarine_effort  }
 	}
 
 	#New Components
@@ -1350,7 +1367,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
-		prerequisite = { focus = PAR_destroyer_effort  } prerequisite = { focus = PAR_carrier_effort  }
+		prerequisite = { focus = PAR_destroyer_effort  } 
+		prerequisite = { focus = PAR_carrier_effort  }
 	}
 
 	#Beginning of a fleet
@@ -1467,7 +1485,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
-		prerequisite = { focus = PAR_light_focus  } prerequisite = { focus = PAR_medium_focus  } prerequisite = { focus = PAR_heavy_focus  }
+		prerequisite = { focus = PAR_light_focus  } 
+		prerequisite = { focus = PAR_medium_focus  } 
+		prerequisite = { focus = PAR_heavy_focus  }
 	}
 
 	#The Final Touches
@@ -1497,7 +1517,9 @@ focus_tree = {
 			add_political_power = 150
 			add_stability = 0.3
 		}
-		prerequisite = { focus = PAR_ready_the_guard  } prerequisite = { focus = PAR_ready_the_wings  } prerequisite = { focus = PAR_ready_the_sea  }
+		prerequisite = { focus = PAR_ready_the_guard  } 
+		prerequisite = { focus = PAR_ready_the_wings  } 
+		prerequisite = { focus = PAR_ready_the_sea  }
 	}
 
 	#Drown The Horde
@@ -1709,7 +1731,13 @@ focus_tree = {
 		add_political_power = 100
 		add_stability = 0.2
 		}
-		prerequisite = { focus = PAR_flame_the_harem  } prerequisite = { focus = PAR_death_of_a_princess  } prerequisite = { focus = PAR_start_of_an_era  } prerequisite = { focus = PAR_cross_the_barrier  } prerequisite = { focus = PAR_totheworldsend  } prerequisite = { focus = PAR_sell_them_out  } prerequisite = { focus = PAR_order_for_liberation  }
+		prerequisite = { focus = PAR_flame_the_harem  } 
+		prerequisite = { focus = PAR_death_of_a_princess  } 
+		prerequisite = { focus = PAR_start_of_an_era  } 
+		prerequisite = { focus = PAR_cross_the_barrier  } 
+		prerequisite = { focus = PAR_totheworldsend  } 
+		prerequisite = { focus = PAR_sell_them_out  } 
+		prerequisite = { focus = PAR_order_for_liberation  }
 	}
 
 	#Party Projects
@@ -1802,7 +1830,9 @@ focus_tree = {
 		    add_stability = 0.1
 			add_war_support = 0.1
         }
-		prerequisite = { focus = PAR_party_projects  } prerequisite = { focus = PAR_party_works  } prerequisite = { focus = PAR_campaign_to_new_comers  }
+		prerequisite = { focus = PAR_party_projects  } 
+		prerequisite = { focus = PAR_party_works  } 
+		prerequisite = { focus = PAR_campaign_to_new_comers  }
 	}
 
 	#Finish The City
@@ -1953,7 +1983,8 @@ focus_tree = {
 			}
 			add_research_slot = 1
 		}
-		prerequisite = { focus = PAR_diplomacytradefreemarkets  } prerequisite = { focus = PAR_arsenal_of_partying  }
+		prerequisite = { focus = PAR_diplomacytradefreemarkets  } 
+		prerequisite = { focus = PAR_arsenal_of_partying  }
 	}
 
 	#Expand Cactus Farms
@@ -2065,7 +2096,8 @@ focus_tree = {
 			add_stability = -0.2
 			add_manpower = 25000
 		}
-		prerequisite = { focus = PAR_reap_the_xp  } prerequisite = { focus = PAR_unique_and_exotic  }
+		prerequisite = { focus = PAR_reap_the_xp  } 
+		prerequisite = { focus = PAR_unique_and_exotic  }
 	}
 
 	#Defend Free Knowledge
@@ -2141,7 +2173,8 @@ focus_tree = {
 			add_political_power = 100
 			add_stability = 0.05
 		}
-		mutually_exclusive = { focus = PAR_rebuild_the_kingdom  } mutually_exclusive = { focus = PAR_the_fall_of_the_king  }
+		mutually_exclusive = { focus = PAR_rebuild_the_kingdom  } 
+		mutually_exclusive = { focus = PAR_the_fall_of_the_king  }
 	}
 
 	#Rebuild The Kingdom
@@ -2158,7 +2191,8 @@ focus_tree = {
 			add_political_power = 50
 			add_stability = -0.2
 		}
-		mutually_exclusive = { focus = PAR_remembrance  } mutually_exclusive = { focus = PAR_the_fall_of_the_king  }
+		mutually_exclusive = { focus = PAR_remembrance  } 
+		mutually_exclusive = { focus = PAR_the_fall_of_the_king  }
 	}
 
 	#Party Time
@@ -2304,7 +2338,8 @@ focus_tree = {
 			add_manpower = 35000
 			add_political_power = 100
 			}
-		prerequisite = { focus = PAR_ready_the_reserves  } prerequisite = { focus = PAR_theoldfortmyhome  }
+		prerequisite = { focus = PAR_ready_the_reserves  } 
+		prerequisite = { focus = PAR_theoldfortmyhome  }
 	}
 
 	#Dont let up
