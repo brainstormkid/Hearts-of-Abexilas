@@ -6,409 +6,366 @@
 ### Generic Advisors Try ###
 
 every_possible_country = {
-	IF = {
-		limit = {
-			NOT = {
+	limit = {
+		NOT = {
+			OR = { ### All Excluded Countries, dont forget to also add on all other subsections
 				tag = EJZ
+				tag = LEY
+				tag = AKS
+				tag = ARC
 			}
 		}
-		generate_character = {
-		    token_base = accelerationist_free_thinker # token will be TAG_token_base
-		    advisor = {
-			slot = political_advisor
-			traits = { accelerationist_free_thinker }
-			available = {
-				IF = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
+	}
+	generate_character = {
+		token_base = accelerationist_free_thinker # token will be TAG_token_base
+		advisor = {
+		slot = political_advisor
+		traits = { accelerationist_free_thinker }
+		available = {
+			NOT = {
+				has_autonomy_state = autonomy_supervised_state
+				has_completed_focus = generic_focus_collectivist_ethos
+				has_completed_focus = caerus_collectivist_ethos
 			}
-			ai_will_do = {
-				factor = 1
+		}
+		visible = {
+			OR = {
+				has_completed_focus = generic_focus_enter_the_international_scene
+				has_completed_focus = caerus_enter_the_international_scene
 			}
-		    }
-	    portraits = { 
+		}
+			
+		ai_will_do = {
+			factor = 1
+		}
+		}
+		portraits = { 
 			army = { small = GFX_idea_generic_communist_revolutionary }
 		}
-	    }
 	}
-}
-
-
-every_possible_country = {
-	IF = {
-		limit = {
+	generate_character = {
+	token_base = absolutist_supporter # token will be TAG_token_base
+	advisor = {
+		slot = political_advisor
+		traits = { absolutist_supporter }
+		available = {
 			NOT = {
-				tag = EJZ 
+				has_autonomy_state = autonomy_supervised_state
+				has_completed_focus = generic_focus_collectivist_ethos
+				has_completed_focus = caerus_collectivist_ethos
+				has_completed_focus = generic_focus_egalitarian_prevail
+				has_completed_focus = caerus_egalitarian_prevail
 			}
 		}
-		generate_character = {
-		token_base = absolutist_supporter # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { absolutist_supporter }
-			available = {
-				IF = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
+		visible = {
+			OR = {
+				has_completed_focus = generic_focus_enter_the_international_scene
+				has_completed_focus = caerus_enter_the_international_scene
 			}
-			ai_will_do = {
-				factor = 1
-			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
 		}
 		portraits = { 
 			army = { small = GFX_idea_generic_democratic_reformer }
 		}
 	}
-	}
-}
-
-every_possible_country = {
-	IF = {
-		limit = {
+	generate_character = {
+	token_base = loyal_monarchist # token will be TAG_token_base
+	advisor = {
+		slot = political_advisor
+		traits = { loyal_monarchist }
+		available = {
 			NOT = {
-				tag = EJZ
+				has_autonomy_state = autonomy_supervised_state
+				has_completed_focus = generic_focus_collectivist_ethos
+				has_completed_focus = caerus_collectivist_ethos
+				has_completed_focus = generic_focus_egalitarian_prevail
+				has_completed_focus = caerus_egalitarian_prevail
 			}
 		}
-		generate_character = {
-		token_base = loyal_monarchist # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { loyal_monarchist }
-			available = {
-				IF = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
+		visible = {
+			OR = {
+				has_completed_focus = generic_focus_enter_the_international_scene
+				has_completed_focus = caerus_enter_the_international_scene
 			}
-			ai_will_do = {
-				factor = 1
-			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
 		}
 		portraits = { 
 			army = { small = GFX_idea_generic_democratic_reformer }
 		}
 	}
-	}
-}
-
-every_possible_country = {
-	IF = {
-		limit = {
+	generate_character = {
+	token_base = theocratist_priest # token will be TAG_token_base
+	advisor = {
+		slot = political_advisor
+		traits = { theocratist_priest }
+		available = {
 			NOT = {
-				tag = EJZ
+				has_autonomy_state = autonomy_supervised_state
+				has_completed_focus = generic_focus_collectivist_ethos
+				has_completed_focus = caerus_collectivist_ethos
+				has_completed_focus = generic_focus_egalitarian_prevail
+				has_completed_focus = caerus_egalitarian_prevail
 			}
 		}
-		generate_character = {
-		token_base = theocratist_priest # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { theocratist_priest }
-			available = {
-				IF = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 1
+		visible = {
+			OR = {
+				has_completed_focus = generic_focus_enter_the_international_scene
+				has_completed_focus = caerus_enter_the_international_scene
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 		portraits = { 
 			army = { small = GFX_idea_generic_democratic_reformer }
 		}
 	}
-	}
-}
-
-every_possible_country = {
-	IF = {
-		limit = {
+	generate_character = {
+	token_base = anarchist_monger # token will be TAG_token_base
+	advisor = {
+		slot = political_advisor
+		traits = { anarchist_monger }
+		available = {
 			NOT = {
-				tag = EJZ
+				has_autonomy_state = autonomy_supervised_state
 			}
 		}
-		generate_character = {
-		token_base = anarchist_monger # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { anarchist_monger }
-			available = {
-				IF = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 1
+		visible = {
+			OR = {
+				has_completed_focus = generic_focus_socialist_reforms
+				has_completed_focus = caerus_socialist_reforms
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 		portraits = { 
 			army = { small = GFX_idea_generic_communist_revolutionary }
 		}
 	}
-	}
-}
-
-every_possible_country = {
-	IF = {
-		limit = {
+	generate_character = {
+	token_base = xeroist_revolutionary # token will be TAG_token_base
+	advisor = {
+		slot = political_advisor
+		traits = { xeroist_revolutionary }
+		available = {
 			NOT = {
-				tag = EJZ
+				has_autonomy_state = autonomy_supervised_state
 			}
 		}
-		generate_character = {
-		token_base = xeroist_revolutionary # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { xeroist_revolutionary }
-			available = {
-				IF = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 1
+		visible = {
+			OR = {
+				has_completed_focus = generic_focus_socialist_reforms
+				has_completed_focus = caerus_socialist_reforms
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 		portraits = { 
 			army = { small = GFX_idea_generic_communist_revolutionary }
 		}
 	}
-	}
-}
-
-every_possible_country = {
-	IF = {
-		limit = {
+	generate_character = {
+	token_base = free_revisionist_thinker # token will be TAG_token_base
+	advisor = {
+		slot = political_advisor
+		traits = { free_revisionist_thinker }
+		available = {
 			NOT = {
-				tag = EJZ
+				has_autonomy_state = autonomy_supervised_state
 			}
 		}
-		generate_character = {
-		token_base = free_revisionist_thinker # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { free_revisionist_thinker }
-			available = {
-				IF = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 1
+		visible = {
+			OR = {
+				has_completed_focus = generic_focus_socialist_reforms
+				has_completed_focus = caerus_socialist_reforms
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 		portraits = { 
 			army = { small = GFX_idea_generic_communist_revolutionary }
 		}
 	}
-	}
-}
-
-every_possible_country = {
-	IF = {
-		limit = {
+	generate_character = {
+	token_base = imperial_supporter # token will be TAG_token_base
+	advisor = {
+		slot = political_advisor
+		traits = { imperial_supporter }
+		available = {
 			NOT = {
-				tag = EJZ
+				has_autonomy_state = autonomy_supervised_state
 			}
 		}
-		generate_character = {
-		token_base = imperial_supporter # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { imperial_supporter }
-			available = {
-				IF = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
+		visible = {
+			OR = {
+				has_completed_focus = generic_focus_nationalist_rising
+				has_completed_focus = caerus_nationalist_rising
 			}
-			ai_will_do = {
-				factor = 1
-			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
 		}
 		portraits = { 
 			army = { small = GFX_idea_generic_fascist_demagogue }
 		}
 	}
-	}
-}
-
-every_possible_country = {
-	IF = {
-		limit = {
+	generate_character = {
+	token_base = radical_nationalist_demagogue # token will be TAG_token_base
+	advisor = {
+		slot = political_advisor
+		traits = { radical_nationalist_demagogue }
+		available = {
 			NOT = {
-				tag = EJZ
+				has_autonomy_state = autonomy_supervised_state
 			}
 		}
-		generate_character = {
-		token_base = radical_nationalist_demagogue # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { radical_nationalist_demagogue }
-			available = {
-				IF = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 1
+		visible = {
+			OR = {
+				has_completed_focus = generic_focus_nationalist_rising
+				has_completed_focus = caerus_nationalist_rising
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 		portraits = { 
 			army = { small = GFX_idea_generic_fascist_demagogue }
 		}
 	}
-	}
-}
-
-every_possible_country = {
-	IF = {
-		limit = {
+	generate_character = {
+	token_base = liberatarianist_reformer # token will be TAG_token_base
+	advisor = {
+		slot = political_advisor
+		traits = { liberatarianist_reformer }
+		available = {
 			NOT = {
-				tag = EJZ		
+				has_autonomy_state = autonomy_supervised_state
 			}
 		}
-		generate_character = {
-		token_base = liberatarianist_reformer # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { liberatarianist_reformer }
-			available = {
-				IF = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 1
+		visible = {
+			OR = {
+				has_completed_focus = generic_focus_egalitarian_prevail
+				has_completed_focus = caerus_egalitarian_prevail
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 		portraits = { 
 			army = { small = GFX_idea_generic_democratic_reformer }
 		}
 	}
-	}
-}
-
-every_possible_country = {
-	IF = {
-		limit = {
+	generate_character = {
+	token_base = central_thinker # token will be TAG_token_base
+	advisor = {
+		slot = political_advisor
+		traits = { central_thinker }
+		available = {
 			NOT = {
-				tag = EJZ
+				has_autonomy_state = autonomy_supervised_state
 			}
 		}
-		generate_character = {
-		token_base = central_thinker # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { central_thinker }
-			available = {
-				IF = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 1
+		visible = {
+			OR = {
+				has_completed_focus = generic_focus_egalitarian_prevail
+				has_completed_focus = caerus_egalitarian_prevail
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 		portraits = { 
 			army = { small = GFX_idea_generic_democratic_reformer }
 		}
 	}
-	}
-}
-
-every_possible_country = {
-	IF = {
-		limit = {
+	generate_character = {
+	token_base = liberal_minded # token will be TAG_token_base
+	advisor = {
+		slot = political_advisor
+		traits = { liberal_minded }
+		available = {
 			NOT = {
-				tag = EJZ
+				has_autonomy_state = autonomy_supervised_state
 			}
 		}
-		generate_character = {
-		token_base = liberal_minded # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { liberal_minded }
-			available = {
-				IF = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 1
+		visible = {
+			OR = {
+				has_completed_focus = generic_focus_egalitarian_prevail
+				has_completed_focus = caerus_egalitarian_prevail
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 		portraits = { 
 			army = { small = GFX_idea_generic_democratic_reformer }
 		}
 	}
-	}
-}
-
-every_possible_country = {
-	IF = {
-		limit = {
+	generate_character = {
+	token_base = progressivist_reviver # token will be TAG_token_base
+	advisor = {
+		slot = political_advisor
+		traits = { progressivist_reviver }
+		available = {
 			NOT = {
-				tag = EJZ
+				has_autonomy_state = autonomy_supervised_state
 			}
 		}
-		generate_character = {
-		token_base = progressivist_reviver # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { progressivist_reviver }
-			available = {
-				IF = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 1
+		visible = {
+			OR = {
+				has_completed_focus = generic_focus_egalitarian_prevail
+				has_completed_focus = caerus_egalitarian_prevail
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 		portraits = { 
 			army = { small = GFX_idea_generic_democratic_reformer }
 		}
 	}
-	}
-}
-
-every_possible_country = {
-	IF = {
-		limit = {
+	generate_character = {
+	token_base = consveratist_statist # token will be TAG_token_base
+	advisor = {
+		slot = political_advisor
+		traits = { consveratist_statist }
+		available = {
 			NOT = {
-				tag = EJZ
+				has_autonomy_state = autonomy_supervised_state
 			}
 		}
-		generate_character = {
-		token_base = consveratist_statist # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { consveratist_statist }
-			available = {
-				IF = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 1
+		visible = {
+			OR = {
+				has_completed_focus = generic_focus_egalitarian_prevail
+				has_completed_focus = caerus_egalitarian_prevail
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 		portraits = { 
 			army = { small = GFX_idea_generic_democratic_reformer }
 		}
-	}
 	}
 }
 
@@ -419,40 +376,47 @@ every_possible_country = {
 			has_allowed_idea_with_traits = { idea = head_of_intelligence characters = yes }
 		}
 		is_dynamic_country = no
-	}
-	IF = {
-		limit = {
-			NOT = {
+		NOT = {
+			OR = { ### All Excluded Countries, dont forget to also add on all other subsections
 				tag = EJZ
+				tag = LEY
+				tag = AKS
+				tag = ARC
 			}
 		}
-		generate_character = {
-		token_base = generic_head_of_intelligence # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { head_of_intelligence }
-			available = {
-				has_intelligence_agency = yes
-			}
-			ai_will_do = {
-				factor = 1
-				modifier = {
-					has_intelligence_agency = no
-					factor = 0
-				}
+	}
+	generate_character = {
+	token_base = generic_head_of_intelligence # token will be TAG_token_base
+	advisor = {
+		slot = political_advisor
+		traits = { head_of_intelligence }
+		available = {
+			has_intelligence_agency = yes
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_intelligence_agency = no
+				factor = 0
 			}
 		}
+	}
 		portraits = { 
 			army = { small = GFX_idea_generic_head_of_intelligence }
 		}
-	}
 	}
 }
 
 # Military advisors
 every_possible_country = {
 	limit = {
-		OR = { original_tag = MOR original_tag = KOR original_tag = SER  original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL original_tag = ALT original_tag = KAL original_tag = KAR original_tag = CRI original_tag = TAT original_tag = CIN original_tag = DAG original_tag = BYA original_tag = CKK original_tag = FER original_tag = YAK original_tag = VLA original_tag = KKP original_tag = YAM original_tag = TAY original_tag = OVO original_tag = NEN original_tag = KOM original_tag = ABK original_tag = KBK original_tag = NOA original_tag = VGE original_tag = BSK original_tag = KHI original_tag = BUK original_tag = UDM original_tag = CHU original_tag = MEL original_tag = HAR original_tag = TIG original_tag = AFA original_tag = BEG original_tag = GBA original_tag = SID original_tag = ORO original_tag = QEM original_tag = RIF original_tag = AOI original_tag = SMI original_tag = RAP original_tag = QUE original_tag = RIG original_tag = YUC original_tag = GAR original_tag = INC original_tag = MIS original_tag = MAY original_tag = INU original_tag = CHR original_tag = ITZ original_tag = NAH original_tag = IAS original_tag = GYA original_tag = CAY original_tag = SUR original_tag = BAH original_tag = WLA
+		NOT = {
+			OR = { ### All Excluded Countries, dont forget to also add on all other subsections
+				tag = EJZ
+				tag = LEY
+				tag = AKS
+				tag = ARC
+			}
 		}
 	}
 	# generic political advisors
@@ -461,6 +425,14 @@ every_possible_country = {
 		advisor = {
 			slot = political_advisor
 			traits = { captain_of_industry }
+			available = {
+				IF = {	
+					OR = {
+						has_completed_focus = generic_focus_industrialization_efforts
+						has_completed_focus = caerus_industrialization_efforts
+					}
+				}
+			}
 		}
 		portraits = { 
 			army = { small = GFX_idea_generic_captain_of_industry }
@@ -471,6 +443,14 @@ every_possible_country = {
 		advisor = {
 			slot = political_advisor
 			traits = { fortification_engineer }
+			available = {
+				IF = {
+					OR = {				
+						has_completed_focus = generic_focus_defense_of_the_country
+						has_completed_focus = caerus_defense_of_the_country
+					}
+				}
+			}
 		}
 		portraits = { 
 			army = { small = GFX_idea_generic_fortification_engineer }
@@ -481,6 +461,14 @@ every_possible_country = {
 		advisor = {
 			slot = political_advisor
 			traits = { war_industrialist }
+			available = {
+				IF = {	
+					OR = {
+						has_completed_focus = generic_focus_armament_efforts_i
+						has_completed_focus = caerus_armament_efforts_i
+					}
+				}
+			}
 		}
 		portraits = { 
 			army = { small = GFX_idea_generic_war_industrialist }
@@ -493,6 +481,14 @@ every_possible_country = {
 			slot = army_chief
 			traits = { army_chief_offensive_1 }
 			cost = 50
+			available = {
+				IF = {	
+					OR = {
+						has_completed_focus = generic_focus_state_of_the_countrys_army
+						has_completed_focus = caerus_state_of_the_countrys_army
+					}
+				}
+			}
 		}
 		portraits = { 
 			army = { small = GFX_idea_generic_army_chief_off }
@@ -504,6 +500,14 @@ every_possible_country = {
 			slot = army_chief
 			traits = { army_chief_defensive_1 }
 			cost = 50
+			available = {
+				IF = {	
+					OR = {
+						has_completed_focus = generic_focus_state_of_the_countrys_army
+						has_completed_focus = caerus_state_of_the_countrys_army
+					}
+				}
+			}
 		}
 		portraits = { 
 			army = { small = GFX_idea_generic_army_chief_def }
@@ -516,6 +520,14 @@ every_possible_country = {
 			slot = navy_chief
 			traits = { navy_chief_decisive_battle_2 }
 			cost = 100
+			available = {
+				IF = {	
+					OR = {
+						has_completed_focus = generic_focus_naval_expansion
+						has_completed_focus = caerus_naval_expansion
+					}
+				}
+			}
 		}
 		portraits = { 
 			army = { small = GFX_idea_generic_navy_chief_decisive_bat }
@@ -527,6 +539,12 @@ every_possible_country = {
 			slot = navy_chief
 			traits = { navy_anti_submarine_2 }
 			cost = 100
+			available = {
+				OR = {
+					has_completed_focus = generic_focus_naval_expansion
+					has_completed_focus = caerus_naval_expansion
+				}
+			}
 		}
 		portraits = { 
 			army = { small = GFX_idea_generic_navy_anti_submarine }
@@ -539,6 +557,14 @@ every_possible_country = {
 			slot = air_chief
 			traits = { air_close_air_support_2 }
 			cost = 100
+			available = {
+				IF = {	
+					OR = {
+						has_completed_focus = generic_focus_aviation_efforts
+						has_completed_focus = caerus_aviation_efforts
+					}
+				}
+			}
 		}
 		portraits = { 
 			army = { small = GFX_idea_generic_air_close_air_sup }
@@ -550,6 +576,14 @@ every_possible_country = {
 			slot = air_chief
 			traits = { air_chief_all_weather_2 }
 			cost = 100
+			available = {
+				IF = {	
+					OR = {
+						has_completed_focus = generic_focus_aviation_efforts
+						has_completed_focus = caerus_aviation_efforts
+					}
+				}
+			}
 		}
 		portraits = { 
 			army = { small = GFX_idea_generic_air_chief_all_weather }
@@ -563,156 +597,16 @@ every_possible_country = {
 			traits = { army_artillery_1 }
 			ledger = army
 			cost = 50
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_army_art }
-		}
-	}
-	generate_character = {
-		token_base = generic_army_log # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { army_logistics_2 }
-			ledger = army
-			cost = 100
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_army_log }
-		}
-	}
-	generate_character = {
-		token_base = generic_navy_fleet_log # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { navy_fleet_logistics_1 }
-			ledger = navy
-			cost = 50
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_navy_fleet_log }
-		}
-	}
-	generate_character = {
-		token_base = generic_air_air_combat_trainer # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { air_air_combat_training_2 }
-			ledger = air
-			cost = 100
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_air_air_combat_trainer }
-		}
-	}
-	# generic theorists
-	generate_character = {
-		token_base = generic_military_theorist # token will be TAG_token_base
-		advisor = {
-			slot = theorist
-			traits = { military_theorist }
-			ledger = army
-			cost = 50
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_military_theorist }
-		}
-	}
-	generate_character = {
-		token_base = generic_naval_theorist # token will be TAG_token_base
-		advisor = {
-			slot = theorist
-			traits = { naval_theorist }
-			ledger = navy
-			cost = 50
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_naval_theorist }
-		}
-	}
-	generate_character = {
-		token_base = generic_air_warfare_theorist # token will be TAG_token_base
-		advisor = {
-			slot = theorist
-			traits = { air_warfare_theorist }
-			ledger = air
-			cost = 50
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_air_warfare_theorist }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		original_tag = MAN
-	}
-	generate_character = {
-		token_base = generic_captain_of_industry # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { captain_of_industry }
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_captain_of_industry }
-		}
-	}
-	generate_character = {
-		token_base = generic_fortification_engineer # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { fortification_engineer }
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_fortification_engineer }
-		}
-	}
-	generate_character = {
-		token_base = generic_war_industrialist # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { war_industrialist }
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_war_industrialist }
-		}
-	}
-	generate_character = { #Apparently MAN needs this to get an Illusive Gentleman with the new character sytem
-		token_base = generic_head_of_intelligence # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { head_of_intelligence }
 			available = {
-				has_intelligence_agency = yes
-			}
-			ai_will_do = {
-				factor = 1
-				modifier = {
-					has_intelligence_agency = no
-					factor = 0
+				IF = {	
+					OR = {
+						has_completed_focus = generic_focus_artillary_overhaul
+						has_completed_focus = caerus_artillary_overhaul
+					}
 				}
 			}
 		}
 		portraits = { 
-			army = { small = GFX_idea_generic_head_of_intelligence }
-		}
-	}
-}
-
-every_possible_country = { #Iceland is a special case
-	limit = { 
-		original_tag = ICE 
-		has_dlc = "Arms Against Tyranny"
-	}
-	generate_character = {
-		token_base = generic_army_art # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { army_artillery_1 }
-			ledger = army
-			cost = 50
-		}
-		portraits = { 
 			army = { small = GFX_idea_generic_army_art }
 		}
 	}
@@ -723,6 +617,14 @@ every_possible_country = { #Iceland is a special case
 			traits = { army_logistics_2 }
 			ledger = army
 			cost = 100
+			available = {
+				IF = {	
+					OR = {
+						has_completed_focus = generic_focus_doctrine_effort
+						has_completed_focus = caerus_doctrine_effort
+					}
+				}
+			}
 		}
 		portraits = { 
 			army = { small = GFX_idea_generic_army_log }
@@ -735,6 +637,14 @@ every_possible_country = { #Iceland is a special case
 			traits = { navy_fleet_logistics_1 }
 			ledger = navy
 			cost = 50
+			available = {
+				IF = {	
+					OR = {
+						has_completed_focus = generic_focus_naval_expansion
+						has_completed_focus = caerus_naval_expansion
+					}
+				}
+			}
 		}
 		portraits = { 
 			army = { small = GFX_idea_generic_navy_fleet_log }
@@ -747,6 +657,14 @@ every_possible_country = { #Iceland is a special case
 			traits = { air_air_combat_training_2 }
 			ledger = air
 			cost = 100
+			available = {
+				IF = {	
+					OR = {
+						has_completed_focus = generic_focus_aviation_efforts
+						has_completed_focus = caerus_aviation_efforts
+					}
+				}
+			}
 		}
 		portraits = { 
 			army = { small = GFX_idea_generic_air_air_combat_trainer }
@@ -760,6 +678,14 @@ every_possible_country = { #Iceland is a special case
 			traits = { military_theorist }
 			ledger = army
 			cost = 50
+			available = {
+				IF = {	
+					OR = {
+						has_completed_focus = generic_focus_doctrine_expertise
+						has_completed_focus = caerus_doctrine_expertise
+					 }				
+				}
+			}
 		}
 		portraits = { 
 			army = { small = GFX_idea_generic_military_theorist }
@@ -772,6 +698,14 @@ every_possible_country = { #Iceland is a special case
 			traits = { naval_theorist }
 			ledger = navy
 			cost = 50
+			available = {
+				IF = {	
+					OR = {
+						has_completed_focus = generic_focus_high_sea_training_improvement
+						has_completed_focus = caerus_high_sea_training_improvement
+					}
+				}
+			}
 		}
 		portraits = { 
 			army = { small = GFX_idea_generic_naval_theorist }
@@ -784,6 +718,14 @@ every_possible_country = { #Iceland is a special case
 			traits = { air_warfare_theorist }
 			ledger = air
 			cost = 50
+			available = {
+				IF = {	
+					OR = {
+						has_completed_focus = generic_focus_metropolitan_airfields
+						has_completed_focus = caerus_metropolitan_airfields
+					}
+				}
+			}
 		}
 		portraits = { 
 			army = { small = GFX_idea_generic_air_warfare_theorist }
