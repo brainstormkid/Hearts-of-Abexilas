@@ -515,7 +515,7 @@ focus_tree = {
 			focus = EJZ_production_ministry
 		}
 		completion_reward = {
-			add_political_power = 5
+			remove_ideas = EJZ_heavy_resource_spending
 		}
 	}
 	#Kickstart Fuel Production

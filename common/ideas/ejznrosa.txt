@@ -1,4 +1,29 @@
 ideas = {
+    industrial_concern = {
+        EJZ_production_ministry = {
+            picture = production_ministry
+            allowed = {
+                tag = EJZ
+            }
+            research_bonus = {
+                industry = 0.15
+            }
+            traits = {
+                industrial_concern
+            }
+        }
+        EJZ_construction_ministry = {
+            picture = construction_ministry
+            allowed = {
+                tag = EJZ
+            }
+            research_bonus = {
+                construction = 0.15
+            }
+            traits = {
+            }
+        }
+    }
     country = {
         #Two Dukes System
         EJZ_two_dukes_system = {
