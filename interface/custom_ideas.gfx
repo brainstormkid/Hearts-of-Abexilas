@@ -396,6 +396,14 @@ spriteTypes = {
 		name = "GFX_idea_resource_spending"
 		textureFile = "gfx/interface/ideas/idea_resource_spending.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_abolished_two_dukes_system"
+		textureFile = "gfx/interface/ideas/idea_abolished_two_dukes.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_continue_the_status_quo"
+		textureFile = "gfx/interface/ideas/idea_continue_the_status_quo.dds"
+	}
 	#Marisvalor
 	SpriteType = { 
 		name = "GFX_idea_marisvalor_eins"

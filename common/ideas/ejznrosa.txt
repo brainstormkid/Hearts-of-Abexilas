@@ -117,7 +117,7 @@ ideas = {
         } 
         #Abolished the Two Dukes System
         EJZ_abolished_the_two_dukes_system = {
-            picture = AUS_habsburg_monarchy_restored
+            picture = abolished_two_dukes_system
             allowed = {
                 tag = EJZ
             }
@@ -134,7 +134,7 @@ ideas = {
         
         #Continue the Status Quo
         EJZ_continue_the_status_quo = {
-            picture = generic_monarchist_uprising
+            picture = continue_the_status_quo
             allowed = {
                 tag = EJZ
             }
@@ -295,7 +295,7 @@ ideas = {
         }
         #Heavy Resource Spending
         EJZ_heavy_resource_spending = {
-            picture = GFX_idea_resource_spending
+            picture = resource_spending
             allowed = {
                 tag = EJZ
             }
@@ -308,6 +308,8 @@ ideas = {
                 consumer_goods_factor = 0.20
                 production_factory_efficiency_gain_factor = 0.05
                 production_factory_max_efficiency_factor = 0.05
+                industrial_capacity_factory = -0.05
+                industrial_capacity_dockyard = -0.05
             }
         }
     }
