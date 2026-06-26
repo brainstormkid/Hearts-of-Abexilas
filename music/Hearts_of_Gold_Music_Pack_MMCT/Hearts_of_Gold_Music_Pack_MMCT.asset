@@ -8,28 +8,54 @@
 music = {
     name = "maintheme"
     file = "hoi4mainthemeallies.ogg"
-    volume = 2.00
+    volume = 0.85
 }
 
 music = {
-    name = "AnthemoftheUnifiedStructuralistIntuitionistPartyofAzeraanUSIPA"
+    name = "general_peace_1"
     file = "AnthemoftheUnifiedStructuralistIntuitionistPartyofAzeraanUSIPA.ogg"
-    volume = 5.00
+    volume = 1.50
 }
 
 music = {
-    name = "AshkavariAnthem"
-    file = "AshkavariAnthem.ogg"
-    volume = 1.00
+    name = "general_peace_2"
+    file = "Songofthedandilion.ogg"
+    volume = 1.50
 }
 
 music = {
-    name = "BardoniaAnthem"
-    file = "BardoniaAnthem.ogg"
-    volume = 1.00
+    name = "general_peace_3"
+    file = "GoldenDawn.ogg"
+    volume = 1.50
 }
+
 music = {
-    name = "Piyajvaniyoedh_Pura"
+    name = "allies_war_1"
+    file = "Religious_song.ogg"
+    volume = 1.20
+}
+
+music = {
+    name = "general_war_1"
+    file = "Draconian_theme_3.ogg"
+    volume = 1.30
+}
+
+music = {
+    name = "general_war_2"
     file = "Piyajvaniyœdh-Pura-_1_.ogg"
     volume = 1.00
 }
+
+music = {
+    name = "comintern_war_1"
+    file = "AshkavariAnthem.ogg"
+    volume = 0.45
+}
+
+music = {
+    name = "axis_war_1"
+    file = "BardoniaAnthem.ogg"
+    volume = 0.70
+}
+

@@ -11,68 +11,119 @@
 
 #Consult the music modding page on the HOI4 wiki for more info: https://hoi4.paradoxwikis.com/Music_modding.
 
-music_station = "Hearts_of_Gold_Music_Pack_MMCT"
+music_station = "Hearts_of_Gold_Music_Pack_MMCT_TITLE"
 music = {
     song = "maintheme"
     chance = {
 		modifier = { 
 			factor = 0.5	
 		}
-		modifier = { 
-			factor = 0 
-			has_war = yes 
-		}
     }
 }
 
 music = {
-    song = "AnthemoftheUnifiedStructuralistIntuitionistPartyofAzeraanUSIPA"
+    song = "general_peace_1"
     chance = {
-      modifier = { factor = 0.5 }
-    }
-}
-
-music = {
-    song = "AshkavariAnthem"
-    chance = {
-		modifier = {
-			factor = 2
-			original_tag = ASH
-		}
 		modifier = { 
-			factor = 0 
+			factor = 1
+
 			has_war = no
 		}
-		modifier = {
+    }
+}
+
+music = {
+    song = "general_peace_2"
+    chance = {
+		modifier = { 
 			factor = 1
+
+			has_war = no
+		}
+    }
+}
+
+music = {
+    song = "general_peace_3"
+    chance = {
+		modifier = { 
+			factor = 1
+
+			has_war = no
+		}
+    }
+}
+
+music = {
+    song = "general_war_1"
+    chance = {
+		modifier = { 
+			factor = 1
+
 			has_war = yes
 		}
     }
 }
 
 music = {
-    song = "BardoniaAnthem"
+    song = "general_war_2"
     chance = {
-		modifier = {
+		modifier = { 
+			factor = 0
+		}
+    }
+}
+
+music = {
+    song = "allies_war_1"
+    chance = {
+		modifier = { 
 			factor = 2
+
+			has_war = yes
 			OR = {
-				original_tag = BAR
-				original_tag = COM	
+				has_government = libertarianist
+				has_government = centrist
+				has_government = liberalist
+				has_government = progressivist
+				has_government = conservatist
 			}
 		}
+    }
+}
+
+music = {
+    song = "comintern_war_1"
+    chance = {
 		modifier = { 
-			factor = 0 
-			has_war = no
-		}
-		modifier = {
-			factor = 1
+			factor = 2
+
 			has_war = yes
+			OR = {
+				has_government = revisionist
+				has_government = radical_socialist
+				has_government = xeroist
+				has_government = anarchist
+				has_government = accelerationist
+			}
 		}
     }
 }
+
 music = {
-    song = "Piyajvaniyoedh_Pura"
+    song = "axis_war_1"
     chance = {
-      modifier = { factor = 0.5 }
+		modifier = { 
+			factor = 2
+
+			has_war = yes
+			OR = {
+				has_government = theocratist
+				has_government = monarchist
+				has_government = imperialist
+				has_government = radical_nationalist
+				has_government = accelerationist
+			}
+		}
     }
 }
