@@ -31,7 +31,7 @@ music = {
 
 music = {
     name = "axis_peace_1"
-    file = "Long_Live_the_Duchy_of_Leyenbourg.ogg
+    file = "Long_Live_the_Duchy_of_Leyenbourg.ogg"
     volume = 0.80
 }
 
