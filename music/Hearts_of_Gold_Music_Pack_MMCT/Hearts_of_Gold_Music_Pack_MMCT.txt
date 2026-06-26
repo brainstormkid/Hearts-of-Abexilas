@@ -11,7 +11,7 @@
 
 #Consult the music modding page on the HOI4 wiki for more info: https://hoi4.paradoxwikis.com/Music_modding.
 
-music_station = "Hearts_of_Gold_Music_Pack_MMCT_TITLE"
+music_station = "base_music"
 music = {
     song = "maintheme"
     chance = {
