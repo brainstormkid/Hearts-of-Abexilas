@@ -55,6 +55,24 @@ music = {
 }
 
 music = {
+    song = "axis_peace_1"
+    chance = {
+		modifier = { 
+			factor = 1
+
+			has_war = no
+			OR = {
+				has_government = theocratist
+				has_government = monarchist
+				has_government = imperialist
+				has_government = radical_nationalist
+				has_government = accelerationist
+			}
+		}
+    }
+}
+
+music = {
     song = "general_war_1"
     chance = {
 		modifier = { 
