@@ -220,7 +220,7 @@ ideas = {
 
         #Government Arms Contract
         EJZ_government_arms_contract = {
-            picture = HUN_treaty_of_triannon
+            picture = government_arms_contract
             allowed = {
                 tag = EJZ
             }
@@ -310,7 +310,7 @@ ideas = {
         } 
         #Manage National Capital  
         EJZ_manage_capital = {
-            picture = ARG_political_corruption_modifier
+            picture = manage_national_capital
             allowed = {
                 tag = EJZ
             }
