@@ -5,6 +5,9 @@ ideas = {
             allowed = {
                 tag = EJZ
             }
+            available = {
+                has_completed_focus = EJZ_production_ministry
+            }
             research_bonus = {
                 industry = 0.15
             }
@@ -12,15 +15,19 @@ ideas = {
                 industrial_concern
             }
         }
-        EJZ_construction_ministry = {
+        EJZ_construction_ministry_industry = {
             picture = construction_ministry
             allowed = {
                 tag = EJZ
+            }
+            available = {
+                has_completed_focus = EJZ_construction_ministry
             }
             research_bonus = {
                 construction = 0.15
             }
             traits = {
+                construction_company
             }
         }
     }
@@ -230,7 +237,7 @@ ideas = {
 
         #Extensive City Planning
         EJZ_extensive_city_planning = {
-            picture = gre_schachtplan
+            picture = city_planning
             allowed = {
                 tag = EJZ
             }
@@ -333,8 +340,8 @@ ideas = {
                 consumer_goods_factor = 0.20
                 production_factory_efficiency_gain_factor = 0.05
                 production_factory_max_efficiency_factor = 0.05
-                industrial_capacity_factory = -0.05
-                industrial_capacity_dockyard = -0.05
+                local_resources_factor = -0.15
+                resource_trade_cost_bonus_per_factory = 2
             }
         }
     }
