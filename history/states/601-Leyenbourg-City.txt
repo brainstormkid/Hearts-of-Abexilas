@@ -11,6 +11,7 @@ state={
 	    rubber = 2
 	    tungsten = 1
 	    chromium = 2
+		coal = 3
 	}
 	buildings_max_level_factor=1.000
         manpower=2100000
@@ -27,6 +28,7 @@ state={
 			}
 		}
 		add_core_of = LEY
-		victory_points = { 1577 50 }
+		victory_points = { 1577 50 } # Leyenbourg-City
 	}
+	local_supplies = 5.0 
 }

@@ -11,6 +11,7 @@ state={
 	    rubber = 2
 	    tungsten = 1
 	    chromium = 2
+		coal = 3
 	}
 	buildings_max_level_factor=1.000
         manpower=1200000
@@ -23,6 +24,7 @@ state={
 			arms_factory = 1
 		}
 		add_core_of = LEY
-		victory_points = { 966 20 }
+		victory_points = { 966 20 } # Nova-Ryken
 	}
+	local_supplies = 3.0 
 }
