@@ -37,6 +37,10 @@ add_ideas = {
 	provisional_government
 	father_of_railways
 	imperial_capital
+	betrayal_of_the_past
+	shattered_pride
+	broken_army_spirit
+	nova_ryken_autonomy
 }
 
 set_stability = 0.19
