@@ -84,7 +84,9 @@ spriteTypes = {
 	name = "GFX_idea_Breakaway_state"
 	texturefile = "gfx/interface/ideas/Breakaway_state.dds"
 	}
-	
+
+##### Leyenbourg
+
 	SpriteType = {
 	name = "GFX_idea_provisional_government"
 	texturefile = "gfx/interface/ideas/idea_provisional_government.dds"
@@ -124,7 +126,43 @@ spriteTypes = {
 	name = "GFX_idea_herrschers_bestimmung"
 	texturefile = "gfx/interface/ideas/idea_hun_treaty_of_trianon.dds"
 	}
+	
+	SpriteType = {
+	name = "GFX_idea_betrayal_of_the_past"
+	texturefile = "gfx/interface/ideas/idea_betrayal_of_the_past.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_shattered_pride"
+	texturefile = "gfx/interface/ideas/idea_shattered_pride.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_broken_army_spirit"
+	texturefile = "gfx/interface/ideas/idea_broken_army_spirit.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_out_of_the_ashes"
+	texturefile = "gfx/interface/ideas/idea_out_of_the_ashes.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_from_rubble_to_gold"
+	texturefile = "gfx/interface/ideas/idea_from_rubble_to_gold.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_the_white_capital"
+	texturefile = "gfx/interface/ideas/idea_imperial_capital.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_nova_ryken_autonomy"
+	texturefile = "gfx/interface/ideas/idea_nova_ryken_autonomy.dds"
+	}
 
+######
 
 	SpriteType = {
 	name = "GFX_idea_high_immigration"
