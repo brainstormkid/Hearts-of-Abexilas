@@ -870,10 +870,10 @@ focus_tree = {
 		prerequisite = { focus = EJZ_defense_ministry  }
 		completion_reward = {
 			659 = {
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
-					level = 3
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -2456,6 +2456,86 @@ focus_tree = {
 			}
 			add_to_variable = {
 				EJZ_defense = 0.05
+			}
+		}
+	}
+	focus = {
+		id = EJZ_rally_around_the_duke
+		icon = GFX_focus_ger_return_of_the_kaiser
+		x = 8
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = {
+			focus = EJZ_the_senate
+		}
+		mutually_exclusive = {
+			focus = EJZ_a_new_course
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = monarchist
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = radical_nationalist
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = imperialist
+				popularity = 0.05
+			}
+		}
+	}
+	focus = {
+		id = EJZ_a_new_course
+		icon = GFX_focus_ARG_develop_the_electricity_sector
+		x = 22
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = {
+			focus = EJZ_the_senate
+		}
+		mutually_exclusive = {
+			focus = EJZ_rally_around_the_duke
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = theocratist
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = conservatist
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = liberalist
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = progressivist
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = centrist
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = libertarianist
+				popularity = 0.03
+			}
+			add_popularity = {
+				ideology = revisionist
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = radical_nationalist
+				popularity = 0.07
 			}
 		}
 	}

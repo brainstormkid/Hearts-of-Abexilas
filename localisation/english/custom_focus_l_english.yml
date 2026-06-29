@@ -1867,6 +1867,10 @@
  EJZ_intensify_army_training_desc:0 "WIP"
  EJZ_glory_of_tejwez:0 "Glory of Tejwez"
  EJZ_glory_of_tejwez_desc:0 "WIP"
+ EJZ_rally_around_the_duke:0 "Rally Around the Duke"
+ EJZ_rally_around_the_duke_desc:0 "WIP"
+ EJZ_a_new_course:0 "A New Course"
+ EJZ_a_new_course_desc:0 "WIP"
 
  #Varaxis
  VAR_the_gold_quotas:0 "Reintroduce the Gold Quota"
