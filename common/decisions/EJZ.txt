@@ -617,15 +617,64 @@ EJZ_greater_ejznrosa = {
 			527 = {
 				is_owned_by = EJZ
 			}
+			1423 = {
+				is_owned_by = EJZ
+			}
+			1424 = {
+				is_owned_by = EJZ
+			}
+			1421 = {
+				is_owned_by = EJZ
+			}
+			1422 = {
+				is_owned_by = EJZ
+			}
+			1419 = {
+				is_owned_by = EJZ
+			}
+			1420 = {
+				is_owned_by = EJZ
+			}
+			590 = {
+				is_owned_by = EJZ
+			}
 		}
 		remove_effect = {
 			527 = {
+				add_core_of = EJZ
+			}
+			1423 = {
+				add_core_of = EJZ
+			}
+			1424 = {
+				add_core_of = EJZ
+			}
+			1421 = {
+				add_core_of = EJZ
+			}
+			1422 = {
+				add_core_of = EJZ
+			}
+			1419 = {
+				add_core_of = EJZ
+			}
+			1420 = {
+				add_core_of = EJZ
+			}
+			590 = {
 				add_core_of = EJZ
 			}
 		}
 		highlight_states = {
 			highlight_state_targets = {
 				state = 527
+				state = 1423
+				state = 1424
+				state = 1421
+				state = 1422
+				state = 1419
+				state = 1420
+				state = 590
 			}
 			highlight_color_while_active = 3
 			highlight_color_before_active = 2
