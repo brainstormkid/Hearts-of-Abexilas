@@ -3,15 +3,13 @@ focus_tree = {
 	continuous_focus_position = { x = 100 y = 1200 } 
 	
 	country = {
-		factor = 1
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FLA
+		}
 	}
-	
-	default = yes
-	reset_on_civilwar = no
-
-	initial_show_position = {
-		focus = industrial_effort
-	}
+	default = no
 
 	#Aviation Efforts
 	focus = {
