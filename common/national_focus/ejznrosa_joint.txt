@@ -175,7 +175,13 @@ joint_focus = {
 		has_country_flag = EJZ_joint_focus_tree
 	}
 	completion_reward = {
-		add_political_power = 50
+		set_variable = {EJZ_joint_consumer_goods = -0.05 }
+		set_variable = {EJZ_joint_economy_cost = 0 }
+		set_variable = {EJZ_joint_trade_cost = 0 }
+		set_variable = {EJZ_joint_industrial_cost = 0 }
+		add_dynamic_modifier = {
+			modifier = EJZ_joint_economic_cooperation_idea
+		}
 	}
 }
 joint_focus = {

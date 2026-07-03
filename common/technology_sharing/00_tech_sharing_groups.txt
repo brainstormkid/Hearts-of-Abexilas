@@ -21,14 +21,11 @@ technology_sharing_group = {
 	name = ejznrosa_tech_share_group_name
 	desc = ejznrosa_tech_share_group_desc
 	picture = GFX_technology_sharing_default
-    
 	research_sharing_per_country_bonus = 0.1
 	is_faction_sharing = yes
-
     available = {
         has_country_flag = EJZ_joint_focus_tree
     }
-
 }
 
 ### BBA ###

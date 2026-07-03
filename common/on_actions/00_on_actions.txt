@@ -239,6 +239,24 @@ on_actions = {
 						}
 						add_ideas = EJZ_task_system
 					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_research_cooperation
+							}
+						}
+						add_to_tech_sharing_group = ejznrosa_tech_share
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_economic_cooperation
+							}
+						}
+						add_dynamic_modifier = {
+							modifier = EJZ_joint_economic_cooperation_idea
+						}
+					}
 				}
 			}
 			if = {
@@ -255,6 +273,24 @@ on_actions = {
 							}
 						}
 						add_ideas = EJZ_task_system
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_research_cooperation
+							}
+						}
+						add_to_tech_sharing_group = ejznrosa_tech_share
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_economic_cooperation
+							}
+						}
+						add_dynamic_modifier = {
+							modifier = EJZ_joint_economic_cooperation_idea
+						}
 					}
 				}
 			}
@@ -273,6 +309,24 @@ on_actions = {
 						}
 						add_ideas = EJZ_task_system
 					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_research_cooperation
+							}
+						}
+						add_to_tech_sharing_group = ejznrosa_tech_share
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_economic_cooperation
+							}
+						}
+						add_dynamic_modifier = {
+							modifier = EJZ_joint_economic_cooperation_idea
+						}
+					}
 				}
 			}
 			if = {
@@ -290,6 +344,24 @@ on_actions = {
 						}
 						add_ideas = EJZ_task_system
 					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_research_cooperation
+							}
+						}
+						add_to_tech_sharing_group = ejznrosa_tech_share
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_economic_cooperation
+							}
+						}
+						add_dynamic_modifier = {
+							modifier = EJZ_joint_economic_cooperation_idea
+						}
+					}
 				}
 			}
 			if = {
@@ -306,6 +378,24 @@ on_actions = {
 							}
 						}
 						add_ideas = EJZ_task_system
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_research_cooperation
+							}
+						}
+						add_to_tech_sharing_group = ejznrosa_tech_share
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_economic_cooperation
+							}
+						}
+						add_dynamic_modifier = {
+							modifier = EJZ_joint_economic_cooperation_idea
+						}
 					}
 				}
 			}
@@ -328,6 +418,24 @@ on_actions = {
 						}
 						add_ideas = EJZ_task_system
 					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_research_cooperation
+							}
+						}
+						add_to_tech_sharing_group = ejznrosa_tech_share
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_economic_cooperation
+							}
+						}
+						add_dynamic_modifier = {
+							modifier = EJZ_joint_economic_cooperation_idea
+						}
+					}
 				}
 			}
 			if = {
@@ -344,6 +452,24 @@ on_actions = {
 							}
 						}
 						add_ideas = EJZ_task_system
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_research_cooperation
+							}
+						}
+						add_to_tech_sharing_group = ejznrosa_tech_share
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_economic_cooperation
+							}
+						}
+						add_dynamic_modifier = {
+							modifier = EJZ_joint_economic_cooperation_idea
+						}
 					}
 				}
 			}
@@ -362,6 +488,24 @@ on_actions = {
 						}
 						add_ideas = EJZ_task_system
 					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_research_cooperation
+							}
+						}
+						add_to_tech_sharing_group = ejznrosa_tech_share
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_economic_cooperation
+							}
+						}
+						add_dynamic_modifier = {
+							modifier = EJZ_joint_economic_cooperation_idea
+						}
+					}
 				}
 			}
 			if = {
@@ -379,6 +523,24 @@ on_actions = {
 						}
 						add_ideas = EJZ_task_system
 					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_research_cooperation
+							}
+						}
+						add_to_tech_sharing_group = ejznrosa_tech_share
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_economic_cooperation
+							}
+						}
+						add_dynamic_modifier = {
+							modifier = EJZ_joint_economic_cooperation_idea
+						}
+					}
 				}
 			}
 			if = {
@@ -395,6 +557,24 @@ on_actions = {
 							}
 						}
 						add_ideas = EJZ_task_system
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_research_cooperation
+							}
+						}
+						add_to_tech_sharing_group = ejznrosa_tech_share
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_economic_cooperation
+							}
+						}
+						add_dynamic_modifier = {
+							modifier = EJZ_joint_economic_cooperation_idea
+						}
 					}
 				}
 			}

@@ -26,7 +26,7 @@
 #	can be added to countries, states, unit leaders or special projects
 #	will only updated daily, unless forced by force_update_dynamic_modifier effect
 EJZ_the_ejzermkejt_idea = {
-	icon = GFX_idea_ejznrosa_army
+	icon = ARG_economic_reactivation
 	enable = {
 		always = yes
 	}
@@ -46,6 +46,21 @@ EJZ_the_ejzermkejt_idea = {
 	army_speed_factor = EJZ_speed
 	equipment_capture_factor = EJZ_capture_equipment
 	production_speed_bunker_factor = EJZ_fort
+}
+EJZ_joint_economic_cooperation_idea = {
+	icon = GFX_idea_ejznrosa_economy
+	enable = {
+		always = yes
+	}
+	remove_trigger = {
+		NOT = {
+			has_country_flag = EJZ_joint_focus_tree
+		}
+	}
+	consumer_goods_factor = EJZ_joint_consumer_goods
+	economy_cost_factor = EJZ_joint_economy_cost
+	trade_laws_cost_factor = EJZ_joint_trade_cost
+	production_speed_industrial_complex_factor = EJZ_joint_industrial_cost
 }
 tanuki = {
 	
