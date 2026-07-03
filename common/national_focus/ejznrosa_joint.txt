@@ -37,24 +37,17 @@ joint_focus = {
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
-	available = {
+	allow_branch = {
 		OR = {
+			tag = EJZ
 			FLA = {
 				is_subject_of = EJZ
 			}
-			WOK = {
-				is_subject_of = EJZ
-			}
-			VAL = {
-				is_subject_of = EJZ
-			}
-			AEV = {
-				is_subject_of = EJZ
-			}
-			LUK = {
-				is_subject_of = EJZ
-			}
+			has_country_flag = EJZ_joint_focus_tree
 		}
+	}
+	available = {
+		tag = EJZ
 	}
 	joint_trigger = {
 		has_country_flag = EJZ_joint_focus_tree
