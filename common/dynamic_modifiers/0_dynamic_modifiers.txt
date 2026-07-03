@@ -26,7 +26,7 @@
 #	can be added to countries, states, unit leaders or special projects
 #	will only updated daily, unless forced by force_update_dynamic_modifier effect
 EJZ_the_ejzermkejt_idea = {
-	icon = ARG_economic_reactivation
+	icon = "GFX_idea_ejznrosa_army"
 	enable = {
 		always = yes
 	}
@@ -48,7 +48,7 @@ EJZ_the_ejzermkejt_idea = {
 	production_speed_bunker_factor = EJZ_fort
 }
 EJZ_joint_economic_cooperation_idea = {
-	icon = GFX_idea_ejznrosa_economy
+	icon = "GFX_idea_joint_economic_cooperation"
 	enable = {
 		always = yes
 	}

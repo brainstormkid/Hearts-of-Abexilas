@@ -462,6 +462,10 @@ spriteTypes = {
 		name = "GFX_idea_government_arms_contract"
 		textureFile = "gfx/interface/ideas/idea_government_arms_contract.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_joint_economic_cooperation"
+		textureFile = "gfx/interface/ideas/idea_man_five_year_plan_industry.dds"
+	}
 	#Marisvalor
 	SpriteType = { 
 		name = "GFX_idea_marisvalor_eins"

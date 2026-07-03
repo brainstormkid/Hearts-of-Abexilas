@@ -135,9 +135,6 @@ joint_focus = {
 	allow_branch = {
 		OR = {
 			tag = EJZ
-			FLA = {
-				is_subject_of = EJZ
-			}
 			has_country_flag = EJZ_joint_focus_tree
 		}
 	}
@@ -147,6 +144,7 @@ joint_focus = {
 			has_completed_focus = EJZ_rally_around_the_duke
 		}
 	}
+	continue_if_invalid = yes
 	joint_trigger = {
 		has_country_flag = EJZ_joint_focus_tree
 	}
@@ -171,6 +169,7 @@ joint_focus = {
 	available = {
 		has_country_flag = EJZ_joint_focus_tree
 	}
+	continue_if_invalid = yes
 	joint_trigger = {
 		has_country_flag = EJZ_joint_focus_tree
 	}
@@ -201,6 +200,7 @@ joint_focus = {
 	available = {
 		has_country_flag = EJZ_joint_focus_tree
 	}
+	continue_if_invalid = yes
 	joint_trigger = {
 		has_country_flag = EJZ_joint_focus_tree
 	}
@@ -232,6 +232,7 @@ joint_focus = {
 	joint_trigger = {
 		has_country_flag = EJZ_joint_focus_tree
 	}
+	continue_if_invalid = yes
 	completion_reward_joint_member = {
 		add_ideas = EJZ_task_system
 	}
@@ -256,6 +257,7 @@ joint_focus = {
 	joint_trigger = {
 		has_country_flag = EJZ_joint_focus_tree
 	}
+	continue_if_invalid = yes
 	completion_reward = {
 		add_to_tech_sharing_group = ejznrosa_tech_share
 	}
