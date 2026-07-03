@@ -8,6 +8,7 @@ add_ideas = EJZ_heavy_resource_spending
 add_dynamic_modifier = {
 	modifier = EJZ_the_ejzermkejt_idea
 }
+set_country_flag = EJZ_joint_focus_tree
 ### Ejznmkejt Dynamic Modifier Variables ###
 set_variable = {EJZ_artillery_A = 0 }
 set_variable = {EJZ_artillery_D = 0 }

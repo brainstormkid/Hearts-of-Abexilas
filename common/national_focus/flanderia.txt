@@ -10,6 +10,9 @@ focus_tree = {
 		}
 	}
 	shared_focus = EJZ_joint_ejznsphere
+	shared_focus = EJZ_joint_economic_cooperation
+	shared_focus = EJZ_joint_industrial_development
+	shared_focus = EJZ_joint_incorporate_the_task_system
 	default = no
 
 	#Aviation Efforts

@@ -1874,6 +1874,12 @@
  #Ejznrosa Joint
  EJZ_joint_ejznsphere:0 "Ejznsphere"
  EJZ_joint_ejznsphere_desc:0 "WIP"
+ EJZ_joint_economic_cooperation:0 "Joint Economic Cooperation"
+ EJZ_joint_economic_cooperation_desc:0 "WIP"
+ EJZ_joint_industrial_development:0 "Joint Industrial Development"
+ EJZ_joint_industrial_development_desc:0 "WIP"
+ EJZ_joint_incorporate_the_task_system:0 "Incorporate the Task System"
+ EJZ_joint_incorporate_the_task_system_desc:0 "WIP"
  #Flanderia
  FLA_aviation_efforts:0 "Aviation Efforts"
  FLA_aviation_efforts_desc:0 "Nowhere is technological advances more rapid than in aerial warfare. Aviation is a field any modern nation must master."

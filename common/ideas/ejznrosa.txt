@@ -293,6 +293,10 @@ ideas = {
             available = {
             }
             cancel = {
+                NOT = {
+                    has_country_flag = EJZ_joint_focus_tree
+                    tag = EJZ
+                }
             }
             modifier = {
                 production_speed_buildings_factor = 0.1

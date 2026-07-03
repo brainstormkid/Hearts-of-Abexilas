@@ -9,7 +9,7 @@ set_politics = {
 set_popularities = {
 	absolutist = 100
 }
-
+set_country_flag = EJZ_joint_focus_tree
 create_country_leader = {
 	name = "?"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"

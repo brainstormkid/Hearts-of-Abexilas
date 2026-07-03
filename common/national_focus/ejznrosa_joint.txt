@@ -17,13 +17,84 @@ shared_focus = {
 			tag = VAL
 		}
 	}
-	icon = GFX_EJZ_ejznsphere
+	text_icon = NORDIC_focus_style
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+}
+shared_focus = {
+	id = EJZ_economic_cooperation
+	cost = 10
+	x = 37
+	y = 8
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = FLA
+		}
+	}
+	offset = {
+		x = 0
+		y = -7
+		trigger = {
+			tag = VAL
+		}
+	}
 	text_icon = NORDIC_focus_style
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
 	completion_reward = {
 		add_political_power = 100
+	}
+}
+shared_focus = {
+	id = EJZ_industrial_development
+	cost = 10
+	x = 43
+	y = 8
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = FLA
+		}
+	}
+	offset = {
+		x = 0
+		y = -7
+		trigger = {
+			tag = VAL
+		}
+	}
+	text_icon = NORDIC_focus_style
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+}
+shared_focus = {
+	id = EJZ_incopporate_the_task_system
+	cost = 10
+	x = 35
+	y = 9
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = FLA
+		}
+	}
+	offset = {
+		x = 0
+		y = -7
+		trigger = {
+			tag = VAL
+		}
+	}
+	text_icon = NORDIC_focus_style
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
 	}
 }
 joint_focus = {
@@ -48,14 +119,90 @@ joint_focus = {
 	}
 	available = {
 		tag = EJZ
+		EJZ = {
+			has_completed_focus = EJZ_rally_around_the_duke
+		}
 	}
 	joint_trigger = {
 		has_country_flag = EJZ_joint_focus_tree
 	}
-	completion_reward_joint_originator = {
+	completion_reward = {
 		add_political_power = 50
 	}
-	completion_reward_joint_member = {
+}
+joint_focus = {
+	id = EJZ_joint_economic_cooperation
+	icon = GFX_goal_generic_positive_trade_relations
+	text_icon = NORDIC_focus_style
+	cost = 10
+	relative_position_id = EJZ_economic_cooperation
+	x = 0
+	y = 0
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = {
+		focus = EJZ_joint_ejznsphere
+	}
+	available = {
+		has_country_flag = EJZ_joint_focus_tree
+	}
+	joint_trigger = {
+		has_country_flag = EJZ_joint_focus_tree
+	}
+	completion_reward = {
 		add_political_power = 50
+	}
+}
+joint_focus = {
+	id = EJZ_joint_industrial_development
+	icon = GFX_focus_generic_industry_3
+	text_icon = NORDIC_focus_style
+	cost = 10
+	relative_position_id = EJZ_industrial_development
+	x = 0
+	y = 0
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = {
+		focus = EJZ_joint_ejznsphere
+	}
+	available = {
+		has_country_flag = EJZ_joint_focus_tree
+	}
+	joint_trigger = {
+		has_country_flag = EJZ_joint_focus_tree
+	}
+	completion_reward = {
+		add_political_power = 50
+	}
+}
+joint_focus = {
+	id = EJZ_joint_incorporate_the_task_system
+	icon = GFX_focus_hol_the_foundations_of_defense
+	text_icon = NORDIC_focus_style
+	cost = 10
+	relative_position_id = EJZ_incopporate_the_task_system
+	x = 0
+	y = 0
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = {
+		focus = EJZ_joint_economic_cooperation
+	}
+	available = {
+		has_country_flag = EJZ_joint_focus_tree
+		tag = EJZ
+		EJZ = {
+			has_completed_focus = EJZ_ejznrosii_task_system
+		}
+	}
+	joint_trigger = {
+		has_country_flag = EJZ_joint_focus_tree
+	}
+	completion_reward_joint_member = {
+		add_ideas = EJZ_task_system
 	}
 }
