@@ -1871,8 +1871,9 @@
  EJZ_rally_around_the_duke_desc:0 "WIP"
  EJZ_a_new_course:0 "A New Course"
  EJZ_a_new_course_desc:0 "WIP"
- EJZ_ejznsphere:0 "Ejznsphere"
- EJZ_ejznsphere_desc:0 "WIP"
+ #Ejznrosa Joint
+ EJZ_joint_ejznsphere:0 "Ejznsphere"
+ EJZ_joint_ejznsphere_desc:0 "WIP"
  #Flanderia
  FLA_aviation_efforts:0 "Aviation Efforts"
  FLA_aviation_efforts_desc:0 "Nowhere is technological advances more rapid than in aerial warfare. Aviation is a field any modern nation must master."

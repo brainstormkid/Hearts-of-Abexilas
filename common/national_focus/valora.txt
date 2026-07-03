@@ -8,6 +8,7 @@ focus_tree = {
 			tag = VAL
 		}
 	}
+	shared_focus = EJZ_joint_ejznsphere
 	#Minority protection act
 	focus = {
 		id = VAL_minority_protection_act

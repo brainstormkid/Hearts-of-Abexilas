@@ -222,4 +222,136 @@ on_actions = {
 			}
 		}
 	}
+	on_puppet = {
+		effect = {
+			if = {
+				limit = {
+					tag = FLA
+				}
+				FLA = {
+					set_country_flag = EJZ_joint_focus_tree
+				}
+			}
+			if = {
+				limit = {
+					tag = VAL
+				}
+				VAL = {
+					set_country_flag = EJZ_joint_focus_tree
+				}
+			}
+			if = {
+				limit = {
+					tag = WOK
+				}
+				WOK = {
+					set_country_flag = EJZ_joint_focus_tree
+				}
+			}
+			if = {
+				limit = {
+					tag = AEV
+				}
+				AEV = {
+					set_country_flag = EJZ_joint_focus_tree
+				}
+			}
+			if = {
+				limit = {
+					tag = LUK
+				}
+				LUK = {
+					set_country_flag = EJZ_joint_focus_tree
+				}
+			}
+		}
+	}
+	on_release_as_puppet = {
+		effect = {
+			if = {
+				limit = {
+					tag = FLA
+				}
+				FLA = {
+					set_country_flag = EJZ_joint_focus_tree
+				}
+			}
+			if = {
+				limit = {
+					tag = VAL
+				}
+				VAL = {
+					set_country_flag = EJZ_joint_focus_tree
+				}
+			}
+			if = {
+				limit = {
+					tag = WOK
+				}
+				WOK = {
+					set_country_flag = EJZ_joint_focus_tree
+				}
+			}
+			if = {
+				limit = {
+					tag = AEV
+				}
+				AEV = {
+					set_country_flag = EJZ_joint_focus_tree
+				}
+			}
+			if = {
+				limit = {
+					tag = LUK
+				}
+				LUK = {
+					set_country_flag = EJZ_joint_focus_tree
+				}
+			}
+		}
+	}
+	on_release_as_free = {
+		effect = {
+			if = {
+				limit = {
+					tag = FLA
+				}
+				FLA = {
+					clr_country_flag = EJZ_joint_focus_tree
+				}
+			}
+			if = {
+				limit = {
+					tag = VAL
+				}
+				VAL = {
+					clr_country_flag = EJZ_joint_focus_tree
+				}
+			}
+			if = {
+				limit = {
+					tag = WOK
+				}
+				WOK = {
+					clr_country_flag = EJZ_joint_focus_tree
+				}
+			}
+			if = {
+				limit = {
+					tag = AEV
+				}
+				AEV = {
+					clr_country_flag = EJZ_joint_focus_tree
+				}
+			}
+			if = {
+				limit = {
+					tag = LUK
+				}
+				LUK = {
+					clr_country_flag = EJZ_joint_focus_tree
+				}
+			}
+		}
+	}
 }

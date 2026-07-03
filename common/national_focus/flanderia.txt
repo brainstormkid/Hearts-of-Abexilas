@@ -9,6 +9,7 @@ focus_tree = {
 			tag = FLA
 		}
 	}
+	shared_focus = EJZ_joint_ejznsphere
 	default = no
 
 	#Aviation Efforts
