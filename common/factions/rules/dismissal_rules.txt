@@ -1,0 +1,189 @@
+
+ ##   ##  ### ###  ##  #  #  ## 
+#  # #  #  #   #  #  # ## # #   
+#### #     #   #  #  # # ##  #  
+#  # #  #  #   #  #  # #  #   # 
+#  #  ##   #  ###  ##  #  # ##  
+
+
+dismissal_rule_world_tension = {
+	type = dismissal_rules
+	ai_will_do = {
+		base = 0
+		modifier = {  
+			add = 1
+			OR = {
+				has_government = libertarianist
+				has_government = centrist
+				has_government = liberalist
+				has_government = progressivist
+				has_government = conservatist
+			}
+			is_faction_leader = yes 
+		}
+	}
+	dismiss_member_trigger = {
+		has_added_tension_amount > 0.1
+	}
+}
+
+dismissal_rule_offensive_war = {
+	type = dismissal_rules
+	ai_will_do = {
+		base = 0
+		modifier = {  
+			add = 1
+			OR = {
+				has_government = absolutist
+				has_government = monarchist
+				has_government = theocratist
+				has_government = accelerationist
+			}
+			is_faction_leader = yes 
+		}
+	}
+	dismiss_member_trigger = {
+		has_offensive_war_without_friend = FROM
+	}
+	ai_will_do = {
+		base = 0
+	}
+}
+
+
+### ###  ###  ##  #    ##   ##  #   # 
+ #  #  # #   #  # #   #  # #     # #  
+ #  #  # ##  #  # #   #  # # ##   #   
+ #  #  # #   #  # #   #  # #  #   #   
+### ###  ###  ##  ###  ##   ##    #   
+
+
+dismissal_rule_ideology_not_democratic = {
+	type = dismissal_rules
+	visible = { 
+		OR = {
+			has_government = libertarianist
+			has_government = centrist
+			has_government = liberalist
+			has_government = progressivist
+			has_government = conservatist
+		}
+	}
+	ai_will_do = {
+		base = 0
+	}
+
+	dismiss_member_trigger = {
+		NOT = {
+			OR = {
+				has_government = libertarianist
+				has_government = centrist
+				has_government = liberalist
+				has_government = progressivist
+				has_government = conservatist
+			}
+		}
+	}
+}
+
+dismissal_rule_ideology_not_communism = {
+	type = dismissal_rules
+	visible = { 
+		OR = {
+			has_government = revisionist 
+			has_government = radical_socialist 
+			has_government = xeroist 
+			has_government = anarchist 
+		}
+	}
+	ai_will_do = {
+		base = 0
+	}
+
+	dismiss_member_trigger = {
+		NOT = {
+			OR = {
+				has_government = revisionist 
+				has_government = radical_socialist 
+				has_government = xeroist 
+				has_government = anarchist 
+			}
+		}
+	}
+}
+
+dismissal_rule_ideology_communist = {
+	type = dismissal_rules
+	visible = { 
+		NOT = { 
+			OR = {
+				has_government = revisionist 
+				has_government = radical_socialist 
+				has_government = xeroist 
+				has_government = anarchist 
+			}
+		} 
+	}
+	ai_will_do = {
+		base = 0
+	}
+
+	dismiss_member_trigger = {
+		OR = {
+			has_government = revisionist 
+			has_government = radical_socialist 
+			has_government = xeroist 
+			has_government = anarchist 
+		}
+	}
+}
+
+dismissal_rule_ideology_fascist = {
+	type = dismissal_rules
+	visible = { 
+		NOT = { 
+			OR = {
+				has_government = radical_nationalist 
+				has_government = imperialist 
+			}
+		} 
+	}
+	ai_will_do = {
+		base = 0
+	}
+
+	dismiss_member_trigger = {
+		OR = {
+			has_government = radical_nationalist 
+			has_government = imperialist 
+		}
+	}
+}
+
+dismissal_rule_ideology_democratic = {
+	type = dismissal_rules
+	visible = { 
+		NOT = { 
+			OR = {
+				has_government = libertarianist
+				has_government = centrist
+				has_government = liberalist
+				has_government = progressivist
+				has_government = conservatist
+			}
+		} 
+	}
+	ai_will_do = {
+		base = 0
+	}
+
+	dismiss_member_trigger = {
+		OR = {
+			has_government = libertarianist
+			has_government = centrist
+			has_government = liberalist
+			has_government = progressivist
+			has_government = conservatist
+		}
+	}
+}

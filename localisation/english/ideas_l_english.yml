@@ -35,7 +35,21 @@
  parliament_regulations_loose_desc:0 "We have decided that it is in everyones intrest that the governing monarchy has little influence on the parliament of the people. We will not try to that the voice of the people and rather let them speak freely"
  parliament_regulations_none:0 "No Parliament Regulations"
  parliament_regulations_none_desc:0 "It is the best for both the people and the monarchist government that neither interfere with eachother and they both work on their own on problems and solutions"
- 
+ betrayal_of_the_past:0 "Betrayal of the Past"
+ betrayal_of_the_past_desc:0 "After the collapse of the Kingdom of Telúne due to the Provinces of Cortland selling themselves to the opposing states of Tandong the trust within Leyenbourg has been greatly decreased. None believe that this was a mere one time accident and fear that it will happen again if the state is not centralized for the future..."
+ shattered_pride:0 "Shattered Pride"
+ shattered_pride_desc:0 "Leyenbourgs pride is at an all time low. Noone sees themselves as a nationalist as the nation they would be supporting has, in their eyes, failed them"
+ broken_army_spirit:0 "Broken Army Spirit"
+ broken_army_spirit_desc:0 "The little army that was left after the collapse of Telúne has been broken in its spirit. Most of their generals have deserted, most of their most trusted members have betrayed them. Even the most loyal of soilders wonder what caused such a missfortune"
+ out_of_the_ashes:0 "Out of the Ashes"
+ out_of_the_ashes_desc:0 "Leyenbourg has proven that it can stand on its own feet and has risen from the ashes of defeat. Now it is time to claim back our title, to claim back our pride of our Duchy!"
+ from_rubble_to_gold:0 "From Rubble to Gold"
+ from_rubble_to_gold_desc:0 "Many workers have returned to Leyenbourg to rebuild the nation. Now it is time to not only build up our infrastructure but also our economy. We must invest into our future in order to keep up this pace of development"
+ the_white_capital:0 "The White Capital"
+ the_white_capital_desc:0 "Flourishing Capital of Leyenbourg-City is the regional hub of arts and architecture and beyond that it has been proofen to withstand even the greatest of disasters."
+ nova_ryken_autonomy:0 "Nova-Ryken Autonomy"
+ nova_ryken_autonomy_desc:0 "After the fall of Telúne the provinces of Nova-Ryken established themselves as a seperate entity next to Leyenbourg. This is causing us major problems in our diplomatic and internal situation"
+
  
 # Valora Ideas
  novaran_rebellion_1:0 "Novaran Rebellion"
