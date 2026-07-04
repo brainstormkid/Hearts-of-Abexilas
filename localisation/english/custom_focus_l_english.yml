@@ -1882,6 +1882,8 @@
  EJZ_joint_incorporate_the_task_system_desc:0 "WIP"
  EJZ_joint_research_cooperation:0 "Joint Research Cooperation"
  EJZ_joint_research_cooperation_desc:0 "WIP"
+ EJZ_joint_economic_union:0 "Economic Union"
+ EJZ_joint_economic_unio_desc:0 "WIP"
  #Flanderia
  FLA_aviation_efforts:0 "Aviation Efforts"
  FLA_aviation_efforts_desc:0 "Nowhere is technological advances more rapid than in aerial warfare. Aviation is a field any modern nation must master."

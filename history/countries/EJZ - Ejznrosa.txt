@@ -23,6 +23,11 @@ set_variable = {EJZ_org = -0.1 }
 set_variable = {EJZ_train = 0.1 }
 set_variable = {EJZ_exp = -0.1 }
 set_variable = {EJZ_fort = 0 }
+### Ejznrosa Joint Focus Tree ###
+set_variable = {EJZ_joint_consumer_goods = -0.05 }
+set_variable = {EJZ_joint_economy_cost = 0 }
+set_variable = {EJZ_joint_trade_cost = 0 }
+set_variable = {EJZ_joint_industrial_cost = 0 }
 #set_country_flag = wip_ejznrosa_alt_historical
 
 set_research_slots = 4

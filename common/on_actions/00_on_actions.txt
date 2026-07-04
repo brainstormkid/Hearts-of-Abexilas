@@ -216,7 +216,7 @@ on_actions = {
 						random_hours = 3
 					}
 					FROM = {
-						remove_country_flag = steelwaterfall
+						clr_country_flag = steelwaterfall
 					}
 				}
 			}
@@ -224,13 +224,28 @@ on_actions = {
 	}
 	on_puppet = {
 		effect = {
-			if = {
+			every_country = {
 				limit = {
-					tag = FLA
+					OR = {
+						tag = FLA
+						tag = VAL
+						tag = WOK
+						tag = AEV
+						tag = LUK
+					}
 				}
-				FLA = {
+				ROOT = {
 					set_country_flag = EJZ_joint_focus_tree
 					mark_focus_tree_layout_dirty = yes
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_ejznsphere
+							}
+						}
+						add_ideas = EJZ_task_system
+						unlock_national_focus = EJZ_joint_ejznsphere
+					}
 					if = {
 						limit = {
 							EJZ = {
@@ -238,6 +253,7 @@ on_actions = {
 							}
 						}
 						add_ideas = EJZ_task_system
+						unlock_national_focus = EJZ_joint_incorporate_the_task_system
 					}
 					if = {
 						limit = {
@@ -246,6 +262,7 @@ on_actions = {
 							}
 						}
 						add_to_tech_sharing_group = ejznrosa_tech_share
+						unlock_national_focus = EJZ_joint_research_cooperation
 					}
 					if = {
 						limit = {
@@ -256,160 +273,37 @@ on_actions = {
 						add_dynamic_modifier = {
 							modifier = EJZ_joint_economic_cooperation_idea
 						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					tag = VAL
-				}
-				VAL = {
-					set_country_flag = EJZ_joint_focus_tree
-					mark_focus_tree_layout_dirty = yes
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_incorporate_the_task_system
-							}
-						}
-						add_ideas = EJZ_task_system
-					}
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_research_cooperation
-							}
-						}
-						add_to_tech_sharing_group = ejznrosa_tech_share
-					}
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_economic_cooperation
-							}
-						}
-						add_dynamic_modifier = {
-							modifier = EJZ_joint_economic_cooperation_idea
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					tag = WOK
-				}
-				WOK = {
-					set_country_flag = EJZ_joint_focus_tree
-					mark_focus_tree_layout_dirty = yes
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_incorporate_the_task_system
-							}
-						}
-						add_ideas = EJZ_task_system
-					}
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_research_cooperation
-							}
-						}
-						add_to_tech_sharing_group = ejznrosa_tech_share
-					}
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_economic_cooperation
-							}
-						}
-						add_dynamic_modifier = {
-							modifier = EJZ_joint_economic_cooperation_idea
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					tag = AEV
-				}
-				AEV = {
-					set_country_flag = EJZ_joint_focus_tree
-					mark_focus_tree_layout_dirty = yes
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_incorporate_the_task_system
-							}
-						}
-						add_ideas = EJZ_task_system
-					}
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_research_cooperation
-							}
-						}
-						add_to_tech_sharing_group = ejznrosa_tech_share
-					}
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_economic_cooperation
-							}
-						}
-						add_dynamic_modifier = {
-							modifier = EJZ_joint_economic_cooperation_idea
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					tag = LUK
-				}
-				LUK = {
-					set_country_flag = EJZ_joint_focus_tree
-					mark_focus_tree_layout_dirty = yes
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_incorporate_the_task_system
-							}
-						}
-						add_ideas = EJZ_task_system
-					}
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_research_cooperation
-							}
-						}
-						add_to_tech_sharing_group = ejznrosa_tech_share
-					}
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_economic_cooperation
-							}
-						}
-						add_dynamic_modifier = {
-							modifier = EJZ_joint_economic_cooperation_idea
-						}
+						unlock_national_focus = EJZ_joint_economic_cooperation
 					}
 				}
 			}
 		}
 	}
+			
 	on_release_as_puppet = {
 		effect = {
-			if = {
+			every_country = {
 				limit = {
-					tag = FLA
+					OR = {
+						tag = FLA
+						tag = VAL
+						tag = WOK
+						tag = AEV
+						tag = LUK
+					}
 				}
-				FLA = {
+				ROOT = {
 					set_country_flag = EJZ_joint_focus_tree
 					mark_focus_tree_layout_dirty = yes
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_ejznsphere
+							}
+						}
+						add_ideas = EJZ_task_system
+						unlock_national_focus = EJZ_joint_ejznsphere
+					}
 					if = {
 						limit = {
 							EJZ = {
@@ -417,6 +311,7 @@ on_actions = {
 							}
 						}
 						add_ideas = EJZ_task_system
+						unlock_national_focus = EJZ_joint_incorporate_the_task_system
 					}
 					if = {
 						limit = {
@@ -425,6 +320,7 @@ on_actions = {
 							}
 						}
 						add_to_tech_sharing_group = ejznrosa_tech_share
+						unlock_national_focus = EJZ_joint_research_cooperation
 					}
 					if = {
 						limit = {
@@ -435,146 +331,7 @@ on_actions = {
 						add_dynamic_modifier = {
 							modifier = EJZ_joint_economic_cooperation_idea
 						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					tag = VAL
-				}
-				VAL = {
-					set_country_flag = EJZ_joint_focus_tree
-					mark_focus_tree_layout_dirty = yes
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_incorporate_the_task_system
-							}
-						}
-						add_ideas = EJZ_task_system
-					}
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_research_cooperation
-							}
-						}
-						add_to_tech_sharing_group = ejznrosa_tech_share
-					}
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_economic_cooperation
-							}
-						}
-						add_dynamic_modifier = {
-							modifier = EJZ_joint_economic_cooperation_idea
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					tag = WOK
-				}
-				WOK = {
-					set_country_flag = EJZ_joint_focus_tree
-					mark_focus_tree_layout_dirty = yes
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_incorporate_the_task_system
-							}
-						}
-						add_ideas = EJZ_task_system
-					}
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_research_cooperation
-							}
-						}
-						add_to_tech_sharing_group = ejznrosa_tech_share
-					}
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_economic_cooperation
-							}
-						}
-						add_dynamic_modifier = {
-							modifier = EJZ_joint_economic_cooperation_idea
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					tag = AEV
-				}
-				AEV = {
-					set_country_flag = EJZ_joint_focus_tree
-					mark_focus_tree_layout_dirty = yes
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_incorporate_the_task_system
-							}
-						}
-						add_ideas = EJZ_task_system
-					}
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_research_cooperation
-							}
-						}
-						add_to_tech_sharing_group = ejznrosa_tech_share
-					}
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_economic_cooperation
-							}
-						}
-						add_dynamic_modifier = {
-							modifier = EJZ_joint_economic_cooperation_idea
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					tag = LUK
-				}
-				LUK = {
-					set_country_flag = EJZ_joint_focus_tree
-					mark_focus_tree_layout_dirty = yes
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_incorporate_the_task_system
-							}
-						}
-						add_ideas = EJZ_task_system
-					}
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_research_cooperation
-							}
-						}
-						add_to_tech_sharing_group = ejznrosa_tech_share
-					}
-					if = {
-						limit = {
-							EJZ = {
-								has_completed_focus = EJZ_joint_economic_cooperation
-							}
-						}
-						add_dynamic_modifier = {
-							modifier = EJZ_joint_economic_cooperation_idea
-						}
+						unlock_national_focus = EJZ_joint_economic_cooperation
 					}
 				}
 			}

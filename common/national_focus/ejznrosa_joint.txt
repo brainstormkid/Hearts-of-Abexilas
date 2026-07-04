@@ -76,7 +76,7 @@ shared_focus = {
 shared_focus = {
 	id = EJZ_incopporate_the_task_system
 	cost = 10
-	x = 35
+	x = 34
 	y = 9
 	offset = {
 		x = -10
@@ -100,7 +100,31 @@ shared_focus = {
 shared_focus = {
 	id = EJZ_research_cooperation
 	cost = 10
-	x = 37
+	x = 36
+	y = 9
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = FLA
+		}
+	}
+	offset = {
+		x = 0
+		y = -7
+		trigger = {
+			tag = VAL
+		}
+	}
+	text_icon = NORDIC_focus_style
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+}
+shared_focus = {
+	id = EJZ_economic_union
+	cost = 10
+	x = 38
 	y = 9
 	offset = {
 		x = -10
@@ -174,10 +198,6 @@ joint_focus = {
 		has_country_flag = EJZ_joint_focus_tree
 	}
 	completion_reward = {
-		set_variable = {EJZ_joint_consumer_goods = -0.05 }
-		set_variable = {EJZ_joint_economy_cost = 0 }
-		set_variable = {EJZ_joint_trade_cost = 0 }
-		set_variable = {EJZ_joint_industrial_cost = 0 }
 		add_dynamic_modifier = {
 			modifier = EJZ_joint_economic_cooperation_idea
 		}
@@ -260,5 +280,59 @@ joint_focus = {
 	continue_if_invalid = yes
 	completion_reward = {
 		add_to_tech_sharing_group = ejznrosa_tech_share
+	}
+	completion_reward_joint_originator = {
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 2
+			category = industry
+		}
+	}
+	completion_reward_joint_member = {
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = industry
+		}
+	}
+}
+joint_focus = {
+	id = EJZ_joint_economic_union
+	icon = GFX_focus_GER_customs_union
+	text_icon = NORDIC_focus_style
+	cost = 10
+	relative_position_id = EJZ_economic_union
+	x = 0
+	y = 0
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = {
+		focus = EJZ_joint_economic_cooperation
+	}
+	available = {
+		has_country_flag = EJZ_joint_focus_tree
+	}
+	joint_trigger = {
+		has_country_flag = EJZ_joint_focus_tree
+	}
+	continue_if_invalid = yes
+	completion_reward = {
+		custom_effect_tooltip = EJZ_economic_union_tip
+		add_to_variable = {
+			EJZ_joint_consumer_goods = -0.05
+		}
+		add_to_variable = {
+			EJZ_joint_trade_cost = -0.1
+		}
+		add_to_variable = {
+			EJZ_joint_economy_cost = -0.1
+		}
+	}
+	completion_reward_joint_originator = {
+		add_political_power = 100
+	}
+	completion_reward_joint_member = {
+		add_political_power = 50
 	}
 }

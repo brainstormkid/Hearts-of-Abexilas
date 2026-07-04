@@ -13,7 +13,11 @@ set_popularities = {
 }
 recruit_character = WOK_Woj_Jan_Tech
 set_research_slots = 3
-
+### Ejznrosa Joint Focus Tree ###
+set_variable = {EJZ_joint_consumer_goods = -0.05 }
+set_variable = {EJZ_joint_economy_cost = 0 }
+set_variable = {EJZ_joint_trade_cost = 0 }
+set_variable = {EJZ_joint_industrial_cost = 0 }
 set_technology = {
     infantry_weapons = 1
     infantry_weapons1 = 1
