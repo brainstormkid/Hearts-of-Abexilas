@@ -300,6 +300,28 @@ on_actions = {
 						}
 						unlock_national_focus = EJZ_joint_economic_union
 					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_establish_a_central_bank
+							}
+						}
+						if = {
+							limit = {
+								NOT = {
+									has_country_flag = EJZ_updated_joint_central_bank
+								}
+							}
+							add_to_variable = {
+								EJZ_joint_consumer_goods = -0.05
+							}
+							add_to_variable = {
+								EJZ_joint_industrial_cost = 0.1
+							}
+							set_country_flag = EJZ_updated_joint_central_bank
+						}
+						unlock_national_focus = EJZ_joint_establish_a_central_bank
+					}
 				}
 			}
 		}
@@ -382,6 +404,28 @@ on_actions = {
 							set_country_flag = EJZ_updated_joint_economic_union
 						}
 						unlock_national_focus = EJZ_joint_economic_union
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_establish_a_central_bank
+							}
+						}
+						if = {
+							limit = {
+								NOT = {
+									has_country_flag = EJZ_updated_joint_central_bank
+								}
+							}
+							add_to_variable = {
+								EJZ_joint_consumer_goods = -0.05
+							}
+							add_to_variable = {
+								EJZ_joint_industrial_cost = 0.1
+							}
+							set_country_flag = EJZ_updated_joint_central_bank
+						}
+						unlock_national_focus = EJZ_joint_establish_a_central_bank
 					}
 				}
 			}

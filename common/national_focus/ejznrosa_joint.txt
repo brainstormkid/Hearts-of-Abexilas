@@ -145,6 +145,30 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 }
+shared_focus = {
+	id = EJZ_establish_a_central_bank
+	cost = 10
+	x = 37
+	y = 10
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = FLA
+		}
+	}
+	offset = {
+		x = 0
+		y = -7
+		trigger = {
+			tag = VAL
+		}
+	}
+	text_icon = NORDIC_focus_style
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+}
 joint_focus = {
 	id = EJZ_joint_ejznsphere
 	icon = GFX_EJZ_ejznsphere
@@ -329,6 +353,47 @@ joint_focus = {
 			EJZ_joint_economy_cost = -0.1
 		}
 		set_country_flag = EJZ_updated_joint_economic_union
+	}
+	completion_reward_joint_originator = {
+		add_political_power = 100
+	}
+	completion_reward_joint_member = {
+		add_political_power = 50
+	}
+}
+joint_focus = {
+	id = EJZ_joint_establish_a_central_bank
+	icon = GFX_focus_CHL_strengthen_the_central_bank
+	text_icon = NORDIC_focus_style
+	cost = 10
+	relative_position_id = EJZ_establish_a_central_bank
+	x = 0
+	y = 0
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = {
+		focus = EJZ_joint_economic_union
+	}
+	prerequisite = {
+		focus = EJZ_joint_research_cooperation
+	}
+	available = {
+		has_country_flag = EJZ_joint_focus_tree
+	}
+	joint_trigger = {
+		has_country_flag = EJZ_joint_focus_tree
+	}
+	continue_if_invalid = yes
+	completion_reward = {
+		custom_effect_tooltip = EJZ_central_bank_tip
+		add_to_variable = {
+			EJZ_joint_consumer_goods = -0.05
+		}
+		add_to_variable = {
+			EJZ_joint_industrial_cost = 0.1
+		}
+		set_country_flag = EJZ_updated_joint_central_bank
 	}
 	completion_reward_joint_originator = {
 		add_political_power = 100
