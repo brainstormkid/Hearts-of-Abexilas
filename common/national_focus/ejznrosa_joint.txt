@@ -328,6 +328,7 @@ joint_focus = {
 		add_to_variable = {
 			EJZ_joint_economy_cost = -0.1
 		}
+		set_country_flag = EJZ_updated_joint_economic_union
 	}
 	completion_reward_joint_originator = {
 		add_political_power = 100

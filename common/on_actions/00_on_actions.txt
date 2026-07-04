@@ -275,6 +275,31 @@ on_actions = {
 						}
 						unlock_national_focus = EJZ_joint_economic_cooperation
 					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_economic_union
+							}
+						}
+						if = {
+							limit = {
+								NOT = {
+									has_country_flag = EJZ_updated_joint_economic_union
+								}
+							}
+							add_to_variable = {
+								EJZ_joint_consumer_goods = -0.05
+							}
+							add_to_variable = {
+								EJZ_joint_trade_cost = -0.1
+							}
+							add_to_variable = {
+								EJZ_joint_economy_cost = -0.1
+							}
+							set_country_flag = EJZ_updated_joint_economic_union
+						}
+						unlock_national_focus = EJZ_joint_economic_union
+					}
 				}
 			}
 		}
@@ -332,6 +357,31 @@ on_actions = {
 							modifier = EJZ_joint_economic_cooperation_idea
 						}
 						unlock_national_focus = EJZ_joint_economic_cooperation
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_economic_union
+							}
+						}
+						if = {
+							limit = {
+								NOT = {
+									has_country_flag = EJZ_updated_joint_economic_union
+								}
+							}
+							add_to_variable = {
+								EJZ_joint_consumer_goods = -0.05
+							}
+							add_to_variable = {
+								EJZ_joint_trade_cost = -0.1
+							}
+							add_to_variable = {
+								EJZ_joint_economy_cost = -0.1
+							}
+							set_country_flag = EJZ_updated_joint_economic_union
+						}
+						unlock_national_focus = EJZ_joint_economic_union
 					}
 				}
 			}
