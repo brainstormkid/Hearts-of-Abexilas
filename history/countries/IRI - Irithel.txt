@@ -27,6 +27,11 @@ set_convoys = 25
 
 set_research_slots = 3
 
+set_autonomy = {
+	target = ASP
+	autonomous_state = autonomy_colony
+}
+
 set_technology = {
     infantry_weapons = 1
     infantry_weapons1 = 1
