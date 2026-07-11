@@ -62,6 +62,22 @@ EJZ_joint_economic_cooperation_idea = {
 	trade_laws_cost_factor = EJZ_joint_trade_cost
 	production_speed_industrial_complex_factor = EJZ_joint_industrial_cost
 }
+EJZ_joint_industrial_development_idea = {
+	icon = "GFX_idea_joint_economic_cooperation"
+	enable = {
+		always = yes
+	}
+	remove_trigger = {
+		NOT = {
+			has_country_flag = EJZ_joint_focus_tree
+		}
+	}
+	production_speed_industrial_complex_factor = EJZ_joint_civilian
+	production_speed_arms_factory_factor = EJZ_joint_military
+	production_speed_rail_way_factor = EJZ_joint_rail
+	production_speed_supply_node_factor = EJZ_joint_supply
+	local_resource_gain_efficiency_per_infrastructure = EJZ_joint_resoruce
+}
 tanuki = {
 	
 	icon = GFX_modifiers_tanuki

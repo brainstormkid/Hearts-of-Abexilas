@@ -28,6 +28,11 @@ set_variable = {EJZ_joint_consumer_goods = -0.05 }
 set_variable = {EJZ_joint_economy_cost = 0 }
 set_variable = {EJZ_joint_trade_cost = 0 }
 set_variable = {EJZ_joint_industrial_cost = 0 }
+set_variable = {EJZ_joint_civilian = 0.05}
+set_variable = {EJZ_joint_military = 0}
+set_variable = {EJZ_joint_rail = 0}
+set_variable = {EJZ_joint_supply = 0}
+set_variable = {EJZ_joint_resource = 0}
 #set_country_flag = wip_ejznrosa_alt_historical
 
 set_research_slots = 4
