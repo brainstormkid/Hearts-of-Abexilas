@@ -8,11 +8,13 @@ state={
         manpower=250000
         state_category = city
 	history={
+		owner = ZZZ
+		add_core_of = ZZZ
 		buildings = {
-		industrial_complex = 1
-		infrastructure = 3
-		arms_factory = 1
-		dockyard = 1
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
 		}
 	}
 }

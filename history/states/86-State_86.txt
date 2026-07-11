@@ -15,4 +15,8 @@ state={
 		tungsten = 1
 		chromium = 2
 	}
+	history = {
+		owner = ZZZ
+		add_core_of = ZZZ
+	}
 }

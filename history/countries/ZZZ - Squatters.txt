@@ -1,6 +1,8 @@
-﻿capital = 30
+﻿capital = 980
 
-oob = "IRI"
+### IMPORTANT
+set_ai_is_frozen = yes
+### IMPORTANT
 
 set_politics = {
 	ruling_party = absolutist
@@ -23,14 +25,7 @@ create_country_leader = {
 	}
 }
 
-set_convoys = 25
-
 set_research_slots = 3
-
-set_autonomy = {
-	target = ASP
-	autonomous_state = autonomy_colony
-}
 
 set_technology = {
     infantry_weapons = 1
@@ -110,6 +105,7 @@ if = {
 } 
 if = {
     limit = { has_dlc = "By Blood Alone" }
+        set_air_oob = "FRA_1936_air_bba"
         set_technology = {
             aa_lmg = 1
             aa_cannon_1 = 1
@@ -124,6 +120,7 @@ if = {
             bba_early_transport_plane = 1
         }
     else = {
+        set_air_oob = "FRA_1936_air_legacy"
         set_technology = {
             early_fighter = 1
             naval_bomber1 = 1
