@@ -23,6 +23,7 @@
  EJZ_glory_of_tejwez_tip:0 "Modify §YThe Ejzermkejt§W\nEffective change:\nDivision Attack: §G+10%§W\nDivision Defense: §G+5%§W"
  #Ejznrosa Joint
  EJZ_economic_union_tip:0 "Modify §YJoint Economic Cooperation§W\nEffective change:\nConsumers Goods Factories factor: §G-5%§W\nTrade Laws Cost: §G-10%§W\nEconomic Laws Cost: §G-10%§W"
- EJZ_central_bank_tip:0 "Modify §YJoint Central Bank§W\nEffective change:\nConsumers Goods Factories factor: §G-5%§W\nCivilian Factory Construction Speed: §G+10%§W"
+ EJZ_central_bank_tip:0 "Modify §YJoint Economic Cooperation§W\nEffective change:\nConsumers Goods Factories factor: §G-5%§W\n§YCivilian Factory§W construction speed: §G+10%§W"
+ EJZ_joint_invest_in_military_industries_tip:0 "Modify §YJoint Industrial Development§W\nEffective change:\n§YMilitary Factory§W construction speed: §G+10%§W"
 #ZDA
   ZDA_defense_tip:0 "All signatories of the §CZarilyian Defense Accords§W will come to the aid to the §Rdefending§W naton."

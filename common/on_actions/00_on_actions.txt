@@ -427,6 +427,44 @@ on_actions = {
 						}
 						unlock_national_focus = EJZ_joint_establish_a_central_bank
 					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_industrial_development
+							}
+						}
+						if = {
+							limit = {
+								NOT = {
+									has_country_flag = EJZ_update_industrial_development
+								}
+							}
+							add_dynamic_modifier = {
+								modifier = EJZ_joint_industrial_development_idea
+							}
+							set_country_flag = EJZ_update_industrial_development
+						}
+						unlock_national_focus = EJZ_joint_industrial_development
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_invest_in_military_industries
+							}
+						}
+						if = {
+							limit = {
+								NOT = {
+									has_country_flag = EJZ_update_invest_military
+								}
+							}
+							add_to_variable = {
+								EJZ_joint_military = 0.1
+							}
+							set_country_flag = EJZ_update_invest_military
+						}
+						unlock_national_focus = EJZ_joint_invest_in_military_industries
+					}
 				}
 			}
 		}
