@@ -16,6 +16,9 @@ focus_tree = {
 	shared_focus = EJZ_joint_economic_union
 	shared_focus = EJZ_joint_establish_a_central_bank
 	shared_focus = EJZ_joint_invest_in_military_industries
+	shared_focus = EJZ_joint_develop_civilian_industries
+	shared_focus = EJZ_joint_improve_railway_logistics
+	shared_focus = EJZ_joint_joint_resource_excavations
 	#Minority protection act
 	focus = {
 		id = VAL_minority_protection_act

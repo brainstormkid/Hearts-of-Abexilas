@@ -351,6 +351,66 @@ on_actions = {
 						}
 						unlock_national_focus = EJZ_joint_invest_in_military_industries
 					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_develop_civilian_industries
+							}
+						}
+						if = {
+							limit = {
+								NOT = {
+									has_country_flag = EJZ_updated_joint_civilian_industries
+								}
+							}
+							add_to_variable = {
+								EJZ_joint_civilian = 0.05
+							}
+							set_country_flag = EJZ_updated_joint_civilian_industries
+						}
+						unlock_national_focus = EJZ_joint_develop_civilian_industries
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_improve_railway_logistics
+							}
+						}
+						if = {
+							limit = {
+								NOT = {
+									has_country_flag = EJZ_updated_joint_railway_logistics
+								}
+							}
+							add_to_variable = {
+								EJZ_joint_rail = 0.1
+							}
+							add_to_variable = {
+								EJZ_joint_supply = 0.15
+							}
+							set_country_flag = EJZ_updated_joint_railway_logistics
+						}
+						unlock_national_focus = EJZ_joint_improve_railway_logistics
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_joint_resource_excavations
+							}
+						}
+						if = {
+							limit = {
+								NOT = {
+									has_country_flag = EJZ_updated_joint_resource_excavations
+								}
+							}
+							add_to_variable = {
+								EJZ_joint_resources = 0.1
+							}
+							set_country_flag = EJZ_updated_joint_resource_excavations
+						}
+						unlock_national_focus = EJZ_joint_joint_resource_excavations
+					}
 				}
 			}
 		}
@@ -485,6 +545,66 @@ on_actions = {
 							set_country_flag = EJZ_updated_joint_military_industries
 						}
 						unlock_national_focus = EJZ_joint_invest_in_military_industries
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_develop_civilian_industries
+							}
+						}
+						if = {
+							limit = {
+								NOT = {
+									has_country_flag = EJZ_updated_joint_civilian_industries
+								}
+							}
+							add_to_variable = {
+								EJZ_joint_civilian = 0.05
+							}
+							set_country_flag = EJZ_updated_joint_civilian_industries
+						}
+						unlock_national_focus = EJZ_joint_develop_civilian_industries
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_improve_railway_logistics
+							}
+						}
+						if = {
+							limit = {
+								NOT = {
+									has_country_flag = EJZ_updated_joint_railway_logistics
+								}
+							}
+							add_to_variable = {
+								EJZ_joint_rail = 0.1
+							}
+							add_to_variable = {
+								EJZ_joint_supply = 0.15
+							}
+							set_country_flag = EJZ_updated_joint_railway_logistics
+						}
+						unlock_national_focus = EJZ_joint_improve_railway_logistics
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_joint_resource_excavations
+							}
+						}
+						if = {
+							limit = {
+								NOT = {
+									has_country_flag = EJZ_updated_joint_resource_excavations
+								}
+							}
+							add_to_variable = {
+								EJZ_joint_resources = 0.1
+							}
+							set_country_flag = EJZ_updated_joint_resource_excavations
+						}
+						unlock_national_focus = EJZ_joint_joint_resource_excavations
 					}
 				}
 			}

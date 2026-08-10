@@ -76,7 +76,7 @@ EJZ_joint_industrial_development_idea = {
 	production_speed_arms_factory_factor = EJZ_joint_military
 	production_speed_rail_way_factor = EJZ_joint_rail
 	production_speed_supply_node_factor = EJZ_joint_supply
-	local_resource_gain_efficiency_per_infrastructure = EJZ_joint_resoruce
+	local_resource_gain_efficiency_per_infrastructure = EJZ_joint_resource
 }
 tanuki = {
 	

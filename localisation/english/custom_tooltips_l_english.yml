@@ -25,5 +25,9 @@
  EJZ_economic_union_tip:0 "Modify §YJoint Economic Cooperation§W\nEffective change:\nConsumers Goods Factories factor: §G-5%§W\nTrade Laws Cost: §G-10%§W\nEconomic Laws Cost: §G-10%§W"
  EJZ_central_bank_tip:0 "Modify §YJoint Central Bank§W\nEffective change:\nConsumers Goods Factories factor: §G-5%§W\nCivilian Factory Construction Speed: §G+10%§W"
  EJZ_military_industries_tip:0 "Modify §YJoint Industrial Development§W\nEffective change:\n§YMilitary Factory§W construction speed: §G+10%§W"
+ EJZ_civilian_industries_tip:0 "Modify §YJoint Industrial Development§W\nEffective change:\n§YCivilian Factory§W construction speed: §G+5%§W"
+ EJZ_railway_logistics_tip:0 "Modify §YJoint Industrial Development§W\nEffective change:\n§YRailway§W construction speed: §G+10%§W\n§YSupply Hub§W construction speed: §G+15%§W"
+ EJZ_resource_excavations_tip:0 "Modify §YJoint Resource Excavations§W\nEffective change:\nLocal Resource Gain Efficiency per Infrastructure: §G+10%§W"
+ 
 #ZDA
   ZDA_defense_tip:0 "All signatories of the §CZarilyian Defense Accords§W will come to the aid to the §Rdefending§W naton."

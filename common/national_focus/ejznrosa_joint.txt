@@ -193,6 +193,78 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 }
+shared_focus = {
+	id = EJZ_develop_civilian_industries
+	cost = 10
+	x = 42
+	y = 9
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = FLA
+		}
+	}
+	offset = {
+		x = 0
+		y = -7
+		trigger = {
+			tag = VAL
+		}
+	}
+	text_icon = NORDIC_focus_style
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+}
+shared_focus = {
+	id = EJZ_improve_railway_logistics
+	cost = 10
+	x = 44
+	y = 9
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = FLA
+		}
+	}
+	offset = {
+		x = 0
+		y = -7
+		trigger = {
+			tag = VAL
+		}
+	}
+	text_icon = NORDIC_focus_style
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+}
+shared_focus = {
+	id = EJZ_joint_resource_excavations
+	cost = 10
+	x = 46
+	y = 9
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = FLA
+		}
+	}
+	offset = {
+		x = 0
+		y = -7
+		trigger = {
+			tag = VAL
+		}
+	}
+	text_icon = NORDIC_focus_style
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+}
 joint_focus = {
 	id = EJZ_joint_ejznsphere
 	icon = GFX_EJZ_ejznsphere
@@ -457,5 +529,101 @@ joint_focus = {
 			EJZ_joint_military = 0.1
 		}
 		set_country_flag = EJZ_updated_joint_military_industries
+	}
+}
+joint_focus = {
+	id = EJZ_joint_develop_civilian_industries
+	icon = GFX_focus_generic_modernize_industry
+	text_icon = NORDIC_focus_style
+	cost = 10
+	relative_position_id = EJZ_develop_civilian_industries
+	x = 0
+	y = 0
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = {
+		focus = EJZ_joint_industrial_development
+	}
+	available = {
+		has_country_flag = EJZ_joint_focus_tree
+	}
+	joint_trigger = {
+		has_country_flag = EJZ_joint_focus_tree
+	}
+	continue_if_invalid = yes
+	completion_reward = {
+	}
+	completion_reward = {
+		custom_effect_tooltip = EJZ_civilian_industries_tip
+		add_to_variable = {
+			EJZ_joint_civilian = 0.05
+		}
+		set_country_flag = EJZ_updated_joint_civilian_industries
+	}
+}
+joint_focus = {
+	id = EJZ_joint_improve_railway_logistics
+	icon = GFX_focus_generic_railroad
+	text_icon = NORDIC_focus_style
+	cost = 10
+	relative_position_id = EJZ_improve_railway_logistics
+	x = 0
+	y = 0
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = {
+		focus = EJZ_joint_industrial_development
+	}
+	available = {
+		has_country_flag = EJZ_joint_focus_tree
+	}
+	joint_trigger = {
+		has_country_flag = EJZ_joint_focus_tree
+	}
+	continue_if_invalid = yes
+	completion_reward = {
+	}
+	completion_reward = {
+		custom_effect_tooltip = EJZ_railway_logistics_tip
+		add_to_variable = {
+			EJZ_joint_supply = 0.15
+		}
+		add_to_variable = {
+			EJZ_joint_rail = 0.1
+		}
+		set_country_flag = EJZ_updated_joint_railway_logistics
+	}
+}
+joint_focus = {
+	id = EJZ_joint_joint_resource_excavations
+	icon = GFX_focus_generic_resource_extraction
+	text_icon = NORDIC_focus_style
+	cost = 10
+	relative_position_id = EJZ_joint_resource_excavations
+	x = 0
+	y = 0
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = {
+		focus = EJZ_joint_industrial_development
+	}
+	available = {
+		has_country_flag = EJZ_joint_focus_tree
+	}
+	joint_trigger = {
+		has_country_flag = EJZ_joint_focus_tree
+	}
+	continue_if_invalid = yes
+	completion_reward = {
+	}
+	completion_reward = {
+		custom_effect_tooltip = EJZ_resource_excavations_tip
+		add_to_variable = {
+			EJZ_joint_resource = 0.1
+		}
+		set_country_flag = EJZ_updated_joint_resource_excavations
 	}
 }
