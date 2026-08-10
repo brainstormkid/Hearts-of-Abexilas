@@ -7,13 +7,15 @@ state={
 	buildings_max_level_factor=1.000
         manpower=2550000
         state_category = large_city
-	resources={
-		oil=2
-		steel=3 #was 42 was: 112
-		aluminium=2 # was: 22
-		rubber=1
-		tungsten=1
-		chromium=2
+		local_supplies = 6
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
 	}
 
 	history={
