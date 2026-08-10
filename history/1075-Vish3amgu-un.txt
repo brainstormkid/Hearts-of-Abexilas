@@ -1,0 +1,33 @@
+state={
+	id=1075
+	name="STATE_1075"
+	provinces={
+		988 3149 14695 14696 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+	buildings_max_level_factor=1.000
+        manpower=750000
+        state_category = rural
+		local_supplies = 2
+	history={
+		owner = NAA
+		buildings = {
+			infrastructure = 2
+			14696 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = NAA
+		victory_points = {
+			14696 5
+		}
+	}
+}

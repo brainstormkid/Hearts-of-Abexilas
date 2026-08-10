@@ -1,0 +1,32 @@
+state={
+	id=1081
+	name="STATE_1081"
+	provinces={
+		170 1816 2385 14720 14762 14764 14778 14811 14815 14847 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+	buildings_max_level_factor=1.000
+        manpower=2400000
+        state_category = city
+		local_supplies = 5
+	history={
+		owner = LIV
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+		}
+		add_core_of = LIV
+		victory_points = {
+			170 30
+		}
+	}
+}

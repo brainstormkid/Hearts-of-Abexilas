@@ -1,0 +1,33 @@
+state={
+	id=1023
+	name="STATE_1023"
+	provinces={
+		1341 2294 4476 14309 14325 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+	buildings_max_level_factor=1.000
+        manpower=2850000
+        state_category = city
+		local_supplies = 5
+	history={
+		owner = ART
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+		}
+		add_core_of = ART
+		victory_points = {
+			2294 20
+		}
+	}
+}

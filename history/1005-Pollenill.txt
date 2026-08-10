@@ -1,0 +1,31 @@
+state={
+	id=1005
+	name="STATE_1005"
+	provinces={
+		3357 14125 14160 
+	}
+	buildings_max_level_factor=1.000
+        manpower=2850000
+		resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+        state_category = town
+		local_supplies = 2.5
+	history={
+		owner = VIN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = VIN
+		add_core_of = MAR
+		victory_points = { 3357 20 }
+	}
+}
+

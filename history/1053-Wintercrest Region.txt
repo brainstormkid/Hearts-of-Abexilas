@@ -1,0 +1,30 @@
+state={
+	id=1053
+	name="STATE_1053"
+	provinces={
+		267 832 1614 4166 14507 14532 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+	buildings_max_level_factor=1.000
+        manpower=300000
+        state_category = rural
+		local_supplies = 2
+	history={
+		owner = AZU
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = AZU
+		victory_points = {
+			832 5
+		}
+	}
+}

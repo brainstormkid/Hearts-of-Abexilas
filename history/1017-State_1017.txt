@@ -1,0 +1,33 @@
+state={
+	id=1017
+	name="STATE_1017"
+	provinces={
+		92 545 2470 3946 5019 5486 6992 14187 14225 14250 14269 14281 14319 14347 14358 14364 14389 14397 14436 14437 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1500000
+        state_category = large_city
+		local_supplies = 6
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+	history={
+		owner = KAL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+		}
+		add_core_of = KAL
+		victory_points = { 14358 50 }
+		victory_points = { 14250 10 }
+		victory_points = { 6992 5 }
+	}
+}

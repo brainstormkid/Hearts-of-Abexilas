@@ -1,0 +1,33 @@
+state={
+	id=1041
+	name="STATE_1041"
+	provinces={
+		421 14395 
+	}
+	buildings_max_level_factor=1.000
+        manpower=75000
+        state_category = small_island
+		local_supplies = 1
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+	history={
+		owner = MAR
+		buildings = {
+			infrastructure = 2
+			14395 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = MAR
+		victory_points = {
+			14395 20
+		}
+	}
+}

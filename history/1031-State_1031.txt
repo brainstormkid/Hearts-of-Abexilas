@@ -1,0 +1,36 @@
+state={
+	id=1031
+	name="STATE_1031"
+	provinces={
+		488 2690 3162 4968 5569 6243 14339 14362 14385 14423 
+	}
+	buildings_max_level_factor=1.000
+        manpower=2550000
+        state_category = large_town
+		local_supplies = 3
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	} 
+
+	history={
+		owner = GRA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			14362 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = GRA
+		victory_points = {
+			14362 10
+		}
+	}
+}

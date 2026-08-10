@@ -1,0 +1,30 @@
+state={
+	id=1026
+	name="STATE_1026"
+	provinces={
+		3730 3861 4385 14301 14329 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+	buildings_max_level_factor=1.000
+        manpower=600000
+        state_category = rural
+		local_supplies = 2
+	history={
+		owner = TAR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TAR
+		victory_points = {
+			4385 5
+		}
+	}
+}

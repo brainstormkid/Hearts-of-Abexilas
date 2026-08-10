@@ -1,0 +1,27 @@
+state={
+	id=1030
+	name="STATE_1030"
+	provinces={
+		764 5074 14328 
+	}
+	buildings_max_level_factor=1.000
+        manpower=75000
+        state_category = pastoral
+		local_supplies = 0.5
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+	history={
+		owner = LOV
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = LOV
+	}
+}
