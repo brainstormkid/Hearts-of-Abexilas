@@ -8,9 +8,10 @@ state={
 		oil = 2
 		aluminium = 2
 		steel = 3
-		rubber = 1
+		rubber = 2
 		tungsten = 1
 		chromium = 2
+		coal = 3
 	}
 	history={
 		owner = KHA
@@ -22,4 +23,5 @@ state={
 	buildings_max_level_factor=1.000
         manpower=450000
         state_category = pastoral
+		local_supplies = 0.5
 }

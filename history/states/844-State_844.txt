@@ -4,13 +4,15 @@ state={
 	manpower=2259000
 
 	state_category = town
-	resources={
-		oil=2
-		steel=3 #was 42 was: 112
-		aluminium=2 # was: 22
-		rubber=1
-		tungsten=1
-		chromium=2
+		local_supplies = 2.5
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
 	}
 
 	history={
