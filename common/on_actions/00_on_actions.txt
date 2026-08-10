@@ -243,7 +243,6 @@ on_actions = {
 								has_completed_focus = EJZ_joint_ejznsphere
 							}
 						}
-						add_ideas = EJZ_task_system
 						unlock_national_focus = EJZ_joint_ejznsphere
 					}
 					if = {
@@ -274,6 +273,17 @@ on_actions = {
 							modifier = EJZ_joint_economic_cooperation_idea
 						}
 						unlock_national_focus = EJZ_joint_economic_cooperation
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_industrial_development
+							}
+						}
+						add_dynamic_modifier = {
+							modifier = EJZ_joint_industrial_development_idea
+						}
+						unlock_national_focus = EJZ_joint_industrial_development
 					}
 					if = {
 						limit = {
@@ -321,6 +331,25 @@ on_actions = {
 							set_country_flag = EJZ_updated_joint_central_bank
 						}
 						unlock_national_focus = EJZ_joint_establish_a_central_bank
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_invest_in_military_industries
+							}
+						}
+						if = {
+							limit = {
+								NOT = {
+									has_country_flag = EJZ_updated_joint_military_industries
+								}
+							}
+							add_to_variable = {
+								EJZ_joint_military = 0.1
+							}
+							set_country_flag = EJZ_updated_joint_military_industries
+						}
+						unlock_national_focus = EJZ_joint_invest_in_military_industries
 					}
 				}
 			}
@@ -383,6 +412,17 @@ on_actions = {
 					if = {
 						limit = {
 							EJZ = {
+								has_completed_focus = EJZ_joint_industrial_development
+							}
+						}
+						add_dynamic_modifier = {
+							modifier = EJZ_joint_industrial_development_idea
+						}
+						unlock_national_focus = EJZ_joint_industrial_development
+					}
+					if = {
+						limit = {
+							EJZ = {
 								has_completed_focus = EJZ_joint_economic_union
 							}
 						}
@@ -426,6 +466,25 @@ on_actions = {
 							set_country_flag = EJZ_updated_joint_central_bank
 						}
 						unlock_national_focus = EJZ_joint_establish_a_central_bank
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_invest_in_military_industries
+							}
+						}
+						if = {
+							limit = {
+								NOT = {
+									has_country_flag = EJZ_updated_joint_military_industries
+								}
+							}
+							add_to_variable = {
+								EJZ_joint_military = 0.1
+							}
+							set_country_flag = EJZ_updated_joint_military_industries
+						}
+						unlock_national_focus = EJZ_joint_invest_in_military_industries
 					}
 				}
 			}
