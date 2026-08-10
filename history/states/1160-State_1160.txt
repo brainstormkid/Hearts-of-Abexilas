@@ -5,16 +5,18 @@ state={
 		67 148 348 819 1029 1268 1382 1812 2099 2225 2320 2862 3053 3826 4573 4827 4970 5851 8286 8287 8310 8316 8341 8382 8387 8398 8411 8412 8424 8457 8499 8500 8504 8536 8545 8573 8581
 	}
 	resources = {
-	    oil = 2
-	    aluminium = 2
-	    steel = 3
-	    rubber = 2
-	    tungsten = 1
-	    chromium = 2
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
 	}
 	buildings_max_level_factor=1.000
         manpower=4200000
         state_category = large_city
+		local_supplies = 6
 	history={
 		owner = BAR
 		buildings = {
