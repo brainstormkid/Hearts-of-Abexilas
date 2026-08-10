@@ -6,7 +6,17 @@ state={
 	}
 	buildings_max_level_factor=1.000
         manpower=13200000 
+		resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
         state_category = megalopolis
+		local_supplies = 10
 	history={
 		owner = REG
 		buildings = {

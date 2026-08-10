@@ -6,6 +6,15 @@ state={
 	}
 	buildings_max_level_factor=1.000
         manpower=1
+		resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
         state_category = town
 	history={
 		owner = COY
