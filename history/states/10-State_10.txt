@@ -5,16 +5,18 @@ state={
 		683 1005 2248 2281 2589 2780 2912 3222 3276 3818 3938 4351 4893 5100 5612 5806 6229 6245 6476 6907 7056 7057 7058 7112 7113 7114 7131 7156 7161 7162 7217 7218 7226 7230 7250 7264 7278 7286 7337 7344 7396 7401 
 	}
 	resources = {
-	    oil = 2
-	    aluminium = 2
-	    steel = 3
-	    rubber = 2
-	    tungsten = 1
-	    chromium = 2
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
 	}
 	buildings_max_level_factor=1.000
         manpower=11700000
         state_category = megalopolis
+		local_supplies = 10
 	history={
 		owner = MIC
 		buildings = {

@@ -5,16 +5,18 @@ state={
 		287 423 798 971 1482 1981 2716 4274 4708 5728 7827 7868 7887 7888 7906 7907 7917 7923 7948 7954 7964 7968 7994 7998 
 	}
 	resources = {
-	    oil = 2
-	    aluminium = 2
-	    steel = 3
-	    rubber = 2
-	    tungsten = 1
-	    chromium = 2
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
 	}
 	buildings_max_level_factor=1.000
         manpower=1200000
         state_category = city
+		local_supplies = 5
 	history={
 		owner = AET
 		buildings = {

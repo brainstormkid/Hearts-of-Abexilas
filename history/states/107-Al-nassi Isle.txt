@@ -5,16 +5,18 @@ state={
 		399 4066 6558 6735 7816 7838 7880 7920 7966 8000 8027 
 	}
 	resources = {
-	    oil = 2
-	    aluminium = 2
-	    steel = 3
-	    rubber = 2
-	    tungsten = 1
-	    chromium = 2
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
 	}
 	buildings_max_level_factor=1.000
         manpower=3450000
         state_category = megalopolis
+		local_supplies = 10
 	history={
 		owner = AET
 		buildings = {
