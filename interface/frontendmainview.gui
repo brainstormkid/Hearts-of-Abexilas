@@ -61,6 +61,101 @@ guiTypes = {
 		
 	}
 	
+	containerWindowType = { ###to_be_added
+		name = "change_background"
+		size = { width = 100 height = 40 }
+		position = { x = -20 y = -20 }
+		Orientation = lower_right
+		Origo = lower_right
+
+		buttonType = {
+			name ="change_background_button"
+			position = { x = -206 y = -24 }
+			
+			quadTextureSprite = "GFX_button_238x38"
+			buttonText = "CHANGE_BACKGROUND"
+			buttonFont = "hoi_24header"
+			Orientation = center
+		}
+
+		containerWindowType = {
+			name = "background_selection"
+			size = { width = 238 height = 700 }
+			position = { x = -156 y = -700 }
+			margin = { top = 18 bottom = 13 left = 8}
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window2_1b_border"
+			}
+			
+			checkboxType = {
+					name = "select_all_checkbox"
+					position = { x = 13 y = 0 }
+					quadTextureSprite ="GFX_generic_checkbox"
+					buttonText = ""
+					buttonFont = "Main_14_black"
+					clicksound = click_checkbox
+				}
+			instantTextBoxType={
+					position = {x = 53 y = 6 }
+					name = "select_all_label"
+					font = "hoi_18mbs"
+					borderSize = {x = 0 y = 0}	
+					maxWidth = 150
+					maxHeight = 18
+					text = "SELECT_ALL"	
+					orientation = "UPPER_LEFT"
+					format = left
+					
+			}
+						
+		containerWindowType = {
+			name = "background_selection_list"
+			size = { width = 230 height = 576 }
+			position = { x = 0 y = 90 }
+			verticalScrollbar = "right_vertical_slider"
+			scroll_wheel_factor = 63
+			smooth_scrolling = yes
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_transparent"
+			}
+			
+				gridBoxType = {
+					position = { x = 9 y = 0 }
+					name = "available_backgrounds"
+					size = { width = 200 height = 0 }
+					slotsize = { width = 200 height = 150 }
+					max_slots_horizontal = 1		
+				}
+
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "available_background"
+		size = { width = 190 height = 140 }
+		position = { x = 0 y = 0 }
+
+		buttonType = {
+			name = "change_background_button"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_tiled_window_1b_border"
+		}
+		
+		containerWindowType = {
+		name = "highlight"
+		size = { width = 192 height = 144 }
+			background = {
+				name = "glowup"
+				quadTextureSprite = "GFX_tiled_frame_selected"
+				alwaysTransparent = yes
+			}
+		}
+	}
+	
 	containerWindowType = {
 		name = "unowned_dlc_item"
 		size = { width = 50 height = 50 }
@@ -379,7 +474,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "settings_button"
-			position = { x = -290 y = -230 } #CHANGED
+			position = { x = -300 y = -250 } #CHANGED
 			#position = { x = 16 y = 98 }
 			quadTextureSprite ="GFX_main_lobby_button_settings" #CHANGED
 			buttonText = ""
@@ -428,7 +523,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "credits_button"
-			position = { x = -80 y = -230 } #CHANGED
+			position = { x = -80 y = -250 } #CHANGED
 			#position = {  x = 16 y = 218 }
 			quadTextureSprite ="GFX_main_lobby_button_credits" #CHANGED
 			buttonText = ""
@@ -440,7 +535,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "nudge_button"
-			position = { x = -850 y = -100 } #CHANGED
+			position = { x = -1040 y = -150 } #CHANGED
 			#position = { x = 16 y = 258 }
 			quadTextureSprite ="GFX_main_lobby_button_nudge" #CHANGED
 			buttonText = ""
@@ -450,7 +545,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "exit_button"
-			position = { x = 900 y = -230 } #CHANGED
+			position = { x = 1100 y = -250 } #CHANGED
 			#position = { x = 16 y = 300 }
 			quadTextureSprite ="GFX_main_lobby_button_exit" #CHANGED
 			font = "hoi_24header"
@@ -570,17 +665,36 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "discord_button"
-			position = { x=102 y=60 }
+			position = { x=185 y=45 }
 			quadTextureSprite ="discord"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_DISCORD"
 			web_link = "https://discord.gg/8EaSPXZMNw"
 			scale = 0.9
 		}
+		
+		ButtonType = { ###to_be_moved
+                name = "privacy_policy_button"
+                position = { x=145 y=45 }
+                quadTextureSprite ="privacy"
+                #clicksound = click_default
+                pdx_tooltip = "MENU_PRIVACY_POLICY"
+                scale = 0.9
+        }
+		
+		ButtonType = {
+			name = "youtube_button_2"
+			position = { x=105 y=45 }
+			quadTextureSprite ="youtube"
+			#clicksound = click_default
+			pdx_tooltip = "MENU_YOUTUBE2"
+			web_link = "https://www.youtube.com/@fuchsifyl3077"
+			scale = 0.9
+		}
 
 		ButtonType = {
 			name = "youtube_button"
-			position = { x=66 y=60 }
+			position = { x=65 y=45 }
 			quadTextureSprite ="youtube"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_YOUTUBE1"
@@ -589,14 +703,13 @@ guiTypes = {
 		}
 		
 		ButtonType = {
-			name = "youtube_button_2"
-			position = { x=138 y=60 }
-			quadTextureSprite ="youtube"
-			#clicksound = click_default
-			pdx_tooltip = "MENU_YOUTUBE2"
-			web_link = "https://www.youtube.com/@fuchsifyl3077"
-			scale = 0.9
-		}
+                name = "homepage_button"
+                position = { x=25 y=45				}
+                quadTextureSprite ="homepage"
+                clicksound = click_default
+                pdx_tooltip = "MENU_HOMEPAGE"
+                scale = 0.9
+        }
 	}
 
 	## This position needs updated
