@@ -1,13 +1,14 @@
 state={
 	id=1010
 	name="STATE_1010"
-	resources={
-		oil=2.000
-		aluminium=2.000
-		steel=3.000
-		rubber=1.000
-		tungsten=1.000
-		chromium=2.000
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
 	}
 	provinces={
 		177 2795 3410 3903 4160 4439 5043 5817 5860 5913 6961 14180 14240 14267 14305 14312 14326 14356 14387 14403 14446 14467 14474 14483 14499 14530 

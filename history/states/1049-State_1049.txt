@@ -7,6 +7,7 @@ state={
 	buildings_max_level_factor=1.000
         manpower = 150000
         state_category = pastoral
+		local_supplies = 0.5
 	history = {
 		owner = SET
 		buildings = {
@@ -18,12 +19,13 @@ state={
 		add_core_of = SET
 		victory_points = { 5949 5 }
 	}
-	resources = {		
+	resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
-		rubber = 1
+		rubber = 2
 		tungsten = 1
 		chromium = 2
+		coal = 3
 	}	
 }
