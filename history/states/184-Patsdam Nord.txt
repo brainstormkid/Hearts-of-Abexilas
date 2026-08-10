@@ -5,16 +5,18 @@ state={
 		1754 2111 2928 3854 3941 6052 6393 8884 8895 8896 8934 8935 8980 8984 8987 9000 9008 9021 9028 9049 
 	}
 	resources = {
-	    oil = 2
-	    aluminium = 2
-	    steel = 3
-	    rubber = 2
-	    tungsten = 1
-	    chromium = 2
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
 	}
 	buildings_max_level_factor=1.000
         manpower=2550000
         state_category = city
+		local_supplies = 5
 	history={
 		owner = BOU
 		buildings = {
