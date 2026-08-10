@@ -5,16 +5,18 @@ state={
 		1060 3669 4373 5688 6716 10216 10269 10276 10320 10359 10385 
 	}
 	resources = {
-	    oil = 2
-	    aluminium = 2
-	    steel = 3
-	    rubber = 2
-	    tungsten = 1
-	    chromium = 2
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
 	}
 	buildings_max_level_factor=1.000
         manpower=3000000
         state_category = metropolis
+		local_supplies = 8
 	history={
 		owner = MIZ
 		buildings = {

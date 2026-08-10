@@ -5,16 +5,18 @@ state={
 		255 717 1744 2617 2960 4725 5333 5653 6471 10190 10212 10239 10257 10268 10275 10282 10364 10430 
 	}
 	resources = {
-	    oil = 2
-	    aluminium = 2
-	    steel = 3
-	    rubber = 2
-	    tungsten = 1
-	    chromium = 2
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
 	}
 	buildings_max_level_factor=1.000
         manpower=8100000
         state_category = megalopolis
+		local_supplies = 10
 	history={
 		owner = MIZ
 		buildings = {
