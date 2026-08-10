@@ -5,12 +5,12 @@ state={
 		966 4577 11247 
 	}
 	resources = {
-	    oil = 2
-	    aluminium = 2
-	    steel = 3
-	    rubber = 2
-	    tungsten = 1
-	    chromium = 2
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
 		coal = 3
 	}
 	buildings_max_level_factor=1.000
