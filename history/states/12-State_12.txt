@@ -5,16 +5,18 @@ state={
 		7188 
 	}
 	resources = {
-	    oil = 2
-	    aluminium = 2
-	    steel = 3
-	    rubber = 2
-	    tungsten = 1
-	    chromium = 2
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
 	}
 	buildings_max_level_factor=1.000
         manpower=50000
         state_category = town
+		local_supplies = 2.5
 	history={
 		owner = MIC
 		buildings = {
