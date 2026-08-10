@@ -265,6 +265,54 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 }
+shared_focus = {
+	id = EJZ_integrated_development
+	cost = 10
+	x = 43
+	y = 10
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = FLA
+		}
+	}
+	offset = {
+		x = 0
+		y = -7
+		trigger = {
+			tag = VAL
+		}
+	}
+	text_icon = NORDIC_focus_style
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+}
+shared_focus = {
+	id = EJZ_united_under_tejwez
+	cost = 10
+	x = 40
+	y = 11
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = FLA
+		}
+	}
+	offset = {
+		x = 0
+		y = -7
+		trigger = {
+			tag = VAL
+		}
+	}
+	text_icon = NORDIC_focus_style
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+}
 joint_focus = {
 	id = EJZ_joint_ejznsphere
 	icon = GFX_EJZ_ejznsphere
@@ -627,3 +675,82 @@ joint_focus = {
 		set_country_flag = EJZ_updated_joint_resource_excavations
 	}
 }
+joint_focus = {
+	id = EJZ_joint_integrated_development
+	icon = GFX_focus_CHI_planned_economy
+	text_icon = NORDIC_focus_style
+	cost = 10
+	relative_position_id = EJZ_integrated_development
+	x = 0
+	y = 0
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = {
+		focus = EJZ_joint_invest_in_military_industries
+	}
+	prerequisite = {
+		focus = EJZ_joint_develop_civilian_industries
+	}
+	prerequisite = {
+		focus = EJZ_joint_improve_railway_logistics
+	}
+	prerequisite = {
+		focus = EJZ_joint_joint_resource_excavations
+	}
+	available = {
+		has_country_flag = EJZ_joint_focus_tree
+	}
+	joint_trigger = {
+		has_country_flag = EJZ_joint_focus_tree
+	}
+	continue_if_invalid = yes
+	completion_reward = {
+	}
+	completion_reward = {
+		add_offsite_building = {
+			type = 	industrial_complex
+			level = 2
+		}
+	}
+	completion_reward_joint_originator = {
+		add_political_power = 50
+	}
+}
+joint_focus = {
+	id = EJZ_joint_united_under_tejwez
+	icon = GFX_focus_hol_united_netherlands
+	text_icon = NORDIC_focus_style
+	cost = 10
+	relative_position_id = EJZ_united_under_tejwez
+	x = 0
+	y = 0
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = {
+		focus = EJZ_joint_establish_a_central_bank
+	}
+	prerequisite = {
+		focus = EJZ_joint_integrated_development
+	}
+	available = {
+		has_country_flag = EJZ_joint_focus_tree
+		tag = EJZ
+	}
+	joint_trigger = {
+		has_country_flag = EJZ_joint_focus_tree
+	}
+	continue_if_invalid = yes
+	completion_reward = {
+	}
+	completion_reward_joint_originator = {
+		add_political_power = 150
+	}
+	completion_reward_joint_member = {
+		add_autonomy_score = {
+			value = -250
+		}
+	}
+}
+

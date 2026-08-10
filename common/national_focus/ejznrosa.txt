@@ -19,6 +19,8 @@ focus_tree = {
 	shared_focus = EJZ_joint_develop_civilian_industries
 	shared_focus = EJZ_joint_improve_railway_logistics
 	shared_focus = EJZ_joint_joint_resource_excavations
+	shared_focus = EJZ_joint_integrated_development
+	shared_focus = EJZ_joint_united_under_tejwez
 
 	#Food for the Population
 	focus = {

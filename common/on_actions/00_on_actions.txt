@@ -411,6 +411,22 @@ on_actions = {
 						}
 						unlock_national_focus = EJZ_joint_joint_resource_excavations
 					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_integrated_development
+							}
+						}
+						unlock_national_focus = EJZ_joint_integrated_development
+					}
+					if = {
+						limit = {
+							EJZ = {
+								has_completed_focus = EJZ_joint_united_under_tejwez
+							}
+						}
+						unlock_national_focus = EJZ_joint_united_under_tejwez
+					}
 				}
 			}
 		}

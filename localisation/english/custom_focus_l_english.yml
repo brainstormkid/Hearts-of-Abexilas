@@ -1894,6 +1894,10 @@
  EJZ_joint_improve_railway_logistics_desc:0 "WIP"
  EJZ_joint_joint_resource_excavations:0 "Joint Resource Excavations"
  EJZ_joint_joint_resource_excavations_desc:0 "WIP"
+ EJZ_joint_integrated_development:0 "Integrated Development"
+ EJZ_joint_integrated_development_desc:0 "WIP"
+ EJZ_joint_united_under_tejwez:0 "United Under Tejwez"
+ EJZ_joint_united_under_tejwez_desc:0 "WIP"
  #Flanderia
  FLA_aviation_efforts:0 "Aviation Efforts"
  FLA_aviation_efforts_desc:0 "Nowhere is technological advances more rapid than in aerial warfare. Aviation is a field any modern nation must master."
