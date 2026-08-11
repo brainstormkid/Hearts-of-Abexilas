@@ -4,9 +4,10 @@ simp_choose_poster_1 = {    #This is our 1st decison. It will set the 1st poster
     icon = GFX_decision_generic_propaganda
     allowed = { always = yes }
     visible = { always = yes }
-    available = { always = yes }
+    available = { OR = {NOT={has_country_flag = active_simp_poster_1} NOT={has_country_flag = active_simp_poster_2} NOT={has_country_flag = active_simp_poster_3} } }
     cost = 25   #How much political Power it costs to take.
-
+    days_remove = 140
+    days_re_enable = 70
     complete_effect = { #We can put any effect (reward) here. Also, set our variables with the set_variable effect.
         if = {
             limit = {
@@ -43,15 +44,59 @@ simp_choose_poster_1 = {    #This is our 1st decison. It will set the 1st poster
         }
         simp_set_poster = yes
     }
+    remove_effect = {
+        if = {
+            limit = {
+                has_country_flag = active_simp_poster_1
+                check_variable = {
+                    ROOT.simp_frame_to_set1 = 2
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set1 = 1
+            }
+            clr_country_flag = active_simp_poster_1
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_2
+                check_variable = {
+                    ROOT.simp_frame_to_set2 = 2
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set2 = 1
+            }
+            clr_country_flag = active_simp_poster_2
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_3
+                check_variable = {
+                    ROOT.simp_frame_to_set3 = 2
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set3 = 1
+            }
+            clr_country_flag = active_simp_poster_3
+        }
+        simp_set_poster = yes
+    }
+    modifier = {
+        stability_weekly = 0.003
+        radical_socialist_drift = -0.03
+    }
 }
 
 simp_choose_poster_2 = {
     icon = GFX_decision_generic_propaganda
     allowed = { always = yes }
     visible = { always = yes }
-    available = { always = yes }
+    available = { OR = {NOT={has_country_flag = active_simp_poster_1} NOT={has_country_flag = active_simp_poster_2} NOT={has_country_flag = active_simp_poster_3} } }
     cost = 25
-
+    days_remove = 140
+    days_re_enable = 70
     complete_effect = {
         if = {
             limit = {
@@ -88,15 +133,59 @@ simp_choose_poster_2 = {
         }
         simp_set_poster = yes
     }
+    remove_effect = {
+        if = {
+            limit = {
+                has_country_flag = active_simp_poster_1
+                check_variable = {
+                    ROOT.simp_frame_to_set1 = 3
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set1 = 1
+            }
+            clr_country_flag = active_simp_poster_1
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_2
+                check_variable = {
+                    ROOT.simp_frame_to_set2 = 3
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set2 = 1
+            }
+            clr_country_flag = active_simp_poster_2
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_3
+                check_variable = {
+                    ROOT.simp_frame_to_set3 = 3
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set3 = 1
+            }
+            clr_country_flag = active_simp_poster_3
+        }
+        simp_set_poster = yes
+    }
+    modifier = {
+        stability_weekly = 0.0025
+        industry_repair_factor = 0.2
+    }
 }
 
 simp_choose_poster_3 = {
     icon = GFX_decision_generic_propaganda
     allowed = { always = yes }
     visible = { always = yes }
-    available = { always = yes }
+    available = { OR = {NOT={has_country_flag = active_simp_poster_1} NOT={has_country_flag = active_simp_poster_2} NOT={has_country_flag = active_simp_poster_3} } }
     cost = 25
-
+    days_remove = 140
+    days_re_enable = 70
     complete_effect = {
         if = {
             limit = {
@@ -133,15 +222,58 @@ simp_choose_poster_3 = {
         }
         simp_set_poster = yes
     }
+    remove_effect = {
+        if = {
+            limit = {
+                has_country_flag = active_simp_poster_1
+                check_variable = {
+                    ROOT.simp_frame_to_set1 = 4
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set1 = 1
+            }
+            clr_country_flag = active_simp_poster_1
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_2
+                check_variable = {
+                    ROOT.simp_frame_to_set2 = 4
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set2 = 1
+            }
+            clr_country_flag = active_simp_poster_2
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_3
+                check_variable = {
+                    ROOT.simp_frame_to_set3 = 4
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set3 = 1
+            }
+            clr_country_flag = active_simp_poster_3
+        }
+        simp_set_poster = yes
+    }
+    modifier = {
+        monthly_population = 0.1
+    }
 }
 
 simp_choose_poster_4 = {
     icon = GFX_decision_generic_propaganda
     allowed = { always = yes }
     visible = { always = yes }
-    available = { always = yes }
+    available = { OR = {NOT={has_country_flag = active_simp_poster_1} NOT={has_country_flag = active_simp_poster_2} NOT={has_country_flag = active_simp_poster_3} } }
     cost = 25
-
+    days_remove = 140
+    days_re_enable = 70
     complete_effect = {
         if = {
             limit = {
@@ -178,15 +310,59 @@ simp_choose_poster_4 = {
         }
         simp_set_poster = yes
     }
+    remove_effect = {
+        if = {
+            limit = {
+                has_country_flag = active_simp_poster_1
+                check_variable = {
+                    ROOT.simp_frame_to_set1 = 5
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set1 = 1
+            }
+            clr_country_flag = active_simp_poster_1
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_2
+                check_variable = {
+                    ROOT.simp_frame_to_set2 = 5
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set2 = 1
+            }
+            clr_country_flag = active_simp_poster_2
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_3
+                check_variable = {
+                    ROOT.simp_frame_to_set3 = 5
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set3 = 1
+            }
+            clr_country_flag = active_simp_poster_3
+        }
+        simp_set_poster = yes
+    }
+    modifier = {
+        production_factory_efficiency_gain_factor = 0.15
+        production_factory_max_efficiency_factor = 0.1
+    }
 }
 
 simp_choose_poster_5 = {
     icon = GFX_decision_generic_propaganda
     allowed = { always = yes }
     visible = { always = yes }
-    available = { always = yes }
+    available = { OR = {NOT={has_country_flag = active_simp_poster_1} NOT={has_country_flag = active_simp_poster_2} NOT={has_country_flag = active_simp_poster_3} } }
     cost = 25
-
+    days_remove = 140
+    days_re_enable = 70
     complete_effect = {
         if = {
             limit = {
@@ -223,15 +399,63 @@ simp_choose_poster_5 = {
         }
         simp_set_poster = yes
     }
+    remove_effect = {
+        if = {
+            limit = {
+                has_country_flag = active_simp_poster_1
+                check_variable = {
+                    ROOT.simp_frame_to_set1 = 6
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set1 = 1
+            }
+            clr_country_flag = active_simp_poster_1
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_2
+                check_variable = {
+                    ROOT.simp_frame_to_set2 = 6
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set2 = 1
+            }
+            clr_country_flag = active_simp_poster_2
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_3
+                check_variable = {
+                    ROOT.simp_frame_to_set3 = 6
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set3 = 1
+            }
+            clr_country_flag = active_simp_poster_3
+        }
+        simp_set_poster = yes
+    }
+    targeted_modifier = {
+        tag = AER
+        attack_bonus_against = 0.1
+    }
+    targeted_modifier = {
+        tag = AGR
+        attack_bonus_against = 0.1
+    }
 }
 
 simp_choose_poster_6 = {
     icon = GFX_decision_generic_propaganda
     allowed = { always = yes }
     visible = { always = yes }
-    available = { always = yes }
+    available = { OR = {NOT={has_country_flag = active_simp_poster_1} NOT={has_country_flag = active_simp_poster_2} NOT={has_country_flag = active_simp_poster_3} } }
     cost = 25
-
+    days_remove = 140
+    days_re_enable = 70
     complete_effect = {
         if = {
             limit = {
@@ -268,15 +492,59 @@ simp_choose_poster_6 = {
         }
         simp_set_poster = yes
     }
+    remove_effect = {
+        if = {
+            limit = {
+                has_country_flag = active_simp_poster_1
+                check_variable = {
+                    ROOT.simp_frame_to_set1 = 7
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set1 = 1
+            }
+            clr_country_flag = active_simp_poster_1
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_2
+                check_variable = {
+                    ROOT.simp_frame_to_set2 = 7
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set2 = 1
+            }
+            clr_country_flag = active_simp_poster_2
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_3
+                check_variable = {
+                    ROOT.simp_frame_to_set3 = 7
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set3 = 1
+            }
+            clr_country_flag = active_simp_poster_3
+        }
+        simp_set_poster = yes
+    }
+    modifier = {
+        opinion_gain_monthly_factor = 0.1
+        recruitable_population_factor = 0.05
+    }
 }
 
 simp_choose_poster_7 = {
     icon = GFX_decision_generic_propaganda
     allowed = { always = yes }
     visible = { always = yes }
-    available = { always = yes }
+    available = { OR = {NOT={has_country_flag = active_simp_poster_1} NOT={has_country_flag = active_simp_poster_2} NOT={has_country_flag = active_simp_poster_3} } }
     cost = 25
-
+    days_remove = 140
+    days_re_enable = 70
     complete_effect = {
         if = {
             limit = {
@@ -313,15 +581,59 @@ simp_choose_poster_7 = {
         }
         simp_set_poster = yes
     }
+    remove_effect = {
+        if = {
+            limit = {
+                has_country_flag = active_simp_poster_1
+                check_variable = {
+                    ROOT.simp_frame_to_set1 = 8
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set1 = 1
+            }
+            clr_country_flag = active_simp_poster_1
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_2
+                check_variable = {
+                    ROOT.simp_frame_to_set2 = 8
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set2 = 1
+            }
+            clr_country_flag = active_simp_poster_2
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_3
+                check_variable = {
+                    ROOT.simp_frame_to_set3 = 8
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set3 = 1
+            }
+            clr_country_flag = active_simp_poster_3
+        }
+        simp_set_poster = yes
+    }
+    targeted_modifier = {
+        tag = FLA
+        stability_weekly_factor = 0.05
+    }
 }
 
 simp_choose_poster_8 = {
     icon = GFX_decision_generic_propaganda
     allowed = { always = yes }
     visible = { always = yes }
-    available = { always = yes }
+    available = { OR = {NOT={has_country_flag = active_simp_poster_1} NOT={has_country_flag = active_simp_poster_2} NOT={has_country_flag = active_simp_poster_3} } }
     cost = 25
-
+    days_remove = 140
+    days_re_enable = 70
     complete_effect = {
         if = {
             limit = {
@@ -358,15 +670,55 @@ simp_choose_poster_8 = {
         }
         simp_set_poster = yes
     }
+    remove_effect = {
+        if = {
+            limit = {
+                has_country_flag = active_simp_poster_1
+                check_variable = {
+                    ROOT.simp_frame_to_set1 = 9
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set1 = 1
+            }
+            clr_country_flag = active_simp_poster_1
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_2
+                check_variable = {
+                    ROOT.simp_frame_to_set2 = 9
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set2 = 1
+            }
+            clr_country_flag = active_simp_poster_2
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_3
+                check_variable = {
+                    ROOT.simp_frame_to_set3 = 9
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set3 = 1
+            }
+            clr_country_flag = active_simp_poster_3
+        }
+        simp_set_poster = yes
+    }
 }
 
 simp_choose_poster_9 = {
     icon = GFX_decision_generic_propaganda
     allowed = { always = yes }
     visible = { always = yes }
-    available = { always = yes }
+    available = { OR = {NOT={has_country_flag = active_simp_poster_1} NOT={has_country_flag = active_simp_poster_2} NOT={has_country_flag = active_simp_poster_3} } }
     cost = 25
-
+    days_remove = 140
+    days_re_enable = 70
     complete_effect = {
         if = {
             limit = {
@@ -403,15 +755,55 @@ simp_choose_poster_9 = {
         }
         simp_set_poster = yes
     }
+    remove_effect = {
+        if = {
+            limit = {
+                has_country_flag = active_simp_poster_1
+                check_variable = {
+                    ROOT.simp_frame_to_set1 = 10
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set1 = 1
+            }
+            clr_country_flag = active_simp_poster_1
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_2
+                check_variable = {
+                    ROOT.simp_frame_to_set2 = 10
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set2 = 1
+            }
+            clr_country_flag = active_simp_poster_2
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_3
+                check_variable = {
+                    ROOT.simp_frame_to_set3 = 10
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set3 = 1
+            }
+            clr_country_flag = active_simp_poster_3
+        }
+        simp_set_poster = yes
+    }
 }
 
 simp_choose_poster_10 = {
     icon = GFX_decision_generic_propaganda
     allowed = { always = yes }
     visible = { always = yes }
-    available = { always = yes }
+    available = { OR = {NOT={has_country_flag = active_simp_poster_1} NOT={has_country_flag = active_simp_poster_2} NOT={has_country_flag = active_simp_poster_3} } }
     cost = 25
-
+    days_remove = 140
+    days_re_enable = 70
     complete_effect = {
         if = {
             limit = {
@@ -448,15 +840,55 @@ simp_choose_poster_10 = {
         }
         simp_set_poster = yes
     }
+    remove_effect = {
+        if = {
+            limit = {
+                has_country_flag = active_simp_poster_1
+                check_variable = {
+                    ROOT.simp_frame_to_set1 = 11
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set1 = 1
+            }
+            clr_country_flag = active_simp_poster_1
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_2
+                check_variable = {
+                    ROOT.simp_frame_to_set2 = 11
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set2 = 1
+            }
+            clr_country_flag = active_simp_poster_2
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_3
+                check_variable = {
+                    ROOT.simp_frame_to_set3 = 11
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set3 = 1
+            }
+            clr_country_flag = active_simp_poster_3
+        }
+        simp_set_poster = yes
+    }
 }
 
 simp_choose_poster_11 = {
     icon = GFX_decision_generic_propaganda
     allowed = { always = yes }
     visible = { always = yes }
-    available = { always = yes }
+    available = { OR = {NOT={has_country_flag = active_simp_poster_1} NOT={has_country_flag = active_simp_poster_2} NOT={has_country_flag = active_simp_poster_3} } }
     cost = 25
-
+    days_remove = 140
+    days_re_enable = 70
     complete_effect = {
         if = {
             limit = {
@@ -493,15 +925,55 @@ simp_choose_poster_11 = {
         }
         simp_set_poster = yes
     }
+    remove_effect = {
+        if = {
+            limit = {
+                has_country_flag = active_simp_poster_1
+                check_variable = {
+                    ROOT.simp_frame_to_set1 = 12
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set1 = 1
+            }
+            clr_country_flag = active_simp_poster_1
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_2
+                check_variable = {
+                    ROOT.simp_frame_to_set2 = 12
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set2 = 1
+            }
+            clr_country_flag = active_simp_poster_2
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_3
+                check_variable = {
+                    ROOT.simp_frame_to_set3 = 12
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set3 = 1
+            }
+            clr_country_flag = active_simp_poster_3
+        }
+        simp_set_poster = yes
+    }
 }
 
 simp_choose_poster_12 = {
     icon = GFX_decision_generic_propaganda
     allowed = { always = yes }
     visible = { always = no }
-    available = { always = no }
+    available = {  OR = { NOT = { has_country_flag = active_simp_poster_1 } NOT = { has_country_flag = active_simp_poster_2 } NOT = { has_country_flag = active_simp_poster_3 } }  }
     cost = 25
-
+    days_remove = 140
+    days_re_enable = 70
     complete_effect = {
         if = {
             limit = {
@@ -538,15 +1010,55 @@ simp_choose_poster_12 = {
         }
         simp_set_poster = yes
     }
+    remove_effect = {
+        if = {
+            limit = {
+                has_country_flag = active_simp_poster_1
+                check_variable = {
+                    ROOT.simp_frame_to_set1 = 13
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set1 = 1
+            }
+            clr_country_flag = active_simp_poster_1
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_2
+                check_variable = {
+                    ROOT.simp_frame_to_set2 = 13
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set2 = 1
+            }
+            clr_country_flag = active_simp_poster_2
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_3
+                check_variable = {
+                    ROOT.simp_frame_to_set3 = 13
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set3 = 1
+            }
+            clr_country_flag = active_simp_poster_3
+        }
+        simp_set_poster = yes
+    }
 }
 
 simp_choose_poster_13 = {
     icon = GFX_decision_generic_propaganda
     allowed = { always = yes }
     visible = { always = no }
-    available = { always = no }
+    available = {  OR = { NOT = { has_country_flag = active_simp_poster_1 } NOT = { has_country_flag = active_simp_poster_2 } NOT = { has_country_flag = active_simp_poster_3 } }  }
     cost = 25
-
+    days_remove = 140
+    days_re_enable = 70
     complete_effect = {
         if = {
             limit = {
@@ -583,15 +1095,55 @@ simp_choose_poster_13 = {
         }
         simp_set_poster = yes
     }
+    remove_effect = {
+        if = {
+            limit = {
+                has_country_flag = active_simp_poster_1
+                check_variable = {
+                    ROOT.simp_frame_to_set1 = 14
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set1 = 1
+            }
+            clr_country_flag = active_simp_poster_1
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_2
+                check_variable = {
+                    ROOT.simp_frame_to_set2 = 14
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set2 = 1
+            }
+            clr_country_flag = active_simp_poster_2
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_3
+                check_variable = {
+                    ROOT.simp_frame_to_set3 = 14
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set3 = 1
+            }
+            clr_country_flag = active_simp_poster_3
+        }
+        simp_set_poster = yes
+    }
 }
 
 simp_choose_poster_14 = {
     icon = GFX_decision_generic_propaganda
     allowed = { always = yes }
     visible = { always = no }
-    available = { always = no }
+    available = {  OR = { NOT = { has_country_flag = active_simp_poster_1 } NOT = { has_country_flag = active_simp_poster_2 } NOT = { has_country_flag = active_simp_poster_3 } }  }
     cost = 25
-
+    days_remove = 140
+    days_re_enable = 70
     complete_effect = {
         if = {
             limit = {
@@ -625,6 +1177,45 @@ simp_choose_poster_14 = {
                 ROOT.simp_frame_to_set3 = 15
             }
             set_country_flag = active_simp_poster_3
+        }
+        simp_set_poster = yes
+    }
+    remove_effect = {
+        if = {
+            limit = {
+                has_country_flag = active_simp_poster_1
+                check_variable = {
+                    ROOT.simp_frame_to_set1 = 15
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set1 = 1
+            }
+            clr_country_flag = active_simp_poster_1
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_2
+                check_variable = {
+                    ROOT.simp_frame_to_set2 = 15
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set2 = 1
+            }
+            clr_country_flag = active_simp_poster_2
+        }
+        else_if = {
+            limit = {
+                has_country_flag = active_simp_poster_3
+                check_variable = {
+                    ROOT.simp_frame_to_set3 = 15
+                }
+            }
+            set_variable = {
+                ROOT.simp_frame_to_set3 = 1
+            }
+            clr_country_flag = active_simp_poster_3
         }
         simp_set_poster = yes
     }
