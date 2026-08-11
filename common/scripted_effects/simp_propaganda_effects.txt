@@ -5,9 +5,15 @@ simp_set_poster = {
 }
 
 simp_clear_poster = {
+    clr_country_flag = active_simp_poster_1
+    clr_country_flag = active_simp_poster_2
+    clr_country_flag = active_simp_poster_3
     set_variable = { ROOT.simp_slot_frame1 = 1 }
     set_variable = { ROOT.simp_slot_frame2 = 1 }
-    set_variable = { ROOT.simp_slot_frame3 = 1 } # This brings up the 1st frame, the empty tile
+    set_variable = { ROOT.simp_slot_frame3 = 1 }
+    set_variable = { ROOT.simp_frame_to_set1 = 1 }
+    set_variable = { ROOT.simp_frame_to_set2 = 1 }
+    set_variable = { ROOT.simp_frame_to_set3 = 1 } # This brings up the 1st frame, the empty tile
 }
 
 #We now set up the custom effects to use, so we dont have to type set_variable every time we change it in the decisions.

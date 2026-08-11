@@ -8,6 +8,6 @@ simp_propaganda_category = {    #Defines the category for us to use when making 
 
     scripted_gui = simp_propaganda_ui   #This is the name of our scripted GUI, as per the common/scripted GUI. It is the 2nd line, the block name, that is inside of the scripted_gui = { block.
 
-    priority = 1000     #Priority sets how far up the decisions the decision category (The GUI and all our decisions) should be. Setting it to 1000, means it will be on top, as soon as you open the decisons in-game.
+    priority = 4     #Priority sets how far up the decisions the decision category (The GUI and all our decisions) should be. Setting it to 1000, means it will be on top, as soon as you open the decisons in-game.
 
 }
