@@ -1,7 +1,7 @@
 simp_set_poster = {
-    set_variable = { ROOT.simp_slot_frame1 = ROOT.simp_frame_to_set }
-    set_variable = { ROOT.simp_slot_frame2 = ROOT.simp_frame_to_set }
-    set_variable = { ROOT.simp_slot_frame3 = ROOT.simp_frame_to_set } #This makes ROOT.simp_slot_frame1 the same as ROOT.simp_frame_to_set. ROOT.simp_slot_frame1 is what we use in the scripted_gui. ROOT.simp_frame_to_set, is what we will be using in the decision, to change the poster.
+    set_variable = { ROOT.simp_slot_frame1 = ROOT.simp_frame_to_set1 }
+    set_variable = { ROOT.simp_slot_frame2 = ROOT.simp_frame_to_set2 }
+    set_variable = { ROOT.simp_slot_frame3 = ROOT.simp_frame_to_set3 } #This makes ROOT.simp_slot_frame1 the same as ROOT.simp_frame_to_set. ROOT.simp_slot_frame1 is what we use in the scripted_gui. ROOT.simp_frame_to_set, is what we will be using in the decision, to change the poster.
 }
 
 simp_clear_poster = {
