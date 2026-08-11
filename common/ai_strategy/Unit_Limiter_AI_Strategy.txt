@@ -1,0 +1,75 @@
+###HoI4 AI Unit Production Limiter###
+###------------------------------
+###Originally made by GunnarVonPontius
+###Adapted to variables by Yard1
+###------------------------------
+###Limits the amount of divisions an AI country has to the number of factories (civ, mil, nav) it has
+###If your mod adds new unit types, make sure to add them in as well
+###
+###Usage: create an is_exempt_from_division_limit scripted trigger (common/scripted_triggers) to exempt countries from being limited (eg. while at war etc.)
+###Example scripted trigger:
+###is_exempt_from_division_limit = {
+###	OR = {
+###		threat > 0.74
+###		is_major = yes
+###		has_war = yes
+###	}
+###}
+ai_unit_production_limiter = {
+	enable = {
+		is_exempt_from_division_limit = no
+		check_variable = {
+			num_divisions > num_of_factories
+		}
+	}
+	abort = {
+		OR = {
+			is_exempt_from_division_limit = yes
+			check_variable = {
+				num_divisions < num_of_factories
+			}
+		}
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = cavalry
+		value = -100
+	}
+}
