@@ -498,8 +498,8 @@ simp_choose_poster_11 = {
 simp_choose_poster_12 = {
     icon = GFX_decision_generic_propaganda
     allowed = { always = yes }
-    visible = { always = yes }
-    available = { always = yes }
+    visible = { always = no }
+    available = { always = no }
     cost = 25
 
     complete_effect = {
@@ -543,8 +543,8 @@ simp_choose_poster_12 = {
 simp_choose_poster_13 = {
     icon = GFX_decision_generic_propaganda
     allowed = { always = yes }
-    visible = { always = yes }
-    available = { always = yes }
+    visible = { always = no }
+    available = { always = no }
     cost = 25
 
     complete_effect = {
@@ -588,8 +588,8 @@ simp_choose_poster_13 = {
 simp_choose_poster_14 = {
     icon = GFX_decision_generic_propaganda
     allowed = { always = yes }
-    visible = { always = yes }
-    available = { always = yes }
+    visible = { always = no }
+    available = { always = no }
     cost = 25
 
     complete_effect = {
@@ -638,9 +638,6 @@ simp_clear_poster_decision = {
                   check_variable = { ROOT.simp_slot_frame3 > 1 } }
 
     complete_effect = {
-        clr_country_flag = active_simp_poster_1
-        clr_country_flag = active_simp_poster_2
-        clr_country_flag = active_simp_poster_3
         simp_clear_poster = yes     #Our custom effect. Sets the frame to 1, the blank poster, visualy making it blank, clearing it for the player.
     }
 }
