@@ -1,0 +1,9 @@
+spriteTypes = {
+
+    spriteType = { #SpriteType is the image, that is defined, so it can be used by the game.
+        name = "GFX_SIMP_prop_tileset" #The name of the spriteType
+        texturefile = "gfx/interface/simp_prop_tileset.dds"    #The files location within the mod files. Must be precise.
+        noOfFrames = 15 #We use an image, that has 14 posters (each frame) and one blank - the 1st frame. This, automaticaly divides it into 15 excatly shaped frames from the image.
+    }
+
+}

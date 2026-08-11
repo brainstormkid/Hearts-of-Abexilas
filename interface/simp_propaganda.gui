@@ -1,0 +1,26 @@
+guiTypes = { #Needed in any GUI
+        containerWindowType = {     #The container for the GUI
+            name = "simp_propaganda_ui_window"  #The name of the container. IMPORTANT - Must be referenced under common/scripted GUI'S as window_name
+            position = { x = 0 y = 0 }
+            size = { width = 200 height = 200 } 
+
+            iconType = {    #The iconType. Usefull if you want to display an icon, like our poster. Used for static images.
+                name = "simp_slot1" #Name of the iconType. IMPORTANT - Must be referenced under common/scripted GUI'S in a properties block to be manipulated whilst in-game.
+                position = { x = 50 y = 0 }
+ 			    spriteType = "GFX_SIMP_prop_tileset" #IMPORTANT - The Actual Image used. Must be defined in a .gfx file in interface.
+                frame = 1   #We set a Fallback frame. We change this within the properties block in common/scripted GUI'S.
+            }
+            iconType = {    #The iconType. Usefull if you want to display an icon, like our poster. Used for static images.
+                name = "simp_slot2" #Name of the iconType. IMPORTANT - Must be referenced under common/scripted GUI'S in a properties block to be manipulated whilst in-game.
+                position = { x = 200 y = 0 }
+ 			    spriteType = "GFX_SIMP_prop_tileset" #IMPORTANT - The Actual Image used. Must be defined in a .gfx file in interface.
+                frame = 1   #We set a Fallback frame. We change this within the properties block in common/scripted GUI'S.
+            }
+            iconType = {    #The iconType. Usefull if you want to display an icon, like our poster. Used for static images.
+                name = "simp_slot3" #Name of the iconType. IMPORTANT - Must be referenced under common/scripted GUI'S in a properties block to be manipulated whilst in-game.
+                position = { x = 350 y = 0 }
+ 			    spriteType = "GFX_SIMP_prop_tileset" #IMPORTANT - The Actual Image used. Must be defined in a .gfx file in interface.
+                frame = 1   #We set a Fallback frame. We change this within the properties block in common/scripted GUI'S.
+            }
+        }
+}

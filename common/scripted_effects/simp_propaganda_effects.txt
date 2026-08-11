@@ -1,0 +1,13 @@
+simp_set_poster = {
+    set_variable = { ROOT.simp_slot_frame1 = ROOT.simp_frame_to_set }
+    set_variable = { ROOT.simp_slot_frame2 = ROOT.simp_frame_to_set }
+    set_variable = { ROOT.simp_slot_frame3 = ROOT.simp_frame_to_set } #This makes ROOT.simp_slot_frame1 the same as ROOT.simp_frame_to_set. ROOT.simp_slot_frame1 is what we use in the scripted_gui. ROOT.simp_frame_to_set, is what we will be using in the decision, to change the poster.
+}
+
+simp_clear_poster = {
+    set_variable = { ROOT.simp_slot_frame1 = 1 }
+    set_variable = { ROOT.simp_slot_frame2 = 1 }
+    set_variable = { ROOT.simp_slot_frame3 = 1 } # This brings up the 1st frame, the empty tile
+}
+
+#We now set up the custom effects to use, so we dont have to type set_variable every time we change it in the decisions.

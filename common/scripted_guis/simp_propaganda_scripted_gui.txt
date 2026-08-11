@@ -1,0 +1,21 @@
+scripted_gui = {    
+simp_propaganda_ui = {  #This is the name of our scripted GUI. IMPORTANT - We will reference it in common/decisions/decision_category
+    context_type = decision_category    #There are many context types, but ours will be in the decisions. So we choose the decision_category. 
+    window_name = simp_propaganda_ui_window #The name of the window, as per the .gui (interface/simp_propaganda.gui)
+
+    properties = {  #Here we can manipulate the iconType we made in the Scripted GUI.
+        simp_slot1 = {   #Name of the slot. As per the .gui
+            image = "[simp_tileset]"    #IMPORTANT - The image name here, is a localisation key, that we then define in localisation/english/simp_scripted_loc.yml as GFX_SIMP_prop_tileset. So the image we get, is GFX_SIMP_prop_tileset.
+            frame = ROOT.simp_slot_frame1    #Here, we get the frame. ROOT is the country that is viewing the decision, and simp_slot_frame is the name of the variable we will use. We use a variable. It is easy to change in any effect block.
+        }
+        simp_slot2 = {
+            image = "[simp_tileset]"    #IMPORTANT - The image name here, is a localisation key, that we then define in localisation/english/simp_scripted_loc.yml as GFX_SIMP_prop_tileset. So the image we get, is GFX_SIMP_prop_tileset.
+            frame = ROOT.simp_slot_frame2    #Here, we get the frame. ROOT is the country that is viewing the decision, and simp_slot_frame is the name of the variable we will use. We use a variable. It is easy to change in any effect block.
+        }
+        simp_slot3 = {   
+            image = "[simp_tileset]"    #IMPORTANT - The image name here, is a localisation key, that we then define in localisation/english/simp_scripted_loc.yml as GFX_SIMP_prop_tileset. So the image we get, is GFX_SIMP_prop_tileset.
+            frame = ROOT.simp_slot_frame3   #Here, we get the frame. ROOT is the country that is viewing the decision, and simp_slot_frame is the name of the variable we will use. We use a variable. It is easy to change in any effect block.
+        }
+    }
+}
+}

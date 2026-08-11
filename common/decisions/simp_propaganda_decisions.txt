@@ -1,0 +1,210 @@
+simp_propaganda_category = {    #Always make sure your decisions are in a categroy, that you have set earlier.
+
+simp_choose_poster_1 = {    #This is our 1st decison. It will set the 1st poster. The 1st poster is the 2nd frame of the image.
+    icon = GFX_decision_generic_propaganda
+    allowed = { always = yes }
+    visible = { always = yes }
+    available = { always = yes }
+    cost = 25   #How much political Power it costs to take.
+
+    complete_effect = { #We can put any effect (reward) here. Also, set our variables with the set_variable effect.
+        set_variable = { ROOT.simp_frame_to_set = 2 }   #Here, we set the poster. We set it to 2, because 1 is already the blank poster. 
+        simp_set_poster = yes #Here, we make the variable we just set (simp_frame_to_set) to be equal to (simp_slot_frame), the one that actualy changes the frame. We do this with our custom effect, we just defined in the common/scripted_effects
+    }
+}
+
+simp_choose_poster_2 = {
+    icon = GFX_decision_generic_propaganda
+    allowed = { always = yes }
+    visible = { always = yes }
+    available = { always = yes }
+    cost = 25
+
+    complete_effect = {
+        set_variable = { ROOT.simp_frame_to_set = 3 }
+        simp_set_poster = yes
+    }
+}
+
+simp_choose_poster_3 = {
+    icon = GFX_decision_generic_propaganda
+    allowed = { always = yes }
+    visible = { always = yes }
+    available = { always = yes }
+    cost = 25
+
+    complete_effect = {
+        set_variable = { ROOT.simp_frame_to_set = 4 }
+        simp_set_poster = yes
+    }
+}
+
+simp_choose_poster_4 = {
+    icon = GFX_decision_generic_propaganda
+    allowed = { always = yes }
+    visible = { always = yes }
+    available = { always = yes }
+    cost = 25
+
+    complete_effect = {
+        set_variable = { ROOT.simp_frame_to_set = 5 }
+        simp_set_poster = yes
+    }
+}
+
+simp_choose_poster_5 = {
+    icon = GFX_decision_generic_propaganda
+    allowed = { always = yes }
+    visible = { always = yes }
+    available = { always = yes }
+    cost = 25
+
+    complete_effect = {
+        set_variable = { ROOT.simp_frame_to_set = 6 }
+        simp_set_poster = yes
+    }
+}
+
+simp_choose_poster_6 = {
+    icon = GFX_decision_generic_propaganda
+    allowed = { always = yes }
+    visible = { always = yes }
+    available = { always = yes }
+    cost = 25
+
+    complete_effect = {
+        set_variable = { ROOT.simp_frame_to_set = 7 }
+        simp_set_poster = yes
+    }
+}
+
+simp_choose_poster_7 = {
+    icon = GFX_decision_generic_propaganda
+    allowed = { always = yes }
+    visible = { always = yes }
+    available = { always = yes }
+    cost = 25
+
+    complete_effect = {
+        set_variable = { ROOT.simp_frame_to_set = 8 }
+        simp_set_poster = yes
+    }
+}
+
+simp_choose_poster_8 = {
+    icon = GFX_decision_generic_propaganda
+    allowed = { always = yes }
+    visible = { always = yes }
+    available = { always = yes }
+    cost = 25
+
+    complete_effect = {
+        set_variable = { ROOT.simp_frame_to_set = 9 }
+        simp_set_poster = yes
+    }
+}
+
+simp_choose_poster_9 = {
+    icon = GFX_decision_generic_propaganda
+    allowed = { always = yes }
+    visible = { always = yes }
+    available = { always = yes }
+    cost = 25
+
+    complete_effect = {
+        set_variable = { ROOT.simp_frame_to_set = 10 }
+        simp_set_poster = yes
+    }
+}
+
+simp_choose_poster_10 = {
+    icon = GFX_decision_generic_propaganda
+    allowed = { always = yes }
+    visible = { always = yes }
+    available = { always = yes }
+    cost = 25
+
+    complete_effect = {
+        set_variable = { ROOT.simp_frame_to_set = 11 }
+        simp_set_poster = yes
+    }
+}
+
+simp_choose_poster_11 = {
+    icon = GFX_decision_generic_propaganda
+    allowed = { always = yes }
+    visible = { always = yes }
+    available = { always = yes }
+    cost = 25
+
+    complete_effect = {
+        set_variable = { ROOT.simp_frame_to_set = 12 }
+        simp_set_poster = yes
+    }
+}
+
+simp_choose_poster_12 = {
+    icon = GFX_decision_generic_propaganda
+    allowed = { always = yes }
+    visible = { always = yes }
+    available = { always = yes }
+    cost = 25
+
+    complete_effect = {
+        set_variable = { ROOT.simp_frame_to_set = 13 }
+        simp_set_poster = yes
+    }
+}
+
+simp_choose_poster_13 = {
+    icon = GFX_decision_generic_propaganda
+    allowed = { always = yes }
+    visible = { always = yes }
+    available = { always = yes }
+    cost = 25
+
+    complete_effect = {
+        set_variable = { ROOT.simp_frame_to_set = 14 }
+        simp_set_poster = yes
+    }
+}
+
+simp_choose_poster_14 = {
+    icon = GFX_decision_generic_propaganda
+    allowed = { always = yes }
+    visible = { always = yes }
+    available = { always = yes }
+    cost = 25
+
+    complete_effect = {
+        set_variable = { ROOT.simp_frame_to_set = 15 }
+        simp_set_poster = yes
+    }
+}
+
+simp_choose_poster_15 = {
+    icon = GFX_decision_generic_propaganda
+    allowed = { always = yes }
+    visible = { always = yes }
+    available = { always = yes }
+    cost = 25
+
+    complete_effect = {
+        set_variable = { ROOT.simp_frame_to_set = 16 } #There is no Frame 16 in the tileset, so this will not work.
+        simp_set_poster = yes
+    }
+}
+
+simp_clear_poster_decision = {
+    icon = GFX_decision_cancel
+    allowed = { always = yes }
+    visible = { always = yes }
+    available = { check_variable = { ROOT.simp_slot_frame1 > 1 }
+                  check_variable = { ROOT.simp_slot_frame2 > 1 }
+                  check_variable = { ROOT.simp_slot_frame3 > 1 } }
+
+    complete_effect = {
+        simp_clear_poster = yes     #Our custom effect. Sets the frame to 1, the blank poster, visualy making it blank, clearing it for the player.
+    }
+}
+}
