@@ -949,7 +949,7 @@ focus_tree = {
 	#Propaganda Ministry
 	focus = {
 		id = EJZ_propaganda_ministry
-		icon = GFX_focus_generic_manpower
+		icon = GFX_goal_generic_propaganda
 		x = 44
 		y = 2
 		cost = 1
