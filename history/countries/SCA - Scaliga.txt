@@ -119,7 +119,7 @@ if = {
 }
 give_guarantee = EJZ
 recruit_character = SCA_alexfoolery
-
+add_ideas = mercenary_nation
 set_convoys = 20
 
 set_autonomy = {

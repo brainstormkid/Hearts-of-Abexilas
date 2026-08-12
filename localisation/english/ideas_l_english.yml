@@ -244,6 +244,9 @@
  bardonia_advisors_desc:0 "Our Ally Bardonia has provided us with strategic advisors to help us with our strategic battle planning and wars against Aethos."
  fort_of_democracy:0 "Fort of Democracy"
  fort_of_democracy_desc:0 "We as a democracy stand alone on Caerus. We must stay strong and fend of anyone threating our freedom!"
+ #Mercenary Nations
+  mercenary_nation:0 "Mercenary Nation"
+  mercenary_nation_desc:0 "Our nation is known for its mercenary forces, which are highly skilled and well-equipped."
  
  # ASI
  asi_member:0 "Abexilan Socialist Internationale Member"

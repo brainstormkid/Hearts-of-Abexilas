@@ -412,5 +412,20 @@ ideas = {
 				monthly_population = 0.01
 			}
 		}
+		mercenary_nation = {
+			picture = ast_volunteer_defence_corps
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				army_experience_from_volunteers = 0.15
+				send_volunteer_divisions_required = -0.1
+				send_volunteer_size = 2
+				send_volunteers_tension = -0.15
+			}
+		}
 	}
 }

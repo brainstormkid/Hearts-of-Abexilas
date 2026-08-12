@@ -1,0 +1,2 @@
+﻿l_english:
+  "EJZ_tileset:0" "GFX_EJZ_prop_tileset" #We will use this in common/scripted GUI's, inside the properties block, as image = "[EJZ_tileset]". This is what defines where EJZ_tileset should lead (AKA. What spriteType we use)

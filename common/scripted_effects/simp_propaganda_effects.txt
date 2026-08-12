@@ -1,19 +1,19 @@
-simp_set_poster = {
-    set_variable = { ROOT.simp_slot_frame1 = ROOT.simp_frame_to_set1 }
-    set_variable = { ROOT.simp_slot_frame2 = ROOT.simp_frame_to_set2 }
-    set_variable = { ROOT.simp_slot_frame3 = ROOT.simp_frame_to_set3 } #This makes ROOT.simp_slot_frame1 the same as ROOT.simp_frame_to_set. ROOT.simp_slot_frame1 is what we use in the scripted_gui. ROOT.simp_frame_to_set, is what we will be using in the decision, to change the poster.
+EJZ_set_poster = {
+    set_variable = { ROOT.EJZ_slot_frame1 = ROOT.EJZ_frame_to_set1 }
+    set_variable = { ROOT.EJZ_slot_frame2 = ROOT.EJZ_frame_to_set2 }
+    set_variable = { ROOT.EJZ_slot_frame3 = ROOT.EJZ_frame_to_set3 } #This makes ROOT.EJZ_slot_frame1 the same as ROOT.EJZ_frame_to_set. ROOT.EJZ_slot_frame1 is what we use in the scripted_gui. ROOT.EJZ_frame_to_set, is what we will be using in the decision, to change the poster.
 }
 
-simp_clear_poster = {
-    clr_country_flag = active_simp_poster_1
-    clr_country_flag = active_simp_poster_2
-    clr_country_flag = active_simp_poster_3
-    set_variable = { ROOT.simp_slot_frame1 = 1 }
-    set_variable = { ROOT.simp_slot_frame2 = 1 }
-    set_variable = { ROOT.simp_slot_frame3 = 1 }
-    set_variable = { ROOT.simp_frame_to_set1 = 1 }
-    set_variable = { ROOT.simp_frame_to_set2 = 1 }
-    set_variable = { ROOT.simp_frame_to_set3 = 1 } # This brings up the 1st frame, the empty tile
+EJZ_clear_poster = {
+    clr_country_flag = active_EJZ_poster_1
+    clr_country_flag = active_EJZ_poster_2
+    clr_country_flag = active_EJZ_poster_3
+    set_variable = { ROOT.EJZ_slot_frame1 = 1 }
+    set_variable = { ROOT.EJZ_slot_frame2 = 1 }
+    set_variable = { ROOT.EJZ_slot_frame3 = 1 }
+    set_variable = { ROOT.EJZ_frame_to_set1 = 1 }
+    set_variable = { ROOT.EJZ_frame_to_set2 = 1 }
+    set_variable = { ROOT.EJZ_frame_to_set3 = 1 } # This brings up the 1st frame, the empty tile
 }
 
 #We now set up the custom effects to use, so we dont have to type set_variable every time we change it in the decisions.

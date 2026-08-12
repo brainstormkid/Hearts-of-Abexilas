@@ -63,7 +63,7 @@ bookmarks = {
 			history = SCA_desc
 			ideology = absolutist
 			ideas={
-				
+				mercenary_nation
 			}
 			focuses = {
 				

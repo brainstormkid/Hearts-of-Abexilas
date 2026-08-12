@@ -1,0 +1,13 @@
+EJZ_propaganda_category = {    #Defines the category for us to use when making the decision. We also insert the GUI here. The categroy is like a folder, for all decisions, and our scripted_gui to go into.
+
+    icon = GFX_decision_generic_propaganda  
+
+    allowed = { tag = EJZ }
+
+    visible = { always = yes }
+
+    scripted_gui = EJZ_propaganda_ui   #This is the name of our scripted GUI, as per the common/scripted GUI. It is the 2nd line, the block name, that is inside of the scripted_gui = { block.
+
+    priority = 4     #Priority sets how far up the decisions the decision category (The GUI and all our decisions) should be. Setting it to 1000, means it will be on top, as soon as you open the decisons in-game.
+
+}

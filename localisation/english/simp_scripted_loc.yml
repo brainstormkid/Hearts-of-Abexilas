@@ -1,2 +1,0 @@
-﻿l_english:
-  "simp_tileset:0" "GFX_SIMP_prop_tileset" #We will use this in common/scripted GUI's, inside the properties block, as image = "[simp_tileset]". This is what defines where simp_tileset should lead (AKA. What spriteType we use)

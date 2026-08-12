@@ -1,0 +1,21 @@
+﻿l_english:
+
+ EJZ_propaganda_category:0 "Propaganda Ministry" #Name of the decision category
+
+ EJZ_choose_poster_1:0 "Report Communism To Your Foreman" #Name of each individual decision (From 1 to 15) ↓
+ EJZ_choose_poster_2:0 "Together Against Griefing"
+ EJZ_choose_poster_3:0 "Ejznsteda, There's Room For You Too"
+ EJZ_choose_poster_4:0 "Wake Up, Sleepy Head!"
+ EJZ_choose_poster_5:0 "Agrabah, We Shall Own This Land!"
+ EJZ_choose_poster_6:0 "Allegeince To The Kingdom of Ejznrosa"
+ EJZ_choose_poster_7:0 "Rebel Against Szynek!"
+ EJZ_choose_poster_8:0 "The Regency's Got It Covered!"
+ EJZ_choose_poster_9:0 "Brothers Of Flanderia, Welcome Back!"
+ EJZ_choose_poster_10:0 "Valdic Thief, Flanderian Hooker, Match For Hell"
+ EJZ_choose_poster_11:0 "Wake up! Help us bring back the dream"
+ EJZ_choose_poster_12:0 "Run Poster L"
+ EJZ_choose_poster_13:0 "Run Poster M"
+ EJZ_choose_poster_14:0 "Run Poster N"
+ EJZ_choose_poster_15:0 "Run Poster O"
+
+ EJZ_clear_poster_decision:0 "Remove Active Poster (debug)"
