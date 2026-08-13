@@ -2523,4 +2523,36 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = EJZ_convene_the_senate
+		icon = GFX_focus_ETH_re-convene_the_parliament
+		x = 5
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = {
+			focus = EJZ_rally_around_the_duke
+		}
+		mutually_exclusive = {
+			focus = EJZ_a_new_course
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = liberalist
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = conservatist
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = centrist
+				popularity = 0.05
+			}
+			add_stability = 0.05
+			add_political_power = 75
+		}
+	}
 }
