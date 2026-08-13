@@ -73,3 +73,15 @@ news_event = {
 	is_triggered_only = yes
 
 }
+news_event = {
+	id = EJZ_news.6
+	title = EJZ_news.6.t
+	desc =  EJZ_news.6.d
+	picture = GFX_ejznrosa_news_event_006
+	
+	major = yes
+	option = {
+		name = "Long Live Iristoya!"
+	}
+	is_triggered_only = yes
+}

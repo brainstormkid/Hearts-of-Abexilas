@@ -112,6 +112,10 @@ spriteTypes = {
 		name = "GFX_ejznrosa_news_event_005"
 		texturefile = "gfx/event_pictures/news_EJZ_iron_senate_on_fire.dds"
 	}
+	SpriteType = {
+		name = "GFX_ejznrosa_news_event_006"
+		texturefile = "gfx/event_pictures/news_EJZ_iristoyan_summit.dds"
+	}
 	#Scaliga News Event
 	SpriteType = {
 		name = "GFX_scaliga_news_event_001"
