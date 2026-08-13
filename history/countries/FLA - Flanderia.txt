@@ -1,14 +1,21 @@
 ﻿capital = 527
 oob = "FLA"
 set_politics = {
-	ruling_party = absolutist
+	ruling_party = monarchist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	absolutist = 100
+	monarchist = 70
+    absolutist = 15
+    conservatist = 5
+    liberalist = 3
+    revisionist = 2
+    radical_nationalist = 2
+    radical_socialist = 3
 }
+recruit_character = FLA_damian_ad_alendir
 set_country_flag = EJZ_joint_focus_tree
 create_country_leader = {
 	name = "?"
