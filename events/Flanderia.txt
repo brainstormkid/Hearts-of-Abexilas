@@ -1,0 +1,15 @@
+add_namespace = flanderia
+
+###  Abdication ###
+country_event = {
+	id = flanderia.1
+	title = "Abdication of Damian Vericov-Alendir"
+	desc = flanderia.1.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "A new era."
+		retire_ideology_leader = monarchist
+	}
+}

@@ -2779,6 +2779,9 @@ focus_tree = {
 		x = 45
 		y = 0
 		cost = 10
+		available = {
+			is_subject = no
+		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}

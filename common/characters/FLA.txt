@@ -1,16 +1,16 @@
 characters={
-    FLA_damian_ad_alendir = {
+    FLA_casian_vericov_ad_alendir = {
         
-        name = FLA_CHAR_damian_ad_alendir
+        name = FLA_CHAR_casian_vericov_ad_alendir
         portraits={
             civilian={
-                large="GFX_portrait_FLA_damian_ad_alendir_large"
+                large="GFX_portrait_FLA_casian_vericov_ad_alendir_large"
             }
         }
         country_leader = {
             ideology = monarchist_subtype
             traits = {}
-            desc = FLA_CHAR_damian_ad_alendir_desc
+            desc = FLA_CHAR_casian_vericov_ad_alendir_desc
         }
     }
 }

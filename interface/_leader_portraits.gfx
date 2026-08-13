@@ -335,6 +335,10 @@ spriteTypes = {
 		name = "GFX_portrait_FLA_damian_ad_alendir_large"
 		texturefile = "gfx/leaders/FLA/portrait_large_damian_ad_alendir.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_FLA_casian_vericov_ad_alendir_large"
+		texturefile = "gfx/leaders/FLA/portrait_large_casian_vericov_ad_alendir.dds"
+	}
 	### VEA	
 	spriteType = {
 		name = "GFX_portrait_VEA_zeno_small"

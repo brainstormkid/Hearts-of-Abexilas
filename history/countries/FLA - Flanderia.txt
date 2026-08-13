@@ -15,14 +15,14 @@ set_popularities = {
     radical_nationalist = 2
     radical_socialist = 3
 }
-recruit_character = FLA_damian_ad_alendir
+recruit_character = FLA_casian_vericov_ad_alendir
 set_country_flag = EJZ_joint_focus_tree
 create_country_leader = {
-	name = "?"
-	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	picture = "gfx/leaders/AEZ/generic_no_leader.dds"
+	name = FLA_CHAR_damian_ad_alendir
+	desc = FLA_CHAR_damian_ad_alendir_desc
+	picture = "GFX_portrait_FLA_damian_ad_alendir_large"
 	expire = "1965.1.1"
-	ideology = absolutist_subtype
+	ideology = monarchist_subtype
 	traits = {
 		#
 	}
