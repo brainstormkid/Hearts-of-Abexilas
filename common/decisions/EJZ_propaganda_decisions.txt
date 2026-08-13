@@ -541,7 +541,7 @@ EJZ_choose_poster_7 = {
     icon = GFX_decision_generic_propaganda
     allowed = { always = yes }
     visible = { always = yes }
-    available = { AND={OR = {NOT={has_country_flag = active_EJZ_poster_1} NOT={has_country_flag = active_EJZ_poster_2} NOT={has_country_flag = active_EJZ_poster_3} } EJZ = {radical_socialist > 0.3} }}
+    available = { AND={OR = {NOT={has_country_flag = active_EJZ_poster_1} NOT={has_country_flag = active_EJZ_poster_2} NOT={has_country_flag = active_EJZ_poster_3} } FLA = {has_country_leader = { character = FLA_sunndar_the_second_av_aldver ruling_only = yes }}
     cost = 25
     days_remove = 140
     days_re_enable = 70

@@ -16,6 +16,7 @@ set_popularities = {
     radical_socialist = 3
 }
 recruit_character = FLA_casian_vericov_ad_alendir
+recruit_character = FLA_sunndar_the_second_av_aldver
 set_country_flag = EJZ_joint_focus_tree
 create_country_leader = {
 	name = FLA_CHAR_damian_ad_alendir

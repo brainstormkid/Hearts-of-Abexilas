@@ -13,3 +13,15 @@ country_event = {
 		retire_ideology_leader = monarchist
 	}
 }
+country_event = {
+	id = flanderia.2
+	title = "Abdication of Casian Vericov ad Alendir"
+	desc = flanderia.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "A new era."
+		retire_ideology_leader = monarchist
+	}
+}
