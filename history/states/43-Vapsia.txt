@@ -5,7 +5,7 @@ state={
 		1774 7316 7369 7383 7387 7418 7424 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=300000
 		resources = {
 		oil = 2
 		aluminium = 2
@@ -15,11 +15,14 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+        state_category = rural
 	history={
 		owner = TYA
 		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
 		}
+		victory_points = {7418 5}
 		add_core_of = TYA
 	}
 }

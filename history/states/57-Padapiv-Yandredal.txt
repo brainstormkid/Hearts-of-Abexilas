@@ -5,7 +5,7 @@ state={
 		2652 2887 6033 6515 7432 7433 7458 7465 7483 7513 7514 7576 7591 7637 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=2000000
 		resources = {
 		oil = 2
 		aluminium = 2
@@ -15,10 +15,13 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+    state_category = large_town
 	history={
 		owner = TYA
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
 		add_core_of = TYA
 	}
