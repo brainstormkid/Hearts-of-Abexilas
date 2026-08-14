@@ -1,0 +1,35 @@
+state={
+	id=18
+	name="STATE_18"
+	provinces={
+		357 844 878 1028 1478 2811 2940 3313 3703 4851 6801 6871 7070 7071 7072 7073 7104 7116 7117 7140 7148 7157 7158 7182 7206 7208 7220 7240 7265 7270 7297 7302 7327 7345 7357 
+	}
+	buildings_max_level_factor=1.000
+        manpower=6750000
+		resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+        state_category = large_town
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 1
+		}
+		victory_points = {7140 50}
+		victory_points = {7071 10}
+		victory_points = {7070 5}
+		victory_points = {7073 5}
+		victory_points = {7206 5}
+		victory_points = {7302 5}
+		victory_points = {2811 5}
+		add_core_of = NOR
+	}
+}

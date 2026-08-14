@@ -24,6 +24,7 @@ state={
 			arms_factory = 3
 		}
 		victory_points = {7630 50}
+		victory_points = {7858 5}
 		add_core_of = OBS
 	}
 }
