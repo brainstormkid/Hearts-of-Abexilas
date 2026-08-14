@@ -39,3 +39,7 @@ MAR_BLO = {
 	color = rgb { 174  62  216 }
 	color_ui = rgb { 174  62  216 }
 }
+boulderash_formed = {
+	color = { 87  32  23 }
+	color_ui = { 87  32  23 }
+}

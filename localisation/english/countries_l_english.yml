@@ -496,6 +496,10 @@
  BOU:1 "Boulderov"
  BOU_DEF:1 "Boulderov"
  BOU_ADJ:0 "Boulderovian"
+
+ boulderash_formed:1 "Divine Ascendency of Boulderash"
+ boulderash_formed_DEF:1 "the Divine Ascendency of Boulderash"
+ boulderash_formed_ADJ:0 "Boulderashian"
  
  BOV_absolutist:1 "Bovinica"
  BOV_absolutist_DEF:1 "the Bovinica"

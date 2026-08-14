@@ -128,4 +128,52 @@ form_usa_category = {
 		}
 	}
 }
+form_boulderash_category = {
+	form_boulderash = {
+		icon = generic_form_nation
+		allowed = {
+			tag = BOU
+		}
+		available = {
+			controls_state = 194
+			controls_state = 1154
+			controls_state = 1155
+			controls_state = 1153
+			controls_state = 210
+			controls_state = 305
+		}
+		highlight_states = {
+   			highlight_state_targets = {
+        		state = 194
+        		state = 1154
+				state = 1155
+				state = 1153
+				state = 210
+				state = 305
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
+		}
+		complete_effect = {
+			set_cosmetic_tag = boulderash_formed
+			194 = { add_core_of = ROOT }
+			1154 = { add_core_of = ROOT }
+			1155 = { add_core_of = ROOT }
+			1153 = { add_core_of = ROOT }
+			210 = { add_core_of = ROOT }
+			305 = { add_core_of = ROOT}
+			hidden_effect = {
+				set_global_flag = form_boulderash_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		fire_only_once = yes
+	}
+}
 			

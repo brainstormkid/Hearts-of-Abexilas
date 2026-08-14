@@ -27,4 +27,14 @@ form_usa_category = {
 	}
 }
 
+form_boulderash_category = {
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_generic_greater_leyenbourg
+
+	allowed = {
+
+	}
+}
+
 
