@@ -3,7 +3,7 @@ bookmarks = {
 		name = "TANRAGH_NAME"
 		desc = "TANRAGH_DESC"
 		date = 2.1.1.12
-		picture = "GFX_select_date_TANRAGH"
+		picture = ""
 		default_country = "ASR"
 		default = yes
 		

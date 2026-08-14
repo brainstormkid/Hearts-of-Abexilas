@@ -3,7 +3,7 @@ bookmarks = {
 		name = "NORVINIA_NAME"
 		desc = "NORVINIA_DESC"
 		date = 2.1.1.12
-		picture = "GFX_select_date_NORVINIA"
+		picture = ""
 		default_country = "VHA"
 		default = yes
 		

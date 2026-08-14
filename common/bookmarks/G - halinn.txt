@@ -3,7 +3,7 @@ bookmarks = {
 		name = "HALINN_NAME"
 		desc = "HALINN_DESC"
 		date = 2.1.1.12
-		picture = "GFX_select_date_HALINN"
+		picture = ""
 		default_country = "ACR"
 		default = yes
 		
