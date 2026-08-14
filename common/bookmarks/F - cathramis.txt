@@ -3,7 +3,7 @@ bookmarks = {
 		name = "CATHRAMIS_NAME"
 		desc = "CATHRAMIS_DESC"
 		date = 2.1.1.12
-		picture = "GFX_select_date_CATHRAMIS"
+		picture = ""
 		default_country = "GAR"
 		default = yes
 

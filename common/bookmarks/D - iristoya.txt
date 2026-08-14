@@ -3,7 +3,7 @@ bookmarks = {
 		name = "IRISTOYA_NAME"
 		desc = "IRISTOYA_DESC"
 		date = 2.1.1.12
-		picture = "GFX_select_date_IRISTOYA"
+		picture = ""
 		default_country = "VAD"
 		default = yes
 		

@@ -3,7 +3,7 @@ bookmarks = {
 		name = "ROZAKKORA_NAME"
 		desc = "ROZAKKORA_DESC"
 		date = 2.1.1.12
-		picture = "GFX_select_date_ROZAKKORA"
+		picture = ""
 		default_country = "SET"
 		default = yes
 		

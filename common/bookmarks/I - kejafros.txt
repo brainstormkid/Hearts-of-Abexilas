@@ -3,7 +3,7 @@ bookmarks = {
 		name = "KEJAFROS_NAME"
 		desc = "KEJAFROS_DESC"
 		date = 2.1.1.12
-		picture = "GFX_select_date_KEJAFROS"
+		picture = ""
 		default_country = "ISH"
 		default = yes
 

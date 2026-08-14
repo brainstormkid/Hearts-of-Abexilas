@@ -3,7 +3,7 @@ bookmarks = {
 		name = "CAERUS_NAME"
 		desc = "CAERUS_DESC"
 		date = 2.1.1.12
-		picture = "GFX_select_date_CAERUS"
+		picture = ""
 		default_country = "BAR"
 		default = yes
 		
