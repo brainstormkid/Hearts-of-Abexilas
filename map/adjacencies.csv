@@ -162,6 +162,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment,
 7236;1957;sea;21057;-1;-1;-1;-1;;EternalCitadel-Lodestone-Bridge,
 2959;7147;sea;21057;-1;-1;-1;-1;;Lodestone-EternalCitadel-Bridge,
 7066;15289;sea;21057;-1;-1;-1;-1;;EternalCitadel-WestEternalCitadel-Bridge,
+7559;7574;sea;20180;-1;-1;-1;-1;;Padapiv-Aarchendal-Bridge,
+7437;4879;sea;19220;-1;-1;-1;-1;;Northern-Romapunovka-Southern-Romapunovka-Bridge,
+7382;4420;sea;19220;-1;-1;-1;-1;;Northern-Romapunovka-Romapunovka-Island-Bridge,
+7772;4646;sea;21659;-1;-1;-1;-1;;Aarchendal-Novenoburg-Bridge,
 
 
 
