@@ -1,6 +1,9 @@
 spriteTypes = {
 
-
+	spriteType = {
+		name = "GFX_scenario_map_bg"
+		texturefile = "gfx/interface/scenario_map_bg.dds"
+	}
 
 	spriteType = {
 		name = "GFX_country_selection_minor_entry"
