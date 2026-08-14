@@ -5,7 +5,7 @@ state={
 		1503 1716 3497 4906 5396 6060 6189 6373 7930 7934 7978 7979 7987 7995 8011 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=1500000
 		resources = {
 		oil = 2
 		aluminium = 2
@@ -19,7 +19,11 @@ state={
 	history={
 		owner = ARL
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
 		}
+		victory_points = {7979 50}
 		add_core_of = ARL
 	}
 }

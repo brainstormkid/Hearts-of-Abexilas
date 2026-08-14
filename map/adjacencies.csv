@@ -167,6 +167,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment,
 7382;4420;sea;19220;-1;-1;-1;-1;;Northern-Romapunovka-Romapunovka-Island-Bridge,
 7772;4646;sea;21659;-1;-1;-1;-1;;Aarchendal-Novenoburg-Bridge,
 6962;2940;sea;18703;-1;-1;-1;-1;;Prolsaw-Hafen-Cyroka-Bridge,
+7847;6189;sea;19972;-1;-1;-1;-1;;Troika-Artilon-Bridge,
+4079;7766;sea;20044;-1;-1;-1;-1;;Mardurak-Bellator-Bridge,
+7978;15295;sea;17741;-1;-1;-1;-1;;Artilon-Island-Artilon-Bridge,
+8079;1716;sea;21708;-1;-1;-1;-1;;Sainthall-Artilon-Bridge,
 
 
 
