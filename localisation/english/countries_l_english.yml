@@ -2016,6 +2016,10 @@
  OST_DEF:1 "Osterland"
  OST_ADJ:0 "Osterlandian"
  
+ greater_osterland_formed:1 "The Imperium of Greater Osterland"
+ greater_osterland_formed_DEF:1 "The Imperium of Greater Osterland"
+ greater_osterland_formed_ADJ:0 "Osterlandian"
+ 
  PAL_absolutist:1 "Paloka"
  PAL_absolutist_DEF:1 "the Paloka"
  PAL_absolutist_ADJ:0 "Paloka"

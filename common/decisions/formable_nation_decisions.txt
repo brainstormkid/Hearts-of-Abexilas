@@ -288,4 +288,70 @@ form_eirwynor_category = {
 		fire_only_once = yes
 	}
 }
+form_greater_osterland_category = {
+	form_greater_osterland = {
+		icon = generic_form_nation
+		allowed = {
+			tag = OST
+		}
+		available = {
+			controls_state = 1099
+			controls_state = 1182
+			controls_state = 1064
+			controls_state = 1068
+			controls_state = 1219
+			controls_state = 1175
+			controls_state = 1114
+			controls_state = 1126
+			controls_state = 1161
+			controls_state = 1163
+			controls_state = 1162
+			controls_state = 1220
+		}
+		highlight_states = {
+   			highlight_state_targets = {
+        		state = 1099
+        		state = 1182
+				state = 1064
+				state = 1068
+				state = 1219
+				state = 1175
+				state = 1114
+				state = 1126
+				state = 1161
+				state = 1163
+				state = 1162
+				state = 1220
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
+		}
+		complete_effect = {
+			set_cosmetic_tag = greater_osterland_formed
+			1099 = { add_core_of = ROOT }
+			1182 = { add_core_of = ROOT }
+			1064 = { add_core_of = ROOT }
+			1068 = { add_core_of = ROOT }
+			1219 = { add_core_of = ROOT }
+			1175 = { add_core_of = ROOT}
+			1114 = { add_core_of = ROOT}
+			1126 = { add_core_of = ROOT}
+			1161 = { add_core_of = ROOT}
+			1163 = { add_core_of = ROOT}
+			1162 = { add_core_of = ROOT}
+			1220 = { add_core_of = ROOT}
+			hidden_effect = {
+				set_global_flag = form_greater_osterland_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		fire_only_once = yes
+	}
+}
 			

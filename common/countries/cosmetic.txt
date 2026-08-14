@@ -47,3 +47,7 @@ eirwynor_formed = {
 	color =  rgb { 219  233  244 }
 	color_ui =  rgb { 219  233  244 }
 }
+greater_osterland_formed = {
+	color = rgb { 186  186  83 }
+	color_ui = rgb { 186  186  83 }
+}

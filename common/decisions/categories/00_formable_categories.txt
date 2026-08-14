@@ -47,4 +47,14 @@ form_eirwynor_category = {
 	}
 }
 
+form_greater_osterland_category = {
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_generic_greater_leyenbourg
+
+	allowed = {
+
+	}
+}
+
 
