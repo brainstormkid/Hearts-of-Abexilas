@@ -775,6 +775,10 @@
  EIS:1 "Eiszura"
  EIS_DEF:1 "Eiszura"
  EIS_ADJ:0 "Eiszuratti"
+
+ eirwynor_formed:0 "Empire of Eirwynor"
+ eirwynor_formed_DEF:1 ""the Empire of Eirwynor"
+ eirwynor_formed_ADJ:0 "Eirwynorian"
  
  EJZ_absolutist:1 "Grousharjatum av Ejznrosa"
  EJZ_absolutist_DEF:1 "the Grousharjatum av Ejznrosa"

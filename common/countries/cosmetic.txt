@@ -40,6 +40,10 @@ MAR_BLO = {
 	color_ui = rgb { 174  62  216 }
 }
 boulderash_formed = {
-	color = { 87  32  23 }
-	color_ui = { 87  32  23 }
+	color =  rgb { 87  32  23 }
+	color_ui = rgb { 87  32  23 }
+}
+eirwynor_formed = {
+	color =  rgb { 219  233  244 }
+	color_ui =  rgb { 219  233  244 }
 }

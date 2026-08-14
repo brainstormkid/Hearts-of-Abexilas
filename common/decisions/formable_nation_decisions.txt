@@ -176,4 +176,116 @@ form_boulderash_category = {
 		fire_only_once = yes
 	}
 }
+form_eirwynor_category = {
+	form_eirwynor = {
+		icon = generic_form_nation
+		allowed = {
+			OR = {
+				tag = CAS
+				tag = IRI
+				tag = ASP
+			}
+		}
+		available = {
+			controls_state = 176
+			controls_state = 175
+			controls_state = 186
+			controls_state = 167
+			controls_state = 162
+			controls_state = 168
+			controls_state = 141
+			controls_state = 150
+			controls_state = 139
+			controls_state = 31
+			controls_state = 29
+			controls_state = 30
+			controls_state = 28
+			controls_state = 44
+			controls_state = 27
+			controls_state = 52
+			controls_state = 63
+			controls_state = 25
+			controls_state = 24
+			controls_state = 41
+			controls_state = 1147
+			controls_state = 46
+			controls_state = 35
+			controls_state = 26
+			controls_state = 217
+			controls_state = 219
+		}
+		highlight_states = {
+   			highlight_state_targets = {
+				state = 176
+				state = 175
+				state = 186
+				state = 167
+				state = 162
+				state = 168
+				state = 141
+				state = 150
+				state = 139
+				state = 31
+				state = 29
+				state = 30
+				state = 28
+				state = 44
+				state = 27
+				state = 52
+				state = 63
+				state = 25
+				state = 24
+				state = 41
+				state = 1147
+				state = 46 
+				state = 35
+				state = 26
+				state = 217
+				state = 219
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
+		}
+		complete_effect = {
+			set_cosmetic_tag = eirwynor_formed
+			176 = { add_core_of = ROOT }
+			175 = { add_core_of = ROOT }
+			186 = { add_core_of = ROOT }
+			167 = { add_core_of = ROOT }
+			162 = { add_core_of = ROOT }
+			168 = { add_core_of = ROOT }
+			141 = { add_core_of = ROOT }
+			150 = { add_core_of = ROOT }
+			139 = { add_core_of = ROOT }
+			31 = { add_core_of = ROOT }
+			29 = { add_core_of = ROOT }
+			30 = { add_core_of = ROOT }
+			28 = { add_core_of = ROOT }
+			44 = { add_core_of = ROOT }
+			27 = { add_core_of = ROOT }
+			52 = { add_core_of = ROOT }
+			63 = { add_core_of = ROOT }
+			25 = { add_core_of = ROOT }
+			24 = { add_core_of = ROOT }
+			41 = { add_core_of = ROOT }
+			1147 = { add_core_of = ROOT }
+			46 = { add_core_of = ROOT }
+			35 = {add_core_of = ROOT}
+			26 = {add_core_of = ROOT}
+			217 = {add_core_of = ROOT}
+			219 = {add_core_of = ROOT}
+			hidden_effect = {
+				set_global_flag = form_eirwynor_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		fire_only_once = yes
+	}
+}
 			
