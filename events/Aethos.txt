@@ -1,0 +1,32 @@
+add_namespace = aethos
+
+#shianjai civil war
+country_event = {
+	id = aethos.1
+	title = "Lutian's Offer"
+	desc = "Lutian has offered us to merge with us!"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "yes"
+		
+		ai_chance = {
+			factor = 1
+		}
+		
+    SHA = {
+      add_state_core = 55
+      add_state_core = 56
+      transfer_state = 55
+      transfer_state = 56
+      load_oob = "SHA"
+      set_capital = { state = 55 }
+      declare_war_on = {
+          target = AET
+          type = annex_everything
+      }
+      add_civil_war_target = AET
+    }
+	}
+}
