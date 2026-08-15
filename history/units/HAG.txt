@@ -67,7 +67,7 @@ division_template = {
 	}
 }
 
-
+units = {
 	division = {
 		name = "Aerian Infantry"
 		location = 12550
