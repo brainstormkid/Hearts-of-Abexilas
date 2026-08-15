@@ -18,11 +18,12 @@ state={
         state_category = pastoral
 		local_supplies = 0.5
 	history={
-		owner = AET
+		owner = HAG
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = AET
+		add_core_of = HAG
+		add_claim_by = AET
 		victory_points = { 12664 10 }
 	}
 }
