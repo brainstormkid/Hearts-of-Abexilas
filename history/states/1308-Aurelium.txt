@@ -1,0 +1,29 @@
+state={
+	id=1308
+	name="STATE_1308"
+	provinces={
+		 885 1077 2954 3339 5997 8110 8111 8117 8137 8160 8161 8168 8205 8206 8230
+	}
+	buildings_max_level_factor=1.000
+		manpower=5700000
+		resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+		state_category = town
+	history={
+		owner = NOD
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {5997 50}
+		add_core_of = NOD
+	}
+}

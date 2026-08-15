@@ -5,7 +5,7 @@ state={
 		240 2020 6299 8122 8150 8151 8186 8249
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=2250000
 		resources = {
 		oil = 2
 		aluminium = 2
@@ -19,7 +19,11 @@ state={
 	history={
 		owner = INN
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
 		}
+		victory_points = {6299 50}
 		add_core_of = INN
 	}
 }
