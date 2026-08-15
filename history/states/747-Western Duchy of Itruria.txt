@@ -18,10 +18,11 @@ state={
         state_category = small_island
 		local_supplies = 1
 	history={
-		owner = AET
+		owner = HAG
 		buildings = {
 		infrastructure = 1
 		}
-		add_core_of = AET
+		add_core_of = HAG
+		add_claim_by = AET
 	}
 }
