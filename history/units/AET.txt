@@ -92,27 +92,6 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "8th Aethosian Infantry"
-		location = 12550
-		division_template = "Infantry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "9th Aethosian Infantry"
-		location = 5687
-		division_template = "Infantry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "10th Aethosian Infantry"
-		location = 6537
-		division_template = "Infantry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
 		name = "1st Aethosian Guards"
 		location = 13653
 		division_template = "Guard Division"
@@ -164,41 +143,6 @@ units = {
 	division = {
 		name = "8th Aethosian Guards"
 		location = 7033
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "9th Aethosian Guards"
-		location = 6874
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "10th Aethosian Guards"
-		location = 6847
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "11th Aethosian Guards"
-		location = 12650
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "12th Aethosian Guards"
-		location = 3774
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "13th Aethosian Guards"
-		location = 12977
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
@@ -374,69 +318,6 @@ units = {
 	division = {
 		name = "25th Aethosian Cavalry"
 		location = 2201
-		division_template = "Cavalry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "26th Aethosian Cavalry"
-		location = 1835
-		division_template = "Cavalry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "27th Aethosian Cavalry"
-		location = 2158
-		division_template = "Cavalry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "28th Aethosian Cavalry"
-		location = 12979
-		division_template = "Cavalry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "29th Aethosian Cavalry"
-		location = 12779
-		division_template = "Cavalry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "30th Aethosian Cavalry"
-		location = 12632
-		division_template = "Cavalry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "31st Aethosian Cavalry"
-		location = 12664
-		division_template = "Cavalry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "32nd Aethosian Cavalry"
-		location = 12752
-		division_template = "Cavalry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "33rd Aethosian Cavalry"
-		location = 12892
-		division_template = "Cavalry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "34th Aethosian Cavalry"
-		location = 12911
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
