@@ -7,6 +7,8 @@ AET = {
     }
 }
 
+oob = "HAG"
+
 set_politics = {
 	ruling_party = absolutist
 	last_election = "1936.1.1"
