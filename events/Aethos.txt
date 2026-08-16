@@ -3,10 +3,16 @@ add_namespace = aethos
 #shianjai civil war
 country_event = {
 	id = aethos.1
-	title = "Lutian's Offer"
-	desc = "Lutian has offered us to merge with us!"
+	title = "The Khanate has risen!"
+	desc = "Battlestations!"
 	
-	is_triggered_only = yes
+	is_triggered_only = no
+	fire_only_once = yes
+
+	trigger = {
+        tag = AET
+		date > 2.5.2
+    }
 	
 	option = {
 		name = "yes"
