@@ -1,0 +1,28 @@
+state={
+	id=188
+	name="STATE_188"
+	provinces={
+		1067 1301 2598 3316 5002 6208 8873 8914 8941 8991 8992 9035 9073 9082 9093 9108 
+	}
+	buildings_max_level_factor=1.000
+        manpower=900000
+		resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+        state_category = rural
+	history={
+		owner = VLA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VLA
+		victory_points = {9108 10}
+		victory_points = {8941 5}
+	}
+}

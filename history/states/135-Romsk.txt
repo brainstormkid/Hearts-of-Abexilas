@@ -5,7 +5,7 @@ state={
 		14 637 1642 5456 5515 5642 6617 8236 8261 8262 8284 8327 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=1200000
 		resources = {
 		oil = 2
 		aluminium = 2
@@ -19,7 +19,12 @@ state={
 	history={
 		owner = VLA
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
 		}
+		victory_points = {5642 5}
+		victory_points = {5515 5}
+		victory_points = {637 10}
 		add_core_of = VLA
 	}
 }

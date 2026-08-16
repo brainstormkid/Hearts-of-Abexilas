@@ -1,0 +1,28 @@
+state={
+	id=159
+	name="STATE_159"
+	provinces={
+		18 662 1202 1481 2241 2787 5235 5239 5564 5733 8513 8538 8587 8603 8637 8647 8742 
+	}
+	buildings_max_level_factor=1.000
+        manpower=300000
+		resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+        state_category = town
+	history={
+		owner = VLA
+		buildings = {
+			infastructure = 1
+			arms_factory = 1
+		}
+		victory_points = {8587 5}
+		add_core_of = VLA
+	}
+}

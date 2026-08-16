@@ -5,7 +5,7 @@ state={
 		28 272 404 557 770 826 973 1917 2613 2899 3089 3208 3965 4104 4472 4916 5182 5921 5924 6340 6421 8735 8753 8780 8792 8793 8796 8803 8825 8837 8839 8844 8845 8846 8869 8880 8887 8903 8908 8913 8925 8937 8940 8960 8961 9010 9019 9030 9041 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=7500000
 		resources = {
 		oil = 2
 		aluminium = 2
@@ -15,11 +15,18 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+        state_category = large_town
 	history={
 		owner = VLA
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
 		}
+		victory_points = {8780 20}
+		victory_points = {8908 10}
+		victory_points = {8803 5}
+		victory_points = {8940 10}
 		add_core_of = VLA
 	}
 }

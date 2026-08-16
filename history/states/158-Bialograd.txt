@@ -1,0 +1,27 @@
+state={
+	id=158
+	name="STATE_158"
+	provinces={
+		126 233 1036 2547 3460 4156 4215 6085 8445 8480 8482 8577 8593 8639 8657 8659 
+	}
+	buildings_max_level_factor=1.000
+        manpower=450000
+		resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+        state_category = rural
+	history={
+		owner = VLA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {126 5}
+		add_core_of = VLA
+	}
+}
