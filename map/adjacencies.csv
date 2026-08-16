@@ -171,6 +171,11 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment,
 4079;7766;sea;20044;-1;-1;-1;-1;;Mardurak-Bellator-Bridge,
 7978;15295;sea;17741;-1;-1;-1;-1;;Artilon-Island-Artilon-Bridge,
 8079;1716;sea;21708;-1;-1;-1;-1;;Sainthall-Artilon-Bridge,
+8160;2484;sea;21732;-1;-1;-1;-1;;Aurelium-Avaria-Bridge,
+8230;1181;sea;19911;-1;-1;-1;-1;;Aurelium-Holzhausen-Bridge,
+6842;15290;sea;21565;-1;-1;-1;-1;;West-Thalsia-Central-Thalsia-Bridge,
+6628;15290;sea;21565;-1;-1;-1;-1;;Thalsia-Central-Thalsia-Bridge,
+7135;1594;sea;21580;-1;-1;-1;-1;;Thalsia-East-Thalsia-Bridge,
 
 
 
