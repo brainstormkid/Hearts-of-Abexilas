@@ -18,14 +18,15 @@ state={
         state_category = city
 		local_supplies = 5
 	history={
-		owner = AET
+		owner = HAG
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			arms_factory = 1
 			dockyard = 1
 		}
-		add_core_of = AET
+		add_core_of = HAG
+		add_claim_by = AET
 		victory_points = { 6874 20 }
 	}
 }

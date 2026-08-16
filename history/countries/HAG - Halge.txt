@@ -1,4 +1,13 @@
-﻿capital = 1
+﻿capital = 796
+
+AET = {
+    set_autonomy = {
+         target = HAG
+         autonomous_state = autonomy_integrated_puppet
+    }
+}
+
+oob = "HAG"
 
 set_politics = {
 	ruling_party = absolutist

@@ -1152,6 +1152,13 @@
  GRE:1 "Greenland"
  GRE_DEF:1 "Greenland"
  GRE_ADJ:0 "Greenlandian"
+
+ HAG_absolutist:1 "Federation of Halge"
+ HAG_absolutist_DEF:1 "the Federation of Halge"
+ HAG_absolutist_ADJ:0 "Halgean"
+ HAG:1 "Halge"
+ HAG_DEF:1 "Halge"
+ HAG_ADJ:0 "Halgean"
  
  HAR_absolutist:1 "Empire of Harpia"
  HAR_absolutist_DEF:1 "the Empire of Harpia"
@@ -2329,6 +2336,13 @@
  SET:1 "Sentara"
  SET_DEF:1 "Sentara"
  SET_ADJ:0 "Sentaran"
+
+ SHA_absolutist:1 "Shianjai Khanate"
+ SHA_absolutist_DEF:1 "the Shianjai Khanate"
+ SHA_absolutist_ADJ:0 "Shianjaian"
+ SHA:1 "Shianjai"
+ SHA_DEF:1 "Shianjai"
+ SHA_ADJ:0 "Shianjaian"
  
  SHI_absolutist:1 "Shishuk Territories"
  SHI_absolutist_DEF:1 "the Shishuk Territories"
@@ -3080,3 +3094,10 @@
  ZUR:1 "Zuritan"
  ZUR_DEF:1 "Zuritan"
  ZUR_ADJ:0 "Zuritanian"
+
+ ZZZ_absolutist:1 "Unclaimed Land"
+ ZZZ_absolutist_DEF:1 "Squatters"
+ ZZZ_absolutist_ADJ:0 "Unclaimed"
+ ZZZ:1 "Squatter"
+ ZZZ_DEF:1 "Squatter"
+ ZZZ_ADJ:0 "Squatter"

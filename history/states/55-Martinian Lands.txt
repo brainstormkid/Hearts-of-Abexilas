@@ -26,6 +26,7 @@ state={
 			dockyard = 1
 		}
 		add_core_of = AET
+		add_claim_by = SHA
 		victory_points = { 7448 20 }
 		victory_points = { 2196 10 }
 	}

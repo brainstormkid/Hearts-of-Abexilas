@@ -23,6 +23,7 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = AET
+		add_claim_by = SHA
 		victory_points = { 2813 10 }
 	}
 }

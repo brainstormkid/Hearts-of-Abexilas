@@ -1,0 +1,38 @@
+add_namespace = aethos
+
+#shianjai civil war
+country_event = {
+	id = aethos.1
+	title = "The Khanate has risen!"
+	desc = "Battlestations!"
+	
+	is_triggered_only = no
+	fire_only_once = yes
+
+	trigger = {
+        tag = AET
+		date > 2.5.2
+    }
+	
+	option = {
+		name = "yes"
+		
+		ai_chance = {
+			factor = 1
+		}
+		
+    SHA = {
+      add_state_core = 55
+      add_state_core = 56
+      transfer_state = 55
+      transfer_state = 56
+      load_oob = "SHA"
+      set_capital = { state = 55 }
+      declare_war_on = {
+          target = AET
+          type = annex_everything
+      }
+      add_civil_war_target = AET
+    }
+	}
+}
