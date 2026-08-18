@@ -2,7 +2,7 @@ state={
 	id=433
 	name="STATE_433"
 	provinces={
-		2578 6040 
+		2578 6040 10782 
 	}
 	buildings_max_level_factor=1.000
         manpower=300000
@@ -20,7 +20,7 @@ state={
 	history={
 		owner = VEA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
 		add_core_of = VEA
 	}
