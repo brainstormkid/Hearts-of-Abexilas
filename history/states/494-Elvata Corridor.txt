@@ -23,5 +23,6 @@ state={
 			infrastructure = 3
 		}
 		add_core_of = DON
+		victory_points = { 893 5 }
 	}
 }
