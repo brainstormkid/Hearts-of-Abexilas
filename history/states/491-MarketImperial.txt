@@ -1,12 +1,12 @@
 state={
 	id=491
-	name="STATE_491"
+	name="STATE_491" #Market Imperial
 	provinces={
 		145 2657 5696 10702 10744 10764 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    manpower=600000
+	resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +15,14 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+    state_category = rural
 	history={
 		owner = YIA
-		buildings = {
-		}
 		add_core_of = YIA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 10764 10 } #Market Imperial
 	}
+	local_supplies = 2.0
 }

@@ -1,12 +1,12 @@
 state={
 	id=442
-	name="STATE_442"
+	name="STATE_442" #Northern Aradu-Arrak
 	provinces={
 		1894 2932 4210 4858 5643 10439 10527 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    manpower=6600000
+	resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +15,20 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+    state_category = city
 	history={
 		owner = YIA
-		buildings = {
-		}
 		add_core_of = YIA
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			10527 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 10527 50 } #Aradu Arrak
 	}
+	local_supplies = 5.0
 }

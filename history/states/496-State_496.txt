@@ -1,11 +1,11 @@
 state={
 	id=496
-	name="STATE_496"
+	name="STATE_496" #Paloka Imperial Territory
 	provinces={
 		10750 10776 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=75000
 		resources = {
 		oil = 2
 		aluminium = 2
@@ -15,11 +15,13 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+    state_category = enclave
 	history={
 		owner = PAL
 		buildings = {
+			infrastructure = 1
 		}
 		add_core_of = PAL
 	}
+	local_supplies = 0.1
 }

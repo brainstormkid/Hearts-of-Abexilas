@@ -1,12 +1,11 @@
 state={
 	id=574
-	name="STATE_574"
+	name="STATE_574" #Yuttara
 	provinces={
 		1531 2383 4311 4592 5122 5194 11127 11155 11183 11200 11228 11253 11258 11271 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+	resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +14,22 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+    state_category = large_city
+	manpower=2250000
 	history={
 		owner = EPI
-		buildings = {
-		}
 		add_core_of = EPI
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			5194 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { 5194 20 } #Huttaralem
+		victory_points = { 11183 5 } #Durusalem
 	}
+	local_supplies = 6.0
 }

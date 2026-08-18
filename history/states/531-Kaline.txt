@@ -5,8 +5,8 @@ state={
 		1409 1457 2138 2791 2897 3031 3606 3723 3731 3834 4300 4719 5904 6968 10957 10964 10965 10966 10990 11003 11004 11005 11012 11018 11046 11047 11054 11060 11061 11087 11094 11102 11128 11148 
 	}
 	buildings_max_level_factor=1.000
-        manpower=7500000
-		resources = {
+    manpower=7500000
+	resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -25,9 +25,9 @@ state={
 			industrial_complex = 2
 			dockyard = 1
 		}
-		Victory_points = { 11046 50 } 
-		Victory_points = { 2138 10 } 
-		Victory_points = { 3731 5 }
+		victory_points = { 11046 50 } # Kaline
+		victory_points = { 2138 10 } # Sacor
+		victory_points = { 3731 5 } # Fedre
 		add_core_of = KAE
 	}
 }

@@ -1,12 +1,11 @@
 state={
 	id=506
-	name="STATE_506"
+	name="STATE_506" #Paloka Western Territory
 	provinces={
 		1620 6612 10821 10867 10872 10911 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+	resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +14,15 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+    state_category = rural
+    manpower=750000
 	history={
 		owner = PAL
-		buildings = {
-		}
 		add_core_of = PAL
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 10867 10 } #Aldius
 	}
+	local_supplies = 2.0
 }

@@ -1,12 +1,12 @@
 state={
 	id=449
-	name="STATE_449"
+	name="STATE_449" #Southern Aradu Arrack
 	provinces={
 		4634 5184 10493 10546 10547 10569 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    manpower=75000
+	resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +15,13 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+    state_category = enclave
 	history={
 		owner = YIA
-		buildings = {
-		}
 		add_core_of = YIA
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	local_supplies = 0.1
 }
