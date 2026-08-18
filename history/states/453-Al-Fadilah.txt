@@ -29,7 +29,6 @@ state={
 			}
 		}
 		add_core_of = QYN
-		victory_points = { 893 5 }
 		victory_points = { 3047 30 }
 		victory_points = { 10665 5 }
 	}
