@@ -26,5 +26,6 @@ state={
 		}
 		add_core_of = COV
 		victory_points = { 5388 50 }
+		victory_points = { 9925 20 }
 	}
 }
