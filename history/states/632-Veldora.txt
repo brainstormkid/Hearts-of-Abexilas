@@ -26,5 +26,6 @@ state={
 		dockyard = 1
 		}
 		add_core_of = VED
+		victory_points = { 11575 30 }
 	}
 }
