@@ -2,12 +2,12 @@ state={
 	id=456
 	name="STATE_456"
 	provinces={
-		640 1308 2071 3274 3658 3742 3807 6638 10538 10542 10549 10577 10581 10585 10593 10616 10617 10625 10630 10656 10700 10705 10754 
-	}
+		640 3274 3807 6638 10538 10542 10549 10577 10581 10585 10616 10625 10630 10656 10705 
+	} 
 	buildings_max_level_factor=1.000
-        manpower=4200000
-        state_category = city
-		local_supplies = 5
+        manpower=4170000
+        state_category = large_city
+		local_supplies = 6
 	resources = {
 		oil = 2
 		aluminium = 2
