@@ -1,0 +1,31 @@
+state={
+	id=459
+	name="STATE_459"
+	provinces={
+		2405 4126 10476 10502 10519 10540 10552 10582 10594
+	}
+	buildings_max_level_factor=1.000
+        manpower=2450000
+        state_category = megalopolis
+		local_supplies = 10
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+	history={
+		owner = LAV
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 4
+			arms_factory = 2
+			dockyard = 1
+		}
+		add_core_of = LAV
+		victory_points = { 4126 30 }
+	}
+}
