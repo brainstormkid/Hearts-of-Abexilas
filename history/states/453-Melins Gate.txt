@@ -2,7 +2,7 @@ state={
 	id=453
 	name="STATE_453"
 	provinces={
-		527 886 893 1470 3047 3830 5278 5465 5712 10550 10618 10642 10665 10670 10799 
+		527 886 893 3047 5465 5712 10550 10618 10642 10670 10799 
 	}
 	buildings_max_level_factor=1.000
         manpower=1100000
@@ -30,8 +30,8 @@ state={
 		}
 		add_core_of = QYN
 		victory_points = { 886 20 }
-		victory_points = { 5465 10 }
-		victory_points = { 10665 5 }
 		victory_points = { 893 5 }
+		victory_points = { 3047 30 }
+		victory_points = { 10665 5 }
 	}
 }
