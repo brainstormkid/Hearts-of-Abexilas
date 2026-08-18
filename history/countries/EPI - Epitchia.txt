@@ -1,21 +1,52 @@
-﻿capital = 1
+﻿capital = 489
+
+oob = "EPI"
 
 set_politics = {
-	ruling_party = absolutist
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	absolutist = 100
+	ruling_party = conservatist
+	last_election = "1.1.1"
+	election_frequency = 7
+	elections_allowed = yes
 }
 
+set_popularities = {
+	absolutist = 12
+    monarchist = 13
+    theocratist = 0
+    accelerationist = 0
+
+    anarchist = 0
+    xeroist = 2
+    radical_socialist = 0
+    revisionist = 3
+
+    libertarianist = 0
+    centrist = 13
+    liberalist = 2
+    progressivist = 3
+    conservatist = 52
+
+    imperialist = 0
+    radical_nationalist = 0
+
+}
+
+set_party_name = { 
+    ideology = conservatist 
+    long_name = "ELP"
+    name = "ELP"
+}
+
+set_stability = 0.40
+set_war_support = 0.20
+set_convoys = 20
+
 create_country_leader = {
-	name = "?"
+	name = "Manwithnoskill"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	picture = "gfx/leaders/AEZ/generic_no_leader.dds"
 	expire = "1965.1.1"
-	ideology = absolutist_subtype
+	ideology = conservatist_subtype
 	traits = {
 		#
 	}

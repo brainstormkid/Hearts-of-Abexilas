@@ -1,5 +1,7 @@
 ﻿capital = 442
 
+oob = "YIA"
+
 set_politics = {
 	ruling_party = absolutist
 	last_election = "1936.1.1"
@@ -7,7 +9,24 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	absolutist = 100
+	absolutist = 90
+    monarchist = 5
+    theocratist = 0
+    accelerationist = 0
+
+    anarchist = 0
+    xeroist = 0
+    radical_socialist = 0
+    revisionist = 0
+
+    libertarianist = 0
+    centrist = 0
+    liberalist = 0
+    progressivist = 0
+    conservatist = 5
+
+    imperialist = 0
+    radical_nationalist = 0
 }
 
 create_country_leader = {
@@ -20,9 +39,15 @@ create_country_leader = {
 	}
 }
 
-set_stability = 0.9
-set_war_support = 0.3
+set_party_name = { 
+    ideology = absolutist 
+    long_name = "Âudalad Dynasty"
+    name = "Âudalad Dynasty"
+}
 
+set_stability = 0.77
+set_war_support = 0.3
+set_convoys = 10
 set_research_slots = 3
 
 set_technology = {

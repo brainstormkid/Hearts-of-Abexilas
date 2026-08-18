@@ -1,24 +1,50 @@
-﻿capital = 1
+﻿capital = 510
+
+oob = "PAL"
 
 set_politics = {
-	ruling_party = absolutist
-	last_election = "1936.1.1"
+	ruling_party = progressivist
+	last_election = "1.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	absolutist = 100
+	absolutist = 6
+    monarchist = 0
+    theocratist = 0
+    accelerationist = 0
+
+    anarchist = 0
+    xeroist = 5
+    radical_socialist = 1
+    revisionist = 3
+
+    libertarianist = 0
+    centrist = 2
+    liberalist = 2
+    progressivist = 68
+    conservatist = 13
+
+    imperialist = 0
+    radical_nationalist = 0
 }
+set_convoys = 5
 
 create_country_leader = {
-	name = "?"
+	name = "Avrulao Tirínõka"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	picture = "gfx/leaders/AEZ/generic_no_leader.dds"
 	expire = "1965.1.1"
-	ideology = absolutist_subtype
+	ideology = progressivist_subtype
 	traits = {
 		#
 	}
+}
+
+set_party_name = { 
+    ideology = progressivist 
+    long_name = "PMRP"
+    name = "PMRP"
 }
 
 set_research_slots = 3
