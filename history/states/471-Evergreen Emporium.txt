@@ -23,5 +23,6 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = PAR
+		victory_points = { 10631 20 }
 	}
 }
