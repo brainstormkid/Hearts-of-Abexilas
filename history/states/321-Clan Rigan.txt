@@ -2,12 +2,12 @@ state={
 	id=321
 	name="STATE_321"
 	provinces={
-		632 833 849 993 1104 1247 1324 1690 1707 2115 2794 2829 3621 3726 3879 4093 4565 4801 6095 6278 9916 9942 9947 9965 10017 10039 10047 10110 10116 10119 10195 23203
+		632 849 993 1104 1247 1690 1707 2794 3621 3726 3879 4093 4565 6095 6278 9947 10017 10039 10047 10110 10116 10119 10195 23203
 	}
 	buildings_max_level_factor=1.000
         manpower=7650000
-        state_category = megalopolis
-		local_supplies = 10
+        state_category = large_town
+		local_supplies = 16
 	resources = {
 		oil = 2
 		aluminium = 2
@@ -29,7 +29,7 @@ state={
 			}
 		}
 		add_core_of = GEH
-		victory_points = { 833 30 }
+		
 		victory_points = { 1247 20 }
 		victory_points = { 1104 20 }
 		victory_points = { 10116 30 }
