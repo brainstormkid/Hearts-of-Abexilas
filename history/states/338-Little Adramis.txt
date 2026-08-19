@@ -2,7 +2,7 @@ state={
 	id=338
 	name="STATE_338"
 	provinces={
-		1330 2107 9984 9999 10005 10010 10015 
+		2107 9984 10005 
 	}
 	buildings_max_level_factor=1.000
         manpower=2700000
@@ -26,7 +26,6 @@ state={
 			dockyard = 1
 		}
 		add_core_of = COV
-		victory_points = { 9984 10 }
-		victory_points = { 9999 10 }
+		victory_points = { 9984 30 }
 	}
 }
