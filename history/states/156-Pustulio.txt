@@ -22,8 +22,8 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		victory_points = {8447 10}
-		victory_points = {5010 10}
+		victory_points = {8447 5}
+		victory_points = {5010 5}
 		add_core_of = THT
 	}
 }
