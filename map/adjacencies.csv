@@ -178,11 +178,11 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment,
 7135;1594;sea;21580;-1;-1;-1;-1;;Thalsia-East-Thalsia-Bridge,
 8312;8313;sea;16922;-1;-1;-1;-1;;Turandel-Novigrad-Bridge,
 7736;3008;sea;20955;-1;-1;-1;-1;;Soliara-Regno-Di-Megino-Bridge,
-
-
-
-
-;;;;;;;;;, anything after is ignored;;;;;;;;;
+3973;5719;sea ;170076;-1;-1;-1;-1;;Catequil-Toritrua-Bridge
+5706;86;sea;22322;-1;-1;-1;-1;;Azeroth-Bridge
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;, anything after is ignored
 ;;;;;;;;;,
-#Ending Line,
+#Ending Line,;;;;;;;;;
 -1;-1;;-1;-1;-1;-1;-1;-1;,
