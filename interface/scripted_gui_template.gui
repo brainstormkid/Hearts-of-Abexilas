@@ -317,7 +317,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_wokark_info"
 			position = { x = 25 y = 410 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "election_state_wokark_info"
 			maxWidth = 325
@@ -327,7 +327,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_wokark_NEP"
 			position = { x = 25 y = 450 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_wokark_NEP"
 			maxWidth = 325
@@ -337,7 +337,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_wokark_DUE"
 			position = { x = 25 y = 470 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_wokark_DUE"
 			maxWidth = 325
@@ -347,7 +347,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_wokark_KGS"
 			position = { x = 25 y = 490 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_wokark_KGS"
 			maxWidth = 325
@@ -357,7 +357,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_wokark_DSU"
 			position = { x = 25 y = 510 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_wokark_DSU"
 			maxWidth = 325
@@ -377,7 +377,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_daekia_info"
 			position = { x = 25 y = 410 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "election_state_daekia_info"
 			maxWidth = 325
@@ -387,7 +387,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_daekia_NEP"
 			position = { x = 25 y = 450 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_daekia_NEP"
 			maxWidth = 325
@@ -397,7 +397,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_daekia_DUE"
 			position = { x = 25 y = 470 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_daekia_DUE"
 			maxWidth = 325
@@ -407,7 +407,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_daekia_KGS"
 			position = { x = 25 y = 490 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_daekia_KGS"
 			maxWidth = 325
@@ -417,7 +417,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_daekia_DSU"
 			position = { x = 25 y = 510 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_daekia_DSU"
 			maxWidth = 325
@@ -437,7 +437,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_westejznsteda_info"
 			position = { x = 25 y = 410 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "election_state_westejznsteda_info"
 			maxWidth = 325
@@ -447,7 +447,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_westejznsteda_NEP"
 			position = { x = 25 y = 450 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_westejznsteda_NEP"
 			maxWidth = 325
@@ -457,7 +457,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_westejznsteda_DUE"
 			position = { x = 25 y = 470 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_westejznsteda_DUE"
 			maxWidth = 325
@@ -467,7 +467,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_westejznsteda_KGS"
 			position = { x = 25 y = 490 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_westejznsteda_KGS"
 			maxWidth = 325
@@ -477,7 +477,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_westejznsteda_DSU"
 			position = { x = 25 y = 510 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_westejznsteda_DSU"
 			maxWidth = 325
@@ -497,7 +497,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_ejznvajk_info"
 			position = { x = 25 y = 410 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "election_state_ejznvajk_info"
 			maxWidth = 325
@@ -517,7 +517,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_eastejznsteda_info"
 			position = { x = 25 y = 410 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "election_state_eastejznsteda_info"
 			maxWidth = 325
@@ -527,7 +527,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_eastejznsteda_NEP"
 			position = { x = 25 y = 450 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_eastejznsteda_NEP"
 			maxWidth = 325
@@ -537,7 +537,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_eastejznsteda_DUE"
 			position = { x = 25 y = 470 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_eastejznsteda_DUE"
 			maxWidth = 325
@@ -547,7 +547,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_eastejznsteda_KGS"
 			position = { x = 25 y = 490 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_eastejznsteda_KGS"
 			maxWidth = 325
@@ -557,7 +557,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_eastejznsteda_DSU"
 			position = { x = 25 y = 510 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_eastejznsteda_DSU"
 			maxWidth = 325
@@ -577,7 +577,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_NEejznsteda_info"
 			position = { x = 25 y = 410 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "election_state_NEejznsteda_info"
 			maxWidth = 325
@@ -587,7 +587,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_NEejznsteda_NEP"
 			position = { x = 25 y = 450 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_NEejznsteda_NEP"
 			maxWidth = 325
@@ -597,7 +597,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_NEejznsteda_DUE"
 			position = { x = 25 y = 470 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_NEejznsteda_DUE"
 			maxWidth = 325
@@ -607,7 +607,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_NEejznsteda_KGS"
 			position = { x = 25 y = 490 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_NEejznsteda_KGS"
 			maxWidth = 325
@@ -617,7 +617,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_NEejznsteda_DSU"
 			position = { x = 25 y = 510 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_NEejznsteda_DSU"
 			maxWidth = 325
@@ -627,7 +627,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_ejznvajk_NEP"
 			position = { x = 25 y = 450 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_ejznvajk_NEP"
 			maxWidth = 325
@@ -637,7 +637,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_ejznvajk_DUE"
 			position = { x = 25 y = 470 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_ejznvajk_DUE"
 			maxWidth = 325
@@ -647,7 +647,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_ejznvajk_KGS"
 			position = { x = 25 y = 490 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_ejznvajk_KGS"
 			maxWidth = 325
@@ -657,7 +657,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "election_state_ejznvajk_DSU"
 			position = { x = 25 y = 510 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "var_value_election_state_ejznvajk_DSU"
 			maxWidth = 325
@@ -679,7 +679,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "ejznrosa_NEPL"
 			position = { x = 20 y = 95 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "ejznrosa_NEPL"
 			maxWidth = 400
@@ -690,7 +690,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "ejznrosa_NEPC"
 			position = { x = 20 y = 115 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "ejznrosa_NEPC"
 			maxWidth = 400
@@ -701,7 +701,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "ejznrosa_NEPR"
 			position = { x = 20 y = 135 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "ejznrosa_NEPR"
 			maxWidth = 400
@@ -712,7 +712,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "ejznrosa_DUEL"
 			position = { x = 20 y = 155 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "ejznrosa_DUEL"
 			maxWidth = 400
@@ -723,7 +723,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "ejznrosa_DUER"
 			position = { x = 20 y = 175 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "ejznrosa_DUER"
 			maxWidth = 400
@@ -734,7 +734,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "ejznrosa_KGS"
 			position = { x = 20 y = 195 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "ejznrosa_KGS"
 			maxWidth = 400
@@ -745,7 +745,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "ejznrosa_DSU"
 			position = { x = 20 y = 215 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "ejznrosa_DSU"
 			maxWidth = 400
@@ -756,7 +756,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "campaign"
 			position = { x = 20 y = 315 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "campaign"
 			maxWidth = 400
@@ -767,7 +767,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "EJZ_campaign_NEP"
 			position = { x = 250 y = 315 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "campaign_NEP"
 			maxWidth = 400
@@ -778,7 +778,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "EJZ_campaign_DUE"
 			position = { x = 250 y = 315 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "campaign_DUE"
 			maxWidth = 400
@@ -788,7 +788,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "EJZ_campaign_KGS"
 			position = { x = 250 y = 315 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "campaign_KGS"
 			maxWidth = 400
@@ -798,7 +798,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "EJZ_campaign_DSU"
 			position = { x = 250 y = 315 }
-			font = "hoi_18mbs"
+			font = "22tech"
 			borderSize = {x = 0 y = 0}
 			text = "campaign_DSU"
 			maxWidth = 400
