@@ -15,7 +15,7 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = large_town
+        state_category = town
 		local_supplies = 2.5
 	history={
 		owner = FLA
