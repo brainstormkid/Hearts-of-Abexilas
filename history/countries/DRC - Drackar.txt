@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 376
+
+oob = "DRC"
 
 set_politics = {
 	ruling_party = absolutist
@@ -32,6 +34,7 @@ set_autonomy = {
 }
 
 set_research_slots = 3
+set_convoys = 55
 
 set_technology = {
     infantry_weapons = 1

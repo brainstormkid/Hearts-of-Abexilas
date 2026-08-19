@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 1375
+
+oob = "SIN"
 
 set_politics = {
 	ruling_party = absolutist
@@ -22,6 +24,7 @@ create_country_leader = {
 }
 
 set_research_slots = 3
+set_convoys = 5
 
 set_technology = {
     infantry_weapons = 1
