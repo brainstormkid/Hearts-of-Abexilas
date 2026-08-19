@@ -1,0 +1,28 @@
+state={
+	id=1311
+	name="STATE_1311"
+	provinces={
+		5963 8953 8994
+	}
+	buildings_max_level_factor=1.000
+		manpower=1050000
+		resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+		state_category = town
+	history={
+		owner = KIN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {5963 10}
+		victory_points = {8953 5}
+		add_core_of = KIN
+	}
+}

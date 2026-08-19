@@ -1,0 +1,29 @@
+state={
+	id=1109
+	name="STATE_1109"
+	provinces={
+		1125 1809 8888 8919 8920 8930 8957 8962 8989 9036
+	}
+	buildings_max_level_factor=1.000
+        manpower=1950000
+		resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+        state_category = town
+	history={
+		owner = KIN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {8957 50}
+		add_core_of = KIN
+	}
+}
