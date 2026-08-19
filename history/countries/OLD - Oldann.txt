@@ -1,13 +1,17 @@
 ﻿capital = 1
 
 set_politics = {
-	ruling_party = absolutist
+	ruling_party = imperialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	absolutist = 100
+	imperialist = 57
+	accelerationist = 16
+	monarchist = 21
+	conservatist = 6
+
 }
 
 create_country_leader = {
@@ -20,6 +24,84 @@ create_country_leader = {
 		#
 	}
 }
+add_ideas = {
+	
+}
+
+set_stability = 67
+set_war_support = 91
+
+set_party_name = { 
+    ideology = imperialist
+    long_name = "Lhah Council"
+    name = "Lhah Council"
+}
+
+set_party_name = { 
+    ideology = accelerationist 
+    long_name = "Symfist Jacobite (Symfist Coalition)"
+    name = "Symfist Jacobite"
+}
+
+set_party_name = { 
+    ideology = xeroist 
+    long_name = "Romilia Peoples xeroist Movement"
+    name = "Romilia Movement"
+}
+
+set_party_name = { 
+    ideology = conservatist 
+    long_name = "BlindFungus Patrots (Lavdi Coalition)"
+    name = "BlindFungus Patrots"
+}
+
+set_party_name = { 
+    ideology = monarchist 
+    long_name = "Oldann Council"
+    name = "Oldann Council"
+}
+set_party_name = { 
+    ideology = absolutist 
+    long_name = "Pro-Oldann Army Movement"
+    name = "Oldann Military Jumta"
+}
+set_party_name = { 
+    ideology = Anarchist 
+    long_name = "Symfist Jacobite Anarchist Wing (Symfist Coalition)"
+    name = "Symfist Anarchist Wing "
+}
+set_party_name = { 
+    ideology =  centrist
+    long_name = "barakor-Oldann Democratic Party"
+    name = "barakor-Oldann Democratic"
+}
+set_party_name = { 
+    ideology = libertarianism  
+    long_name = "BlindFungus-Oldann Patrots (Lavdi Coalition)"
+    name = "BlindFungus-Oldann Patrots"
+}
+set_party_name = { 
+    ideology =  liberalism 
+    long_name = "United barakor Oldann League Party"
+    name = "United barakor Oldann Party"
+}
+set_party_name = { 
+    ideology =  Radical Nationalist 
+    long_name = "Oldanni Nationalist Party"
+    name = "Oldanni Nationalist Party"
+}
+set_party_name = { 
+    ideology =   Radical_Socialist
+    long_name = "Unied Barakor Peoples Party "
+    name = "Barakor Peoples Party"
+}
+set_party_name = { 
+    ideology =  Progressivism 
+    long_name = "Oldann-Barakor Progressivism Party"
+    name = "Oldann-Barakor Progressivism"
+}
+
+set_convoys = 15
 
 set_research_slots = 3
 
