@@ -80,25 +80,10 @@ technologies = {
 				is_major = yes
 			}
 
-			modifier = {
-				factor = 10
-				original_tag = CHI
-
-				OR = {
-					date > 3.1.1
-					JAP = { is_ai = no }
-				}
-			}
 
 			modifier = {
 				factor = 10
 				date > 2.1.3
-			}
-
-			modifier = {
-				factor = 0.5
-				date < 5.1.1
-				original_tag = PRC
 			}
 		}
 	}
@@ -138,20 +123,6 @@ technologies = {
 
 			modifier = {
 				factor = 5
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
-			}
-
-			modifier = {
-				factor = 5
 				is_major = yes
 				date > "4.1.1"
 			}
@@ -159,12 +130,6 @@ technologies = {
 			modifier = {
 				factor = 5
 				date > "5.1.1"
-			}
-
-			modifier = {
-				factor = 0.5
-				date < 5.1.1
-				tag = PRC
 			}
 		}
 	}
@@ -211,17 +176,6 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 0.5
 			}
-			#modifier = {
-			#	factor = 0
-			#	tag = SOV
-			#	OR = {
-			#		date < "10.1.1" # stock up on lots of rifles, we got the manpower
-			#		AND = {
-			#			date > "9.1.1"
-			#			surrender_progress < 0.1 # if we arent losing badly its ok
-			#		}
-			#	}
-			#}
 		}
 	}
 	improved_infantry_weapons_2 = {
@@ -406,12 +360,6 @@ technologies = {
 		ai_will_do = {
 			base = 1
 
-
-			modifier = {
-				tag = GER
-				factor = 2.5
-			}
-
 			modifier = {
 				factor = 2
 				date > "8.1.1"
@@ -530,37 +478,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 0.5
-
-			modifier = {
-				factor = 20
-				tag = USA
-				date > 9.1.1
-			}
-
-			modifier = {
-				factor = 2
-				tag = GER
-			}
-
-			modifier = {
-				factor = 5
-				tag = ENG
-			}
-
-			modifier = { #Sokolov Raid prep
-				factor = 20
-				tag = GER
-				has_completed_focus = GER_anschluss
-				CZE = { 
-					is_ai = no
-				}
-			}
-
-			modifier = {
-				factor = 5
-				tag = GER
-				has_completed_focus = GER_fallschirmjager
-			}
 		}
 	}
 
@@ -590,26 +507,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 0.5
-
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-
-			modifier = {
-				factor = 2
-				tag = GER
-			}
-
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
-
-			modifier = {
-				factor = 2
-				tag = GER
-			}
 		}
 	}
 
@@ -634,21 +531,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 0.5
-
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-
-			modifier = {
-				factor = 2
-				tag = GER
-			}
-
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
 		}
 	}
 
@@ -689,21 +571,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 0.7
-
-			modifier = {
-				factor = 3
-				tag = USA
-			}
-
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
-
-			modifier = {
-				factor = 5
-				tag = ENG
-			}
 		}
 	}
 
@@ -732,16 +599,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 0.7
-
-			modifier = {
-				factor = 3
-				tag = USA
-			}
-
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
 		}
 	}
 
@@ -765,16 +622,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 0.7
-
-			modifier = {
-				factor = 3
-				tag = USA
-			}
-
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
 		}
 	}
 
@@ -913,26 +760,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0.7
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
-
-			modifier = {
-				factor = 5
-				tag = BRA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
 		}
 	}
 
@@ -1608,29 +1435,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 
-			# All participants in this war will want to have this tech as early as possible
-			modifier = {
-				factor = 15
-				OR = {
-					original_tag = CHI
-					original_tag = PRC
-					original_tag = XSM
-					original_tag = SIK
-					original_tag = GXC
-					original_tag = SHX
-					original_tag = YUN
-					original_tag = MAN
-					original_tag = MEN
-					original_tag = JAP
-					original_tag = GSM
-					original_tag = NXM
-					original_tag = HBC
-					original_tag = SND
-					original_tag = GDC
-					original_tag = KHM
-				}
-			}
-
 			modifier = {
 				factor = 2
 				date > "3.1.1"
@@ -1706,20 +1510,7 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 5
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
-			}
+			
 			modifier = {
 				factor = 2
 				date > "4.1.6"
@@ -2074,10 +1865,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
 		}
 
 		categories = {
@@ -2407,11 +2194,6 @@ technologies = {
 			}
 
 			modifier = {
-				factor = 3
-				tag = USA
-			}
-
-			modifier = {
 				factor = 1.5
 				date > 7.1.1
 			}
@@ -2472,10 +2254,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				tag = USA
-				factor = 5
-			}
 		}
 	}
 
@@ -2540,10 +2318,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 5
-				original_tag = GER				
-			}
 		}
 	}
 

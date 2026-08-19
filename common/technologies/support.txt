@@ -82,15 +82,6 @@ technologies = {
 				factor = 4
 				date > "5.1.1"
 			}
-
-			modifier = {
-				factor = 6
-				original_tag = CHI
-				NOT = {
-					has_dlc = "No Compromise, No Surrender"
-				}
-			}
-
 		}
 	}
 
@@ -152,16 +143,7 @@ technologies = {
 			modifier = {
 				factor = 10
 				date > "6.1.1"
-			}
-
-			modifier = {
-				factor = 6
-				original_tag = CHI
-				NOT = {
-					has_dlc = "No Compromise, No Surrender"
-				}
-			}
-			
+			}	
 		}
 
 		on_research_complete = {
@@ -178,20 +160,6 @@ technologies = {
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_PROJECT
 				PROJECT = sp_land_military_engineering_vehicles
-			}
-
-			if = {
-				limit = {
-					original_tag = AFG
-					has_dlc = "Graveyard of Empires"
-					has_completed_focus = AFG_expand_quami_template
-				}
-				add_units_to_division_template = {
-					template_name = "Pashtun Levy" 
-					support = {
-						engineer = 0 
-					}
-				}
 			}
 		}
 	}
@@ -682,20 +650,6 @@ technologies = {
 			hq_military_police
 		}
 
-		on_research_complete = {
-			if = {
-				limit = {
-					has_dlc = "Thunder at Our Gates"
-					tag = ENG
-					is_ai = yes
-				}
-				add_units_to_division_template = {
-					template_name = "Army Headquarters"
-					support = { hq_military_police = 0 }
-				}
-			}
-		}
-
 		path = {
 			leads_to_tech = tech_military_police2
 			research_cost_coeff = 1
@@ -722,57 +676,8 @@ technologies = {
 			base = 0.5
 
 			modifier = {
-				factor = 5
-				tag = GER
-			}
-
-			modifier = {
-				factor = 10
-				tag = GER
-
-				POL = { has_capitulated = yes }
-				GER = { has_war = yes }
-			}
-
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
-
-			modifier = {
-				factor = 2
-				tag = ITA
-			}
-
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
-
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-
-			modifier = {
 				factor = 2
 				has_war = yes
-			}
-		}
-
-		on_research_complete = {
-			if = {
-				limit = {
-					original_tag = AFG
-					has_dlc = "Graveyard of Empires"
-					has_completed_focus = AFG_expand_quami_template
-				}
-				add_units_to_division_template = {
-					template_name = "Pashtun Levy" 
-					support = {
-						military_police = 0 
-					}
-				}
 			}
 		}
 	}
@@ -918,20 +823,6 @@ technologies = {
 			hq_maintenance
 		}
 
-		on_research_complete = {
-			if = {
-				limit = {
-					has_dlc = "Thunder at Our Gates"
-					tag = FRA
-					is_ai = yes
-				}
-				add_units_to_division_template = {
-					template_name = "Quartier General d'Armee"
-					support = { hq_maintenance = 0 }
-				}
-			}
-		}
-
 		path = {
 			leads_to_tech = tech_maintenance_company2
 			research_cost_coeff = 1
@@ -970,12 +861,6 @@ technologies = {
 			modifier = {
 				factor = 1.2
 				date > "5.1.1"
-			}
-
-			modifier = {
-				factor = 10
-				tag = GER
-				date > "8.1.1"
 			}
 		}
 	}
@@ -1199,22 +1084,6 @@ technologies = {
 				date > "5.1.1"
 			}
 		}
-
-		on_research_complete = {
-			if = {
-				limit = {
-					original_tag = AFG
-					has_dlc = "Graveyard of Empires"
-					has_completed_focus = AFG_expand_quami_template
-				}
-				add_units_to_division_template = {
-					template_name = "Pashtun Levy" 
-					support = {
-						field_hospital = 0 
-					}
-				}
-			}
-		}
 	}
 
 	tech_field_hospital2 = {
@@ -1417,31 +1286,6 @@ technologies = {
 			hq_logistics
 		}
 
-		on_research_complete = {
-			if = {
-				limit = {
-					has_dlc = "Thunder at Our Gates"
-					tag = USA
-					is_ai = yes
-				}
-				add_units_to_division_template = {
-					template_name = "Field Army Headquarters"
-					support = { hq_logistics = 0 }
-				}
-			}
-			if = {
-				limit = {
-					has_dlc = "Thunder at Our Gates"
-					tag = SOV
-					is_ai = yes
-				}
-				add_units_to_division_template = {
-					template_name = "Shtab Armii"
-					support = { hq_logistics = 0 }
-				}
-			}
-		}
-
 		path = {
 			leads_to_tech = tech_logistics_company2
 			research_cost_coeff = 1
@@ -1540,11 +1384,6 @@ technologies = {
 			modifier = {
 				factor = 2
 				date > "8.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				tag = GER
 			}
 		}
 	}
@@ -1932,14 +1771,6 @@ technologies = {
 				is_major = yes
 				factor = 1
 			}
-
-			modifier = {
-				OR = {
-					TAG = GER
-					tag = SOV
-				}
-				factor = 1.5
-			}
 		}
 	}
 
@@ -2014,10 +1845,6 @@ technologies = {
 			modifier = {
 				has_war = yes
 				factor = 20
-			}
-			modifier = {
-				tag = GER
-				factor = 5
 			}
 			modifier = {
 				factor = 1.2

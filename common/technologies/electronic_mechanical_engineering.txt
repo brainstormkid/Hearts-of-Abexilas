@@ -287,19 +287,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					tag = ENG
-				}
-				factor = 10
-			}
-			modifier = {
-				OR = {
-					tag = USA
-					date > "5.6.1"
-				}
-				factor = 10
-			}
-			modifier = {
 				date < "4.1.1"
 				factor = 0.1
 			}
@@ -408,13 +395,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 4
-				OR = {
-					tag = ENG
-					tag = USA
-				}
-			}
-			modifier = {
 				factor = 0.1
 				date < "6.1.1"
 			}
@@ -464,13 +444,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-				}
-				factor = 4
-			}
-			modifier = {
 				date < "7.1.1"
 				factor = 0.5
 			}
@@ -514,13 +487,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-				}
-				factor = 5
-			}
 		}
 		
 		categories = {
@@ -664,11 +630,6 @@ technologies = {
 				factor = 3
 				date > "7.1.1"
 			}
-
-			modifier = {
-				factor = 2
-				tag = GER
-			}
 		}
 		
 		categories = {
@@ -750,16 +711,6 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
 			}
-			modifier = {
-				factor = 3
-
-				tag = GER
-			}
-			modifier = {
-				factor = 3
-
-				tag = SOV
-			}
 		}
 		
 		categories = {
@@ -792,16 +743,6 @@ technologies = {
 			modifier = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
-			}
-			modifier = {
-				factor = 3
-
-				tag = GER
-			}
-			modifier = {
-				factor = 3
-
-				tag = SOV
 			}
 		}
 		
@@ -836,16 +777,6 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
 			}
-			modifier = {
-				factor = 3
-
-				tag = GER
-			}
-			modifier = {
-				factor = 3
-
-				tag = SOV
-			}
 		}
 		
 		categories = {
@@ -874,16 +805,6 @@ technologies = {
 			modifier = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
-			}
-			modifier = {
-				factor = 3
-
-				tag = GER
-			}
-			modifier = {
-				factor = 3
-
-				tag = SOV
 			}
 		}
 		
@@ -914,16 +835,6 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
 			}
-			modifier = {
-				factor = 3
-
-				tag = GER
-			}
-			modifier = {
-				factor = 3
-
-				tag = SOV
-			}
 		}
 		
 		categories = {
@@ -953,16 +864,6 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
 			}
-			modifier = {
-				factor = 3
-
-				tag = GER
-			}
-			modifier = {
-				factor = 3
-
-				tag = SOV
-			}
 		}
 		
 		categories = {
@@ -990,14 +891,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0.75
-			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-					tag = JAP
-				}
-				factor = 3
-			}
 			modifier = {
 				OR = {
 					can_research = improved_fire_control_system
@@ -1033,14 +926,6 @@ technologies = {
 			factor = 0.75
 			modifier = {
 				OR = {
-					tag = ENG
-					tag = USA
-					tag = JAP
-				}
-				factor = 3
-			}
-			modifier = {
-				OR = {
 					can_research = advanced_fire_control_system
 					has_tech = advanced_fire_control_system
 				}
@@ -1073,14 +958,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0.75
-			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-					tag = JAP
-				}
-				factor = 3
-			}
 			
 		}
 		
@@ -1694,17 +1571,6 @@ technologies = {
 				is_major = yes
 				date > 9.1.1
 			}
-
-			modifier = {
-				factor = 4
-				tag = USA
-			}
-
-			modifier = {
-				add = 50
-				PHI_SEA = yes
-				has_completed_focus = PHI_weapons_of_war
-			}
 		}
 		
 		categories = {
@@ -1717,44 +1583,6 @@ technologies = {
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_PROJECT
 				PROJECT = sp_nuclear_reactor	
-			}
-
-			hidden_effect = {
-				if = {
-					limit = {
-						has_dlc = "By Blood Alone"
-					}
-					if = {
-						limit = {
-							check_variable = { global.atomic_research_race < 3 }
-						}
-						add_to_variable = { global.atomic_research_race = 1 }
-						if = {
-							limit = {
-								original_tag = ITA
-								NOT = { has_country_flag = ITA_pioneer_in_atomic_research_flag }
-							}
-							set_country_flag = ITA_pioneer_in_atomic_research_flag
-						}
-						else_if = {
-							limit = {
-								check_variable = { global.atomic_research_race = 3 }
-								NOT = {
-									any_country = {
-										original_tag = ITA
-										has_country_flag = ITA_pioneer_in_atomic_research_flag
-									}
-								}
-							}
-							random_country = {
-								limit = {
-									original_tag = ITA
-								}
-								set_country_flag = ITA_late_to_the_atomic_party_flag
-							}
-						}
-					}
-				}
 			}
 		}
 	}
@@ -1776,13 +1604,6 @@ technologies = {
 		#	research_cost_coeff = 1
 		#}
 		
-		ai_will_do = {
-			factor = 3
-			modifier = {
-				tag = USA
-				factor = 2
-			}
-		}
 		
 		categories = {
 			nuclear
@@ -1844,15 +1665,6 @@ technologies = {
 		}
 		
 		nuclear_production = 0.5
-		on_research_complete = {
-			if = {
-				limit = {
-					tag = USA
-					has_war_with = JAP
-				}
-				play_warning_to_japan_effect = yes
-			}
-		}
 		categories = {
 			nuclear
 		}

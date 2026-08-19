@@ -491,11 +491,6 @@ technologies = {
 			factor = 20
 			modifier = {
 				factor = 0
-				tag = USA
-				NOT = { has_tech = special_forces_paratroopers }
-			}
-			modifier = {
-				factor = 0
 				NOT = { ai_has_completed_naval_doctrine = yes }
 			}
 		}
