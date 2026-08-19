@@ -2,7 +2,7 @@ state={
 	id=498
 	name="STATE_498"
 	provinces={
-		2261 
+		 613 2564 2776 5068 9892 9897 9907 9917 9925 9933 
 	}
 	buildings_max_level_factor=1.000
         manpower=600000
@@ -18,10 +18,11 @@ state={
 		coal = 3
 	}
 	history={
-		owner = VEA
+		owner = COV
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = VEA
+		add_core_of = COV
+		victory_points = { 9925 20 }
 	}
 }
