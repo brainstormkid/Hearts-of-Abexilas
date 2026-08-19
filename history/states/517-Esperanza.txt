@@ -2,12 +2,12 @@ state={
 	id=517
 	name="STATE_517"
 	provinces={
-		2512 4532 5302 10851 10860 10876 10931 10973 
+		2512 4532 5302 10851 10860 10876 10931 10973 15323 
 	}
 	buildings_max_level_factor=1.000
         manpower=2100000
-        state_category = large_city
-		local_supplies = 6
+        state_category = megalopolis
+		local_supplies = 10
 	resources = {
 		oil = 2
 		aluminium = 2
@@ -30,5 +30,6 @@ state={
 		}
 		add_core_of = PAR
 		victory_points = { 5302 50 }
+		victory_points = { 15323 10 }
 	}
 }
