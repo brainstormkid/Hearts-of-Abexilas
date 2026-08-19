@@ -5,8 +5,8 @@ state={
 		3421 4295 4452 5716 10213 10271
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    manpower=10200000
+	resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +15,19 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+    state_category = city
 	history={
 		owner = SEO
-		buildings = {
-		}
 		add_core_of = SEO
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
+			4452 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 4452 50 } #Senti
 	}
+	local_supplies = 5
 }

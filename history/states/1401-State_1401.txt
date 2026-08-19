@@ -5,8 +5,8 @@ state={
 		2013 2055 2576 3639 4551 5098 5292 5727 6076 6158 6251 6646 10788 10837 10881 10900 10935 10971 10977 10986 11019 11029 11032 11062 11071 11089 23215
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    manpower=5250000
+	resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +15,23 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+    state_category = megalopolis
 	history={
 		owner = NEB
-		buildings = {
-		}
 		add_core_of = NEB
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 4
+			arms_factory = 2
+			dockyard = 1
+			5292 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { 6158 50 } #New Valtia
+		victory_points = { 6646 20 } #Lulach Tìr
+		victory_points = { 5292 10 } #Sireth
+		victory_points = { 2013 5 } #Barukarta
 	}
+	local_supplies = 10
 }

@@ -1,12 +1,12 @@
 state={
 	id=376
-	name="STATE_376"
+	name="STATE_376" #Core Drackar
 	provinces={
 		86 743 1142 2195 2686 2947 3120 3521 3722 4377 4430 4455 4507 4919 5055 5683 5811 6372 10127 10196 10222 10223 10236 10289 10329 10395 10435 10437 10462 10467 10511 10535 10579 10580 10653 10676 10686 10703 10731 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    manpower=34150000
+	resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +15,32 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+    state_category = megalopolis
 	history={
 		owner = DRC
-		buildings = {
-		}
 		add_core_of = DRC
+		buildings = {
+			industrial_complex = 5
+			infrastructure = 4
+			arms_factory = 4
+			dockyard = 3
+			86 = {
+				naval_base = 3
+			}
+			4377 = {
+				naval_base = 1
+			}
+			3722 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { 86 50 } #Azeroth
+		victory_points = { 3722 30 } #Grbacry
+		victory_points = { 4377 30 } #123 Empire
+		victory_points = { 3120 20 } #Fort Pytey
+		victory_points = { 5683 10 } #Delaicepoli
+		victory_points = { 5055 10 } #Torre Annunziata
+		victory_points = { 10196 5 } #Lydville #Actually Belongs to Naan
 	}
+	local_supplies = 10
 }

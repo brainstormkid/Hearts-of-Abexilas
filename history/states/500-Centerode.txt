@@ -5,8 +5,8 @@ state={
 		273 6200 10745 10765 10796 10813 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    manpower=1200000
+	resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +15,17 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+    state_category = city
 	history={
 		owner = DRC
-		buildings = {
-		}
 		add_core_of = DRC
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+		}
+		victory_points = { 273 20 } #Centerode
 	}
+	local_supplies = 5
 }

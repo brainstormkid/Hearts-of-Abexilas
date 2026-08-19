@@ -5,8 +5,8 @@ state={
 		1153 1919 4840 10209 10263 10315 10316 10345 10376 10412 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    manpower=2550000
+	resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +15,24 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+   state_category = large_city
 	history={
 		owner = JAZ
-		buildings = {
-		}
 		add_core_of = JAZ
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			10263 = {
+				naval_base = 1
+			}
+			1919 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 10263 20 } #Rahya
+		victory_points = { 1919 20 } #Emberlyn
 	}
+	local_supplies = 6
 }

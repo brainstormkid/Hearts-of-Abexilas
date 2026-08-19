@@ -5,8 +5,8 @@ state={
 		2503 3536 3973 4088 4433 4799 10484 10495 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    manpower=2550000
+	resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +15,18 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+    state_category = large_city
 	history={
 		owner = EPI
-		buildings = {
-		}
 		add_core_of = EPI
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+		}
+		victory_points = { 4088 20 } #Cita Toritrua
+		victory_points = { 2503 5 } #Magna Amanita
 	}
+	local_supplies = 6
 }
