@@ -43,85 +43,29 @@ division_template = {
 
 units = {
 	division = {
-		name = "1st Epitchian Infantry"
-		location = 10919
+		name = "1st Sentonian Infantry"
+		location = 4452
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Epitchian Infantry"
-		location = 10919
+		name = "2nd Sentonian Infantry"
+		location = 4452
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Epitchian Infantry"
-		location = 10681
-		division_template = "Infantry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1st Epitchian Guards"
-		location = 5450
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "2nd Epitchian Guards"
-		location = 5194
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "3rd Epitchian Guards"
-		location = 5719
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "4th Epitchian Guards"
-		location = 4088
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "5th Epitchian Guards"
-		location = 3570
-		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1st Epitchian Cavalry"
-		location = 10820
+		name = "1st Sentonian Cavalry"
+		location = 6363
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Epitchian Cavalry"
-		location = 10963
-		division_template = "Cavalry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "3rd Epitchian Cavalry"
-		location = 4207
-		division_template = "Cavalry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "4th Epitchian Cavalry"
-		location = 3800
+		name = "2nd Sentonian Cavalry"
+		location = 5880
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0

@@ -43,85 +43,92 @@ division_template = {
 
 units = {
 	division = {
-		name = "1st Epitchian Infantry"
-		location = 10919
+		name = "1st Drackarian Infantry"
+		location = 86
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Epitchian Infantry"
-		location = 10919
+		name = "2nd Drackarian Infantry"
+		location = 86
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Epitchian Infantry"
-		location = 10681
+		name = "3rd Drackarian Infantry"
+		location = 10567
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Epitchian Guards"
-		location = 5450
+		name = "4th Drackarian Infantry"
+		location = 4377
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "5th Drackarian Infantry"
+		location = 3722
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "6th Drackarian Infantry"
+		location = 10152
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Drackarian Guards"
+		location = 5683
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Epitchian Guards"
-		location = 5194
+		name = "2nd Drackarian Guards"
+		location = 10482
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Epitchian Guards"
-		location = 5719
+		name = "3rd Drackarian Guards"
+		location = 3120
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4th Epitchian Guards"
-		location = 4088
+		name = "4th Drackarian Guards"
+		location = 10921
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "5th Epitchian Guards"
-		location = 3570
+		name = "5th Drackarian Guards"
+		location = 273
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Epitchian Cavalry"
-		location = 10820
+		name = "1st Drackarian Calvary"
+		location = 5055
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Epitchian Cavalry"
-		location = 10963
-		division_template = "Cavalry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "3rd Epitchian Cavalry"
-		location = 4207
-		division_template = "Cavalry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "4th Epitchian Cavalry"
-		location = 3800
+		name = "2nd Drackarian Calvary"
+		location = 4084
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0

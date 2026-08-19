@@ -43,23 +43,23 @@ division_template = {
 
 units = {
 	division = {
-		name = "1st Verdania Infantry"
-		location = 1965
+		name = "1st Sinterian Infantry"
+		location = 10424
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Verdania Infantry"
-		location = 1965
+		name = "2nd Sinterian Infantry"
+		location = 10424
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Verdania Infantry"
-		location = 10777
-		division_template = "Infantry Division"
+		name = "1st Sinterian Calvary"
+		location = 10375
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}

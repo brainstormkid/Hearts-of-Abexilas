@@ -120,6 +120,20 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
+		name = "6th Jarazeh Guards"
+		location = 10263
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "7th Jarazeh Guards"
+		location = 1919
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
 		name = "1st Jarazeh Cavalry"
 		location = 10718
 		division_template = "Cavalry Division"

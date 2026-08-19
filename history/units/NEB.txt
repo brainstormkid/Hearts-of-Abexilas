@@ -43,23 +43,30 @@ division_template = {
 
 units = {
 	division = {
-		name = "1st Verdania Infantry"
-		location = 1965
+		name = "1st Nebulonian Infantry"
+		location = 6158
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Verdania Infantry"
-		location = 1965
+		name = "2nd Nebulonian Infantry"
+		location = 6158
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Verdania Infantry"
-		location = 10777
-		division_template = "Infantry Division"
+		name = "1st Nebulonian Guards"
+		location = 6646
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Nebulonian Calvary"
+		location = 5292
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
