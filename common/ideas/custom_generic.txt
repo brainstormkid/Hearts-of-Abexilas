@@ -182,7 +182,7 @@ ideas = {
 				progressivist_drift = -0.02
 				centrist_drift = -0.02
 				libertarianist_drift = -0.02
-				iberalist_drift = -0.02
+				liberalist_drift = -0.02
 			}
 		}
 		nationalism_generic = {
