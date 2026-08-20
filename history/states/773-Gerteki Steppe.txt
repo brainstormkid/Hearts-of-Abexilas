@@ -2,7 +2,7 @@ state={
 	id=773
 	name="STATE_773"
 	provinces={
-		5849 12577 
+		156 1303 2166 2681 5496 5522 5556 10109 10130 10140 10156 10157 10163 10173 10184 10185 10192 10201 10218 10241 10286 
 	}
 	resources = {
 		oil = 2
@@ -14,14 +14,16 @@ state={
 		coal = 3
 	}
 	history={
-		owner = KHA
+		owner = GEH
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = KHA
+		add_core_of = GEH
+		victory_points = { 10173 10 }
+		victory_points = { 2681 10 }
 	}
 	buildings_max_level_factor=1.000
-        manpower=150000
+        manpower=1500000
         state_category = rural
 		local_supplies = 2
 }
