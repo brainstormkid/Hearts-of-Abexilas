@@ -2,10 +2,10 @@ state={
 	id=503
 	name="STATE_503"
 	provinces={
-		6 886 1015 1328 2697 3488 4290 4352 4445 4503 4895 5332 10818 10827 10869 10897 10922 10950 10968 
+		6 1015 2697 3488 4290 4445 4503 4895 10818 10827 10869 10922 10968 
 	}
 	buildings_max_level_factor=1.000
-        manpower=3150000
+        manpower=1150000
         state_category = megalopolis
 		local_supplies = 10
 	resources = {
@@ -23,15 +23,8 @@ state={
 			industrial_complex = 2
 			infrastructure = 4
 			arms_factory = 2
-			dockyard = 1
-			1328 = {
-				naval_base = 2
-			}
 		}
 		add_core_of = QYN
-		victory_points = { 886 20 }
-		victory_points = { 10950 20 }
-		victory_points = { 5332 20 }
 		victory_points = { 4445 10 }
 		victory_points = { 4503 10 }
 		victory_points = { 2697 10 }
