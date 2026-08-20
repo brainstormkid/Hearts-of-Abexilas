@@ -1,0 +1,32 @@
+state={
+	id=1391
+	name="STATE_1391"
+	provinces={
+		134 429 766 1471 4792 10448 10470 10477
+	}
+	buildings_max_level_factor=1.000
+    manpower=600000
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+    state_category = town
+	local_supplies = 4
+	history={
+		owner = GER
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 4
+			arms_factory = 1
+		}
+		add_core_of = GER
+		victory_points = { 766 10 }
+		victory_points = { 10477 20 }
+		victory_points = { 1471 10 }
+	}
+}
