@@ -1,0 +1,36 @@
+state={
+	id=90
+	name="STATE_90"
+	provinces={
+		886 1328 4352 5332 10897 10950 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1075000
+        state_category = rural
+		local_supplies = 2
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+	history={
+		owner = QYN
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 4
+			arms_factory = 2
+			dockyard = 1
+			1328 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = QYN
+		victory_points = { 886 20 }
+		victory_points = { 5332 20 }
+		victory_points = { 10950 20 }
+	}
+}
