@@ -2,7 +2,7 @@ state={
 	id=321
 	name="STATE_321"
 	provinces={
-		632 849 993 1104 1247 1690 1707 2794 3621 3726 3879 4093 4565 6095 6278 9947 10017 10039 10047 10110 10116 10119 10195 23203
+		632 993 1707 3621 3726 3879 4565 6278 10110 10116 10119 10195 23203
 	}
 	buildings_max_level_factor=1.000
         manpower=7650000
@@ -29,9 +29,6 @@ state={
 			}
 		}
 		add_core_of = GEH
-		
-		victory_points = { 1247 20 }
-		victory_points = { 1104 20 }
 		victory_points = { 10116 30 }
 	}
 }
