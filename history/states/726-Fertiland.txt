@@ -2,7 +2,7 @@ state={
 	id=726
 	name="STATE_726"
 	provinces={
-		824 12194 12221 
+		 849 1104 1247 1690 2794 4093 6095 9947 10017 10039 10047
 	}
 	buildings_max_level_factor=1.000
         manpower=600000
@@ -18,14 +18,13 @@ state={
 		coal = 3
 	}
 	history={
-		owner = DAN
+		owner = COV
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = DAN
-		victory_points = {
-			12195 10
-		}
+		add_core_of = COV
+		victory_points = { 1247 20 }
+		victory_points = { 1104 20 }
 	}
 }
