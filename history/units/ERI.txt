@@ -44,21 +44,21 @@ division_template = {
 units = {
 	division = {
 		name = "1st Eridonian Infantry"
-		location = 1905
+		location = 893
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "2nd Eridonian Infantry"
-		location = 1905
+		location = 10616
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "1st Eridonian Guards"
-		location = 10063
+		location = 10616
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
