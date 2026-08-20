@@ -2,10 +2,10 @@ state={
 	id=632
 	name="STATE_632"
 	provinces={
-		1415 5012 5346 5437 5608 5656 5698 5789 11572 11575 11610 11618 11631 11645 11693 11709 11722 11760 11766 11779 
+		5346 5437 5789 11572 11575 11610 11618 11631 11645 11693 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1800000
+        manpower=1700000
 		resources = {
 		oil = 2
 		aluminium = 2
@@ -26,6 +26,6 @@ state={
 		dockyard = 1
 		}
 		add_core_of = VED
-		victory_points = { 11575 30 }
+		victory_points = { 11575 20 }
 	}
 }
