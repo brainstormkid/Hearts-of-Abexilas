@@ -1,0 +1,34 @@
+state={
+	id=794
+	name="STATE_794"
+	provinces={
+		506 1148 1229 1544 1772 1835 2304 2639 3391 3628 3677 4036 4102 4105 4142 4559 5075 5110 5141 5317 6663 12613 12645 12659 12699 12717 12750 12779 12820 12835 12840 12865 12876 12899 12907 12910 12937 12965 12990 
+	}
+	buildings_max_level_factor=1.000
+	manpower=2250000
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+    state_category = city
+	local_supplies = 5
+	history={
+		owner = HAG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = HAG
+		add_claim_by = AET
+		victory_points = { 12910 5 }
+		victory_points = { 1835 10 }
+		victory_points = { 12779 5 }
+		victory_points = { 5110 5 }
+	}
+}
