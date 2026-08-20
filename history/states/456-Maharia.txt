@@ -18,7 +18,8 @@ state={
 		coal = 3
 	}
 	history={
-		owner = DON
+		owner = ERI
+		add_claim_by = DON
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 3
@@ -28,7 +29,7 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = DON
+		add_core_of = ERI
 		victory_points = { 10616 30 }
 	}
 }
