@@ -2,10 +2,10 @@ state={
 	id=564
 	name="STATE_564"
 	provinces={
-		841 875 930 1133 1406 1428 2325 2337 3102 4121 4779 5220 5268 5273 5481 11109 11182 11222 11235 11265 11267 11306 11346 11349 11357 11409 11467 11483 
+		841 930 1406 1428 2325 2337 3102 4121 4779 5220 5273 11109 11182 11222 11265 11306 11346 11349 11409 11467 11483 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1500000
+        manpower=1050000
         state_category = large_town
 		local_supplies = 3
 	resources = {
@@ -18,15 +18,13 @@ state={
 		coal = 3
 	}
 	history={
-		owner = ZAM
+		owner = ZZZ
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 2
 			arms_factory = 1
 		}
-		add_core_of = ZAM
-		victory_points = { 875 5 }
-		victory_points = { 1133 10 }
+		add_core_of = ZZZ
 		victory_points = { 1406 10 }
 		victory_points = { 3102 10 }
 		victory_points = { 4121 10 }
