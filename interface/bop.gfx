@@ -1,0 +1,19 @@
+spriteTypes = {
+	#EJZ
+	spriteType = {
+		name =  "GFX_EJZ_duke_side"
+		texturefile = "gfx/interface/bop/bop_EJZ_duke_half.dds"
+	}
+	spriteType = {
+		name =  "GFX_EJZ_senate_side"
+		texturefile = "gfx/interface/bop/bop_EJZ_senate_half.dds"
+	}
+	spriteType = {
+		name =  "GFX_EJZ_duke_side_full"
+		texturefile = "gfx/interface/bop/bop_EJZ_duke_full.dds"
+	}
+	spriteType = {
+		name =  "GFX_EJZ_senate_side_full"
+		texturefile = "gfx/interface/bop/bop_EJZ_senate_full.dds"
+	}
+}

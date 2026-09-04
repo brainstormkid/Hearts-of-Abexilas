@@ -2217,6 +2217,44 @@ EJZ_Election = {
 		cost = 30
 	}
 }
+EJZ_bop_decisions_cat = {
+	EJZ_support_duke_side = {
+		icon = GFX_decisions_SWI_consolidate_council_power
+		visible = {
+			always = yes
+		}
+		available = {
+			power_balance_value = {
+				id = EJZ_balance_of_power
+				value > -1
+			}
+		}
+		complete_effect = {
+			add_power_balance_value = {
+				id = EJZ_balance_of_power
+				value = -0.1
+			}
+		}
+	}
+	EJZ_support_senate_side = {
+		icon = GFX_decisions_SWI_consolidate_council_power
+		visible = {
+			always = yes
+		}
+		available = {
+			power_balance_value = {
+				id = EJZ_balance_of_power
+				value < 1
+			}
+		}
+		complete_effect = {
+			add_power_balance_value = {
+				id = EJZ_balance_of_power
+				value = 0.1
+			}
+		}
+	}
+}
 
 
 

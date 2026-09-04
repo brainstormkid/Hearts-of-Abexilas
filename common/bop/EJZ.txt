@@ -1,0 +1,77 @@
+EJZ_balance_of_power = {
+	initial_value = -0.35
+	left_side = EJZ_duke_side
+	right_side = EJZ_senate_side
+	decision_category = EJZ_bop_decisions_cat
+
+	range = {
+		id = EJZ_centre_range
+		min = -0.25
+		max = 0.25
+		modifier = {
+			political_power_gain = 0.5
+		}
+	}
+	side = {
+		id = EJZ_duke_side
+		icon = GFX_EJZ_duke_side
+		range = {
+			id = EJZ_duke_half
+			min = -0.8
+			max = -0.3
+			on_activate = {
+				set_power_balance_gfx = {
+					id = EJZ_balance_of_power
+					side = EJZ_duke_side
+					gfx = GFX_EJZ_duke_side
+				}
+			}
+		}
+		range = {
+			id = EJZ_duke_full
+			min = -1
+			max = -0.8
+			modifier = {
+				political_power_gain = 0.1
+			}
+			on_activate = {
+				set_power_balance_gfx = {
+					id = EJZ_balance_of_power
+					side = EJZ_duke_side
+					gfx = GFX_EJZ_duke_side_full
+				}
+			}
+		}
+	}
+	side = {
+		id = EJZ_senate_side
+		icon = GFX_EJZ_senate_side
+		range = {
+			id = EJZ_senate_half
+			min = 0.3
+			max = 0.8
+			on_activate = {
+				set_power_balance_gfx = {
+					id = EJZ_balance_of_power
+					side = EJZ_senate_side
+					gfx = GFX_EJZ_senate_side
+				}
+			}
+		}
+		range = {
+			id = EJZ_senate_full
+			min = 0.8
+			max = 1
+			modifier = {
+				political_power_gain = 0.1
+			}
+			on_activate = {
+				set_power_balance_gfx = {
+					id = EJZ_balance_of_power
+					side = EJZ_senate_side
+					gfx = GFX_EJZ_senate_side_full
+				}
+			}
+		}
+	}
+}

@@ -71,3 +71,14 @@ EJZ_election = {
     visible_when_empty = yes
     priority = 3
 }
+EJZ_bop_decisions_cat = {
+    icon = GFX_decision_category_generic_politics
+    allowed = {
+        tag = EJZ
+    }
+    visible = {
+        always = yes
+    }
+    visible_when_empty = yes
+    priority = 2
+}
