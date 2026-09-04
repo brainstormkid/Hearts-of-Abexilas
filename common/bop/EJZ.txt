@@ -1,16 +1,13 @@
 EJZ_balance_of_power = {
-	initial_value = -0.35
+	initial_value = 0
 	left_side = EJZ_duke_side
 	right_side = EJZ_senate_side
 	decision_category = EJZ_bop_decisions_cat
 
 	range = {
 		id = EJZ_centre_range
-		min = -0.25
-		max = 0.25
-		modifier = {
-			political_power_gain = 0.5
-		}
+		min = -0.3
+		max = 0.3
 	}
 	side = {
 		id = EJZ_duke_side
@@ -19,12 +16,11 @@ EJZ_balance_of_power = {
 			id = EJZ_duke_half
 			min = -0.8
 			max = -0.3
-			on_activate = {
-				set_power_balance_gfx = {
-					id = EJZ_balance_of_power
-					side = EJZ_duke_side
-					gfx = GFX_EJZ_duke_side
-				}
+			modifier = {
+				political_power_gain = 0.05
+				stability_factor = 0.05
+				production_speed_construction = 0.05
+				consumer_goods_factor = 0.1
 			}
 		}
 		range = {
@@ -32,14 +28,12 @@ EJZ_balance_of_power = {
 			min = -1
 			max = -0.8
 			modifier = {
-				political_power_gain = 0.1
-			}
-			on_activate = {
-				set_power_balance_gfx = {
-					id = EJZ_balance_of_power
-					side = EJZ_duke_side
-					gfx = GFX_EJZ_duke_side_full
-				}
+				political_power_gain = 0.05
+				stability_factor = 0.05
+				production_speed_construction = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				consumer_goods_factor = 0.15
 			}
 		}
 	}
@@ -50,12 +44,11 @@ EJZ_balance_of_power = {
 			id = EJZ_senate_half
 			min = 0.3
 			max = 0.8
-			on_activate = {
-				set_power_balance_gfx = {
-					id = EJZ_balance_of_power
-					side = EJZ_senate_side
-					gfx = GFX_EJZ_senate_side
-				}
+			modifier = {
+				stability_factor = -0.05
+				political_advisor_cost_factor = -0.1
+				consumer_goods_factor = -0.1
+				compliance_growth_on_our_occupied_states = 0.05
 			}
 		}
 		range = {
@@ -63,14 +56,11 @@ EJZ_balance_of_power = {
 			min = 0.8
 			max = 1
 			modifier = {
-				political_power_gain = 0.1
-			}
-			on_activate = {
-				set_power_balance_gfx = {
-					id = EJZ_balance_of_power
-					side = EJZ_senate_side
-					gfx = GFX_EJZ_senate_side_full
-				}
+				stability_factor = -0.05
+				political_advisor_cost_factor = -0.15
+				consumer_goods_factor = -0.15
+				compliance_growth_on_our_occupied_states = 0.1
+				required_garrison_factor = -0.1
 			}
 		}
 	}
