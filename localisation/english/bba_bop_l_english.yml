@@ -1,0 +1,33 @@
+﻿l_english:
+
+ BOP_TOOLTIP: "The §Y[root.GetPowerBalanceName]§! is currently [?.root.power_balance_value|0%H] on the side of §Y[root.GetActiveSideName]§!"
+ BOP_TOOLTIP_TREND: "The balance of power is currently trending towards the side of §Y[root.GetTrendingSideName]§! by [root.GetBopTrendTextIcon][root.GetChangeRateDesc].\n[root.GetPowerBalanceModDesc]"
+ BOP_TOOLTIP_STABLE: "The balance of power is currently stable."
+ BOP_LEFT_SIDE_TOOLTIP: "[root.GetLeftSideName]"
+ BOP_RIGHT_SIDE_TOOLTIP: "[root.GetRightSideName]"
+ BOP_ACTIVE_RANGE_DESC: "[root.GetActiveRangeName]"
+ BOP_ACTIVE_RANGE_TOOLTIP: "[root.GetActiveRangeModDesc][root.GetActiveRangeRuleDesc]"
+
+ BOP_CHANGE_RATE_DAILY: "$VALUE|2%H$ per day"
+ BOP_CHANGE_RATE_WEEKLY: "$VALUE|2%H$ per week"
+ 
+ BOP_PERCENTAGE: "$VALUE|0%$"
+ BOP_LEVELS: "$UNLOCKED$/$TOTAL$"
+ 
+ BOP_STATIC_MODIFIER: "$NAME|H$"
+ 
+ EJZ_balance_of_power: "Balance of Power"
+ EJZ_duke_side: "The Duke"
+ EJZ_senate_side: "The Senate"
+
+ EJZ_centre_range: "Status Quo"
+
+ EJZ_senate_low: "Slight Senate Influence"
+ EJZ_senate_high: "Total Senate Influence"
+
+ EJZ_duke_low: "Slight Duke Influence"
+ EJZ_duke_high: "Total Duke Influence"
+ 
+
+
+ 

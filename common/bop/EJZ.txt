@@ -13,7 +13,7 @@ EJZ_balance_of_power = {
 		id = EJZ_duke_side
 		icon = GFX_EJZ_duke_side
 		range = {
-			id = EJZ_duke_half
+			id = EJZ_duke_low
 			min = -0.8
 			max = -0.3
 			modifier = {
@@ -22,9 +22,16 @@ EJZ_balance_of_power = {
 				production_speed_construction = 0.05
 				consumer_goods_factor = 0.1
 			}
+			on_activate = {
+				set_power_balance_gfx = {
+					id = EJZ_balance_of_power
+					side = EJZ_duke_side
+					gfx = GFX_EJZ_duke_side
+				}
+			}
 		}
 		range = {
-			id = EJZ_duke_full
+			id = EJZ_duke_high
 			min = -1
 			max = -0.8
 			modifier = {
@@ -35,13 +42,20 @@ EJZ_balance_of_power = {
 				production_factory_max_efficiency_factor = 0.1
 				consumer_goods_factor = 0.15
 			}
+			on_activate = {
+				set_power_balance_gfx = {
+					id = EJZ_balance_of_power
+					side = EJZ_duke_side
+					gfx = GFX_EJZ_duke_side_full
+				}
+			}
 		}
 	}
 	side = {
 		id = EJZ_senate_side
 		icon = GFX_EJZ_senate_side
 		range = {
-			id = EJZ_senate_half
+			id = EJZ_senate_low
 			min = 0.3
 			max = 0.8
 			modifier = {
@@ -50,9 +64,16 @@ EJZ_balance_of_power = {
 				consumer_goods_factor = -0.1
 				compliance_growth_on_our_occupied_states = 0.05
 			}
+			on_activate = {
+				set_power_balance_gfx = {
+					id = EJZ_balance_of_power
+					side = EJZ_senate_side
+					gfx = GFX_EJZ_senate_side
+				}
+			}
 		}
 		range = {
-			id = EJZ_senate_full
+			id = EJZ_senate_high
 			min = 0.8
 			max = 1
 			modifier = {
@@ -61,6 +82,13 @@ EJZ_balance_of_power = {
 				consumer_goods_factor = -0.15
 				compliance_growth_on_our_occupied_states = 0.1
 				required_garrison_factor = -0.1
+			}
+			on_activate = {
+				set_power_balance_gfx = {
+					id = EJZ_balance_of_power
+					side = EJZ_senate_side
+					gfx = GFX_EJZ_senate_side_full
+				}
 			}
 		}
 	}
