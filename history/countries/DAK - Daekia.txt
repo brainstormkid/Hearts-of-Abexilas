@@ -1,6 +1,6 @@
 capital = 1176
 
-oob = "DAK_1936"
+oob = "DAK"
 
 set_politics = {
 	ruling_party = absolutist
