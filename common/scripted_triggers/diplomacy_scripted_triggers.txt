@@ -107,21 +107,22 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 				rule = allow_release_nations
 				option = FREE
 			}
+			NOT = {original_tag = EJZ}
 		}
 		always = yes
 	}
 	if = {
 		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
+			has_game_rule = {
+				rule = allow_release_nations
+				option = FREE
 			}
+			original_tag = EJZ
+			NOT = { has_completed_focus = EJZ_a_new_course }
+		}
+		custom_trigger_tooltip = {
+			NOT = { FROM = { tag = WOK } }
+			NOT = { FROM = { tag = DAK } }
 		}
 	}
 	custom_trigger_tooltip = {

@@ -675,7 +675,14 @@
  DAE:1 "DaeConia"
  DAE_DEF:1 "DaeConia"
  DAE_ADJ:0 "DaeConian"
- 
+
+ DAK_absolutist:1 "Duchy of Daekia"
+ DAK_absolutist_DEF:1 "the Duchy of Daekia"
+ DAK_absolutist_ADJ:0 "Daekian"
+ DAK:1 "Daekia"
+ DAK_DEF:1 "Daekia"
+ DAK_ADJ:0 "Daekian"
+
  DAD_absolutist:1 "Diarchy of the Dande"
  DAD_absolutist_DEF:1 "the Diarchy of the Dande"
  DAD_absolutist_ADJ:0 "Dandelian"
