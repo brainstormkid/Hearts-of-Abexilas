@@ -11,6 +11,20 @@ shared_focus = {
 		}
 	}
 	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = WOK
+		}
+	}
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = DAK
+		}
+	}
+	offset = {
 		x = 0
 		y = -7
 		trigger = {
@@ -32,6 +46,20 @@ shared_focus = {
 		y = 0
 		trigger = {
 			tag = FLA
+		}
+	}
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = WOK
+		}
+	}
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = DAK
 		}
 	}
 	offset = {
@@ -62,6 +90,20 @@ shared_focus = {
 		}
 	}
 	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = WOK
+		}
+	}
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = DAK
+		}
+	}
+	offset = {
 		x = 0
 		y = -7
 		trigger = {
@@ -83,6 +125,20 @@ shared_focus = {
 		y = 0
 		trigger = {
 			tag = FLA
+		}
+	}
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = WOK
+		}
+	}
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = DAK
 		}
 	}
 	offset = {
@@ -110,6 +166,20 @@ shared_focus = {
 		}
 	}
 	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = WOK
+		}
+	}
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = DAK
+		}
+	}
+	offset = {
 		x = 0
 		y = -7
 		trigger = {
@@ -131,6 +201,20 @@ shared_focus = {
 		y = 0
 		trigger = {
 			tag = FLA
+		}
+	}
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = WOK
+		}
+	}
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = DAK
 		}
 	}
 	offset = {
@@ -158,6 +242,20 @@ shared_focus = {
 		}
 	}
 	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = WOK
+		}
+	}
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = DAK
+		}
+	}
+	offset = {
 		x = 0
 		y = -7
 		trigger = {
@@ -179,6 +277,20 @@ shared_focus = {
 		y = 0
 		trigger = {
 			tag = FLA
+		}
+	}
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = WOK
+		}
+	}
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = DAK
 		}
 	}
 	offset = {
@@ -206,6 +318,20 @@ shared_focus = {
 		}
 	}
 	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = WOK
+		}
+	}
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = DAK
+		}
+	}
+	offset = {
 		x = 0
 		y = -7
 		trigger = {
@@ -227,6 +353,20 @@ shared_focus = {
 		y = 0
 		trigger = {
 			tag = FLA
+		}
+	}
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = WOK
+		}
+	}
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = DAK
 		}
 	}
 	offset = {
@@ -254,6 +394,20 @@ shared_focus = {
 		}
 	}
 	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = WOK
+		}
+	}
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = DAK
+		}
+	}
+	offset = {
 		x = 0
 		y = -7
 		trigger = {
@@ -278,6 +432,20 @@ shared_focus = {
 		}
 	}
 	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = WOK
+		}
+	}
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = DAK
+		}
+	}
+	offset = {
 		x = 0
 		y = -7
 		trigger = {
@@ -299,6 +467,20 @@ shared_focus = {
 		y = 0
 		trigger = {
 			tag = FLA
+		}
+	}
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = WOK
+		}
+	}
+	offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = DAK
 		}
 	}
 	offset = {
@@ -343,6 +525,9 @@ joint_focus = {
 	completion_reward = {
 		add_political_power = 50
 	}
+	ai_will_do = {
+		base = 5
+	}
 }
 joint_focus = {
 	id = EJZ_joint_economic_cooperation
@@ -370,6 +555,9 @@ joint_focus = {
 			modifier = EJZ_joint_economic_cooperation_idea
 		}
 	}
+	ai_will_do = {
+		base = 5
+	}
 }
 joint_focus = {
 	id = EJZ_joint_industrial_development
@@ -396,6 +584,9 @@ joint_focus = {
 		add_dynamic_modifier = {
 			modifier = EJZ_joint_industrial_development_idea
 		}
+	}
+	ai_will_do = {
+		base = 5
 	}
 }
 joint_focus = {
@@ -425,6 +616,9 @@ joint_focus = {
 	continue_if_invalid = yes
 	completion_reward_joint_member = {
 		add_ideas = EJZ_task_system
+	}
+	ai_will_do = {
+		base = 5
 	}
 }
 joint_focus = {
@@ -464,6 +658,9 @@ joint_focus = {
 			uses = 1
 			category = industry
 		}
+	}
+	ai_will_do = {
+		base = 5
 	}
 }
 joint_focus = {
@@ -506,6 +703,9 @@ joint_focus = {
 	completion_reward_joint_member = {
 		add_political_power = 50
 	}
+	ai_will_do = {
+		base = 5
+	}
 }
 joint_focus = {
 	id = EJZ_joint_establish_a_central_bank
@@ -547,6 +747,9 @@ joint_focus = {
 	completion_reward_joint_member = {
 		add_political_power = 50
 	}
+	ai_will_do = {
+		base = 5
+	}
 }
 joint_focus = {
 	id = EJZ_joint_invest_in_military_industries
@@ -578,6 +781,9 @@ joint_focus = {
 		}
 		set_country_flag = EJZ_updated_joint_military_industries
 	}
+	ai_will_do = {
+		base = 5
+	}
 }
 joint_focus = {
 	id = EJZ_joint_develop_civilian_industries
@@ -608,6 +814,9 @@ joint_focus = {
 			EJZ_joint_civilian = 0.05
 		}
 		set_country_flag = EJZ_updated_joint_civilian_industries
+	}
+	ai_will_do = {
+		base = 5
 	}
 }
 joint_focus = {
@@ -643,6 +852,9 @@ joint_focus = {
 		}
 		set_country_flag = EJZ_updated_joint_railway_logistics
 	}
+	ai_will_do = {
+		base = 5
+	}
 }
 joint_focus = {
 	id = EJZ_joint_joint_resource_excavations
@@ -673,6 +885,9 @@ joint_focus = {
 			EJZ_joint_resource = 0.1
 		}
 		set_country_flag = EJZ_updated_joint_resource_excavations
+	}
+	ai_will_do = {
+		base = 5
 	}
 }
 joint_focus = {
@@ -716,6 +931,9 @@ joint_focus = {
 	completion_reward_joint_originator = {
 		add_political_power = 50
 	}
+	ai_will_do = {
+		base = 5
+	}
 }
 joint_focus = {
 	id = EJZ_joint_united_under_tejwez
@@ -751,6 +969,9 @@ joint_focus = {
 		add_autonomy_score = {
 			value = -250
 		}
+	}
+	ai_will_do = {
+		base = 5
 	}
 }
 
