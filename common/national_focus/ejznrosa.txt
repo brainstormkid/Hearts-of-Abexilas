@@ -2535,9 +2535,6 @@ focus_tree = {
 		prerequisite = {
 			focus = EJZ_rally_around_the_duke
 		}
-		mutually_exclusive = {
-			focus = EJZ_a_new_course
-		}
 		completion_reward = {
 			add_popularity = {
 				ideology = liberalist
@@ -2553,6 +2550,219 @@ focus_tree = {
 			}
 			add_stability = 0.05
 			add_political_power = 75
+		}
+	}
+	focus = {
+		id = EJZ_government_restructuring
+		icon = GFX_focus_ETH_re-convene_the_parliament
+		x = 17
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = {
+			focus = EJZ_rally_around_the_duke
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = EJZ_ejznrosa_first
+		icon = GFX_focus_DEN_civilian_preparations
+		x = 15
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		available = {
+			is_power_balance_in_range = {
+				id = EJZ_balance_of_power
+				range < EJZ_duke_low
+			}
+		}
+		prerequisite = {
+			focus = EJZ_government_restructuring
+		}
+		mutually_exclusive = {
+			focus = EJZ_federalize_the_duchies
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = EJZ_federalize_the_duchies
+		icon = GFX_focus_SWI_dissolve_the_federal_council
+		x = 19
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		available = {
+			is_power_balance_in_range = {
+				id = EJZ_balance_of_power
+				range > EJZ_senate_low
+			}
+		}
+		prerequisite = {
+			focus = EJZ_government_restructuring
+		}
+		mutually_exclusive = {
+			focus = EJZ_ejznrosa_first
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = EJZ_establish_the_duchy_of_wokark
+		icon = GFX_EJZ_establish_the_duchy_of_wokark
+		x = 20
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		available = {
+			NOT = {
+				WOK = {
+					is_subject_of = EJZ
+				}
+				country_exists = WOK
+			}
+			is_subject = no
+		}
+		bypass = {
+			WOK = {
+				is_subject_of = EJZ
+			}
+		}
+		prerequisite = {
+			focus = EJZ_federalize_the_duchies
+		}
+		completion_reward = {
+			EJZ = {
+				release_puppet = WOK
+			}
+			1178 = {
+				add_core_of = WOK
+			}
+			WOK = {
+				set_country_flag = EJZ_joint_focus_tree
+				transfer_state = 1178
+			}
+		}
+	}
+	focus = {
+		id = EJZ_establish_the_duchy_of_daekia
+		icon = GFX_EJZ_establish_the_duchy_of_daekia
+		x = 22
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		available = {
+			NOT = {
+				DAK = {
+					is_subject_of = EJZ
+				}
+				country_exists = DAK
+			}
+			is_subject = no
+			1176 = {
+				is_owned_By = EJZ
+			}
+			1177 = {
+				is_owned_By = EJZ
+			}
+		}
+		bypass = {
+			DAK = {
+				is_subject_of = EJZ
+			}
+		}
+		prerequisite = {
+			focus = EJZ_federalize_the_duchies
+		}
+		completion_reward = {
+			EJZ = {
+				release_puppet = DAK
+			}
+			1176 = {
+				add_core_of = DAK
+			}
+			1177 = {
+				add_core_of = DAK
+			}
+			DAK = {
+				set_country_flag = EJZ_joint_focus_tree
+				transfer_state = 1176
+				transfer_state = 1177
+			}
+		}
+	}
+	focus = {
+		id = EJZ_expand_the_duchy_of_wokark
+		icon = GFX_focus_POL_expand_polish_intelligence
+		x = 19
+		y = 13
+		cost = 10
+		available = {
+			country_exists = WOK
+			638 = {
+				is_owned_by = EJZ
+			}
+			1411 = {
+				is_owned_by = EJZ
+			}
+			1413 = {
+				is_owned_by = EJZ
+			}
+			is_subject = no
+		}
+		bypass = {
+			638 = {
+				is_owned_by = WOk
+			}
+			1411 = {
+				is_owned_by = WOK
+			}
+			1413 = {
+				is_owned_by = WOK
+			}
+			638 = {
+				is_core_of = WOk
+			}
+			1411 = {
+				is_core_of = WOk
+			}
+			1413 = {
+				is_core_of = WOk
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = {
+			focus = EJZ_establish_the_duchy_of_wokark
+		}
+		completion_reward = {
+			638 = {
+				add_core_of = WOK
+			}
+			1411 = {
+				add_core_of = WOK
+			}
+			1413 = {
+				add_core_of = WOK
+			}
+			WOK = {
+				transfer_state = 638
+				transfer_state = 1411
+				transfer_state = 1413
+			}
 		}
 	}
 }
