@@ -23,6 +23,5 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = EJZ
-		add_claim_by = DAK
 	}
 }
