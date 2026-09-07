@@ -2560,7 +2560,7 @@ focus_tree = {
 	focus = {
 		id = EJZ_government_restructuring
 		icon = GFX_focus_ETH_re-convene_the_parliament
-		x = 15
+		x = 16
 		y = 10
 		cost = 10
 		search_filters = {
@@ -2601,7 +2601,7 @@ focus_tree = {
 		icon = GFX_focus_SWI_dissolve_the_federal_council
 		x = 19
 		y = 11
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
@@ -2625,7 +2625,7 @@ focus_tree = {
 		icon = GFX_EJZ_establish_the_duchy_of_wokark
 		x = 18
 		y = 12
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
@@ -2664,7 +2664,7 @@ focus_tree = {
 		icon = GFX_EJZ_establish_the_duchy_of_daekia
 		x = 20
 		y = 12
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
@@ -2713,7 +2713,7 @@ focus_tree = {
 		icon = GFX_focus_POL_expand_polish_intelligence
 		x = 17
 		y = 13
-		cost = 10
+		cost = 5
 		available = {
 			country_exists = WOK
 			638 = {
@@ -2768,6 +2768,155 @@ focus_tree = {
 				transfer_state = 1411
 				transfer_state = 1413
 			}
+		}
+	}
+	focus = {
+		id = EJZ_limited_self_governance
+		icon = GFX_focus_generic_improve_the_administration
+		x = 19
+		y = 13
+		cost = 5
+		available = {
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = EJZ_establish_the_duchy_of_wokark
+		}
+		prerequisite = {
+			focus = EJZ_establish_the_duchy_of_daekia
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = EJZ_an_united_duchy
+		icon = GFX_focus_generic_home_defense
+		x = 20
+		y = 14
+		cost = 10
+		available = {
+			has_completed_focus = EJZ_joint_united_under_tejwez
+			OR = {
+				has_government = absolutist
+				has_government = monarchist
+				has_government = imperialist
+			}
+			WOK = {
+				is_puppet_of = EJZ
+			}
+			DAK = {
+				is_puppet_of = EJZ
+			}
+			is_power_balance_in_range = {
+				id = EJZ_balance_of_power
+				range > EJZ_centre_range
+			}
+			is_subject = no
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = EJZ_limited_self_governance
+		}
+		mutually_exclusive = {
+			focus = EJZ_towards_independence
+		}
+		completion_reward = {
+			set_cosmetic_tag = EJZ_united_duchy
+			WOK = {
+				every_core_state = {
+					add_core_of = EJZ
+				}
+			}
+			DAK = {
+				every_core_state = {
+					add_core_of = EJZ
+				}
+			}
+			is_power_balance_in_range = {
+				id = EJZ_balance_of_power
+				range > EJZ_
+			}
+			annex_country = {
+				target = WOK
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = DAK
+				transfer_troops = yes
+			}
+		}
+	}
+	focus = {
+		id = EJZ_towards_independence
+		icon = GFX_focus_generic_swooping_falcon
+		x = 22
+		y = 14
+		cost = 10
+		available = {
+			WOK = {
+				is_puppet_of = EJZ
+			}
+			DAK = {
+				is_puppet_of = EJZ
+			}
+			is_power_balance_in_range = {
+				id = EJZ_balance_of_power
+				range > EJZ_senate_low
+			}
+			is_subject = no
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = EJZ_limited_self_governance
+		}
+		mutually_exclusive = {
+			focus = EJZ_an_united_duchy
+		}
+		completion_reward = {
+			set_autonomy = {
+				target = WOK
+				autonomy_state = autonomy_free
+				end_wars = no
+				end_civil_wars = no
+			}
+			set_autonomy = {
+				target = DAK
+				autonomy_state = autonomy_free
+				end_wars = no
+				end_civil_wars = no
+			}
+			give_guarantee = WOK
+			give_guarantee = DAK
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	focus = {
+		id = EJZ_ryk_av_ejznrosa
+		icon = GFX_focus_generic_monarchy_2
+		x = 16
+		y = 15
+		cost = 10
+		available = {
+			is_subject = no
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = EJZ_limited_self_governance
+		}
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 0
 		}
 	}
 }

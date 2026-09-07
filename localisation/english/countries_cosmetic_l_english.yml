@@ -1,5 +1,14 @@
 ﻿l_english:
 #Ejznrosa
+ EJZ_united_duchy_absolutist:0 "United Duchies av Ejznrosa" 
+ EJZ_united_duchy_absolutist_DEF:1 "The United Duchies av Ejznrosa"
+ EJZ_united_duchy_absolutist_ADJ:0 "Ejznrosii"
+ EJZ_united_duchy_monarchist:0 "United Duchies av Ejznrosa" 
+ EJZ_united_duchy_monarchist_DEF:1 "The United Duchies av Ejznrosa"
+ EJZ_united_duchy_monarchist_ADJ:0 "Ejznrosii"
+ EJZ_united_duchy_imperialist:0 "United Duchies av Ejznrosa" 
+ EJZ_united_duchy_imperialist_DEF:1 "The United Duchies av Ejznrosa"
+ EJZ_united_duchy_imperialist_ADJ:0 "Ejznrosii"
  WOK_EJZ_autonomy_dominion:0 "Grand Duchy of Wokark"
  WOK_EJZ_autonomy_colony:0 "Grand Duchy of Wokark"
  WOK_EJZ_autonomy_puppet:0 "Grand Duchy of Wokark"
