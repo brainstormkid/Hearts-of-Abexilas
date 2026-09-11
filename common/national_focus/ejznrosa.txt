@@ -2594,6 +2594,22 @@ focus_tree = {
 			focus = EJZ_federalize_the_duchies
 		}
 		completion_reward = {
+			add_popularity = {
+				ideology = centrist
+				popularity = 0.03
+			}
+			add_popularity = {
+				ideology = monarchist
+				popularity = 0.03
+			}
+			add_popularity = {
+				ideology = imperialist
+				popularity = 0.03
+			}
+			add_popularity = {
+				ideology = radical_nationalist
+				popularity = 0.03
+			}
 		}
 	}
 	focus = {
@@ -2618,6 +2634,14 @@ focus_tree = {
 			focus = EJZ_ejznrosa_first
 		}
 		completion_reward = {
+			add_popularity = {
+				ideology = libertarianist
+				popularity = 0.03
+			}
+			add_popularity = {
+				ideology = liberalist
+				popularity = 0.05
+			}
 		}
 	}
 	focus = {
@@ -2893,16 +2917,17 @@ focus_tree = {
 			}
 			give_guarantee = WOK
 			give_guarantee = DAK
+			custom_effect_tooltip = EJZ_anger_rosists_tip
 		}
 		ai_will_do = {
 			factor = 0
 		}
 	}
 	focus = {
-		id = EJZ_ryk_av_ejznrosa
-		icon = GFX_focus_generic_monarchy_2
-		x = 16
-		y = 15
+		id = EJZ_corporate_with_the_rosists
+		icon = GFX_focus_PRC_reorganize_divisions
+		x = 14
+		y = 12
 		cost = 10
 		available = {
 			is_subject = no
@@ -2911,12 +2936,103 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = {
-			focus = EJZ_limited_self_governance
+			focus = EJZ_ejznrosa_first
+		}
+		completion_reward = {
+			division_template = {
+				name = "Rosist Militia"
+				is_locked = yes
+				priority = 0
+				regiments = {
+					militia = {x = 0 y = 0}
+					militia = {x = 0 y = 1}
+					militia = {x = 0 y = 2}
+					militia = {x = 1 y = 0}
+					militia = {x = 1 y = 1}
+					militia = {x = 1 y = 2}
+				}
+				support = {
+					engineer = {x = 0 y = 0}
+				}
+			}
+			659 = {
+				create_unit = {
+    				division = "name = \"Rosist Militia\" division_template = \"Rosist Militia\" start_experience_factor = 0.9\" start_manpower_factor = 1"
+   					owner = EJZ
+				}
+				create_unit = {
+    				division = "name = \"Rosist Militia\" division_template = \"Rosist Militia\" start_experience_factor = 0.9\" start_manpower_factor = 1"
+   					owner = EJZ
+				}
+			}
+		}
+	}
+	focus = {
+		id = EJZ_focus_on_ejznsteda
+		icon = GFX_focus_generic_central_planning
+		x = 12
+		y = 12
+		cost = 10
+		available = {
+			is_subject = no
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = EJZ_ejznrosa_first
+		}
+		completion_reward = {
+			659 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+				}
+			}
+			1415 = {
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	focus = {
+		id = EJZ_rosist_militias
+		icon = GFX_focus_generic_advanced_military_studies
+		x = 15
+		y = 13
+		cost = 10
+		available = {
+			is_subject = no
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = EJZ_corporate_with_the_rosists
 		}
 		completion_reward = {
 		}
-		ai_will_do = {
-			factor = 0
+	}
+	focus = {
+		id = EJZ_centralize_the_duchies
+		icon = GFX_focus_AUS_bring_back_the_habsburg_rule
+		x = 13
+		y = 13
+		cost = 10
+		available = {
+			is_subject = no
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = EJZ_corporate_with_the_rosists
+		}
+		prerequisite = {
+			focus = EJZ_focus_on_ejznsteda
+		}
+		completion_reward = {
 		}
 	}
 }

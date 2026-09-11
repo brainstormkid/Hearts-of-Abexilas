@@ -28,6 +28,6 @@
  EJZ_civilian_industries_tip:0 "Modify §YJoint Industrial Development§W\nEffective change:\n§YCivilian Factory§W construction speed: §G+5%§W"
  EJZ_railway_logistics_tip:0 "Modify §YJoint Industrial Development§W\nEffective change:\n§YRailway§W construction speed: §G+10%§W\n§YSupply Hub§W construction speed: §G+15%§W"
  EJZ_resource_excavations_tip:0 "Modify §YJoint Resource Excavations§W\nEffective change:\nLocal Resource Gain Efficiency per Infrastructure: §G+10%§W"
- 
+ EJZ_anger_rosists_tip:0 "§RThis will anger the Rosist Nationalists within the government.§W"
 #ZDA
   ZDA_defense_tip:0 "All signatories of the §CZarilyian Defense Accords§W will come to the aid to the §Rdefending§W naton."

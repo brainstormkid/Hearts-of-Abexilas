@@ -4,7 +4,11 @@ EJZ_propaganda_category = {    #Defines the category for us to use when making t
 
     allowed = { tag = EJZ }
 
-    visible = { always = yes }
+    visible = { 
+        EJZ = {
+            has_completed_focus = EJZ_propaganda_ministry
+        }
+    }
 
     scripted_gui = EJZ_propaganda_ui   #This is the name of our scripted GUI, as per the common/scripted GUI. It is the 2nd line, the block name, that is inside of the scripted_gui = { block.
 

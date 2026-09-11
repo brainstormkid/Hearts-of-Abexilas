@@ -79,6 +79,6 @@ EJZ_bop_decisions_cat = {
     visible = {
         always = yes
     }
-    visible_when_empty = yes
+    visible_when_empty = no
     priority = 2
 }
