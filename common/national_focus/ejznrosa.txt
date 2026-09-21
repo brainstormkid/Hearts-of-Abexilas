@@ -2891,6 +2891,9 @@ focus_tree = {
 				id = EJZ_balance_of_power
 				range > EJZ_senate_low
 			}
+			NOT = {
+				has_completed_focus = EJZ_appease_the_rosists
+			}
 			is_subject = no
 		}
 		search_filters = {
@@ -3031,6 +3034,24 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = EJZ_focus_on_ejznsteda
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = EJZ_appease_the_rosists
+		icon = GFX_focus_generic_worker_administration
+		x = 21
+		y = 13
+		cost = 3
+		available = {
+			is_subject = no
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = EJZ_federalize_the_duchies
 		}
 		completion_reward = {
 		}
