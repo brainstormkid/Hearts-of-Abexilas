@@ -26,5 +26,8 @@ state={
 		}
 		add_core_of = EJZ
 		victory_points = { 250 20 }
+		add_dynamic_modifier = {
+			modifier = EJZ_unintegrated_infrastructure_development
+		}
 	}
 }

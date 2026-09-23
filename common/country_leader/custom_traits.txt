@@ -304,6 +304,7 @@ leader_traits = {
 		consumer_goods_factor = -0.05
 		compliance_growth = 0.10
 		war_support_factor = -0.05
+		justify_war_goal_time = 0.5
 	}
 	infrastructure_enthusiast = {
 		random = no

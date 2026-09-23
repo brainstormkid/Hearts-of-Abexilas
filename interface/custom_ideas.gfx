@@ -479,4 +479,8 @@ spriteTypes = {
 		name = "GFX_idea_zarilyian_defense_accords"
 		texturefile = "gfx/interface/ideas/zda.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_POL_disjointed_industry"
+		textureFile = "gfx/interface/ideas/idea_POL_disjointed_industry.dds"
+	}
 }

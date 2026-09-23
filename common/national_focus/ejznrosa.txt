@@ -2929,9 +2929,9 @@ focus_tree = {
 	focus = {
 		id = EJZ_corporate_with_the_rosists
 		icon = GFX_focus_PRC_reorganize_divisions
-		x = 14
-		y = 12
-		cost = 10
+		x = 11
+		y = 13
+		cost = 3
 		available = {
 			is_subject = no
 		}
@@ -2971,11 +2971,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = EJZ_focus_on_ejznsteda
-		icon = GFX_focus_generic_central_planning
+		id = EJZ_integrate_the_duchies
+		icon = GFX_focus_GER_integrated_economies
 		x = 12
 		y = 12
-		cost = 10
+		cost = 5
 		available = {
 			is_subject = no
 		}
@@ -3000,24 +3000,6 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = EJZ_rosist_militias
-		icon = GFX_focus_generic_advanced_military_studies
-		x = 15
-		y = 13
-		cost = 10
-		available = {
-			is_subject = no
-		}
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = {
-			focus = EJZ_corporate_with_the_rosists
-		}
-		completion_reward = {
-		}
-	}
-	focus = {
 		id = EJZ_centralize_the_duchies
 		icon = GFX_focus_AUS_bring_back_the_habsburg_rule
 		x = 13
@@ -3030,10 +3012,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = {
-			focus = EJZ_corporate_with_the_rosists
-		}
-		prerequisite = {
-			focus = EJZ_focus_on_ejznsteda
+			focus = EJZ_integrate_the_duchies
 		}
 		completion_reward = {
 		}
