@@ -480,7 +480,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/zda.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_POL_disjointed_industry"
-		textureFile = "gfx/interface/ideas/idea_POL_disjointed_industry.dds"
+		name = "GFX_EJZ_disorganized_infrastructure_development"
+		textureFile = "gfx/interface/ideas/EJZ_state_modifier_disorganized_infrastructure_development.dds"
 	}
 }

@@ -3009,8 +3009,8 @@
  EJZ_joint_economic_cooperation_idea_desc:0 "Working together will help us with our economy and production."
  EJZ_joint_industrial_development_idea:0 "Joint Industrial Development"
  EJZ_joint_industrial_development_idea_desc:0 "Working together will help us boost our industrial development"
- EJZ_unintegrated_infrastructure_development:0 "Unintegrated Infrastructure Development"
- EJZ_unintegrated_infrastructure_development_desc:0 "As our duchies have seperate development plans for their own specific territories, it makes infrastructure planning between us slow."
+ EJZ_disorganized_infrastructure_development:0 "Disorganized Infrastructure Development"
+ EJZ_disorganized_infrastructure_development_desc:0 "As our duchies have seperate development plans for their own specific territories, it makes infrastructure planning between us slow."
 #Marisvalor
  MAR_marisvalor_eins:0 "Archduke Klovün Harpenük-Merisvela"
  MAR_marisvalor_eins_desc:0 "The Archduke brings much to our nation but due to his old age we must use some other funds for his support."
