@@ -24,22 +24,13 @@ state={
 			industrial_complex = 1
 			arms_factory = 1
 			dockyard = 1
-			15226 = {
-				naval_base = 2
-			}
 			1099 = {
 				naval_base = 1
 			}
 		}
 		add_core_of = KAD
-		victory_points = {
-			15226 20
-		}
-		victory_points = {
-			4456 10
-		}
-		victory_points = {
-			2153 10
-		}
+		victory_points = { 15226 20 }
+		victory_points = { 4456 10 }
+		victory_points = { 2153 10 }
 	}
 }
