@@ -18,10 +18,10 @@ state={
 		coal = 3
 	}
 	history={
-		owner = GEH
+		owner = COV
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = GEH
+		add_core_of = COV
 	}
 }
