@@ -22,9 +22,7 @@ state={
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
-			11129 = {
-				supply_node = 1
-			}
+
 		}
 		add_core_of = FLA
 		victory_points = { 11229 20 }
