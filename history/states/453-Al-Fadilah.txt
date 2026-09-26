@@ -24,9 +24,6 @@ state={
 			infrastructure = 3
 			arms_factory = 1
 			dockyard = 1
-			886 = {
-				naval_base = 1
-			}
 		}
 		add_core_of = QYN
 		victory_points = { 3047 30 }
