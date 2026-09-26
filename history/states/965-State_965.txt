@@ -25,9 +25,6 @@ state={
 			air_base = 1
 			arms_factory = 1
 			industrial_complex = 2
-			575 = {
-				naval_base = 1
-			}
 		}
 		add_core_of = AKS
 		1939.1.1 = {
