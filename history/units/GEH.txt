@@ -43,161 +43,161 @@ division_template = {
 
 units = {
 	division = {
-		name = "1st Gertekans Infantry"
+		name = "1st Gerteki Infantry"
 		location = 10303
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Gertekans Infantry"
+		name = "2nd Gerteki Infantry"
 		location = 10303
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Gertekans Infantry"
+		name = "3rd Gerteki Infantry"
 		location = 10210
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4th Gertekans Infantry"
+		name = "4th Gerteki Infantry"
 		location = 5138
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "5th Gertekans Infantry"
-		location = 4692
+		name = "5th Gerteki Infantry"
+		location = 10210
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "6th Gertekans Infantry"
+		name = "6th Gerteki Infantry"
 		location = 833
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "7th Gertekans Infantry"
-		location = 10116
+		name = "7th Gerteki Infantry"
+		location = 10210
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Gertekans Guards"
-		location = 1950
+		name = "1st Gerteki Guards"
+		location = 10210
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Gertekans Guards"
+		name = "2nd Gerteki Guards"
 		location = 10387
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Gertekans Guards"
-		location = 6691
+		name = "3rd Gerteki Guards"
+		location = 10210
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4th Gertekans Guards"
+		name = "4th Gerteki Guards"
 		location = 10477
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "5th Gertekans Guards"
+		name = "5th Gerteki Guards"
 		location = 1247
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "6th Gertekans Guards"
+		name = "6th Gerteki Guards"
 		location = 1104
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "7th Gertekans Guards"
+		name = "7th Gerteki Guards"
 		location = 10317
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "8th Gertekans Guards"
+		name = "8th Gerteki Guards"
 		location = 10390
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "9th Gertekans Guards"
-		location = 543
+		name = "9th Gerteki Guards"
+		location = 10210
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "10th Gertekans Guards"
-		location = 10274
+		name = "10th Gerteki Guards"
+		location = 10210
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Gertekans Cavalry"
+		name = "1st Gerteki Cavalry"
 		location = 10173
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Gertekans Cavalry"
+		name = "2nd Gerteki Cavalry"
 		location = 2681
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Gertekans Cavalry"
+		name = "3rd Gerteki Cavalry"
 		location = 766
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4th Gertekans Cavalry"
+		name = "4th Gerteki Cavalry"
 		location = 1471
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "5th Gertekans Cavalry"
-		location = 906
+		name = "5th Gerteki Cavalry"
+		location = 10210
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "6th Gertekans Cavalry"
+		name = "6th Gerteki Cavalry"
 		location = 6797
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
