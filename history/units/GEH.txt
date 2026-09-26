@@ -79,7 +79,7 @@ units = {
 	}
 	division = {
 		name = "6th Gerteki Infantry"
-		location = 833
+		location = 10116
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
@@ -121,14 +121,14 @@ units = {
 	}
 	division = {
 		name = "5th Gerteki Guards"
-		location = 1247
+		location = 10116
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "6th Gerteki Guards"
-		location = 1104
+		location = 10116
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
