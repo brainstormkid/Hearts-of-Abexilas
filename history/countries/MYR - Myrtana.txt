@@ -14,6 +14,7 @@ set_popularities = {
 	radical_nationalist = 11
 	conservatist = 3
 	radical_socialist = 9
+	liberalist = 17
 }
 
 add_ideas = {
