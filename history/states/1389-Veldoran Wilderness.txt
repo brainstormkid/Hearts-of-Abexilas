@@ -19,9 +19,9 @@ state={
 	local_supplies = 0.5
 	history={
 		owner = VED
-		add_core_of = VED
 		buildings = {
-			infrastructure = 1
+		
 		}
+		add_core_of = VED
 	}
 }
