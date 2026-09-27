@@ -19477,7 +19477,7 @@ country_event = {
     }  
 }
 country_event = {
-	id = ejznrosa_election.46
+	id = ejznrosa_election.44
 
 	title = "Mediocre KGS campaign in NorthEast Ejznsteda."
 	desc = ejznrosa_election.2
