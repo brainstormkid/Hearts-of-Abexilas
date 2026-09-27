@@ -2,10 +2,10 @@ state={
 	id=1389
 	name="STATE_1389"
 	provinces={
-		10244
+		1415 5012 5608 5656 5698 11709 11722 11760 11766 11779 
 	}
 	buildings_max_level_factor=1.000
-    manpower=525000
+    manpower=100000
 	resources = {
 		oil = 2
 		aluminium = 2
@@ -16,12 +16,12 @@ state={
 		coal = 3
 	}
     state_category = pastoral
+	local_supplies = 0.5
 	history={
-		owner = SEO
-		add_core_of = SEO
+		owner = VED
+		add_core_of = VED
 		buildings = {
 			infrastructure = 1
 		}
 	}
-	local_supplies = 1.5
 }
