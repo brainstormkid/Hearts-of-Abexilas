@@ -1,0 +1,27 @@
+state={
+	id=323
+	name="STATE_323"
+	provinces={
+		9923 9928 9931 
+	}
+	buildings_max_level_factor=1.000
+        manpower=150000
+        state_category = small_island
+		local_supplies = 1
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+	history={
+		owner = COV
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = COV
+	}
+}

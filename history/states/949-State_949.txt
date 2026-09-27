@@ -24,9 +24,6 @@ state={
 			infrastructure = 1
 			arms_factory = 1
 			fuel_silo = 1
-			575 = {
-				naval_base = 0
-			}
 		}
 		add_core_of = AKS
 		1939.1.1 = {

@@ -1,0 +1,31 @@
+state={
+	id=632
+	name="STATE_632"
+	provinces={
+		5346 5437 5789 11572 11575 11610 11618 11631 11645 11693 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1700000
+		resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+        state_category = city
+		local_supplies = 5
+	history={
+		owner = VED
+		buildings = {
+		industrial_complex = 1
+		infrastructure = 3
+		arms_factory = 1
+		dockyard = 1
+		}
+		add_core_of = VED
+		victory_points = { 11575 20 }
+	}
+}

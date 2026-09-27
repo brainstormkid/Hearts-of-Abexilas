@@ -1,0 +1,31 @@
+state={
+	id=403
+	name="STATE_403"
+	provinces={
+		1892 1967 3209 3476 3972 6498 6605 10340 10358 10360 10370 10405 10426 10443 
+	}
+	buildings_max_level_factor=1.000
+        manpower=10450000
+        state_category = megalopolis
+		local_supplies = 10
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+	history={
+		owner = LAV
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 4
+			arms_factory = 2
+			dockyard = 1
+		}
+		add_core_of = LAV
+		victory_points = { 10340 50 }
+	}
+}

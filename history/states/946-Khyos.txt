@@ -24,16 +24,9 @@ state={
 			industrial_complex = 1
 			arms_factory = 1
 			dockyard = 1
-			8806 = {
-				naval_base = 1
-			}
 		}
 		add_core_of = CHM
-		victory_points = {
-			13670 30
-		}
-		victory_points = {
-			13597 5
-		}
+		victory_points = { 13670 30 }
+		victory_points = { 13597 5 }
 	}
 }

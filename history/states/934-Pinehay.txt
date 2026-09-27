@@ -1,0 +1,30 @@
+state={
+	id=934
+	name="STATE_934"
+	provinces={
+		930 3102 5273 11467 11483 
+	}
+	buildings_max_level_factor=1.000
+        manpower=750000
+        state_category = large_town
+		local_supplies = 4
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+	history={
+		owner = ZZZ
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = ZZZ
+		victory_points = { 3102 10 }
+	}
+}

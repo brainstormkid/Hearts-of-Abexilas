@@ -1,4 +1,4 @@
-﻿capital = 408
+﻿capital = 369
 
 oob = "GEH"
 

@@ -2,10 +2,10 @@ state={
 	id=915
 	name="STATE_915"
 	provinces={
-		4390 6239 13396 13476 
+		4390 6239 7027 13396 13476 13526 13576 13585 
 	}
 	buildings_max_level_factor=1.000
-        manpower=75000
+        manpower=150000
         state_category = town
 		local_supplies = 2.5
 	resources = {

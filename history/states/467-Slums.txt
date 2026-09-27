@@ -2,7 +2,7 @@ state={
 	id=467
 	name="STATE_467"
 	provinces={
-		102 361 2295 10610 10614 10651 
+		102 361 2295 10610 10614 10651 10721 
 	}
 	buildings_max_level_factor=1.000
         manpower=2250000
@@ -21,6 +21,7 @@ state={
 		owner = VEA
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 		}
 		add_core_of = VEA
 	}

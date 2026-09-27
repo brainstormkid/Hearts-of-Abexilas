@@ -177,7 +177,7 @@ units = {
 	}
 	division = {
 		name = "10th Qynthi Cavalry"
-		location = 893
+		location = 10665
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0

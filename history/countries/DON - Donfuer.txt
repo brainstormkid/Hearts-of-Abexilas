@@ -28,6 +28,11 @@ create_country_leader = {
 	}
 }
 
+set_autonomy = {
+	target = ERI
+	autonomous_state = autonomy_puppet
+}
+
 set_convoys = 65
 
 set_research_slots = 3

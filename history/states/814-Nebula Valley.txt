@@ -1,0 +1,29 @@
+state={
+	id=814
+	name="STATE_814"
+	provinces={
+		1422 2355 2871 3513 4266 5138 10457 10496 10551 10556 10568 10588 10602 10606 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1500000
+		resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+        state_category = large_town
+		local_supplies = 4
+	history={
+		owner = GEH
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = GEH
+		victory_points = { 5138 20 }
+	}
+}
