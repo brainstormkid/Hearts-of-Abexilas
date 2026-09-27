@@ -2,7 +2,7 @@ state={
 	id=1390
 	name="STATE_1390"
 	provinces={
-		4084
+		4084 10307 
 	}
 	buildings_max_level_factor=1.000
     manpower=225000
@@ -27,5 +27,5 @@ state={
 		}
 		victory_points = { 4084 10 } #Jay City
 	}
-	local_supplies = 0.5
+	local_supplies = 4
 }
