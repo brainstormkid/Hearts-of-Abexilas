@@ -1,0 +1,32 @@
+state={
+	id=1388
+	name="STATE_1388"
+	provinces={
+		6363 10244
+	}
+	buildings_max_level_factor=1.000
+    manpower=1051300
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+    state_category = town
+	history={
+		owner = SEO
+		add_core_of = SEO
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 1
+			6363 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { 6363 10 } #Skabonker City
+	}
+	local_supplies = 1.5
+}

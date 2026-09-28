@@ -114,14 +114,14 @@ units = {
 	}
 	division = {
 		name = "2nd Zamotzian Cavalry"
-		location = 5481
+		location = 11494
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "3rd Zamotzian Cavalry"
-		location = 1406
+		location = 10770
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0

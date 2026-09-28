@@ -76,27 +76,27 @@ set_party_name = {
     name = "barakor-Oldann Democratic"
 }
 set_party_name = { 
-    ideology = libertarianism  
+    ideology = libertarianist
     long_name = "BlindFungus-Oldann Patrots (Lavdi Coalition)"
     name = "BlindFungus-Oldann Patrots"
 }
 set_party_name = { 
-    ideology =  liberalism 
+    ideology =  liberalist
     long_name = "United barakor Oldann League Party"
     name = "United barakor Oldann Party"
 }
 set_party_name = { 
-    ideology =  Radical Nationalist 
+    ideology = radical_nationalist 
     long_name = "Oldanni Nationalist Party"
     name = "Oldanni Nationalist Party"
 }
 set_party_name = { 
-    ideology =   Radical_Socialist
-    long_name = "Unied Barakor Peoples Party "
+    ideology =  radical_socialist
+    long_name = "United Barakor Peoples Party "
     name = "Barakor Peoples Party"
 }
 set_party_name = { 
-    ideology =  Progressivism 
+    ideology =  progressivist 
     long_name = "Oldann-Barakor Progressivism Party"
     name = "Oldann-Barakor Progressivism"
 }

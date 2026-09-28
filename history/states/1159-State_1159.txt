@@ -23,7 +23,6 @@ state={
 			industrial_complex = 2
 			infrastructure = 3
 			arms_factory = 1
-			dockyard = 1
 		}
 		add_core_of = BAR
 		victory_points = { 6307 10 }

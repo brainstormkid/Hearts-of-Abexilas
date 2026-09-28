@@ -65,14 +65,14 @@ units = {
 	}
 	division = {
 		name = "1st Paraísan Cavalry"
-		location = 581
+		location = 1570
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "2nd Paraísan Cavalry"
-		location = 15323
+		location = 5302
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0

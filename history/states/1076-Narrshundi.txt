@@ -23,11 +23,8 @@ state={
 			infrastructure = 3
 			industrial_complex = 2
 			arms_factory = 1
-			dockyard = 1
 		}
 		add_core_of = NAA
-		victory_points = {
-			870 50
-		}
+		victory_points = { 870 50 }
 	}
 }

@@ -1,0 +1,29 @@
+state={
+	id=490
+	name="STATE_490"
+	provinces={
+		225 5176 5181 11194 11214 
+	}
+	buildings_max_level_factor=1.000
+        manpower=600000
+        state_category = large_town
+		local_supplies = 3
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+	history={
+		owner = QYN
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = QYN
+		victory_points = { 225 10 }
+	}
+}

@@ -725,15 +725,15 @@ focus_tree = {
 		prerequisite = { focus = EJZ_construct_housing_complexes focus = EJZ_improve_the_rail_way_network  }
 		bypass = {
 			659 = {
-				has_built = {
+				has_building = {
 					type = infrastructure
-					value = 5
+					value > 4
 				}
 			}
 			1178 = {
-				has_built = {
+				has_building = {
 					type = infrastructure
-					value = 4
+					value > 3
 				}
 			}
 		}

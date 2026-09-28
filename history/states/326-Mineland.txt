@@ -1,0 +1,29 @@
+state={
+	id=326
+	name="STATE_326"
+	provinces={
+		906 1330 3005 3958 9992 9999 10010 10015 10028 10040 10057 
+	}
+	buildings_max_level_factor=1.000
+        manpower=300000
+        state_category = pastoral
+		local_supplies = 0.5
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+	history={
+		owner = COV
+		buildings = {
+		infrastructure = 1
+		}
+		add_core_of = COV
+		victory_points = { 906 10 }
+		victory_points = { 9999 10 }
+	}
+}

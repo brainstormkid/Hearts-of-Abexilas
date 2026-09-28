@@ -23,13 +23,8 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
-			15220 = {
-				naval_base = 2
-			}
 		}
 		add_core_of = LAE
-		victory_points = {
-			15220 50
-		}
+		victory_points = { 15220 50 }
 	}
 }

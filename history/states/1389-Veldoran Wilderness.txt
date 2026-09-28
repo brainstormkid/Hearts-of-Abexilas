@@ -1,0 +1,27 @@
+state={
+	id=1389
+	name="STATE_1389"
+	provinces={
+		1415 5012 5608 5656 5698 11709 11722 11760 11766 11779 
+	}
+	buildings_max_level_factor=1.000
+    manpower=100000
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+    state_category = pastoral
+	local_supplies = 0.5
+	history={
+		owner = VED
+		buildings = {
+		
+		}
+		add_core_of = VED
+	}
+}

@@ -2447,8 +2447,8 @@ focus_tree = {
 			controls_state = 483 #Velarim Capital
 			controls_state = 408 #Gertek Capital
 			controls_state = 505 #Zamotz Capital
-			controls_state = 403 #Las Vidas Capital
-			controls_state = 347 #Eridonia Capital
+			controls_state = 403 #Las Vides Capital
+			controls_state = 347 #Maharia Capital
 			controls_state = 322 #Covania Capital
 			controls_state = 547 #Qynthos-Centuria Capital
 		}

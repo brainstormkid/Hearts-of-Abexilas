@@ -1,0 +1,34 @@
+state={
+	id=408
+	name="STATE_408"
+	provinces={
+		586 3593 5946 10292 10303 10318 10341 10361 10378 
+	}
+	buildings_max_level_factor=1.000
+        manpower=6300000
+        state_category = megalopolis
+		local_supplies = 10
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+	history={
+		owner = GEH
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 4
+			arms_factory = 2
+			dockyard = 1
+			10303 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = GEH
+		victory_points = { 10303 50 }
+	}
+}

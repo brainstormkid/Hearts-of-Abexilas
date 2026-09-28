@@ -1,0 +1,28 @@
+state={
+	id=564
+	name="STATE_564"
+	provinces={
+		841 1428 2325 4121 4779 5220 11109 11182 11222 11265 11306 11346 11349 11409 
+	}
+	buildings_max_level_factor=1.000
+        manpower=450000
+        state_category = rural
+		local_supplies = 2
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+	history={
+		owner = ZZZ
+		buildings = {
+			
+		}
+		add_core_of = ZZZ
+		victory_points = { 4121 10 }
+	}
+}
