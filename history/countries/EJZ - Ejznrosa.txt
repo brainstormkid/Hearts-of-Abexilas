@@ -124,7 +124,7 @@ create_country_leader = {
 	desc = "EJZ_Gustav"
 	#picture = "gfx/leaders/EJZ/portrait_large_gustav_ejznhjart.dds"
 	expire = "1965.1.1"
-	ideology = monarchist
+	ideology = monarchist_subtype
 	traits = {
 		#
 	}
@@ -135,7 +135,7 @@ create_country_leader = {
 	desc = "EJZ_karl"
 	#picture = "gfx/leaders/EJZ/portrait_large_karl_ejznhjart.dds"
 	expire = "1965.1.1"
-	ideology = monarchist
+	ideology = monarchist_subtype
 	traits = {
 		#
 	}
@@ -146,7 +146,7 @@ create_country_leader = {
 	desc = "EJZ_regency_council"
 	#picture = "gfx/leaders/EJZ/portrait_large_gustav_ejznhjart.dds"
 	expire = "1965.1.1"
-	ideology = absolutist
+	ideology = absolutist_subtype
 	traits = {
 		#
 	}
