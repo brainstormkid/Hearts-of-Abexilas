@@ -184,6 +184,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment,
 8414;2103;sea;21776;-1;-1;-1;-1;;Keltenborn-Pustulio-Bridge,
 8962;5963;sea;21840;-1;-1;-1;-1;;Schifftal-Cassanova-Bridge,
 9237;9209;sea;17539;-1;-1;-1;-1;;Lisburn-Karalistvatxt-Bridge,
+5056;37;sea;23227;-1;-1;-1;-1;;WestEjznsteda-Wokark-Bridge,
 ;;;;;;;;;
 ;;;;;;;;;
 ;;;;;;;;;, anything after is ignored
