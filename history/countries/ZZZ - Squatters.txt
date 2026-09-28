@@ -1,7 +1,7 @@
 ﻿capital = 980
 
 ### IMPORTANT
-set_ai_is_active = no
+ai_enabled = no
 ### IMPORTANT
 
 set_politics = {
