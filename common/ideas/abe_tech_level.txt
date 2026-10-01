@@ -1,0 +1,129 @@
+ideas = {
+	tech_level = { 
+		law = yes
+		use_list_view = yes
+
+		no_research_sector = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				monthly_population = 0.3
+				research_speed_factor = -1000
+				research_sharing_per_country_bonus_factor = -10
+				
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		tribal_tech = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				monthly_population = 0.2
+				research_speed_factor = -0.2
+				research_sharing_per_country_bonus_factor = -0.2
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		settler_tech = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				monthly_population = 0.1
+				research_speed_factor = -0.1
+				research_sharing_per_country_bonus_factor = -0.1
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		civilized_tech = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				monthly_population = 0.05
+				research_speed_factor = 0.01
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		advanced_tech = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				research_speed_factor = 0.1
+				line_change_production_efficiency_factor = 0.1
+				research_sharing_per_country_bonus_factor = 0.05
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		elite_tech = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				research_speed_factor = 0.2
+				line_change_production_efficiency_factor = 0.1
+				research_sharing_per_country_bonus_factor = 0.1
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		mystical_research = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				research_speed_factor = 0.15
+				line_change_production_efficiency_factor = 0.1
+				decryption_factor = 0.2
+				encryption_factor = 0.2
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		divine_interference = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				research_speed_factor = 0.25
+				production_factory_max_efficiency_factor = 0.05
+				consumer_goods_expected_value = 0.1
+				line_change_production_efficiency_factor = 0.1
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+	}
+}

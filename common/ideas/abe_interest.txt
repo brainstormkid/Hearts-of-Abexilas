@@ -1,0 +1,113 @@
+ideas = {
+	player_interest = { 
+		law = yes
+		use_list_view = yes
+
+		non_existent_interest = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				conscription = -0.005
+				conscription_factor = -0.5
+				monthly_population = -0.5
+				political_power_cost = 0.05
+				production_speed_buildings_factor = -0.1
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		miniscule_interest = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				conscription_factor = -0.15
+				monthly_population = -0.3
+				production_speed_buildings_factor = 0.05
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		lessened_interest = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				conscription_factor = -0.075
+				monthly_population = -0.1
+				
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		stable_interest = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				
+				
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		heightened_interest = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				conscription_factor = 0.02
+				monthly_population = 0.1
+				
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		increased_interest = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				conscription_factor = 0.05
+				monthly_population = 0.25
+				production_factory_efficiency_gain_factor = 0.05
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		immense_interest = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				conscription_factor = 0.1
+				monthly_population = 0.5
+				political_power_cost = -0.05
+				production_factory_efficiency_gain_factor = 0.1
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+	}
+}

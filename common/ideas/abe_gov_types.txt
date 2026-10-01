@@ -1,0 +1,269 @@
+ideas = {
+	government_type = {
+		law = yes
+		use_list_view = yes
+
+		absolute_monarchy = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				stability_factor = 0.05
+				
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		feudal_monarchy = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				max_planning_factor = 0.05
+				planning_speed = 0.2
+				
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		parliamentary_monarchy = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				recruitable_population_factor = 0.04
+				
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		diarchy = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				special_forces_min = 25
+				political_power_factor = 0.05
+				
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		autocracy = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				political_power_factor = 0.15
+				
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		theocratic_state = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				compliance_gain = 0.002
+				non_core_manpower = 0.01
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		federal_state = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				resistance_decay = -0.15
+				starting_compliance = 0.05
+				
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		democratic_state = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				production_speed_infrastructure_factor = 0.1
+				resistance_target = -0.05
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		corporation = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				consumer_goods_factor = -0.075
+				min_export = 0.05
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		merchant_oligarchic_state = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				consumer_goods_factor = -0.05
+				
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		totalitarian_leftist_state = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				army_core_attack_factor = 0.075
+				army_core_defence_factor = 0.075
+				resistance_decay = 0.05
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		socialist_state = {
+			allowed = {
+				
+			}
+            picture = zda
+			modifier = {
+				army_morale_factor = 0.075
+				army_org_regain = 0.025
+				
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		tribal_confederation = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				cas_damage_reduction = 0.1
+				org_loss_when_moving = -0.15
+				
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		city_confederation = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				terrain_penalty_reduction = 0.05
+				max_dig_in_factor = 0.05
+				dig_in_speed_factor = 0.1
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		pirate_state = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				equipment_capture_factor = 0.05
+				naval_invasion_prep_speed = -0.25
+				naval_invasion_capacity = 4
+				amphibious_invasion = 0.2
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		anarchist_territory = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				army_speed_factor = 0.05
+				out_of_supply_factor = -0.05
+				
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		mercenary_state = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				equipment_capture_factor = 0.05
+				org_loss_at_low_org_factor = -0.1
+				breakthrough_factor = 0.05
+				
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		squatter_territory = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				political_power_factor = -0.5
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+	}
+}

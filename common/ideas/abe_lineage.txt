@@ -1,0 +1,100 @@
+ideas = {
+	lineage = { 
+		law = yes
+		use_list_view = yes
+
+		paxia = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				monthly_population = -0.15
+				non_core_manpower = -1
+				political_power_factor = 0.25
+				consumer_goods_factor = 0.05
+				weekly_manpower  = 1000
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				research_speed_factor = 0.30
+				surrender_limit = 100
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		jagdas = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				monthly_population = -0.1
+				political_power_gain = 0.5
+				army_morale_factor = 0.1
+				army_org_factor = 0.05
+				surrender_limit = 0.5
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		rathnir = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				monthly_population = -0.05
+				resistance_growth = 0.1
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		eldham = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				global_building_slots_factor = 0.005
+				local_resources_factor = 0.15
+				political_power_factor = 0.05
+				recruitable_population_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.05
+				
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		abexilas = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				compliance_gain = 0.01
+				production_speed_buildings_factor = 0.1
+				resistance_activity = -0.05
+				resistance_target = -0.05
+				resistance_growth_on_our_occupied_states = 0.1
+				required_garrison_factor = -0.05
+				non_core_manpower = 0.05
+				conscription_factor = 0.05
+				
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+	}
+}

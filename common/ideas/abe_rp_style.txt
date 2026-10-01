@@ -1,0 +1,164 @@
+ideas = {
+	RP_style = { 
+		law = yes
+		use_list_view = yes
+
+		resource_grinding = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				consumer_goods_factor = 0.05
+				local_resources_factor = 0.4
+				industrial_capacity_factory = 0.05
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		internal_RP_focus = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				stability_factor = 0.15
+				war_support_factor = 0.05
+				political_power_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		external_RP_focus = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				justify_war_goal_time = -0.2
+				guarantee_cost = -0.5
+				guarantee_tension = -0.5
+				lend_lease_tension = -0.5
+				opinion_gain_monthly = 1
+				puppet_cost_factor = -0.25
+				send_volunteer_factor = 0.1
+				political_power_factor = -0.05
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		pvp_focus = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				experience_gain_army_factor = 0.2
+				training_time_factor = -0.05
+				special_forces_cap_flat = 10
+				army_org_factor = 0.05
+				breakthrough_factor = 0.05
+				coordination_bonus = 0.01
+				army_core_attack_factor = 0.05
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		architecture_focus = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				production_speed_buildings_factor = 0.2
+				civilian_factory_use = -2
+				consumer_goods_expected_value = -0.05
+				global_building_slots = 2
+				land_bunker_effectiveness_factor = 0.1
+				coastal_bunker_effectiveness_factor = 0.1
+				min_export = 0.05
+				local_resources_factor = -0.1
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		trade_focus = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				faction_trade_opinion_factor
+				send_volunteer_size = 2
+				min_export = 0.05
+				lend_lease_tension = -1
+				send_volunteer_divisions_required = -1
+				send_volunteers_tension = -1
+				air_volunteer_cap = 0.5
+				embargo_threshold_factor = -0.75
+				embargo_cost_factor = -0.75
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		cultural_hegemon = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				political_power_gain = 0.25
+				command_power_gain_mult = 0.2
+				production_factory_max_efficiency_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				consumer_goods_expected_value = 0.025
+				annex_cost_factor = -0.1
+				puppet_cost_factor = -0.25
+				autonomy_gain = 1
+				subjects_autonomy_gain = -0.5
+				autonomy_manpower_share = 0.1
+				can_master_build_for_us = 1
+				cic_to_overlord_factor = 0.15
+				mic_to_overlord_factor = 0.15
+				extra_trade_to_overlord_factor = 0.1
+				overlord_trade_cost_factor = -0.5
+				
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+		
+		inactive_nation = {
+			allowed = {
+				
+			}
+            picture = zda
+			cost = 1000
+			modifier = {
+				monthly_population = -0.1
+				production_speed_buildings_factor = -0.1
+				local_resources_factor = -0.1
+				war_support_factor = -0.2
+				industrial_capacity_factory = -0.1
+				political_power_factor = -0.2
+			}
+			
+			allowed_to_remove = { always = no }
+		}
+	}
+}
