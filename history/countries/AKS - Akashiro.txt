@@ -96,6 +96,14 @@ add_ideas = {
 	remnants_of_muho_jidai
 	low_economic_mobilisation
 }
+add_ideas = {
+	# Government Ideas
+	autocracy
+	abexilas
+	internal_RP_focus
+	civilized_tech
+	lessened_interest
+}
 
 oob = "AKS"
 

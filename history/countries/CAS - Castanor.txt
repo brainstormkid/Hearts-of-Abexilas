@@ -3,6 +3,14 @@
 oob = "CAS"
 
 set_research_slots = 3
+add_ideas = {
+	# Government Ideas
+	autocracy
+	abexilas
+	internal_RP_focus
+	civilized_tech
+	lessened_interest
+}
 
 # Starting tech
 set_technology = {

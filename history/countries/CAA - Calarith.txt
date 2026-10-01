@@ -26,6 +26,14 @@ create_country_leader = {
 set_convoys = 65
 
 set_research_slots = 3
+add_ideas = {
+	# Government Ideas
+	autocracy
+	abexilas
+	internal_RP_focus
+	civilized_tech
+	lessened_interest
+}
 
 set_technology = {
     infantry_weapons = 1

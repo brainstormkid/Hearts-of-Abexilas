@@ -84,6 +84,15 @@ if = {
 	}
 }
 
+add_ideas = {
+	# Government Ideas
+	autocracy
+	abexilas
+	internal_RP_focus
+	civilized_tech
+	lessened_interest
+}
+
 set_politics = {
 	ruling_party = monarchist
 	last_election = "1936.1.1"

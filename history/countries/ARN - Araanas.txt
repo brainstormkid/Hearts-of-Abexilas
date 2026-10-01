@@ -24,6 +24,14 @@ create_country_leader = {
 }
 
 set_research_slots = 3
+add_ideas = {
+	# Government Ideas
+	autocracy
+	abexilas
+	internal_RP_focus
+	civilized_tech
+	lessened_interest
+}
 set_stability = 0.5
 set_war_support = 0.5
 
