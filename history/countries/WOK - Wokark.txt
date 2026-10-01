@@ -13,6 +13,14 @@ set_popularities = {
 }
 recruit_character = WOK_Woj_Jan_Tech
 set_research_slots = 3
+add_ideas = {
+	# Government Ideas
+	autocracy
+	abexilas
+	internal_RP_focus
+	civilized_tech
+	lessened_interest
+}
 ### Ejznrosa Joint Focus Tree ###
 set_variable = {EJZ_joint_consumer_goods = -0.05 }
 set_variable = {EJZ_joint_economy_cost = 0 }
