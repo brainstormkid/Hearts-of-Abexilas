@@ -86,11 +86,11 @@ if = {
 
 add_ideas = {
 	# Government Ideas
-	autocracy
-	abexilas
-	internal_RP_focus
+	feudal_monarchy
+	rathnir
+	architecture_focus
 	civilized_tech
-	lessened_interest
+	stable_interest
 }
 
 set_politics = {
