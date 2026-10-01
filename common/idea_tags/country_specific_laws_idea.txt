@@ -1,0 +1,15 @@
+idea_categories = {
+
+	government_attributes = {
+		slot = government_type
+		slot = lineage
+		slot = RP_style
+		slot = tech_level
+		slot = player_interest
+		
+		ledger = civilian
+		
+		cost = 1000
+		removal_cost = -1
+	}
+
