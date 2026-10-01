@@ -1,0 +1,131 @@
+﻿l_english:
+    government_attributes:0 "National Attributes"
+
+    government_type:0 "Government Type"
+    lineage:0 "Country Lineage"
+    RP_style:0 "RP Style"
+    tech_level:0 "Technology Level"
+    player_interest:0 "Player Interest"
+
+#government type
+
+    absolute_monarchy:0 "Absolute Monarchy"
+    feudal_monarchy:0 "Feudal Monarchy"
+    parliamentary_monarchy:0 "Parliamentary/Ceremonial Monarchy"
+    diarchy:0 "Diarchy"
+    autocracy:0 "Autocracy"
+    theocratic_state:0 "Theocracy"
+    federal_state:0 "Federal Democratic State"
+    democratic_state:0 "Democracy"
+    corporation:0 "Corporatocracy"
+    merchant_oligarchic_state:0 "Oligarchy"
+    totalitarian_leftist_state:0 "Totalitarian Socialist State"
+    socialist_state:0 "Socialist State"
+    tribal_confederation:0 "Tribal Confederation"
+    city_confederation:0 "City Confederation"
+    pirate_state:0 "Pirate State"
+    anarchist_territory:0 "Anarchist Free Territory"
+    mercenary_state:0 "Mercenary Group"
+    squatter_territory:0 "Squatter Controlled Territory"
+    
+#lineage
+
+    paxia:0 "Paxia"
+    jagdas:0 "Jagdas"
+    rathnir:0 "Rathnir"
+    eldham:0 "Eldham"
+    abexilas:0 "Abexilas"
+
+#RPstyle
+
+    resource_grinding:0 "Resource Grinding"
+    internal_RP_focus:0 "Infra-National Roleplay"
+    external_RP_focus:0 "Nation-Focused Roleplay"
+    pvp_focus:0 "PvP Primacy"
+    architecture_focus:0 "Architecture and Building Focus"
+    trade_focus:0 "Trading Focus"
+    cultural_hegemon:0 "Cultural and Political Hegemony"
+    inactive_nation:0 "Lack of Activity"
+    
+#tech level
+
+    no_research_sector:0 "No Research Sector"
+    tribal_tech:0 "Tribal Technology"
+    settler_tech:0 "Settler Technology"
+    civilized_tech:0 "Standard Technology"
+    advanced_tech:0 "Advanced Technology"
+    elite_tech:0 "Elite Technology"
+    mystical_research:0 "Research into/via magic"
+    divine_interference:0 "Divine Assistance"
+    
+#player interest
+
+    non_existent_interest:0 "Non-Existent Player Interest"
+    miniscule_interest:0 "Miniscule Player Interest"
+    lessened_interest:0 "Lessened Player Interest"
+    stable_interest:0 "Stable Player Interest"
+    heightened_interest:0 "Heightened Player Interest"
+    increased_interest:0 "Increased Player Interest"
+    immense_interest:0 "Immense Player Interest"
+
+#government type descriptions
+
+    absolute_monarchy_desc:0 "A single monarch holds total executive power over the country. Laws and foreign policies are decided entirely by royal decree."
+    feudal_monarchy_desc:0 "Power is shared between a supreme monarch and local authorities, which manage their own territories while pledging military support to the crown. The nation relies on a complex network of vassalage to stay unified."
+    parliamentary_monarchy_desc:0  "A hereditary monarch serves as the symbolic head of state, while an elected parliament exercises actual legislative authority."
+    diarchy_desc:0 "Two rulers jointly hold supreme executive authority. Major state decisions require mutual consent from both leaders."
+    autocracy_desc:0 "A single dictator exercises absolute control over all state functions. Power is held through individual dominance or faction support rather than bloodline."
+    theocratic_state_desc:0 "The government is run directly by a religious priesthood. Legal systems are derived from holy texts and divine mandates."
+    federal_state_desc:0 "Multiple semi-autonomous internal administrative divisions form a unified nation. Citizens elect local regional governors and federal representatives."
+    democratic_state_desc:0 "Ultimate authority rests with the active player base through voting, and regular elections determine the leaders who manage national roles."
+    corporation_desc:0 "A trade federation or corporation acts as the central authority, and the state which is structured and run like a commercial business enterprise."
+    merchant_oligarchic_state_desc:0 "A small, exclusive council of elites controls the entire nation, with their power being restricted based on wealth, status, or original membership."
+    totalitarian_leftist_state_desc:0 "A single vanguard party exercises complete control over political and economic life, with all other parties either banned or serving as controlled opposition. The state dictates land distribution, resource allocation, and permitted speech."
+    socialist_state_desc:0 "Governance focuses on collective resource pooling and wealth redistribution. The community works together to fund public infrastructure and state projects. Decisions are typically managed through organized councils and worker assemblies."
+    tribal_confederation_desc:0 "A loose confederation formed by nomadic or tribal bands that share cultural bonds. Matter within are settled by chieftains and councils."
+    city_confederation_desc:0 "A collection of communities that banded together in a confederation."
+    pirate_state_desc:0 "A confederation of pirates, outlaws, and criminals, guided only by promise of greater wealth when working together."
+    anarchist_territory_desc:0 "This territory doesn't have any centralized authority, and the Players within have abolished all hierarchies."
+    mercenary_state_desc:0 "The authority is held by a group of mercenaries, and centralized in their leadership. The lands they control are at their mercy, and they commonly sell their military services to others."
+    squatter_territory_desc:0 "This territory is not held by any authority, and the players inside of it are uninterested in establishing one."
+    
+#lineage descriptions
+
+    paxia_desc:0 "This country's culture traces it's lineage back to the primordial realm of Paxia."
+    jagdas_desc:0 "This country's lineage originates from the primitive world of Jagdas."
+    rathnir_desc:0 "This country's lineage originates from the wartorn world of Rathnir."
+    eldham_desc:0 "This country's lineage comes from the colonies and people's of Eldham."
+    abexilas_desc:0 "This country was born on this new world, Abexilas."
+
+
+#RPstyle descriptions
+
+    resource_grinding_desc:0 "The country is focused on grinding for resources and currency."
+    internal_RP_focus_desc:0 "The country is focused on Player-centric RP, where the storylines revolve around singular Players or small groups."
+    external_RP_focus_desc:0 "This country is focused on Nation-centric RP, where the storylines revolve around the grander Nation and it's interactions with the world."
+    pvp_focus_desc:0 "This country has a deep martial PvP culture, and produces powerful warriors and soldiers as a result."
+    architecture_focus_desc:0 "This country has a focus on building grand monuments, beautiful pieces of architecture and aesthetically pleasing infrastructure."
+    trade_focus_desc:0 "This country focuses mostly on trading with other countries or Players for goods or services."
+    cultural_hegemon_desc:0 "This country is a cultural hegemon in the region, and it's mere presence dominates other nearby nation's political, cultural or economic spheres."
+    inactive_nation_desc:0 "The Playerbase of this country is too inactive for it to have a distinct style."
+    
+#tech level descriptions
+
+    no_research_sector_desc:0 "No research is ongoing."
+    tribal_tech_desc:0 "Primitive research is conducted."
+    settler_tech_desc:0 "Simple research is conducted."
+    civilized_tech_desc:0 "An average level of research is conducted."
+    advanced_tech_desc:0 "A higher than average level of research is conducted."
+    elite_tech_desc:0 "A sophisticated level of research is conducted."
+    mystical_research_desc:0 "The research sector uses or studies magic extensively, and is augmented by it."
+    divine_interference_desc:0 "An unseen divine presence guides and adds onto the nation's knowledge base."
+    
+#player interest descriptions
+
+    non_existent_interest_desc:0 "The Playerbase has no interest in joining or playing within this nation."
+    miniscule_interest_desc:0 "This nation is suffering from a severely diminished interest in joining or playing in it from the Playerbase."
+    lessened_interest_desc:0 "This nation is experiencing a lessened interest in joining or playing in it from it's Playerbase."
+    stable_interest_desc:0 "This nation has an average level of interest in joining or playing in it from the Playerbase."
+    heightened_interest_desc:0 "This nation is experiencing a slightly higher level of interest in joining or playing in it from the Playerbase."
+    increased_interest_desc:0 "This country profits from a high interest in joining or playing in it from the Playerbase."
+    immense_interest_desc:0 "This country is extremely popular, and Players are arriving in droves to join it, and it's existing playerbase is very active."
