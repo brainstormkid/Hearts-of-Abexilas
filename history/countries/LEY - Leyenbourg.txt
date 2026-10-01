@@ -34,6 +34,7 @@ create_country_leader = {
 }
 
 add_ideas = {
+	# Spirits
 	provisional_government
 	father_of_railways
 	imperial_capital
@@ -41,6 +42,14 @@ add_ideas = {
 	shattered_pride
 	broken_army_spirit
 	nova_ryken_autonomy
+}
+add_ideas = {
+	# Government Ideas
+	autocracy
+	abexilas
+	internal_RP_focus
+	civilized_tech
+	lessened_interest
 }
 
 set_stability = 0.19
