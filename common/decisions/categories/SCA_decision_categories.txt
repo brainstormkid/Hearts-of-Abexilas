@@ -1,4 +1,4 @@
-SCA_hallin_league = {
+SCA_halinn_league = {
     icon = generic_politic
     picture = GFX_SCA_hallin_lague
     allowed = {

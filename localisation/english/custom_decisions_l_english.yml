@@ -75,9 +75,9 @@
  EJZ_support_senate_side:0 "Support the Senate"
 
  # Scaliga
- SCA_hallin_league:0 "Hallin League"
- SCA_hallin_league_desc:0 "WIP"
- SCA_form_the_hallin_league:0 "Test"
+ SCA_halinn_league:0 "Halinn League"
+ SCA_halinn_league_desc:0 "WIP"
+ SCA_form_the_halinn_league:0 "Form the Halinn League"
  
  # Marisvalor
  MAR_Blockheed:0 "Blockheed Corporation"

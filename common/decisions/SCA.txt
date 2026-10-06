@@ -1,5 +1,25 @@
-SCA_hallin_league = {
-	SCA_form_the_hallin_league = {
+SCA_halinn_league = {
+	SCA_form_the_halinn_league = {
+		icon = GFX_decision_generic_decision
+		fire_only_once = yes
+		available = {
+			tag = SCA
+			SCA = {
+				is_in_faction = no
+				is_subject = no
+			}
+		}
+		complete_effect = {
+			create_faction_from_template = {
+				name = "Halinn League"
+				template = faction_template_generic
+				icon = GFX_faction_icon_halinn_league
+			}
+		}
+		visible = {
+			always = yes
+		}
+		cost = 0
 	}
 }
 
