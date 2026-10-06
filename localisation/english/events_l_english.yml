@@ -93,6 +93,11 @@
  EJZ_news.5.d:0 "During the night, citizens in Ejznsteda heard a large explosion sound echoing throughout the streets of Ejznsteda. As they look outside the window, to their horror, the Iron Senate is engulf in a large blazing flame that light up the night sky. Thankfully, government officals have already left the building long since the fire started. This came as a great shock after the election in Ejznrosa. It was suspected that radical nationalists has broken into the Senate late at night, setting fire to furniture and documents. An thorough investigation is currently underway and repairs will soon follow."
  EJZ_news.6.t:0 "Conclusion of The Iristoyan Summit in Ejznsteda"
  EJZ_news.6.d:0 "Today, the Iristoyan Summit concluded in Ejznsteda, was a major success! With countless diplomatic representatives and spectators from across the continent in attendance. Many important topics such as ongoing conflicts in Iristoya, geographical naming, future sporting events, future continental summit schedules and more were discussed."
+ #Scaliga
+ SCA.1.t:0 "Invitation to the Halinn League"
+ SCA.1.d:0 "WIP"
+ SCA.2.t:0 "The [FROM.GetName] joins the Halinn League"
+ SCA.3.t:0 "The [FROM.GetName] declines joining the Halinn League"
  #Scaliga News
  SCA_news.1.t:0 "Fall of Steelwater"
  SCA_news.1.d:0 "After vicious fighitng, Steelwater has finally fallen to the invading forces. With the [SCA.GetAdjective] army retreating the devastated city, this strikes a bitter blow to the [SCA.GetName]. In the aftermath, the city has become a wasteland, with ruined buildings and defenses, leaving the city unrecognizable and an empty husk."

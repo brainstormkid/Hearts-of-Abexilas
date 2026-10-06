@@ -8,6 +8,7 @@ SCA_halinn_league = {
 				is_in_faction = no
 				is_subject = no
 			}
+			date > 3.02.16
 		}
 		complete_effect = {
 			create_faction_from_template = {
@@ -15,9 +16,177 @@ SCA_halinn_league = {
 				template = faction_template_generic
 				icon = GFX_faction_icon_halinn_league
 			}
+			set_country_flag = created_halinn_league
+		}
+		ai_will_do = {
+			base = 100
 		}
 		visible = {
 			always = yes
+		}
+		cost = 0
+	}
+	SCA_invite_acreon = {
+		icon = GFX_decision_generic_decision
+		fire_only_once = yes
+		available = {
+			tag = SCA
+			SCA = {
+				is_faction_leader = yes
+				is_subject = no
+			}
+		}
+		complete_effect = {
+			ACR = {
+				country_event = { id = SCA.1 days = 2 }
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		visible = {
+			has_country_flag = created_halinn_league
+		}
+		cost = 0
+	}
+	SCA_invite_akashiro = {
+		icon = GFX_decision_generic_decision
+		fire_only_once = yes
+		available = {
+			tag = SCA
+			SCA = {
+				is_faction_leader = yes
+				is_subject = no
+			}
+		}
+		complete_effect = {
+			AKS = {
+				country_event = { id = SCA.1 days = 2 }
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		visible = {
+			has_country_flag = created_halinn_league
+		}
+		cost = 0
+	}
+	SCA_invite_taravor = {
+		icon = GFX_decision_generic_decision
+		fire_only_once = yes
+		available = {
+			tag = SCA
+			SCA = {
+				is_faction_leader = yes
+				is_subject = no
+			}
+		}
+		complete_effect = {
+			TAR = {
+				country_event = { id = SCA.1 days = 2 }
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		visible = {
+			has_country_flag = created_halinn_league
+		}
+		cost = 0
+	}
+	SCA_invite_ZDA = {
+		icon = GFX_decision_generic_decision
+		fire_only_once = yes
+		available = {
+			tag = SCA
+			SCA = {
+				is_faction_leader = yes
+				is_subject = no
+			}
+		}
+		complete_effect = {
+			every_other_country = {
+				limit = {
+					has_idea = zarilyian_defense_accords
+				}
+				country_event = { id = SCA.1 days = 2 }
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		visible = {
+			has_country_flag = created_halinn_league
+		}
+		cost = 0
+	}
+	SCA_invite_EIS = {
+		icon = GFX_decision_generic_decision
+		fire_only_once = yes
+		available = {
+			tag = SCA
+			SCA = {
+				is_faction_leader = yes
+				is_subject = no
+			}
+		}
+		complete_effect = {
+			EIS = {
+				country_event = { id = SCA.1 days = 2 }
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		visible = {
+			has_country_flag = created_halinn_league
+		}
+		cost = 0
+	}
+	SCA_invite_leyden = {
+		icon = GFX_decision_generic_decision
+		fire_only_once = yes
+		available = {
+			tag = SCA
+			SCA = {
+				is_faction_leader = yes
+				is_subject = no
+			}
+		}
+		complete_effect = {
+			LED = {
+				country_event = { id = SCA.1 days = 2 }
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		visible = {
+			has_country_flag = created_halinn_league
+		}
+		cost = 0
+	}
+	SCA_invite_SAK = {
+		icon = GFX_decision_generic_decision
+		fire_only_once = yes
+		available = {
+			tag = SCA
+			SCA = {
+				is_faction_leader = yes
+				is_subject = no
+			}
+		}
+		complete_effect = {
+			SAK = {
+				country_event = { id = SCA.1 days = 2 }
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		visible = {
+			has_country_flag = created_halinn_league
 		}
 		cost = 0
 	}

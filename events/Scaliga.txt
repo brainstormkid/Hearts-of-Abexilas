@@ -1,0 +1,59 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = SCA
+
+#Opening Senate
+country_event = {
+	id = SCA.1
+	title = SCA.1.t
+	desc =  SCA.1.d
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	option = {
+		name = "A great opportunity."
+		SCA = {
+			ROOT = {
+				if = {
+					limit = {
+						is_in_faction = yes
+					}
+					leave_faction = yes
+				}
+			}
+			add_to_faction = ROOT
+			country_event = { id = SCA.2 days = 1 }
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	option = {
+		name = "Decline the offer."
+		SCA = {
+			country_event = { id = SCA.3 days = 1 }
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+country_event = {
+	id = SCA.2
+	title = SCA.2.t
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	option = {
+		name = "Great."
+	}
+}
+country_event = {
+	id = SCA.3
+	title = SCA.3.t
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	option = {
+		name = "Shame."
+	}
+}

@@ -78,6 +78,13 @@
  SCA_halinn_league:0 "Halinn League"
  SCA_halinn_league_desc:0 "WIP"
  SCA_form_the_halinn_league:0 "Form the Halinn League"
+ SCA_invite_acreon:0 "Invite [ACR.GetNameDef]"
+ SCA_invite_akashiro:0 "Invite [AKS.GetNameDef]"
+ SCA_invite_taravor:0 "Invite [TAR.GetNameDef]"
+ SCA_invite_ZDA:0 "Invite the Zarilyian Defense Accords"
+ SCA_invite_EIS:0 "Invite [EIS.GetNameDef]"
+ SCA_invite_leyden:0 "Invite [LED.GetNameDef]"
+ SCA_invite_SAK:0 "Invite [SAK.GetNameDef]"
  
  # Marisvalor
  MAR_Blockheed:0 "Blockheed Corporation"
