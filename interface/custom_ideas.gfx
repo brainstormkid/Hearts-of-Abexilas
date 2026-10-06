@@ -1,4 +1,201 @@
 spriteTypes = {
+	
+	### Policies / Ideas
+	## Government Types
+	SpriteType = {
+		name = "GFX_idea_absolute_monarchy"
+		texturefile = gfx/interface/ideas/idea_gov_absolute_monarchy.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_feudal_monarchy"
+		texturefile = gfx/interface/ideas/idea_gov_feudal_monarchy.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_parliamentary_monarchy"
+		texturefile = gfx/interface/ideas/idea_gov_parliamentary_monarchy.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_diarchy"
+		texturefile = gfx/interface/ideas/idea_gov_diarchy.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_autocracy"
+		texturefile = gfx/interface/ideas/idea_gov_autocracy.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_theocratic_state"
+		texturefile = gfx/interface/ideas/idea_gov_theocratic_state.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_federal_state"
+		texturefile = gfx/interface/ideas/idea_gov_federal_state.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_democratic_state"
+		texturefile = gfx/interface/ideas/idea_gov_democratic_state.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_corporation"
+		texturefile = gfx/interface/ideas/idea_gov_corporation.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_merchant_oligarchic_state"
+		texturefile = gfx/interface/ideas/idea_gov_merchant_oligarchic_state.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_totalitarian_leftist_state"
+		texturefile = gfx/interface/ideas/idea_gov_totalitarian_leftist_state.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_socialist_state"
+		texturefile = gfx/interface/ideas/idea_gov_socialist_state.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_tribal_confederation"
+		texturefile = gfx/interface/ideas/idea_gov_tribal_confederation.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_city_confederation"
+		texturefile = gfx/interface/ideas/idea_gov_city_confederation.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_pirate_state"
+		texturefile = gfx/interface/ideas/idea_gov_pirate_state.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_anarchist_territory"
+		texturefile = gfx/interface/ideas/idea_gov_anarchist_territory.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_mercenary_state"
+		texturefile = gfx/interface/ideas/idea_gov_mercenary_state.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_squatter_territory"
+		texturefile = gfx/interface/ideas/idea_gov_squatter_territory.dds
+	}
+	
+	## Interests
+	SpriteType = {
+		name = "GFX_idea_non_existent_interest"
+		texturefile = gfx/interface/ideas/idea_non_existent_interest.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_miniscule_interest"
+		texturefile = gfx/interface/ideas/idea_miniscule_interest.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_lessened_interest"
+		texturefile = gfx/interface/ideas/idea_lessened_interest.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_stable_interest"
+		texturefile = gfx/interface/ideas/idea_stable_interest.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_heightened_interest"
+		texturefile = gfx/interface/ideas/idea_heightened_interest.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_increased_interest"
+		texturefile = gfx/interface/ideas/idea_increased_interest.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_immense_interest"
+		texturefile = gfx/interface/ideas/idea_immense_interest.dds
+	}
+	
+	## Lineage
+	SpriteType = {
+		name = "GFX_idea_paxia"
+		texturefile = gfx/interface/ideas/idea_lineage_paxia.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_jagdas"
+		texturefile = gfx/interface/ideas/idea_lineage_jagdas.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_rathnir"
+		texturefile = gfx/interface/ideas/idea_lineage_rathnir.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_eldham"
+		texturefile = gfx/interface/ideas/idea_lineage_eldham.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_abexilas"
+		texturefile = gfx/interface/ideas/idea_lineage_abexilas.dds
+	}
+	
+	## RP Style
+	SpriteType = {
+		name = "GFX_idea_resource_grinding"
+		texturefile = gfx/interface/ideas/idea_rp_resource_grinding.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_internal_RP_focus"
+		texturefile = gfx/interface/ideas/idea_rp_internal_RP_focus.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_external_RP_focus"
+		texturefile = gfx/interface/ideas/idea_rp_external_RP_focus.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_pvp_focus"
+		texturefile = gfx/interface/ideas/idea_rp_pvp_focus.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_architecture_focus"
+		texturefile = gfx/interface/ideas/idea_rp_architecture_focus.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_trade_focus"
+		texturefile = gfx/interface/ideas/idea_rp_trade_focus.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_cultural_hegemon"
+		texturefile = gfx/interface/ideas/idea_rp_cultural_hegemon.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_inactive_nation"
+		texturefile = gfx/interface/ideas/idea_rp_inactive_nation.dds
+	}
+	
+	## Tech Level
+	SpriteType = {
+		name = "GFX_idea_no_research_sector"
+		texturefile = gfx/interface/ideas/idea_no_research_sector.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_tribal_tech"
+		texturefile = gfx/interface/ideas/idea_tribal_tech.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_settler_tech"
+		texturefile = gfx/interface/ideas/idea_settler_tech.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_civilized_tech"
+		texturefile = gfx/interface/ideas/idea_civilized_tech.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_advanced_tech"
+		texturefile = gfx/interface/ideas/idea_advanced_tech.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_elite_tech"
+		texturefile = gfx/interface/ideas/idea_elite_tech.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_mystical_research"
+		texturefile = gfx/interface/ideas/idea_mystical_research.dds
+	}
+	SpriteType = {
+		name = "GFX_idea_divine_interference"
+		texturefile = gfx/interface/ideas/idea_divine_interference.dds
+	}
+
+
 	SpriteType = {
 		name = "GFX_ideology_anarchist_group"
 		texturefile = gfx/interface/ideologies/anarchist_group.dds
