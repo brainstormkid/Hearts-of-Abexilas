@@ -28,11 +28,11 @@ create_country_leader = {
 set_research_slots = 3
 add_ideas = {
 	# Government Ideas
-	autocracy
+	squatter_territory
 	abexilas
-	internal_RP_focus
-	civilized_tech
-	lessened_interest
+	inactive_nation
+	no_research_sector
+	non_existent_interest
 }
 
 set_technology = {
