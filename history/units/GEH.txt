@@ -51,14 +51,14 @@ units = {
 	}
 	division = {
 		name = "2nd Gerteki Infantry"
-		location = 10303
+		location = 6691
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "3rd Gerteki Infantry"
-		location = 10210
+		location = 543
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
@@ -72,7 +72,7 @@ units = {
 	}
 	division = {
 		name = "5th Gerteki Infantry"
-		location = 10210
+		location = 10587
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
@@ -86,14 +86,14 @@ units = {
 	}
 	division = {
 		name = "7th Gerteki Infantry"
-		location = 10210
+		location = 10274
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "1st Gerteki Guards"
-		location = 10210
+		location = 1950
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
@@ -107,7 +107,7 @@ units = {
 	}
 	division = {
 		name = "3rd Gerteki Guards"
-		location = 10210
+		location = 1950
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
@@ -121,14 +121,14 @@ units = {
 	}
 	division = {
 		name = "5th Gerteki Guards"
-		location = 10116
+		location = 10210
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "6th Gerteki Guards"
-		location = 10116
+		location = 4692
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
@@ -149,7 +149,7 @@ units = {
 	}
 	division = {
 		name = "9th Gerteki Guards"
-		location = 10210
+		location = 10372
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
