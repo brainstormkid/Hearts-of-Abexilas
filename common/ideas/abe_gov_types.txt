@@ -83,7 +83,7 @@ ideas = {
             picture = zda
 			cost = 1000
 			modifier = {
-				compliance_gain = 0.002
+				compliance_gain = 0.005
 				non_core_manpower = 0.01
 			}
 			
@@ -97,7 +97,7 @@ ideas = {
             picture = zda
 			cost = 1000
 			modifier = {
-				resistance_decay = -0.15
+				resistance_decay = 0.15
 				starting_compliance = 0.05
 				
 			}
@@ -214,7 +214,7 @@ ideas = {
 			cost = 1000
 			modifier = {
 				equipment_capture_factor = 0.05
-				naval_invasion_prep_speed = -0.25
+				naval_invasion_prep_speed = 0.25
 				naval_invasion_capacity = 4
 				amphibious_invasion = 0.2
 			}
