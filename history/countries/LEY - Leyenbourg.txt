@@ -45,11 +45,11 @@ add_ideas = {
 }
 add_ideas = {
 	# Government Ideas
-	autocracy
-	abexilas
-	internal_RP_focus
-	civilized_tech
-	lessened_interest
+	diarchy
+	eldham
+	architecture_focus
+	advanced_tech
+	miniscule_interest
 }
 
 set_stability = 0.19
