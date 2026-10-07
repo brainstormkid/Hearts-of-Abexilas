@@ -29,7 +29,7 @@ ideas = {
 			modifier = {
 				conscription_factor = -0.15
 				monthly_population = -0.3
-				production_speed_buildings_factor = 0.05
+				production_speed_buildings_factor = -0.05
 			}
 			
 			allowed_to_remove = { always = no }
