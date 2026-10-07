@@ -98,10 +98,12 @@
  SCA.1.d:0 "WIP"
  SCA.2.t:0 "The [FROM.GetName] joins the Halinn League"
  SCA.3.t:0 "The [FROM.GetName] declines joining the Halinn League"
+ SCA.4.t:0 "The [STW.GetName] joins the Halinn League!"
  #Scaliga News
  SCA_news.1.t:0 "Fall of Steelwater"
  SCA_news.1.d:0 "After vicious fighitng, Steelwater has finally fallen to the invading forces. With the [SCA.GetAdjective] army retreating the devastated city, this strikes a bitter blow to the [SCA.GetName]. In the aftermath, the city has become a wasteland, with ruined buildings and defenses, leaving the city unrecognizable and an empty husk."
- 
+ SCA_news.2.t:0 "Formation of the Halinn League"
+ SCA_news.2.d:0 "A new alliance has been formed in Halinn, known as the Halinn League by the [SCA.GetName]. This alliance is formed to protect the sovereignship of every nation in Halinn from foreign powers and to create an ambient of peace amongst the Halinnians. The Halinn League is a major step towards the future of Halinn and will be a major player in the politics of the continent."
  #MYRTANA EVENTS
  myrtana_story_events.1.t:0 "Long day in Theos."
  myrtana_story_events.1.d:0 "It was a late night in Theos, factories were almost closing, the civilians go home in a bit, but something unusual happened today at the weapon factory in Theos. At the rifle craftsmanship sector, one of the workers called Luxvie has been walking around paranoid for hours, not knowing why the other worker called Stella has came up to her and asked her: \n\n"Luxvie, what's happening with ya?! Are you alright?!".\n\nLuxvie responded with: "I can't do this... I just can't..."\n\nStella confused asked, "Wait what are you talking about?"\n\nLuxvie said, "Soon, my family and I will help the others to liberate us from this tyrant..."\n\nStella, being Loyalist to the King Ravian, shocked said: "Well, wait when are you guys gonna help them?"\n\nLuxvie said: "Don't tell anyone but, we are going tommorow right in the morning to Torsheim."\n\n"Understandable, good luck." Were last words Stella said to her before she went away, the shift ended and everyone went home.\n\nUntil tommorow on National News of Theos, it has been reported that Luxvie and her family have been found dead in their apartment. The authorities said they aren't sure what caused it, but the medical experts say it was a murder with some short of really sharp object, being stabbed into each member multiple times. \n\nThe investigation is currently ongoing."

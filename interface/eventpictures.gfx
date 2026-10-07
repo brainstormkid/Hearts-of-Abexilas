@@ -121,6 +121,10 @@ spriteTypes = {
 		name = "GFX_scaliga_news_event_001"
 		texturefile = "gfx/event_pictures/news_SCA_fall_of_steelwater.dds"
 	}
+	SpriteType = {
+		name = "GFX_scaliga_news_event_002"
+		texturefile = "gfx/event_pictures/news_SCA_halinn_league.dds"
+	}
 
 
 	#MAR

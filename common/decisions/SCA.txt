@@ -17,6 +17,7 @@ SCA_halinn_league = {
 				icon = GFX_faction_icon_halinn_league
 			}
 			set_country_flag = created_halinn_league
+			news_event = { id = SCA_news.2 days = 1 }
 		}
 		ai_will_do = {
 			base = 100
@@ -47,7 +48,7 @@ SCA_halinn_league = {
 		visible = {
 			has_country_flag = created_halinn_league
 		}
-		cost = 0
+		cost = 10
 	}
 	SCA_invite_akashiro = {
 		icon = GFX_decision_generic_decision
@@ -70,7 +71,7 @@ SCA_halinn_league = {
 		visible = {
 			has_country_flag = created_halinn_league
 		}
-		cost = 0
+		cost = 10
 	}
 	SCA_invite_taravor = {
 		icon = GFX_decision_generic_decision
@@ -93,7 +94,7 @@ SCA_halinn_league = {
 		visible = {
 			has_country_flag = created_halinn_league
 		}
-		cost = 0
+		cost = 10
 	}
 	SCA_invite_ZDA = {
 		icon = GFX_decision_generic_decision
@@ -119,7 +120,7 @@ SCA_halinn_league = {
 		visible = {
 			has_country_flag = created_halinn_league
 		}
-		cost = 0
+		cost = 50
 	}
 	SCA_invite_EIS = {
 		icon = GFX_decision_generic_decision
@@ -142,7 +143,7 @@ SCA_halinn_league = {
 		visible = {
 			has_country_flag = created_halinn_league
 		}
-		cost = 0
+		cost = 10
 	}
 	SCA_invite_leyden = {
 		icon = GFX_decision_generic_decision
@@ -165,7 +166,7 @@ SCA_halinn_league = {
 		visible = {
 			has_country_flag = created_halinn_league
 		}
-		cost = 0
+		cost = 10
 	}
 	SCA_invite_SAK = {
 		icon = GFX_decision_generic_decision
@@ -188,7 +189,7 @@ SCA_halinn_league = {
 		visible = {
 			has_country_flag = created_halinn_league
 		}
-		cost = 0
+		cost = 10
 	}
 }
 

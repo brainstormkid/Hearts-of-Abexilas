@@ -4,7 +4,7 @@
 
 add_namespace = SCA_news
 
-#Opening Senate
+#Fall of Steelwater
 news_event = {
 	id = SCA_news.1
 	title = SCA_news.1.t
@@ -14,5 +14,27 @@ news_event = {
 	is_triggered_only = yes
 	option = {
 		name = "A turning point."
+	}
+}
+news_event = {
+	id = SCA_news.2
+	title = SCA_news.2.t
+	desc =  SCA_news.2.d
+	picture = GFX_scaliga_news_event_002
+	major = yes  
+	is_triggered_only = yes
+	option = {
+		trigger = {
+			NOT = {
+				tag = SOL
+			}
+		}
+		name = "Glory to the Halinn."
+	}
+	option = {
+		trigger = {
+			tag = SOL
+		}
+		name = "Threatening the balance of power."
 	}
 }

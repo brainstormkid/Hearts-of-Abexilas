@@ -7,5 +7,6 @@ SCA_halinn_league = {
     visible = {
         always = yes
     }
+    visible_when_empty = yes
     priority = 10
 }

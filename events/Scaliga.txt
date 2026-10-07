@@ -21,6 +21,15 @@ country_event = {
 					}
 					leave_faction = yes
 				}
+				if = {
+					limit = {
+						is_subject = yes
+						tag = STW
+					}
+					overlord = {
+						country_event = { id = SCA.4 days = 1 }
+					}
+				}
 			}
 			add_to_faction = ROOT
 			country_event = { id = SCA.2 days = 1 }
@@ -55,5 +64,14 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "Shame."
+	}
+}
+country_event = {
+	id = SCA.4
+	title = SCA.4.t
+	picture = "GFX_ejznrosa_event_1_image"
+	is_triggered_only = yes
+	option = {
+		name = "Traitors!"
 	}
 }
