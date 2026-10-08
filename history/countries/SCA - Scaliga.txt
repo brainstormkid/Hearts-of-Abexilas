@@ -16,9 +16,9 @@ add_ideas = {
 	# Government Ideas
 	autocracy
 	abexilas
-	internal_RP_focus
+	pvp_focus
 	civilized_tech
-	lessened_interest
+	heightened_interest
 }
 
 set_technology = {
