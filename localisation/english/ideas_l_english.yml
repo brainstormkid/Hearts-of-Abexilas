@@ -50,6 +50,11 @@
  nova_ryken_autonomy:0 "Nova-Ryken Autonomy"
  nova_ryken_autonomy_desc:0 "After the fall of Telúne the provinces of Nova-Ryken established themselves as a seperate entity next to Leyenbourg. This is causing us major problems in our diplomatic and internal situation"
 
+# Squatter ideas
+ no_central_gov:0 "No Central Government"
+ no_central_gov_desc:0 "This region does not have any form of central government. It is home to various tiny squatter encampments and does not belong to any nation directly."
+ squatter_ruled:0 "Squatter Ruled"
+ squatter_ruled_desc:0 "Due to the squatters settling in this region, very little economic development can be made, if any at all."
  
 # Valora Ideas
  novaran_rebellion_1:0 "Novaran Rebellion"

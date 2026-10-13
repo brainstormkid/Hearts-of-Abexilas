@@ -5,6 +5,9 @@
  the_everyman: "The Everyman"
  accelerationist_supporter: "Accelerationist Supporter"
  
+ #Squatters
+ squatter_encampments: "Squatter Encampments"
+ 
  ### Generic Idea Traits ###
  
  accelerationist_free_thinker:0 "Accelerationist Free-Thinker"
