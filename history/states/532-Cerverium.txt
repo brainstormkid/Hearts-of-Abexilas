@@ -2,12 +2,12 @@ state={
 	id=532
 	name="STATE_532"
 	provinces={
-		15322 
+		5493 9825 
 	}
 	buildings_max_level_factor=1.000
         manpower=25000
-        state_category = small_island
-		local_supplies = 1
+        state_category = town
+		local_supplies = 4
 	resources = {
 		oil = 2
 		aluminium = 2
@@ -18,9 +18,10 @@ state={
 		coal = 3
 	}
 	history={
-		owner = JAZ
+		owner = OLD
 		buildings = {
 		infrastructure = 1
 		}
+		add_core_of = OLD
 	}
 }
