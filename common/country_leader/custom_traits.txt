@@ -1,5 +1,7 @@
 leader_traits = {
 
+### Leyenbourg
+
     true_nationalist = {
         random = no
         sprite = 13
@@ -37,6 +39,23 @@ leader_traits = {
             factor = 1
         }
     }
+	
+	### Squatter
+	
+	squatter_encampments = {
+        random = no
+        sprite = 12
+		political_power_gain = -0.1
+		research_speed_factor = -0.1
+		production_speed_infrastructure_factor = -0.3
+		stability_factor = -0.1
+		
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+	###
 	
 	the_everyman = {
         random = no
