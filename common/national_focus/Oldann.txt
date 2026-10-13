@@ -1,0 +1,1581 @@
+focus_tree = {
+    id = OLdann-focus-tree
+    default = no
+    country = {
+        factor = 0
+        modifier = {
+            add = 1000
+            tag = OLD
+        }
+    }
+    continuous_focus_position = { x = 34 y = 1072 }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_40
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 42
+        y = 2
+        cost = 3
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = OLD_focus_2
+        icon = GFX_goal_generic_political_pressure
+        x = 42
+        y = 3
+        cost = 3
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_40 }
+        completion_reward = {
+            annex_country = {
+                target = CYR
+                transfer_troops = yes
+                add_manpower = 500
+            }
+        }
+        text = OLD_focus_2
+    }
+
+    focus = {
+        id = OLD_focus_3
+        icon = GFX_goal_generic_political_pressure
+        x = 42
+        y = 4
+        cost = 3
+        prerequisite = { focus = OLD_focus_2 }
+        completion_reward = {
+            add_political_power = 150
+        }
+        text = OLD_focus_3
+    }
+
+    focus = {
+        id = OLD_focus_4
+        icon = GFX_goal_generic_political_pressure
+        x = 30
+        y = 5
+        cost = 3
+        prerequisite = { focus = OLD_focus_3 }
+        mutually_exclusive = { focus = OLD_focus_5 }
+        completion_reward = {
+            add_political_power = -150
+            set_politics = {
+                ruling_party = absolutist
+                elections_allowed = no
+                add_popularity = {
+                    ideology = absolutist
+                    popularity = 21
+                    add_popularity = {
+                        ideology = monarchist
+                        popularity = 5
+                    }
+                }
+            }
+        }
+        text = OLD_focus_4
+    }
+
+    focus = {
+        id = OLD_focus_5
+        icon = GFX_goal_generic_political_pressure
+        x = 42
+        y = 5
+        cost = 3
+        prerequisite = { focus = OLD_focus_3 }
+        mutually_exclusive = { focus = OLD_focus_4 }
+        completion_reward = {
+            add_political_power = 150
+        }
+        text = OLD_focus_5
+    }
+
+    focus = {
+        id = akarid_economy_focus_1
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 24
+        y = 6
+        cost = 10
+        prerequisite = { focus = OLD_focus_4 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_14
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 30
+        y = 6
+        cost = 10
+        prerequisite = { focus = OLD_focus_4 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = lavdi_economy_focus_1
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 35
+        y = 6
+        cost = 10
+        prerequisite = { focus = OLD_focus_4 }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_6
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 41
+        y = 6
+        cost = 10
+        prerequisite = { focus = OLD_focus_5 }
+        mutually_exclusive = { focus = test_abexilas_OLdann-focus-tree_focus_7 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_7
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 45
+        y = 6
+        cost = 10
+        prerequisite = { focus = OLD_focus_5 }
+        mutually_exclusive = { focus = test_abexilas_OLdann-focus-tree_focus_6 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = akarid_economy_focus_4
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 21
+        y = 7
+        cost = 10
+        prerequisite = { focus = akarid_economy_focus_1 }
+        bypass = {
+            273 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type =  arms_factory
+                    level = 3
+                    instant_build = yes
+                }
+            }
+        }
+        complete_tooltip = {
+            256 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 5
+                    instant_build = yes
+                }
+            }
+            267 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 5
+                    instant_build = yes
+                }
+            }
+            
+        }
+        completion_reward = {
+            273 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type =  arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            add_building_construction = {
+                    type =  industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = akarid_economy_focus_3
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 23
+        y = 7
+        cost = 10
+        prerequisite = { focus = akarid_economy_focus_1 }
+        completion_reward = {
+            256 = {
+                add_extra_state_shared_building_slots = 4
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = akarid_economy_focus_2
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 25
+        y = 7
+        cost = 10
+        prerequisite = { focus = akarid_economy_focus_1 }
+        completion_reward = {
+            256 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 5
+                    instant_build = yes
+                }
+              add_building_construction = {
+                    type = arms_factory
+                    level = 3
+                    instant_build = yes
+                }
+            }
+            267 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 3
+                    instant_build = yes
+                }
+               add_building_construction = {
+                    type = industrial_complex
+                    level = 3
+                    instant_build = yes
+                }
+            }
+            276 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 3
+                    instant_build = yes
+                }
+             add_building_construction = {
+                    type = arms_factory
+                    level = 3
+                    instant_build = yes
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_26
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 29
+        y = 7
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_14 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_27
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 31
+        y = 7
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_14 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = lavdi_economy_focus_2
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 34
+        y = 7
+        cost = 10
+        prerequisite = { focus = lavdi_economy_focus_1 }
+        completion_reward = {
+            273 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 3
+                    instant_build = yes
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = lavdi_economy_focus_3
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 36
+        y = 7
+        cost = 10
+        prerequisite = { focus = lavdi_economy_focus_1 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = lavdi_economy_focus_4
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 38
+        y = 7
+        cost = 10
+        prerequisite = { focus = lavdi_economy_focus_1 }
+        completion_reward = {
+            273 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 5
+                    instant_build = yes
+                }
+              add_building_construction = {
+                    type = arms_factory
+                    level = 3
+                    instant_build = yes
+                }
+            }
+            275 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 3
+                    instant_build = yes
+                }
+               add_building_construction = {
+                    type = industrial_complex
+                    level = 3
+                    instant_build = yes
+                }
+            }
+            279 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 3
+                    instant_build = yes
+                }
+             add_building_construction = {
+                    type = arms_factory
+                    level = 3
+                    instant_build = yes
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_9
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 51
+        y = 7
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_7 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = akarid_economy_focus_5
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 22
+        y = 8
+        cost = 10
+        prerequisite = { focus = akarid_economy_focus_3 }
+        prerequisite = { focus = akarid_economy_focus_4 }
+        completion_reward = {
+            add_political_power = 50
+            276 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 3
+                    instant_build = yes
+                }
+             add_building_construction = {
+                    type = arms_factory
+                    level = 3
+                    instant_build = yes
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = akarid_economy_focus_6
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 24
+        y = 8
+        cost = 10
+        prerequisite = { focus = akarid_economy_focus_1 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_28
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 27
+        y = 8
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_26 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_29
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 29
+        y = 8
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_26 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_30
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 31
+        y = 8
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_27 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_31
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 33
+        y = 8
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_27 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = lavdi_economy_focus_5
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 35
+        y = 8
+        cost = 10
+        prerequisite = { focus = lavdi_economy_focus_2 }
+        completion_reward = {
+            273 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type =  arms_factory
+                    level = 3
+                    instant_build = yes
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = lavdi_economy_focus_6
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 37
+        y = 8
+        cost = 10
+        prerequisite = { focus = lavdi_economy_focus_3 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = lavdi_economy_focus_7
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 39
+        y = 8
+        cost = 10
+        prerequisite = { focus = lavdi_economy_focus_3 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_9_2
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 48
+        y = 8
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_9 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_10
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 52
+        y = 8
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_9 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_11
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 55
+        y = 8
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_9 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = akarid_economy_focus_7
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 23
+        y = 9
+        cost = 10
+        prerequisite = { focus = akarid_economy_focus_5 }
+        prerequisite = { focus = akarid_economy_focus_6 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_32
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 27
+        y = 9
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_28 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_33
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 29
+        y = 9
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_29 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_34
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 31
+        y = 9
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_30 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_35
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 33
+        y = 9
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_31 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = lavdi_economy_focus_8
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 37
+        y = 9
+        cost = 10
+        prerequisite = { focus = lavdi_economy_focus_5 }
+        prerequisite = { focus = lavdi_economy_focus_6 }
+        prerequisite = { focus = lavdi_economy_focus_7 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_45
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 47
+        y = 9
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_9_2 }
+        mutually_exclusive = { focus = test_abexilas_OLdann-focus-tree_focus_46 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_46
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 49
+        y = 9
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_9_2 }
+        mutually_exclusive = { focus = test_abexilas_OLdann-focus-tree_focus_45 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_51
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 52
+        y = 9
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_10 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_54
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 55
+        y = 9
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_11 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_36
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 28
+        y = 10
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_32 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_33 }
+        mutually_exclusive = { focus = test_abexilas_OLdann-focus-tree_focus_37 }
+        mutually_exclusive = { focus = test_abexilas_OLdann-focus-tree_focus_38 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_37
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 30
+        y = 10
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_34 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_33 }
+        mutually_exclusive = { focus = test_abexilas_OLdann-focus-tree_focus_36 }
+        mutually_exclusive = { focus = test_abexilas_OLdann-focus-tree_focus_38 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_38
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 32
+        y = 10
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_35 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_34 }
+        mutually_exclusive = { focus = test_abexilas_OLdann-focus-tree_focus_36 }
+        mutually_exclusive = { focus = test_abexilas_OLdann-focus-tree_focus_37 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_47
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 47
+        y = 10
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_45 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_48
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 49
+        y = 10
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_46 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_52
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 52
+        y = 10
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_51 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_55
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 55
+        y = 10
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_54 }
+        mutually_exclusive = { focus = test_abexilas_OLdann-focus-tree_focus_52 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_39
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 29
+        y = 11
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_36 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_37 }
+        mutually_exclusive = { focus = test_abexilas_OLdann-focus-tree_focus_91 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_91
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 31
+        y = 11
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_38 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_37 }
+        mutually_exclusive = { focus = test_abexilas_OLdann-focus-tree_focus_39 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_49
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 47
+        y = 11
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_47 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_50
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 49
+        y = 11
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_48 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_53
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 52
+        y = 11
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_52 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_56
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 55
+        y = 11
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_55 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_57
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 57
+        y = 11
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_55 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_41
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 25
+        y = 12
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_39 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_91 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_42
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 30
+        y = 12
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_39 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_91 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_43
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 35
+        y = 12
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_39 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_91 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_58
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 50
+        y = 12
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_49 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_50 }
+        mutually_exclusive = { focus = test_abexilas_OLdann-focus-tree_focus_59 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_59
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 52
+        y = 12
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_53 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_56 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_57 }
+        mutually_exclusive = { focus = test_abexilas_OLdann-focus-tree_focus_58 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_81
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 21
+        y = 13
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_41 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_79
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 23
+        y = 13
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_41 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_80
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 25
+        y = 13
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_41 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_73
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 29
+        y = 13
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_42 }
+        mutually_exclusive = { focus = test_abexilas_OLdann-focus-tree_focus_74 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_74
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 31
+        y = 13
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_42 }
+        mutually_exclusive = { focus = test_abexilas_OLdann-focus-tree_focus_73 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_67
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 35
+        y = 13
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_43 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_68
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 37
+        y = 13
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_43 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_69
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 39
+        y = 13
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_43 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_62
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 45
+        y = 13
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_58 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_60
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 47
+        y = 13
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_58 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_61
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 49
+        y = 13
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_58 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_63
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 53
+        y = 13
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_59 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_64
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 55
+        y = 13
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_59 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_65
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 57
+        y = 13
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_59 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_82
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 23
+        y = 14
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_81 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_79 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_83
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 25
+        y = 14
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_80 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_75
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 28
+        y = 14
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_73 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_76
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 30
+        y = 14
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_73 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_77
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 32
+        y = 14
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_74 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_70
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 35
+        y = 14
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_67 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_71
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 37
+        y = 14
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_68 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_69 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_66
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 51
+        y = 14
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_62 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_60 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_61 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_63 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_64 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_65 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_84
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 24
+        y = 15
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_82 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_83 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_85
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 28
+        y = 15
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_75 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_78
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 31
+        y = 15
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_76 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_77 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_72
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 36
+        y = 15
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_70 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_71 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_87
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 49
+        y = 15
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_66 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_89
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 51
+        y = 15
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_66 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_88
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 53
+        y = 15
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_66 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_90
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 51
+        y = 16
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_87 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_89 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_88 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = test_abexilas_OLdann-focus-tree_focus_86
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 29
+        y = 17
+        cost = 10
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_72 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_85 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_78 }
+        prerequisite = { focus = test_abexilas_OLdann-focus-tree_focus_84 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}
