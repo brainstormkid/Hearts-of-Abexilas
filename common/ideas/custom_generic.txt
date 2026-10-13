@@ -427,5 +427,41 @@ ideas = {
 				send_volunteers_tension = -0.15
 			}
 		}
+		#### Squatters
+		no_central_gov = {
+			picture = no_central_gov
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				army_org_factor = -0.20
+				defence = -0.20
+				offence = -0.20
+				war_support_factor = -0.50
+				conscription_factor = -0.90
+				drift_defence_factor = +0.50
+				political_power_factor = -0.50
+			}
+		}
+		squatter_ruled = {
+			picture = squatter_ruled
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				consumer_goods_factor = +0.90
+				production_speed_buildings_factor = -0.5
+				production_speed_industrial_complex_factor = -0.80
+				production_speed_arms_factory_factor = -0.80
+				production_factory_efficiency_gain_factor = -0.80
+				production_factory_max_efficiency_factor = -1.0
+			}
+		}
 	}
 }
