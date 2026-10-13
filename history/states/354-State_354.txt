@@ -20,14 +20,15 @@ state={
 	history={
 		owner = SYR
 		buildings = {
-		industrial_complex = 2
-		infrastructure = 3
-		arms_factory = 1
-		dockyard = 1
-		10085 = {
-			naval_base = 1
-		}
+			industrial_complex = 2
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			10085 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = SYR
+		victory_points = { 10085 50 }
 	}
 }
