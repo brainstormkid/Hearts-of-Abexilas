@@ -2,7 +2,7 @@ state={
 	id=2
 	name="STATE_2"
 	provinces={
-		7036 
+		9689 9707 9724 9734
 	}
 	resources = {
 		oil = 2
@@ -18,10 +18,10 @@ state={
         state_category = tiny_island
 		local_supplies = 0.1
 	history={
-		owner = AET
+		owner = OLD
 		buildings = {
 		infrastructure = 1
 		}
-		add_core_of = AET
+		add_core_of = OLD
 	}
 }
