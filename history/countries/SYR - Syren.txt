@@ -1,4 +1,7 @@
 capital = 354
+## Note: The Country Name seems incorrect, I have not done research on the nation though so I can't confirm it. It appears to be mistaken as the map name is: Tholouj Algharb
+
+OOB = "SYR"
 
 set_politics = {
 	ruling_party = absolutist

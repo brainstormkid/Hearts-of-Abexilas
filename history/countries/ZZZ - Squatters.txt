@@ -5,27 +5,33 @@ ai_enabled = no
 ### IMPORTANT
 
 set_politics = {
-	ruling_party = absolutist
+	ruling_party = anarchist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	absolutist = 100
+	anarchist = 100
 }
 
 create_country_leader = {
-	name = "?"
-	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	picture = "gfx/leaders/AEZ/generic_no_leader.dds"
+	name = "Divided Squatter Rule"
+	desc = "These lands are split between various squatter clans. There is no direct 'ruler' or 'government' for these regions."
+	picture = "gfx/leaders/ZZZ/uncontrolled_wilds.dds"
 	expire = "1965.1.1"
-	ideology = absolutist_subtype
+	ideology = anarchist_subtype
 	traits = {
-		#
+		squatter_encampments
 	}
 }
 
-set_research_slots = 3
+set_party_name = { 
+    ideology = anarchist 
+    long_name = "Squatter Encampments"
+    name = "Squatter Encampments"
+}
+
+set_research_slots = 1
 add_ideas = {
 	# Government Ideas
 	squatter_territory
@@ -33,6 +39,9 @@ add_ideas = {
 	inactive_nation
 	no_research_sector
 	non_existent_interest
+	
+	no_central_gov
+	squatter_ruled
 }
 
 set_technology = {
