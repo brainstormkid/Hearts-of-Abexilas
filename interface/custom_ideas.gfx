@@ -194,6 +194,18 @@ spriteTypes = {
 		name = "GFX_idea_divine_interference"
 		texturefile = gfx/interface/ideas/idea_divine_interference.dds
 	}
+	
+	## Squatters
+	SpriteType = { 
+		name = "GFX_idea_no_central_gov"
+		texturefile = "gfx/interface/ideas/idea_generic_no_central_gov.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_squatter_ruled"
+		texturefile = "gfx/interface/ideas/idea_generic_squatter_ruled.dds"
+	}
+	
+	### Other Ideas
 
 
 	SpriteType = {
