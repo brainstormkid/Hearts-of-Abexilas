@@ -296,6 +296,16 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		available = {
+			OR = {
+				1178 = {
+					is_owned_by = EJZ
+				}
+				1178 = {
+					is_owned_by = WOK
+				}
+			}
+		}
 		prerequisite = { focus = EJZ_construction_ministry }
 		completion_reward = {
 			1178 = {
@@ -319,7 +329,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_nationalize_businesses }
 		completion_reward = {
-			add_political_power = 5
+			add_to_variable = {
+				EJZ_bank_industrial_capacity = 0.1
+			}
+			custom_effect_tooltip = EJZ_state_owned_markets_tip
 		}
 	}
 	#Promote local Businesses
@@ -334,7 +347,18 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_encourage_a_free_market }
 		completion_reward = {
-			add_political_power = 5
+			1415 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			add_to_variable = {
+				EJZ_bank_consumer_goods = -0.1
+			}
+			custom_effect_tooltip = EJZ_promote_local_businesses_tip
 		}
 	}
 	#Attract Foreign Investors
@@ -349,7 +373,13 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_promote_local_businesses }
 		completion_reward = {
-			add_political_power = 5
+			add_to_variable = {
+				EJZ_bank_max_efficiency = 0.1
+			}
+			add_to_variable = {
+				EJZ_bank_production_efficiency = 0.1
+			}
+			custom_effect_tooltip = EJZ_attract_foreign_investors_tip
 		}
 	}
 	#Initiate Price Controls
@@ -364,7 +394,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_state_owned_markets }
 		completion_reward = {
-			add_political_power = 5
+			add_to_variable = {
+				EJZ_bank_consumer_goods = -0.05
+			}
+			custom_effect_tooltip = EJZ_initiate_price_controls_tip
 		}
 	}
 
@@ -565,12 +598,45 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		available = {
+			659 = {
+				is_owned_and_controlled_by = EJZ
+			}
+			1177 = {
+				is_owned_and_controlled_by = EJZ
+			}
+			1176 = {
+				is_owned_and_controlled_by = EJZ
+			}
 		}
 		prerequisite = { focus = EJZ_kickstart_fuel_production  }
 		prerequisite = { focus = EJZ_reduce_resource_spending  }
 		prerequisite = { focus = EJZ_mountain_mining_operations  }
 		completion_reward = {
-			add_political_power = 5
+			add_resource = {
+    			type = oil
+    			amount = 8
+    			state = 659
+			}
+			add_resource = {
+    			type = steel
+    			amount = 12
+    			state = 1177
+			}
+			add_resource = {
+    			type = aluminium
+    			amount = 8
+    			state = 1177
+			}
+			add_resource = {
+    			type = tungsten
+    			amount = 8
+    			state = 1177
+			}
+			add_resource = {
+    			type = rubber
+    			amount = 8
+    			state = 1176
+			}
 		}
 	}
 	
@@ -696,6 +762,9 @@ focus_tree = {
 		prerequisite = { focus = EJZ_construction_ministry  }
 		prerequisite = { focus = EJZ_manage_national_capital }
 		completion_reward = {
+			add_dynamic_modifier = {
+				modifier = EJZ_bank_of_ejznrosa
+			}
 		}
 	}
 	#Increase Build Projects
@@ -774,6 +843,7 @@ focus_tree = {
 			focus = EJZ_nationalize_businesses
 		}
 		completion_reward = {
+			add_ideas = free_trade
 		}
 	}
 	#Nationalize Businesses
@@ -791,6 +861,7 @@ focus_tree = {
 			focus = EJZ_encourage_a_free_market
 		}
 		completion_reward = {
+			add_ideas = limited_exports
 		}
 	}
 	#Lower Taxes
@@ -805,6 +876,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_nationalize_businesses focus = EJZ_encourage_a_free_market }
 		completion_reward = {
+			add_to_variable = {
+				EJZ_bank_consumer_goods = -0.05
+			}
+			custom_effect_tooltip = EJZ_lower_taxes_tip
 		}
 	}
 	#Agriculture Reforms
@@ -819,6 +894,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = EJZ_lower_taxes }
 		completion_reward = {
+			add_to_variable = {
+				EJZ_bank_population = 0.05
+			}
+			custom_effect_tooltip = EJZ_agricultural_reforms_tip
 		}
 	}
 	#Centralized Economy
@@ -831,6 +910,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		available = {
+			has_idea = limited_exports
+		}
 		prerequisite = { focus = EJZ_agricultural_reforms }
 		prerequisite = {
 			focus = EJZ_intitiate_price_controls 
@@ -839,6 +921,24 @@ focus_tree = {
 			focus = EJZ_free_market_economy
 		}
 		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_core_of = EJZ
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			add_to_variable = {
+				EJZ_bank_max_efficiency = 0.05
+			}
+			add_to_variable = {
+				EJZ_bank_production_efficiency = 0.05
+			}
+			custom_effect_tooltip = EJZ_free_market_economy_tip
 		}
 	}
 	#Free Market Economy
@@ -851,6 +951,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		available = {
+			has_idea = free_trade
+		}
 		prerequisite = { focus = EJZ_agricultural_reforms }
 		prerequisite = {
 			focus = EJZ_attract_foreign_investors
@@ -859,6 +962,24 @@ focus_tree = {
 			focus = EJZ_centralized_economy
 		}
 		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_core_of = EJZ
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			add_to_variable = {
+				EJZ_bank_max_efficiency = 0.05
+			}
+			add_to_variable = {
+				EJZ_bank_production_efficiency = 0.05
+			}
+			custom_effect_tooltip = EJZ_free_market_economy_tip
 		}
 	}
 	
@@ -1139,7 +1260,7 @@ focus_tree = {
 		icon = GFX_focus_generic_diplomatic_treaty
 		x = 8
 		y = 2
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1147,13 +1268,6 @@ focus_tree = {
 			has_global_flag = war_plugin_enabled
 		}
 		prerequisite = { focus = EJZ_thedukesgovernment  }
-		completion_reward = {
-			create_faction = "Ejznspakt"
-			set_rule = {
-				can_create_factions = yes
-			}
-			custom_effect_tooltip = EJZ_greater_ejznrosa_formable
-		}
 	}
 
 	#Continue the Status Quo
@@ -2451,7 +2565,7 @@ focus_tree = {
 	focus = {
 		id = EJZ_rally_around_the_duke
 		icon = GFX_focus_ger_return_of_the_kaiser
-		x = 10
+		x = 11
 		y = 9
 		cost = 10
 		search_filters = {
@@ -2486,6 +2600,9 @@ focus_tree = {
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_STABILITY
+		}
+		available = {
+			always = no
 		}
 		prerequisite = {
 			focus = EJZ_the_senate
@@ -2537,6 +2654,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
+		allow_branch = {
+			always = no
+		}
 		prerequisite = {
 			focus = EJZ_rally_around_the_duke
 		}
@@ -2560,7 +2680,7 @@ focus_tree = {
 	focus = {
 		id = EJZ_government_restructuring
 		icon = GFX_focus_ETH_re-convene_the_parliament
-		x = 16
+		x = 12
 		y = 10
 		cost = 10
 		search_filters = {
@@ -2577,7 +2697,7 @@ focus_tree = {
 		icon = GFX_focus_DEN_civilian_preparations
 		x = 13
 		y = 11
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
@@ -2641,6 +2761,10 @@ focus_tree = {
 			add_popularity = {
 				ideology = liberalist
 				popularity = 0.05
+			}
+			add_timed_idea = {
+				idea = EJZ_rosist_opposition
+				days = 365
 			}
 		}
 	}
@@ -2834,6 +2958,15 @@ focus_tree = {
 			focus = EJZ_establish_the_duchy_of_daekia
 		}
 		completion_reward = {
+			add_political_power = 50
+			every_other_country = {
+				limit = {
+					is_subject_of = EJZ
+				}
+				add_autonomy_score = {
+					value = -200
+				}
+			}
 		}
 	}
 	focus = {
@@ -2871,7 +3004,16 @@ focus_tree = {
 			focus = EJZ_towards_independence
 		}
 		completion_reward = {
-			set_cosmetic_tag = EJZ_united_duchy
+			if = {
+				limit = {
+					has_cosmetic_tag = EJZ_kingdom
+				}
+				remove_cosmetic_tag = EJZ_kingdom
+				set_cosmetic_tag = EJZ_united_kingdom
+			}
+			else = {
+				set_cosmetic_tag = EJZ_united_duchy
+			}
 			WOK = {
 				every_core_state = {
 					add_core_of = EJZ
@@ -3059,7 +3201,12 @@ focus_tree = {
 		prerequisite = {
 			focus = EJZ_integrate_the_duchies
 		}
+		prerequisite = {
+			focus = EJZ_ensure_noble_loyalty
+		}
 		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 50
 		}
 	}
 	focus = {
@@ -3070,6 +3217,9 @@ focus_tree = {
 		cost = 3
 		available = {
 			is_subject = no
+			NOT = {
+				has_completed_focus = EJZ_towards_independence
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -3078,6 +3228,64 @@ focus_tree = {
 			focus = EJZ_federalize_the_duchies
 		}
 		completion_reward = {
+			remove_idea = EJZ_rosist_opposition
+			add_timed_idea = {
+				idea = EJZ_appeased_the_rosists
+				days = 365
+			}
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = EJZ_ensure_noble_loyalty
+		icon = GFX_focus_generic_worker_administration
+		x = 14
+		y = 12
+		cost = 5
+		available = {
+			is_subject = no
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = EJZ_ejznrosa_first
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = EJZ_ensured_noble_loyalty
+				days = 180
+			}
+		}
+	}
+	focus = {
+		id = EJZ_proclaim_the_kingdom
+		icon = GFX_EJZ_proclaim_the_kingdom
+		x = 13
+		y = 15
+		cost = 5
+		available = {
+			is_subject = no
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = EJZ_centralize_the_duchies
+			focus = EJZ_limited_self_governance
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_cosmetic_tag = EJZ_united_duchy
+				}
+				remove_cosmetic_tag = EJZ_united_duchy
+				set_cosmetic_tag = EJZ_united_kingdom
+			}
+			else = {
+				set_cosmetic_tag = EJZ_kingdom
+			}
+			custom_effect_tooltip = EJZ_greater_ejznrosa_formable
 		}
 	}
 }

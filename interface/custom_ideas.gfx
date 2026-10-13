@@ -663,6 +663,10 @@ spriteTypes = {
 		name = "GFX_idea_joint_economic_cooperation"
 		textureFile = "gfx/interface/ideas/idea_man_five_year_plan_industry.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_bank_of_ejznrosa"
+		textureFile = "gfx/interface/ideas/idea_bank_of_ejznrosa.dds"
+	}
 	#Marisvalor
 	SpriteType = { 
 		name = "GFX_idea_marisvalor_eins"

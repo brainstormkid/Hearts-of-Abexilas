@@ -2229,12 +2229,14 @@ EJZ_bop_decisions_cat = {
 				value > -1
 			}
 		}
-		complete_effect = {
+		remove_effect = {
 			add_power_balance_value = {
 				id = EJZ_balance_of_power
 				value = -0.1
 			}
 		}
+		days_remove = 10
+		cost = 10
 	}
 	EJZ_support_senate_side = {
 		icon = GFX_decisions_SWI_consolidate_council_power
@@ -2247,12 +2249,14 @@ EJZ_bop_decisions_cat = {
 				value < 1
 			}
 		}
-		complete_effect = {
+		remove_effect = {
 			add_power_balance_value = {
 				id = EJZ_balance_of_power
 				value = 0.1
 			}
 		}
+		days_remove = 10
+		cost = 10
 	}
 }
 

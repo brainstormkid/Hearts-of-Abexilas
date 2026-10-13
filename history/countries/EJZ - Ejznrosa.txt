@@ -23,6 +23,7 @@ set_variable = {EJZ_org = -0.1 }
 set_variable = {EJZ_train = 0.1 }
 set_variable = {EJZ_exp = -0.1 }
 set_variable = {EJZ_fort = 0 }
+
 ### Ejznrosa Joint Focus Tree ###
 set_variable = {EJZ_joint_consumer_goods = -0.05 }
 set_variable = {EJZ_joint_economy_cost = 0 }
@@ -33,6 +34,13 @@ set_variable = {EJZ_joint_military = 0}
 set_variable = {EJZ_joint_rail = 0}
 set_variable = {EJZ_joint_supply = 0}
 set_variable = {EJZ_joint_resource = 0}
+
+### Ejznrosa Bank of Ejznrosia ###
+set_variable = {EJZ_bank_consumer_goods = -0.05 }
+set_variable = {EJZ_bank_industrial_capacity = 0.05 }
+set_variable = {EJZ_bank_production_efficiency = 0 }
+set_variable = {EJZ_bank_max_efficiency = 0 }
+set_variable = {EJZ_bank_population = 0}
 #set_country_flag = wip_ejznrosa_alt_historical
 
 set_research_slots = 4

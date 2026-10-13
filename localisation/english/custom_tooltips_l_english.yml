@@ -29,5 +29,12 @@
  EJZ_railway_logistics_tip:0 "Modify §YJoint Industrial Development§W\nEffective change:\n§YRailway§W construction speed: §G+10%§W\n§YSupply Hub§W construction speed: §G+15%§W"
  EJZ_resource_excavations_tip:0 "Modify §YJoint Resource Excavations§W\nEffective change:\nLocal Resource Gain Efficiency per Infrastructure: §G+10%§W"
  EJZ_anger_rosists_tip:0 "§RThis will anger the Rosist Nationalists within the government.§W"
+ EJZ_promote_local_businesses_tip:0 "Modify §YBank of Ejznrosa§W\nEffective change:\nConsumer Goods Factories factor: §Y-10%§W"
+ EJZ_attract_foreign_investors_tip:0 "Modify §YBank of Ejznrosa§W\nEffective change:\nProduction Efficiency Cap: §G+10%§W\nProduction Efficiency growth: §G+10%§W"
+ EJZ_lower_taxes_tip:0 "Modify §YBank of Ejznrosa§W\nEffective change:\nConsumer Goods Factories factor: §Y-5%§W"
+ EJZ_agricultural_reforms_tip:0 "Modify §YBank of Ejznrosa§W\nEffective change:\nMonthly Population: §G+5%§W"
+ EJZ_free_market_economy_tip:0 "Modify §YBank of Ejznrosa§W\nEffective change:\nProduction Efficiency Cap: §G+5%§W\nProduction Efficiency growth: §G+5%§W"
+ EJZ_state_owned_markets_tip:0 "Modify §YBank of Ejznrosa§W\nEffective change:\nFactory Output: §G+10%§W"
+ EJZ_initiate_price_controls_tip:0 "Modify §YBank of Ejznrosa§W\nEffective change:\nConsumer Goods Factories factor: §Y-5%§W"
 #ZDA
   ZDA_defense_tip:0 "All signatories of the §CZarilyian Defense Accords§W will come to the aid to the §Rdefending§W naton."

@@ -1,9 +1,10 @@
 ideas = {
+    #this maybe will be reused, for now it is always unavaliable.
     industrial_concern = {
         EJZ_production_ministry = {
             picture = production_ministry
             allowed = {
-                tag = EJZ
+                always = no
             }
             available = {
                 has_completed_focus = EJZ_production_ministry
@@ -18,7 +19,7 @@ ideas = {
         EJZ_construction_ministry_industry = {
             picture = construction_ministry
             allowed = {
-                tag = EJZ
+                always = no
             }
             available = {
                 has_completed_focus = EJZ_construction_ministry
@@ -346,6 +347,53 @@ ideas = {
                 production_factory_max_efficiency_factor = 0.05
                 local_resources_factor = -0.15
                 resource_trade_cost_bonus_per_factory = 2
+            }
+        }
+        #Ensured Noble Loyalty
+        
+        EJZ_ensured_noble_loyalty = {
+            picture = HUN_hungarian_monarchy
+            allowed = {
+                tag = EJZ
+            }
+            available = {
+            }
+            cancel = {
+            }
+            modifier = {
+                stability_factor = 0.05
+                war_support_factor = 0.05
+                political_power_gain = -0.1
+            }
+        }
+        #Rosist Opposition
+        EJZ_rosist_opposition = {
+            picture = EST_democratic_opposition
+            allowed = {
+                tag = EJZ
+            }
+            available = {
+            }
+            cancel = {
+            }
+            modifier = {
+                stability_factor = -0.1
+                political_power_gain = -0.1
+                radical_nationalist_drift = 0.02
+            }
+        }
+        EJZ_appeased_the_rosists = {
+            picture = prc_low_popular_support3
+            allowed = {
+                tag = EJZ
+            }
+            available = {
+            }
+            cancel = {
+            }
+            modifier = {
+                political_power_gain = -0.05
+                consumer_goods_factor = 0.1
             }
         }
     }

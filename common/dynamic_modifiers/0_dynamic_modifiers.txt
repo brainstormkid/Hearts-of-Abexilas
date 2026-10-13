@@ -99,6 +99,19 @@ EJZ_disorganized_infrastructure_development = {
 	}
 	state_production_speed_buildings_factor = -0.3
 }
+EJZ_bank_of_ejznrosa = {
+	icon = "GFX_idea_bank_of_ejznrosa"
+	enable = {
+		always = yes
+	}
+	remove_trigger = {
+	}
+	consumer_goods_factor = EJZ_bank_consumer_goods
+	industrial_capacity_factory = EJZ_bank_industrial_capacity
+	production_factory_efficiency_gain_factor = EJZ_bank_production_efficiency
+	production_factory_max_efficiency_factor = EJZ_bank_max_efficiency
+	monthly_population = EJZ_bank_population
+}
 tanuki = {
 	
 	icon = GFX_modifiers_tanuki
