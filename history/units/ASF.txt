@@ -57,8 +57,29 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
+		name = "Reithian City State Guards"
+		location = 10066
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Northern Reithia-Aethus Guards"
+		location = 711
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
 		name = "1st Asfelian Cavalry"
 		location = 5541
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Plains Squatter Cavalry"
+		location = 6105
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
