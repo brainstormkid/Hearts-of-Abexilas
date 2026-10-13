@@ -2,7 +2,7 @@ state={
 	id=11
 	name="STATE_11" #East-Kornmoll
 	provinces={
-		132 4270 7006 
+		132 4270 7006 7188
 	}
 	resources = {
 		oil = 2
