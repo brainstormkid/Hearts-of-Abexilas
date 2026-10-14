@@ -21,5 +21,6 @@ state={
 		buildings = {
 		}
 		add_core_of = OLD
+		victory_points = { 9700 50 }
 	}
 }
