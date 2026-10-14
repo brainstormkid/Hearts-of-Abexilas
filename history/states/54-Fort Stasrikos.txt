@@ -23,6 +23,6 @@ state={
 		infrastructure = 2
 		}
 		add_core_of = OLD
-		
+		victory_points = { 6868 50 }
 	}
 }
