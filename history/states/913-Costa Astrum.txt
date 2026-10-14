@@ -2,7 +2,7 @@ state={
 	id=913
 	name="STATE_913"
 	provinces={
-		724 13366 13407 
+		1092 1732 2525 4504 9726 9807
 	}
 	buildings_max_level_factor=1.000
         manpower=750000
@@ -18,10 +18,10 @@ state={
 		coal = 3
 	}
 	history={
-		owner = OSR
+		owner = OLD
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = OSR
+		add_core_of = OLD
 	}
 }
