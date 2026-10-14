@@ -17,9 +17,9 @@ state={
 	}
         state_category = town
 	history={
-		owner = OLD
+		owner = CAR
 		buildings = {
 		}
-		add_core_of = OLD
+		add_core_of = CAR
 	}
 }
