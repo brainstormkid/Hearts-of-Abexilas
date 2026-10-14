@@ -23,5 +23,6 @@ state={
 		infrastructure = 1
 		}
 		add_core_of = CAR
+		victory_points = { 9735 30 }
 	}
 }
