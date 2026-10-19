@@ -18,11 +18,11 @@ state={
         state_category = town
 		local_supplies = 4
 	history={
-		owner = CAR
+		owner = PAS
 		buildings = {
 		infrastructure = 1
 		}
-		add_core_of = CAR
+		add_core_of = PAS
 		victory_points = { 9735 30 }
 	}
 }

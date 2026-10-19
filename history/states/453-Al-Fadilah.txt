@@ -26,6 +26,7 @@ state={
 			dockyard = 1
 		}
 		add_core_of = QYN
+		add_core_of = MUH
 		victory_points = { 3047 30 }
 		victory_points = { 10665 5 }
 	}

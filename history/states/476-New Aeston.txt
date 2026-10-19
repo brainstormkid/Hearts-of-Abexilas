@@ -25,6 +25,7 @@ state={
 			arms_factory = 2
 		}
 		add_core_of = QYN
+		add_core_of = NEA
 		victory_points = { 3472 30 }
 	}
 }

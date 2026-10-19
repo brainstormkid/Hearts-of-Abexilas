@@ -27,6 +27,7 @@ state={
 			dockyard = 1
 		}
 		add_core_of = COV
+		add_core_of = VDR
 		victory_points = { 833 50 }
 	}
 }

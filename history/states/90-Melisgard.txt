@@ -32,6 +32,7 @@ state={
 			}
 		}
 		add_core_of = QYN
+		add_core_of = NCF
 		victory_points = { 886 20 }
 		victory_points = { 5332 20 }
 		victory_points = { 10950 20 }

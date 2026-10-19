@@ -29,6 +29,7 @@ state={
 			}
 		}
 		add_core_of = DON
+		add_core_of = ERI
 		victory_points = { 10548 20 }
 	}
 }

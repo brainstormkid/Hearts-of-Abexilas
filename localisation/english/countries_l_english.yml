@@ -949,6 +949,13 @@
  ERI_DEF:1 "Maharia"
  ERI_ADJ:0 "Maharian"
  
+ EST_absolutist:1 "Estatenne"
+ EST_absolutist_DEF:1 "the Estatenne"
+ EST_absolutist_ADJ:0 "Estatennian"
+ EST:1 "Estatenne"
+ EST_DEF:1 "Estatenne"
+ EST_ADJ:0 "Estatennian"
+ 
  ESU_monarchist:1 "Commonwealth of Esutaria"
  ESU_monarchist_DEF:1 "Esutarian Commonwealth"
  ESU_monarchist_ADJ:0 "Esutarian"
@@ -1806,6 +1813,13 @@
  MON_DEF:1 "Monokleia"
  MON_ADJ:0 "Monokleian"
  
+ MUH_absolutist:1 "Caliphate of Muharib"
+ MUH_absolutist_DEF:1 "the Caliphate of Muharib"
+ MUH_absolutist_ADJ:0 "Muharibian"
+ MUH:1 "Muharib"
+ MUH_DEF:1 "Muharib"
+ MUH_ADJ:0 "Muharibian"
+ 
  MUR_absolutist:1 "Realm of Murim"
  MUR_absolutist_DEF:1 "the Realm of Murim"
  MUR_absolutist_ADJ:0 "Murian"
@@ -1890,6 +1904,20 @@
  NAL_DEF:1 "Nalta"
  NAL_ADJ:0 "Naltan"
  
+ NCF_absolutist:1 "Holy Kingdom of Nucifera"
+ NCF_absolutist_DEF:1 "the Holy Kingdom of Nucifera"
+ NCF_absolutist_ADJ:0 "Nuciferan"
+ NCF:1 "Nucifera"
+ NCF_DEF:1 "Nucifera"
+ NCF_ADJ:0 "Nuciferan"
+ 
+ NEA_absolutist:1 "Free City of New Aeston"
+ NEA_absolutist_DEF:1 "the Free City of New Aeston"
+ NEA_absolutist_ADJ:0 "New Aestonian"
+ NEA:1 "New Aeston"
+ NEA_DEF:1 "New Aeston"
+ NEA_ADJ:0 "New Aestonian"
+ 
  NEB_absolutist:1 "Astral Monarchy of Nebulonia"
  NEB_absolutist_DEF:1 "the Astral Monarchy of Nebulonia"
  NEB_absolutist_ADJ:0 "Nebulonian"
@@ -1973,6 +2001,13 @@
  ODD:1 "Oddia"
  ODD_DEF:1 "Oddia"
  ODD_ADJ:0 "Oddian"
+ 
+ ODR_absolutist:1 "Odramond"
+ ODR_absolutist_DEF:1 "the Odramond"
+ ODR_absolutist_ADJ:0 "Odraviri"
+ ODR:1 "Odramond"
+ ODR_DEF:1 "Odramond"
+ ODR_ADJ:0 "Odraviri"
  
  OLD_imperialist:1 "Interim Union of Oldann and Barakor Stasrikos Lhah"
  OLD_imperialist_DEF:1 "the Interim Union of Oldann and Barakor Stasrikos Lhah"
@@ -2088,6 +2123,13 @@
  PAR:1 "Paraíso"
  PAR_DEF:1 "Paraíso"
  PAR_ADJ:0 "Paraísan"
+ 
+ PAS_absolutist:1 "Pasma Forest"
+ PAS_absolutist_DEF:1 "the Forest of Pasma"
+ PAS_absolutist_ADJ:0 "Pasman"
+ PAS:1 "Pasma"
+ PAS_DEF:1 "Pasma"
+ PAS_ADJ:0 "Pasma"
  
  PER_absolutist:1 "Empire of Perithia"
  PER_absolutist_DEF:1 "the Empire of Perithia"
@@ -2844,6 +2886,13 @@
  VDA_DEF:1 "Verdania"
  VDA_ADJ:0 "Verdania"
  
+ VDR_absolutist:1 "Valdreach Imperial Republic"
+ VDR_absolutist_DEF:1 "the Imperial Republic of Valdreach"
+ VDR_absolutist_ADJ:0 "Valdreach"
+ VDR:1 "Valdreach"
+ VDR_DEF:1 "Valdreach"
+ VDR_ADJ:0 "Valdreach"
+ 
  VEA_absolutist:1 "City-Republic of Velarim"
  VEA_absolutist_DEF:1 "the City-Republic of Velarim"
  VEA_absolutist_ADJ:0 "Velarimen"
@@ -2991,6 +3040,13 @@
  XUA:1 "Xuán"
  XUA_DEF:1 "Xuán"
  XUA_ADJ:0 "Xuán"
+ 
+ YAD_absolutist:1 "Yandar"
+ YAD_absolutist_DEF:1 "the Yandar"
+ YAD_absolutist_ADJ:0 "Yandari"
+ YAD:1 "Yandar"
+ YAD_DEF:1 "Yandar"
+ YAD_ADJ:0 "Yandari"
  
  YAR_absolutist:1 "Yarexoka"
  YAR_absolutist_DEF:1 "the Yarexoka"
