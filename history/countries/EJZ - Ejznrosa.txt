@@ -136,35 +136,3 @@ recruit_character = EJZ_Cat1
 recruit_character = EJZ_Constantin_Tyrrhenus
 recruit_character = EJZ_Ryan_Gustavsen_av_Ejznhjart
 
-create_country_leader = {
-	name = "Gustav av Ejznhjart"
-	desc = "EJZ_Gustav"
-	#picture = "gfx/leaders/EJZ/portrait_large_gustav_ejznhjart.dds"
-	expire = "1965.1.1"
-	ideology = monarchist
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Karl av Ejznhjart"
-	desc = "EJZ_karl"
-	#picture = "gfx/leaders/EJZ/portrait_large_karl_ejznhjart.dds"
-	expire = "1965.1.1"
-	ideology = monarchist
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Regency Council"
-	desc = "EJZ_regency_council"
-	#picture = "gfx/leaders/EJZ/portrait_large_gustav_ejznhjart.dds"
-	expire = "1965.1.1"
-	ideology = absolutist
-	traits = {
-		#
-	}
-}
