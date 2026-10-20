@@ -185,6 +185,14 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment,
 8962;5963;sea;21840;-1;-1;-1;-1;;Schifftal-Cassanova-Bridge,
 9237;9209;sea;17539;-1;-1;-1;-1;;Lisburn-Karalistvatxt-Bridge,
 5056;37;sea;23227;-1;-1;-1;-1;;WestEjznsteda-Wokark-Bridge,
+1271;6691;sea;22275;-1;-1;-1;-1;;Velarim-Aberration
+5302;15323;sea;15537;-1;-1;-1;-1;;Esperanza-IsledeLeon
+15319;274;sea;22111;-1;-1;-1;-1;;Kaitahu-Konoha
+9892;666;sea;22098;-1;-1;-1;-1;;SantzjanIslands
+10266;10292;sea;22221;-1;-1;-1;-1;;Dombovar-Fernwood
+2829;9923;sea;20557;-1;-1;-1;-1;;Astrelys-Sventissimo
+10109;10095;sea;20948;-1;-1;-1;-1;;Fernwood-Rhodockia
+10706;10682;sea;22319;-1;-1;-1;-1;;Limuria-Jokuku
 ;;;;;;;;;
 ;;;;;;;;;
 ;;;;;;;;;, anything after is ignored
