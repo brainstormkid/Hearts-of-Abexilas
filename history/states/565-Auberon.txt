@@ -28,6 +28,7 @@ state={
 			}
 		}
 		add_core_of = ZAM
+		add_core_of = SRZ
 		victory_points = { 11154 10 }
 	}
 }

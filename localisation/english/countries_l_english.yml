@@ -2482,6 +2482,13 @@
  SPI_DEF:1 "Spitfire"
  SPI_ADJ:0 "Spitfirian"
  
+ SRZ_absolutist:1 "Shirokaneza"
+ SRZ_absolutist_DEF:1 "Shirokaneza"
+ SRZ_absolutist_ADJ:0 "Shirokanezan"
+ SRZ:1 "Shirokaneza"
+ SRZ_DEF:1 "Shirokaneza"
+ SRZ_ADJ:0 "Shirokanezan"
+ 
  STA_absolutist:1 "Holy Kingdom of Staslov"
  STA_absolutist_DEF:1 "the Holy Kingdom of Staslov"
  STA_absolutist_ADJ:0 "Staslovite"
@@ -3187,6 +3194,6 @@
  ZZZ_absolutist:1 "Unclaimed Land"
  ZZZ_absolutist_DEF:1 "Squatters"
  ZZZ_absolutist_ADJ:0 "Unclaimed"
- ZZZ:1 "Squatter"
- ZZZ_DEF:1 "Squatter"
+ ZZZ:1 "Squatter Territories"
+ ZZZ_DEF:1 "Squatters"
  ZZZ_ADJ:0 "Squatter"

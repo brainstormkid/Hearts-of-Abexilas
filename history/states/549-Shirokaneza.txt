@@ -26,6 +26,7 @@ state={
 			dockyard = 1
 		}
 		add_core_of = ZAM
+		add_core_of = SRZ
 		victory_points = { 11074 30 }
 	}
 }
