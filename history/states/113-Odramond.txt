@@ -1,0 +1,32 @@
+state={
+	id=113
+	name="STATE_113"
+	provinces={
+		1406 1651 2337 4289 4531 4811 5673 11439 11499 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1350000
+        state_category = large_town
+		local_supplies = 4
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+	history={
+		owner = QYN
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 4
+			arms_factory = 2
+			dockyard = 1
+		}
+		add_core_of = QYN
+		victory_points = { 1406 10 }
+		victory_points = { 11439 10 }
+	}
+}
