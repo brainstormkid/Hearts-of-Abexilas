@@ -18,7 +18,8 @@ set_politics = {
 }
 set_popularities = {
 	liberalist = 60
-	centrist = 40
+	centrist = 30
+	theocratist = 10
 }
 
 create_country_leader = {
@@ -42,11 +43,11 @@ set_convoys = 35
 set_research_slots = 3
 add_ideas = {
 	# Government Ideas
-	autocracy
+	democratic_state
 	abexilas
 	internal_RP_focus
 	civilized_tech
-	lessened_interest
+	stable_interest
 }
 
 set_technology = {

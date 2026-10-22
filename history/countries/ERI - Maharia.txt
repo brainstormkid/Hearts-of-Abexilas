@@ -3,13 +3,13 @@
 oob = "ERI"
 
 set_politics = {
-	ruling_party = absolutist
+	ruling_party = libertarianist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	liberalist = 100
+	libertarianist = 100
 }
 
 create_country_leader = {
@@ -17,7 +17,7 @@ create_country_leader = {
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	picture = "gfx/leaders/AEZ/generic_no_leader.dds"
 	expire = "1965.1.1"
-	ideology = liberalist_subtype
+	ideology = libertarianist_subtype
 	traits = {
 		#
 	}
@@ -28,11 +28,11 @@ set_convoys = 15
 set_research_slots = 3
 add_ideas = {
 	# Government Ideas
-	autocracy
+	merchant_oligarchic_state
 	abexilas
-	internal_RP_focus
+	trade_focus
 	civilized_tech
-	lessened_interest
+	miniscule_interest
 }
 
 set_technology = {

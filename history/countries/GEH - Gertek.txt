@@ -8,13 +8,13 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = absolutist
+	ruling_party = imperialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	absolutist = 100
+	imperialist = 100
 }
 
 create_country_leader = {
@@ -22,7 +22,7 @@ create_country_leader = {
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	picture = "gfx/leaders/GEH/blake.dds"
 	expire = "1965.1.1"
-	ideology = absolutist_subtype
+	ideology = imperialist_subtype
 	traits = {
 		#
 	}
@@ -39,9 +39,9 @@ set_research_slots = 3
 add_ideas = {
 	# Government Ideas
 	autocracy
-	abexilas
-	internal_RP_focus
-	civilized_tech
+	rathnir
+	pvp_focus
+	settler_tech
 	lessened_interest
 }
 
