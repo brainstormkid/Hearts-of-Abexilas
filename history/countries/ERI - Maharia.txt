@@ -2,6 +2,15 @@
 
 oob = "ERI"
 
+add_ideas = {
+	volunteer_only
+	Cathramis_Continental_Member
+	free_trade
+	ERI_donfuer_middlemen
+	ERI_noble_traders
+	ERI_gertek_payments
+}
+
 set_politics = {
 	ruling_party = libertarianist
 	last_election = "1936.1.1"

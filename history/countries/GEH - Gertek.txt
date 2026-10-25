@@ -5,6 +5,11 @@ oob = "GEH"
 add_ideas = {
 	volunteer_only
 	Cathramis_Continental_Member
+	adramis_cold_war_shared
+	GEH_fine_horses
+	GEH_iskai_plains_payment
+	GEH_beepeck_shield
+	GEH_chaotic_leadership
 }
 
 set_politics = {

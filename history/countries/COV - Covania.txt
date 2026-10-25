@@ -5,6 +5,9 @@ oob = "COV"
 add_ideas = {
 	volunteer_only
 	Cathramis_Continental_Member
+	COV_no_local_control
+	COV_failed_kingdom
+	COV_financial_crisis
 }
 
 set_politics = {

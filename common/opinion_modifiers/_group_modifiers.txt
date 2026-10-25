@@ -16,6 +16,10 @@ opinion_modifiers = {
 		value = -30
 	}
 	
+	zuritan_migrants_modifier = {
+		value = 100
+	}
+	
 	## Iristoya
 	valdic_valora_trade_modifier = { # for Valdic Valora Relationship
         trade = yes

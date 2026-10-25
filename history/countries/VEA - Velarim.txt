@@ -8,6 +8,9 @@ add_ideas = {
 	volunteer_only
 	Cathramis_Continental_Member
 	free_trade
+	VEA_support_zamotz
+	VEA_slave_economy
+	VEA_shining_democracy
 }
 
 set_politics = {

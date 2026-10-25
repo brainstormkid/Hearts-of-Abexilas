@@ -9,6 +9,9 @@ recruit_character = PAR_timesoul
 add_ideas = {
 	volunteer_only
 	Cathramis_Continental_Member
+	PAR_a_rock
+	PAR_paradise
+	PAR_a_hard_place
 }
 
 set_politics = {

@@ -5,6 +5,11 @@ oob = "QYN"
 add_ideas = {
 	volunteer_only
 	Cathramis_Continental_Member
+	adramis_cold_war_shared
+	QYN_missing_leadership
+	QYN_overstretched
+	QYN_chaos_misery
+	QYN_riches_of_centuria
 }
 
 set_politics = {

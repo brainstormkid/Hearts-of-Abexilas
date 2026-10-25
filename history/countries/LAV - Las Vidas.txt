@@ -5,6 +5,10 @@ oob = "LAV"
 add_ideas = {
 	volunteer_only
 	Cathramis_Continental_Member
+	LAV_dev_phase_1
+	LAV_peace_with_nature
+	LAV_growth_season
+	LAV_gertek_shadow
 }
 
 set_politics = {
