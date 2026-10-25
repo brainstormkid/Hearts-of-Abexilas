@@ -437,12 +437,8 @@ ideas = {
 				always = yes
 			}
 			targeted_modifier  = {
-				OR = {
-					tag = ZAM
-					tag = GEH
-					tag = QYN
-				}
-				defense_bonus_against = 0.05
+				tag = GEH
+				defense_bonus_against = 0.1
 			}
 		}
 		
