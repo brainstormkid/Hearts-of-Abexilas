@@ -13,9 +13,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "?"
+	name = "Solrid 'Mike' Kommerzzi"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	picture = "gfx/leaders/AEZ/generic_no_leader.dds"
+	picture = "GFX_portrait_VER_solrid_mike_kommerzzi_large"
 	expire = "1965.1.1"
 	ideology = absolutist_subtype
 	traits = {

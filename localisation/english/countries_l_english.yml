@@ -2064,8 +2064,8 @@
  ORI_absolutist:1 "Archonate of Orion"
  ORI_absolutist_DEF:1 "the Archonate of Orion"
  ORI_absolutist_ADJ:0 "Orinnian"
- ORI:1 "Orion"
- ORI_DEF:1 "Orion"
+ ORI:1 "Archonate of Orion"
+ ORI_DEF:1 "the Archonate of Orion"
  ORI_ADJ:0 "Orinnian"
  
  ORO_absolutist:1 "Viă Orȯ Pora"

@@ -17,9 +17,9 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "?"
+	name = "Jacob Otto Bjørkson Liberatus"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	picture = "gfx/leaders/AEZ/generic_no_leader.dds"
+	picture = "GFX_portrait_VAD_jacob_otto_bjørkson_liberatus_large"
 	expire = "1965.1.1"
 	ideology = absolutist_subtype
 	traits = {

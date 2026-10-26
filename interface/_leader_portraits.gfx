@@ -355,8 +355,26 @@ spriteTypes = {
 		name = "GFX_portrait_STL_silqey_large"
 		texturefile = "gfx/leaders/STL/portrait_large_sovereign_verona.dds"
 	}
-
-
+	### FLO
+	spriteType = {
+		name = "GFX_portrait_FLO_tntfortress_large"
+		texturefile = "gfx/leaders/FLO/portrait_large_tntfortress.dds"
+	}
+	### VER
+	spriteType = {
+		name = "GFX_portrait_VER_solrid_mike_kommerzzi_large"
+		texturefile = "gfx/leaders/VER/portrait_large_solrid_mike_kommerzzi.dds"
+	}
+	### VAD
+	spriteType = {
+		name = "GFX_portrait_VAD_jacob_otto_bjørkson_liberatus_large"
+		texturefile = "gfx/leaders/VAD/portrait_large_jacob_otto_bjørkson_liberatus.dds"
+	}
+	### ORI
+	spriteType = {
+		name = "GFX_portrait_ORI_chucklenuts_large"
+		texturefile = "gfx/leaders/ORI/portrait_large_chucklenuts.dds"
+	}
 	### FLA
 	spriteType = {
 		name = "GFX_portrait_FLA_damian_ad_alendir_large"

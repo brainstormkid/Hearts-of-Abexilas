@@ -3,21 +3,21 @@
 oob = "ORI"
 
 set_politics = {
-	ruling_party = absolutist
+	ruling_party = conservatist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	absolutist = 100
+	conservatist = 100
 }
 
 create_country_leader = {
-	name = "?"
+	name = "Chucklenuts"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	picture = "gfx/leaders/AEZ/generic_no_leader.dds"
+	picture = "GFX_portrait_ORI_chucklenuts_large"
 	expire = "1965.1.1"
-	ideology = absolutist_subtype
+	ideology = conservatist_subtype
 	traits = {
 		#
 	}
@@ -35,8 +35,8 @@ set_autonomy = {
 set_research_slots = 3
 add_ideas = {
 	# Government Ideas
-	autocracy
-	abexilas
+	parliamentary_monarchy
+	rathnir
 	internal_RP_focus
 	civilized_tech
 	lessened_interest

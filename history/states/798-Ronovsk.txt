@@ -18,7 +18,7 @@ state={
         state_category = rural
 		local_supplies = 2
 	history={
-		owner = ORI
+		owner = EJZ
 		buildings = {
 			infrastructure = 2
 			3048 = {
@@ -26,6 +26,7 @@ state={
 			}
 		}
 		add_core_of = ORI
+		add_claim_by = ORI
 		victory_points = {
 			3048 5
 		}
