@@ -5,6 +5,11 @@ oob = "ZAM"
 add_ideas = {
 	volunteer_only
 	Cathramis_Continental_Member
+	adramis_cold_war_shared
+	ZAM_claim_rushing
+	ZAM_zuritan_migrants
+	ZAM_disorganized_leadership
+	ZAM_low_legitimacy
 }
 
 set_politics = {
@@ -38,6 +43,18 @@ add_ideas = {
 	external_RP_focus
 	civilized_tech
 	heightened_interest
+}
+
+add_opinion_modifier = {
+    target = ZUR
+    modifier = zuritan_migrants_modifier
+}
+
+ZUR = {
+	add_opinion_modifier = {
+		target = ZAM
+		modifier = zuritan_migrants_modifier
+	}
 }
 
 set_technology = {

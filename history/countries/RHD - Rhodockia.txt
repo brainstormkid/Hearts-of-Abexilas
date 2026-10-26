@@ -2,6 +2,12 @@
 
 oob = "RHD"
 
+add_ideas = {
+	volunteer_only
+	free_trade
+	RHD_not_notice
+}
+
 set_politics = {
 	ruling_party = absolutist
 	last_election = "1936.1.1"
