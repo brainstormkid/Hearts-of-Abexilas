@@ -330,6 +330,33 @@ spriteTypes = {
 		texturefile = "gfx/leaders/EJZ/portrait_small_constantin_tyrrhenus.dds"
 	}	
 	
+	### AER
+	spriteType = {
+		name = "GFX_portrait_AER_fireythedragon_large"
+		texturefile = "gfx/leaders/AER/portrait_large_fireythedragon.dds"
+	}
+	### FAV
+	spriteType = {
+		name = "GFX_portrait_FAV_serconas_large"
+		texturefile = "gfx/leaders/FAV/portrait_large_serconas.dds"
+	}
+	### LIR
+	spriteType = {
+		name = "GFX_portrait_LIR_c_rter_large"
+		texturefile = "gfx/leaders/LIR/portrait_large_c_rter.dds"
+	}
+	### GRE
+	spriteType = {
+		name = "GFX_portrait_GRE_silqey_large"
+		texturefile = "gfx/leaders/GRE/portrait_large_silqey.dds"
+	}
+	### STL
+	spriteType = {
+		name = "GFX_portrait_STL_silqey_large"
+		texturefile = "gfx/leaders/STL/portrait_large_sovereign_verona.dds"
+	}
+
+
 	### FLA
 	spriteType = {
 		name = "GFX_portrait_FLA_damian_ad_alendir_large"
