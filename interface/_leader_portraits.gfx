@@ -372,6 +372,10 @@ spriteTypes = {
 	}
 	### ORI
 	spriteType = {
+		name = "GFX_portrait_ORI_raven_large"
+		texturefile = "gfx/leaders/ORI/portrait_large_raven.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_ORI_chucklenuts_large"
 		texturefile = "gfx/leaders/ORI/portrait_large_chucklenuts.dds"
 	}
