@@ -22,7 +22,9 @@ create_country_leader = {
 		#
 	}
 }
-
+add_ideas = {
+    GRE_three_admiralties
+}
 set_convoys = 5
 
 set_research_slots = 3

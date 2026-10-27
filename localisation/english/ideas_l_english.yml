@@ -3028,3 +3028,13 @@
  MAR_marisvalor_eins:0 "Archduke Klovün Harpenük-Merisvela"
  MAR_marisvalor_eins_desc:0 "The Archduke brings much to our nation but due to his old age we must use some other funds for his support."
  MAR_marisvalor_radovan:0 "Archduke Radœvünah Harpenük-Merisvela"
+
+#Aerternus
+ AER_dragons_mart:0 "Benefits from Dragons Mart"
+ AER_dragons_mart_desc:0 "Dragons Mart is providing funds and capital in kickstarting our country."
+
+#Greenland
+ GRE_dissolution_of_greenland_stellavaraa:0 "Dissolution of Greenland-Stellavaraa"
+ GRE_dissolution_of_greenland_stellavaraa_desc:0 "The dissolution of Greenland-Stellavaraa is leading to an independing political collapse within the country."
+ GRE_three_admiralties:0 "The Three Admiralties"
+ GRE_three_admiralties_desc:0 "The Three Admiralties, consisting of the Admiralty of Greenland, the Admiralty of Stellavaraa and the Admiralty of Tralfalgar works closely and are tied together."

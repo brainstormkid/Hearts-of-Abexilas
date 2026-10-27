@@ -11,7 +11,13 @@ set_politics = {
 set_popularities = {
 	absolutist = 100
 }
-
+add_timed_idea = {
+    idea = GRE_dissolution_of_greenland_stellavaraa
+    days = 365
+}
+add_ideas = {
+    GRE_three_admiralties
+}
 create_country_leader = {
 	name = "Silqey"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"

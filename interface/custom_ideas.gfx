@@ -696,4 +696,20 @@ spriteTypes = {
 		name = "GFX_EJZ_disorganized_infrastructure_development"
 		textureFile = "gfx/interface/ideas/EJZ_state_modifier_disorganized_infrastructure_development.dds"
 	}
+
+	#Aerternus
+	spriteType = {
+		name = "GFX_idea_AER_dragonsmart"
+		textureFile = "gfx/interface/ideas/idea_dragonsmart.dds"
+	}
+
+	#Greenland
+	spriteType = {
+		name = "GFX_idea_dissolution_of_greenland_stellavaraa"
+		textureFile = "gfx/interface/ideas/idea_dissolution_of_greenland_stellavaraa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_three_admiralties"
+		textureFile = "gfx/interface/ideas/idea_three_admiralties.dds"
+	}
 }

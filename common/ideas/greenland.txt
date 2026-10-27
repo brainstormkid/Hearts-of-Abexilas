@@ -1,0 +1,54 @@
+ideas = {
+	country = {
+		GRE_dissolution_of_greenland_stellavaraa = {
+			picture = dissolution_of_greenland_stellavaraa
+			allowed = {
+				tag = GRE
+			}
+			available = {
+			}
+			modifier = {
+				stability_factor = -0.1
+				consumer_goods_factor = 0.15
+				political_power_factor = -0.2
+			}
+		}
+		GRE_three_admiralties = {
+			picture = three_admiralties
+			allowed = {
+				tag = GRE
+				tag = STL
+				tag = TRA
+			}
+			cancel = {
+				OR = {
+					GRE = {
+						OR = {
+							has_war_with = STL
+							has_war_with = TRA
+						}
+					}
+					STL = {
+						OR = {
+							has_war_with = GRE
+							has_war_with = TRA
+						}
+					}
+					TRA = {
+						OR = {
+							has_war_with = STL
+							has_war_with = GRE
+						}
+					}
+				}
+			}
+			available = {
+			}
+			modifier = {
+				experience_gain_navy = 0.03
+				experience_gain_navy_factor = 0.1
+				naval_doctrine_cost_factor = -0.15
+			}
+		}
+	}
+}

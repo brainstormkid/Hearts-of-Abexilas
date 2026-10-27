@@ -47,7 +47,9 @@ set_technology = {
     interwar_antiair = 1
     basic_train = 1
 }
-
+add_ideas = {
+    AER_dragons_mart
+}
 if = {
     limit = {
         NOT = { has_dlc = "No Step Back" }
