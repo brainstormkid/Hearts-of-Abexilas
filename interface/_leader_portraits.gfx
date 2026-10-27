@@ -379,6 +379,21 @@ spriteTypes = {
 		name = "GFX_portrait_ORI_chucklenuts_large"
 		texturefile = "gfx/leaders/ORI/portrait_large_chucklenuts.dds"
 	}
+	### ASH
+	spriteType = {
+		name = "GFX_portrait_ASH_chucklenuts_large"
+		texturefile = "gfx/leaders/ASH/portrait_large_haroun_i_kurucan.dds"
+	}
+	### DON
+	spriteType = {
+		name = "GFX_portrait_DON_d_loaded_large"
+		texturefile = "gfx/leaders/DON/portrait_large_d_loaded.dds"
+	}
+	### YAR
+	spriteType = {
+		name = "GFX_portrait_YAR_zaharvesel_large"
+		texturefile = "gfx/leaders/YAR/portrait_large_zaharvesel.dds"
+	}
 	### FLA
 	spriteType = {
 		name = "GFX_portrait_FLA_damian_ad_alendir_large"
