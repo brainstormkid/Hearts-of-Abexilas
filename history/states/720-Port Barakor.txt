@@ -14,15 +14,16 @@ state={
 		coal = 3
 	}
 	buildings_max_level_factor=1.000
-        manpower=75000
+        manpower=150000
         state_category = town
 		local_supplies = 4
 	history={
 		owner = OLD
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 3
 		}
 		add_core_of = OLD
-		victory_points = { 283 30 }
+		victory_points = { 283 20 }
 	}
 }

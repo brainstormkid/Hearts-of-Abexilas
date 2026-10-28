@@ -5,7 +5,7 @@ state={
 		721 1435 9776 9795 9817 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=300000
 		resources = {
 		oil = 2
 		aluminium = 2
@@ -15,7 +15,8 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+        state_category = rural
+		local_supplies = 2
 	history={
 		owner = CAR
 		buildings = {
