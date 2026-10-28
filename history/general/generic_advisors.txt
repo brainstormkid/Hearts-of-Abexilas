@@ -13,6 +13,7 @@ every_possible_country = {
 				tag = LEY
 				tag = AKS
 				tag = ARC
+				tag = PAR
 			}
 		}
 	}
@@ -382,6 +383,7 @@ every_possible_country = {
 				tag = LEY
 				tag = AKS
 				tag = ARC
+				tag = PAR
 			}
 		}
 	}
@@ -416,6 +418,7 @@ every_possible_country = {
 				tag = LEY
 				tag = AKS
 				tag = ARC
+				tag = PAR
 			}
 		}
 	}

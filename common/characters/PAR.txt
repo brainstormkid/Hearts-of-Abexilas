@@ -3,7 +3,7 @@ characters={
     	name=PAR_partybro
     	portraits={
     		civilian={
-    			small=
+    			small="GFX_portrait_PAR_partybro_small"
     		}
         }
         advisor={
