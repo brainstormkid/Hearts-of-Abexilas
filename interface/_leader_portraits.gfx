@@ -412,7 +412,15 @@ spriteTypes = {
 		name = "GFX_portrait_VEA_zeno_small"
 		texturefile = "GFX/interface/ideas/idea_VEA_zeno_small.dds"
 	}
-
+	### PAR	
+	spriteType = {
+		name = "GFX_portrait_PAR_kira_small"
+		texturefile = "GFX/interface/ideas/idea_PAR_kira_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_PAR_timesoul_small"
+		texturefile = "GFX/interface/ideas/idea_PAR_timesoul_small.dds"
+	}
 	### MAR
 	spriteType = {
 		name = "GFX_portrait_MAR_eins_large"
