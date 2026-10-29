@@ -440,6 +440,14 @@ ideas = {
 				tag = GEH
 				defense_bonus_against = 0.1
 			}
+			targeted_modifier  = {
+				tag = QYN
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier  = {
+				tag = ZAM
+				defense_bonus_against = 0.1
+			}
 		}
 		
 		###COV
