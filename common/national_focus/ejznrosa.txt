@@ -3024,10 +3024,6 @@ focus_tree = {
 					add_core_of = EJZ
 				}
 			}
-			is_power_balance_in_range = {
-				id = EJZ_balance_of_power
-				range > EJZ_
-			}
 			annex_country = {
 				target = WOK
 				transfer_troops = yes

@@ -205,7 +205,7 @@ EJZ_greater_ejznrosa = {
 		icon = GFX_decision_generic_monarchy
 		fire_only_once = yes
 		available = {
-			is_puppet = no
+			is_subject = no
 			638 = {
 				is_owned_by = EJZ
 				is_core_of = EJZ
@@ -326,6 +326,7 @@ EJZ_greater_ejznrosa = {
 				state = 659
 				state = 1415
 				state = 1178
+				state = 1418
 			}
 			highlight_color_while_active = 3
 			highlight_color_before_active = 2
@@ -562,13 +563,7 @@ EJZ_greater_ejznrosa = {
 			728 = {
 				is_owned_by = EJZ
 			}
-			720 = {
-				is_owned_by = EJZ
-			}
 			763 = {
-				is_owned_by = EJZ
-			}
-			759 = {
 				is_owned_by = EJZ
 			}
 		}
@@ -579,16 +574,10 @@ EJZ_greater_ejznrosa = {
 			728 = {
 				add_core_of = EJZ
 			}
-			720 = {
-				add_core_of = EJZ
-			}
-			759 = {
+			735 = {
 				add_core_of = EJZ
 			}
 			763 = {
-				add_core_of = EJZ
-			}
-			735 = {
 				add_core_of = EJZ
 			}
 		}
@@ -596,8 +585,6 @@ EJZ_greater_ejznrosa = {
 			highlight_state_targets = {
 				state = 727
 				state = 728
-				state = 720
-				state = 759
 				state = 763
 			}
 			highlight_color_while_active = 3

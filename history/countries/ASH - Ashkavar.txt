@@ -13,7 +13,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Haroun I Kurucan"
+	name = "Haroun I 'The Great' Kurucan"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	picture = "GFX_portrait_ASH_chucklenuts_large"
 	expire = "1965.1.1"

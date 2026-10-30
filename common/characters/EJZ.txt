@@ -66,26 +66,7 @@ characters={
                 original_tag = EJZ
             }
             available = {
-                if = {
-                    has_completed_focus = EJZ_abolish_the_two_dukes_system
-                    NOT = {
-                        has_completed_focus = EJZ_gmezslegacy
-                        has_completed_focus = EJZ_a_true_democracy
-                        has_completed_focus = EJZ_undermine_the_duke
-                    }
-                    }
-                    NOT = {
-                        has_country_leader = {
-                            character = EJZ_karl
-                            ruling_only = yes
-                        }
-                    }
-                    NOT = {
-                        has_government = xeroist
-                        has_government = radical_socialist
-                        has_government = revisionist
-                        has_government = anarchist
-                    }
+                has_completed_focus = EJZ_abolish_the_two_dukes_system
             }
             traits = { former_duke }
             ai_will_do = {
@@ -313,9 +294,7 @@ characters={
                         country_exists = WOK
                     }
                     1178 = {
-                        NOT = {
-                            is_owned_by = EJZ
-                        }
+                        is_owned_by = EJZ
                     }
                 }
             }
