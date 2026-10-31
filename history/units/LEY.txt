@@ -13,6 +13,9 @@
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
 	}
+	support = {
+	    artillery = { x = 0 y = 0 }
+	}
 }
 division_template = {
 	name = "Guard Division"				# Represents 12w Infantry Division
@@ -24,8 +27,11 @@ division_template = {
         infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
 	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	}
+	priority = 0 
 }
 division_template = {
 	name = "Cavalry Division"				# Represents 12w Cavalry Division
@@ -34,11 +40,14 @@ division_template = {
 	regiments = {
 		cavalry = { x = 0 y = 0 }
         cavalry = { x = 0 y = 1 }
-        cavalry = { x = 0 y = 2 }
-		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }
 	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	}
+	priority = 0 
 }
 
 units = {
@@ -46,24 +55,60 @@ units = {
 		name = "1st Leyenbourgian Infantry"
 		location = 1577
 		division_template = "Infantry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.85
 
 	}
 	division = {
 		name = "2nd Leyenbourgian Infantry"
-		location = 1577
+		location = 11396
 		division_template = "Infantry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.85
 	}
 	division = {
-		name = "1st Leyenbourgian Guards"
+		name = "Nova-Rykan Guards"
 		location = 966
 		division_template = "Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.75
 	}
 }
 
-#####################
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = LEY
+		}
+		requested_factories = 2
+		progress = 0.15
+		efficiency = 20
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = LEY
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 10
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = train_equipment_1
+			creator = LEY
+		}
+		requested_factories = 1
+		progress = 0.8
+		efficiency = 70
+	}
+}
