@@ -1,10 +1,9 @@
 shared_CW_adramis = {
 	ACW_incoming_collapse = {
 		icon = generic_operation
-		days_mission_timeout = 286
+		days_mission_timeout = 293
 		selectable_mission = no
 		is_good = no
-		fire_only_once = yes
 		priority = 10
 		allowed = {
 			OR = {
@@ -13,10 +12,9 @@ shared_CW_adramis = {
 				original_tag = GEH
 			}
 		}
-		activation = {
-			has_global_flag = ACW_ongoing
-			NOT = { has_country_flag = ACW_lost }
-			NOT = { has_country_flag = ACW_won }
+		
+		available = {
+			always = no
 		}
 
 		timeout_effect = {
@@ -50,14 +48,31 @@ shared_CW_adramis = {
 			}
 		}
 		
+		cancel_trigger = {
+			OR = {
+				AND = {
+					GEH = { has_country_flag = ACW_lost }
+					QYN = { has_country_flag = ACW_lost }
+				}
+				AND = {
+					GEH = { has_country_flag = ACW_lost }
+					ZAM = { has_country_flag = ACW_lost }
+				}
+				AND = {
+					ZAM = { has_country_flag = ACW_lost }
+					QYN = { has_country_flag = ACW_lost }
+				}
+			}
+		}
+		
 	}
 
 
 
 	adr_CW_shared_1 = {
 		icon = generic_military
-		fire_only_once = yes
-		cost = 50
+		days_re_enable = 30
+		cost = 30
 		priority = 1
  
 		visible = {
@@ -74,9 +89,10 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
+			custom_effect_tooltip = adr_CW_shared_1_tt
 			add_days_mission_timeout = {
-				decision = ACW_incoming_collapse
-				days = 30
+				mission = ACW_incoming_collapse
+				days = 15
 			}
 		}
  
@@ -87,7 +103,7 @@ shared_CW_adramis = {
  
 	adr_CW_shared_2 = {
 		icon = generic_military
-		fire_only_once = yes
+		days_re_enable = 70
 		cost = 75
 		priority = 1
  
@@ -105,9 +121,10 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
+			custom_effect_tooltip = adr_CW_shared_2_tt
 			add_days_mission_timeout = {
-				decision = ACW_incoming_collapse
-				days = 60
+				mission = ACW_incoming_collapse
+				days = 40
 			}
 		}
  
@@ -118,8 +135,8 @@ shared_CW_adramis = {
  
 	adr_CW_shared_3 = {
 		icon = generic_military
-		fire_only_once = yes
-		cost = 75
+		days_re_enable = 30
+		cost = 40
 		priority = 1
  
 		visible = {
@@ -136,6 +153,7 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
+			custom_effect_tooltip = adr_CW_shared_3_tt
 			every_other_country = {
 				limit = {
 					OR = {
@@ -146,8 +164,8 @@ shared_CW_adramis = {
 					has_active_mission = ACW_incoming_collapse
 				}
 				add_days_mission_timeout = {
-					decision = ACW_incoming_collapse
-					days = -30
+					mission = ACW_incoming_collapse
+					days = -10
 				}
 			}
 		}
@@ -159,7 +177,7 @@ shared_CW_adramis = {
  
 	adr_CW_shared_4 = {
 		icon = generic_military
-		fire_only_once = yes
+		days_re_enable = 100
 		cost = 100
 		priority = 1
  
@@ -177,6 +195,7 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
+			custom_effect_tooltip = adr_CW_shared_4_tt
 			random_other_country = {
 				limit = {
 					OR = {
@@ -187,8 +206,8 @@ shared_CW_adramis = {
 					has_active_mission = ACW_incoming_collapse
 				}
 				add_days_mission_timeout = {
-					decision = ACW_incoming_collapse
-					days = -60
+					mission = ACW_incoming_collapse
+					days = -50
 				}
 			}
 		}
@@ -200,7 +219,7 @@ shared_CW_adramis = {
  
 	adr_CW_shared_5 = {
 		icon = generic_military
-		fire_only_once = yes
+		days_re_enable = 40
 		cost = 25
 		priority = 1
  
@@ -218,9 +237,10 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
+			custom_effect_tooltip = adr_CW_shared_5_tt
 			add_days_mission_timeout = {
-				decision = ACW_incoming_collapse
-				days = 90
+				mission = ACW_incoming_collapse
+				days = 30
 			}
 			every_other_country = {
 				limit = {
@@ -232,7 +252,7 @@ shared_CW_adramis = {
 					has_active_mission = ACW_incoming_collapse
 				}
 				add_days_mission_timeout = {
-					decision = ACW_incoming_collapse
+					mission = ACW_incoming_collapse
 					days = 20
 				}
 			}
@@ -246,7 +266,7 @@ shared_CW_adramis = {
 	adr_CW_QYN_1 = {
 		icon = generic_military
 		fire_only_once = yes
-		cost = 50
+		cost = 20
 		priority = 1
  
 		visible = {
@@ -259,21 +279,22 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
+			custom_effect_tooltip = adr_CW_QYN_1_tt
 			add_days_mission_timeout = {
-				decision = ACW_incoming_collapse
+				mission = ACW_incoming_collapse
 				days = 45
 			}
 		}
  
 		ai_will_do = {
-			base = 1
+			base = 10
 		}
 	}
  
 	adr_CW_QYN_2 = {
 		icon = generic_military
 		fire_only_once = yes
-		cost = 75
+		cost = 40
 		priority = 1
  
 		visible = {
@@ -286,27 +307,28 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
+			custom_effect_tooltip = adr_CW_QYN_2_tt
 			every_other_country = {
 				limit = {
 					original_tag = ZAM
 					has_active_mission = ACW_incoming_collapse
 				}
 				add_days_mission_timeout = {
-					decision = ACW_incoming_collapse
+					mission = ACW_incoming_collapse
 					days = -45
 				}
 			}
 		}
  
 		ai_will_do = {
-			base = 1
+			base = 10
 		}
 	}
  
 	adr_CW_QYN_3 = {
 		icon = generic_military
 		fire_only_once = yes
-		cost = 75
+		cost = 60
 		priority = 1
  
 		visible = {
@@ -319,27 +341,28 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
+			custom_effect_tooltip = adr_CW_QYN_3_tt
 			every_other_country = {
 				limit = {
 					original_tag = GEH
 					has_active_mission = ACW_incoming_collapse
 				}
 				add_days_mission_timeout = {
-					decision = ACW_incoming_collapse
+					mission = ACW_incoming_collapse
 					days = -45
 				}
 			}
 		}
  
 		ai_will_do = {
-			base = 1
+			base = 10
 		}
 	}
  
 	adr_CW_ZAM_1 = {
 		icon = generic_military
 		fire_only_once = yes
-		cost = 50
+		cost = 20
 		priority = 1
  
 		visible = {
@@ -352,21 +375,22 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
+			custom_effect_tooltip = adr_CW_ZAM_1_tt
 			add_days_mission_timeout = {
-				decision = ACW_incoming_collapse
+				mission = ACW_incoming_collapse
 				days = 45
 			}
 		}
  
 		ai_will_do = {
-			base = 1
+			base = 10
 		}
 	}
  
 	adr_CW_ZAM_2 = {
 		icon = generic_military
 		fire_only_once = yes
-		cost = 75
+		cost = 40
 		priority = 1
  
 		visible = {
@@ -379,27 +403,28 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
+			custom_effect_tooltip = adr_CW_ZAM_2_tt
 			every_other_country = {
 				limit = {
 					original_tag = QYN
 					has_active_mission = ACW_incoming_collapse
 				}
 				add_days_mission_timeout = {
-					decision = ACW_incoming_collapse
+					mission = ACW_incoming_collapse
 					days = -45
 				}
 			}
 		}
  
 		ai_will_do = {
-			base = 1
+			base = 10
 		}
 	}
  
 	adr_CW_ZAM_3 = {
 		icon = generic_military
 		fire_only_once = yes
-		cost = 75
+		cost = 60
 		priority = 1
  
 		visible = {
@@ -412,27 +437,28 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
+			custom_effect_tooltip = adr_CW_ZAM_3_tt
 			every_other_country = {
 				limit = {
 					original_tag = GEH
 					has_active_mission = ACW_incoming_collapse
 				}
 				add_days_mission_timeout = {
-					decision = ACW_incoming_collapse
+					mission = ACW_incoming_collapse
 					days = -45
 				}
 			}
 		}
  
 		ai_will_do = {
-			base = 1
+			base = 10
 		}
 	}
  
 	adr_CW_GEH_1 = {
 		icon = generic_military
 		fire_only_once = yes
-		cost = 50
+		cost = 20
 		priority = 1
  
 		visible = {
@@ -445,21 +471,22 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
+			custom_effect_tooltip = adr_CW_GEH_1_tt
 			add_days_mission_timeout = {
-				decision = ACW_incoming_collapse
+				mission = ACW_incoming_collapse
 				days = 45
 			}
 		}
  
 		ai_will_do = {
-			base = 1
+			base = 10
 		}
 	}
  
 	adr_CW_GEH_2 = {
 		icon = generic_military
 		fire_only_once = yes
-		cost = 75
+		cost = 40
 		priority = 1
  
 		visible = {
@@ -472,27 +499,28 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
+			custom_effect_tooltip = adr_CW_GEH_2_tt
 			every_other_country = {
 				limit = {
 					original_tag = QYN
 					has_active_mission = ACW_incoming_collapse
 				}
 				add_days_mission_timeout = {
-					decision = ACW_incoming_collapse
+					mission = ACW_incoming_collapse
 					days = -45
 				}
 			}
 		}
  
 		ai_will_do = {
-			base = 1
+			base = 10
 		}
 	}
  
 	adr_CW_GEH_3 = {
 		icon = generic_military
 		fire_only_once = yes
-		cost = 75
+		cost = 60
 		priority = 1
  
 		visible = {
@@ -505,20 +533,21 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
+			custom_effect_tooltip = adr_CW_GEH_3_tt
 			every_other_country = {
 				limit = {
 					original_tag = ZAM
 					has_active_mission = ACW_incoming_collapse
 				}
 				add_days_mission_timeout = {
-					decision = ACW_incoming_collapse
+					mission = ACW_incoming_collapse
 					days = -45
 				}
 			}
 		}
  
 		ai_will_do = {
-			base = 1
+			base = 10
 		}
 	}
 	

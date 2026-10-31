@@ -16,7 +16,7 @@ focus_tree = {
 		icon = GFX_goal_generic_national_unity
 		x = 15
 		y = 0
-		cost = 10
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -24,6 +24,10 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 100
 			add_stability = 0.05
+			set_global_flag = ACW_ongoing
+			GEH = { activate_mission = ACW_incoming_collapse }
+			QYN = { activate_mission = ACW_incoming_collapse }
+			ZAM = { activate_mission = ACW_incoming_collapse }
 		}
 	}
 
