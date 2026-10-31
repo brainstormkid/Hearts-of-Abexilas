@@ -2,7 +2,7 @@ state={
 	id=449
 	name="STATE_449" #Southern Aradu Arrack
 	provinces={
-		4634 5184 10493 10546 10547 10569 
+		5184 10546 10569 
 	}
 	buildings_max_level_factor=1.000
     manpower=75000

@@ -2,11 +2,10 @@ state={
 	id=412
 	name="STATE_412"
 	provinces={
-		1160 2957 10326 10327 
+		1160 2957 10326 10327 10392 10419
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+	resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -16,10 +15,16 @@ state={
 		coal = 3
 	}
         state_category = town
+        manpower=2700000
+		local_supplies = 2.5
 	history={
 		owner = COY
-		buildings = {
-		}
 		add_core_of = COY
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+		}
+		victory_points = { 2957 20 }
+		victory_points = { 1160 5 }
 	}
 }
