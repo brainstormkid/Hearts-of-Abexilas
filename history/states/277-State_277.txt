@@ -5,8 +5,7 @@ state={
 		2778 3242 3954 4280 4639 5044 5230 5271 5354 5584 5715 5791 9778 9781 9787 9802 9818 9819 9831 9832 9839 9848 9852 9853 9854 9855 9862 9873 9874 9879 9882 9887 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +14,19 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+        state_category = megalopolis
+        manpower=24150000 #to be shrunk and split between 277 and 274
+		local_supplies = 10
 	history={
 		owner = CAR
-		buildings = {
-		}
 		add_core_of = CAR
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 4
+			arms_factory = 2
+			dockyard = 1
+		}
+		victory_points = { 5715 50 }
+		victory_points = { 9879 20 }
 	}
 }
