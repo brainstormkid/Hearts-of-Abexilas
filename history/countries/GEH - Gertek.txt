@@ -19,7 +19,34 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	imperialist = 100
+	imperialist = 50
+	absolutist = 20
+	monarchist = 15
+	accelerationist = 15
+}
+
+set_party_name = {
+	ideology = imperialist
+	name = "The Gerteki Khanate"
+	long_name = "High Command of the Gerteki Khanate"
+}
+
+set_party_name = {
+	ideology = absolutist
+	name = "Traditionalists"
+	long_name = "Gerteki Traditionalists"
+}
+
+set_party_name = {
+	ideology = monarchist
+	name = "Maravillan Natives"
+	long_name = "Local Maravillan Natives"
+}
+
+set_party_name = {
+	ideology = accelerationist
+	name = "General_Ich's Followers"
+	long_name = "General_Ich's Followers"
 }
 
 create_country_leader = {
