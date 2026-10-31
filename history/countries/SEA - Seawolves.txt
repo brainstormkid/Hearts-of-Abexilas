@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 389
+
+oob = "SEA"
 
 set_politics = {
 	ruling_party = absolutist
@@ -22,9 +24,10 @@ create_country_leader = {
 }
 
 set_research_slots = 3
+set_convoys = 5
 add_ideas = {
 	# Government Ideas
-	autocracy
+	pirate_state
 	abexilas
 	internal_RP_focus
 	civilized_tech

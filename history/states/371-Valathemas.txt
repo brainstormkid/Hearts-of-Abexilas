@@ -5,8 +5,7 @@ state={
 		2631 3464 4961 6003 10143 10188 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +14,15 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+        state_category = rural
+        manpower=600000
+		local_supplies = 2
 	history={
 		owner = GRC
-		buildings = {
-		}
 		add_core_of = GRC
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 10188 10 }
 	}
 }

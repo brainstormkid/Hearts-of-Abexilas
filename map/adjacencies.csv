@@ -193,6 +193,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment,
 2829;9923;sea;20557;-1;-1;-1;-1;;Astrelys-Sventissimo
 10109;10095;sea;20948;-1;-1;-1;-1;;Fernwood-Rhodockia
 10706;10682;sea;22319;-1;-1;-1;-1;;Limuria-Jokuku
+10024;1321;sea;18771;-1;-1;-1;-1;;Saradimas-Sikyas
+5889;10126;sea;18771;-1;-1;-1;-1;;Viomax-Astrafall
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
 ;;;;;;;;;
 ;;;;;;;;;
 ;;;;;;;;;, anything after is ignored

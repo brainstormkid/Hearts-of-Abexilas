@@ -1,0 +1,15 @@
+units = {
+	##### Naval OOB #####
+	fleet = {
+		name = "Yvrian Fleet"			
+		naval_base = 5495 # Paques
+		task_force = {
+			name = "Grand Amarda of Yvres"
+			location = 5495 # Paques
+			ship = { name = "HMS Yvres" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = YVR version_name = "Emperor Class"} } }
+			ship = { name = "HMS Paques" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = YVR version_name = "Paques Class"} } }
+		}
+	}
+}
+
+
