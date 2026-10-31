@@ -716,6 +716,6 @@ spriteTypes = {
 	#Tsuikinite
 	spriteType = {
 		name = "GFX_idea_aftermath_of_the_vassalage_crisis"
-		textureFile = "gfx/interface/ideas/aftermath_of_the_vassalage_crisis"
+		textureFile = "gfx/interface/ideas/idea_aftermath_of_the_vassalage_crisis.dds"
 	}
 }

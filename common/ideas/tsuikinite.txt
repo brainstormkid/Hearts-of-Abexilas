@@ -6,6 +6,7 @@ ideas = {
 				tag = TSU
 			}
 			available = {
+				always = yes
 			}
 			modifier = {
 				stability_factor = 0.05
