@@ -22,7 +22,14 @@ create_country_leader = {
 		#
 	}
 }
-
+add_timed_idea = {
+    idea = TSU_aftermath_of_the_vassalage_crisis
+    days = 365
+}
+diplomatic_relation = {
+    country = EPI
+    relation = non_aggression_pact
+}
 set_convoys = 15
 
 set_research_slots = 3
