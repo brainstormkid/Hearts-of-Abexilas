@@ -1,0 +1,35 @@
+state={
+	id=1074
+	name="STATE_1074"
+	provinces={
+		1343 1782 2191 2344 3365 5543 6488 6669 10819 10830 10885 10936 10951 10969 
+	}
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+	buildings_max_level_factor=1.000
+        manpower=2740000
+        state_category = town
+		local_supplies = 2.5
+	history = {
+		owner = KIC
+		buildings = {
+		infrastructure = 3
+		industrial_complex = 2
+		dockyard = 1
+		
+		add_core_of = KIC
+		victory_points = {
+			10830 30
+		}
+		victory_points = {
+			6669 5
+		}
+	}
+}
