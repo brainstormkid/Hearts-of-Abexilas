@@ -1,0 +1,530 @@
+shared_CW_adramis = {
+	ACW_incoming_collapse = {
+		icon = generic_operation
+		days_mission_timeout = 286
+		selectable_mission = no
+		is_good = no
+		fire_only_once = yes
+		priority = 10
+		allowed = {
+			OR = {
+				original_tag = QYN
+				original_tag = ZAM
+				original_tag = GEH
+			}
+		}
+		activation = {
+			has_global_flag = ACW_ongoing
+			NOT = { has_country_flag = ACW_lost }
+			NOT = { has_country_flag = ACW_won }
+		}
+
+		timeout_effect = {
+			add_war_support = -1
+			set_country_flag = ACW_lost
+			
+			every_other_country = {
+                limit = {
+					OR = {
+						original_tag = QYN
+						original_tag = ZAM
+						original_tag = GEH
+					}
+                    has_global_flag = ACW_ongoing
+                    NOT = { has_country_flag = ACW_lost }
+                    NOT = {
+                        any_other_country = {
+                            OR = {
+								original_tag = QYN
+								original_tag = ZAM
+								original_tag = GEH
+							}
+                            NOT = { has_country_flag = ACW_lost }
+                        }
+                    }
+                }
+                remove_mission = ACW_incoming_collapse
+                set_country_flag = ACW_won
+                clr_global_flag = ACW_ongoing
+                # winner's reward goes here
+			}
+		}
+		
+	}
+
+
+
+	adr_CW_shared_1 = {
+		icon = generic_military
+		fire_only_once = yes
+		cost = 50
+		priority = 1
+ 
+		visible = {
+			has_global_flag = ACW_ongoing
+			OR = {
+				original_tag = QYN
+				original_tag = ZAM
+				original_tag = GEH
+			}
+		}
+ 
+		available = {
+			has_active_mission = ACW_incoming_collapse
+		}
+ 
+		complete_effect = {
+			add_days_mission_timeout = {
+				decision = ACW_incoming_collapse
+				days = 30
+			}
+		}
+ 
+		ai_will_do = {
+			base = 1
+		}
+	}
+ 
+	adr_CW_shared_2 = {
+		icon = generic_military
+		fire_only_once = yes
+		cost = 75
+		priority = 1
+ 
+		visible = {
+			has_global_flag = ACW_ongoing
+			OR = {
+				original_tag = QYN
+				original_tag = ZAM
+				original_tag = GEH
+			}
+		}
+ 
+		available = {
+			has_active_mission = ACW_incoming_collapse
+		}
+ 
+		complete_effect = {
+			add_days_mission_timeout = {
+				decision = ACW_incoming_collapse
+				days = 60
+			}
+		}
+ 
+		ai_will_do = {
+			base = 1
+		}
+	}
+ 
+	adr_CW_shared_3 = {
+		icon = generic_military
+		fire_only_once = yes
+		cost = 75
+		priority = 1
+ 
+		visible = {
+			has_global_flag = ACW_ongoing
+			OR = {
+				original_tag = QYN
+				original_tag = ZAM
+				original_tag = GEH
+			}
+		}
+ 
+		available = {
+			has_active_mission = ACW_incoming_collapse
+		}
+ 
+		complete_effect = {
+			every_other_country = {
+				limit = {
+					OR = {
+						original_tag = QYN
+						original_tag = ZAM
+						original_tag = GEH
+					}
+					has_active_mission = ACW_incoming_collapse
+				}
+				add_days_mission_timeout = {
+					decision = ACW_incoming_collapse
+					days = -30
+				}
+			}
+		}
+ 
+		ai_will_do = {
+			base = 1
+		}
+	}
+ 
+	adr_CW_shared_4 = {
+		icon = generic_military
+		fire_only_once = yes
+		cost = 100
+		priority = 1
+ 
+		visible = {
+			has_global_flag = ACW_ongoing
+			OR = {
+				original_tag = QYN
+				original_tag = ZAM
+				original_tag = GEH
+			}
+		}
+ 
+		available = {
+			has_active_mission = ACW_incoming_collapse
+		}
+ 
+		complete_effect = {
+			random_other_country = {
+				limit = {
+					OR = {
+						original_tag = QYN
+						original_tag = ZAM
+						original_tag = GEH
+					}
+					has_active_mission = ACW_incoming_collapse
+				}
+				add_days_mission_timeout = {
+					decision = ACW_incoming_collapse
+					days = -60
+				}
+			}
+		}
+ 
+		ai_will_do = {
+			base = 1
+		}
+	}
+ 
+	adr_CW_shared_5 = {
+		icon = generic_military
+		fire_only_once = yes
+		cost = 25
+		priority = 1
+ 
+		visible = {
+			has_global_flag = ACW_ongoing
+			OR = {
+				original_tag = QYN
+				original_tag = ZAM
+				original_tag = GEH
+			}
+		}
+ 
+		available = {
+			has_active_mission = ACW_incoming_collapse
+		}
+ 
+		complete_effect = {
+			add_days_mission_timeout = {
+				decision = ACW_incoming_collapse
+				days = 90
+			}
+			every_other_country = {
+				limit = {
+					OR = {
+						original_tag = QYN
+						original_tag = ZAM
+						original_tag = GEH
+					}
+					has_active_mission = ACW_incoming_collapse
+				}
+				add_days_mission_timeout = {
+					decision = ACW_incoming_collapse
+					days = 20
+				}
+			}
+		}
+ 
+		ai_will_do = {
+			base = 1
+		}
+	}
+ 
+	adr_CW_QYN_1 = {
+		icon = generic_military
+		fire_only_once = yes
+		cost = 50
+		priority = 1
+ 
+		visible = {
+			has_global_flag = ACW_ongoing
+			original_tag = QYN
+		}
+ 
+		available = {
+			has_active_mission = ACW_incoming_collapse
+		}
+ 
+		complete_effect = {
+			add_days_mission_timeout = {
+				decision = ACW_incoming_collapse
+				days = 45
+			}
+		}
+ 
+		ai_will_do = {
+			base = 1
+		}
+	}
+ 
+	adr_CW_QYN_2 = {
+		icon = generic_military
+		fire_only_once = yes
+		cost = 75
+		priority = 1
+ 
+		visible = {
+			has_global_flag = ACW_ongoing
+			original_tag = QYN
+		}
+ 
+		available = {
+			has_active_mission = ACW_incoming_collapse
+		}
+ 
+		complete_effect = {
+			every_other_country = {
+				limit = {
+					original_tag = ZAM
+					has_active_mission = ACW_incoming_collapse
+				}
+				add_days_mission_timeout = {
+					decision = ACW_incoming_collapse
+					days = -45
+				}
+			}
+		}
+ 
+		ai_will_do = {
+			base = 1
+		}
+	}
+ 
+	adr_CW_QYN_3 = {
+		icon = generic_military
+		fire_only_once = yes
+		cost = 75
+		priority = 1
+ 
+		visible = {
+			has_global_flag = ACW_ongoing
+			original_tag = QYN
+		}
+ 
+		available = {
+			has_active_mission = ACW_incoming_collapse
+		}
+ 
+		complete_effect = {
+			every_other_country = {
+				limit = {
+					original_tag = GEH
+					has_active_mission = ACW_incoming_collapse
+				}
+				add_days_mission_timeout = {
+					decision = ACW_incoming_collapse
+					days = -45
+				}
+			}
+		}
+ 
+		ai_will_do = {
+			base = 1
+		}
+	}
+ 
+	adr_CW_ZAM_1 = {
+		icon = generic_military
+		fire_only_once = yes
+		cost = 50
+		priority = 1
+ 
+		visible = {
+			has_global_flag = ACW_ongoing
+			original_tag = ZAM
+		}
+ 
+		available = {
+			has_active_mission = ACW_incoming_collapse
+		}
+ 
+		complete_effect = {
+			add_days_mission_timeout = {
+				decision = ACW_incoming_collapse
+				days = 45
+			}
+		}
+ 
+		ai_will_do = {
+			base = 1
+		}
+	}
+ 
+	adr_CW_ZAM_2 = {
+		icon = generic_military
+		fire_only_once = yes
+		cost = 75
+		priority = 1
+ 
+		visible = {
+			has_global_flag = ACW_ongoing
+			original_tag = ZAM
+		}
+ 
+		available = {
+			has_active_mission = ACW_incoming_collapse
+		}
+ 
+		complete_effect = {
+			every_other_country = {
+				limit = {
+					original_tag = QYN
+					has_active_mission = ACW_incoming_collapse
+				}
+				add_days_mission_timeout = {
+					decision = ACW_incoming_collapse
+					days = -45
+				}
+			}
+		}
+ 
+		ai_will_do = {
+			base = 1
+		}
+	}
+ 
+	adr_CW_ZAM_3 = {
+		icon = generic_military
+		fire_only_once = yes
+		cost = 75
+		priority = 1
+ 
+		visible = {
+			has_global_flag = ACW_ongoing
+			original_tag = ZAM
+		}
+ 
+		available = {
+			has_active_mission = ACW_incoming_collapse
+		}
+ 
+		complete_effect = {
+			every_other_country = {
+				limit = {
+					original_tag = GEH
+					has_active_mission = ACW_incoming_collapse
+				}
+				add_days_mission_timeout = {
+					decision = ACW_incoming_collapse
+					days = -45
+				}
+			}
+		}
+ 
+		ai_will_do = {
+			base = 1
+		}
+	}
+ 
+	adr_CW_GEH_1 = {
+		icon = generic_military
+		fire_only_once = yes
+		cost = 50
+		priority = 1
+ 
+		visible = {
+			has_global_flag = ACW_ongoing
+			original_tag = GEH
+		}
+ 
+		available = {
+			has_active_mission = ACW_incoming_collapse
+		}
+ 
+		complete_effect = {
+			add_days_mission_timeout = {
+				decision = ACW_incoming_collapse
+				days = 45
+			}
+		}
+ 
+		ai_will_do = {
+			base = 1
+		}
+	}
+ 
+	adr_CW_GEH_2 = {
+		icon = generic_military
+		fire_only_once = yes
+		cost = 75
+		priority = 1
+ 
+		visible = {
+			has_global_flag = ACW_ongoing
+			original_tag = GEH
+		}
+ 
+		available = {
+			has_active_mission = ACW_incoming_collapse
+		}
+ 
+		complete_effect = {
+			every_other_country = {
+				limit = {
+					original_tag = QYN
+					has_active_mission = ACW_incoming_collapse
+				}
+				add_days_mission_timeout = {
+					decision = ACW_incoming_collapse
+					days = -45
+				}
+			}
+		}
+ 
+		ai_will_do = {
+			base = 1
+		}
+	}
+ 
+	adr_CW_GEH_3 = {
+		icon = generic_military
+		fire_only_once = yes
+		cost = 75
+		priority = 1
+ 
+		visible = {
+			has_global_flag = ACW_ongoing
+			original_tag = GEH
+		}
+ 
+		available = {
+			has_active_mission = ACW_incoming_collapse
+		}
+ 
+		complete_effect = {
+			every_other_country = {
+				limit = {
+					original_tag = ZAM
+					has_active_mission = ACW_incoming_collapse
+				}
+				add_days_mission_timeout = {
+					decision = ACW_incoming_collapse
+					days = -45
+				}
+			}
+		}
+ 
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+	
+}
+
+
+
+

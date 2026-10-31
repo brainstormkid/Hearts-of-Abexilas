@@ -4,6 +4,8 @@
 ai_enabled = no
 ### IMPORTANT
 
+set_global_flag = ACW_ongoing
+
 set_politics = {
 	ruling_party = anarchist
 	last_election = "1936.1.1"
