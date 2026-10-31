@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 339
+
+oob = "GRC"
 
 set_politics = {
 	ruling_party = absolutist
@@ -21,6 +23,7 @@ create_country_leader = {
 	}
 }
 
+set_convoys = 35
 set_research_slots = 3
 add_ideas = {
 	# Government Ideas

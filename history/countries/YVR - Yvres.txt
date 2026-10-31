@@ -1,5 +1,8 @@
 ﻿capital = 378
 
+oob = "YVR"
+set_naval_oob = "YVR_naval"
+
 set_politics = {
 	ruling_party = absolutist
 	last_election = "1936.1.1"
@@ -21,10 +24,11 @@ create_country_leader = {
 	}
 }
 set_research_slots = 3
+set_convoys = 5
 add_ideas = {
 	# Government Ideas
 	autocracy
-	abexilas
+	rathnir
 	internal_RP_focus
 	civilized_tech
 	lessened_interest
@@ -133,4 +137,36 @@ if = {
             early_transport_plane = 1
         }
     }
+}
+
+####### Ship Designs ########
+create_equipment_variant = {
+	name = "Emperor Class"
+	type = ship_hull_cruiser_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		mid_1_custom_slot = empty
+		mid_2_custom_slot = ship_light_battery_1
+		rear_1_custom_slot = empty
+	}
+}
+create_equipment_variant = {
+	name = "Paques Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_anti_air_slot = empty
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		mid_1_custom_slot = empty
+		rear_1_custom_slot = empty
+	}
 }
