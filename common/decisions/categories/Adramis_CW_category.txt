@@ -1,0 +1,21 @@
+#################
+#### Adramis Cold War ####
+#################
+
+shared_CW_adramis = {
+	icon = decision_generic_reorganize_irregulars
+
+	allowed = {
+		OR = {
+			original_tag = QYN
+			original_tag = ZAM
+			original_tag = GEH
+		}
+	}
+	visible = {
+		has_global_flag = ACW_ongoing
+	}
+	visible_when_empty = yes
+	priority = 10
+}
+
