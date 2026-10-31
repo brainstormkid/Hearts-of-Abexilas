@@ -712,4 +712,10 @@ spriteTypes = {
 		name = "GFX_idea_three_admiralties"
 		textureFile = "gfx/interface/ideas/idea_three_admiralties.dds"
 	}
+
+	#Tsuikinite
+	spriteType = {
+		name = "GFX_idea_aftermath_of_the_vassalage_crisis"
+		textureFile = "gfx/interface/ideas/aftermath_of_the_vassalage_crisis"
+	}
 }

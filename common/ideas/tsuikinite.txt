@@ -1,0 +1,16 @@
+ideas = {
+	country = {
+		TSU_aftermath_of_the_vassalage_crisis = {
+			picture = aftermath_of_the_vassalage_crisis
+			allowed = {
+				tag = TSU
+			}
+			available = {
+			}
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+	}
+}

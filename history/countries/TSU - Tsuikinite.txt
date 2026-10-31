@@ -22,7 +22,9 @@ create_country_leader = {
 		#
 	}
 }
-
+add_ideas = {
+    TSU_aftermath_of_the_vassalage_crisis
+}
 set_convoys = 15
 
 set_research_slots = 3
