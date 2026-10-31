@@ -70,6 +70,13 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
+	division = {
+		name = "Colonial Cavalry"
+		location = 4634
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
 }
 
 #####################

@@ -1,0 +1,131 @@
+﻿division_template = {
+	name = "Infantry Division"					# Represents 18w Infantry
+	#division_names_group = GER_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Guard Division"				# Represents 12w Infantry Division
+	#division_names_group = GER_Cav_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Cavalry Division"				# Represents 12w Cavalry Division
+	#division_names_group = GER_Cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	#division = {
+	#	name = "1st Caranthean Infantry"
+	#	location = 8621
+	#	division_template = "Infantry Division"
+	#	start_experience_factor = 0.1
+	#	start_equipment_factor = 1.0
+	#}
+	#division = {
+	#	name = "2nd Caranthean Infantry"
+	#	location = 8621
+	#	division_template = "Infantry Division"
+	#	start_experience_factor = 0.1
+	#	start_equipment_factor = 1.0
+	#}
+	division = {
+		name = "3rd Caranthean Infantry"
+		location = 4504
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "4th Caranthean Infantry"
+		location = 9817
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "5th Caranthean Infantry"
+		location = 3678
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Caranthean Colony Guards"
+		location = 10416
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Caranthean Colony Guards"
+		location = 6453
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Caranthean Guards"
+		location = 9828
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Caranthean Colonial Calvary"
+		location = 5036
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Caranthean Colonial Calvary"
+		location = 5164
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Caranthean Calvary"
+		location = 9632
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Caranthean Calvary"
+		location = 9760
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+}
+
+#####################

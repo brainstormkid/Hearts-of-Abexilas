@@ -1,0 +1,12 @@
+units = {
+	##### Naval OOB #####
+	fleet = {
+		name = "Scarlet Fleet"			
+		naval_base = 4313 # Cardinallia
+		task_force = {
+			name = "1st Scarlet Fleet"
+			location = 4313 # Cardinallia
+			ship = { name = "HMS Cardinallia" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Scarlet Class"} } }
+		}
+	}
+}

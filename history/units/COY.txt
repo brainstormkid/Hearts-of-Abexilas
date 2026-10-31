@@ -1,0 +1,103 @@
+﻿division_template = {
+	name = "Infantry Division"					# Represents 18w Infantry
+	#division_names_group = GER_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Guard Division"				# Represents 12w Infantry Division
+	#division_names_group = GER_Cav_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Cavalry Division"				# Represents 12w Cavalry Division
+	#division_names_group = GER_Cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Corrian Infantry"
+		location = 4806
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Corrian Infantry"
+		location = 4806
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Corrian Infantry"
+		location = 3019
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Corrian Guards"
+		location = 6001
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Corrian Guards"
+		location = 10026
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Corrian Guards"
+		location = 2957
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Corrian Calvary"
+		location = 9962
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Corrian Calvary"
+		location = 10187
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+}
+
+#####################
