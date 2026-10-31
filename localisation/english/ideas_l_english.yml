@@ -10,7 +10,7 @@
  adramis_cold_war_shared_desc:0 "Following the breakup of the Adramis Coalition, the powers of the Zamotz State, the Empire of Qynthos-Centuria and the Gertek Horde have all staked their claim upon the continent - whoever survives the encounter, will get that coveted prize."
  
  GEH_fine_horses:0 "Finest of Horses"
- GEH_fine_horses_desc:0 "How steadily those troops take the ground! How beutifully those cavalry form! Look at those grey horses! Who are those fine horsemen? These are fine troops."
+ GEH_fine_horses_desc:0 "How steadily those troops take the ground! How beautifully those cavalry form! Look at those grey horses! Who are those fine horsemen? These are fine troops."
  GEH_iskai_plains_payment:0 "Iskai Plains Repayment"
  GEH_iskai_plains_payment_desc:0 "We bought the plains of Iskai for settlement from the Skylords of DonFuer and their Maharian spokespeople, but the price for them was high. Our warriors still ask if that was the right thing to do."
  GEH_beepeck_shield:0 "Shield against Beepeck"
@@ -50,7 +50,7 @@
  VEA_slave_economy:0 "Slave-Based Economy"
  VEA_slave_economy_desc:0 "A slave caste serves as an economic backbone for our economy and makes up a large part of the population. No, they don't get to vote."
  VEA_shining_democracy:0 "Shining Example of Adramis Democracy"
- VEA_shining_democracy_desc:0 "We hold the particular ditinction of being the most democratic and civilized of all countries on Adramis, a state of things that we tend to will all our will."
+ VEA_shining_democracy_desc:0 "We hold the particular ditinction of being the most democratic and civilized of all countries on Adramis, a state of things that we tend to with all our will."
  
  PAR_a_rock:0 "Between a rock..."
  PAR_a_rock_desc:0 "The peoples of Paraiso are peaceful, and war hasn't cursed it's borders once. Our lack of expertise and interest in designing weapons of war is making preparing for the incoming conflicts difficult."
@@ -74,7 +74,7 @@
  ERI_gertek_payments_desc:0 "Part of the gold that was given by Gertek to the Skylords ends up in our pockets, as we served as the middlemen for said deal."
  
  RHD_not_notice:0 "If we don't move, maybe they won't see us"
- RHD_not_notice_desc:0 "Surrounded by bigger nations on Talasi and bordering Gertek on Adramis, we are surrounded by bigger nations, and the only reason we are still alive is that they haven't noticed us. Best to keep it that way."
+ RHD_not_notice_desc:0 "Surrounded by bigger nations on Talasi and bordering Gertek on Adramis, we are surrounded by giants, and the only reason we are still alive is that they haven't noticed us. Best to keep it that way."
 
 #Zarilyian Defense_accords
  zarilyian_defense_accords:0 "Zarilyian Defense Accords"
