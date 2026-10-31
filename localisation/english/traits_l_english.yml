@@ -1,12 +1,35 @@
 ﻿l_english:
- #Custom
+ ##### Custom #####
+ # Leyenbourg
  true_nationalist: "True Nationalist"
  radical_engineer: "Radical Engenieer"
  the_everyman: "The Everyman"
  accelerationist_supporter: "Accelerationist Supporter"
+ megalomaniac:0 "Megalomaniac"
+ megalomaniac_desc:0 "This individual is always thinking too big and too grand to a point some might consider their dreams delusional. In the case of this monarch, most of his projects are just too out of their reach and yet the embrace them"
+ train_enthusiast:0 "Train Enthusiast"
+ train_enthusiast_desc:0 "The love for trains was sparked early, as the first steam engines drove along the tracks, Stephan Zlatkow knew that this was his destiny."
+ stubborn_monarch:0 "Stubborn Monarch"
+ stubborn_monarch_desc:0 "Stephan Zlatkow is known for his stubborn nature. No matter what it is, if it disproves of his ideas he is opposing it."
  
- #Squatters
+ # Squatters
  squatter_encampments: "Squatter Encampments"
+ 
+ # Ejznrosa
+ head_of_construction: "Head of Construction"
+ head_of_recruitment: "Head of Recruitment"
+ head_of_foreign_affairs: "Head of Foreign Affairs"
+ head_of_production: "Head of Production"
+ head_of_economy: "Head of Economy"
+ head_of_propaganda: "Head of Propaganda"
+ head_of_culture: "Head of Culture"
+ former_duke: "Former Duke"
+ duke_of_ejznrosa: "Duke of Ejznrosa"
+ infrastructure_enthusiast: "Infrastructure Enthusiast"
+ state_businessman: "State Businessman"
+ reorganized_government: "Reorganized Government"
+ propaganda_designer: "Propaganda Designer"
+ city_architect: "City Architect"
  
  ### Generic Idea Traits ###
  
@@ -1625,19 +1648,3 @@
  JUNO_mayor_of_the_city_of_asuncion: "Mayor of the City of Asunción"
  JUNO_emergency_powers: "Wielder of Emergency Powers"
  JUNO_uruguyan_revisionist: "Uruguayan Revisionist"
-
- #Ejznrosa
- head_of_construction: "Head of Construction"
- head_of_recruitment: "Head of Recruitment"
- head_of_foreign_affairs: "Head of Foreign Affairs"
- head_of_production: "Head of Production"
- head_of_economy: "Head of Economy"
- head_of_propaganda: "Head of Propaganda"
- head_of_culture: "Head of Culture"
- former_duke: "Former Duke"
- duke_of_ejznrosa: "Duke of Ejznrosa"
- infrastructure_enthusiast: "Infrastructure Enthusiast"
- state_businessman: "State Businessman"
- reorganized_government: "Reorganized Government"
- propaganda_designer: "Propaganda Designer"
- city_architect: "City Architect"
