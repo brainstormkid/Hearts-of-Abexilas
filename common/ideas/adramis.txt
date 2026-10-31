@@ -501,7 +501,7 @@ ideas = {
 		
 		###ERI
 		ERI_donfuer_middlemen = {
-			picture = traditionalism_generic
+			picture = donfuer_represenatives_in_adramis
 			cancel = {
 			}
 			available = {
@@ -519,7 +519,7 @@ ideas = {
 		}
 		
 		ERI_noble_traders = {
-			picture = traditionalism_generic
+			picture = noble_traders
 			cancel = {
 			}
 			available = {
@@ -535,7 +535,7 @@ ideas = {
 		}
 		
 		ERI_gertek_payments = {
-			picture = traditionalism_generic
+			picture = gertek_payments
 			cancel = {
 			}
 			available = {

@@ -718,4 +718,18 @@ spriteTypes = {
 		name = "GFX_idea_aftermath_of_the_vassalage_crisis"
 		textureFile = "gfx/interface/ideas/idea_aftermath_of_the_vassalage_crisis.dds"
 	}
+
+	## ADRAMIS ##
+	spriteType = {
+		name = "GFX_idea_donfuer_represenatives_in_adramis"
+		textureFile = "gfx/interface/ideas/idea_donfuer_represenatives_in_adramis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_gertek_payments"
+		textureFile = "gfx/interface/ideas/idea_gertek_payments.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_noble_traders"
+		textureFile = "gfx/interface/ideas/idea_noble_traders.dds"
+	}
 }
