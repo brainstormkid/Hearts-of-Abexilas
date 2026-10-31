@@ -42,20 +42,20 @@ division_template = {
 }
 
 units = {
-	#division = {
-	#	name = "1st Caranthean Infantry"
-	#	location = 8621
-	#	division_template = "Infantry Division"
-	#	start_experience_factor = 0.1
-	#	start_equipment_factor = 1.0
-	#}
-	#division = {
-	#	name = "2nd Caranthean Infantry"
-	#	location = 8621
-	#	division_template = "Infantry Division"
-	#	start_experience_factor = 0.1
-	#	start_equipment_factor = 1.0
-	#}
+	division = {
+		name = "1st Caranthean Infantry"
+		location = 5715
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Caranthean Infantry"
+		location = 5715
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
 	division = {
 		name = "3rd Caranthean Infantry"
 		location = 4504
@@ -94,6 +94,13 @@ units = {
 	division = {
 		name = "1st Caranthean Guards"
 		location = 9828
+		division_template = "Guard Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Caranthean Guards"
+		location = 9879
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
