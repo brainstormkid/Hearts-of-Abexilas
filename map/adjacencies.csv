@@ -195,11 +195,11 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment,
 10706;10682;sea;22319;-1;-1;-1;-1;;Limuria-Jokuku
 10024;1321;sea;18771;-1;-1;-1;-1;;Saradimas-Sikyas
 5889;10126;sea;18771;-1;-1;-1;-1;;Viomax-Astrafall
-;;;;;;;;;
-;;;;;;;;;
-;;;;;;;;;
-;;;;;;;;;
-;;;;;;;;;
+11880;11907;sea;21244;-1;-1;-1;-1;;Beepeck-Pollenburg
+6475;11606;sea;19345;-1;-1;-1;-1;;Montpelier-Bridge
+1491;11823;sea;20018;-1;-1;-1;-1;;Skúlsólvar-Beepeck
+11803;1508;sea;23168;-1;-1;-1;-1;;Ibeeza-Ulan
+3572;11721;sea;16215;-1;-1;-1;-1;;Beepeck-Beedelpest
 ;;;;;;;;;
 ;;;;;;;;;, anything after is ignored
 ;;;;;;;;;,
