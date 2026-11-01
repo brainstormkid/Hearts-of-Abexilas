@@ -56,6 +56,13 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
+	division = {
+		name = "1st Seawolvian Barrelriders"
+		location = 12068
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
 }
 
 #####################
