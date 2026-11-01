@@ -475,8 +475,8 @@
  BEE_absolutist:1 "High Honey Imperium"
  BEE_absolutist_DEF:1 "the High Honey Imperium"
  BEE_absolutist_ADJ:0 "Beean"
- BEE:1 "High Honey"
- BEE_DEF:1 "High Honey"
+ BEE:1 "Beepeck"
+ BEE_DEF:1 "Beepeck"
  BEE_ADJ:0 "Beean"
  
  BEL_absolutist:1 "Monastrate of Bel'hor"
@@ -1494,6 +1494,13 @@
  KRU:1 "Krunia"
  KRU_DEF:1 "Krunia"
  KRU_ADJ:0 "Krünisch"
+ 
+ KRT_absolutist:1 "Kingdom of Karthia"
+ KRT_absolutist_DEF:1 "the Kingdom of Karthia"
+ KRT_absolutist_ADJ:0 "Karthian"
+ KRT:1 "Karthia"
+ KRT_DEF:1 "Karthia"
+ KRT_ADJ:0 "Karthian"
  
  KUZ_absolutist:1 "Kingdom of Kuzina"
  KUZ_absolutist_DEF:1 "the Kingdom of Kuzina"
@@ -3035,6 +3042,13 @@
  VRI:1 "Vrijsted"
  VRI_DEF:1 "Vrijsted"
  VRI_ADJ:0 "Vrijstedian"
+ 
+ VUL_absolutist:1 "Kingdom of Vulkrum"
+ VUL_absolutist_DEF:1 "the Kingdom of Vulkrum"
+ VUL_absolutist_ADJ:0 "Vulkrumian"
+ VUL:1 "Vulkrum"
+ VUL_DEF:1 "Vulkrum"
+ VUL_ADJ:0 "Vulkrumian"
  
  WAD_absolutist:1 "Great Parasol of Wadiwaya"
  WAD_absolutist_DEF:1 "The Great Parasol of Wadiwaya"
