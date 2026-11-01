@@ -4,8 +4,62 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 10
+			add = 100
 			tag = GEH
+		}
+	}
+	
+	#The Comet
+	focus = {
+		id = GEH_beginning_1
+		icon = GFX_GEH_prepare_for_the_cold_war-412
+		x = 4
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 100 }
+		completion_reward = {
+
+			add_stability = 0.01
+		}
+	}
+	
+	#Our Arrival
+	focus = {
+		id = GEH_beginning_2
+		icon = GFX_GEH_prepare_for_the_cold_war-412
+		x = 4
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 100 }
+		prerequisite = { focus = GEH_beginning_1  }
+		completion_reward = {
+
+			add_stability = 0.01
+		}
+	}
+	
+	#The Gauntlet
+	focus = {
+		id = GEH_beginning_3
+		icon = GFX_GEH_prepare_for_the_cold_war-412
+		x = 4
+		y = 0
+		cost = 1
+		
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GEH_beginning_2  }
+		ai_will_do = { factor = 100 }
+		completion_reward = {
+
+			add_stability = 0.01
 		}
 	}
 	
@@ -14,11 +68,12 @@ focus_tree = {
 		id = GEH_prepare_for_the_cold_war
 		icon = GFX_GEH_prepare_for_the_cold_war-412
 		x = 4
-		y = 0
+		y = 1
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		prerequisite = { focus = GEH_beginning_3  }
 		ai_will_do = { factor = 100 }
 		completion_reward = {
 			add_political_power = 400
@@ -70,7 +125,7 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
-				bonus = 1.2
+				bonus = 1.25
 				uses = 1
 				category = infantry_weapons
 				category = artillery
@@ -134,16 +189,17 @@ focus_tree = {
 
 ##ADRAMIS
 
-	#Unity of Adramis
+	#Our options
 	focus = {
 		id = GEH_unity_of_adramis
 		icon = GFX_goal_generic_national_unity
 		x = 15
-		y = 0
+		y = 1
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		prerequisite = { focus = GEH_beginning_3  }
 		ai_will_do = { factor = 100 }
 		completion_reward = {
 			add_political_power = 100

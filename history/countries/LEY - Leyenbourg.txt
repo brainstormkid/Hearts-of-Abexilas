@@ -24,12 +24,14 @@ recruit_character = LEY_hans_solo
 
 create_country_leader = {
 	name = "Stephan Zlaktow"
-	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	desc = "Stephan Zlatkow, Duke of Leyenbourg, has stepped in to rule Leyenbourg after the Fall of Telúne. He had previously already served as a country leader but was demoted due to internal struggles within the United Kingdom. Now he is back in power and is not looking to lose it again."
 	picture = "gfx/leaders/LEY/stephan.dds"
 	expire = "1965.1.1"
 	ideology = monarchist_subtype
 	traits = {
-		#
+		stubborn_monarch
+		train_enthusiast
+		megalomaniac
 	}
 }
 
@@ -194,4 +196,36 @@ if = {
             early_transport_plane = 1
         }
     }
+}
+
+####### Ship Designs ########
+create_equipment_variant = {
+	name = "Black-Rose Class"
+	type = ship_hull_cruiser_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_anti_air_slot = empty
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		mid_1_custom_slot = empty
+		mid_2_custom_slot = ship_light_battery_1
+		rear_1_custom_slot = empty
+	}
+}
+create_equipment_variant = {
+	name = "Concordia Class"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_anti_air_slot = empty
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = empty
+		mid_1_custom_slot = empty
+		rear_1_custom_slot = empty
+	}
 }

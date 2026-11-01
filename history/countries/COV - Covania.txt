@@ -2,6 +2,13 @@
 
 oob = "COV"
 
+QYN = {
+    set_autonomy = {
+         target = COV
+         autonomous_state = autonomy_integrated_puppet
+    }
+}
+
 add_ideas = {
 	volunteer_only
 	Cathramis_Continental_Member
