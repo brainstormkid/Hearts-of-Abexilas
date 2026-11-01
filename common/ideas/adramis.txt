@@ -16,7 +16,7 @@ ideas = {
 		}
 		
 		adramis_cold_war_shared = {
-			picture = traditionalism_generic
+			picture = adramis_cold_war_shared
 			cancel = {
 			}
 			available = {
@@ -38,7 +38,7 @@ ideas = {
 		
 		###GEH
 		GEH_fine_horses = {
-			picture = traditionalism_generic
+			picture = finest_horses
 			cancel = {
 			}
 			available = {
@@ -54,7 +54,7 @@ ideas = {
 		}
 		
 		GEH_iskai_plains_payment = {
-			picture = traditionalism_generic
+			picture = iskai_plains_repayment
 			cancel = {
 			}
 			available = {

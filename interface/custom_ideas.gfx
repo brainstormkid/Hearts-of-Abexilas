@@ -732,4 +732,16 @@ spriteTypes = {
 		name = "GFX_idea_noble_traders"
 		textureFile = "gfx/interface/ideas/idea_noble_traders.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_adramis_cold_war_shared"
+		textureFile = "gfx/interface/ideas/idea_adramis_cold_war_shared.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_finest_horses"
+		textureFile = "gfx/interface/ideas/idea_finest_horses.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_iskai_plains_repayment"
+		textureFile = "gfx/interface/ideas/idea_iskai_plains_repayment.dds"
+	}
 }
