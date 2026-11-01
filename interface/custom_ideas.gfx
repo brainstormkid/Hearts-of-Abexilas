@@ -744,4 +744,12 @@ spriteTypes = {
 		name = "GFX_idea_iskai_plains_repayment"
 		textureFile = "gfx/interface/ideas/idea_iskai_plains_repayment.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_beepeck_shield"
+		textureFile = "gfx/interface/ideas/idea_beepeck_shield.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_chaotic_leadership"
+		textureFile = "gfx/interface/ideas/idea_chaotic_leadership.dds"
+	}
 }

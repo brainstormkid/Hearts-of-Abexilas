@@ -69,7 +69,7 @@ ideas = {
 		}
 		
 		GEH_beepeck_shield = {
-			picture = traditionalism_generic
+			picture = beepeck_shield
 			cancel = {
 			}
 			available = {
@@ -89,7 +89,7 @@ ideas = {
 		}
 		
 		GEH_chaotic_leadership = {
-			picture = traditionalism_generic
+			picture = chaotic_leadership
 			cancel = {
 			}
 			available = {
