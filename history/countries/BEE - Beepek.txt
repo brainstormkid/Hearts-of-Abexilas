@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 648
+
+oob = "BEE"
 
 set_politics = {
 	ruling_party = absolutist
@@ -21,6 +23,7 @@ create_country_leader = {
 	}
 }
 
+set_convoys = 90
 set_stability = 0.73
 set_war_support = 0.68
 
@@ -31,6 +34,11 @@ set_autonomy = {
 
 set_autonomy = {
 	target = BOV
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = KRT
 	autonomous_state = autonomy_puppet
 }
 
