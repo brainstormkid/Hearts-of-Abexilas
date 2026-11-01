@@ -1,0 +1,32 @@
+state={
+	id=1431
+	name="STATE_1431" #KradonLrod
+	provinces={
+		222 1373 2712 5650 11678 11738 11747
+	}
+	buildings_max_level_factor=1.000
+    resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+        state_category = city
+        manpower=1050000
+		local_supplies = 5
+	history={
+		owner = MIC
+		add_core_of = MIC
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
+		}
+		victory_points = { 2712 20 } #Kradon Lrod
+	}
+}
+
+### Note: Weird Michava Exclave

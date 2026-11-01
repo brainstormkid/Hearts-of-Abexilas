@@ -1,12 +1,11 @@
 state={
 	id=669
-	name="STATE_669"
+	name="STATE_669" #Vulkrumia
 	provinces={
 		489 1237 6317 6440 11932 11935 11941 11950 11959 11965 11981 12009 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +14,22 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+        state_category = city
+        manpower=2850000
+		local_supplies = 5
 	history={
-		owner = BEE
+		owner = VUL
+		add_core_of = VUL
 		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			6317 = {
+				naval_base = 1
+			}
 		}
-		add_core_of = BEE
+		victory_points = { 6317 30 } #Vulkrumia
+		victory_points = { 11941 5 } #Fort Tsunami
 	}
 }

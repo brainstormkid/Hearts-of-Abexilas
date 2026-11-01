@@ -1,12 +1,11 @@
 state={
 	id=635
-	name="STATE_635"
+	name="STATE_635" #Skúlsólvar // Capital of SKU
 	provinces={
-		1491 2128 3277 4259 5674 6301 11656 11692 11726 11757 11764 11788 11799 11860 11866 
+		1491 2128 3277 4259 6301 11788 11799 11860 11866 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +14,21 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+        state_category = large_city
+        manpower=3300000
+		local_supplies = 6
 	history={
-		owner = BEE
+		owner = SKU
+		add_core_of = SKU
 		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			11866 = {
+				naval_base = 2
+			}
 		}
-		add_core_of = BEE
+		victory_points = { 11866 30 } #Skúlsólvar
 	}
 }

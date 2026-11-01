@@ -1,12 +1,11 @@
 state={
 	id=644
-	name="STATE_644"
+	name="STATE_644" #Serpent's Folly
 	provinces={
-		222 860 904 1373 2712 3799 4522 4683 5650 11678 11738 11747 11775 11800 11804 11856 11892 
+		860 904 3799 4522 4683 11775 11800 11804 11856 11892 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -16,10 +15,15 @@ state={
 		coal = 3
 	}
         state_category = town
+        manpower=600000
+		local_supplies = 2
 	history={
 		owner = BEE
-		buildings = {
-		}
 		add_core_of = BEE
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+		}
+		victory_points = { 904 10 } #Serpent's Folly
 	}
 }

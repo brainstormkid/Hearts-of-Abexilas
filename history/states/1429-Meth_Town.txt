@@ -1,0 +1,31 @@
+state={
+	id=1429
+	name="STATE_1429" # Meth Town
+	provinces={
+		2977 12035 12068 12087 
+	}
+	buildings_max_level_factor=1.000
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+        state_category = town
+		manpower=600000
+		local_supplies = 2.5
+	history={
+		owner = SEA
+		add_core_of = SEA
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+		}
+		victory_points = {
+			12068 10 #Meth Town
+		}
+	}
+}

@@ -1,12 +1,11 @@
 state={
 	id=674
-	name="STATE_674"
+	name="STATE_674" # Beelan
 	provinces={
 		207 1257 3415 3522 3929 4285 4422 5726 6430 11957 11978 11994 12026 12029 12049 12070 12075 12076 12109 12139 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +14,21 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+        state_category = large_city
+        manpower=1650000
+		local_supplies = 6
 	history={
 		owner = BEE
-		buildings = {
-		}
 		add_core_of = BEE
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			1257 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { 12049 20 }
 	}
 }
