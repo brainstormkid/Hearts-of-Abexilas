@@ -2516,10 +2516,10 @@
  
  STA_absolutist:1 "Holy Kingdom of Staslov"
  STA_absolutist_DEF:1 "the Holy Kingdom of Staslov"
- STA_absolutist_ADJ:0 "Staslovite"
+ STA_absolutist_ADJ:0 "Staslovic"
  STA:1 "Staslov"
  STA_DEF:1 "Staslov"
- STA_ADJ:0 "Staslovite"
+ STA_ADJ:0 "Staslovic"
  
  STE_absolutist:1 "Kingdom of Steverovska"
  STE_absolutist_DEF:1 "the Kingdom of Steverovska"
