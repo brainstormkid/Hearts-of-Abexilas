@@ -13,8 +13,8 @@ focus_tree = {
 	focus = {
 		id = GEH_beginning_1
 		icon = GFX_GEH_prepare_for_the_cold_war-412
-		x = 4
-		y = 0
+		x = 16
+		y = 1
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -30,12 +30,13 @@ focus_tree = {
 	focus = {
 		id = GEH_beginning_2
 		icon = GFX_GEH_prepare_for_the_cold_war-412
-		x = 4
-		y = 0
+		x = 0
+		y = 1
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		relative_position_id = GEH_beginning_1
 		ai_will_do = { factor = 100 }
 		prerequisite = { focus = GEH_beginning_1  }
 		completion_reward = {
@@ -48,13 +49,14 @@ focus_tree = {
 	focus = {
 		id = GEH_beginning_3
 		icon = GFX_GEH_prepare_for_the_cold_war-412
-		x = 4
-		y = 0
+		x = 0
+		y = 1
 		cost = 1
 		
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		relative_position_id = GEH_beginning_2
 		prerequisite = { focus = GEH_beginning_2  }
 		ai_will_do = { factor = 100 }
 		completion_reward = {
@@ -62,22 +64,22 @@ focus_tree = {
 			add_stability = 0.01
 		}
 	}
-	
+	###Left Branch - beginning
 	#Prepare for the Cold War
 	focus = {
 		id = GEH_prepare_for_the_cold_war
 		icon = GFX_GEH_prepare_for_the_cold_war-412
-		x = 4
+		x = -4
 		y = 1
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		relative_position_id = GEH_beginning_3
 		prerequisite = { focus = GEH_beginning_3  }
-		ai_will_do = { factor = 100 }
+		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = 400
-			add_stability = 0.01
+			
 		}
 	}
 
@@ -85,13 +87,15 @@ focus_tree = {
 	focus = {
 		id = GEH_strengthen_the_military
 		icon = GFX_GEH_strengthen_the_military-262028
-		x = 3
+		x = 1
 		y = 1
-		cost = 8
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		relative_position_id = GEH_prepare_for_the_cold_war
 		prerequisite = { focus = GEH_prepare_for_the_cold_war  }
+		ai_will_do = { factor = 1 }
 		completion_reward = {
 			capital_scope = {
 				limit = {
@@ -141,15 +145,16 @@ focus_tree = {
 	focus = {
 		id = GEH_national_parades
 		icon = GFX_GEH_national_parades-645838
-		x = 3
-		y = 2
-		cost = 5
+		x = 0
+		y = 1
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		relative_position_id = GEH_strengthen_the_military
 		prerequisite = { focus = GEH_strengthen_the_military  }
 		completion_reward = {
-			add_ideas = army_training_generic
+			
 		}
 	}
 
@@ -157,16 +162,16 @@ focus_tree = {
 	focus = {
 		id = GEH_strengthen_the_khan
 		icon = GFX_GEH_strengthen_the_khan-645747
-		x = 5
+		x = -1
 		y = 1
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		relative_position_id = GEH_prepare_for_the_cold_war
 		prerequisite = { focus = GEH_prepare_for_the_cold_war  }
 		completion_reward = {
-			add_political_power = 200
-			add_stability = -0.05
+			
 		}
 	}
 
@@ -174,349 +179,210 @@ focus_tree = {
 	focus = {
 		id = GEH_restabilize_the_government
 		icon = GFX_GEH_restabilize_the_government-645493
-		x = 5
-		y = 2
+		x = 0
+		y = 1
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
+		relative_position_id = GEH_strengthen_the_khan
 		prerequisite = { focus = GEH_strengthen_the_khan  }
 		completion_reward = {
-			add_political_power = 150
-			add_stability = -0.10
+			
+		}
+	}
+	
+	#Focus on QC
+	focus = {
+		id = GEH_focus_QC
+		icon = GFX_GEH_zamotz_agreement-645950
+		x = -1
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		relative_position_id = GEH_restabilize_the_government
+		prerequisite = { focus = GEH_restabilize_the_government  }
+		prerequisite = { focus = GEH_national_parades  }
+		mutually_exclusive  = { focus = GEH_focus_zamotz }
+		mutually_exclusive  = { focus = GEH_focus_ourselves }
+		ai_will_do = { factor = 10 }
+		completion_reward = {
+			
+			}
+	}
+
+	#Focus on ourselves
+	focus = {
+		id = GEH_focus_ourselves
+		icon = GFX_GEH_velarim_agreement-427
+		x = 1
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		relative_position_id = GEH_restabilize_the_government
+		prerequisite = { focus = GEH_restabilize_the_government  }
+		prerequisite = { focus = GEH_national_parades  }
+		mutually_exclusive  = { focus = GEH_focus_QC }
+		mutually_exclusive  = { focus = GEH_focus_zamotz }
+		ai_will_do = { factor = 10 }
+		completion_reward = {
+			
+			}
+	}
+
+	#Focus on Zamotz
+	focus = {
+		id = GEH_focus_zamotz
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 3
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		relative_position_id = GEH_restabilize_the_government
+		prerequisite = { focus = GEH_restabilize_the_government  }
+		prerequisite = { focus = GEH_national_parades  }
+		mutually_exclusive  = { focus = GEH_focus_QC }
+		mutually_exclusive  = { focus = GEH_focus_ourselves }
+		ai_will_do = { factor = 100 }
+		completion_reward = {
+			
 		}
 	}
 
-##ADRAMIS
+	###Right Branch - beginning
 
 	#Our options
 	focus = {
-		id = GEH_unity_of_adramis
+		id = GEH_great_gold_crash
 		icon = GFX_goal_generic_national_unity
-		x = 15
+		x = 4
 		y = 1
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		relative_position_id = GEH_beginning_3
 		prerequisite = { focus = GEH_beginning_3  }
 		ai_will_do = { factor = 100 }
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.05
+
 		}
 	}
 
-	#The First Congress
+	#GGC 1
 	focus = {
-		id = GEH_the_first_congress
+		id = GEH_great_gold_crash_2
 		icon = GFX_goal_continuous_increase_nu
-		x = 15
+		x = 0
 		y = 1
-		cost = 15
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		bypass = { has_country_flag = adramis_congress }
-		prerequisite = { focus = GEH_unity_of_adramis  }
+		relative_position_id = GEH_great_gold_crash
+		prerequisite = { focus = GEH_great_gold_crash  }
 		ai_will_do = { factor = 10 }
 		completion_reward = {
-			VEA = {
-				set_country_flag = {
-				flag = adramis_congress
-				days = 200
-				value = 1
-				}
-			}
-			ZAM = {
-				set_country_flag = {
-				flag = adramis_congress
-				days = 200
-				value = 1
-				}
-			}
-			add_political_power = 150
-			add_stability = 0.10
-			hidden_effect = {
-				VEA = {
-					country_event = {
-					id = adramis.1
-					days = 0
-					}
-				}
-				ZAM = {
-					country_event = {
-					id = adramis.1
-					days = 0
-					}
-				}
-				GEH = {
-					country_event = {
-					id = adramis.1
-					days = 0
-					}
-				}
+			
 			}
 		}
-	}
+	
 
-	#Zamotz Agreement
+	#GGC 2 -traditionalist support
 	focus = {
-		id = GEH_zamotz_agreement
+		id = GEH_great_gold_crash_3
 		icon = GFX_GEH_zamotz_agreement-645950
-		x = 13
-		y = 2
-		cost = 10
+		x = 0
+		y = 1
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		available = { 
-		has_completed_focus = GEH_unity_of_adramis
-		tag = ZAM
-		}
-		bypass = { has_country_flag = zamotz_agreement }
-		prerequisite = { focus = GEH_the_first_congress  }
+		relative_position_id = GEH_great_gold_crash_2
+		prerequisite = { focus = GEH_great_gold_crash_2  }
+		ai_will_do = { factor = 10 }
+		completion_reward = {
+			
+			}
 	}
 
-	#Velarim Agreement
+	#GGC 3 -Ich helpers
 	focus = {
-		id = GEH_velarim_agreement
+		id = GEH_ich_followers
 		icon = GFX_GEH_velarim_agreement-427
-		x = 15
-		y = 2
-		cost = 10
+		x = 2
+		y = 1
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		available = { 
-		has_completed_focus = GEH_unity_of_adramis
-		tag = VEA
-		}
-		bypass = { has_country_flag = velarim_agreement }
-		prerequisite = { focus = GEH_the_first_congress  }
+		relative_position_id = GEH_great_gold_crash_2
+		prerequisite = { focus = GEH_great_gold_crash_2  }
+		ai_will_do = { factor = 10 }
+		completion_reward = {
+			
+			}
 	}
 
-	#Maravilla Agreement
+	#Maravilla Natives Agreement
 	focus = {
 		id = GEH_maravilla_agreement
 		icon = GFX_focus_generic_diplomatic_treaty
-		x = 17
-		y = 2
-		cost = 10
+		x = -2
+		y = 1
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		available = { 
-		has_completed_focus = GEH_unity_of_adramis
-		tag = GEH
-		}
-		prerequisite = { focus = GEH_the_first_congress  }
+		relative_position_id = GEH_great_gold_crash_2
+		prerequisite = { focus = GEH_great_gold_crash_2  }
 		ai_will_do = { factor = 100 }
 		completion_reward = {
-			VEA = {
-				set_country_flag = {
-				flag = maravilla_agreement
-				days = 200
-				value = 1
-				}
-			}
-			ZAM = {
-				set_country_flag = {
-				flag = maravilla_agreement
-				days = 200
-				value = 1
-				}
-			}
+			
 		}
 	}
 
-	#Unitas Adramidis
+	#Small econ focus
 	focus = {
-		id = GEH_unitas_adramidis
+		id = GEH_an_actual_economy
 		icon = GFX_focus_generic_support_the_left_right
-		x = 15
-		y = 3
-		cost = 10
+		x = 0
+		y = 2
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		available = { has_completed_focus = GEH_unity_of_adramis }
-		bypass = { has_country_flag = unitas_adramidis }
-		prerequisite = { focus = GEH_zamotz_agreement  } prerequisite = { focus = GEH_velarim_agreement  } prerequisite = { focus = GEH_maravilla_agreement  }
+		relative_position_id = GEH_great_gold_crash_2
+		ai_will_do = { factor = 1 }
+		prerequisite = { focus = GEH_maravilla_agreement focus = GEH_ich_followers focus = GEH_great_gold_crash_3  }
 		completion_reward = {
 			hidden_effect = {
-				PAR = {
-					country_event = {
-					id = adramis.2
-					days = 0
-					}
-				}
-				QYN = {
-					country_event = {
-					id = adramis.2
-					days = 0
-					}
-				}
-				ERI = {
-					country_event = {
-					id = adramis.2
-					days = 0
-					}
-				}
-				LAV = {
-					country_event = {
-					id = adramis.2
-					days = 0
-					}
-				}
-				COV = {
-					country_event = {
-					id = adramis.2
-					days = 0
-					}
-				}
-			}
-			VEA = {
-				set_country_flag = {
-				flag = unitas_adramidis
-				days = 200
-				value = 1
-				}
-			}
-			ZAM = {
-				set_country_flag = {
-				flag = unitas_adramidis
-				days = 200
-				value = 1
-				}
+				
 			}
 		}
 	}
 
-	#Unitatis pro Gente
+	#Raid their riches - raid decisions for QC
 	focus = {
-		id = GEH_unitatis_pro_gente
+		id = GEH_raid_riches
 		icon = GFX_goal_generic_major_alliance
-		x = 15
-		y = 4
-		cost = 25
+		x = 0
+		y = 1
+		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		bypass = { has_country_flag = unification_complete }
-		ai_will_do = { factor = 0 }
-		available = { has_completed_focus = GEH_unity_of_adramis }
-		prerequisite = { focus = GEH_unitas_adramidis  }
+		relative_position_id = GEH_an_actual_economy
+		ai_will_do = { factor = 1 }
+		prerequisite = { focus = GEH_an_actual_economy  }
 		completion_reward = {
-			if = {
-				limit = {
-					VEA = {
-						has_idea = adramis_unity
-					}
-				}
-				annex_country = {
-					target = VEA
-					transfer_troops = yes
-				}
-			}
-		}
-		completion_reward = {
-			if = {
-				limit = {
-					PAR = {
-						has_idea = adramis_unity
-					}
-				}
-				annex_country = {
-					target = PAR
-					transfer_troops = yes
-				}
-			}
-		}
-		completion_reward = {
-			if = {
-				limit = {
-					LAV = {
-						has_idea = adramis_unity
-					}
-				}
-				annex_country = {
-					target = LAV
-					transfer_troops = yes
-				}
-			}
-		}
-		completion_reward = {
-			if = {
-				limit = {
-					QYN = {
-						has_idea = adramis_unity
-					}
-				}
-				annex_country = {
-					target = QYN
-					transfer_troops = yes
-				}
-			}
-		}
-		completion_reward = {
-			if = {
-				limit = {
-					ZAM = {
-						has_idea = adramis_unity
-					}
-				}
-				annex_country = {
-					target = ZAM
-					transfer_troops = yes
-				}
-			}
-		}
-		completion_reward = {
-			if = {
-				limit = {
-					COV = {
-						has_idea = adramis_unity
-					}
-				}
-				annex_country = {
-					target = COV
-					transfer_troops = yes
-				}
-			}
-		}
-		completion_reward = {
-			if = {
-				limit = {
-					ERI = {
-						has_idea = adramis_unity
-					}
-				}
-				annex_country = {
-					target = ERI
-					transfer_troops = yes
-				}
-			}
-		}
-		completion_reward = {
-			add_popularity = {
-				ideology = liberalist
-				popularity = +1.0
-			}
-			VEA = {
-				set_country_flag = {
-				flag = unification_complete
-				days = 200
-				value = 1
-				}
-			}
-			ZAM = {
-				set_country_flag = {
-				flag = unification_complete
-				days = 200
-				value = 1
-				}
-			}
+		
 		}
 	}
 
