@@ -1,12 +1,11 @@
 state={
 	id=631
-	name="STATE_631"
+	name="STATE_631" #Iron Wood Village
 	provinces={
 		1719 3197 3364 3868 4004 4833 6197 11605 11634 11635 11673 11691 11706 11717 11734 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +14,22 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+        state_category = city
+        manpower=1200000
+		local_supplies = 5
 	history={
 		owner = BRU
-		buildings = {
-		}
 		add_core_of = BRU
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			11605 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { 11673 20 } #Iron Wood Village
+		victory_points = { 11605 5 } #Caeruleuma
 	}
 }

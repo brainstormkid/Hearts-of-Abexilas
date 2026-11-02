@@ -5,8 +5,7 @@ state={
 		3243 5504 5707 11782 11851 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +14,21 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+        state_category = city
+        manpower=1650000
+		local_supplies = 5
 	history={
 		owner = STA
-		buildings = {
-		}
 		add_core_of = STA
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			11851 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 11851 20 } #Pelturaeth
 	}
 }

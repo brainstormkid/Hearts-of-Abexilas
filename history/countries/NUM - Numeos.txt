@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 597
+
+oob = "NUM"
 
 set_politics = {
 	ruling_party = absolutist

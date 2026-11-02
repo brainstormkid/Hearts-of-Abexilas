@@ -200,6 +200,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment,
 1491;11823;sea;20018;-1;-1;-1;-1;;Skúlsólvar-Beepeck
 11803;1508;sea;23168;-1;-1;-1;-1;;Ibeeza-Ulan
 3572;11721;sea;16215;-1;-1;-1;-1;;Beepeck-Beedelpest
+11898;115;sea;22528;-1;-1;-1;-1;;North East-West-Ketswrok
+3585;11949;sea;22528;-1;-1;-1;-1;;South East-West-Ketswrok
+3295;11670;sea;20615;-1;-1;-1;-1;;Polis-Aekad-Lillia
+11404;11350;sea;20615;-1;-1;-1;-1;;Levanesse-Oria
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
 ;;;;;;;;;
 ;;;;;;;;;, anything after is ignored
 ;;;;;;;;;,
