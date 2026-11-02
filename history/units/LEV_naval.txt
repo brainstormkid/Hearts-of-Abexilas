@@ -1,0 +1,20 @@
+units = {
+	##### Naval OOB #####
+	fleet = {
+		name = "Levani Fleet"			
+		naval_base = 11431 # Bordelaux
+		task_force = {
+			name = "Northern Amarda of Levan"
+			location = 11431 # Bordelaux
+			ship = { name = "HMS Bordelaux" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = LEV version_name = "Bordelaux Class"} } }
+			ship = { name = "HMS Arglesia" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = LEV version_name = "Bordelaux Class"} } }
+		}
+		task_force = {
+			name = "Southern Amarda of Levan"
+			location = 6812 # Vilcomitia
+			ship = { name = "HMS Levanesse" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = LEV version_name = "Levanesse Class"} } }
+		}
+	}
+}
+
+

@@ -1,0 +1,21 @@
+units = {
+	##### Naval OOB #####
+	fleet = {
+		name = "Staslovic Fleet"			
+		naval_base = 11785 # Staslovia
+		task_force = {
+			name = "1st Staslovic Taskforce"
+			location = 11785 # Staslovia
+			ship = { name = "HMS Staslovia" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = STA version_name = "Holy Class"} } }
+			ship = { name = "HMS Bazeth" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = STA version_name = "Bazeth Class"} } }
+		}
+		task_force = {
+			name = "2nd Staslovic Taskforce"
+			location = 11851 # Pelturaeth
+			ship = { name = "HMS Pelturaeth" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = STA version_name = "Bazeth Class"} } }
+			ship = { name = "HMS Ketswrok" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = STA version_name = "Bazeth Class"} } }
+		}
+	}
+}
+
+
