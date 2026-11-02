@@ -5,8 +5,7 @@ state={
 		2121 2410 2803 4115 11257 11347 11355 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +14,15 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+        state_category = rural
+        manpower=1500000
+		local_supplies = 2
 	history={
 		owner = NUM
-		buildings = {
-		}
 		add_core_of = NUM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 2410 50 } #Kjerag
 	}
 }
