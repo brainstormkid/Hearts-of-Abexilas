@@ -276,7 +276,7 @@ ideas = {
 		
 		###LAV
 		LAV_dev_phase_1 = {
-			picture = traditionalism_generic
+			picture = dev_phase_1
 			cancel = {
 			}
 			available = {
@@ -329,7 +329,7 @@ ideas = {
 		}
 		
 		LAV_gertek_shadow = {
-			picture = traditionalism_generic
+			picture = gertek_shadow
 			cancel = {
 			}
 			available = {
