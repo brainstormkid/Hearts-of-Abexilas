@@ -12,6 +12,8 @@ add_ideas = {
 	PAR_a_rock
 	PAR_paradise
 	PAR_a_hard_place
+	PAR_scars_artaine
+	PAR_kingdom_without_confidence
 }
 
 set_politics = {

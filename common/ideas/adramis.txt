@@ -409,7 +409,7 @@ ideas = {
 		}
 		
 		PAR_paradise = {
-			picture = traditionalism_generic
+			picture = paradise_itself
 			cancel = {
 			}
 			available = {
@@ -449,6 +449,40 @@ ideas = {
 				defense_bonus_against = 0.1
 			}
 		}
+		PAR_scars_artaine = {
+			picture = scars_artaine
+			cancel = {
+			}
+			available = {
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				add_stability = -0.20
+				political_power_gain = -0.15
+				add_war_support = -0.10
+				production_speed_buildings_factor = -0.10
+			}
+		}
+		PAR_kingdom_without_confidence = {
+			picture = kingdom_without_confidence
+			cancel = {
+			}
+			available = {
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				add_stability = -0.10
+				political_power_gain = -0.15
+				add_war_support = -0.15
+				army_org_factor = -0.05
+			}
+		}
+
+
 		
 		###COV
 		COV_no_local_control = {

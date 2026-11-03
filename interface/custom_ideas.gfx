@@ -752,4 +752,18 @@ spriteTypes = {
 		name = "GFX_idea_chaotic_leadership"
 		textureFile = "gfx/interface/ideas/idea_chaotic_leadership.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_scars_artaine"
+		textureFile = "gfx/interface/ideas/idea_scars_artaine.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_kingdom_without_confidence"
+		textureFile = "gfx/interface/ideas/idea_kingdom_without_confidence.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_paradise_itself"
+		textureFile = "gfx/interface/ideas/idea_paradise_itself.dds"
+	}
+
+
 }

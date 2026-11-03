@@ -58,7 +58,11 @@
  PAR_paradise_desc:0 "The world is beautiful, and our people know that, aiming to make their own marks upon it equally as appealing. Our Kingdom has the best architecture on the continent, our artists are unmatched even further, and Esperanza outshines even Centuria and Velarim in beauty. An ethos of hard work and love for the world suffuses every facet of our country."
  PAR_a_hard_place:0 "...and a hard place"
  PAR_a_hard_place_desc:0 "The massive presences of the Zamotz Union, Gertek Khanate and Imperium of Qynthos-Centuria loom over our slice of the world - it would pay to prepare for their inevitable hunger for our riches and territories."
- 
+ PAR_scars_artaine:0 "The Scars of Artaine"
+ PAR_scars_artaine_desc:0 "The collapse of Artaine has left our people disillusioned with the promises of kings and governments. Betrayal, political incompetence, and foreign interference have destroyed what was once believed to be a promising kingdom. Though Paraíso has emerged from its ruins, the wounds of Artaine remain."
+ PAR_kingdom_without_confidence:0 "A Kingdom Without Confidence"
+ PAR_kingdom_without_confidence_desc:0 "Our citizens have witnessed the failure of one kingdom and the uncertain birth of another. Many question whether Paraíso will survive where Artaine could not. Until the Crown proves itself capable of governing, confidence in the monarchy will remain dangerously low."
+
  COV_no_local_control:0 "No Local Control"
  COV_no_local_control_desc:0 "Our western provinces are lawless, Estatenne is basically ruling itself and the less said about the men in Hogham, Koqutenn and Kaitahu the better."
  COV_failed_kingdom:0 "Failed Kingdom"
