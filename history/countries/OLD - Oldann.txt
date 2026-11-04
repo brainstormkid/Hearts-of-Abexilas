@@ -25,7 +25,9 @@ create_country_leader = {
 	}
 }
 add_ideas = {
-	
+	# Government Ideas
+    OLD_Silkhollow_Bandits
+    OLD_Non_existent_Army
 }
 
 set_stability = 67

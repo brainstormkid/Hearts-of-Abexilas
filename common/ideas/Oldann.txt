@@ -1,0 +1,39 @@
+ideas = {
+	country = { OLD_Silkhollow_Bandits = {
+    
+	picture = OLD_Silkhollow_Bandits
+	
+	allowed = {tag = OLD
+	}
+	
+	modifier = { 
+	political_power_gain = -0.10
+    weekly_manpower = 15
+    compliance_gain = -1.10
+    stability_factor = -0.10
+    anarchist_drift = 0.05
+    industrial_capacity_factory = 0.05
+    }
+	}
+	
+	OLD_Non_existent_Army = {
+    
+	picture =  OLD_Non-existent_Army
+	
+	allowed = {tag = OLD
+	}
+	
+	modifier = { 
+	            army_attack_factor = -0.15
+				army_defence_factor = -0.15
+				army_org_factor = -0.12
+				army_morale_factor = -0.15
+                production_factory_start_efficiency_factor = -0.02
+                stability_factor = -0.01
+     }
+	  }
+	
+    
+    
+ }
+}
