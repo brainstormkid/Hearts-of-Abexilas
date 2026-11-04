@@ -64,6 +64,67 @@ focus_tree = {
 			add_stability = 0.01
 		}
 	}
+	
+	#The Maravillans
+	focus = {
+		id = GEH_beginning_4
+		icon = GFX_GEH_prepare_for_the_cold_war-412
+		x = 0
+		y = 1
+		cost = 1
+		
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = GEH_beginning_3
+		prerequisite = { focus = GEH_beginning_3  }
+		ai_will_do = { factor = 100 }
+		completion_reward = {
+
+			add_stability = 0.01
+		}
+	}
+	
+	#The Las Videns
+	focus = {
+		id = GEH_beginning_5
+		icon = GFX_GEH_prepare_for_the_cold_war-412
+		x = 0
+		y = 1
+		cost = 1
+		
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = GEH_beginning_4
+		prerequisite = { focus = GEH_beginning_4  }
+		ai_will_do = { factor = 100 }
+		completion_reward = {
+
+			add_stability = 0.01
+		}
+	}
+	
+	#Dreams of Conquest
+	focus = {
+		id = GEH_beginning_6
+		icon = GFX_GEH_prepare_for_the_cold_war-412
+		x = 0
+		y = 1
+		cost = 1
+		
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = GEH_beginning_5
+		prerequisite = { focus = GEH_beginning_5  }
+		ai_will_do = { factor = 100 }
+		completion_reward = {
+
+			add_stability = 0.01
+		}
+	}
+	
 	###Left Branch - beginning
 	#Prepare for the Cold War
 	focus = {

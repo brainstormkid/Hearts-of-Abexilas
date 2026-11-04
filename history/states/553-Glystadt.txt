@@ -18,13 +18,13 @@ state={
 		coal = 3
 	}
 	history={
-		owner = ZAM
+		owner = VAD
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 2
 			arms_factory = 1
 		}
-		add_core_of = ZAM
+		add_core_of = VAD
 		victory_points = { 11176 20 }
 	}
 }

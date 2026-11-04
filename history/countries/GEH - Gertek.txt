@@ -28,7 +28,7 @@ set_popularities = {
 set_party_name = {
 	ideology = imperialist
 	name = "The Gerteki Khanate"
-	long_name = "High Command of the Gerteki Khanate"
+	long_name = "High Council of the Gerteki Khanate"
 }
 
 set_party_name = {
