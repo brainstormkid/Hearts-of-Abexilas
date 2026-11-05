@@ -1,0 +1,30 @@
+state={
+	id=1432
+	name="STATE_1432" #Jelipolis
+	provinces={
+		10270 10306 10344
+	}
+	buildings_max_level_factor=1.000
+    resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+        state_category = town
+        manpower=750000
+		local_supplies = 5
+	history={
+		owner = WOL
+		add_core_of = ARS
+		add_core_of = WOL
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+		}
+		victory_points = { 10306 10 } #Jelipolis
+	}
+}

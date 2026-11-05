@@ -1,12 +1,11 @@
 state={
 	id=1376
-	name="STATE_1376"
+	name="STATE_1376" #Nova Dhonya
 	provinces={
-		629 2227 2742 3741 6944 11649 11762 
+		629 2227 2742 2767 3403 3741 6581 6944 11649 11742 11762 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +14,15 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
-	history = {
+        state_category = rural
+        manpower=1050000
+		local_supplies = 3
+	history={
 		owner = MIC
-		buildings = {
-		}
 		add_core_of = MIC
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 11649 20 } #Nova Dhonya
 	}
 }
