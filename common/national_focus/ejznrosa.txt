@@ -1088,6 +1088,7 @@ focus_tree = {
 		prerequisite = { focus = EJZ_war_ministries  }
 		completion_reward = {
 			add_political_power = 25
+			custom_effect_tooltip = EJZ_propaganda_ministry_tip
 		}
 	}
 
