@@ -26,6 +26,12 @@ create_country_leader = {
 set_convoys = 40
 
 set_research_slots = 3
+
+set_autonomy = {
+	target = VOZ
+	autonomous_state = autonomy_puppet
+}
+
 add_ideas = {
 	# Government Ideas
 	autocracy
