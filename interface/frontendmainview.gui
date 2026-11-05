@@ -688,7 +688,7 @@ guiTypes = {
 			quadTextureSprite ="youtube"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_YOUTUBE2"
-			web_link = "https://www.youtube.com/@fuchsifyl3077"
+			web_link = "https://www.youtube.com/@fuchsify"
 			scale = 0.9
 		}
 
