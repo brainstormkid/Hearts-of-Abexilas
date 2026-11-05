@@ -45,9 +45,9 @@ focus_tree = {
 		}
 	}
 
-	#Tyrosi Migration
+	#
 	focus = {
-		id = ZAM_zamotz_agreement
+		id = ZAM_buy_VAD
 		icon = GFX_GEH_zamotz_agreement-645950
 		x = 2
 		y = 2
@@ -74,9 +74,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		relative_position_id = ZAM_zamotz_agreement
-		prerequisite = { focus = ZAM_zamotz_agreement  }
-		prerequisite = { focus = ZAM_buy_VAD focus = ZAM_valdic_allies }
+		relative_position_id = ZAM_buy_VAD
+		prerequisite = { focus = ZAM_buy_VAD  }
+		prerequisite = { focus = ZAM_develop_shirokaneza focus = ZAM_develop_cities }
 		prerequisite = { focus = ZAM_unitas_adramidis focus = ZAM_unitatis_pro_gente }
 		ai_will_do = { factor = 100 }
 		completion_reward = {
@@ -84,7 +84,7 @@ focus_tree = {
 		}
 	}
 
-	#The Many Cities
+	#
 	focus = {
 		id = ZAM_maravilla_agreement
 		icon = GFX_focus_generic_diplomatic_treaty
@@ -94,9 +94,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		relative_position_id = ZAM_zamotz_agreement
-		prerequisite = { focus = ZAM_zamotz_agreement  }
-		prerequisite = { focus = ZAM_buy_VAD focus = ZAM_valdic_allies }
+		relative_position_id = ZAM_buy_VAD
+		prerequisite = { focus = ZAM_buy_VAD  }
+		prerequisite = { focus = ZAM_develop_shirokaneza focus = ZAM_develop_cities }
 		prerequisite = { focus = ZAM_unitas_adramidis focus = ZAM_unitatis_pro_gente }
 		
 		ai_will_do = { factor = 100 }
@@ -144,9 +144,9 @@ focus_tree = {
 		}
 	}
 	
-	#But the Valdic claim
+	#The Many Cities
 	focus = {
-		id = ZAM_buy_VAD
+		id = ZAM_develop_cities
 		icon = GFX_goal_generic_major_alliance
 		x = 3
 		y = 2
@@ -155,7 +155,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		relative_position_id = ZAM_the_first_congress
-		mutually_exclusive  = { focus = ZAM_valdic_allies }
+		mutually_exclusive  = { focus = ZAM_develop_shirokaneza }
 		ai_will_do = { factor = 100 }
 		prerequisite = { focus = ZAM_the_first_congress  }
 		completion_reward = {
@@ -163,9 +163,9 @@ focus_tree = {
 		}
 	}
 	
-	#Let the Valdic Union hold the land for a natspirit, but we will be able to buy it (at a higher price) later
+	#Develop shirokaneza
 	focus = {
-		id = ZAM_valdic_allies
+		id = ZAM_develop_shirokaneza
 		icon = GFX_goal_generic_major_alliance
 		x = 5
 		y = 2
@@ -174,11 +174,235 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		relative_position_id = ZAM_the_first_congress
-		mutually_exclusive  = { focus = ZAM_buy_VAD }
+		mutually_exclusive  = { focus = ZAM_develop_cities }
 		ai_will_do = { factor = 100 }
 		prerequisite = { focus = ZAM_the_first_congress  }
 		completion_reward = {
 			
 		}
 	}
+
+	
+	#Left branch
+	
+	#no army
+	focus = {
+		id = ZAM_army_issue
+		icon = GFX_goal_generic_major_alliance
+		x = 5
+		y = 2
+		cost = 25
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ZAM_the_first_congress
+		
+		ai_will_do = { factor = 100 }
+		prerequisite = { focus = ZAM_the_first_congress  }
+		completion_reward = {
+			
+		}
+	}
+	
+	#reform claim rushers
+	focus = {
+		id = ZAM_claim_rushers
+		icon = GFX_goal_generic_major_alliance
+		x = 5
+		y = 2
+		cost = 25
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ZAM_the_first_congress
+		
+		ai_will_do = { factor = 100 }
+		prerequisite = { focus = ZAM_the_first_congress  }
+		completion_reward = {
+			
+		}
+	}
+	
+	#focus on ourselves
+	focus = {
+		id = ZAM_focus_defence
+		icon = GFX_goal_generic_major_alliance
+		x = 5
+		y = 2
+		cost = 25
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ZAM_the_first_congress
+		ai_will_do = { factor = 100 }
+		prerequisite = { focus = ZAM_the_first_congress  }
+		completion_reward = {
+			
+		}
+	}
+	
+	#militia initiative
+	focus = {
+		id = ZAM_city_militia
+		icon = GFX_goal_generic_major_alliance
+		x = 5
+		y = 2
+		cost = 25
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ZAM_the_first_congress
+		ai_will_do = { factor = 100 }
+		prerequisite = { focus = ZAM_the_first_congress  }
+		completion_reward = {
+			
+		}
+	}
+	
+	#focus on gertek
+	focus = {
+		id = ZAM_focus_gertek
+		icon = GFX_goal_generic_major_alliance
+		x = 5
+		y = 2
+		cost = 25
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ZAM_the_first_congress
+		ai_will_do = { factor = 100 }
+		prerequisite = { focus = ZAM_the_first_congress  }
+		completion_reward = {
+			
+		}
+	}
+	
+	#focus on QC
+	focus = {
+		id = ZAM_focus_qc
+		icon = GFX_goal_generic_major_alliance
+		x = 5
+		y = 2
+		cost = 25
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ZAM_the_first_congress
+		ai_will_do = { factor = 100 }
+		prerequisite = { focus = ZAM_the_first_congress  }
+		completion_reward = {
+			
+		}
+	}
+	
+	###Right branch
+	
+	#The Great Golden Crash
+	focus = {
+		id = ZAM_GGC_1
+		icon = GFX_goal_generic_major_alliance
+		x = 5
+		y = 2
+		cost = 25
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ZAM_the_first_congress
+		ai_will_do = { factor = 100 }
+		prerequisite = { focus = ZAM_the_first_congress  }
+		completion_reward = {
+			
+		}
+	}
+	
+	#Wait, we're poor! This doesn't concern us this much!
+	focus = {
+		id = ZAM_GGC_2
+		icon = GFX_goal_generic_major_alliance
+		x = 5
+		y = 2
+		cost = 25
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ZAM_the_first_congress
+		ai_will_do = { factor = 100 }
+		prerequisite = { focus = ZAM_the_first_congress  }
+		completion_reward = {
+			
+		}
+	}
+	
+	#Tyrosi expat gold
+	focus = {
+		id = ZAM_GGC_tyrosi_help
+		icon = GFX_goal_generic_major_alliance
+		x = 5
+		y = 2
+		cost = 25
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ZAM_the_first_congress
+		ai_will_do = { factor = 100 }
+		prerequisite = { focus = ZAM_the_first_congress  }
+		completion_reward = {
+			
+		}
+	}
+	
+	#Shirokanezan Help
+	focus = {
+		id = ZAM_GGC_shiro_help
+		icon = GFX_goal_generic_major_alliance
+		x = 5
+		y = 2
+		cost = 25
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ZAM_the_first_congress
+		ai_will_do = { factor = 100 }
+		prerequisite = { focus = ZAM_the_first_congress  }
+		completion_reward = {
+			
+		}
+	}
+	
+	#Velarim Help
+	focus = {
+		id = ZAM_GGC_Velarim_help
+		icon = GFX_goal_generic_major_alliance
+		x = 5
+		y = 2
+		cost = 25
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ZAM_the_first_congress
+		ai_will_do = { factor = 100 }
+		prerequisite = { focus = ZAM_the_first_congress  }
+		completion_reward = {
+			
+		}
+	}
+	
+	#A Zamotzi economy
+	focus = {
+		id = ZAM_actual_economy
+		icon = GFX_goal_generic_major_alliance
+		x = 5
+		y = 2
+		cost = 25
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ZAM_the_first_congress
+		ai_will_do = { factor = 100 }
+		prerequisite = { focus = ZAM_the_first_congress  }
+		completion_reward = {
+			
+		}
+	}
+	
 }

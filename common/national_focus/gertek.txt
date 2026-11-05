@@ -22,7 +22,7 @@ focus_tree = {
 		ai_will_do = { factor = 100 }
 		completion_reward = {
 
-			add_stability = 0.01
+			country_event = gertek.1
 		}
 	}
 	
@@ -41,7 +41,7 @@ focus_tree = {
 		prerequisite = { focus = GEH_beginning_1  }
 		completion_reward = {
 
-			add_stability = 0.01
+			country_event = gertek.2
 		}
 	}
 	
@@ -61,7 +61,7 @@ focus_tree = {
 		ai_will_do = { factor = 100 }
 		completion_reward = {
 
-			add_stability = 0.01
+			country_event = gertek.3
 		}
 	}
 	
@@ -71,7 +71,7 @@ focus_tree = {
 		icon = GFX_GEH_prepare_for_the_cold_war-412
 		x = 0
 		y = 1
-		cost = 1
+		cost = 4
 		
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -81,7 +81,7 @@ focus_tree = {
 		ai_will_do = { factor = 100 }
 		completion_reward = {
 
-			add_stability = 0.01
+			country_event = gertek.4
 		}
 	}
 	
@@ -91,7 +91,7 @@ focus_tree = {
 		icon = GFX_GEH_prepare_for_the_cold_war-412
 		x = 0
 		y = 1
-		cost = 1
+		cost = 4
 		
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -101,7 +101,7 @@ focus_tree = {
 		ai_will_do = { factor = 100 }
 		completion_reward = {
 
-			add_stability = 0.01
+			country_event = gertek.5
 		}
 	}
 	
@@ -111,7 +111,7 @@ focus_tree = {
 		icon = GFX_GEH_prepare_for_the_cold_war-412
 		x = 0
 		y = 1
-		cost = 1
+		cost = 4
 		
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -121,7 +121,8 @@ focus_tree = {
 		ai_will_do = { factor = 100 }
 		completion_reward = {
 
-			add_stability = 0.01
+			add_war_support = 0.05
+			country_event = gertek.6
 		}
 	}
 	
@@ -132,7 +133,7 @@ focus_tree = {
 		icon = GFX_GEH_prepare_for_the_cold_war-412
 		x = -4
 		y = 1
-		cost = 3
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -140,7 +141,7 @@ focus_tree = {
 		prerequisite = { focus = GEH_beginning_3  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			add_war_support = 0.1
 		}
 	}
 
@@ -215,7 +216,7 @@ focus_tree = {
 		relative_position_id = GEH_strengthen_the_military
 		prerequisite = { focus = GEH_strengthen_the_military  }
 		completion_reward = {
-			
+			add_ideas = militarism
 		}
 	}
 
@@ -232,7 +233,8 @@ focus_tree = {
 		relative_position_id = GEH_prepare_for_the_cold_war
 		prerequisite = { focus = GEH_prepare_for_the_cold_war  }
 		completion_reward = {
-			
+			add_popularity = { ideology = imperialist popularity = 0.1 }
+			add_stability = 0.05
 		}
 	}
 
@@ -242,14 +244,14 @@ focus_tree = {
 		icon = GFX_GEH_restabilize_the_government-645493
 		x = 0
 		y = 1
-		cost = 5
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
 		relative_position_id = GEH_strengthen_the_khan
 		prerequisite = { focus = GEH_strengthen_the_khan  }
 		completion_reward = {
-			
+			remove_ideas = GEH_chaotic_leadership
 		}
 	}
 	
@@ -259,7 +261,7 @@ focus_tree = {
 		icon = GFX_GEH_zamotz_agreement-645950
 		x = -1
 		y = 1
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
@@ -270,8 +272,13 @@ focus_tree = {
 		mutually_exclusive  = { focus = GEH_focus_ourselves }
 		ai_will_do = { factor = 10 }
 		completion_reward = {
-			
+			QYN = {
+				add_days_mission_timeout = {
+					mission = ACW_incoming_collapse
+					days = -25
+				}
 			}
+		}
 	}
 
 	#Focus on ourselves
@@ -280,7 +287,7 @@ focus_tree = {
 		icon = GFX_GEH_velarim_agreement-427
 		x = 1
 		y = 1
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
@@ -291,8 +298,13 @@ focus_tree = {
 		mutually_exclusive  = { focus = GEH_focus_zamotz }
 		ai_will_do = { factor = 10 }
 		completion_reward = {
-			
+			add_stability = 0.05
+			add_popularity = { ideology = imperialist popularity = 0.05 }
+			add_days_mission_timeout = {
+				mission = ACW_incoming_collapse
+				days = 15
 			}
+		}
 	}
 
 	#Focus on Zamotz
@@ -301,7 +313,7 @@ focus_tree = {
 		icon = GFX_focus_generic_diplomatic_treaty
 		x = 3
 		y = 1
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
@@ -312,7 +324,12 @@ focus_tree = {
 		mutually_exclusive  = { focus = GEH_focus_ourselves }
 		ai_will_do = { factor = 100 }
 		completion_reward = {
-			
+			ZAM = {
+				add_days_mission_timeout = {
+					mission = ACW_incoming_collapse
+					days = -25
+				}
+			}
 		}
 	}
 
@@ -331,8 +348,15 @@ focus_tree = {
 		relative_position_id = GEH_beginning_3
 		prerequisite = { focus = GEH_beginning_3  }
 		ai_will_do = { factor = 100 }
+		available = {
+			has_idea = economic_collapse
+		}
+		
 		completion_reward = {
-
+			swap_ideas = {
+				add_idea = economic_collapse_1
+				remove_idea = economic_collapse
+			}
 		}
 	}
 
@@ -342,7 +366,7 @@ focus_tree = {
 		icon = GFX_goal_continuous_increase_nu
 		x = 0
 		y = 1
-		cost = 5
+		cost = 7
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -350,9 +374,12 @@ focus_tree = {
 		prerequisite = { focus = GEH_great_gold_crash  }
 		ai_will_do = { factor = 10 }
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = economic_collapse_2
+				remove_idea = economic_collapse_1
 			}
 		}
+	}
 	
 
 	#GGC 2 -traditionalist support
@@ -369,8 +396,21 @@ focus_tree = {
 		prerequisite = { focus = GEH_great_gold_crash_2  }
 		ai_will_do = { factor = 10 }
 		completion_reward = {
-			
+			add_popularity = { ideology = absolutist popularity = 0.1 }
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
 			}
+		}
 	}
 
 	#GGC 3 -Ich helpers
@@ -387,8 +427,13 @@ focus_tree = {
 		prerequisite = { focus = GEH_great_gold_crash_2  }
 		ai_will_do = { factor = 10 }
 		completion_reward = {
-			
+			add_popularity = { ideology = accelerationist popularity = 0.1 }
+			remove_ideas = GEH_iskai_plains_payment
+			ERI = {
+				remove_ideas = ERI_gertek_payments
 			}
+			custom_effect_tooltip = "We will not be able to trade with the Maharians and DonFuer in the future." 
+		}
 	}
 
 	#Maravilla Natives Agreement
@@ -405,7 +450,8 @@ focus_tree = {
 		prerequisite = { focus = GEH_great_gold_crash_2  }
 		ai_will_do = { factor = 100 }
 		completion_reward = {
-			
+			add_popularity = { ideology = monarchist popularity = 0.1 }
+			add_ideas = low_economic_mobilisation
 		}
 	}
 
@@ -423,9 +469,7 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		prerequisite = { focus = GEH_maravilla_agreement focus = GEH_ich_followers focus = GEH_great_gold_crash_3  }
 		completion_reward = {
-			hidden_effect = {
-				
-			}
+			remove_ideas = economic_collapse_2
 		}
 	}
 
@@ -443,7 +487,21 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		prerequisite = { focus = GEH_an_actual_economy  }
 		completion_reward = {
-		
+			custom_effect_tooltip = "We will start a border war between Nebula Valley and New Aeston!" 
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 50
+				attacker = {
+					state = 814
+					num_provinces = 2
+					on_win = MYTAG_border_war.1
+					on_lose = MYTAG_border_war.2
+				}
+				defender = {
+					state = 476
+					num_provinces = 2
+				}
+			}
 		}
 	}
 
