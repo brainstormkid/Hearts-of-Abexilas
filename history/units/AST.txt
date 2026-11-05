@@ -105,20 +105,6 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
-	division = {
-		name = "1st Squatter Calvary"
-		location = 10306
-		division_template = "Cavalry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "2nd Squatter Calvary"
-		location = 10381
-		division_template = "Cavalry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
 }
 
 #####################
