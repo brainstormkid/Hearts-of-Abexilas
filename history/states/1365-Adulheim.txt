@@ -5,7 +5,7 @@ state={
 		2649 2771 2953 3176 3302 4282 5498 5747 11787 11809 11814 11836 11837
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=1050000
 		resources = {
 		oil = 2
 		aluminium = 2
@@ -16,10 +16,14 @@ state={
 		coal = 3
 	}
         state_category = town
+		local_supplies = 3
 	history={
 		owner = MIC
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
 		}
 		add_core_of = MIC
+		victory_points = {5747 10}
 	}
 }
