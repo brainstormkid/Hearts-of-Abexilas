@@ -5,7 +5,7 @@ state={
 		11595 11617 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1800000
+        manpower=300000
 		resources = {
 		oil = 2
 		aluminium = 2
@@ -24,6 +24,5 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = KRU
-		victory_points = {11617 10}
 	}
 }
