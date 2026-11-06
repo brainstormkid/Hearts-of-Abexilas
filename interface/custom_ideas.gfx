@@ -765,9 +765,19 @@ spriteTypes = {
 		textureFile = "gfx/interface/ideas/idea_paradise_itself.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_shadows_of_three_powers"
+		textureFile = "gfx/interface/ideas/idea_shadows_of_three_powers.dds"
+	}
+
+	spriteType = {
 		name = "GFX_idea_gertek_shadow"
 		textureFile = "gfx/interface/ideas/idea_gertek_shadow.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_fragmented_provinces"
+		textureFile = "gfx/interface/ideas/idea_fragmented_provinces.dds"
+	}
+
 	spriteType = {
 		name = "GFX_idea_dev_phase_1"
 		textureFile = "gfx/interface/ideas/idea_dev_phase_1.dds"

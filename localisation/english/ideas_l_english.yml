@@ -62,6 +62,10 @@
  PAR_scars_artaine_desc:0 "The collapse of Artaine has left our people disillusioned with the promises of kings and governments. Betrayal, political incompetence, and foreign interference have destroyed what was once believed to be a promising kingdom. Though Paraíso has emerged from its ruins, the wounds of Artaine remain."
  PAR_kingdom_without_confidence:0 "A Kingdom Without Confidence"
  PAR_kingdom_without_confidence_desc:0 "Our citizens have witnessed the failure of one kingdom and the uncertain birth of another. Many question whether Paraíso will survive where Artaine could not. Until the Crown proves itself capable of governing, confidence in the monarchy will remain dangerously low."
+ PAR_shadows_of_three_powers:0 "The Shadows of Three Powers"
+ PAR_shadows_of_three_powers_desc:0 "Beyond our borders stand three powers whose ambitions threaten the future of Paraíso. Zamotz, Qynthos, and Gertek possess influence and resources far beyond our own, leaving our kingdom vulnerable to foreign pressure. We must tread carefully, for a single diplomatic mistake could cost us our independence."
+ PAR_fragmented_provinces:0 "The Fragmented Provinces"
+ PAR_fragmented_provinces_desc:0 "The territories that now constitute Paraíso were once governed under different authorities and arrangements. Their interests remain divided, and communication between settlements is unreliable. A unified kingdom cannot survive without a functioning administration."
 
  COV_no_local_control:0 "No Local Control"
  COV_no_local_control_desc:0 "Our western provinces are lawless, Estatenne is basically ruling itself and the less said about the men in Hogham, Koqutenn and Kaitahu the better."
