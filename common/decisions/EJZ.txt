@@ -719,8 +719,15 @@ EJZ_valora_war = {
 			711 = {
 				is_controlled_by_ROOT_or_ally =  yes
 			}
-			740 = {
+			if = {
+				limit = {
+					740 = {
+						is_controlled_by = VAL
+					}
+				}
+				740 = {
 				is_controlled_by_ROOT_or_ally =  yes
+				}
 			}
 		}
 		activation = {
