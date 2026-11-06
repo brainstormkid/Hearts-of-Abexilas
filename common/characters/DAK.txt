@@ -1,0 +1,17 @@
+characters={
+    DAK_Praetor_Duck_E._Daekian = {
+        name="Praetor Duck E. Daekian"
+        portraits={
+            civilian={
+                large="GFX_portrait_EJZ_praetor_duck_e_daekian_large"
+            }
+        }
+        country_leader={
+            ideology=monarchist_subtype
+            traits= {}
+            desc = POLITICS_PRAETOR_DESC
+        }
+    }
+ }
+
+

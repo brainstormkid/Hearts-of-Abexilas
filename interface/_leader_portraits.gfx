@@ -302,6 +302,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/EJZ/portrait_small_aclulf_rednerfürst.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_EJZ_praetor_duck_e_daekian_large"
+		texturefile = "gfx/leaders/EJZ/portrait_large_praetor_duck_e_daekian.dds"
+	}	
+	spriteType = {
 		name = "GFX_portrait_EJZ_praetor_duck_e_daekian_small"
 		texturefile = "gfx/leaders/EJZ/portrait_small_praetor_duck_e_daekian.dds"
 	}	

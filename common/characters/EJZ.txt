@@ -351,6 +351,9 @@ characters={
                 1176 = {
                 is_owned_by = EJZ
                 }
+                NOT = {
+                    country_exists = DAK
+                }
                 has_completed_focus = EJZ_civilian_ministries
             }
             traits = { head_of_culture }
