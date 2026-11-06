@@ -1,4 +1,14 @@
 ﻿l_english:
+ #Vozdravija
+ VOZ_xeroist_party:0 "XSWP"
+ VOZ_xeroist_party_long:0 "Xeroist Socialist Worker's Party"
+ VOZ_liberalist_party:0 "AoLD"
+ VOZ_liberalist_party_long:0 "Alliance of Liberal Democrats"
+ VOZ_conservatist_party:0 "TTR"
+ VOZ_conservatist_party_long:0 "Twelve Times Rich"
+ VOZ_monarchist_party:0 "NRP"
+ VOZ_monarchist_party_long:0 "National Restoration Party"
+
  #Myrtana
  MYR_monarchist_party:0 "Royal House of Rune"
  MYR_monarchist_party_long:0 "Royal House of Rune"

@@ -1,0 +1,29 @@
+state={
+	id=1440
+	name="STATE_1440" #Falgoden
+	provinces={
+		173 2763 11563
+	}
+	buildings_max_level_factor=1.000
+    resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+        state_category = town
+        manpower=1500000
+		local_supplies = 2.5
+	history={
+		owner = MIC
+		add_core_of = MIC
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+		}
+		victory_points = { 2763 20 } #Falgoden
+	}
+}

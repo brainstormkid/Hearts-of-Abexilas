@@ -1,0 +1,29 @@
+state={
+	id=1438
+	name="STATE_1438" #SpawnShop
+	provinces={
+		4730 11209 11255
+	}
+	buildings_max_level_factor=1.000
+    resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+        state_category = town
+        manpower=1200000
+		local_supplies = 2.5
+	history={
+		owner = PRI
+		add_core_of = PRI
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+		}
+		victory_points = { 4730 20 } #SpawnShop
+	}
+}

@@ -2,7 +2,7 @@ state={
 	id=407
 	name="STATE_407"
 	provinces={
-		44 3465 10243 10270 10279 10288 10306 10313 10335 10344 10381
+		44 3465 10243 10279 10288 10313 10335
 	}
 	buildings_max_level_factor=1.000
     resources = {
@@ -15,7 +15,7 @@ state={
 		coal = 3
 	}
         state_category = large_city
-        manpower=2850000
+        manpower=1800000
 		local_supplies = 6
 	history={
 		owner = AST
@@ -28,12 +28,7 @@ state={
 			10306 = {
 				naval_base = 1
 			}
-			10381 = {
-				naval_base = 1
-			}
 		}
 		victory_points = { 44 20 }
-		victory_points = { 10306 10 }
-		victory_points = { 10381 10 }
 	}
 }

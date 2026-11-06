@@ -93,7 +93,7 @@ units = {
 	}
 	division = {
 		name = "3rd Zamotzian Guards"
-		location = 11176
+		location = 10734
 		division_template = "Guard Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0

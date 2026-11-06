@@ -1,0 +1,30 @@
+state={
+	id=1434
+	name="STATE_1434" #West Hanasaki
+	provinces={
+		523 10352
+	}
+	buildings_max_level_factor=1.000
+    resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+        state_category = enclave
+        manpower=75000
+		local_supplies = 5
+	history={
+		owner = SIN
+		add_core_of = SIN
+		add_core_of = WOL
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}
+
+### For future expanding

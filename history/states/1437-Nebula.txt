@@ -1,0 +1,28 @@
+state={
+	id=1437
+	name="STATE_1437" #Nebula
+	provinces={
+		11677
+	}
+	buildings_max_level_factor=1.000
+    resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+        state_category = rural
+        manpower=600000
+		local_supplies = 2.5
+	history={
+		owner = CAA
+		add_core_of = CAA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 11677 10 } #Nebula
+	}
+}

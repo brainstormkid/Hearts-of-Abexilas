@@ -1,12 +1,11 @@
 state={
 	id=655
-	name="STATE_655"
+	name="STATE_655" #Vanaheimr
 	provinces={
 		11819 11847 11857 11875 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -16,10 +15,15 @@ state={
 		coal = 3
 	}
         state_category = town
+        manpower=150000
+		local_supplies = 2.5
 	history={
 		owner = SKU
-		buildings = {
-		}
 		add_core_of = SKU
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = { 11847 5 } #Vanaheimr
 	}
 }

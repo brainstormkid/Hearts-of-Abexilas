@@ -1,4 +1,6 @@
-﻿capital = 1
+﻿capital = 1403
+
+oob = "SIO"
 
 set_politics = {
 	ruling_party = absolutist
@@ -21,6 +23,7 @@ create_country_leader = {
 	}
 }
 
+set_convoys = 20
 set_research_slots = 3
 add_ideas = {
 	# Government Ideas

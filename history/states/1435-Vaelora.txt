@@ -1,0 +1,29 @@
+state={
+	id=1435
+	name="STATE_1435" #Vaelora
+	provinces={
+		3001 4605 11939 11960 11982 12017
+	}
+	buildings_max_level_factor=1.000
+    resources = {
+		oil = 2
+		aluminium = 2
+		steel = 3
+		rubber = 2
+		tungsten = 1
+		chromium = 2
+		coal = 3
+	}
+        state_category = town
+        manpower=450000
+		local_supplies = 2.5
+	history={
+		owner = SKU
+		add_core_of = SKU
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+		}
+		victory_points = { 4605 10 } #Vaelora
+	}
+}

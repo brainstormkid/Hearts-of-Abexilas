@@ -1,12 +1,11 @@
 state={
 	id=688
-	name="STATE_688"
+	name="STATE_688" #Sverðzal
 	provinces={
 		2210 12027 12099 23228
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +14,15 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+        state_category = pastoral
+        manpower=300000
+		local_supplies = 0.5
 	history={
 		owner = SKU
-		buildings = {
-		}
 		add_core_of = SKU
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 2210 5 } #Sverðzal
 	}
 }

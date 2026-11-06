@@ -1,12 +1,11 @@
 state={
 	id=1403
-	name="STATE_1403"
+	name="STATE_1403" #Ponteris
 	provinces={
-		425 665 767 2910 3374 3403 3794 3817 3891 4061 4255 4647 5476 6288 6418 11291 11342 11361 11394 11402 11437 11445 11446 11466 11472 11489 11505 11506 11519 11525 
+		425 665 767 2910 3374 3794 3817 3891 4255 4647 5476 6288 6418 11291 11342 11361 11394 11402 11437 11445 11446 11466 11472 11489 11505 11506 11519 11525 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-		resources = {
+    resources = {
 		oil = 2
 		aluminium = 2
 		steel = 3
@@ -15,11 +14,18 @@ state={
 		chromium = 2
 		coal = 3
 	}
-        state_category = town
+        state_category = large_city
+        manpower=5550000
+		local_supplies = 6
 	history={
 		owner = SIO
-		buildings = {
-		}
 		add_core_of = SIO
+		buildings = {
+			industrial_complex = 3
+			infrastructure = 3
+			arms_factory = 1
+		}
+		victory_points = { 6288 50 } #Ponteris
+		victory_points = { 665 10 } #Lazarus
 	}
 }

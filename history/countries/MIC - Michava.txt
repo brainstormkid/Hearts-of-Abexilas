@@ -23,7 +23,7 @@ create_country_leader = {
 	}
 }
 
-set_convoys = 10
+set_convoys = 45
 
 set_research_slots = 3
 add_ideas = {
