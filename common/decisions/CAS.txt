@@ -1,0 +1,20 @@
+#Category only allowed for CAS
+CAS_Andorn_Crisis_Category = {
+
+	CAS_Andorn_Crisis = {
+
+		icon = generic_ignite_civil_war
+		
+		available = {
+		    always  = no
+		}
+
+		days_mission_timeout = 70
+		fire_only_once = yes
+
+		timeout_effect = {
+			country_event = { id = castanor.7 }
+		}
+	}
+}
+

@@ -34,6 +34,11 @@ UNITED_USA = {
 	color_ui = rgb { 23 56 129 }
 }
 
+ANDORN = {
+	color = rgb { 232 136 19 }
+    color_ui = rgb { 232 136 19 }
+}
+
 # Formables
 MAR_BLO = {
 	color = rgb { 174  62  216 }

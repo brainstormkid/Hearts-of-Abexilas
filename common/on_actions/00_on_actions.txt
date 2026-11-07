@@ -26,6 +26,12 @@ on_actions = {
 					days = 224
 				}
 			}
+			CAS = { 
+				country_event = {
+					id = castanor.1 
+					days = 294 
+				}
+			} 
 		}
 	}
 	on_war = {

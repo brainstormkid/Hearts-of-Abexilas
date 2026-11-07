@@ -1,0 +1,183 @@
+add_namespace = castanor
+
+#Lucius von Savras arrives
+country_event = {
+	id = castanor.1
+	title = castanor.1.t
+	desc = castanor.1.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = castanor.1.a.1
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = castanor.1.a.2
+		recruit_character = CAS_Lucius
+		hidden_effect - {
+			country_event = {
+				id = castanor.2
+				days = 294 
+			}
+		} 
+	}
+}
+
+#Patch arrives
+country_event = {
+	id = castanor.2
+	title = castanor.2.t
+	desc = castanor.2.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = castanor.1.a.1
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = castanor.2.a.1
+		recruit_character = CAS_Patchr
+		hidden_effect = {
+			country_event = {
+				id = castanor.3
+				days = 14
+			}
+		}
+	}
+}
+
+#Arrival of the von Savras Family
+country_event = {
+	id = castanor.3
+	title = castanor.3.t
+	desc = castanor.3.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = castanor.3.a.1
+		recruit_character = CAS_Kasumi
+		recruit_character = CAS_Lerf
+		recruit_character = CAS_Cerul
+		recruit_character = CAS_Hernicii
+		recruit_character = CAS_Otto
+		recruit_character = CAS_Adrian
+		recruit_character = CAS_Realz
+		recruit_character = CAS_Wilhelm
+		hidden_effect = {
+			country_event = {
+				id = castanor.4
+				days = 14
+			}
+		}
+	}
+}
+
+#Arrival of Andornian Nobility
+country_event = {
+	id = castanor.4
+	title = castanor.4.t
+	desc = castanor.4.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = castanor.4.a.1
+		recruit_character = CAS_skhorse
+		recruit_character = CAS_duel123
+		recruit_character = CAS_lagg
+		hidden_effect = {
+			activate_decision = CAS_Andorn_Crisis
+		}
+	}
+}
+
+#Andorn Crisis Success
+country_event = {
+	id = castanor.5
+	title = castanor.5.t
+	desc = castanor.5.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = castanor.5.a.1
+		kill_country_leader = yes
+		set_politics = {
+			ruling_party = monarchist
+			elections_allowed = no
+			long_name = CAS_andorn_long
+			name = CAS_andorn
+		}
+		set_political_party = {
+			ideology = monarchist
+			popularity = 100
+		}
+		add_country_leader_role = {
+			character = CAS_Lucius
+			promote_leader = yes
+		}
+		hidden_effect = {
+			country_event = {
+				id = castanor.6
+			}
+		}
+	}
+}
+
+#Empire of Andorn
+country_event = {
+	id = castanor.6
+	title = castanor.6.t
+	desc = castanor.6.d
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = castanor.6.a.1
+		set_cosmetic_tag = ANDORN
+		hidden_effect = {
+			load_focus_tree = andorn_focus
+			set_country_flag = andorn
+		}
+	}
+}
+
+#Andorn Crisis Failure
+country_event = {
+	id = castanor.7
+	title = castanor.7.t
+	desc = castanor.7.d
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = castanor.7.a.1
+		retire_character = CAS_Lucius
+		retire_character = CAS_Patchr
+		retire_character = CAS_Kasumi
+		retire_character = CAS_Lerf
+		retire_character = CAS_Cerul
+		retire_character = CAS_Hernicii
+		retire_character = CAS_Otto
+		retire_character = CAS_Adrian
+		retire_character = CAS_Realz
+		retire_character = CAS_Wilhelm
+		retire_character = CAS_skhorse
+		retire_character = CAS_duel123
+		retire_character = CAS_lagg
+	}
+}

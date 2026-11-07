@@ -67,3 +67,6 @@
  DAK_EJZ_autonomy_colony_DEF:0 "The Grand Duchy of Daekia"
  DAK_EJZ_autonomy_puppet_DEF:0 "The Grand Duchy of Daekia"
  DAK_EJZ_autonomy_integrated_puppet_DEF:0 "The Grand Duchy of Daekia"
+ ANDORN:0 "Empire of Andorn" 
+ ANDORN_DEF:1 "The Empire of Andorn"
+ ANDORN_ADJ:0 "Andornian"

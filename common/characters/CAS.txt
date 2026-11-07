@@ -1,0 +1,217 @@
+characters={
+	CAS_Lucius={
+		name = CAS_Lucius
+		portraits={
+			civilian={
+				large="gfx/leaders/CAS/lucius.dds"
+				small="GFX_idea_lucius"
+			}
+		}
+		country_leader={
+            ideology=monarchist
+            traits= { 
+			
+			}
+            desc = POLITICS_LUCIUS_DESC
+        }
+		advisor={
+			slot = political_advisor
+			idea_token = lucius
+			traits = {
+				 
+			}
+		}
+	}
+	CAS_patchr={ 
+		name = CAS_Patchr
+		portraits={
+			civilian={
+				large="gfx/leaders/CAS/patchr.dds"
+				small="GFX_idea_patchr"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = patchr
+			traits = {
+				 
+			}
+		}
+	}
+	CAS_Kasumi={ 
+		name = CAS_Kasumi
+		portraits={
+			civilian={
+				large="gfx/leaders/CAS/kasumi.dds"
+				small="GFX_idea_kasumi"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = kasumi
+			traits = {
+				 
+			}
+		}
+	}
+	CAS_Lerf={ 
+		name = CAS_Lerf
+		portraits={
+			army={
+				large="gfx/leaders/CAS/lerf.dds"
+				small="GFX_idea_lerf"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = lerf
+			traits = {
+				 
+			}
+		}
+	}
+	CAS_Cerul={ 
+		name = CAS_Cerul
+		portraits={
+			army={
+				large="gfx/leaders/CAS/cerul.dds"
+				small="GFX_idea_cerul"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = cerul
+			traits = {
+				 
+			}
+		}
+	}
+	CAS_Hernicii={ 
+		name = CAS_Hernicii
+		portraits={
+			army={
+				large="gfx/leaders/CAS/hernicii.dds"
+				small="GFX_idea_hernicii"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = hernicii
+			traits = {
+				 
+			}
+		}
+	}
+	CAS_Otto={ 
+		name = CAS_Otto
+		portraits={
+			army={
+				large="gfx/leaders/CAS/otto.dds"
+				small="GFX_idea_otto"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = otto
+			traits = {
+				 
+			}
+		}
+	}
+	CAS_Adrian={ 
+		name = CAS_Adrian
+		portraits={
+			army={
+				large="gfx/leaders/CAS/adrian.dds"
+				small="GFX_idea_adrian"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = adrian
+			traits = {
+				 
+			}
+		}
+	}
+	CAS_Realz={ 
+		name = CAS_Realz
+		portraits={
+			army={
+				large="gfx/leaders/CAS/realz.dds"
+				small="GFX_idea_realz"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = realz
+			traits = {
+				 
+			}
+		}
+	}
+	CAS_Wilhelm={ 
+		name = CAS_Wilhelm
+		portraits={
+			army={
+				large="gfx/leaders/CAS/wilhelm.dds"
+				small="GFX_idea_wilhelm"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = wilhelm
+			traits = {
+				 
+			}
+		}
+	}
+	CAS_skhorse={ 
+		name = CAS_skhorse
+		portraits={
+			army={
+				large="gfx/leaders/CAS/skhorse.dds"
+				small="GFX_idea_skhorse"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = skhorse
+			traits = {
+				 
+			}
+		}
+	}
+	CAS_duel123={ 
+		name = CAS_duel123
+		portraits={
+			army={
+				large="gfx/leaders/CAS/duel123.dds"
+				small="GFX_idea_duel123"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = duel123
+			traits = {
+				 
+			}
+		}
+	}
+	CAS_lagg={ 
+		name = CAS_lagg
+		portraits={
+			army={
+				large="gfx/leaders/CAS/lagg.dds"
+				small="GFX_idea_lagg"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = lagg
+			traits = {
+				 
+			}
+		}
+	}
+}

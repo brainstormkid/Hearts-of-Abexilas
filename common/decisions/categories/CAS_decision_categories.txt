@@ -1,0 +1,13 @@
+#################
+#### Castanor ####
+#################
+
+CAS_Andorn_Crisis_Category = {
+	icon = generic_crisis
+
+	allowed = {
+		original_tag = CAS
+	}
+	priority = 10
+}
+
