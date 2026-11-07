@@ -279,10 +279,10 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
-			custom_effect_tooltip = adr_CW_QYN_1_tt
+			
 			add_days_mission_timeout = {
 				mission = ACW_incoming_collapse
-				days = 45
+				days = 15
 			}
 		}
  
@@ -315,7 +315,7 @@ shared_CW_adramis = {
 				}
 				add_days_mission_timeout = {
 					mission = ACW_incoming_collapse
-					days = -45
+					days = 15
 				}
 			}
 		}
@@ -341,7 +341,7 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
-			custom_effect_tooltip = adr_CW_QYN_3_tt
+			
 			every_other_country = {
 				limit = {
 					original_tag = GEH
@@ -349,7 +349,7 @@ shared_CW_adramis = {
 				}
 				add_days_mission_timeout = {
 					mission = ACW_incoming_collapse
-					days = -45
+					days = 45
 				}
 			}
 		}
@@ -375,7 +375,7 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
-			custom_effect_tooltip = adr_CW_ZAM_1_tt
+			
 			add_days_mission_timeout = {
 				mission = ACW_incoming_collapse
 				days = 45
@@ -403,7 +403,7 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
-			custom_effect_tooltip = adr_CW_ZAM_2_tt
+			
 			every_other_country = {
 				limit = {
 					original_tag = QYN
@@ -411,7 +411,7 @@ shared_CW_adramis = {
 				}
 				add_days_mission_timeout = {
 					mission = ACW_incoming_collapse
-					days = -45
+					days = 45
 				}
 			}
 		}
@@ -437,7 +437,7 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
-			custom_effect_tooltip = adr_CW_ZAM_3_tt
+			
 			every_other_country = {
 				limit = {
 					original_tag = GEH
@@ -445,7 +445,7 @@ shared_CW_adramis = {
 				}
 				add_days_mission_timeout = {
 					mission = ACW_incoming_collapse
-					days = -45
+					days = 45
 				}
 			}
 		}
@@ -471,10 +471,10 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
-			custom_effect_tooltip = adr_CW_GEH_1_tt
+			country_event = gertek.7
 			add_days_mission_timeout = {
 				mission = ACW_incoming_collapse
-				days = 45
+				days = 15
 			}
 		}
  
@@ -499,7 +499,7 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
-			custom_effect_tooltip = adr_CW_GEH_2_tt
+			custom_effect_tooltip = "We will start a border war between Clan Rigan and Hogham - if we win it we will receive the state."
 			every_other_country = {
 				limit = {
 					original_tag = QYN
@@ -507,7 +507,21 @@ shared_CW_adramis = {
 				}
 				add_days_mission_timeout = {
 					mission = ACW_incoming_collapse
-					days = -45
+					days = 15
+				}
+				start_border_war = {
+					change_state_after_war = yes
+					combat_width = 50
+					attacker = {
+						state = 321
+						num_provinces = 2
+						on_win = gertek.8
+						on_lose = gertek.9
+					}
+					defender = {
+						state = 346
+						num_provinces = 2
+					}
 				}
 			}
 		}
@@ -533,15 +547,16 @@ shared_CW_adramis = {
 		}
  
 		complete_effect = {
-			custom_effect_tooltip = adr_CW_GEH_3_tt
+			country_event = gertek.10
 			every_other_country = {
 				limit = {
 					original_tag = ZAM
 					has_active_mission = ACW_incoming_collapse
 				}
+				country_event = gertek.10
 				add_days_mission_timeout = {
 					mission = ACW_incoming_collapse
-					days = -45
+					days = 45
 				}
 			}
 		}

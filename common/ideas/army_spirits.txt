@@ -348,7 +348,7 @@ ideas = {
 
 		proper_heritage_spirit = {
 			ledger = army
-			available = {}
+			available = {
 				OR = {
 					has_doctrine = grand_battleplan
 					has_doctrine = mounted_infantry

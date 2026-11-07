@@ -488,21 +488,26 @@ focus_tree = {
 		prerequisite = { focus = GEH_an_actual_economy  }
 		completion_reward = {
 			custom_effect_tooltip = "We will start a border war between Nebula Valley and New Aeston!" 
+			add_political_power = 100
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment
+				amount = 1500
+			}
 			start_border_war = {
 				change_state_after_war = no
 				combat_width = 50
 				attacker = {
 					state = 814
 					num_provinces = 2
-					on_win = MYTAG_border_war.1
-					on_lose = MYTAG_border_war.2
+					on_win = gertek.11
+					
 				}
 				defender = {
 					state = 476
 					num_provinces = 2
+					
 				}
 			}
 		}
 	}
-
 }

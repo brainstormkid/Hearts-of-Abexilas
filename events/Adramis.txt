@@ -1,51 +1,213 @@
 add_namespace = adramis
 
-country_event = {
+country_event = { #Gertek Victory in the Cold War
 	id = adramis.1
 	title = adramis.1.t
 	desc = adramis.1.d
 	picture = ""
-	
-	is_triggered_only = yes
+	trigger = {
+		tag = GEH
+		has_country_flag = ACW_won
+	}
+	is_triggered_only = no
+	fire_only_once = yes
 	
 	option = {
 		name = adramis.1.a
-		ai_chance = {
-			factor = 100
+		ZAM = {
+			every_core_state = {
+				add_claim_by = GEH
+			}
 		}
-		hidden_effect = {
-			add_ideas = adramis_unity
+		QYN = {
+			every_core_state = {
+				add_claim_by = GEH
+			}
+		}
+		VEA = {
+			every_core_state = {
+				add_claim_by = GEH
+			}
+		}
+		RHD = {
+			every_core_state = {
+				add_claim_by = GEH
+			}
+		}
+		ERI = {
+			every_core_state = {
+				add_claim_by = GEH
+			}
+		}
+		COV = {
+			every_core_state = {
+				add_claim_by = GEH
+			}
 		}
 	}
 }
 
-country_event = {
+country_event = { #Gertek loss in the Cold War
 	id = adramis.2
 	title = adramis.2.t
 	desc = adramis.2.d
 	picture = ""
-	
-	is_triggered_only = yes
+	trigger = {
+		tag = GEH
+		has_country_flag = ACW_lost
+	}
+	is_triggered_only = no
+	fire_only_once = yes
 	
 	option = {
 		name = adramis.2.a
-		ai_chance = {
-			factor = 70
+		release_puppet = LAV
+		add_popularity = {
+			ideology = monarchist
+			popularity = 0.70
 		}
-		hidden_effect = {
-			add_ideas = adramis_unity
+		set_politics = {
+			ruling_party = monarchist
+			elections_allowed = no
+			last_election = "1935.12.17"
+			election_frequency = 48
+			long_name = "Second Kingdom of Maravilla"
+			name = "SKM"
 		}
 	}
+}
+
+country_event = { #Zamotz Victory in the Cold War
+	id = adramis.3
+	title = adramis.3.t
+	desc = adramis.3.d
+	picture = ""
+	trigger = {
+		tag = ZAM
+		has_country_flag = ACW_won
+	}
+	is_triggered_only = no
+	fire_only_once = yes
+	
 	option = {
-		name = adramis.2.b
-		ai_chance = {
-			factor = 20
+		name = adramis.3.a
+		create_faction = "United States of Adramis"
+		490 = {
+			add_core_of = ZAM
+			transfer_state_to = ZAM
+		}
+		577 = {
+			add_core_of = ZAM
+			transfer_state_to = ZAM
+		}
+		569 = {
+			add_core_of = ZAM
+			transfer_state_to = ZAM
+		}
+		90 = {
+			set_demilitarized_zone = yes
 		}
 	}
+}
+
+country_event = { #Zamotz loss in the Cold War
+	id = adramis.4
+	title = adramis.4.t
+	desc = adramis.4.d
+	picture = ""
+	trigger = {
+		tag = ZAM
+		has_country_flag = ACW_lost
+	}
+	is_triggered_only = no
+	fire_only_once = yes
+	
 	option = {
-		name = adramis.2.c
-		ai_chance = {
-			factor = 10
+		name = adramis.4.a
+		ZAM = {
+			release = SRZ
+			remove_ideas = ZAM_claim_rushing
+			add_stability = -1
+			add_war_support = -1
+		}
+		462 = {
+			transfer_state_to = LAV
+		}
+		564 = {
+			transfer_state_to = ZZZ
+		}
+		618 = {
+			transfer_state_to = ZZZ
+		}
+		934 = {
+			transfer_state_to = ZZZ
+		}
+		793 = {
+			transfer_state_to = ZZZ
+		}
+		553 = {
+			transfer_state_to = ZZZ
+		}
+		
+	}
+}
+
+country_event = { #QC Victory in the Cold War
+	id = adramis.5
+	title = adramis.5.t
+	desc = adramis.5.d
+	picture = ""
+	trigger = {
+		tag = QYN
+		has_country_flag = ACW_won
+	}
+	is_triggered_only = no
+	fire_only_once = yes
+	
+	option = {
+		name = adramis.5.a
+		create_faction = "Adramis Coalition"
+	}
+}
+
+country_event = { #QC loss in the Cold War
+	id = adramis.6
+	title = adramis.6.t
+	desc = adramis.6.d
+	picture = ""
+	trigger = {
+		tag = QYN
+		has_country_flag = ACW_lost
+	}
+	is_triggered_only = no
+	fire_only_once = yes
+	
+	option = {
+		name = adramis.6.a
+		QYN = {
+			add_stability = -1
+			release = NEA
+			release = MUH
+			release = ODR
+			release = NCF
+		}
+		COV = {
+			add_stability = -1
+			add_war_support = -1
+			release = EST
+			release = VDR
+		}
+		726 = {
+			transfer_state_to = GEH
+			add_core_of = GEH
+		}
+		346 = {
+			transfer_state_to = GEH
+			add_core_of = GEH
+		}
+		326 = {
+			transfer_state_to = ZZZ
+			add_core_of = ZZZ
 		}
 	}
 }

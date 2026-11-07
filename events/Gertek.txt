@@ -1,6 +1,6 @@
 add_namespace = gertek
 
-country_event = {
+country_event = { #The Comet
 	id = gertek.1
 	title = gertek.1.t
 	desc = gertek.1.d
@@ -10,11 +10,11 @@ country_event = {
 	
 	option = {
 		name = gertek.1.a
-		
+		add_stability = 0.05
 	}
 }
 
-news_event = {
+country_event = { #Our Arrival
 	id = gertek.2
 	title = gertek.2.t
 	desc = gertek.2.d
@@ -24,11 +24,11 @@ news_event = {
 	
 	option = {
 		name = gertek.2.a
-		
+		add_war_support = 0.05
 	}
 }
 
-country_event = {
+country_event = { #The Gauntlet
 	id = gertek.3
 	title = gertek.3.t
 	desc = gertek.3.d
@@ -38,11 +38,11 @@ country_event = {
 	
 	option = {
 		name = gertek.3.a
-		
+		custom_effect_tooltip = "The Adramis Cold War begins."
 	}
 }
 
-country_event = {
+country_event = { #The Maravillans
 	id = gertek.4
 	title = gertek.4.t
 	desc = gertek.4.d
@@ -52,11 +52,11 @@ country_event = {
 	
 	option = {
 		name = gertek.4.a
-		
+		country_event = gertek.4
 	}
 }
 
-country_event = {
+country_event = { #The Las Vidans
 	id = gertek.5
 	title = gertek.5.t
 	desc = gertek.5.d
@@ -70,7 +70,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { #The Conquest
 	id = gertek.6
 	title = gertek.6.t
 	desc = gertek.6.d
@@ -80,6 +80,123 @@ country_event = {
 	
 	option = {
 		name = gertek.6.a
+		
+	}
+}
+
+country_event = { #The Sventissimo-Las Vides issue
+	id = gertek.7
+	title = gertek.7.t
+	desc = gertek.7.d
+	picture = ""
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gertek.7.a
+		add_popularity = { ideology = monarchist popularity = 0.1 }
+		408 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+	
+	option = {
+		name = gertek.7.b
+		add_popularity = { ideology = absolutist popularity = 0.1 }
+		459 = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+			}
+		}
+	}
+}
+
+country_event = { #Hogham 
+	id = gertek.8
+	title = gertek.8.t
+	desc = gertek.8.d
+	picture = ""
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gertek.8.a
+		add_popularity = { ideology = accelerationist popularity = 0.1 }
+	}
+}
+
+country_event = { #Hogham loss
+	id = gertek.9
+	title = gertek.9.t
+	desc = gertek.9.d
+	picture = ""
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gertek.9.a
+		add_popularity = { ideology = absolutist popularity = 0.1 }
+	}
+}
+
+country_event = { #Remembrance of Caligo
+	id = gertek.10
+	title = gertek.10.t
+	desc = gertek.10.d
+	picture = ""
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gertek.10.a
+		add_popularity = { ideology = accelerationist popularity = 0.1 }
+		add_popularity = { ideology = monarchist popularity = 0.1 }
+	}
+	option = {
+		name = gertek.10.b
+		add_popularity = { ideology = absolutist popularity = 0.1 }
+		add_popularity = { ideology = imperialist popularity = 0.1 }
+	}
+	
+}
+
+country_event = { #Win in New Aeston raid
+	id = gertek.11
+	title = gertek.11.t
+	desc = gertek.11.d
+	picture = ""
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gertek.11.a
+		QYN = {
+			add_days_mission_timeout = {
+				mission = ACW_incoming_collapse
+				days = -45
+			}
+		}
+	}
+}
+
+country_event = {
+	id = gertek.12
+	title = gertek.12.t
+	desc = gertek.12.d
+	picture = ""
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gertek.12.a
 		
 	}
 }
