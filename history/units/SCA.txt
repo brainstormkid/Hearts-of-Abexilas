@@ -69,7 +69,14 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4thd Scal' Infantry"
+		name = "4th Scal' Infantry"
+		location = 6728
+		division_template = "Scaligan Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "5th Scal' Infantry"
 		location = 6728
 		division_template = "Scaligan Infantry"
 		start_experience_factor = 0.1
@@ -84,6 +91,13 @@ units = {
 	}
 	division = {
 		name = "2nd Scaliga Militia"
+		location = 5724
+		division_template = "Scaligan Milita"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Scaliga Militia"
 		location = 5724
 		division_template = "Scaligan Milita"
 		start_experience_factor = 0.1
