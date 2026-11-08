@@ -21,6 +21,8 @@ recruit_character = LEY_gottfried_sarkowa
 recruit_character = LEY_brib
 recruit_character = LEY_vilyanz
 recruit_character = LEY_hans_solo
+recruit_character = LEY_hans_solo_army
+recruit_character = LEY_gottfried_sarkowa_army
 
 create_country_leader = {
 	name = "Stephan Zlaktow"
