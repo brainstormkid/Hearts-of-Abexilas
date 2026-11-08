@@ -125,7 +125,20 @@
  the_white_capital:0 "The White Capital"
  the_white_capital_desc:0 "Flourishing Capital of Leyenbourg-City is the regional hub of arts and architecture and beyond that it has been proofen to withstand even the greatest of disasters."
  nova_ryken_autonomy:0 "Nova-Ryken Autonomy"
- nova_ryken_autonomy_desc:0 "After the fall of Telúne the provinces of Nova-Ryken established themselves as a seperate entity next to Leyenbourg. This is causing us major problems in our diplomatic and internal situation"
+ nova_ryken_autonomy_desc:0 "After the fall of Telúne the provinces of Nova-Ryken established themselves as a seperate entity next to Leyenbourg. This is causing us major problems in our diplomatic and internal situation."
+ ### LEY Companies
+ LEY_concordian_armoury:0 "Concordian Armoury"
+ LEY_concordian_armoury_desc:0 "The Concordian Armoury, founded in 1778, has supplied Leyenbourg in the past with various goods for war. Now, following its revival, it will resupply the army once more."
+ LEY_urbastian_foundries:0 "Urbastian Foundries"
+ LEY_urbastian_foundries_desc:0 "The Urbastian Foundries have been around for quite some time within Leyenbourg. Their artillery pieces were a great help in the settling of Leyenbourg on the continent."
+ LEY_eldham_highway_company:0 "Eldham Highway Company"
+ LEY_eldham_highway_company_desc:0 "The EHC, founed all the way back in 1767, was a great supporter in the previous world of Eldham. Now it could be of great use to improve our situation in Abexilas too."
+ LEY_royal_railroad_company:0 "Royal Railroad Company"
+ LEY_royal_railroad_company_desc:0 "The Royal Railroad Company will be a great addition to our country and will help us support our expansion of national infrastructure."
+ LEY_adrophine:0 "Adrophine"
+ LEY_adrophine_desc:0 "Adrophine was a small company within Concordia which made and produced the first and only Airplanes within the Greater Concordian State. Now with its revival we can profit off of its designs."
+ LEY_alexandriadocks:0 "Alexandria Docks"
+ LEY_alexandriadocks_desc:0 "TBA"
 
 # Squatter ideas
  no_central_gov:0 "No Central Government"
