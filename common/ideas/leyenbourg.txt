@@ -1,4 +1,144 @@
 ideas = {
+####### Companies ######
+    industrial_concern = {
+        LEY_eldham_highway_company = {
+		
+            picture = generic_industrial_concern_1 #custom to be added
+			
+			cost = 150
+			removal_cost = 10
+			
+            research_bonus = {
+                industry = 0.15
+            }
+            traits = {
+                construction_company #custom to be added
+            }
+        }
+		LEY_royal_railroad_company = {
+
+			picture = GER_deutsche_reichsbahn #custom to be added
+			
+			allowed = {
+				original_tag = LEY
+			}
+
+			#visible = {
+			#	has_completed_focus = future
+			#}
+			
+			cost = 150
+
+			research_bonus = {
+				train_tech = 0.15
+			}
+
+			equipment_bonus = {
+				train_equipment_2 = {
+					build_cost_ic = -0.05 
+					instant = yes
+				}
+			}
+			
+			traits = { improved_railway_company } #custom to be added
+		}
+    }
+	materiel_manufacturer = {
+	
+		designer = yes
+		
+		LEY_concordian_armoury = {
+			
+			picture = generic_infantry_equipment_manufacturer_2 #custom to be added
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer } #custom to be added
+		}
+		
+		LEY_urbastian_foundries = {
+			
+			picture = generic_artillery_manufacturer_2 #custom to be added
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			traits = { artillery_manufacturer } #custom to be added
+		}
+	}
+	aircraft_manufacturer = { 
+			
+		designer = yes
+		
+		LEY_adrophine = {
+			
+			picture = generic_air_manufacturer_2 #custom to be added
+			
+			allowed = {
+				original_tag = LEY
+			}
+
+			#visible = {
+			#	has_completed_focus = legacy_of_the_skies
+			#}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer } #custom to be added
+			
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.05 
+					instant = yes
+				}
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	naval_manufacturer = { 
+		
+		designer = yes
+		
+		LEY_alexandriadocks = {
+		
+			picture = generic_naval_manufacturer_1 #custom to be added
+
+			allowed = {
+				original_tag = LEY
+			}
+
+			#visible = {
+			#	has_completed_focus = project_hyperion
+			#}
+
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			equipment_bonus = {
+				screen_ship = {
+					naval_range = 0.1
+				}
+			}
+			
+			traits = { atlantic_fleet_naval_manufacturer } #custom to be added
+		}
+	}
+#####################################
 	country = {
 		provisional_government = {
 			picture = provisional_government
@@ -9,11 +149,11 @@ ideas = {
 			available = {
 			}
 			
-			cancel = {
-				has_completed_focus = LEY_the_duchy_reborn
-				has_completed_focus = LEY_accelerationist_takeover
-				has_completed_focus = LEY_the_first_republic
-			}
+			#cancel = {
+			#	has_completed_focus = LEY_the_duchy_reborn
+			#	has_completed_focus = LEY_accelerationist_takeover
+			#	has_completed_focus = LEY_the_first_republic
+			#}
 			
 			allowed_civil_war = {
 			always = yes
