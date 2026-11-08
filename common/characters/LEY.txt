@@ -37,7 +37,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=monarchist
+			ideology=monarchist_subtype
 			traits= { dictator }
 			expire="1965.1.1.1"
 		}
@@ -144,5 +144,70 @@ characters={
 			}
 		}
 	}
-
+	LEY_hans_solo_army = {
+        name = "Hans Solo"
+        portraits = {
+            civilian = {
+                small= "GFX_portrait_LEY_hans_solo_small" #Gotta Redesign those some day
+            }
+            army = {
+                large = "GFX_portrait_LEY_hans_solo"
+            }
+        }
+        advisor = {
+            cost = 150
+            slot = army_chief
+            idea_token = hans_solo_army
+            ledger = army
+            allowed = {
+                original_tag = LEY
+            }
+            traits = { army_chief_offensive_2 }
+            ai_will_do = {
+                factor = 10
+            }
+        }
+        field_marshal = {
+            traits = {
+                politically_connected offensive_doctrine trait_reckless
+            }
+            skill = 3
+            attack_skill = 4
+            defense_skill = 1
+            planning_skill = 3
+            logistics_skill = 2
+        }
+    }
+	LEY_gottfried_sarkowa_army = {
+        name = "Gottfried Sarkowa"
+        portraits = {
+            civilian = {
+                small="GFX_portrait_LEY_gottfried_sarkowa_small" #Gotta Redesign those some day
+            }
+            army = {
+                large="GFX_portrait_LEY_gottfried_sarkowa"
+            }
+        }
+        advisor = {
+            cost = 150
+            slot = high_command
+            idea_token = gottfried_sarkowa_army
+            ledger = army
+            allowed = {
+                original_tag = LEY
+            }
+            traits = { army_chief_maneuver_1 }
+            ai_will_do = {
+                factor = 10
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 1
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 5
+            traits = { politically_connected old_guard media_personality }
+        }
+    }
 }
