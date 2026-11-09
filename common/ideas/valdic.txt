@@ -1,0 +1,17 @@
+ideas = {
+	country = {
+		VAD_bolgas_guidance = {
+			picture = bolgas_guidance
+			allowed = {
+				tag = VAD
+			}
+			available = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.1
+			}
+		}
+	}
+}

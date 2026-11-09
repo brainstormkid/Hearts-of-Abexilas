@@ -718,6 +718,11 @@ spriteTypes = {
 		name = "GFX_idea_aftermath_of_the_vassalage_crisis"
 		textureFile = "gfx/interface/ideas/idea_aftermath_of_the_vassalage_crisis.dds"
 	}
+	#Valdic
+	spriteType = {
+		name = "GFX_idea_bolgas_guidance"
+		textureFile = "gfx/interface/ideas/idea_bolgas_guidance.dds"
+	}
 
 	## ADRAMIS ##
 	spriteType = {

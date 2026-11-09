@@ -14,6 +14,7 @@ set_popularities = {
 
 add_ideas = {
 	valdic_valora_special_relationship
+    VAD_bolgas_guidance
 }
 
 create_country_leader = {
@@ -26,7 +27,6 @@ create_country_leader = {
 		#
 	}
 }
-
 set_convoys = 35
 
 set_autonomy = {
