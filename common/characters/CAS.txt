@@ -1,10 +1,12 @@
 characters={
-	CAS_Lucius={
-		name = CAS_Lucius
+
+#Andorn
+	CAS_Mel={
+		name = CAS_Mel
 		portraits={
 			civilian={
-				large="gfx/leaders/CAS/lucius.dds"
-				small="GFX_idea_lucius"
+				large="gfx/leaders/CAS/mel.dds"
+				small="GFX_idea_mel"
 			}
 		}
 		country_leader={
@@ -16,7 +18,7 @@ characters={
         }
 		advisor={
 			slot = political_advisor
-			idea_token = lucius
+			idea_token = mel
 			traits = {
 				 
 			}
@@ -145,22 +147,6 @@ characters={
 		advisor={
 			slot = political_advisor
 			idea_token = realz
-			traits = {
-				 
-			}
-		}
-	}
-	CAS_Wilhelm={ 
-		name = CAS_Wilhelm
-		portraits={
-			army={
-				large="gfx/leaders/CAS/wilhelm.dds"
-				small="GFX_idea_wilhelm"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = wilhelm
 			traits = {
 				 
 			}

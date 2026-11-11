@@ -321,6 +321,37 @@
  valora.6.t:0 "The Attack Plan"
  valora.6.d:0 "TBA"
  valora.6.a:0 "TBA"
+ 
+ #Castanor events
+ castanor.1.t:0 "Savyrian Gentlemen Arrives"
+ castanor.1.d:0 "TBA"
+ castanor.1.a:0 "Andorn died with Rathnir"
+ castanor.1.b:0 "§OAndorn Slumbering...§"
+ 
+ castanor.2.t:0 "A Knight of Andorn at our Door"
+ castanor.2.d:0 "TBA"
+ castanor.2.a:0 "Let Andorn be only a dream"
+ castanor.2.b:0 "§OAndorn Dreaming...§"
+ 
+ castanor.3.t:0 "von Savyrians Approaches"
+ castanor.3.d:0 "TBA"
+ castanor.3.a:0 "§OSavyrian Dynasty Lives..§"
+ 
+ castanor.4.t:0 "Prince Electorate of Andorn Emerges"
+ castanor.4.d:0 "TBA"
+ castanor.4.a:0 "§OAndorn Awakening...§"
+ 
+ castanor.5.t:0 "Andorn Crisis"
+ castanor.5.d:0 "TBA"
+ castanor.5.a:0 "§OEPIC ANDORNIAN VICTORY§"
+ 
+ castanor.6.t:0 "Empire of Andorn"
+ castanor.6.d:0 "TBA"
+ castanor.6.a:0 "§ONat Narurarturn Antorn!§"
+ 
+ castanor.7.t:0 "Farewell Andorn"
+ castanor.7.d:0 "TBA"
+ castanor.7.a:0 "It was all a dream..."
 
  #PARAISO EVENTS
  par_make_a_deal.1.t:0 "It Time To Make A Deal, Gertek has thort our plans for too long. We must take our lands back, or we must bite our time."

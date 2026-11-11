@@ -13,7 +13,9 @@ CAS_Andorn_Crisis_Category = {
 		fire_only_once = yes
 
 		timeout_effect = {
-			country_event = { id = castanor.7 }
+			CAS = {
+				country_event = { id = castanor.7 }
+			}
 		}
 	}
 }
