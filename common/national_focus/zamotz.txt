@@ -12,11 +12,11 @@ focus_tree = {
 
 	#Memories of Eldham
 	focus = {
-		id = ZAM_unity_of_adramis
+		id = ZAM_eldham_memories
 		icon = GFX_goal_generic_national_unity
 		x = 15
 		y = 2
-		cost = 10
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -29,11 +29,11 @@ focus_tree = {
 
 	#Reality of Abexilas
 	focus = {
-		id = ZAM_the_first_congress
+		id = ZAM_abexilas_reality
 		icon = GFX_goal_continuous_increase_nu
 		x = 19
 		y = 2
-		cost = 15
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -45,7 +45,7 @@ focus_tree = {
 		}
 	}
 
-	#
+	#Buy Luindaith
 	focus = {
 		id = ZAM_buy_VAD
 		icon = GFX_GEH_zamotz_agreement-645950
@@ -55,29 +55,29 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		relative_position_id = ZAM_unity_of_adramis
-		prerequisite = { focus = ZAM_the_first_congress  }
-		prerequisite = { focus = ZAM_unity_of_adramis  }
+		relative_position_id = ZAM_eldham_memories
+		prerequisite = { focus = ZAM_eldham_memories  }
+		prerequisite = { focus = ZAM_abexilas_reality  }
 		ai_will_do = { factor = 100 }
 		completion_reward = {
 			
 		}
 	}
 
-	#Shirokanezan Help
+	#Shirokanezan warriors
 	focus = {
-		id = ZAM_velarim_agreement
+		id = ZAM_shirokanezan_warriors
 		icon = GFX_GEH_velarim_agreement-427
 		x = -2
 		y = 2
-		cost = 10
+		cost = 8
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
 		relative_position_id = ZAM_buy_VAD
 		prerequisite = { focus = ZAM_buy_VAD  }
-		prerequisite = { focus = ZAM_develop_shirokaneza focus = ZAM_develop_cities }
-		prerequisite = { focus = ZAM_unitas_adramidis focus = ZAM_unitatis_pro_gente }
+		prerequisite = { focus = ZAM_develop_the_south focus = ZAM_develop_cities }
+		prerequisite = { focus = ZAM_combat_illegitimacy focus = ZAM_hold_on }
 		ai_will_do = { factor = 100 }
 		completion_reward = {
 			
@@ -86,18 +86,18 @@ focus_tree = {
 
 	#
 	focus = {
-		id = ZAM_maravilla_agreement
+		id = ZAM_decide_leadership
 		icon = GFX_focus_generic_diplomatic_treaty
 		x = 2
 		y = 2
-		cost = 10
+		cost = 8
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
 		relative_position_id = ZAM_buy_VAD
 		prerequisite = { focus = ZAM_buy_VAD  }
-		prerequisite = { focus = ZAM_develop_shirokaneza focus = ZAM_develop_cities }
-		prerequisite = { focus = ZAM_unitas_adramidis focus = ZAM_unitatis_pro_gente }
+		prerequisite = { focus = ZAM_develop_the_south focus = ZAM_develop_cities }
+		prerequisite = { focus = ZAM_combat_illegitimacy focus = ZAM_hold_on }
 		
 		ai_will_do = { factor = 100 }
 		completion_reward = {
@@ -107,17 +107,17 @@ focus_tree = {
 
 	#Combat Illegitimacy
 	focus = {
-		id = ZAM_unitas_adramidis
+		id = ZAM_combat_illegitimacy
 		icon = GFX_focus_generic_support_the_left_right
 		x = -5
 		y = 2
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		relative_position_id = ZAM_unity_of_adramis
-		mutually_exclusive  = { focus = ZAM_unitatis_pro_gente }
-		prerequisite = { focus = ZAM_the_first_congress }
+		relative_position_id = ZAM_eldham_memories
+		mutually_exclusive  = { focus = ZAM_hold_on }
+		prerequisite = { focus = ZAM_eldham_memories }
 		completion_reward = {
 			hidden_effect = {
 				
@@ -127,18 +127,18 @@ focus_tree = {
 
 	#Hold on for a bit longer
 	focus = {
-		id = ZAM_unitatis_pro_gente
+		id = ZAM_hold_on
 		icon = GFX_goal_generic_major_alliance
 		x = -3
 		y = 2
-		cost = 25
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		relative_position_id = ZAM_unity_of_adramis
-		mutually_exclusive  = { focus = ZAM_unitas_adramidis }
+		relative_position_id = ZAM_eldham_memories
+		mutually_exclusive  = { focus = ZAM_combat_illegitimacy }
 		ai_will_do = { factor = 100 }
-		prerequisite = { focus = ZAM_the_first_congress  }
+		prerequisite = { focus = ZAM_eldham_memories  }
 		completion_reward = {
 			
 		}
@@ -150,33 +150,33 @@ focus_tree = {
 		icon = GFX_goal_generic_major_alliance
 		x = 3
 		y = 2
-		cost = 25
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		relative_position_id = ZAM_the_first_congress
-		mutually_exclusive  = { focus = ZAM_develop_shirokaneza }
+		relative_position_id = ZAM_abexilas_reality
+		mutually_exclusive  = { focus = ZAM_develop_the_south }
 		ai_will_do = { factor = 100 }
-		prerequisite = { focus = ZAM_the_first_congress  }
+		prerequisite = { focus = ZAM_abexilas_reality  }
 		completion_reward = {
 			
 		}
 	}
 	
-	#Develop shirokaneza
+	#Develop the south
 	focus = {
-		id = ZAM_develop_shirokaneza
+		id = ZAM_develop_the_south
 		icon = GFX_goal_generic_major_alliance
 		x = 5
 		y = 2
-		cost = 25
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		relative_position_id = ZAM_the_first_congress
+		relative_position_id = ZAM_abexilas_reality
 		mutually_exclusive  = { focus = ZAM_develop_cities }
 		ai_will_do = { factor = 100 }
-		prerequisite = { focus = ZAM_the_first_congress  }
+		prerequisite = { focus = ZAM_abexilas_reality  }
 		completion_reward = {
 			
 		}
@@ -189,16 +189,18 @@ focus_tree = {
 	focus = {
 		id = ZAM_army_issue
 		icon = GFX_goal_generic_major_alliance
-		x = 5
+		x = -12
 		y = 2
-		cost = 25
+		cost = 7
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		relative_position_id = ZAM_the_first_congress
+		relative_position_id = ZAM_abexilas_reality
 		
 		ai_will_do = { factor = 100 }
-		prerequisite = { focus = ZAM_the_first_congress  }
+		available = { 
+			has_completed_focus = ZAM_eldham_memories  
+		}
 		completion_reward = {
 			
 		}
@@ -208,16 +210,16 @@ focus_tree = {
 	focus = {
 		id = ZAM_claim_rushers
 		icon = GFX_goal_generic_major_alliance
-		x = 5
-		y = 2
-		cost = 25
+		x = 0
+		y = 1
+		cost = 7
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		relative_position_id = ZAM_the_first_congress
+		relative_position_id = ZAM_army_issue
 		
 		ai_will_do = { factor = 100 }
-		prerequisite = { focus = ZAM_the_first_congress  }
+		prerequisite = { focus = ZAM_army_issue  }
 		completion_reward = {
 			
 		}
@@ -227,15 +229,16 @@ focus_tree = {
 	focus = {
 		id = ZAM_focus_defence
 		icon = GFX_goal_generic_major_alliance
-		x = 5
-		y = 2
-		cost = 25
+		x = 0
+		y = 1
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		relative_position_id = ZAM_the_first_congress
+		relative_position_id = ZAM_claim_rushers
 		ai_will_do = { factor = 100 }
-		prerequisite = { focus = ZAM_the_first_congress  }
+		prerequisite = { focus = ZAM_claim_rushers  }
+		mutually_exclusive = { focus = ZAM_focus_qc focus = ZAM_focus_gertek }
 		completion_reward = {
 			
 		}
@@ -245,15 +248,15 @@ focus_tree = {
 	focus = {
 		id = ZAM_city_militia
 		icon = GFX_goal_generic_major_alliance
-		x = 5
-		y = 2
-		cost = 25
+		x = 0
+		y = 1
+		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		relative_position_id = ZAM_the_first_congress
+		relative_position_id = ZAM_focus_defence
 		ai_will_do = { factor = 100 }
-		prerequisite = { focus = ZAM_the_first_congress  }
+		prerequisite = { focus = ZAM_focus_defence focus = ZAM_focus_gertek focus = ZAM_focus_qc }
 		completion_reward = {
 			
 		}
@@ -263,15 +266,16 @@ focus_tree = {
 	focus = {
 		id = ZAM_focus_gertek
 		icon = GFX_goal_generic_major_alliance
-		x = 5
-		y = 2
-		cost = 25
+		x = -2
+		y = 1
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		relative_position_id = ZAM_the_first_congress
+		relative_position_id = ZAM_claim_rushers
 		ai_will_do = { factor = 100 }
-		prerequisite = { focus = ZAM_the_first_congress  }
+		prerequisite = { focus = ZAM_claim_rushers }
+		mutually_exclusive = { focus = ZAM_focus_defence focus = ZAM_focus_qc }
 		completion_reward = {
 			
 		}
@@ -281,15 +285,16 @@ focus_tree = {
 	focus = {
 		id = ZAM_focus_qc
 		icon = GFX_goal_generic_major_alliance
-		x = 5
-		y = 2
-		cost = 25
+		x = 2
+		y = 1
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		relative_position_id = ZAM_the_first_congress
+		relative_position_id = ZAM_claim_rushers
 		ai_will_do = { factor = 100 }
-		prerequisite = { focus = ZAM_the_first_congress  }
+		prerequisite = { focus = ZAM_claim_rushers }
+		mutually_exclusive = { focus = ZAM_focus_defence focus = ZAM_focus_gertek }
 		completion_reward = {
 			
 		}
@@ -301,15 +306,17 @@ focus_tree = {
 	focus = {
 		id = ZAM_GGC_1
 		icon = GFX_goal_generic_major_alliance
-		x = 5
+		x = 12
 		y = 2
-		cost = 25
+		cost = 7
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		relative_position_id = ZAM_the_first_congress
+		relative_position_id = ZAM_eldham_memories
 		ai_will_do = { factor = 100 }
-		prerequisite = { focus = ZAM_the_first_congress  }
+		available = { 
+			has_idea = economic_collapse  
+		}
 		completion_reward = {
 			
 		}
@@ -319,15 +326,15 @@ focus_tree = {
 	focus = {
 		id = ZAM_GGC_2
 		icon = GFX_goal_generic_major_alliance
-		x = 5
-		y = 2
-		cost = 25
+		x = 0
+		y = 1
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		relative_position_id = ZAM_the_first_congress
+		relative_position_id = ZAM_GGC_1
 		ai_will_do = { factor = 100 }
-		prerequisite = { focus = ZAM_the_first_congress  }
+		prerequisite = { focus = ZAM_GGC_1  }
 		completion_reward = {
 			
 		}
@@ -337,15 +344,15 @@ focus_tree = {
 	focus = {
 		id = ZAM_GGC_tyrosi_help
 		icon = GFX_goal_generic_major_alliance
-		x = 5
-		y = 2
-		cost = 25
+		x = 2
+		y = 1
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		relative_position_id = ZAM_the_first_congress
+		relative_position_id = ZAM_GGC_2
 		ai_will_do = { factor = 100 }
-		prerequisite = { focus = ZAM_the_first_congress  }
+		prerequisite = { focus = ZAM_GGC_2  }
 		completion_reward = {
 			
 		}
@@ -355,15 +362,15 @@ focus_tree = {
 	focus = {
 		id = ZAM_GGC_shiro_help
 		icon = GFX_goal_generic_major_alliance
-		x = 5
-		y = 2
-		cost = 25
+		x = 0
+		y = 1
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		relative_position_id = ZAM_the_first_congress
+		relative_position_id = ZAM_GGC_2
 		ai_will_do = { factor = 100 }
-		prerequisite = { focus = ZAM_the_first_congress  }
+		prerequisite = { focus = ZAM_GGC_2  }
 		completion_reward = {
 			
 		}
@@ -371,17 +378,17 @@ focus_tree = {
 	
 	#Velarim Help
 	focus = {
-		id = ZAM_GGC_Velarim_help
+		id = ZAM_GGC_velarim_help
 		icon = GFX_goal_generic_major_alliance
-		x = 5
-		y = 2
-		cost = 25
+		x = -2
+		y = 1
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		relative_position_id = ZAM_the_first_congress
+		relative_position_id = ZAM_GGC_2
 		ai_will_do = { factor = 100 }
-		prerequisite = { focus = ZAM_the_first_congress  }
+		prerequisite = { focus = ZAM_GGC_2  }
 		completion_reward = {
 			
 		}
@@ -391,15 +398,17 @@ focus_tree = {
 	focus = {
 		id = ZAM_actual_economy
 		icon = GFX_goal_generic_major_alliance
-		x = 5
-		y = 2
-		cost = 25
+		x = 0
+		y = 1
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		relative_position_id = ZAM_the_first_congress
+		relative_position_id = ZAM_GGC_shiro_help
 		ai_will_do = { factor = 100 }
-		prerequisite = { focus = ZAM_the_first_congress  }
+		prerequisite = { focus = ZAM_GGC_shiro_help  }
+		prerequisite = { focus = ZAM_GGC_velarim_help  }
+		prerequisite = { focus = ZAM_GGC_tyrosi_help  }
 		completion_reward = {
 			
 		}
